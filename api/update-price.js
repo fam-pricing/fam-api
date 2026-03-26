@@ -170,6 +170,7 @@ export default async function handler(req, res) {
       media:     listing.media,
       updatedBy: listing.updatedBy,
       createdBy: listing.createdBy,
+      reference: listing.reference,
     };
     // Log listing keys to diagnose schema issues
     console.log('[update-price] listing keys:', Object.keys(listing));
