@@ -56,7 +56,7 @@ async function fetchLeads(token) {
     );
     if (!r.ok) break; // leads are non-critical — don't throw
     const d = await r.json();
-    all.push(...(d.data || []));
+    all.push(...(d.data || d.results || []));
     if (!d.pagination?.nextPage) break;
     page++;
   }
