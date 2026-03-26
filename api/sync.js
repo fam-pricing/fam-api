@@ -138,11 +138,10 @@ export default async function handler(req, res) {
       const building = mapping ? mapping.building : (ref || '—');
 
       // Resolve published price via portal_prices cross-reference
+      // refMapping already has the bed_type — use it directly
       let price = '';
       if (mapping) {
-        const beds_raw = l.listing?.bedrooms || '';
-        let bed = beds_raw === 'studio' ? 'Studio' : (beds_raw ? `${beds_raw}BR` : '');
-        bed = BED_OVERRIDES[`${building}|${bed}`] || bed;
+        const bed = BED_OVERRIDES[`${building}|${mapping.bed_type}`] || mapping.bed_type;
         const ppKey = `${building}|${bed}`;
         if (portal_prices[ppKey]) price = portal_prices[ppKey];
       }
@@ -151,7 +150,7 @@ export default async function handler(req, res) {
         time:     timeStr,
         building: building,
         price:    price,
-        status:   l.status || 'SENT',
+        status:   (l.status || 'SENT').toUpperCase(), // PF returns lowercase, dashboard expects uppercase
       };
 
       if (dayStr === todayStr) {
