@@ -5,8 +5,14 @@
 // Strategy: clone the existing live listing with the new price → publish clone → unpublish original.
 // This mirrors how the PF portal itself handles price updates (update-and-relist flow).
 // All calls use Bearer JWT from apiKey+apiSecret — no portal session needed.
+//
+// After each successful price change the listing gets a new ULID as its reference.
+// We automatically update ref_mapping.json and ref_url_map.json in the fam-api GitHub repo
+// so that the next Sync can find the listing by its new ref.
 
 const PF_API = 'https://atlas.propertyfinder.com';
+const GH_API = 'https://api.github.com';
+const GH_REPO = 'fam-pricing/fam-api';
 
 async function getToken() {
   const r = await fetch(`${PF_API}/v1/auth/token`, {
@@ -53,6 +59,82 @@ function buildCloneBody(listing, newPrice) {
     media:      listing.media,
     updatedBy:  listing.updatedBy,
   };
+}
+
+// ── GitHub file update helpers ─────────────────────────────────────────────
+
+async function ghGet(path, token) {
+  const r = await fetch(`${GH_API}/repos/${GH_REPO}/contents/${path}`, {
+    headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github.v3+json' },
+  });
+  if (!r.ok) throw new Error(`GH GET ${path} failed: ${r.status}`);
+  return r.json();  // { sha, content (base64) }
+}
+
+async function ghPut(path, content, sha, message, token) {
+  const encoded = Buffer.from(JSON.stringify(content, null, 2)).toString('base64');
+  const r = await fetch(`${GH_API}/repos/${GH_REPO}/contents/${path}`, {
+    method: 'PUT',
+    headers: {
+      Authorization: `Bearer ${token}`,
+      Accept: 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ message, content: encoded, sha }),
+  });
+  if (!r.ok) {
+    const e = await r.text();
+    throw new Error(`GH PUT ${path} failed ${r.status}: ${e}`);
+  }
+  return r.json();
+}
+
+/**
+ * After a successful price change the old ref is replaced by newId in both mapping files.
+ * Non-fatal — logs errors but does not fail the main response.
+ */
+async function updateRefMappings(oldRef, newId) {
+  const ghToken = process.env.GH_TOKEN;
+  if (!ghToken) {
+    console.warn('[update-price] GH_TOKEN not set — skipping ref_mapping update');
+    return;
+  }
+
+  try {
+    // ── ref_mapping.json ──────────────────────────────────────────────────
+    const rmFile  = await ghGet('data/ref_mapping.json', ghToken);
+    const rmData  = JSON.parse(Buffer.from(rmFile.content, 'base64').toString('utf8'));
+    const entry   = rmData[oldRef];
+    if (entry) {
+      delete rmData[oldRef];
+      rmData[newId] = entry;
+      await ghPut(
+        'data/ref_mapping.json', rmData, rmFile.sha,
+        `chore: rotate ref ${oldRef} → ${newId}`,
+        ghToken,
+      );
+      console.log(`[update-price] ref_mapping: ${oldRef} → ${newId}`);
+    } else {
+      console.warn(`[update-price] ref_mapping: ${oldRef} not found — no rotation needed`);
+    }
+
+    // ── ref_url_map.json ──────────────────────────────────────────────────
+    const ruFile  = await ghGet('data/ref_url_map.json', ghToken);
+    const ruData  = JSON.parse(Buffer.from(ruFile.content, 'base64').toString('utf8'));
+    const urlVal  = ruData[oldRef];
+    if (urlVal) {
+      delete ruData[oldRef];
+      ruData[newId] = urlVal;   // keep old URL slug — building page stays same
+      await ghPut(
+        'data/ref_url_map.json', ruData, ruFile.sha,
+        `chore: rotate url ref ${oldRef} → ${newId}`,
+        ghToken,
+      );
+      console.log(`[update-price] ref_url_map: ${oldRef} → ${newId}`);
+    }
+  } catch (err) {
+    console.error('[update-price] ref_mapping update failed (non-fatal):', err.message);
+  }
 }
 
 export default async function handler(req, res) {
@@ -155,6 +237,9 @@ export default async function handler(req, res) {
     } else {
       console.log(`[update-price] Original ${oldId} → live_pending_unpublishing ✅`);
     }
+
+    // ── Step 5: Rotate ref_mapping + ref_url_map in GitHub (non-fatal async) ──
+    updateRefMappings(oldId, newId).catch(() => {});
 
     return res.status(200).json({
       success:        true,
