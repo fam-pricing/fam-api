@@ -94,7 +94,7 @@ export default async function handler(req, res) {
       },
     };
 
-    const kvAuth = `apiKey=${process.env.PF_API_KEY}&apiSecret=${process.env.PF_API_SECRET}`;
+    const kvAuth = `Bearer apiKey=${process.env.PF_API_KEY}&apiSecret=${process.env.PF_API_SECRET}`;
 
     const patchR = await fetch(`${PF_API}/v1/listings/${listingId}`, {
       method: 'PATCH',
