@@ -9,7 +9,7 @@ import crypto from 'crypto';
 
 const PF_API  = 'https://atlas.propertyfinder.com';
 const PF_HOST = 'atlas.propertyfinder.com';
-const AWS_REGION  = 'me-central-1';
+const AWS_REGION  = 'eu-west-1';
 const AWS_SERVICE = 'execute-api';
 
 // ── AWS SigV4 helpers ──────────────────────────────────────────────────────
