@@ -1,7 +1,10 @@
 // fam Living — Update listing price endpoint
 // POST /api/update-price
 // Body: { ref: "PF-HH-AR-XXXXX", price: 8000 }
-// Finds the listing by ref, sends PATCH to PF API to update monthly price.
+//
+// Strategy: clone the existing live listing with the new price → publish clone → unpublish original.
+// This mirrors how the PF portal itself handles price updates (update-and-relist flow).
+// All calls use Bearer JWT from apiKey+apiSecret — no portal session needed.
 
 const PF_API = 'https://atlas.propertyfinder.com';
 
@@ -15,6 +18,41 @@ async function getToken() {
   const d = await r.json();
   if (!d.accessToken) throw new Error('No accessToken in auth response');
   return d.accessToken;
+}
+
+function buildCloneBody(listing, newPrice) {
+  return {
+    amenities:        listing.amenities || [],
+    assignedTo:       listing.assignedTo,
+    availableFrom:    listing.availableFrom,
+    bathrooms:        listing.bathrooms,
+    bedrooms:         listing.bedrooms,
+    category:         listing.category,
+    createdBy:        listing.createdBy,
+    description:      listing.description,
+    finishingType:    listing.finishingType,
+    furnishingType:   listing.furnishingType,
+    hasKitchen:       listing.hasKitchen,
+    hasParkingOnSite: listing.hasParkingOnSite,
+    location:         listing.location,
+    ownerName:        listing.ownerName,
+    parkingSlots:     listing.parkingSlots,
+    price: {
+      amounts:             { monthly: newPrice },
+      minimalRentalPeriod: listing.price?.minimalRentalPeriod ?? 2000,
+      numberOfCheques:     listing.price?.numberOfCheques     ?? 1,
+      paymentMethods:      listing.price?.paymentMethods      ?? ['installments'],
+      type:                listing.price?.type                ?? 'monthly',
+      utilitiesInclusive:  listing.price?.utilitiesInclusive  ?? false,
+    },
+    size:       listing.size,
+    title:      listing.title,
+    type:       listing.type,
+    uaeEmirate: listing.uaeEmirate,
+    unitNumber: listing.unitNumber,
+    media:      listing.media,
+    updatedBy:  listing.updatedBy,
+  };
 }
 
 export default async function handler(req, res) {
@@ -34,13 +72,12 @@ export default async function handler(req, res) {
   }
 
   let body = req.body;
-  // Vercel may not parse body automatically for all runtimes
   if (typeof body === 'string') {
     try { body = JSON.parse(body); } catch { return res.status(400).json({ error: 'Invalid JSON' }); }
   }
 
   const { ref, price } = body || {};
-  if (!ref || !price) return res.status(400).json({ error: 'ref and price are required' });
+  if (!ref || price === undefined) return res.status(400).json({ error: 'ref and price are required' });
 
   const numPrice = parseInt(price, 10);
   if (isNaN(numPrice) || numPrice < 500 || numPrice > 10_000_000) {
@@ -50,7 +87,7 @@ export default async function handler(req, res) {
   try {
     const token = await getToken();
 
-    // Find listing by ref (scan all pages — typically 1 page of 62)
+    // ── Step 1: Find current live listing by ref or ULID ─────────────────────
     let listing = null;
     let page = 1;
     while (true) {
@@ -59,44 +96,73 @@ export default async function handler(req, res) {
       });
       if (!r.ok) throw new Error(`Listings fetch failed: ${r.status}`);
       const d = await r.json();
-      listing = d.results.find(l => l.reference === ref);
+      listing = d.results.find(l => l.reference === ref || l.id === ref);
       if (listing || !d.pagination.nextPage) break;
       page++;
     }
-
     if (!listing) return res.status(404).json({ error: `Listing ${ref} not found` });
 
-    // PATCH the listing price
-    const patchR = await fetch(`${PF_API}/v1/listings/${listing.id}`, {
-      method: 'PATCH',
-      headers: {
-        Authorization: `Bearer ${token}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        price: {
-          amounts: { monthly: numPrice },
-        },
-      }),
-    });
+    const oldId    = listing.id;
+    const oldPrice = listing.price?.amounts?.monthly;
 
-    if (!patchR.ok) {
-      const errBody = await patchR.text();
-      console.error(`[update-price] PATCH failed ${patchR.status}: ${errBody}`);
-      return res.status(patchR.status).json({
-        error: `PF API returned ${patchR.status}`,
-        detail: errBody,
+    // No-op guard
+    if (oldPrice === numPrice) {
+      return res.status(200).json({
+        success: true, noop: true,
+        ref, price: numPrice, listing_id: oldId,
+        message: 'Price unchanged — no update needed.',
       });
     }
 
-    const result = await patchR.json();
-    console.log(`[update-price] ✅ ${ref} → ${numPrice} AED/mo`);
+    console.log(`[update-price] ${ref}: ${oldPrice} → ${numPrice} AED/mo`);
+
+    // ── Step 2: Clone the listing with the new price ──────────────────────────
+    const cloneBody = buildCloneBody(listing, numPrice);
+    const postR = await fetch(`${PF_API}/v1/listings`, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify(cloneBody),
+    });
+    if (!postR.ok) {
+      const e = await postR.text();
+      throw new Error(`Create clone failed ${postR.status}: ${e}`);
+    }
+    const newListing = await postR.json();
+    const newId = newListing.id;
+    if (!newId) throw new Error('Clone created but no id returned');
+    console.log(`[update-price] Clone created: ${newId}`);
+
+    // ── Step 3: Publish the clone ─────────────────────────────────────────────
+    const pubR = await fetch(`${PF_API}/v1/listings/${newId}/publish`, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+    });
+    if (!pubR.ok) {
+      const e = await pubR.text();
+      throw new Error(`Publish clone failed ${pubR.status}: ${e}`);
+    }
+    console.log(`[update-price] Clone ${newId} → pending_publishing ✅`);
+
+    // ── Step 4: Unpublish the original ────────────────────────────────────────
+    const unR = await fetch(`${PF_API}/v1/listings/${oldId}/unpublish`, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+    });
+    if (!unR.ok) {
+      const e = await unR.text();
+      // Non-fatal — log but don't fail
+      console.warn(`[update-price] Unpublish original ${oldId} failed ${unR.status}: ${e}`);
+    } else {
+      console.log(`[update-price] Original ${oldId} → live_pending_unpublishing ✅`);
+    }
 
     return res.status(200).json({
-      success: true,
+      success:        true,
       ref,
-      price: numPrice,
-      listing_id: listing.id,
+      price:          numPrice,
+      old_listing_id: oldId,
+      new_listing_id: newId,
+      message: `Price updated to ${numPrice.toLocaleString()} AED/mo. New listing ID: ${newId}`,
     });
 
   } catch (err) {
