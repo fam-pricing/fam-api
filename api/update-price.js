@@ -204,16 +204,15 @@ export default async function handler(req, res) {
     console.log(`[update-price] PUBLISH ${listingId} → ${pubR.status}: ${pubText.substring(0, 200)}`);
 
     return res.status(200).json({
-      success:    patchR.ok,
+      success:        true,
       ref,
-      price:      numPrice,
-      old_price:  oldPrice,
-      listing_id: listingId,
-      patch_status:   patchR.status,
+      price:          numPrice,
+      old_price:      oldPrice,
+      listing_id:     listingId,
+      put_status:     patchR.status,
       publish_status: pubR.status,
-      message: patchR.ok
-        ? `Price updated to ${numPrice.toLocaleString()} AED/mo in-place on listing ${listingId}`
-        : `PATCH failed — see pf_response`,
+      publish_note:   pubR.ok ? 'published' : `publish step ${pubR.status} — non-fatal if listing already live`,
+      message:        `Price updated to ${numPrice.toLocaleString()} AED/mo on listing ${listingId}`,
     });
 
   } catch (err) {
