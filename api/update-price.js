@@ -138,26 +138,52 @@ export default async function handler(req, res) {
       },
     };
 
-    const patchBodyStr = JSON.stringify(patchBody);
-    const patchPath    = `/v1/listings/${listingId}`;
+    // Build full listing body for PUT (same fields as the listing, price updated)
+    const putBody = {
+      amenities:        listing.amenities || [],
+      assignedTo:       listing.assignedTo,
+      availableFrom:    listing.availableFrom,
+      bathrooms:        listing.bathrooms,
+      bedrooms:         listing.bedrooms,
+      category:         listing.category,
+      description:      listing.description,
+      finishingType:    listing.finishingType,
+      furnishingType:   listing.furnishingType,
+      hasKitchen:       listing.hasKitchen,
+      hasParkingOnSite: listing.hasParkingOnSite,
+      location:         listing.location,
+      ownerName:        listing.ownerName,
+      parkingSlots:     listing.parkingSlots,
+      price: {
+        amounts:             { monthly: numPrice },
+        minimalRentalPeriod: listing.price?.minimalRentalPeriod ?? 2000,
+        numberOfCheques:     listing.price?.numberOfCheques     ?? 1,
+        paymentMethods:      listing.price?.paymentMethods      ?? ['installments'],
+        type:                listing.price?.type                ?? 'monthly',
+        utilitiesInclusive:  listing.price?.utilitiesInclusive  ?? false,
+      },
+      size:       listing.size,
+      title:      listing.title,
+      type:       listing.type,
+      uaeEmirate: listing.uaeEmirate,
+      unitNumber: listing.unitNumber,
+      media:      listing.media,
+      updatedBy:  listing.updatedBy,
+    };
 
-    // Try each region until one doesn't return "invalid region"
-    let patchR, patchText, usedRegion;
-    for (const region of AWS_REGIONS) {
-      const sigV4Headers = buildSigV4Headers('PATCH', patchPath, patchBodyStr,
-        process.env.PF_API_KEY, process.env.PF_API_SECRET, region);
-      patchR    = await fetch(`${PF_API}${patchPath}`, { method: 'PATCH', headers: sigV4Headers, body: patchBodyStr });
-      patchText = await patchR.text();
-      usedRegion = region;
-      console.log(`[update-price] PATCH ${listingId} region=${region} → ${patchR.status}: ${patchText.substring(0, 200)}`);
-      if (!patchText.includes('valid region')) break;
-    }
+    const putR    = await fetch(`${PF_API}/v1/listings/${listingId}`, {
+      method:  'PUT',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body:    JSON.stringify(putBody),
+    });
+    const patchText = await putR.text();
+    const patchR    = putR;
+    console.log(`[update-price] PUT ${listingId} → ${putR.status}: ${patchText.substring(0, 300)}`);
 
     if (!patchR.ok) {
       return res.status(500).json({
-        error:       `PATCH failed ${patchR.status}`,
+        error:       `PUT failed ${patchR.status}`,
         pf_response:  patchText,
-        region_used:  usedRegion,
         listing_id:   listingId,
         ref,
       });
