@@ -9,8 +9,8 @@ import crypto from 'crypto';
 
 const PF_API  = 'https://atlas.propertyfinder.com';
 const PF_HOST = 'atlas.propertyfinder.com';
-const AWS_REGION  = 'eu-west-1';
 const AWS_SERVICE = 'execute-api';
+const AWS_REGIONS = ['us-east-1', 'eu-west-1', 'me-south-1', 'ap-southeast-1', 'eu-central-1', 'us-west-2'];
 
 // ── AWS SigV4 helpers ──────────────────────────────────────────────────────
 
@@ -27,7 +27,7 @@ function getSigningKey(secret, dateStamp, region, service) {
   return hmacSha256(kService, 'aws4_request');
 }
 
-function buildSigV4Headers(method, path, bodyStr, accessKey, secretKey) {
+function buildSigV4Headers(method, path, bodyStr, accessKey, secretKey, region) {
   const now       = new Date();
   const amzDate   = now.toISOString().replace(/[:-]|\.\d{3}/g, '').slice(0, 15) + 'Z';
   const dateStamp = amzDate.slice(0, 8);
@@ -38,10 +38,10 @@ function buildSigV4Headers(method, path, bodyStr, accessKey, secretKey) {
 
   const canonRequest = [method, path, '', canonHeaders, signedHeaders, bodyHash].join('\n');
 
-  const credScope  = `${dateStamp}/${AWS_REGION}/${AWS_SERVICE}/aws4_request`;
+  const credScope  = `${dateStamp}/${region}/${AWS_SERVICE}/aws4_request`;
   const strToSign  = ['AWS4-HMAC-SHA256', amzDate, credScope, sha256hex(canonRequest)].join('\n');
 
-  const signingKey = getSigningKey(secretKey, dateStamp, AWS_REGION, AWS_SERVICE);
+  const signingKey = getSigningKey(secretKey, dateStamp, region, AWS_SERVICE);
   const signature  = crypto.createHmac('sha256', signingKey).update(strToSign, 'utf8').digest('hex');
 
   return {
@@ -139,29 +139,26 @@ export default async function handler(req, res) {
     };
 
     const patchBodyStr = JSON.stringify(patchBody);
-    const sigV4Headers = buildSigV4Headers(
-      'PATCH',
-      `/v1/listings/${listingId}`,
-      patchBodyStr,
-      process.env.PF_API_KEY,
-      process.env.PF_API_SECRET,
-    );
+    const patchPath    = `/v1/listings/${listingId}`;
 
-    const patchR = await fetch(`${PF_API}/v1/listings/${listingId}`, {
-      method:  'PATCH',
-      headers: sigV4Headers,
-      body:    patchBodyStr,
-    });
-
-    const patchText  = await patchR.text();
-    console.log(`[update-price] PATCH ${listingId} → ${patchR.status}: ${patchText.substring(0, 300)}`);
+    // Try each region until one doesn't return "invalid region"
+    let patchR, patchText, usedRegion;
+    for (const region of AWS_REGIONS) {
+      const sigV4Headers = buildSigV4Headers('PATCH', patchPath, patchBodyStr,
+        process.env.PF_API_KEY, process.env.PF_API_SECRET, region);
+      patchR    = await fetch(`${PF_API}${patchPath}`, { method: 'PATCH', headers: sigV4Headers, body: patchBodyStr });
+      patchText = await patchR.text();
+      usedRegion = region;
+      console.log(`[update-price] PATCH ${listingId} region=${region} → ${patchR.status}: ${patchText.substring(0, 200)}`);
+      if (!patchText.includes('valid region')) break;
+    }
 
     if (!patchR.ok) {
-      // Return the raw PF error so we can see what auth format it wants
       return res.status(500).json({
-        error:      `PATCH failed ${patchR.status}`,
-        pf_response: patchText,
-        listing_id: listingId,
+        error:       `PATCH failed ${patchR.status}`,
+        pf_response:  patchText,
+        region_used:  usedRegion,
+        listing_id:   listingId,
         ref,
       });
     }
