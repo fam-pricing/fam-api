@@ -81,6 +81,8 @@ export default async function handler(req, res) {
     console.log(`[update-price] ${ref} (${listingId}): ${oldPrice} → ${numPrice} AED/mo`);
 
     // ── Step 2: PATCH price in-place ─────────────────────────────────────────
+    // PF Atlas PATCH endpoint uses key=value auth, not Bearer JWT.
+    // Format: Authorization: apiKey=xxx&apiSecret=xxx
     const patchBody = {
       price: {
         amounts:             { monthly: numPrice },
@@ -92,10 +94,12 @@ export default async function handler(req, res) {
       },
     };
 
+    const kvAuth = `apiKey=${process.env.PF_API_KEY}&apiSecret=${process.env.PF_API_SECRET}`;
+
     const patchR = await fetch(`${PF_API}/v1/listings/${listingId}`, {
       method: 'PATCH',
       headers: {
-        Authorization:  `Bearer ${token}`,
+        Authorization:  kvAuth,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(patchBody),
