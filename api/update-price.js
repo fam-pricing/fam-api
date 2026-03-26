@@ -5,6 +5,8 @@
 // Strategy: GET listing by ref → PUT full listing body with new price → same ULID, no clone.
 // Auth: Bearer JWT from apiKey+apiSecret (same token used for GET).
 
+import { requireAuth } from './_auth.js';
+
 const PF_API = 'https://atlas.propertyfinder.com';
 
 async function getToken() {
@@ -22,15 +24,13 @@ async function getToken() {
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, X-Sync-Password');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   if (req.method === 'OPTIONS') return res.status(200).end();
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
-  const syncPass = process.env.SYNC_PASSWORD;
-  if (syncPass) {
-    const provided = req.headers['x-sync-password'] || '';
-    if (provided !== syncPass) return res.status(401).json({ error: 'Incorrect password' });
-  }
+  // Only admins can publish prices
+  const user = requireAuth(req, res, 'admin');
+  if (!user) return;
 
   let body = req.body;
   if (typeof body === 'string') {
