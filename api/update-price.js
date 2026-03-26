@@ -238,8 +238,9 @@ export default async function handler(req, res) {
       console.log(`[update-price] Original ${oldId} → live_pending_unpublishing ✅`);
     }
 
-    // ── Step 5: Rotate ref_mapping + ref_url_map in GitHub (non-fatal async) ──
-    updateRefMappings(oldId, newId).catch(() => {});
+    // ── Step 5: Rotate ref_mapping + ref_url_map in GitHub ───────────────────
+    // Must await before returning — Vercel terminates the function after res.json()
+    await updateRefMappings(oldId, newId);
 
     return res.status(200).json({
       success:        true,
