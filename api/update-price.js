@@ -167,9 +167,14 @@ export default async function handler(req, res) {
       type:       listing.type,
       uaeEmirate: listing.uaeEmirate,
       unitNumber: listing.unitNumber,
-      media:      listing.media,
-      updatedBy:  listing.updatedBy,
+      media:     listing.media,
+      updatedBy: listing.updatedBy,
+      createdBy: listing.createdBy,
     };
+    // Log listing keys to diagnose schema issues
+    console.log('[update-price] listing keys:', Object.keys(listing));
+    console.log('[update-price] createdBy:', JSON.stringify(listing.createdBy));
+    console.log('[update-price] assignedTo:', JSON.stringify(listing.assignedTo));
 
     const putR    = await fetch(`${PF_API}/v1/listings/${listingId}`, {
       method:  'PUT',
