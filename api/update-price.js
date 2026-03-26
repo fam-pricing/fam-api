@@ -3,9 +3,53 @@
 // Body: { ref: "PF-HH-AR-XXXXX", price: 8000 }
 //
 // Strategy: find listing by ref → PATCH price in-place (same ULID, same reference).
-// This mirrors how fäm CRM updates prices — no clone, no new ULID.
+// PATCH endpoint uses AWS SigV4 (API Gateway IAM auth). GET uses Bearer JWT.
 
-const PF_API = 'https://atlas.propertyfinder.com';
+import crypto from 'crypto';
+
+const PF_API  = 'https://atlas.propertyfinder.com';
+const PF_HOST = 'atlas.propertyfinder.com';
+const AWS_REGION  = 'me-central-1';
+const AWS_SERVICE = 'execute-api';
+
+// ── AWS SigV4 helpers ──────────────────────────────────────────────────────
+
+function sha256hex(data) {
+  return crypto.createHash('sha256').update(data, 'utf8').digest('hex');
+}
+function hmacSha256(key, data) {
+  return crypto.createHmac('sha256', key).update(data, 'utf8').digest();
+}
+function getSigningKey(secret, dateStamp, region, service) {
+  const kDate    = hmacSha256('AWS4' + secret, dateStamp);
+  const kRegion  = hmacSha256(kDate, region);
+  const kService = hmacSha256(kRegion, service);
+  return hmacSha256(kService, 'aws4_request');
+}
+
+function buildSigV4Headers(method, path, bodyStr, accessKey, secretKey) {
+  const now       = new Date();
+  const amzDate   = now.toISOString().replace(/[:-]|\.\d{3}/g, '').slice(0, 15) + 'Z';
+  const dateStamp = amzDate.slice(0, 8);
+  const bodyHash  = sha256hex(bodyStr || '');
+
+  const canonHeaders  = `content-type:application/json\nhost:${PF_HOST}\nx-amz-date:${amzDate}\n`;
+  const signedHeaders = 'content-type;host;x-amz-date';
+
+  const canonRequest = [method, path, '', canonHeaders, signedHeaders, bodyHash].join('\n');
+
+  const credScope  = `${dateStamp}/${AWS_REGION}/${AWS_SERVICE}/aws4_request`;
+  const strToSign  = ['AWS4-HMAC-SHA256', amzDate, credScope, sha256hex(canonRequest)].join('\n');
+
+  const signingKey = getSigningKey(secretKey, dateStamp, AWS_REGION, AWS_SERVICE);
+  const signature  = crypto.createHmac('sha256', signingKey).update(strToSign, 'utf8').digest('hex');
+
+  return {
+    'Content-Type':  'application/json',
+    'X-Amz-Date':    amzDate,
+    Authorization:   `AWS4-HMAC-SHA256 Credential=${accessKey}/${credScope}, SignedHeaders=${signedHeaders}, Signature=${signature}`,
+  };
+}
 
 async function getToken() {
   const r = await fetch(`${PF_API}/v1/auth/token`, {
@@ -94,18 +138,22 @@ export default async function handler(req, res) {
       },
     };
 
-    const kvAuth = `Bearer apiKey=${process.env.PF_API_KEY}&apiSecret=${process.env.PF_API_SECRET}`;
+    const patchBodyStr = JSON.stringify(patchBody);
+    const sigV4Headers = buildSigV4Headers(
+      'PATCH',
+      `/v1/listings/${listingId}`,
+      patchBodyStr,
+      process.env.PF_API_KEY,
+      process.env.PF_API_SECRET,
+    );
 
     const patchR = await fetch(`${PF_API}/v1/listings/${listingId}`, {
-      method: 'PATCH',
-      headers: {
-        Authorization:  kvAuth,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(patchBody),
+      method:  'PATCH',
+      headers: sigV4Headers,
+      body:    patchBodyStr,
     });
 
-    const patchText = await patchR.text();
+    const patchText  = await patchR.text();
     console.log(`[update-price] PATCH ${listingId} → ${patchR.status}: ${patchText.substring(0, 300)}`);
 
     if (!patchR.ok) {
