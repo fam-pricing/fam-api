@@ -124,11 +124,48 @@ export default async function handler(req, res) {
     const todayStr   = nowDubai.toISOString().slice(0, 10);
     const yestStr    = new Date(nowDubai.getTime() - 86400_000).toISOString().slice(0, 10);
     let leads_today = 0, leads_yesterday = 0;
+    const leads_today_detail    = [];
+    const leads_yesterday_detail = [];
+
     for (const l of leads) {
-      const d = new Date(new Date(l.createdAt).getTime() + 4 * 3600_000).toISOString().slice(0, 10);
-      if (d === todayStr)   leads_today++;
-      else if (d === yestStr) leads_yesterday++;
+      const createdDubai = new Date(new Date(l.createdAt).getTime() + 4 * 3600_000);
+      const dayStr = createdDubai.toISOString().slice(0, 10);
+      const timeStr = createdDubai.toISOString().slice(11, 16); // HH:MM
+
+      // Resolve building from listing reference
+      const ref = l.listing?.reference || '';
+      const mapping = refMapping[ref] || null;
+      const building = mapping ? mapping.building : (ref || '—');
+
+      // Resolve published price via portal_prices cross-reference
+      let price = '';
+      if (mapping) {
+        const beds_raw = l.listing?.bedrooms || '';
+        let bed = beds_raw === 'studio' ? 'Studio' : (beds_raw ? `${beds_raw}BR` : '');
+        bed = BED_OVERRIDES[`${building}|${bed}`] || bed;
+        const ppKey = `${building}|${bed}`;
+        if (portal_prices[ppKey]) price = portal_prices[ppKey];
+      }
+
+      const row = {
+        time:     timeStr,
+        building: building,
+        price:    price,
+        status:   l.status || 'SENT',
+      };
+
+      if (dayStr === todayStr) {
+        leads_today++;
+        leads_today_detail.push(row);
+      } else if (dayStr === yestStr) {
+        leads_yesterday++;
+        leads_yesterday_detail.push(row);
+      }
     }
+
+    // Sort detail by time ascending
+    leads_today_detail.sort((a, b) => a.time.localeCompare(b.time));
+    leads_yesterday_detail.sort((a, b) => a.time.localeCompare(b.time));
 
     // Timestamp in Dubai time
     const tsDate = nowDubai.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
@@ -140,6 +177,8 @@ export default async function handler(req, res) {
       portal_prices,
       leads_today,
       leads_yesterday,
+      leads_today_detail,
+      leads_yesterday_detail,
       timestamp,
     });
 
