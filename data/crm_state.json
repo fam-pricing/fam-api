@@ -714,12 +714,19 @@
   },
   "message_lead_28423214": {
     "stage": "lost",
-    "notes": [],
+    "notes": [
+      {
+        "text": "deposit too expensive",
+        "ts": "2026-03-27T07:11:06.943Z",
+        "by": "afifa"
+      }
+    ],
     "auto_responded": true,
     "auto_responded_at": "2026-03-27T06:57:57.075Z",
     "pf_phone": "971568640301",
-    "updated_at": "2026-03-27T07:10:57.118Z",
-    "updated_by": "afifa"
+    "updated_at": "2026-03-27T07:11:06.943Z",
+    "updated_by": "afifa",
+    "lost_reason": "too_expensive"
   },
   "message_lead_28423208": {
     "stage": "new",
