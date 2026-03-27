@@ -35,8 +35,8 @@ export function verifyJWT(token, secret) {
   return payload;
 }
 
-// Role hierarchy: owner > admin > viewer
-const ROLE_LEVEL = { viewer: 1, admin: 2, owner: 3 };
+// Role hierarchy: owner > admin > viewer > agent
+const ROLE_LEVEL = { agent: 1, viewer: 2, admin: 3, owner: 4 };
 
 // Extract and verify JWT from Authorization: Bearer <token> header
 // requiredRole = minimum role required (owner satisfies admin check, admin satisfies viewer check)
