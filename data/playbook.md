@@ -115,18 +115,6 @@ This must happen every single time. No exceptions.
   (Taught by Faysal, 2026-03-27)
 
 ## Learned (2026-03-27)
-- test
-  (Taught directly by Faysal)
-
-## Learned (2026-03-27)
-- test teaching message
-  (Taught directly by Faysal)
-
-## Learned (2026-03-27)
-- test flat payload fix
-  (Taught directly by Faysal)
-
-## Learned (2026-03-27)
 - Never be too cheesy with leads
   (Taught directly by Faysal)
 
