@@ -2,6 +2,15 @@
   "functions": {
     "api/*.js": {
       "maxDuration": 30
+    },
+    "api/cron/auto-respond.js": {
+      "maxDuration": 60
     }
-  }
+  },
+  "crons": [
+    {
+      "path": "/api/cron/auto-respond",
+      "schedule": "* * * * *"
+    }
+  ]
 }
