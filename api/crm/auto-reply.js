@@ -282,6 +282,9 @@ async function handleFaysalTeachingReply(faysalTicketId, answer) {
     if (cleanAnswer) {
       const newRule = `- ${cleanAnswer}\n  (Taught directly by Faysal)`;
       await appendToPlaybook(newRule);
+      // Increment direct teachings counter so dashboard shows it
+      esc.direct_teachings_count = (esc.direct_teachings_count || 0) + 1;
+      await writePendingEsc(esc, escSha);
       await postTrengoMessage(faysalTicketId,
         `✅ *Playbook updated!*\n\n📝 "${cleanAnswer}"\n\nI'll apply this going forward. Send another rule anytime — or I'll ping you here when I get stuck with a lead 📚`);
     } else {

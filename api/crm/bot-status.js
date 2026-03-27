@@ -64,6 +64,7 @@ export default async function handler(req, res) {
     const totalBotReplies = leads.reduce((s, [, v]) => s + (v.bot_reply_count || 0), 0);
     const pendingQ       = (pendingEsc?.pending || []).filter(e => !e.answered_at).length;
     const answeredQ      = (pendingEsc?.pending || []).filter(e => e.answered_at).length;
+    const directTaught   = pendingEsc?.direct_teachings_count || 0;
     const learnedFromAfifa = leads.filter(([, v]) => v.last_learned_at).length;
 
     // Build event feed — pull key timestamps from each lead and flatten into timeline
@@ -112,7 +113,7 @@ export default async function handler(req, res) {
         bot_replied_leads:  botReplied,
         total_bot_replies:  totalBotReplies,
         pending_escalations: pendingQ,
-        taught_by_faysal:    answeredQ,
+        taught_by_faysal:    answeredQ + directTaught,
         learned_from_afifa:  learnedFromAfifa,
         faysal_ticket_id:    pendingEsc?.faysal_ticket_id || null,
       },
