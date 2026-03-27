@@ -126,11 +126,12 @@ async function assignTrengoTicket(ticketId, userId) {
   const token = process.env.TRENGO_TOKEN;
   if (!token || !ticketId) return;
   try {
-    await fetch(`${TRENGO_API}/tickets/${ticketId}/assign`, {
+    const r = await fetch(`${TRENGO_API}/tickets/${ticketId}/assign`, {
       method:  'POST',
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ user_id: userId }),
+      body: JSON.stringify({ ticket_id: ticketId, user_id: userId, note: null, type: 'user' }),
     });
+    if (!r.ok) console.error('[Trengo] assign failed:', r.status);
   } catch (err) {
     console.error('[Trengo] assign error:', err.message);
   }
