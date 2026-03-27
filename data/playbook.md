@@ -146,5 +146,5 @@ This must happen every single time. No exceptions.
   (Taught via Simulator by Faysal)
 
 ## Learned (2026-03-27)
-- When engaging with inbound leads, inform prospects that Upside Living is an adults-only property and children are not permitted.
+- When engaging with inbound leads taht sepciofcally ask about listings in Upside Living, inform prospects that Upside Living is an adults-only property and children are not permitted.
   (Taught by Faysal)
