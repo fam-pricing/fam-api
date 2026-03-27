@@ -35,7 +35,11 @@ export function verifyJWT(token, secret) {
   return payload;
 }
 
+// Role hierarchy: owner > admin > viewer
+const ROLE_LEVEL = { viewer: 1, admin: 2, owner: 3 };
+
 // Extract and verify JWT from Authorization: Bearer <token> header
+// requiredRole = minimum role required (owner satisfies admin check, admin satisfies viewer check)
 export function requireAuth(req, res, requiredRole) {
   const secret = process.env.JWT_SECRET;
   if (!secret) { res.status(500).json({ error: 'JWT_SECRET not configured' }); return null; }
@@ -44,8 +48,12 @@ export function requireAuth(req, res, requiredRole) {
   if (!token) { res.status(401).json({ error: 'Not authenticated' }); return null; }
   try {
     const payload = verifyJWT(token, secret);
-    if (requiredRole && payload.role !== requiredRole) {
-      res.status(403).json({ error: 'Insufficient permissions' }); return null;
+    if (requiredRole) {
+      const userLevel = ROLE_LEVEL[payload.role] || 0;
+      const needLevel = ROLE_LEVEL[requiredRole] || 0;
+      if (userLevel < needLevel) {
+        res.status(403).json({ error: 'Insufficient permissions' }); return null;
+      }
     }
     return payload;
   } catch (e) {

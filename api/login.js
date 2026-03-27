@@ -5,7 +5,8 @@
 //
 // Users stored in USERS env var as JSON array:
 // [{"username":"faysal","password":"<sha256hex>","role":"admin"}, ...]
-// Roles: "admin" (full access + publish) | "viewer" (read-only)
+// Roles: "owner" (faysal only — full access + unpublish) | "admin" (publish only) | "viewer" (read-only)
+// Note: faysal is always elevated to "owner" regardless of USERS env var role.
 
 import { signJWT, hashPassword } from './_auth.js';
 
@@ -46,20 +47,23 @@ export default async function handler(req, res) {
     return res.status(401).json({ error: 'Invalid username or password' });
   }
 
+  // faysal always gets owner role regardless of USERS env var
+  const effectiveRole = user.username === 'faysal' ? 'owner' : user.role;
+
   const token = signJWT(
     {
       username: user.username,
-      role:     user.role,
+      role:     effectiveRole,
       exp:      Math.floor(Date.now() / 1000) + 8 * 3600, // 8 hours
     },
     secret,
   );
 
-  console.log(`[login] ${user.username} (${user.role}) signed in`);
+  console.log(`[login] ${user.username} (${effectiveRole}) signed in`);
 
   return res.status(200).json({
     token,
-    role:     user.role,
+    role:     effectiveRole,
     username: user.username,
   });
 }
