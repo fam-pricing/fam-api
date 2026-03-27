@@ -17,18 +17,12 @@
 //   AUTOBOT_ENABLED env var must = 'true' (global off switch)
 //   bot_paused flag in crm_state disables per-lead (Afifa can flip this)
 
-import { fileURLToPath } from 'url';
-import path from 'path';
-import fs   from 'fs';
-
-const __dirname     = path.dirname(fileURLToPath(import.meta.url));
-const PLAYBOOK_PATH = path.join(__dirname, '../../data/playbook.md');
-
 const GH_API     = 'https://api.github.com';
 const TRENGO_API = 'https://app.trengo.com/api/v2';
 const REPO       = 'fam-pricing/fam-api';
 const CRM_FILE        = 'data/crm_state.json';
 const PENDING_FILE    = 'data/pending_escalations.json';
+const PLAYBOOK_FILE   = 'data/playbook.md';
 
 const DUBAI_OFFSET_HOURS = 4;
 const NIGHT_START = 21;
@@ -92,22 +86,49 @@ async function writePendingEsc(esc, sha) {
   await ghWrite(PENDING_FILE, esc, sha, 'Bot: pending escalations update');
 }
 
-// ── Playbook ──────────────────────────────────────────────────────────────────
+// ── Playbook (GitHub-backed) ───────────────────────────────────────────────────
 
-function loadPlaybook() {
+async function ghReadText(file) {
+  const ghToken = process.env.GH_TOKEN;
+  if (!ghToken) return { content: '', sha: null };
+  const r = await fetch(`${GH_API}/repos/${REPO}/contents/${file}`, {
+    headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json' },
+  });
+  if (!r.ok) return { content: '', sha: null };
+  const d = await r.json();
   try {
-    if (fs.existsSync(PLAYBOOK_PATH)) return fs.readFileSync(PLAYBOOK_PATH, 'utf8').trim();
-  } catch (e) { console.warn('[auto-reply] playbook load failed:', e?.message); }
-  return '';
+    return { content: Buffer.from(d.content.replace(/\n/g, ''), 'base64').toString('utf8'), sha: d.sha };
+  } catch { return { content: '', sha: d.sha }; }
+}
+
+async function ghWriteText(file, content, sha, message) {
+  const ghToken = process.env.GH_TOKEN;
+  if (!ghToken) return;
+  const encoded = Buffer.from(content).toString('base64');
+  await fetch(`${GH_API}/repos/${REPO}/contents/${file}`, {
+    method: 'PUT',
+    headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message, content: encoded, sha }),
+  });
+}
+
+async function loadPlaybook() {
+  try {
+    const { content } = await ghReadText(PLAYBOOK_FILE);
+    return content.trim();
+  } catch (e) {
+    console.warn('[auto-reply] playbook load failed:', e?.message);
+    return '';
+  }
 }
 
 async function appendToPlaybook(newRule) {
   try {
-    const existing = fs.existsSync(PLAYBOOK_PATH) ? fs.readFileSync(PLAYBOOK_PATH, 'utf8') : '';
-    const today    = new Date().toISOString().split('T')[0];
-    const entry    = `\n## Learned (${today})\n${newRule}\n`;
-    fs.writeFileSync(PLAYBOOK_PATH, existing + entry, 'utf8');
-    console.log('[auto-reply] Playbook updated');
+    const { content, sha } = await ghReadText(PLAYBOOK_FILE);
+    const today = new Date().toISOString().split('T')[0];
+    const entry = `\n## Learned (${today})\n${newRule}\n`;
+    await ghWriteText(PLAYBOOK_FILE, content + entry, sha, 'Bot: playbook updated');
+    console.log('[auto-reply] Playbook updated on GitHub');
   } catch (e) {
     console.error('[auto-reply] Failed to update playbook:', e?.message);
   }
@@ -324,7 +345,7 @@ async function learnFromAfifaReply(ticketId, agentMessage, leadMeta, crmState, l
 
 async function generateReply(conversation, leadMeta, newMessage, leadName) {
   const apiKey  = process.env.ANTHROPIC_API_KEY;
-  const playbook = loadPlaybook();
+  const playbook = await loadPlaybook();
 
   if (!apiKey) return { reply: null, escalate: true, reason: 'No API key' };
 
