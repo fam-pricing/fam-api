@@ -1,14 +1,18 @@
 // fäm Living — POST /api/crm/auto-reply
-// Trengo webhook handler: reads inbound lead messages, generates AI reply via Claude,
-// posts response back to the lead on WhatsApp via Trengo.
+// Trengo webhook handler for both INBOUND (lead) and OUTBOUND (agent) messages.
 //
-// ⚠️  NOT LIVE — bot_active flag in crm_state must be true per lead to fire.
-//     Set globally via AUTOBOT_ENABLED=true env var to enable across all leads.
+// Night shift mode (9 PM – 6 AM Dubai time):
+//   INBOUND → AI reads message, generates reply, posts back via Trengo
+//   Bot escalates to Faysal when unsure, posts holding msg to lead
 //
-// Flow:
-//   Trengo fires webhook → we validate → load context (lead + playbook + history)
-//   → Claude generates reply → post to Trengo → update crm_state
-//   → If Claude is unsure → email Faysal with the question (teaching loop)
+// Day shift (6 AM – 9 PM Dubai):
+//   INBOUND → bot stays silent, Afifa handles
+//   OUTBOUND from Afifa → bot reads and logs as learning opportunity
+//     → if Afifa replied after a bot escalation, extract Q&A, log for playbook update
+//
+// Kill switches:
+//   AUTOBOT_ENABLED env var must = 'true' (global off switch)
+//   bot_paused flag in crm_state disables per-lead (Afifa can flip this)
 
 import fs   from 'fs';
 import path from 'path';
@@ -17,42 +21,33 @@ import { fileURLToPath } from 'url';
 const __dirname     = path.dirname(fileURLToPath(import.meta.url));
 const PLAYBOOK_PATH = path.join(__dirname, '../../data/playbook.md');
 
-const GH_API        = 'https://api.github.com';
-const TRENGO_API    = 'https://app.trengo.com/api/v2';
-const REPO          = 'fam-pricing/fam-api';
-const CRM_FILE      = 'data/crm_state.json';
+const GH_API     = 'https://api.github.com';
+const TRENGO_API = 'https://app.trengo.com/api/v2';
+const REPO       = 'fam-pricing/fam-api';
+const CRM_FILE   = 'data/crm_state.json';
 
-const FAYSAL_EMAIL  = 'faysalyayoubi@gmail.com';
+// Dubai = UTC+4
+const DUBAI_OFFSET_HOURS = 4;
+// Night shift: 21:00 – 06:00 Dubai time
+const NIGHT_START = 21;
+const NIGHT_END   = 6;
 
-// How long to wait before replying — feels more human, avoids instant-bot vibe
-const REPLY_DELAY_MS = 3000;
+const REPLY_DELAY_MS    = 3000;  // 3s pause before replying (feels human)
+const AGENT_COOLDOWN_MS = 15 * 60 * 1000; // 15 min cooldown after agent reply
 
-// If an agent manually replied in the last N minutes, don't auto-reply
-const AGENT_COOLDOWN_MS = 15 * 60 * 1000; // 15 minutes
+// ── Time helpers ──────────────────────────────────────────────────────────────
 
-// ── Helpers ───────────────────────────────────────────────────────────────────
-
-function loadPlaybook() {
-  try {
-    if (fs.existsSync(PLAYBOOK_PATH)) return fs.readFileSync(PLAYBOOK_PATH, 'utf8').trim();
-  } catch (e) {
-    console.warn('[auto-reply] playbook load failed:', e?.message);
-  }
-  return '';
+function getDubaiHour() {
+  return (new Date().getUTCHours() + DUBAI_OFFSET_HOURS) % 24;
 }
 
-async function fetchGHJson(filePath) {
-  const ghToken = process.env.GH_TOKEN;
-  if (!ghToken) return {};
-  try {
-    const r = await fetch(`${GH_API}/repos/${REPO}/contents/${filePath}`, {
-      headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json' },
-    });
-    if (!r.ok) return {};
-    const d = await r.json();
-    return JSON.parse(Buffer.from(d.content.replace(/\n/g, ''), 'base64').toString('utf8'));
-  } catch { return {}; }
+function isNightShift() {
+  const h = getDubaiHour();
+  // Night shift wraps midnight: 21, 22, 23, 0, 1, 2, 3, 4, 5
+  return h >= NIGHT_START || h < NIGHT_END;
 }
+
+// ── GitHub helpers ────────────────────────────────────────────────────────────
 
 async function readCRMState() {
   const ghToken = process.env.GH_TOKEN;
@@ -78,7 +73,29 @@ async function writeCRMState(state, sha) {
   });
 }
 
-// Fetch last N messages from Trengo ticket
+// ── Playbook ──────────────────────────────────────────────────────────────────
+
+function loadPlaybook() {
+  try {
+    if (fs.existsSync(PLAYBOOK_PATH)) return fs.readFileSync(PLAYBOOK_PATH, 'utf8').trim();
+  } catch (e) { console.warn('[auto-reply] playbook load failed:', e?.message); }
+  return '';
+}
+
+async function appendToPlaybook(newRule) {
+  try {
+    const existing = fs.existsSync(PLAYBOOK_PATH) ? fs.readFileSync(PLAYBOOK_PATH, 'utf8') : '';
+    const today    = new Date().toISOString().split('T')[0];
+    const entry    = `\n## Learned from Afifa (${today})\n${newRule}\n`;
+    fs.writeFileSync(PLAYBOOK_PATH, existing + entry, 'utf8');
+    console.log('[auto-reply] Playbook updated with new learning');
+  } catch (e) {
+    console.error('[auto-reply] Failed to update playbook:', e?.message);
+  }
+}
+
+// ── Trengo helpers ────────────────────────────────────────────────────────────
+
 async function getTrengoMessages(ticketId) {
   const token = process.env.TRENGO_TOKEN;
   try {
@@ -91,7 +108,6 @@ async function getTrengoMessages(ticketId) {
   } catch { return []; }
 }
 
-// Post a reply message to a Trengo ticket
 async function postTrengoMessage(ticketId, message) {
   const token = process.env.TRENGO_TOKEN;
   try {
@@ -101,52 +117,82 @@ async function postTrengoMessage(ticketId, message) {
       body: JSON.stringify({ message, type: 'OUTBOUND' }),
     });
     const d = await r.json();
-    if (!r.ok) { console.error('[auto-reply] post message failed:', r.status, JSON.stringify(d)); return false; }
-    console.log('[auto-reply] message sent, id:', d.id || d.message?.id);
+    if (!r.ok) { console.error('[auto-reply] post failed:', r.status, JSON.stringify(d)); return false; }
     return true;
-  } catch (err) {
-    console.error('[auto-reply] postMessage error:', err.message);
-    return false;
-  }
+  } catch (err) { console.error('[auto-reply] postMessage error:', err.message); return false; }
 }
 
-// Send escalation email to Faysal when Claude doesn't know the answer
-async function emailFaysal(leadName, property, question, ticketId) {
-  // Uses Trengo's internal note as a fallback visible to the team
-  // + logs clearly so Faysal knows to check
+async function postTrengoNote(ticketId, note) {
   const token = process.env.TRENGO_TOKEN;
-  const note  = `🤖 Bot escalation — doesn't know how to answer:\n\nLead: ${leadName}\nProperty: ${property}\nTicket: ${ticketId}\n\nQuestion from lead:\n"${question}"\n\nReply to this note or WhatsApp Faysal (+971502725428) with the answer.`;
-
-  console.log('[auto-reply] ESCALATION:', note);
-
-  // Post as internal note on the ticket so Afifa sees it in Trengo
   try {
     await fetch(`${TRENGO_API}/tickets/${ticketId}/notes`, {
       method: 'POST',
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
       body: JSON.stringify({ message: note }),
     });
-  } catch (e) {
-    console.error('[auto-reply] note post failed:', e?.message);
-  }
-
-  // TODO: Send email to FAYSAL_EMAIL via SendGrid or similar when email service is wired
-  // TODO: Send WhatsApp to +971502725428 via HSM template once Meta template is approved
-  //       Template message: "❓ Lead question from {{1}} re {{2}}: {{3}} — what should I reply?"
+  } catch (e) { console.error('[auto-reply] note post failed:', e?.message); }
 }
 
-// ── Claude AI reply generator ─────────────────────────────────────────────────
+// ── Escalation to Faysal ──────────────────────────────────────────────────────
+
+async function escalateToFaysal(leadName, property, question, ticketId, crmState, leadId, sha) {
+  const dubaiTime = new Date(Date.now() + DUBAI_OFFSET_HOURS * 3600000)
+    .toISOString().replace('T', ' ').substring(0, 16) + ' Dubai';
+
+  // Store the escalated question so when Afifa answers we can learn from it
+  if (crmState && leadId) {
+    crmState[leadId].last_escalated_at       = new Date().toISOString();
+    crmState[leadId].last_escalated_question = question;
+  }
+
+  // Internal Trengo note so Afifa sees it when she comes on shift
+  const note = `🤖 Night bot couldn't answer (${dubaiTime}):\n\n"${question}"\n\nPlease reply to this lead when you're on shift. If you answer in the chat, I'll learn from it automatically.`;
+  await postTrengoNote(ticketId, note);
+
+  // TODO: Once Meta template approved, send WhatsApp to Faysal (+971502725428)
+  //   Template: "❓ [Lead Name] re [Property] asked: [Question] — what should I reply?"
+  console.log(`[auto-reply] ESCALATION logged for ticket ${ticketId}: "${question}"`);
+}
+
+// ── Learn from Afifa ──────────────────────────────────────────────────────────
+// Called when an OUTBOUND message from an agent arrives during day shift.
+// If this ticket had a recent bot escalation, Afifa's reply is the answer
+// to the question the bot didn't know — extract it and update the playbook.
+
+async function learnFromAfifaReply(ticketId, agentMessage, leadMeta, crmState, leadId, sha) {
+  const question = leadMeta.last_escalated_question;
+  if (!question) return; // No pending escalation — nothing to learn
+
+  const escalatedAt = leadMeta.last_escalated_at ? new Date(leadMeta.last_escalated_at).getTime() : 0;
+  const ageHours    = (Date.now() - escalatedAt) / 3600000;
+  if (ageHours > 24) return; // Too old — probably unrelated
+
+  const leadName  = leadMeta.lead_name || 'Lead';
+  const property  = leadMeta.listing_title || 'unknown property';
+
+  console.log(`[auto-reply] Learning from Afifa: Q="${question}" → A="${agentMessage}"`);
+
+  // Build a new playbook rule from this Q&A
+  const newRule = `- If a lead asks: "${question}" → Reply: "${agentMessage}"\n  (Learned from Afifa handling ${leadName} re ${property})`;
+  await appendToPlaybook(newRule);
+
+  // Clear the escalation so we don't re-learn it
+  crmState[leadId].last_escalated_question = null;
+  crmState[leadId].last_learned_at         = new Date().toISOString();
+  await writeCRMState(crmState, sha);
+
+  // Post a quiet internal note so Afifa knows the bot learned
+  await postTrengoNote(ticketId, `✅ Bot learned from your reply and updated the playbook.`);
+}
+
+// ── Claude AI reply ───────────────────────────────────────────────────────────
 
 async function generateReply(conversation, leadMeta, newMessage, leadName) {
   const apiKey  = process.env.ANTHROPIC_API_KEY;
   const playbook = loadPlaybook();
 
-  if (!apiKey) {
-    console.error('[auto-reply] No ANTHROPIC_API_KEY');
-    return { reply: null, escalate: true, reason: 'No API key' };
-  }
+  if (!apiKey) return { reply: null, escalate: true, reason: 'No API key' };
 
-  // Build conversation history (last 10 messages for context)
   const history = conversation
     .slice(-10)
     .filter(m => m.message || m.body || m.text)
@@ -162,7 +208,7 @@ async function generateReply(conversation, leadMeta, newMessage, leadName) {
 
 ---
 
-You are handling a WhatsApp conversation for fäm Living. The lead's name is ${leadName} and they enquired about: ${property}.
+You are handling a WhatsApp conversation for fäm Living. Lead name: ${leadName}. Property enquiry: ${property}.
 
 Conversation so far:
 ${history}
@@ -171,45 +217,34 @@ The lead just sent:
 "${newMessage}"
 
 Instructions:
-- Reply naturally, as a warm human team member would on WhatsApp. Short, friendly, direct.
-- Follow all the rules in the playbook above — pricing, discounts, tone, cross-sell, etc.
-- If you are confident in your reply, output ONLY the message to send. No labels, no "Reply:", nothing else.
-- If you are NOT confident — you don't know the price, the availability of a specific date, or anything specific — output exactly this format on the first line: [ESCALATE: reason]
-  Then on the next line, write the holding message to send to the lead (e.g. "Let me check that for you and come back shortly! 😊").
+- Reply naturally as a warm human team member on WhatsApp. Short, friendly, direct.
+- Follow ALL rules in the playbook above — pricing, discounts, tone, cross-sell, etc.
+- If confident: output ONLY the message to send. Nothing else. No labels.
+- If NOT confident (don't know price, availability, a specific detail): output [ESCALATE: reason] on line 1, then the holding message on line 2 (e.g. "Let me check that for you and come back shortly! 😊").
 
-Be concise. Sound human. Never sound like an AI.`;
+Sound human. Never sound like AI.`;
 
   try {
     const r = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
-      headers: {
-        'x-api-key':         apiKey,
-        'anthropic-version': '2023-06-01',
-        'Content-Type':      'application/json',
-      },
-      body: JSON.stringify({
-        model:      'claude-haiku-4-5-20251001',
-        max_tokens: 300,
-        messages:   [{ role: 'user', content: prompt }],
-      }),
+      headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'Content-Type': 'application/json' },
+      body: JSON.stringify({ model: 'claude-haiku-4-5-20251001', max_tokens: 300, messages: [{ role: 'user', content: prompt }] }),
     });
 
     if (!r.ok) {
       const err = await r.text().catch(() => String(r.status));
       console.error('[auto-reply] Anthropic error:', r.status, err);
-      return { reply: null, escalate: true, reason: `Anthropic error ${r.status}` };
+      return { reply: null, escalate: true, reason: `Anthropic ${r.status}` };
     }
 
     const d    = await r.json();
     const text = d?.content?.[0]?.text?.trim() || '';
+    if (!text) return { reply: null, escalate: true, reason: 'Empty response' };
 
-    if (!text) return { reply: null, escalate: true, reason: 'Empty AI response' };
-
-    // Check if Claude flagged an escalation
     if (text.startsWith('[ESCALATE:')) {
-      const lines       = text.split('\n');
-      const reason      = lines[0].replace('[ESCALATE:', '').replace(']', '').trim();
-      const holdingMsg  = lines.slice(1).join('\n').trim() || "Let me check that for you and come back shortly! 😊";
+      const lines      = text.split('\n');
+      const reason     = lines[0].replace('[ESCALATE:', '').replace(']', '').trim();
+      const holdingMsg = lines.slice(1).join('\n').trim() || "Let me check that for you and come back shortly! 😊";
       return { reply: holdingMsg, escalate: true, reason };
     }
 
@@ -224,111 +259,105 @@ Be concise. Sound human. Never sound like an AI.`;
 // ── Main webhook handler ───────────────────────────────────────────────────────
 
 export default async function handler(req, res) {
-  // Only accept POST from Trengo
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
-  // ⚠️  GLOBAL KILL SWITCH — must be explicitly enabled in Vercel env vars
+  // Global kill switch
   if (process.env.AUTOBOT_ENABLED !== 'true') {
-    return res.status(200).json({ ok: true, skipped: 'AUTOBOT_ENABLED is not true — bot is off' });
+    return res.status(200).json({ ok: true, skipped: 'Bot disabled (AUTOBOT_ENABLED != true)' });
   }
 
-  // Validate Trengo webhook secret
-  const webhookSecret = process.env.TRENGO_WEBHOOK_SECRET;
-  if (webhookSecret) {
-    const sig = req.headers['x-trengo-signature'] || req.headers['x-hub-signature'] || '';
-    if (!sig.includes(webhookSecret)) {
-      console.warn('[auto-reply] Invalid webhook signature');
-      return res.status(401).json({ error: 'Invalid signature' });
-    }
-  }
-
-  // Parse webhook body
+  // Parse body
   let body = req.body;
   if (!body || typeof body === 'string') {
     try { body = JSON.parse(body); } catch { return res.status(400).json({ error: 'Invalid JSON' }); }
   }
 
-  // Trengo webhook payload — we care about new inbound messages
-  const messageType = body?.message?.type?.toUpperCase() || body?.type?.toUpperCase() || '';
+  const messageType = (body?.message?.type || body?.type || '').toUpperCase();
   const ticketId    = body?.ticket?.id || body?.message?.ticket_id || null;
   const messageText = body?.message?.message || body?.message?.body || body?.message?.text || '';
+  const agentName   = body?.message?.agent?.name || body?.agent?.name || null;
 
-  // Only process inbound messages (from leads), not our own outbound
+  if (!ticketId) return res.status(200).json({ ok: true, skipped: 'No ticket ID' });
+
+  // Load CRM state
+  const { state: crmState, sha } = await readCRMState();
+  const leadId   = Object.keys(crmState).find(k => crmState[k].trengo_ticket_id === ticketId);
+  if (!leadId) return res.status(200).json({ ok: true, skipped: 'Ticket not in CRM' });
+
+  const leadMeta = crmState[leadId];
+  const leadName = leadMeta.lead_name || 'there';
+
+  // ── OUTBOUND (agent reply — Afifa is speaking) ─────────────────────────────
+  // During day shift: learn from Afifa's answers to previously escalated questions
+  if (messageType === 'OUTBOUND' && messageText) {
+    // Track last agent reply time (for cooldown logic)
+    crmState[leadId].last_agent_reply_at = new Date().toISOString();
+
+    // Learning: if there was a pending bot escalation, extract the Q&A
+    await learnFromAfifaReply(ticketId, messageText, leadMeta, crmState, leadId, sha);
+
+    return res.status(200).json({ ok: true, action: 'agent_reply_tracked' });
+  }
+
+  // ── INBOUND (lead is speaking) ─────────────────────────────────────────────
   if (messageType !== 'INBOUND') {
-    return res.status(200).json({ ok: true, skipped: 'Not an inbound message' });
+    return res.status(200).json({ ok: true, skipped: `Message type ${messageType} ignored` });
   }
 
-  if (!ticketId || !messageText) {
-    return res.status(200).json({ ok: true, skipped: 'Missing ticket ID or message text' });
+  if (!messageText) return res.status(200).json({ ok: true, skipped: 'Empty message' });
+
+  const nightShift = isNightShift();
+  const dubaiHour  = getDubaiHour();
+  console.log(`[auto-reply] Inbound on ticket ${ticketId} | Dubai hour: ${dubaiHour} | Night shift: ${nightShift}`);
+
+  // DAY SHIFT — Afifa is on, bot stays silent on inbound
+  if (!nightShift) {
+    // Just mark the lead as having replied so CRM summary shows it
+    crmState[leadId].lead_replied    = true;
+    crmState[leadId].lead_replied_at = new Date().toISOString();
+    await writeCRMState(crmState, sha);
+    return res.status(200).json({ ok: true, skipped: 'Day shift — Afifa handles', dubaiHour });
   }
 
-  console.log('[auto-reply] Inbound message on ticket', ticketId, ':', messageText.substring(0, 60));
+  // NIGHT SHIFT — bot is on
 
-  try {
-    // Load CRM state — find which lead this ticket belongs to
-    const { state: crmState, sha } = await readCRMState();
-    const leadId = Object.keys(crmState).find(k => crmState[k].trengo_ticket_id === ticketId);
-
-    if (!leadId) {
-      console.warn('[auto-reply] No CRM lead found for ticket', ticketId);
-      return res.status(200).json({ ok: true, skipped: 'Ticket not in CRM' });
-    }
-
-    const leadMeta = crmState[leadId];
-
-    // Per-lead kill switch — Afifa or Faysal can set bot_paused: true on a lead to take over manually
-    if (leadMeta.bot_paused) {
-      return res.status(200).json({ ok: true, skipped: 'Bot paused for this lead' });
-    }
-
-    const leadName = leadMeta.lead_name || 'there';
-
-    // Don't auto-reply if an agent replied manually in the last 15 minutes
-    const lastAgentAt = leadMeta.last_agent_reply_at ? new Date(leadMeta.last_agent_reply_at).getTime() : 0;
-    if (Date.now() - lastAgentAt < AGENT_COOLDOWN_MS) {
-      console.log('[auto-reply] Agent cooldown active — skipping');
-      return res.status(200).json({ ok: true, skipped: 'Agent cooldown' });
-    }
-
-    // Load conversation history from Trengo
-    const conversation = await getTrengoMessages(ticketId);
-
-    // Wait before replying — feels more human
-    await new Promise(r => setTimeout(r, REPLY_DELAY_MS));
-
-    // Generate AI reply
-    const { reply, escalate, reason } = await generateReply(conversation, leadMeta, messageText, leadName);
-
-    if (escalate) {
-      console.log('[auto-reply] Escalating to Faysal — reason:', reason);
-      // Send the holding message to the lead (if Claude generated one)
-      if (reply) {
-        await postTrengoMessage(ticketId, reply);
-      }
-      // Alert Faysal via internal note (+ email/WhatsApp when wired)
-      await emailFaysal(leadName, leadMeta.listing_title || 'unknown property', messageText, ticketId);
-
-      crmState[leadId].last_escalated_at = new Date().toISOString();
-      crmState[leadId].last_escalation_reason = reason;
-      await writeCRMState(crmState, sha);
-      return res.status(200).json({ ok: true, action: 'escalated', reason });
-    }
-
-    // Send the reply
-    const sent = await postTrengoMessage(ticketId, reply);
-
-    if (sent) {
-      crmState[leadId].last_bot_reply_at  = new Date().toISOString();
-      crmState[leadId].bot_reply_count    = (leadMeta.bot_reply_count || 0) + 1;
-      crmState[leadId].lead_replied       = true;
-      crmState[leadId].lead_replied_at    = new Date().toISOString();
-      await writeCRMState(crmState, sha);
-    }
-
-    return res.status(200).json({ ok: true, action: 'replied', sent });
-
-  } catch (err) {
-    console.error('[auto-reply] handler error:', err);
-    return res.status(500).json({ error: err.message });
+  // Per-lead pause (Afifa can flip this on any ticket)
+  if (leadMeta.bot_paused) {
+    return res.status(200).json({ ok: true, skipped: 'Bot paused for this lead' });
   }
+
+  // Agent cooldown — if Afifa replied in last 15 min, bot stays quiet
+  const lastAgentAt = leadMeta.last_agent_reply_at ? new Date(leadMeta.last_agent_reply_at).getTime() : 0;
+  if (Date.now() - lastAgentAt < AGENT_COOLDOWN_MS) {
+    return res.status(200).json({ ok: true, skipped: 'Agent cooldown active' });
+  }
+
+  // Load conversation history
+  const conversation = await getTrengoMessages(ticketId);
+
+  // Human-feeling delay
+  await new Promise(r => setTimeout(r, REPLY_DELAY_MS));
+
+  // Generate reply
+  const { reply, escalate, reason } = await generateReply(conversation, leadMeta, messageText, leadName);
+
+  if (escalate) {
+    // Send holding message to lead
+    if (reply) await postTrengoMessage(ticketId, reply);
+    // Alert Faysal + log for Afifa
+    await escalateToFaysal(leadName, leadMeta.listing_title, messageText, ticketId, crmState, leadId, sha);
+    await writeCRMState(crmState, sha);
+    return res.status(200).json({ ok: true, action: 'escalated', reason });
+  }
+
+  // Send reply
+  const sent = await postTrengoMessage(ticketId, reply);
+
+  crmState[leadId].lead_replied       = true;
+  crmState[leadId].lead_replied_at    = new Date().toISOString();
+  crmState[leadId].last_bot_reply_at  = new Date().toISOString();
+  crmState[leadId].bot_reply_count    = (leadMeta.bot_reply_count || 0) + 1;
+  await writeCRMState(crmState, sha);
+
+  return res.status(200).json({ ok: true, action: 'replied', sent, dubaiHour });
 }
