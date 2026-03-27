@@ -135,7 +135,8 @@ export default async function handler(req, res) {
       // Resolve building from listing reference
       const ref = l.listing?.reference || '';
       const mapping = refMapping[ref] || null;
-      const building = mapping ? mapping.building : (ref || '—');
+      // Only show the ref if it's a proper PF-HH-AR-XXXXX format; otherwise show dash
+      const building = mapping ? mapping.building : (ref.startsWith('PF-HH-AR-') ? ref : '—');
 
       // Resolve published price via portal_prices cross-reference
       // refMapping already has the bed_type — use it directly
