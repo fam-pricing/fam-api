@@ -178,6 +178,29 @@ export default async function handler(req, res) {
     try { body = JSON.parse(body); } catch { return res.status(400).json({ error: 'Invalid JSON' }); }
   }
 
+  // ── Test-note action: post a test internal note to a Trengo ticket ───────────
+  if (body.action === 'test-note') {
+    const ticketId = body.ticket_id || process.env.FAYSAL_TICKET_ID;
+    if (!ticketId) return res.status(400).json({ error: 'ticket_id required' });
+    const token = process.env.TRENGO_TOKEN;
+    const note =
+      `🧪 fäm Bot — internal note test\n\n` +
+      `Tagging the team:\n` +
+      `@afifa340123 @junaid731578 @farhan731560 @chahana470168 @abdul315306\n\n` +
+      `If you can see this, internal notes with @mentions are working correctly.\n— fäm Bot`;
+    try {
+      const r = await fetch(`https://app.trengo.com/api/v2/tickets/${ticketId}/notes`, {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({ message: note }),
+      });
+      const d = await r.json().catch(() => ({}));
+      return res.status(200).json({ ok: r.ok, status: r.status, ticket_id: ticketId, trengo: d });
+    } catch (err) {
+      return res.status(500).json({ ok: false, error: err.message });
+    }
+  }
+
   // ── Teach action: save a correction to the playbook ──────────────────────────
   if (body.action === 'teach') {
     const rawRule = (body.rule || '').trim();
