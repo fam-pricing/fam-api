@@ -543,6 +543,7 @@ RULES — follow exactly, no exceptions:
 - If NOT confident → [ESCALATE: reason] on line 1, short holding message on line 2.
 - If confirming a viewing → [VIEWING: day at time] on line 1, message on line 2.
 - Keep it short, warm, human.
+- NEVER use em dashes (—) or en dashes in your replies. Use commas or periods instead. This is non-negotiable.
 - PRICING MATH — CRITICAL: Prices are seasonal and only locked for 3 months at a time. NEVER calculate or quote a total for more than 3 months. If a lead asks about 4, 6, 12 months or a full year: quote the current monthly rate and say our rates are confirmed in 3-month blocks, you can lock in the current rate for the first 3 months, and for beyond that the rate depends on the season and you will need to confirm with the team. Then [ESCALATE: lead asking about long-term pricing beyond 3 months]. Do NOT multiply price by 12 or 6 or any number above 3.`;
 
   const userMessage = `Conversation so far:\n${history}\n\nLead just sent: "${newMessage}"`;
@@ -567,7 +568,7 @@ RULES — follow exactly, no exceptions:
     if (text.startsWith('[ESCALATE:')) {
       const lines      = text.split('\n');
       const reason     = lines[0].replace('[ESCALATE:', '').replace(']', '').trim();
-      const holdingMsg = lines.slice(1).join('\n').trim() || "Let me check that for you and come back shortly!";
+      const holdingMsg = (lines.slice(1).join('\n').trim() || "Let me check that for you and come back shortly!").replace(/\s*\u2014\s*/g, ', ');
       return { reply: holdingMsg, escalate: true, reason, viewing: null };
     }
 
@@ -578,7 +579,9 @@ RULES — follow exactly, no exceptions:
       return { reply: replyText, escalate: false, reason: null, viewing: when };
     }
 
-    return { reply: text, escalate: false, reason: null, viewing: null };
+    // Strip em dashes — they're flagged in our style guide
+    const cleanReply = text.replace(/\s*\u2014\s*/g, ', ').replace(/\s*\u2013\s*/g, ', ').trim();
+    return { reply: cleanReply, escalate: false, reason: null, viewing: null };
 
   } catch (err) {
     console.error('[auto-reply] Claude call failed:', err?.message);
