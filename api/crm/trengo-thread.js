@@ -177,7 +177,7 @@ export default async function handler(req, res) {
       from:      m.type?.toUpperCase() === 'INBOUND' ? 'lead' : 'agent',
       text:      m.message || m.body || m.text || '',
       time:      m.created_at || m.timestamp || '',
-      author:    m.author?.name || m.agent?.name || (m.type?.toUpperCase() === 'INBOUND' ? 'Lead' : 'Agent'),
+      author:    m.type?.toUpperCase() === 'INBOUND' ? (m.contact?.name || 'Lead') : (m.agent?.name || 'Agent'),
     })).filter(m => m.text);
 
     // 4. Generate summary
