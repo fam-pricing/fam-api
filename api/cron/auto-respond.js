@@ -9,6 +9,7 @@ const TRENGO_API    = 'https://app.trengo.com/api/v2';
 const REPO          = 'fam-pricing/fam-api';
 const CRM_FILE      = 'data/crm_state.json';
 const REF_MAP_FILE  = 'data/ref_mapping.json';
+const REF_URL_FILE  = 'data/ref_url_map.json';
 const TRENGO_CHANNEL = 1304636;  // Portal Leads (WA_BUSINESS)
 const TRENGO_TEMPLATE = 229953;  // pf3
 const AFIFA_ID       = 340123;   // Afifa A.
@@ -39,12 +40,12 @@ async function fetchRecentLeads(token) {
   return d.data || d.results || [];
 }
 
-// Read ref_mapping.json from GitHub — maps PF-HH-AR-XXXXX → {building, bed_type}
-async function fetchRefMapping() {
+// Read a JSON file from GitHub repo
+async function fetchGHJson(filePath) {
   const ghToken = process.env.GH_TOKEN;
   if (!ghToken) return {};
   try {
-    const r = await fetch(`${GH_API}/repos/${REPO}/contents/${REF_MAP_FILE}`, {
+    const r = await fetch(`${GH_API}/repos/${REPO}/contents/${filePath}`, {
       headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json' },
     });
     if (!r.ok) return {};
@@ -56,15 +57,16 @@ async function fetchRefMapping() {
   }
 }
 
-// Build listing title from PF reference (PF-HH-AR-XXXXX) using local ref_mapping
-// e.g. "2BR in Upside Living (PF-HH-AR-87774)"
-function listingTitleFromRef(ref, refMapping) {
+// Build the {{1}} template value for a given PF ref:
+// 1. Use the actual PF listing URL (ref_url_map) — lead can tap to see the property
+// 2. Fall back to "BED in BUILDING" from ref_mapping
+// 3. Last resort: the raw ref string
+function listingValueFromRef(ref, refMapping, refUrlMap) {
   if (!ref) return null;
+  const url = refUrlMap[ref];
+  if (url) return url;
   const mapping = refMapping[ref];
-  if (mapping) {
-    return `${mapping.bed_type} in ${mapping.building} (${ref})`;
-  }
-  // Unknown ref — still better than the fallback
+  if (mapping) return `${mapping.bed_type} in ${mapping.building}`;
   return ref;
 }
 
@@ -196,9 +198,10 @@ export default async function handler(req, res) {
   try {
     const pfToken  = await getPFToken();
     const rawLeads = await fetchRecentLeads(pfToken);
-    const [{ state: crmState, sha }, refMapping] = await Promise.all([
+    const [{ state: crmState, sha }, refMapping, refUrlMap] = await Promise.all([
       readCRMState(),
-      fetchRefMapping(),
+      fetchGHJson(REF_MAP_FILE),
+      fetchGHJson(REF_URL_FILE),
     ]);
 
     // Only leads not yet auto-responded and with a responseLink
@@ -213,9 +216,9 @@ export default async function handler(req, res) {
       // 1. Hit PF responseLink → marks lead replied on PF, extracts lead phone
       const phone = await autoRespond(lead.responseLink);
 
-      // 2. Build listing title from ref_mapping (no extra API call needed)
+      // 2. Build listing value: URL from ref_url_map, or title from ref_mapping
       const ref          = lead.listing?.reference || null;
-      const listingTitle = listingTitleFromRef(ref, refMapping);
+      const listingTitle = listingValueFromRef(ref, refMapping, refUrlMap);
 
       let trengoTicketId = null;
       if (phone) {
