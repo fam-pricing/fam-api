@@ -503,7 +503,8 @@ ${items.map(i => `  • ${i}`).join('
 // Returns true if the message is asking about available listings/options
 function isPortfolioQuestion(text) {
   const t = text.toLowerCase();
-  return /what.*(option|propert|list|avail|unit|apart|studio|bedroom|have in|do you have)|any.*(avail|propert|option|unit)|show me|what else|other propert|other option|portfolio|available in/.test(t);
+  // Broad match — any message asking about listings, options, availability, or portfolio
+  return /option|propert|listing|available|avail|apartment|studio|\bunit\b|what else|show me|give me|what.*have|have.*what|portfolio|inventory|what do you|do you have/.test(t);
 }
 
 // ── Claude AI reply ───────────────────────────────────────────────────────────
