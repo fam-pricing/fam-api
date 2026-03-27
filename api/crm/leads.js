@@ -237,7 +237,9 @@ export default async function handler(req, res) {
         crm_lost_reason:  crm.lost_reason  ?? null,
         crm_updated_at:   crm.updated_at   ?? null,
         crm_updated_by:   crm.updated_by   ?? null,
-        auto_responded:   crm.auto_responded || false,
+        auto_responded:     crm.auto_responded || false,
+        crm_auto_responded: crm.auto_responded || false,
+        crm_trengo_ticket:  crm.trengo_ticket_id || null,
       });
     }
 
