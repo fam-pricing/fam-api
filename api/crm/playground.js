@@ -188,10 +188,10 @@ export default async function handler(req, res) {
       `@Junaid Ahmad @Farhan Wadud @Chahana T. @Afifa A. @Abdul Rehman\n\n` +
       `If you can see this, internal notes with @mentions are working correctly.\n— fäm Bot`;
     try {
-      const r = await fetch(`https://app.trengo.com/api/v2/tickets/${ticketId}/notes`, {
+      const r = await fetch(`https://app.trengo.com/api/v2/tickets/${ticketId}/messages`, {
         method: 'POST',
         headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({ message: note }),
+        body: JSON.stringify({ message: note, internal_note: true }),
       });
       const d = await r.json().catch(() => ({}));
       return res.status(200).json({ ok: r.ok, status: r.status, ticket_id: ticketId, trengo: d });

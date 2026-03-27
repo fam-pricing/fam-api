@@ -165,11 +165,12 @@ async function postTrengoMessage(ticketId, message) {
 async function postTrengoNote(ticketId, note) {
   const token = process.env.TRENGO_TOKEN;
   try {
-    await fetch(`${TRENGO_API}/tickets/${ticketId}/notes`, {
+    const r = await fetch(`${TRENGO_API}/tickets/${ticketId}/messages`, {
       method: 'POST',
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ message: note }),
+      body: JSON.stringify({ message: note, internal_note: true }),
     });
+    if (!r.ok) console.error('[auto-reply] note post failed:', r.status);
   } catch (e) { console.error('[auto-reply] note post failed:', e?.message); }
 }
 
