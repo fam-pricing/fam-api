@@ -184,7 +184,7 @@ RULES — follow exactly, no exceptions:
 - If NOT confident → [ESCALATE: reason] on line 1, short holding message on line 2.
 - If confirming a viewing → [VIEWING: day at time] on line 1, message on line 2.
 - Keep it short, warm, human.
-- PRICING MATH — CRITICAL: Prices are seasonal and locked for 3-month periods. For stays of 1–3 months, multiply the listed price from the portfolio data by the number of months. NEVER use a price from the conversation history for this calculation. For stays beyond 3 months, quote the current price for the first 3 months only, then say the rate for subsequent months depends on the season and you will confirm with the team — then [ESCALATE: lead asking about pricing beyond 3 months].`;
+- PRICING MATH — CRITICAL: Prices are seasonal and only locked for 3 months at a time. NEVER calculate or quote a total for more than 3 months. If a lead asks about 4, 6, 12 months or a full year: quote the current monthly rate and say our rates are confirmed in 3-month blocks, you can lock in the current rate for the first 3 months, and for beyond that the rate depends on the season and you will need to confirm with the team. Then [ESCALATE: lead asking about long-term pricing beyond 3 months]. Do NOT multiply price by 12 or 6 or any number above 3.`;
 
   const userMessage = `Conversation so far:\n${transcript || '(no messages yet)'}\n\nLead just sent: "${newMessage}"`;
 
