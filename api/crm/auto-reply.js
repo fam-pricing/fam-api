@@ -727,7 +727,7 @@ export default async function handler(req, res) {
 
   // Simulate human typing speed (~3 chars/sec on mobile WhatsApp)
   // 2s read time already elapsed above; now add typing time for the reply
-  const typingMs = Math.min(22000, Math.max(4000, reply.length * 55));
+  const typingMs = Math.min(28000, Math.max(5000, reply.length * 80));
   await new Promise(r => setTimeout(r, typingMs));
 
   const sent = await postTrengoMessage(ticketId, reply);
