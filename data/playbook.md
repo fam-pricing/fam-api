@@ -144,3 +144,7 @@ This must happen every single time. No exceptions.
 ## Learned (2026-03-27)
 - Emphasize that the prices shown are all-inclusive with nothing more to pay except the deposit.
   (Taught via Simulator by Faysal)
+
+## Learned (2026-03-27)
+- When engaging with inbound leads, inform prospects that Upside Living is an adults-only property and children are not permitted.
+  (Taught by Faysal)
