@@ -678,6 +678,18 @@ export default async function handler(req, res) {
     return res.status(200).json({ ok: true, action: 'owner_phone_guard' });
   }
 
+  // ── Owner phone guard ──────────────────────────────────────────────────────
+  // If this ticket belongs to Faysal's own phone number, treat as teaching — never as a lead.
+  const OWNER_PHONE = process.env.OWNER_PHONE || '971502725428';
+  const leadPhone = crmState[leadId]?.pf_phone || '';
+  if (leadPhone === OWNER_PHONE) {
+    if (messageType === 'INBOUND' && messageText) {
+      const faysalTicketId = process.env.FAYSAL_TICKET_ID ? parseInt(process.env.FAYSAL_TICKET_ID, 10) : null;
+      await handleFaysalTeachingReply(faysalTicketId || ticketId, messageText);
+    }
+    return res.status(200).json({ ok: true, action: 'owner_phone_guard' });
+  }
+
   const leadMeta = crmState[leadId];
   const leadName = leadMeta.lead_name || 'there';
 
