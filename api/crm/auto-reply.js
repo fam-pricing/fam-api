@@ -656,7 +656,7 @@ export default async function handler(req, res) {
       `Lead: ${leadName}\n` +
       `Property: ${property}\n` +
       `When: ${viewing}\n\n` +
-      `@afifa340123 @junaid731578 @farhan731560 @chahana470168 @abdul315306 — please coordinate.\n\n` +
+      `@Junaid Ahmad @Farhan Wadud @Chahana T. @Afifa A. @Abdul Rehman — please coordinate.\n\n` +
       `— fäm Bot`;
     await postTrengoNote(ticketId, note);
     console.log('[auto-reply] Viewing note posted for', leadName, viewing);

@@ -180,13 +180,12 @@ export default async function handler(req, res) {
 
   // ── Test-note action: post a test internal note to a Trengo ticket ───────────
   if (body.action === 'test-note') {
-    const ticketId = body.ticket_id || process.env.FAYSAL_TICKET_ID;
-    if (!ticketId) return res.status(400).json({ error: 'ticket_id required' });
+    const ticketId = body.ticket_id || 937595459;
     const token = process.env.TRENGO_TOKEN;
     const note =
       `🧪 fäm Bot — internal note test\n\n` +
       `Tagging the team:\n` +
-      `@afifa340123 @junaid731578 @farhan731560 @chahana470168 @abdul315306\n\n` +
+      `@Junaid Ahmad @Farhan Wadud @Chahana T. @Afifa A. @Abdul Rehman\n\n` +
       `If you can see this, internal notes with @mentions are working correctly.\n— fäm Bot`;
     try {
       const r = await fetch(`https://app.trengo.com/api/v2/tickets/${ticketId}/notes`, {
