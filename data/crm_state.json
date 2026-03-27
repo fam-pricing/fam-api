@@ -106,11 +106,17 @@
   },
   "call_lead_11997267": {
     "stage": "lost",
-    "notes": [],
+    "notes": [
+      {
+        "text": "No reply",
+        "ts": "2026-03-27T06:44:19.979Z",
+        "by": "afifa"
+      }
+    ],
     "closed_price": null,
-    "lost_reason": null,
+    "lost_reason": "no_response",
     "created_at": "2026-03-27T06:44:16.538Z",
-    "updated_at": "2026-03-27T06:44:16.538Z",
+    "updated_at": "2026-03-27T06:44:19.979Z",
     "updated_by": "afifa"
   }
 }
