@@ -264,6 +264,44 @@ async function escalateToFaysal(leadName, property, question, trengoTicketId, cr
   console.log(`[auto-reply] Escalated "${question}" to Faysal (escId: ${escId})`);
 }
 
+// ── Classify whether Faysal's message is a playbook rule ─────────────────────
+// Returns true = real rule to save, false = casual chat (greeting, test, ack)
+
+async function classifyAsRule(message) {
+  // Fast path: obvious non-rules (very short greetings / single words)
+  const lower = message.toLowerCase().trim();
+  const obvious = /^(hi|hello|hey|ok|okay|yes|no|test|testing|good|great|thanks|thank you|sure|yep|nope|lol|haha|nice|cool|got it|noted|👍|😊|😄|check|ping|just testing|hi ;|hello ;)/.test(lower);
+  if (obvious || message.length < 6) return false;
+
+  // AI classification for anything ambiguous
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) {
+    // Without AI, require message to have at least one instruction-like word
+    return /never|always|don't|do not|make sure|remember|if|when|reply|say|tell|avoid|use|don't|must|should/.test(lower);
+  }
+
+  try {
+    const r = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 10,
+        messages: [{
+          role: 'user',
+          content: `Is this message a business rule or instruction that should be saved to a sales playbook? Answer only YES or NO.\n\nMessage: "${message}"`,
+        }],
+      }),
+    });
+    if (!r.ok) return true; // default to saving on API error
+    const d = await r.json();
+    const answer = (d?.content?.[0]?.text || '').trim().toUpperCase();
+    return answer.startsWith('YES');
+  } catch {
+    return true; // default to saving if classification fails
+  }
+}
+
 // ── Handle Faysal's teaching reply ───────────────────────────────────────────
 // Called when Faysal replies on his dedicated WA teaching conversation.
 
@@ -278,17 +316,24 @@ async function handleFaysalTeachingReply(faysalTicketId, answer) {
     .trim();
 
   if (!pending.length) {
-    // No pending questions — treat this as a direct playbook teaching
+    // No pending questions — check if this is a real rule or just casual chat
     if (cleanAnswer) {
+      const isRule = await classifyAsRule(cleanAnswer);
+      if (!isRule) {
+        // Casual message (greeting, test, acknowledgment, etc.) — just reply naturally
+        await postTrengoMessage(faysalTicketId,
+          `Hey! No pending questions right now — all quiet. Send me a rule to add anytime, or I'll ping you here when I get stuck with a lead.`);
+        return;
+      }
       const newRule = `- ${cleanAnswer}\n  (Taught directly by Faysal)`;
       await appendToPlaybook(newRule);
       // Increment direct teachings counter so dashboard shows it
       esc.direct_teachings_count = (esc.direct_teachings_count || 0) + 1;
       await writePendingEsc(esc, escSha);
       await postTrengoMessage(faysalTicketId,
-        `✅ *Playbook updated!*\n\n📝 "${cleanAnswer}"\n\nI'll apply this going forward. Send another rule anytime — or I'll ping you here when I get stuck with a lead 📚`);
+        `Got it — playbook updated.\n\n"${cleanAnswer}"\n\nSend another rule anytime, or I'll ping you here when I get stuck with a lead.`);
     } else {
-      await postTrengoMessage(faysalTicketId, `Hey! No pending questions right now. Send me a rule to add to my playbook anytime 📚`);
+      await postTrengoMessage(faysalTicketId, `Hey! No pending questions right now. Send me a rule to add to my playbook anytime.`);
     }
     return;
   }
