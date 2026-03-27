@@ -100,6 +100,40 @@ async function readCRMState() {
   }
 }
 
+async function writeCRMState(state, sha) {
+  const ghToken = process.env.GH_TOKEN;
+  if (!ghToken) return;
+  const content = Buffer.from(JSON.stringify(state, null, 2)).toString('base64');
+  await fetch(`${GH_API}/repos/${REPO}/contents/${CRM_FILE}`, {
+    method: 'PUT',
+    headers: {
+      Authorization: `Bearer ${ghToken}`,
+      Accept: 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      message: 'CRM: auto-respond new leads',
+      content,
+      sha,
+    }),
+  });
+}
+
+// Hit responseLink so PF marks the lead as RESPONDED (preserves response rate).
+// Returns the lead phone extracted from the wa.me redirect URL (if available).
+async function autoRespond(responseLink) {
+  if (!responseLink) return null;
+  try {
+    const r = await fetch(responseLink, { redirect: 'manual' });
+    const location = r.headers.get('location') || '';
+    // location = https://api.whatsapp.com/send?phone=971XXXXXXX&text=...
+    const match = location.match(/[?&]phone=(\d+)/);
+    return match ? match[1] : null;
+  } catch {
+    return null;
+  }
+}
+
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
@@ -140,6 +174,32 @@ export default async function handler(req, res) {
     // Load ref_mapping for building names
     const refMapping = require('../../data/ref_mapping.json');
 
+    // --- AUTO-RESPOND: hit responseLink for any lead not yet responded to ---
+    // Fire all requests in parallel, update crmState, write back once.
+    const newLeads = rawLeads.filter(l => l.responseLink && !crmState[l.id]?.auto_responded);
+    let stateChanged = false;
+    if (newLeads.length > 0) {
+      const results = await Promise.all(
+        newLeads.map(async l => ({
+          id: l.id,
+          phone: await autoRespond(l.responseLink),
+        }))
+      );
+      for (const { id, phone } of results) {
+        crmState[id] = crmState[id] || { stage: 'new', notes: [] };
+        crmState[id].auto_responded = true;
+        crmState[id].auto_responded_at = new Date().toISOString();
+        if (phone) crmState[id].pf_phone = phone;
+        stateChanged = true;
+      }
+      if (stateChanged) {
+        // Re-read SHA fresh before writing to avoid conflicts
+        const { sha: freshSha } = await readCRMState();
+        await writeCRMState(crmState, freshSha);
+      }
+    }
+    // --- END AUTO-RESPOND ---
+
     const leads = [];
     for (const l of rawLeads) {
       const profileId = l.publicProfile?.id ?? null;
@@ -177,13 +237,14 @@ export default async function handler(req, res) {
         crm_lost_reason:  crm.lost_reason  ?? null,
         crm_updated_at:   crm.updated_at   ?? null,
         crm_updated_by:   crm.updated_by   ?? null,
+        auto_responded:   crm.auto_responded || false,
       });
     }
 
     // Newest first
     leads.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 
-    return res.status(200).json({ leads, total: leads.length, days });
+    return res.status(200).json({ leads, total: leads.length, days, auto_responded: newLeads.length });
 
   } catch (err) {
     console.error('[crm/leads]', err);
