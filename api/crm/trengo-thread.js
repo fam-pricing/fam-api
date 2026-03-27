@@ -3,11 +3,30 @@
 // Auth: same JWT as dashboard (role >= viewer)
 
 import { requireAuth } from '../_auth.js';
+import fs   from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname     = path.dirname(fileURLToPath(import.meta.url));
+const PLAYBOOK_PATH = path.join(__dirname, '../../data/playbook.md');
 
 const GH_API        = 'https://api.github.com';
 const TRENGO_API    = 'https://app.trengo.com/api/v2';
 const REPO          = 'fam-pricing/fam-api';
 const CRM_FILE      = 'data/crm_state.json';
+
+// ── Playbook loader ────────────────────────────────────────────────────────────
+
+function loadPlaybook() {
+  try {
+    if (fs.existsSync(PLAYBOOK_PATH)) {
+      return fs.readFileSync(PLAYBOOK_PATH, 'utf8').trim();
+    }
+  } catch (e) {
+    console.warn('[trengo-thread] Could not load playbook:', e?.message);
+  }
+  return '';
+}
 
 // ── CRM state ─────────────────────────────────────────────────────────────────
 
@@ -93,9 +112,10 @@ async function generateSummary(messages, leadMeta, leadName) {
 
   const transcript = texts.map(m => `${m.from}: ${m.text}`).join('\n');
   const property   = leadMeta?.listing_title || 'unknown property';
+  const playbook   = loadPlaybook();
 
   const prompt = `You are a CRM assistant for fäm Living, a Dubai holiday home rental company.
-
+${playbook ? `\n## Business Rules (Playbook)\n${playbook}\n` : ''}
 A lead enquired about: ${property}
 
 Here is the WhatsApp conversation so far:
@@ -104,7 +124,7 @@ ${transcript}
 Write a SHORT 2–3 sentence summary for the agent covering:
 1. Current status — has the lead replied? Are they interested?
 2. What the lead said or asked (if anything)
-3. Recommended next action
+3. Recommended next action — based on the playbook rules above
 
 Be direct and practical. No bullet points. No markdown. Plain text only.`;
 
