@@ -488,11 +488,8 @@ async function getPortfolioListings(messageText) {
 
     return Object.entries(byArea)
       .map(([area, items]) => `${area}:
-${items.map(i => `  • ${i}`).join('
-')}`)
-      .join('
-
-');
+${items.map(i => `  • ${i}`).join('\n')}`)
+      .join('\n\n');
   } catch (e) {
     console.warn('[auto-reply] portfolio lookup failed:', e?.message);
     return null;
