@@ -137,3 +137,7 @@ This must happen every single time. No exceptions.
 ## Learned (2026-03-27)
 - Never use em dashes in communications with leads.
   (Taught by Faysal)
+
+## Learned (2026-03-27)
+- Avoid responding to customer inquiries immediately; allow time to pass before replying to create the impression of a thoughtful, considered response.
+  (Taught via Simulator by Faysal)
