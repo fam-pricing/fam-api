@@ -125,7 +125,7 @@ Be direct and practical. No bullet points. No markdown. Plain text only.`;
     if (!r.ok) {
       const errBody = await r.text().catch(() => String(r.status));
       console.error('[trengo-thread] Anthropic error', r.status, errBody);
-      return '[API_FAIL] ' + ruleSummary(messages, leadMeta, leadName);
+      return '[API_FAIL_' + r.status + '] ' + errBody.slice(0,150);
     }
     const d = await r.json();
     const aiText = d?.content?.[0]?.text?.trim();
