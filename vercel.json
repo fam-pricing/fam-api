@@ -8,6 +8,9 @@
     },
     "api/cron/auto-followup.js": {
       "maxDuration": 60
+    },
+    "api/crm/auto-reply.js": {
+      "maxDuration": 30
     }
   },
   "crons": [
