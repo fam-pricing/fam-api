@@ -151,11 +151,17 @@
   },
   "message_lead_28457770": {
     "stage": "lost",
-    "notes": [],
+    "notes": [
+      {
+        "text": "No availability",
+        "ts": "2026-03-27T06:46:08.572Z",
+        "by": "afifa"
+      }
+    ],
     "closed_price": null,
-    "lost_reason": null,
+    "lost_reason": "not_available",
     "created_at": "2026-03-27T06:45:59.965Z",
-    "updated_at": "2026-03-27T06:45:59.965Z",
+    "updated_at": "2026-03-27T06:46:08.572Z",
     "updated_by": "afifa"
   }
 }
