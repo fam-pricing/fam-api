@@ -1,6 +1,6 @@
 // api/playbook.js — GET read / POST save the AI playbook
-// GET: any authenticated user can read
-// POST: requires admin (level 3)
+// GET: owner only
+// POST: owner only
 
 const fs   = require('fs');
 const path = require('path');
@@ -16,7 +16,7 @@ module.exports = async (req, res) => {
 
   // ── GET ──────────────────────────────────────────────────────────────
   if (req.method === 'GET') {
-    const user = requireAuth(req, res, 'agent');
+    const user = requireAuth(req, res, 'owner');
     if (!user) return;
     try {
       const content = fs.existsSync(PLAYBOOK_PATH)
@@ -30,7 +30,7 @@ module.exports = async (req, res) => {
 
   // ── POST ─────────────────────────────────────────────────────────────
   if (req.method === 'POST') {
-    const user = requireAuth(req, res, 'admin');
+    const user = requireAuth(req, res, 'owner');
     if (!user) return;
 
     let body = '';
