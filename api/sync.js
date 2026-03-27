@@ -16,7 +16,6 @@ const AGENT_MAP = {
 };
 
 const BED_OVERRIDES = {
-  'Burj Crown|3BR':        '4BR',
   'Sunrise Bay T1|3BR':    '4BR',
   'Reehan 1 Old Town|2BR': '3BR',
   'Marina Star|Studio':    '1BR',
