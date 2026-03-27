@@ -51,12 +51,13 @@ async function getTrengoMessages(ticketId) {
 // ── Summary generator ─────────────────────────────────────────────────────────
 
 // Fallback rule-based summary (used when AI API is unavailable)
-function ruleSummary(messages, leadMeta) {
+function ruleSummary(messages, leadMeta, leadName) {
+  leadName = leadName || 'Lead';
   if (!messages.length) return 'No messages yet — template was just sent.';
   const texts = messages
     .filter(m => m.message || m.body || m.text)
     .map(m => ({
-      from: m.type?.toUpperCase() === 'INBOUND' ? 'Lead' : 'Agent',
+      from: m.type?.toUpperCase() === 'INBOUND' ? leadName : (m.agent?.name || 'Agent'),
       text: (m.message || m.body || m.text || '').trim(),
     }))
     .filter(m => m.text);
@@ -73,7 +74,8 @@ function ruleSummary(messages, leadMeta) {
 }
 
 // AI summary via Anthropic Messages API (native fetch, no npm)
-async function generateSummary(messages, leadMeta) {
+async function generateSummary(messages, leadMeta, leadName) {
+  leadName = leadName || 'Lead';
   const apiKey = process.env.ANTHROPIC_API_KEY;
 
   // Build conversation transcript
@@ -87,7 +89,7 @@ async function generateSummary(messages, leadMeta) {
 
   if (!texts.length) return 'No messages yet — template was just sent.';
 
-  if (!apiKey) return ruleSummary(messages, leadMeta);
+  if (!apiKey) return ruleSummary(messages, leadMeta, leadName);
 
   const transcript = texts.map(m => `${m.from}: ${m.text}`).join('\n');
   const property   = leadMeta?.listing_title || 'unknown property';
@@ -120,11 +122,11 @@ Be direct and practical. No bullet points. No markdown. Plain text only.`;
         messages:   [{ role: 'user', content: prompt }],
       }),
     });
-    if (!r.ok) return ruleSummary(messages, leadMeta);
+    if (!r.ok) return ruleSummary(messages, leadMeta, leadName);
     const d = await r.json();
-    return d?.content?.[0]?.text?.trim() || ruleSummary(messages, leadMeta);
+    return d?.content?.[0]?.text?.trim() || ruleSummary(messages, leadMeta, leadName);
   } catch {
-    return ruleSummary(messages, leadMeta);
+    return ruleSummary(messages, leadMeta, leadName);
   }
 }
 
@@ -139,7 +141,8 @@ export default async function handler(req, res) {
   const user = requireAuth(req, res, 'agent');
   if (!user) return;
 
-  const { lead_id } = req.query;
+  const { lead_id, lead_name } = req.query;
+  const leadName = lead_name || 'Lead';
   if (!lead_id) return res.status(400).json({ error: 'lead_id required' });
 
   try {
@@ -177,11 +180,11 @@ export default async function handler(req, res) {
       from:      m.type?.toUpperCase() === 'INBOUND' ? 'lead' : 'agent',
       text:      m.message || m.body || m.text || '',
       time:      m.created_at || m.timestamp || '',
-      author:    m.type?.toUpperCase() === 'INBOUND' ? (m.contact?.name || 'Lead') : (m.agent?.name || 'Agent'),
+      author:    m.type?.toUpperCase() === 'INBOUND' ? leadName : (m.agent?.name || 'Agent'),
     })).filter(m => m.text);
 
     // 4. Generate summary
-    const summary = await generateSummary(messages, leadMeta);
+    const summary = await generateSummary(messages, leadMeta, leadName);
 
     return res.status(200).json({
       ok:       true,
