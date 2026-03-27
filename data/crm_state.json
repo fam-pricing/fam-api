@@ -663,12 +663,19 @@
   },
   "message_lead_28423538": {
     "stage": "lost",
-    "notes": [],
+    "notes": [
+      {
+        "text": "duplicated lead",
+        "ts": "2026-03-27T07:09:59.971Z",
+        "by": "afifa"
+      }
+    ],
     "auto_responded": true,
     "auto_responded_at": "2026-03-27T06:57:57.075Z",
     "pf_phone": "971567300866",
-    "updated_at": "2026-03-27T07:09:50.749Z",
-    "updated_by": "afifa"
+    "updated_at": "2026-03-27T07:09:59.971Z",
+    "updated_by": "afifa",
+    "lost_reason": "other"
   },
   "message_lead_28423534": {
     "stage": "new",
