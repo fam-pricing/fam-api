@@ -3,30 +3,11 @@
 // Auth: same JWT as dashboard (role >= viewer)
 
 import { requireAuth } from '../_auth.js';
-import fs   from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __dirname     = path.dirname(fileURLToPath(import.meta.url));
-const PLAYBOOK_PATH = path.join(__dirname, '../../data/playbook.md');
 
 const GH_API        = 'https://api.github.com';
 const TRENGO_API    = 'https://app.trengo.com/api/v2';
 const REPO          = 'fam-pricing/fam-api';
 const CRM_FILE      = 'data/crm_state.json';
-
-// ── Playbook loader ────────────────────────────────────────────────────────────
-
-function loadPlaybook() {
-  try {
-    if (fs.existsSync(PLAYBOOK_PATH)) {
-      return fs.readFileSync(PLAYBOOK_PATH, 'utf8').trim();
-    }
-  } catch (e) {
-    console.warn('[trengo-thread] Could not load playbook:', e?.message);
-  }
-  return '';
-}
 
 // ── CRM state ─────────────────────────────────────────────────────────────────
 
@@ -168,31 +149,37 @@ export default async function handler(req, res) {
   const user = requireAuth(req, res, 'agent');
   if (!user) return;
 
-  const { lead_id, lead_name } = req.query;
+  const { lead_id, lead_name, ticket_id: directTicketId } = req.query;
   const leadName = lead_name || 'Lead';
-  if (!lead_id) return res.status(400).json({ error: 'lead_id required' });
+  if (!lead_id && !directTicketId) return res.status(400).json({ error: 'lead_id or ticket_id required' });
 
   try {
-    // 1. Get CRM state to find Trengo ticket ID
-    const crmState = await readCRMState();
-    const leadMeta = crmState[lead_id];
-
-    if (!leadMeta) {
-      return res.status(404).json({ error: 'Lead not found in CRM' });
-    }
-
-    const ticketId = leadMeta.trengo_ticket_id;
+    // If ticket_id passed directly (from frontend crm_trengo_ticket), skip GitHub lookup
+    let ticketId = directTicketId ? parseInt(directTicketId) : null;
+    let leadMeta = null;
 
     if (!ticketId) {
-      return res.status(200).json({
-        ok:       true,
-        ticket:   null,
-        messages: [],
-        summary:  leadMeta.auto_responded
-          ? 'Trengo ticket not yet created — lead may have no phone number.'
-          : 'Lead not yet auto-responded.',
-        meta:     leadMeta,
-      });
+      // 1. Get CRM state to find Trengo ticket ID
+      const crmState = await readCRMState();
+      leadMeta = crmState[lead_id];
+
+      if (!leadMeta) {
+        return res.status(404).json({ error: 'Lead not found in CRM' });
+      }
+
+      ticketId = leadMeta.trengo_ticket_id;
+
+      if (!ticketId) {
+        return res.status(200).json({
+          ok:       true,
+          ticket:   null,
+          messages: [],
+          summary:  leadMeta.auto_responded
+            ? 'Trengo ticket not yet created — lead may have no phone number.'
+            : 'Lead not yet auto-responded.',
+          meta:     leadMeta,
+        });
+      }
     }
 
     // 2. Fetch ticket + messages from Trengo in parallel
@@ -210,8 +197,8 @@ export default async function handler(req, res) {
       author:    m.type?.toUpperCase() === 'INBOUND' ? leadName : (m.agent?.name || 'Agent'),
     })).filter(m => m.text);
 
-    // 4. Generate summary
-    const summary = await generateSummary(messages, leadMeta, leadName);
+    // 4. Generate summary (rule-based — fast, no extra API call)
+    const summary = ruleSummary(messages, leadMeta || {}, leadName);
 
     return res.status(200).json({
       ok:       true,
