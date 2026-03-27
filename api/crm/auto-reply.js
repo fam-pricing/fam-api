@@ -271,18 +271,32 @@ async function handleFaysalTeachingReply(faysalTicketId, answer) {
   const { esc, sha: escSha } = await readPendingEsc();
   const pending = (esc.pending || []).filter(e => !e.answered_at);
 
+  // Strip common trigger phrases ("update playbook", "remember", etc.)
+  const cleanAnswer = answer
+    .replace(/^(update playbook[,:]?\s*|remember[,:]?\s*|add to playbook[,:]?\s*)/i, '')
+    .replace(/\s*(update playbook|add to playbook)\.?$/i, '')
+    .trim();
+
   if (!pending.length) {
-    await postTrengoMessage(faysalTicketId, `Hey! No pending questions right now. I'll message you the next time I get stuck 📚`);
+    // No pending questions — treat this as a direct playbook teaching
+    if (cleanAnswer) {
+      const newRule = `- ${cleanAnswer}\n  (Taught directly by Faysal)`;
+      await appendToPlaybook(newRule);
+      await postTrengoMessage(faysalTicketId,
+        `✅ *Playbook updated!*\n\n📝 "${cleanAnswer}"\n\nI'll apply this going forward. Send another rule anytime — or I'll ping you here when I get stuck with a lead 📚`);
+    } else {
+      await postTrengoMessage(faysalTicketId, `Hey! No pending questions right now. Send me a rule to add to my playbook anytime 📚`);
+    }
     return;
   }
 
-  // Match to current question (most recent unanswered)
+  // There ARE pending questions — Faysal's message answers the current one
   const current = pending.sort((a, b) => new Date(b.escalated_at) - new Date(a.escalated_at))[0];
 
   console.log(`[auto-reply] Faysal answered Q: "${current.question}" → "${answer}"`);
 
-  // Update playbook with new rule
-  const newRule = `- If a lead asks: "${current.question}" → Reply: "${answer}"\n  (Taught by Faysal for ${current.lead_name} re ${current.property})`;
+  // Update playbook with the Q&A rule
+  const newRule = `- If a lead asks: "${current.question}" → Reply: "${cleanAnswer || answer}"\n  (Taught by Faysal for ${current.lead_name} re ${current.property})`;
   await appendToPlaybook(newRule);
 
   // Mark as answered
