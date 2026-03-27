@@ -89,7 +89,7 @@ async function generateSummary(messages, leadMeta, leadName) {
 
   if (!texts.length) return 'No messages yet — template was just sent.';
 
-  if (!apiKey) { console.error('[trengo-thread] ANTHROPIC_API_KEY not set'); return ruleSummary(messages, leadMeta, leadName); }
+  if (!apiKey) { console.error('[trengo-thread] ANTHROPIC_API_KEY not set'); return '[NO_KEY] ' + ruleSummary(messages, leadMeta, leadName); }
 
   const transcript = texts.map(m => `${m.from}: ${m.text}`).join('\n');
   const property   = leadMeta?.listing_title || 'unknown property';
