@@ -8,6 +8,7 @@ import { requireAuth } from '../_auth.js';
 const GH_API       = 'https://api.github.com';
 const REPO         = 'fam-pricing/fam-api';
 const PLAYBOOK_FILE = 'data/playbook.md';
+const LISTINGS_FILE = 'data/listings.json';
 
 // ── Load live playbook from GitHub ────────────────────────────────────────────
 
@@ -86,16 +87,93 @@ Raw input: "${rawMessage}"`,
 
 // ── Bot reply using Claude (same logic as auto-reply.js) ──────────────────────
 
+
+// ── Portfolio lookup (mirrors auto-reply.js) ──────────────────────────────────
+
+async function ghReadJSON(file) {
+  const ghToken = process.env.GH_TOKEN;
+  if (!ghToken) return null;
+  const r = await fetch(`https://api.github.com/repos/fam-pricing/fam-api/contents/${file}`, {
+    headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json' },
+  });
+  if (!r.ok) return null;
+  const d = await r.json();
+  try { return JSON.parse(Buffer.from(d.content.replace(/\n/g, ''), 'base64').toString('utf8')); }
+  catch { return null; }
+}
+
+async function getPortfolioListings(messageText) {
+  try {
+    const data = await ghReadJSON(LISTINGS_FILE);
+    if (!data || !Array.isArray(data)) return null;
+
+    const msg = messageText.toLowerCase();
+    const areaKeywords = {
+      'business bay': 'Business Bay',
+      'downtown': 'Downtown',
+      'city walk': 'City Walk',
+      'jvc': 'JVC',
+      'dubai marina': 'Dubai Marina',
+      'dubai hills': 'Dubai Hills',
+      'creek harbour': 'Dubai Creek Harbour',
+      'dubai creek': 'Dubai Creek Harbour',
+      'sports city': 'Dubai Sports City',
+      'palm': 'Palm Jumeirah',
+      'marina': 'Dubai Marina',
+      'jbr': 'JBR',
+    };
+
+    let filter = null;
+    for (const [kw, area] of Object.entries(areaKeywords)) {
+      if (msg.includes(kw)) { filter = area; break; }
+    }
+
+    const listings = filter
+      ? data.filter(l => l.area && l.area.toLowerCase().includes(filter.toLowerCase()))
+      : data;
+
+    if (!listings.length) return null;
+
+    const byArea = {};
+    listings.forEach(l => {
+      const a = l.area || 'Other';
+      if (!byArea[a]) byArea[a] = [];
+      byArea[a].push(`${l.beds} in ${l.building} — AED ${Number(l.price).toLocaleString()}/mo`);
+    });
+
+    return Object.entries(byArea)
+      .map(([area, items]) => `${area}:\n${items.map(i => `  • ${i}`).join('\n')}`)
+      .join('\n\n');
+  } catch (e) {
+    console.warn('[playground] portfolio lookup failed:', e?.message);
+    return null;
+  }
+}
+
+function isPortfolioQuestion(text) {
+  const t = text.toLowerCase();
+  return /option|propert|listing|available|avail|apartment|studio|\bunit\b|what else|show me|give me|what.*have|have.*what|portfolio|inventory|what do you|do you have/.test(t);
+}
+
 async function generateReply(history, newMessage, leadName, property, playbook) {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) return { reply: null, escalate: true, reason: 'No ANTHROPIC_API_KEY configured' };
+
+  // Inject live portfolio data if the lead is asking about available options
+  let portfolioContext = '';
+  if (isPortfolioQuestion(newMessage)) {
+    const listings = await getPortfolioListings(newMessage);
+    if (listings) {
+      portfolioContext = `\n\n## Active fäm Living Portfolio (live prices)\n${listings}\n`;
+    }
+  }
 
   const transcript = history
     .slice(-10)
     .map(m => `${m.from === 'lead' ? leadName : 'Agent'}: ${m.text}`)
     .join('\n');
 
-  const prompt = `${playbook}
+  const prompt = `${playbook}${portfolioContext}
 
 ---
 
@@ -111,6 +189,7 @@ Instructions:
 - Reply naturally as a warm human team member on WhatsApp. Short, friendly, direct.
 - Follow ALL rules in the playbook above — pricing, discounts, tone, cross-sell, etc.
 - If confident: output ONLY the message to send. Nothing else. No labels.
+- If asked about available options or portfolio: use the Active fäm Living Portfolio section above — never escalate for portfolio questions.
 - If NOT confident (don't know price, availability, a specific detail): output [ESCALATE: reason] on line 1, then the holding message on line 2 (e.g. "Let me check that for you and come back shortly!").
 - If you are confirming a specific viewing date AND time with the lead in your reply: output [VIEWING: <day> at <time>] on line 1, then your reply message on line 2.
 
