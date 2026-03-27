@@ -5,6 +5,13 @@
 
 const PF_API = 'https://atlas.propertyfinder.com';
 
+// PF publicProfile ID → display name (same as leads.js)
+const AGENT_MAP = {
+  239575: 'Afifa Al Shami',
+  280624: 'Ahmed A.',
+  237124: 'Joel V.',
+};
+
 const BED_OVERRIDES = {
   'Burj Crown|3BR':        '4BR',
   'Sunrise Bay T1|3BR':    '4BR',
@@ -147,8 +154,13 @@ export default async function handler(req, res) {
         if (portal_prices[ppKey]) price = portal_prices[ppKey];
       }
 
+      // Resolve agent name from publicProfile ID
+      const profileId = l.publicProfile?.id ?? null;
+      const agent = profileId ? (AGENT_MAP[profileId] || `Agent #${profileId}`) : '—';
+
       const row = {
         time:     timeStr,
+        agent:    agent,
         building: building,
         price:    price,
         status:   (l.status || 'SENT').toUpperCase(), // PF returns lowercase, dashboard expects uppercase

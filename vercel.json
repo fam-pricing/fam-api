@@ -17,6 +17,15 @@
     },
     "api/crm/bot-status.js": {
       "maxDuration": 15
+    },
+    "api/crm/leads.js": {
+      "maxDuration": 30
+    },
+    "api/crm/trengo-thread.js": {
+      "maxDuration": 30
+    },
+    "api/crm/update.js": {
+      "maxDuration": 15
     }
   },
   "crons": [
