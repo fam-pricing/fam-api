@@ -126,3 +126,7 @@ This must happen every single time. No exceptions.
 ## Learned (2026-03-27)
 - Verify lead names through direct conversation before using them in messaging. Do not rely on WhatsApp display names, as these may be inaccurate or incomplete. When in doubt, ask for their name rather than assume.
   (Taught by Faysal)
+
+## Learned (2026-03-27)
+- Introduce a slight delay before responding to leads to maintain a human-like cadence and avoid appearing robotic or AI-generated.
+  (Taught by Faysal)
