@@ -130,3 +130,7 @@ This must happen every single time. No exceptions.
 ## Learned (2026-03-27)
 - Introduce a slight delay before responding to leads to maintain a human-like cadence and avoid appearing robotic or AI-generated.
   (Taught by Faysal)
+
+## Learned (2026-03-27)
+- Never use em dashes in communications with leads.
+  (Taught by Faysal)
