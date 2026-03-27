@@ -125,14 +125,14 @@ Be direct and practical. No bullet points. No markdown. Plain text only.`;
     if (!r.ok) {
       const errBody = await r.text().catch(() => String(r.status));
       console.error('[trengo-thread] Anthropic error', r.status, errBody);
-      return ruleSummary(messages, leadMeta, leadName);
+      return '[API_FAIL] ' + ruleSummary(messages, leadMeta, leadName);
     }
     const d = await r.json();
     const aiText = d?.content?.[0]?.text?.trim();
     return aiText || ruleSummary(messages, leadMeta, leadName);
   } catch (e) {
     console.error('[trengo-thread] Anthropic fetch failed', e?.message);
-    return ruleSummary(messages, leadMeta, leadName);
+    return '[CATCH] ' + ruleSummary(messages, leadMeta, leadName);
   }
 }
 
