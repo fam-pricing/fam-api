@@ -23,6 +23,7 @@ const REPO       = 'fam-pricing/fam-api';
 const CRM_FILE        = 'data/crm_state.json';
 const PENDING_FILE    = 'data/pending_escalations.json';
 const PLAYBOOK_FILE   = 'data/playbook.md';
+const LISTINGS_FILE   = 'data/listings.json';
 
 const DUBAI_OFFSET_HOURS = 4;
 const NIGHT_START = 21;
@@ -441,6 +442,70 @@ async function learnFromAfifaReply(ticketId, agentMessage, leadMeta, crmState, l
   await postTrengoNote(ticketId, `✅ Bot learned from your reply and updated the playbook.`);
 }
 
+
+// ── Portfolio lookup ──────────────────────────────────────────────────────────
+// Reads data/listings.json (refreshed on every Sync) to answer portfolio questions.
+
+async function getPortfolioListings(messageText) {
+  try {
+    const { data } = await ghRead(LISTINGS_FILE);
+    if (!data || !Array.isArray(data)) return null;
+
+    // Try to detect a specific area from the message
+    const msg = messageText.toLowerCase();
+    const areaKeywords = {
+      'business bay': 'Business Bay',
+      'downtown': 'Downtown',
+      'city walk': 'City Walk',
+      'jvc': 'JVC',
+      'dubai marina': 'Dubai Marina',
+      'dubai hills': 'Dubai Hills',
+      'creek harbour': 'Dubai Creek Harbour',
+      'dubai creek': 'Dubai Creek Harbour',
+      'sports city': 'Dubai Sports City',
+      'palm': 'Palm Jumeirah',
+      'marina': 'Dubai Marina',
+      'jbr': 'JBR',
+    };
+
+    let filter = null;
+    for (const [kw, area] of Object.entries(areaKeywords)) {
+      if (msg.includes(kw)) { filter = area; break; }
+    }
+
+    const listings = filter
+      ? data.filter(l => l.area && l.area.toLowerCase().includes(filter.toLowerCase()))
+      : data;
+
+    if (!listings.length) return null;
+
+    // Group by area
+    const byArea = {};
+    listings.forEach(l => {
+      const a = l.area || 'Other';
+      if (!byArea[a]) byArea[a] = [];
+      byArea[a].push(`${l.beds} in ${l.building} — AED ${Number(l.price).toLocaleString()}/mo`);
+    });
+
+    return Object.entries(byArea)
+      .map(([area, items]) => `${area}:
+${items.map(i => `  • ${i}`).join('
+')}`)
+      .join('
+
+');
+  } catch (e) {
+    console.warn('[auto-reply] portfolio lookup failed:', e?.message);
+    return null;
+  }
+}
+
+// Returns true if the message is asking about available listings/options
+function isPortfolioQuestion(text) {
+  const t = text.toLowerCase();
+  return /what.*(option|propert|list|avail|unit|apart|studio|bedroom|have in|do you have)|any.*(avail|propert|option|unit)|show me|what else|other propert|other option|portfolio|available in/.test(t);
+}
+
 // ── Claude AI reply ───────────────────────────────────────────────────────────
 
 async function generateReply(conversation, leadMeta, newMessage, leadName) {
@@ -448,6 +513,16 @@ async function generateReply(conversation, leadMeta, newMessage, leadName) {
   const playbook = await loadPlaybook();
 
   if (!apiKey) return { reply: null, escalate: true, reason: 'No API key' };
+
+  // Inject live portfolio data if the lead is asking about available options
+  let portfolioContext = '';
+  if (isPortfolioQuestion(newMessage)) {
+    const listings = await getPortfolioListings(newMessage);
+    if (listings) {
+      portfolioContext = `\n\n## Active fäm Living Portfolio (live prices)\n${listings}\n`;
+      console.log('[auto-reply] Portfolio injected into prompt');
+    }
+  }
 
   const history = conversation
     .slice(-10)
@@ -460,7 +535,7 @@ async function generateReply(conversation, leadMeta, newMessage, leadName) {
 
   const property = leadMeta?.listing_title || 'the property';
 
-  const prompt = `${playbook}
+  const prompt = `${playbook}${portfolioContext}
 
 ---
 
@@ -476,6 +551,7 @@ Instructions:
 - Reply naturally as a warm human team member on WhatsApp. Short, friendly, direct.
 - Follow ALL rules in the playbook above — pricing, discounts, tone, cross-sell, etc.
 - If confident: output ONLY the message to send. Nothing else. No labels.
+- If asked about available options or portfolio: use the Active fäm Living Portfolio section above — never escalate for portfolio questions.
 - If NOT confident (don't know price, availability, a specific detail): output [ESCALATE: reason] on line 1, then the holding message on line 2 (e.g. "Let me check that for you and come back shortly!").
 - If you are confirming a specific viewing date AND time with the lead in your reply: output [VIEWING: <day> at <time>] on line 1, then your reply message on line 2.
 
@@ -657,7 +733,7 @@ export default async function handler(req, res) {
       `Lead: ${leadName}\n` +
       `Property: ${property}\n` +
       `When: ${viewing}\n\n` +
-      `@Junaid Ahmad @Farhan Wadud @Chahana T. @Afifa A. @Abdul Rehman — please coordinate.\n\n` +
+      `@junaid731578 @farhan731560 @chahana470168 @afifa340123 @abdul315306 — please coordinate.\n\n` +
       `— fäm Bot`;
     await postTrengoNote(ticketId, note);
     console.log('[auto-reply] Viewing note posted for', leadName, viewing);
