@@ -138,7 +138,9 @@ export default async function handler(req, res) {
     }
 
     // Load ref_mapping for building names
-    const refMapping = (await import('../../data/ref_mapping.json', { assert: { type: 'json' } })).default;
+    const { readFileSync } = await import('fs');
+    const { join } = await import('path');
+    const refMapping = JSON.parse(readFileSync(join(process.cwd(), 'data', 'ref_mapping.json'), 'utf8'));
 
     const leads = [];
     for (const l of rawLeads) {
