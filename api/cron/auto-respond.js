@@ -233,17 +233,19 @@ export default async function handler(req, res) {
         }
       }
 
-      return { id: lead.id, phone, listingTitle, trengoTicketId };
+      const leadName = lead.sender?.name || null;
+      return { id: lead.id, phone, listingTitle, trengoTicketId, leadName };
     }));
 
     // Write results back to CRM state
-    for (const { id, phone, listingTitle, trengoTicketId } of results) {
+    for (const { id, phone, listingTitle, trengoTicketId, leadName } of results) {
       crmState[id] = crmState[id] || { stage: 'new', notes: [] };
       crmState[id].auto_responded    = true;
       crmState[id].auto_responded_at = new Date().toISOString();
-      if (phone)          crmState[id].pf_phone       = phone;
-      if (listingTitle)   crmState[id].listing_title  = listingTitle;
+      if (phone)          crmState[id].pf_phone         = phone;
+      if (listingTitle)   crmState[id].listing_title    = listingTitle;
       if (trengoTicketId) crmState[id].trengo_ticket_id = trengoTicketId;
+      if (leadName)       crmState[id].lead_name        = leadName;
     }
 
     await writeCRMState(crmState, sha);

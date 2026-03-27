@@ -5,12 +5,19 @@
     },
     "api/cron/auto-respond.js": {
       "maxDuration": 60
+    },
+    "api/cron/auto-followup.js": {
+      "maxDuration": 60
     }
   },
   "crons": [
     {
       "path": "/api/cron/auto-respond",
       "schedule": "* * * * *"
+    },
+    {
+      "path": "/api/cron/auto-followup",
+      "schedule": "0 * * * *"
     }
   ]
 }
