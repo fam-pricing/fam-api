@@ -475,7 +475,8 @@ Instructions:
 - Reply naturally as a warm human team member on WhatsApp. Short, friendly, direct.
 - Follow ALL rules in the playbook above — pricing, discounts, tone, cross-sell, etc.
 - If confident: output ONLY the message to send. Nothing else. No labels.
-- If NOT confident (don't know price, availability, a specific detail): output [ESCALATE: reason] on line 1, then the holding message on line 2 (e.g. "Let me check that for you and come back shortly! 😊").
+- If NOT confident (don't know price, availability, a specific detail): output [ESCALATE: reason] on line 1, then the holding message on line 2 (e.g. "Let me check that for you and come back shortly!").
+- If you are confirming a specific viewing date AND time with the lead in your reply: output [VIEWING: <day> at <time>] on line 1, then your reply message on line 2.
 
 Sound human. Never sound like AI.`;
 
@@ -499,11 +500,18 @@ Sound human. Never sound like AI.`;
     if (text.startsWith('[ESCALATE:')) {
       const lines      = text.split('\n');
       const reason     = lines[0].replace('[ESCALATE:', '').replace(']', '').trim();
-      const holdingMsg = lines.slice(1).join('\n').trim() || "Let me check that for you and come back shortly! 😊";
-      return { reply: holdingMsg, escalate: true, reason };
+      const holdingMsg = lines.slice(1).join('\n').trim() || "Let me check that for you and come back shortly!";
+      return { reply: holdingMsg, escalate: true, reason, viewing: null };
     }
 
-    return { reply: text, escalate: false, reason: null };
+    if (text.startsWith('[VIEWING:')) {
+      const lines      = text.split('\n');
+      const when       = lines[0].replace('[VIEWING:', '').replace(']', '').trim();
+      const replyText  = lines.slice(1).join('\n').trim() || text;
+      return { reply: replyText, escalate: false, reason: null, viewing: when };
+    }
+
+    return { reply: text, escalate: false, reason: null, viewing: null };
 
   } catch (err) {
     console.error('[auto-reply] Claude call failed:', err?.message);
@@ -629,7 +637,7 @@ export default async function handler(req, res) {
 
   const conversation = await getTrengoMessages(ticketId);
   await new Promise(r => setTimeout(r, REPLY_DELAY_MS));
-  const { reply, escalate, reason } = await generateReply(conversation, leadMeta, messageText, leadName);
+  const { reply, escalate, reason, viewing } = await generateReply(conversation, leadMeta, messageText, leadName);
 
   if (escalate) {
     if (reply) await postTrengoMessage(ticketId, reply);
@@ -640,11 +648,25 @@ export default async function handler(req, res) {
 
   const sent = await postTrengoMessage(ticketId, reply);
 
+  // If a viewing was just confirmed, post an internal note tagging the team
+  if (viewing) {
+    const property = leadMeta?.listing_title || 'the property';
+    const note =
+      `📅 Viewing confirmed by bot\n\n` +
+      `Lead: ${leadName}\n` +
+      `Property: ${property}\n` +
+      `When: ${viewing}\n\n` +
+      `@Afifa @Ahmed @Joel — please coordinate.\n\n` +
+      `— Night Bot`;
+    await postTrengoNote(ticketId, note);
+    console.log('[auto-reply] Viewing note posted for', leadName, viewing);
+  }
+
   crmState[leadId].lead_replied       = true;
   crmState[leadId].lead_replied_at    = new Date().toISOString();
   crmState[leadId].last_bot_reply_at  = new Date().toISOString();
   crmState[leadId].bot_reply_count    = (leadMeta.bot_reply_count || 0) + 1;
   await writeCRMState(crmState, sha);
 
-  return res.status(200).json({ ok: true, action: 'replied', sent, dubaiHour });
+  return res.status(200).json({ ok: true, action: 'replied', sent, dubaiHour, viewing: viewing || null });
 }

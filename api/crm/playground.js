@@ -112,6 +112,7 @@ Instructions:
 - Follow ALL rules in the playbook above — pricing, discounts, tone, cross-sell, etc.
 - If confident: output ONLY the message to send. Nothing else. No labels.
 - If NOT confident (don't know price, availability, a specific detail): output [ESCALATE: reason] on line 1, then the holding message on line 2 (e.g. "Let me check that for you and come back shortly!").
+- If you are confirming a specific viewing date AND time with the lead in your reply: output [VIEWING: <day> at <time>] on line 1, then your reply message on line 2.
 
 Sound human. Never sound like AI.`;
 
@@ -143,13 +144,20 @@ Sound human. Never sound like AI.`;
       const lines      = text.split('\n');
       const reason     = lines[0].replace('[ESCALATE:', '').replace(']', '').trim();
       const holdingMsg = lines.slice(1).join('\n').trim() || 'Let me check that for you and come back shortly!';
-      return { reply: holdingMsg, escalate: true, reason };
+      return { reply: holdingMsg, escalate: true, reason, viewing: null };
     }
 
-    return { reply: text, escalate: false, reason: null };
+    if (text.startsWith('[VIEWING:')) {
+      const lines     = text.split('\n');
+      const when      = lines[0].replace('[VIEWING:', '').replace(']', '').trim();
+      const replyText = lines.slice(1).join('\n').trim() || text;
+      return { reply: replyText, escalate: false, reason: null, viewing: when };
+    }
+
+    return { reply: text, escalate: false, reason: null, viewing: null };
 
   } catch (err) {
-    return { reply: null, escalate: true, reason: err?.message || 'Unknown error' };
+    return { reply: null, escalate: true, reason: err?.message || 'Unknown error', viewing: null };
   }
 }
 
@@ -197,13 +205,14 @@ export default async function handler(req, res) {
 
   try {
     const playbook = await loadPlaybook();
-    const { reply, escalate, reason } = await generateReply(history, message.trim(), leadName, propertyStr, playbook);
+    const { reply, escalate, reason, viewing } = await generateReply(history, message.trim(), leadName, propertyStr, playbook);
 
     return res.status(200).json({
       ok:      true,
       reply,
       escalate,
       reason:  escalate ? reason : null,
+      viewing: viewing || null,
     });
 
   } catch (err) {
