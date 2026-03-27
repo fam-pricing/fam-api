@@ -72,41 +72,67 @@ async function autoRespond(responseLink) {
 
 // ── Trengo helpers ─────────────────────────────────────────────────────────────
 
-async function sendTrengoTemplate(phone, listingTitle) {
+async function createTrengoTicket(phone) {
   const token = process.env.TRENGO_TOKEN;
   if (!token || !phone) return null;
 
-  // Trengo expects phone without leading + but with country code
   const cleanPhone = phone.replace(/^\+/, '');
-
-  const body = {
-    channel_id:          TRENGO_CHANNEL,
-    contact_identifier:  cleanPhone,
-    wa_template_id:      TRENGO_TEMPLATE,
-    wa_template_values:  [listingTitle || 'your enquiry'],
-    assignee_id:         AFIFA_ID,
-  };
 
   try {
     const r = await fetch(`${TRENGO_API}/tickets`, {
       method:  'POST',
-      headers: {
-        Authorization:  `Bearer ${token}`,
-        'Content-Type': 'application/json',
-        Accept:         'application/json',
-      },
-      body: JSON.stringify(body),
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({
+        channel_id:         TRENGO_CHANNEL,
+        contact_identifier: cleanPhone,
+      }),
     });
     const d = await r.json();
-    if (!r.ok) {
-      console.error('[Trengo] ticket creation failed:', r.status, JSON.stringify(d));
-      return null;
-    }
-    // Return ticket id
-    return d.id || d.ticket?.id || null;
+    if (!r.ok) { console.error('[Trengo] ticket creation failed:', r.status, JSON.stringify(d)); return null; }
+    return d.id || null;
   } catch (err) {
-    console.error('[Trengo] error:', err.message);
+    console.error('[Trengo] createTicket error:', err.message);
     return null;
+  }
+}
+
+async function sendTrengoTemplate(ticketId, listingTitle) {
+  const token = process.env.TRENGO_TOKEN;
+  if (!token || !ticketId) return false;
+
+  // Exact format the Trengo UI uses — ticket_id + params array with key/value/type
+  try {
+    const r = await fetch(`${TRENGO_API}/wa_sessions`, {
+      method:  'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({
+        hsm_id:    TRENGO_TEMPLATE,
+        params:    [{ key: '{{1}}', value: listingTitle || 'your enquiry on Property Finder', type: 'body' }],
+        source:    'trengo-app',
+        ticket_id: ticketId,
+      }),
+    });
+    const d = await r.json();
+    if (!r.ok) { console.error('[Trengo] template send failed:', r.status, JSON.stringify(d)); return false; }
+    console.log('[Trengo] template sent, message id:', d.message?.id);
+    return true;
+  } catch (err) {
+    console.error('[Trengo] sendTemplate error:', err.message);
+    return false;
+  }
+}
+
+async function assignTrengoTicket(ticketId, userId) {
+  const token = process.env.TRENGO_TOKEN;
+  if (!token || !ticketId) return;
+  try {
+    await fetch(`${TRENGO_API}/tickets/${ticketId}/assign`, {
+      method:  'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({ user_id: userId }),
+    });
+  } catch (err) {
+    console.error('[Trengo] assign error:', err.message);
   }
 }
 
@@ -166,9 +192,9 @@ export default async function handler(req, res) {
       return res.status(200).json({ ok: true, responded: 0, message: 'No new leads' });
     }
 
-    // Process each new lead: PF auto-respond + Trengo template
+    // Process each new lead: PF auto-respond + Trengo ticket + template + assign
     const results = await Promise.all(newLeads.map(async lead => {
-      // 1. Hit PF responseLink → extracts lead phone from WhatsApp redirect
+      // 1. Hit PF responseLink → marks lead replied on PF, extracts lead phone
       const phone = await autoRespond(lead.responseLink);
 
       // 2. Fetch listing title for template {{1}} variable
@@ -177,10 +203,18 @@ export default async function handler(req, res) {
         ? await fetchListingTitle(pfToken, listingULID)
         : (lead.listing?.reference || null);
 
-      // 3. Send Trengo pf3 template (only if we have a phone number)
-      const trengoTicketId = phone
-        ? await sendTrengoTemplate(phone, listingTitle)
-        : null;
+      let trengoTicketId = null;
+      if (phone) {
+        // 3. Create Trengo ticket for this lead's phone on Portal Leads channel
+        trengoTicketId = await createTrengoTicket(phone);
+
+        if (trengoTicketId) {
+          // 4. Send pf3 template on the ticket
+          await sendTrengoTemplate(trengoTicketId, listingTitle);
+          // 5. Assign to Afifa
+          await assignTrengoTicket(trengoTicketId, AFIFA_ID);
+        }
+      }
 
       return { id: lead.id, phone, listingTitle, trengoTicketId };
     }));
