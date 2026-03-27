@@ -141,3 +141,7 @@ This must happen every single time. No exceptions.
 ## Learned (2026-03-27)
 - Avoid responding to customer inquiries immediately; allow time to pass before replying to create the impression of a thoughtful, considered response.
   (Taught via Simulator by Faysal)
+
+## Learned (2026-03-27)
+- Emphasize that the prices shown are all-inclusive with nothing more to pay except the deposit.
+  (Taught via Simulator by Faysal)
