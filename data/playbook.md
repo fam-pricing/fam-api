@@ -129,3 +129,7 @@ This must happen every single time. No exceptions.
 ## Learned (2026-03-27)
 - Never be too cheesy with leads
   (Taught directly by Faysal)
+
+## Learned (2026-03-27)
+- Never use emoji
+  (Taught directly by Faysal)
