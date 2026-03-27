@@ -122,3 +122,7 @@ This must happen every single time. No exceptions.
 - Never use emoji
   (Taught directly by Faysal)
 
+
+## Learned (2026-03-27)
+- Verify lead names through direct conversation before using them in messaging. Do not rely on WhatsApp display names, as these may be inaccurate or incomplete. When in doubt, ask for their name rather than assume.
+  (Taught by Faysal)
