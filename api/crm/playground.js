@@ -159,13 +159,11 @@ async function generateReply(history, newMessage, leadName, property, playbook) 
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) return { reply: null, escalate: true, reason: 'No ANTHROPIC_API_KEY configured' };
 
-  // Inject live portfolio data if the lead is asking about available options
+  // Always inject live portfolio so bot never escalates on availability questions
   let portfolioContext = '';
-  if (isPortfolioQuestion(newMessage)) {
-    const listings = await getPortfolioListings(newMessage);
-    if (listings) {
-      portfolioContext = `\n\n## Active fäm Living Portfolio (live prices)\n${listings}\n`;
-    }
+  const listings = await getPortfolioListings(newMessage);
+  if (listings) {
+    portfolioContext = `\n\n## Active fäm Living Portfolio (live prices — use this to answer any question about what we have available):\n${listings}\n`;
   }
 
   const transcript = history
@@ -189,11 +187,11 @@ Instructions:
 - Reply naturally as a warm human team member on WhatsApp. Short, friendly, direct.
 - Follow ALL rules in the playbook above — pricing, discounts, tone, cross-sell, etc.
 - If confident: output ONLY the message to send. Nothing else. No labels.
-- If asked about available options or portfolio: use the Active fäm Living Portfolio section above — never escalate for portfolio questions.
+- The Active fäm Living Portfolio section above contains ALL our live listings — use it whenever a lead asks about options, availability, area, or properties. Never escalate for portfolio questions.
 - If NOT confident (don't know price, availability, a specific detail): output [ESCALATE: reason] on line 1, then the holding message on line 2 (e.g. "Let me check that for you and come back shortly!").
 - If you are confirming a specific viewing date AND time with the lead in your reply: output [VIEWING: <day> at <time>] on line 1, then your reply message on line 2.
 
-Sound human. Never sound like AI.`;
+Sound human. Never sound like AI. CRITICAL: Output ONLY the message to send — no reasoning, no thinking, no internal monologue. Never start with 'Let me think' or explain your thought process.`;
 
   try {
     const r = await fetch('https://api.anthropic.com/v1/messages', {
