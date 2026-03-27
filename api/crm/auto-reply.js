@@ -729,7 +729,7 @@ export default async function handler(req, res) {
   if (escalate) {
     if (reply) {
       // Simulate typing the holding message before sending
-      const holdingDelay = Math.min(12000, Math.max(3000, reply.length * 55));
+      const holdingDelay = Math.min(6000, Math.max(2000, reply.length * 30));
       await new Promise(r => setTimeout(r, holdingDelay));
       await postTrengoMessage(ticketId, reply);
     }
@@ -740,7 +740,7 @@ export default async function handler(req, res) {
 
   // Simulate human typing speed (~3 chars/sec on mobile WhatsApp)
   // 2s read time already elapsed above; now add typing time for the reply
-  const typingMs = Math.min(28000, Math.max(5000, reply.length * 80));
+  const typingMs = Math.min(10000, Math.max(3000, reply.length * 40)); // Capped at 10s to stay within Vercel 30s function limit
   await new Promise(r => setTimeout(r, typingMs));
 
   const sent = await postTrengoMessage(ticketId, reply);
