@@ -3,7 +3,10 @@
 //
 // Night shift mode (9 PM – 6 AM Dubai time):
 //   INBOUND → AI reads message, generates reply, posts back via Trengo
-//   Bot escalates to Faysal when unsure, posts holding msg to lead
+//   Bot escalates to Faysal when unsure:
+//     → sends WhatsApp to Faysal via Trengo (FAYSAL_TICKET_ID)
+//     → stores Q in pending_escalations.json
+//     → Faysal replies on WhatsApp → bot learns, updates playbook, follows up with lead
 //
 // Day shift (6 AM – 9 PM Dubai):
 //   INBOUND → bot stays silent, Afifa handles
@@ -14,9 +17,9 @@
 //   AUTOBOT_ENABLED env var must = 'true' (global off switch)
 //   bot_paused flag in crm_state disables per-lead (Afifa can flip this)
 
-import fs   from 'fs';
-import path from 'path';
 import { fileURLToPath } from 'url';
+import path from 'path';
+import fs   from 'fs';
 
 const __dirname     = path.dirname(fileURLToPath(import.meta.url));
 const PLAYBOOK_PATH = path.join(__dirname, '../../data/playbook.md');
@@ -24,16 +27,15 @@ const PLAYBOOK_PATH = path.join(__dirname, '../../data/playbook.md');
 const GH_API     = 'https://api.github.com';
 const TRENGO_API = 'https://app.trengo.com/api/v2';
 const REPO       = 'fam-pricing/fam-api';
-const CRM_FILE   = 'data/crm_state.json';
+const CRM_FILE        = 'data/crm_state.json';
+const PENDING_FILE    = 'data/pending_escalations.json';
 
-// Dubai = UTC+4
 const DUBAI_OFFSET_HOURS = 4;
-// Night shift: 21:00 – 06:00 Dubai time
 const NIGHT_START = 21;
 const NIGHT_END   = 6;
 
-const REPLY_DELAY_MS    = 3000;  // 3s pause before replying (feels human)
-const AGENT_COOLDOWN_MS = 15 * 60 * 1000; // 15 min cooldown after agent reply
+const REPLY_DELAY_MS    = 3000;
+const AGENT_COOLDOWN_MS = 15 * 60 * 1000;
 
 // ── Time helpers ──────────────────────────────────────────────────────────────
 
@@ -43,34 +45,51 @@ function getDubaiHour() {
 
 function isNightShift() {
   const h = getDubaiHour();
-  // Night shift wraps midnight: 21, 22, 23, 0, 1, 2, 3, 4, 5
   return h >= NIGHT_START || h < NIGHT_END;
 }
 
 // ── GitHub helpers ────────────────────────────────────────────────────────────
 
-async function readCRMState() {
+async function ghRead(file) {
   const ghToken = process.env.GH_TOKEN;
-  if (!ghToken) return { state: {}, sha: null };
-  const r = await fetch(`${GH_API}/repos/${REPO}/contents/${CRM_FILE}`, {
+  if (!ghToken) return { data: null, sha: null };
+  const r = await fetch(`${GH_API}/repos/${REPO}/contents/${file}`, {
     headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json' },
   });
-  if (!r.ok) return { state: {}, sha: null };
+  if (!r.ok) return { data: null, sha: null };
   const d = await r.json();
   try {
-    return { state: JSON.parse(Buffer.from(d.content.replace(/\n/g, ''), 'base64').toString('utf8')), sha: d.sha };
-  } catch { return { state: {}, sha: d.sha }; }
+    return { data: JSON.parse(Buffer.from(d.content.replace(/\n/g, ''), 'base64').toString('utf8')), sha: d.sha };
+  } catch { return { data: null, sha: d.sha }; }
+}
+
+async function ghWrite(file, data, sha, message) {
+  const ghToken = process.env.GH_TOKEN;
+  if (!ghToken) return;
+  const content = Buffer.from(JSON.stringify(data, null, 2)).toString('base64');
+  await fetch(`${GH_API}/repos/${REPO}/contents/${file}`, {
+    method: 'PUT',
+    headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message, content, sha }),
+  });
+}
+
+async function readCRMState() {
+  const { data, sha } = await ghRead(CRM_FILE);
+  return { state: data || {}, sha };
 }
 
 async function writeCRMState(state, sha) {
-  const ghToken = process.env.GH_TOKEN;
-  if (!ghToken) return;
-  const content = Buffer.from(JSON.stringify(state, null, 2)).toString('base64');
-  await fetch(`${GH_API}/repos/${REPO}/contents/${CRM_FILE}`, {
-    method: 'PUT',
-    headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
-    body: JSON.stringify({ message: 'CRM: auto-reply [bot]', content, sha }),
-  });
+  await ghWrite(CRM_FILE, state, sha, 'CRM: auto-reply [bot]');
+}
+
+async function readPendingEsc() {
+  const { data, sha } = await ghRead(PENDING_FILE);
+  return { esc: data || { faysal_ticket_id: null, current_question_id: null, pending: [] }, sha };
+}
+
+async function writePendingEsc(esc, sha) {
+  await ghWrite(PENDING_FILE, esc, sha, 'Bot: pending escalations update');
 }
 
 // ── Playbook ──────────────────────────────────────────────────────────────────
@@ -86,9 +105,9 @@ async function appendToPlaybook(newRule) {
   try {
     const existing = fs.existsSync(PLAYBOOK_PATH) ? fs.readFileSync(PLAYBOOK_PATH, 'utf8') : '';
     const today    = new Date().toISOString().split('T')[0];
-    const entry    = `\n## Learned from Afifa (${today})\n${newRule}\n`;
+    const entry    = `\n## Learned (${today})\n${newRule}\n`;
     fs.writeFileSync(PLAYBOOK_PATH, existing + entry, 'utf8');
-    console.log('[auto-reply] Playbook updated with new learning');
+    console.log('[auto-reply] Playbook updated');
   } catch (e) {
     console.error('[auto-reply] Failed to update playbook:', e?.message);
   }
@@ -133,55 +152,171 @@ async function postTrengoNote(ticketId, note) {
   } catch (e) { console.error('[auto-reply] note post failed:', e?.message); }
 }
 
-// ── Escalation to Faysal ──────────────────────────────────────────────────────
+// ── Send message to Faysal via WhatsApp ───────────────────────────────────────
+// Uses FAYSAL_TICKET_ID env var (Faysal's WhatsApp ticket in Trengo).
+// Falls back to internal note if ticket ID not set yet.
 
-async function escalateToFaysal(leadName, property, question, ticketId, crmState, leadId, sha) {
+async function sendToFaysal(message, escData, escSha) {
+  let ticketId = process.env.FAYSAL_TICKET_ID
+    ? parseInt(process.env.FAYSAL_TICKET_ID, 10)
+    : escData?.faysal_ticket_id || null;
+
+  if (!ticketId) {
+    // Try to create a new outbound conversation with Faysal
+    const channelId = process.env.FAM_WA_CHANNEL_ID ? parseInt(process.env.FAM_WA_CHANNEL_ID, 10) : null;
+    if (channelId) {
+      const token = process.env.TRENGO_TOKEN;
+      try {
+        const r = await fetch(`${TRENGO_API}/tickets`, {
+          method: 'POST',
+          headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify({
+            channel_id: channelId,
+            contact: { phone: '+971502725428' },
+            message,
+          }),
+        });
+        if (r.ok) {
+          const d = await r.json();
+          ticketId = d?.id || d?.ticket?.id || null;
+          if (ticketId && escData) {
+            escData.faysal_ticket_id = ticketId;
+            await writePendingEsc(escData, escSha);
+          }
+          console.log(`[auto-reply] Created Faysal WA ticket: ${ticketId}`);
+          return true;
+        }
+      } catch (e) { console.error('[auto-reply] Create Faysal ticket failed:', e?.message); }
+    }
+    console.log('[auto-reply] No FAYSAL_TICKET_ID set — escalation only in Trengo notes');
+    return false;
+  }
+
+  const sent = await postTrengoMessage(ticketId, message);
+  console.log(`[auto-reply] Faysal WA (ticket ${ticketId}): ${sent ? 'sent' : 'failed'}`);
+  return sent;
+}
+
+// ── Escalate to Faysal ────────────────────────────────────────────────────────
+
+async function escalateToFaysal(leadName, property, question, trengoTicketId, crmState, leadId, crmSha) {
   const dubaiTime = new Date(Date.now() + DUBAI_OFFSET_HOURS * 3600000)
     .toISOString().replace('T', ' ').substring(0, 16) + ' Dubai';
 
-  // Store the escalated question so when Afifa answers we can learn from it
+  // Store on CRM so Afifa's daytime reply can also teach us
   if (crmState && leadId) {
     crmState[leadId].last_escalated_at       = new Date().toISOString();
     crmState[leadId].last_escalated_question = question;
   }
 
-  // Internal Trengo note so Afifa sees it when she comes on shift
-  const note = `🤖 Night bot couldn't answer (${dubaiTime}):\n\n"${question}"\n\nPlease reply to this lead when you're on shift. If you answer in the chat, I'll learn from it automatically.`;
-  await postTrengoNote(ticketId, note);
+  // Add to pending escalations store
+  const { esc, sha: escSha } = await readPendingEsc();
+  const escId = `esc_${Date.now()}`;
+  esc.pending = esc.pending || [];
+  esc.pending.push({
+    id:             escId,
+    lead_ticket_id: trengoTicketId,
+    lead_id:        leadId,
+    lead_name:      leadName,
+    property:       property || 'unknown',
+    question,
+    escalated_at:   new Date().toISOString(),
+    reminded_at:    null,
+    answered_at:    null,
+  });
+  esc.current_question_id = escId;
 
-  // TODO: Once Meta template approved, send WhatsApp to Faysal (+971502725428)
-  //   Template: "❓ [Lead Name] re [Property] asked: [Question] — what should I reply?"
-  console.log(`[auto-reply] ESCALATION logged for ticket ${ticketId}: "${question}"`);
+  const waMessage =
+    `❓ *fäm Bot — lead needs your help!*\n\n` +
+    `*Lead:* ${leadName}\n` +
+    `*Property:* ${property || 'unknown'}\n\n` +
+    `*They asked:*\n"${question}"\n\n` +
+    `Reply here with the answer and I'll update my playbook + follow up with the lead 📚`;
+
+  await sendToFaysal(waMessage, esc, escSha);
+  await writePendingEsc(esc, escSha);
+
+  // Always leave an internal Trengo note too (so Afifa sees it on day shift)
+  const note = `🤖 Night bot couldn't answer (${dubaiTime}):\n\n"${question}"\n\nFaysal notified via WhatsApp. Reply to this lead if Faysal doesn't respond before your shift.`;
+  await postTrengoNote(trengoTicketId, note);
+
+  console.log(`[auto-reply] Escalated "${question}" to Faysal (escId: ${escId})`);
+}
+
+// ── Handle Faysal's teaching reply ───────────────────────────────────────────
+// Called when Faysal replies on his dedicated WA teaching conversation.
+
+async function handleFaysalTeachingReply(faysalTicketId, answer) {
+  const { esc, sha: escSha } = await readPendingEsc();
+  const pending = (esc.pending || []).filter(e => !e.answered_at);
+
+  if (!pending.length) {
+    await postTrengoMessage(faysalTicketId, `Hey! No pending questions right now. I'll message you the next time I get stuck 📚`);
+    return;
+  }
+
+  // Match to current question (most recent unanswered)
+  const current = pending.sort((a, b) => new Date(b.escalated_at) - new Date(a.escalated_at))[0];
+
+  console.log(`[auto-reply] Faysal answered Q: "${current.question}" → "${answer}"`);
+
+  // Update playbook with new rule
+  const newRule = `- If a lead asks: "${current.question}" → Reply: "${answer}"\n  (Taught by Faysal for ${current.lead_name} re ${current.property})`;
+  await appendToPlaybook(newRule);
+
+  // Mark as answered
+  const idx = esc.pending.findIndex(e => e.id === current.id);
+  if (idx !== -1) {
+    esc.pending[idx].answered_at = new Date().toISOString();
+    esc.pending[idx].answer      = answer;
+  }
+
+  // If there are more pending escalations, set the next one as current
+  const remaining = esc.pending.filter(e => !e.answered_at);
+  esc.current_question_id = remaining.length ? remaining[0].id : null;
+  await writePendingEsc(esc, escSha);
+
+  // Follow up with the lead if their ticket is still active
+  if (current.lead_ticket_id) {
+    const replyToLead = answer; // Send Faysal's answer directly to the lead
+    await postTrengoMessage(current.lead_ticket_id, replyToLead);
+    console.log(`[auto-reply] Followed up with lead ticket ${current.lead_ticket_id}`);
+  }
+
+  // Confirm to Faysal
+  const nextPending = remaining.filter(e => e.id !== current.id);
+  let confirmMsg = `✅ *Got it!* Playbook updated and lead notified.\n\n*Rule added:*\n"${current.question}" → use your answer ✓`;
+  if (nextPending.length > 0) {
+    const next = nextPending[0];
+    confirmMsg += `\n\n❓ *Next question:*\n*Lead:* ${next.lead_name} | *Property:* ${next.property}\n"${next.question}"`;
+  } else {
+    confirmMsg += `\n\nNo more pending questions — you're all caught up! 🎉`;
+  }
+  await postTrengoMessage(faysalTicketId, confirmMsg);
 }
 
 // ── Learn from Afifa ──────────────────────────────────────────────────────────
-// Called when an OUTBOUND message from an agent arrives during day shift.
-// If this ticket had a recent bot escalation, Afifa's reply is the answer
-// to the question the bot didn't know — extract it and update the playbook.
 
 async function learnFromAfifaReply(ticketId, agentMessage, leadMeta, crmState, leadId, sha) {
   const question = leadMeta.last_escalated_question;
-  if (!question) return; // No pending escalation — nothing to learn
+  if (!question) return;
 
   const escalatedAt = leadMeta.last_escalated_at ? new Date(leadMeta.last_escalated_at).getTime() : 0;
   const ageHours    = (Date.now() - escalatedAt) / 3600000;
-  if (ageHours > 24) return; // Too old — probably unrelated
+  if (ageHours > 24) return;
 
-  const leadName  = leadMeta.lead_name || 'Lead';
-  const property  = leadMeta.listing_title || 'unknown property';
+  const leadName = leadMeta.lead_name || 'Lead';
+  const property = leadMeta.listing_title || 'unknown property';
 
   console.log(`[auto-reply] Learning from Afifa: Q="${question}" → A="${agentMessage}"`);
 
-  // Build a new playbook rule from this Q&A
   const newRule = `- If a lead asks: "${question}" → Reply: "${agentMessage}"\n  (Learned from Afifa handling ${leadName} re ${property})`;
   await appendToPlaybook(newRule);
 
-  // Clear the escalation so we don't re-learn it
   crmState[leadId].last_escalated_question = null;
   crmState[leadId].last_learned_at         = new Date().toISOString();
   await writeCRMState(crmState, sha);
 
-  // Post a quiet internal note so Afifa knows the bot learned
   await postTrengoNote(ticketId, `✅ Bot learned from your reply and updated the playbook.`);
 }
 
@@ -261,13 +396,10 @@ Sound human. Never sound like AI.`;
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
-  // Global kill switch
   if (process.env.AUTOBOT_ENABLED !== 'true') {
     return res.status(200).json({ ok: true, skipped: 'Bot disabled (AUTOBOT_ENABLED != true)' });
   }
 
-  // Webhook secret — checked as ?secret= query param (simplest for Trengo config)
-  // Webhook URL format: /api/crm/auto-reply?secret=<TRENGO_WEBHOOK_SECRET>
   const webhookSecret = process.env.TRENGO_WEBHOOK_SECRET;
   if (webhookSecret) {
     const providedSecret = req.query?.secret || '';
@@ -277,7 +409,6 @@ export default async function handler(req, res) {
     }
   }
 
-  // Parse body
   let body = req.body;
   if (!body || typeof body === 'string') {
     try { body = JSON.parse(body); } catch { return res.status(400).json({ error: 'Invalid JSON' }); }
@@ -286,9 +417,28 @@ export default async function handler(req, res) {
   const messageType = (body?.message?.type || body?.type || '').toUpperCase();
   const ticketId    = body?.ticket?.id || body?.message?.ticket_id || null;
   const messageText = body?.message?.message || body?.message?.body || body?.message?.text || '';
-  const agentName   = body?.message?.agent?.name || body?.agent?.name || null;
 
   if (!ticketId) return res.status(200).json({ ok: true, skipped: 'No ticket ID' });
+
+  // ── Check if this is Faysal's teaching reply ──────────────────────────────
+  // Do this BEFORE the CRM lookup so we don't skip it as "not in CRM"
+  if (messageType === 'INBOUND' && messageText) {
+    const faysalTicketId = process.env.FAYSAL_TICKET_ID
+      ? parseInt(process.env.FAYSAL_TICKET_ID, 10)
+      : null;
+
+    // Also check persisted ticket ID if env not set
+    if (!faysalTicketId) {
+      const { esc } = await readPendingEsc();
+      if (esc.faysal_ticket_id && ticketId == esc.faysal_ticket_id) {
+        await handleFaysalTeachingReply(ticketId, messageText);
+        return res.status(200).json({ ok: true, action: 'faysal_teaching_reply' });
+      }
+    } else if (ticketId == faysalTicketId) {
+      await handleFaysalTeachingReply(ticketId, messageText);
+      return res.status(200).json({ ok: true, action: 'faysal_teaching_reply' });
+    }
+  }
 
   // Load CRM state
   const { state: crmState, sha } = await readCRMState();
@@ -299,14 +449,9 @@ export default async function handler(req, res) {
   const leadName = leadMeta.lead_name || 'there';
 
   // ── OUTBOUND (agent reply — Afifa is speaking) ─────────────────────────────
-  // During day shift: learn from Afifa's answers to previously escalated questions
   if (messageType === 'OUTBOUND' && messageText) {
-    // Track last agent reply time (for cooldown logic)
     crmState[leadId].last_agent_reply_at = new Date().toISOString();
-
-    // Learning: if there was a pending bot escalation, extract the Q&A
     await learnFromAfifaReply(ticketId, messageText, leadMeta, crmState, leadId, sha);
-
     return res.status(200).json({ ok: true, action: 'agent_reply_tracked' });
   }
 
@@ -321,9 +466,8 @@ export default async function handler(req, res) {
   const dubaiHour  = getDubaiHour();
   console.log(`[auto-reply] Inbound on ticket ${ticketId} | Dubai hour: ${dubaiHour} | Night shift: ${nightShift}`);
 
-  // DAY SHIFT — Afifa is on, bot stays silent on inbound
+  // DAY SHIFT — Afifa is on
   if (!nightShift) {
-    // Just mark the lead as having replied so CRM summary shows it
     crmState[leadId].lead_replied    = true;
     crmState[leadId].lead_replied_at = new Date().toISOString();
     await writeCRMState(crmState, sha);
@@ -332,36 +476,26 @@ export default async function handler(req, res) {
 
   // NIGHT SHIFT — bot is on
 
-  // Per-lead pause (Afifa can flip this on any ticket)
   if (leadMeta.bot_paused) {
     return res.status(200).json({ ok: true, skipped: 'Bot paused for this lead' });
   }
 
-  // Agent cooldown — if Afifa replied in last 15 min, bot stays quiet
   const lastAgentAt = leadMeta.last_agent_reply_at ? new Date(leadMeta.last_agent_reply_at).getTime() : 0;
   if (Date.now() - lastAgentAt < AGENT_COOLDOWN_MS) {
     return res.status(200).json({ ok: true, skipped: 'Agent cooldown active' });
   }
 
-  // Load conversation history
   const conversation = await getTrengoMessages(ticketId);
-
-  // Human-feeling delay
   await new Promise(r => setTimeout(r, REPLY_DELAY_MS));
-
-  // Generate reply
   const { reply, escalate, reason } = await generateReply(conversation, leadMeta, messageText, leadName);
 
   if (escalate) {
-    // Send holding message to lead
     if (reply) await postTrengoMessage(ticketId, reply);
-    // Alert Faysal + log for Afifa
     await escalateToFaysal(leadName, leadMeta.listing_title, messageText, ticketId, crmState, leadId, sha);
     await writeCRMState(crmState, sha);
     return res.status(200).json({ ok: true, action: 'escalated', reason });
   }
 
-  // Send reply
   const sent = await postTrengoMessage(ticketId, reply);
 
   crmState[leadId].lead_replied       = true;
