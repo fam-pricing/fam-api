@@ -145,7 +145,3 @@ This must happen every single time. No exceptions.
 ## Learned (2026-03-27)
 - Emphasize that the prices shown are all-inclusive with nothing more to pay except the deposit.
   (Taught via Simulator by Faysal)
-
-## Learned (2026-03-27)
-- Pricing is seasonal and currently fixed for three-month periods only.
-  (Taught via Simulator by Faysal)
