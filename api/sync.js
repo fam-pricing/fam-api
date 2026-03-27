@@ -17,10 +17,6 @@ const AGENT_MAP = {
 
 const BED_OVERRIDES = {
   'Sunrise Bay T1|3BR':    '4BR',
-  'Reehan 1 Old Town|2BR': '3BR',
-  'Marina Star|Studio':    '1BR',
-  'City Walk B18B|2BR':    '3BR',
-  'City Walk B19|3BR':     '4BR',
 };
 
 const BUILDING_AREA_MAP = {
