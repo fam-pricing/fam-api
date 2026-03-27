@@ -521,7 +521,6 @@ async function generateReply(conversation, leadMeta, newMessage, leadName) {
   if (listings) {
     portfolioContext = `\n\n## Active fäm Living Portfolio (live prices — use this to answer any question about what we have available):\n${listings}\n`;
   }
-  }
 
   const history = conversation
     .slice(-10)
