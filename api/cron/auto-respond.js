@@ -8,6 +8,7 @@ const GH_API        = 'https://api.github.com';
 const TRENGO_API    = 'https://app.trengo.com/api/v2';
 const REPO          = 'fam-pricing/fam-api';
 const CRM_FILE      = 'data/crm_state.json';
+const REF_MAP_FILE  = 'data/ref_mapping.json';
 const TRENGO_CHANNEL = 1304636;  // Portal Leads (WA_BUSINESS)
 const TRENGO_TEMPLATE = 229953;  // pf3
 const AFIFA_ID       = 340123;   // Afifa A.
@@ -38,22 +39,33 @@ async function fetchRecentLeads(token) {
   return d.data || d.results || [];
 }
 
-async function fetchListingTitle(pfToken, listingULID) {
+// Read ref_mapping.json from GitHub — maps PF-HH-AR-XXXXX → {building, bed_type}
+async function fetchRefMapping() {
+  const ghToken = process.env.GH_TOKEN;
+  if (!ghToken) return {};
   try {
-    const r = await fetch(`${PF_API}/v1/listings/${listingULID}`, {
-      headers: { Authorization: `Bearer ${pfToken}` },
+    const r = await fetch(`${GH_API}/repos/${REPO}/contents/${REF_MAP_FILE}`, {
+      headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json' },
     });
-    if (!r.ok) return null;
+    if (!r.ok) return {};
     const d = await r.json();
-    // Build a readable title: bedrooms + property type + area
-    const beds = d.bedrooms != null ? `${d.bedrooms}BR ` : '';
-    const type = d.propertyType?.name || d.category || '';
-    const area = d.location?.community?.name || d.location?.area?.name || '';
-    const ref  = d.referenceNumber || listingULID;
-    return `${beds}${type}${area ? ' in ' + area : ''} (${ref})`.trim();
+    const content = Buffer.from(d.content.replace(/\n/g, ''), 'base64').toString('utf8');
+    return JSON.parse(content);
   } catch {
-    return null;
+    return {};
   }
+}
+
+// Build listing title from PF reference (PF-HH-AR-XXXXX) using local ref_mapping
+// e.g. "2BR in Upside Living (PF-HH-AR-87774)"
+function listingTitleFromRef(ref, refMapping) {
+  if (!ref) return null;
+  const mapping = refMapping[ref];
+  if (mapping) {
+    return `${mapping.bed_type} in ${mapping.building} (${ref})`;
+  }
+  // Unknown ref — still better than the fallback
+  return ref;
 }
 
 // ── PF auto-respond ────────────────────────────────────────────────────────────
@@ -184,7 +196,10 @@ export default async function handler(req, res) {
   try {
     const pfToken  = await getPFToken();
     const rawLeads = await fetchRecentLeads(pfToken);
-    const { state: crmState, sha } = await readCRMState();
+    const [{ state: crmState, sha }, refMapping] = await Promise.all([
+      readCRMState(),
+      fetchRefMapping(),
+    ]);
 
     // Only leads not yet auto-responded and with a responseLink
     const newLeads = rawLeads.filter(l => l.responseLink && !crmState[l.id]?.auto_responded);
@@ -198,11 +213,9 @@ export default async function handler(req, res) {
       // 1. Hit PF responseLink → marks lead replied on PF, extracts lead phone
       const phone = await autoRespond(lead.responseLink);
 
-      // 2. Fetch listing title for template {{1}} variable
-      const listingULID = lead.listing?.id;
-      const listingTitle = listingULID
-        ? await fetchListingTitle(pfToken, listingULID)
-        : (lead.listing?.reference || null);
+      // 2. Build listing title from ref_mapping (no extra API call needed)
+      const ref          = lead.listing?.reference || null;
+      const listingTitle = listingTitleFromRef(ref, refMapping);
 
       let trengoTicketId = null;
       if (phone) {
