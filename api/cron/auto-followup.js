@@ -1,19 +1,23 @@
 // fäm Living — Cron: follow up on silent leads
 // Runs every hour via Vercel Cron.
 // Logic:
-//   - Follow-up #1: 24h after auto_responded_at with no inbound reply
-//   - Follow-up #2: 48h after follow_up_1_at with still no inbound reply
-//   - After 2 follow-ups → mark as cold, stop messaging
-//
-// Checks Trengo for last inbound message timestamp before sending.
+//   All delays measured from auto_responded_at (initial message sent time).
+//   All 3 follow-ups must land within 24h to stay inside the WhatsApp session window.
+//   - Follow-up #1:  6h after auto_responded_at (no inbound reply)
+//   - Follow-up #2: 12h after auto_responded_at (still no reply)
+//   - Follow-up #3: 23h after auto_responded_at (final nudge, just before window closes)
+//   After 3 follow-ups → mark cold, stop messaging.
+//   If lead replies at any point → all follow-ups cancelled.
 
 const GH_API     = 'https://api.github.com';
 const TRENGO_API = 'https://app.trengo.com/api/v2';
 const REPO       = 'fam-pricing/fam-api';
 const CRM_FILE   = 'data/crm_state.json';
 
-const FOLLOW_UP_1_DELAY_MS = 24 * 60 * 60 * 1000;  // 24 hours
-const FOLLOW_UP_2_DELAY_MS = 48 * 60 * 60 * 1000;  // 48 hours after follow-up 1
+// All measured from auto_responded_at (initial message time)
+const FOLLOW_UP_1_DELAY_MS =  6 * 60 * 60 * 1000;  //  6 hours
+const FOLLOW_UP_2_DELAY_MS = 12 * 60 * 60 * 1000;  // 12 hours
+const FOLLOW_UP_3_DELAY_MS = 23 * 60 * 60 * 1000;  // 23 hours (last chance before window closes)
 
 // ── GitHub CRM state ──────────────────────────────────────────────────────────
 
@@ -96,11 +100,16 @@ async function sendFollowUpMessage(ticketId, message) {
 
 // Build a personalised follow-up message
 function buildFollowUpMessage(followUpNumber, leadName, listingTitle) {
-  const name = leadName ? `, ${leadName.split(' ')[0]}` : '';
+  const name = leadName ? ` ${leadName.split(' ')[0]}` : '';
+  const prop = listingTitle || 'the property';
   if (followUpNumber === 1) {
-    return `Hi${name}! 👋 Just following up on your enquiry about ${listingTitle || 'the property'}. We'd love to help — are you still looking? Feel free to ask any questions!`;
+    return `Hi${name}, just checking in on your enquiry about ${prop}. Still available if you have any questions.`;
   }
-  return `Hi${name}, I wanted to make sure my last message reached you. We still have availability and would be happy to arrange a viewing or answer any questions. Let us know if you're still interested! 😊`;
+  if (followUpNumber === 2) {
+    return `Hi${name}, wanted to follow up one more time. We still have availability and can arrange a viewing at your convenience. Let us know.`;
+  }
+  // Follow-up 3 — final nudge before window closes
+  return `Hi${name}, last message from our side. If you're still interested in ${prop}, we're here. Happy to help whenever you're ready.`;
 }
 
 // ── Main handler ──────────────────────────────────────────────────────────────
@@ -128,7 +137,6 @@ export default async function handler(req, res) {
 
       const ticketId     = lead.trengo_ticket_id;
       const respondedAt  = new Date(lead.auto_responded_at).getTime();
-      const followUp1At  = lead.follow_up_1_at ? new Date(lead.follow_up_1_at).getTime() : null;
       const followUpCount = lead.follow_up_count || 0;
 
       // Check if lead has replied via Trengo since we last messaged
@@ -146,7 +154,9 @@ export default async function handler(req, res) {
         continue;
       }
 
-      // ── Follow-up #1 ──────────────────────────────────────────────────────
+      // All delays measured from respondedAt to stay inside the 24h WhatsApp window
+
+      // ── Follow-up #1 — 6h ─────────────────────────────────────────────────
       if (followUpCount === 0 && now - respondedAt >= FOLLOW_UP_1_DELAY_MS) {
         const msg = buildFollowUpMessage(1, lead.lead_name, lead.listing_title);
         const ok  = await sendFollowUpMessage(ticketId, msg);
@@ -161,18 +171,34 @@ export default async function handler(req, res) {
         continue;
       }
 
-      // ── Follow-up #2 ──────────────────────────────────────────────────────
-      if (followUpCount === 1 && followUp1At && now - followUp1At >= FOLLOW_UP_2_DELAY_MS) {
+      // ── Follow-up #2 — 12h ────────────────────────────────────────────────
+      if (followUpCount === 1 && now - respondedAt >= FOLLOW_UP_2_DELAY_MS) {
         const msg = buildFollowUpMessage(2, lead.lead_name, lead.listing_title);
         const ok  = await sendFollowUpMessage(ticketId, msg);
         if (ok) {
           crmState[leadId].follow_up_count = 2;
           crmState[leadId].follow_up_2_at  = new Date().toISOString();
-          crmState[leadId].follow_up_cold  = true;  // Stop after 2 follow-ups
           changed = true;
           results.sent_followup_2.push(leadId);
         } else {
           results.errors.push({ leadId, step: 'followup_2' });
+        }
+        continue;
+      }
+
+      // ── Follow-up #3 — 23h (final, before window closes) ──────────────────
+      if (followUpCount === 2 && now - respondedAt >= FOLLOW_UP_3_DELAY_MS) {
+        const msg = buildFollowUpMessage(3, lead.lead_name, lead.listing_title);
+        const ok  = await sendFollowUpMessage(ticketId, msg);
+        if (ok) {
+          crmState[leadId].follow_up_count = 3;
+          crmState[leadId].follow_up_3_at  = new Date().toISOString();
+          crmState[leadId].follow_up_cold  = true;  // Stop after 3 follow-ups
+          changed = true;
+          results.sent_followup_3 = results.sent_followup_3 || [];
+          results.sent_followup_3.push(leadId);
+        } else {
+          results.errors.push({ leadId, step: 'followup_3' });
         }
       }
     }
