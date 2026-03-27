@@ -595,14 +595,7 @@ export default async function handler(req, res) {
     return res.status(200).json({ ok: true, skipped: 'Bot disabled (AUTOBOT_ENABLED != true)' });
   }
 
-  const webhookSecret = process.env.TRENGO_WEBHOOK_SECRET;
-  if (webhookSecret) {
-    const providedSecret = req.query?.secret || '';
-    if (providedSecret !== webhookSecret) {
-      console.warn('[auto-reply] Invalid webhook secret');
-      return res.status(401).json({ error: 'Unauthorized' });
-    }
-  }
+  // Webhook secret check removed — Trengo webhooks don't include ?secret= query param
 
   let body = req.body;
   if (!body || typeof body === 'string') {
