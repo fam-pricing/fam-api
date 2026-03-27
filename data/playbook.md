@@ -113,3 +113,7 @@ This must happen every single time. No exceptions.
 ## Reservations & Payment
 - To confirm a reservation, we need to collect payment first. Always let the lead know that payment is required to secure the booking.
   (Taught by Faysal, 2026-03-27)
+
+## Learned (2026-03-27)
+- test
+  (Taught directly by Faysal)
