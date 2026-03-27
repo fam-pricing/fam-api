@@ -449,9 +449,31 @@ export default async function handler(req, res) {
     try { body = JSON.parse(body); } catch { return res.status(400).json({ error: 'Invalid JSON' }); }
   }
 
-  const messageType = (body?.message?.type || body?.type || '').toUpperCase();
-  const ticketId    = body?.ticket?.id || body?.message?.ticket_id || null;
-  const messageText = body?.message?.message || body?.message?.body || body?.message?.text || '';
+  // Trengo sends FLAT payloads: { ticket_id, message, contact_id, user_id, ... }
+  // NOT nested { ticket: { id }, message: { body, type } }
+  // We must handle both formats (flat = real Trengo, nested = curl tests / API calls)
+  const isFlat = typeof body?.message === 'string' || body?.ticket_id != null;
+
+  const ticketId = body?.ticket?.id              // nested test format
+                || body?.ticket_id               // flat Trengo format  ← KEY FIX
+                || body?.message?.ticket_id
+                || null;
+
+  const messageText = (isFlat ? (body?.message || '') : '')  // flat: body.message IS the text
+                    || body?.message?.message                  // nested variants
+                    || body?.message?.body
+                    || body?.message?.text
+                    || '';
+
+  // Flat inbound has no user_id; flat outbound has user_id (agent who sent it)
+  const messageType = (body?.message?.type       // nested format
+                    || body?.type
+                    || (isFlat
+                        ? (body?.user_id ? 'OUTBOUND' : 'INBOUND')
+                        : '')
+                    ).toUpperCase();
+
+  console.log(`[auto-reply] ticket=${ticketId} type=${messageType} text="${String(messageText).substring(0,50)}" flat=${isFlat}`);
 
   if (!ticketId) return res.status(200).json({ ok: true, skipped: 'No ticket ID' });
 
