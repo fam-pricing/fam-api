@@ -185,7 +185,7 @@ export default async function handler(req, res) {
     const note =
       `🧪 fäm Bot — internal note test\n\n` +
       `Tagging the team:\n` +
-      `@Junaid Ahmad @Farhan Wadud @Chahana T. @Afifa A. @Abdul Rehman\n\n` +
+      `@junaid731578 @farhan731560 @chahana470168 @afifa340123 @abdul315306\n\n` +
       `If you can see this, internal notes with @mentions are working correctly.\n— fäm Bot`;
     try {
       const r = await fetch(`https://app.trengo.com/api/v2/tickets/${ticketId}/messages`, {
