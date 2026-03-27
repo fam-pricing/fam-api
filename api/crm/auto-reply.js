@@ -302,6 +302,40 @@ async function classifyAsRule(message) {
   }
 }
 
+// ── Rephrase a raw rule into clean playbook language ─────────────────────────
+// Takes Faysal's informal/rough instruction and rewrites it as a crisp rule.
+
+async function rephraseRule(rawMessage) {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) return rawMessage; // fallback to original if no key
+
+  try {
+    const r = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 120,
+        messages: [{
+          role: 'user',
+          content: `You are editing a sales playbook for a Dubai holiday home rental company.
+
+Faysal (the owner) just sent this raw instruction:
+"${rawMessage}"
+
+Rewrite it as a single, clean playbook rule. Fix typos, tighten the language, make it clear and actionable. Keep the exact meaning and intent — do not change what is being said. Output ONLY the rewritten rule, nothing else. No quotes, no labels, no explanation.`,
+        }],
+      }),
+    });
+    if (!r.ok) return rawMessage;
+    const d = await r.json();
+    const rephrased = (d?.content?.[0]?.text || '').trim();
+    return rephrased || rawMessage;
+  } catch {
+    return rawMessage; // fallback to original on error
+  }
+}
+
 // ── Handle Faysal's teaching reply ───────────────────────────────────────────
 // Called when Faysal replies on his dedicated WA teaching conversation.
 
@@ -325,13 +359,15 @@ async function handleFaysalTeachingReply(faysalTicketId, answer) {
           `Hey! No pending questions right now — all quiet. Send me a rule to add anytime, or I'll ping you here when I get stuck with a lead.`);
         return;
       }
-      const newRule = `- ${cleanAnswer}\n  (Taught directly by Faysal)`;
+      // Rephrase into clean playbook language before saving
+      const polishedRule = await rephraseRule(cleanAnswer);
+      const newRule = `- ${polishedRule}\n  (Taught by Faysal)`;
       await appendToPlaybook(newRule);
       // Increment direct teachings counter so dashboard shows it
       esc.direct_teachings_count = (esc.direct_teachings_count || 0) + 1;
       await writePendingEsc(esc, escSha);
       await postTrengoMessage(faysalTicketId,
-        `Got it — playbook updated.\n\n"${cleanAnswer}"\n\nSend another rule anytime, or I'll ping you here when I get stuck with a lead.`);
+        `Got it — saved to playbook as:\n\n"${polishedRule}"\n\nSend another rule anytime, or I'll ping you here when I get stuck with a lead.`);
     } else {
       await postTrengoMessage(faysalTicketId, `Hey! No pending questions right now. Send me a rule to add to my playbook anytime.`);
     }
@@ -343,8 +379,9 @@ async function handleFaysalTeachingReply(faysalTicketId, answer) {
 
   console.log(`[auto-reply] Faysal answered Q: "${current.question}" → "${answer}"`);
 
-  // Update playbook with the Q&A rule
-  const newRule = `- If a lead asks: "${current.question}" → Reply: "${cleanAnswer || answer}"\n  (Taught by Faysal for ${current.lead_name} re ${current.property})`;
+  // Rephrase Faysal's answer into a clean playbook rule before saving
+  const polishedAnswer = await rephraseRule(`If a lead asks "${current.question}", reply: "${cleanAnswer || answer}"`);
+  const newRule = `- ${polishedAnswer}\n  (Taught by Faysal for ${current.lead_name})`;
   await appendToPlaybook(newRule);
 
   // Mark as answered
