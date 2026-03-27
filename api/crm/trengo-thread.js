@@ -2,25 +2,12 @@
 // Returns Trengo ticket messages + AI summary for a CRM lead.
 // Auth: same JWT as dashboard (role >= viewer)
 
-import jwt from 'jsonwebtoken';
+import { requireAuth } from '../_auth.js';
 
 const GH_API        = 'https://api.github.com';
 const TRENGO_API    = 'https://app.trengo.com/api/v2';
 const REPO          = 'fam-pricing/fam-api';
 const CRM_FILE      = 'data/crm_state.json';
-
-// ── Auth ──────────────────────────────────────────────────────────────────────
-
-function verifyJWT(req) {
-  const auth = req.headers.authorization || '';
-  const token = auth.startsWith('Bearer ') ? auth.slice(7) : null;
-  if (!token) return null;
-  try {
-    return jwt.verify(token, process.env.JWT_SECRET);
-  } catch {
-    return null;
-  }
-}
 
 // ── CRM state ─────────────────────────────────────────────────────────────────
 
@@ -120,8 +107,8 @@ export default async function handler(req, res) {
   if (req.method === 'OPTIONS') return res.status(200).end();
   if (req.method !== 'GET') return res.status(405).json({ error: 'Method not allowed' });
 
-  const user = verifyJWT(req);
-  if (!user) return res.status(401).json({ error: 'Unauthorized' });
+  const user = requireAuth(req, res, 'viewer');
+  if (!user) return;
 
   const { lead_id } = req.query;
   if (!lead_id) return res.status(400).json({ error: 'lead_id required' });
