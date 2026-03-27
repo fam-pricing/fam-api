@@ -546,7 +546,8 @@ RULES — follow exactly, no exceptions:
 - If confident → reply directly.
 - If NOT confident → [ESCALATE: reason] on line 1, short holding message on line 2.
 - If confirming a viewing → [VIEWING: day at time] on line 1, message on line 2.
-- Keep it short, warm, human.`;
+- Keep it short, warm, human.
+- PRICING MATH — CRITICAL: When calculating multi-month totals, ALWAYS multiply the listed price from the portfolio data by the number of months. NEVER use a price mentioned anywhere in the conversation history for calculations. 2 months = listed_price × 2. 6 months = listed_price × 6. No exceptions.`;
 
   const userMessage = `Conversation so far:\n${history}\n\nLead just sent: "${newMessage}"`;
 
