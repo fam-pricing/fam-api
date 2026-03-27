@@ -1,0 +1,141 @@
+// fäm Living — POST /api/crm/playground
+// Simulates the night-shift bot using the live playbook.
+// Faysal types as a lead; the bot replies exactly as it would at night.
+// Auth: owner role only (playground is a private testing tool)
+
+import { requireAuth } from '../_auth.js';
+
+const GH_API       = 'https://api.github.com';
+const REPO         = 'fam-pricing/fam-api';
+const PLAYBOOK_FILE = 'data/playbook.md';
+
+// ── Load live playbook from GitHub ────────────────────────────────────────────
+
+async function loadPlaybook() {
+  const token = process.env.GH_TOKEN;
+  if (!token) return '';
+  try {
+    const r = await fetch(`${GH_API}/repos/${REPO}/contents/${PLAYBOOK_FILE}`, {
+      headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github.v3+json' },
+    });
+    if (!r.ok) return '';
+    const d = await r.json();
+    return Buffer.from(d.content.replace(/\n/g, ''), 'base64').toString('utf8').trim();
+  } catch {
+    return '';
+  }
+}
+
+// ── Bot reply using Claude (same logic as auto-reply.js) ──────────────────────
+
+async function generateReply(history, newMessage, leadName, property, playbook) {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) return { reply: null, escalate: true, reason: 'No ANTHROPIC_API_KEY configured' };
+
+  const transcript = history
+    .slice(-10)
+    .map(m => `${m.from === 'lead' ? leadName : 'Agent'}: ${m.text}`)
+    .join('\n');
+
+  const prompt = `${playbook}
+
+---
+
+You are handling a WhatsApp conversation for fäm Living. Lead name: ${leadName}. Property enquiry: ${property}.
+
+Conversation so far:
+${transcript || '(no messages yet)'}
+
+The lead just sent:
+"${newMessage}"
+
+Instructions:
+- Reply naturally as a warm human team member on WhatsApp. Short, friendly, direct.
+- Follow ALL rules in the playbook above — pricing, discounts, tone, cross-sell, etc.
+- If confident: output ONLY the message to send. Nothing else. No labels.
+- If NOT confident (don't know price, availability, a specific detail): output [ESCALATE: reason] on line 1, then the holding message on line 2 (e.g. "Let me check that for you and come back shortly!").
+
+Sound human. Never sound like AI.`;
+
+  try {
+    const r = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'x-api-key': apiKey,
+        'anthropic-version': '2023-06-01',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 300,
+        messages: [{ role: 'user', content: prompt }],
+      }),
+    });
+
+    if (!r.ok) {
+      const err = await r.text().catch(() => String(r.status));
+      return { reply: null, escalate: true, reason: `Anthropic error ${r.status}: ${err}` };
+    }
+
+    const d    = await r.json();
+    const text = d?.content?.[0]?.text?.trim() || '';
+    if (!text) return { reply: null, escalate: true, reason: 'Empty AI response' };
+
+    if (text.startsWith('[ESCALATE:')) {
+      const lines      = text.split('\n');
+      const reason     = lines[0].replace('[ESCALATE:', '').replace(']', '').trim();
+      const holdingMsg = lines.slice(1).join('\n').trim() || 'Let me check that for you and come back shortly!';
+      return { reply: holdingMsg, escalate: true, reason };
+    }
+
+    return { reply: text, escalate: false, reason: null };
+
+  } catch (err) {
+    return { reply: null, escalate: true, reason: err?.message || 'Unknown error' };
+  }
+}
+
+// ── Handler ───────────────────────────────────────────────────────────────────
+
+export default async function handler(req, res) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Authorization, Content-Type');
+  if (req.method === 'OPTIONS') return res.status(200).end();
+  if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
+
+  const user = requireAuth(req, res, 'owner');
+  if (!user) return;
+
+  let body = req.body;
+  if (!body || typeof body === 'string') {
+    try { body = JSON.parse(body); } catch { return res.status(400).json({ error: 'Invalid JSON' }); }
+  }
+
+  const { message, history = [], lead_name, property, listing_price } = body;
+
+  if (!message || !message.trim()) {
+    return res.status(400).json({ error: 'message is required' });
+  }
+
+  const leadName    = (lead_name  || 'Ahmed').trim();
+  const propertyStr = listing_price
+    ? `${property || 'unknown property'} — AED ${Number(listing_price).toLocaleString()}/month`
+    : (property || 'unknown property');
+
+  try {
+    const playbook = await loadPlaybook();
+    const { reply, escalate, reason } = await generateReply(history, message.trim(), leadName, propertyStr, playbook);
+
+    return res.status(200).json({
+      ok:      true,
+      reply,
+      escalate,
+      reason:  escalate ? reason : null,
+    });
+
+  } catch (err) {
+    console.error('[playground]', err);
+    return res.status(500).json({ error: err.message });
+  }
+}
