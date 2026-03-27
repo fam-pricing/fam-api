@@ -62,7 +62,7 @@ function ruleSummary(messages, leadMeta, leadName) {
     }))
     .filter(m => m.text);
   if (!texts.length) return 'Conversation started — no text messages yet.';
-  const leadMsgs  = texts.filter(m => m.from === 'Lead');
+  const leadMsgs  = texts.filter(m => m.from === leadName);
   const allText   = texts.map(m => m.text).join(' ').toLowerCase();
   const negative  = /not interested|no thanks|wrong|stop|unsubscribe|busy/.test(allText);
   const interested = /visit|viewing|when|available|interested|yes|sure|ok|price|how much|confirm|schedule/.test(allText);
@@ -89,7 +89,7 @@ async function generateSummary(messages, leadMeta, leadName) {
 
   if (!texts.length) return 'No messages yet — template was just sent.';
 
-  if (!apiKey) return ruleSummary(messages, leadMeta, leadName);
+  if (!apiKey) { console.error('[trengo-thread] ANTHROPIC_API_KEY not set'); return ruleSummary(messages, leadMeta, leadName); }
 
   const transcript = texts.map(m => `${m.from}: ${m.text}`).join('\n');
   const property   = leadMeta?.listing_title || 'unknown property';
