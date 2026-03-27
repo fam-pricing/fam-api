@@ -1,14 +1,14 @@
 // fäm Living — POST /api/crm/auto-reply
 // Trengo webhook handler for both INBOUND (lead) and OUTBOUND (agent) messages.
 //
-// Night shift mode (9 PM – 6 AM Dubai time):
+// Bot active hours (currently 9 PM – 6 AM Dubai time, expanding to 24/7 soon):
 //   INBOUND → AI reads message, generates reply, posts back via Trengo
 //   Bot escalates to Faysal when unsure:
 //     → sends WhatsApp to Faysal via Trengo (FAYSAL_TICKET_ID)
 //     → stores Q in pending_escalations.json
 //     → Faysal replies on WhatsApp → bot learns, updates playbook, follows up with lead
 //
-// Day shift (6 AM – 9 PM Dubai):
+// Outside active hours (currently 6 AM – 9 PM Dubai):
 //   INBOUND → bot stays silent, Afifa handles
 //   OUTBOUND from Afifa → bot reads and logs as learning opportunity
 //     → if Afifa replied after a bot escalation, extract Q&A, log for playbook update
@@ -258,7 +258,7 @@ async function escalateToFaysal(leadName, property, question, trengoTicketId, cr
   await writePendingEsc(esc, escSha);
 
   // Always leave an internal Trengo note too (so Afifa sees it on day shift)
-  const note = `🤖 Night bot couldn't answer (${dubaiTime}):\n\n"${question}"\n\nFaysal notified via WhatsApp. Reply to this lead if Faysal doesn't respond before your shift.`;
+  const note = `🤖 Bot couldn't answer (${dubaiTime}):\n\n"${question}"\n\nFaysal notified via WhatsApp. Reply to this lead if Faysal doesn't respond in time.`;
   await postTrengoNote(trengoTicketId, note);
 
   console.log(`[auto-reply] Escalated "${question}" to Faysal (escId: ${escId})`);
@@ -656,8 +656,8 @@ export default async function handler(req, res) {
       `Lead: ${leadName}\n` +
       `Property: ${property}\n` +
       `When: ${viewing}\n\n` +
-      `@Afifa @Ahmed @Joel — please coordinate.\n\n` +
-      `— Night Bot`;
+      `@afifa340123 @junaid731578 @farhan731560 @chahana470168 @abdul315306 — please coordinate.\n\n` +
+      `— fäm Bot`;
     await postTrengoNote(ticketId, note);
     console.log('[auto-reply] Viewing note posted for', leadName, viewing);
   }

@@ -107,7 +107,7 @@ export default async function handler(req, res) {
       bot_enabled:       botEnabled,
       night_shift:       nightShift,
       dubai_hour:        dubaiH,
-      shift_label:       nightShift ? '🌙 Night Shift — Bot Active' : '☀️ Day Shift — Afifa Handles',
+      shift_label:       nightShift ? '🤖 Bot Active' : '☀️ Afifa Handles',
       stats: {
         total_leads:        totalLeads,
         bot_replied_leads:  botReplied,
