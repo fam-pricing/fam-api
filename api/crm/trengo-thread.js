@@ -54,10 +54,10 @@ async function getTrengoMessages(ticketId) {
 function ruleSummary(messages, leadMeta) {
   if (!messages.length) return 'No messages yet — template was just sent.';
   const texts = messages
-    .filter(m => m.body || m.message || m.text)
+    .filter(m => m.message || m.body || m.text)
     .map(m => ({
-      from: m.type === 'inbound' ? 'Lead' : 'Agent',
-      text: (m.body || m.message || m.text || '').trim(),
+      from: m.type?.toUpperCase() === 'INBOUND' ? 'Lead' : 'Agent',
+      text: (m.message || m.body || m.text || '').trim(),
     }))
     .filter(m => m.text);
   if (!texts.length) return 'Conversation started — no text messages yet.';
@@ -78,10 +78,10 @@ async function generateSummary(messages, leadMeta) {
 
   // Build conversation transcript
   const texts = messages
-    .filter(m => m.body || m.message || m.text)
+    .filter(m => m.message || m.body || m.text)
     .map(m => ({
-      from: m.type === 'inbound' ? 'Lead' : 'Agent',
-      text: (m.body || m.message || m.text || '').trim(),
+      from: m.type?.toUpperCase() === 'INBOUND' ? 'Lead' : 'Agent',
+      text: (m.message || m.body || m.text || '').trim(),
     }))
     .filter(m => m.text);
 
@@ -174,10 +174,10 @@ export default async function handler(req, res) {
     // 3. Normalise messages for frontend
     const normalised = messages.map(m => ({
       id:        m.id,
-      from:      m.type === 'inbound' ? 'lead' : 'agent',
-      text:      m.body || m.message || m.text || '',
+      from:      m.type?.toUpperCase() === 'INBOUND' ? 'lead' : 'agent',
+      text:      m.message || m.body || m.text || '',
       time:      m.created_at || m.timestamp || '',
-      author:    m.author?.name || m.agent?.name || (m.type === 'inbound' ? 'Lead' : 'Agent'),
+      author:    m.author?.name || m.agent?.name || (m.type?.toUpperCase() === 'INBOUND' ? 'Lead' : 'Agent'),
     })).filter(m => m.text);
 
     // 4. Generate summary
