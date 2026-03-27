@@ -122,7 +122,3 @@ This must happen every single time. No exceptions.
 - Never use emoji
   (Taught directly by Faysal)
 
-
-## Learned (2026-03-27)
-- Never use the leads name captured from WhatsApp displays these can be not real and it would make you sound like AI, if you don’t know the name don’t use it
-  (Taught directly by Faysal)
