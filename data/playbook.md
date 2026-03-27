@@ -109,3 +109,7 @@ When a viewing is confirmed with a lead, send a **Google Calendar invite** to **
 - Subject: "Viewing — [Lead Name] — [Property] — [Date & Time]"
 - Include the lead's phone number in the description
 This must happen every single time. No exceptions.
+
+## Reservations & Payment
+- To confirm a reservation, we need to collect payment first. Always let the lead know that payment is required to secure the booking.
+  (Taught by Faysal, 2026-03-27)
