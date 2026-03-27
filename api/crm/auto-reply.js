@@ -29,7 +29,7 @@ const DUBAI_OFFSET_HOURS = 4;
 const NIGHT_START = 21;
 const NIGHT_END   = 6;
 
-const REPLY_DELAY_MS    = 3000;
+const READ_DELAY_MS     = 2000; // initial pause to simulate reading the message
 const AGENT_COOLDOWN_MS = 15 * 60 * 1000;
 
 // ── Time helpers ──────────────────────────────────────────────────────────────
@@ -706,15 +706,28 @@ export default async function handler(req, res) {
   }
 
   const conversation = await getTrengoMessages(ticketId);
-  await new Promise(r => setTimeout(r, REPLY_DELAY_MS));
+
+  // Short read pause first (bot "reading" the message)
+  await new Promise(r => setTimeout(r, READ_DELAY_MS));
+
   const { reply, escalate, reason, viewing } = await generateReply(conversation, leadMeta, messageText, leadName);
 
   if (escalate) {
-    if (reply) await postTrengoMessage(ticketId, reply);
+    if (reply) {
+      // Simulate typing the holding message before sending
+      const holdingDelay = Math.min(12000, Math.max(3000, reply.length * 55));
+      await new Promise(r => setTimeout(r, holdingDelay));
+      await postTrengoMessage(ticketId, reply);
+    }
     await escalateToFaysal(leadName, leadMeta.listing_title, messageText, ticketId, crmState, leadId, sha);
     await writeCRMState(crmState, sha);
     return res.status(200).json({ ok: true, action: 'escalated', reason });
   }
+
+  // Simulate human typing speed (~3 chars/sec on mobile WhatsApp)
+  // 2s read time already elapsed above; now add typing time for the reply
+  const typingMs = Math.min(22000, Math.max(4000, reply.length * 55));
+  await new Promise(r => setTimeout(r, typingMs));
 
   const sent = await postTrengoMessage(ticketId, reply);
 
