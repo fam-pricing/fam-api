@@ -1110,12 +1110,20 @@
   },
   "message_lead_28392333": {
     "stage": "lost",
-    "notes": [],
+    "notes": [
+      {
+        "text": "Duplicated",
+        "ts": "2026-03-27T07:23:51.503Z",
+        "by": "afifa"
+      }
+    ],
     "auto_responded": true,
     "auto_responded_at": "2026-03-27T06:57:57.075Z",
     "pf_phone": "31639387324",
-    "updated_at": "2026-03-27T07:23:42.564Z",
-    "updated_by": "afifa"
+    "updated_at": "2026-03-27T07:23:51.503Z",
+    "updated_by": "afifa",
+    "closed_price": 5000,
+    "lost_reason": "other"
   },
   "message_lead_28392312": {
     "stage": "new",
