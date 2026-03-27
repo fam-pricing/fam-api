@@ -266,6 +266,17 @@ export default async function handler(req, res) {
     return res.status(200).json({ ok: true, skipped: 'Bot disabled (AUTOBOT_ENABLED != true)' });
   }
 
+  // Webhook secret — checked as ?secret= query param (simplest for Trengo config)
+  // Webhook URL format: /api/crm/auto-reply?secret=<TRENGO_WEBHOOK_SECRET>
+  const webhookSecret = process.env.TRENGO_WEBHOOK_SECRET;
+  if (webhookSecret) {
+    const providedSecret = req.query?.secret || '';
+    if (providedSecret !== webhookSecret) {
+      console.warn('[auto-reply] Invalid webhook secret');
+      return res.status(401).json({ error: 'Unauthorized' });
+    }
+  }
+
   // Parse body
   let body = req.body;
   if (!body || typeof body === 'string') {
