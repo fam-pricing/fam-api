@@ -50,53 +50,82 @@ async function getTrengoMessages(ticketId) {
 
 // ── Summary generator ─────────────────────────────────────────────────────────
 
-function generateSummary(messages, leadMeta) {
+// Fallback rule-based summary (used when AI API is unavailable)
+function ruleSummary(messages, leadMeta) {
   if (!messages.length) return 'No messages yet — template was just sent.';
-
   const texts = messages
     .filter(m => m.body || m.message || m.text)
     .map(m => ({
-      from:    m.type === 'inbound' ? 'Lead' : 'Agent',
-      text:    (m.body || m.message || m.text || '').trim(),
-      time:    m.created_at || m.timestamp || '',
+      from: m.type === 'inbound' ? 'Lead' : 'Agent',
+      text: (m.body || m.message || m.text || '').trim(),
+    }))
+    .filter(m => m.text);
+  if (!texts.length) return 'Conversation started — no text messages yet.';
+  const leadMsgs  = texts.filter(m => m.from === 'Lead');
+  const allText   = texts.map(m => m.text).join(' ').toLowerCase();
+  const negative  = /not interested|no thanks|wrong|stop|unsubscribe|busy/.test(allText);
+  const interested = /visit|viewing|when|available|interested|yes|sure|ok|price|how much|confirm|schedule/.test(allText);
+  let status = leadMsgs.length === 0 ? 'Awaiting lead reply'
+    : negative ? '⚠️ Lead not interested'
+    : interested ? '✅ Lead is engaging'
+    : '💬 Lead replied';
+  return `${status} · ${texts.length} messages (${leadMsgs.length} from lead)`;
+}
+
+// AI summary via Anthropic Messages API (native fetch, no npm)
+async function generateSummary(messages, leadMeta) {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+
+  // Build conversation transcript
+  const texts = messages
+    .filter(m => m.body || m.message || m.text)
+    .map(m => ({
+      from: m.type === 'inbound' ? 'Lead' : 'Agent',
+      text: (m.body || m.message || m.text || '').trim(),
     }))
     .filter(m => m.text);
 
-  if (!texts.length) return 'Conversation started, no text messages yet.';
+  if (!texts.length) return 'No messages yet — template was just sent.';
 
-  const total      = texts.length;
-  const leadMsgs   = texts.filter(m => m.from === 'Lead');
-  const agentMsgs  = texts.filter(m => m.from === 'Agent');
-  const lastMsg    = texts[texts.length - 1];
-  const hasReply   = leadMsgs.length > 0;
+  if (!apiKey) return ruleSummary(messages, leadMeta);
 
-  // Detect interest signals
-  const allText    = texts.map(m => m.text).join(' ').toLowerCase();
-  const interested = /visit|viewing|when|available|interested|yes|sure|ok|price|how much|confirm|schedule/.test(allText);
-  const negative   = /not interested|no thanks|wrong|stop|unsubscribe|busy/.test(allText);
+  const transcript = texts.map(m => `${m.from}: ${m.text}`).join('\n');
+  const property   = leadMeta?.listing_title || 'unknown property';
 
-  let status = 'Awaiting lead reply';
-  if (negative)   status = '⚠️ Lead not interested';
-  else if (interested && hasReply) status = '✅ Lead is engaging';
-  else if (hasReply) status = '💬 Lead replied';
+  const prompt = `You are a CRM assistant for fäm Living, a Dubai holiday home rental company.
 
-  const lines = [
-    `${status}`,
-    `${total} message${total !== 1 ? 's' : ''} — ${leadMsgs.length} from lead, ${agentMsgs.length} from agent.`,
-  ];
+A lead enquired about: ${property}
 
-  if (lastMsg) {
-    const preview = lastMsg.text.length > 80
-      ? lastMsg.text.slice(0, 80) + '…'
-      : lastMsg.text;
-    lines.push(`Last message (${lastMsg.from}): "${preview}"`);
+Here is the WhatsApp conversation so far:
+${transcript}
+
+Write a SHORT 2–3 sentence summary for the agent covering:
+1. Current status — has the lead replied? Are they interested?
+2. What the lead said or asked (if anything)
+3. Recommended next action
+
+Be direct and practical. No bullet points. No markdown. Plain text only.`;
+
+  try {
+    const r = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'x-api-key':         apiKey,
+        'anthropic-version': '2023-06-01',
+        'Content-Type':      'application/json',
+      },
+      body: JSON.stringify({
+        model:      'claude-haiku-4-5-20251001',
+        max_tokens: 200,
+        messages:   [{ role: 'user', content: prompt }],
+      }),
+    });
+    if (!r.ok) return ruleSummary(messages, leadMeta);
+    const d = await r.json();
+    return d?.content?.[0]?.text?.trim() || ruleSummary(messages, leadMeta);
+  } catch {
+    return ruleSummary(messages, leadMeta);
   }
-
-  if (leadMeta?.listing_title) {
-    lines.push(`Property: ${leadMeta.listing_title}`);
-  }
-
-  return lines.join('\n');
 }
 
 // ── Handler ───────────────────────────────────────────────────────────────────
@@ -152,7 +181,7 @@ export default async function handler(req, res) {
     })).filter(m => m.text);
 
     // 4. Generate summary
-    const summary = generateSummary(messages, leadMeta);
+    const summary = await generateSummary(messages, leadMeta);
 
     return res.status(200).json({
       ok:       true,
