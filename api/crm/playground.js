@@ -26,6 +26,64 @@ async function loadPlaybook() {
   }
 }
 
+// ── Append a rule to the playbook ─────────────────────────────────────────────
+
+async function appendToPlaybook(newEntry) {
+  const token = process.env.GH_TOKEN;
+  if (!token) return false;
+  try {
+    // Get current file + SHA
+    const r1 = await fetch(`${GH_API}/repos/${REPO}/contents/${PLAYBOOK_FILE}`, {
+      headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github.v3+json' },
+    });
+    if (!r1.ok) return false;
+    const d1  = await r1.json();
+    const sha  = d1.sha;
+    const current = Buffer.from(d1.content.replace(/\n/g, ''), 'base64').toString('utf8');
+    const updated  = current.trimEnd() + '\n\n' + newEntry.trim() + '\n';
+    const encoded  = Buffer.from(updated).toString('base64');
+
+    const r2 = await fetch(`${GH_API}/repos/${REPO}/contents/${PLAYBOOK_FILE}`, {
+      method: 'PUT',
+      headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: 'Playbook update via Simulator', content: encoded, sha }),
+    });
+    return r2.ok;
+  } catch {
+    return false;
+  }
+}
+
+// ── Rephrase a raw correction into clean playbook language ────────────────────
+
+async function rephraseRule(rawMessage) {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) return rawMessage;
+  try {
+    const r = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 150,
+        messages: [{
+          role: 'user',
+          content: `You are editing a WhatsApp sales playbook for a Dubai holiday home company.
+
+Rewrite the following into a single, clean playbook rule. Fix typos, tighten the language, keep the exact meaning. Output ONLY the rule text — no labels, no bullet point, no explanation.
+
+Raw input: "${rawMessage}"`,
+        }],
+      }),
+    });
+    if (!r.ok) return rawMessage;
+    const d = await r.json();
+    return d?.content?.[0]?.text?.trim() || rawMessage;
+  } catch {
+    return rawMessage;
+  }
+}
+
 // ── Bot reply using Claude (same logic as auto-reply.js) ──────────────────────
 
 async function generateReply(history, newMessage, leadName, property, playbook) {
@@ -112,6 +170,20 @@ export default async function handler(req, res) {
     try { body = JSON.parse(body); } catch { return res.status(400).json({ error: 'Invalid JSON' }); }
   }
 
+  // ── Teach action: save a correction to the playbook ──────────────────────────
+  if (body.action === 'teach') {
+    const rawRule = (body.rule || '').trim();
+    if (!rawRule) return res.status(400).json({ error: 'rule is required' });
+
+    const polished = await rephraseRule(rawRule);
+    const today    = new Date().toISOString().slice(0, 10);
+    const entry    = `## Learned (${today})\n- ${polished}\n  (Taught via Simulator by Faysal)`;
+    const saved    = await appendToPlaybook(entry);
+
+    return res.status(200).json({ ok: true, saved_as: polished, persisted: saved });
+  }
+
+  // ── Normal simulator reply ─────────────────────────────────────────────────
   const { message, history = [], lead_name, property, listing_price } = body;
 
   if (!message || !message.trim()) {
