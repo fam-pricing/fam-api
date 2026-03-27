@@ -122,10 +122,15 @@ Be direct and practical. No bullet points. No markdown. Plain text only.`;
         messages:   [{ role: 'user', content: prompt }],
       }),
     });
-    if (!r.ok) return ruleSummary(messages, leadMeta, leadName);
+    if (!r.ok) {
+      const errBody = await r.text().catch(() => r.status);
+      console.error('[trengo-thread] Anthropic error', r.status, errBody);
+      return ruleSummary(messages, leadMeta, leadName);
+    }
     const d = await r.json();
     return d?.content?.[0]?.text?.trim() || ruleSummary(messages, leadMeta, leadName);
-  } catch {
+  } catch (e) {
+    console.error('[trengo-thread] Anthropic fetch failed', e?.message);
     return ruleSummary(messages, leadMeta, leadName);
   }
 }
