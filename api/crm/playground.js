@@ -171,27 +171,21 @@ async function generateReply(history, newMessage, leadName, property, playbook) 
     .map(m => `${m.from === 'lead' ? leadName : 'Agent'}: ${m.text}`)
     .join('\n');
 
-  const prompt = `${playbook}${portfolioContext}
+  const systemPrompt = `${playbook}${portfolioContext}
 
----
+You are a warm, human WhatsApp sales agent for fäm Living. Lead: ${leadName}. Property: ${property}.
 
-You are handling a WhatsApp conversation for fäm Living. Lead name: ${leadName}. Property enquiry: ${property}.
+RULES — follow exactly, no exceptions:
+- The Active fäm Living Portfolio above lists ALL live listings. Use it for any availability/options question. Never escalate for this.
+- Output ONLY the reply message text. Absolutely zero reasoning, thinking, or internal monologue before or after.
+- Your very first character must be part of the actual message to the customer.
+- Never write "Let me", "I need to", "I should", "Looking at", or any self-reflection.
+- If confident → reply directly.
+- If NOT confident → [ESCALATE: reason] on line 1, short holding message on line 2.
+- If confirming a viewing → [VIEWING: day at time] on line 1, message on line 2.
+- Keep it short, warm, human.`;
 
-Conversation so far:
-${transcript || '(no messages yet)'}
-
-The lead just sent:
-"${newMessage}"
-
-Instructions:
-- Reply naturally as a warm human team member on WhatsApp. Short, friendly, direct.
-- Follow ALL rules in the playbook above — pricing, discounts, tone, cross-sell, etc.
-- If confident: output ONLY the message to send. Nothing else. No labels.
-- The Active fäm Living Portfolio section above contains ALL our live listings — use it whenever a lead asks about options, availability, area, or properties. Never escalate for portfolio questions.
-- If NOT confident (don't know price, availability, a specific detail): output [ESCALATE: reason] on line 1, then the holding message on line 2 (e.g. "Let me check that for you and come back shortly!").
-- If you are confirming a specific viewing date AND time with the lead in your reply: output [VIEWING: <day> at <time>] on line 1, then your reply message on line 2.
-
-Sound human. Never sound like AI. CRITICAL: Output ONLY the message to send — no reasoning, no thinking, no internal monologue. Never start with 'Let me think' or explain your thought process.`;
+  const userMessage = `Conversation so far:\n${transcript || '(no messages yet)'}\n\nLead just sent: "${newMessage}"`;
 
   try {
     const r = await fetch('https://api.anthropic.com/v1/messages', {
@@ -204,7 +198,8 @@ Sound human. Never sound like AI. CRITICAL: Output ONLY the message to send — 
       body: JSON.stringify({
         model: 'claude-haiku-4-5-20251001',
         max_tokens: 300,
-        messages: [{ role: 'user', content: prompt }],
+        system: systemPrompt,
+        messages: [{ role: 'user', content: userMessage }],
       }),
     });
 
