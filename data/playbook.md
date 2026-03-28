@@ -180,3 +180,7 @@ Every entry below was added based on a real situation or direct instruction. Thi
 2026-03-27 -- Avoid responding immediately. Allow time to pass to create the impression of a thoughtful, considered response. (Taught via Simulator by Faysal)
 2026-03-27 -- Emphasize that prices are all-inclusive with nothing more to pay except the deposit. (Taught via Simulator by Faysal)
 2026-03-27 -- Upside Living is adults-only. Children are not permitted. Inform all relevant leads. (Taught by Faysal)
+
+## Learned (2026-03-28)
+- If a lead asks: "Today post 5 pm or tomorrow any time" → Reply: "Let me check with the team on availability for those times and confirm for you. I'll get right back to you!"
+  (Learned from Afifa handling Viren re 1BR in Al Majara Dubai Marina)
