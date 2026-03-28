@@ -29,7 +29,8 @@ const DUBAI_OFFSET_HOURS = 4;
 const NIGHT_START = 21;
 const NIGHT_END   = 6;
 
-const READ_DELAY_MS     = 2000; // initial pause to simulate reading the message
+const READ_DELAY_BASE   = 2000; // base delay to simulate reading
+const READ_DELAY_JITTER = 3000; // random jitter (0-3s) to desynchronize concurrent webhooks
 const AGENT_COOLDOWN_MS = 3 * 60 * 1000; // 3 min — bot's own outbound replies were triggering 15min lockout
 
 // ── Time helpers ──────────────────────────────────────────────────────────────
@@ -778,8 +779,10 @@ export default async function handler(req, res) {
 
   const conversation = await getTrengoMessages(ticketId);
 
-  // Short read pause first (bot "reading" the message)
-  await new Promise(r => setTimeout(r, READ_DELAY_MS));
+  // Short read pause + random jitter to desynchronize concurrent webhooks
+  const jitter = Math.floor(Math.random() * READ_DELAY_JITTER);
+  await new Promise(r => setTimeout(r, READ_DELAY_BASE + jitter));
+  console.log(`[auto-reply] Read delay: ${READ_DELAY_BASE + jitter}ms (jitter: ${jitter}ms)`);
 
   const { reply, escalate, reason, viewing } = await generateReply(conversation, leadMeta, messageText, leadName);
 
@@ -804,6 +807,28 @@ export default async function handler(req, res) {
   // 2s read time already elapsed above; now add typing time for the reply
   const typingMs = Math.min(10000, Math.max(3000, reply.length * 40)); // Capped at 10s to stay within Vercel 30s function limit
   await new Promise(r => setTimeout(r, typingMs));
+
+  // ── Optimistic lock: re-read CRM to detect if another instance already replied ──
+  // Two webhooks can arrive simultaneously, both pass cooldown, both generate replies.
+  // By re-checking here (after delays + AI call), the slower one will see the faster
+  // one already updated last_bot_reply_at and bail out instead of double-replying.
+  try {
+    const { state: freshCRM } = await readCRMState();
+    const freshMeta = freshCRM[leadId];
+    if (freshMeta) {
+      const freshBotAt = freshMeta.last_bot_reply_at ? new Date(freshMeta.last_bot_reply_at).getTime() : 0;
+      if (freshBotAt > lastBotAt) {
+        console.log(`[auto-reply] OPTIMISTIC LOCK: another instance replied while we were generating. Bailing out.`);
+        return res.status(200).json({ ok: true, skipped: 'Optimistic lock — another instance replied first' });
+      }
+      if (freshMeta.bot_paused) {
+        console.log(`[auto-reply] OPTIMISTIC LOCK: bot was paused while generating. Bailing out.`);
+        return res.status(200).json({ ok: true, skipped: 'Bot paused during generation' });
+      }
+    }
+  } catch (e) {
+    console.warn('[auto-reply] Optimistic lock check failed, proceeding anyway:', e?.message);
+  }
 
   const sent = await postTrengoMessage(ticketId, reply);
 
