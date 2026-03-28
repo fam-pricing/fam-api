@@ -725,6 +725,13 @@ export default async function handler(req, res) {
     return res.status(200).json({ ok: true, skipped: 'Agent cooldown active' });
   }
 
+  // Per-ticket bot cooldown: if bot replied in last 2 minutes, skip (prevents rapid-fire when lead texts fast)
+  const lastBotAt = leadMeta.last_bot_reply_at ? new Date(leadMeta.last_bot_reply_at).getTime() : 0;
+  const BOT_COOLDOWN_MS = 2 * 60 * 1000; // 2 minutes
+  if (Date.now() - lastBotAt < BOT_COOLDOWN_MS) {
+    return res.status(200).json({ ok: true, skipped: 'Bot cooldown — replied too recently' });
+  }
+
   const conversation = await getTrengoMessages(ticketId);
 
   // Short read pause first (bot "reading" the message)
