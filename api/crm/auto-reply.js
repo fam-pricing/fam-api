@@ -634,10 +634,10 @@ export default async function handler(req, res) {
   // We must handle both formats (flat = real Trengo, nested = curl tests / API calls)
   const isFlat = typeof body?.message === 'string' || body?.ticket_id != null;
 
-  const ticketId = body?.ticket?.id              // nested test format
-                || body?.ticket_id               // flat Trengo format  ← KEY FIX
+  const ticketId = parseInt(body?.ticket?.id      // nested test format
+                || body?.ticket_id               // flat Trengo format — Trengo sends as STRING
                 || body?.message?.ticket_id
-                || null;
+                || 0) || null;
 
   const messageText = (isFlat ? (body?.message || '') : '')  // flat: body.message IS the text
                     || body?.message?.message                  // nested variants
@@ -679,7 +679,7 @@ export default async function handler(req, res) {
 
   // Load CRM state
   const { state: crmState, sha } = await readCRMState();
-  const leadId   = Object.keys(crmState).find(k => crmState[k].trengo_ticket_id === ticketId);
+  const leadId   = Object.keys(crmState).find(k => String(crmState[k].trengo_ticket_id) === String(ticketId));
   if (!leadId) return res.status(200).json({ ok: true, skipped: 'Ticket not in CRM' });
 
   // ── Owner phone guard ──────────────────────────────────────────────────────
