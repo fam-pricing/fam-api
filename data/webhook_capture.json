@@ -1,20 +1,17 @@
 {
-  "ts": "2026-03-28T15:51:08.128Z",
+  "ts": "2026-03-28T15:51:19.422Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216117532",
+    "type": "INBOUND",
+    "message_id": "4216117627",
     "ticket_id": "937664642",
-    "message": "✅ *Got it!* Playbook updated and lead notified.\n\n*Rule added:*\n\"Lets schedule for today at 5 pm\" → use your answer ✓\n\nNo more pending questions — you're all caught up! 🎉",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Ignore",
+    "channel_id": "1304636",
     "contact_id": "148235048",
     "contact_name": "Faysal Ayoubi",
     "contact_identifier": "+971507688646",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
