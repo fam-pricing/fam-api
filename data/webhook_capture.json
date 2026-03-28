@@ -1,18 +1,19 @@
 {
-  "ts": "2026-03-28T09:38:39.675Z",
+  "ts": "2026-03-28T09:39:58.343Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4215922029",
+    "type": "OUTBOUND",
+    "message_id": "4215922612",
     "ticket_id": "937793083",
-    "message": "Could you show me please",
-    "channel_id": "1304636",
+    "message": "https://famliving.guestybookings.com/en/properties/6909974ccfdcd4001394c1e8",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535037878",
     "contact_identifier": "+77776802624",
-    "parent_message_id": "4215921787",
-    "parent_ticket_id": "937793083",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
