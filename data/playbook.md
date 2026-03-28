@@ -192,3 +192,4 @@ Every entry below was added based on a real situation or direct instruction. Thi
 ## Learned (2026-03-28)
 - Viewings: always available 9am-6pm any day. Confirm the time directly. Never say "let me check" or escalate for viewing times within those hours.
   (General rule — applies to all leads)
+2026-03-28 -- Cleaning service: fam Living provides a cleaning service. If a lead asks about cleaning, confirm it is available and that our team will share the details / schedule upon booking. Do not escalate this question. (Taught by Faysal)
