@@ -1,16 +1,19 @@
 {
-  "ts": "2026-03-28T14:07:13.545Z",
+  "ts": "2026-03-28T14:07:33.341Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216062184",
+    "type": "OUTBOUND",
+    "message_id": "4216062342",
     "ticket_id": "937708980",
-    "message": "Hi I rent another ap today",
-    "channel_id": "1304636",
+    "message": "Great to hear you found something! If things change or you want to explore options down the line, just reach out. All the best with the new place.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535015409",
     "contact_identifier": "+971565891754",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
