@@ -1,19 +1,16 @@
 {
-  "ts": "2026-03-28T09:32:00.642Z",
+  "ts": "2026-03-28T09:32:08.234Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4215918474",
-    "ticket_id": "937793083",
-    "message": "Got it, so you're after a studio. We've got several available across different areas. Where are you looking to be, or what's your budget range? That'll help me point you toward the right one.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "535037878",
-    "contact_identifier": "+77776802624",
+    "type": "INBOUND",
+    "message_id": "4215918529",
+    "ticket_id": "937729033",
+    "message": "Which unit is this ?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535024594",
+    "contact_identifier": "+971585781304",
+    "event_type": "INBOUND"
   }
 }
