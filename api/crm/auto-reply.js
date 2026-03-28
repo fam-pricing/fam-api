@@ -612,6 +612,23 @@ export default async function handler(req, res) {
     try { body = JSON.parse(body); } catch { return res.status(400).json({ error: 'Invalid JSON' }); }
   }
 
+  // RAW PAYLOAD LOG — saves incoming body to GitHub for debugging
+  try {
+    const ghTok = process.env.GH_TOKEN;
+    const logData = { ts: new Date().toISOString(), query: req.query, body };
+    const logB64 = Buffer.from(JSON.stringify(logData, null, 2)).toString('base64');
+    let logSha = null;
+    try {
+      const lr = await fetch('https://api.github.com/repos/fam-pricing/fam-api/contents/data/webhook_capture.json', { headers: { Authorization: 'token ' + ghTok } });
+      if (lr.ok) { const ld = await lr.json(); logSha = ld.sha; }
+    } catch {}
+    await fetch('https://api.github.com/repos/fam-pricing/fam-api/contents/data/webhook_capture.json', {
+      method: 'PUT',
+      headers: { Authorization: 'token ' + ghTok, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: 'log: incoming webhook', content: logB64, ...(logSha ? { sha: logSha } : {}) })
+    });
+  } catch (logErr) { console.warn('log failed', logErr.message); }
+
   // Trengo sends FLAT payloads: { ticket_id, message, contact_id, user_id, ... }
   // NOT nested { ticket: { id }, message: { body, type } }
   // We must handle both formats (flat = real Trengo, nested = curl tests / API calls)
