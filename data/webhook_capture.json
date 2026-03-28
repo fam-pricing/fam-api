@@ -1,16 +1,19 @@
 {
-  "ts": "2026-03-28T03:48:38.811Z",
+  "ts": "2026-03-28T03:48:52.331Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4215807618",
+    "type": "OUTBOUND",
+    "message_id": "4215808127",
     "ticket_id": "937808547",
-    "message": "Tomorrow?",
-    "channel_id": "1304636",
+    "message": "Perfect, tomorrow works. What time suits you best between 9 AM and 6 PM?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535043129",
     "contact_identifier": "+79877320904",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
