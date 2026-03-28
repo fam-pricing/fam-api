@@ -598,7 +598,14 @@ export default async function handler(req, res) {
     return res.status(200).json({ ok: true, skipped: 'Bot disabled (AUTOBOT_ENABLED != true)' });
   }
 
-  // Webhook secret check removed — Trengo webhooks don't include ?secret= query param
+  const webhookSecret = process.env.TRENGO_WEBHOOK_SECRET;
+  if (webhookSecret) {
+    const providedSecret = req.query?.secret || '';
+    if (providedSecret !== webhookSecret) {
+      console.warn('[auto-reply] Invalid webhook secret');
+      return res.status(401).json({ error: 'Unauthorized' });
+    }
+  }
 
   let body = req.body;
   if (!body || typeof body === 'string') {
@@ -687,19 +694,10 @@ export default async function handler(req, res) {
 
   if (!messageText) return res.status(200).json({ ok: true, skipped: 'Empty message' });
 
-  const nightShift = isNightShift();
-  const dubaiHour  = getDubaiHour();
-  console.log(`[auto-reply] Inbound on ticket ${ticketId} | Dubai hour: ${dubaiHour} | Night shift: ${nightShift}`);
+  const dubaiHour = getDubaiHour();
+  console.log(`[auto-reply] Inbound on ticket ${ticketId} | Dubai hour: ${dubaiHour} | Bot: 24/7 active`);
 
-  // DAY SHIFT — Afifa is on
-  if (!nightShift) {
-    crmState[leadId].lead_replied    = true;
-    crmState[leadId].lead_replied_at = new Date().toISOString();
-    await writeCRMState(crmState, sha);
-    return res.status(200).json({ ok: true, skipped: 'Day shift — Afifa handles', dubaiHour });
-  }
-
-  // NIGHT SHIFT — bot is on
+  // BOT RUNS 24/7
 
   if (leadMeta.bot_paused) {
     return res.status(200).json({ ok: true, skipped: 'Bot paused for this lead' });
