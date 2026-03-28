@@ -150,24 +150,29 @@ async function getTrengoMessages(ticketId) {
   } catch { return []; }
 }
 
-// Check if a real agent replied in the last N ms in the actual Trengo thread.
-// Prevents the bot from piling on after Afifa or Faysal has already responded.
-const LIVE_AGENT_GUARD_MS = 20 * 60 * 1000; // 20 minutes
-
+// Check if the most recent real message in the thread is from an agent (not the lead).
+// If the lead spoke last, the bot should reply regardless of when the agent last replied.
+// This prevents piling on (agent speaks → bot also speaks) but allows the bot to
+// handle follow-up questions the lead sends after an agent reply.
 async function hasRecentAgentReplyInTrengo(ticketId) {
   const messages = await getTrengoMessages(ticketId);
   if (!messages.length) return false;
-  const cutoff = Date.now() - LIVE_AGENT_GUARD_MS;
-  return messages.some(m => {
-    const isOutbound = (m.type || '').toUpperCase() === 'OUTBOUND';
-    // internal_note = true means it's a note, not a real reply — ignore those
-    if (!isOutbound || m.internal_note) return false;
-    // created_at can be a unix timestamp (seconds) or ISO string
-    const ts = m.created_at
-      ? (typeof m.created_at === 'number' ? m.created_at * 1000 : new Date(m.created_at).getTime())
-      : 0;
-    return ts > cutoff;
+
+  // Sort by created_at descending, ignoring internal notes
+  const realMessages = messages.filter(m => !m.internal_note);
+  if (!realMessages.length) return false;
+
+  realMessages.sort((a, b) => {
+    const tsA = a.created_at ? (typeof a.created_at === 'number' ? a.created_at * 1000 : new Date(a.created_at).getTime()) : 0;
+    const tsB = b.created_at ? (typeof b.created_at === 'number' ? b.created_at * 1000 : new Date(b.created_at).getTime()) : 0;
+    return tsB - tsA;
   });
+
+  // Only block if the LAST message is from an agent (outbound) — i.e. agent just spoke
+  // If the lead spoke last (inbound), bot should reply
+  const lastMsg = realMessages[0];
+  const lastIsOutbound = (lastMsg.type || '').toUpperCase() === 'OUTBOUND';
+  return lastIsOutbound;
 }
 
 async function postTrengoMessage(ticketId, message) {
