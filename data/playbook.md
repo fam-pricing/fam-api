@@ -184,3 +184,7 @@ Every entry below was added based on a real situation or direct instruction. Thi
 ## Learned (2026-03-28)
 - If a lead asks: "Today post 5 pm or tomorrow any time" → Reply: "Let me check with the team on availability for those times and confirm for you. I'll get right back to you!"
   (Learned from Afifa handling Viren re 1BR in Al Majara Dubai Marina)
+
+## Learned (2026-03-28)
+- When a lead requests availability for today after 5pm or tomorrow at any time, confirm that today at 5pm and tomorrow between 9am and 6pm are both available options.
+  (Taught by Faysal for Viren)
