@@ -1,16 +1,19 @@
 {
-  "ts": "2026-03-28T15:57:59.521Z",
+  "ts": "2026-03-28T15:58:00.028Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216120774",
+    "type": "OUTBOUND",
+    "message_id": "4216120779",
     "ticket_id": "937936977",
-    "message": "This price includes vat?",
-    "channel_id": "1304636",
+    "message": "Cleaning is not included in the rent, but we do offer a paid housekeeping service. For the studio at Palm Tower, that's AED 160 per visit. We handle linen changes, vacuuming, mopping, trash disposal, and restocking amenities.\n\nWould you like to add that to your booking?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535072138",
     "contact_identifier": "+971505005927",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
