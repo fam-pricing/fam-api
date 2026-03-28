@@ -1,19 +1,18 @@
 {
-  "ts": "2026-03-28T15:40:56.865Z",
+  "ts": "2026-03-28T15:44:22.297Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216112239",
+    "type": "INBOUND",
+    "message_id": "4216113908",
     "ticket_id": "937933692",
-    "message": "Got it Denis, happy to help anytime. So we're all set then with the 1BR in Nobles Tower for a year-long stay at AED 8,000 a month? When would you like to move in?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes exactly. Around 25 April or earlier",
+    "channel_id": "1304636",
     "contact_id": "535071198",
     "contact_identifier": "+971585212534",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4216112239",
+    "parent_ticket_id": "937933692",
+    "event_type": "INBOUND"
   }
 }
