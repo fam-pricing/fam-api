@@ -1,13 +1,19 @@
 {
-  "ts": "2026-03-28T05:27:09.299Z",
+  "ts": "2026-03-28T05:27:25.224Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
+    "type": "OUTBOUND",
+    "message_id": "4215827247",
     "ticket_id": "937840844",
-    "message": "Yes",
-    "message_id": "manual_trigger_viren_001",
-    "contact_id": "viren"
+    "message": "Perfect! You can move in from 6th April. Let me get you booked for a viewing. What day and time work best for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535047442",
+    "contact_identifier": "+971527074999",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
