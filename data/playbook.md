@@ -212,3 +212,7 @@ Every entry below was added based on a real situation or direct instruction. Thi
 ## Learned (2026-03-28)
 - When a lead opens with a greeting like "Hi, how are you?", respond by explaining that fixed yearly pricing is unavailable, and redirect them toward Ejari long-term rentals as an alternative if they're seeking annual commitments.
   (Taught by Faysal for Séphora)
+
+## Learned (2026-03-28)
+- When a lead inquires about documentation or long-term contracts, respond: "Unfortunately, we can't commit to a fixed yearly price. Your best option would be to explore yearly Ejari rentals. Would that interest you?"
+  (Taught by Faysal for there)
