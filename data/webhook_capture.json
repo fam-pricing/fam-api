@@ -1,18 +1,19 @@
 {
-  "ts": "2026-03-28T15:35:15.557Z",
+  "ts": "2026-03-28T15:35:36.735Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216109265",
+    "type": "OUTBOUND",
+    "message_id": "4216109427",
     "ticket_id": "937933692",
-    "message": ".",
-    "channel_id": "1304636",
+    "message": "Hey Denis, the 1BR in Nobles Tower is available now and yes, you can pay monthly. It's AED 8,000 a month all-inclusive, water, electricity and internet are covered. When are you looking to move in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535071198",
     "contact_identifier": "+971585212534",
-    "parent_message_id": "4216108947",
-    "parent_ticket_id": "937933692",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
