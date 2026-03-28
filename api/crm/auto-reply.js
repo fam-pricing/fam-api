@@ -30,7 +30,7 @@ const NIGHT_START = 21;
 const NIGHT_END   = 6;
 
 const READ_DELAY_MS     = 2000; // initial pause to simulate reading the message
-const AGENT_COOLDOWN_MS = 15 * 60 * 1000;
+const AGENT_COOLDOWN_MS = 3 * 60 * 1000; // 3 min — bot's own outbound replies were triggering 15min lockout
 
 // ── Time helpers ──────────────────────────────────────────────────────────────
 
