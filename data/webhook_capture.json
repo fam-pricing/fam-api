@@ -1,17 +1,19 @@
 {
-  "ts": "2026-03-28T12:27:17.249Z",
+  "ts": "2026-03-28T12:27:18.954Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216009475",
-    "ticket_id": "937903319",
-    "message": "I have sent an email too regarding a technician visit to check the AC ducts as its not cooling",
-    "channel_id": "585723",
-    "contact_id": "503267156",
-    "contact_name": "Mehreen Ghauri",
-    "contact_identifier": "+971502596620",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4216009508",
+    "ticket_id": "937903394",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-67437566.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535063027",
+    "contact_identifier": "+971528514709",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
