@@ -1,16 +1,19 @@
 {
-  "ts": "2026-03-28T15:59:28.228Z",
+  "ts": "2026-03-28T15:59:52.946Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216121516",
+    "type": "OUTBOUND",
+    "message_id": "4216121690",
     "ticket_id": "937936977",
-    "message": "Please confirm as in 2 months I would like to bring my dog from Polans",
-    "channel_id": "1304636",
+    "message": "Thanks for clarifying. Just to confirm a couple of things before we lock this in:\n\nThe studio is AED 9,300 per month, all-inclusive. We can secure that rate for your first 3 months starting this Monday. For months 4-12, rates shift with the season, so we'd confirm pricing with you closer to those dates.\n\nRegarding your dog: pets need written approval from the owner. I'll check if a 2kg dog can be approved for this unit and get back to you within a few hours. In the meantime, shall we move forward with the viewing or do you want to sort the pet question first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535072138",
     "contact_identifier": "+971505005927",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
