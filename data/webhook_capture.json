@@ -1,16 +1,19 @@
 {
-  "ts": "2026-03-28T08:33:04.386Z",
+  "ts": "2026-03-28T08:33:36.458Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4215888759",
-    "ticket_id": "937865263",
-    "message": "Hey planning from 5th of April",
+    "type": "OUTBOUND",
+    "message_id": "4215888977",
+    "ticket_id": "937708980",
+    "message": "What time you want to view",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
+    "contact_id": "535015409",
+    "contact_identifier": "+971565891754",
     "channel_id": "1304636",
-    "contact_id": "535052322",
-    "contact_identifier": "+971553274493",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
