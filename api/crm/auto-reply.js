@@ -419,6 +419,18 @@ async function handleFaysalTeachingReply(faysalTicketId, answer) {
     const replyToLead = answer; // Send Faysal's answer directly to the lead
     await postTrengoMessage(current.lead_ticket_id, replyToLead);
     console.log(`[auto-reply] Followed up with lead ticket ${current.lead_ticket_id}`);
+
+    // If this lead had a viewing escalated, mark as team_responded so bot won't re-escalate
+    if (current.lead_id) {
+      try {
+        const { state: crmNow, sha: crmSha } = await readCRMState();
+        if (crmNow[current.lead_id] && crmNow[current.lead_id].viewing_status === 'escalated') {
+          crmNow[current.lead_id].viewing_status = 'team_responded';
+          await writeCRMState(crmNow, crmSha);
+          console.log(`[auto-reply] Viewing status → team_responded for ${current.lead_name}`);
+        }
+      } catch (e) { console.warn('[auto-reply] viewing status update failed:', e?.message); }
+    }
   }
 
   // Confirm to Faysal
@@ -545,7 +557,15 @@ async function generateReply(conversation, leadMeta, newMessage, leadName) {
 
   const property = leadMeta?.listing_title || 'the property';
 
-  const systemPrompt = `${playbook}${portfolioContext}
+  // Viewing state context — prevents re-escalation loop
+  let viewingContext = '';
+  if (leadMeta?.viewing_status === 'team_responded') {
+    viewingContext = `\n\nVIEWING STATUS: The team has ALREADY confirmed viewing availability for this lead (requested: ${leadMeta.viewing_requested || 'a viewing'}). The lead is now confirming the time. Do NOT escalate again. Do NOT say "let me check with the team." Just acknowledge warmly, e.g. "You're all set for [time]! Our team will coordinate with you shortly." Then reply normally.`;
+  } else if (leadMeta?.viewing_status === 'confirmed') {
+    viewingContext = `\n\nVIEWING STATUS: A viewing is already confirmed for this lead. No need to discuss viewing scheduling further unless the lead brings it up again to change the time.`;
+  }
+
+  const systemPrompt = `${playbook}${portfolioContext}${viewingContext}
 
 You are a warm, human WhatsApp sales agent for fäm Living. Lead: ${leadName}. Property: ${property}.
 
@@ -557,7 +577,7 @@ RULES — follow exactly, no exceptions:
 - Never write "Let me", "I need to", "I should", "Looking at", or any self-reflection.
 - If confident → reply directly.
 - If NOT confident → [ESCALATE: reason] on line 1, short holding message on line 2.
-- VIEWING — CRITICAL: When a lead says they want a viewing at any specific time or day, NEVER confirm or promise that slot yourself. You do not have access to the calendar. Output [ESCALATE: VIEWING REQUESTED - [property] on [day] at [time]] on line 1, then a warm holding message on line 2 (e.g. "Let me check with the team on availability and confirm that time for you!"). NEVER say "See you at [time]" or "Perfect, [time] today" or "You're booked for [time]". NEVER. Always escalate viewings.
+- VIEWING — CRITICAL: When a lead says they want a viewing at any specific time or day AND there is NO viewing already in progress, NEVER confirm or promise that slot yourself. Output [ESCALATE: VIEWING REQUESTED - [property] on [day] at [time]] on line 1, then a warm holding message on line 2. But if VIEWING STATUS above says "team_responded" or "confirmed", do NOT escalate — the team already confirmed. Just acknowledge warmly.
 - Keep it short, warm, human.
 - NEVER use em dashes (—) or en dashes in your replies. Use commas or periods instead. This is non-negotiable.
 - PRICING MATH — CRITICAL: Prices are seasonal and only locked for 3 months at a time. NEVER calculate or quote a total for more than 3 months. If a lead asks about 4, 6, 12 months or a full year: quote the current monthly rate and say our rates are confirmed in 3-month blocks, you can lock in the current rate for the first 3 months, and for beyond that the rate depends on the season and you will need to confirm with the team. Then [ESCALATE: lead asking about long-term pricing beyond 3 months]. Do NOT multiply price by 12 or 6 or any number above 3.`;
@@ -770,6 +790,11 @@ export default async function handler(req, res) {
       await new Promise(r => setTimeout(r, holdingDelay));
       await postTrengoMessage(ticketId, reply);
     }
+    // Track viewing status in CRM so we don't re-escalate when lead confirms
+    if (viewing) {
+      crmState[leadId].viewing_status    = 'escalated';
+      crmState[leadId].viewing_requested = viewing;
+    }
     await escalateToFaysal(leadName, leadMeta.listing_title, messageText, ticketId, crmState, leadId, sha);
     await writeCRMState(crmState, sha);
     return res.status(200).json({ ok: true, action: 'escalated', reason });
@@ -811,6 +836,13 @@ export default async function handler(req, res) {
   crmState[leadId].last_bot_reply_at         = new Date().toISOString();
   crmState[leadId].bot_reply_count           = (leadMeta.bot_reply_count || 0) + 1;
   if (incomingMsgId) crmState[leadId].last_processed_message_id = incomingMsgId;
+
+  // If viewing was team_responded and bot just replied normally (not escalating), mark confirmed
+  if (leadMeta.viewing_status === 'team_responded') {
+    crmState[leadId].viewing_status = 'confirmed';
+    console.log(`[auto-reply] Viewing status → confirmed for ${leadName}`);
+  }
+
   await writeCRMState(crmState, sha);
 
   return res.status(200).json({ ok: true, action: 'replied', sent, dubaiHour, viewing: viewing || null });
