@@ -150,6 +150,26 @@ async function getTrengoMessages(ticketId) {
   } catch { return []; }
 }
 
+// Check if a real agent replied in the last N ms in the actual Trengo thread.
+// Prevents the bot from piling on after Afifa or Faysal has already responded.
+const LIVE_AGENT_GUARD_MS = 20 * 60 * 1000; // 20 minutes
+
+async function hasRecentAgentReplyInTrengo(ticketId) {
+  const messages = await getTrengoMessages(ticketId);
+  if (!messages.length) return false;
+  const cutoff = Date.now() - LIVE_AGENT_GUARD_MS;
+  return messages.some(m => {
+    const isOutbound = (m.type || '').toUpperCase() === 'OUTBOUND';
+    // internal_note = true means it's a note, not a real reply — ignore those
+    if (!isOutbound || m.internal_note) return false;
+    // created_at can be a unix timestamp (seconds) or ISO string
+    const ts = m.created_at
+      ? (typeof m.created_at === 'number' ? m.created_at * 1000 : new Date(m.created_at).getTime())
+      : 0;
+    return ts > cutoff;
+  });
+}
+
 async function postTrengoMessage(ticketId, message) {
   const token = process.env.TRENGO_TOKEN;
   try {
@@ -783,6 +803,16 @@ export default async function handler(req, res) {
   const jitter = Math.floor(Math.random() * READ_DELAY_JITTER);
   await new Promise(r => setTimeout(r, READ_DELAY_BASE + jitter));
   console.log(`[auto-reply] Read delay: ${READ_DELAY_BASE + jitter}ms (jitter: ${jitter}ms)`);
+
+  // ── Live agent guard — check Trengo thread for recent agent reply ──────────
+  // Prevents bot from piling on after Afifa or Faysal already responded.
+  const agentAlreadyReplied = await hasRecentAgentReplyInTrengo(ticketId);
+  if (agentAlreadyReplied) {
+    crmState[leadId].last_agent_reply_at = new Date().toISOString(); // sync CRM
+    await writeCRMState(crmState, sha);
+    console.log(`[auto-reply] Live agent guard triggered on ticket ${ticketId} — agent replied recently, bot standing down`);
+    return res.status(200).json({ ok: true, skipped: 'Agent replied recently in Trengo — bot standing down', dubaiHour });
+  }
 
   const { reply, escalate, reason, viewing } = await generateReply(conversation, leadMeta, messageText, leadName);
 
