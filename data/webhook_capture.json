@@ -1,19 +1,16 @@
 {
-  "ts": "2026-03-28T12:43:33.120Z",
+  "ts": "2026-03-28T12:43:53.489Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216017728",
+    "type": "INBOUND",
+    "message_id": "4216017895",
     "ticket_id": "937880324",
-    "message": "The apartment number is on your viewing confirmation, our team will have all those details when they meet you at 4:30pm today. They'll sort everything out when you arrive.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I’m already here",
+    "channel_id": "1304636",
     "contact_id": "535056325",
     "contact_identifier": "+971555778729",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
