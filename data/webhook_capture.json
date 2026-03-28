@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-28T06:21:46.809Z",
+  "ts": "2026-03-28T06:22:04.293Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4215840053",
+    "type": "OUTBOUND",
+    "message_id": "4215840152",
     "ticket_id": "937595459",
-    "message": "Document",
-    "channel_id": "1304636",
+    "message": "Got it, thanks. Just to confirm, is this the check-in form filled out, or something else? Let me know and we'll get you sorted for tomorrow.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "510552599",
     "contact_name": "Hussein Redjili & Roberta Ventrice",
     "contact_identifier": "+971551855900",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
