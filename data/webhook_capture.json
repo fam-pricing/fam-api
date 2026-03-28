@@ -1,16 +1,19 @@
 {
-  "ts": "2026-03-28T07:07:27.517Z",
+  "ts": "2026-03-28T07:10:17.003Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4215855104",
+    "type": "OUTBOUND",
+    "message_id": "4215856019",
     "ticket_id": "937780456",
-    "message": "this monday \ndo you accept cahs",
-    "channel_id": "1304636",
+    "message": "yes we can accept cash payment, however to block the apartment you need to pay prior to arrival",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
     "contact_id": "535033558",
     "contact_identifier": "+12269160761",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
