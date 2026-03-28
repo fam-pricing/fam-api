@@ -1,18 +1,19 @@
 {
-  "ts": "2026-03-28T08:58:29.700Z",
+  "ts": "2026-03-28T08:58:33.040Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4215900603",
-    "ticket_id": "937865263",
-    "message": "👍",
+    "type": "OUTBOUND",
+    "message_id": "4215900624",
+    "ticket_id": "937869477",
+    "message": "Hi N, what questions do you have about the studio?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535053415",
+    "contact_identifier": "+905321590803",
     "channel_id": "1304636",
-    "contact_id": "535052322",
-    "contact_identifier": "+971553274493",
-    "parent_message_id": "4215900227",
-    "parent_ticket_id": "937865263",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
