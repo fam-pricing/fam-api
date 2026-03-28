@@ -577,7 +577,7 @@ RULES — follow exactly, no exceptions:
 - Never write "Let me", "I need to", "I should", "Looking at", or any self-reflection.
 - If confident → reply directly.
 - If NOT confident → [ESCALATE: reason] on line 1, short holding message on line 2.
-- VIEWING — CRITICAL: When a lead says they want a viewing at any specific time or day AND there is NO viewing already in progress, NEVER confirm or promise that slot yourself. Output [ESCALATE: VIEWING REQUESTED - [property] on [day] at [time]] on line 1, then a warm holding message on line 2. But if VIEWING STATUS above says "team_responded" or "confirmed", do NOT escalate — the team already confirmed. Just acknowledge warmly.
+- VIEWING: Viewings are available any day 9am-6pm. When a lead asks for a time within these hours, CONFIRM it. Output [VIEWING: property on day at time] on line 1, then a warm confirmation on line 2 (e.g. "12pm today works! Our team will coordinate with you shortly."). Do NOT say "let me check" or "let me confirm" — just confirm it. If the time is outside 9am-6pm, tell them viewings are 9am-6pm and ask for another time.
 - Keep it short, warm, human.
 - NEVER use em dashes (—) or en dashes in your replies. Use commas or periods instead. This is non-negotiable.
 - PRICING MATH — CRITICAL: Prices are seasonal and only locked for 3 months at a time. NEVER calculate or quote a total for more than 3 months. If a lead asks about 4, 6, 12 months or a full year: quote the current monthly rate and say our rates are confirmed in 3-month blocks, you can lock in the current rate for the first 3 months, and for beyond that the rate depends on the season and you will need to confirm with the team. Then [ESCALATE: lead asking about long-term pricing beyond 3 months]. Do NOT multiply price by 12 or 6 or any number above 3.`;
@@ -609,11 +609,11 @@ RULES — follow exactly, no exceptions:
     }
 
     if (text.startsWith('[VIEWING:')) {
-      // Viewing requests always escalate — bot never self-confirms a time
+      // Viewings auto-confirm — no escalation, just internal note to Afifa
       const lines      = text.split('\n');
       const when       = lines[0].replace('[VIEWING:', '').replace(']', '').trim();
-      const replyText  = (lines.slice(1).join('\n').trim() || "Let me check with the team on availability and confirm that time for you!").replace(/\s*\u2014\s*/g, ', ');
-      return { reply: replyText, escalate: true, reason: `VIEWING REQUESTED - ${when}`, viewing: when };
+      const replyText  = (lines.slice(1).join('\n').trim() || `${when} works! Our team will coordinate with you shortly.`).replace(/\s*\u2014\s*/g, ', ');
+      return { reply: replyText, escalate: false, reason: null, viewing: when };
     }
 
     // Strip em dashes — they're flagged in our style guide
@@ -807,22 +807,22 @@ export default async function handler(req, res) {
 
   const sent = await postTrengoMessage(ticketId, reply);
 
-  // If a viewing was requested, post an internal note tagging the team to CONFIRM
-  // Note: bot never self-confirms — it sends a holding message and escalates.
-  // The escalation already posts a note; this adds an extra tagged reminder.
+  // Viewing auto-confirmed — post internal note for Afifa to coordinate access
   if (viewing) {
     const property = leadMeta?.listing_title || 'the property';
     const note =
-      `📅 VIEWING REQUESTED — please confirm with lead\n\n` +
+      `📅 VIEWING CONFIRMED BY BOT\n\n` +
       `Lead: ${leadName}\n` +
       `Property: ${property}\n` +
-      `Requested: ${viewing}\n\n` +
-      `Bot sent holding message. Please confirm availability and reply to lead directly.\n\n` +
+      `When: ${viewing}\n\n` +
+      `Bot confirmed with lead. Please coordinate key access and meet the lead.\n\n` +
       `@afifa340123 @chahana470168 @junaid731578 @farhan731560 @abdul315306\n\n` +
       `— fäm Bot`;
     await postTrengoNote(ticketId, note);
     await attachTrengoLabel(ticketId, LABEL_VIEWING);
-    console.log('[auto-reply] Viewing REQUEST note + label posted for', leadName, viewing);
+    crmState[leadId].viewing_status    = 'confirmed';
+    crmState[leadId].viewing_requested = viewing;
+    console.log('[auto-reply] Viewing CONFIRMED + label for', leadName, viewing);
   }
 
   // Attach "Lead" label on first bot reply to this ticket
