@@ -1,12 +1,14 @@
 // fam Living — CRM update endpoint
 // POST /api/crm/update
-// Body: { lead_id, stage?, note?, closed_price?, lost_reason? }
+// Body: { lead_id, stage?, note?, viewing_requested?, closed_price?, lost_reason? }
 //
 // Updates CRM state for a single lead, persisted as JSON in GitHub.
 // Any authenticated user can update (agents can only update their own leads — enforced by leads.js filtering).
+// When stage changes to 'viewing', automatically posts an internal Trengo note to alert the team.
 
 import { requireAuth } from '../_auth.js';
 
+const TRENGO_API = 'https://app.trengo.com/api/v2';
 const GH_API   = 'https://api.github.com';
 const REPO     = 'fam-pricing/fam-api';
 const CRM_FILE = 'data/crm_state.json';
@@ -67,7 +69,7 @@ export default async function handler(req, res) {
     try { body = JSON.parse(body); } catch { return res.status(400).json({ error: 'Invalid JSON' }); }
   }
 
-  const { lead_id, stage, note, closed_price, lost_reason } = body || {};
+  const { lead_id, stage, note, viewing_requested, closed_price, lost_reason } = body || {};
   if (!lead_id) return res.status(400).json({ error: 'lead_id is required' });
 
   const VALID_STAGES = ['new', 'contacted', 'negotiation', 'viewing', 'closed', 'lost'];
@@ -86,7 +88,9 @@ export default async function handler(req, res) {
       created_at:   new Date().toISOString(),
     };
 
+    const prevStage = existing.stage;
     if (stage)                  existing.stage        = stage;
+    if (viewing_requested)      existing.viewing_requested = viewing_requested;
     if (note?.trim())           existing.notes        = [...(existing.notes || []), {
                                                           text: note.trim(),
                                                           ts:   new Date().toISOString(),
@@ -102,6 +106,37 @@ export default async function handler(req, res) {
 
     const action = stage ? `→ ${stage}` : (note ? 'note' : 'update');
     await writeCRMState(state, sha, `CRM: ${lead_id} ${action} by ${user.username}`);
+
+    // Auto-post internal Trengo note when stage changes to 'viewing'
+    if (stage === 'viewing' && prevStage !== 'viewing') {
+      const trengoToken = process.env.TRENGO_TOKEN;
+      const ticketId = existing.trengo_ticket_id;
+      if (trengoToken && ticketId) {
+        const viewingDate = existing.viewing_requested || 'TBC';
+        const leadName = existing.lead_name || 'Lead';
+        // Extract building from listing_title URL (last segment before .html or raw URL)
+        let building = 'unit';
+        if (existing.listing_title) {
+          const m = existing.listing_title.match(/([^/]+?)(?:-\d+)?\.html/);
+          if (m) building = m[1].replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()).slice(0, 60);
+        }
+        const noteText = `📅 VIEWING CONFIRMED — ${leadName} is coming to view on ${viewingDate}. Stage updated to Pending Viewing. Building: ${building}. Updated by ${user.username}.`;
+        try {
+          await fetch(`${TRENGO_API}/tickets/${ticketId}/messages`, {
+            method: 'POST',
+            headers: {
+              Authorization: `Bearer ${trengoToken}`,
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ message: noteText, type: 'note' }),
+          });
+          console.log(`[crm/update] Trengo internal note posted for ticket ${ticketId}`);
+        } catch (noteErr) {
+          console.warn('[crm/update] Failed to post Trengo note:', noteErr.message);
+          // Non-fatal — CRM was already updated
+        }
+      }
+    }
 
     console.log(`[crm/update] ${lead_id} ${action} by ${user.username}`);
 
