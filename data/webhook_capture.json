@@ -1,16 +1,19 @@
 {
-  "ts": "2026-03-28T20:50:31.155Z",
+  "ts": "2026-03-28T21:47:53.657Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216237496",
-    "ticket_id": "937976112",
-    "message": "If it available",
+    "type": "OUTBOUND",
+    "message_id": "4216253104",
+    "ticket_id": "937982381",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nW10VPKARTPT2GWCSVMD97T72HR\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535083374",
+    "contact_identifier": "+971501805462",
     "channel_id": "1304636",
-    "contact_id": "535081995",
-    "contact_identifier": "+41763957803",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
