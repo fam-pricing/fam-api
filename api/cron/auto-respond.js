@@ -211,8 +211,23 @@ export default async function handler(req, res) {
       return res.status(200).json({ ok: true, responded: 0, message: 'No new leads' });
     }
 
-    // Process each new lead: PF auto-respond + Trengo ticket + template + assign
-    const results = await Promise.all(newLeads.map(async lead => {
+    // Build set of phones that already received a template in the last 24h (from CRM history)
+    // This prevents Meta 131049 error when the same person enquires on multiple listings
+    const TWENTY_FOUR_HOURS_MS = 24 * 60 * 60 * 1000;
+    const recentlyMessaged = new Set();
+    for (const lead of Object.values(crmState)) {
+      if (lead.pf_phone && lead.auto_responded_at) {
+        if (Date.now() - new Date(lead.auto_responded_at).getTime() < TWENTY_FOUR_HOURS_MS) {
+          recentlyMessaged.add(lead.pf_phone);
+        }
+      }
+    }
+
+    // Process leads SEQUENTIALLY (not parallel) so phone dedup works within the same batch
+    const results = [];
+    const phonesThisBatch = new Set();
+
+    for (const lead of newLeads) {
       // 1. Hit PF responseLink → marks lead replied on PF, extracts lead phone
       const phone = await autoRespond(lead.responseLink);
 
@@ -222,20 +237,28 @@ export default async function handler(req, res) {
 
       let trengoTicketId = null;
       if (phone) {
-        // 3. Create Trengo ticket for this lead's phone on Portal Leads channel
+        // 3. Create Trengo ticket (always — one ticket per listing enquiry)
         trengoTicketId = await createTrengoTicket(phone);
 
         if (trengoTicketId) {
-          // 4. Send pf3 template on the ticket
-          await sendTrengoTemplate(trengoTicketId, listingTitle);
-          // 5. Assign to Afifa
+          // 4. Send pf3 template ONLY if this phone hasn't been messaged in the last 24h
+          //    Prevents Meta 131049 error for leads who enquire on multiple listings at once
+          const alreadyMessaged = recentlyMessaged.has(phone) || phonesThisBatch.has(phone);
+          let templateSent = false;
+          if (!alreadyMessaged) {
+            templateSent = await sendTrengoTemplate(trengoTicketId, listingTitle);
+            if (templateSent) phonesThisBatch.add(phone);
+          } else {
+            console.log(`[cron] Skipping template for ${phone} — already sent in last 24h (dedup)`);
+          }
+          // 5. Assign to Afifa regardless
           await assignTrengoTicket(trengoTicketId, AFIFA_ID);
         }
       }
 
       const leadName = lead.sender?.name || null;
-      return { id: lead.id, phone, listingTitle, trengoTicketId, leadName };
-    }));
+      results.push({ id: lead.id, phone, listingTitle, trengoTicketId, leadName });
+    }
 
     // Write results back to CRM state
     for (const { id, phone, listingTitle, trengoTicketId, leadName } of results) {
