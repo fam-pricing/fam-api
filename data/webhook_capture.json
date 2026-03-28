@@ -1,19 +1,20 @@
 {
-  "ts": "2026-03-28T10:44:43.227Z",
+  "ts": "2026-03-28T10:47:39.018Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4215957048",
+    "type": "OUTBOUND",
+    "message_id": "4215958308",
     "ticket_id": "937212502",
-    "message": "Yes, the hot water is working",
-    "channel_id": "585723",
+    "message": "Thank you for the update",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "534891556",
     "contact_name": "Ricardo Gonzalez De Mendoza Fronce",
     "contact_identifier": "+971585802884",
-    "parent_message_id": "4215955730",
-    "parent_ticket_id": "937212502",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
