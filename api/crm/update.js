@@ -70,7 +70,7 @@ export default async function handler(req, res) {
   const { lead_id, stage, note, closed_price, lost_reason } = body || {};
   if (!lead_id) return res.status(400).json({ error: 'lead_id is required' });
 
-  const VALID_STAGES = ['new', 'contacted', 'viewing', 'closed', 'lost'];
+  const VALID_STAGES = ['new', 'contacted', 'negotiation', 'viewing', 'closed', 'lost'];
   if (stage && !VALID_STAGES.includes(stage)) {
     return res.status(400).json({ error: `Invalid stage. Must be one of: ${VALID_STAGES.join(', ')}` });
   }

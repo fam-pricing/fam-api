@@ -238,8 +238,12 @@ export default async function handler(req, res) {
         crm_updated_at:   crm.updated_at   ?? null,
         crm_updated_by:   crm.updated_by   ?? null,
         auto_responded:     crm.auto_responded || false,
-        crm_auto_responded: crm.auto_responded || false,
-        crm_trengo_ticket:  crm.trengo_ticket_id || null,
+        crm_auto_responded:   crm.auto_responded || false,
+        crm_trengo_ticket:    crm.trengo_ticket_id || null,
+        crm_viewing_requested: crm.viewing_requested || null,
+        crm_bot_paused:       crm.bot_paused || false,
+        crm_last_bot_reply_at: crm.last_bot_reply_at || null,
+        crm_last_agent_reply_at: crm.last_agent_reply_at || null,
       });
     }
 
