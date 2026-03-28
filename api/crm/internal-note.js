@@ -39,7 +39,7 @@ export default async function handler(req, res) {
         Authorization: `Bearer ${trengoToken}`,
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ message, type: 'note' }),
+      body: JSON.stringify({ message, internal_note: true }),
     });
 
     const data = await r.json().catch(() => ({}));

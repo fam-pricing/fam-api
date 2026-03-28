@@ -128,7 +128,7 @@ export default async function handler(req, res) {
               Authorization: `Bearer ${trengoToken}`,
               'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ message: noteText, type: 'note' }),
+            body: JSON.stringify({ message: noteText, internal_note: true }),
           });
           console.log(`[crm/update] Trengo internal note posted for ticket ${ticketId}`);
         } catch (noteErr) {
