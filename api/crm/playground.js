@@ -185,6 +185,7 @@ RULES — follow exactly, no exceptions:
 - If NOT confident → [ESCALATE: reason] on line 1, short holding message on line 2.
 - If confirming a viewing → [VIEWING: day at time] on line 1, message on line 2.
 - Keep it short, warm, human.
+- NEVER use em dashes (—) or en dashes in your replies. Use commas or short sentences instead. Non-negotiable.
 - PRICING MATH — CRITICAL: Prices are seasonal and only locked for 3 months at a time. NEVER calculate or quote a total for more than 3 months. If a lead asks about 4, 6, 12 months or a full year: quote the current monthly rate and say our rates are confirmed in 3-month blocks, you can lock in the current rate for the first 3 months, and for beyond that the rate depends on the season and you will need to confirm with the team. Then [ESCALATE: lead asking about long-term pricing beyond 3 months]. Do NOT multiply price by 12 or 6 or any number above 3.`;
 
   const userMessage = `Conversation so far:\n${transcript || '(no messages yet)'}\n\nLead just sent: "${newMessage}"`;
@@ -214,26 +215,29 @@ RULES — follow exactly, no exceptions:
     const text = d?.content?.[0]?.text?.trim() || '';
     if (!text) return { reply: null, escalate: true, reason: 'Empty AI response' };
 
+    // Strip em dashes and en dashes regardless of model compliance
+    const cleanText = text.replace(/\s*\u2014\s*/g, ', ').replace(/\s*\u2013\s*/g, ', ').trim();
+
     // Handle [ESCALATE:] — model sometimes puts it on line 1, sometimes line 2
-    const escalateMatch = text.match(/\[ESCALATE:\s*([^\]]+)\]/i);
+    const escalateMatch = cleanText.match(/\[ESCALATE:\s*([^\]]+)\]/i);
     if (escalateMatch) {
       const reason     = escalateMatch[1].trim();
       // Strip the [ESCALATE:...] tag (and any [VIEWING:...] tag) from the visible reply
-      const holdingMsg = text
+      const holdingMsg = cleanText
         .replace(/\[ESCALATE:[^\]]*\]/gi, '')
         .replace(/\[VIEWING:[^\]]*\]/gi, '')
         .trim() || 'Let me check that for you and come back shortly!';
       return { reply: holdingMsg, escalate: true, reason, viewing: null };
     }
 
-    if (text.startsWith('[VIEWING:')) {
-      const lines     = text.split('\n');
+    if (cleanText.startsWith('[VIEWING:')) {
+      const lines     = cleanText.split('\n');
       const when      = lines[0].replace('[VIEWING:', '').replace(']', '').trim();
-      const replyText = lines.slice(1).join('\n').trim() || text;
+      const replyText = lines.slice(1).join('\n').trim() || cleanText;
       return { reply: replyText, escalate: false, reason: null, viewing: when };
     }
 
-    return { reply: text, escalate: false, reason: null, viewing: null };
+    return { reply: cleanText, escalate: false, reason: null, viewing: null };
 
   } catch (err) {
     return { reply: null, escalate: true, reason: err?.message || 'Unknown error', viewing: null };
