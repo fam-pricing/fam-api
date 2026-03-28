@@ -1,19 +1,16 @@
 {
-  "ts": "2026-03-28T03:52:37.937Z",
+  "ts": "2026-03-28T03:53:18.625Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4215808804",
+    "type": "INBOUND",
+    "message_id": "4215808887",
     "ticket_id": "937816755",
-    "message": "Got it, let me get you sorted with a viewing. What time works better for you, today or tomorrow? Morning or afternoon?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "today afternoon",
+    "channel_id": "1304636",
     "contact_id": "535044929",
     "contact_identifier": "+971557495883",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
