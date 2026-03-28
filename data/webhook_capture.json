@@ -1,20 +1,19 @@
 {
-  "ts": "2026-03-28T09:03:30.045Z",
+  "ts": "2026-03-28T09:03:47.469Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4215904065",
+    "type": "INBOUND",
+    "message_id": "4215904207",
     "ticket_id": "937678768",
-    "message": "Well noted Mr Mohanad",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "🙏",
+    "channel_id": "585723",
     "contact_id": "535009704",
     "contact_name": "Mohanad Sherif Ahmed",
     "contact_identifier": "+393206313211",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4215904065",
+    "parent_ticket_id": "937678768",
+    "event_type": "INBOUND"
   }
 }
