@@ -1,16 +1,19 @@
 {
-  "ts": "2026-03-28T11:17:42.500Z",
+  "ts": "2026-03-28T11:18:03.299Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4215974306",
+    "type": "OUTBOUND",
+    "message_id": "4215974464",
     "ticket_id": "937682288",
-    "message": "I have a small well behaved dog. Are pets allowed in this apartment ?",
-    "channel_id": "1304636",
+    "message": "Pets aren't allowed in the building unless we get written approval from the owner. We'd need to submit a request and see if they'll make an exception. If approved, there's an AED 2,000 cleaning fee plus any repairs needed. Want me to check with the team if this unit can accommodate your dog?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535009951",
     "contact_identifier": "+447456656962",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
