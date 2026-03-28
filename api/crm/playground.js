@@ -214,10 +214,15 @@ RULES — follow exactly, no exceptions:
     const text = d?.content?.[0]?.text?.trim() || '';
     if (!text) return { reply: null, escalate: true, reason: 'Empty AI response' };
 
-    if (text.startsWith('[ESCALATE:')) {
-      const lines      = text.split('\n');
-      const reason     = lines[0].replace('[ESCALATE:', '').replace(']', '').trim();
-      const holdingMsg = lines.slice(1).join('\n').trim() || 'Let me check that for you and come back shortly!';
+    // Handle [ESCALATE:] — model sometimes puts it on line 1, sometimes line 2
+    const escalateMatch = text.match(/\[ESCALATE:\s*([^\]]+)\]/i);
+    if (escalateMatch) {
+      const reason     = escalateMatch[1].trim();
+      // Strip the [ESCALATE:...] tag (and any [VIEWING:...] tag) from the visible reply
+      const holdingMsg = text
+        .replace(/\[ESCALATE:[^\]]*\]/gi, '')
+        .replace(/\[VIEWING:[^\]]*\]/gi, '')
+        .trim() || 'Let me check that for you and come back shortly!';
       return { reply: holdingMsg, escalate: true, reason, viewing: null };
     }
 
