@@ -541,7 +541,7 @@ RULES — follow exactly, no exceptions:
 - Never write "Let me", "I need to", "I should", "Looking at", or any self-reflection.
 - If confident → reply directly.
 - If NOT confident → [ESCALATE: reason] on line 1, short holding message on line 2.
-- If confirming a viewing → [VIEWING: day at time] on line 1, message on line 2.
+- VIEWING — CRITICAL: When a lead says they want a viewing at any specific time or day, NEVER confirm or promise that slot yourself. You do not have access to the calendar. Output [ESCALATE: VIEWING REQUESTED - [property] on [day] at [time]] on line 1, then a warm holding message on line 2 (e.g. "Let me check with the team on availability and confirm that time for you!"). NEVER say "See you at [time]" or "Perfect, [time] today" or "You're booked for [time]". NEVER. Always escalate viewings.
 - Keep it short, warm, human.
 - NEVER use em dashes (—) or en dashes in your replies. Use commas or periods instead. This is non-negotiable.
 - PRICING MATH — CRITICAL: Prices are seasonal and only locked for 3 months at a time. NEVER calculate or quote a total for more than 3 months. If a lead asks about 4, 6, 12 months or a full year: quote the current monthly rate and say our rates are confirmed in 3-month blocks, you can lock in the current rate for the first 3 months, and for beyond that the rate depends on the season and you will need to confirm with the team. Then [ESCALATE: lead asking about long-term pricing beyond 3 months]. Do NOT multiply price by 12 or 6 or any number above 3.`;
@@ -573,10 +573,11 @@ RULES — follow exactly, no exceptions:
     }
 
     if (text.startsWith('[VIEWING:')) {
+      // Viewing requests always escalate — bot never self-confirms a time
       const lines      = text.split('\n');
       const when       = lines[0].replace('[VIEWING:', '').replace(']', '').trim();
-      const replyText  = lines.slice(1).join('\n').trim() || text;
-      return { reply: replyText, escalate: false, reason: null, viewing: when };
+      const replyText  = (lines.slice(1).join('\n').trim() || "Let me check with the team on availability and confirm that time for you!").replace(/\s*\u2014\s*/g, ', ');
+      return { reply: replyText, escalate: true, reason: `VIEWING REQUESTED - ${when}`, viewing: when };
     }
 
     // Strip em dashes — they're flagged in our style guide
@@ -725,11 +726,18 @@ export default async function handler(req, res) {
     return res.status(200).json({ ok: true, skipped: 'Agent cooldown active' });
   }
 
-  // Per-ticket bot cooldown: if bot replied in last 2 minutes, skip (prevents rapid-fire when lead texts fast)
+  // Per-ticket bot cooldown: if bot replied in last 5 minutes, skip (prevents rapid-fire when lead texts fast)
   const lastBotAt = leadMeta.last_bot_reply_at ? new Date(leadMeta.last_bot_reply_at).getTime() : 0;
-  const BOT_COOLDOWN_MS = 2 * 60 * 1000; // 2 minutes
+  const BOT_COOLDOWN_MS = 5 * 60 * 1000; // 5 minutes — increased to prevent simultaneous webhook double-replies
   if (Date.now() - lastBotAt < BOT_COOLDOWN_MS) {
     return res.status(200).json({ ok: true, skipped: 'Bot cooldown — replied too recently' });
+  }
+
+  // Message-ID deduplication: skip if this exact message was already processed
+  // (prevents double-reply when Trengo fires the same webhook twice)
+  const incomingMsgId = String(body?.message_id || body?.message?.id || '');
+  if (incomingMsgId && leadMeta.last_processed_message_id === incomingMsgId) {
+    return res.status(200).json({ ok: true, skipped: `Duplicate message_id ${incomingMsgId}` });
   }
 
   const conversation = await getTrengoMessages(ticketId);
@@ -758,24 +766,28 @@ export default async function handler(req, res) {
 
   const sent = await postTrengoMessage(ticketId, reply);
 
-  // If a viewing was just confirmed, post an internal note tagging the team
+  // If a viewing was requested, post an internal note tagging the team to CONFIRM
+  // Note: bot never self-confirms — it sends a holding message and escalates.
+  // The escalation already posts a note; this adds an extra tagged reminder.
   if (viewing) {
     const property = leadMeta?.listing_title || 'the property';
     const note =
-      `📅 Viewing confirmed by bot\n\n` +
+      `📅 VIEWING REQUESTED — please confirm with lead\n\n` +
       `Lead: ${leadName}\n` +
       `Property: ${property}\n` +
-      `When: ${viewing}\n\n` +
-      `@junaid731578 @farhan731560 @chahana470168 @afifa340123 @abdul315306 — please coordinate.\n\n` +
+      `Requested: ${viewing}\n\n` +
+      `Bot sent holding message. Please confirm availability and reply to lead directly.\n\n` +
+      `@afifa340123 @chahana470168 @junaid731578 @farhan731560 @abdul315306\n\n` +
       `— fäm Bot`;
     await postTrengoNote(ticketId, note);
-    console.log('[auto-reply] Viewing note posted for', leadName, viewing);
+    console.log('[auto-reply] Viewing REQUEST note posted for', leadName, viewing);
   }
 
-  crmState[leadId].lead_replied       = true;
-  crmState[leadId].lead_replied_at    = new Date().toISOString();
-  crmState[leadId].last_bot_reply_at  = new Date().toISOString();
-  crmState[leadId].bot_reply_count    = (leadMeta.bot_reply_count || 0) + 1;
+  crmState[leadId].lead_replied              = true;
+  crmState[leadId].lead_replied_at           = new Date().toISOString();
+  crmState[leadId].last_bot_reply_at         = new Date().toISOString();
+  crmState[leadId].bot_reply_count           = (leadMeta.bot_reply_count || 0) + 1;
+  if (incomingMsgId) crmState[leadId].last_processed_message_id = incomingMsgId;
   await writeCRMState(crmState, sha);
 
   return res.status(200).json({ ok: true, action: 'replied', sent, dubaiHour, viewing: viewing || null });
