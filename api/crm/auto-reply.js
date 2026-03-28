@@ -24,6 +24,7 @@ const CRM_FILE        = 'data/crm_state.json';
 const PENDING_FILE    = 'data/pending_escalations.json';
 const PLAYBOOK_FILE   = 'data/playbook.md';
 const LISTINGS_FILE   = 'data/listings.json';
+const REF_MAP_FILE    = 'data/ref_mapping.json';
 
 const DUBAI_OFFSET_HOURS = 4;
 const NIGHT_START = 21;
@@ -581,7 +582,23 @@ async function generateReply(conversation, leadMeta, newMessage, leadName) {
     })
     .join('\n');
 
-  const property = leadMeta?.listing_title || 'the property';
+  // Resolve raw PF refs (e.g. "PF-HH-AR-109427") to "BED in BUILDING" using ref_mapping
+  // If listing_title is still a raw ref, the bot has no idea what property to talk about → hallucination risk
+  let rawListing = leadMeta?.listing_title || null;
+  let property = rawListing || 'the property';
+  if (rawListing && /^PF-HH-AR-/i.test(rawListing)) {
+    try {
+      const { data: refMap } = await ghRead(REF_MAP_FILE);
+      const mapping = refMap?.[rawListing];
+      if (mapping?.building && mapping?.bed_type) {
+        property = `${mapping.bed_type} in ${mapping.building}`;
+      } else {
+        property = 'unknown property (ref not in mapping)';
+      }
+    } catch {
+      property = 'unknown property';
+    }
+  }
 
   // Viewing state context — prevents re-escalation loop
   let viewingContext = '';
@@ -598,6 +615,9 @@ You are a warm, human WhatsApp sales agent for fäm Living. Lead: ${leadName}. P
 RULES — follow exactly, no exceptions:
 - The Active fäm Living Portfolio above lists ALL live listings. Use it for any availability/options question. Never escalate for this.
 - PORTFOLIO STRICT RULE: ONLY suggest or mention buildings that appear in the Active Portfolio list above with a price. If a building is not in that list, it is NOT currently available — do not mention it, do not suggest it, do not cross-sell it. Aykon City and any other building not in the list must never be suggested.
+- PROPERTY CONTEXT RULE — CRITICAL: The "Property" field above tells you exactly which unit this lead enquired about. Always answer based on that specific property. If the Property field says "unknown property" or you cannot identify it, do NOT guess — instead say "Let me pull up the details for you" and [ESCALATE: cannot identify listing for lead ${leadName}].
+- NO HALLUCINATION — CRITICAL: NEVER invent property details (bed type, building name, price, area) that are not explicitly in the Property field or the Active Portfolio. If you are not 100% certain of a detail, escalate. A wrong answer is worse than escalating.
+- READ THE FULL CONVERSATION: Before replying, read the entire conversation history above carefully. Understand what the lead has said across ALL messages, not just the last one. If the lead corrected themselves (e.g. said "actually I want a studio not a 2BR"), act on the correction.
 - Output ONLY the reply message text. Absolutely zero reasoning, thinking, or internal monologue before or after.
 - Your very first character must be part of the actual message to the customer.
 - Never write "Let me", "I need to", "I should", "Looking at", or any self-reflection.
