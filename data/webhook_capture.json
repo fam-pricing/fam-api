@@ -1,11 +1,19 @@
 {
-  "ts": "2026-03-28T07:11:49.795Z",
+  "ts": "2026-03-28T07:12:11.471Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "ticket_id": 937780456,
-    "channel_id": 1,
-    "message": "this monday / do you accept cash"
+    "type": "OUTBOUND",
+    "message_id": "4215856473",
+    "ticket_id": "937780456",
+    "message": "Perfect, this Monday works. Yes, we accept cash, but we'll need payment to confirm the booking before you arrive. Want to arrange a viewing first, or shall we get the paperwork started?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535033558",
+    "contact_identifier": "+12269160761",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
