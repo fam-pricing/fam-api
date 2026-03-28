@@ -163,6 +163,22 @@ async function postTrengoMessage(ticketId, message) {
   } catch (err) { console.error('[auto-reply] postMessage error:', err.message); return false; }
 }
 
+async function attachTrengoLabel(ticketId, labelId) {
+  const token = process.env.TRENGO_TOKEN;
+  try {
+    const r = await fetch(`${TRENGO_API}/tickets/${ticketId}/labels`, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({ label_id: labelId }),
+    });
+    if (!r.ok) console.error('[auto-reply] label attach failed:', r.status);
+    else console.log(`[auto-reply] Label ${labelId} attached to ticket ${ticketId}`);
+  } catch (e) { console.error('[auto-reply] label attach error:', e?.message); }
+}
+
+const LABEL_LEAD    = 1816534; // "Lead" — attached on first bot reply
+const LABEL_VIEWING = 1816630; // "viewing" — attached when viewing is requested
+
 async function postTrengoNote(ticketId, note) {
   const token = process.env.TRENGO_TOKEN;
   try {
@@ -780,7 +796,14 @@ export default async function handler(req, res) {
       `@afifa340123 @chahana470168 @junaid731578 @farhan731560 @abdul315306\n\n` +
       `— fäm Bot`;
     await postTrengoNote(ticketId, note);
-    console.log('[auto-reply] Viewing REQUEST note posted for', leadName, viewing);
+    await attachTrengoLabel(ticketId, LABEL_VIEWING);
+    console.log('[auto-reply] Viewing REQUEST note + label posted for', leadName, viewing);
+  }
+
+  // Attach "Lead" label on first bot reply to this ticket
+  const isFirstBotReply = !leadMeta.bot_reply_count || leadMeta.bot_reply_count === 0;
+  if (isFirstBotReply) {
+    await attachTrengoLabel(ticketId, LABEL_LEAD);
   }
 
   crmState[leadId].lead_replied              = true;
