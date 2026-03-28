@@ -1,20 +1,19 @@
 {
-  "ts": "2026-03-28T09:36:04.529Z",
+  "ts": "2026-03-28T09:37:29.452Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4215920557",
+    "type": "INBOUND",
+    "message_id": "4215921407",
     "ticket_id": "937876194",
-    "message": "Good Afternoon Aiman,\r\n\r\nThank you for reaching out. Unfortunately, we do not require this at the moment. Should the need arise in the future, we will be sure to contact you.\r\n\r\nThank you for your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Okay sure no worries if anyone needs insurance in your circle please feel free to refer them I'll give them affordable rates....",
+    "channel_id": "585723",
     "contact_id": "535055164",
     "contact_name": "Syeda Aiman",
     "contact_identifier": "+971522150794",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4215920557",
+    "parent_ticket_id": "937876194",
+    "event_type": "INBOUND"
   }
 }
