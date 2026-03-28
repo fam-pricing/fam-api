@@ -192,4 +192,11 @@ Every entry below was added based on a real situation or direct instruction. Thi
 ## Learned (2026-03-28)
 - Viewings: always available 9am-6pm any day. Confirm the time directly. Never say "let me check" or escalate for viewing times within those hours.
   (General rule — applies to all leads)
-2026-03-28 -- Cleaning service: fam Living provides a cleaning service. If a lead asks about cleaning, confirm it is available and that our team will share the details / schedule upon booking. Do not escalate this question. (Taught by Faysal)
+2026-03-28 -- Housekeeping / Cleaning Service: fam Living provides a paid housekeeping service. It is NOT included in the rent. Quote the correct price based on the unit size:
+  1BR: AED 160 per visit
+  2BR: AED 265 per visit
+  3BR: AED 315 per visit
+  4BR: AED 420 per visit
+  Penthouse / Duplex: AED 650 per visit
+  Services included in every visit: linen change (bedsheets, towels, duvet), vacuuming, mopping, trash disposal, replenishing amenities.
+  Always quote the price for the specific unit the lead is enquiring about. Do NOT escalate cleaning service questions. (Taught by Faysal)
