@@ -204,3 +204,7 @@ Every entry below was added based on a real situation or direct instruction. Thi
   Penthouse / Duplex: AED 650 per visit
   Services included in every visit: linen change (bedsheets, towels, duvet), vacuuming, mopping, trash disposal, replenishing amenities.
   Always quote the price for the specific unit the lead is enquiring about. Do NOT escalate cleaning service questions. (Taught by Faysal)
+
+## Learned (2026-03-28)
+- If a lead asks: "Hi, how are you" → Reply: "Hi Séphora, let me pull up the details for that property and get back to you shortly!"
+  (Learned from Afifa handling Séphora re PF-HH-AR-114080)
