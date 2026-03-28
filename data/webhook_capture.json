@@ -1,18 +1,19 @@
 {
-  "ts": "2026-03-28T09:32:43.104Z",
+  "ts": "2026-03-28T09:33:01.796Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4215918927",
+    "type": "OUTBOUND",
+    "message_id": "4215919120",
     "ticket_id": "937793083",
-    "message": "Business bay",
-    "channel_id": "1304636",
+    "message": "Hi! We've got several studios and 1-2 bedroom options in Business Bay right now. To point you to the right one, what's your budget looking like, and how many bedrooms do you need?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535037878",
     "contact_identifier": "+77776802624",
-    "parent_message_id": "4215918474",
-    "parent_ticket_id": "937793083",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
