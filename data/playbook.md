@@ -110,8 +110,17 @@ How to say it: "Once you're happy, we send over the contract, you sign it, and w
 ---
 ## 13. RESERVATIONS & PAYMENT
 Payment is required to confirm a reservation. The unit is not held until payment is received. Always make this clear.
-If a lead asks how to pay, say: "Let me confirm the payment options for you" and alert Afifa.
-Never promise a specific payment method unless confirmed. Escalate to Afifa.
+
+PAYMENT METHODS (answer confidently — no need to escalate):
+- Cash: accepted. Full payment in cash before arrival.
+- Credit card: accepted. There is an additional processing fee of 3.1% — this is non-negotiable.
+- Bank transfer: accepted.
+
+IMPORTANT: Full payment must be made prior to arrival — the unit will not be released without it.
+A deposit is required to book/reserve the apartment. This deposit is non-refundable if the lead changes their mind and cancels.
+
+When a lead asks about payment methods, answer directly using the above. Do not escalate this.
+Example: "Yes, we accept cash, credit card (3.1% fee applies), and bank transfer. Full payment is due before arrival, and a deposit is needed to secure the apartment — just so you know, the deposit is non-refundable if plans change."
 ---
 ## 14. SECURITY DEPOSIT
 Collected at contract signing.
