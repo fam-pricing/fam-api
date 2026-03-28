@@ -742,9 +742,9 @@ export default async function handler(req, res) {
     return res.status(200).json({ ok: true, skipped: 'Agent cooldown active' });
   }
 
-  // Per-ticket bot cooldown: if bot replied in last 5 minutes, skip (prevents rapid-fire when lead texts fast)
+  // Per-ticket bot cooldown: 30s blocks duplicate simultaneous webhooks without silencing real follow-ups
   const lastBotAt = leadMeta.last_bot_reply_at ? new Date(leadMeta.last_bot_reply_at).getTime() : 0;
-  const BOT_COOLDOWN_MS = 5 * 60 * 1000; // 5 minutes — increased to prevent simultaneous webhook double-replies
+  const BOT_COOLDOWN_MS = 30 * 1000; // 30 seconds — enough to deduplicate rapid-fire, short enough for real conversation
   if (Date.now() - lastBotAt < BOT_COOLDOWN_MS) {
     return res.status(200).json({ ok: true, skipped: 'Bot cooldown — replied too recently' });
   }
