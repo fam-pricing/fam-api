@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-28T06:07:12.191Z",
+  "ts": "2026-03-28T06:12:21.888Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4215836151",
+    "type": "OUTBOUND",
+    "message_id": "4215837589",
     "ticket_id": "813076069",
-    "message": "Done",
-    "channel_id": "585723",
+    "message": "Thank you for the payment confirmation",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "497066395",
     "contact_name": "Nash",
     "contact_identifier": "+9607770017",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
