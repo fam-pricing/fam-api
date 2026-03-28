@@ -184,3 +184,7 @@ Every entry below was added based on a real situation or direct instruction. Thi
 ## Learned (2026-03-28)
 - Viewing slots are available any day between 9am and 6pm, 7 days a week. When a lead proposes any time within these hours, acknowledge it works ("That time works!") then send holding message and escalate for team coordination. Never say you need to check availability — the hours are fixed and always open.
   (General rule — applies to all leads)
+
+## Learned (2026-03-28)
+- If a lead asks: "Lets schedule for today at 5 pm" → Reply: "That works! Let me confirm the details with the team and get right back to you."
+  (Learned from Afifa handling Viren re 1BR in Al Majara Dubai Marina)
