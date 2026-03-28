@@ -1,19 +1,19 @@
 {
-  "ts": "2026-03-28T09:33:02.716Z",
+  "ts": "2026-03-28T09:33:32.677Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4215919131",
-    "ticket_id": "937793083",
-    "message": "The listing is the 2BR in Address Opera in Downtown Dubai. It's available from March 29th or April 1st, whichever works for you.\n\nPrice is AED 12,999 per month, all-inclusive. That covers everything, furnished, water, electricity, internet, linen, towels. No hidden charges. The only thing separate is a security deposit collected at contract signing.\n\nFor a 2-month stay, we'd lock in that rate for the first 3 months, so you're covered at AED 12,999 throughout your time there.\n\nWhich date works better for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "535037878",
-    "contact_identifier": "+77776802624",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4215919395",
+    "ticket_id": "937876194",
+    "message": "Do you need any insurance services?",
+    "channel_id": "585723",
+    "contact_id": "535055164",
+    "contact_name": "Syeda Aiman",
+    "contact_identifier": "+971522150794",
+    "parent_message_id": "4215918077",
+    "parent_ticket_id": "937876194",
+    "event_type": "INBOUND"
   }
 }
