@@ -281,3 +281,12 @@ Want me to get the details sorted for you?"
 ## Learned (2026-03-29)
 - If a lead asks: "Hello, I want to rent this apartment for a week, with the possibility of extending it" → Reply: "Hi! Thanks for reaching out. The 2BR at MAG 318 is a great spot. Let me check on weekly availability for you and come back shortly!"
   (Learned from Afifa handling . re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVxAftgMJE.html)
+
+## Learned (2026-03-29)
+- If a lead asks: "Hi
+I’d like to know the availability of this apartment. I’d like to rent from 1st April
+
+Is it possible to rent for 6 month contract?" → Reply: "Hi Anna! Yes, the studio at Trillionaire Residences is available from 1st April.
+On the 6-month question, our rates are confirmed in 3-month blocks. The current rate is AED 5,500/month, all-inclusive, covering water, electricity, and internet. We can lock that in for the first 3 months, and for the following 3 months the rate will depend on the season at that point.
+Want to arrange a viewing, or shall we get the paperwork started for April 1?"
+  (Learned from Afifa handling Anna re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-trillionaire-residences-69095034.html)
