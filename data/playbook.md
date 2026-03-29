@@ -240,3 +240,7 @@ How may I help you with?" → Reply: "Hi there, just to clarify - are you lookin
 ## Learned (2026-03-29)
 - When a lead responds with an auto-reply message acknowledging receipt of your message, confirm with "Yes of course."
   (Taught by Faysal for Geno Velasco)
+
+## Learned (2026-03-29)
+- If a lead responds with a thank you message or greeting, reply by asking when they are available to discuss their holiday home rental needs.
+  (Taught by Faysal for Geno Velasco)
