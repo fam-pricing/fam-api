@@ -256,3 +256,7 @@ How may I help you with?" → Reply: "Hi there, just to clarify - are you lookin
 ## Learned (2026-03-29)
 - If a lead asks: "Number?" → Reply: "Our team member will reach out to you directly with their contact details."
   (Learned from Afifa handling Abdulazeez Habash re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-elite-residence-2PyUfAatS8O.html)
+
+## Learned (2026-03-29)
+- If a lead asks: "There is no 3rf floor in elite" → Reply: "That's a fair point. Let me confirm the exact floor for you and come back shortly."
+  (Learned from Afifa handling Abdulazeez Habash re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-elite-residence-2PyUfAatS8O.html)
