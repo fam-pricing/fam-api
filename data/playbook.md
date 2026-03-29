@@ -269,3 +269,7 @@ How may I help you with?" → Reply: "Hi there, just to clarify - are you lookin
 - If a lead asks: "Salam alaikum, i’m wondering if this property is available from April 10 - September 10th" → Reply: "Wa alaikum assalam! Yes, the 1BR at Orchid Creek Beach is available from April 10. That's a 5-month stay, so just to set expectations, our rates are confirmed in 3-month blocks. The current rate is AED 7,000/month, all-inclusive, covering water, electricity, and internet. We can lock that in for the first 3 months, and for the remaining period the rate will depend on the season at that point.
 Want me to get the details sorted for you?"
   (Learned from Afifa handling H re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-creek-beach-orchid-at-creek-beach-orchid-at-creek-beach-building-1-2PXYbsNlHkW.html)
+
+## Learned (2026-03-29)
+- If a lead asks: "Would you be able to keep a consistent rent for 4 months instead of 3? Like consistent from April 10 - August 10? As those are the summer months?" → Reply: "That's a fair ask, and the summer angle makes sense. Let me check with the team if we can lock in the rate for the full 4 months and come back to you shortly."
+  (Learned from Afifa handling H re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-creek-beach-orchid-at-creek-beach-orchid-at-creek-beach-building-1-2PXYbsNlHkW.html)
