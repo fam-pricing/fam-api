@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T21:26:51.922Z",
+  "ts": "2026-03-29T21:27:09.532Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216742304",
+    "type": "OUTBOUND",
+    "message_id": "4216742366",
     "ticket_id": "938160106",
-    "message": "Hello",
-    "channel_id": "1304636",
+    "message": "Hi Sider! Are you still interested in the studio at Trillionaire Residences, or did you have any questions about it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535122680",
     "contact_name": "Sider",
     "contact_identifier": "+971585528348",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
