@@ -236,3 +236,7 @@ Every entry below was added based on a real situation or direct instruction. Thi
 
 How may I help you with?" → Reply: "Hi there, just to clarify - are you looking to rent the Aykon City apartment for yourself, or is this enquiry on behalf of a client or business?"
   (Learned from Afifa handling Geno Velasco re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-aykon-city-aykon-city-tower-c-16180579.html)
+
+## Learned (2026-03-29)
+- When a lead responds with an auto-reply message acknowledging receipt of your message, confirm with "Yes of course."
+  (Taught by Faysal for Geno Velasco)
