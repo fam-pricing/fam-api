@@ -1,20 +1,19 @@
 {
-  "ts": "2026-03-29T13:04:57.633Z",
+  "ts": "2026-03-29T13:05:44.640Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216534608",
+    "type": "INBOUND",
+    "message_id": "4216534884",
     "ticket_id": "938085627",
-    "message": "As per the telephone conversation had we will arrange the viewing at 5.30 pm today",
-    "user_id": "340123",
-    "user_name": "Afifa A.",
-    "user_email": "afifa@famliving.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "535103447",
     "contact_name": "Sabrin",
     "contact_identifier": "+447715466557",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4216534608",
+    "parent_ticket_id": "938085627",
+    "event_type": "INBOUND"
   }
 }
