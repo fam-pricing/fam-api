@@ -78,14 +78,16 @@ module.exports = async function handler(req, res) {
   if (req.method !== 'GET') return res.status(405).json({ error: 'Method not allowed' });
 
   const { building, beds } = req.query;
+  const pfUrl = req.query.url || req.query.pf_url || null;
 
   const hasBuilding = building && building.trim().length >= 2;
   const hasArea     = req.query.area && req.query.area.trim().length >= 2;
+  const hasUrl      = pfUrl && pfUrl.includes('propertyfinder');
 
-  if (!hasBuilding && !hasArea) {
+  if (!hasBuilding && !hasArea && !hasUrl) {
     return res.status(400).json({
       found: false,
-      message: 'Please provide a building name or area (e.g. ?building=Aykon+City or ?area=Business+Bay&beds=2BR)'
+      message: 'Please provide a building name, area, or Property Finder URL (e.g. ?building=Aykon+City or ?area=Business+Bay or ?url=https://propertyfinder.ae/...)'
     });
   }
 
@@ -95,15 +97,38 @@ module.exports = async function handler(req, res) {
     const urlMap    = loadJson('ref_url_map.json');
     const refLookup = buildLookup(refMap, urlMap);
 
-    const wantedBeds = normBeds(beds);
+    // ── URL reverse-lookup: PF link → building + bed_type ───────────────────
+    let urlBuilding = null;
+    let urlBeds     = null;
+    if (hasUrl) {
+      // Normalise URL for comparison (strip query string, trailing slash, etc.)
+      const normUrl = pfUrl.split('?')[0].replace(/\/$/, '').toLowerCase();
+      for (const [ref, refUrl] of Object.entries(urlMap)) {
+        if (!refUrl) continue;
+        const normRef = refUrl.split('?')[0].replace(/\/$/, '').toLowerCase();
+        if (normRef === normUrl || normUrl.includes(normRef.split('/').pop()) || normRef.includes(normUrl.split('/').pop())) {
+          const info = refMap[ref];
+          if (info) {
+            urlBuilding = info.building;
+            urlBeds     = info.bed_type;
+          }
+          break;
+        }
+      }
+    }
+
+    // Merge: URL-derived values take priority over text params
+    const effectiveBuilding = urlBuilding || building;
+    const effectiveBeds     = urlBeds     || beds;
+    const wantedBeds        = normBeds(effectiveBeds);
     const areaQuery  = req.query.area ? norm(req.query.area) : null;
 
     // ── Step 1: filter / score by building name ──────────────────────────────
     let pool = listings;
 
-    if (hasBuilding) {
+    if (effectiveBuilding && effectiveBuilding.trim().length >= 2) {
       pool = pool
-        .map(l => ({ ...l, _score: score(l.building, building) }))
+        .map(l => ({ ...l, _score: score(l.building, effectiveBuilding) }))
         .filter(l => l._score >= 40)
         .sort((a, b) => b._score - a._score);
     } else {
@@ -133,7 +158,7 @@ module.exports = async function handler(req, res) {
       if (topBuildings.length === 0) {
         return res.status(404).json({
           found: false,
-          message: `No fäm Living properties found matching "${building || req.query.area}"${wantedBeds ? ` with ${wantedBeds}` : ''}. Please check the building name or area.`
+          message: `No fäm Living properties found matching "${effectiveBuilding || req.query.area}"${wantedBeds ? ` with ${wantedBeds}` : ''}. Please check the building name or area.`
         });
       }
       return res.status(404).json({
@@ -165,8 +190,9 @@ module.exports = async function handler(req, res) {
     });
 
     return res.status(200).json({
-      found:   true,
-      count:   results.length,
+      found:        true,
+      count:        results.length,
+      url_resolved: !!urlBuilding,   // true = building was identified from PF URL
       results
     });
 
