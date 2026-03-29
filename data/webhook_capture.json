@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T09:16:28.783Z",
+  "ts": "2026-03-29T09:17:14.263Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216414277",
-    "ticket_id": "868142227",
-    "message": "Can you send payment link to me for this next month",
-    "channel_id": "585723",
-    "contact_id": "517559757",
-    "contact_name": "Ms Jodie Tia Walsh",
-    "contact_identifier": "+971509848657",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4216414846",
+    "ticket_id": "938047398",
+    "message": "Yes sure",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
+    "contact_id": "535093718",
+    "contact_name": "Abdulazeez Habash",
+    "contact_identifier": "+971551517408",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
