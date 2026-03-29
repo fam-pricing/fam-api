@@ -294,3 +294,19 @@ Want to arrange a viewing, or shall we get the paperwork started for April 1?"
 ## Learned (2026-03-29)
 - If a lead asks: "What is the security deposit for this studio" → Reply: "The security deposit depends on the unit size. Let me confirm the exact amount for you and come back shortly!"
   (Learned from Afifa handling Adrisya re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-2Q6tKXdaTFw.html)
+
+## Learned (2026-03-29)
+- If a lead asks: "Yes actually I want to do longer than 4 months, as I want to relocate to Creek Harbour long term. 
+
+It’s just I don’t want to be crushed with a huge rent payment when the winter season comes along hahah. 
+
+If it’s possible for you guys I’d love to rent from April 10 - Febuary 10. 11 months 
+
+If we can talk together to discuss that? 
+
+For example, we can negotiate summer months, then when the winter season/months start and you guys have a better idea on how the rent will look for those months we can discuss at the time? 
+
+As I’d love to rent for 11 months and be a long term tentant with you guys, just I don’t want to be trampled over with huge winter rent lol, let me know :)" → Reply: "That makes total sense, and honestly it's a smart way to think about it. We do lock in rates in 3-month blocks, so the way you're describing it is pretty much how it works in practice.
+For April 10 to July 10, the current rate is AED 7,000/month, all-inclusive. Beyond that, rates depend on the season and we'd confirm them with you ahead of each new period.
+For something as specific as an 11-month plan, let me get the right person to have a proper conversation with you so nothing gets lost. Can I grab your name and the best time to connect?"
+  (Learned from Afifa handling H re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-creek-beach-orchid-at-creek-beach-orchid-at-creek-beach-building-1-2PXYbsNlHkW.html)
