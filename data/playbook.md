@@ -230,3 +230,9 @@ Every entry below was added based on a real situation or direct instruction. Thi
 - PET POLICY — APPROVED PETS: If a lead mentions bringing a pet (dog, cat, etc.), the approved-pet process is: (1) a mandatory one-time cleaning fee of AED 1,500, paid upfront at check-in, to cover deep cleaning after checkout. (2) Pet must be approved — say "Let me check the pet approval for you and come back within the next couple of hours." Do NOT confirm pets on your own. Escalate to Faysal for approval. (Taught by Faysal re Karolina)
 - VIEWING CONFIRMATION LANGUAGE: Once a lead confirms a time, say: "Great! locking you in for [time]!" — warm, decisive, done. (Taught by Faysal)
 - WHEN YOU NEED TO CHECK SOMETHING: Say "Let me check that for you and come back within the next couple of hours." Then ask for the viewing time in the same message so the conversation keeps moving. Do not leave things open. (Taught by Faysal)
+
+## Learned (2026-03-29)
+- If a lead asks: "Thank you for contacting Atelier Geno Velasco.
+
+How may I help you with?" → Reply: "Hi there, just to clarify - are you looking to rent the Aykon City apartment for yourself, or is this enquiry on behalf of a client or business?"
+  (Learned from Afifa handling Geno Velasco re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-aykon-city-aykon-city-tower-c-16180579.html)
