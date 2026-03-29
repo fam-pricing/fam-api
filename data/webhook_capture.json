@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T09:35:49.595Z",
+  "ts": "2026-03-29T09:36:11.989Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216423482",
-    "ticket_id": "938047398",
-    "message": "Okay i saw it",
+    "type": "OUTBOUND",
+    "message_id": "4216423648",
+    "ticket_id": "937960469",
+    "message": "A photo will be sufficient, as we need to email the building and provide them with the details for the viewing.",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
+    "contact_id": "535009951",
+    "contact_name": "Indre",
+    "contact_identifier": "+447456656962",
     "channel_id": "1304636",
-    "contact_id": "535093718",
-    "contact_name": "Abdulazeez Habash",
-    "contact_identifier": "+971551517408",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
