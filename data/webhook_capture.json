@@ -1,16 +1,19 @@
 {
-  "ts": "2026-03-29T00:11:57.307Z",
+  "ts": "2026-03-29T00:12:12.163Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216283254",
+    "type": "OUTBOUND",
+    "message_id": "4216283276",
     "ticket_id": "937995882",
-    "message": "Thank you for contacting Atelier Geno Velasco.\n\nHow may I help you with?",
-    "channel_id": "1304636",
+    "message": "Hi there, just to clarify - are you looking to rent the Aykon City apartment for yourself, or is this enquiry on behalf of a client or business?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535085717",
     "contact_identifier": "+971556771172",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
