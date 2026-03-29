@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T12:30:50.559Z",
+  "ts": "2026-03-29T12:34:13.693Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216519241",
+    "type": "OUTBOUND",
+    "message_id": "4216520820",
     "ticket_id": "935709173",
-    "message": "Only one access here",
-    "channel_id": "585723",
+    "message": "You mean one access card?",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
     "contact_id": "534441955",
     "contact_name": "Mohamed",
     "contact_identifier": "+971501100117",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
