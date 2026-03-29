@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T08:51:35.201Z",
+  "ts": "2026-03-29T08:51:41.060Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216403037",
+    "type": "OUTBOUND",
+    "message_id": "4216403059",
     "ticket_id": "938047398",
-    "message": "Im already near elite residence",
-    "channel_id": "1304636",
+    "message": "What time today works best for you between 9am and 6pm?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535093718",
     "contact_name": "Abdulazeez Habash",
     "contact_identifier": "+971551517408",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
