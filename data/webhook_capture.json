@@ -1,20 +1,19 @@
 {
-  "ts": "2026-03-29T19:49:07.339Z",
+  "ts": "2026-03-29T19:51:00.547Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216713473",
+    "type": "INBOUND",
+    "message_id": "4216714040",
     "ticket_id": "938149462",
-    "message": "The studio in Bayz by Danube is AED 4,800/month, all-inclusive. Water, electricity, and internet are all covered, nothing extra to pay beyond the deposit.\n\nWant to arrange a viewing, or shall I share the full listing with photos?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is there any hidden charges",
+    "channel_id": "1304636",
     "contact_id": "535119508",
     "contact_name": "Adrisya",
     "contact_identifier": "+971567967047",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4216713473",
+    "parent_ticket_id": "938149462",
+    "event_type": "INBOUND"
   }
 }
