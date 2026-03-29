@@ -794,6 +794,25 @@ export default async function handler(req, res) {
 
   if (!messageText) return res.status(200).json({ ok: true, skipped: 'Empty message' });
 
+  // ── Auto-responder detection — skip WhatsApp Business auto-replies ──────────
+  // Fires when we message a lead who has a WA Business auto-responder set up.
+  // Their phone instantly replies with a canned message. We should ignore it silently.
+  const AUTO_RESPONDER_PATTERNS = [
+    /thank you for (your message|contacting|reaching out)/i,
+    /we('re| are) (currently )?(unavailable|away|offline|out of office)/i,
+    /we will (respond|get back|reply).{0,40}(soon|as soon as possible|shortly)/i,
+    /how (may|can) (i|we) help you/i,
+    /this is an? (auto(mated)?|automatic) (reply|response|message)/i,
+    /i('m| am) (currently )?unavailable/i,
+    /please (leave|send) (a message|your (details|enquiry))/i,
+    /our (team|staff|office) (will|is)/i,
+  ];
+  const isAutoResponder = AUTO_RESPONDER_PATTERNS.some(p => p.test(messageText));
+  if (isAutoResponder) {
+    console.log(`[auto-reply] Auto-responder detected on ticket ${ticketId} — skipping silently`);
+    return res.status(200).json({ ok: true, skipped: 'Auto-responder detected' });
+  }
+
   const dubaiHour = getDubaiHour();
   console.log(`[auto-reply] Inbound on ticket ${ticketId} | Dubai hour: ${dubaiHour} | Bot: 24/7 active`);
 
