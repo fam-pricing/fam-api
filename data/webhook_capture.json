@@ -1,20 +1,19 @@
 {
-  "ts": "2026-03-29T15:22:47.667Z",
+  "ts": "2026-03-29T15:41:06.763Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216600713",
+    "type": "INBOUND",
+    "message_id": "4216609312",
     "ticket_id": "938110270",
-    "message": "Of course! Once the contract is signed and payment is made, you can move in the same day. Check-in is at 3pm.\n\nWhat date are you thinking?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is it possible to check in before 15:00?",
+    "channel_id": "1304636",
     "contact_id": "535109506",
     "contact_name": ".",
     "contact_identifier": "+79180964800",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4216600713",
+    "parent_ticket_id": "938110270",
+    "event_type": "INBOUND"
   }
 }
