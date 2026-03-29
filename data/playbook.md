@@ -244,3 +244,7 @@ How may I help you with?" → Reply: "Hi there, just to clarify - are you lookin
 ## Learned (2026-03-29)
 - If a lead responds with a thank you message or greeting, reply by asking when they are available to discuss their holiday home rental needs.
   (Taught by Faysal for Geno Velasco)
+
+## Learned (2026-03-29)
+- When a lead indicates they want to move in on Monday to test the property, respond with "See you soon."
+  (Taught by Faysal for Karolina)
