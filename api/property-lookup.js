@@ -5,8 +5,9 @@
  * Returns price, availability, listing URL and photos link for a fäm Living property.
  *
  * Query params:
- *   building  — building name (fuzzy matched, e.g. "act two", "aykon", "palm tower")
+ *   building  — building name (fuzzy matched, e.g. "act two", "aykon", "palm tower") — optional if area provided
  *   beds      — bedroom type (optional, e.g. "studio", "1br", "1", "2br", "2")
+ *   area      — location/neighbourhood (optional, e.g. "business bay", "downtown", "marina", "palm")
  *
  * Response (200):
  *   { found: true, results: [ { building, area, beds, price, currency, available, listing_url, photos_url } ] }
@@ -78,44 +79,66 @@ module.exports = async function handler(req, res) {
 
   const { building, beds } = req.query;
 
-  if (!building || building.trim().length < 2) {
+  const hasBuilding = building && building.trim().length >= 2;
+  const hasArea     = req.query.area && req.query.area.trim().length >= 2;
+
+  if (!hasBuilding && !hasArea) {
     return res.status(400).json({
       found: false,
-      message: 'Please provide a building name (e.g. ?building=Aykon+City&beds=2BR)'
+      message: 'Please provide a building name or area (e.g. ?building=Aykon+City or ?area=Business+Bay&beds=2BR)'
     });
   }
 
   try {
-    const listings = loadJson('listings.json');  // [{ building, area, beds, price }]
-    const refMap   = loadJson('ref_mapping.json'); // { ref: { building, bed_type } }
-    const urlMap   = loadJson('ref_url_map.json'); // { ref: url }
+    const listings  = loadJson('listings.json');  // [{ building, area, beds, price }]
+    const refMap    = loadJson('ref_mapping.json');
+    const urlMap    = loadJson('ref_url_map.json');
     const refLookup = buildLookup(refMap, urlMap);
 
     const wantedBeds = normBeds(beds);
+    const areaQuery  = req.query.area ? norm(req.query.area) : null;
 
-    // Score all listings against the building query
-    const scored = listings
-      .map(l => ({ ...l, _score: score(l.building, building) }))
-      .filter(l => l._score >= 40)
-      .sort((a, b) => b._score - a._score);
+    // ── Step 1: filter / score by building name ──────────────────────────────
+    let pool = listings;
 
-    // Filter by beds if provided
-    const filtered = wantedBeds
-      ? scored.filter(l => l.beds === wantedBeds)
-      : scored;
+    if (hasBuilding) {
+      pool = pool
+        .map(l => ({ ...l, _score: score(l.building, building) }))
+        .filter(l => l._score >= 40)
+        .sort((a, b) => b._score - a._score);
+    } else {
+      // No building filter — give everything a neutral score
+      pool = pool.map(l => ({ ...l, _score: 50 }));
+    }
+
+    // ── Step 2: filter by area ───────────────────────────────────────────────
+    if (areaQuery) {
+      const areaFiltered = pool.filter(l => {
+        const la = norm(l.area || '');
+        return la.includes(areaQuery) || areaQuery.includes(la) ||
+               // word overlap for partial matches (e.g. "downtown" matches "Downtown Dubai")
+               areaQuery.split(' ').some(w => w.length > 2 && la.includes(w));
+      });
+      // Fall back to unfiltered pool if area produced nothing (avoid empty result)
+      if (areaFiltered.length > 0) pool = areaFiltered;
+    }
+
+    // ── Step 3: filter by beds ───────────────────────────────────────────────
+    const filtered = wantedBeds ? pool.filter(l => l.beds === wantedBeds) : pool;
+
+    const scored = filtered; // alias for error messages below
 
     if (filtered.length === 0) {
-      // Try partial: find distinct buildings that scored ≥40
-      const topBuildings = [...new Set(scored.map(l => l.building))];
+      const topBuildings = [...new Set(pool.map(l => l.building))];
       if (topBuildings.length === 0) {
         return res.status(404).json({
           found: false,
-          message: `No fäm Living properties found matching "${building}"${wantedBeds ? ` with ${wantedBeds}` : ''}. Please check the building name.`
+          message: `No fäm Living properties found matching "${building || req.query.area}"${wantedBeds ? ` with ${wantedBeds}` : ''}. Please check the building name or area.`
         });
       }
       return res.status(404).json({
         found: false,
-        message: `Found "${topBuildings[0]}" but no ${wantedBeds || 'units'} listed. Available sizes: ${[...new Set(scored.filter(l=>l.building===topBuildings[0]).map(l=>l.beds))].join(', ')}`
+        message: `Found properties in that area but no ${wantedBeds || 'units'} available. Sizes available: ${[...new Set(pool.map(l => l.beds))].join(', ')}`
       });
     }
 
