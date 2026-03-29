@@ -139,6 +139,28 @@ async function sendTrengoTemplate(ticketId, listingTitle) {
   }
 }
 
+async function updateTrengoContactName(ticketId, name) {
+  const token = process.env.TRENGO_TOKEN;
+  if (!token || !ticketId || !name) return;
+  try {
+    const tr = await fetch(`${TRENGO_API}/tickets/${ticketId}`, {
+      headers: { Authorization: `Bearer ${token}`, Accept: 'application/json' },
+    });
+    if (!tr.ok) return;
+    const ticket = await tr.json();
+    const contactId = ticket.contact?.id;
+    if (!contactId) return;
+    await fetch(`${TRENGO_API}/contacts/${contactId}`, {
+      method: 'PUT',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({ name }),
+    });
+    console.log(`[Trengo] contact ${contactId} renamed to "${name}"`);
+  } catch (err) {
+    console.error('[Trengo] updateContactName error:', err.message);
+  }
+}
+
 async function assignTrengoTicket(ticketId, userId) {
   const token = process.env.TRENGO_TOKEN;
   if (!token || !ticketId) return;
@@ -260,6 +282,8 @@ export default async function handler(req, res) {
       }
 
       const leadName = lead.sender?.name || null;
+      // 6. Update Trengo contact name so inbox shows lead name not phone number
+      if (trengoTicketId && leadName) await updateTrengoContactName(trengoTicketId, leadName);
       results.push({ id: lead.id, phone, listingTitle, trengoTicketId, leadName });
     }
 
