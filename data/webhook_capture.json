@@ -1,19 +1,20 @@
 {
-  "ts": "2026-03-29T19:51:00.547Z",
+  "ts": "2026-03-29T19:51:24.254Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216714040",
+    "type": "OUTBOUND",
+    "message_id": "4216714153",
     "ticket_id": "938149462",
-    "message": "Is there any hidden charges",
-    "channel_id": "1304636",
+    "message": "No hidden charges at all. The monthly rate is all-inclusive, so water, electricity, and internet are covered. The only additional cost is the security deposit, which is refundable after checkout subject to inspection.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535119508",
     "contact_name": "Adrisya",
     "contact_identifier": "+971567967047",
-    "parent_message_id": "4216713473",
-    "parent_ticket_id": "938149462",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
