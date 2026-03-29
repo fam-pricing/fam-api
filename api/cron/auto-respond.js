@@ -139,6 +139,25 @@ async function sendTrengoTemplate(ticketId, listingTitle) {
   }
 }
 
+const TRENGO_FIELD_LOCATION = 624322;
+const TRENGO_FIELD_SIZE     = 624323;
+
+async function updateTrengoTicketFields(ticketId, building, bedType) {
+  const token = process.env.TRENGO_TOKEN;
+  if (!token || !ticketId) return;
+  const updates = [];
+  if (building) updates.push({ custom_field_id: TRENGO_FIELD_LOCATION, value: building });
+  if (bedType)  updates.push({ custom_field_id: TRENGO_FIELD_SIZE,     value: bedType  });
+  await Promise.all(updates.map(body =>
+    fetch(`${TRENGO_API}/tickets/${ticketId}/custom_fields`, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify(body),
+    }).catch(err => console.error('[Trengo] updateTicketField error:', err.message))
+  ));
+  if (updates.length) console.log(`[Trengo] ticket ${ticketId} fields set: ${building} / ${bedType}`);
+}
+
 async function updateTrengoContactName(ticketId, name) {
   const token = process.env.TRENGO_TOKEN;
   if (!token || !ticketId || !name) return;
@@ -282,8 +301,11 @@ export default async function handler(req, res) {
       }
 
       const leadName = lead.sender?.name || null;
+      const mapping  = ref ? refMapping[ref] : null;
       // 6. Update Trengo contact name so inbox shows lead name not phone number
       if (trengoTicketId && leadName) await updateTrengoContactName(trengoTicketId, leadName);
+      // 7. Set Location + Size ticket fields from ref mapping
+      if (trengoTicketId && mapping) await updateTrengoTicketFields(trengoTicketId, mapping.building, mapping.bed_type);
       results.push({ id: lead.id, phone, listingTitle, trengoTicketId, leadName });
     }
 
