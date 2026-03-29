@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T09:39:07.517Z",
+  "ts": "2026-03-29T09:42:35.202Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216424790",
+    "type": "OUTBOUND",
+    "message_id": "4216426305",
     "ticket_id": "937960469",
-    "message": "Will you come for the viewing ?",
-    "channel_id": "1304636",
+    "message": "Yes, one of our team members will be present to assist you. However, we need to register the viewing in advance before your arrival.",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
     "contact_id": "535009951",
     "contact_name": "Indre",
     "contact_identifier": "+447456656962",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
