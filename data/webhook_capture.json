@@ -1,19 +1,20 @@
 {
-  "ts": "2026-03-29T15:16:22.627Z",
+  "ts": "2026-03-29T15:17:25.575Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216597679",
+    "type": "OUTBOUND",
+    "message_id": "4216598138",
     "ticket_id": "938110270",
-    "message": "❤️",
-    "channel_id": "1304636",
+    "message": "Hi\r\n\r\nMay I know from which date you are looking to make the reservation so I can check for the availability and share the rate with you",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
     "contact_id": "535109506",
     "contact_name": ".",
     "contact_identifier": "+79180964800",
-    "parent_message_id": "4216596399",
-    "parent_ticket_id": "938110270",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
