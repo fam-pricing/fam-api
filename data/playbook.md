@@ -277,3 +277,7 @@ Want me to get the details sorted for you?"
 ## Learned (2026-03-29)
 - When a lead requests a fixed rental rate for a four-month period (April 10 – August 10), confirm availability and agree to the consistent pricing.
   (Taught by Faysal for H)
+
+## Learned (2026-03-29)
+- If a lead asks: "Hello, I want to rent this apartment for a week, with the possibility of extending it" → Reply: "Hi! Thanks for reaching out. The 2BR at MAG 318 is a great spot. Let me check on weekly availability for you and come back shortly!"
+  (Learned from Afifa handling . re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVxAftgMJE.html)
