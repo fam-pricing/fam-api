@@ -1,20 +1,17 @@
 {
-  "ts": "2026-03-29T15:17:25.575Z",
+  "ts": "2026-03-29T15:18:02.606Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216598138",
+    "type": "INBOUND",
+    "message_id": "4216598376",
     "ticket_id": "938110270",
-    "message": "Hi\r\n\r\nMay I know from which date you are looking to make the reservation so I can check for the availability and share the rate with you",
-    "user_id": "340123",
-    "user_name": "Afifa A.",
-    "user_email": "afifa@famliving.com",
+    "message": "I don't have time to look at it, I want to meet you when you arrive on the 31st, pay in cash, sign leaflets. I don't have bank cards, I only have cash, tell me if this is possible?",
+    "channel_id": "1304636",
     "contact_id": "535109506",
     "contact_name": ".",
     "contact_identifier": "+79180964800",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
