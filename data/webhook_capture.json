@@ -1,20 +1,17 @@
 {
-  "ts": "2026-03-29T11:10:09.641Z",
+  "ts": "2026-03-29T11:15:07.095Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216483129",
-    "ticket_id": "937865263",
-    "message": "Certainly, we can proceed with the reservation. I will send you the payment link for the deposit, which will confirm your booking and block the dates.",
-    "user_id": "340123",
-    "user_name": "Afifa A.",
-    "user_email": "afifa@famliving.com",
-    "contact_id": "535052322",
-    "contact_name": "Frank",
-    "contact_identifier": "+971553274493",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4216485403",
+    "ticket_id": "928641848",
+    "message": "Hello, i need a new card, because only one was available, and the reception are not helpful anymore, so can you make it happen asap, thank you!",
+    "channel_id": "585723",
+    "contact_id": "532699095",
+    "contact_name": "Ms Imane Hattani",
+    "contact_identifier": "+971542238840",
+    "event_type": "INBOUND"
   }
 }
