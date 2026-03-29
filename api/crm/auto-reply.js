@@ -808,9 +808,11 @@ export default async function handler(req, res) {
     return res.status(200).json({ ok: true, skipped: 'Agent cooldown active' });
   }
 
-  // Per-ticket bot cooldown: 30s blocks duplicate simultaneous webhooks without silencing real follow-ups
+  // Per-ticket bot cooldown: 5s blocks truly duplicate simultaneous webhooks only.
+  // message_id deduplication above already handles true duplicates; this just covers
+  // the rare case Trengo fires the same event twice within seconds with no message_id.
   const lastBotAt = leadMeta.last_bot_reply_at ? new Date(leadMeta.last_bot_reply_at).getTime() : 0;
-  const BOT_COOLDOWN_MS = 30 * 1000; // 30 seconds — enough to deduplicate rapid-fire, short enough for real conversation
+  const BOT_COOLDOWN_MS = 5 * 1000; // 5 seconds — deduplicates same-second duplicates without blocking real follow-ups
   if (Date.now() - lastBotAt < BOT_COOLDOWN_MS) {
     return res.status(200).json({ ok: true, skipped: 'Bot cooldown — replied too recently' });
   }
