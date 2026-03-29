@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T11:16:57.064Z",
+  "ts": "2026-03-29T11:19:12.280Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216486377",
-    "ticket_id": "937727795",
-    "message": "Hi can I please ask if this is paid monthly (payment terms) and includes all bills? Is there cleaning included? And what floor?",
+    "type": "OUTBOUND",
+    "message_id": "4216487283",
+    "ticket_id": "935709173",
+    "message": "https://totalpay.ae/payment/202603294869c90a983a798",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
+    "contact_id": "534441955",
+    "contact_name": "Mohamed",
+    "contact_identifier": "+971501100117",
     "channel_id": "585723",
-    "contact_id": "476796436",
-    "contact_name": "Mrs Corina Astrid Bagireanu",
-    "contact_identifier": "+447586775769",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
