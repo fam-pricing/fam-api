@@ -290,3 +290,7 @@ Is it possible to rent for 6 month contract?" → Reply: "Hi Anna! Yes, the stud
 On the 6-month question, our rates are confirmed in 3-month blocks. The current rate is AED 5,500/month, all-inclusive, covering water, electricity, and internet. We can lock that in for the first 3 months, and for the following 3 months the rate will depend on the season at that point.
 Want to arrange a viewing, or shall we get the paperwork started for April 1?"
   (Learned from Afifa handling Anna re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-trillionaire-residences-69095034.html)
+
+## Learned (2026-03-29)
+- If a lead asks: "What is the security deposit for this studio" → Reply: "The security deposit depends on the unit size. Let me confirm the exact amount for you and come back shortly!"
+  (Learned from Afifa handling Adrisya re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-2Q6tKXdaTFw.html)
