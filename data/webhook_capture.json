@@ -1,19 +1,20 @@
 {
-  "ts": "2026-03-29T17:25:05.969Z",
+  "ts": "2026-03-29T17:26:52.256Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216656574",
+    "type": "OUTBOUND",
+    "message_id": "4216657350",
     "ticket_id": "852583151",
-    "message": "if i send the emirates id",
-    "channel_id": "585723",
+    "message": "If it is an agent it would be ok. But I am not sure as this is a new property normally they allow agents for other Emaar properties",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
     "contact_id": "450960431",
     "contact_name": "Aya - fam living",
     "contact_identifier": "+971544311300",
-    "parent_message_id": "4216656405",
-    "parent_ticket_id": "852583151",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
