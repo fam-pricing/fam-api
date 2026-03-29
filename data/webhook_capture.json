@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T07:18:35.618Z",
+  "ts": "2026-03-29T07:18:51.985Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216365403",
+    "type": "OUTBOUND",
+    "message_id": "4216365588",
     "ticket_id": "938031050",
-    "message": "Can we meet at 12.30? Or 13",
-    "channel_id": "1304636",
+    "message": "12:30pm works! Our team will coordinate with you shortly.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535072138",
     "contact_name": "Karolina",
     "contact_identifier": "+971505005927",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
