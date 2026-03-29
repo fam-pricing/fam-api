@@ -273,3 +273,7 @@ Want me to get the details sorted for you?"
 ## Learned (2026-03-29)
 - If a lead asks: "Would you be able to keep a consistent rent for 4 months instead of 3? Like consistent from April 10 - August 10? As those are the summer months?" → Reply: "That's a fair ask, and the summer angle makes sense. Let me check with the team if we can lock in the rate for the full 4 months and come back to you shortly."
   (Learned from Afifa handling H re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-creek-beach-orchid-at-creek-beach-orchid-at-creek-beach-building-1-2PXYbsNlHkW.html)
+
+## Learned (2026-03-29)
+- When a lead requests a fixed rental rate for a four-month period (April 10 – August 10), confirm availability and agree to the consistent pricing.
+  (Taught by Faysal for H)
