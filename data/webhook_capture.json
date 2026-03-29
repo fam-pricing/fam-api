@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T16:09:01.747Z",
+  "ts": "2026-03-29T16:09:22.205Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216622291",
+    "type": "OUTBOUND",
+    "message_id": "4216622491",
     "ticket_id": "938119007",
-    "message": "Hi\nI’d like to know the availability of this apartment. I’d like to rent from 1st April\n\nIs it possible to rent for 6 month contract?",
-    "channel_id": "1304636",
+    "message": "Hi Anna! Yes, the studio at Trillionaire Residences is available from 1st April.\nOn the 6-month question, our rates are confirmed in 3-month blocks. The current rate is AED 5,500/month, all-inclusive, covering water, electricity, and internet. We can lock that in for the first 3 months, and for the following 3 months the rate will depend on the season at that point.\nWant to arrange a viewing, or shall we get the paperwork started for April 1?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535111757",
     "contact_name": "Anna",
     "contact_identifier": "+971544702152",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
