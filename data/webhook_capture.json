@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T16:34:27.907Z",
+  "ts": "2026-03-29T16:34:32.077Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216633799",
+    "type": "OUTBOUND",
+    "message_id": "4216633829",
     "ticket_id": "937933692",
-    "message": "I will let you know tomorrow the exactly time",
-    "channel_id": "1304636",
+    "message": "5pm tomorrow works, Denis! Our team will coordinate with you shortly to confirm the details.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535071198",
     "contact_name": "Denis Kizay",
     "contact_identifier": "+971585212534",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
