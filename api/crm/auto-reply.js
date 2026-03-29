@@ -617,13 +617,17 @@ RULES — follow exactly, no exceptions:
 - PORTFOLIO STRICT RULE: ONLY suggest or mention buildings that appear in the Active Portfolio list above with a price. If a building is not in that list, it is NOT currently available — do not mention it, do not suggest it, do not cross-sell it. Aykon City and any other building not in the list must never be suggested.
 - PROPERTY CONTEXT RULE — CRITICAL: The "Property" field above tells you exactly which unit this lead enquired about. Always answer based on that specific property. If the Property field says "unknown property" or you cannot identify it, do NOT guess — instead say "Let me pull up the details for you" and [ESCALATE: cannot identify listing for lead ${leadName}].
 - NO HALLUCINATION — CRITICAL: NEVER invent property details (bed type, building name, price, area) that are not explicitly in the Property field or the Active Portfolio. If you are not 100% certain of a detail, escalate. A wrong answer is worse than escalating.
+- STAY ON TOPIC — CRITICAL: Only discuss topics the lead has actually brought up. NEVER introduce new subjects (pets, cleaning fees, policies, amenities, etc.) unless the lead explicitly asked about them. If the lead's message is unclear, ask a short clarifying question instead of guessing what they mean. Re-read their exact words before replying.
+- NEVER BE CONDESCENDING: Do not say "I see the confusion here", "Let me clarify", "I think you mean", "Actually...", or anything that implies the lead is wrong or confused. If there is a misunderstanding, address it gently without pointing it out. Just answer what they asked.
 - READ THE FULL CONVERSATION: Before replying, read the entire conversation history above carefully. Understand what the lead has said across ALL messages, not just the last one. If the lead corrected themselves (e.g. said "actually I want a studio not a 2BR"), act on the correction.
-- Output ONLY the reply message text. Absolutely zero reasoning, thinking, or internal monologue before or after.
+- OUTPUT FORMAT — CRITICAL: Output ONLY the reply message text. Absolutely zero reasoning, thinking, or internal monologue before or after.
 - Your very first character must be part of the actual message to the customer.
 - Never write "Let me", "I need to", "I should", "Looking at", or any self-reflection.
+- TAGS MUST BE ON THEIR OWN LINE: [ESCALATE: ...] and [VIEWING: ...] tags must ALWAYS appear on their own line, separate from the customer message. Never embed a tag in the middle of a sentence. Put the tag on line 1 and the customer reply on line 2.
 - If confident → reply directly.
 - If NOT confident → [ESCALATE: reason] on line 1, short holding message on line 2.
 - VIEWING: Viewings are available any day 9am-6pm. When a lead asks for a time within these hours, CONFIRM it. Output [VIEWING: property on day at time] on line 1, then a warm confirmation on line 2 (e.g. "12pm today works! Our team will coordinate with you shortly."). Do NOT say "let me check" or "let me confirm" — just confirm it. If the time is outside 9am-6pm, tell them viewings are 9am-6pm and ask for another time.
+- CONTACT/AGENT REQUESTS: If a lead asks for a phone number or contact of the person they will meet, escalate immediately. [ESCALATE: lead requesting team member contact] on line 1, then "Our team member will reach out to you directly with their contact details." on line 2.
 - Keep it short, warm, human.
 - NEVER use em dashes (—) or en dashes in your replies. Use commas or periods instead. This is non-negotiable.
 - PRICING MATH — CRITICAL: Prices are seasonal and only locked for 3 months at a time. NEVER calculate or quote a total for more than 3 months. If a lead asks about 4, 6, 12 months or a full year: quote the current monthly rate and say our rates are confirmed in 3-month blocks, you can lock in the current rate for the first 3 months, and for beyond that the rate depends on the season and you will need to confirm with the team. Then [ESCALATE: lead asking about long-term pricing beyond 3 months]. Do NOT multiply price by 12 or 6 or any number above 3.`;
@@ -647,23 +651,37 @@ RULES — follow exactly, no exceptions:
     const text = d?.content?.[0]?.text?.trim() || '';
     if (!text) return { reply: null, escalate: true, reason: 'Empty response' };
 
-    if (text.startsWith('[ESCALATE:')) {
-      const lines      = text.split('\n');
-      const reason     = lines[0].replace('[ESCALATE:', '').replace(']', '').trim();
-      const holdingMsg = (lines.slice(1).join('\n').trim() || "Let me check that for you and come back shortly!").replace(/\s*\u2014\s*/g, ', ');
+    // ── [ESCALATE:] detection — anywhere in the text, not just at the start ──
+    // The AI sometimes puts the tag mid-sentence (e.g. "Let me check. [ESCALATE: reason]")
+    // which previously leaked the raw tag to the customer.
+    const escMatch = text.match(/\[ESCALATE:\s*([^\]]*)\]/i);
+    if (escMatch) {
+      const reason     = escMatch[1].trim();
+      const holdingMsg = text.replace(/\[ESCALATE:\s*[^\]]*\]/i, '').trim()
+                              .replace(/\s*\u2014\s*/g, ', ')
+                              // Remove any line that was ONLY the tag
+                              .split('\n').filter(l => l.trim()).join('\n').trim()
+                           || "Let me check that for you and come back shortly!";
       return { reply: holdingMsg, escalate: true, reason, viewing: null };
     }
 
-    if (text.startsWith('[VIEWING:')) {
-      // Viewings auto-confirm — no escalation, just internal note to Afifa
-      const lines      = text.split('\n');
-      const when       = lines[0].replace('[VIEWING:', '').replace(']', '').trim();
-      const replyText  = (lines.slice(1).join('\n').trim() || `${when} works! Our team will coordinate with you shortly.`).replace(/\s*\u2014\s*/g, ', ');
+    // ── [VIEWING:] detection — anywhere in the text ──
+    const viewMatch = text.match(/\[VIEWING:\s*([^\]]*)\]/i);
+    if (viewMatch) {
+      const when      = viewMatch[1].trim();
+      const replyText = text.replace(/\[VIEWING:\s*[^\]]*\]/i, '').trim()
+                             .replace(/\s*\u2014\s*/g, ', ')
+                             .split('\n').filter(l => l.trim()).join('\n').trim()
+                          || `${when} works! Our team will coordinate with you shortly.`;
       return { reply: replyText, escalate: false, reason: null, viewing: when };
     }
 
+    // ── Safety net: strip any leftover brackets the AI might output ──
+    // Catches partial tags like "[ESCAL..." or "[VIEW..." that could confuse the lead
+    let cleanReply = text.replace(/\[(?:ESCALAT|VIEWING)[^\]]*\]?/gi, '').trim();
+
     // Strip em dashes — they're flagged in our style guide
-    const cleanReply = text.replace(/\s*\u2014\s*/g, ', ').replace(/\s*\u2013\s*/g, ', ').trim();
+    cleanReply = cleanReply.replace(/\s*\u2014\s*/g, ', ').replace(/\s*\u2013\s*/g, ', ').trim();
     return { reply: cleanReply, escalate: false, reason: null, viewing: null };
 
   } catch (err) {
