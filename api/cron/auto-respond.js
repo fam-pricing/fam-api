@@ -60,14 +60,17 @@ async function fetchGHJson(filePath) {
 // Build the {{1}} template value for a given PF ref:
 // 1. Use the actual PF listing URL (ref_url_map) — lead can tap to see the property
 // 2. Fall back to "BED in BUILDING" from ref_mapping
-// 3. Last resort: the raw ref string
+// 3. If ref looks like a standard PF ref (PF-HH-AR-XXXXX) but isn't mapped yet, return raw ref
+// 4. Non-standard ref (not starting with PF-) → return generic fallback to avoid sending raw codes
 function listingValueFromRef(ref, refMapping, refUrlMap) {
   if (!ref) return null;
   const url = refUrlMap[ref];
   if (url) return url;
   const mapping = refMapping[ref];
   if (mapping) return `${mapping.bed_type} in ${mapping.building}`;
-  return ref;
+  // Only use raw ref if it looks like a real PF reference number; otherwise use generic fallback
+  if (ref.startsWith('PF-')) return ref;
+  return 'one of our available properties';
 }
 
 // ── PF auto-respond ────────────────────────────────────────────────────────────
