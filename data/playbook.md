@@ -248,3 +248,7 @@ How may I help you with?" → Reply: "Hi there, just to clarify - are you lookin
 ## Learned (2026-03-29)
 - When a lead indicates they want to move in on Monday to test the property, respond with "See you soon."
   (Taught by Faysal for Karolina)
+
+## Learned (2026-03-29)
+- When a prospect inquires about the floor level, confirm that the property is located on the third floor.
+  (Taught by Faysal for Abdulazeez Habash)
