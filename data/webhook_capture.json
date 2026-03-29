@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T06:44:22.458Z",
+  "ts": "2026-03-29T06:46:49.097Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216353749",
+    "type": "OUTBOUND",
+    "message_id": "4216354612",
     "ticket_id": "928747916",
-    "message": "I am not checking out today. I already told my agent. He should have updated you.",
-    "channel_id": "585723",
+    "message": "Well Noted Ms Hoda, we will check with your agent.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "532723309",
     "contact_name": "Hoda",
     "contact_identifier": "+971542154632",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
