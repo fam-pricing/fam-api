@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T12:43:25.823Z",
+  "ts": "2026-03-29T12:43:44.228Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216525060",
+    "type": "OUTBOUND",
+    "message_id": "4216525152",
     "ticket_id": "938085627",
-    "message": "Perfect",
-    "channel_id": "1304636",
+    "message": "Tomorrow at 10am is locked in for you. Our team will coordinate with you shortly!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535103447",
     "contact_name": "Sabrin",
     "contact_identifier": "+447715466557",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
