@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T16:50:49.543Z",
+  "ts": "2026-03-29T16:51:07.167Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216641210",
+    "type": "OUTBOUND",
+    "message_id": "4216641328",
     "ticket_id": "937933692",
-    "message": "I will tell the exactly time tomorrow but it will be around 5.\nI would bring my id or passport with me",
-    "channel_id": "1304636",
+    "message": "Denis, viewing times are between 9am and 6pm, so 5pm works perfectly.\n\nBring your passport or ID and we'll get you sorted. See you tomorrow!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535071198",
     "contact_name": "Denis Kizay",
     "contact_identifier": "+971585212534",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
