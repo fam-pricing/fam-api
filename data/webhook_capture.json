@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T09:25:09.028Z",
+  "ts": "2026-03-29T09:25:44.902Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216418683",
+    "type": "OUTBOUND",
+    "message_id": "4216418929",
     "ticket_id": "938047398",
-    "message": "How could i see it?",
-    "channel_id": "1304636",
+    "message": "Door Code is 8080\r\n\r\nApartment no: 3710 on the 37th floor",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
     "contact_id": "535093718",
     "contact_name": "Abdulazeez Habash",
     "contact_identifier": "+971551517408",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
