@@ -1,19 +1,17 @@
 {
-  "ts": "2026-03-29T02:47:37.552Z",
+  "ts": "2026-03-29T02:58:55.346Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216307214",
-    "ticket_id": "938008420",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-dubai-creek-residences-dubai-creek-residences-north-dubai-creek-residences-north-tower-2-68288177.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "535087234",
-    "contact_identifier": "+381638370968",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4216309027",
+    "ticket_id": "935709173",
+    "message": "Hello",
+    "channel_id": "585723",
+    "contact_id": "534441955",
+    "contact_name": "Mohamed",
+    "contact_identifier": "+971501100117",
+    "event_type": "INBOUND"
   }
 }
