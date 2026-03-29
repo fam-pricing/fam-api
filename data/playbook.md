@@ -252,3 +252,7 @@ How may I help you with?" → Reply: "Hi there, just to clarify - are you lookin
 ## Learned (2026-03-29)
 - When a prospect inquires about the floor level, confirm that the property is located on the third floor.
   (Taught by Faysal for Abdulazeez Habash)
+
+## Learned (2026-03-29)
+- If a lead asks: "Number?" → Reply: "Our team member will reach out to you directly with their contact details."
+  (Learned from Afifa handling Abdulazeez Habash re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-elite-residence-2PyUfAatS8O.html)
