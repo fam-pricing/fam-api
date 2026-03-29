@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-29T08:14:51.237Z",
+  "ts": "2026-03-29T08:15:03.484Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216387728",
+    "type": "OUTBOUND",
+    "message_id": "4216387844",
     "ticket_id": "937960469",
-    "message": "Good morning I can do a viewing at 4 pm today",
-    "channel_id": "1304636",
+    "message": "4pm today works! Our team will coordinate with you shortly.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535009951",
     "contact_name": "Indre",
     "contact_identifier": "+447456656962",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
