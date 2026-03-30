@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T05:00:31.064Z",
+  "ts": "2026-03-30T05:00:53.729Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216834126",
+    "type": "OUTBOUND",
+    "message_id": "4216834413",
     "ticket_id": "938203298",
-    "message": "Hi! Thanks for sharing the details — the unit looks great.\n\nI wanted to check if there’s any flexibility on the price for a shorter-term stay. I’m looking to rent for 6 months (April 10 to September 10) and would be ready to move forward quickly.",
-    "channel_id": "1304636",
+    "message": "Hi Alex! Glad it looks good to you.\nOn pricing, the rate is AED 7,900/month, all-inclusive. Our rates are confirmed in 3-month blocks, so we can lock that in for the first 3 months from April 10. For the second half (July to September), the rate will depend on the season at that point, which we'd confirm with you ahead of time.\nThat said, April through September covers the summer months, which are typically our lower-rate period, so it should work in your favour.\nWant to get the ball rolling?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535128769",
     "contact_name": "Alex",
     "contact_identifier": "+256742443400",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
