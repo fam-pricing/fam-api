@@ -218,95 +218,71 @@ async function postTrengoNote(ticketId, note) {
   } catch (e) { console.error('[auto-reply] note post failed:', e?.message); }
 }
 
-// ── Send message to Faysal via WhatsApp ───────────────────────────────────────
-// Uses FAYSAL_TICKET_ID env var (Faysal's WhatsApp ticket in Trengo).
-// Falls back to internal note if ticket ID not set yet.
+// ── Assign / unassign ticket ──────────────────────────────────────────────────
 
-async function sendToFaysal(message, escData, escSha) {
-  let ticketId = process.env.FAYSAL_TICKET_ID
-    ? parseInt(process.env.FAYSAL_TICKET_ID, 10)
-    : escData?.faysal_ticket_id || null;
+const FAYSAL_USER_ID = 141332;
 
-  if (!ticketId) {
-    // Try to create a new outbound conversation with Faysal
-    const channelId = process.env.FAM_WA_CHANNEL_ID ? parseInt(process.env.FAM_WA_CHANNEL_ID, 10) : null;
-    if (channelId) {
-      const token = process.env.TRENGO_TOKEN;
-      try {
-        const r = await fetch(`${TRENGO_API}/tickets`, {
-          method: 'POST',
-          headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
-          body: JSON.stringify({
-            channel_id: channelId,
-            contact: { phone: '+971502725428' },
-            message,
-          }),
-        });
-        if (r.ok) {
-          const d = await r.json();
-          ticketId = d?.id || d?.ticket?.id || null;
-          if (ticketId && escData) {
-            escData.faysal_ticket_id = ticketId;
-            await writePendingEsc(escData, escSha);
-          }
-          console.log(`[auto-reply] Created Faysal WA ticket: ${ticketId}`);
-          return true;
-        }
-      } catch (e) { console.error('[auto-reply] Create Faysal ticket failed:', e?.message); }
-    }
-    console.log('[auto-reply] No FAYSAL_TICKET_ID set — escalation only in Trengo notes');
-    return false;
-  }
-
-  const sent = await postTrengoMessage(ticketId, message);
-  console.log(`[auto-reply] Faysal WA (ticket ${ticketId}): ${sent ? 'sent' : 'failed'}`);
-  return sent;
+async function assignTicket(ticketId, userId) {
+  const token = process.env.TRENGO_TOKEN;
+  try {
+    const r = await fetch(`${TRENGO_API}/tickets/${ticketId}`, {
+      method: 'PATCH',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({ assigned_to: userId }),
+    });
+    if (!r.ok) console.error('[auto-reply] assignTicket failed:', r.status, await r.text());
+    else console.log(`[auto-reply] Ticket ${ticketId} assigned to user ${userId}`);
+  } catch (e) { console.error('[auto-reply] assignTicket error:', e?.message); }
 }
 
-// ── Escalate to Faysal ────────────────────────────────────────────────────────
+async function unassignTicket(ticketId) {
+  const token = process.env.TRENGO_TOKEN;
+  try {
+    const r = await fetch(`${TRENGO_API}/tickets/${ticketId}`, {
+      method: 'PATCH',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({ assigned_to: null }),
+    });
+    if (!r.ok) console.error('[auto-reply] unassignTicket failed:', r.status, await r.text());
+    else console.log(`[auto-reply] Ticket ${ticketId} unassigned — ready for team pickup`);
+  } catch (e) { console.error('[auto-reply] unassignTicket error:', e?.message); }
+}
 
-async function escalateToFaysal(leadName, property, question, trengoTicketId, crmState, leadId, crmSha) {
+// ── Escalate ticket to team ───────────────────────────────────────────────────
+// Posts internal note with full context, unassigns ticket, pauses bot.
+
+async function escalateTicket(leadName, property, reason, trengoTicketId, conversation, crmState, leadId) {
   const dubaiTime = new Date(Date.now() + DUBAI_OFFSET_HOURS * 3600000)
     .toISOString().replace('T', ' ').substring(0, 16) + ' Dubai';
 
-  // Store on CRM so Afifa's daytime reply can also teach us
+  // Build a short conversation summary (last 5 messages)
+  const recentMsgs = (conversation || [])
+    .filter(m => m.body && m.body.trim())
+    .slice(-5)
+    .map(m => {
+      const who = (m.type === 'outbound' || m.direction === 'outbound') ? 'Bot' : leadName;
+      return `${who}: ${(m.body || '').substring(0, 120)}`;
+    })
+    .join('\n');
+
+  const note =
+    `🚨 BOT ESCALATION — ${dubaiTime}\n\n` +
+    `Lead: ${leadName}\n` +
+    `Property: ${property || 'unknown'}\n` +
+    `Reason: ${reason}\n\n` +
+    `Recent conversation:\n${recentMsgs || '(no messages logged)'}\n\n` +
+    `Bot paused. Please pick up this conversation.\n— fäm Bot`;
+
+  await postTrengoNote(trengoTicketId, note);
+  await unassignTicket(trengoTicketId);
+
   if (crmState && leadId) {
+    crmState[leadId].bot_paused              = true;
     crmState[leadId].last_escalated_at       = new Date().toISOString();
-    crmState[leadId].last_escalated_question = question;
+    crmState[leadId].last_escalated_question = reason;
   }
 
-  // Add to pending escalations store
-  const { esc, sha: escSha } = await readPendingEsc();
-  const escId = `esc_${Date.now()}`;
-  esc.pending = esc.pending || [];
-  esc.pending.push({
-    id:             escId,
-    lead_ticket_id: trengoTicketId,
-    lead_id:        leadId,
-    lead_name:      leadName,
-    property:       property || 'unknown',
-    question,
-    escalated_at:   new Date().toISOString(),
-    reminded_at:    null,
-    answered_at:    null,
-  });
-  esc.current_question_id = escId;
-
-  const waMessage =
-    `❓ *fäm Bot — lead needs your help!*\n\n` +
-    `*Lead:* ${leadName}\n` +
-    `*Property:* ${property || 'unknown'}\n\n` +
-    `*They asked:*\n"${question}"\n\n` +
-    `Reply here with the answer and I'll update my playbook + follow up with the lead 📚`;
-
-  await sendToFaysal(waMessage, esc, escSha);
-  await writePendingEsc(esc, escSha);
-
-  // Always leave an internal Trengo note too (so Afifa sees it on day shift)
-  const note = `🤖 Bot couldn't answer (${dubaiTime}):\n\n"${question}"\n\nFaysal notified via WhatsApp. Reply to this lead if Faysal doesn't respond in time.`;
-  await postTrengoNote(trengoTicketId, note);
-
-  console.log(`[auto-reply] Escalated "${question}" to Faysal (escId: ${escId})`);
+  console.log(`[auto-reply] Ticket ${trengoTicketId} escalated — "${reason}" — bot paused`);
 }
 
 // ── Classify whether Faysal's message is a playbook rule ─────────────────────
@@ -758,25 +734,9 @@ export default async function handler(req, res) {
 
   if (!ticketId) return res.status(200).json({ ok: true, skipped: 'No ticket ID' });
 
-  // ── Check if this is Faysal's teaching reply ──────────────────────────────
-  // Do this BEFORE the CRM lookup so we don't skip it as "not in CRM"
-  if (messageType === 'INBOUND' && messageText) {
-    const faysalTicketId = process.env.FAYSAL_TICKET_ID
-      ? parseInt(process.env.FAYSAL_TICKET_ID, 10)
-      : null;
-
-    // Also check persisted ticket ID if env not set
-    if (!faysalTicketId) {
-      const { esc } = await readPendingEsc();
-      if (esc.faysal_ticket_id && ticketId == esc.faysal_ticket_id) {
-        await handleFaysalTeachingReply(ticketId, messageText);
-        return res.status(200).json({ ok: true, action: 'faysal_teaching_reply' });
-      }
-    } else if (ticketId == faysalTicketId) {
-      await handleFaysalTeachingReply(ticketId, messageText);
-      return res.status(200).json({ ok: true, action: 'faysal_teaching_reply' });
-    }
-  }
+  // ── Faysal teaching via FAYSAL_TICKET_ID is retired — escalations now use
+  //    internal notes + unassign. Owner phone guard below still handles direct
+  //    teaching messages from Faysal's own phone number.
 
   // Load CRM state
   const { state: crmState, sha } = await readCRMState();
@@ -892,7 +852,7 @@ export default async function handler(req, res) {
       crmState[leadId].viewing_status    = 'escalated';
       crmState[leadId].viewing_requested = viewing;
     }
-    await escalateToFaysal(leadName, leadMeta.listing_title, messageText, ticketId, crmState, leadId, sha);
+    await escalateTicket(leadName, leadMeta.listing_title, reason, ticketId, conversation, crmState, leadId);
     await writeCRMState(crmState, sha);
     return res.status(200).json({ ok: true, action: 'escalated', reason });
   }
@@ -926,28 +886,31 @@ export default async function handler(req, res) {
 
   const sent = await postTrengoMessage(ticketId, reply);
 
-  // Viewing auto-confirmed — post internal note for Afifa to coordinate access
+  // Viewing confirmed — internal note + unassign + pause bot so team takes over
   if (viewing) {
+    const dubaiTime = new Date(Date.now() + DUBAI_OFFSET_HOURS * 3600000)
+      .toISOString().replace('T', ' ').substring(0, 16) + ' Dubai';
     const property = leadMeta?.listing_title || 'the property';
     const note =
-      `📅 VIEWING CONFIRMED BY BOT\n\n` +
+      `📅 VIEWING CONFIRMED — ${dubaiTime}\n\n` +
       `Lead: ${leadName}\n` +
       `Property: ${property}\n` +
       `When: ${viewing}\n\n` +
-      `Bot confirmed with lead. Please coordinate key access and meet the lead.\n\n` +
-      `@afifa340123 @chahana470168 @junaid731578 @farhan731560 @abdul315306\n\n` +
-      `— fäm Bot`;
+      `Bot confirmed with lead. Please coordinate key access and meet the lead.\n— fäm Bot`;
     await postTrengoNote(ticketId, note);
     await attachTrengoLabel(ticketId, LABEL_VIEWING);
+    await unassignTicket(ticketId);
+    crmState[leadId].bot_paused        = true;
     crmState[leadId].viewing_status    = 'confirmed';
     crmState[leadId].viewing_requested = viewing;
-    console.log('[auto-reply] Viewing CONFIRMED + label for', leadName, viewing);
+    console.log('[auto-reply] Viewing CONFIRMED — bot paused, ticket unassigned for', leadName);
   }
 
-  // Attach "Lead" label on first bot reply to this ticket
+  // On first bot reply: attach label + assign ticket to Faysal
   const isFirstBotReply = !leadMeta.bot_reply_count || leadMeta.bot_reply_count === 0;
   if (isFirstBotReply) {
     await attachTrengoLabel(ticketId, LABEL_LEAD);
+    await assignTicket(ticketId, FAYSAL_USER_ID);
   }
 
   crmState[leadId].lead_replied              = true;
