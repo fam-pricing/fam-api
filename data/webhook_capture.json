@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T07:09:26.892Z",
+  "ts": "2026-03-30T07:09:39.685Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216910121",
-    "ticket_id": "938110270",
-    "message": "How much does it cost to rent this apartment for a week? \n( I'd like to clarify that we will be renewing this apartment)",
+    "type": "OUTBOUND",
+    "message_id": "4216910364",
+    "ticket_id": "938119007",
+    "message": "Well noted",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
+    "contact_id": "535111757",
+    "contact_name": "Anna",
+    "contact_identifier": "+971544702152",
     "channel_id": "1304636",
-    "contact_id": "535109506",
-    "contact_name": ".",
-    "contact_identifier": "+79180964800",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
