@@ -654,6 +654,7 @@ RULES — follow exactly, no exceptions:
 - VIEWING: Viewings are available any day 9am-6pm. When a lead asks for a time within these hours, CONFIRM it. Output [VIEWING: property on day at time] on line 1, then a warm confirmation on line 2 (e.g. "12pm today works! Our team will coordinate with you shortly."). Do NOT say "let me check" or "let me confirm" — just confirm it. If the time is outside 9am-6pm, tell them viewings are 9am-6pm and ask for another time.
 - HUMAN/AGENT REQUESTS: If a lead asks to speak to a human, agent, person, or anyone from the team — or asks for a phone number or direct contact — escalate immediately. [ESCALATE: lead requesting human agent] on line 1, then "Of course, let me get someone from the team for you right away." on line 2. No exceptions.
 - Keep it short, warm, human.
+- NEVER REPEAT YOURSELF — CRITICAL: Before writing your reply, read every previous "Bot:" message in the conversation history. Do NOT restate facts, prices, policies, or information you have already told this lead in a prior message. If they ask about something already answered, give a one-line confirmation only. Repeating the same information across multiple messages feels robotic and annoying. Say it once, then move on.
 - NEVER use em dashes (—) or en dashes in your replies. Use commas or periods instead. This is non-negotiable.
 - PRICING MATH — CRITICAL: Prices are seasonal and only locked for 3 months at a time. NEVER calculate or quote a total for more than 3 months. If a lead asks about 4, 6, 12 months or a full year: quote the current monthly rate and say our rates are confirmed in 3-month blocks, you can lock in the current rate for the first 3 months, and for beyond that the rate depends on the season and you will need to confirm with the team. Then [ESCALATE: lead asking about long-term pricing beyond 3 months]. Do NOT multiply price by 12 or 6 or any number above 3.`;
 
@@ -931,6 +932,23 @@ export default async function handler(req, res) {
     }
   } catch (e) {
     console.warn('[auto-reply] Optimistic lock check failed, proceeding anyway:', e?.message);
+  }
+
+  // ── Content similarity guard — never send same reply twice ──────────────────
+  // Compares new reply to last bot message in conversation to catch semantic duplicates
+  // that slip past the message-id dedup (different webhook events, same AI output)
+  const lastBotMsg = conversation
+    .slice().reverse()
+    .find(m => m.type?.toUpperCase() === 'OUTBOUND' && String(m.user_id || m.user?.id || '') === String(FAYSAL_USER_ID) === false);
+  if (lastBotMsg) {
+    const prev = (lastBotMsg.message || lastBotMsg.body || lastBotMsg.text || '').trim().toLowerCase();
+    const curr = reply.trim().toLowerCase();
+    // Strip punctuation/spaces for comparison
+    const normalize = s => s.replace(/[\s\W]+/g, '');
+    if (normalize(curr) === normalize(prev)) {
+      console.log(`[auto-reply] Content similarity guard: reply identical to last bot message — skipping`);
+      return res.status(200).json({ ok: true, skipped: 'Identical reply to last bot message' });
+    }
   }
 
   const sent = await postTrengoMessage(ticketId, reply);
