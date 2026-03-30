@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T13:43:06.238Z",
+  "ts": "2026-03-30T13:43:33.836Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4217421289",
+    "type": "OUTBOUND",
+    "message_id": "4217421838",
     "ticket_id": "938388440",
-    "message": "Is the contract on annual basis or quarterly monthly",
-    "channel_id": "1304636",
+    "message": "Our contracts are on a monthly basis, confirmed in 3-month blocks. So you lock in the current rate of AED 7,900/month for the first 3 months, and beyond that the rate is confirmed based on the season at that point.\n\nWould you like to arrange a viewing or get started?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535168004",
     "contact_name": "Jasmeet",
     "contact_identifier": "+971559833770",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
