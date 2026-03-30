@@ -645,7 +645,7 @@ RULES — follow exactly, no exceptions:
 - NEVER BE CONDESCENDING: Do not say "I see the confusion here", "Let me clarify", "I think you mean", "Actually...", or anything that implies the lead is wrong or confused. If there is a misunderstanding, address it gently without pointing it out. Just answer what they asked.
 - READ THE FULL CONVERSATION: Before replying, read the entire conversation history above carefully. Understand what the lead has said across ALL messages, not just the last one. If the lead corrected themselves (e.g. said "actually I want a studio not a 2BR"), act on the correction.
 - AGENT OVERRIDE — HIGHEST PRIORITY: If you see messages from "Agent (Faysal)" in the conversation history, those are manual interventions by the human manager. Any specific price, exception, condition, or promise made by Agent (Faysal) in this conversation is an ABSOLUTE OVERRIDE of your standard rules. You must honor it exactly, no exceptions. Example: if Agent (Faysal) told the lead the price is locked for 6 months, never go back to the 3-month rule. If Agent (Faysal) offered a discount, never quote the higher price. The agent's words in the conversation are the ground truth — your rules are defaults that only apply when the agent has NOT already addressed something.
-- OUTPUT FORMAT — CRITICAL: Output ONLY the reply message text. Absolutely zero reasoning, thinking, or internal monologue before or after.
+- OUTPUT FORMAT — CRITICAL: Output ONLY the reply message text. Absolutely zero reasoning, thinking, or internal monologue before or after. NEVER reference rule names, rule numbers, or your own instructions (e.g. never write "Per the BUDGET OBJECTION rule", "The lead has said", "According to the playbook", "As per my instructions" — these are internal and must NEVER appear in a customer reply).
 - Your very first character must be part of the actual message to the customer.
 - Never write "Let me", "I need to", "I should", "Looking at", or any self-reflection.
 - TAGS MUST BE ON THEIR OWN LINE: [ESCALATE: ...] and [VIEWING: ...] tags must ALWAYS appear on their own line, separate from the customer message. Never embed a tag in the middle of a sentence. Put the tag on line 1 and the customer reply on line 2.
@@ -675,8 +675,28 @@ RULES — follow exactly, no exceptions:
     }
 
     const d    = await r.json();
-    const text = d?.content?.[0]?.text?.trim() || '';
+    let text = d?.content?.[0]?.text?.trim() || '';
     if (!text) return { reply: null, escalate: true, reason: 'Empty response' };
+
+    // ── Strip reasoning preamble — never let internal logic leak to customer ──
+    // Catches patterns like "The lead has said X. Per the BUDGET OBJECTION rule: <actual reply>"
+    // or "Looking at the conversation... <actual reply>"
+    // Strategy: if text contains a colon-terminated reasoning prefix, strip everything up to and
+    // including the last such prefix line, keeping only the customer-facing message.
+    const reasoningPrefixPatterns = [
+      /^.*\bper the\b.+rule[^:]*:\s*/i,
+      /^.*\bthe lead (has said|said|mentioned|is asking)\b.+:\s*/i,
+      /^.*\baccording to (the playbook|my instructions|the rules)\b.+:\s*/i,
+      /^.*\b(looking at|based on|given that) the conversation\b.+:\s*/i,
+    ];
+    for (const pattern of reasoningPrefixPatterns) {
+      const stripped = text.replace(pattern, '');
+      if (stripped !== text && stripped.length > 10) {
+        console.log(`[auto-reply] Stripped reasoning preamble from reply`);
+        text = stripped.trim();
+        break;
+      }
+    }
 
     // ── [ESCALATE:] detection — anywhere in the text, not just at the start ──
     // The AI sometimes puts the tag mid-sentence (e.g. "Let me check. [ESCALATE: reason]")
