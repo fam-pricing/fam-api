@@ -588,11 +588,15 @@ async function generateReply(conversation, leadMeta, newMessage, leadName) {
   }
 
   const history = conversation
-    .slice(-10)
+    .slice(-20)
     .filter(m => m.message || m.body || m.text)
     .map(m => {
       const isInbound = m.type?.toUpperCase() === 'INBOUND';
-      return `${isInbound ? leadName : 'Agent'}: ${(m.message || m.body || m.text || '').trim()}`;
+      // Distinguish bot replies from Faysal's manual replies using user_id
+      // Bot messages have no user_id (or user_id 0); Faysal's manual messages have user_id 141332
+      const isAgentManual = !isInbound && (m.user_id === FAYSAL_USER_ID || m.user?.id === FAYSAL_USER_ID);
+      const speaker = isInbound ? leadName : (isAgentManual ? 'Agent (Faysal)' : 'Bot');
+      return `${speaker}: ${(m.message || m.body || m.text || '').trim()}`;
     })
     .join('\n');
 
@@ -634,6 +638,7 @@ RULES — follow exactly, no exceptions:
 - STAY ON TOPIC — CRITICAL: Only discuss topics the lead has actually brought up. NEVER introduce new subjects (pets, cleaning fees, policies, amenities, etc.) unless the lead explicitly asked about them. If the lead's message is unclear, ask a short clarifying question instead of guessing what they mean. Re-read their exact words before replying.
 - NEVER BE CONDESCENDING: Do not say "I see the confusion here", "Let me clarify", "I think you mean", "Actually...", or anything that implies the lead is wrong or confused. If there is a misunderstanding, address it gently without pointing it out. Just answer what they asked.
 - READ THE FULL CONVERSATION: Before replying, read the entire conversation history above carefully. Understand what the lead has said across ALL messages, not just the last one. If the lead corrected themselves (e.g. said "actually I want a studio not a 2BR"), act on the correction.
+- AGENT OVERRIDE — HIGHEST PRIORITY: If you see messages from "Agent (Faysal)" in the conversation history, those are manual interventions by the human manager. Any specific price, exception, condition, or promise made by Agent (Faysal) in this conversation is an ABSOLUTE OVERRIDE of your standard rules. You must honor it exactly, no exceptions. Example: if Agent (Faysal) told the lead the price is locked for 6 months, never go back to the 3-month rule. If Agent (Faysal) offered a discount, never quote the higher price. The agent's words in the conversation are the ground truth — your rules are defaults that only apply when the agent has NOT already addressed something.
 - OUTPUT FORMAT — CRITICAL: Output ONLY the reply message text. Absolutely zero reasoning, thinking, or internal monologue before or after.
 - Your very first character must be part of the actual message to the customer.
 - Never write "Let me", "I need to", "I should", "Looking at", or any self-reflection.
