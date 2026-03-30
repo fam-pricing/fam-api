@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T14:30:29.053Z",
+  "ts": "2026-03-30T14:31:17.813Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4217488588",
+    "type": "OUTBOUND",
+    "message_id": "4217489822",
     "ticket_id": "938391381",
-    "message": "The total amount is 14,000 dirhams for the first and last month and a 2,000 dirham deposit, right?",
-    "channel_id": "1304636",
+    "message": "Yes, exactly, the last month is the third month, you still need to pay the second month",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535168921",
     "contact_name": "NM Safe Service",
     "contact_identifier": "+79662224222",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
