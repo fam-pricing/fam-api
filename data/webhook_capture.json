@@ -1,20 +1,19 @@
 {
-  "ts": "2026-03-30T05:10:13.540Z",
+  "ts": "2026-03-30T05:10:35.806Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216837250",
+    "type": "INBOUND",
+    "message_id": "4216837387",
     "ticket_id": "938203298",
-    "message": "Got it, Alex! To get things moving, I just need to confirm a couple of details: your preferred move-in date of April 10, and how long you'd like to stay. Once we have that locked in, we can send over the contract.\n\nShall we go ahead?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Till September 10",
+    "channel_id": "1304636",
     "contact_id": "535128769",
     "contact_name": "Alex",
     "contact_identifier": "+256742443400",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4216837250",
+    "parent_ticket_id": "938203298",
+    "event_type": "INBOUND"
   }
 }
