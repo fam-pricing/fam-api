@@ -1,17 +1,17 @@
 {
-  "ts": "2026-03-30T20:00:12.134Z",
+  "ts": "2026-03-30T20:09:58.911Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4217755814",
-    "ticket_id": "928954540",
-    "message": "Thank you for choosing fäm Living, How likely are you to recommend fäm Living to family and friends? https://csat.trengo.com/?uuid=a16d2133-5c59-4d20-b02b-de7b67ede53c\n",
-    "contact_id": "532773659",
-    "contact_name": "Anna Selena Steblewska",
-    "contact_identifier": "+971562065229",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4217760463",
+    "ticket_id": "938486463",
+    "message": "Good morning, here are the details for the refund of the deposit:Booking reference number   QT-000721-U202-B018Beneficiary  Name   Anna Selena Steblewska Beneficiary Address   Dubai Al Safa park complex Blok A lok.202Beneficiary  Bank Name.  ENBD XIBAN     AE08 0260 0010 15944336 401Account number     101 594 4336 401Swift code      EBILAEADcurrency dirham",
+    "channel_id": "1275470",
+    "contact_id": "535197630",
+    "contact_name": "Anna Selena",
+    "contact_email": "anna.kamelia11@gmail.com",
+    "event_type": "INBOUND"
   }
 }
