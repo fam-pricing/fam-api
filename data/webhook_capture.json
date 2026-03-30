@@ -1,20 +1,19 @@
 {
-  "ts": "2026-03-30T03:01:15.442Z",
+  "ts": "2026-03-30T03:09:44.605Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216808884",
-    "ticket_id": "938149462",
-    "message": "I totally get it, AED 4,000 upfront is a big commitment! 😊 Would it help if we explored the payment plan options, or would you like to schedule a quick viewing first to make sure the studio is right for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "535119508",
-    "contact_name": "Adrisya",
-    "contact_identifier": "+971567967047",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4216810474",
+    "ticket_id": "938053288",
+    "message": "Hello ! Can you make contract for my name also? Alex in hospital, I’ll check in alone .",
+    "channel_id": "585723",
+    "contact_id": "535095154",
+    "contact_name": "Yulia N",
+    "contact_identifier": "+34611269699",
+    "parent_message_id": "4216421441",
+    "parent_ticket_id": "938053288",
+    "event_type": "INBOUND"
   }
 }
