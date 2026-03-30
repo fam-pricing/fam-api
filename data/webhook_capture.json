@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T14:13:43.386Z",
+  "ts": "2026-03-30T14:13:45.289Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4217460822",
+    "type": "OUTBOUND",
+    "message_id": "4217460861",
     "ticket_id": "938399473",
-    "message": "move in date from \n01.04",
-    "channel_id": "1304636",
+    "message": "Hi! Are you looking to rent the Aykon City apartment?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535171407",
     "contact_name": "ZB",
     "contact_identifier": "+971562340440",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
