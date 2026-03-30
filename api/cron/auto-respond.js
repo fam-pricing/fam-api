@@ -281,22 +281,23 @@ export default async function handler(req, res) {
 
       let trengoTicketId = null;
       if (phone) {
-        // 3. Create Trengo ticket (always — one ticket per listing enquiry)
-        trengoTicketId = await createTrengoTicket(phone);
+        // 3. Check dedup BEFORE creating ticket — if phone already messaged in 24h, skip entirely
+        //    Previously: ticket was created first, then template skipped → ghost ticket with no message
+        //    (this caused bug tickets like 938428134: created + assigned but empty, not in CRM)
+        const alreadyMessaged = recentlyMessaged.has(phone) || phonesThisBatch.has(phone);
+        if (alreadyMessaged) {
+          console.log(`[cron] Skipping lead ${lead.id} — phone ${phone} already sent template in last 24h (no ticket created)`);
+        } else {
+          // 4. Create Trengo ticket only when we will actually send a template
+          trengoTicketId = await createTrengoTicket(phone);
 
-        if (trengoTicketId) {
-          // 4. Send pf3 template ONLY if this phone hasn't been messaged in the last 24h
-          //    Prevents Meta 131049 error for leads who enquire on multiple listings at once
-          const alreadyMessaged = recentlyMessaged.has(phone) || phonesThisBatch.has(phone);
-          let templateSent = false;
-          if (!alreadyMessaged) {
-            templateSent = await sendTrengoTemplate(trengoTicketId, listingTitle);
+          if (trengoTicketId) {
+            // 5. Send pf3 template
+            const templateSent = await sendTrengoTemplate(trengoTicketId, listingTitle);
             if (templateSent) phonesThisBatch.add(phone);
-          } else {
-            console.log(`[cron] Skipping template for ${phone} — already sent in last 24h (dedup)`);
+            // 6. Assign to Faysal — bot replies as Faysal, team picks up on escalation
+            await assignTrengoTicket(trengoTicketId, 141332);
           }
-          // 5. Assign to Faysal — bot replies as Faysal, team picks up on escalation
-          await assignTrengoTicket(trengoTicketId, 141332);
         }
       }
 
