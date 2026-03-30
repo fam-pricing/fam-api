@@ -1,20 +1,19 @@
 {
-  "ts": "2026-03-30T05:32:57.992Z",
+  "ts": "2026-03-30T05:33:45.408Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216844902",
+    "type": "INBOUND",
+    "message_id": "4216845133",
     "ticket_id": "938053288",
-    "message": "And please note that there is a pending payment of AED 500 to be completed may I know how you would like to complete the payment",
-    "user_id": "340123",
-    "user_name": "Afifa A.",
-    "user_email": "afifa@famliving.com",
+    "message": "Why 500? We paid all..",
+    "channel_id": "585723",
     "contact_id": "535095154",
     "contact_name": "Yulia N",
     "contact_identifier": "+34611269699",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4216844902",
+    "parent_ticket_id": "938053288",
+    "event_type": "INBOUND"
   }
 }
