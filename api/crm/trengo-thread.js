@@ -210,12 +210,12 @@ export default async function handler(req, res) {
       } : null,
       messages: normalised,
       summary,
-      meta:     {
+      meta:     leadMeta ? {
         phone:          leadMeta.pf_phone,
         listing_title:  leadMeta.listing_title,
         auto_responded: leadMeta.auto_responded,
         responded_at:   leadMeta.auto_responded_at,
-      },
+      } : null,
     });
 
   } catch (err) {
