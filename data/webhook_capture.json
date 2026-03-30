@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T00:02:22.250Z",
+  "ts": "2026-03-30T00:02:22.689Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216774959",
+    "type": "OUTBOUND",
+    "message_id": "4216774957",
     "ticket_id": "938149471",
-    "message": "Or after tomorrow",
-    "channel_id": "1304636",
+    "message": "The floor info is something we're still confirming. As soon as we have it, you'll be the first to know.\n\nIn the meantime, would you like to come see the apartment today? We can arrange a viewing any time between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535119429",
     "contact_name": "Only God",
     "contact_identifier": "+971504133080",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
