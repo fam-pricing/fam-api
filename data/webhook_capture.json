@@ -1,20 +1,19 @@
 {
-  "ts": "2026-03-30T06:15:46.808Z",
+  "ts": "2026-03-30T06:16:59.029Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216866371",
+    "type": "INBOUND",
+    "message_id": "4216867165",
     "ticket_id": "938212670",
-    "message": "May I know at what time you will go",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I will ask the client for the time now. Could you tell me what would be the earliest moment for getting the access code ?",
+    "channel_id": "585723",
     "contact_id": "535130282",
     "contact_name": "Ariean Maleklo",
     "contact_identifier": "+971523718586",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4216865506",
+    "parent_ticket_id": "938212670",
+    "event_type": "INBOUND"
   }
 }
