@@ -596,7 +596,9 @@ async function generateReply(conversation, leadMeta, newMessage, leadName) {
       const isInbound = m.type?.toUpperCase() === 'INBOUND';
       // Distinguish bot replies from Faysal's manual replies using user_id
       // Bot messages have no user_id (or user_id 0); Faysal's manual messages have user_id 141332
-      const isAgentManual = !isInbound && (m.user_id === FAYSAL_USER_ID || m.user?.id === FAYSAL_USER_ID);
+      // Use String() comparison — Trengo sometimes returns user_id as "141332" (string) not 141332 (int)
+      const uid = String(m.user_id || m.user?.id || '');
+      const isAgentManual = !isInbound && uid === String(FAYSAL_USER_ID);
       const speaker = isInbound ? leadName : (isAgentManual ? 'Agent (Faysal)' : 'Bot');
       return `${speaker}: ${(m.message || m.body || m.text || '').trim()}`;
     })
