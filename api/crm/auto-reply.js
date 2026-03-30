@@ -239,12 +239,14 @@ async function assignTicket(ticketId, userId) {
 async function unassignTicket(ticketId) {
   const token = process.env.TRENGO_TOKEN;
   try {
+    // Use 0 (not null) — Trengo ignores null in PATCH requests and leaves the field unchanged
     const r = await fetch(`${TRENGO_API}/tickets/${ticketId}`, {
       method: 'PATCH',
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ assigned_to: null }),
+      body: JSON.stringify({ assigned_to: 0 }),
     });
-    if (!r.ok) console.error('[auto-reply] unassignTicket failed:', r.status, await r.text());
+    const body = await r.text();
+    if (!r.ok) console.error('[auto-reply] unassignTicket failed:', r.status, body);
     else console.log(`[auto-reply] Ticket ${ticketId} unassigned — ready for team pickup`);
   } catch (e) { console.error('[auto-reply] unassignTicket error:', e?.message); }
 }
