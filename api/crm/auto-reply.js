@@ -9,9 +9,10 @@
 //     → Faysal replies on WhatsApp → bot learns, updates playbook, follows up with lead
 //
 // Outside active hours (currently 6 AM – 9 PM Dubai):
-//   INBOUND → bot stays silent, Afifa handles
-//   OUTBOUND from Afifa → bot reads and logs as learning opportunity
-//     → if Afifa replied after a bot escalation, extract Q&A, log for playbook update
+//   INBOUND → bot stays silent, Faysal handles manually
+//   OUTBOUND from Faysal → bot reads and learns from the reply:
+//     → if bot escalated a specific Q, extract Q&A and log to playbook
+//     → if bot is paused (manual takeover), pair lead's last message + Faysal's reply → playbook rule
 //
 // Kill switches:
 //   AUTOBOT_ENABLED env var must = 'true' (global off switch)
@@ -448,29 +449,64 @@ async function handleFaysalTeachingReply(faysalTicketId, answer) {
   await postTrengoMessage(faysalTicketId, confirmMsg);
 }
 
-// ── Learn from Afifa ──────────────────────────────────────────────────────────
+// ── Learn from Faysal's manual replies ───────────────────────────────────────
+// Two learning paths:
+//   1. Escalated Q&A — bot asked a question, Faysal answered it (within 24h)
+//   2. Paused-bot reply — bot is paused, Faysal manually handled the lead;
+//      capture the last lead message + Faysal's reply as a playbook rule
 
-async function learnFromAfifaReply(ticketId, agentMessage, leadMeta, crmState, leadId, sha) {
-  const question = leadMeta.last_escalated_question;
-  if (!question) return;
-
-  const escalatedAt = leadMeta.last_escalated_at ? new Date(leadMeta.last_escalated_at).getTime() : 0;
-  const ageHours    = (Date.now() - escalatedAt) / 3600000;
-  if (ageHours > 24) return;
-
+async function learnFromAgentReply(ticketId, agentMessage, leadMeta, crmState, leadId, sha) {
   const leadName = leadMeta.lead_name || 'Lead';
   const property = leadMeta.listing_title || 'unknown property';
 
-  console.log(`[auto-reply] Learning from Afifa: Q="${question}" → A="${agentMessage}"`);
+  // ── Path 1: Bot escalated a specific question and Faysal answered it ──────
+  const question    = leadMeta.last_escalated_question;
+  const escalatedAt = leadMeta.last_escalated_at ? new Date(leadMeta.last_escalated_at).getTime() : 0;
+  const ageHours    = (Date.now() - escalatedAt) / 3600000;
 
-  const newRule = `- If a lead asks: "${question}" → Reply: "${agentMessage}"\n  (Learned from Afifa handling ${leadName} re ${property})`;
-  await appendToPlaybook(newRule);
+  if (question && ageHours <= 24) {
+    console.log(`[auto-reply] Learning (escalation path): Q="${question}" → A="${agentMessage}"`);
+    const newRule = `- If a lead asks: "${question}" → Reply: "${agentMessage}"\n  (Learned from Faysal handling ${leadName} re ${property})`;
+    await appendToPlaybook(newRule);
+    crmState[leadId].last_escalated_question = null;
+    crmState[leadId].last_learned_at         = new Date().toISOString();
+    await writeCRMState(crmState, sha);
+    await postTrengoNote(ticketId, `✅ Bot learned from your reply and updated the playbook.`);
+    return;
+  }
 
-  crmState[leadId].last_escalated_question = null;
-  crmState[leadId].last_learned_at         = new Date().toISOString();
-  await writeCRMState(crmState, sha);
+  // ── Path 2: Bot is paused — Faysal manually handled the lead ─────────────
+  // Capture: last inbound (lead) message + this outbound (Faysal) reply → Q&A rule
+  if (leadMeta.bot_paused) {
+    // Fetch last few messages to find the most recent lead message
+    let lastLeadMessage = null;
+    try {
+      const messages = await getTrengoMessages(ticketId);
+      const sorted = messages
+        .filter(m => m.body && m.body.trim())
+        .sort((a, b) => new Date(b.created_at || 0) - new Date(a.created_at || 0));
+      const lastInbound = sorted.find(m => (m.type || '').toUpperCase() === 'INBOUND');
+      if (lastInbound) lastLeadMessage = lastInbound.body.trim();
+    } catch (e) {
+      console.warn('[auto-reply] Could not fetch messages for paused-bot learning:', e?.message);
+    }
 
-  await postTrengoNote(ticketId, `✅ Bot learned from your reply and updated the playbook.`);
+    if (!lastLeadMessage) return; // nothing to pair with
+
+    // Skip if Faysal's reply is too short to be a real answer (greeting, ack, etc.)
+    const isRule = await classifyAsRule(agentMessage);
+    if (!isRule) return;
+
+    console.log(`[auto-reply] Learning (paused-bot path): lead said "${lastLeadMessage}" → Faysal replied "${agentMessage}"`);
+    const polishedRule = await rephraseRule(
+      `If a lead says: "${lastLeadMessage}" → Reply: "${agentMessage}"`
+    );
+    const newRule = `- ${polishedRule}\n  (Learned from Faysal handling ${leadName} re ${property})`;
+    await appendToPlaybook(newRule);
+    crmState[leadId].last_learned_at = new Date().toISOString();
+    await writeCRMState(crmState, sha);
+    await postTrengoNote(ticketId, `✅ Bot observed your reply and updated the playbook.`);
+  }
 }
 
 // ── Portfolio lookup ──────────────────────────────────────────────────────────
@@ -758,10 +794,10 @@ export default async function handler(req, res) {
   const leadMeta = crmState[leadId];
   const leadName = leadMeta.lead_name || 'there';
 
-  // ── OUTBOUND (agent reply — Afifa is speaking) ─────────────────────────────
+  // ── OUTBOUND (Faysal manually replied) ─────────────────────────────────────
   if (messageType === 'OUTBOUND' && messageText) {
     crmState[leadId].last_agent_reply_at = new Date().toISOString();
-    await learnFromAfifaReply(ticketId, messageText, leadMeta, crmState, leadId, sha);
+    await learnFromAgentReply(ticketId, messageText, leadMeta, crmState, leadId, sha);
     return res.status(200).json({ ok: true, action: 'agent_reply_tracked' });
   }
 
