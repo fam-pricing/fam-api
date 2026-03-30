@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T07:15:20.196Z",
+  "ts": "2026-03-30T07:15:31.736Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216916732",
+    "type": "OUTBOUND",
+    "message_id": "4216916923",
     "ticket_id": "938110270",
-    "message": "at what time",
-    "channel_id": "1304636",
+    "message": "For booking please send:\r\n\r\n1. a copy of your ID or passport\r\n\r\n2. Email\r\n\r\nWe will send a payment link to confirm your booking",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
     "contact_id": "535109506",
     "contact_name": ".",
     "contact_identifier": "+79180964800",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
