@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T07:14:14.085Z",
+  "ts": "2026-03-30T07:14:42.504Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216915579",
+    "type": "OUTBOUND",
+    "message_id": "4216916081",
     "ticket_id": "938110270",
-    "message": "I would like to know if it is possible to check in today with registration",
-    "channel_id": "1304636",
+    "message": "Yes it is available today we can do check-in",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
     "contact_id": "535109506",
     "contact_name": ".",
     "contact_identifier": "+79180964800",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
