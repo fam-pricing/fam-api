@@ -1,20 +1,17 @@
 {
-  "ts": "2026-03-30T14:14:41.407Z",
+  "ts": "2026-03-30T14:14:53.461Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4217462819",
-    "ticket_id": "938399473",
-    "message": "Got it! So April 1st works as your move-in date. How long are you planning to stay?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "535171407",
-    "contact_name": "ZB",
-    "contact_identifier": "+971562340440",
+    "type": "INBOUND",
+    "message_id": "4217463214",
+    "ticket_id": "938297644",
+    "message": "Yes. I can move in tomorrow",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535147845",
+    "contact_name": "Osama Omar",
+    "contact_identifier": "+971556969743",
+    "event_type": "INBOUND"
   }
 }
