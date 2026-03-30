@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T14:22:31.610Z",
+  "ts": "2026-03-30T14:26:30.519Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4217475643",
-    "ticket_id": "938297644",
-    "message": "Payment completed",
+    "type": "OUTBOUND",
+    "message_id": "4217480874",
+    "ticket_id": "938399473",
+    "message": "We can negotiate the deposit",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535171407",
+    "contact_name": "ZB",
+    "contact_identifier": "+971562340440",
     "channel_id": "1304636",
-    "contact_id": "535147845",
-    "contact_name": "Osama Omar",
-    "contact_identifier": "+971556969743",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
