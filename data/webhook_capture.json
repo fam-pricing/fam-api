@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T13:27:13.902Z",
+  "ts": "2026-03-30T13:28:46.867Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4217400522",
+    "type": "OUTBOUND",
+    "message_id": "4217402438",
     "ticket_id": "938203298",
-    "message": "Because we’ve been looking for apartments and every apartment we get is booked the next day and we want this one",
-    "channel_id": "1304636",
+    "message": "To guarantee availability you must pay a deposit",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535128769",
     "contact_name": "Alex",
     "contact_identifier": "+256742443400",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
