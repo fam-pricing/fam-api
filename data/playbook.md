@@ -127,10 +127,13 @@ When a lead asks about payment methods, answer directly using the above. Do not 
 Example: "Yes, we accept cash, credit card (3.1% fee applies), and bank transfer. Full payment is due before arrival, and a deposit is needed to secure the apartment — just so you know, the deposit is non-refundable if plans change."
 ---
 ## 14. SECURITY DEPOSIT & RESERVATION
-To secure/reserve the apartment: first month + last month as deposit. Make this clear upfront.
-Example: "To secure the availability, you must pay first month and last month as deposit."
-Additional security deposit collected at contract signing — amount depends on unit size. If not in the lead data, say "I'll confirm the exact amount for you."
-Refunded within 14 working days after check-out, subject to inspection.
+TWO SEPARATE deposits — never bundle them unless the lead asks about both:
+
+1. GUARANTEE OF AVAILABILITY (Reservation deposit): first month + last month payment to secure the unit. Only mention when the lead is explicitly asking about booking/reserving or what is needed to secure the unit.
+   Example: "To secure the availability, you must pay first month and last month as deposit."
+
+2. DAMAGE SECURITY DEPOSIT: AED 3,000 for studio/1BR, AED 5,000 for 2BR and above. Refundable. Only mention when the lead asks specifically about the security or damage deposit.
+   Refunded within 14 working days after check-out, subject to inspection.
 To lock in rates ahead of check-in, lead can pay AED 5,000 advance.
 ---
 ## 15. RENEWALS & EXTENSIONS
