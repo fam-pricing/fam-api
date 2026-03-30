@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T10:51:58.114Z",
+  "ts": "2026-03-30T10:54:24.944Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4217191324",
+    "type": "OUTBOUND",
+    "message_id": "4217194494",
     "ticket_id": "938306399",
-    "message": "Yes",
-    "channel_id": "585723",
+    "message": "Please complete the check in form to register you in the building",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535150072",
     "contact_name": "Rizwan Saiyed",
     "contact_identifier": "+971567711200",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
