@@ -226,12 +226,14 @@ const FAYSAL_USER_ID = 141332;
 async function assignTicket(ticketId, userId) {
   const token = process.env.TRENGO_TOKEN;
   try {
-    const r = await fetch(`${TRENGO_API}/tickets/${ticketId}`, {
-      method: 'PATCH',
+    // Use the /assign sub-endpoint with type:'user' — same as auto-respond cron (confirmed working)
+    const r = await fetch(`${TRENGO_API}/tickets/${ticketId}/assign`, {
+      method: 'POST',
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ assigned_to: userId }),
+      body: JSON.stringify({ ticket_id: ticketId, user_id: userId, note: null, type: 'user' }),
     });
-    if (!r.ok) console.error('[auto-reply] assignTicket failed:', r.status, await r.text());
+    const body = await r.text();
+    if (!r.ok) console.error('[auto-reply] assignTicket failed:', r.status, body);
     else console.log(`[auto-reply] Ticket ${ticketId} assigned to user ${userId}`);
   } catch (e) { console.error('[auto-reply] assignTicket error:', e?.message); }
 }
@@ -239,11 +241,11 @@ async function assignTicket(ticketId, userId) {
 async function unassignTicket(ticketId) {
   const token = process.env.TRENGO_TOKEN;
   try {
-    // Use 0 (not null) — Trengo ignores null in PATCH requests and leaves the field unchanged
-    const r = await fetch(`${TRENGO_API}/tickets/${ticketId}`, {
-      method: 'PATCH',
+    // Use type:'none' on the /assign endpoint to clear the assignee
+    const r = await fetch(`${TRENGO_API}/tickets/${ticketId}/assign`, {
+      method: 'POST',
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ assigned_to: 0 }),
+      body: JSON.stringify({ ticket_id: ticketId, user_id: null, note: null, type: 'none' }),
     });
     const body = await r.text();
     if (!r.ok) console.error('[auto-reply] unassignTicket failed:', r.status, body);
@@ -939,7 +941,9 @@ export default async function handler(req, res) {
       `Lead: ${leadName}\n` +
       `Property: ${property}\n` +
       `When: ${viewing}\n\n` +
-      `Bot confirmed with lead. Please coordinate key access and meet the lead.\n— fäm Bot`;
+      `ACTION REQUIRED — Ground Operations team:\n` +
+      `Farhan / Abdul Rehman / Junaid — please coordinate key access and meet the lead at the property.\n\n` +
+      `Ticket is unassigned — please assign yourself and handle.\n— fäm Bot`;
     await postTrengoNote(ticketId, note);
     await attachTrengoLabel(ticketId, LABEL_VIEWING);
     await unassignTicket(ticketId);
