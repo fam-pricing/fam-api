@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T17:29:41.124Z",
+  "ts": "2026-03-30T17:29:59.634Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4217664498",
+    "type": "OUTBOUND",
+    "message_id": "4217664683",
     "ticket_id": "938163087",
-    "message": "There is any deposit ?",
-    "channel_id": "1304636",
+    "message": "The security deposit is AED 3,000, fully refundable after check-out.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535123298",
     "contact_name": "Ismaiel",
     "contact_identifier": "+971504742347",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
