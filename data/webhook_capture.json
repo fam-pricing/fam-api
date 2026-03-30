@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T05:44:08.232Z",
+  "ts": "2026-03-30T05:44:39.653Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216849217",
-    "ticket_id": "852583151",
-    "message": "he sent the email yesterday",
-    "channel_id": "585723",
-    "contact_id": "450960431",
-    "contact_name": "Aya - fam living",
-    "contact_identifier": "+971544311300",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4216849496",
+    "ticket_id": "937865263",
+    "message": "Good Morning, Can I have your email please",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
+    "contact_id": "535052322",
+    "contact_name": "Frank",
+    "contact_identifier": "+971553274493",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
