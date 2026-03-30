@@ -1,20 +1,17 @@
 {
-  "ts": "2026-03-30T07:25:00.794Z",
+  "ts": "2026-03-30T07:27:26.796Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216927550",
+    "type": "INBOUND",
+    "message_id": "4216930201",
     "ticket_id": "938110270",
-    "message": "kindly confirm the booking by proceeding with this link",
-    "user_id": "340123",
-    "user_name": "Afifa A.",
-    "user_email": "afifa@famliving.com",
+    "message": "I don't have a card, I'll come at 3:00 today, is that convenient for you?",
+    "channel_id": "1304636",
     "contact_id": "535109506",
     "contact_name": ".",
     "contact_identifier": "+79180964800",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
