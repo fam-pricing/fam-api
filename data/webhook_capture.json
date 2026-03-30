@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T00:03:42.732Z",
+  "ts": "2026-03-30T00:03:50.784Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216775110",
+    "type": "OUTBOUND",
+    "message_id": "4216775129",
     "ticket_id": "938149471",
-    "message": "Which tower?",
-    "channel_id": "1304636",
+    "message": "Day after tomorrow at 3pm works! Our team will coordinate with you shortly.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535119429",
     "contact_name": "Only God",
     "contact_identifier": "+971504133080",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
