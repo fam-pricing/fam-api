@@ -1,20 +1,17 @@
 {
-  "ts": "2026-03-30T08:01:26.193Z",
+  "ts": "2026-03-30T08:02:04.567Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216969358",
-    "ticket_id": "938212670",
-    "message": "I will arrange the viewing for 5:00 PM. However, please note that we have a reservation scheduled for today. If the guest checks in before 5:00 PM, access may not be possible; otherwise, you may proceed with the viewing.\r\n\r\nI will provide you with an update once I receive confirmation of the guest’s arrival time.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535130282",
-    "contact_name": "Ariean Maleklo",
-    "contact_identifier": "+971523718586",
+    "type": "INBOUND",
+    "message_id": "4216970103",
+    "ticket_id": "929471179",
+    "message": "What time should I come?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "532895218",
+    "contact_name": "Lorenzo Chiari Sanchez",
+    "contact_identifier": "+393311758498",
+    "event_type": "INBOUND"
   }
 }
