@@ -1,20 +1,19 @@
 {
-  "ts": "2026-03-30T05:42:37.715Z",
+  "ts": "2026-03-30T05:42:46.174Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4216848647",
-    "ticket_id": "937678768",
-    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Afifa A., and I will be assisting you.",
-    "user_id": "340123",
-    "user_name": "Afifa A.",
-    "user_email": "afifa@famliving.com",
-    "contact_id": "535009704",
-    "contact_name": "Mohanad Sherif Ahmed",
-    "contact_identifier": "+393206313211",
+    "type": "INBOUND",
+    "message_id": "4216848729",
+    "ticket_id": "907099889",
+    "message": "I have been in touch with Chahana please follow up with her on refund , I’m leaving the country and I need the refund as cash on the 7th which Chahana was already working on",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "526837494",
+    "contact_name": "RITIE KAPOOR",
+    "contact_identifier": "+919971004242",
+    "parent_message_id": "4216847962",
+    "parent_ticket_id": "907099889",
+    "event_type": "INBOUND"
   }
 }
