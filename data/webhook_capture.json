@@ -1,19 +1,20 @@
 {
-  "ts": "2026-03-30T05:33:45.408Z",
+  "ts": "2026-03-30T05:35:56.530Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216845133",
+    "type": "OUTBOUND",
+    "message_id": "4216845986",
     "ticket_id": "938053288",
-    "message": "Why 500? We paid all..",
-    "channel_id": "585723",
+    "message": "Kindly confirm the amount you have paid. As per our bank records, we have received AED 7,000, whereas the contract amount is AED 7,500.",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
     "contact_id": "535095154",
     "contact_name": "Yulia N",
     "contact_identifier": "+34611269699",
-    "parent_message_id": "4216844902",
-    "parent_ticket_id": "938053288",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
