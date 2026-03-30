@@ -317,3 +317,11 @@ On pricing, the rate is AED 7,900/month, all-inclusive. Our rates are confirmed 
 That said, April through September covers the summer months, which are typically our lower-rate period, so it should work in your favour.
 Want to get the ball rolling?"
   (Learned from Afifa handling Alex re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVxAftgMJE.html)
+
+## Learned (2026-03-30)
+- If a lead asks: "lead asking about long-term pricing beyond 3 months, pet approval needed, and specific floor/area requirements to match against available portfolio" → Reply: "Hi Alexander, nice to meet you! Thanks for the detailed brief, that really helps.
+On the property in Dubai Hills, we do have a 1BR at Executive Residences 2 available from April 4. Let me check the floor details and confirm pet approval for a small dog, and I'll come back to you shortly.
+On the 12-month duration, just so you know upfront, our rates are confirmed in 3-month blocks. We can lock in the current rate for the first 3 months, and for beyond that the rate depends on the season, which we'd confirm with you ahead of each new period.
+For Dubai Marina, we also have a 1BR in Elite Residence at AED 7,000/month if that's worth exploring alongside this one.
+What's the best time to connect today?"
+  (Learned from Faysal handling Aleksandr re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-hills-estate-executive-residences-executive-residences-2-69093988.html)
