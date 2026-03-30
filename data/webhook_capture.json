@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T13:45:50.356Z",
+  "ts": "2026-03-30T13:46:15.100Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4217424647",
+    "type": "OUTBOUND",
+    "message_id": "4217425164",
     "ticket_id": "938391381",
-    "message": "Hello. Could you please tell me if the cost of utilities is included in the price? Is there a separate fee for the air conditioner?",
-    "channel_id": "1304636",
+    "message": "Yes, everything is included in the monthly price. Water, electricity, air conditioning, and internet are all covered. Nothing extra to pay on top of that, just the deposit to secure the apartment.\n\nThe 1BR at Orchid Creek Beach is AED 7,000/month, all-inclusive. Would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535168921",
     "contact_name": "NM Safe Service",
     "contact_identifier": "+79662224222",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
