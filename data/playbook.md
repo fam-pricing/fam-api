@@ -310,3 +310,10 @@ As I’d love to rent for 11 months and be a long term tentant with you guys, ju
 For April 10 to July 10, the current rate is AED 7,000/month, all-inclusive. Beyond that, rates depend on the season and we'd confirm them with you ahead of each new period.
 For something as specific as an 11-month plan, let me get the right person to have a proper conversation with you so nothing gets lost. Can I grab your name and the best time to connect?"
   (Learned from Afifa handling H re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-creek-beach-orchid-at-creek-beach-orchid-at-creek-beach-building-1-2PXYbsNlHkW.html)
+
+## Learned (2026-03-30)
+- If a lead asks: "lead asking about long-term pricing beyond 3 months, 6-month stay April 10 to September 10" → Reply: "Hi Alex! Glad it looks good to you.
+On pricing, the rate is AED 7,900/month, all-inclusive. Our rates are confirmed in 3-month blocks, so we can lock that in for the first 3 months from April 10. For the second half (July to September), the rate will depend on the season at that point, which we'd confirm with you ahead of time.
+That said, April through September covers the summer months, which are typically our lower-rate period, so it should work in your favour.
+Want to get the ball rolling?"
+  (Learned from Afifa handling Alex re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVxAftgMJE.html)
