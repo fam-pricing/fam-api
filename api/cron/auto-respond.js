@@ -295,8 +295,8 @@ export default async function handler(req, res) {
           } else {
             console.log(`[cron] Skipping template for ${phone} — already sent in last 24h (dedup)`);
           }
-          // 5. Assign to Afifa regardless
-          await assignTrengoTicket(trengoTicketId, AFIFA_ID);
+          // 5. Assign to Faysal — bot replies as Faysal, team picks up on escalation
+          await assignTrengoTicket(trengoTicketId, 141332);
         }
       }
 
