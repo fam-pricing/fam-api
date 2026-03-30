@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-30T06:52:16.200Z",
+  "ts": "2026-03-30T06:52:16.745Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4216891812",
-    "ticket_id": "813076069",
-    "message": "It’s okay now. Concierge sent someone",
-    "channel_id": "585723",
-    "contact_id": "497066395",
-    "contact_name": "Nash",
-    "contact_identifier": "+9607770017",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4216891800",
+    "ticket_id": "938203298",
+    "message": "we can do so once we proceed with the booking an payment",
+    "user_id": "340123",
+    "user_name": "Afifa A.",
+    "user_email": "afifa@famliving.com",
+    "contact_id": "535128769",
+    "contact_name": "Alex",
+    "contact_identifier": "+256742443400",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
