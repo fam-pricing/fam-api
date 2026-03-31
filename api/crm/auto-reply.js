@@ -1094,6 +1094,18 @@ You MUST call exactly one tool. Choose the right tool based on your confidence l
         const fallback = cleanMsg(confirmation_message) || "Sure! What day and time works for you? Viewings are available any day between 9am and 6pm.";
         return { reply: fallback, escalate: false, reason: null, viewing: null, pendingViewing: null };
       }
+      // Guard: reject times outside 9am-6pm viewing window
+      const hourMatch = (time || '').match(/(\d{1,2})(?:\s*:\s*\d{2})?\s*(am|pm)?/i);
+      if (hourMatch) {
+        let hour = parseInt(hourMatch[1], 10);
+        const ampm = (hourMatch[2] || '').toLowerCase();
+        if (ampm === 'pm' && hour !== 12) hour += 12;
+        if (ampm === 'am' && hour === 12) hour = 0;
+        if (hour < 9 || hour >= 18) {
+          console.log(`[auto-reply] book_viewing rejected (outside 9am-6pm): time="${time}" → ${hour}h`);
+          return { reply: `Viewings are available between 9am and 6pm. Could you pick another time that works for you?`, escalate: false, reason: null, viewing: null, pendingViewing: null };
+        }
+      }
       // Viewing time confirmed — ask for passport/EID before completing booking.
       // Bot stays ACTIVE (not paused) until ID is received.
       // pendingViewing stores the viewing details in CRM; the old `viewing` field is left null
@@ -1243,8 +1255,10 @@ export default async function handler(req, res) {
   // fires after EVERY bot reply → lead messages go unanswered.
   // Fix: compare content. The bot's own echo will have identical text to last_bot_reply_content.
   if (messageType === 'OUTBOUND' && messageText) {
-    const lastBotContent = (leadMeta.last_bot_reply_content || '').trim();
-    const isBotEcho = lastBotContent && messageText.trim() === lastBotContent;
+    // Normalize whitespace/line breaks for comparison — Trengo/WhatsApp may alter formatting
+    const normEcho = s => (s || '').replace(/\s+/g, ' ').trim().toLowerCase();
+    const lastBotContent = normEcho(leadMeta.last_bot_reply_content || '');
+    const isBotEcho = lastBotContent && normEcho(messageText) === lastBotContent;
     if (isBotEcho) {
       console.log(`[auto-reply] Bot echo ignored on ticket ${ticketId} — content matches last bot reply`);
       return res.status(200).json({ ok: true, action: 'bot_echo_ignored' });
@@ -1332,6 +1346,15 @@ export default async function handler(req, res) {
   // Handle BEFORE the pendingInbound stale-webhook check — image messages may not
   // appear as type='INBOUND' in the conversation thread so the check would skip them.
   if (leadMeta.viewing_status === 'pending_id') {
+    // Auto-escalate if pending ID for too long (6 hours) — lead may have lost interest
+    const pendingSince = leadMeta.viewing_pending_since ? new Date(leadMeta.viewing_pending_since).getTime() : 0;
+    const pendingHours = pendingSince ? (Date.now() - pendingSince) / 3600000 : 0;
+    if (pendingHours > 6) {
+      console.warn(`[auto-reply] Viewing ID pending for ${Math.round(pendingHours)}h on ticket ${ticketId} — auto-escalating`);
+      await escalateTicket(leadName, leadMeta.listing_title || null, `Viewing ID pending for ${Math.round(pendingHours)} hours — lead may need follow-up`, ticketId, conversation, crmState, leadId);
+      await writeCRMState(crmState, sha);
+      return res.status(200).json({ ok: true, action: 'pending_id_timeout_escalated' });
+    }
     // Try to get the attachment URL from the webhook payload first,
     // then fall back to scanning the conversation for the latest IMAGE/DOCUMENT message.
     let receivedAttachmentUrl = attachmentUrl || null;
@@ -1521,6 +1544,7 @@ export default async function handler(req, res) {
       const holdingDelay = Math.min(6000, Math.max(2000, reply.length * 30));
       await new Promise(r => setTimeout(r, holdingDelay));
       await postTrengoMessage(ticketId, reply);
+      crmState[leadId].last_bot_reply_content = reply.trim(); // needed for bot-echo detection on OUTBOUND webhook
     }
     // Track viewing status in CRM so we don't re-escalate when lead confirms
     if (viewing) {
@@ -1607,18 +1631,23 @@ export default async function handler(req, res) {
   const contaminationMatch = PRESEND_BLOCK_PATTERNS.find(p => p.test(reply));
   if (contaminationMatch) {
     console.error(`[auto-reply] PRE-SEND GATE BLOCKED reply on ticket ${ticketId} — pattern: ${contaminationMatch}`);
-    await escalateToFaysal(
-      ticketId, leadId,
+    await escalateTicket(
+      leadName,
+      leadMeta.listing_title || null,
       `Pre-send contamination detected (pattern: ${contaminationMatch}) — bot reply blocked before reaching customer`,
-      crmState, leadId, null,
-      leadMeta.listing_title || null
+      ticketId, conversation, crmState, leadId
     );
-    crmState[leadId].bot_paused = true;
     await writeCRMState(crmState, sha);
     return res.status(200).json({ ok: true, action: 'presend_gate_blocked' });
   }
 
   const sent = await postTrengoMessage(ticketId, reply);
+  if (!sent) {
+    console.error(`[auto-reply] postTrengoMessage FAILED on ticket ${ticketId} — escalating instead of going silent`);
+    await escalateTicket(leadName, leadMeta.listing_title || null, 'Message delivery failed — Trengo API error', ticketId, conversation, crmState, leadId);
+    await writeCRMState(crmState, sha);
+    return res.status(200).json({ ok: true, action: 'send_failed_escalated' });
+  }
 
   // Viewing time confirmed — bot asked for ID (pendingViewing), store details + stay active
   // NOTE: viewing is always null when pendingViewing is set (intentional — old block must not fire)
