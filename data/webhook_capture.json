@@ -1,20 +1,19 @@
 {
-  "ts": "2026-03-31T03:56:54.507Z",
+  "ts": "2026-03-31T03:57:47.263Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4217869900",
+    "type": "INBOUND",
+    "message_id": "4217870064",
     "ticket_id": "938533605",
-    "message": "We I do ! Would you like to view ?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "How much monthly?",
+    "channel_id": "1304636",
     "contact_id": "535205709",
     "contact_name": "dubai",
     "contact_identifier": "+84854975678",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4217869425",
+    "parent_ticket_id": "938533605",
+    "event_type": "INBOUND"
   }
 }
