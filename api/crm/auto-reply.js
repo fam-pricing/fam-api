@@ -326,7 +326,7 @@ async function classifyAsRule(message) {
       method: 'POST',
       headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'claude-haiku-4-5-20251001',
+        model: 'claude-sonnet-4-6',
         max_tokens: 10,
         messages: [{
           role: 'user',
@@ -355,7 +355,7 @@ async function rephraseRule(rawMessage) {
       method: 'POST',
       headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'claude-haiku-4-5-20251001',
+        model: 'claude-sonnet-4-6',
         max_tokens: 120,
         messages: [{
           role: 'user',
@@ -589,6 +589,123 @@ function isPortfolioQuestion(text) {
   return /option|propert|listing|available|avail|apartment|studio|\bunit\b|what else|show me|give me|what.*have|have.*what|portfolio|inventory|what do you|do you have/.test(t);
 }
 
+// ── Conversation arc — detect where the lead is in the buying journey ─────────
+// Pure code analysis (zero latency), injected into Claude's system prompt so it
+// adapts tone, detail level, and next-step suggestions to the lead's actual stage.
+
+function detectBuyingStage(conversation, leadMeta) {
+  const inboundMsgs = conversation.filter(m =>
+    (m.type || '').toUpperCase() === 'INBOUND' || m.from === 'lead'
+  );
+  const allText = inboundMsgs
+    .map(m => (m.body || m.text || m.message || '').toLowerCase())
+    .join(' ');
+  const msgCount = inboundMsgs.length;
+
+  // Check from most advanced stage to least
+  if (/pay(ment)?|transfer|card|cash|contract|sign|move.?in|check.?in|when can i|start date|keys/.test(allText))
+    return 'READY_TO_BOOK';
+  if (/budget|too (much|expensive|high)|can('t| not) afford|over.?budget|cheaper|lower price/.test(allText))
+    return 'OBJECTING';
+  if (/view(ing)?|visit|see (the|it)|deposit|document|process|what('s| is) next|book(ing)?|reserve|lock.?in/.test(allText))
+    return 'ENGAGED';
+  if (/price|how much|availab|bed|bedroom|\bbr\b|studio|area|building|option|what.*have|do you have/.test(allText))
+    return 'INTERESTED';
+  if (msgCount <= 2) return 'BROWSING';
+  return 'INTERESTED';
+}
+
+const STAGE_GUIDANCE = {
+  BROWSING:      'LEAD STAGE: BROWSING — This lead just arrived and is saying hello. Be warm and welcoming. Ask what they are looking for or if they have questions about the property. Keep it light, do not dump information.',
+  INTERESTED:    'LEAD STAGE: INTERESTED — This lead is asking about specific properties, prices, or availability. Be precise and informative. Answer their exact question, then offer a viewing. One cross-sell max.',
+  ENGAGED:       'LEAD STAGE: ENGAGED — This lead is discussing viewings, deposits, or the booking process. They are serious. Be efficient, clear, and move them toward locking in. Remove friction.',
+  READY_TO_BOOK: 'LEAD STAGE: READY TO BOOK — This lead is asking about payment, contracts, or move-in. They want to close. Be direct, guide them to the next concrete step (contract, payment, check-in). No fluff.',
+  OBJECTING:     'LEAD STAGE: OBJECTING — This lead has raised budget or price concerns. Do NOT push or repeat the price. Acknowledge their concern, ask for their budget, and offer alternatives that fit.',
+};
+
+// ── Self-critique — fast quality gate before any reply reaches the lead ───────
+// Uses Sonnet for quality. Checks the draft reply against core rules.
+// If it fails, Sonnet rewrites it. Adds ~1-2s per message and catches the
+// mistakes that lose leads: missed questions, repetition, rule leaks, bad tone.
+
+async function critiqueReply(draftReply, conversation, newMessage, leadName) {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (!apiKey || !draftReply) return { pass: true, finalReply: draftReply };
+
+  const recentHistory = conversation.slice(-8).map(m => {
+    const isIn = (m.type || '').toUpperCase() === 'INBOUND' || m.from === 'lead';
+    return `${isIn ? 'Lead' : 'Bot/Agent'}: ${(m.body || m.text || m.message || '').trim().slice(0, 200)}`;
+  }).join('\n');
+
+  const criticPrompt = `You are a quality gate for a WhatsApp sales bot at fäm Living (Dubai holiday homes). Review this draft reply and check every rule below. Be strict.
+
+CONVERSATION:
+${recentHistory}
+
+LEAD'S LATEST MESSAGE(S): "${newMessage}"
+
+BOT'S DRAFT REPLY:
+"${draftReply}"
+
+CHECK EACH RULE:
+1. ANSWERED ALL QUESTIONS — Did the draft address EVERY question or request in the lead's message(s)? If the lead asked multiple things, ALL must be answered.
+2. NO REPETITION — Does the draft restate information already given in previous Bot messages above?
+3. NO RULE LEAKAGE — Does the draft mention internal rule names, instructions, or reasoning? (e.g. "Per the BUDGET rule", "According to my instructions", "The lead has said")
+4. SOUNDS HUMAN — Does it sound like a real person on WhatsApp? Red flags: bullet points, "Certainly!", "I'd be happy to help!", multiple exclamation marks, overly formal tone.
+5. CORRECT PROPERTY — Does the draft reference the correct property? Does it invent details not present in the conversation?
+6. NO UNSOLICITED TOPICS — Does the draft bring up topics the lead never asked about (deposits, cleaning, policies, pets)?
+7. NO EM DASHES — Does the draft contain — or – characters?
+
+If ALL checks pass, respond with exactly one word: APPROVED
+If ANY check fails, respond with FAIL on line 1, then a corrected reply on line 2+ that fixes ONLY the issues. Keep the same intent and warmth.`;
+
+  try {
+    const r = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 400,
+        messages: [{ role: 'user', content: criticPrompt }],
+      }),
+    });
+
+    if (!r.ok) {
+      console.warn('[auto-reply] Critic API error, using original reply');
+      return { pass: true, finalReply: draftReply };
+    }
+
+    const d = await r.json();
+    const out = (d?.content?.[0]?.text || '').trim();
+
+    if (/^APPROVED/i.test(out)) {
+      console.log('[auto-reply] Critic: APPROVED');
+      return { pass: true, finalReply: draftReply };
+    }
+
+    // Extract corrected reply (everything after the FAIL line)
+    const lines = out.split('\n');
+    const failLine = lines[0];
+    const corrected = lines.slice(1).join('\n').trim();
+
+    if (corrected && corrected.length > 10) {
+      console.log(`[auto-reply] Critic: ${failLine} — using revised reply`);
+      // Strip any tags or reasoning the critic might have added
+      const clean = corrected
+        .replace(/\[(?:ESCALAT|VIEWING)[^\]]*\]?/gi, '')
+        .replace(/\s*\u2014\s*/g, ', ')
+        .replace(/\s*\u2013\s*/g, ', ')
+        .trim();
+      return { pass: false, finalReply: clean, reason: failLine };
+    }
+
+    return { pass: true, finalReply: draftReply };
+  } catch (e) {
+    console.warn('[auto-reply] Critic failed, using original:', e?.message);
+    return { pass: true, finalReply: draftReply };
+  }
+}
+
 // ── Claude AI reply ───────────────────────────────────────────────────────────
 
 async function generateReply(conversation, leadMeta, newMessage, leadName) {
@@ -645,9 +762,14 @@ async function generateReply(conversation, leadMeta, newMessage, leadName) {
     viewingContext = `\n\nVIEWING STATUS: A viewing is already confirmed for this lead. No need to discuss viewing scheduling further unless the lead brings it up again to change the time.`;
   }
 
+  // ── Conversation arc: detect lead's buying stage and adapt tone ──
+  const buyingStage = detectBuyingStage(conversation, leadMeta);
+  const stageContext = STAGE_GUIDANCE[buyingStage] || '';
+
   const systemPrompt = `${playbook}${portfolioContext}${viewingContext}
 
 You are a warm, human WhatsApp sales agent for fäm Living. Lead: ${leadName}. Property: ${property}.
+${stageContext}
 
 RULES — follow exactly, no exceptions:
 - The Active fäm Living Portfolio above lists ALL live listings. Use it for any availability/options question. Never escalate for this.
@@ -957,7 +1079,16 @@ export default async function handler(req, res) {
     return res.status(200).json({ ok: true, skipped: 'Agent replied recently in Trengo — bot standing down', dubaiHour });
   }
 
-  const { reply, escalate, reason, viewing } = await generateReply(conversation, leadMeta, messageText, leadName);
+  let { reply, escalate, reason, viewing } = await generateReply(conversation, leadMeta, messageText, leadName);
+
+  // ── Self-critique gate — Sonnet reviews the reply before it reaches the lead ──
+  // Only runs for normal replies (not escalations/viewings — those have their own logic)
+  if (reply && !escalate && !viewing) {
+    const { pass, finalReply, reason: criticReason } = await critiqueReply(reply, conversation, messageText, leadName);
+    if (!pass && finalReply) {
+      reply = finalReply;
+    }
+  }
 
   if (escalate) {
     if (reply) {
