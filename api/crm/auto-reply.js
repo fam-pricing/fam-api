@@ -988,24 +988,42 @@ You MUST call exactly one tool. Choose the right tool based on your confidence l
 
   const userMessage = `Conversation so far:\n${history}\n\nLead just sent: "${newMessage}"`;
 
-  try {
-    const r = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-6',
-        max_tokens: 400,
-        system: systemPrompt,
-        messages: [{ role: 'user', content: userMessage }],
-        tools: TOOLS,
-        tool_choice: { type: 'any' },  // Force exactly one tool call
-      }),
-    });
+  // Retry up to 3 times for transient Anthropic errors (529 overloaded, 503, 500)
+  // before giving up and escalating. Delays: 3s, 6s, 12s.
+  const RETRY_STATUSES = new Set([429, 500, 503, 529]);
+  let r, lastStatus;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    if (attempt > 0) {
+      const delayMs = 3000 * Math.pow(2, attempt - 1); // 3s, 6s
+      console.warn(`[auto-reply] Anthropic ${lastStatus} — retry ${attempt}/2 in ${delayMs}ms`);
+      await new Promise(res => setTimeout(res, delayMs));
+    }
+    try {
+      r = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          model: 'claude-sonnet-4-6',
+          max_tokens: 400,
+          system: systemPrompt,
+          messages: [{ role: 'user', content: userMessage }],
+          tools: TOOLS,
+          tool_choice: { type: 'any' },
+        }),
+      });
+      lastStatus = r.status;
+      if (r.ok || !RETRY_STATUSES.has(r.status)) break; // success or non-retryable error
+    } catch (fetchErr) {
+      console.error('[auto-reply] Anthropic fetch exception:', fetchErr?.message);
+      lastStatus = 0;
+    }
+  }
 
-    if (!r.ok) {
-      const err = await r.text().catch(() => String(r.status));
-      console.error('[auto-reply] Anthropic error:', r.status, err);
-      return { reply: null, escalate: true, reason: `Anthropic ${r.status}` };
+  try {
+    if (!r || !r.ok) {
+      const err = r ? await r.text().catch(() => String(r.status)) : 'fetch failed';
+      console.error('[auto-reply] Anthropic error after retries:', lastStatus, err);
+      return { reply: null, escalate: true, reason: `Anthropic ${lastStatus}` };
     }
 
     const d = await r.json();
@@ -1567,6 +1585,37 @@ export default async function handler(req, res) {
       const dupReplyEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'duplicate_content');
       return metricsResponse(res, 200, { ok: true, skipped: 'Identical reply to last bot message' }, dupReplyEvent);
     }
+  }
+
+  // ── Pre-send contamination gate — NEVER send a contaminated message to a lead ──
+  // Last line of defence before anything reaches the customer.
+  // If the final reply (after cleanMsg + critic) still contains self-critique, internal
+  // reasoning, or any FAIL artifacts — block it hard and escalate instead.
+  const PRESEND_BLOCK_PATTERNS = [
+    /\bFAIL\b/,
+    /wait,?\s+i (used|have|wrote|made)/i,
+    /let me redo/i,
+    /let me re-?write/i,
+    /let me try again/i,
+    /i (need to|should) (fix|correct|revise|rewrite)/i,
+    /per the .+ rule/i,
+    /according to (the|my) (playbook|instructions|rules)/i,
+    /issues fixed/i,
+    /\[ESCALATE/i,
+    /\[VIEWING/i,
+  ];
+  const contaminationMatch = PRESEND_BLOCK_PATTERNS.find(p => p.test(reply));
+  if (contaminationMatch) {
+    console.error(`[auto-reply] PRE-SEND GATE BLOCKED reply on ticket ${ticketId} — pattern: ${contaminationMatch}`);
+    await escalateToFaysal(
+      ticketId, leadId,
+      `Pre-send contamination detected (pattern: ${contaminationMatch}) — bot reply blocked before reaching customer`,
+      crmState, leadId, null,
+      leadMeta.listing_title || null
+    );
+    crmState[leadId].bot_paused = true;
+    await writeCRMState(crmState, sha);
+    return res.status(200).json({ ok: true, action: 'presend_gate_blocked' });
   }
 
   const sent = await postTrengoMessage(ticketId, reply);
