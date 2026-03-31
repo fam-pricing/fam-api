@@ -262,9 +262,13 @@ async function escalateTicket(leadName, property, reason, trengoTicketId, conver
   await unassignTicket(trengoTicketId);
 
   if (crmState && leadId) {
-    crmState[leadId].bot_paused              = true;
-    crmState[leadId].last_escalated_at       = new Date().toISOString();
-    crmState[leadId].last_escalated_question = reason;
+    crmState[leadId].bot_paused        = true;
+    crmState[leadId].last_escalated_at = new Date().toISOString();
+    // Only store as a learnable question if it's a real lead question —
+    // not a system/API error. Error reasons start with "Anthropic", "Claude",
+    // contain HTTP status codes, or come from internal error paths.
+    const isApiError = /anthropic|claude api|overload|529|500|503|timeout|error/i.test(reason);
+    crmState[leadId].last_escalated_question = isApiError ? null : reason;
   }
 
   console.log(`[auto-reply] Ticket ${trengoTicketId} escalated — "${reason}" — bot paused`);
