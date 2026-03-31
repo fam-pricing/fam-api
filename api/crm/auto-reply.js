@@ -659,6 +659,7 @@ RULES — follow exactly, no exceptions:
 - HOUSEKEEPING UPSELL: When a lead is discussing move-in, confirming a viewing, or finalising booking details, you may proactively mention that fäm Living offers a paid housekeeping service (linen change, vacuuming, mopping, trash disposal, amenity replenishment). Quote the price for their unit size: 1BR AED 160/visit, 2BR AED 265/visit, 3BR AED 315/visit, 4BR AED 420/visit, Penthouse/Duplex AED 650/visit. Keep it brief — one sentence at most. Do NOT mention housekeeping if the conversation is purely about pricing, availability, or viewings.
 - NEVER BE CONDESCENDING: Do not say "I see the confusion here", "Let me clarify", "I think you mean", "Actually...", or anything that implies the lead is wrong or confused. If there is a misunderstanding, address it gently without pointing it out. Just answer what they asked.
 - READ THE FULL CONVERSATION: Before replying, read the entire conversation history above carefully. Understand what the lead has said across ALL messages, not just the last one. If the lead corrected themselves (e.g. said "actually I want a studio not a 2BR"), act on the correction.
+- ANSWER ALL PENDING QUESTIONS — CRITICAL: Leads often send several messages in a row before you reply. Look at ALL inbound messages since your last reply and make sure every question or request is addressed in your single response. Never answer the small talk and ignore the real question. If the lead says "How are you" AND "Do you have a 2BR?", you must answer BOTH. Missing a direct question is the fastest way to lose a lead.
 - AGENT OVERRIDE — HIGHEST PRIORITY: If you see messages from "Agent (Faysal)" in the conversation history, those are manual interventions by the human manager. Any specific price, exception, condition, or promise made by Agent (Faysal) in this conversation is an ABSOLUTE OVERRIDE of your standard rules. You must honor it exactly, no exceptions. Example: if Agent (Faysal) told the lead the price is locked for 6 months, never go back to the 3-month rule. If Agent (Faysal) offered a discount, never quote the higher price. The agent's words in the conversation are the ground truth — your rules are defaults that only apply when the agent has NOT already addressed something.
 - OUTPUT FORMAT — CRITICAL: Output ONLY the reply message text. Absolutely zero reasoning, thinking, or internal monologue before or after. NEVER reference rule names, rule numbers, or your own instructions (e.g. never write "Per the BUDGET OBJECTION rule", "The lead has said", "According to the playbook", "As per my instructions" — these are internal and must NEVER appear in a customer reply).
 - Your very first character must be part of the actual message to the customer.
@@ -903,15 +904,6 @@ export default async function handler(req, res) {
     return res.status(200).json({ ok: true, skipped: 'Agent cooldown active' });
   }
 
-  // Per-ticket bot cooldown: 5s blocks truly duplicate simultaneous webhooks only.
-  // message_id deduplication above already handles true duplicates; this just covers
-  // the rare case Trengo fires the same event twice within seconds with no message_id.
-  const lastBotAt = leadMeta.last_bot_reply_at ? new Date(leadMeta.last_bot_reply_at).getTime() : 0;
-  const BOT_COOLDOWN_MS = 5 * 1000; // 5 seconds — deduplicates same-second duplicates without blocking real follow-ups
-  if (Date.now() - lastBotAt < BOT_COOLDOWN_MS) {
-    return res.status(200).json({ ok: true, skipped: 'Bot cooldown — replied too recently' });
-  }
-
   // Message-ID deduplication: skip if this exact message was already processed
   // (prevents double-reply when Trengo fires the same webhook twice)
   const incomingMsgId = String(body?.message_id || body?.message?.id || '');
@@ -920,6 +912,35 @@ export default async function handler(req, res) {
   }
 
   const conversation = await getTrengoMessages(ticketId);
+
+  // ── Smart pending-message check (replaces flat 5s cooldown) ───────────────
+  // Look at the live conversation thread. If there are inbound messages that arrived
+  // AFTER the bot's last reply → those are genuinely unanswered → always process.
+  // If there are NO such messages → this webhook is stale (Trengo re-fired for a
+  // message the bot already answered) → skip safely.
+  // This ensures the bot never misses a message when the lead sends multiple questions
+  // in rapid succession, and still avoids duplicate replies.
+  const lastBotReplyTime = leadMeta.last_bot_reply_at
+    ? new Date(leadMeta.last_bot_reply_at).getTime()
+    : 0;
+
+  const pendingInbound = conversation.filter(m => {
+    const isInbound = (m.type || '').toUpperCase() === 'INBOUND' || m.from === 'lead';
+    if (!isInbound) return false;
+    const msgTime = m.created_at
+      ? (typeof m.created_at === 'number' ? m.created_at * 1000 : new Date(m.created_at).getTime())
+      : Date.now();
+    return msgTime > lastBotReplyTime;
+  });
+
+  if (pendingInbound.length === 0) {
+    console.log(`[auto-reply] No unanswered inbound messages on ticket ${ticketId} — stale webhook, skipping`);
+    return res.status(200).json({ ok: true, skipped: 'No pending unanswered messages — stale webhook' });
+  }
+
+  if (pendingInbound.length > 1) {
+    console.log(`[auto-reply] ${pendingInbound.length} unanswered messages on ticket ${ticketId} — bot will address all`);
+  }
 
   // Short read pause + random jitter to desynchronize concurrent webhooks
   const jitter = Math.floor(Math.random() * READ_DELAY_JITTER);
