@@ -108,7 +108,7 @@ Monthly payment: Yes, rent is always paid monthly.
 ## 15. SECURITY DEPOSIT & RESERVATION
 TWO SEPARATE deposits — never bundle them unless the lead asks about both:
 1. GUARANTEE OF AVAILABILITY (Reservation deposit): first month + last month payment to secure the unit. Only mention when the lead is explicitly asking about booking/reserving or what is needed to secure the unit. Say: "To secure the availability, you must pay first month and last month as deposit."
-2. DAMAGE SECURITY DEPOSIT: AED 3,000 for studio/1BR, AED 5,000 for 2BR and above. Refundable within 14 working days after check-out, subject to inspection. Only mention when the lead asks specifically about the security or damage deposit.
+2. DAMAGE SECURITY DEPOSIT (refundable): AED 1,000 for studio, AED 1,500 for 1 bedroom, AED 2,000 for 2 bedrooms and above. Refundable within 14 working days after check-out, subject to inspection. Only mention when the lead asks specifically about the security or damage deposit.
 To lock in rates ahead of check-in, lead can pay AED 5,000 advance.
 ---
 ## 16. RENEWALS & EXTENSIONS
