@@ -1,20 +1,19 @@
 {
-  "ts": "2026-03-31T11:04:12.377Z",
+  "ts": "2026-03-31T11:04:14.891Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4218222247",
+    "type": "INBOUND",
+    "message_id": "4218222268",
     "ticket_id": "938650790",
-    "message": "Hi Roman! Yes, 1 to 2 months works perfectly. Just let me know your preferred move-in date and we can get everything sorted.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Just 6,5k per months and that’s all?",
+    "channel_id": "1304636",
     "contact_id": "535230088",
     "contact_name": "Roman Wagner",
     "contact_identifier": "+971585412443",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4218221531",
+    "parent_ticket_id": "938650790",
+    "event_type": "INBOUND"
   }
 }
