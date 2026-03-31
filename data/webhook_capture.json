@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-31T10:14:05.988Z",
+  "ts": "2026-03-31T10:21:10.057Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4218168273",
-    "ticket_id": "938616483",
-    "message": "Hello, this isn't correct. We spoke with Muna on the day we moved in and asked this specifically. She said it's fine but to contact you to arrange.\n\nPlease continue as your company has promised. Thanks",
+    "type": "OUTBOUND",
+    "message_id": "4218176187",
+    "ticket_id": "934199428",
+    "message": "Attachment",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "534076190",
+    "contact_name": "Thanvir Aafaq",
+    "contact_identifier": "+971521229233",
     "channel_id": "585723",
-    "contact_id": "535221468",
-    "contact_name": "James T",
-    "contact_identifier": "+447807354561",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
