@@ -690,9 +690,8 @@ If ANY check fails, respond with FAIL on line 1, then a corrected reply on line 
 
     if (corrected && corrected.length > 10) {
       console.log(`[auto-reply] Critic: ${failLine} — using revised reply`);
-      // Strip any tags or reasoning the critic might have added
+      // Strip em/en dashes and any leftover tag artefacts from critic output
       const clean = corrected
-        .replace(/\[(?:ESCALAT|VIEWING)[^\]]*\]?/gi, '')
         .replace(/\s*\u2014\s*/g, ', ')
         .replace(/\s*\u2013\s*/g, ', ')
         .trim();
@@ -867,6 +866,73 @@ async function generateReply(conversation, leadMeta, newMessage, leadName) {
   const buyingStage = detectBuyingStage(conversation, leadMeta);
   const stageContext = STAGE_GUIDANCE[buyingStage] || '';
 
+  // ── Tool definitions for structured output ──────────────────────────────────
+  // Instead of parsing [ESCALATE:] and [VIEWING:] tags from free text, we define
+  // tools that Claude calls with structured arguments. This eliminates:
+  // - Regex parsing failures, partial tags leaking to customers
+  // - Reasoning preamble leakage (tool input is separate from text)
+  // - Ambiguous tag placement (mid-sentence, missing brackets, etc.)
+  const TOOLS = [
+    {
+      name: 'send_reply',
+      description: 'Send a WhatsApp reply to the lead. Use this for ALL normal replies where you are confident in your answer.',
+      input_schema: {
+        type: 'object',
+        properties: {
+          message: {
+            type: 'string',
+            description: 'The WhatsApp message to send to the lead. Must be warm, human, short. No internal reasoning, no rule references, no em dashes.',
+          },
+        },
+        required: ['message'],
+      },
+    },
+    {
+      name: 'escalate_to_faysal',
+      description: 'Escalate to Faysal (the human manager) when you are NOT confident in the answer, the lead asks to speak to a human, the lead asks about long-term pricing beyond 3 months, or you cannot identify the property. Always include a short holding message for the lead.',
+      input_schema: {
+        type: 'object',
+        properties: {
+          reason: {
+            type: 'string',
+            description: 'Internal reason for escalation (only Faysal sees this). Be specific.',
+          },
+          holding_message: {
+            type: 'string',
+            description: 'Short, warm message to send to the lead while Faysal takes over. E.g. "Let me check that for you and come back shortly!"',
+          },
+        },
+        required: ['reason', 'holding_message'],
+      },
+    },
+    {
+      name: 'book_viewing',
+      description: 'Book a property viewing ONLY when the lead has given a SPECIFIC day AND time (e.g. "tomorrow at 3pm", "Friday 11am"). Viewings are available 9am-6pm any day. Do NOT call this tool if the lead just says "can I see it" without a specific time. Do NOT call with TBD times.',
+      input_schema: {
+        type: 'object',
+        properties: {
+          property: {
+            type: 'string',
+            description: 'The property name/description for the viewing.',
+          },
+          day: {
+            type: 'string',
+            description: 'The day of the viewing (e.g. "today", "tomorrow", "Friday", "April 2").',
+          },
+          time: {
+            type: 'string',
+            description: 'The specific time (e.g. "3pm", "11am", "14:00"). Must be between 9am-6pm.',
+          },
+          confirmation_message: {
+            type: 'string',
+            description: 'Warm confirmation message to the lead, e.g. "3pm tomorrow works! Our team will coordinate with you shortly."',
+          },
+        },
+        required: ['property', 'day', 'time', 'confirmation_message'],
+      },
+    },
+  ];
+
   const systemPrompt = `${playbook}${portfolioContext}${viewingContext}
 
 You are a warm, human WhatsApp sales agent for fäm Living. Lead: ${leadName}. Property: ${property}.
@@ -874,29 +940,24 @@ ${stageContext}
 
 RULES — follow exactly, no exceptions:
 - The Active fäm Living Portfolio above lists ALL live listings. Use it for any availability/options question. Never escalate for this.
-- PORTFOLIO STRICT RULE: ONLY suggest or mention buildings that appear in the Active Portfolio list above with a price. If a building is not in that list, it is NOT currently available — do not mention it, do not suggest it, do not cross-sell it. Aykon City and any other building not in the list must never be suggested.
-- PROPERTY CONTEXT RULE — CRITICAL: The "Property" field above tells you exactly which unit this lead enquired about. Always answer based on that specific property. If the Property field says "unknown property" or you cannot identify it, do NOT guess — instead say "Let me pull up the details for you" and [ESCALATE: cannot identify listing for lead ${leadName}].
-- NO HALLUCINATION — CRITICAL: NEVER invent property details (bed type, building name, price, area) that are not explicitly in the Property field or the Active Portfolio. If you are not 100% certain of a detail, escalate. A wrong answer is worse than escalating.
-- STAY ON TOPIC — CRITICAL: Only discuss topics the lead has actually brought up. NEVER introduce new subjects (pets, cleaning fees, policies, amenities, etc.) unless the lead explicitly asked about them. If the lead's message is unclear, ask a short clarifying question instead of guessing what they mean. Re-read their exact words before replying.
-- DEPOSIT STRICT RULE — CRITICAL: There are TWO separate deposits: (1) DAMAGE SECURITY DEPOSIT — AED 3,000 for studio/1BR, AED 5,000 for 2BR and above. Refundable. (2) GUARANTEE OF AVAILABILITY — first month + last month payment to reserve the unit. These are DIFFERENT topics. If the lead asks ONLY about the security or damage deposit, answer ONLY with the damage deposit amount. Do NOT bring up Guarantee of Availability or first/last month payment unless the lead is explicitly asking about reserving/booking the unit or asks what payments are needed to secure it. NEVER bundle these two together unprompted.
-- HOUSEKEEPING UPSELL: When a lead is discussing move-in, confirming a viewing, or finalising booking details, you may proactively mention that fäm Living offers a paid housekeeping service (linen change, vacuuming, mopping, trash disposal, amenity replenishment). Quote the price for their unit size: 1BR AED 160/visit, 2BR AED 265/visit, 3BR AED 315/visit, 4BR AED 420/visit, Penthouse/Duplex AED 650/visit. Keep it brief — one sentence at most. Do NOT mention housekeeping if the conversation is purely about pricing, availability, or viewings.
-- NEVER BE CONDESCENDING: Do not say "I see the confusion here", "Let me clarify", "I think you mean", "Actually...", or anything that implies the lead is wrong or confused. If there is a misunderstanding, address it gently without pointing it out. Just answer what they asked.
-- READ THE FULL CONVERSATION: Before replying, read the entire conversation history above carefully. Understand what the lead has said across ALL messages, not just the last one. If the lead corrected themselves (e.g. said "actually I want a studio not a 2BR"), act on the correction.
-- ANSWER ALL PENDING QUESTIONS — CRITICAL: Leads often send several messages in a row before you reply. Look at ALL inbound messages since your last reply and make sure every question or request is addressed in your single response. Never answer the small talk and ignore the real question. If the lead says "How are you" AND "Do you have a 2BR?", you must answer BOTH. Missing a direct question is the fastest way to lose a lead.
-- AGENT OVERRIDE — HIGHEST PRIORITY: If you see messages from "Agent (Faysal)" in the conversation history, those are manual interventions by the human manager. Any specific price, exception, condition, or promise made by Agent (Faysal) in this conversation is an ABSOLUTE OVERRIDE of your standard rules. You must honor it exactly, no exceptions. Example: if Agent (Faysal) told the lead the price is locked for 6 months, never go back to the 3-month rule. If Agent (Faysal) offered a discount, never quote the higher price. The agent's words in the conversation are the ground truth — your rules are defaults that only apply when the agent has NOT already addressed something.
-- OUTPUT FORMAT — CRITICAL: Output ONLY the reply message text. Absolutely zero reasoning, thinking, or internal monologue before or after. NEVER reference rule names, rule numbers, or your own instructions (e.g. never write "Per the BUDGET OBJECTION rule", "The lead has said", "According to the playbook", "As per my instructions" — these are internal and must NEVER appear in a customer reply).
-- Your very first character must be part of the actual message to the customer.
-- Never write "Let me", "I need to", "I should", "Looking at", or any self-reflection.
-- TAGS MUST BE ON THEIR OWN LINE: [ESCALATE: ...] and [VIEWING: ...] tags must ALWAYS appear on their own line, separate from the customer message. Never embed a tag in the middle of a sentence. Put the tag on line 1 and the customer reply on line 2.
-- If confident → reply directly.
-- If NOT confident → [ESCALATE: reason] on line 1, short holding message on line 2.
-- VIEWING: Viewings are available any day 9am-6pm. ONLY output [VIEWING: property on day at time] when the lead has given you a SPECIFIC day AND time (e.g. "tomorrow at 3pm", "Friday 11am", "today at 2"). If a lead just says "can we visit", "I'd like a viewing", "can I see it" or similar WITHOUT providing a time → ask them "Sure! What day and time works for you? Viewings are available any day between 9am and 6pm." — NO [VIEWING:] tag. Never output [VIEWING: ... TBD] or any tag with "TBD" or a missing time. When a specific time IS given and it is within 9am-6pm, CONFIRM it: output [VIEWING: property on day at time] on line 1, then a warm confirmation on line 2 (e.g. "12pm today works! Our team will coordinate with you shortly."). Do NOT say "let me check" or "let me confirm" — just confirm it. If the time is outside 9am-6pm, tell them viewings are 9am-6pm and ask for another time.
-- HUMAN/AGENT REQUESTS: If a lead asks to speak to a human, agent, person, or anyone from the team — or asks for a phone number or direct contact — escalate immediately. [ESCALATE: lead requesting human agent] on line 1, then "Of course, let me get someone from the team for you right away." on line 2. No exceptions.
-- Keep it short, warm, human.
-- NEVER REPEAT YOURSELF — CRITICAL: Before writing your reply, read every previous "Bot:" message in the conversation history. Do NOT restate facts, prices, policies, or information you have already told this lead in a prior message. If they ask about something already answered, give a one-line confirmation only. Repeating the same information across multiple messages feels robotic and annoying. Say it once, then move on.
-- BUDGET OBJECTION — CRITICAL: If the lead says ANYTHING suggesting the price or deposit is too high, over budget, too expensive, or they cannot afford it (e.g. "over budget", "too much", "can't afford", "expensive", "tight", "that's a lot", "over of budget") — do NOT repeat the price, do NOT defend it, do NOT ask them to go ahead. Your ONLY response is to acknowledge and ask: "Understood! What budget are you working with? I can check what options we have for you." Then once they give a budget, suggest alternatives from the active portfolio that fit. Never push the same property again after a budget objection.
-- NEVER use em dashes (—) or en dashes in your replies. Use commas or periods instead. This is non-negotiable.
-- PRICING MATH — CRITICAL: Prices are seasonal and only locked for 3 months at a time. NEVER calculate or quote a total for more than 3 months. If a lead asks about 4, 6, 12 months or a full year: quote the current monthly rate and say our rates are confirmed in 3-month blocks, you can lock in the current rate for the first 3 months, and for beyond that the rate depends on the season and you will need to confirm with the team. Then [ESCALATE: lead asking about long-term pricing beyond 3 months]. Do NOT multiply price by 12 or 6 or any number above 3.`;
+- PORTFOLIO STRICT RULE: ONLY suggest or mention buildings that appear in the Active Portfolio list above with a price. If a building is not in that list, it is NOT currently available, do not mention it, do not suggest it, do not cross-sell it. Aykon City and any other building not in the list must never be suggested.
+- PROPERTY CONTEXT RULE: The "Property" field above tells you exactly which unit this lead enquired about. Always answer based on that specific property. If the Property field says "unknown property" or you cannot identify it, do NOT guess. Use escalate_to_faysal with reason "cannot identify listing for lead ${leadName}" and holding message "Let me pull up the details for you."
+- NO HALLUCINATION: NEVER invent property details (bed type, building name, price, area) that are not explicitly in the Property field or the Active Portfolio. If you are not 100% certain of a detail, escalate. A wrong answer is worse than escalating.
+- STAY ON TOPIC: Only discuss topics the lead has actually brought up. NEVER introduce new subjects (pets, cleaning fees, policies, amenities, etc.) unless the lead explicitly asked about them. If the lead's message is unclear, ask a short clarifying question instead of guessing what they mean.
+- DEPOSIT STRICT RULE: There are TWO separate deposits: (1) DAMAGE SECURITY DEPOSIT, AED 3,000 for studio/1BR, AED 5,000 for 2BR and above. Refundable. (2) GUARANTEE OF AVAILABILITY, first month + last month payment to reserve the unit. These are DIFFERENT topics. If the lead asks ONLY about the security or damage deposit, answer ONLY with the damage deposit amount. Do NOT bring up Guarantee of Availability unless the lead is explicitly asking about reserving/booking the unit.
+- HOUSEKEEPING UPSELL: When a lead is discussing move-in, confirming a viewing, or finalising booking details, you may proactively mention that fäm Living offers a paid housekeeping service (linen change, vacuuming, mopping, trash disposal, amenity replenishment). Quote the price for their unit size: 1BR AED 160/visit, 2BR AED 265/visit, 3BR AED 315/visit, 4BR AED 420/visit, Penthouse/Duplex AED 650/visit. Keep it brief. Do NOT mention housekeeping if the conversation is purely about pricing, availability, or viewings.
+- NEVER BE CONDESCENDING: Do not say "I see the confusion here", "Let me clarify", "I think you mean", "Actually...", or anything that implies the lead is wrong or confused.
+- READ THE FULL CONVERSATION: Before replying, read the entire conversation history above carefully. Understand what the lead has said across ALL messages, not just the last one. If the lead corrected themselves, act on the correction.
+- ANSWER ALL PENDING QUESTIONS: Leads often send several messages in a row before you reply. Look at ALL inbound messages since your last reply and make sure every question or request is addressed.
+- AGENT OVERRIDE, HIGHEST PRIORITY: If you see messages from "Agent (Faysal)" in the conversation history, those are manual interventions by the human manager. Any specific price, exception, condition, or promise made by Agent (Faysal) is an ABSOLUTE OVERRIDE of your standard rules. Honor it exactly, no exceptions.
+- Keep it short, warm, human. No em dashes or en dashes, use commas or periods instead.
+- NEVER REPEAT YOURSELF: Do NOT restate facts, prices, policies, or information you have already told this lead in a prior message.
+- BUDGET OBJECTION: If the lead says ANYTHING suggesting the price is too high or over budget, do NOT repeat the price. Acknowledge and ask: "Understood! What budget are you working with? I can check what options we have for you."
+- PRICING MATH: Prices are seasonal and only locked for 3 months. NEVER calculate or quote a total for more than 3 months. If asked about 4+ months, quote the current monthly rate, explain rates are confirmed in 3-month blocks, then escalate with reason "lead asking about long-term pricing beyond 3 months".
+- HUMAN/AGENT REQUESTS: If a lead asks to speak to a human, agent, person, or anyone from the team, or asks for a phone number, escalate immediately with reason "lead requesting human agent" and holding message "Of course, let me get someone from the team for you right away."
+- VIEWING RULES: Viewings are available any day 9am-6pm. ONLY call book_viewing when the lead gives a SPECIFIC day AND time. If they just say "can we visit" without a time, ask them "Sure! What day and time works for you? Viewings are available any day between 9am and 6pm." Do NOT say "let me check" or "let me confirm", just confirm it. If the time is outside 9am-6pm, tell them viewings are 9am-6pm and ask for another time.
+
+You MUST call exactly one tool. Choose the right tool based on your confidence level.`;
 
   const userMessage = `Conversation so far:\n${history}\n\nLead just sent: "${newMessage}"`;
 
@@ -904,7 +965,14 @@ RULES — follow exactly, no exceptions:
     const r = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
       headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'Content-Type': 'application/json' },
-      body: JSON.stringify({ model: 'claude-sonnet-4-6', max_tokens: 300, system: systemPrompt, messages: [{ role: 'user', content: userMessage }] }),
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 400,
+        system: systemPrompt,
+        messages: [{ role: 'user', content: userMessage }],
+        tools: TOOLS,
+        tool_choice: { type: 'any' },  // Force exactly one tool call
+      }),
     });
 
     if (!r.ok) {
@@ -913,71 +981,67 @@ RULES — follow exactly, no exceptions:
       return { reply: null, escalate: true, reason: `Anthropic ${r.status}` };
     }
 
-    const d    = await r.json();
-    let text = d?.content?.[0]?.text?.trim() || '';
-    if (!text) return { reply: null, escalate: true, reason: 'Empty response' };
+    const d = await r.json();
 
-    // ── Strip reasoning preamble — never let internal logic leak to customer ──
-    // Catches patterns like "The lead has said X. Per the BUDGET OBJECTION rule: <actual reply>"
-    // or "Looking at the conversation... <actual reply>"
-    // Strategy: if text contains a colon-terminated reasoning prefix, strip everything up to and
-    // including the last such prefix line, keeping only the customer-facing message.
-    const reasoningPrefixPatterns = [
-      /^.*\bper the\b.+rule[^:]*:\s*/i,
-      /^.*\bthe lead (has said|said|mentioned|is asking)\b.+:\s*/i,
-      /^.*\baccording to (the playbook|my instructions|the rules)\b.+:\s*/i,
-      /^.*\b(looking at|based on|given that) the conversation\b.+:\s*/i,
-    ];
-    for (const pattern of reasoningPrefixPatterns) {
-      const stripped = text.replace(pattern, '');
-      if (stripped !== text && stripped.length > 10) {
-        console.log(`[auto-reply] Stripped reasoning preamble from reply`);
-        text = stripped.trim();
-        break;
+    // ── Parse structured tool_use response ──────────────────────────────────
+    const toolBlock = d?.content?.find(b => b.type === 'tool_use');
+
+    if (!toolBlock) {
+      // Fallback: if Claude returned text instead of a tool call (shouldn't happen with tool_choice: any)
+      const textBlock = d?.content?.find(b => b.type === 'text');
+      const fallbackText = textBlock?.text?.trim();
+      if (fallbackText) {
+        console.warn('[auto-reply] Claude returned text instead of tool call, using as reply');
+        const cleanFallback = fallbackText
+          .replace(/\[(?:ESCALAT|VIEWING)[^\]]*\]?/gi, '')
+          .replace(/\s*\u2014\s*/g, ', ')
+          .replace(/\s*\u2013\s*/g, ', ')
+          .trim();
+        return { reply: cleanFallback, escalate: false, reason: null, viewing: null };
       }
+      return { reply: null, escalate: true, reason: 'No tool call or text in response' };
     }
 
-    // ── [ESCALATE:] detection — anywhere in the text, not just at the start ──
-    // The AI sometimes puts the tag mid-sentence (e.g. "Let me check. [ESCALATE: reason]")
-    // which previously leaked the raw tag to the customer.
-    const escMatch = text.match(/\[ESCALATE:\s*([^\]]*)\]/i);
-    if (escMatch) {
-      const reason     = escMatch[1].trim();
-      const holdingMsg = text.replace(/\[ESCALATE:\s*[^\]]*\]/i, '').trim()
-                              .replace(/\s*\u2014\s*/g, ', ')
-                              // Remove any line that was ONLY the tag
-                              .split('\n').filter(l => l.trim()).join('\n').trim()
-                           || "Let me check that for you and come back shortly!";
-      return { reply: holdingMsg, escalate: true, reason, viewing: null };
+    const toolName = toolBlock.name;
+    const toolArgs = toolBlock.input || {};
+
+    // ── Clean helper: strip em/en dashes from any customer-facing text ──
+    const cleanMsg = (s) => (s || '')
+      .replace(/\s*\u2014\s*/g, ', ')
+      .replace(/\s*\u2013\s*/g, ', ')
+      .trim();
+
+    if (toolName === 'send_reply') {
+      const reply = cleanMsg(toolArgs.message);
+      if (!reply) return { reply: null, escalate: true, reason: 'Empty send_reply message' };
+      return { reply, escalate: false, reason: null, viewing: null };
     }
 
-    // ── [VIEWING:] detection — anywhere in the text ──
-    const viewMatch = text.match(/\[VIEWING:\s*([^\]]*)\]/i);
-    if (viewMatch) {
-      const when = viewMatch[1].trim();
-      // Guard: reject tags with TBD or no time digits — treat as normal reply (no viewing trigger)
-      const hasTBD    = /\bTBD\b/i.test(when);
-      const hasTime   = /\d/.test(when); // must contain at least one digit (hour)
-      if (hasTBD || !hasTime) {
-        console.log(`[auto-reply] VIEWING tag rejected (no confirmed time): "${when}" — stripping and treating as normal reply`);
-        text = text.replace(/\[VIEWING:\s*[^\]]*\]/i, '').trim();
-        // fall through to cleanReply below
-      } else {
-        const replyText = text.replace(/\[VIEWING:\s*[^\]]*\]/i, '').trim()
-                               .replace(/\s*\u2014\s*/g, ', ')
-                               .split('\n').filter(l => l.trim()).join('\n').trim()
-                            || `${when} works! Our team will coordinate with you shortly.`;
-        return { reply: replyText, escalate: false, reason: null, viewing: when };
+    if (toolName === 'escalate_to_faysal') {
+      const reason = (toolArgs.reason || 'Unknown reason').trim();
+      const holding = cleanMsg(toolArgs.holding_message) || "Let me check that for you and come back shortly!";
+      return { reply: holding, escalate: true, reason, viewing: null };
+    }
+
+    if (toolName === 'book_viewing') {
+      const { day, time, confirmation_message } = toolArgs;
+      const viewingProperty = toolArgs.property || property;
+      // Guard: reject if no specific time digits (catches "TBD" or vague times)
+      const hasTime = /\d/.test(time || '');
+      const hasTBD = /\bTBD\b/i.test(time || '') || /\bTBD\b/i.test(day || '');
+      if (!hasTime || hasTBD) {
+        console.log(`[auto-reply] book_viewing rejected (no confirmed time): day="${day}" time="${time}" — treating as normal reply`);
+        const fallback = cleanMsg(confirmation_message) || "Sure! What day and time works for you? Viewings are available any day between 9am and 6pm.";
+        return { reply: fallback, escalate: false, reason: null, viewing: null };
       }
+      const viewing = `${viewingProperty} on ${day} at ${time}`;
+      const reply = cleanMsg(confirmation_message) || `${time} ${day} works! Our team will coordinate with you shortly.`;
+      return { reply, escalate: false, reason: null, viewing };
     }
 
-    // ── Safety net: strip any leftover brackets the AI might output ──
-    // Catches partial tags like "[ESCAL..." or "[VIEW..." that could confuse the lead
-    let cleanReply = text.replace(/\[(?:ESCALAT|VIEWING)[^\]]*\]?/gi, '').trim();
-
-    // Strip em dashes — they're flagged in our style guide
-    cleanReply = cleanReply.replace(/\s*\u2014\s*/g, ', ').replace(/\s*\u2013\s*/g, ', ').trim();
-    return { reply: cleanReply, escalate: false, reason: null, viewing: null };
+    // Unknown tool — treat as escalation for safety
+    console.warn(`[auto-reply] Unknown tool call: ${toolName}`);
+    return { reply: null, escalate: true, reason: `Unknown tool: ${toolName}` };
 
   } catch (err) {
     console.error('[auto-reply] Claude call failed:', err?.message);
