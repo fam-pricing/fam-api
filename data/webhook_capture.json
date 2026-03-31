@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-31T12:01:13.747Z",
+  "ts": "2026-03-31T12:01:55.434Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4218291305",
+    "type": "OUTBOUND",
+    "message_id": "4218292167",
     "ticket_id": "938306399",
-    "message": "Any supermarket nearby?",
-    "channel_id": "585723",
+    "message": "Please contact our Guest Relations agent, Mr. Owais, at +971 52 408 0298, who will be happy to assist you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535150072",
     "contact_name": "Rizwan Saiyed",
     "contact_identifier": "+971567711200",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
