@@ -26,6 +26,7 @@ const PENDING_FILE    = 'data/pending_escalations.json';
 const PLAYBOOK_FILE   = 'data/playbook.md';
 const LISTINGS_FILE   = 'data/listings.json';
 const REF_MAP_FILE    = 'data/ref_mapping.json';
+const REF_URL_FILE    = 'data/ref_url_map.json';
 const METRICS_FILE    = 'data/bot_metrics.json';
 
 const DUBAI_OFFSET_HOURS = 4;
@@ -581,9 +582,34 @@ async function learnFromAgentReply(ticketId, agentMessage, leadMeta, crmState, l
 // ── Portfolio lookup ──────────────────────────────────────────────────────────
 // Reads data/listings.json (refreshed on every Sync) to answer portfolio questions.
 
+// Build a map of "building|beds" → PF listing URL
+async function buildListingUrlMap() {
+  try {
+    const [{ data: refMap }, { data: urlMap }] = await Promise.all([
+      ghRead(REF_MAP_FILE),
+      ghRead(REF_URL_FILE),
+    ]);
+    if (!refMap || !urlMap) return {};
+    const result = {};
+    for (const [ref, info] of Object.entries(refMap)) {
+      const url = urlMap[ref];
+      if (url && info?.building && info?.bed_type) {
+        const key = `${info.building}|${info.bed_type}`.toLowerCase();
+        result[key] = url;
+      }
+    }
+    return result;
+  } catch {
+    return {};
+  }
+}
+
 async function getPortfolioListings(messageText) {
   try {
-    const { data } = await ghRead(LISTINGS_FILE);
+    const [{ data }, urlMap] = await Promise.all([
+      ghRead(LISTINGS_FILE),
+      buildListingUrlMap(),
+    ]);
     if (!data || !Array.isArray(data)) return null;
 
     // Try to detect a specific area from the message
@@ -614,12 +640,15 @@ async function getPortfolioListings(messageText) {
 
     if (!listings.length) return null;
 
-    // Group by area
+    // Group by area, include PF listing URL where available
     const byArea = {};
     listings.forEach(l => {
       const a = l.area || 'Other';
       if (!byArea[a]) byArea[a] = [];
-      byArea[a].push(`${l.beds} in ${l.building} — AED ${Number(l.price).toLocaleString()}/mo`);
+      const key = `${l.building}|${l.beds}`.toLowerCase();
+      const url = urlMap[key];
+      const line = `${l.beds} in ${l.building} — AED ${Number(l.price).toLocaleString()}/mo${url ? ` — Photos/listing: ${url}` : ''}`;
+      byArea[a].push(line);
     });
 
     return Object.entries(byArea)

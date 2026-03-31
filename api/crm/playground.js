@@ -102,9 +102,34 @@ async function ghReadJSON(file) {
   catch { return null; }
 }
 
+// Build a map of "Building|beds" → PF listing URL by joining ref_mapping + ref_url_map
+async function buildListingUrlMap() {
+  try {
+    const [refMap, urlMap] = await Promise.all([
+      ghReadJSON('data/ref_mapping.json'),
+      ghReadJSON('data/ref_url_map.json'),
+    ]);
+    if (!refMap || !urlMap) return {};
+    const result = {};
+    for (const [ref, info] of Object.entries(refMap)) {
+      const url = urlMap[ref];
+      if (url && info?.building && info?.bed_type) {
+        const key = `${info.building}|${info.bed_type}`.toLowerCase();
+        result[key] = url;
+      }
+    }
+    return result;
+  } catch {
+    return {};
+  }
+}
+
 async function getPortfolioListings(messageText) {
   try {
-    const data = await ghReadJSON(LISTINGS_FILE);
+    const [data, urlMap] = await Promise.all([
+      ghReadJSON(LISTINGS_FILE),
+      buildListingUrlMap(),
+    ]);
     if (!data || !Array.isArray(data)) return null;
 
     const msg = messageText.toLowerCase();
@@ -138,7 +163,10 @@ async function getPortfolioListings(messageText) {
     listings.forEach(l => {
       const a = l.area || 'Other';
       if (!byArea[a]) byArea[a] = [];
-      byArea[a].push(`${l.beds} in ${l.building} — AED ${Number(l.price).toLocaleString()}/mo`);
+      const key = `${l.building}|${l.beds}`.toLowerCase();
+      const url = urlMap[key];
+      const line = `${l.beds} in ${l.building} — AED ${Number(l.price).toLocaleString()}/mo${url ? ` — Photos/listing: ${url}` : ''}`;
+      byArea[a].push(line);
     });
 
     return Object.entries(byArea)
