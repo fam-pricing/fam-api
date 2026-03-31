@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-31T12:36:37.138Z",
+  "ts": "2026-03-31T12:36:43.738Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4218330333",
+    "type": "OUTBOUND",
+    "message_id": "4218330448",
     "ticket_id": "925794250",
-    "message": "My contact number is +27837663205",
-    "channel_id": "585723",
+    "message": "Apologies for the delay\r\n\r\nWe are checking on that. Please allow me a moment and I will get back to you",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "532008494",
     "contact_name": "Kenan David",
     "contact_identifier": "+27724580583",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
