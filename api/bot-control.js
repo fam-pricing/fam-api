@@ -1,26 +1,11 @@
 // fäm Living — GET /api/bot-control
 // Trengo Custom Sidebar App — rendered as an iframe in the ticket sidebar.
 // Trengo automatically appends ?ticket_id=XXX&auth_token=YYY to the configured URL.
+//
+// READ-ONLY — renders HTML showing bot status for the ticket. No messages sent anywhere.
+// Uses lib/crm.js for Redis-first CRM reads (falls back to GitHub if Redis unavailable).
 
-const GH_API   = 'https://api.github.com';
-const REPO     = 'fam-pricing/fam-api';
-const CRM_FILE = 'data/crm_state.json';
-
-async function readCRMState() {
-  const ghToken = process.env.GH_TOKEN;
-  if (!ghToken) return { state: {}, sha: null };
-  const r = await fetch(`${GH_API}/repos/${REPO}/contents/${CRM_FILE}`, {
-    headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json' },
-  });
-  if (!r.ok) return { state: {}, sha: null };
-  const d = await r.json();
-  try {
-    return {
-      state: JSON.parse(Buffer.from(d.content.replace(/\n/g, ''), 'base64').toString('utf8')),
-      sha: d.sha,
-    };
-  } catch { return { state: {}, sha: d.sha }; }
-}
+import { readCRMState } from '../lib/crm.js';
 
 export default async function handler(req, res) {
   const { ticket_id, auth_token } = req.query || {};
@@ -34,21 +19,24 @@ export default async function handler(req, res) {
 
   const ticketId = parseInt(ticket_id) || null;
 
-  // Load CRM
+  // Load CRM via Redis-first lib (no GitHub-only reads)
   const { state: crmState } = await readCRMState();
   const leadId   = ticketId
     ? Object.keys(crmState).find(k => String(crmState[k].trengo_ticket_id) === String(ticketId))
     : null;
   const lead     = leadId ? crmState[leadId] : null;
 
-  const leadName   = lead?.lead_name   || 'Unknown';
-  const isPaused   = lead?.bot_paused  || false;
-  const pauseReason= lead?.bot_paused_reason || '';
-  const botReplies = lead?.bot_reply_count   || 0;
+  const leadName    = lead?.lead_name   || 'Unknown';
+  const isPaused    = lead?.bot_paused  || false;
+  const pauseReason = lead?.bot_paused_reason || '';
+  const botReplies  = lead?.bot_reply_count   || 0;
   const lastReplyRaw = lead?.last_bot_reply_at;
-  const lastReply  = lastReplyRaw
+  const lastReply   = lastReplyRaw
     ? new Date(lastReplyRaw).toLocaleString('en-GB', { timeZone: 'Asia/Dubai', day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })
     : 'Never';
+  const qualityLabel = lead?.lead_quality_label || null;
+  const qualityScore = lead?.lead_quality_score || null;
+  const stage        = lead?.buying_stage || null;
 
   const inCRM      = !!lead;
   const statusColor= !inCRM ? '#aaa' : isPaused ? '#e74c3c' : '#27ae60';
@@ -84,6 +72,10 @@ export default async function handler(req, res) {
   .no-crm{background:#f8f9fa;border:1px solid #e9ecef;border-radius:10px;padding:14px;text-align:center;color:#6c757d}
   .no-crm .icon{font-size:24px;margin-bottom:6px}
   .divider{border:none;border-top:1px solid #f0f0f0;margin:12px 0}
+  .quality-hot{color:#e74c3c;font-weight:700}
+  .quality-warm{color:#e67e22;font-weight:700}
+  .quality-cool{color:#3498db;font-weight:600}
+  .quality-cold{color:#95a5a6;font-weight:600}
 </style>
 </head>
 <body>
@@ -100,6 +92,8 @@ ${!inCRM ? `
 <div class="row"><span class="lbl">Lead</span><span class="val">${leadName}</span></div>
 <div class="row"><span class="lbl">Bot replies sent</span><span class="val">${botReplies}</span></div>
 <div class="row"><span class="lbl">Last reply</span><span class="val">${lastReply}</span></div>
+${qualityLabel ? `<div class="row"><span class="lbl">Lead quality</span><span class="val quality-${qualityLabel.toLowerCase()}">${qualityLabel}${qualityScore != null ? ' (' + qualityScore + ')' : ''}</span></div>` : ''}
+${stage ? `<div class="row"><span class="lbl">Stage</span><span class="val">${stage}</span></div>` : ''}
 
 ${isPaused && pauseReason ? `<div class="reason">⏸ ${pauseReason}</div>` : '<hr class="divider">'}
 

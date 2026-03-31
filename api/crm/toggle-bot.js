@@ -1,40 +1,10 @@
 // fäm Living — POST /api/crm/toggle-bot
 // Called by the Trengo sidebar app to pause or resume the bot for a specific ticket.
+//
+// SAFE — only modifies bot_paused flag in CRM state. NO messages sent to guests or leads.
+// Uses lib/crm.js for Redis-first reads/writes (falls back to GitHub if Redis unavailable).
 
-const GH_API   = 'https://api.github.com';
-const REPO     = 'fam-pricing/fam-api';
-const CRM_FILE = 'data/crm_state.json';
-
-async function readCRMState() {
-  const ghToken = process.env.GH_TOKEN;
-  if (!ghToken) return { state: {}, sha: null };
-  const r = await fetch(`${GH_API}/repos/${REPO}/contents/${CRM_FILE}`, {
-    headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json' },
-  });
-  if (!r.ok) return { state: {}, sha: null };
-  const d = await r.json();
-  try {
-    return {
-      state: JSON.parse(Buffer.from(d.content.replace(/\n/g, ''), 'base64').toString('utf8')),
-      sha: d.sha,
-    };
-  } catch { return { state: {}, sha: d.sha }; }
-}
-
-async function writeCRMState(state, sha) {
-  const ghToken = process.env.GH_TOKEN;
-  if (!ghToken) return;
-  const content = Buffer.from(JSON.stringify(state, null, 2)).toString('base64');
-  await fetch(`${GH_API}/repos/${REPO}/contents/${CRM_FILE}`, {
-    method: 'PUT',
-    headers: {
-      Authorization: `Bearer ${ghToken}`,
-      Accept: 'application/vnd.github.v3+json',
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ message: 'CRM: bot toggle via Trengo sidebar [bot]', content, sha }),
-  });
-}
+import { readCRMState, writeCRMState } from '../../lib/crm.js';
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
@@ -57,8 +27,9 @@ export default async function handler(req, res) {
   if (!ticketId) return res.status(400).json({ error: 'Missing ticket_id' });
   if (!['pause', 'resume'].includes(action)) return res.status(400).json({ error: 'action must be pause or resume' });
 
+  // Redis-first CRM read
   const { state, sha } = await readCRMState();
-  if (!state || !sha) return res.status(500).json({ error: 'CRM unavailable' });
+  if (!state) return res.status(500).json({ error: 'CRM unavailable' });
 
   const leadId = Object.keys(state).find(k => String(state[k].trengo_ticket_id) === String(ticketId));
   if (!leadId) return res.status(404).json({ error: 'Lead not found in CRM' });
@@ -77,6 +48,7 @@ export default async function handler(req, res) {
     console.log(`[toggle-bot] Resumed bot for ${leadName} (ticket ${ticketId})`);
   }
 
+  // Redis-first CRM write — sha is null when Redis is active (not needed), used for GitHub fallback
   await writeCRMState(state, sha);
 
   return res.status(200).json({ ok: true, action, lead: leadName, ticketId });
