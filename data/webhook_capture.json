@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-31T04:04:23.948Z",
+  "ts": "2026-03-31T04:04:48.415Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4217871585",
+    "type": "OUTBOUND",
+    "message_id": "4217871808",
     "ticket_id": "938533605",
-    "message": "My name lisa. Nice to meet you",
-    "channel_id": "1304636",
+    "message": "Nice to meet you Lisa",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535205709",
     "contact_name": "dubai",
     "contact_identifier": "+84854975678",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
