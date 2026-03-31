@@ -1037,6 +1037,14 @@ You MUST call exactly one tool. Choose the right tool based on your confidence l
         .replace(/\s*\u2014\s*/g, ', ')
         .replace(/\s*\u2013\s*/g, ', ')
         .trim();
+      // If Claude wrote self-critique inside the message field (e.g. "...\n\nWait, I used an em dash.\n\nFAIL\ncorrected reply"),
+      // extract only the final corrected part — everything after the last FAIL line.
+      const failLines = t.split('\n');
+      const lastFailIdx = failLines.map((l,i) => /^FAIL$/i.test(l.trim()) ? i : -1).filter(i => i !== -1).pop();
+      if (lastFailIdx !== undefined) {
+        t = failLines.slice(lastFailIdx + 1).join('\n').trim();
+        console.warn('[auto-reply] cleanMsg: stripped FAIL self-critique preamble from tool message');
+      }
       // Strip surrounding quotes if Claude wrapped the reply in them (e.g. "Yes, available!")
       if ((t.startsWith('"') && t.endsWith('"')) || (t.startsWith("'") && t.endsWith("'"))) {
         t = t.slice(1, -1).trim();
