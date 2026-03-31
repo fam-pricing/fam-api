@@ -155,6 +155,44 @@ function isPortfolioQuestion(text) {
   return /option|propert|listing|available|avail|apartment|studio|\bunit\b|what else|show me|give me|what.*have|have.*what|portfolio|inventory|what do you|do you have/.test(t);
 }
 
+const TOOLS = [
+  {
+    name: 'send_reply',
+    description: 'Send a WhatsApp reply to the lead. Use this for ALL normal replies where you are confident in your answer.',
+    input_schema: {
+      type: 'object',
+      properties: { message: { type: 'string', description: 'The exact message text to send. Plain text only, no quotes around it, no reasoning.' } },
+      required: ['message'],
+    },
+  },
+  {
+    name: 'escalate_to_faysal',
+    description: 'Escalate to Faysal when you are not confident, lead asks for a human, demands a guaranteed fixed price beyond 3 months, or property is unknown.',
+    input_schema: {
+      type: 'object',
+      properties: {
+        reason: { type: 'string', description: 'Internal reason for escalation (not shown to lead)' },
+        holding_message: { type: 'string', description: 'Short warm message to send the lead while escalating' },
+      },
+      required: ['reason', 'holding_message'],
+    },
+  },
+  {
+    name: 'book_viewing',
+    description: 'Book a viewing ONLY when the lead has given a SPECIFIC day AND a SPECIFIC time. If either is missing, use send_reply to ask.',
+    input_schema: {
+      type: 'object',
+      properties: {
+        property: { type: 'string' },
+        day: { type: 'string', description: 'Specific day e.g. "tomorrow", "Saturday", "Monday"' },
+        time: { type: 'string', description: 'Specific time e.g. "3pm", "10:00 AM". Must contain a digit.' },
+        confirmation_message: { type: 'string', description: 'Confirmation message to send the lead' },
+      },
+      required: ['property', 'day', 'time', 'confirmation_message'],
+    },
+  },
+];
+
 async function generateReply(history, newMessage, leadName, property, playbook) {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) return { reply: null, escalate: true, reason: 'No ANTHROPIC_API_KEY configured' };
@@ -173,36 +211,49 @@ async function generateReply(history, newMessage, leadName, property, playbook) 
 
   const systemPrompt = `${playbook}${portfolioContext}
 
-You are a warm, human WhatsApp sales agent for fäm Living. Lead: ${leadName}. Property: ${property}.
+You are a warm, human WhatsApp sales agent for fäm Living (Dubai holiday homes). Lead name: ${leadName}. Property enquired about: ${property}.
 
-RULES — follow exactly, no exceptions:
-- The Active fäm Living Portfolio above lists ALL live listings. Use it for any availability/options question. Never escalate for this.
-- PORTFOLIO STRICT RULE: ONLY suggest or mention buildings that appear in the Active Portfolio list above with a price. If a building is not in that list, it is NOT currently available — do not mention it, do not suggest it, do not cross-sell it. Aykon City and any other building not in the list must never be suggested.
-- Output ONLY the reply message text. Absolutely zero reasoning, thinking, or internal monologue before or after.
-- Your very first character must be part of the actual message to the customer.
-- Never write "Let me", "I need to", "I should", "Looking at", or any self-reflection.
-- If confident → reply directly.
-- If NOT confident → [ESCALATE: reason] on line 1, short holding message on line 2.
-- If confirming a viewing → [VIEWING: day at time] on line 1, message on line 2.
-- Keep it short, warm, human.
-- NEVER use em dashes (—) or en dashes in your replies. Use commas or short sentences instead. Non-negotiable.
-- PRICING MATH — CRITICAL: Prices are seasonal and only locked for 3 months at a time. NEVER calculate or quote a total for more than 3 months. If a lead asks about 4, 6, 12 months or a full year: quote the current monthly rate and say our rates are confirmed in 3-month blocks, you can lock in the current rate for the first 3 months, and for beyond that the rate depends on the season and you will need to confirm with the team. Then [ESCALATE: lead asking about long-term pricing beyond 3 months]. Do NOT multiply price by 12 or 6 or any number above 3.`;
+RULES — follow every single one, no exceptions:
+- ONLY suggest buildings from the Active Portfolio above. If a building is not listed, it is NOT available. Never mention Aykon City or any unlisted building.
+- UNKNOWN PROPERTY: If the property is listed as "unknown", call escalate_to_faysal immediately. No exceptions.
+- LONG-TERM PRICING: If a lead asks about a stay longer than 3 months, explain the current rate is locked for the first 3 months, and beyond that the rate depends on the season and will be confirmed ahead of each new period. Do NOT multiply the monthly price by months. Only escalate if the lead demands a guaranteed fixed price for the entire period beyond 3 months.
+- NO EMOJIS: Never use any emoji. Zero. Absolute rule.
+- NO EM DASHES: Never use — or – in replies. Use commas or short sentences instead.
+- NO QUOTES: Never wrap your reply in quote marks. Send plain text only.
+- NO REASONING LEAKAGE: Never include any internal thinking, self-critique, "Issues fixed:", rule names, or commentary in the reply. The message field must contain ONLY the text to send the customer.
+- BUDGET OBJECTION: Ask "What budget are you working with?" — do NOT repeat the price.
+- VIEWINGS: Available 9am–6pm any day. Call book_viewing only with a specific day AND time. If no time given, ask for it.
+- HUMAN REQUEST: If lead asks for a human/agent/person, call escalate_to_faysal immediately.
+- DAMAGE DEPOSIT: AED 3,000 for studio/1BR, AED 5,000 for 2BR+. Only mention when asked. Never mention first/last month deposit.
+- ARABIC: If lead writes in Arabic, reply in Arabic.
+- All prices are all-inclusive (water, electricity, internet).
+- You MUST call exactly one tool per response.`;
 
   const userMessage = `Conversation so far:\n${transcript || '(no messages yet)'}\n\nLead just sent: "${newMessage}"`;
+
+  // ── Clean helper: strip em/en dashes + surrounding quotes ─────────────────
+  const cleanMsg = (s) => {
+    let t = (s || '')
+      .replace(/\s*\u2014\s*/g, ', ')
+      .replace(/\s*\u2013\s*/g, ', ')
+      .trim();
+    if ((t.startsWith('"') && t.endsWith('"')) || (t.startsWith("'") && t.endsWith("'"))) {
+      t = t.slice(1, -1).trim();
+    }
+    return t;
+  };
 
   try {
     const r = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
-      headers: {
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01',
-        'Content-Type': 'application/json',
-      },
+      headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'Content-Type': 'application/json' },
       body: JSON.stringify({
         model: 'claude-sonnet-4-6',
-        max_tokens: 300,
+        max_tokens: 400,
         system: systemPrompt,
         messages: [{ role: 'user', content: userMessage }],
+        tools: TOOLS,
+        tool_choice: { type: 'any' },
       }),
     });
 
@@ -211,33 +262,41 @@ RULES — follow exactly, no exceptions:
       return { reply: null, escalate: true, reason: `Anthropic error ${r.status}: ${err}` };
     }
 
-    const d    = await r.json();
-    const text = d?.content?.[0]?.text?.trim() || '';
-    if (!text) return { reply: null, escalate: true, reason: 'Empty AI response' };
+    const d = await r.json();
+    const toolBlock = d?.content?.find(b => b.type === 'tool_use');
 
-    // Strip em dashes and en dashes regardless of model compliance
-    const cleanText = text.replace(/\s*\u2014\s*/g, ', ').replace(/\s*\u2013\s*/g, ', ').trim();
-
-    // Handle [ESCALATE:] — model sometimes puts it on line 1, sometimes line 2
-    const escalateMatch = cleanText.match(/\[ESCALATE:\s*([^\]]+)\]/i);
-    if (escalateMatch) {
-      const reason     = escalateMatch[1].trim();
-      // Strip the [ESCALATE:...] tag (and any [VIEWING:...] tag) from the visible reply
-      const holdingMsg = cleanText
-        .replace(/\[ESCALATE:[^\]]*\]/gi, '')
-        .replace(/\[VIEWING:[^\]]*\]/gi, '')
-        .trim() || 'Let me check that for you and come back shortly!';
-      return { reply: holdingMsg, escalate: true, reason, viewing: null };
+    if (!toolBlock) {
+      const text = d?.content?.find(b => b.type === 'text')?.text?.trim() || '';
+      return { reply: cleanMsg(text) || null, escalate: !text, reason: text ? null : 'No tool or text in response', viewing: null };
     }
 
-    if (cleanText.startsWith('[VIEWING:')) {
-      const lines     = cleanText.split('\n');
-      const when      = lines[0].replace('[VIEWING:', '').replace(']', '').trim();
-      const replyText = lines.slice(1).join('\n').trim() || cleanText;
-      return { reply: replyText, escalate: false, reason: null, viewing: when };
+    const toolName = toolBlock.name;
+    const toolArgs = toolBlock.input || {};
+
+    if (toolName === 'send_reply') {
+      const reply = cleanMsg(toolArgs.message);
+      return { reply: reply || null, escalate: false, reason: null, viewing: null };
     }
 
-    return { reply: cleanText, escalate: false, reason: null, viewing: null };
+    if (toolName === 'escalate_to_faysal') {
+      const holding = cleanMsg(toolArgs.holding_message) || "Let me check that for you and come back shortly!";
+      return { reply: holding, escalate: true, reason: (toolArgs.reason || 'Escalated').trim(), viewing: null };
+    }
+
+    if (toolName === 'book_viewing') {
+      const { day, time, confirmation_message } = toolArgs;
+      const hasTime = /\d/.test(time || '');
+      const hasTBD  = /\bTBD\b/i.test(time || '') || /\bTBD\b/i.test(day || '');
+      if (!hasTime || hasTBD) {
+        const fallback = cleanMsg(confirmation_message) || "Sure! What time works for you? Viewings are available any day between 9am and 6pm.";
+        return { reply: fallback, escalate: false, reason: null, viewing: null };
+      }
+      const viewing = `${toolArgs.property || property} on ${day} at ${time}`;
+      const reply   = cleanMsg(confirmation_message) || `${time} on ${day} works! Our team will be in touch to confirm.`;
+      return { reply, escalate: false, reason: null, viewing };
+    }
+
+    return { reply: "Let me check that for you and come back shortly!", escalate: true, reason: `Unknown tool: ${toolName}`, viewing: null };
 
   } catch (err) {
     return { reply: null, escalate: true, reason: err?.message || 'Unknown error', viewing: null };
