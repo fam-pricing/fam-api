@@ -1,20 +1,17 @@
 {
-  "ts": "2026-03-31T08:21:24.928Z",
+  "ts": "2026-03-31T08:21:41.721Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4218032986",
+    "type": "INBOUND",
+    "message_id": "4218033423",
     "ticket_id": "938297644",
-    "message": "Could you please confirm if it will be just you checking in, or will there be additional guests?\r\n\r\nWe need this information to update the records with the Emaar building management.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Only me",
+    "channel_id": "1304636",
     "contact_id": "535147845",
     "contact_name": "Osama Omar",
     "contact_identifier": "+971556969743",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
