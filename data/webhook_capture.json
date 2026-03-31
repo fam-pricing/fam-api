@@ -1,20 +1,19 @@
 {
-  "ts": "2026-03-31T20:43:18.122Z",
+  "ts": "2026-03-31T20:43:43.284Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4218741854",
+    "type": "INBOUND",
+    "message_id": "4218741990",
     "ticket_id": "938820609",
-    "message": "Hi Pragnyaa! The apartment is available now, not from October. You can move in whenever works for you. Is there a specific date you had in mind?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "?",
+    "channel_id": "1304636",
     "contact_id": "535279370",
     "contact_name": "Pragnyaa",
     "contact_identifier": "+971585025617",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4218741757",
+    "parent_ticket_id": "938820609",
+    "event_type": "INBOUND"
   }
 }
