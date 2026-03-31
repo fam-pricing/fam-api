@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-31T04:33:39.013Z",
+  "ts": "2026-03-31T04:36:24.352Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4217878045",
+    "type": "OUTBOUND",
+    "message_id": "4217878534",
     "ticket_id": "938119049",
-    "message": "Hello, can i visit today ?",
-    "channel_id": "1304636",
+    "message": "Absolutely",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535047005",
     "contact_name": "SPEED'DEPAN",
     "contact_identifier": "+33767176476",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
