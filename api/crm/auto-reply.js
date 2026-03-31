@@ -1205,8 +1205,20 @@ export default async function handler(req, res) {
   const leadMeta = crmState[leadId];
   const leadName = leadMeta.lead_name || 'there';
 
-  // ── OUTBOUND (Faysal manually replied) ─────────────────────────────────────
+  // ── OUTBOUND webhook — must distinguish bot echo from Faysal's manual reply ──
+  // Both the bot and Faysal post under user_id 141332 (bot uses Faysal's Trengo token).
+  // When the bot sends a message, Trengo immediately fires an OUTBOUND webhook for it.
+  // If we treat this as an "agent reply", last_agent_reply_at gets set → 3-min cooldown
+  // fires after EVERY bot reply → lead messages go unanswered.
+  // Fix: compare content. The bot's own echo will have identical text to last_bot_reply_content.
   if (messageType === 'OUTBOUND' && messageText) {
+    const lastBotContent = (leadMeta.last_bot_reply_content || '').trim();
+    const isBotEcho = lastBotContent && messageText.trim() === lastBotContent;
+    if (isBotEcho) {
+      console.log(`[auto-reply] Bot echo ignored on ticket ${ticketId} — content matches last bot reply`);
+      return res.status(200).json({ ok: true, action: 'bot_echo_ignored' });
+    }
+    // Content is different → Faysal typed this manually
     crmState[leadId].last_agent_reply_at = new Date().toISOString();
     await learnFromAgentReply(ticketId, messageText, leadMeta, crmState, leadId, sha);
     return res.status(200).json({ ok: true, action: 'agent_reply_tracked' });
@@ -1352,11 +1364,12 @@ export default async function handler(req, res) {
         await attachTrengoLabel(ticketId, LABEL_VIEWING);
         await unassignTicket(ticketId);
 
-        crmState[leadId].bot_paused         = true;
-        crmState[leadId].viewing_status     = 'id_received_no_coords';
-        crmState[leadId].viewing_id_url     = receivedAttachmentUrl || null;
-        crmState[leadId].last_bot_reply_at  = new Date().toISOString();
-        crmState[leadId].bot_reply_count    = (leadMeta.bot_reply_count || 0) + 1;
+        crmState[leadId].bot_paused              = true;
+        crmState[leadId].viewing_status          = 'id_received_no_coords';
+        crmState[leadId].viewing_id_url          = receivedAttachmentUrl || null;
+        crmState[leadId].last_bot_reply_at       = new Date().toISOString();
+        crmState[leadId].last_bot_reply_content  = holdingMsg.trim();
+        crmState[leadId].bot_reply_count         = (leadMeta.bot_reply_count || 0) + 1;
         if (incomingMsgId) crmState[leadId].last_processed_message_id = incomingMsgId;
         await writeCRMState(crmState, sha);
 
@@ -1387,11 +1400,12 @@ export default async function handler(req, res) {
       await attachTrengoLabel(ticketId, LABEL_VIEWING);
       await unassignTicket(ticketId);
 
-      crmState[leadId].bot_paused         = true;
-      crmState[leadId].viewing_status     = 'id_received';
-      crmState[leadId].viewing_id_url     = receivedAttachmentUrl || null;
-      crmState[leadId].last_bot_reply_at  = new Date().toISOString();
-      crmState[leadId].bot_reply_count    = (leadMeta.bot_reply_count || 0) + 1;
+      crmState[leadId].bot_paused              = true;
+      crmState[leadId].viewing_status          = 'id_received';
+      crmState[leadId].viewing_id_url          = receivedAttachmentUrl || null;
+      crmState[leadId].last_bot_reply_at       = new Date().toISOString();
+      crmState[leadId].last_bot_reply_content  = mapsMsg.trim();
+      crmState[leadId].bot_reply_count         = (leadMeta.bot_reply_count || 0) + 1;
       if (incomingMsgId) crmState[leadId].last_processed_message_id = incomingMsgId;
       await writeCRMState(crmState, sha);
 
@@ -1565,6 +1579,7 @@ export default async function handler(req, res) {
   crmState[leadId].lead_replied              = true;
   crmState[leadId].lead_replied_at           = new Date().toISOString();
   crmState[leadId].last_bot_reply_at         = new Date().toISOString();
+  crmState[leadId].last_bot_reply_content    = reply.trim(); // used to detect bot echo in OUTBOUND webhooks
   crmState[leadId].bot_reply_count           = (leadMeta.bot_reply_count || 0) + 1;
   if (incomingMsgId) crmState[leadId].last_processed_message_id = incomingMsgId;
 
