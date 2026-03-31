@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-31T09:01:12.400Z",
+  "ts": "2026-03-31T09:01:37.523Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4218082179",
+    "type": "OUTBOUND",
+    "message_id": "4218082749",
     "ticket_id": "938607426",
-    "message": "Is it available",
-    "channel_id": "1304636",
+    "message": "Yes, it's available! The 2BR at The Bay in Business Bay is AED 9,000/month, all-inclusive covering water, electricity, and internet.\n\nWould you like to arrange a viewing? We can do any day between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535219555",
     "contact_name": "Jozef Sirak",
     "contact_identifier": "+421902345011",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
