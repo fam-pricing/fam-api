@@ -329,7 +329,8 @@ async function escalateTicket(leadName, property, reason, trengoTicketId, conver
     `Property: ${property || 'unknown'}\n` +
     `Reason: ${reason}\n\n` +
     `Recent conversation:\n${recentMsgs || '(no messages logged)'}\n\n` +
-    `Bot paused. Please pick up this conversation.\n— fäm Bot`;
+    `Bot paused. Please pick up this conversation.\n\n` +
+    `@faysal141332 @afifa340123 @chahana470168 @junaid731578 @abdul315306\n— fäm Bot`;
 
   await postTrengoNote(trengoTicketId, note);
   await unassignTicket(trengoTicketId);
@@ -1466,7 +1467,8 @@ export default async function handler(req, res) {
       `When: ${viewing}\n\n` +
       `ACTION REQUIRED — Ground Operations team:\n` +
       `Farhan / Abdul Rehman / Junaid — please coordinate key access and meet the lead at the property.\n\n` +
-      `Ticket is unassigned — please assign yourself and handle.\n— fäm Bot`;
+      `Ticket is unassigned — please assign yourself and handle.\n\n` +
+      `@faysal141332 @afifa340123 @chahana470168 @junaid731578 @abdul315306\n— fäm Bot`;
     await postTrengoNote(ticketId, note);
     await attachTrengoLabel(ticketId, LABEL_VIEWING);
     await unassignTicket(ticketId);
