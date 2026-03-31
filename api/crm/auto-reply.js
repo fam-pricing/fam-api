@@ -1320,27 +1320,62 @@ export default async function handler(req, res) {
         } catch {}
       }
 
-      // Fetch Google Maps URL from Guesty (non-blocking fallback if Guesty fails)
+      // Fetch Google Maps URL from Guesty — STRICT: only real coordinates, no fallback URLs
       const mapsUrl = await getListingMapsUrl(buildingForMaps);
 
-      // Send maps link to lead (simulated typing delay — human feel)
-      const mapsMsg = mapsUrl
-        ? `Perfect, thank you! Here is the property location: ${mapsUrl}\n\nOur team will be in touch shortly to confirm all details.`
-        : `Perfect, thank you! Our team will be in touch shortly to confirm the address and all viewing details.`;
+      const dubaiTime = new Date(Date.now() + DUBAI_OFFSET_HOURS * 3600000)
+        .toISOString().replace('T', ' ').substring(0, 16) + ' Dubai';
+
+      if (!mapsUrl) {
+        // ── Guesty has no coordinates — escalate, do NOT send maps link to lead ──
+        console.warn(`[auto-reply] No Guesty coords for "${buildingForMaps}" — escalating viewing ID flow`);
+
+        const holdingMsg = `Thank you for sending your ID. Our team will be in touch shortly to confirm the property location and all viewing details.`;
+        const typingMs   = Math.min(6000, Math.max(2000, holdingMsg.length * 35));
+        await new Promise(r => setTimeout(r, typingMs));
+        await postTrengoMessage(ticketId, holdingMsg);
+
+        const escalationNote =
+          `⚠️ VIEWING ID RECEIVED — MAPS ESCALATION\n\n` +
+          `Lead: ${leadName}\n` +
+          `Property: ${rawListing || 'the property'} (building: "${buildingForMaps}")\n` +
+          `Viewing: ${leadMeta.viewing_day || '?'} at ${leadMeta.viewing_time || '?'}\n` +
+          `ID document: ${receivedAttachmentUrl || '(check WhatsApp thread — lead sent image)'}\n` +
+          `Maps URL: NOT AVAILABLE — Guesty has no coordinates for this building.\n\n` +
+          `ACTION REQUIRED — please send the Maps link manually and confirm viewing details.\n\n` +
+          `@faysal141332 @afifa340123 @chahana470168 @junaid731578 @abdul315306\n— fäm Bot`;
+
+        await postTrengoNote(ticketId, escalationNote);
+        await attachTrengoLabel(ticketId, LABEL_VIEWING);
+        await unassignTicket(ticketId);
+
+        crmState[leadId].bot_paused         = true;
+        crmState[leadId].viewing_status     = 'id_received_no_coords';
+        crmState[leadId].viewing_id_url     = receivedAttachmentUrl || null;
+        crmState[leadId].last_bot_reply_at  = new Date().toISOString();
+        crmState[leadId].bot_reply_count    = (leadMeta.bot_reply_count || 0) + 1;
+        if (incomingMsgId) crmState[leadId].last_processed_message_id = incomingMsgId;
+        await writeCRMState(crmState, sha);
+
+        console.log(`[auto-reply] No-coords escalation complete for ${leadName} — bot paused, team notified`);
+        return metricsResponse(res, 200, { ok: true, action: 'viewing_id_no_coords_escalated' },
+          createMetricsEvent(ticketId, leadId, 'viewing_id_no_coords_escalated', 'book_viewing', Date.now() - webhookStartTime));
+      }
+
+      // ── Coordinates found — send Maps link, confirm, hand off to team ──
+      const mapsMsg  = `Perfect, thank you! Here is the property location: ${mapsUrl}\n\nOur team will be in touch shortly to confirm all details.`;
       const typingMs = Math.min(8000, Math.max(2000, mapsMsg.length * 35));
       await new Promise(r => setTimeout(r, typingMs));
       await postTrengoMessage(ticketId, mapsMsg);
 
       // Internal note for team
-      const dubaiTime = new Date(Date.now() + DUBAI_OFFSET_HOURS * 3600000)
-        .toISOString().replace('T', ' ').substring(0, 16) + ' Dubai';
       const viewingNote =
         `📅 VIEWING CONFIRMED — ${dubaiTime}\n\n` +
         `Lead: ${leadName}\n` +
         `Property: ${rawListing || 'the property'}\n` +
         `Viewing: ${leadMeta.viewing_day || '?'} at ${leadMeta.viewing_time || '?'}\n` +
         `ID document: ${receivedAttachmentUrl || '(check WhatsApp thread — lead sent image)'}\n` +
-        (mapsUrl ? `Maps: ${mapsUrl}\n` : '') +
+        `Maps: ${mapsUrl}\n` +
         `\nACTION REQUIRED — Ground Operations:\n` +
         `Farhan / Abdul Rehman / Junaid — coordinate key access and meet the lead at the property.\n\n` +
         `@faysal141332 @afifa340123 @chahana470168 @junaid731578 @abdul315306\n— fäm Bot`;
