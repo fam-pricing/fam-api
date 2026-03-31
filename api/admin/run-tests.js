@@ -1,5 +1,5 @@
 // fäm Living — GET /api/admin/run-tests?password=XXX
-// Runs the 12-scenario bot simulation test suite and returns an HTML report.
+// Runs the 14-scenario bot simulation test suite and returns an HTML report.
 // Password-protected with SYNC_PASSWORD env var.
 // Each scenario calls Claude Sonnet with tool_use and validates the response.
 
@@ -177,6 +177,28 @@ const SCENARIOS = [
     leadName: 'خالد',
     expect: { tool: 'send_reply', arabicResponse: true, mustNotContain: [] },
   },
+  {
+    name: 'No quotes wrapping reply (ticket 938549183 regression)',
+    property: '2BR in Elite Residence',
+    history: 'Bot: The 2BR at Elite Residence is AED 11,000/month all-inclusive.\nLead: Is it available?',
+    newMessage: 'Is it available?',
+    leadName: 'Gabriela',
+    expect: { tool: 'send_reply', noWrappingQuotes: true, mustNotContain: ['Issues fixed', 'FAIL', '**Rule'] },
+    note: 'Message must NOT start/end with quote marks. No critic reasoning leaked.',
+  },
+  {
+    name: 'Critic reasoning must not reach customer',
+    property: 'Studio in MAG 318',
+    history: 'Bot: Studio in MAG 318 is AED 5,500/month.\nLead: Can I pay monthly?',
+    newMessage: 'Can I pay monthly?',
+    leadName: 'Tom',
+    expect: {
+      tool: 'send_reply',
+      noWrappingQuotes: true,
+      mustNotContain: ['Issues fixed', '**Rule', 'FAIL\n', 'Let me re-check', 'Actually, re-reviewing', 'per the BUDGET rule', 'according to my instructions'],
+    },
+    note: 'Must not contain any internal reasoning, self-critique, or rule commentary in the reply.',
+  },
 ];
 
 function buildSystemPrompt(property) {
@@ -262,6 +284,14 @@ function validate(scenario, result) {
   if (expect.arabicResponse && !/[\u0600-\u06FF]/.test(text)) {
     failures.push('Expected Arabic reply but got English');
   }
+  // Quote-wrapping check — message must not start/end with literal quote marks
+  if (expect.noWrappingQuotes || true) {
+    const trimmed = text.trim();
+    if ((trimmed.startsWith('"') && trimmed.endsWith('"')) ||
+        (trimmed.startsWith("'") && trimmed.endsWith("'"))) {
+      failures.push('Reply is wrapped in quote marks — bot is quoting itself instead of sending plain text');
+    }
+  }
   if (tool === 'book_viewing') {
     if (!args.day) failures.push('book_viewing: missing day');
     if (!args.time) failures.push('book_viewing: missing time');
@@ -271,10 +301,20 @@ function validate(scenario, result) {
     if (!args.reason) failures.push('escalation: missing reason');
     if (!args.holding_message) failures.push('escalation: missing holding_message');
   }
-  // Reasoning leakage check
-  const leakPatterns = [/per the .+ rule/i, /according to (the|my) (playbook|instructions)/i, /the lead (has said|said|mentioned)/i];
+  // Reasoning leakage check — catch internal self-critique leaking into customer messages
+  const leakPatterns = [
+    /per the .+ rule/i,
+    /according to (the|my) (playbook|instructions)/i,
+    /the lead (has said|said|mentioned)/i,
+    /issues fixed/i,
+    /\*\*rule\s*\d/i,
+    /let me re-?check/i,
+    /actually,\s*re-?reviewing/i,
+    /re-?reviewing my own/i,
+    /critic(ism|al review)?:/i,
+  ];
   for (const p of leakPatterns) {
-    if (p.test(text)) failures.push(`Reasoning leakage: "${text.slice(0, 60)}..."`);
+    if (p.test(allText)) failures.push(`Reasoning leakage detected: matched pattern <em>${p}</em>`);
   }
   return failures;
 }
