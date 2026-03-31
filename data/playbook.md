@@ -187,3 +187,7 @@ This is a living document. General rules are merged into the sections above. Onl
 2026-03-30 — Auto-responder handling added. (Section 23)
 2026-03-30 — Long-term pricing guidance added. (Section 24)
 2026-03-31 — Major cleanup: removed 140+ lines of lead-specific Q&A pairs, contradictory rules, and duplicates. Merged all genuinely useful rules into main sections. Context window savings: ~60%.
+
+## Learned (2026-03-31)
+- If a lead asks: "Lead is physically at Vida Dubai Mall Tower 2 for a viewing and no one has shown up or contacted them. This is urgent, someone from the team needs to go or call them immediately." → Reply: "Sorry to keep you waiting! I'm getting someone from the team to reach you right now."
+  (Learned from Faysal handling Only God re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-vida-residences-dubai-mall-vida-dubai-mall-tower-2-69498164.html)
