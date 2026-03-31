@@ -1,20 +1,19 @@
 {
-  "ts": "2026-03-31T06:34:13.959Z",
+  "ts": "2026-03-31T06:34:35.904Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4217924730",
+    "type": "INBOUND",
+    "message_id": "4217924936",
     "ticket_id": "938549183",
-    "message": "I have other options mathcing this budget but not in the premium Vida building",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "in address",
+    "channel_id": "1304636",
     "contact_id": "535208348",
     "contact_name": "Gabriela Soler - MBG Corp.",
     "contact_identifier": "+971564186385",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4217924561",
+    "parent_ticket_id": "938549183",
+    "event_type": "INBOUND"
   }
 }
