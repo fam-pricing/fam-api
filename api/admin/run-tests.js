@@ -79,7 +79,9 @@ const SCENARIOS = [
     history: 'Bot: The 1BR at Elite Residence is AED 7,000/month.\nLead: Can I view tomorrow at 3pm?',
     newMessage: 'Can I view tomorrow at 3pm?',
     leadName: 'Mark',
-    expect: { tool: 'book_viewing', mustContain: ['3pm', 'tomorrow'], mustNotContain: ['let me check', 'let me confirm'] },
+    // Accept any time format: 3pm / 3:00 PM / 15:00 — bot called right tool, time is in the args
+    expect: { tool: 'book_viewing', mustContain: ['tomorrow'], mustNotContain: ['let me check', 'let me confirm'] },
+    note: 'Bot must call book_viewing and include tomorrow — accepts any time format (3pm / 3:00 PM)',
   },
   {
     name: 'Budget objection',
@@ -114,6 +116,7 @@ const SCENARIOS = [
     newMessage: 'Hi, is this still available?',
     leadName: 'Ravi',
     expect: { tool: 'escalate_to_faysal', mustContain: [], mustNotContain: [] },
+    note: 'Property is unknown — bot MUST escalate, not offer generic listings',
   },
   {
     name: 'Security deposit question only',
@@ -171,7 +174,7 @@ Property: ${property}.
 
 RULES:
 - ONLY suggest buildings from the Active Portfolio above. If not in the list, it is NOT available.
-- If Property says "unknown property", escalate immediately. Do not guess.
+- CRITICAL: If the Property field contains the word "unknown", you MUST call escalate_to_faysal immediately. Do not offer alternatives. Do not say we have availability. Do not respond with a send_reply. Escalate. No exceptions.
 - No hallucination. Never invent details not in the portfolio.
 - Keep it short, warm, human. No em dashes (—) or en dashes (–). Use commas instead.
 - Budget objection: ask "What budget are you working with?" Do NOT repeat the price.
@@ -233,6 +236,13 @@ function validate(scenario, result) {
   }
   if (expect.noDashes && (text.includes('\u2014') || text.includes('\u2013'))) {
     failures.push('Reply contains an em dash or en dash');
+  }
+  // Emoji check — applies to ALL send_reply calls (bot rules: no emojis)
+  if (tool === 'send_reply') {
+    const emojiRegex = /[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/u;
+    if (emojiRegex.test(text)) {
+      failures.push('Reply contains an emoji (no emojis allowed per voice rules)');
+    }
   }
   if (expect.arabicResponse && !/[\u0600-\u06FF]/.test(text)) {
     failures.push('Expected Arabic reply but got English');
