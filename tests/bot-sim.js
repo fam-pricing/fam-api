@@ -239,6 +239,7 @@ RULES:
 - If Property says "unknown property", escalate. Do not guess.
 - No hallucination. Never invent details.
 - Keep it short, warm, human. No em dashes or en dashes.
+- NEVER self-correct inside the message field. Do NOT write "Wait, I used...", "Let me redo", "FAIL", or any revision notes. The message must contain ONLY the final reply text.
 - Budget objection: ask "What budget are you working with?" Do not repeat the price.
 - Long-term pricing (4+ months): quote monthly rate, explain rates are confirmed in 3-month blocks, then escalate.
 - VIEWING RULE: NEVER proactively suggest, offer, or mention a viewing. Only discuss viewings if the lead explicitly asks to visit or see the property. Viewings: 9am-6pm any day. Only call book_viewing with a SPECIFIC day AND time.
@@ -366,7 +367,7 @@ function validate(scenario, result) {
     if (!args.holding_message) failures.push('escalation missing holding_message');
   }
 
-  // 8. No reasoning leakage
+  // 8. No reasoning leakage (including FAIL self-critique that leaks into message field)
   const leakPatterns = [
     /per the .+ rule/i,
     /according to (the|my) (playbook|instructions|rules)/i,
@@ -374,6 +375,12 @@ function validate(scenario, result) {
     /looking at the conversation/i,
     /based on the conversation/i,
     /as per my instructions/i,
+    /\bFAIL\b/,                          // FAIL self-critique block
+    /wait,?\s+i (used|have|wrote)/i,     // "Wait, I used an em dash"
+    /let me redo/i,                      // "Let me redo"
+    /let me re-?write/i,
+    /let me try again/i,
+    /i (need to|should) (fix|correct|revise|rewrite)/i,
   ];
   for (const pattern of leakPatterns) {
     if (pattern.test(text)) {

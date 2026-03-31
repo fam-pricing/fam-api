@@ -204,6 +204,7 @@ RULES:
 - CRITICAL — NO EMOJIS: Never use any emoji in any reply. No 😊 🏠 🔑 👍 or any other emoji. Zero. This is an absolute rule.
 - No hallucination. Never invent details not in the portfolio.
 - No em dashes (—) or en dashes (–). Use commas instead.
+- NEVER self-correct inside the message field. Do NOT write "Wait, I used...", "Let me redo", "FAIL", or revision notes. The message must contain ONLY the final reply text.
 - Budget objection: ask "What budget are you working with?" Do NOT repeat the price.
 - VIEWING RULES: NEVER proactively suggest, offer, or propose a viewing. Only discuss viewings if the lead explicitly asks to visit, see, or view the property. Viewings: 9am-6pm any day. Only call book_viewing with a SPECIFIC day AND time. If no time given, ask.
 - If lead asks for a human or agent, escalate immediately.
@@ -300,6 +301,12 @@ function validate(scenario, result) {
     /actually,\s*re-?reviewing/i,
     /re-?reviewing my own/i,
     /critic(ism|al review)?:/i,
+    /\bFAIL\b/,                          // FAIL self-critique block
+    /wait,?\s+i (used|have|wrote)/i,     // "Wait, I used an em dash"
+    /let me redo/i,                      // "Let me redo"
+    /let me re-?write/i,
+    /let me try again/i,
+    /i (need to|should) (fix|correct|revise|rewrite)/i,
   ];
   for (const p of leakPatterns) {
     if (p.test(allText)) failures.push(`Reasoning leakage detected: matched pattern <em>${p}</em>`);
