@@ -35,9 +35,11 @@ const REF_URL_FILE    = 'data/ref_url_map.json';
 const NIGHT_START = 21;
 const NIGHT_END   = 6;
 
-const READ_DELAY_BASE   = 2000; // base delay to simulate reading
-const READ_DELAY_JITTER = 3000; // random jitter (0-3s) to desynchronize concurrent webhooks
-const AGENT_COOLDOWN_MS = 3 * 60 * 1000; // 3 min — bot's own outbound replies were triggering 15min lockout
+const READ_DELAY_BASE      = 2000; // base delay to simulate reading
+const READ_DELAY_JITTER    = 3000; // random jitter (0-3s) to desynchronize concurrent webhooks
+const AGENT_COOLDOWN_MS    = 3 * 60 * 1000; // 3 min — bot's own outbound replies were triggering 15min lockout
+const PENDING_GRACE_MS     = 15000; // 15s grace: treat msgs arriving up to 15s BEFORE last bot reply as still pending
+                                    // Fixes race condition: lead sent msg 1s before bot reply → was silently dropped
 
 // ── Time helpers (imported from lib/crm.js, kept for night-shift check) ──────
 // getDubaiHour, isNightShift, DUBAI_OFFSET_HOURS — all from lib/crm.js import above
@@ -971,6 +973,7 @@ RULES — follow exactly, no exceptions:
 - AGENT OVERRIDE, HIGHEST PRIORITY: If you see messages from "Agent (Faysal)" in the conversation history, those are manual interventions by the human manager. Any specific price, exception, condition, or promise made by Agent (Faysal) is an ABSOLUTE OVERRIDE of your standard rules. Honor it exactly, no exceptions.
 - Keep it short, warm, human. No em dashes or en dashes, use commas or periods instead. No emojis of any kind in replies.
 - NEVER REPEAT YOURSELF: Do NOT restate facts, prices, policies, or information you have already told this lead in a prior message.
+- NEVER REPEAT A CTA: If you already offered a next step (e.g., "Want me to send the contract?", "Shall I get payment details?") and the lead did NOT respond to it — they kept asking other questions instead — do NOT repeat that offer. Just answer what they asked. Repeating ignored CTAs is pushy and destroys trust.
 - BUDGET OBJECTION: If the lead says ANYTHING suggesting the price is too high or over budget, do NOT repeat the price. Acknowledge and ask: "Understood! What budget are you working with? I can check what options we have for you."
 - PRICING MATH: Prices are seasonal and only locked for 3 months. NEVER calculate or quote a total for more than 3 months. If asked about 4+ months, quote the current monthly rate, explain rates are confirmed in 3-month blocks, then escalate with reason "lead asking about long-term pricing beyond 3 months".
 - HUMAN/AGENT REQUESTS: If a lead asks to speak to a human, agent, person, or anyone from the team, or asks for a phone number, escalate immediately with reason "lead requesting human agent" and holding message "Of course, let me get someone from the team for you right away."
@@ -1425,7 +1428,9 @@ export default async function handler(req, res) {
     const msgTime = m.created_at
       ? (typeof m.created_at === 'number' ? m.created_at * 1000 : new Date(m.created_at).getTime())
       : Date.now();
-    return msgTime > lastBotReplyTime;
+    // PENDING_GRACE_MS buffer: a message that arrived just before the bot's last reply
+    // (race condition — lead typed while bot was mid-generation) is still unanswered.
+    return msgTime > (lastBotReplyTime - PENDING_GRACE_MS);
   });
 
   if (pendingInbound.length === 0) {
