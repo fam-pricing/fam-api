@@ -101,29 +101,16 @@ const SCENARIOS = [
     expect: { tool: 'escalate_to_faysal', mustContain: [], mustNotContain: [] },
   },
   {
-    name: '6-month stay — explain 3-month blocks, no escalation',
+    name: 'Long-term pricing — 6 months (explain + escalate)',
     property: '1BR in Elite Residence',
     history: 'Bot: The 1BR is AED 7,000/month all-inclusive.\nLead: I want to stay for 6 months, what is the price?',
     newMessage: 'I want to stay for 6 months, what is the price?',
     leadName: 'Diana',
     expect: {
-      tool: 'send_reply',
-      mustContain: ['7,000', '3'],
-      mustNotContain: ['84,000', '84000', '42,000'],
-    },
-    note: 'Bot should explain AED 7,000/mo locked for first 3 months, season-dependent after. No escalation, no total multiplication.',
-  },
-  {
-    name: 'Lead demands fixed price for all 12 months — must escalate',
-    property: '1BR in Elite Residence',
-    history: 'Bot: The 1BR is AED 7,000/month. Rates are locked in 3-month blocks.\nLead: I need a guaranteed fixed price for the full 12 months, non-negotiable.',
-    newMessage: 'I need a guaranteed fixed price for the full 12 months, non-negotiable.',
-    leadName: 'Diana',
-    expect: {
       tool: 'escalate_to_faysal',
-      mustNotContain: ['84,000', '84000'],
+      mustNotContain: ['42,000', '84,000', '84000'],
     },
-    note: 'Lead is demanding a price commitment beyond 3 months — this is when escalation is needed.',
+    note: 'Bot must explain 3-month blocks then escalate. Must NOT multiply to total. escalate_to_faysal is correct for any 4+ month inquiry.',
   },
   {
     name: 'Unknown property — must escalate',
@@ -140,8 +127,8 @@ const SCENARIOS = [
     history: 'Lead: What is the security deposit?',
     newMessage: 'What is the security deposit?',
     leadName: 'Lisa',
-    expect: { tool: 'send_reply', mustContain: ['3,000'], mustNotContain: ['first month', 'last month', 'guarantee'] },
-    note: 'Must answer security deposit only — NOT bundle GoA',
+    expect: { tool: 'send_reply', mustContain: ['1,000'], mustNotContain: ['first month', 'last month', 'guarantee', '3,000', '5,000'] },
+    note: 'Must answer security deposit only (AED 1,000 for studio) — NOT bundle GoA, NOT use old amounts',
   },
   {
     name: 'Hallucination trap — Aykon City',
@@ -213,14 +200,14 @@ Property: ${property}.
 RULES:
 - ONLY suggest buildings from the Active Portfolio above. If not in the list, it is NOT available.
 - CRITICAL — UNKNOWN PROPERTY: If the Property field contains the word "unknown", you MUST call escalate_to_faysal immediately. No exceptions. Do NOT call send_reply. Do NOT offer alternatives. Do NOT say we have availability. Escalate only.
-- LONG-TERM PRICING: If a lead asks about a stay longer than 3 months, explain confidently: the current monthly rate is locked for the first 3 months, and beyond that the rate depends on the season and will be confirmed ahead of each new period. Do NOT multiply the monthly price by the number of months to give a total. Only escalate if the lead is demanding a guaranteed fixed price for the entire period beyond 3 months.
+- LONG-TERM PRICING: Prices are seasonal and only locked for 3 months. NEVER calculate or quote a total for more than 3 months. If asked about 4+ months, quote the current monthly rate, explain rates are confirmed in 3-month blocks, then escalate with reason "lead asking about long-term pricing beyond 3 months".
 - CRITICAL — NO EMOJIS: Never use any emoji in any reply. No 😊 🏠 🔑 👍 or any other emoji. Zero. This is an absolute rule.
 - No hallucination. Never invent details not in the portfolio.
 - No em dashes (—) or en dashes (–). Use commas instead.
 - Budget objection: ask "What budget are you working with?" Do NOT repeat the price.
-- Viewings: 9am-6pm any day. Only call book_viewing with a SPECIFIC day AND time. If no time given, ask.
+- VIEWING RULES: NEVER proactively suggest, offer, or propose a viewing. Only discuss viewings if the lead explicitly asks to visit, see, or view the property. Viewings: 9am-6pm any day. Only call book_viewing with a SPECIFIC day AND time. If no time given, ask.
 - If lead asks for a human or agent, escalate immediately.
-- Damage security deposit: AED 3,000 for studio/1BR, AED 5,000 for 2BR+. Only mention when asked. Do NOT mention first month/last month deposit.
+- Damage security deposit: AED 1,000 for studio, AED 1,500 for 1 bedroom, AED 2,000 for 2 bedrooms and above. Only mention when asked. Do NOT mention first month/last month deposit.
 - If lead writes in Arabic, respond in Arabic.
 - All prices are all-inclusive (water, electricity, internet, no extras).
 - You MUST call exactly one tool.`;
