@@ -18,18 +18,19 @@
 //   AUTOBOT_ENABLED env var must = 'true' (global off switch)
 //   bot_paused flag in crm_state disables per-lead (Afifa can flip this)
 
-const GH_API     = 'https://api.github.com';
-const TRENGO_API = 'https://app.trengo.com/api/v2';
-const REPO       = 'fam-pricing/fam-api';
-const CRM_FILE        = 'data/crm_state.json';
-const PENDING_FILE    = 'data/pending_escalations.json';
-const PLAYBOOK_FILE   = 'data/playbook.md';
-const LISTINGS_FILE   = 'data/listings.json';
-const REF_MAP_FILE    = 'data/ref_mapping.json';
-const REF_URL_FILE    = 'data/ref_url_map.json';
-const METRICS_FILE    = 'data/bot_metrics.json';
+// ── lib/crm.js — dual-backend CRM (Upstash Redis primary, GitHub fallback) ──
+import {
+  ghRead, ghWrite, ghReadText as _libGhReadText,
+  readCRMState, writeCRMState,
+  readPendingEsc, writePendingEsc,
+  loadPlaybook,
+  CRM_FILE, PENDING_FILE, PLAYBOOK_FILE, LISTINGS_FILE, REF_MAP_FILE, METRICS_FILE,
+  TRENGO_API, getDubaiHour, isNightShift, DUBAI_OFFSET_HOURS,
+} from '../../lib/crm.js';
 
-const DUBAI_OFFSET_HOURS = 4;
+const GH_API     = 'https://api.github.com';
+const REPO       = 'fam-pricing/fam-api';
+const REF_URL_FILE    = 'data/ref_url_map.json';
 const NIGHT_START = 21;
 const NIGHT_END   = 6;
 
@@ -37,60 +38,8 @@ const READ_DELAY_BASE   = 2000; // base delay to simulate reading
 const READ_DELAY_JITTER = 3000; // random jitter (0-3s) to desynchronize concurrent webhooks
 const AGENT_COOLDOWN_MS = 3 * 60 * 1000; // 3 min — bot's own outbound replies were triggering 15min lockout
 
-// ── Time helpers ──────────────────────────────────────────────────────────────
-
-function getDubaiHour() {
-  return (new Date().getUTCHours() + DUBAI_OFFSET_HOURS) % 24;
-}
-
-function isNightShift() {
-  const h = getDubaiHour();
-  return h >= NIGHT_START || h < NIGHT_END;
-}
-
-// ── GitHub helpers ────────────────────────────────────────────────────────────
-
-async function ghRead(file) {
-  const ghToken = process.env.GH_TOKEN;
-  if (!ghToken) return { data: null, sha: null };
-  const r = await fetch(`${GH_API}/repos/${REPO}/contents/${file}`, {
-    headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json' },
-  });
-  if (!r.ok) return { data: null, sha: null };
-  const d = await r.json();
-  try {
-    return { data: JSON.parse(Buffer.from(d.content.replace(/\n/g, ''), 'base64').toString('utf8')), sha: d.sha };
-  } catch { return { data: null, sha: d.sha }; }
-}
-
-async function ghWrite(file, data, sha, message) {
-  const ghToken = process.env.GH_TOKEN;
-  if (!ghToken) return;
-  const content = Buffer.from(JSON.stringify(data, null, 2)).toString('base64');
-  await fetch(`${GH_API}/repos/${REPO}/contents/${file}`, {
-    method: 'PUT',
-    headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
-    body: JSON.stringify({ message, content, sha }),
-  });
-}
-
-async function readCRMState() {
-  const { data, sha } = await ghRead(CRM_FILE);
-  return { state: data || {}, sha };
-}
-
-async function writeCRMState(state, sha) {
-  await ghWrite(CRM_FILE, state, sha, 'CRM: auto-reply [bot]');
-}
-
-async function readPendingEsc() {
-  const { data, sha } = await ghRead(PENDING_FILE);
-  return { esc: data || { faysal_ticket_id: null, current_question_id: null, pending: [] }, sha };
-}
-
-async function writePendingEsc(esc, sha) {
-  await ghWrite(PENDING_FILE, esc, sha, 'Bot: pending escalations update');
-}
+// ── Time helpers (imported from lib/crm.js, kept for night-shift check) ──────
+// getDubaiHour, isNightShift, DUBAI_OFFSET_HOURS — all from lib/crm.js import above
 
 // ── Metrics collection ─────────────────────────────────────────────────────────
 // Fire-and-forget metrics write with 7-day rolling retention and separate SHA tracking
@@ -143,46 +92,20 @@ async function appendMetricsEvent(event) {
 
 // ── Playbook (GitHub-backed) ───────────────────────────────────────────────────
 
+// ghReadText/ghWriteText — lib/crm.js exports ghReadText (returns {text,sha}) and ghWrite (handles strings)
+// Wrapper keeps {content,sha} API used by appendToPlaybook below
 async function ghReadText(file) {
-  const ghToken = process.env.GH_TOKEN;
-  if (!ghToken) return { content: '', sha: null };
-  const r = await fetch(`${GH_API}/repos/${REPO}/contents/${file}`, {
-    headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json' },
-  });
-  if (!r.ok) return { content: '', sha: null };
-  const d = await r.json();
-  try {
-    return { content: Buffer.from(d.content.replace(/\n/g, ''), 'base64').toString('utf8'), sha: d.sha };
-  } catch { return { content: '', sha: d.sha }; }
+  const { text, sha } = await _libGhReadText(file);
+  return { content: text || '', sha };
 }
 
-async function ghWriteText(file, content, sha, message) {
-  const ghToken = process.env.GH_TOKEN;
-  if (!ghToken) return;
-  const encoded = Buffer.from(content).toString('base64');
-  await fetch(`${GH_API}/repos/${REPO}/contents/${file}`, {
-    method: 'PUT',
-    headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
-    body: JSON.stringify({ message, content: encoded, sha }),
-  });
-}
-
-async function loadPlaybook() {
-  try {
-    const { content } = await ghReadText(PLAYBOOK_FILE);
-    return content.trim();
-  } catch (e) {
-    console.warn('[auto-reply] playbook load failed:', e?.message);
-    return '';
-  }
-}
-
+// appendToPlaybook — kept local to preserve date-stamped "## Learned" format
 async function appendToPlaybook(newRule) {
   try {
     const { content, sha } = await ghReadText(PLAYBOOK_FILE);
     const today = new Date().toISOString().split('T')[0];
     const entry = `\n## Learned (${today})\n${newRule}\n`;
-    await ghWriteText(PLAYBOOK_FILE, content + entry, sha, 'Bot: playbook updated');
+    await ghWrite(PLAYBOOK_FILE, content + entry, sha, 'Bot: playbook updated');
     console.log('[auto-reply] Playbook updated on GitHub');
   } catch (e) {
     console.error('[auto-reply] Failed to update playbook:', e?.message);

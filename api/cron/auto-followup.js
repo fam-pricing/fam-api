@@ -21,66 +21,20 @@
 //   Different strategies for READY_TO_BOOK vs OBJECTING vs INTERESTED leads.
 //   One-time only per lead. Never fires if bot is paused or stage is viewing/closed/lost.
 
-const GH_API     = 'https://api.github.com';
-const TRENGO_API = 'https://app.trengo.com/api/v2';
-const REPO       = 'fam-pricing/fam-api';
-const CRM_FILE   = 'data/crm_state.json';
-const REF_MAP_FILE  = 'data/ref_mapping.json';
+import { readCRMState, writeCRMState, ghRead, TRENGO_API, CRM_FILE, REF_MAP_FILE } from '../../lib/crm.js';
 
 // All measured from auto_responded_at (initial message time)
 const FOLLOW_UP_1_DELAY_MS =  6 * 60 * 60 * 1000;  //  6 hours
 const FOLLOW_UP_2_DELAY_MS = 12 * 60 * 60 * 1000;  // 12 hours
 const FOLLOW_UP_3_DELAY_MS = 23 * 60 * 60 * 1000;  // 23 hours (last chance before window closes)
 
-// ── GitHub CRM state ──────────────────────────────────────────────────────────
-
-async function readCRMState() {
-  const ghToken = process.env.GH_TOKEN;
-  if (!ghToken) return { state: {}, sha: null };
-  const r = await fetch(`${GH_API}/repos/${REPO}/contents/${CRM_FILE}`, {
-    headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json' },
-  });
-  if (!r.ok) return { state: {}, sha: null };
-  const d = await r.json();
-  try {
-    const content = Buffer.from(d.content.replace(/\n/g, ''), 'base64').toString('utf8');
-    return { state: JSON.parse(content), sha: d.sha };
-  } catch {
-    return { state: {}, sha: d.sha };
-  }
-}
-
-async function writeCRMState(state, sha) {
-  const ghToken = process.env.GH_TOKEN;
-  if (!ghToken) return;
-  const content = Buffer.from(JSON.stringify(state, null, 2)).toString('base64');
-  await fetch(`${GH_API}/repos/${REPO}/contents/${CRM_FILE}`, {
-    method: 'PUT',
-    headers: {
-      Authorization: `Bearer ${ghToken}`,
-      Accept: 'application/vnd.github.v3+json',
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ message: 'CRM: auto-followup [cron]', content, sha }),
-  });
-}
+// readCRMState / writeCRMState — imported from lib/crm.js (Redis primary, GitHub fallback)
 
 // ── GitHub JSON helper ────────────────────────────────────────────────────────
 
 async function fetchGHJson(filePath) {
-  const ghToken = process.env.GH_TOKEN;
-  if (!ghToken) return {};
-  try {
-    const r = await fetch(`${GH_API}/repos/${REPO}/contents/${filePath}`, {
-      headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json' },
-    });
-    if (!r.ok) return {};
-    const d = await r.json();
-    const content = Buffer.from(d.content.replace(/\n/g, ''), 'base64').toString('utf8');
-    return JSON.parse(content);
-  } catch {
-    return {};
-  }
+  const { data } = await ghRead(filePath);
+  return data || {};
 }
 
 // ── Trengo helpers ────────────────────────────────────────────────────────────
