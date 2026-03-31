@@ -310,18 +310,29 @@ export default async function handler(req, res) {
       results.push({ id: lead.id, phone, listingTitle, trengoTicketId, leadName });
     }
 
-    // Write results back to CRM state
+    // Re-read CRM state right before writing to get fresh sha and detect race conditions.
+    // Two cron instances can both read the same initial state (before either has written),
+    // process the same leads, and create duplicate Trengo tickets. Re-reading here means:
+    // - We use the current sha (avoid GitHub 409 conflict error)
+    // - Any leads already written by the concurrent instance are skipped (no double-entry)
+    const { state: freshState, sha: freshSha } = await readCRMState();
+
     for (const { id, phone, listingTitle, trengoTicketId, leadName } of results) {
-      crmState[id] = crmState[id] || { stage: 'new', notes: [] };
-      crmState[id].auto_responded    = true;
-      crmState[id].auto_responded_at = new Date().toISOString();
-      if (phone)          crmState[id].pf_phone         = phone;
-      if (listingTitle)   crmState[id].listing_title    = listingTitle;
-      if (trengoTicketId) crmState[id].trengo_ticket_id = trengoTicketId;
-      if (leadName)       crmState[id].lead_name        = leadName;
+      // Skip if another cron instance already processed this lead
+      if (freshState[id]?.auto_responded) {
+        console.log(`[cron] Race condition detected — lead ${id} already processed by another instance, skipping write`);
+        continue;
+      }
+      freshState[id] = freshState[id] || { stage: 'new', notes: [] };
+      freshState[id].auto_responded    = true;
+      freshState[id].auto_responded_at = new Date().toISOString();
+      if (phone)          freshState[id].pf_phone         = phone;
+      if (listingTitle)   freshState[id].listing_title    = listingTitle;
+      if (trengoTicketId) freshState[id].trengo_ticket_id = trengoTicketId;
+      if (leadName)       freshState[id].lead_name        = leadName;
     }
 
-    await writeCRMState(crmState, sha);
+    await writeCRMState(freshState, freshSha);
 
     const trengoCount = results.filter(r => r.trengoTicketId).length;
     console.log(`[cron] Responded: ${newLeads.length} PF leads, ${trengoCount} Trengo tickets created`);

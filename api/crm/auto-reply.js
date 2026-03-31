@@ -241,16 +241,31 @@ async function assignTicket(ticketId, userId) {
 async function unassignTicket(ticketId) {
   const token = process.env.TRENGO_TOKEN;
   try {
-    // Use type:'none' on the /assign endpoint to clear the assignee
+    // Step 1: Clear assignee — type:'user' with user_id:null is the Trengo v2 standard
     const r = await fetch(`${TRENGO_API}/tickets/${ticketId}/assign`, {
       method: 'POST',
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ ticket_id: ticketId, user_id: null, note: null, type: 'none' }),
+      body: JSON.stringify({ ticket_id: ticketId, user_id: null, note: null, type: 'user' }),
     });
     const body = await r.text();
     if (!r.ok) console.error('[auto-reply] unassignTicket failed:', r.status, body);
-    else console.log(`[auto-reply] Ticket ${ticketId} unassigned — ready for team pickup`);
+    else console.log(`[auto-reply] Ticket ${ticketId} unassigned`);
   } catch (e) { console.error('[auto-reply] unassignTicket error:', e?.message); }
+
+  try {
+    // Step 2 (Option B): Set status to 'new' so ticket surfaces in the team's New queue for pickup
+    const r2 = await fetch(`${TRENGO_API}/tickets/${ticketId}`, {
+      method: 'PATCH',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({ status: 'new' }),
+    });
+    if (!r2.ok) {
+      const b2 = await r2.text();
+      console.error('[auto-reply] setStatusNew failed:', r2.status, b2);
+    } else {
+      console.log(`[auto-reply] Ticket ${ticketId} status set to New — ready for team pickup`);
+    }
+  } catch (e) { console.error('[auto-reply] setStatusNew error:', e?.message); }
 }
 
 // ── Escalate ticket to team ───────────────────────────────────────────────────
@@ -651,7 +666,7 @@ RULES — follow exactly, no exceptions:
 - TAGS MUST BE ON THEIR OWN LINE: [ESCALATE: ...] and [VIEWING: ...] tags must ALWAYS appear on their own line, separate from the customer message. Never embed a tag in the middle of a sentence. Put the tag on line 1 and the customer reply on line 2.
 - If confident → reply directly.
 - If NOT confident → [ESCALATE: reason] on line 1, short holding message on line 2.
-- VIEWING: Viewings are available any day 9am-6pm. When a lead asks for a time within these hours, CONFIRM it. Output [VIEWING: property on day at time] on line 1, then a warm confirmation on line 2 (e.g. "12pm today works! Our team will coordinate with you shortly."). Do NOT say "let me check" or "let me confirm" — just confirm it. If the time is outside 9am-6pm, tell them viewings are 9am-6pm and ask for another time.
+- VIEWING: Viewings are available any day 9am-6pm. ONLY output [VIEWING: property on day at time] when the lead has given you a SPECIFIC day AND time (e.g. "tomorrow at 3pm", "Friday 11am", "today at 2"). If a lead just says "can we visit", "I'd like a viewing", "can I see it" or similar WITHOUT providing a time → ask them "Sure! What day and time works for you? Viewings are available any day between 9am and 6pm." — NO [VIEWING:] tag. Never output [VIEWING: ... TBD] or any tag with "TBD" or a missing time. When a specific time IS given and it is within 9am-6pm, CONFIRM it: output [VIEWING: property on day at time] on line 1, then a warm confirmation on line 2 (e.g. "12pm today works! Our team will coordinate with you shortly."). Do NOT say "let me check" or "let me confirm" — just confirm it. If the time is outside 9am-6pm, tell them viewings are 9am-6pm and ask for another time.
 - HUMAN/AGENT REQUESTS: If a lead asks to speak to a human, agent, person, or anyone from the team — or asks for a phone number or direct contact — escalate immediately. [ESCALATE: lead requesting human agent] on line 1, then "Of course, let me get someone from the team for you right away." on line 2. No exceptions.
 - Keep it short, warm, human.
 - NEVER REPEAT YOURSELF — CRITICAL: Before writing your reply, read every previous "Bot:" message in the conversation history. Do NOT restate facts, prices, policies, or information you have already told this lead in a prior message. If they ask about something already answered, give a one-line confirmation only. Repeating the same information across multiple messages feels robotic and annoying. Say it once, then move on.
@@ -715,12 +730,21 @@ RULES — follow exactly, no exceptions:
     // ── [VIEWING:] detection — anywhere in the text ──
     const viewMatch = text.match(/\[VIEWING:\s*([^\]]*)\]/i);
     if (viewMatch) {
-      const when      = viewMatch[1].trim();
-      const replyText = text.replace(/\[VIEWING:\s*[^\]]*\]/i, '').trim()
-                             .replace(/\s*\u2014\s*/g, ', ')
-                             .split('\n').filter(l => l.trim()).join('\n').trim()
-                          || `${when} works! Our team will coordinate with you shortly.`;
-      return { reply: replyText, escalate: false, reason: null, viewing: when };
+      const when = viewMatch[1].trim();
+      // Guard: reject tags with TBD or no time digits — treat as normal reply (no viewing trigger)
+      const hasTBD    = /\bTBD\b/i.test(when);
+      const hasTime   = /\d/.test(when); // must contain at least one digit (hour)
+      if (hasTBD || !hasTime) {
+        console.log(`[auto-reply] VIEWING tag rejected (no confirmed time): "${when}" — stripping and treating as normal reply`);
+        text = text.replace(/\[VIEWING:\s*[^\]]*\]/i, '').trim();
+        // fall through to cleanReply below
+      } else {
+        const replyText = text.replace(/\[VIEWING:\s*[^\]]*\]/i, '').trim()
+                               .replace(/\s*\u2014\s*/g, ', ')
+                               .split('\n').filter(l => l.trim()).join('\n').trim()
+                            || `${when} works! Our team will coordinate with you shortly.`;
+        return { reply: replyText, escalate: false, reason: null, viewing: when };
+      }
     }
 
     // ── Safety net: strip any leftover brackets the AI might output ──
@@ -858,8 +882,11 @@ export default async function handler(req, res) {
   ];
   const isAutoResponder = AUTO_RESPONDER_PATTERNS.some(p => p.test(messageText));
   if (isAutoResponder) {
-    console.log(`[auto-reply] Auto-responder detected on ticket ${ticketId} — skipping silently`);
-    return res.status(200).json({ ok: true, skipped: 'Auto-responder detected' });
+    console.log(`[auto-reply] Auto-responder detected on ticket ${ticketId} — posting internal note`);
+    await postTrengoNote(ticketId,
+      `⚠️ Auto-responder detected — this appears to be a WhatsApp Business auto-reply, not a real lead message.\n\nA human team member should review this lead and follow up manually if needed.\n— fäm Bot`
+    );
+    return res.status(200).json({ ok: true, skipped: 'Auto-responder detected — internal note posted' });
   }
 
   const dubaiHour = getDubaiHour();
