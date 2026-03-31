@@ -292,31 +292,18 @@ async function assignTicket(ticketId, userId) {
 async function unassignTicket(ticketId) {
   const token = process.env.TRENGO_TOKEN;
   try {
-    // Step 1: Clear assignee — type:'user' with user_id:null is the Trengo v2 standard
+    // Assign to team Reservations (id: 78822) — confirmed working via live test on 2026-03-31.
+    // type:'user' with user_id:null returns 422. PATCH assignee_id:null returns 200 but does nothing.
+    // Only working method: POST /assign with type:'team' + team_id:78822.
     const r = await fetch(`${TRENGO_API}/tickets/${ticketId}/assign`, {
       method: 'POST',
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ ticket_id: ticketId, user_id: null, note: null, type: 'user' }),
+      body: JSON.stringify({ ticket_id: ticketId, type: 'team', team_id: 78822 }),
     });
     const body = await r.text();
     if (!r.ok) console.error('[auto-reply] unassignTicket failed:', r.status, body);
-    else console.log(`[auto-reply] Ticket ${ticketId} unassigned`);
+    else console.log(`[auto-reply] Ticket ${ticketId} assigned to team Reservations`);
   } catch (e) { console.error('[auto-reply] unassignTicket error:', e?.message); }
-
-  try {
-    // Step 2 (Option B): Set status to 'new' so ticket surfaces in the team's New queue for pickup
-    const r2 = await fetch(`${TRENGO_API}/tickets/${ticketId}`, {
-      method: 'PATCH',
-      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ status: 'new' }),
-    });
-    if (!r2.ok) {
-      const b2 = await r2.text();
-      console.error('[auto-reply] setStatusNew failed:', r2.status, b2);
-    } else {
-      console.log(`[auto-reply] Ticket ${ticketId} status set to New — ready for team pickup`);
-    }
-  } catch (e) { console.error('[auto-reply] setStatusNew error:', e?.message); }
 }
 
 // ── Escalate ticket to team ───────────────────────────────────────────────────
