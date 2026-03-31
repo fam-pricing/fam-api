@@ -726,9 +726,11 @@ CHECK EACH RULE:
 If ALL checks pass, respond with exactly one word: APPROVED
 
 If ANY check fails:
-- Line 1: the word FAIL
-- Line 2 onwards: ONLY the corrected message text, exactly as it should be sent to the customer on WhatsApp.
-- CRITICAL: Do NOT include any explanation, bullet points, rule names, "Issues fixed:", or any commentary after the corrected reply. The corrected reply is the LAST thing you write. Nothing after it.`;
+- Your ENTIRE response must be two parts only — nothing else before or after:
+- Part 1: the single word FAIL on its own line
+- Part 2: the corrected message text ONLY, exactly as it should be sent to the customer on WhatsApp
+- CRITICAL: Do NOT write anything before the word FAIL. No preamble, no "Wait", no "Let me redo", no thinking out loud. FAIL must be the very first word you write.
+- CRITICAL: Do NOT include any explanation, bullet points, rule names, "Issues fixed:", or any commentary after the corrected reply. Nothing after the corrected reply.`;
 
   try {
     const r = await fetch('https://api.anthropic.com/v1/messages', {
@@ -754,10 +756,17 @@ If ANY check fails:
       return { pass: true, finalReply: draftReply };
     }
 
-    // Extract corrected reply (everything after the FAIL line)
+    // Extract corrected reply — find FAIL wherever it appears (not assumed to be line 0)
+    // Critic sometimes writes preamble/self-talk before FAIL (e.g. "Wait, still an em dash. Let me redo:\n\nFAIL\n...")
     const lines = out.split('\n');
-    const failLine = lines[0];
-    let correctedLines = lines.slice(1);
+    const failIdx = lines.findIndex(l => /^FAIL$/i.test(l.trim()));
+    if (failIdx === -1) {
+      // No FAIL found — treat as approved (critic rambled without a clear verdict)
+      console.log('[auto-reply] Critic: no FAIL found, treating as APPROVED');
+      return { pass: true, finalReply: draftReply };
+    }
+    const failLine = lines[failIdx];
+    let correctedLines = lines.slice(failIdx + 1);
 
     // Safety: strip any line that looks like reasoning/commentary leaked in
     // Stop at the first line that starts with **, --, "Issues", "Note:", "Rule", etc.
