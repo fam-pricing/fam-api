@@ -1,19 +1,20 @@
 {
-  "ts": "2026-03-31T06:49:28.397Z",
+  "ts": "2026-03-31T06:51:38.384Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4217935791",
-    "ticket_id": "938546983",
-    "message": "Will complete  form and send back thank you",
+    "type": "OUTBOUND",
+    "message_id": "4217937335",
+    "ticket_id": "921764660",
+    "message": "Our team is in front of the apartment could you please grant access to check the safe",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "531027518",
+    "contact_name": "Dilip Parmanand",
+    "contact_identifier": "+85291767676",
     "channel_id": "585723",
-    "contact_id": "535208016",
-    "contact_name": "DEANNO GARRY LUPKE",
-    "contact_identifier": "+27815663899",
-    "parent_message_id": "4217934490",
-    "parent_ticket_id": "938546983",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
