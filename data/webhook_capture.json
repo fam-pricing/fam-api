@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-31T15:53:59.735Z",
+  "ts": "2026-03-31T15:54:34.690Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4218541995",
+    "type": "OUTBOUND",
+    "message_id": "4218542469",
     "ticket_id": "938741382",
-    "message": "Hi can you share a video and details",
-    "channel_id": "1304636",
+    "message": "Hi! The listing link above has the full photo gallery and floor plan. I'll check if we have a video and get back to you shortly, is there anything specific you'd like to know about the apartment in the meantime?\n\nWait, I used an em dash. Let me redo.\n\nFAIL\nHi! The listing link above has the full photo gallery and floor plan. I'll check if we have a video and get back to you shortly. Is there anything specific you'd like to know about the apartment in the meantime?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535255437",
     "contact_name": "Priyanka",
     "contact_identifier": "+971521260634",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
