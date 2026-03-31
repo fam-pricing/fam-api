@@ -26,6 +26,7 @@ const PENDING_FILE    = 'data/pending_escalations.json';
 const PLAYBOOK_FILE   = 'data/playbook.md';
 const LISTINGS_FILE   = 'data/listings.json';
 const REF_MAP_FILE    = 'data/ref_mapping.json';
+const METRICS_FILE    = 'data/bot_metrics.json';
 
 const DUBAI_OFFSET_HOURS = 4;
 const NIGHT_START = 21;
@@ -88,6 +89,55 @@ async function readPendingEsc() {
 
 async function writePendingEsc(esc, sha) {
   await ghWrite(PENDING_FILE, esc, sha, 'Bot: pending escalations update');
+}
+
+// ── Metrics collection ─────────────────────────────────────────────────────────
+// Fire-and-forget metrics write with 7-day rolling retention and separate SHA tracking
+
+async function appendMetricsEvent(event) {
+  // Non-blocking fire-and-forget — don't await or catch
+  (async () => {
+    try {
+      const ghToken = process.env.GH_TOKEN;
+      if (!ghToken) return;
+
+      // Read current metrics (with separate SHA for metrics file)
+      const metricsResp = await fetch(`${GH_API}/repos/${REPO}/contents/${METRICS_FILE}`, {
+        headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json' },
+      });
+      let metricsSha = null;
+      let currentMetrics = [];
+      if (metricsResp.ok) {
+        const metricsData = await metricsResp.json();
+        metricsSha = metricsData.sha;
+        try {
+          currentMetrics = JSON.parse(Buffer.from(metricsData.content.replace(/\n/g, ''), 'base64').toString('utf8')) || [];
+        } catch { currentMetrics = []; }
+      }
+
+      // Append new event
+      currentMetrics.push(event);
+
+      // Keep only last 7 days of events
+      const sevenDaysAgo = Date.now() - 7 * 24 * 3600 * 1000;
+      currentMetrics = currentMetrics.filter(e => {
+        try {
+          return new Date(e.ts).getTime() > sevenDaysAgo;
+        } catch { return false; }
+      });
+
+      // Write back to GitHub
+      const content = Buffer.from(JSON.stringify(currentMetrics, null, 2)).toString('base64');
+      await fetch(`${GH_API}/repos/${REPO}/contents/${METRICS_FILE}`, {
+        method: 'PUT',
+        headers: { Authorization: `Bearer ${ghToken}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: 'Metrics: append event', content, sha: metricsSha }),
+      });
+    } catch (e) {
+      // Silent fail — metrics loss is acceptable, never block webhook response
+      console.warn('[metrics] append failed silently:', e?.message);
+    }
+  })();
 }
 
 // ── Playbook (GitHub-backed) ───────────────────────────────────────────────────
@@ -1051,7 +1101,32 @@ You MUST call exactly one tool. Choose the right tool based on your confidence l
 
 // ── Main webhook handler ───────────────────────────────────────────────────────
 
+function createMetricsEvent(ticketId, leadId, action, toolUsed, responseTimeMs, criticPass = null, leadQuality = null, buyingStage = null, skipReason = null) {
+  return {
+    ts: new Date().toISOString(),
+    ticket_id: ticketId,
+    lead_id: leadId,
+    action,
+    tool_used: toolUsed,
+    response_time_ms: responseTimeMs,
+    critic_pass: criticPass,
+    lead_quality: leadQuality,
+    buying_stage: buyingStage,
+    skip_reason: skipReason,
+  };
+}
+
+function metricsResponse(res, status, body, event) {
+  // Fire-and-forget metrics append (non-blocking)
+  if (event && event.ticket_id) {
+    appendMetricsEvent(event);
+  }
+  return res.status(status).json(body);
+}
+
 export default async function handler(req, res) {
+  const webhookStartTime = Date.now();
+
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
   if (process.env.AUTOBOT_ENABLED !== 'true') {
@@ -1177,7 +1252,8 @@ export default async function handler(req, res) {
     await postTrengoNote(ticketId,
       `⚠️ Auto-responder detected — this appears to be a WhatsApp Business auto-reply, not a real lead message.\n\nA human team member should review this lead and follow up manually if needed.\n— fäm Bot`
     );
-    return res.status(200).json({ ok: true, skipped: 'Auto-responder detected — internal note posted' });
+    const autoRespEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'auto_responder');
+    return metricsResponse(res, 200, { ok: true, skipped: 'Auto-responder detected — internal note posted' }, autoRespEvent);
   }
 
   const dubaiHour = getDubaiHour();
@@ -1186,19 +1262,22 @@ export default async function handler(req, res) {
   // BOT RUNS 24/7
 
   if (leadMeta.bot_paused) {
-    return res.status(200).json({ ok: true, skipped: 'Bot paused for this lead' });
+    const pausedEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'bot_paused');
+    return metricsResponse(res, 200, { ok: true, skipped: 'Bot paused for this lead' }, pausedEvent);
   }
 
   const lastAgentAt = leadMeta.last_agent_reply_at ? new Date(leadMeta.last_agent_reply_at).getTime() : 0;
   if (Date.now() - lastAgentAt < AGENT_COOLDOWN_MS) {
-    return res.status(200).json({ ok: true, skipped: 'Agent cooldown active' });
+    const cooldownEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'agent_cooldown');
+    return metricsResponse(res, 200, { ok: true, skipped: 'Agent cooldown active' }, cooldownEvent);
   }
 
   // Message-ID deduplication: skip if this exact message was already processed
   // (prevents double-reply when Trengo fires the same webhook twice)
   const incomingMsgId = String(body?.message_id || body?.message?.id || '');
   if (incomingMsgId && leadMeta.last_processed_message_id === incomingMsgId) {
-    return res.status(200).json({ ok: true, skipped: `Duplicate message_id ${incomingMsgId}` });
+    const dupEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'duplicate_message_id');
+    return metricsResponse(res, 200, { ok: true, skipped: `Duplicate message_id ${incomingMsgId}` }, dupEvent);
   }
 
   const conversation = await getTrengoMessages(ticketId);
@@ -1213,6 +1292,7 @@ export default async function handler(req, res) {
   const lastBotReplyTime = leadMeta.last_bot_reply_at
     ? new Date(leadMeta.last_bot_reply_at).getTime()
     : 0;
+  const lastBotAt = lastBotReplyTime; // Alias for optimistic lock check later
 
   const pendingInbound = conversation.filter(m => {
     const isInbound = (m.type || '').toUpperCase() === 'INBOUND' || m.from === 'lead';
@@ -1225,7 +1305,8 @@ export default async function handler(req, res) {
 
   if (pendingInbound.length === 0) {
     console.log(`[auto-reply] No unanswered inbound messages on ticket ${ticketId} — stale webhook, skipping`);
-    return res.status(200).json({ ok: true, skipped: 'No pending unanswered messages — stale webhook' });
+    const staleEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'stale_webhook');
+    return metricsResponse(res, 200, { ok: true, skipped: 'No pending unanswered messages — stale webhook' }, staleEvent);
   }
 
   if (pendingInbound.length > 1) {
@@ -1244,7 +1325,8 @@ export default async function handler(req, res) {
     crmState[leadId].last_agent_reply_at = new Date().toISOString(); // sync CRM
     await writeCRMState(crmState, sha);
     console.log(`[auto-reply] Live agent guard triggered on ticket ${ticketId} — agent replied recently, bot standing down`);
-    return res.status(200).json({ ok: true, skipped: 'Agent replied recently in Trengo — bot standing down', dubaiHour });
+    const agentGuardEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'live_agent_guard');
+    return metricsResponse(res, 200, { ok: true, skipped: 'Agent replied recently in Trengo — bot standing down', dubaiHour }, agentGuardEvent);
   }
 
   let { reply, escalate, reason, viewing } = await generateReply(conversation, leadMeta, messageText, leadName);
@@ -1272,7 +1354,8 @@ export default async function handler(req, res) {
     }
     await escalateTicket(leadName, leadMeta.listing_title, reason, ticketId, conversation, crmState, leadId);
     await writeCRMState(crmState, sha);
-    return res.status(200).json({ ok: true, action: 'escalated', reason });
+    const escalateEvent = createMetricsEvent(ticketId, leadId, 'escalate', 'escalate_to_faysal', Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, reason);
+    return metricsResponse(res, 200, { ok: true, action: 'escalated', reason }, escalateEvent);
   }
 
   // Simulate human typing speed (~3 chars/sec on mobile WhatsApp)
@@ -1291,11 +1374,13 @@ export default async function handler(req, res) {
       const freshBotAt = freshMeta.last_bot_reply_at ? new Date(freshMeta.last_bot_reply_at).getTime() : 0;
       if (freshBotAt > lastBotAt) {
         console.log(`[auto-reply] OPTIMISTIC LOCK: another instance replied while we were generating. Bailing out.`);
-        return res.status(200).json({ ok: true, skipped: 'Optimistic lock — another instance replied first' });
+        const lockEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'optimistic_lock');
+        return metricsResponse(res, 200, { ok: true, skipped: 'Optimistic lock — another instance replied first' }, lockEvent);
       }
       if (freshMeta.bot_paused) {
         console.log(`[auto-reply] OPTIMISTIC LOCK: bot was paused while generating. Bailing out.`);
-        return res.status(200).json({ ok: true, skipped: 'Bot paused during generation' });
+        const pauseEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'paused_during_generation');
+        return metricsResponse(res, 200, { ok: true, skipped: 'Bot paused during generation' }, pauseEvent);
       }
     }
   } catch (e) {
@@ -1322,7 +1407,8 @@ export default async function handler(req, res) {
     const normalize = s => s.replace(/[\s\W]+/g, '');
     if (normalize(curr) === normalize(prev)) {
       console.log(`[auto-reply] Content similarity guard: reply identical to last bot message — skipping`);
-      return res.status(200).json({ ok: true, skipped: 'Identical reply to last bot message' });
+      const dupReplyEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'duplicate_content');
+      return metricsResponse(res, 200, { ok: true, skipped: 'Identical reply to last bot message' }, dupReplyEvent);
     }
   }
 
@@ -1391,5 +1477,9 @@ export default async function handler(req, res) {
 
   await writeCRMState(crmState, sha);
 
-  return res.status(200).json({ ok: true, action: 'replied', sent, dubaiHour, viewing: viewing || null });
+  // Emit metrics for successful reply
+  const { score: finalScore, label: finalLabel } = scoreLeadQuality(conversation, crmState[leadId], messageText);
+  const toolUsed = viewing ? 'book_viewing' : 'send_reply';
+  const replyEvent = createMetricsEvent(ticketId, leadId, 'reply', toolUsed, Date.now() - webhookStartTime, null, finalScore || null, finalLabel || null, null);
+  return metricsResponse(res, 200, { ok: true, action: 'replied', sent, dubaiHour, viewing: viewing || null }, replyEvent);
 }
