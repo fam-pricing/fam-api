@@ -706,6 +706,107 @@ If ANY check fails, respond with FAIL on line 1, then a corrected reply on line 
   }
 }
 
+// ── Lead quality scoring ──────────────────────────────────────────────────────
+// Analyses conversation signals to score lead intent and urgency.
+// Score: 0-100. Updated in CRM after every bot reply.
+// Posted as internal note on first score above 40 so Faysal sees priority at a glance.
+
+function scoreLeadQuality(conversation, leadMeta, newMessage) {
+  const allInbound = conversation
+    .filter(m => (m.type || '').toUpperCase() === 'INBOUND' || m.from === 'lead')
+    .map(m => (m.body || m.text || m.message || '').toLowerCase());
+  const allText = allInbound.join(' ');
+  const msgCount = allInbound.length;
+
+  let score = 0;
+  const signals = [];
+
+  // Engagement depth — more messages = more engaged
+  if (msgCount >= 5) { score += 15; signals.push('high engagement (5+ messages)'); }
+  else if (msgCount >= 3) { score += 10; signals.push('moderate engagement'); }
+  else if (msgCount >= 1) { score += 5; }
+
+  // Timeline urgency
+  if (/today|tonight|tomorrow|this week|asap|urgent|immediately|right away/.test(allText)) {
+    score += 25; signals.push('urgent timeline');
+  } else if (/next week|next month|soon|april|may|june/.test(allText)) {
+    score += 15; signals.push('near-term timeline');
+  }
+
+  // Buying intent signals
+  if (/move.?in|check.?in|start date|when can i|keys|contract|sign/.test(allText)) {
+    score += 25; signals.push('move-in intent');
+  }
+  if (/pay(ment)?|transfer|card|cash|deposit|book(ing)?|reserve|lock.?in|secure/.test(allText)) {
+    score += 20; signals.push('payment/booking intent');
+  }
+  if (/view(ing)?|visit|see (the|it|this)|come.*look|walk.?through/.test(allText)) {
+    score += 15; signals.push('viewing interest');
+  }
+  if (/price|how much|cost|rate|rent|per month/.test(allText)) {
+    score += 10; signals.push('pricing enquiry');
+  }
+
+  // Budget fit (negative signals)
+  if (/budget|too (much|expensive|high)|can('t| not) afford|over.?budget|cheaper/.test(allText)) {
+    score -= 10; signals.push('budget concern');
+  }
+
+  // Property specificity — asking about specific unit = higher intent
+  if (/\d\s*b(ed)?r(oom)?|\bstudio\b|\b(1|2|3|4)\s*bed/.test(allText)) {
+    score += 10; signals.push('specific unit type');
+  }
+
+  // Clamp 0-100
+  score = Math.max(0, Math.min(100, score));
+
+  // Label
+  let label;
+  if (score >= 70) label = 'HOT';
+  else if (score >= 40) label = 'WARM';
+  else if (score >= 20) label = 'COOL';
+  else label = 'COLD';
+
+  return { score, label, signals };
+}
+
+// ── Prompt injection defence ─────────────────────────────────────────────────
+// Strips known injection patterns from lead messages before they reach Claude.
+// Logs attempts for security review. Does NOT block the message — just sanitises.
+
+function sanitizeInput(text) {
+  if (!text) return text;
+  const INJECTION_PATTERNS = [
+    /ignore\s+(your|all|previous|prior|above)\s+(instructions?|rules?|prompts?|system)/gi,
+    /you\s+are\s+now\s+(a|an|my)/gi,
+    /forget\s+(your|all|everything|the)\s+(instructions?|rules?|training)/gi,
+    /override\s+(your|the|all)\s+(rules?|instructions?|system)/gi,
+    /system\s*prompt/gi,
+    /\bact\s+as\s+(if|a|an|my)\b/gi,
+    /\brole\s*play\b/gi,
+    /\bpretend\s+(you('re| are)|to be)\b/gi,
+    /\bjailbreak\b/gi,
+    /\bDAN\b/g,   // "Do Anything Now" jailbreak
+    /reveal\s+(your|the)\s+(instructions?|prompt|system|rules)/gi,
+    /what\s+(are|is)\s+your\s+(instructions?|prompt|system|rules)/gi,
+  ];
+
+  let cleaned = text;
+  let injectionDetected = false;
+  for (const pattern of INJECTION_PATTERNS) {
+    if (pattern.test(cleaned)) {
+      injectionDetected = true;
+      cleaned = cleaned.replace(pattern, '').trim();
+    }
+  }
+
+  if (injectionDetected) {
+    console.warn(`[auto-reply] ⚠️ Prompt injection attempt detected and sanitised: "${text.slice(0, 100)}"`);
+  }
+
+  return cleaned || text; // if sanitisation emptied it, use original (could be false positive)
+}
+
 // ── Claude AI reply ───────────────────────────────────────────────────────────
 
 async function generateReply(conversation, leadMeta, newMessage, leadName) {
@@ -990,6 +1091,9 @@ export default async function handler(req, res) {
 
   if (!messageText) return res.status(200).json({ ok: true, skipped: 'Empty message' });
 
+  // ── Prompt injection sanitisation ─────────────────────────────────────────
+  messageText = sanitizeInput(messageText);
+
   // ── Auto-responder detection — skip WhatsApp Business auto-replies ──────────
   // Fires when we message a lead who has a WA Business auto-responder set up.
   // Their phone instantly replies with a canned message. We should ignore it silently.
@@ -1187,6 +1291,26 @@ export default async function handler(req, res) {
   crmState[leadId].last_bot_reply_at         = new Date().toISOString();
   crmState[leadId].bot_reply_count           = (leadMeta.bot_reply_count || 0) + 1;
   if (incomingMsgId) crmState[leadId].last_processed_message_id = incomingMsgId;
+
+  // ── Lead quality scoring — update after every reply ───────────────────────
+  const { score, label, signals } = scoreLeadQuality(conversation, leadMeta, messageText);
+  const prevLabel = crmState[leadId].lead_quality_label || null;
+  crmState[leadId].lead_quality_score  = score;
+  crmState[leadId].lead_quality_label  = label;
+  crmState[leadId].lead_quality_signals = signals;
+
+  // Post internal note when lead first becomes WARM or HOT, or upgrades to HOT
+  const upgraded = (label === 'HOT' && prevLabel !== 'HOT') ||
+                   (label === 'WARM' && !prevLabel);
+  if (upgraded) {
+    const emoji = label === 'HOT' ? '🔥' : '🟡';
+    await postTrengoNote(ticketId,
+      `${emoji} Lead scored ${label} (${score}/100)\n` +
+      `Signals: ${signals.join(', ')}\n` +
+      `Property: ${leadMeta.listing_title || 'unknown'}\n— fäm Bot`
+    );
+    console.log(`[auto-reply] Lead ${leadName} scored ${label} (${score}) — internal note posted`);
+  }
 
   // If viewing was team_responded and bot just replied normally (not escalating), mark confirmed
   if (leadMeta.viewing_status === 'team_responded') {
