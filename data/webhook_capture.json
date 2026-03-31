@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-31T03:59:45.577Z",
+  "ts": "2026-03-31T03:59:49.226Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4217870505",
+    "type": "OUTBOUND",
+    "message_id": "4217870522",
     "ticket_id": "938533605",
-    "message": "Which floor?",
-    "channel_id": "1304636",
+    "message": "Got it! Want to arrange a viewing, or do you have any questions first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535205709",
     "contact_name": "dubai",
     "contact_identifier": "+84854975678",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
