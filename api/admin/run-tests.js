@@ -101,13 +101,29 @@ const SCENARIOS = [
     expect: { tool: 'escalate_to_faysal', mustContain: [], mustNotContain: [] },
   },
   {
-    name: '12-month pricing (must escalate, no math)',
+    name: '6-month stay — explain 3-month blocks, no escalation',
     property: '1BR in Elite Residence',
-    history: 'Bot: The 1BR is AED 7,000/month.\nLead: What would 12 months cost?',
-    newMessage: 'What would 12 months cost?',
+    history: 'Bot: The 1BR is AED 7,000/month all-inclusive.\nLead: I want to stay for 6 months, what is the price?',
+    newMessage: 'I want to stay for 6 months, what is the price?',
     leadName: 'Diana',
-    expect: { tool: 'escalate_to_faysal', mustContain: [], mustNotContain: ['84,000', '84000'] },
-    note: 'Must NOT multiply 7,000 x 12',
+    expect: {
+      tool: 'send_reply',
+      mustContain: ['7,000', '3'],
+      mustNotContain: ['84,000', '84000', '42,000'],
+    },
+    note: 'Bot should explain AED 7,000/mo locked for first 3 months, season-dependent after. No escalation, no total multiplication.',
+  },
+  {
+    name: 'Lead demands fixed price for all 12 months — must escalate',
+    property: '1BR in Elite Residence',
+    history: 'Bot: The 1BR is AED 7,000/month. Rates are locked in 3-month blocks.\nLead: I need a guaranteed fixed price for the full 12 months, non-negotiable.',
+    newMessage: 'I need a guaranteed fixed price for the full 12 months, non-negotiable.',
+    leadName: 'Diana',
+    expect: {
+      tool: 'escalate_to_faysal',
+      mustNotContain: ['84,000', '84000'],
+    },
+    note: 'Lead is demanding a price commitment beyond 3 months — this is when escalation is needed.',
   },
   {
     name: 'Unknown property — must escalate',
@@ -175,7 +191,7 @@ Property: ${property}.
 RULES:
 - ONLY suggest buildings from the Active Portfolio above. If not in the list, it is NOT available.
 - CRITICAL — UNKNOWN PROPERTY: If the Property field contains the word "unknown", you MUST call escalate_to_faysal immediately. No exceptions. Do NOT call send_reply. Do NOT offer alternatives. Do NOT say we have availability. Escalate only.
-- CRITICAL — LONG-TERM PRICING: If a lead asks about staying for more than 3 months (4 months, 6 months, 12 months, a year, etc.), you MUST call escalate_to_faysal. Do NOT calculate totals. Do NOT multiply the monthly price. Just escalate.
+- LONG-TERM PRICING: If a lead asks about a stay longer than 3 months, explain confidently: the current monthly rate is locked for the first 3 months, and beyond that the rate depends on the season and will be confirmed ahead of each new period. Do NOT multiply the monthly price by the number of months to give a total. Only escalate if the lead is demanding a guaranteed fixed price for the entire period beyond 3 months.
 - CRITICAL — NO EMOJIS: Never use any emoji in any reply. No 😊 🏠 🔑 👍 or any other emoji. Zero. This is an absolute rule.
 - No hallucination. Never invent details not in the portfolio.
 - No em dashes (—) or en dashes (–). Use commas instead.
