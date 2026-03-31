@@ -982,5 +982,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": "agent_cooldown"
+  },
+  {
+    "ts": "2026-03-31T20:43:13.506Z",
+    "ticket_id": 938820609,
+    "lead_id": "message_lead_28540002",
+    "action": "reply",
+    "tool_used": "send_reply",
+    "response_time_ms": 38682,
+    "critic_pass": null,
+    "lead_quality": 20,
+    "buying_stage": "COOL",
+    "skip_reason": null
   }
 ]
