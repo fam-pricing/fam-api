@@ -826,5 +826,17 @@
     "lead_quality": 35,
     "buying_stage": "COOL",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-03-31T15:10:14.533Z",
+    "ticket_id": 938731576,
+    "lead_id": "message_lead_28536102",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 10555,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "Anthropic 529"
   }
 ]
