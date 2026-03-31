@@ -1072,11 +1072,18 @@ You MUST call exactly one tool. Choose the right tool based on your confidence l
     const toolName = toolBlock.name;
     const toolArgs = toolBlock.input || {};
 
-    // ── Clean helper: strip em/en dashes from any customer-facing text ──
-    const cleanMsg = (s) => (s || '')
-      .replace(/\s*\u2014\s*/g, ', ')
-      .replace(/\s*\u2013\s*/g, ', ')
-      .trim();
+    // ── Clean helper: strip em/en dashes + surrounding quotes from any customer-facing text ──
+    const cleanMsg = (s) => {
+      let t = (s || '')
+        .replace(/\s*\u2014\s*/g, ', ')
+        .replace(/\s*\u2013\s*/g, ', ')
+        .trim();
+      // Strip surrounding quotes if Claude wrapped the reply in them (e.g. "Yes, available!")
+      if ((t.startsWith('"') && t.endsWith('"')) || (t.startsWith("'") && t.endsWith("'"))) {
+        t = t.slice(1, -1).trim();
+      }
+      return t;
+    };
 
     if (toolName === 'send_reply') {
       const reply = cleanMsg(toolArgs.message);
