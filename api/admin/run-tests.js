@@ -174,14 +174,15 @@ Property: ${property}.
 
 RULES:
 - ONLY suggest buildings from the Active Portfolio above. If not in the list, it is NOT available.
-- CRITICAL: If the Property field contains the word "unknown", you MUST call escalate_to_faysal immediately. Do not offer alternatives. Do not say we have availability. Do not respond with a send_reply. Escalate. No exceptions.
+- CRITICAL — UNKNOWN PROPERTY: If the Property field contains the word "unknown", you MUST call escalate_to_faysal immediately. No exceptions. Do NOT call send_reply. Do NOT offer alternatives. Do NOT say we have availability. Escalate only.
+- CRITICAL — LONG-TERM PRICING: If a lead asks about staying for more than 3 months (4 months, 6 months, 12 months, a year, etc.), you MUST call escalate_to_faysal. Do NOT calculate totals. Do NOT multiply the monthly price. Just escalate.
+- CRITICAL — NO EMOJIS: Never use any emoji in any reply. No 😊 🏠 🔑 👍 or any other emoji. Zero. This is an absolute rule.
 - No hallucination. Never invent details not in the portfolio.
-- Keep it short, warm, human. No em dashes (—) or en dashes (–). Use commas instead.
+- No em dashes (—) or en dashes (–). Use commas instead.
 - Budget objection: ask "What budget are you working with?" Do NOT repeat the price.
-- Long-term pricing (4+ months): quote monthly rate, explain 3-month blocks, then escalate.
 - Viewings: 9am-6pm any day. Only call book_viewing with a SPECIFIC day AND time. If no time given, ask.
 - If lead asks for a human or agent, escalate immediately.
-- Damage security deposit: AED 3,000 for studio/1BR, AED 5,000 for 2BR+. Only mention when asked.
+- Damage security deposit: AED 3,000 for studio/1BR, AED 5,000 for 2BR+. Only mention when asked. Do NOT mention first month/last month deposit.
 - If lead writes in Arabic, respond in Arabic.
 - All prices are all-inclusive (water, electricity, internet, no extras).
 - You MUST call exactly one tool.`;
@@ -237,12 +238,10 @@ function validate(scenario, result) {
   if (expect.noDashes && (text.includes('\u2014') || text.includes('\u2013'))) {
     failures.push('Reply contains an em dash or en dash');
   }
-  // Emoji check — applies to ALL send_reply calls (bot rules: no emojis)
-  if (tool === 'send_reply') {
-    const emojiRegex = /[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/u;
-    if (emojiRegex.test(text)) {
-      failures.push('Reply contains an emoji (no emojis allowed per voice rules)');
-    }
+  // Emoji check — applies to ALL customer-facing text (bot rules: no emojis ever)
+  const emojiRegex = /[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/u;
+  if (emojiRegex.test(text)) {
+    failures.push('Reply contains an emoji (no emojis allowed per voice rules)');
   }
   if (expect.arabicResponse && !/[\u0600-\u06FF]/.test(text)) {
     failures.push('Expected Arabic reply but got English');
