@@ -27,6 +27,7 @@ import {
   CRM_FILE, PENDING_FILE, PLAYBOOK_FILE, LISTINGS_FILE, REF_MAP_FILE, METRICS_FILE,
   TRENGO_API, getDubaiHour, isNightShift, DUBAI_OFFSET_HOURS,
 } from '../../lib/crm.js';
+import { getListingMapsUrl } from '../../lib/guesty.js';
 
 const GH_API     = 'https://api.github.com';
 const REPO       = 'fam-pricing/fam-api';
@@ -1055,11 +1056,21 @@ You MUST call exactly one tool. Choose the right tool based on your confidence l
       if (!hasTime || hasTBD) {
         console.log(`[auto-reply] book_viewing rejected (no confirmed time): day="${day}" time="${time}" — treating as normal reply`);
         const fallback = cleanMsg(confirmation_message) || "Sure! What day and time works for you? Viewings are available any day between 9am and 6pm.";
-        return { reply: fallback, escalate: false, reason: null, viewing: null };
+        return { reply: fallback, escalate: false, reason: null, viewing: null, pendingViewing: null };
       }
-      const viewing = `${viewingProperty} on ${day} at ${time}`;
-      const reply = cleanMsg(confirmation_message) || `${time} ${day} works! Our team will coordinate with you shortly.`;
-      return { reply, escalate: false, reason: null, viewing };
+      // Viewing time confirmed — ask for passport/EID before completing booking.
+      // Bot stays ACTIVE (not paused) until ID is received.
+      // pendingViewing stores the viewing details in CRM; the old `viewing` field is left null
+      // so the old "immediately unassign+pause" block does NOT fire.
+      const confirmBase = cleanMsg(confirmation_message) || `${time} on ${day} works!`;
+      const replyWithIdRequest = `${confirmBase} To arrange building access, I'll need a photo of your passport or Emirates ID. Could you please send it here?`;
+      return {
+        reply: replyWithIdRequest,
+        escalate: false,
+        reason: null,
+        viewing: null,          // ← intentionally null: don't trigger the old viewing block
+        pendingViewing: { day, time, property: viewingProperty },
+      };
     }
 
     // Unknown tool — treat as escalation for safety
@@ -1196,11 +1207,24 @@ export default async function handler(req, res) {
     return res.status(200).json({ ok: true, action: 'agent_reply_tracked' });
   }
 
-  // ── INBOUND (lead is speaking) ─────────────────────────────────────────────
-  if (messageType !== 'INBOUND') {
+  // ── INBOUND (lead is speaking) or attachment (IMAGE/DOCUMENT) ─────────────
+  // Standard text = type 'INBOUND'. WhatsApp images/documents = type 'IMAGE' or 'DOCUMENT'.
+  // Trengo treats both as inbound semantically but uses different type fields.
+  const ATTACHMENT_TYPES = new Set(['IMAGE', 'DOCUMENT', 'AUDIO', 'VIDEO', 'FILE']);
+  const isAttachmentMsg  = ATTACHMENT_TYPES.has(messageType);
+  // Extract attachment URL from multiple possible locations in the Trengo webhook payload
+  const attachmentUrl    = body?.attachment_url
+                        || body?.attachment?.url
+                        || body?.media_url
+                        || body?.message?.attachment?.url
+                        || null;
+
+  if (messageType !== 'INBOUND' && !isAttachmentMsg) {
     return res.status(200).json({ ok: true, skipped: `Message type ${messageType} ignored` });
   }
 
+  // Attachment messages may have empty text — valid. Placeholder keeps logging consistent.
+  if (!messageText && isAttachmentMsg) messageText = '[attachment]';
   if (!messageText) return res.status(200).json({ ok: true, skipped: 'Empty message' });
 
   // ── Prompt injection sanitisation ─────────────────────────────────────────
@@ -1255,6 +1279,104 @@ export default async function handler(req, res) {
 
   const conversation = await getTrengoMessages(ticketId);
 
+  // ── Viewing ID collection ─────────────────────────────────────────────────
+  // Bot is waiting for passport/EID after confirming a viewing time.
+  // Handle BEFORE the pendingInbound stale-webhook check — image messages may not
+  // appear as type='INBOUND' in the conversation thread so the check would skip them.
+  if (leadMeta.viewing_status === 'pending_id') {
+    // Try to get the attachment URL from the webhook payload first,
+    // then fall back to scanning the conversation for the latest IMAGE/DOCUMENT message.
+    let receivedAttachmentUrl = attachmentUrl || null;
+
+    if (!receivedAttachmentUrl) {
+      // Search conversation for the most recent image/document from the lead
+      const attachMsg = conversation.slice().reverse().find(m => {
+        const t = (m.type || '').toUpperCase();
+        return ATTACHMENT_TYPES.has(t) && !m.user_id; // no user_id = from lead, not agent
+      });
+      if (attachMsg) {
+        receivedAttachmentUrl = attachMsg.attachment?.url
+          || attachMsg.media_url
+          || attachMsg.attachment_url
+          || null;
+        console.log(`[auto-reply] Found attachment in conversation for pending_id: ${receivedAttachmentUrl}`);
+      }
+    }
+
+    if (isAttachmentMsg || receivedAttachmentUrl) {
+      // ── ID received — send Maps link, post internal note, assign team, pause ──
+      console.log(`[auto-reply] Viewing ID received for ${leadName} (ticket ${ticketId})`);
+
+      // Resolve building name from listing_title for Guesty lookup
+      const rawListing   = leadMeta.listing_title || '';
+      let buildingForMaps = rawListing;
+      if (/^PF-HH-AR-/i.test(rawListing)) {
+        try {
+          const { data: refMap } = await ghRead(REF_MAP_FILE);
+          const m = refMap?.[rawListing];
+          if (m?.building) buildingForMaps = m.building;
+        } catch {}
+      }
+
+      // Fetch Google Maps URL from Guesty (non-blocking fallback if Guesty fails)
+      const mapsUrl = await getListingMapsUrl(buildingForMaps);
+
+      // Send maps link to lead (simulated typing delay — human feel)
+      const mapsMsg = mapsUrl
+        ? `Perfect, thank you! Here is the property location: ${mapsUrl}\n\nOur team will be in touch shortly to confirm all details.`
+        : `Perfect, thank you! Our team will be in touch shortly to confirm the address and all viewing details.`;
+      const typingMs = Math.min(8000, Math.max(2000, mapsMsg.length * 35));
+      await new Promise(r => setTimeout(r, typingMs));
+      await postTrengoMessage(ticketId, mapsMsg);
+
+      // Internal note for team
+      const dubaiTime = new Date(Date.now() + DUBAI_OFFSET_HOURS * 3600000)
+        .toISOString().replace('T', ' ').substring(0, 16) + ' Dubai';
+      const viewingNote =
+        `📅 VIEWING CONFIRMED — ${dubaiTime}\n\n` +
+        `Lead: ${leadName}\n` +
+        `Property: ${rawListing || 'the property'}\n` +
+        `Viewing: ${leadMeta.viewing_day || '?'} at ${leadMeta.viewing_time || '?'}\n` +
+        `ID document: ${receivedAttachmentUrl || '(check WhatsApp thread — lead sent image)'}\n` +
+        (mapsUrl ? `Maps: ${mapsUrl}\n` : '') +
+        `\nACTION REQUIRED — Ground Operations:\n` +
+        `Farhan / Abdul Rehman / Junaid — coordinate key access and meet the lead at the property.\n\n` +
+        `@faysal141332 @afifa340123 @chahana470168 @junaid731578 @abdul315306\n— fäm Bot`;
+
+      await postTrengoNote(ticketId, viewingNote);
+      await attachTrengoLabel(ticketId, LABEL_VIEWING);
+      await unassignTicket(ticketId);
+
+      crmState[leadId].bot_paused         = true;
+      crmState[leadId].viewing_status     = 'id_received';
+      crmState[leadId].viewing_id_url     = receivedAttachmentUrl || null;
+      crmState[leadId].last_bot_reply_at  = new Date().toISOString();
+      crmState[leadId].bot_reply_count    = (leadMeta.bot_reply_count || 0) + 1;
+      if (incomingMsgId) crmState[leadId].last_processed_message_id = incomingMsgId;
+      await writeCRMState(crmState, sha);
+
+      console.log(`[auto-reply] Viewing flow complete for ${leadName} — ID stored, Maps sent, team notified, bot paused`);
+      return metricsResponse(res, 200, { ok: true, action: 'viewing_id_received' },
+        createMetricsEvent(ticketId, leadId, 'viewing_id_received', 'book_viewing', Date.now() - webhookStartTime));
+
+    } else {
+      // ── Text message while pending ID — gently nudge the lead ──────────────
+      console.log(`[auto-reply] Pending ID for ${leadName} — text received, nudging for ID`);
+      const nudge = `Thanks! I just need a photo of your passport or Emirates ID to register you with building management for access. Could you please send it here?`;
+      const nudgeDelay = Math.min(5000, Math.max(2000, nudge.length * 35));
+      await new Promise(r => setTimeout(r, nudgeDelay));
+      await postTrengoMessage(ticketId, nudge);
+
+      crmState[leadId].last_bot_reply_at = new Date().toISOString();
+      crmState[leadId].bot_reply_count   = (leadMeta.bot_reply_count || 0) + 1;
+      if (incomingMsgId) crmState[leadId].last_processed_message_id = incomingMsgId;
+      await writeCRMState(crmState, sha);
+
+      return metricsResponse(res, 200, { ok: true, action: 'viewing_id_nudge' },
+        createMetricsEvent(ticketId, leadId, 'viewing_id_nudge', null, Date.now() - webhookStartTime));
+    }
+  }
+
   // ── Smart pending-message check (replaces flat 5s cooldown) ───────────────
   // Look at the live conversation thread. If there are inbound messages that arrived
   // AFTER the bot's last reply → those are genuinely unanswered → always process.
@@ -1302,7 +1424,7 @@ export default async function handler(req, res) {
     return metricsResponse(res, 200, { ok: true, skipped: 'Agent replied recently in Trengo — bot standing down', dubaiHour }, agentGuardEvent);
   }
 
-  let { reply, escalate, reason, viewing } = await generateReply(conversation, leadMeta, messageText, leadName);
+  let { reply, escalate, reason, viewing, pendingViewing } = await generateReply(conversation, leadMeta, messageText, leadName);
 
   // ── Self-critique gate — Sonnet reviews the reply before it reaches the lead ──
   // Only runs for normal replies (not escalations/viewings — those have their own logic)
@@ -1387,27 +1509,15 @@ export default async function handler(req, res) {
 
   const sent = await postTrengoMessage(ticketId, reply);
 
-  // Viewing confirmed — internal note + unassign + pause bot so team takes over
-  if (viewing) {
-    const dubaiTime = new Date(Date.now() + DUBAI_OFFSET_HOURS * 3600000)
-      .toISOString().replace('T', ' ').substring(0, 16) + ' Dubai';
-    const property = leadMeta?.listing_title || 'the property';
-    const note =
-      `📅 VIEWING CONFIRMED — ${dubaiTime}\n\n` +
-      `Lead: ${leadName}\n` +
-      `Property: ${property}\n` +
-      `When: ${viewing}\n\n` +
-      `ACTION REQUIRED — Ground Operations team:\n` +
-      `Farhan / Abdul Rehman / Junaid — please coordinate key access and meet the lead at the property.\n\n` +
-      `Ticket is unassigned — please assign yourself and handle.\n\n` +
-      `@faysal141332 @afifa340123 @chahana470168 @junaid731578 @abdul315306\n— fäm Bot`;
-    await postTrengoNote(ticketId, note);
-    await attachTrengoLabel(ticketId, LABEL_VIEWING);
-    await unassignTicket(ticketId);
-    crmState[leadId].bot_paused        = true;
-    crmState[leadId].viewing_status    = 'confirmed';
-    crmState[leadId].viewing_requested = viewing;
-    console.log('[auto-reply] Viewing CONFIRMED — bot paused, ticket unassigned for', leadName);
+  // Viewing time confirmed — bot asked for ID (pendingViewing), store details + stay active
+  // NOTE: viewing is always null when pendingViewing is set (intentional — old block must not fire)
+  if (pendingViewing) {
+    crmState[leadId].viewing_status       = 'pending_id';
+    crmState[leadId].viewing_day          = pendingViewing.day;
+    crmState[leadId].viewing_time         = pendingViewing.time;
+    crmState[leadId].viewing_property     = pendingViewing.property;
+    crmState[leadId].viewing_pending_since = new Date().toISOString();
+    console.log(`[auto-reply] Viewing pending ID for ${leadName} — ${pendingViewing.day} at ${pendingViewing.time}`);
   }
 
   // On first bot reply: attach label + assign ticket to Faysal
