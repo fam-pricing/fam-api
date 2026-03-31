@@ -144,7 +144,7 @@ const SCENARIOS = [
     leadName: 'Diana',
     expect: {
       tool: 'escalate_to_faysal',
-      mustContain: ['3-month', '3 month'],
+      mustContain: ['3 month'],  // matches "3-month", "3 months", "3 month blocks" etc.
       mustNotContain: ['84,000', '84000'], // must NOT multiply 7000 x 12
     },
   },
@@ -168,8 +168,8 @@ const SCENARIOS = [
     leadName: 'Lisa',
     expect: {
       tool: 'send_reply',
-      mustContain: ['3,000'],
-      mustNotContain: ['first month', 'last month', 'guarantee'], // should NOT bundle GoA
+      mustContain: ['1,000'],  // studio deposit is AED 1,000 (updated Mar 2026)
+      mustNotContain: ['first month', 'last month', 'guarantee', '3,000', '5,000'], // should NOT bundle GoA or use old amounts
     },
   },
   {
@@ -240,10 +240,10 @@ RULES:
 - No hallucination. Never invent details.
 - Keep it short, warm, human. No em dashes or en dashes.
 - Budget objection: ask "What budget are you working with?" Do not repeat the price.
-- Long-term pricing (4+ months): quote monthly rate, explain 3-month blocks, escalate.
-- Viewings: 9am-6pm any day. Only call book_viewing with a SPECIFIC day AND time.
+- Long-term pricing (4+ months): quote monthly rate, explain rates are confirmed in 3-month blocks, then escalate.
+- VIEWING RULE: NEVER proactively suggest, offer, or mention a viewing. Only discuss viewings if the lead explicitly asks to visit or see the property. Viewings: 9am-6pm any day. Only call book_viewing with a SPECIFIC day AND time.
 - If lead asks for a human/agent, escalate immediately.
-- Deposit: AED 3,000 for studio/1BR, AED 5,000 for 2BR+. Only mention when asked about security/damage deposit.
+- Deposit: AED 1,000 for studio, AED 1,500 for 1BR, AED 2,000 for 2BR+. Only mention when asked about security/damage deposit. Do NOT mention first month or last month unless lead asks about reserving/booking.
 - If lead writes in Arabic, respond in Arabic.
 - Never repeat yourself.
 - All prices are all-inclusive (water, electricity, internet).

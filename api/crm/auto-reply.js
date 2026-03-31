@@ -873,7 +873,9 @@ async function generateReply(conversation, leadMeta, newMessage, leadName) {
 
   // Viewing state context — prevents re-escalation loop
   let viewingContext = '';
-  if (leadMeta?.viewing_status === 'team_responded') {
+  if (leadMeta?.viewing_status === 'pending_id') {
+    viewingContext = `\n\nVIEWING PENDING ID: You have already confirmed a viewing for ${leadMeta.viewing_day || 'the requested day'} at ${leadMeta.viewing_time || 'the requested time'} and asked the lead to send their passport or Emirates ID for building access registration. The lead has sent a text message instead of the ID. Read and respond to what they said first — if they have a question, answer it; if they want to cancel or change the time, handle it. Then, if still appropriate, end your reply with a brief natural reminder: "Could you also send your passport or Emirates ID so I can register you with building management?" Do NOT set up a new viewing time unless the lead is explicitly changing it. Do NOT escalate unless the situation genuinely requires it.`;
+  } else if (leadMeta?.viewing_status === 'team_responded') {
     viewingContext = `\n\nVIEWING STATUS: The team has ALREADY confirmed viewing availability for this lead (requested: ${leadMeta.viewing_requested || 'a viewing'}). The lead is now confirming the time. Do NOT escalate again. Do NOT say "let me check with the team." Just acknowledge warmly, e.g. "You're all set for [time]! Our team will coordinate with you shortly." Then reply normally.`;
   } else if (leadMeta?.viewing_status === 'confirmed') {
     viewingContext = `\n\nVIEWING STATUS: A viewing is already confirmed for this lead. No need to discuss viewing scheduling further unless the lead brings it up again to change the time.`;
@@ -1360,20 +1362,13 @@ export default async function handler(req, res) {
         createMetricsEvent(ticketId, leadId, 'viewing_id_received', 'book_viewing', Date.now() - webhookStartTime));
 
     } else {
-      // ── Text message while pending ID — gently nudge the lead ──────────────
-      console.log(`[auto-reply] Pending ID for ${leadName} — text received, nudging for ID`);
-      const nudge = `Thanks! I just need a photo of your passport or Emirates ID to register you with building management for access. Could you please send it here?`;
-      const nudgeDelay = Math.min(5000, Math.max(2000, nudge.length * 35));
-      await new Promise(r => setTimeout(r, nudgeDelay));
-      await postTrengoMessage(ticketId, nudge);
-
-      crmState[leadId].last_bot_reply_at = new Date().toISOString();
-      crmState[leadId].bot_reply_count   = (leadMeta.bot_reply_count || 0) + 1;
-      if (incomingMsgId) crmState[leadId].last_processed_message_id = incomingMsgId;
-      await writeCRMState(crmState, sha);
-
-      return metricsResponse(res, 200, { ok: true, action: 'viewing_id_nudge' },
-        createMetricsEvent(ticketId, leadId, 'viewing_id_nudge', null, Date.now() - webhookStartTime));
+      // ── Text message while pending ID ─────────────────────────────────────
+      // Fall through to generateReply() — Claude reads the message first and
+      // responds intelligently (handles cancellations, time changes, questions).
+      // The pending_id viewingContext (injected below in generateReply) tells
+      // Claude to end any normal reply with a brief ID reminder.
+      console.log(`[auto-reply] Pending ID for ${leadName} — text received, passing to Claude`);
+      // (no return — falls through to pendingInbound check and generateReply)
     }
   }
 
