@@ -440,6 +440,8 @@ export default async function handler(req, res) {
       if (!lead.auto_responded || !lead.trengo_ticket_id) continue;
       // Skip leads already marked cold
       if (lead.follow_up_cold) { results.skipped_cold.push(leadId); continue; }
+      // Skip leads where bot is paused (Faysal/team manually handling)
+      if (lead.bot_paused) { results.skipped_cold.push(leadId); continue; }
 
       const ticketId     = lead.trengo_ticket_id;
       const respondedAt  = new Date(lead.auto_responded_at).getTime();

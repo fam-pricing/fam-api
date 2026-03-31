@@ -1035,7 +1035,7 @@ export default async function handler(req, res) {
                 || body?.message?.ticket_id
                 || 0) || null;
 
-  const messageText = (isFlat ? (body?.message || '') : '')  // flat: body.message IS the text
+  let messageText = (isFlat ? (body?.message || '') : '')  // flat: body.message IS the text
                     || body?.message?.message                  // nested variants
                     || body?.message?.body
                     || body?.message?.text
@@ -1241,9 +1241,16 @@ export default async function handler(req, res) {
   // ── Content similarity guard — never send same reply twice ──────────────────
   // Compares new reply to last bot message in conversation to catch semantic duplicates
   // that slip past the message-id dedup (different webhook events, same AI output)
+  // Find the last OUTBOUND message sent by the bot (not by Faysal or other agents).
+  // Bot messages have no user_id (or user_id 0/null); agent messages have a real user_id.
   const lastBotMsg = conversation
     .slice().reverse()
-    .find(m => m.type?.toUpperCase() === 'OUTBOUND' && String(m.user_id || m.user?.id || '') === String(FAYSAL_USER_ID) === false);
+    .find(m => {
+      if (m.type?.toUpperCase() !== 'OUTBOUND') return false;
+      const uid = String(m.user_id || m.user?.id || '');
+      // Bot messages have empty/0 user_id. Faysal = 141332, Afifa = 340123, etc.
+      return !uid || uid === '0' || uid === '';
+    });
   if (lastBotMsg) {
     const prev = (lastBotMsg.message || lastBotMsg.body || lastBotMsg.text || '').trim().toLowerCase();
     const curr = reply.trim().toLowerCase();
