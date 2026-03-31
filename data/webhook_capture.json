@@ -1,19 +1,20 @@
 {
-  "ts": "2026-03-31T08:14:52.305Z",
+  "ts": "2026-03-31T08:15:10.948Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4218023517",
+    "type": "OUTBOUND",
+    "message_id": "4218023929",
     "ticket_id": "938588565",
-    "message": "Ok. Thanks.",
-    "channel_id": "1304636",
+    "message": "No problem, Marcus! Let me know if you have any other questions or want to arrange a viewing.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535216301",
     "contact_name": "Marcus A. Sardar",
     "contact_identifier": "+4540191810",
-    "parent_message_id": "4218022513",
-    "parent_ticket_id": "938588565",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
