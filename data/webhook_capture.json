@@ -1,20 +1,17 @@
 {
-  "ts": "2026-03-31T07:16:02.986Z",
+  "ts": "2026-03-31T07:16:21.255Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4217958998",
-    "ticket_id": "921764660",
-    "message": "May I know is that ok now",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "531027518",
-    "contact_name": "Dilip Parmanand",
-    "contact_identifier": "+85291767676",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4217959265",
+    "ticket_id": "938297644",
+    "message": "Payment completed",
+    "channel_id": "1304636",
+    "contact_id": "535147845",
+    "contact_name": "Osama Omar",
+    "contact_identifier": "+971556969743",
+    "event_type": "INBOUND"
   }
 }
