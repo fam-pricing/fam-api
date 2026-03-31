@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-31T11:32:12.169Z",
+  "ts": "2026-03-31T11:34:44.241Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4218254275",
+    "type": "OUTBOUND",
+    "message_id": "4218258065",
     "ticket_id": "938148695",
-    "message": "Hi",
-    "channel_id": "1304636",
+    "message": "We hope you like the apartment.\r\n\r\nPlease note that we have offered you the best possible rate available at the moment.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535119429",
     "contact_name": "Only God",
     "contact_identifier": "+971504133080",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
