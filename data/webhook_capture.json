@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-31T09:02:03.085Z",
+  "ts": "2026-03-31T09:02:26.411Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4218083364",
+    "type": "OUTBOUND",
+    "message_id": "4218083868",
     "ticket_id": "938607426",
-    "message": "Additional fees?",
-    "channel_id": "1304636",
+    "message": "No additional fees, Jozef. The AED 9,000/month covers everything, water, electricity, and internet.\n\nWant to come see the place? Any day works between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535219555",
     "contact_name": "Jozef Sirak",
     "contact_identifier": "+421902345011",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
