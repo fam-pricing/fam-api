@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-31T14:36:00.889Z",
+  "ts": "2026-03-31T14:36:32.108Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4218467408",
+    "type": "OUTBOUND",
+    "message_id": "4218468025",
     "ticket_id": "938678944",
-    "message": "Without deposit?",
-    "channel_id": "1304636",
+    "message": "The security deposit is AED 2,000 for a 2BR, fully refundable within 14 working days after check-out. Everything else is included, VAT, water, electricity, and internet.\n\nWant me to send the contract so we can get you moved in today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535236470",
     "contact_name": "A.S",
     "contact_identifier": "+971585616647",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
