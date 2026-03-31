@@ -707,7 +707,11 @@ CHECK EACH RULE:
 7. NO EM DASHES — Does the draft contain — or – characters?
 
 If ALL checks pass, respond with exactly one word: APPROVED
-If ANY check fails, respond with FAIL on line 1, then a corrected reply on line 2+ that fixes ONLY the issues. Keep the same intent and warmth.`;
+
+If ANY check fails:
+- Line 1: the word FAIL
+- Line 2 onwards: ONLY the corrected message text, exactly as it should be sent to the customer on WhatsApp.
+- CRITICAL: Do NOT include any explanation, bullet points, rule names, "Issues fixed:", or any commentary after the corrected reply. The corrected reply is the LAST thing you write. Nothing after it.`;
 
   try {
     const r = await fetch('https://api.anthropic.com/v1/messages', {
@@ -736,7 +740,20 @@ If ANY check fails, respond with FAIL on line 1, then a corrected reply on line 
     // Extract corrected reply (everything after the FAIL line)
     const lines = out.split('\n');
     const failLine = lines[0];
-    const corrected = lines.slice(1).join('\n').trim();
+    let correctedLines = lines.slice(1);
+
+    // Safety: strip any line that looks like reasoning/commentary leaked in
+    // Stop at the first line that starts with **, --, "Issues", "Note:", "Rule", etc.
+    const reasoningPattern = /^(\*\*|--|Issues|Note:|Rule\s*\d|Actually,|Let me|I need|Re-check)/i;
+    const cutoff = correctedLines.findIndex(l => reasoningPattern.test(l.trim()));
+    if (cutoff !== -1) correctedLines = correctedLines.slice(0, cutoff);
+
+    // Also strip surrounding quotes if the critic wrapped the reply in them
+    let corrected = correctedLines.join('\n').trim();
+    if (corrected.startsWith('"') && corrected.includes('"', 1)) {
+      const end = corrected.lastIndexOf('"');
+      corrected = corrected.slice(1, end).trim();
+    }
 
     if (corrected && corrected.length > 10) {
       console.log(`[auto-reply] Critic: ${failLine} — using revised reply`);
