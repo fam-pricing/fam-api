@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-01T13:54:43.793Z",
+  "ts": "2026-04-01T13:56:06.945Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4219438463",
+    "type": "OUTBOUND",
+    "message_id": "4219439950",
     "ticket_id": "939098618",
-    "message": "And what about this?",
-    "channel_id": "1304636",
+    "message": "Yes, you can always send us a message here. We are available from 9:00 AM to 9:00 PM.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535230088",
     "contact_name": "Roman Wagner",
     "contact_identifier": "+971585412443",
-    "parent_message_id": "4219414914",
-    "parent_ticket_id": "939091162",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
