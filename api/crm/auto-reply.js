@@ -27,6 +27,7 @@ import {
   CRM_FILE, PENDING_FILE, PLAYBOOK_FILE, LISTINGS_FILE, REF_MAP_FILE, METRICS_FILE,
   TRENGO_API, getDubaiHour, isNightShift, DUBAI_OFFSET_HOURS,
 } from '../../lib/crm.js';
+import { Redis } from '@upstash/redis';
 import { getListingMapsUrl } from '../../lib/guesty.js';
 
 const GH_API     = 'https://api.github.com';
@@ -40,6 +41,47 @@ const READ_DELAY_JITTER    = 3000; // random jitter (0-3s) to desynchronize conc
 const AGENT_COOLDOWN_MS    = 3 * 60 * 1000; // 3 min — bot's own outbound replies were triggering 15min lockout
 const PENDING_GRACE_MS     = 15000; // 15s grace: treat msgs arriving up to 15s BEFORE last bot reply as still pending
                                     // Fixes race condition: lead sent msg 1s before bot reply → was silently dropped
+const TICKET_LOCK_TTL_S    = 45;   // Per-ticket Redis lock TTL in seconds
+const ATTACHMENT_TYPES     = new Set(['IMAGE', 'DOCUMENT', 'AUDIO', 'VIDEO', 'FILE']);
+
+// ── Per-ticket Redis lock (prevents duplicate replies from concurrent webhooks) ─
+// Uses Redis SETNX with TTL. If two webhooks arrive for the same ticket simultaneously,
+// only the first one acquires the lock. The second sees the lock and returns 200 immediately.
+// This is the root fix for the duplicate message bug (ticket 938813587).
+
+let _lockRedis = null;
+function getLockRedis() {
+  if (_lockRedis) return _lockRedis;
+  const url = process.env.UPSTASH_REDIS_REST_URL;
+  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
+  if (!url || !token) return null;
+  _lockRedis = new Redis({ url, token });
+  return _lockRedis;
+}
+
+async function acquireTicketLock(ticketId) {
+  const redis = getLockRedis();
+  if (!redis) return true; // no Redis → no lock → proceed (graceful degradation)
+  try {
+    // SET key value NX EX ttl — returns 'OK' if set, null if already exists
+    const result = await redis.set(`fam:lock:${ticketId}`, Date.now(), { nx: true, ex: TICKET_LOCK_TTL_S });
+    return result === 'OK';
+  } catch (e) {
+    console.warn('[auto-reply] Redis lock acquire failed, proceeding without lock:', e?.message);
+    return true; // graceful degradation
+  }
+}
+
+async function releaseTicketLock(ticketId) {
+  const redis = getLockRedis();
+  if (!redis) return;
+  try {
+    await redis.del(`fam:lock:${ticketId}`);
+  } catch (e) {
+    console.warn('[auto-reply] Redis lock release failed:', e?.message);
+    // TTL will auto-expire, so this is not critical
+  }
+}
 
 // ── Time helpers (imported from lib/crm.js, kept for night-shift check) ──────
 // getDubaiHour, isNightShift, DUBAI_OFFSET_HOURS — all from lib/crm.js import above
@@ -645,13 +687,14 @@ BOT'S DRAFT REPLY:
 "${draftReply}"
 
 CHECK EACH RULE:
-1. ANSWERED ALL QUESTIONS — Did the draft address EVERY question or request in the lead's message(s)? If the lead asked multiple things, ALL must be answered.
-2. NO REPETITION — Does the draft restate information already given in previous Bot messages above?
-3. NO RULE LEAKAGE — Does the draft mention internal rule names, instructions, or reasoning? (e.g. "Per the BUDGET rule", "According to my instructions", "The lead has said")
-4. SOUNDS HUMAN — Does it sound like a real person on WhatsApp? Red flags: bullet points, "Certainly!", "I'd be happy to help!", multiple exclamation marks, overly formal tone.
-5. CORRECT PROPERTY — Does the draft reference the correct property? Does it invent details not present in the conversation?
-6. NO UNSOLICITED TOPICS — Does the draft bring up topics the lead never asked about (deposits, cleaning, policies, pets)?
-7. NO EM DASHES — Does the draft contain — or – characters?
+1. ANSWERED ALL QUESTIONS — Did the draft address EVERY question or request in the lead's message(s)? If the lead asked multiple things, ALL must be answered. Check the UNANSWERED LEAD MESSAGES section carefully.
+2. ENGAGED WITH LEAD CONTEXT — If the lead provided specific information (move-in date, contract length, budget, payment preference, timeline), does the draft acknowledge it? A reply that ignores context the lead provided is a FAIL.
+3. NO REPETITION — Does the draft restate information already given in previous Bot messages above?
+4. NO RULE LEAKAGE — Does the draft mention internal rule names, instructions, or reasoning? (e.g. "Per the BUDGET rule", "According to my instructions", "The lead has said")
+5. SOUNDS HUMAN — Does it sound like a real person on WhatsApp? Red flags: bullet points, "Certainly!", "I'd be happy to help!", multiple exclamation marks, overly formal tone.
+6. CORRECT PROPERTY — Does the draft reference the correct property? Does it invent details not present in the conversation?
+7. NO UNSOLICITED TOPICS — Does the draft bring up topics the lead never asked about (deposits, cleaning, policies, pets)?
+8. NO EM DASHES — Does the draft contain — or – characters?
 
 If ALL checks pass, respond with exactly one word: APPROVED
 
@@ -831,7 +874,7 @@ function sanitizeInput(text) {
 
 // ── Claude AI reply ───────────────────────────────────────────────────────────
 
-async function generateReply(conversation, leadMeta, newMessage, leadName) {
+async function generateReply(conversation, leadMeta, newMessage, leadName, pendingMessages) {
   const apiKey  = process.env.ANTHROPIC_API_KEY;
   const playbook = await loadPlaybook();
 
@@ -973,7 +1016,9 @@ RULES — follow exactly, no exceptions:
 - HOUSEKEEPING UPSELL: When a lead is discussing move-in, confirming a viewing, or finalising booking details, you may proactively mention that fäm Living offers a paid housekeeping service (linen change, vacuuming, mopping, trash disposal, amenity replenishment). Quote the price for their unit size: 1BR AED 160/visit, 2BR AED 265/visit, 3BR AED 315/visit, 4BR AED 420/visit, Penthouse/Duplex AED 650/visit. Keep it brief. Do NOT mention housekeeping if the conversation is purely about pricing, availability, or viewings.
 - NEVER BE CONDESCENDING: Do not say "I see the confusion here", "Let me clarify", "I think you mean", "Actually...", or anything that implies the lead is wrong or confused.
 - READ THE FULL CONVERSATION: Before replying, read the entire conversation history above carefully. Understand what the lead has said across ALL messages, not just the last one. If the lead corrected themselves, act on the correction.
-- ANSWER ALL PENDING QUESTIONS: Leads often send several messages in a row before you reply. Look at ALL inbound messages since your last reply and make sure every question or request is addressed.
+- ANSWER ALL PENDING QUESTIONS: Leads often send several messages in a row before you reply. A summary of ALL unanswered lead messages will be listed below under "UNANSWERED LEAD MESSAGES". You MUST address EVERY question, request, and piece of information from ALL of these messages in your reply. Do not skip any.
+- ENGAGE WITH EVERYTHING THE LEAD SAYS: When a lead provides specific information (move-in date, contract length, budget, number of months, payment preference, timeline), you MUST acknowledge it specifically in your reply. For example: if the lead says "I move 4 April" and "6 months contract, pay monthly", your reply must reference April 4, 6 months, and monthly payment. NEVER reply with just the price and "What would you like to know?" when the lead has given you context to work with.
+- NEGOTIATE AND ADAPT: You are a world-class sales agent, not a FAQ bot. When a lead gives budget info, work with it. When they state preferences, confirm you can accommodate. When they share move-in dates, confirm availability for that date. Be proactive, not reactive. Connect the dots between what they said and what you can offer.
 - AGENT OVERRIDE, HIGHEST PRIORITY: If you see messages from "Agent (Faysal)" in the conversation history, those are manual interventions by the human manager. Any specific price, exception, condition, or promise made by Agent (Faysal) is an ABSOLUTE OVERRIDE of your standard rules. Honor it exactly, no exceptions.
 - Keep it short, warm, human. No em dashes or en dashes, use commas or periods instead. No emojis of any kind in replies.
 - NEVER self-correct inside the message field. Do NOT write "Wait, I used...", "Let me redo", "FAIL", or any revision notes into the message. If you make a mistake, just fix it silently. The message field must contain ONLY the final reply text — nothing else.
@@ -981,12 +1026,27 @@ RULES — follow exactly, no exceptions:
 - NEVER REPEAT A CTA: If you already offered a next step (e.g., "Want me to send the contract?", "Shall I get payment details?") and the lead did NOT respond to it — they kept asking other questions instead — do NOT repeat that offer. Just answer what they asked. Repeating ignored CTAs is pushy and destroys trust.
 - BUDGET OBJECTION: If the lead says ANYTHING suggesting the price is too high or over budget, do NOT repeat the price. Acknowledge and ask: "Understood! What budget are you working with? I can check what options we have for you."
 - PRICING MATH: Prices are seasonal and only locked for 3 months. NEVER calculate or quote a total for more than 3 months. If asked about 4+ months, quote the current monthly rate, explain rates are confirmed in 3-month blocks, then escalate with reason "lead asking about long-term pricing beyond 3 months".
+- DO NOT OVER-ESCALATE: You can and should answer simple questions yourself. Availability dates ("available from October?"), contract lengths ("yearly contract?"), move-in timelines, pricing, deposit info, viewing scheduling are ALL within your capability. ONLY escalate when you truly cannot answer (unknown property, technical issue, lead demands a human, pricing beyond 3 months, custom negotiations you have no data for). When in doubt, answer confidently using the portfolio and conversation context.
 - HUMAN/AGENT REQUESTS: If a lead asks to speak to a human, agent, person, or anyone from the team, or asks for a phone number, escalate immediately with reason "lead requesting human agent" and holding message "Of course, let me get someone from the team for you right away."
 - VIEWING RULES: NEVER proactively suggest, offer, or propose a viewing. Only discuss viewings if the lead explicitly asks to visit, see, or view the property. When a lead does ask: viewings are available any day 9am-6pm. ONLY call book_viewing when the lead gives a SPECIFIC day AND time. If they ask without a time, ask "Sure! What day and time works for you? Viewings are available any day between 9am and 6pm." Do NOT say "let me check" or "let me confirm". If the time is outside 9am-6pm, tell them the window and ask for another time.
 
 You MUST call exactly one tool. Choose the right tool based on your confidence level.`;
 
-  const userMessage = `Conversation so far:\n${history}\n\nLead just sent: "${newMessage}"`;
+  // Build explicit list of ALL unanswered lead messages (not just the latest webhook message)
+  // This ensures Claude sees every question/statement the lead sent since the bot's last reply
+  let pendingSection = '';
+  if (pendingMessages && pendingMessages.length > 0) {
+    const pendingTexts = pendingMessages
+      .map(m => (m.body || m.text || m.message || '').trim())
+      .filter(t => t && t !== '[attachment]');
+    if (pendingTexts.length > 1) {
+      pendingSection = `\n\nUNANSWERED LEAD MESSAGES (you MUST address ALL of these):\n${pendingTexts.map((t, i) => `${i + 1}. "${t}"`).join('\n')}`;
+    } else if (pendingTexts.length === 1) {
+      pendingSection = `\n\nUNANSWERED LEAD MESSAGES (you MUST address ALL of these):\n1. "${pendingTexts[0]}"`;
+    }
+  }
+
+  const userMessage = `Conversation so far:\n${history}${pendingSection}\n\nLead just sent: "${newMessage}"`;
 
   // Retry up to 3 times for transient Anthropic errors (529 overloaded, 503, 500)
   // before giving up and escalating. Delays: 3s, 6s, 12s.
@@ -1272,7 +1332,6 @@ export default async function handler(req, res) {
   // ── INBOUND (lead is speaking) or attachment (IMAGE/DOCUMENT) ─────────────
   // Standard text = type 'INBOUND'. WhatsApp images/documents = type 'IMAGE' or 'DOCUMENT'.
   // Trengo treats both as inbound semantically but uses different type fields.
-  const ATTACHMENT_TYPES = new Set(['IMAGE', 'DOCUMENT', 'AUDIO', 'VIDEO', 'FILE']);
   const isAttachmentMsg  = ATTACHMENT_TYPES.has(messageType);
   // Extract attachment URL from multiple possible locations in the Trengo webhook payload
   const attachmentUrl    = body?.attachment_url
@@ -1331,9 +1390,35 @@ export default async function handler(req, res) {
     return metricsResponse(res, 200, { ok: true, skipped: 'Agent cooldown active' }, cooldownEvent);
   }
 
+  // Extract message ID early for dedup (needed both inside and outside lock)
+  const incomingMsgId_raw = String(body?.message_id || body?.message?.id || '');
+
+  // ── Per-ticket Redis lock — prevent duplicate replies from concurrent webhooks ──
+  // Must be BEFORE any AI call or message send. If another instance is already handling
+  // this ticket, bail out immediately. Lock is released at end of handler or on early exit.
+  const lockAcquired = await acquireTicketLock(ticketId);
+  if (!lockAcquired) {
+    console.log(`[auto-reply] Ticket ${ticketId} locked by another instance — skipping to prevent duplicate reply`);
+    const lockEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'ticket_locked');
+    return metricsResponse(res, 200, { ok: true, skipped: 'Ticket locked by another instance' }, lockEvent);
+  }
+
+  // From here on, we hold the lock. Use try/finally to guarantee release.
+  try {
+    return await handleInboundWithLock(req, res, body, ticketId, leadId, leadMeta, leadName, crmState, sha, messageText, messageType, isAttachmentMsg, attachmentUrl, incomingMsgId_raw, webhookStartTime);
+  } finally {
+    await releaseTicketLock(ticketId);
+  }
+}
+
+// ── Locked inbound handler (all logic that runs under per-ticket Redis lock) ──
+async function handleInboundWithLock(req, res, body, ticketId, leadId, leadMeta, leadName, crmState, sha, messageText, messageType, isAttachmentMsg, attachmentUrl, incomingMsgId_raw, webhookStartTime) {
+
+  const dubaiHour = getDubaiHour();
+
   // Message-ID deduplication: skip if this exact message was already processed
   // (prevents double-reply when Trengo fires the same webhook twice)
-  const incomingMsgId = String(body?.message_id || body?.message?.id || '');
+  const incomingMsgId = incomingMsgId_raw;
   if (incomingMsgId && leadMeta.last_processed_message_id === incomingMsgId) {
     const dupEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'duplicate_message_id');
     return metricsResponse(res, 200, { ok: true, skipped: `Duplicate message_id ${incomingMsgId}` }, dupEvent);
@@ -1527,7 +1612,7 @@ export default async function handler(req, res) {
     return metricsResponse(res, 200, { ok: true, skipped: 'Agent replied recently in Trengo — bot standing down', dubaiHour }, agentGuardEvent);
   }
 
-  let { reply, escalate, reason, viewing, pendingViewing } = await generateReply(conversation, leadMeta, messageText, leadName);
+  let { reply, escalate, reason, viewing, pendingViewing } = await generateReply(conversation, leadMeta, messageText, leadName, pendingInbound);
 
   // ── Self-critique gate — Sonnet reviews the reply before it reaches the lead ──
   // Only runs for normal replies (not escalations/viewings — those have their own logic)
