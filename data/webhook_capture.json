@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-01T12:14:16.703Z",
+  "ts": "2026-04-01T12:14:34.811Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4219315035",
+    "type": "OUTBOUND",
+    "message_id": "4219315415",
     "ticket_id": "938803090",
-    "message": "Which number he will contact?",
-    "channel_id": "585723",
+    "message": "Our Guest Relations team has been trying to contact him before, but we have not received any response.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535274790",
     "contact_name": "B",
     "contact_identifier": "+971501327638",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
