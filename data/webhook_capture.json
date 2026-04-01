@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-01T15:18:37.136Z",
+  "ts": "2026-04-01T15:18:58.686Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4219529276",
+    "type": "OUTBOUND",
+    "message_id": "4219529564",
     "ticket_id": "939121850",
-    "message": "Hi",
-    "channel_id": "1304636",
+    "message": "Hi! Welcome. Do you have any questions about the 2BR in Urban Oasis?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535336014",
     "contact_name": "Julia",
     "contact_identifier": "+971554766969",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
