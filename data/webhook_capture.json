@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-01T12:05:06.964Z",
+  "ts": "2026-04-01T12:05:08.334Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4219305449",
+    "type": "OUTBOUND",
+    "message_id": "4219305467",
     "ticket_id": "939053438",
-    "message": "I might extend 1 more month",
-    "channel_id": "1304636",
+    "message": "we would like to inform you that, according to the building management rules, only guests aged 18 and above are allowed to stay. Children are not permitted in the apartment.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "510552599",
     "contact_name": "Hussein Redjili & Roberta Ventrice",
     "contact_identifier": "+971551855900",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
