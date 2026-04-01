@@ -1430,17 +1430,29 @@ export default async function handler(req, res) {
   // When the bot sends a message, Trengo immediately fires an OUTBOUND webhook for it.
   // If we treat this as an "agent reply", last_agent_reply_at gets set → 3-min cooldown
   // fires after EVERY bot reply → lead messages go unanswered.
-  // Fix: compare content. The bot's own echo will have identical text to last_bot_reply_content.
+  //
+  // FIX (2026-04-01): Content comparison was failing due to Redis race conditions — bot
+  // writes last_bot_reply_content but the OUTBOUND webhook reads stale CRM state.
+  // New approach: TWO detection methods (either one = bot echo):
+  //   1. Content match (original, still useful when CRM is fresh)
+  //   2. Time-based: if OUTBOUND arrives within 30s of last_bot_reply_at, it's almost
+  //      certainly the bot's own echo (Trengo echoes arrive within 1-5s)
   if (messageType === 'OUTBOUND' && messageText) {
-    // Normalize whitespace/line breaks for comparison — Trengo/WhatsApp may alter formatting
+    // Method 1: Content comparison
     const normEcho = s => (s || '').replace(/\s+/g, ' ').trim().toLowerCase();
     const lastBotContent = normEcho(leadMeta.last_bot_reply_content || '');
-    const isBotEcho = lastBotContent && normEcho(messageText) === lastBotContent;
-    if (isBotEcho) {
-      console.log(`[auto-reply] Bot echo ignored on ticket ${ticketId} — content matches last bot reply`);
+    const isBotEchoContent = lastBotContent && normEcho(messageText) === lastBotContent;
+
+    // Method 2: Time-based — OUTBOUND within 30s of bot's last reply is almost certainly the echo
+    const BOT_ECHO_WINDOW_MS = 30000; // 30 seconds
+    const lastBotAt = leadMeta.last_bot_reply_at ? new Date(leadMeta.last_bot_reply_at).getTime() : 0;
+    const isBotEchoTime = lastBotAt && (Date.now() - lastBotAt < BOT_ECHO_WINDOW_MS);
+
+    if (isBotEchoContent || isBotEchoTime) {
+      console.log(`[auto-reply] Bot echo ignored on ticket ${ticketId} — content=${isBotEchoContent} time=${isBotEchoTime} (${lastBotAt ? Math.round((Date.now() - lastBotAt)/1000) + 's ago' : 'no ts'})`);
       return res.status(200).json({ ok: true, action: 'bot_echo_ignored' });
     }
-    // Content is different → Faysal typed this manually
+    // Content is different AND more than 30s since last bot reply → Faysal typed this manually
     crmState[leadId].last_agent_reply_at = new Date().toISOString();
     await learnFromAgentReply(ticketId, messageText, leadMeta, crmState, leadId, sha);
     return res.status(200).json({ ok: true, action: 'agent_reply_tracked' });
