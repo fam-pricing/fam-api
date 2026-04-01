@@ -1330,5 +1330,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-04-01T09:09:52.963Z",
+    "ticket_id": 938989637,
+    "lead_id": "message_lead_28545911",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 25371,
+    "critic_pass": null,
+    "lead_quality": 5,
+    "buying_stage": "COLD",
+    "skip_reason": "Lead asking about pet policy for 3BR in Dubai Creek Residences North Tower 2. Per playbook, pet approval must never be confirmed by bot, always escalate to Faysal. Also need to confirm availability is confirmed, but pet question requires human."
   }
 ]
