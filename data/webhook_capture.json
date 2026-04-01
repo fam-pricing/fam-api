@@ -1,17 +1,20 @@
 {
-  "ts": "2026-03-31T23:03:12.726Z",
+  "ts": "2026-04-01T02:12:46.913Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4218782209",
-    "ticket_id": "938148695",
-    "message": "Please book for me only for 1month",
+    "type": "OUTBOUND",
+    "message_id": "4218865233",
+    "ticket_id": "938731576",
+    "message": "Sure what time I’m convenient for you",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535252217",
+    "contact_name": "Aliaksandra",
+    "contact_identifier": "+995591964242",
     "channel_id": "1304636",
-    "contact_id": "535119429",
-    "contact_name": "Only God",
-    "contact_identifier": "+971504133080",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
