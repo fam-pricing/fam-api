@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-01T02:31:45.637Z",
+  "ts": "2026-04-01T03:19:37.409Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4218869261",
-    "ticket_id": "938813587",
-    "message": "7000 is the best price, we can lock in this price for 3 months only",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "535277553",
-    "contact_name": "Mina",
-    "contact_identifier": "+971585572776",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4218878697",
+    "ticket_id": "938212670",
+    "message": "You mean from 1-10?",
+    "channel_id": "585723",
+    "contact_id": "535130282",
+    "contact_name": "Ariean Maleklo",
+    "contact_identifier": "+971523718586",
+    "parent_message_id": "4218745755",
+    "parent_ticket_id": "938212670",
+    "event_type": "INBOUND"
   }
 }
