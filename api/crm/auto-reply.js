@@ -682,6 +682,91 @@ const STAGE_GUIDANCE = {
 // If it fails, Sonnet rewrites it. Adds ~1-2s per message and catches the
 // mistakes that lose leads: missed questions, repetition, rule leaks, bad tone.
 
+// ── Pre-escalation critic — fires BEFORE any escalation reaches the lead ─────
+// When Claude decides to escalate_to_faysal, this critic reviews whether the
+// escalation is genuinely justified, or whether the bot CAN and SHOULD answer
+// itself using the available portfolio and conversation context.
+// Completely invisible to the lead — no message is sent, no delay they see.
+// Returns: { shouldEscalate: true|false, reason: string }
+// If shouldEscalate = false, caller retries Claude with a nudge to answer directly.
+
+async function preEscalationCritic(escalationReason, holdingMessage, conversation, newMessage, leadName, portfolioContext, property) {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) return { shouldEscalate: true }; // no key → don't block
+
+  const recentHistory = conversation.slice(-8).map(m => {
+    const isIn = (m.type || '').toUpperCase() === 'INBOUND' || m.from === 'lead';
+    return `${isIn ? 'Lead' : 'Bot/Agent'}: ${(m.body || m.text || m.message || '').trim().slice(0, 200)}`;
+  }).join('\n');
+
+  const criticPrompt = `You are a quality gate for a Dubai holiday home rental bot. The bot wants to escalate to a human manager instead of answering the lead itself.
+
+LEAD: ${leadName}
+PROPERTY: ${property}
+
+CONVERSATION:
+${recentHistory}
+
+LEAD'S LATEST MESSAGE: "${newMessage}"
+
+BOT'S ESCALATION REASON: "${escalationReason}"
+
+AVAILABLE PORTFOLIO:
+${portfolioContext || '(no portfolio data)'}
+
+JUDGE: Is this escalation GENUINELY necessary, or can the bot handle this itself?
+
+Things the bot CAN and MUST handle without escalating:
+- Availability questions ("available from October?", "available in April?")
+- Contract length questions ("yearly contract?", "6 months?", "monthly?")
+- Pricing questions — use the portfolio data above
+- Viewing scheduling (any day 9am-6pm)
+- Deposit questions (damage deposit: 1K studio, 1.5K 1BR, 2K 2BR+)
+- Multiple unit requests — show what's available in the portfolio
+- Short-term requests — show options and let Faysal confirm if lead proceeds
+- General availability of buildings in portfolio
+
+Things that GENUINELY require escalation:
+- Lead explicitly asks to speak to a human
+- Property cannot be identified at all (ref not in any mapping)
+- Pricing beyond 3 months (after quoting monthly rate and explaining 3-month blocks)
+- Unit not in portfolio and lead is serious about it specifically
+- Custom deal terms or legal questions
+
+Respond with EXACTLY one of these two formats:
+HANDLE_IT: [one sentence on what the bot should say/do instead]
+ESCALATE_OK: [one sentence on why this genuinely requires human]`;
+
+  try {
+    const r = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 120,
+        messages: [{ role: 'user', content: criticPrompt }],
+      }),
+    });
+    if (!r.ok) {
+      console.warn('[auto-reply] Pre-escalation critic API error, allowing escalation');
+      return { shouldEscalate: true };
+    }
+    const d = await r.json();
+    const out = (d?.content?.[0]?.text || '').trim();
+    console.log(`[auto-reply] Pre-escalation critic verdict: "${out.substring(0, 120)}"`);
+
+    if (/^HANDLE_IT:/i.test(out)) {
+      const guidance = out.replace(/^HANDLE_IT:\s*/i, '').trim();
+      return { shouldEscalate: false, guidance };
+    }
+    // ESCALATE_OK or anything else → allow escalation
+    return { shouldEscalate: true };
+  } catch (e) {
+    console.warn('[auto-reply] Pre-escalation critic failed, allowing escalation:', e?.message);
+    return { shouldEscalate: true };
+  }
+}
+
 async function critiqueReply(draftReply, conversation, newMessage, leadName) {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey || !draftReply) return { pass: true, finalReply: draftReply };
@@ -889,7 +974,7 @@ function sanitizeInput(text) {
 
 // ── Claude AI reply ───────────────────────────────────────────────────────────
 
-async function generateReply(conversation, leadMeta, newMessage, leadName, pendingMessages) {
+async function generateReply(conversation, leadMeta, newMessage, leadName, pendingMessages, _retryingAfterCritic = false, _criticNudge = '') {
   const apiKey  = process.env.ANTHROPIC_API_KEY;
   const playbook = await loadPlaybook();
 
@@ -1061,7 +1146,7 @@ You MUST call exactly one tool. Choose the right tool based on your confidence l
     }
   }
 
-  const userMessage = `Conversation so far:\n${history}${pendingSection}\n\nLead just sent: "${newMessage}"`;
+  const userMessage = `Conversation so far:\n${history}${pendingSection}\n\nLead just sent: "${newMessage}"${_criticNudge}`;
 
   // Retry up to 3 times for transient Anthropic errors (529 overloaded, 503, 500)
   // before giving up and escalating. Delays: 3s, 6s, 12s.
@@ -1155,6 +1240,23 @@ You MUST call exactly one tool. Choose the right tool based on your confidence l
     if (toolName === 'escalate_to_faysal') {
       const reason = (toolArgs.reason || 'Unknown reason').trim();
       const holding = cleanMsg(toolArgs.holding_message) || "Let me check that for you and come back shortly!";
+
+      // ── Pre-escalation critic: should this really escalate? ────────────────
+      // Completely invisible to the lead. Adds ~1s. Only runs once (no infinite loop).
+      // If critic says HANDLE_IT → retry Claude with a strong nudge to answer directly.
+      if (!_retryingAfterCritic) {
+        const { shouldEscalate, guidance } = await preEscalationCritic(
+          reason, holding, conversation, newMessage, leadName, portfolioContext, property
+        );
+        if (!shouldEscalate) {
+          console.log(`[auto-reply] Pre-escalation critic blocked escalation — retrying with nudge. Guidance: "${guidance}"`);
+          // Build retry user message with an explicit nudge injected at the end
+          const nudge = `\n\nINTERNAL QUALITY CHECK (not visible to lead): You were about to escalate with reason "${reason}". This escalation was blocked. ${guidance} You MUST use send_reply and answer directly using the portfolio data and conversation above. Do NOT call escalate_to_faysal.`;
+          // Single retry — _retryingAfterCritic=true prevents infinite loop
+          return await generateReply(conversation, leadMeta, newMessage, leadName, pendingMessages, true, nudge);
+        }
+      }
+
       return { reply: holding, escalate: true, reason, viewing: null };
     }
 
