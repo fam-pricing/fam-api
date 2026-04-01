@@ -1559,6 +1559,14 @@ async function handleInboundWithLock(req, res, body, ticketId, leadId, leadMeta,
   // Bot is waiting for passport/EID after confirming a viewing time.
   // Handle BEFORE the pendingInbound stale-webhook check — image messages may not
   // appear as type='INBOUND' in the conversation thread so the check would skip them.
+  //
+  // IMPORTANT (2026-04-01): Trengo sends image messages as type:"INBOUND" with
+  // message:"Image" (NOT type:"IMAGE"). No attachment_url is included in the webhook.
+  // Same pattern for "Video", "Document", "Audio", "Sticker", "Contact card", "Location".
+  // We detect these by matching the message text against known Trengo placeholder strings.
+  const TRENGO_ATTACHMENT_PLACEHOLDERS = /^(image|video|document|audio|sticker|contact card|location|gif)$/i;
+  const isTrengoAttachmentText = TRENGO_ATTACHMENT_PLACEHOLDERS.test((messageText || '').trim());
+
   if (leadMeta.viewing_status === 'pending_id') {
     // Auto-escalate if pending ID for too long (6 hours) — lead may have lost interest
     const pendingSince = leadMeta.viewing_pending_since ? new Date(leadMeta.viewing_pending_since).getTime() : 0;
@@ -1588,7 +1596,10 @@ async function handleInboundWithLock(req, res, body, ticketId, leadId, leadMeta,
       }
     }
 
-    if (isAttachmentMsg || receivedAttachmentUrl) {
+    // Detect attachment via: explicit type (IMAGE/DOCUMENT), URL found, OR Trengo's
+    // placeholder text ("Image", "Document", etc.) — Trengo sends images as type:INBOUND
+    // with message:"Image" and no attachment_url (confirmed via webhook capture 2026-04-01).
+    if (isAttachmentMsg || receivedAttachmentUrl || isTrengoAttachmentText) {
       // ── ID received — send Maps link, post internal note, assign team, pause ──
       console.log(`[auto-reply] Viewing ID received for ${leadName} (ticket ${ticketId})`);
 
