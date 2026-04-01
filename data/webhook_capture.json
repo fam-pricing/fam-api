@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-01T08:05:37.049Z",
+  "ts": "2026-04-01T08:05:48.094Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4219031299",
-    "ticket_id": "929471179",
-    "message": "You may come today to collect your deposit in cash before 5 PM",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "532895218",
-    "contact_name": "Lorenzo Chiari Sanchez",
-    "contact_identifier": "+393311758498",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4219031467",
+    "ticket_id": "938956124",
+    "message": "You will revise the check in date?",
+    "channel_id": "1304636",
+    "contact_id": "535230088",
+    "contact_name": "Roman Wagner",
+    "contact_identifier": "+971585412443",
+    "parent_message_id": "4219030532",
+    "parent_ticket_id": "938956124",
+    "event_type": "INBOUND"
   }
 }
