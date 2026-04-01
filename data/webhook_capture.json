@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-01T06:38:50.121Z",
+  "ts": "2026-04-01T06:40:17.237Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4218943661",
-    "ticket_id": "938915004",
-    "message": "Sure, we will send you the payment link shortly",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535286912",
-    "contact_name": "PARAG MARUTI NAYAK",
-    "contact_identifier": "+918867421967",
+    "type": "INBOUND",
+    "message_id": "4218944612",
+    "ticket_id": "938212670",
+    "message": "Not that one",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "535130282",
+    "contact_name": "Ariean Maleklo",
+    "contact_identifier": "+971523718586",
+    "parent_message_id": "4218932825",
+    "parent_ticket_id": "938212670",
+    "event_type": "INBOUND"
   }
 }
