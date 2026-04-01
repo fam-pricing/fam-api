@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-01T10:48:20.374Z",
+  "ts": "2026-04-01T10:48:33.061Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4219220870",
-    "ticket_id": "938989637",
-    "message": "Document",
+    "type": "OUTBOUND",
+    "message_id": "4219221164",
+    "ticket_id": "939021657",
+    "message": "Perfect, head over whenever you're ready! Just let us know when you're on your way and we'll have someone there to show you around.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535308552",
+    "contact_name": "Neelima",
+    "contact_identifier": "+971524995170",
     "channel_id": "1304636",
-    "contact_id": "535301507",
-    "contact_name": "Nick",
-    "contact_identifier": "+971582740571",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
