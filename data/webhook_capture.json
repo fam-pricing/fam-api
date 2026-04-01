@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-01T06:16:13.713Z",
+  "ts": "2026-04-01T06:16:37.096Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4218929181",
+    "type": "OUTBOUND",
+    "message_id": "4218929359",
     "ticket_id": "938929150",
-    "message": "Hello",
-    "channel_id": "1304636",
+    "message": "Hey Avinash! Welcome. Do you have any questions about the Reehan 1 apartment, or is there anything specific you'd like to know?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535289342",
     "contact_name": "Avinash",
     "contact_identifier": "+917709326007",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
