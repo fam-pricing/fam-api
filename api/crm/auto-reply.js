@@ -1604,15 +1604,27 @@ async function handleInboundWithLock(req, res, body, ticketId, leadId, leadMeta,
       console.log(`[auto-reply] Viewing ID received for ${leadName} (ticket ${ticketId})`);
 
       // Resolve building name from listing_title for Guesty lookup
+      // listing_title can be: PF ref ("PF-HH-AR-109427"), PF URL, "1BR in Building", or building name
       const rawListing   = leadMeta.listing_title || '';
       let buildingForMaps = rawListing;
-      if (/^PF-HH-AR-/i.test(rawListing)) {
-        try {
-          const { data: refMap } = await ghRead(REF_MAP_FILE);
+      try {
+        const [{ data: refMap }, { data: urlMap }] = await Promise.all([
+          ghRead(REF_MAP_FILE),
+          ghRead(REF_URL_FILE),
+        ]);
+        if (/^PF-HH-AR-/i.test(rawListing)) {
+          // Direct PF ref lookup
           const m = refMap?.[rawListing];
           if (m?.building) buildingForMaps = m.building;
-        } catch {}
-      }
+        } else if (/propertyfinder\.ae/i.test(rawListing) && urlMap) {
+          // listing_title is a PF URL — reverse-lookup: find which PF ref maps to this URL
+          const matchingRef = Object.entries(urlMap).find(([, url]) => url === rawListing);
+          if (matchingRef && refMap?.[matchingRef[0]]?.building) {
+            buildingForMaps = refMap[matchingRef[0]].building;
+            console.log(`[auto-reply] Resolved PF URL → ${matchingRef[0]} → ${buildingForMaps}`);
+          }
+        }
+      } catch {}
 
       // Fetch Google Maps URL from Guesty — STRICT: only real coordinates, no fallback URLs
       const mapsUrl = await getListingMapsUrl(buildingForMaps);
