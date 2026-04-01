@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-01T07:17:54.115Z",
+  "ts": "2026-04-01T07:20:02.510Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4218976971",
-    "ticket_id": "938616483",
-    "message": "I have emailed but no one has responded, please may you check. Thanks",
+    "type": "OUTBOUND",
+    "message_id": "4218979193",
+    "ticket_id": "938915004",
+    "message": "We have already received your payment, so it is not possible to process it again at this time. For any future extensions, you may make the payment via cash or bank transfer.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535286912",
+    "contact_name": "PARAG MARUTI NAYAK",
+    "contact_identifier": "+918867421967",
     "channel_id": "585723",
-    "contact_id": "535221468",
-    "contact_name": "James T",
-    "contact_identifier": "+447807354561",
-    "parent_message_id": "4218230520",
-    "parent_ticket_id": "938616483",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
