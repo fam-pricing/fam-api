@@ -283,11 +283,14 @@ async function escalateTicket(leadName, property, reason, trengoTicketId, conver
 
   // Build a short conversation summary (last 5 messages)
   const recentMsgs = (conversation || [])
-    .filter(m => m.body && m.body.trim())
+    .filter(m => {
+      const txt = m.message || m.body || '';
+      return txt && txt.trim() && !m.internal_note;
+    })
     .slice(-5)
     .map(m => {
-      const who = (m.type === 'outbound' || m.direction === 'outbound') ? 'Bot' : leadName;
-      return `${who}: ${(m.body || '').substring(0, 120)}`;
+      const who = (m.type || '').toUpperCase() === 'OUTBOUND' ? 'Bot' : leadName;
+      return `${who}: ${(m.message || m.body || '').substring(0, 120)}`;
     })
     .join('\n');
 
@@ -516,10 +519,10 @@ async function learnFromAgentReply(ticketId, agentMessage, leadMeta, crmState, l
     try {
       const messages = await getTrengoMessages(ticketId);
       const sorted = messages
-        .filter(m => m.body && m.body.trim())
+        .filter(m => (m.message || m.body || '').trim())
         .sort((a, b) => new Date(b.created_at || 0) - new Date(a.created_at || 0));
       const lastInbound = sorted.find(m => (m.type || '').toUpperCase() === 'INBOUND');
-      if (lastInbound) lastLeadMessage = lastInbound.body.trim();
+      if (lastInbound) lastLeadMessage = (lastInbound.message || lastInbound.body || '').trim();
     } catch (e) {
       console.warn('[auto-reply] Could not fetch messages for paused-bot learning:', e?.message);
     }
@@ -791,10 +794,11 @@ CHECK EACH RULE:
 2. ENGAGED WITH LEAD CONTEXT — If the lead provided specific information (move-in date, contract length, budget, payment preference, timeline), does the draft acknowledge it? A reply that ignores context the lead provided is a FAIL.
 3. NO REPETITION — Does the draft restate information already given in previous Bot messages above?
 4. NO RULE LEAKAGE — Does the draft mention internal rule names, instructions, or reasoning? (e.g. "Per the BUDGET rule", "According to my instructions", "The lead has said")
-5. SOUNDS HUMAN — Does it sound like a real person on WhatsApp? Red flags: bullet points, "Certainly!", "I'd be happy to help!", multiple exclamation marks, overly formal tone.
-6. CORRECT PROPERTY — Does the draft reference the correct property? Does it invent details not present in the conversation?
-7. NO UNSOLICITED TOPICS — Does the draft bring up topics the lead never asked about (deposits, cleaning, policies, pets)?
-8. NO EM DASHES — Does the draft contain — or – characters?
+5. SOUNDS HUMAN — Does it sound like a real person on WhatsApp? Hard FAIL on: bullet points, "Certainly!", "I'd be happy to help!", multiple exclamation marks, overly formal language.
+6. NO DEAD-END CTA — Does the draft end with "let me know if you have any questions", "feel free to ask", "what would you like to know?", "do not hesitate to contact me", "hope that helps", or any other generic open-ended offer? These are FAQ-bot phrases that kill conversations. FAIL and replace the ending with a specific, contextual question or next step that moves the conversation toward booking. For example: "Shall I get the contract started?" or "Want me to send the listing link?" or "Does April 4 still work for you?" — something concrete tied to what was just discussed.
+7. CORRECT PROPERTY — Does the draft reference the correct property? Does it invent details not present in the conversation?
+8. NO UNSOLICITED TOPICS — Does the draft bring up topics the lead never asked about (deposits, cleaning, policies, pets)?
+9. NO EM DASHES — Does the draft contain — or – characters?
 
 If ALL checks pass, respond with exactly one word: APPROVED
 
@@ -1124,8 +1128,10 @@ RULES — follow exactly, no exceptions:
 - NEVER self-correct inside the message field. Do NOT write "Wait, I used...", "Let me redo", "FAIL", or any revision notes into the message. If you make a mistake, just fix it silently. The message field must contain ONLY the final reply text — nothing else.
 - NEVER REPEAT YOURSELF: Do NOT restate facts, prices, policies, or information you have already told this lead in a prior message.
 - NEVER REPEAT A CTA: If you already offered a next step (e.g., "Want me to send the contract?", "Shall I get payment details?") and the lead did NOT respond to it — they kept asking other questions instead — do NOT repeat that offer. Just answer what they asked. Repeating ignored CTAs is pushy and destroys trust.
+- NO DEAD-END CTAs: NEVER end a reply with "let me know if you have any questions", "feel free to ask", "what would you like to know?", "is there anything else I can help you with?", or any similar generic phrase. These sound like a chatbot, not a person. Instead, end with a specific contextual question or next step that moves the conversation forward — tied to what the lead just said. Examples: "Shall I get the contract started?" / "Does April 4 still work as move-in?" / "Want me to send the listing link with photos?"
 - BUDGET OBJECTION: If the lead says ANYTHING suggesting the price is too high or over budget, do NOT repeat the price. Acknowledge and ask: "Understood! What budget are you working with? I can check what options we have for you."
 - PRICING MATH: Prices are seasonal and only locked for 3 months. NEVER calculate or quote a total for more than 3 months. If asked about 4+ months, quote the current monthly rate, explain rates are confirmed in 3-month blocks, then escalate with reason "lead asking about long-term pricing beyond 3 months".
+- NEVER PROMISE TO CHECK: NEVER say "let me check and get back to you", "let me verify", "I'll find out and come back". If you can answer — answer now. If you cannot answer — escalate immediately with escalate_to_faysal. There is no middle ground. "Let me check" is a broken promise that leaves the lead waiting forever.
 - DO NOT OVER-ESCALATE: You can and should answer simple questions yourself. Availability dates ("available from October?"), contract lengths ("yearly contract?"), move-in timelines, pricing, deposit info, viewing scheduling are ALL within your capability. ONLY escalate when you truly cannot answer (unknown property, technical issue, lead demands a human, pricing beyond 3 months, custom negotiations you have no data for). When in doubt, answer confidently using the portfolio and conversation context.
 - HUMAN/AGENT REQUESTS: If a lead asks to speak to a human, agent, person, or anyone from the team, or asks for a phone number, escalate immediately with reason "lead requesting human agent" and holding message "Of course, let me get someone from the team for you right away."
 - VIEWING RULES: NEVER proactively suggest, offer, or propose a viewing. Only discuss viewings if the lead explicitly asks to visit, see, or view the property. When a lead does ask: viewings are available any day 9am-6pm. ONLY call book_viewing when the lead gives a SPECIFIC day AND time. If they ask without a time, ask "Sure! What day and time works for you? Viewings are available any day between 9am and 6pm." Do NOT say "let me check" or "let me confirm". If the time is outside 9am-6pm, tell them the window and ask for another time.
@@ -1503,6 +1509,19 @@ export default async function handler(req, res) {
     return metricsResponse(res, 200, { ok: true, skipped: 'Auto-responder detected — internal note posted' }, autoRespEvent);
   }
 
+  // ── Pure emoji / acknowledgment guard ─────────────────────────────────────
+  // Lead sent ❤️, 👍, "ok", "thanks" etc. — no question, no request.
+  // Bot replying to these creates a loop of repeated info (seen in ticket 939121850).
+  // Skip silently — no reply, no escalation, no logging noise.
+  const trimmedMsg = messageText.trim();
+  const isPureEmoji = /^[\p{Emoji}\s]+$/u.test(trimmedMsg) && trimmedMsg.length <= 10;
+  const isPureAck = /^(ok|okay|thanks|thank you|great|perfect|good|nice|cool|noted|alright|sure|understood|got it|k|👍|❤️|🙏|👌|😊|🔥|👏|✅)$/i.test(trimmedMsg);
+  if (isPureEmoji || isPureAck) {
+    console.log(`[auto-reply] Acknowledgment/emoji message on ticket ${ticketId} — skipping reply: "${trimmedMsg}"`);
+    const ackEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'acknowledgment_skip');
+    return metricsResponse(res, 200, { ok: true, skipped: 'Acknowledgment or emoji — no reply needed' }, ackEvent);
+  }
+
   const dubaiHour = getDubaiHour();
   console.log(`[auto-reply] Inbound on ticket ${ticketId} | Dubai hour: ${dubaiHour} | Bot: 24/7 active`);
 
@@ -1855,9 +1874,11 @@ async function handleInboundWithLock(req, res, body, ticketId, leadId, leadMeta,
   const PRESEND_BLOCK_PATTERNS = [
     /\bFAIL\b/,
     /wait,?\s+i (used|have|wrote|made)/i,
+    /wait,?\s+let me/i,           // catches "wait, let me check that"
     /let me redo/i,
     /let me re-?write/i,
     /let me try again/i,
+    /let me check (that|this|on that|on this)/i, // "let me check that/this" = bot self-doubt mid-reply
     /i (need to|should) (fix|correct|revise|rewrite)/i,
     /per the .+ rule/i,
     /according to (the|my) (playbook|instructions|rules)/i,
