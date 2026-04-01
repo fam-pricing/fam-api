@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-01T05:34:44.364Z",
+  "ts": "2026-04-01T05:34:45.033Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4218909107",
-    "ticket_id": "938921411",
-    "message": "Good morning!\nRegarding the rent payment the person who showed me the apartment advices me that I can pay better in cash, correct? \nAnd can I pay the security deposit in cash as well?",
-    "channel_id": "1304636",
-    "contact_id": "535230088",
-    "contact_name": "Roman Wagner",
-    "contact_identifier": "+971585412443",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4218909113",
+    "ticket_id": "938915004",
+    "message": "Due to back-to-back bookings, check-in can only be accommodated at 3:00 PM. However, we will do our best to assist with an earlier check-in, although it will not be possible at 11:00 AM. We may be able to arrange it between 1:00 PM and 2:00 PM. We hope this is acceptable.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535286912",
+    "contact_name": "PARAG MARUTI NAYAK",
+    "contact_identifier": "+918867421967",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
