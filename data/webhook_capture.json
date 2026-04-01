@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-01T06:21:56.296Z",
+  "ts": "2026-04-01T06:22:10.555Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4218932703",
-    "ticket_id": "938921411",
-    "message": "I will be happy to pay the rent and deposit in cash",
-    "channel_id": "1304636",
-    "contact_id": "535230088",
-    "contact_name": "Roman Wagner",
-    "contact_identifier": "+971585412443",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4218932825",
+    "ticket_id": "938212670",
+    "message": "are you planing to rent the apartment for 10 nights only or for monthly ?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535130282",
+    "contact_name": "Ariean Maleklo",
+    "contact_identifier": "+971523718586",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
