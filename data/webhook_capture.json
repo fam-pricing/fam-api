@@ -1,17 +1,19 @@
 {
-  "ts": "2026-04-01T13:12:21.703Z",
+  "ts": "2026-04-01T13:12:51.826Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4219380960",
+    "message_id": "4219381440",
     "ticket_id": "939066309",
-    "message": "No, tomorrow I will check in, but at 4pm",
+    "message": "Just inform them 4pm tomorrow",
     "channel_id": "1304636",
     "contact_id": "535230088",
     "contact_name": "Roman Wagner",
     "contact_identifier": "+971585412443",
+    "parent_message_id": "4219058763",
+    "parent_ticket_id": "939066309",
     "event_type": "INBOUND"
   }
 }
