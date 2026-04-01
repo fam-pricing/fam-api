@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-01T13:25:46.644Z",
+  "ts": "2026-04-01T13:25:48.697Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4219395587",
-    "ticket_id": "938915004",
-    "message": "Just wanted to check in. We hope you have settled into the apartment comfortably.\r\n\r\nPlease let us know if you need any assistance during your stay we are happy to help. Wishing you an enjoyable stay with us.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535286912",
-    "contact_name": "PARAG MARUTI NAYAK",
-    "contact_identifier": "+918867421967",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4219395633",
+    "ticket_id": "939083224",
+    "message": "So I need it on 5th May",
+    "channel_id": "1304636",
+    "contact_id": "535308552",
+    "contact_name": "Neelima",
+    "contact_identifier": "+971524995170",
+    "parent_message_id": "4219342397",
+    "parent_ticket_id": "939021657",
+    "event_type": "INBOUND"
   }
 }
