@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-01T10:40:26.819Z",
+  "ts": "2026-04-01T10:40:44.893Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4219212371",
-    "ticket_id": "939025144",
-    "message": "Iwant check in 4th \nat 12 afternoon",
+    "type": "OUTBOUND",
+    "message_id": "4219212733",
+    "ticket_id": "938989637",
+    "message": "we can arrange the viewing today at 5:30pm is that okay for you?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535301507",
+    "contact_name": "Nick",
+    "contact_identifier": "+971582740571",
     "channel_id": "1304636",
-    "contact_id": "535119429",
-    "contact_name": "Reihaneh Hossein Til",
-    "contact_identifier": "+971504133080",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
