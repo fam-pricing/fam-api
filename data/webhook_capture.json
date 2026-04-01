@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-01T09:58:30.046Z",
+  "ts": "2026-04-01T09:59:50.085Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4219165783",
+    "type": "OUTBOUND",
+    "message_id": "4219167765",
     "ticket_id": "938803090",
-    "message": "I will landing on 5:00 04apr so can I come directly to apartment?",
-    "channel_id": "585723",
+    "message": "booking has not been confirmed yet. Once you confirm, we can arrange the check-in accordingly.\r\n\r\nCould you please clarify if you intend to check in today?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535274790",
     "contact_name": "B",
     "contact_identifier": "+971501327638",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
