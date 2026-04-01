@@ -306,11 +306,14 @@ async function escalateTicket(leadName, property, reason, trengoTicketId, conver
   if (crmState && leadId) {
     crmState[leadId].bot_paused        = true;
     crmState[leadId].last_escalated_at = new Date().toISOString();
-    // Only store as a learnable question if it's a real lead question —
-    // not a system/API error. Error reasons start with "Anthropic", "Claude",
-    // contain HTTP status codes, or come from internal error paths.
-    const isApiError = /anthropic|claude api|overload|529|500|503|timeout|error/i.test(reason);
-    crmState[leadId].last_escalated_question = isApiError ? null : reason;
+    // last_escalated_question is ALWAYS null now.
+    // The teaching-ticket system (Faysal replies on dedicated WA thread) is retired.
+    // Escalations now use internal notes + unassign. When Faysal manually replies on
+    // the lead's ticket, learnFromAgentReply() paused-bot path handles learning using
+    // the actual last lead message — not the bot's internal escalation reason string.
+    // Setting reason as last_escalated_question caused garbage playbook entries like
+    // "If lead asks: [3-paragraph bot summary] → Reply: [Faysal's full answer]".
+    crmState[leadId].last_escalated_question = null;
   }
 
   console.log(`[auto-reply] Ticket ${trengoTicketId} escalated — "${reason}" — bot paused`);
@@ -526,6 +529,18 @@ async function learnFromAgentReply(ticketId, agentMessage, leadMeta, crmState, l
     // Skip if Faysal's reply is too short to be a real answer (greeting, ack, etc.)
     const isRule = await classifyAsRule(agentMessage);
     if (!isRule) return;
+
+    // Skip if Faysal's reply is too specific to be a general playbook rule:
+    // — Contains a URL (listing links, maps, etc.) → situation-specific, not reusable
+    // — Longer than 300 chars → almost certainly a full portfolio answer, not a rule
+    // — Contains specific AED prices → stale immediately as prices change
+    const hasUrl = /https?:\/\//i.test(agentMessage);
+    const tooLong = agentMessage.length > 300;
+    const hasSpecificPrice = /AED\s[\d,]+/i.test(agentMessage);
+    if (hasUrl || tooLong || hasSpecificPrice) {
+      console.log(`[auto-reply] Skipping paused-bot learning — reply too specific (url=${hasUrl} long=${tooLong} price=${hasSpecificPrice}): "${agentMessage.substring(0, 80)}..."`);
+      return;
+    }
 
     console.log(`[auto-reply] Learning (paused-bot path): lead said "${lastLeadMessage}" → Faysal replied "${agentMessage}"`);
     const polishedRule = await rephraseRule(
