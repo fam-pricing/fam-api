@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-01T12:16:13.086Z",
+  "ts": "2026-04-01T12:16:14.226Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4219317159",
+    "type": "OUTBOUND",
+    "message_id": "4219317215",
     "ticket_id": "939058179",
-    "message": "Hello!",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "526625123",
     "contact_name": "Fedor Sofronov",
     "contact_identifier": "+971564246191",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
