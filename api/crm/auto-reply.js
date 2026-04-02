@@ -38,10 +38,10 @@ const NIGHT_END   = 6;
 
 const READ_DELAY_BASE      = 2000; // base delay to simulate reading
 const READ_DELAY_JITTER    = 3000; // random jitter (0-3s) to desynchronize concurrent webhooks
-const AGENT_COOLDOWN_MS    = 3 * 60 * 1000; // 3 min — bot's own outbound replies were triggering 15min lockout
+const AGENT_COOLDOWN_MS    = 90 * 1000; // 90s — reduced from 3 min; limits damage if cooldown fires incorrectly
 const PENDING_GRACE_MS     = 15000; // 15s grace: treat msgs arriving up to 15s BEFORE last bot reply as still pending
                                     // Fixes race condition: lead sent msg 1s before bot reply → was silently dropped
-const TICKET_LOCK_TTL_S    = 45;   // Per-ticket Redis lock TTL in seconds
+const TICKET_LOCK_TTL_S    = 25;   // Per-ticket Redis lock TTL — must be < Vercel 30s timeout so lock auto-expires if function crashes
 const ATTACHMENT_TYPES     = new Set(['IMAGE', 'DOCUMENT', 'AUDIO', 'VIDEO', 'FILE']);
 
 // ── Per-ticket Redis lock (prevents duplicate replies from concurrent webhooks) ─
@@ -1134,6 +1134,7 @@ RULES — follow exactly, no exceptions:
 - NEVER PROMISE TO CHECK: NEVER say "let me check and get back to you", "let me verify", "I'll find out and come back". If you can answer — answer now. If you cannot answer — escalate immediately with escalate_to_faysal. There is no middle ground. "Let me check" is a broken promise that leaves the lead waiting forever.
 - DO NOT OVER-ESCALATE: You can and should answer simple questions yourself. Availability dates ("available from October?"), contract lengths ("yearly contract?"), move-in timelines, pricing, deposit info, viewing scheduling are ALL within your capability. ONLY escalate when you truly cannot answer (unknown property, technical issue, lead demands a human, pricing beyond 3 months, custom negotiations you have no data for). When in doubt, answer confidently using the portfolio and conversation context.
 - HUMAN/AGENT REQUESTS: If a lead asks to speak to a human, agent, person, or anyone from the team, or asks for a phone number, escalate immediately with reason "lead requesting human agent" and holding message "Of course, let me get someone from the team for you right away."
+- VIDEO/MEDIA REQUESTS: If a lead asks for a video, virtual tour, video walkthrough, or any visual media of the property — escalate immediately with reason "lead requesting video for [property]" and holding message "Let me get that arranged for you right away." Never ignore a video request or pretend to answer it without providing one.
 - VIEWING RULES: NEVER proactively suggest, offer, or propose a viewing. Only discuss viewings if the lead explicitly asks to visit, see, or view the property. When a lead does ask: viewings are available any day 9am-6pm. ONLY call book_viewing when the lead gives a SPECIFIC day AND time. If they ask without a time, ask "Sure! What day and time works for you? Viewings are available any day between 9am and 6pm." Do NOT say "let me check" or "let me confirm". If the time is outside 9am-6pm, tell them the window and ask for another time.
 
 You MUST call exactly one tool. Choose the right tool based on your confidence level.`;
