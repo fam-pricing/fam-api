@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-02T12:54:41.717Z",
+  "ts": "2026-04-02T13:06:32.426Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4220277785",
-    "ticket_id": "917438694",
-    "message": "For any deposit-related matters, please send an email to deposit@famliving.com\r\n\r\nBelow are the necessary fields and information required for a swift refund by bank transfer:\r\n\r\nBooking reference number:\r\n\r\nBeneficiary Name:\r\n\r\nBeneficiary Address:\r\n\r\nBeneficiary Bank Name:\r\n\r\nBeneficiary Bank Account Details (IBAN):\r\n\r\nSwift Code:\r\n\r\nBeneficiary Bank Address:\r\n\r\nCurrency of Account:\r\n\r\nSort Code:\r\n\r\nPlease forward the above banking details to deposit@famliving.com\r\n\r\nPlease note that failure to provide all the required fields mentioned above will prevent our finance team from processing the refund.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "528821469",
-    "contact_name": "Kamola Shukhratovna Kantsavenka",
-    "contact_identifier": "+971585454033",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4220291608",
+    "ticket_id": "939395166",
+    "message": "Dear FAM Living Team,Please find below the required bank details to proceed with the refund:Booking reference number: VACATION RENTAL AGREEMENT #GY-jRBTH32c_8th Dec 2025Beneficiary Name: Mikhail KantsavenkaBeneficiary Address: Reehan 1, Apt 107, DubaiBeneficiary Bank Name:  Mashreq BankBeneficiary Bank Account Details (IBAN): AE070330000019120249022Swift Code: \r\n\r\nBOMLAEAD Beneficiary Bank Address: Al Umniyati Street, Burj Khalifa Community, DubaiCurrency of Account: AEDWe kindly ask you to confirm once the transfer has been initiated and to provide the payment confirmation.As the refund is already overdue beyond the previously communicated timeline (14 working days), we would appreciate your confirmation of the exact transfer date.We look forward to your prompt action.-- Best regards,Mikhail",
+    "channel_id": "1275470",
+    "contact_id": "535398144",
+    "contact_name": "Mikhail Kantsavenka",
+    "contact_email": "gomelmike@gmail.com",
+    "event_type": "INBOUND"
   }
 }
