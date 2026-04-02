@@ -1592,7 +1592,9 @@ async function handleInboundWithLock(req, res, body, ticketId, leadId, leadMeta,
     return metricsResponse(res, 200, { ok: true, skipped: `Duplicate message_id ${incomingMsgId}` }, dupEvent);
   }
 
-  const conversation = await getTrengoMessages(ticketId);
+  // Early conversation fetch — used only for viewing_id attachment scanning and the
+  // stale-webhook check below. Will be refreshed after the read delay (see below).
+  let conversation = await getTrengoMessages(ticketId);
 
   // ── Viewing ID collection ─────────────────────────────────────────────────
   // Bot is waiting for passport/EID after confirming a viewing time.
@@ -1766,31 +1768,48 @@ async function handleInboundWithLock(req, res, body, ticketId, leadId, leadMeta,
     : 0;
   const lastBotAt = lastBotReplyTime; // Alias for optimistic lock check later
 
-  const pendingInbound = conversation.filter(m => {
+  const filterPending = (conv) => conv.filter(m => {
     const isInbound = (m.type || '').toUpperCase() === 'INBOUND' || m.from === 'lead';
     if (!isInbound) return false;
     const msgTime = m.created_at
       ? (typeof m.created_at === 'number' ? m.created_at * 1000 : new Date(m.created_at).getTime())
       : Date.now();
-    // PENDING_GRACE_MS buffer: a message that arrived just before the bot's last reply
-    // (race condition — lead typed while bot was mid-generation) is still unanswered.
     return msgTime > (lastBotReplyTime - PENDING_GRACE_MS);
   });
 
+  // Early stale-webhook check — bail fast if nothing to answer yet
+  let pendingInbound = filterPending(conversation);
   if (pendingInbound.length === 0) {
     console.log(`[auto-reply] No unanswered inbound messages on ticket ${ticketId} — stale webhook, skipping`);
     const staleEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'stale_webhook');
     return metricsResponse(res, 200, { ok: true, skipped: 'No pending unanswered messages — stale webhook' }, staleEvent);
   }
 
-  if (pendingInbound.length > 1) {
-    console.log(`[auto-reply] ${pendingInbound.length} unanswered messages on ticket ${ticketId} — bot will address all`);
-  }
-
   // Short read pause + random jitter to desynchronize concurrent webhooks
   const jitter = Math.floor(Math.random() * READ_DELAY_JITTER);
   await new Promise(r => setTimeout(r, READ_DELAY_BASE + jitter));
   console.log(`[auto-reply] Read delay: ${READ_DELAY_BASE + jitter}ms (jitter: ${jitter}ms)`);
+
+  // ── Re-fetch conversation AFTER the delay ─────────────────────────────────
+  // Critical: the lead may send multiple messages in quick succession. If we use the
+  // conversation fetched BEFORE the delay, we only see the first message and reply to
+  // it alone — ignoring everything the lead typed during the 2-5s wait window.
+  // Root cause of ticket 939283788: Sandra sent "Is this available?" then "Do you have
+  // a video?" 25s later. Bot fetched early, saw only the first message, sent a reply
+  // about availability and pricing with no mention of the video request.
+  // Fix: re-fetch after delay → all messages are now visible → bot answers everything.
+  conversation = await getTrengoMessages(ticketId);
+  pendingInbound = filterPending(conversation);
+
+  if (pendingInbound.length === 0) {
+    // Became stale during the delay (e.g. another instance replied first)
+    const staleEvent2 = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'stale_after_delay');
+    return metricsResponse(res, 200, { ok: true, skipped: 'No pending messages after delay — another instance replied' }, staleEvent2);
+  }
+
+  if (pendingInbound.length > 1) {
+    console.log(`[auto-reply] ${pendingInbound.length} unanswered messages on ticket ${ticketId} — bot will address all`);
+  }
 
   // ── Live agent guard — check Trengo thread for recent agent reply ──────────
   // Prevents bot from piling on after Afifa or Faysal already responded.
