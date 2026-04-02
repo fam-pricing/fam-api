@@ -1930,5 +1930,17 @@
     "lead_quality": 20,
     "buying_stage": "COOL",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-04-02T07:57:13.211Z",
+    "ticket_id": 939283788,
+    "lead_id": "message_lead_28560360",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 916,
+    "critic_pass": null,
+    "lead_quality": 20,
+    "buying_stage": "COOL",
+    "skip_reason": "agent_cooldown"
   }
 ]
