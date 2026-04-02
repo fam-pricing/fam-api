@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-02T07:33:37.223Z",
+  "ts": "2026-04-02T07:39:53.348Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4219937758",
-    "ticket_id": "939277641",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-opera-district-act-towers-act-two-2PriO0ZIshU.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "535368875",
-    "contact_name": "Wale",
-    "contact_identifier": "+971526261256",
+    "type": "INBOUND",
+    "message_id": "4219943628",
+    "ticket_id": "939083224",
+    "message": "Hello",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535308552",
+    "contact_name": "Neelima",
+    "contact_identifier": "+971524995170",
+    "event_type": "INBOUND"
   }
 }
