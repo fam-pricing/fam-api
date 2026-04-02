@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-02T07:55:43.186Z",
+  "ts": "2026-04-02T07:56:09.997Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4219959782",
+    "type": "OUTBOUND",
+    "message_id": "4219960275",
     "ticket_id": "939283788",
-    "message": "Is this available for the month of April?",
-    "channel_id": "1304636",
+    "message": "Hi Sandra! Yes, it's available for the whole of April, any move-in date works.\n\nIt's AED 12,000/month, all-inclusive, water, electricity, internet, and VAT all covered.\n\nWhat date in April were you thinking of moving in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535370331",
     "contact_name": "Sandra Muñoz",
     "contact_identifier": "+971525789941",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
