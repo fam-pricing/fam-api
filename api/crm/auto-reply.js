@@ -677,7 +677,7 @@ const STAGE_GUIDANCE = {
   INTERESTED:    'LEAD STAGE: INTERESTED — This lead is asking about specific properties, prices, or availability. Be precise and informative. Answer their exact question. Do NOT offer or suggest a viewing unprompted. One cross-sell max.',
   ENGAGED:       'LEAD STAGE: ENGAGED — This lead is discussing viewings, deposits, or the booking process. They are serious. Be efficient, clear, and move them toward locking in. Remove friction.',
   READY_TO_BOOK: 'LEAD STAGE: READY TO BOOK — This lead is asking about payment, contracts, or move-in. They want to close. Be direct, guide them to the next concrete step (contract, payment, check-in). No fluff.',
-  OBJECTING:     'LEAD STAGE: OBJECTING — This lead has raised budget or price concerns. Do NOT push or repeat the price. Acknowledge their concern, ask for their budget, and offer alternatives that fit.',
+  OBJECTING:     'LEAD STAGE: OBJECTING — This lead has raised budget or price concerns. Do NOT push or repeat the price. If this is the FIRST time they object, acknowledge their concern, ask for their budget, and offer alternatives. If they have ALREADY objected before and you already responded, do NOT repeat yourself — escalate to Faysal immediately. A human can negotiate flexibly, you cannot. Repeating the same price floor is the fastest way to lose this lead.',
 };
 
 // ── Self-critique — fast quality gate before any reply reaches the lead ───────
@@ -978,7 +978,7 @@ function sanitizeInput(text) {
 
 // ── Claude AI reply ───────────────────────────────────────────────────────────
 
-async function generateReply(conversation, leadMeta, newMessage, leadName, pendingMessages, _retryingAfterCritic = false, _criticNudge = '') {
+async function generateReply(conversation, leadMeta, newMessage, leadName, pendingMessages, _retryingAfterCritic = false, _criticNudge = '', _conversationWallContext = '') {
   const apiKey  = process.env.ANTHROPIC_API_KEY;
   const playbook = await loadPlaybook();
 
@@ -1105,7 +1105,7 @@ async function generateReply(conversation, leadMeta, newMessage, leadName, pendi
     },
   ];
 
-  const systemPrompt = `${playbook}${portfolioContext}${viewingContext}
+  const systemPrompt = `${playbook}${portfolioContext}${viewingContext}${_conversationWallContext}
 
 You are a warm, human WhatsApp sales agent for fäm Living. Lead: ${leadName}. Property: ${property}.
 ${stageContext}
@@ -1130,6 +1130,10 @@ RULES — follow exactly, no exceptions:
 - NEVER REPEAT A CTA: If you already offered a next step (e.g., "Want me to send the contract?", "Shall I get payment details?") and the lead did NOT respond to it — they kept asking other questions instead — do NOT repeat that offer. Just answer what they asked. Repeating ignored CTAs is pushy and destroys trust.
 - NO DEAD-END CTAs: NEVER end a reply with "let me know if you have any questions", "feel free to ask", "what would you like to know?", "is there anything else I can help you with?", or any similar generic phrase. These sound like a chatbot, not a person. Instead, end with a specific contextual question or next step that moves the conversation forward — tied to what the lead just said. Examples: "Shall I get the contract started?" / "Does April 4 still work as move-in?" / "Want me to send the listing link with photos?"
 - BUDGET OBJECTION: If the lead says ANYTHING suggesting the price is too high or over budget, do NOT repeat the price. Acknowledge and ask: "Understood! What budget are you working with? I can check what options we have for you."
+- SELF-AWARENESS — READ THE ROOM: You are Claude, a world-class AI. Before replying, STOP and assess: Is this conversation going well or going in circles? If the lead has stated the same thing twice (price demand, complaint, request) and you already responded to it, DO NOT reply with the same refusal or information again. That is looping and it destroys trust. Instead, escalate to Faysal. A human can negotiate, you cannot. Repeating yourself is the single worst thing you can do.
+- NEVER HIT THE SAME WALL TWICE: If you already told the lead a price is the lowest, and they push back again, you MUST escalate. Do NOT say "6,500 is the lowest" a second time. Ever. One refusal is professional. Two is a broken record. Three is insulting. Use escalate_to_faysal with reason "lead insists on different terms, needs human negotiation."
+- FRUSTRATION DETECTION: If the lead sends "?????", "hello???", repeated messages with no new content, angry/short messages, or says anything suggesting they feel ignored or unheard, escalate IMMEDIATELY. Do not try to salvage it with a clever reply. The lead is already upset. Only a human can recover this.
+- MULTIPLE REQUESTS IN ONE TURN: When the lead mentions multiple things (e.g. price AND wanting to see the apartment), you MUST address ALL of them. Never cherry-pick the easy one and ignore the rest.
 - PRICING MATH: Prices are seasonal and only locked for 3 months. NEVER calculate or quote a total for more than 3 months. If asked about 4+ months, quote the current monthly rate, explain rates are confirmed in 3-month blocks, then escalate with reason "lead asking about long-term pricing beyond 3 months".
 - NEVER PROMISE TO CHECK: NEVER say "let me check and get back to you", "let me verify", "I'll find out and come back". If you can answer — answer now. If you cannot answer — escalate immediately with escalate_to_faysal. There is no middle ground. "Let me check" is a broken promise that leaves the lead waiting forever.
 - DO NOT OVER-ESCALATE: You can and should answer simple questions yourself. Availability dates ("available from October?"), contract lengths ("yearly contract?"), move-in timelines, pricing, deposit info, viewing scheduling are ALL within your capability. ONLY escalate when you truly cannot answer (unknown property, technical issue, lead demands a human, pricing beyond 3 months, custom negotiations you have no data for). When in doubt, answer confidently using the portfolio and conversation context.
@@ -1823,7 +1827,86 @@ async function handleInboundWithLock(req, res, body, ticketId, leadId, leadMeta,
     return metricsResponse(res, 200, { ok: true, skipped: 'Agent replied recently in Trengo — bot standing down', dubaiHour }, agentGuardEvent);
   }
 
-  let { reply, escalate, reason, viewing, pendingViewing } = await generateReply(conversation, leadMeta, messageText, leadName, pendingInbound);
+  // ── PRE-CLAUDE GUARD 1: Audio/voice message → immediate escalation ────────
+  // Bot cannot process audio. Don't acknowledge, don't ask to type — just escalate.
+  // The lead sent a voice note because they want a human conversation.
+  const pendingTexts = pendingInbound.map(m => (m.body || m.text || m.message || '').trim().toLowerCase());
+  const hasAudioMessage = pendingTexts.some(t => /^audio$/i.test(t)) || messageType === 'AUDIO';
+  if (hasAudioMessage) {
+    console.log(`[auto-reply] Audio/voice message detected on ticket ${ticketId} — immediate escalation`);
+    const holdingMsg = 'Let me get someone from the team to help you right away.';
+    const typingMs = Math.min(4000, Math.max(1500, holdingMsg.length * 30));
+    await new Promise(r => setTimeout(r, typingMs));
+    await postTrengoMessage(ticketId, holdingMsg);
+    crmState[leadId].last_bot_reply_content = holdingMsg;
+    await escalateTicket(leadName, leadMeta.listing_title, 'Lead sent voice note(s) — bot cannot process audio, needs human follow-up', ticketId, conversation, crmState, leadId);
+    await writeCRMState(crmState, sha);
+    const audioEvent = createMetricsEvent(ticketId, leadId, 'escalate', 'escalate_to_faysal', Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'audio_message');
+    return metricsResponse(res, 200, { ok: true, action: 'escalated', reason: 'audio_message' }, audioEvent);
+  }
+
+  // ── PRE-CLAUDE GUARD 2: Frustration / anger detection → immediate escalation ─
+  // When a lead is clearly frustrated (repeated ?'s, calling out the bot, angry),
+  // no AI reply will help. Escalate immediately to a human.
+  const allPendingText = pendingTexts.join(' ');
+  const frustrationSignals = [
+    /\?{3,}/.test(allPendingText),                              // "?????" — repeated question marks
+    /robot|bot|machine|automat/i.test(allPendingText),           // calling out the bot
+    /speak.*(human|person|real|agent|someone)/i.test(allPendingText), // wants a human
+    /waste.*time|losing.*client|lose.*client|worst.*service/i.test(allPendingText), // threatening/angry
+    /disgusting|pathetic|useless|terrible|horrible|incompetent/i.test(allPendingText), // insults
+    /stop.*message|stop.*reply|leave me|go away/i.test(allPendingText), // wants bot to stop
+  ];
+  const frustrationCount = frustrationSignals.filter(Boolean).length;
+  if (frustrationCount >= 1) {
+    console.log(`[auto-reply] Frustration detected on ticket ${ticketId} (${frustrationCount} signals) — immediate escalation`);
+    const holdingMsg = 'Apologies for any inconvenience. Let me get someone from the team to assist you personally.';
+    const typingMs = Math.min(4000, Math.max(1500, holdingMsg.length * 30));
+    await new Promise(r => setTimeout(r, typingMs));
+    await postTrengoMessage(ticketId, holdingMsg);
+    crmState[leadId].last_bot_reply_content = holdingMsg;
+    await escalateTicket(leadName, leadMeta.listing_title, `Lead is frustrated — signals: ${frustrationSignals.map((s, i) => s ? ['repeated_question_marks', 'called_out_bot', 'wants_human', 'threatening', 'insults', 'wants_bot_to_stop'][i] : null).filter(Boolean).join(', ')}`, ticketId, conversation, crmState, leadId);
+    await writeCRMState(crmState, sha);
+    const frustrationEvent = createMetricsEvent(ticketId, leadId, 'escalate', 'escalate_to_faysal', Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'frustration_detected');
+    return metricsResponse(res, 200, { ok: true, action: 'escalated', reason: 'frustration_detected' }, frustrationEvent);
+  }
+
+  // ── PRE-CLAUDE GUARD 3: Repetition / conversation wall detection ─────────
+  // Analyse the conversation for repeated objections hitting the same wall.
+  // If the lead has stated the same position 2+ times and the bot kept refusing,
+  // inject a STRONG escalation signal into Claude's context (or force-escalate on 3+).
+  let conversationWallContext = '';
+  const botMessages = conversation.filter(m => (m.type || '').toUpperCase() === 'OUTBOUND' && !String(m.user_id || m.user?.id || '').match(/^(141332|340123|470168|315306|731578)$/));
+  const leadMessages = conversation.filter(m => (m.type || '').toUpperCase() === 'INBOUND');
+  // Count how many times the lead repeated the same price/request
+  const leadPriceRequests = leadMessages.filter(m => {
+    const txt = (m.body || m.text || m.message || '').toLowerCase();
+    return /\b(5k|5,?000|5000|five thousand|same price|only.*k|only.*thousand)\b/i.test(txt) || /\b\d[,.]\d{3}\b/.test(txt);
+  });
+  const botPriceRefusals = botMessages.filter(m => {
+    const txt = (m.body || m.text || m.message || '').toLowerCase();
+    return /(lowest|can't do|cannot do|isn't something|not something|as low as)/i.test(txt);
+  });
+  const priceWallCount = Math.min(leadPriceRequests.length, botPriceRefusals.length);
+
+  if (priceWallCount >= 3) {
+    // 3+ rounds of the same wall — force escalation, the bot has failed
+    console.log(`[auto-reply] Price negotiation wall (${priceWallCount} rounds) on ticket ${ticketId} — force escalation`);
+    const holdingMsg = 'I hear you. Let me get my manager involved to see what we can work out.';
+    const typingMs = Math.min(4000, Math.max(1500, holdingMsg.length * 30));
+    await new Promise(r => setTimeout(r, typingMs));
+    await postTrengoMessage(ticketId, holdingMsg);
+    crmState[leadId].last_bot_reply_content = holdingMsg;
+    await escalateTicket(leadName, leadMeta.listing_title, `Price negotiation wall — lead insisted ${leadPriceRequests.length}x, bot refused ${botPriceRefusals.length}x. Lead wants a lower price, bot cannot offer one. Needs human negotiation.`, ticketId, conversation, crmState, leadId);
+    await writeCRMState(crmState, sha);
+    const wallEvent = createMetricsEvent(ticketId, leadId, 'escalate', 'escalate_to_faysal', Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'price_wall_' + priceWallCount);
+    return metricsResponse(res, 200, { ok: true, action: 'escalated', reason: 'price_negotiation_wall' }, wallEvent);
+  } else if (priceWallCount >= 2) {
+    // 2 rounds — inject strong context telling Claude to escalate this time
+    conversationWallContext = `\n\nCRITICAL — CONVERSATION WALL DETECTED: The lead has pushed back on the price ${leadPriceRequests.length} times and you have already refused ${botPriceRefusals.length} times. You are going in circles. DO NOT refuse the price again. DO NOT repeat that 6,500 is the lowest. You MUST use escalate_to_faysal now with reason "price negotiation — lead insists on lower price, needs human negotiation" and a warm holding message like "Let me get my manager involved to see what we can work out for you."`;
+  }
+
+  let { reply, escalate, reason, viewing, pendingViewing } = await generateReply(conversation, leadMeta, messageText, leadName, pendingInbound, false, '', conversationWallContext);
 
   // ── Self-critique gate — Sonnet reviews the reply before it reaches the lead ──
   // Only runs for normal replies (not escalations/viewings — those have their own logic)

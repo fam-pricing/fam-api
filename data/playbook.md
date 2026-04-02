@@ -38,6 +38,10 @@ Always escalate when:
 - A lead asks about a price not in the lead data
 - A lead wants short-term or nightly (not monthly)
 - A lead is aggressive, threatening, or behaving unusually
+- A lead has pushed back on price TWICE and you already refused once — do not refuse a second time, escalate
+- A lead sends "?????", repeated question marks, or signs of frustration
+- A lead mentions "robot", "bot", "machine", or calls out that you are automated
+- A lead sends voice/audio messages (you cannot process audio)
 - Anything not covered in this playbook
 ---
 ## 7. "ARE YOU A BOT?" — HOW TO HANDLE
