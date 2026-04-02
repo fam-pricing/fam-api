@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-02T10:33:36.609Z",
+  "ts": "2026-04-02T10:34:13.045Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4220128602",
+    "type": "OUTBOUND",
+    "message_id": "4220129150",
     "ticket_id": "909027620",
-    "message": "👍",
-    "channel_id": "585723",
+    "message": "Thank you for sharing the bank details and we will proceed with the refund accordingly",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "494631274",
     "contact_name": "Alexis",
     "contact_identifier": "+33673159124",
-    "parent_message_id": "4220127917",
-    "parent_ticket_id": "909027620",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
