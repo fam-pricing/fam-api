@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-02T09:39:07.895Z",
+  "ts": "2026-04-02T09:39:13.067Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4220072629",
-    "ticket_id": "939319207",
-    "message": "Thx",
-    "channel_id": "1304636",
-    "contact_id": "535378334",
-    "contact_name": "IN",
-    "contact_identifier": "+971544561188",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4220072699",
+    "ticket_id": "932799979",
+    "message": "Yes, we have informed the building about your reservation.\r\n\r\nThe check-in details will be shared between 2:00 PM and 3:00 PM, allowing you to proceed with the self check-in process.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "533748349",
+    "contact_name": "Yevgeniya Kriger",
+    "contact_identifier": "+77778408448",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
