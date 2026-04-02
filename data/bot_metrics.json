@@ -2146,5 +2146,17 @@
     "lead_quality": 40,
     "buying_stage": "WARM",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-04-02T09:43:46.919Z",
+    "ticket_id": 939319207,
+    "lead_id": "message_lead_28562069",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 823,
+    "critic_pass": null,
+    "lead_quality": 40,
+    "buying_stage": "WARM",
+    "skip_reason": "agent_cooldown"
   }
 ]
