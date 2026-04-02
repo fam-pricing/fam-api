@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-02T06:51:37.074Z",
+  "ts": "2026-04-02T06:53:53.341Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4219900137",
+    "type": "OUTBOUND",
+    "message_id": "4219901679",
     "ticket_id": "938803090",
-    "message": "Tomorrow I will send",
-    "channel_id": "585723",
+    "message": "Noted.\r\n\r\nHowever, please be informed that any delay in the bank transfer reflecting in our account may affect the check-in process.\r\n\r\nWe kindly suggest initiating the transfer today, if possible, to ensure a smooth check-in.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535274790",
     "contact_name": "TRÂN BÌNH NGUYỄN",
     "contact_identifier": "+971501327638",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
