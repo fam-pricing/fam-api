@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-02T06:06:26.182Z",
+  "ts": "2026-04-02T06:13:39.885Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4219871627",
+    "type": "OUTBOUND",
+    "message_id": "4219876093",
     "ticket_id": "939099581",
-    "message": "Can you please share the contact details",
-    "channel_id": "1304636",
+    "message": "Good morning,\r\n\r\nPlease allow me to check who will be available to assist you with the check-in process, and I will update you shortly.\r\n\r\nMay I kindly reconfirm your arrival time, please?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535230088",
     "contact_name": "Roman Wagner",
     "contact_identifier": "+971585412443",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
