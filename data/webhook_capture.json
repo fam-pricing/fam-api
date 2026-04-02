@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-02T10:15:25.845Z",
+  "ts": "2026-04-02T10:17:34.441Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4220110865",
+    "type": "OUTBOUND",
+    "message_id": "4220113248",
     "ticket_id": "909027620",
-    "message": "And it still have to be at 5pm if it’s self checkout ? \nOr I can leave later than 5pm if it’s just to close door and give access cards to reception ?",
-    "channel_id": "585723",
+    "message": "Unfortunately, we are unable to accommodate a check-out later than 5:00 PM, as we need to prepare the unit for the next reservation.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "494631274",
     "contact_name": "Alexis",
     "contact_identifier": "+33673159124",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
