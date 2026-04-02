@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-02T13:57:40.087Z",
+  "ts": "2026-04-02T13:57:41.945Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4220347620",
+    "type": "OUTBOUND",
+    "message_id": "4220347665",
     "ticket_id": "939413681",
-    "message": "Hi there, i am looking at a short term rental for a family of 5 from the 6th June to the 3rd July please",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "535402151",
     "contact_name": "Lauren",
     "contact_identifier": "10c384c3-bad0-40a1-ef3e-cfdbce3f30ef",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
