@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-02T07:51:41.119Z",
+  "ts": "2026-04-02T07:51:48.225Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4219955833",
+    "type": "OUTBOUND",
+    "message_id": "4219955944",
     "ticket_id": "932799979",
-    "message": "I’m just landing at the airport and in 1h I’ll be at the bld",
-    "channel_id": "585723",
+    "message": "Please complete the check in form and update us",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "533748349",
     "contact_name": "Yevgeniya Kriger",
     "contact_identifier": "+77778408448",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
