@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-02T08:08:28.735Z",
+  "ts": "2026-04-02T08:08:33.467Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4219973944",
+    "type": "OUTBOUND",
+    "message_id": "4219974047",
     "ticket_id": "939289084",
-    "message": "hello i am trying to reach your office in Bay square, can i kindly have a valid number to contact?",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "535371669",
     "contact_name": "alessia",
     "contact_identifier": "297198af-9de6-4033-2951-6f050b273c9a",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
