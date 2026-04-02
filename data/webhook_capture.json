@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-02T14:11:59.225Z",
+  "ts": "2026-04-02T14:16:07.448Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4220362476",
-    "ticket_id": "939347177",
-    "message": "Yes we have received the payment",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535128769",
-    "contact_name": "Alex",
-    "contact_identifier": "+256742443400",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4220366912",
+    "ticket_id": "939413681",
+    "message": "Sustainable city",
+    "channel_id": "883603",
+    "contact_id": "535402151",
+    "contact_name": "Lauren",
+    "contact_identifier": "10c384c3-bad0-40a1-ef3e-cfdbce3f30ef",
+    "event_type": "INBOUND"
   }
 }
