@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-02T07:47:24.960Z",
+  "ts": "2026-04-02T07:49:01.073Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4219951147",
-    "ticket_id": "939083224",
-    "message": "Good morning Neelima,\r\n\r\nI hope you are well. Could you please confirm if you were able to complete the viewing yesterday?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535308552",
-    "contact_name": "Neelima",
-    "contact_identifier": "+971524995170",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4219952956",
+    "ticket_id": "932799979",
+    "message": "Confirm",
+    "channel_id": "585723",
+    "contact_id": "533748349",
+    "contact_name": "Yevgeniya Kriger",
+    "contact_identifier": "+77778408448",
+    "parent_message_id": "4219866430",
+    "parent_ticket_id": "932799979",
+    "event_type": "INBOUND"
   }
 }
