@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-02T09:52:45.057Z",
+  "ts": "2026-04-02T09:52:47.871Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4220085901",
-    "ticket_id": "939099581",
-    "message": "Any news?",
+    "type": "OUTBOUND",
+    "message_id": "4220085961",
+    "ticket_id": "939318910",
+    "message": "Here is the location\r\n\r\nhttps://maps.app.goo.gl/eV1nNFyBAZu3uWoJ8",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535378240",
+    "contact_name": "Vikramaditya Modi",
+    "contact_identifier": "+971585823164",
     "channel_id": "1304636",
-    "contact_id": "535230088",
-    "contact_name": "Roman Wagner",
-    "contact_identifier": "+971585412443",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
