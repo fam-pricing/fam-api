@@ -1444,9 +1444,29 @@ export default async function handler(req, res) {
   //   2. Time-based: if OUTBOUND arrives within 30s of last_bot_reply_at, it's almost
   //      certainly the bot's own echo (Trengo echoes arrive within 1-5s)
   if (messageType === 'OUTBOUND' && messageText) {
-    // Method 1: Content comparison
+    // Method 1: Content comparison (CRM state — may be stale if OUTBOUND webhook arrives
+    //           before writeCRMState completes after sending)
     const normEcho = s => (s || '').replace(/\s+/g, ' ').trim().toLowerCase();
-    const lastBotContent = normEcho(leadMeta.last_bot_reply_content || '');
+    let lastBotContent = normEcho(leadMeta.last_bot_reply_content || '');
+
+    // Method 1b: Fast Redis echo key — flushed ~1ms after postTrengoMessage, always fresh.
+    // This catches the race condition where OUTBOUND webhook arrives before CRM write.
+    // Root fix for ticket 939283788 (bot went silent after first reply).
+    if (!lastBotContent) {
+      try {
+        const redis = getLockRedis();
+        if (redis) {
+          const echoContent = await redis.get(`lead:${leadId}:echo`);
+          if (echoContent) {
+            lastBotContent = normEcho(echoContent);
+            console.log(`[auto-reply] Used Redis echo key for bot echo detection on ${ticketId}`);
+          }
+        }
+      } catch (e) {
+        console.warn('[auto-reply] Redis echo read failed (non-fatal):', e?.message);
+      }
+    }
+
     const isBotEchoContent = lastBotContent && normEcho(messageText) === lastBotContent;
 
     // Method 2: Time-based — OUTBOUND within 30s of bot's last reply is almost certainly the echo
@@ -1905,6 +1925,25 @@ async function handleInboundWithLock(req, res, body, ticketId, leadId, leadMeta,
     await escalateTicket(leadName, leadMeta.listing_title || null, 'Message delivery failed — Trengo API error', ticketId, conversation, crmState, leadId);
     await writeCRMState(crmState, sha);
     return res.status(200).json({ ok: true, action: 'send_failed_escalated' });
+  }
+
+  // ── CRITICAL: flush bot echo content to Redis IMMEDIATELY after sending ──────
+  // Trengo fires an OUTBOUND webhook the instant we send. If that webhook arrives
+  // before we write last_bot_reply_content, the echo comparison fails → bot treats
+  // its own message as a Faysal manual reply → triggers 3-min agent cooldown →
+  // lead's next message gets silently skipped. (Root cause of ticket 939283788.)
+  // Writing to Redis here (~1ms) guarantees the OUTBOUND handler sees the correct
+  // content even if it arrives during label attachment / scoring below.
+  crmState[leadId].last_bot_reply_content = reply.trim();
+  crmState[leadId].last_bot_reply_at      = new Date().toISOString();
+  try {
+    const redis = getLockRedis();
+    if (redis) {
+      await redis.set(`lead:${leadId}:echo`, reply.trim(), { ex: 120 }); // 2-min TTL, only for echo detection
+      console.log(`[auto-reply] Flushed bot echo content to Redis for ${leadId}`);
+    }
+  } catch (e) {
+    console.warn('[auto-reply] Redis echo flush failed (non-fatal):', e?.message);
   }
 
   // Viewing time confirmed — bot asked for ID (pendingViewing), store details + stay active
