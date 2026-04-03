@@ -171,11 +171,11 @@ async function getTrengoMessages(ticketId) {
   } catch { return []; }
 }
 
-// Check if the most recent real message in the thread is from an agent (not the lead).
-// If the lead spoke last, the bot should reply regardless of when the agent last replied.
-// This prevents piling on (agent speaks → bot also speaks) but allows the bot to
-// handle follow-up questions the lead sends after an agent reply.
-async function hasRecentAgentReplyInTrengo(ticketId) {
+// Check if the most recent real message in the thread is from a HUMAN agent (not the bot).
+// If the lead spoke last, the bot should reply regardless.
+// If the BOT spoke last, that's NOT a human agent — bot should still reply to new inbound.
+// Only blocks when a real human (Faysal, Afifa, etc.) was the last to speak.
+async function hasRecentAgentReplyInTrengo(ticketId, leadMeta) {
   const messages = await getTrengoMessages(ticketId);
   if (!messages.length) return false;
 
@@ -189,11 +189,37 @@ async function hasRecentAgentReplyInTrengo(ticketId) {
     return tsB - tsA;
   });
 
-  // Only block if the LAST message is from an agent (outbound) — i.e. agent just spoke
-  // If the lead spoke last (inbound), bot should reply
+  // If the last message is inbound (from lead), bot should reply — no blocking
   const lastMsg = realMessages[0];
   const lastIsOutbound = (lastMsg.type || '').toUpperCase() === 'OUTBOUND';
-  return lastIsOutbound;
+  if (!lastIsOutbound) return false;
+
+  // Last message IS outbound — but was it the bot or a human agent?
+  // Use dual detection: content match + time-based (same logic as OUTBOUND webhook handler)
+  const normEcho = s => (s || '').replace(/\s+/g, ' ').trim().toLowerCase();
+  const lastBotContent = normEcho(leadMeta?.last_bot_reply_content || '');
+  const lastMsgContent = normEcho(lastMsg.body || lastMsg.message || '');
+
+  // Method 1: Content match — last outbound message matches the bot's last known reply
+  const isBotByContent = lastBotContent && lastMsgContent === lastBotContent;
+
+  // Method 2: Time-based — outbound within 60s of bot's last reply is almost certainly the bot
+  // (Using 60s here vs 30s in echo handler — this runs later so more margin needed)
+  const BOT_WINDOW_MS = 60000;
+  const lastBotAt = leadMeta?.last_bot_reply_at ? new Date(leadMeta.last_bot_reply_at).getTime() : 0;
+  const lastMsgAt = lastMsg.created_at
+    ? (typeof lastMsg.created_at === 'number' ? lastMsg.created_at * 1000 : new Date(lastMsg.created_at).getTime())
+    : 0;
+  const isBotByTime = lastBotAt && lastMsgAt && Math.abs(lastMsgAt - lastBotAt) < BOT_WINDOW_MS;
+
+  if (isBotByContent || isBotByTime) {
+    console.log(`[auto-reply] Live agent guard: last outbound on ${ticketId} is BOT (content=${isBotByContent} time=${isBotByTime}) — NOT blocking`);
+    return false; // Bot's own reply — don't block
+  }
+
+  // Last outbound was NOT from the bot → a human agent spoke last → block the bot
+  console.log(`[auto-reply] Live agent guard: real human agent reply detected on ${ticketId} — blocking bot`);
+  return true;
 }
 
 async function postTrengoMessage(ticketId, message) {
@@ -799,6 +825,7 @@ CHECK EACH RULE:
 7. CORRECT PROPERTY — Does the draft reference the correct property? Does it invent details not present in the conversation?
 8. NO UNSOLICITED TOPICS — Does the draft bring up topics the lead never asked about (deposits, cleaning, policies, pets)?
 9. NO EM DASHES — Does the draft contain — or – characters?
+10. NO GREETING OPENER — Does the draft start with "Hi [Name]!", "Hello [Name]!", "Hey [Name]!" or any greeting+name combo as the first words? FAIL. The reply must get straight to the substance. The lead's name can appear mid-sentence but NEVER as a greeting opener.
 
 If ALL checks pass, respond with exactly one word: APPROVED
 
@@ -1140,6 +1167,8 @@ RULES — follow exactly, no exceptions:
 - HUMAN/AGENT REQUESTS: If a lead asks to speak to a human, agent, person, or anyone from the team, or asks for a phone number, escalate immediately with reason "lead requesting human agent" and holding message "Of course, let me get someone from the team for you right away."
 - VIDEO/MEDIA REQUESTS: If a lead asks for a video, virtual tour, video walkthrough, or any visual media of the property — escalate immediately with reason "lead requesting video for [property]" and holding message "Let me get that arranged for you right away." Never ignore a video request or pretend to answer it without providing one.
 - VIEWING RULES: NEVER proactively suggest, offer, or propose a viewing. Only discuss viewings if the lead explicitly asks to visit, see, or view the property. When a lead does ask: viewings are available any day 9am-6pm. ONLY call book_viewing when the lead gives a SPECIFIC day AND time. If they ask without a time, ask "Sure! What day and time works for you? Viewings are available any day between 9am and 6pm." Do NOT say "let me check" or "let me confirm". If the time is outside 9am-6pm, tell them the window and ask for another time.
+- NO GREETINGS: NEVER start a reply with "Hi [Name]!", "Hello [Name]!", "Hey [Name]!", or any greeting+name opener. Get straight to the point. The lead's name can appear naturally mid-sentence when relevant, but NEVER as the first words of a reply. This is a hard rule — no exceptions. Starting every reply with "Hi Lisa!" makes you sound like a broken chatbot.
+- CONVERSATION CLOSURE: When the conversation is clearly over — the lead said goodbye, thanks, or declined — and you have ALREADY sent a farewell or closing message, STOP. Do NOT reply to courtesy follow-ups like "thank you", "you too", "thanks", "ok bye", thumbs up emoji, or any polite sign-off that comes AFTER your own goodbye. Let the conversation close naturally. Replying to goodbyes with more goodbyes makes you sound desperate and robotic.
 
 You MUST call exactly one tool. Choose the right tool based on your confidence level.`;
 
@@ -1818,7 +1847,7 @@ async function handleInboundWithLock(req, res, body, ticketId, leadId, leadMeta,
 
   // ── Live agent guard — check Trengo thread for recent agent reply ──────────
   // Prevents bot from piling on after Afifa or Faysal already responded.
-  const agentAlreadyReplied = await hasRecentAgentReplyInTrengo(ticketId);
+  const agentAlreadyReplied = await hasRecentAgentReplyInTrengo(ticketId, leadMeta);
   if (agentAlreadyReplied) {
     crmState[leadId].last_agent_reply_at = new Date().toISOString(); // sync CRM
     await writeCRMState(crmState, sha);
@@ -1904,6 +1933,20 @@ async function handleInboundWithLock(req, res, body, ticketId, leadId, leadMeta,
   } else if (priceWallCount >= 2) {
     // 2 rounds — inject strong context telling Claude to escalate this time
     conversationWallContext = `\n\nCRITICAL — CONVERSATION WALL DETECTED: The lead has pushed back on the price ${leadPriceRequests.length} times and you have already refused ${botPriceRefusals.length} times. You are going in circles. DO NOT refuse the price again. DO NOT repeat that 6,500 is the lowest. You MUST use escalate_to_faysal now with reason "price negotiation — lead insists on lower price, needs human negotiation" and a warm holding message like "Let me get my manager involved to see what we can work out for you."`;
+  }
+
+  // ── PRE-CLAUDE GUARD 4: Courtesy goodbye — conversation is over, stop replying ──
+  // If bot already said goodbye/farewell AND lead's new message is just a courtesy reply,
+  // do NOT reply. Let the conversation close naturally.
+  const courtesyPatterns = /^(thanks?|thank you|thx|ty|ok bye|bye|okay bye|cheers|you too|take care|no worries|no problem|have a good|good night|good day|👍|🙏|😊|👋|okay|ok|sure|alright|got it|noted|cool|great|perfect|will do|appreciate it|much appreciated)\.?!?\s*$/i;
+  const lastBotReply = (leadMeta.last_bot_reply_content || '').toLowerCase();
+  const botSaidGoodbye = /(good luck|all the best|take care|wish you|best of luck|happy to help|anytime|cheers|bye|farewell|have a great|if you ever need|don'?t hesitate|glad .* help|pleasure|was nice)/i.test(lastBotReply);
+  const allPendingAreCourtesy = pendingTexts.length > 0 && pendingTexts.every(t => courtesyPatterns.test(t));
+
+  if (botSaidGoodbye && allPendingAreCourtesy) {
+    console.log(`[auto-reply] Courtesy goodbye on ticket ${ticketId} — bot already closed, lead sent "${pendingTexts.join('; ')}" — NOT replying`);
+    const courtesyEvent = createMetricsEvent(ticketId, leadId, 'skipped', null, Date.now() - webhookStartTime, null, leadMeta.lead_quality_score || null, leadMeta.lead_quality_label || null, 'courtesy_goodbye');
+    return metricsResponse(res, 200, { ok: true, skipped: 'courtesy_goodbye', dubaiHour }, courtesyEvent);
   }
 
   let { reply, escalate, reason, viewing, pendingViewing } = await generateReply(conversation, leadMeta, messageText, leadName, pendingInbound, false, '', conversationWallContext);
