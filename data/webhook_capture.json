@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-03T03:56:50.019Z",
+  "ts": "2026-04-03T04:04:52.599Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4220715330",
-    "ticket_id": "939546454",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in Polo Residences\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "535432301",
-    "contact_name": "Adeel",
-    "contact_identifier": "+971504458163",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4220716947",
+    "ticket_id": "935081891",
+    "message": "We want to extend more for one day",
+    "channel_id": "585723",
+    "contact_id": "534277560",
+    "contact_name": "Dhungel Shikshya",
+    "contact_identifier": "+971502922645",
+    "event_type": "INBOUND"
   }
 }
