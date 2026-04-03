@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-03T10:28:54.652Z",
+  "ts": "2026-04-03T10:28:57.386Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4220954031",
-    "ticket_id": "939546454",
-    "message": "Here is the location map for your booking at Polo Residence Building E1\r\n\r\nhttps://maps.app.goo.gl/dUfT3haU11AE3xU87",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535432301",
-    "contact_name": "Adeel",
-    "contact_identifier": "+971504458163",
+    "type": "INBOUND",
+    "message_id": "4220954039",
+    "ticket_id": "939631660",
+    "message": "!!",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535452159",
+    "contact_name": "Shouq",
+    "contact_identifier": "+971503671717",
+    "parent_message_id": "4220947391",
+    "parent_ticket_id": "939631660",
+    "event_type": "INBOUND"
   }
 }
