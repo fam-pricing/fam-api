@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-03T10:38:37.062Z",
+  "ts": "2026-04-03T10:39:03.096Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4220961179",
+    "type": "OUTBOUND",
+    "message_id": "4220961433",
     "ticket_id": "938546983",
-    "message": "Not that I know of .",
-    "channel_id": "585723",
+    "message": "We will inform the building reception to assist you with it",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "535208016",
     "contact_name": "DEANNO GARRY LUPKE",
     "contact_identifier": "+27815663899",
-    "parent_message_id": "4220960997",
-    "parent_ticket_id": "938546983",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
