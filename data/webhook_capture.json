@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-03T22:09:02.919Z",
+  "ts": "2026-04-03T22:09:56.222Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4221366012",
+    "type": "INBOUND",
+    "message_id": "4221366135",
     "ticket_id": "939783612",
-    "message": "That's convenient, same complex so they'd be right nearby. It's a monthly rental, start with 1 month and extend as needed. The 3BR in Tower 2 is AED 13,500/month, all-inclusive of water, electricity and internet. When are they looking to move in?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes that would be best to be in tower 1 or 2",
+    "channel_id": "1304636",
     "contact_id": "535494675",
     "contact_name": "Mohammad A. Khanani",
     "contact_identifier": "+971507116517",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4221366058",
+    "parent_ticket_id": "939783612",
+    "event_type": "INBOUND"
   }
 }
