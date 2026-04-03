@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-03T10:36:40.027Z",
+  "ts": "2026-04-03T10:37:18.943Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4220959898",
+    "type": "OUTBOUND",
+    "message_id": "4220960345",
     "ticket_id": "938546983",
-    "message": "Thank you for your assistance\nMy hubby told reception about the issue as well .",
-    "channel_id": "585723",
+    "message": "You’re most welcome. Could you please send us pictures of the switch to confirm whether it is on or off?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535208016",
     "contact_name": "DEANNO GARRY LUPKE",
     "contact_identifier": "+27815663899",
-    "parent_message_id": "4220959348",
-    "parent_ticket_id": "938546983",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
