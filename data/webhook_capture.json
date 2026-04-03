@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-03T13:40:04.631Z",
+  "ts": "2026-04-03T13:40:44.887Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4221122389",
+    "type": "INBOUND",
+    "message_id": "4221122836",
     "ticket_id": "939663703",
-    "message": "Please disregard this message. We apologize\r\n\r\nfor the rate let me check, and I will get back to you shortly.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "535430452",
     "contact_name": "Mae",
     "contact_identifier": "+447802631676",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4221122389",
+    "parent_ticket_id": "939663703",
+    "event_type": "INBOUND"
   }
 }
