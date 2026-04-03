@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-03T11:41:57.182Z",
+  "ts": "2026-04-03T11:42:11.418Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4221015629",
-    "ticket_id": "939660654",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535119429",
-    "contact_name": "Reihaneh Hossein Til",
-    "contact_identifier": "+971504133080",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4221015855",
+    "ticket_id": "939660773",
+    "message": "Due to a health-related situation, I unfortunately wasn’t able to get in touch or return for the appointment. Would it be possible to schedule a new one?",
+    "channel_id": "1304636",
+    "contact_id": "535071198",
+    "contact_name": "Denis Kizay",
+    "contact_identifier": "+971585212534",
+    "event_type": "INBOUND"
   }
 }
