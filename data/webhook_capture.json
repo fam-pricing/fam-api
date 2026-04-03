@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-03T06:49:15.390Z",
+  "ts": "2026-04-03T06:50:17.594Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4220768594",
+    "type": "OUTBOUND",
+    "message_id": "4220769067",
     "ticket_id": "938803090",
-    "message": "Don't worry",
-    "channel_id": "585723",
+    "message": "We understand that your friend is scheduled to make the payment at our office today.\r\n\r\nHowever, if it is more convenient, your friend can also visit the Reehan building directly at 3:00 PM, where our team will assist with both the payment and the check-in process. This will help avoid visiting two locations.\r\n\r\nPlease let us know which option works best.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535274790",
     "contact_name": "TRÂN BÌNH NGUYỄN",
     "contact_identifier": "+971501327638",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
