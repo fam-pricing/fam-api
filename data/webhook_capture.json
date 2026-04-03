@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-03T10:24:17.101Z",
+  "ts": "2026-04-03T10:26:20.060Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4220950342",
+    "type": "INBOUND",
+    "message_id": "4220951802",
     "ticket_id": "939546454",
-    "message": "Once you have completed the viewing, kindly let us know, and we will proceed with the booking. We will require a copy of your passport and your email address to send you the payment link for confirmation.\r\n\r\nFor a 6-month booking, we can certainly assist you. Please note that to confirm the reservation, payment for the first and last month, along with the security deposit, is required. The remaining balance can be paid on a monthly basis.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Okay we will discuss after viewing",
+    "channel_id": "1304636",
     "contact_id": "535432301",
     "contact_name": "Adeel",
     "contact_identifier": "+971504458163",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4220950342",
+    "parent_ticket_id": "939546454",
+    "event_type": "INBOUND"
   }
 }
