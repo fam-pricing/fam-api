@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-03T13:48:06.581Z",
+  "ts": "2026-04-03T13:48:36.344Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4221128246",
-    "ticket_id": "939649881",
-    "message": "Sure we will inform to go inside",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "535230088",
-    "contact_name": "Roman Wagner",
-    "contact_identifier": "+971585412443",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4221128748",
+    "ticket_id": "909027620",
+    "message": "👍",
+    "channel_id": "585723",
+    "contact_id": "494631274",
+    "contact_name": "Alexis",
+    "contact_identifier": "+33673159124",
+    "parent_message_id": "4221126862",
+    "parent_ticket_id": "909027620",
+    "event_type": "INBOUND"
   }
 }
