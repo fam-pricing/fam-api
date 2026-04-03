@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-03T06:27:20.418Z",
+  "ts": "2026-04-03T06:28:26.364Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4220757261",
-    "ticket_id": "939318910",
-    "message": "Can you arrange another viewing",
-    "channel_id": "1304636",
-    "contact_id": "535378240",
-    "contact_name": "Vikramaditya Modi",
-    "contact_identifier": "+971585823164",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4220757943",
+    "ticket_id": "939568295",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535435518",
+    "contact_name": "Dani",
+    "contact_identifier": "+971522012073",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
