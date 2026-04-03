@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-03T13:09:02.352Z",
+  "ts": "2026-04-03T13:09:45.165Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4221091271",
-    "ticket_id": "935709173",
-    "message": "sure let me make the booking and send you the payment link shortly",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "534441955",
-    "contact_name": "Mohamed Abdulla Alsuwaidi",
-    "contact_identifier": "+971501100117",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4221092361",
+    "ticket_id": "939672515",
+    "message": "Hello, I'm really interested in this property. May I ask what's the best offer you can make for me for a two-month rental beginning on the 10th of April?",
+    "channel_id": "1304636",
+    "contact_id": "535465651",
+    "contact_name": "Clifford M.",
+    "contact_identifier": "+4915129596948",
+    "event_type": "INBOUND"
   }
 }
