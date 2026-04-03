@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-03T07:17:19.752Z",
+  "ts": "2026-04-03T07:22:42.928Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4220787952",
+    "type": "OUTBOUND",
+    "message_id": "4220793534",
     "ticket_id": "935081891",
-    "message": "Okay",
-    "channel_id": "585723",
+    "message": "https://totalpay.ae/payment/202604032569cf6ab1d6479",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "534277560",
     "contact_name": "Dhungel Shikshya",
     "contact_identifier": "+971502922645",
-    "parent_message_id": "4220787643",
-    "parent_ticket_id": "935081891",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
