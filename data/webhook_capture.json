@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-03T10:38:22.911Z",
+  "ts": "2026-04-03T10:38:37.062Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4220960997",
+    "type": "INBOUND",
+    "message_id": "4220961179",
     "ticket_id": "938546983",
-    "message": "May I know if there was any fire alarm at the building",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Not that I know of .",
+    "channel_id": "585723",
     "contact_id": "535208016",
     "contact_name": "DEANNO GARRY LUPKE",
     "contact_identifier": "+27815663899",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4220960997",
+    "parent_ticket_id": "938546983",
+    "event_type": "INBOUND"
   }
 }
