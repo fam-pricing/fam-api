@@ -826,6 +826,7 @@ CHECK EACH RULE:
 8. NO UNSOLICITED TOPICS — Does the draft bring up topics the lead never asked about (deposits, cleaning, policies, pets)?
 9. NO EM DASHES — Does the draft contain — or – characters?
 10. NO GREETING OPENER — Does the draft start with "Hi [Name]!", "Hello [Name]!", "Hey [Name]!" or any greeting+name combo as the first words? FAIL. The reply must get straight to the substance. The lead's name can appear mid-sentence but NEVER as a greeting opener.
+11. NO PUSHY CTA — Does the draft suggest paperwork, contracts, signing, booking, or payment when the lead has NOT explicitly asked to proceed? If this is an early enquiry (lead asked about price, availability, or info) and the draft ends with "Shall I get the paperwork started?", "Want me to send the contract?", "Ready to book?", or similar commitment-pressure CTA — FAIL. Replace with a soft, informational CTA like "Would you like to see it first?" or "Any other questions about the property?"
 
 If ALL checks pass, respond with exactly one word: APPROVED
 
@@ -887,11 +888,19 @@ If ANY check fails:
 
     if (corrected && corrected.length > 10) {
       console.log(`[auto-reply] Critic: ${failLine} — using revised reply`);
-      // Strip em/en dashes and any leftover tag artefacts from critic output
+      // Strip em/en dashes, leftover FAIL artifacts, and any tag artefacts from critic output
       const clean = corrected
         .replace(/\s*\u2014\s*/g, ', ')
         .replace(/\s*\u2013\s*/g, ', ')
+        .replace(/\bFAIL\b/gi, '')       // strip any leftover FAIL word from critic output
+        .replace(/\bAPPROVED\b/gi, '')   // strip any leftover APPROVED word
+        .replace(/^\s*[\n\r]+/, '')       // clean leading blank lines after stripping
         .trim();
+      if (clean.length < 10) {
+        // Stripping left nothing useful — fall back to original draft
+        console.log('[auto-reply] Critic: corrected reply empty after cleanup, using original');
+        return { pass: true, finalReply: draftReply };
+      }
       return { pass: false, finalReply: clean, reason: failLine };
     }
 
@@ -1169,6 +1178,7 @@ RULES — follow exactly, no exceptions:
 - VIEWING RULES: NEVER proactively suggest, offer, or propose a viewing. Only discuss viewings if the lead explicitly asks to visit, see, or view the property. When a lead does ask: viewings are available any day 9am-6pm. ONLY call book_viewing when the lead gives a SPECIFIC day AND time. If they ask without a time, ask "Sure! What day and time works for you? Viewings are available any day between 9am and 6pm." Do NOT say "let me check" or "let me confirm". If the time is outside 9am-6pm, tell them the window and ask for another time.
 - NO GREETINGS: NEVER start a reply with "Hi [Name]!", "Hello [Name]!", "Hey [Name]!", or any greeting+name opener. Get straight to the point. The lead's name can appear naturally mid-sentence when relevant, but NEVER as the first words of a reply. This is a hard rule — no exceptions. Starting every reply with "Hi Lisa!" makes you sound like a broken chatbot.
 - CONVERSATION CLOSURE: When the conversation is clearly over — the lead said goodbye, thanks, or declined — and you have ALREADY sent a farewell or closing message, STOP. Do NOT reply to courtesy follow-ups like "thank you", "you too", "thanks", "ok bye", thumbs up emoji, or any polite sign-off that comes AFTER your own goodbye. Let the conversation close naturally. Replying to goodbyes with more goodbyes makes you sound desperate and robotic.
+- NO PUSHY SALES TACTICS: NEVER suggest paperwork, contracts, signing, booking, or payment on a first enquiry or early conversation. The lead just asked a question — answer it. Do NOT end with "Shall I get the paperwork started?", "Want me to send the contract?", "Ready to book?", or anything that pressures commitment. These CTAs are ONLY appropriate when the lead has explicitly said they want to proceed, asked about contracts, or confirmed they want to book. Until then, your CTA should be soft and informational: "Would you like to see it first?" / "Want me to send photos?" / "Any other questions about the property?" Pushing contracts on someone who just enquired is cheap and destroys trust.
 
 You MUST call exactly one tool. Choose the right tool based on your confidence level.`;
 
