@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-04T14:00:16.299Z",
+  "ts": "2026-04-04T14:00:49.011Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4221671881",
-    "ticket_id": "939886792",
-    "message": "https://totalpay.ae/payment/202604045769d105e973ef1/success?payment_id=74339fc6-302e-11f1-a1af-4a01ed4313f5&trans_id=752d81b2-302e-11f1-8420-4a01ed4313f5&order_id=GY-x42GqNnG&hash=78b16f4bdd2c704de7649482dda6751252d27494&payment_method=virtual&brand=applepay&checkout_payment_method=applepay",
-    "channel_id": "585723",
-    "contact_id": "535514281",
-    "contact_name": "Fatema Mohamed Eid Mohamed Alqubaisi",
-    "contact_identifier": "+971506115080",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4221672220",
+    "ticket_id": "939904586",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-69095495.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535518884",
+    "contact_name": "Carel",
+    "contact_identifier": "+971562252584",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
