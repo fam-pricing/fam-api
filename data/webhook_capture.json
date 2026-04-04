@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-04T12:26:11.620Z",
+  "ts": "2026-04-04T12:26:58.154Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4221626058",
+    "type": "INBOUND",
+    "message_id": "4221626612",
     "ticket_id": "939886792",
-    "message": "Ma’am, we will need your ID to make the booking in our system, as it is not possible to proceed without it.\r\n\r\nPlease note that this will be a self-check-in, and the entire check-in process will be completed online.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "ok",
+    "channel_id": "585723",
     "contact_id": "535514281",
     "contact_name": "city walk",
     "contact_identifier": "+971506115080",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
