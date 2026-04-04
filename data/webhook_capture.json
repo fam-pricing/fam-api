@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-04T18:08:47.412Z",
+  "ts": "2026-04-04T19:13:48.744Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4221779293",
-    "ticket_id": "939937951",
-    "message": "No thanks",
+    "type": "OUTBOUND",
+    "message_id": "4221802250",
+    "ticket_id": "939946314",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535529610",
+    "contact_name": "Victoria Oliveira 🦋",
+    "contact_identifier": "+971585187508",
     "channel_id": "1304636",
-    "contact_id": "535514470",
-    "contact_name": "Banks",
-    "contact_identifier": "+971557739717",
-    "parent_message_id": "4221753218",
-    "parent_ticket_id": "939887407",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
