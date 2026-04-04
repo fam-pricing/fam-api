@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-04T12:28:07.904Z",
+  "ts": "2026-04-04T12:28:18.235Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4221627119",
-    "ticket_id": "939886792",
-    "message": "Document",
-    "channel_id": "585723",
-    "contact_id": "535514281",
-    "contact_name": "city walk",
-    "contact_identifier": "+971506115080",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4221627181",
+    "ticket_id": "939887407",
+    "message": "May I know the date from which you would like to book? We can also arrange a viewing of this unit for you to confirm the apartment.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535514470",
+    "contact_name": "Banks",
+    "contact_identifier": "+971557739717",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
