@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-04T12:16:25.011Z",
+  "ts": "2026-04-04T12:16:27.188Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4221621564",
+    "type": "OUTBOUND",
+    "message_id": "4221621636",
     "ticket_id": "939887407",
-    "message": "What’s my total?",
-    "channel_id": "1304636",
+    "message": "Still available! And that makes it easy since you've already seen a similar unit in the building.\n\nTo move in, you'd need the first month (AED 7,000), last month (AED 7,000), and a refundable security deposit of AED 1,500, so AED 15,500 total to get started.\n\nWhen are you thinking of moving in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535514470",
     "contact_name": "Banks",
     "contact_identifier": "+971557739717",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
