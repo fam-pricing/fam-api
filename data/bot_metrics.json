@@ -4678,5 +4678,17 @@
     "lead_quality": 30,
     "buying_stage": "COOL",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-04-04T19:48:06.329Z",
+    "ticket_id": 939946314,
+    "lead_id": "message_lead_28601088",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 25239,
+    "critic_pass": null,
+    "lead_quality": 30,
+    "buying_stage": "COOL",
+    "skip_reason": "Lead requesting a video of the 1BR in Nobles Tower. Per playbook, video/media requests must always be escalated immediately. Also asking about availability for April 14 and price from April 14 to May 16 (already addressed by Faysal). Primary reason is video request."
   }
 ]
