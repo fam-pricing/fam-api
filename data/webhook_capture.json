@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-04T06:06:03.619Z",
+  "ts": "2026-04-04T06:09:51.729Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4221451993",
-    "ticket_id": "939660773",
-    "message": "Unfortunately, this apartment is only available until May 24 and is not available year-round.",
-    "user_id": "746181",
-    "user_name": "Avinash I",
-    "user_email": "avinashanilkumar.i@famliving.com",
-    "contact_id": "535071198",
-    "contact_name": "Denis Kizay",
-    "contact_identifier": "+971585212534",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4221453367",
+    "ticket_id": "934199428",
+    "message": "909 and 109 also will be viewing.  Is the flat locked?",
+    "channel_id": "585723",
+    "contact_id": "534076190",
+    "contact_name": "Thanvir Aafaq",
+    "contact_identifier": "+971521229233",
+    "parent_message_id": "4221446532",
+    "parent_ticket_id": "934199428",
+    "event_type": "INBOUND"
   }
 }
