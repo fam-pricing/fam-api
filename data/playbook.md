@@ -200,3 +200,7 @@ This is a living document. General rules are merged into the sections above. Onl
 
 "At the moment, we are unable to provide details on future rates due to the current uncertain market conditions. We can only confirm pricing for a 3-month period. Any extension beyond this will depend on market conditions and the situation at that time."
   (Learned from Faysal handling Meana re 1BR in Polo Residences)
+
+## Learned (2026-04-04)
+- When a lead requests monthly payments, confirm that bookings of up to 12 months are available, then explain that to secure the reservation, payment for the first and last month plus a security deposit is required upfront. Ask for their preferred length of stay so you can check the applicable rate and provide a quote.
+  (Learned from Faysal handling Banks re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html)
