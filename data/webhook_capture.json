@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-04T10:01:24.535Z",
+  "ts": "2026-04-04T10:08:40.657Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4221557196",
-    "ticket_id": "939866247",
-    "message": "Here are the listings with photos if you want a closer look:\n\nStudio (AED 5,500/month): https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html\n\n1BR (AED 7,000/month): https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-14358811.html\n\nFor the viewing, we can do any day between 9am and 6pm. What time works for you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "535509110",
-    "contact_name": "M.D",
-    "contact_identifier": "+971501596969",
+    "type": "INBOUND",
+    "message_id": "4221560552",
+    "ticket_id": "939838639",
+    "message": "Better to stay within these pl",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535502334",
+    "contact_name": "Alissar",
+    "contact_identifier": "+971551099539",
+    "parent_message_id": "4221477303",
+    "parent_ticket_id": "939838639",
+    "event_type": "INBOUND"
   }
 }
