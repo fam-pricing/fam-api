@@ -204,3 +204,7 @@ This is a living document. General rules are merged into the sections above. Onl
 ## Learned (2026-04-04)
 - When a lead requests monthly payments, confirm that bookings of up to 12 months are available, then explain that to secure the reservation, payment for the first and last month plus a security deposit is required upfront. Ask for their preferred length of stay so you can check the applicable rate and provide a quote.
   (Learned from Faysal handling Banks re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html)
+
+## Learned (2026-04-04)
+- If a lead requests to pay only at the end of the booking (first and last payment not possible), respond: "We are unable to confirm a long-term booking without an advance payment."
+  (Learned from Faysal handling Banks re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html)
