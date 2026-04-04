@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-04T12:17:00.612Z",
+  "ts": "2026-04-04T12:17:23.296Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4221621975",
+    "type": "INBOUND",
+    "message_id": "4221622173",
     "ticket_id": "939887407",
-    "message": "Your total to move in is AED 15,500. First month AED 7,000, last month AED 7,000, and a refundable security deposit of AED 1,500. After that it's just the monthly rent, all-inclusive.\n\nWhat time are you thinking of coming today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Last month ?? What does it mean",
+    "channel_id": "1304636",
     "contact_id": "535514470",
     "contact_name": "Banks",
     "contact_identifier": "+971557739717",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4221621975",
+    "parent_ticket_id": "939887407",
+    "event_type": "INBOUND"
   }
 }
