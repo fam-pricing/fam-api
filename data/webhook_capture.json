@@ -1,17 +1,19 @@
 {
-  "ts": "2026-04-04T18:08:12.434Z",
+  "ts": "2026-04-04T18:08:47.412Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4221779091",
+    "message_id": "4221779293",
     "ticket_id": "939937951",
-    "message": "Thanks will just pay the other agent",
+    "message": "No thanks",
     "channel_id": "1304636",
     "contact_id": "535514470",
     "contact_name": "Banks",
     "contact_identifier": "+971557739717",
+    "parent_message_id": "4221753218",
+    "parent_ticket_id": "939887407",
     "event_type": "INBOUND"
   }
 }
