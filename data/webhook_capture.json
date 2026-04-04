@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-04T11:19:44.513Z",
+  "ts": "2026-04-04T11:20:31.195Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4221595055",
+    "type": "INBOUND",
+    "message_id": "4221595438",
     "ticket_id": "939878030",
-    "message": "Most welcome!\r\n\r\nWe would like to clarify your arrival details. As the booking is under the name of Mr. Mustafa, will you be arriving with him, or will it be just him, Mr. Yousuf?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I’ll be arriving with him and show him around",
+    "channel_id": "585723",
     "contact_id": "513062351",
     "contact_name": "Mr Yusuf Bostanoglu",
     "contact_identifier": "+971505871185",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4221595055",
+    "parent_ticket_id": "939878030",
+    "event_type": "INBOUND"
   }
 }
