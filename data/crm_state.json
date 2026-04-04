@@ -4405,7 +4405,9 @@
     "lead_quality_signals": [],
     "bot_paused": true,
     "last_escalated_at": "2026-04-04T11:45:45.909Z",
-    "last_escalated_question": null
+    "last_escalated_question": null,
+    "last_agent_reply_at": "2026-04-04T12:46:18.156Z",
+    "last_learned_at": "2026-04-04T12:46:21.509Z"
   },
   "message_lead_28595703": {
     "stage": "new",
@@ -4416,7 +4418,7 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html",
     "trengo_ticket_id": 939887407,
     "lead_name": "Banks",
-    "last_bot_reply_content": "Yes, still available! To answer everything at once:\n\n\"Last month\" means when you move in, you pay the first month rent upfront plus the last month rent as a deposit to secure the unit. So your total to move in is AED 15,500, broken down as: first month AED 7,000, last month AED 7,000, and a refundable security deposit of AED 1,500. After that it's just AED 7,000 every month.\n\nOn the floor, let me get that confirmed for you. And since you've already seen a unit in the building today, you know what you're getting. Just come in, pay, and you're good to move in. What time works for you?",
+    "last_bot_reply_content": "Good news, rent is paid monthly after move-in. Let me just confirm the floor details and the exact total you need to bring on the day, and I'll come back to you shortly!",
     "last_bot_reply_at": "2026-04-04T12:17:53.832Z",
     "lead_replied": true,
     "lead_replied_at": "2026-04-04T12:17:53.832Z",
@@ -4431,6 +4433,9 @@
       "payment/booking intent",
       "viewing interest",
       "pricing enquiry"
-    ]
+    ],
+    "bot_paused": true,
+    "last_escalated_at": "2026-04-04T12:18:25.329Z",
+    "last_escalated_question": null
   }
 }
