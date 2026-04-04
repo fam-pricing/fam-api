@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-04T11:45:27.340Z",
+  "ts": "2026-04-04T11:45:48.430Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4221607183",
+    "type": "OUTBOUND",
+    "message_id": "4221607340",
     "ticket_id": "939883292",
-    "message": "Yes please",
-    "channel_id": "1304636",
+    "message": "Someone from the team will be with you shortly to walk you through the cheques and payment structure for the yearly stay!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535513444",
     "contact_name": "Meana",
     "contact_identifier": "+971561260505",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
