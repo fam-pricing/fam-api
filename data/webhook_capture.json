@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-04T10:39:37.851Z",
+  "ts": "2026-04-04T10:40:25.427Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4221575624",
+    "type": "INBOUND",
+    "message_id": "4221575932",
     "ticket_id": "939872721",
-    "message": "We have received your contact details from Mr. Yousef, as he has made a booking for you for tomorrow at Upside Living. He is the owner of this unit.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Ah Ok.. now I got it",
+    "channel_id": "585723",
     "contact_id": "535510624",
     "contact_name": "Mustafa Colak",
     "contact_identifier": "+971541969806",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
