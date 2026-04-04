@@ -1,16 +1,20 @@
 {
-  "ts": "2026-04-04T11:59:53.921Z",
+  "ts": "2026-04-04T12:03:58.199Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4221613682",
-    "ticket_id": "939841720",
-    "message": "Hello, I just viewed the apartment. I’m interested, but unfortunately not at this price. If you’re open to it, I’d be ready to take it at AED 6,000 per month for a couple of months.",
-    "channel_id": "1304636",
-    "contact_id": "535502953",
-    "contact_identifier": "+33781412632",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4221615947",
+    "ticket_id": "939886792",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535514281",
+    "contact_name": "city walk",
+    "contact_identifier": "+971506115080",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
