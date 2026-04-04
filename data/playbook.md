@@ -208,3 +208,7 @@ This is a living document. General rules are merged into the sections above. Onl
 ## Learned (2026-04-04)
 - If a lead requests to pay only at the end of the booking (first and last payment not possible), respond: "We are unable to confirm a long-term booking without an advance payment."
   (Learned from Faysal handling Banks re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html)
+
+## Learned (2026-04-04)
+- If a lead asks about availability or reservation guarantees, explain clearly: payment secures the unit only for the month it covers. If your booking period ends and another guest pays before you renew, we cannot guarantee the unit will still be available to you.
+  (Learned from Faysal handling Banks re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html)
