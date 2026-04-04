@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-04T17:14:07.697Z",
+  "ts": "2026-04-04T17:14:28.764Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4221758718",
+    "type": "OUTBOUND",
+    "message_id": "4221758874",
     "ticket_id": "939929745",
-    "message": "Hello. We are looking for apartment in City Walk. Is the viewing possible?",
-    "channel_id": "1304636",
+    "message": "Yes, viewings are available any day between 9am and 6pm. What day and time works best for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535525742",
     "contact_name": "Steff",
     "contact_identifier": "+420608558555",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
