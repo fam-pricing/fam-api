@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-04T12:17:58.706Z",
+  "ts": "2026-04-04T12:18:26.025Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4221622389",
+    "type": "INBOUND",
+    "message_id": "4221622578",
     "ticket_id": "939887407",
-    "message": "Yes, still available! To answer everything at once:\n\n\"Last month\" means when you move in, you pay the first month rent upfront plus the last month rent as a deposit to secure the unit. So your total to move in is AED 15,500, broken down as: first month AED 7,000, last month AED 7,000, and a refundable security deposit of AED 1,500. After that it's just AED 7,000 every month.\n\nOn the floor, let me get that confirmed for you. And since you've already seen a unit in the building today, you know what you're getting. Just come in, pay, and you're good to move in. What time works for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "What does last month mean?",
+    "channel_id": "1304636",
     "contact_id": "535514470",
     "contact_name": "Banks",
     "contact_identifier": "+971557739717",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
