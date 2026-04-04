@@ -4006,5 +4006,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-04-04T10:11:42.232Z",
+    "ticket_id": 939866247,
+    "lead_id": "message_lead_28593631",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1157,
+    "critic_pass": null,
+    "lead_quality": 40,
+    "buying_stage": "WARM",
+    "skip_reason": "acknowledgment_skip"
   }
 ]
