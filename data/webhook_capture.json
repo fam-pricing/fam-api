@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-04T05:50:16.538Z",
+  "ts": "2026-04-04T05:50:49.346Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4221447667",
+    "type": "INBOUND",
+    "message_id": "4221447871",
     "ticket_id": "939649921",
-    "message": "The apartment will be ready at 11 AM. You may come now. We will finish the check-in process and hand over the apartment to you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "I can be there at 11 sharp",
+    "channel_id": "1304636",
     "contact_id": "535052322",
     "contact_name": "Frank",
     "contact_identifier": "+971553274493",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
