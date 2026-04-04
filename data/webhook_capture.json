@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-04T12:22:08.280Z",
+  "ts": "2026-04-04T12:23:20.237Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4221624248",
+    "type": "OUTBOUND",
+    "message_id": "4221624935",
     "ticket_id": "939886792",
-    "message": "Audio",
-    "channel_id": "585723",
+    "message": "Unfortunately, ma’am, we do not have any additional items available in the apartment at the moment. The apartment currently only has the existing bed, and we are unable to provide an extra mattress.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535514281",
     "contact_name": "city walk",
     "contact_identifier": "+971506115080",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
