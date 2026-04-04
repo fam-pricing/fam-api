@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-04T07:24:33.758Z",
+  "ts": "2026-04-04T07:24:51.975Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4221480487",
-    "ticket_id": "939838639",
-    "message": "Sure! Once you’ve completed the viewing, we can proceed with booking the apartment.\r\n\r\nWould you like to schedule the viewing for today?",
-    "user_id": "746181",
-    "user_name": "Avinash I",
-    "user_email": "avinashanilkumar.i@famliving.com",
-    "contact_id": "535502334",
-    "contact_name": "Alissar",
-    "contact_identifier": "+971551099539",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4221480628",
+    "ticket_id": "939660654",
+    "message": "Document",
+    "channel_id": "585723",
+    "contact_id": "535119429",
+    "contact_name": "Reihaneh Hossein Til",
+    "contact_identifier": "+971504133080",
+    "event_type": "INBOUND"
   }
 }
