@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-04T07:21:08.719Z",
+  "ts": "2026-04-04T07:21:42.101Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4221478591",
-    "ticket_id": "939831731",
-    "message": "Because I have a 3h gap - so I would appreciate as a soon as possible",
+    "type": "OUTBOUND",
+    "message_id": "4221478842",
+    "ticket_id": "939660654",
+    "message": "We are still awaiting the completion of your check-in form and payment. Kindly complete them at your earliest convenience.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535119429",
+    "contact_name": "Reihaneh Hossein Til",
+    "contact_identifier": "+971504133080",
     "channel_id": "585723",
-    "contact_id": "535500994",
-    "contact_name": "Samir",
-    "contact_identifier": "+971566888747",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
