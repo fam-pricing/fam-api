@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-04T08:29:53.733Z",
+  "ts": "2026-04-04T08:30:58.558Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4221510665",
-    "ticket_id": "939695300",
-    "message": "i added beneficiary",
+    "type": "OUTBOUND",
+    "message_id": "4221511155",
+    "ticket_id": "939783612",
+    "message": "We have already scheduled it for you, so everything is set. You may arrive at 1:00 PM, and our team will be there to assist you. Mr. Junaid from our Guest Relations team will be available to support you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535494675",
+    "contact_name": "Mohammad A. Khanani",
+    "contact_identifier": "+971507116517",
     "channel_id": "1304636",
-    "contact_id": "535469263",
-    "contact_name": "Elspeth Jiang",
-    "contact_identifier": "+971503084672",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
