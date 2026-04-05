@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-05T18:28:25.398Z",
+  "ts": "2026-04-05T18:36:14.872Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4222224651",
+    "type": "INBOUND",
+    "message_id": "4222227037",
     "ticket_id": "940112966",
-    "message": "Hamid, I really do hear you, and I want to make sure you get the right answer here. Let me get one of our team members to look into this personally for you and come back shortly.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "🙏",
+    "channel_id": "1304636",
     "contact_id": "535561542",
     "contact_name": "Hamid Shahir",
     "contact_identifier": "+971567890600",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4222224651",
+    "parent_ticket_id": "940112966",
+    "event_type": "INBOUND"
   }
 }
