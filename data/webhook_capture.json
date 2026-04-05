@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-05T13:35:39.661Z",
+  "ts": "2026-04-05T13:39:12.525Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4222116694",
-    "ticket_id": "940064254",
-    "message": "What time is convenient for you for the viewing",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535536672",
-    "contact_name": "Tatiana Yepes",
-    "contact_identifier": "+971585686379",
+    "type": "INBOUND",
+    "message_id": "4222118116",
+    "ticket_id": "940057783",
+    "message": "Ok but its under process",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535548091",
+    "contact_name": "Krishnakshee",
+    "contact_identifier": "+919739058435",
+    "parent_message_id": "4222116135",
+    "parent_ticket_id": "940057783",
+    "event_type": "INBOUND"
   }
 }
