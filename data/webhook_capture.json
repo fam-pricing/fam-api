@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-05T18:06:26.282Z",
+  "ts": "2026-04-05T18:06:55.266Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222217029",
+    "type": "OUTBOUND",
+    "message_id": "4222217347",
     "ticket_id": "940112966",
-    "message": "Hello, good evening.\n\nI’m looking for a 2-bedroom apartment for at least one month.\nDue to my current situation, I need to stay for one month.\n\nMy budget is 5000 AED, and this is my maximum budget.\n\nIf this works for you, I can proceed and sign the contract within the next couple of days.\n\nThank you.",
-    "channel_id": "1304636",
+    "message": "Good evening! The Urban Oasis 2BR is at AED 8,500/month, which is above your budget. The closest we have in a 2BR is Elite Business Bay at AED 7,000/month, also fully all-inclusive. Is 5,000 AED a firm ceiling, or is there any flexibility there?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535561542",
     "contact_name": "Hamid Shahir",
     "contact_identifier": "+971567890600",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
