@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-05T09:33:57.929Z",
+  "ts": "2026-04-05T09:35:05.620Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222020674",
-    "ticket_id": "928747916",
-    "message": "Account holder: Hoda Yazdani Consulting LLC\nIBAN: AE830860000009323298591\nBIC: WIOBAEADXXX\nBank address:\nEtihad Airways Centre 5th Floor, Abu Dhabi, UAE",
+    "type": "OUTBOUND",
+    "message_id": "4222021064",
+    "ticket_id": "939886792",
+    "message": "Once you complete the rent payment please update us as we need to register in the building",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535514281",
+    "contact_name": "Fatema Mohamed Eid Mohamed Alqubaisi",
+    "contact_identifier": "+971506115080",
     "channel_id": "585723",
-    "contact_id": "532723309",
-    "contact_name": "Hoda",
-    "contact_identifier": "+971542154632",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
