@@ -212,3 +212,7 @@ This is a living document. General rules are merged into the sections above. Onl
 ## Learned (2026-04-04)
 - If a lead asks about availability or reservation guarantees, explain clearly: payment secures the unit only for the month it covers. If your booking period ends and another guest pays before you renew, we cannot guarantee the unit will still be available to you.
   (Learned from Faysal handling Banks re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html)
+
+## Learned (2026-04-05)
+- If a lead asks whether the price is negotiable for AED 10,000, respond: "We have already adjusted the rate in line with current market conditions, and this is the best rate we are able to offer."
+  (Learned from Faysal handling OMOSHOLA re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-69095495.html)
