@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-05T17:43:49.025Z",
+  "ts": "2026-04-05T17:59:23.363Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4222209416",
+    "type": "INBOUND",
+    "message_id": "4222214494",
     "ticket_id": "940112966",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-67437566.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello, good evening.\n\nI’m looking for a 2-bedroom apartment for at least one month.\nMy budget is 5000 AED, and this is my maximum budget.\n\nIf this works for you, I can proceed and sign the contract within the next couple of days.\n\nThank you.",
+    "channel_id": "1304636",
     "contact_id": "535561542",
     "contact_name": "Hamid Shahir",
     "contact_identifier": "+971567890600",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
