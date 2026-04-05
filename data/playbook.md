@@ -216,3 +216,7 @@ This is a living document. General rules are merged into the sections above. Onl
 ## Learned (2026-04-05)
 - If a lead asks whether the price is negotiable for AED 10,000, respond: "We have already adjusted the rate in line with current market conditions, and this is the best rate we are able to offer."
   (Learned from Faysal handling OMOSHOLA re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-69095495.html)
+
+## Learned (2026-04-05)
+- If a lead says they will share their Emirates ID when they come for the viewing, inform them that the Emirates ID is required in advance in order to arrange the viewing.
+  (Learned from Faysal handling Krishnakshee re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-2Q6tKXdaTFw.html)
