@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-05T10:47:25.959Z",
+  "ts": "2026-04-05T10:49:50.598Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4222049605",
+    "type": "INBOUND",
+    "message_id": "4222050371",
     "ticket_id": "940055159",
-    "message": "To process a smooth check in for you, please complete this form:\r\nhttps://guest-app.guesty.com/r/69d11993fc3662ee8b5fd0e1/e3tndWVzdF9hcHA6OnNhbXBsZV9ndWVzdF9hcHB9fQ==",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I’m already in Ajman, so earliest Chek in is appreciated",
+    "channel_id": "585723",
     "contact_id": "535547475",
     "contact_name": "Eystein Lyche",
     "contact_identifier": "+971545053263",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4222049565",
+    "parent_ticket_id": "940055159",
+    "event_type": "INBOUND"
   }
 }
