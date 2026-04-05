@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-05T21:37:14.515Z",
+  "ts": "2026-04-05T21:37:44.887Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222275647",
+    "type": "OUTBOUND",
+    "message_id": "4222275720",
     "ticket_id": "940141311",
-    "message": "Yes i want to know about details and location",
-    "channel_id": "1304636",
+    "message": "The property is a 1-bedroom apartment in Al Safa, available at AED 6,999/month, all-inclusive. Water, electricity, internet, and VAT are all covered, so nothing extra on top of that.\n\nAl Safa is a quiet, well-connected area right off Sheikh Zayed Road, close to City Walk, Jumeirah, and Downtown Dubai.\n\nMay 1st works as a move-in date. Would you like to see some photos of the apartment?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535567873",
     "contact_name": "Eman",
     "contact_identifier": "+971506087081",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
