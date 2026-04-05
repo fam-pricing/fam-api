@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-05T12:24:47.486Z",
+  "ts": "2026-04-05T12:25:44.850Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222088561",
-    "ticket_id": "940069297",
-    "message": "Audio",
+    "type": "OUTBOUND",
+    "message_id": "4222088845",
+    "ticket_id": "940028934",
+    "message": "Unfortunately, that apartment has already been booked. This is the only unit available at the moment, and we will share the rate for it with you shortly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535525742",
+    "contact_name": "Steff",
+    "contact_identifier": "+420608558555",
     "channel_id": "1304636",
-    "contact_id": "535071198",
-    "contact_name": "Denis Kizay",
-    "contact_identifier": "+971585212534",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
