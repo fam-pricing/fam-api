@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-05T11:58:52.645Z",
+  "ts": "2026-04-05T12:00:05.692Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4222078229",
-    "ticket_id": "940030361",
-    "message": "The 3BR in Urban Oasis is available from the 8th at AED 12,000/month, all-inclusive. You can book from 1 to 12 months, so totally flexible on how long you stay.\n\nWant to come see it first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "535541358",
-    "contact_name": "OMOSHOLA",
-    "contact_identifier": "+971585720269",
+    "type": "INBOUND",
+    "message_id": "4222078713",
+    "ticket_id": "940057783",
+    "message": "Ok",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535548091",
+    "contact_name": "Krishnakshee",
+    "contact_identifier": "+919739058435",
+    "parent_message_id": "4222073983",
+    "parent_ticket_id": "940057783",
+    "event_type": "INBOUND"
   }
 }
