@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-05T09:14:48.645Z",
+  "ts": "2026-04-05T09:15:19.885Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222013227",
+    "type": "OUTBOUND",
+    "message_id": "4222013379",
     "ticket_id": "940043456",
-    "message": "I need a one bedroom in upside for one year. What’s the price now pls?",
-    "channel_id": "1304636",
+    "message": "The 1BR in Upside Living is AED 7,000/month, all-inclusive. That covers VAT, water, electricity, and internet, so nothing extra to pay beyond the deposit.\n\nOne thing worth knowing: it's an adults-only building, so no children are permitted.\n\nFor a 1-year stay, rates are confirmed in 3-month blocks. The first block locks in at AED 7,000/month, and each following period is confirmed ahead of time based on the season. Would you like to come see the apartment before we sort the details?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "497144870",
     "contact_name": "Safi Mourad",
     "contact_identifier": "+971565091838",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
