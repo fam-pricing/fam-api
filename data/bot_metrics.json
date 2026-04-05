@@ -4930,5 +4930,17 @@
     "lead_quality": 80,
     "buying_stage": "HOT",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-04-05T12:00:06.570Z",
+    "ticket_id": 940057783,
+    "lead_id": "message_lead_28608616",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 878,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
+    "skip_reason": "acknowledgment_skip"
   }
 ]
