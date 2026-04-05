@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-05T09:15:53.591Z",
+  "ts": "2026-04-05T09:16:12.942Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222013606",
+    "type": "OUTBOUND",
+    "message_id": "4222013718",
     "ticket_id": "940043456",
-    "message": "I need to book for one year",
-    "channel_id": "1304636",
+    "message": "Safi, the 1BR in Upside Living is currently AED 7,000/month, all-inclusive. VAT, water, electricity, and internet are all covered, so nothing extra on top.\n\nOn the pricing point, this rate reflects where the market sits for a fully managed, all-inclusive unit in this building. Rates are confirmed in 3-month blocks, so the first period locks in at AED 7,000.\n\nOne thing worth knowing: Upside Living is adults-only, so no children are permitted.\n\nDoes the adults-only setup work for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "497144870",
     "contact_name": "Safi Mourad",
     "contact_identifier": "+971565091838",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
