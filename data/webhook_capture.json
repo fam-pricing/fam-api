@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-05T11:04:05.948Z",
+  "ts": "2026-04-05T11:04:13.450Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222056007",
-    "ticket_id": "940055159",
-    "message": "Image",
+    "type": "OUTBOUND",
+    "message_id": "4222056052",
+    "ticket_id": "928747916",
+    "message": "Ms Hoda, these charges are from building management.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "532723309",
+    "contact_name": "Hoda",
+    "contact_identifier": "+971542154632",
     "channel_id": "585723",
-    "contact_id": "535547475",
-    "contact_name": "Eystein Lyche",
-    "contact_identifier": "+971545053263",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
