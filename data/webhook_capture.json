@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-06T11:34:16.997Z",
+  "ts": "2026-04-06T11:34:45.762Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4222581941",
-    "ticket_id": "940264122",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535230088",
-    "contact_name": "Roman Wagner",
-    "contact_identifier": "+971585412443",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4222582220",
+    "ticket_id": "940232079",
+    "message": "Yes so can I just get my flights booked either today or tomorrow and then proceed with this booking?",
+    "channel_id": "1304636",
+    "contact_id": "535581566",
+    "contact_name": "Aamir Fit",
+    "contact_identifier": "+971501911263",
+    "event_type": "INBOUND"
   }
 }
