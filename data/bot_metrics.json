@@ -5206,5 +5206,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-04-06T00:56:35.413Z",
+    "ticket_id": 940159996,
+    "lead_id": "message_lead_28616687",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 18591,
+    "critic_pass": null,
+    "lead_quality": 5,
+    "buying_stage": "COLD",
+    "skip_reason": "Lead is requesting a video of the Viridian City Walk 2BR apartment. Per playbook VIDEO/MEDIA REQUESTS rule, video requests must always be escalated immediately."
   }
 ]
