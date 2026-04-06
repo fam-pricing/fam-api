@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-06T07:02:41.913Z",
+  "ts": "2026-04-06T07:02:53.659Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4222401067",
-    "ticket_id": "940123757",
-    "message": "Please note that your refundable damage deposit should be reimbursed within 14 working days of your check-out. Your deposit will be refunded in full by credit card or bank transfer, subject to an inspection of the property.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535424092",
-    "contact_name": "Neda",
-    "contact_identifier": "+971504950614",
+    "type": "INBOUND",
+    "message_id": "4222401162",
+    "ticket_id": "940140295",
+    "message": "👍🏾",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535567622",
+    "contact_name": "IO",
+    "contact_identifier": "+971544912468",
+    "parent_message_id": "4222390448",
+    "parent_ticket_id": "940140295",
+    "event_type": "INBOUND"
   }
 }
