@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-06T09:47:31.876Z",
+  "ts": "2026-04-06T09:47:55.942Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4222510299",
+    "type": "INBOUND",
+    "message_id": "4222510562",
     "ticket_id": "940232079",
-    "message": "Rate will be AED 7,000 for 30 nights each month until June.\r\n\r\nPlease note that a deposit of AED 3,000 is also required.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Is that the best rate you can offer?",
+    "channel_id": "1304636",
     "contact_id": "535581566",
     "contact_name": "Aamir Fit",
     "contact_identifier": "+971501911263",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
