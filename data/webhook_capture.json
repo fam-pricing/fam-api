@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-06T19:23:48.240Z",
+  "ts": "2026-04-06T19:23:54.537Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4222888856",
+    "type": "INBOUND",
+    "message_id": "4222888885",
     "ticket_id": "940364761",
-    "message": "Great, May 1st and 6 months noted! Let me get the details confirmed for you and come back shortly.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is the studio with balcony ?",
+    "channel_id": "1304636",
     "contact_id": "535609733",
     "contact_name": "A.k",
     "contact_identifier": "+971527775778",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4222880426",
+    "parent_ticket_id": "940364761",
+    "event_type": "INBOUND"
   }
 }
