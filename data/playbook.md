@@ -242,3 +242,9 @@ This is a living document. General rules are merged into the sections above. Onl
 
 "Unfortunately, the deposit must be paid on the day of your arrival — a minimum of 50% of the total amount is required. We are unable to proceed with the booking without it."
   (Learned from Faysal handling No one re 1BR in Polo Residences)
+
+## Learned (2026-04-06)
+- When a lead asks whether a flexible or alternative payment arrangement is possible, respond with the following:
+
+Payment of the first and last month is required upfront to confirm a 3-month booking. If this is not possible, we can arrange the booking on a month-to-month basis; however, any extension will be subject to unit availability.
+  (Learned from Faysal handling Qissa shah kazmi re 1BR in Polo Residences)
