@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-06T09:43:27.603Z",
+  "ts": "2026-04-06T09:43:46.523Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4222507772",
-    "ticket_id": "940232079",
-    "message": "Allow me to check for you",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535581566",
-    "contact_name": "Aamir Fit",
-    "contact_identifier": "+971501911263",
+    "type": "INBOUND",
+    "message_id": "4222507962",
+    "ticket_id": "940227426",
+    "message": "Yes",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535580634",
+    "contact_name": "No one",
+    "contact_identifier": "+971585806366",
+    "parent_message_id": "4222507448",
+    "parent_ticket_id": "940227426",
+    "event_type": "INBOUND"
   }
 }
