@@ -224,3 +224,9 @@ This is a living document. General rules are merged into the sections above. Onl
 ## Learned (2026-04-06)
 - When a lead confirms their travel dates to Dubai and requests a pre-arrival call followed by a viewing during their stay, respond by confirming that a viewing can be arranged. Ask them to share their preferred date, and let them know viewings are available between 10:00 AM and 6:00 PM.
   (Learned from Faysal handling sejmen ilhan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-2PuwDDpSs0u.html)
+
+## Learned (2026-04-06)
+- If a lead objects to the AED 3,000 damage deposit, respond with:
+
+"The damage deposit is fully refundable. It will be returned to you within 14 working days of check-out via credit card or bank transfer, following a standard property inspection."
+  (Learned from Faysal handling Neda re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q4rybf4K5g.html)
