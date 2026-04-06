@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-06T07:46:50.584Z",
+  "ts": "2026-04-06T07:46:54.153Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222427868",
-    "ticket_id": "918299782",
-    "message": "Hi there, a kind follow up on the refund for this booking. His stay was extanded till 28th of March. The check out had been completed.",
-    "channel_id": "585723",
-    "contact_id": "530122348",
-    "contact_name": "Antoine Cornet",
-    "contact_identifier": "+971588944641",
-    "parent_message_id": "4205837368",
-    "parent_ticket_id": "918299782",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4222427903",
+    "ticket_id": "940211215",
+    "message": "Yes, its available form 15th april",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535489706",
+    "contact_name": "Gabriela Soler",
+    "contact_identifier": "+34669662413",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
