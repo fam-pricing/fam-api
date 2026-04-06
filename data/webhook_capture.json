@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-06T08:38:12.089Z",
+  "ts": "2026-04-06T08:38:16.716Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222461226",
-    "ticket_id": "940225428",
-    "message": "I need one bhk for one month",
+    "type": "OUTBOUND",
+    "message_id": "4222461249",
+    "ticket_id": "940227426",
+    "message": "What are you looking for in the 1BR, are you thinking short-term or longer stay?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535580634",
+    "contact_name": "No one",
+    "contact_identifier": "+971585806366",
     "channel_id": "1304636",
-    "contact_id": "535580082",
-    "contact_name": "Ammar",
-    "contact_identifier": "+966598911486",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
