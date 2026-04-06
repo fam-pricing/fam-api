@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-06T09:47:55.942Z",
+  "ts": "2026-04-06T09:48:51.312Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222510562",
+    "type": "OUTBOUND",
+    "message_id": "4222511140",
     "ticket_id": "940232079",
-    "message": "Is that the best rate you can offer?",
-    "channel_id": "1304636",
+    "message": "We can offer you our best monthly rate of AED 6,500.\r\n\r\nMay I know the rate you were expecting from your side?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535581566",
     "contact_name": "Aamir Fit",
     "contact_identifier": "+971501911263",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
