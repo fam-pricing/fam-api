@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-06T11:33:20.936Z",
+  "ts": "2026-04-06T11:34:12.300Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4222581294",
-    "ticket_id": "940232079",
-    "message": "would like to book this apartment ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535581566",
-    "contact_name": "Aamir Fit",
-    "contact_identifier": "+971501911263",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4222581907",
+    "ticket_id": "940249014",
+    "message": "🙏",
+    "channel_id": "585723",
+    "contact_id": "535585331",
+    "contact_name": "Maryam- Dubai Real Estate",
+    "contact_identifier": "+971555102940",
+    "parent_message_id": "4222580297",
+    "parent_ticket_id": "940249014",
+    "event_type": "INBOUND"
   }
 }
