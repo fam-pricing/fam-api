@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-06T11:34:56.086Z",
+  "ts": "2026-04-06T11:36:50.155Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222582302",
+    "type": "OUTBOUND",
+    "message_id": "4222583557",
     "ticket_id": "940232079",
-    "message": "What do you need from me to book?",
-    "channel_id": "1304636",
+    "message": "For the booking, we will need a copy of your passport and your email address. Once received, we will send you a payment link for the deposit to confirm your booking and for the rent.\r\n\r\nPlease note that payments made via the payment link will incur a 3.1% card processing fee. Alternatively, if you prefer, the rent can be paid via bank transfer with no additional charges.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535581566",
     "contact_name": "Aamir Fit",
     "contact_identifier": "+971501911263",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
