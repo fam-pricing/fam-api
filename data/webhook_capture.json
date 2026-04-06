@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-06T07:44:52.158Z",
+  "ts": "2026-04-06T07:45:12.631Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222426788",
+    "type": "OUTBOUND",
+    "message_id": "4222426969",
     "ticket_id": "940214570",
-    "message": "Ok \nPlease resend the building name & location",
-    "channel_id": "1304636",
+    "message": "Here is the location map at Urban Oasis Interiors by Missoni\r\n\r\nhttps://maps.app.goo.gl/kxZJxenowEiZQquf7",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535561542",
     "contact_name": "Hamid Shahir",
     "contact_identifier": "+971567890600",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
