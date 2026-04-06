@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-06T11:00:43.942Z",
+  "ts": "2026-04-06T11:04:06.702Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222559786",
-    "ticket_id": "940251920",
-    "message": "You can look\nIf you find any",
+    "type": "OUTBOUND",
+    "message_id": "4222562027",
+    "ticket_id": "940232079",
+    "message": "We regret to inform you that we are unable to offer a lower rate than this.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535581566",
+    "contact_name": "Aamir Fit",
+    "contact_identifier": "+971501911263",
     "channel_id": "1304636",
-    "contact_id": "535586028",
-    "contact_name": "Qissa shah kazmi",
-    "contact_identifier": "+971501608156",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
