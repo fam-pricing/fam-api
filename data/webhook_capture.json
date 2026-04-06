@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-06T13:57:50.612Z",
+  "ts": "2026-04-06T13:57:55.867Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222680665",
+    "type": "OUTBOUND",
+    "message_id": "4222680710",
     "ticket_id": "940288080",
-    "message": "Apartment number?",
-    "channel_id": "1304636",
+    "message": "Tomorrow, our guest relations team will assist you with the viewing at 4:00 PM. They will meet you in the lobby.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535586028",
     "contact_name": "Qissa shah kazmi",
     "contact_identifier": "+971501608156",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
