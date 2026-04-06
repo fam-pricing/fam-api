@@ -236,3 +236,9 @@ This is a living document. General rules are merged into the sections above. Onl
 
 "We can arrange your viewing between 2:00 PM and 6:00 PM — you are welcome to visit the unit at any point within that window. Please note that viewings cannot be scheduled after 6:00 PM, as security will not permit access beyond that time."
   (Learned from Faysal handling Neda re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q4rybf4K5g.html)
+
+## Learned (2026-04-06)
+- If a lead requests to pay the deposit after 4 days, respond with the following:
+
+"Unfortunately, the deposit must be paid on the day of your arrival — a minimum of 50% of the total amount is required. We are unable to proceed with the booking without it."
+  (Learned from Faysal handling No one re 1BR in Polo Residences)
