@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-06T04:45:11.955Z",
+  "ts": "2026-04-06T04:45:32.009Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222350189",
+    "type": "OUTBOUND",
+    "message_id": "4222350233",
     "ticket_id": "940184236",
-    "message": "Hello good morning",
-    "channel_id": "1304636",
+    "message": "Good morning! The 1BR in Polo Residences is available now at AED 5,000/month, all-inclusive. Would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535572883",
     "contact_name": "Niraj Handunge",
     "contact_identifier": "+971503058748",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
