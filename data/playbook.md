@@ -220,3 +220,7 @@ This is a living document. General rules are merged into the sections above. Onl
 ## Learned (2026-04-05)
 - If a lead says they will share their Emirates ID when they come for the viewing, inform them that the Emirates ID is required in advance in order to arrange the viewing.
   (Learned from Faysal handling Krishnakshee re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-2Q6tKXdaTFw.html)
+
+## Learned (2026-04-06)
+- When a lead confirms their travel dates to Dubai and requests a pre-arrival call followed by a viewing during their stay, respond by confirming that a viewing can be arranged. Ask them to share their preferred date, and let them know viewings are available between 10:00 AM and 6:00 PM.
+  (Learned from Faysal handling sejmen ilhan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-2PuwDDpSs0u.html)
