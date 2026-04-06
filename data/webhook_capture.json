@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-06T09:42:54.765Z",
+  "ts": "2026-04-06T09:43:07.210Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4222507220",
-    "ticket_id": "940241110",
-    "message": "From April 24th",
+    "type": "OUTBOUND",
+    "message_id": "4222507448",
+    "ticket_id": "940227426",
+    "message": "Just to clarify, you would like to pay the deposit 20 days after check-in, and only the rent amount now, is that correct?\r\n\r\nAlso, may I know the date from which you would like to start the rental for this apartment?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535580634",
+    "contact_name": "No one",
+    "contact_identifier": "+971585806366",
     "channel_id": "1304636",
-    "contact_id": "535583678",
-    "contact_name": "Ingryd Louise",
-    "contact_identifier": "+971559477366",
-    "parent_message_id": "4222506677",
-    "parent_ticket_id": "940241110",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
