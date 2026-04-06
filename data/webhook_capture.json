@@ -1,20 +1,16 @@
 {
-  "ts": "2026-04-06T05:32:36.749Z",
+  "ts": "2026-04-06T05:33:59.204Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4222363802",
-    "ticket_id": "925184086",
-    "message": "We sincerely apologize for the delay. Kindly allow us some time to check and provide you with an update.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "531871742",
-    "contact_name": "MILADEH MELODY AZAR",
-    "contact_identifier": "+4792060466",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4222364086",
+    "ticket_id": "940191630",
+    "message": "Hello, how are you?\n\nI have a few quick questions regarding the apartment:\n\t1.\tAre all bills included, including AC?\n\t2.\tIs there any possibility to change the sofa? It’s quite small.\n\t3.\tThe payment is monthly, but can we choose the deduction date?\n\t4.\tIs a parking space included?\n\t5.\tAlso, when renting with Upside (I’m familiar as I’ve lived there), a weekly cleaning service is included is there a reason why it’s not included with you?",
+    "channel_id": "1304636",
+    "contact_id": "535502953",
+    "contact_identifier": "+33781412632",
+    "event_type": "INBOUND"
   }
 }
