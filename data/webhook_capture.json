@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-07T13:37:03.955Z",
+  "ts": "2026-04-07T13:37:35.455Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4223649791",
+    "type": "INBOUND",
+    "message_id": "4223650405",
     "ticket_id": "937727795",
-    "message": "Please pass by the reception they will assist you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "476796436",
     "contact_name": "Mrs Corina Astrid Bagireanu",
     "contact_identifier": "+447586775769",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4223649791",
+    "parent_ticket_id": "937727795",
+    "event_type": "INBOUND"
   }
 }
