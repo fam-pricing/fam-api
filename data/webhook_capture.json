@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-07T07:52:19.907Z",
+  "ts": "2026-04-07T07:52:41.169Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4223150405",
-    "ticket_id": "940349036",
-    "message": "going to send the request in a few minutes",
+    "type": "OUTBOUND",
+    "message_id": "4223150779",
+    "ticket_id": "940055159",
+    "message": "Please contact him he will assist with you as he is the correct person to help you with this",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535547475",
+    "contact_name": "Eystein Lyche",
+    "contact_identifier": "+971545053263",
     "channel_id": "585723",
-    "contact_id": "535605092",
-    "contact_name": "blank",
-    "contact_identifier": "+971585284945",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
