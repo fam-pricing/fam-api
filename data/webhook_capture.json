@@ -1,17 +1,19 @@
 {
-  "ts": "2026-04-07T08:43:25.361Z",
+  "ts": "2026-04-07T08:43:37.862Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4223213019",
+    "message_id": "4223213240",
     "ticket_id": "907099889",
-    "message": "Since your team member informed me that your finance person is not available today",
+    "message": "He’s already given you the report that everything is fine",
     "channel_id": "585723",
     "contact_id": "526837494",
     "contact_name": "RITIE KAPOOR",
     "contact_identifier": "+919971004242",
+    "parent_message_id": "4223212709",
+    "parent_ticket_id": "907099889",
     "event_type": "INBOUND"
   }
 }
