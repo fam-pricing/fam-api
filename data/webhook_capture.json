@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-07T12:02:12.162Z",
+  "ts": "2026-04-07T12:02:38.143Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4223525394",
+    "type": "INBOUND",
+    "message_id": "4223525887",
     "ticket_id": "940486827",
-    "message": "Payment link for security deposit\r\n\r\nhttps://totalpay.ae/payment/202604073069d4f21a67b0d",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "The payment will be paid month by month right?",
+    "channel_id": "1304636",
     "contact_id": "535634432",
     "contact_name": "Raha",
     "contact_identifier": "+971566081840",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
