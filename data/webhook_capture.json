@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-07T12:38:10.430Z",
+  "ts": "2026-04-07T12:38:49.338Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4223572081",
+    "type": "OUTBOUND",
+    "message_id": "4223572858",
     "ticket_id": "852583151",
-    "message": "all good 🙌🏻",
-    "channel_id": "585723",
+    "message": "We are trying to reach him through wtsapp but he didn't reply that is the reason we couldn't share the details",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "450960431",
     "contact_name": "Aya - fam living",
     "contact_identifier": "+971544311300",
-    "parent_message_id": "4223571198",
-    "parent_ticket_id": "852583151",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
