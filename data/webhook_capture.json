@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-07T08:43:37.862Z",
+  "ts": "2026-04-07T08:44:31.849Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4223213240",
+    "type": "OUTBOUND",
+    "message_id": "4223214252",
     "ticket_id": "907099889",
-    "message": "He’s already given you the report that everything is fine",
-    "channel_id": "585723",
+    "message": "Ok sure will coordinate with the finance team and arrange the refund on tomorrow",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "526837494",
     "contact_name": "RITIE KAPOOR",
     "contact_identifier": "+919971004242",
-    "parent_message_id": "4223212709",
-    "parent_ticket_id": "907099889",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
