@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-07T09:00:35.282Z",
+  "ts": "2026-04-07T09:00:53.226Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4223234801",
+    "type": "INBOUND",
+    "message_id": "4223235235",
     "ticket_id": "940460189",
-    "message": "In RP heights we have 01 Bedroom apartment available",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Haw much is it",
+    "channel_id": "585723",
     "contact_id": "535627979",
     "contact_name": "Farhad Fallah",
     "contact_identifier": "+971507860898",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4223234801",
+    "parent_ticket_id": "940460189",
+    "event_type": "INBOUND"
   }
 }
