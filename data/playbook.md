@@ -252,3 +252,7 @@ Payment of the first and last month is required upfront to confirm a 3-month boo
 ## Learned (2026-04-07)
 - If a lead requests a unit of 530 sqft or more, inform them that all studio apartments are below 530 sqft and that they will need to opt for a one-bedroom apartment to meet that size requirement.
   (Learned from Faysal handling Raha re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-04-07)
+- When a lead confirms they are ready to pay, respond with: "Please note that the payment link expires within one month if payment is not completed. Kindly proceed with the payment, and once done, I will send you the booking confirmation."
+  (Learned from Faysal handling Raha re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
