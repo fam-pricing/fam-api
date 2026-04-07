@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-07T13:13:41.994Z",
+  "ts": "2026-04-07T13:16:22.969Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4223619973",
+    "type": "OUTBOUND",
+    "message_id": "4223623635",
     "ticket_id": "940518856",
-    "message": "6.15 PM we will arrive",
-    "channel_id": "585723",
+    "message": "Please try to arrive before 6pm if possible",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535640336",
     "contact_name": "Mohammad Amanzadegan",
     "contact_identifier": "+971503062921",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
