@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-07T12:51:13.697Z",
+  "ts": "2026-04-07T12:52:17.234Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4223587865",
-    "ticket_id": "940518856",
-    "message": "Can we come to visit the unit in an hour?",
+    "type": "OUTBOUND",
+    "message_id": "4223588918",
+    "ticket_id": "940601223",
+    "message": "Here is some important information for your stay with us at fäm Living:\r\n\r\nBuilding Name: Binghatti Amber JVC\r\n\r\nApartment no: 816 on the 8th floor\r\n\r\nDoor code: 112233#\r\n\r\nWifi Password: famliving\r\n\r\nParking P3- 137\r\n\r\nWe left the 2 access cards and 1 parking sticker inside the apartment\r\n\r\nUpon arrival, kindly pass by the reception for a smooth check-in.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535658619",
+    "contact_name": "816 owner",
+    "contact_identifier": "+971502386238",
     "channel_id": "585723",
-    "contact_id": "535640336",
-    "contact_name": "Mohammad Amanzadegan",
-    "contact_identifier": "+971503062921",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
