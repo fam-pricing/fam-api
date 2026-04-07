@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-07T16:58:31.726Z",
+  "ts": "2026-04-07T16:58:50.447Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4223852800",
-    "ticket_id": "940682564",
-    "message": "I want to ask about the price is it 5000 per month?",
+    "type": "OUTBOUND",
+    "message_id": "4223853023",
+    "ticket_id": "940493326",
+    "message": "Hi Aamir,\r\n\r\nJust wanted to check is there any update",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535581566",
+    "contact_name": "Aamir Fit",
+    "contact_identifier": "+971501911263",
     "channel_id": "1304636",
-    "contact_id": "535680169",
-    "contact_name": "Humam",
-    "contact_identifier": "+971555795196",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
