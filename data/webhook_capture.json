@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-07T11:56:56.529Z",
+  "ts": "2026-04-07T11:56:58.307Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4223519239",
-    "ticket_id": "940518856",
-    "message": "Can you give us more offers for this apartment?",
-    "channel_id": "585723",
-    "contact_id": "535640336",
-    "contact_name": "Mohammad Amanzadegan",
-    "contact_identifier": "+971503062921",
-    "parent_message_id": "4223480960",
-    "parent_ticket_id": "940518856",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4223519259",
+    "ticket_id": "940488816",
+    "message": "For 41 nights the rate will be AED 15,033 AED",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535570455",
+    "contact_name": "Comenregions",
+    "contact_identifier": "+33743384072",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
