@@ -248,3 +248,7 @@ This is a living document. General rules are merged into the sections above. Onl
 
 Payment of the first and last month is required upfront to confirm a 3-month booking. If this is not possible, we can arrange the booking on a month-to-month basis; however, any extension will be subject to unit availability.
   (Learned from Faysal handling Qissa shah kazmi re 1BR in Polo Residences)
+
+## Learned (2026-04-07)
+- If a lead requests a unit of 530 sqft or more, inform them that all studio apartments are below 530 sqft and that they will need to opt for a one-bedroom apartment to meet that size requirement.
+  (Learned from Faysal handling Raha re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
