@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-07T13:46:37.534Z",
+  "ts": "2026-04-07T13:53:38.559Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4223660998",
+    "type": "OUTBOUND",
+    "message_id": "4223669287",
     "ticket_id": "940623355",
-    "message": "Thank you",
-    "channel_id": "1304636",
+    "message": "May I know do you wish to make the reservation for 22 nights?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535664057",
     "contact_name": "Wolk",
     "contact_identifier": "+79265838281",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
