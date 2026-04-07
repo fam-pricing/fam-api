@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-07T16:57:33.124Z",
+  "ts": "2026-04-07T16:58:31.726Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4223852194",
+    "type": "INBOUND",
+    "message_id": "4223852800",
     "ticket_id": "940682564",
-    "message": "The 1BR in Polo Residences is still available. What would you like to know about it?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I want to ask about the price is it 5000 per month?",
+    "channel_id": "1304636",
     "contact_id": "535680169",
     "contact_name": "Humam",
     "contact_identifier": "+971555795196",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
