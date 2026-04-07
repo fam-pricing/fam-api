@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-07T08:39:43.475Z",
+  "ts": "2026-04-07T08:40:06.633Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4223208164",
+    "type": "INBOUND",
+    "message_id": "4223208750",
     "ticket_id": "940055159",
-    "message": "Please feel free to reach out to us again if you need anything else at all! have a nice day!",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "❤️",
+    "channel_id": "585723",
     "contact_id": "535547475",
     "contact_name": "Eystein Lyche",
     "contact_identifier": "+971545053263",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4223208164",
+    "parent_ticket_id": "940055159",
+    "event_type": "INBOUND"
   }
 }
