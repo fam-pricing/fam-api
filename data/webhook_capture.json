@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-07T08:58:34.356Z",
+  "ts": "2026-04-07T08:58:46.190Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4223232504",
+    "type": "INBOUND",
+    "message_id": "4223232710",
     "ticket_id": "940460189",
-    "message": "Unfortunately we do not have videos however allow me to check with the photos",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "535627979",
     "contact_name": "Farhad Fallah",
     "contact_identifier": "+971507860898",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4223232504",
+    "parent_ticket_id": "940460189",
+    "event_type": "INBOUND"
   }
 }
