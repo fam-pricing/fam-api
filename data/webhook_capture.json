@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-07T10:39:32.961Z",
+  "ts": "2026-04-07T10:40:13.435Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4223423322",
-    "ticket_id": "940550496",
-    "message": "Hello! \nCan you please confirm the two months extension?",
-    "channel_id": "1304636",
-    "contact_id": "535147845",
-    "contact_name": "Osama Omar",
-    "contact_identifier": "+971556969743",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4223423994",
+    "ticket_id": "940349036",
+    "message": "Yes the apartment is ready you can proceed with the self check in process with the check in details provided",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535605092",
+    "contact_name": "Farzad Banihashem",
+    "contact_identifier": "+971585284945",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
