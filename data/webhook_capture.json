@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-07T08:27:31.352Z",
+  "ts": "2026-04-07T08:28:23.261Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4223192941",
-    "ticket_id": "939886792",
-    "message": "Our team is on the way to complete the check out inspection and refund the deposit for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535514281",
-    "contact_name": "Fatema Mohamed Eid Mohamed Alqubaisi",
-    "contact_identifier": "+971506115080",
+    "type": "INBOUND",
+    "message_id": "4223194042",
+    "ticket_id": "940460189",
+    "message": "After one month",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "535627979",
+    "contact_name": "Farhad Fallah",
+    "contact_identifier": "+971507860898",
+    "parent_message_id": "4223183260",
+    "parent_ticket_id": "940460189",
+    "event_type": "INBOUND"
   }
 }
