@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-07T17:02:26.269Z",
+  "ts": "2026-04-07T17:03:03.165Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4223856146",
+    "type": "INBOUND",
+    "message_id": "4223856720",
     "ticket_id": "940682564",
-    "message": "For 2, 3 months, May 1 works perfectly. If you're thinking longer than 3 months, I'll need to check the rate with the team. Want to come see it first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Any time it’s good",
+    "channel_id": "1304636",
     "contact_id": "535680169",
     "contact_name": "Humam",
     "contact_identifier": "+971555795196",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4223856146",
+    "parent_ticket_id": "940682564",
+    "event_type": "INBOUND"
   }
 }
