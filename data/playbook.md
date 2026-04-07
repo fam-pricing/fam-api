@@ -256,3 +256,7 @@ Payment of the first and last month is required upfront to confirm a 3-month boo
 ## Learned (2026-04-07)
 - When a lead confirms they are ready to pay, respond with: "Please note that the payment link expires within one month if payment is not completed. Kindly proceed with the payment, and once done, I will send you the booking confirmation."
   (Learned from Faysal handling Raha re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-04-07)
+- If a lead responds with uncertainty (e.g., "Possibly?"), follow up by noting that the unit is only available until 1st May.
+  (Learned from Faysal handling Wolk re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-opera-district-act-towers-act-two-2PriO0ZIshU.html)
