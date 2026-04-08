@@ -264,3 +264,7 @@ Payment of the first and last month is required upfront to confirm a 3-month boo
 ## Learned (2026-04-07)
 - If a lead confirms their check-in by saying something like "On Thursday, right?" — respond by politely asking them to complete the payment in advance to avoid any delays in the check-in process, and to update us once done.
   (Learned from Faysal handling Raha re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-04-08)
+- If a lead says: "It will be through bank account" → Reply: "Attachment"
+  (Learned from Faysal handling Raha re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
