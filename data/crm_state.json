@@ -5193,8 +5193,8 @@
     "bot_paused": true,
     "last_escalated_at": "2026-04-07T08:43:22.037Z",
     "last_escalated_question": null,
-    "last_agent_reply_at": "2026-04-07T12:09:34.679Z",
-    "last_learned_at": "2026-04-07T12:09:42.505Z"
+    "last_agent_reply_at": "2026-04-08T06:48:11.998Z",
+    "last_learned_at": "2026-04-08T06:48:15.896Z"
   },
   "message_lead_28639461": {
     "stage": "new",
@@ -5323,7 +5323,19 @@
     "pf_phone": "971585760236",
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-elite-residence-2PyUfAatS8O.html",
     "trengo_ticket_id": 940648815,
-    "lead_name": "Sophie Russell"
+    "lead_name": "Sophie Russell",
+    "last_bot_reply_content": "Let me check the floor details and see what we can do on the price for you. Back shortly!",
+    "last_bot_reply_at": "2026-04-07T17:55:19.035Z",
+    "lead_replied": true,
+    "lead_replied_at": "2026-04-07T17:55:19.035Z",
+    "bot_reply_count": 1,
+    "last_processed_message_id": "4223890777",
+    "lead_quality_score": 5,
+    "lead_quality_label": "COLD",
+    "lead_quality_signals": [],
+    "bot_paused": true,
+    "last_escalated_at": "2026-04-07T17:56:37.089Z",
+    "last_escalated_question": null
   },
   "message_lead_28645633": {
     "stage": "new",
@@ -5358,18 +5370,25 @@
     "listing_title": "1BR in Polo Residences",
     "trengo_ticket_id": 940682564,
     "lead_name": "Humam",
-    "last_bot_reply_content": "2, 3 months works fine from May 1. Want to come see it before committing?",
-    "last_bot_reply_at": "2026-04-07T17:00:44.756Z",
+    "last_bot_reply_content": "Thank you for sending your ID. Our team will be in touch shortly to confirm the property location and all viewing details.",
+    "last_bot_reply_at": "2026-04-07T17:08:02.789Z",
     "lead_replied": true,
-    "lead_replied_at": "2026-04-07T17:00:44.756Z",
-    "bot_reply_count": 4,
-    "last_processed_message_id": "4223853985",
-    "lead_quality_score": 35,
-    "lead_quality_label": "COOL",
+    "lead_replied_at": "2026-04-07T17:07:41.127Z",
+    "bot_reply_count": 12,
+    "last_processed_message_id": "4223860548",
+    "lead_quality_score": 50,
+    "lead_quality_label": "WARM",
     "lead_quality_signals": [
-      "moderate engagement",
-      "near-term timeline",
+      "high engagement (5+ messages)",
+      "urgent timeline",
       "pricing enquiry"
-    ]
+    ],
+    "viewing_status": "id_received_no_coords",
+    "viewing_day": "tomorrow",
+    "viewing_time": "4pm",
+    "viewing_property": "1BR in Polo Residences",
+    "viewing_pending_since": "2026-04-07T17:07:41.127Z",
+    "bot_paused": true,
+    "viewing_id_url": null
   }
 }
