@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-08T05:14:34.393Z",
+  "ts": "2026-04-08T05:14:38.713Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4224095214",
-    "ticket_id": "925854120",
-    "message": "Good morning. I need access to my appartment Imperial avanue 2402. Today at 10.00 The manager is not responding. Could you share the pin code with me?",
+    "type": "OUTBOUND",
+    "message_id": "4224095226",
+    "ticket_id": "940776410",
+    "message": "Well noted your arrival timing , however please note that our standard check-in time is at 3 pm; if the apartment is ready, we will happily provide you with an early check-in.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535700761",
+    "contact_name": "Fatima Adams",
+    "contact_identifier": "+971528139785",
     "channel_id": "585723",
-    "contact_id": "532021761",
-    "contact_name": "Vaiva Lukminaite",
-    "contact_identifier": "+37062028632",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
