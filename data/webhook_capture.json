@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-08T05:34:35.169Z",
+  "ts": "2026-04-08T05:34:59.328Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4224101975",
-    "ticket_id": "940776410",
-    "message": "Apologies I seen the payment link so I will do it on the link..upon check in 💕",
+    "type": "OUTBOUND",
+    "message_id": "4224102136",
+    "ticket_id": "925854120",
+    "message": "Please find attached door code and link how to unlock the door",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "532021761",
+    "contact_name": "Vaiva Lukminaite",
+    "contact_identifier": "+37062028632",
     "channel_id": "585723",
-    "contact_id": "535700761",
-    "contact_name": "Fatima Adams",
-    "contact_identifier": "+971528139785",
-    "parent_message_id": "4224101647",
-    "parent_ticket_id": "940776410",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
