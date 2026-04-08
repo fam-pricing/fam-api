@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-08T05:33:49.045Z",
+  "ts": "2026-04-08T05:34:35.169Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4224101647",
+    "type": "INBOUND",
+    "message_id": "4224101975",
     "ticket_id": "940776410",
-    "message": "deposits much be done by payment link or cash only Ms Fatima",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Apologies I seen the payment link so I will do it on the link..upon check in 💕",
+    "channel_id": "585723",
     "contact_id": "535700761",
     "contact_name": "Fatima Adams",
     "contact_identifier": "+971528139785",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4224101647",
+    "parent_ticket_id": "940776410",
+    "event_type": "INBOUND"
   }
 }
