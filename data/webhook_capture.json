@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-08T06:20:07.820Z",
+  "ts": "2026-04-08T06:21:06.751Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4224122603",
+    "type": "INBOUND",
+    "message_id": "4224123093",
     "ticket_id": "940787691",
-    "message": "We would like to follow up regarding the rent payment. Kindly let us know how you would like to proceed via the payment link or in cash.\r\n\r\nPlease note that if you choose to pay via the link, a card processing fee of 3.1% will be added. Payments made by cash or bank transfer will not incur any additional charges.\r\n\r\nLooking forward to your confirmation.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "We will pay with cash.",
+    "channel_id": "585723",
     "contact_id": "535640336",
     "contact_name": "Mohammad Amanzadegan",
     "contact_identifier": "+971503062921",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
