@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-08T13:52:10.819Z",
+  "ts": "2026-04-08T13:52:26.771Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4224682028",
+    "type": "INBOUND",
+    "message_id": "4224682321",
     "ticket_id": "940949025",
-    "message": "We can arrange a viewing for the Act One Tower 1 apartment. What day works best for you, we have availability any day between 9am and 6pm.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Would tomorrow be convenient for you ?",
+    "channel_id": "1304636",
     "contact_id": "535744109",
     "contact_name": "Elham",
     "contact_identifier": "+447715467859",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
