@@ -829,6 +829,7 @@ CHECK EACH RULE:
 11. NO PUSHY CTA — Does the draft suggest paperwork, contracts, signing, booking, or payment when the lead has NOT explicitly asked to proceed? If this is an early enquiry (lead asked about price, availability, or info) and the draft ends with "Shall I get the paperwork started?", "Want me to send the contract?", "Ready to book?", or similar commitment-pressure CTA — FAIL. Replace with a soft, informational CTA like "Would you like to see it first?" or "Any other questions about the property?"
 12. NO PRICE PARROT — Look at the previous Bot messages in the conversation. If the bot already stated the price AND what's included (water, electricity, internet), does the draft restate any of that? If yes — FAIL. Strip out the repeated price/amenity info and keep only the NEW information the draft adds. The lead already knows the price. Repeating it is the most robotic thing the bot can do.
 13. TOO LONG — Is the draft more than 5 sentences or 3 paragraphs? FAIL. WhatsApp replies must be short. Rewrite to 2-3 sentences max.
+14. NO VIEWING DETAILS PARROT — Look at the previous Bot messages. If the bot has ALREADY confirmed a viewing day/time (e.g. "tomorrow at 4pm", "Friday 11am") AND asked for passport/Emirates ID in a prior message, the draft MUST NOT restate the viewing day/time, the property name/bed type, the move-in date, or the full ID request sentence. If the lead is just acknowledging ("yes sure", "ok", "perfect"), the draft should be ONE short line max with NO viewing context. If the lead asked an unrelated question, the draft should answer ONLY that question with no viewing summary appended. Restating "tomorrow at 4pm for the Polo Residences 1BR is confirmed. Could you send a photo of your passport or Emirates ID..." when the bot already said this once — FAIL. Strip everything except the new info.
 
 If ALL checks pass, respond with exactly one word: APPROVED
 
@@ -1065,7 +1066,17 @@ async function generateReply(conversation, leadMeta, newMessage, leadName, pendi
   // Viewing state context — prevents re-escalation loop
   let viewingContext = '';
   if (leadMeta?.viewing_status === 'pending_id') {
-    viewingContext = `\n\nVIEWING PENDING ID: You have already confirmed a viewing for ${leadMeta.viewing_day || 'the requested day'} at ${leadMeta.viewing_time || 'the requested time'} and asked the lead to send their passport or Emirates ID for building access registration. The lead has sent a text message instead of the ID. Read and respond to what they said first — if they have a question, answer it; if they want to cancel or change the time, handle it. Then, if still appropriate, end your reply with a brief natural reminder: "Could you also send your passport or Emirates ID so I can register you with building management?" Do NOT set up a new viewing time unless the lead is explicitly changing it. Do NOT escalate unless the situation genuinely requires it.`;
+    viewingContext = `\n\nVIEWING PENDING ID: You have ALREADY confirmed the viewing for ${leadMeta.viewing_day || 'the requested day'} at ${leadMeta.viewing_time || 'the requested time'} AND asked the lead for their passport or Emirates ID. Both of these are DONE. The lead already knows.
+
+CRITICAL ANTI-REPETITION RULES FOR THIS STATE:
+- NEVER re-state the viewing day/time. Not "tomorrow at 4pm", not "${leadMeta.viewing_day || ''} at ${leadMeta.viewing_time || ''}", not any restatement. The lead already saw it.
+- NEVER re-confirm the property name, bed type, move-in date, contract length, or any context the lead already gave you. Do NOT write "Polo Residences 1BR confirmed" or "May 1 move-in noted". The lead remembers what they said.
+- NEVER re-issue the full ID request sentence "Could you send a photo of your passport or Emirates ID so I can register you with building management." It is already pending.
+- If the lead just acknowledges ("Yes sure", "ok", "yes it's good", "perfect", thumbs up), do NOT reply with a fresh viewing summary. Either stay quiet (escalate_to_faysal with reason "lead acknowledged, awaiting ID, no reply needed" + holding message "" if you must) OR send ONE short line max, e.g. "Perfect. Just send the ID photo whenever you have it." That's it. No viewing details, no property name, no time.
+- If the lead asks an UNRELATED question (e.g. "Building number??"), answer ONLY that question in 1 sentence. Do NOT append the viewing summary or full ID request. At most a 5-word ID nudge: "And the ID when you can." NOT a full sentence.
+- If the lead wants to cancel or change the time, handle that.
+
+The ONLY new info that should appear in your reply is the answer to whatever the lead's latest message actually contains. Nothing else.`;
   } else if (leadMeta?.viewing_status === 'team_responded') {
     viewingContext = `\n\nVIEWING STATUS: The team has ALREADY confirmed viewing availability for this lead (requested: ${leadMeta.viewing_requested || 'a viewing'}). The lead is now confirming the time. Do NOT escalate again. Do NOT say "let me check with the team." Just acknowledge warmly, e.g. "You're all set for [time]! Our team will coordinate with you shortly." Then reply normally.`;
   } else if (leadMeta?.viewing_status === 'confirmed') {
