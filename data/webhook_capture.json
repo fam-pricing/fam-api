@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-08T05:30:21.750Z",
+  "ts": "2026-04-08T05:30:33.747Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4224100160",
-    "ticket_id": "940682564",
-    "message": "Good Morning Humam",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535680169",
-    "contact_name": "Humam",
-    "contact_identifier": "+971555795196",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4224100331",
+    "ticket_id": "940776410",
+    "message": "I will pay the deposit on arrival",
+    "channel_id": "585723",
+    "contact_id": "535700761",
+    "contact_name": "Fatima Adams",
+    "contact_identifier": "+971528139785",
+    "parent_message_id": "4224099960",
+    "parent_ticket_id": "940776410",
+    "event_type": "INBOUND"
   }
 }
