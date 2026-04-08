@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-08T12:02:14.014Z",
+  "ts": "2026-04-08T12:07:23.015Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4224539737",
-    "ticket_id": "940909680",
-    "message": "Hi we supposed to make viewing for an apartment in canal residence sports city but unable to call the agent to postponed it",
+    "type": "OUTBOUND",
+    "message_id": "4224545171",
+    "ticket_id": "940665735",
+    "message": "Our team will visit your apartment tomorrow to inspect all the issues. Could you please let us know a convenient time for them to come, Mr. Frank?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535052322",
+    "contact_name": "Frank",
+    "contact_identifier": "+971553274493",
     "channel_id": "1304636",
-    "contact_id": "535734248",
-    "contact_name": "Jocelyne",
-    "contact_identifier": "+971504450891",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
