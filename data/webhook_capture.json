@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-08T05:00:54.639Z",
+  "ts": "2026-04-08T05:01:35.279Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4224091197",
-    "ticket_id": "940773610",
-    "message": "Good Morning,\nas said above I am writing on behalf of Miss Vaiva Lukminate, as we have a photoshoot scheduled today at 10am in the Apartment imperial avenue 2402 and we need the access code. \nMiss Vaiva has tried to contact you but did get no response, I urge you to please send me the access code for the apartment so that everything goes well before 9:30am. \n\nThank you.",
+    "type": "OUTBOUND",
+    "message_id": "4224091484",
+    "ticket_id": "940775632",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535700615",
+    "contact_name": "Sabrin Ghomri",
+    "contact_identifier": "+971552523442",
     "channel_id": "585723",
-    "contact_id": "535700244",
-    "contact_name": "Leon Sieger",
-    "contact_identifier": "+971585813779",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
