@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-08T06:24:20.132Z",
+  "ts": "2026-04-08T06:24:41.229Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4224124839",
+    "type": "OUTBOUND",
+    "message_id": "4224125138",
     "ticket_id": "940787691",
-    "message": "If it's possible,  12 o'clock is ok for us.",
-    "channel_id": "585723",
+    "message": "Well noted your arrival timing , however please note that our standard check-in time is at 3 pm; if the apartment is ready, we will happily provide you with an early check-in.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535640336",
     "contact_name": "Mohammad Amanzadegan",
     "contact_identifier": "+971503062921",
-    "parent_message_id": "4224123286",
-    "parent_ticket_id": "940787691",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
