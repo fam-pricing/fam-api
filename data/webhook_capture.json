@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-08T07:12:24.035Z",
+  "ts": "2026-04-08T07:13:31.286Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4224160736",
+    "type": "INBOUND",
+    "message_id": "4224162026",
     "ticket_id": "940796207",
-    "message": "Our phone line is active from 9am to 9pm, but we have not received any calls from your side.\r\n\r\nCould you please confirm if this is your current number? If so, I will give you a call back shortly.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "No i was asking property finder’s number actually",
+    "channel_id": "1304636",
     "contact_id": "535548091",
     "contact_name": "Krishnakshee",
     "contact_identifier": "+919739058435",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
