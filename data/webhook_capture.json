@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-08T05:33:21.948Z",
+  "ts": "2026-04-08T05:33:41.956Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4224101525",
+    "type": "INBOUND",
+    "message_id": "4224101619",
     "ticket_id": "940776410",
-    "message": "Sure, you can make the deposits on arrival we will inform our team",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Thank you",
+    "channel_id": "585723",
     "contact_id": "535700761",
     "contact_name": "Fatima Adams",
     "contact_identifier": "+971528139785",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4224101525",
+    "parent_ticket_id": "940776410",
+    "event_type": "INBOUND"
   }
 }
