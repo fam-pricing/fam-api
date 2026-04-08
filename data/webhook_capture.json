@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-08T05:30:11.630Z",
+  "ts": "2026-04-08T05:30:21.750Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4224100085",
-    "ticket_id": "940776410",
-    "message": "Do you need a car registration for the parking?\nCan I bring my own airfryer?\n\nIs the swimming pool in the building and how far is the beach from it\nHow far are the closest shops",
-    "channel_id": "585723",
-    "contact_id": "535700761",
-    "contact_name": "Fatima Adams",
-    "contact_identifier": "+971528139785",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4224100160",
+    "ticket_id": "940682564",
+    "message": "Good Morning Humam",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535680169",
+    "contact_name": "Humam",
+    "contact_identifier": "+971555795196",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
