@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-08T00:49:10.040Z",
+  "ts": "2026-04-08T03:13:00.705Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4224042848",
-    "ticket_id": "918299782",
-    "message": "Thank you for choosing fäm Living, How likely are you to recommend fäm Living to family and friends? https://csat.trengo.com/?uuid=a17da06a-9591-4fc2-9348-2d44dd204c9e\n",
-    "contact_id": "530122348",
-    "contact_name": "Antoine Cornet",
-    "contact_identifier": "+971588944641",
+    "type": "INBOUND",
+    "message_id": "4224068862",
+    "ticket_id": "917438694",
+    "message": "Thank you for the transfer.\n\nHowever, the amount received is AED 16,275, leaving an outstanding balance of AED 1,400.\n\nThis deduction remains unjustified and unsupported by any signed or agreed documentation at the time of check-out.\n\nWe will be updating the DET case accordingly to reflect the partial payment and unresolved balance.\n\nKindly arrange the immediate transfer of the remaining AED 1,400 and confirm once completed.",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "528821469",
+    "contact_name": "Kamola Shukhratovna Kantsavenka",
+    "contact_identifier": "+971585454033",
+    "event_type": "INBOUND"
   }
 }
