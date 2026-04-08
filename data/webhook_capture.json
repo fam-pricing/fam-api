@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-08T13:51:55.641Z",
+  "ts": "2026-04-08T13:52:10.819Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4224681817",
+    "type": "OUTBOUND",
+    "message_id": "4224682028",
     "ticket_id": "940949025",
-    "message": "I would like to book a viewing for this property ?",
-    "channel_id": "1304636",
+    "message": "We can arrange a viewing for the Act One Tower 1 apartment. What day works best for you, we have availability any day between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535744109",
     "contact_name": "Elham",
     "contact_identifier": "+447715467859",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
