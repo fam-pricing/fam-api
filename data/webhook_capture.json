@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-09T18:19:22.326Z",
+  "ts": "2026-04-09T18:19:49.478Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4225893534",
-    "ticket_id": "941336962",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-burj-crown-13851904.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "535850317",
-    "contact_name": "ENG Layan ( سمرا )",
-    "contact_identifier": "+971505277090",
+    "type": "INBOUND",
+    "message_id": "4225893770",
+    "ticket_id": "941335808",
+    "message": "I want yearly bases non changable price i am looking for un furnished better for me and long term..so if not applicable I can skip",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535849968",
+    "contact_name": "Sdiab",
+    "contact_identifier": "+96170456636",
+    "event_type": "INBOUND"
   }
 }
