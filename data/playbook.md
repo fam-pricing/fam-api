@@ -276,3 +276,7 @@ Payment of the first and last month is required upfront to confirm a 3-month boo
 ## Learned (2026-04-09)
 - If a lead says: "May be someone can show me" → Reply: "Unfortunately, it is not possible today at 3.15pm. However, we would be happy to arrange it for you tomorrow at your convenience."
   (Learned from Faysal handling 🖤 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-palm-jumeirah-the-palm-tower-2PkzmNyowPw.html)
+
+## Learned (2026-04-09)
+- If a lead requests a check-out date beyond three months, clarify that extensions are handled on a monthly basis.
+  (Learned from Faysal handling Humam re 1BR in Polo Residences)
