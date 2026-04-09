@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-09T09:21:23.207Z",
+  "ts": "2026-04-09T09:24:00.540Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4225336555",
-    "ticket_id": "941133804",
-    "message": "Once you checked in please let us know",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535634432",
-    "contact_name": "Raha",
-    "contact_identifier": "+971566081840",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4225339480",
+    "ticket_id": "940349036",
+    "message": "hi - is this unit available until 18th?",
+    "channel_id": "585723",
+    "contact_id": "535605092",
+    "contact_name": "Farzad Banihashem",
+    "contact_identifier": "+971585284945",
+    "event_type": "INBOUND"
   }
 }
