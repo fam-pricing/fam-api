@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-09T16:26:34.207Z",
+  "ts": "2026-04-09T16:27:30.468Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4225820019",
+    "type": "OUTBOUND",
+    "message_id": "4225820797",
     "ticket_id": "940682564",
-    "message": "And this price includes all bills?",
-    "channel_id": "1304636",
+    "message": "Yes including all",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535680169",
     "contact_name": "Humam",
     "contact_identifier": "+971555795196",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
