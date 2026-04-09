@@ -1,29 +1,5 @@
 [
   {
-    "ts": "2026-04-02T07:56:07.201Z",
-    "ticket_id": 939283788,
-    "lead_id": "message_lead_28560360",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 24015,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-04-02T07:57:13.211Z",
-    "ticket_id": 939283788,
-    "lead_id": "message_lead_28560360",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 916,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": "agent_cooldown"
-  },
-  {
     "ts": "2026-04-02T09:31:51.121Z",
     "ticket_id": 939319207,
     "lead_id": "message_lead_28562069",
@@ -6681,6 +6657,18 @@
     "critic_pass": null,
     "lead_quality": 5,
     "buying_stage": "COLD",
+    "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-04-09T08:02:24.506Z",
+    "ticket_id": 940949025,
+    "lead_id": "message_lead_28659553",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 852,
+    "critic_pass": null,
+    "lead_quality": 85,
+    "buying_stage": "HOT",
     "skip_reason": "bot_paused"
   }
 ]
