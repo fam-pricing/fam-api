@@ -272,3 +272,7 @@ Payment of the first and last month is required upfront to confirm a 3-month boo
 ## Learned (2026-04-08)
 - If a lead says their partner may have already booked independently, respond: "It sounds like you may have already made a booking through another holiday home — is that right, Alex?"
   (Learned from Faysal handling Alex Kang re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-dubai-creek-residences-dubai-creek-residences-north-dubai-creek-residences-north-tower-2-68288177.html)
+
+## Learned (2026-04-09)
+- If a lead says: "May be someone can show me" → Reply: "Unfortunately, it is not possible today at 3.15pm. However, we would be happy to arrange it for you tomorrow at your convenience."
+  (Learned from Faysal handling 🖤 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-palm-jumeirah-the-palm-tower-2PkzmNyowPw.html)
