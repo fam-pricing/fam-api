@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-09T13:17:32.016Z",
+  "ts": "2026-04-09T13:17:45.491Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4225628740",
+    "type": "OUTBOUND",
+    "message_id": "4225628928",
     "ticket_id": "941263110",
-    "message": "Call me please",
-    "channel_id": "585723",
+    "message": "Sure let me call",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "484515576",
     "contact_name": "Mr. Marwan",
     "contact_identifier": "+971501988808",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
