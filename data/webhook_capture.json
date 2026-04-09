@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-09T07:40:20.612Z",
+  "ts": "2026-04-09T07:41:01.464Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4225214246",
-    "ticket_id": "941133804",
-    "message": "Nobody cantact me",
-    "channel_id": "1304636",
-    "contact_id": "535634432",
-    "contact_name": "Raha",
-    "contact_identifier": "+971566081840",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4225215035",
+    "ticket_id": "941133498",
+    "message": "Good morning,\r\n\r\nApologies for the inconvenience this may caused you.. may I know this is which apartment please",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535785520",
+    "contact_name": "Stan",
+    "contact_identifier": "+971585912046",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
