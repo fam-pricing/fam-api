@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-09T05:03:50.490Z",
+  "ts": "2026-04-09T05:04:46.779Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4225107157",
-    "ticket_id": "941017127",
-    "message": "Which location you have flats?",
-    "channel_id": "585723",
-    "contact_id": "523775801",
-    "contact_name": "..",
-    "contact_identifier": "+971502385551",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4225107378",
+    "ticket_id": "941004883",
+    "message": "Hi Amy,\r\n\r\nHow can I help you?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535760321",
+    "contact_name": "amy",
+    "contact_identifier": "+971501170660",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
