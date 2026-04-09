@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-09T05:05:06.136Z",
+  "ts": "2026-04-09T05:11:49.055Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4225107455",
-    "ticket_id": "941004883",
-    "message": "hi",
-    "channel_id": "1304636",
-    "contact_id": "535760321",
-    "contact_name": "amy",
-    "contact_identifier": "+971501170660",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4225109530",
+    "ticket_id": "925794250",
+    "message": "Good morning,\r\n\r\nSure we can move the reservation from 11th to 30 days. Please confirm so we can change the dates and send the updated confirmation for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "532008494",
+    "contact_name": "Kenan David",
+    "contact_identifier": "+27724580583",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
