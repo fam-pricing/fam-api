@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-09T11:33:08.939Z",
+  "ts": "2026-04-09T11:33:56.531Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4225508348",
-    "ticket_id": "941133804",
-    "message": "I came out of the apartment",
+    "type": "OUTBOUND",
+    "message_id": "4225509662",
+    "ticket_id": "941146667",
+    "message": "May I know your estimated check in time as our standard check in time starts at 3pm",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535581566",
+    "contact_name": "MOHAMMED AMIR SAAD ISHTIAQUE",
+    "contact_identifier": "+971501911263",
     "channel_id": "1304636",
-    "contact_id": "535634432",
-    "contact_name": "Raha",
-    "contact_identifier": "+971566081840",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
