@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-09T07:39:16.995Z",
+  "ts": "2026-04-09T07:39:22.039Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4225213019",
+    "type": "OUTBOUND",
+    "message_id": "4225213080",
     "ticket_id": "941133498",
-    "message": "Hi, I want to report that one of the ceiling lights suddenly came loose and fell while I was in the apartment.\n\nIt nearly hit me, which is quite concerning.\n\nI did not touch it, and it appears the fixture was not properly secured.\n\nFlagging this immediately for your awareness and to avoid any confusion at check-out.\n\nThanks",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "535785520",
     "contact_name": "Stan",
     "contact_identifier": "+971585912046",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
