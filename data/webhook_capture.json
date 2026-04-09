@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-09T07:46:33.322Z",
+  "ts": "2026-04-09T07:46:40.019Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4225220581",
-    "ticket_id": "941132015",
-    "message": "What are the options for 2 night?",
-    "channel_id": "585723",
-    "contact_id": "535785234",
-    "contact_name": "Slava",
-    "contact_identifier": "+971562912018",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4225220694",
+    "ticket_id": "941135320",
+    "message": "How can I help you?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535785982",
+    "contact_name": "Hadi",
+    "contact_identifier": "d365a7a3-cff4-4264-b6de-f9e12871ce02",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
