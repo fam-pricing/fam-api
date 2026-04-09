@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-09T10:13:28.157Z",
+  "ts": "2026-04-09T10:15:09.113Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4225406481",
-    "ticket_id": "940349036",
-    "message": "i don’t need to recheck in by filling the form right?",
+    "type": "OUTBOUND",
+    "message_id": "4225408826",
+    "ticket_id": "941125723",
+    "message": "Sure, I will check the availability for you. However, please note that at the moment we can only offer a rate for a 3-month period. After that, we will review the current rate at the time of extension.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535783872",
+    "contact_name": "Elena H",
+    "contact_identifier": "+971555746622",
     "channel_id": "585723",
-    "contact_id": "535605092",
-    "contact_name": "Farzad Banihashem",
-    "contact_identifier": "+971585284945",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
