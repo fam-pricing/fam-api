@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-09T09:04:17.711Z",
+  "ts": "2026-04-09T09:04:21.772Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4225315780",
-    "ticket_id": "940947628",
-    "message": "Hi Fatima,\r\n\r\nCan I have an update on this please",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535743802",
-    "contact_name": "Fatima H",
-    "contact_identifier": "+971504657776",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4225315869",
+    "ticket_id": "940949025",
+    "message": "Hello, is this viewing act 1 or act 2?",
+    "channel_id": "1304636",
+    "contact_id": "535744109",
+    "contact_name": "Elham",
+    "contact_identifier": "+447715467859",
+    "event_type": "INBOUND"
   }
 }
