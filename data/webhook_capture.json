@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-09T13:52:23.983Z",
+  "ts": "2026-04-09T13:52:25.025Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4225668252",
+    "type": "INBOUND",
+    "message_id": "4225668287",
     "ticket_id": "940682564",
-    "message": "Additionally there is a security deposit of AED 2000. Please confirm the check in date so I can send the payment link for the security deposit and lock the unit for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "But the payment will per month right?",
+    "channel_id": "1304636",
     "contact_id": "535680169",
     "contact_name": "Humam",
     "contact_identifier": "+971555795196",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
