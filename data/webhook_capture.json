@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-10T08:19:21.987Z",
+  "ts": "2026-04-10T08:20:41.949Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4226204543",
+    "type": "INBOUND",
+    "message_id": "4226205857",
     "ticket_id": "941458180",
-    "message": "May I kindly request your EID or passport copy so we can update the building team?\r\n\r\nAs the agent is currently not available, we can arrange a self-viewing for you instead, if that works for you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I live in this building and I have the card to access the units.",
+    "channel_id": "1304636",
     "contact_id": "535760321",
     "contact_name": "amy",
     "contact_identifier": "+971501170660",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
