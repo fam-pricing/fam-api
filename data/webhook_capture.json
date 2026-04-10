@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-10T13:05:08.933Z",
+  "ts": "2026-04-10T13:07:03.929Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4226500357",
-    "ticket_id": "923515517",
-    "message": "Yas I see thx",
+    "type": "OUTBOUND",
+    "message_id": "4226502223",
+    "ticket_id": "924621310",
+    "message": "We have checked with our Finance team; unfortunately, they are not available over the weekend, so the process cannot be completed at the moment.\r\n\r\nYou may either visit us on Monday, or alternatively, you can share your local bank details and we will arrange a bank transfer for you.\r\n\r\nKindly note that as the original payment was made by card, a 3% deduction will apply for cash refunds. The final refundable amount will be AED 1,940, whether processed in cash or via bank transfer.\r\n\r\nThank you for your understanding, and please let us know how you would like to proceed.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "531737122",
+    "contact_name": "Pukhraj",
+    "contact_identifier": "+919501933339",
     "channel_id": "585723",
-    "contact_id": "531443890",
-    "contact_name": "Firass Mohammed kassab",
-    "contact_identifier": "+971543333323",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
