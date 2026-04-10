@@ -1,17 +1,5 @@
 [
   {
-    "ts": "2026-04-03T19:06:24.697Z",
-    "ticket_id": 939763441,
-    "lead_id": "message_lead_28586410",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1031,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
     "ts": "2026-04-03T22:07:47.622Z",
     "ticket_id": 939783612,
     "lead_id": "message_lead_28587847",
@@ -6658,5 +6646,17 @@
     "lead_quality": 25,
     "buying_stage": "COOL",
     "skip_reason": "Lead is asking about a 6-month rental in Downtown (1BR Act One Tower 1 at AED 7,000/month) and wants to know if there is price flexibility. This is a long-term pricing request beyond 3 months and requires manager input on any possible discount or negotiation."
+  },
+  {
+    "ts": "2026-04-10T19:05:51.056Z",
+    "ticket_id": 941628947,
+    "lead_id": "message_lead_28698386",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1498,
+    "critic_pass": null,
+    "lead_quality": 25,
+    "buying_stage": "COOL",
+    "skip_reason": "bot_paused"
   }
 ]
