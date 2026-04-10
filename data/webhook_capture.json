@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-10T08:15:02.014Z",
+  "ts": "2026-04-10T08:17:41.116Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4226200173",
+    "type": "INBOUND",
+    "message_id": "4226202781",
     "ticket_id": "941458180",
-    "message": "Hello Amy,\r\n\r\nAllow us to check if we can arrange the viewing at this time. Please note that viewings must be scheduled in advance so we can arrange the agent accordingly.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "ok",
+    "channel_id": "1304636",
     "contact_id": "535760321",
     "contact_name": "amy",
     "contact_identifier": "+971501170660",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4226200173",
+    "parent_ticket_id": "941458180",
+    "event_type": "INBOUND"
   }
 }
