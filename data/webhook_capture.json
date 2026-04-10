@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-10T12:34:21.786Z",
+  "ts": "2026-04-10T12:34:29.741Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4226468961",
-    "ticket_id": "941542481",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535901686",
-    "contact_name": "Anke Daniela Zapf",
-    "contact_identifier": "+4915172411645",
+    "type": "INBOUND",
+    "message_id": "4226469055",
+    "ticket_id": "923515517",
+    "message": "And what about may many",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "531443890",
+    "contact_name": "Firass Mohammed kassab",
+    "contact_identifier": "+971543333323",
+    "parent_message_id": "4175388204",
+    "parent_ticket_id": "923515517",
+    "event_type": "INBOUND"
   }
 }
