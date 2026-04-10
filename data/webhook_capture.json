@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-10T19:01:08.910Z",
+  "ts": "2026-04-10T19:01:49.858Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4226772712",
+    "type": "OUTBOUND",
+    "message_id": "4226772980",
     "ticket_id": "941628947",
-    "message": "Hi \nI would like to know if you have a Studio or a 1-bedroom for rent for long-term, in the downtown area",
-    "channel_id": "1304636",
+    "message": "The property shared is in Business Bay, for Downtown we have two options right now: a 1BR in Act One Tower 1 at AED 7,000/month and a 2BR in Grande at AED 12,000/month. No studio in Downtown at the moment. Would either of those work for you, or is the 1BR closer to what you had in mind?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535926752",
     "contact_name": "JIHEN~ْجِيهَان",
     "contact_identifier": "+971551453370",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
