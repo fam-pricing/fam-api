@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-10T13:16:06.177Z",
+  "ts": "2026-04-10T13:16:18.523Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4226512292",
+    "type": "INBOUND",
+    "message_id": "4226512496",
     "ticket_id": "941554986",
-    "message": "Anushka, happy to help, are you looking at this for a short stay or something longer-term?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Longer term",
+    "channel_id": "1304636",
     "contact_id": "535904741",
     "contact_name": "Anushka",
     "contact_identifier": "+971566700772",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4226512292",
+    "parent_ticket_id": "941554986",
+    "event_type": "INBOUND"
   }
 }
