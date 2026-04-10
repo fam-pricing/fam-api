@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-10T12:20:49.833Z",
+  "ts": "2026-04-10T12:21:08.459Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4226454804",
+    "type": "OUTBOUND",
+    "message_id": "4226455160",
     "ticket_id": "941536130",
-    "message": "Thanks",
-    "channel_id": "585723",
+    "message": "welcome",
+    "user_id": "746181",
+    "user_name": "Avinash I",
+    "user_email": "avinashanilkumar.i@famliving.com",
     "contact_id": "535900049",
     "contact_name": "Marie Solange De Luca",
     "contact_identifier": "+971523716801",
-    "parent_message_id": "4226452190",
-    "parent_ticket_id": "941536130",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
