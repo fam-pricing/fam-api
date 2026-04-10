@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-10T13:07:14.752Z",
+  "ts": "2026-04-10T13:08:06.528Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4226502421",
-    "ticket_id": "923515517",
-    "message": "would like to book ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "531443890",
-    "contact_name": "Firass Mohammed kassab",
-    "contact_identifier": "+971543333323",
+    "type": "INBOUND",
+    "message_id": "4226503288",
+    "ticket_id": "941542481",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "535901686",
+    "contact_name": "Anke Daniela Zapf",
+    "contact_identifier": "+4915172411645",
+    "parent_message_id": "4226468961",
+    "parent_ticket_id": "941542481",
+    "event_type": "INBOUND"
   }
 }
