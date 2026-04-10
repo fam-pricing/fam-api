@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-10T08:20:45.953Z",
+  "ts": "2026-04-10T08:25:20.526Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4226205914",
-    "ticket_id": "941451761",
-    "message": "Confirm",
-    "channel_id": "585723",
-    "contact_id": "535680169",
-    "contact_name": "HUMAM SHAMDEEN",
-    "contact_identifier": "+971555795196",
-    "parent_message_id": "4226177863",
-    "parent_ticket_id": "941451761",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4226211360",
+    "ticket_id": "941458180",
+    "message": "We understand that you are currently living in the building. However, we will still need your EID to update the building team accordingly. Once received, we will share the apartment details with you.\r\n\r\nAlternatively, we can arrange a viewing today between 2:30 PM and 3:00 PM, when our agent will be available to assist you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535760321",
+    "contact_name": "amy",
+    "contact_identifier": "+971501170660",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
