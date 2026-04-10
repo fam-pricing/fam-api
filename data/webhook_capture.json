@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-10T12:56:01.773Z",
+  "ts": "2026-04-10T12:56:21.082Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4226490318",
+    "type": "OUTBOUND",
+    "message_id": "4226490612",
     "ticket_id": "923515517",
-    "message": "Because I have with you that a deposit",
-    "channel_id": "585723",
+    "message": "We have checked, and your previous deposit has already been refunded. Please find the proof attached for your reference.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "531443890",
     "contact_name": "Firass Mohammed kassab",
     "contact_identifier": "+971543333323",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
