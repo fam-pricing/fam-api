@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-10T13:41:57.963Z",
+  "ts": "2026-04-10T13:42:16.223Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4226540453",
-    "ticket_id": "941542481",
-    "message": "Thank you for completing the check-in form. Tomorrow, our Guest Relations team will share all the apartment details with you between 2:00 PM and 3:00 PM, Anke.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535901686",
-    "contact_name": "Anke Daniela Zapf",
-    "contact_identifier": "+4915172411645",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4226540703",
+    "ticket_id": "941554986",
+    "message": "Do you have any admin fees or brokerage?",
+    "channel_id": "1304636",
+    "contact_id": "535904741",
+    "contact_name": "Anushka",
+    "contact_identifier": "+971566700772",
+    "event_type": "INBOUND"
   }
 }
