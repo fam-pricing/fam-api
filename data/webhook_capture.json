@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-10T11:09:00.862Z",
+  "ts": "2026-04-10T11:11:31.711Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4226382212",
+    "type": "OUTBOUND",
+    "message_id": "4226384809",
     "ticket_id": "941501853",
-    "message": "What floor do I live on",
-    "channel_id": "585723",
+    "message": "your unit number: 511 and it will be on 5th floor",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535128769",
     "contact_name": "Alex",
     "contact_identifier": "+256742443400",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
