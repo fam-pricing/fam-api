@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-10T17:28:10.449Z",
+  "ts": "2026-04-10T17:28:43.169Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4226724962",
+    "type": "OUTBOUND",
+    "message_id": "4226725430",
     "ticket_id": "941613292",
-    "message": "Hello what the maximum period for renting this unit?",
-    "channel_id": "1304636",
+    "message": "Rentals run on a monthly basis, confirmed in 3-month blocks, with extensions handled month by month after that. If you need a longer fixed term we can look into that too. Are you after a studio, 1BR, or 2BR in Elite Business Bay?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535922401",
     "contact_name": "Maram Hamad |CBB|Driven Forbes",
     "contact_identifier": "+971522954079",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
