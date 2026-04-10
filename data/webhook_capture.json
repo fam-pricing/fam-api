@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-10T18:55:24.576Z",
+  "ts": "2026-04-10T18:56:01.805Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4226770089",
+    "type": "OUTBOUND",
+    "message_id": "4226770335",
     "ticket_id": "941627171",
-    "message": "How much would be monthly ?",
-    "channel_id": "1304636",
+    "message": "It's AED 5,000/month all-inclusive for a 6-month stay from May 1. To secure it, you'd need the first and last month plus the AED 1,500 refundable deposit upfront.\n\nWant to arrange a viewing first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535926291",
     "contact_name": "Rimsha Akram",
     "contact_identifier": "+971526064450",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
