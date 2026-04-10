@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-10T15:35:23.079Z",
+  "ts": "2026-04-10T15:35:44.575Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4226649697",
+    "type": "INBOUND",
+    "message_id": "4226649929",
     "ticket_id": "941592795",
-    "message": "Yes, it's available. No brokerage fee, and the security deposit is AED 1,000 for a studio, AED 1,500 for a 1BR, or AED 2,000 for a 3BR, fully refundable within 14 working days after check-out. Which unit type were you thinking?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Studio",
+    "channel_id": "1304636",
     "contact_id": "535916380",
     "contact_name": "Abhishek Giri",
     "contact_identifier": "+971502125227",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
