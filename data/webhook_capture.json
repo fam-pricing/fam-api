@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-11T08:58:31.036Z",
+  "ts": "2026-04-11T08:58:46.920Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4226991188",
+    "type": "OUTBOUND",
+    "message_id": "4226991369",
     "ticket_id": "941720651",
-    "message": "Does the price include bills?",
-    "channel_id": "1304636",
+    "message": "Everything's included, water, electricity, internet, and VAT. What time today works for you to take a look?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535944251",
     "contact_name": "Dahab Elkady",
     "contact_identifier": "+971526330897",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
