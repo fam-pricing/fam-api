@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-11T14:09:19.354Z",
+  "ts": "2026-04-11T14:09:30.181Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4227150468",
+    "type": "OUTBOUND",
+    "message_id": "4227150548",
     "ticket_id": "941773913",
-    "message": "Yes",
-    "channel_id": "1304636",
+    "message": "That's within your budget, it's AED 5,000/month, and May 1st works as a move-in date. What day this week would you like to come view it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535957686",
     "contact_name": "Sherry 🍒",
     "contact_identifier": "+971509120233",
-    "parent_message_id": "4227150199",
-    "parent_ticket_id": "941773913",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
