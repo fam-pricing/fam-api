@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-11T08:59:08.360Z",
+  "ts": "2026-04-11T08:59:25.166Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4226991519",
+    "type": "OUTBOUND",
+    "message_id": "4226991634",
     "ticket_id": "941720651",
-    "message": "Maybe around 3pm, I can confirm in a bit",
-    "channel_id": "1304636",
+    "message": "3pm works perfectly. Just confirm when you're ready and we'll lock it in.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535944251",
     "contact_name": "Dahab Elkady",
     "contact_identifier": "+971526330897",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
