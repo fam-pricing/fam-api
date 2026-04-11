@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-11T22:51:48.966Z",
+  "ts": "2026-04-11T22:51:59.730Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4227336448",
+    "type": "OUTBOUND",
+    "message_id": "4227336475",
     "ticket_id": "941843746",
-    "message": "Is this Appartment monthly pay and utilies included?",
-    "channel_id": "1304636",
+    "message": "Welcome! Are you looking to book this place for a specific period, or would you like to know more about it first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535973420",
     "contact_name": "Kiana Pour",
     "contact_identifier": "+971543135876",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
