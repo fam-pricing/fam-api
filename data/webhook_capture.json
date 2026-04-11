@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-11T07:11:10.589Z",
+  "ts": "2026-04-11T07:43:55.913Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4226941461",
+    "type": "OUTBOUND",
+    "message_id": "4226954545",
     "ticket_id": "932799979",
-    "message": "What time they will come ?",
-    "channel_id": "585723",
+    "message": "They are already in the building and will visit the apartment shortly",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "533748349",
     "contact_name": "Yevgeniya Kriger",
     "contact_identifier": "+77778408448",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
