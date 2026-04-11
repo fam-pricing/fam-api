@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-11T05:10:19.317Z",
+  "ts": "2026-04-11T05:13:36.723Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4226904547",
-    "ticket_id": "925794250",
-    "message": "Good morning \nMr Kenan will be arriving tomorrow morning at 8 am\n\nPlease ensure apartment is ready for him \n\nCan we confirm it’s the same apartment \nA101",
-    "channel_id": "585723",
-    "contact_id": "532008494",
-    "contact_name": "Kenan David",
-    "contact_identifier": "+27724580583",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4226905401",
+    "ticket_id": "941592795",
+    "message": "Building name - Bayz by Danube Properties\r\n\r\nLocation - https://maps.app.goo.gl/ncZQMQs37aQchypu7",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535916380",
+    "contact_name": "Abhishek Giri",
+    "contact_identifier": "+971502125227",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
