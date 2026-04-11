@@ -6166,5 +6166,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-04-11T08:58:32.137Z",
+    "ticket_id": 941720651,
+    "lead_id": "message_lead_28705379",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1102,
+    "critic_pass": null,
+    "lead_quality": 30,
+    "buying_stage": "COOL",
+    "skip_reason": "ticket_locked"
   }
 ]
