@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-11T13:44:57.269Z",
+  "ts": "2026-04-11T13:44:58.226Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4227137288",
+    "type": "OUTBOUND",
+    "message_id": "4227137307",
     "ticket_id": "941769458",
-    "message": "Is this appartment available from Tuesday 14 April for 1 month",
-    "channel_id": "1304636",
+    "message": "The 3BR in Imperial Avenue is still available, want to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535956755",
     "contact_name": "R T L",
     "contact_identifier": "+971502654554",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
