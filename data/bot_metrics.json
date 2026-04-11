@@ -5734,5 +5734,17 @@
     "lead_quality": 65,
     "buying_stage": "WARM",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-04-11T14:10:16.938Z",
+    "ticket_id": 941773913,
+    "lead_id": "message_lead_28710792",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 790,
+    "critic_pass": null,
+    "lead_quality": 55,
+    "buying_stage": "WARM",
+    "skip_reason": "agent_cooldown"
   }
 ]
