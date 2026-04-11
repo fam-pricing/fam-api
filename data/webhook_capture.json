@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-11T06:30:51.853Z",
+  "ts": "2026-04-11T06:37:41.827Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4226926180",
+    "type": "INBOUND",
+    "message_id": "4226928420",
     "ticket_id": "941458180",
-    "message": "Good morning Amy,\r\n\r\nCould you please share the EID or Passport to arrange viewing for you and 2.30pm today",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "hi",
+    "channel_id": "1304636",
     "contact_id": "535760321",
     "contact_name": "amy",
     "contact_identifier": "+971501170660",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4226926180",
+    "parent_ticket_id": "941458180",
+    "event_type": "INBOUND"
   }
 }
