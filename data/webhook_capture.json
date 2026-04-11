@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-11T08:05:05.002Z",
+  "ts": "2026-04-11T08:05:27.747Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4226965300",
+    "type": "OUTBOUND",
+    "message_id": "4226965523",
     "ticket_id": "941710038",
-    "message": "It's 5400 mam?",
-    "channel_id": "1304636",
+    "message": "The rent is AED 4,400, not 5,400. The deposit is AED 1,000 refundable, plus first and last month upfront to secure it. Would you like to go ahead with April 24 as your move-in date?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535941254",
     "contact_name": "By. Aura",
     "contact_identifier": "+971543763221",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
