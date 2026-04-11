@@ -1,125 +1,5 @@
 [
   {
-    "ts": "2026-04-04T10:19:17.704Z",
-    "ticket_id": 939866247,
-    "lead_id": "message_lead_28593631",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 27834,
-    "critic_pass": null,
-    "lead_quality": 40,
-    "buying_stage": "WARM",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-04-04T10:22:33.366Z",
-    "ticket_id": 939838639,
-    "lead_id": "message_lead_28590852",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1210,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "acknowledgment_skip"
-  },
-  {
-    "ts": "2026-04-04T10:22:48.873Z",
-    "ticket_id": 939838639,
-    "lead_id": "message_lead_28590852",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 913,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-04-04T10:22:55.519Z",
-    "ticket_id": 939838639,
-    "lead_id": "message_lead_28590852",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 878,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-04-04T10:22:59.964Z",
-    "ticket_id": 939866247,
-    "lead_id": "message_lead_28593631",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1089,
-    "critic_pass": null,
-    "lead_quality": 40,
-    "buying_stage": "WARM",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-04-04T10:23:00.565Z",
-    "ticket_id": 939866247,
-    "lead_id": "message_lead_28593631",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 24550,
-    "critic_pass": null,
-    "lead_quality": 40,
-    "buying_stage": "WARM",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-04-04T10:27:02.275Z",
-    "ticket_id": 939866247,
-    "lead_id": "message_lead_28593631",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 893,
-    "critic_pass": null,
-    "lead_quality": 30,
-    "buying_stage": "COOL",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-04-04T10:28:05.167Z",
-    "ticket_id": 939866247,
-    "lead_id": "message_lead_28593631",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1038,
-    "critic_pass": null,
-    "lead_quality": 40,
-    "buying_stage": "WARM",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-04-04T10:28:15.121Z",
-    "ticket_id": 939866247,
-    "lead_id": "message_lead_28593631",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1102,
-    "critic_pass": null,
-    "lead_quality": 40,
-    "buying_stage": "WARM",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-04-04T10:28:16.300Z",
-    "ticket_id": 939866247,
-    "lead_id": "message_lead_28593631",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 840,
-    "critic_pass": null,
-    "lead_quality": 40,
-    "buying_stage": "WARM",
-    "skip_reason": "ticket_locked"
-  },
-  {
     "ts": "2026-04-04T10:36:21.764Z",
     "ticket_id": 939841720,
     "lead_id": "message_lead_28591179",
@@ -5962,5 +5842,17 @@
     "lead_quality": 50,
     "buying_stage": "WARM",
     "skip_reason": "Conversation is highly fragmented and confusing. Multiple conflicting times (3pm vs 4pm) have been set by previous agent messages, lead has sent an image (likely their ID), confirmed 3 months at AED 5,000/month, and the conversation is out of sync. I cannot determine the current confirmed viewing time, whether the ID has been received/processed, or what \"here it is?\" refers to. Needs human to take over and consolidate."
+  },
+  {
+    "ts": "2026-04-11T10:29:44.748Z",
+    "ticket_id": 941720651,
+    "lead_id": "message_lead_28705379",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 846,
+    "critic_pass": null,
+    "lead_quality": 50,
+    "buying_stage": "WARM",
+    "skip_reason": "acknowledgment_skip"
   }
 ]
