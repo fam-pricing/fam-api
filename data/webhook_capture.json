@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-11T08:03:55.049Z",
+  "ts": "2026-04-11T08:04:18.255Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4226964775",
+    "type": "OUTBOUND",
+    "message_id": "4226964966",
     "ticket_id": "941710038",
-    "message": "No deposit and any charge?",
-    "channel_id": "1304636",
+    "message": "The deposit is AED 1,000 refundable, plus first and last month upfront. No other charges.\n\nAny other questions before you decide?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535941254",
     "contact_name": "By. Aura",
     "contact_identifier": "+971543763221",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
