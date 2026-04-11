@@ -284,3 +284,7 @@ Payment of the first and last month is required upfront to confirm a 3-month boo
 ## Learned (2026-04-10)
 - If a lead asks whether there are any hidden charges, reassure them that all listed charges are fully inclusive, with the exception of cleaning services. Let them know that if they require any additional cleaning during their stay, this can be arranged but will be subject to an extra charge. Confirm that everything else is included.
   (Learned from Faysal handling Anushka re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-04-11)
+- If a lead mentions audio, respond with: Please note that the rate has already been adjusted in line with current market conditions and reflects a discounted offer.
+  (Learned from Faysal handling Maram Hamad |CBB|Driven Forbes re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-15780521.html)
