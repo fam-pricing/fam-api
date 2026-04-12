@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-12T14:34:03.576Z",
+  "ts": "2026-04-12T14:34:29.363Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4227630855",
+    "type": "INBOUND",
+    "message_id": "4227631012",
     "ticket_id": "928365281",
-    "message": "They visited 2times however they will visit tomorrow again",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Alright 👍",
+    "channel_id": "585723",
     "contact_id": "532624159",
     "contact_name": "Beauty Chidinma Nwankwo",
     "contact_identifier": "+2348029588047",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4227630855",
+    "parent_ticket_id": "928365281",
+    "event_type": "INBOUND"
   }
 }
