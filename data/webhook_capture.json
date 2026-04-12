@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-12T09:37:33.202Z",
+  "ts": "2026-04-12T09:40:49.657Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4227494075",
+    "type": "OUTBOUND",
+    "message_id": "4227495594",
     "ticket_id": "941757415",
-    "message": "Image",
-    "channel_id": "585723",
+    "message": "Well we have received the payment\r\n\r\nAllow me to check for the time we can arrange",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535953930",
     "contact_name": "Shakiba alsama",
     "contact_identifier": "+971502487446",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
