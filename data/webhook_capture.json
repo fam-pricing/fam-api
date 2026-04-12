@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-12T16:25:08.212Z",
+  "ts": "2026-04-12T16:27:15.565Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4227678365",
+    "type": "OUTBOUND",
+    "message_id": "4227678969",
     "ticket_id": "941928366",
-    "message": "You mentioned 2 adults \nBut I already informed for 4 adults",
-    "channel_id": "1304636",
+    "message": "That we can change I will send the new confirmation",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535926291",
     "contact_name": "Rimsha Akram",
     "contact_identifier": "+971526064450",
-    "parent_message_id": "4227674872",
-    "parent_ticket_id": "941928366",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
