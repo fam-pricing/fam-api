@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-12T05:15:18.187Z",
+  "ts": "2026-04-12T05:26:01.504Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4227392506",
-    "ticket_id": "941542481",
-    "message": "Your apartment number is 1914, which is on the 19th floor\r\n\r\nKindly approach the reception for check in process once you arrive at the building",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535901686",
-    "contact_name": "Anke Daniela Zapf",
-    "contact_identifier": "+4915172411645",
+    "type": "INBOUND",
+    "message_id": "4227394652",
+    "ticket_id": "941831958",
+    "message": "We are looking for a 2 BR Full furnish Apartment for rent in dubai",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "535971261",
+    "contact_name": "Robin",
+    "contact_identifier": "+971562048948",
+    "event_type": "INBOUND"
   }
 }
