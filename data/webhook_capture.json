@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-12T05:09:42.014Z",
+  "ts": "2026-04-12T05:11:24.858Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4227391431",
-    "ticket_id": "902119644",
-    "message": "Good morning, hope all is well. I would like to use the apartment later this week (April 14th until the 16th). Can you please register my car again so I can use my parking spot? I booked the time slot in the system already. My car is a white Toyota Landcruiser, Oman License Plate W97386",
-    "channel_id": "585723",
-    "contact_id": "490039719",
-    "contact_name": "Mr NIELS BORMANS",
-    "contact_identifier": "+96871144492",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4227391661",
+    "ticket_id": "941877292",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535977072",
+    "contact_name": "GSPR Transport",
+    "contact_identifier": "+971561549971",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
