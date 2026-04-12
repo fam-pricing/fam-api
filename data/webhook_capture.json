@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-12T08:48:22.420Z",
+  "ts": "2026-04-12T08:48:37.751Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4227469973",
+    "type": "INBOUND",
+    "message_id": "4227470124",
     "ticket_id": "932816395",
-    "message": "I have already send the email to reception therefore please pass by the reception to activate the access cards\r\n\r\nThank you for the understanding !",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "❤️",
+    "channel_id": "585723",
     "contact_id": "533751883",
     "contact_name": "Dalbani Eid Momtaz",
     "contact_identifier": "+971524424980",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4227469973",
+    "parent_ticket_id": "932816395",
+    "event_type": "INBOUND"
   }
 }
