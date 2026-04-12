@@ -6114,12 +6114,12 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html",
     "trengo_ticket_id": 941916564,
     "lead_name": "Jahangir",
-    "last_bot_reply_content": "Our team will send you the location pin shortly, Jahangir. Once you've got that, just share a photo of your ID so we can sort building access before 5pm.",
-    "last_bot_reply_at": "2026-04-12T10:04:17.445Z",
+    "last_bot_reply_content": "Thank you for sending your ID. Our team will be in touch shortly to confirm the property location and all viewing details.",
+    "last_bot_reply_at": "2026-04-12T10:26:51.186Z",
     "lead_replied": true,
-    "lead_replied_at": "2026-04-12T10:04:17.445Z",
-    "bot_reply_count": 6,
-    "last_processed_message_id": "4227506535",
+    "lead_replied_at": "2026-04-12T10:26:35.487Z",
+    "bot_reply_count": 8,
+    "last_processed_message_id": "4227517548",
     "lead_quality_score": 65,
     "lead_quality_label": "WARM",
     "lead_quality_signals": [
@@ -6128,11 +6128,13 @@
       "viewing interest",
       "pricing enquiry"
     ],
-    "viewing_status": "pending_id",
+    "viewing_status": "id_received_no_coords",
     "viewing_day": "today",
     "viewing_time": "5pm",
     "viewing_property": "2BR in Elite Business Bay Residence, Business Bay",
-    "viewing_pending_since": "2026-04-12T10:03:55.472Z"
+    "viewing_pending_since": "2026-04-12T10:03:55.472Z",
+    "bot_paused": true,
+    "viewing_id_url": null
   },
   "message_lead_28722245": {
     "stage": "new",
@@ -6153,6 +6155,29 @@
     "lead_quality_label": "COOL",
     "lead_quality_signals": [
       "near-term timeline"
-    ]
+    ],
+    "bot_paused": true,
+    "last_escalated_at": "2026-04-12T10:25:56.640Z",
+    "last_escalated_question": null
+  },
+  "message_lead_28724874": {
+    "stage": "new",
+    "notes": [],
+    "auto_responded": true,
+    "auto_responded_at": "2026-04-12T13:20:20.950Z",
+    "pf_phone": "971589590884",
+    "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html",
+    "trengo_ticket_id": 941947590,
+    "lead_name": "Venus"
+  },
+  "message_lead_28726032": {
+    "stage": "new",
+    "notes": [],
+    "auto_responded": true,
+    "auto_responded_at": "2026-04-12T14:33:21.058Z",
+    "pf_phone": "971541623990",
+    "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html",
+    "trengo_ticket_id": 941958259,
+    "lead_name": "sk"
   }
 }
