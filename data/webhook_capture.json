@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-12T07:10:26.041Z",
+  "ts": "2026-04-12T07:10:29.212Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4227426694",
+    "type": "OUTBOUND",
+    "message_id": "4227426746",
     "ticket_id": "941891208",
-    "message": "hi",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "199321949",
     "contact_name": "Sherina Almazrouei almazrouei",
     "contact_identifier": "+971545155335",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
