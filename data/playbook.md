@@ -288,3 +288,9 @@ Payment of the first and last month is required upfront to confirm a 3-month boo
 ## Learned (2026-04-11)
 - If a lead mentions audio, respond with: Please note that the rate has already been adjusted in line with current market conditions and reflects a discounted offer.
   (Learned from Faysal handling Maram Hamad |CBB|Driven Forbes re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-15780521.html)
+
+## Learned (2026-04-12)
+- If a lead asks how much notice they need to give before leaving, respond with:
+
+Once payment has been completed, the booking falls under a non-refundable policy. If you do plan to vacate early, we kindly ask that you notify us at least 7 days before your intended departure date, though this is not a strict requirement.
+  (Learned from Faysal handling Ikdeep Kaur re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
