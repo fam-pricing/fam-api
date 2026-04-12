@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-12T15:26:33.413Z",
+  "ts": "2026-04-12T15:26:36.540Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4227654662",
+    "type": "OUTBOUND",
+    "message_id": "4227654709",
     "ticket_id": "941967590",
-    "message": "Booking deposit",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "535997891",
     "contact_name": "Kaushik",
     "contact_identifier": "4c846285-600b-4d06-9755-9a6a3fdbe4d3",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
