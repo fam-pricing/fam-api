@@ -1,17 +1,21 @@
 {
-  "ts": "2026-04-12T15:29:01.746Z",
+  "ts": "2026-04-12T15:29:50.221Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4227655568",
-    "ticket_id": "941920381",
-    "message": "Appointment is free of cost right?",
-    "channel_id": "1304636",
-    "contact_id": "535986253",
-    "contact_name": "Sheza imran Butt",
-    "contact_identifier": "+971505644681",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4227655876",
+    "ticket_id": "941967590",
+    "message": "How can I help you?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535997891",
+    "contact_name": "Kaushik",
+    "contact_email": "kaushikpateldlvr@gmail.com",
+    "contact_identifier": "4c846285-600b-4d06-9755-9a6a3fdbe4d3",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
