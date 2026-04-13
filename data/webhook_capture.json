@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-13T05:51:07.077Z",
+  "ts": "2026-04-13T05:51:08.165Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4227883763",
+    "type": "OUTBOUND",
+    "message_id": "4227883766",
     "ticket_id": "942077004",
-    "message": "Let me check with them",
-    "channel_id": "1304636",
+    "message": "Yes, those are the actual photos of the apartment.\n\nOn the costs, the lead asked about the rest of the prices and the security deposit, which hasn't been fully confirmed yet. Once your family's had a look, what day works best to come see it before the 1st?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536018229",
     "contact_name": "Maryanne",
     "contact_identifier": "+971501583955",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
