@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-13T11:54:34.101Z",
+  "ts": "2026-04-13T11:55:08.973Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4228299720",
+    "type": "INBOUND",
+    "message_id": "4228300369",
     "ticket_id": "942157004",
-    "message": "We have another option available in Bayz by Danube property\r\n\r\nMay,4500\r\nJune,4500\r\nJuly,5000\r\nAugust,5000\r\nSeptember,6000\r\nOctober,7000\r\nNovember,7000\r\nDecember,8000\r\nJanuary,7500\r\nFebruary,7500\r\nMarch,7000\r\nApril,6000",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Do you have the photos please?",
+    "channel_id": "1304636",
     "contact_id": "535981187",
     "contact_name": "Adv. Sauhan",
     "contact_identifier": "+971552466505",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4228299720",
+    "parent_ticket_id": "942157004",
+    "event_type": "INBOUND"
   }
 }
