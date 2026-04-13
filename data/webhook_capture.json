@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-13T10:29:23.099Z",
+  "ts": "2026-04-13T10:29:54.297Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4228193231",
+    "type": "OUTBOUND",
+    "message_id": "4228193786",
     "ticket_id": "942174170",
-    "message": "Hi, could you please share more details? I would like to stay for a minimum of 6 months. My moving date is April 22.",
-    "channel_id": "1304636",
+    "message": "We have two units available in Elite Business Bay, both ready from April 22, a 1BR and a 2BR. Which size works better for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536042268",
     "contact_name": "Carbon Media Productions",
     "contact_identifier": "+971559334465",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
