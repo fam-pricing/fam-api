@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-13T06:30:15.069Z",
+  "ts": "2026-04-13T06:31:02.253Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4227909002",
-    "ticket_id": "942006491",
-    "message": "I’m checking with the client but he’s seen big 2 beds in new buildings in downtown going for 9-10k.\n\nKindly check and let me know, because I’m from holiday home aswell and trust me it’s difficult to get clients this period.\n\nHe will stay in the unit for long if everything is fine. We assisted him find his current unit and he’s been there over 2 years paying monthly",
-    "channel_id": "1304636",
-    "contact_id": "535200402",
-    "contact_name": "Lenor Vacation Homes Enquiries",
-    "contact_identifier": "+971526529443",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4227909846",
+    "ticket_id": "942082281",
+    "message": "May I kindly know whether you would prefer to complete the payment for three months in one installment, or proceed with monthly extensions?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535956059",
+    "contact_name": "Zeina Elnahas",
+    "contact_identifier": "+971523770869",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
