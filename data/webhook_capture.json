@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-13T10:40:54.257Z",
+  "ts": "2026-04-13T10:41:02.172Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4228206123",
-    "ticket_id": "941132015",
-    "message": "Unfortunately we do not have any apartments available in your preferred area",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535785234",
-    "contact_name": "Slava",
-    "contact_identifier": "+971562912018",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4228206250",
+    "ticket_id": "942162571",
+    "message": "Can you let me know about any additional payments? Deposit or etc",
+    "channel_id": "1304636",
+    "contact_id": "536039660",
+    "contact_name": "Valeria",
+    "contact_identifier": "+971551350746",
+    "event_type": "INBOUND"
   }
 }
