@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-13T15:09:13.681Z",
+  "ts": "2026-04-13T15:09:44.702Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4228552220",
+    "type": "INBOUND",
+    "message_id": "4228552698",
     "ticket_id": "942278130",
-    "message": "Got it, does any time before 6pm work for you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Before 6",
+    "channel_id": "1304636",
     "contact_id": "535238540",
     "contact_name": "Jodie",
     "contact_identifier": "+971528861449",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
