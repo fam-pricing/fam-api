@@ -6485,16 +6485,18 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html",
     "trengo_ticket_id": 942278098,
     "lead_name": "Pedro Machado",
-    "last_bot_reply_content": "The conditions are simple: confirm the unit and move-in date, sign the contract digitally, and payment secures it. Fully furnished, with linen and towels included from day one.\n\nHow long are you looking to stay?",
-    "last_bot_reply_at": "2026-04-13T15:13:44.788Z",
+    "last_bot_reply_content": "For May 1 to July 1, that's 2 months, so we'd need the first and last month upfront (AED 11,000) plus a refundable damage deposit of AED 2,000. The deposit comes back within 14 working days after check-out. Want to go ahead?",
+    "last_bot_reply_at": "2026-04-13T15:15:49.471Z",
     "lead_replied": true,
-    "lead_replied_at": "2026-04-13T15:13:44.788Z",
+    "lead_replied_at": "2026-04-13T15:15:49.471Z",
     "bot_reply_count": 1,
-    "last_processed_message_id": "4228556345",
+    "last_processed_message_id": "4228558441",
     "unanswered_alert_sent": false,
-    "lead_quality_score": 15,
-    "lead_quality_label": "COLD",
+    "lead_quality_score": 55,
+    "lead_quality_label": "WARM",
     "lead_quality_signals": [
+      "near-term timeline",
+      "move-in intent",
       "pricing enquiry"
     ]
   },
@@ -6507,7 +6509,7 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-imperial-avenue-15819509.html",
     "trengo_ticket_id": 942278130,
     "lead_name": "Jodie",
-    "last_bot_reply_content": "Tomorrow at 9am is confirmed, Jodie. To sort building access beforehand, could you send a photo of your passport or Emirates ID?",
+    "last_bot_reply_content": "Since you're already in the building, let me get someone from the team to sort the unit number and access for you right away.",
     "last_bot_reply_at": "2026-04-13T15:10:47.967Z",
     "lead_replied": true,
     "lead_replied_at": "2026-04-13T15:10:47.967Z",
@@ -6524,6 +6526,9 @@
     "viewing_day": "tomorrow",
     "viewing_time": "9am",
     "viewing_property": "3BR in Imperial Avenue, Downtown Dubai",
-    "viewing_pending_since": "2026-04-13T15:10:47.967Z"
+    "viewing_pending_since": "2026-04-13T15:10:47.967Z",
+    "bot_paused": true,
+    "last_escalated_at": "2026-04-13T15:13:49.317Z",
+    "last_escalated_question": null
   }
 }
