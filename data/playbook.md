@@ -298,3 +298,7 @@ Once payment has been completed, the booking falls under a non-refundable policy
 ## Learned (2026-04-13)
 - If a lead requests a viewing time outside business hours (e.g., 8:00 AM), respond: "Unfortunately, viewings can only be arranged between 9:00 AM and 6:00 PM."
   (Learned from Faysal handling Maryanne re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-04-13)
+- If a lead asks whether the property includes cleaning services, toiletries, or similar amenities, respond by letting them know that daily housekeeping is not included as standard, but that cleaning can be arranged upon request for an additional charge per session.
+  (Learned from Faysal handling Salman re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
