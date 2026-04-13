@@ -294,3 +294,7 @@ Payment of the first and last month is required upfront to confirm a 3-month boo
 
 Once payment has been completed, the booking falls under a non-refundable policy. If you do plan to vacate early, we kindly ask that you notify us at least 7 days before your intended departure date, though this is not a strict requirement.
   (Learned from Faysal handling Ikdeep Kaur re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-04-13)
+- If a lead requests a viewing time outside business hours (e.g., 8:00 AM), respond: "Unfortunately, viewings can only be arranged between 9:00 AM and 6:00 PM."
+  (Learned from Faysal handling Maryanne re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
