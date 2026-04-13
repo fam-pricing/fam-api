@@ -478,6 +478,72 @@ export default async function handler(req, res) {
       changed = false;
     }
 
+    // ── SAFETY NET: Unanswered inbound detection ───────────────────────────────
+    // Catches tickets where the lead sent a message and the bot silently failed to reply.
+    // If last message is INBOUND and it's been > 1h, post an internal note alerting Faysal.
+    // This prevents leads like 941773913 from dying in silence.
+    const UNANSWERED_THRESHOLD_MS = 1 * 60 * 60 * 1000; // 1 hour
+    results.unanswered_escalated = [];
+
+    for (const [leadId, lead] of Object.entries(crmState)) {
+      if (!lead.trengo_ticket_id || !lead.auto_responded || !lead.lead_replied) continue;
+      if (lead.bot_paused || lead.follow_up_cold) continue;
+      if (lead.unanswered_alert_sent) continue; // Already alerted for this silence
+
+      const ticketId = lead.trengo_ticket_id;
+      const messages = await getTrengoThread(ticketId);
+      if (!messages.length) continue;
+
+      const real = messages.filter(m => !m.internal_note && (m.message || m.body));
+      if (!real.length) continue;
+      real.sort((a, b) => new Date(b.created_at || 0) - new Date(a.created_at || 0));
+      const latest = real[0];
+      const latestIsInbound = (latest.type || '').toUpperCase() === 'INBOUND';
+      if (!latestIsInbound) continue; // Bot/agent spoke last — not an unanswered inbound
+
+      const latestTime = latest.created_at ? new Date(latest.created_at).getTime() : 0;
+      if (!latestTime || Date.now() - latestTime < UNANSWERED_THRESHOLD_MS) continue;
+
+      // Count how many consecutive unanswered inbound messages
+      let unansweredCount = 0;
+      for (const m of real) {
+        if ((m.type || '').toUpperCase() === 'INBOUND') unansweredCount++;
+        else break;
+      }
+
+      const hoursAgo = Math.round((Date.now() - latestTime) / (60 * 60 * 1000));
+      const lastLeadMsg = (latest.message || latest.body || '').substring(0, 200);
+
+      // Post internal note to Faysal
+      const token = process.env.TRENGO_TOKEN;
+      if (token) {
+        try {
+          await fetch(`${TRENGO_API}/tickets/${ticketId}/messages`, {
+            method: 'POST',
+            headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
+            body: JSON.stringify({
+              message: `🚨 UNANSWERED LEAD — ${lead.lead_name || 'Unknown'} has ${unansweredCount} unanswered message(s) from ${hoursAgo}h ago.\n\nLast message: "${lastLeadMsg}"\n\nBot failed to reply. Please follow up manually.\n— fäm Bot`,
+              internal: true,
+            }),
+          });
+        } catch (e) { console.error('[followup] unanswered note error:', e?.message); }
+      }
+
+      crmState[leadId].unanswered_alert_sent = true;
+      crmState[leadId].unanswered_alert_at   = new Date().toISOString();
+      changed = true;
+      results.unanswered_escalated.push({ leadId, name: lead.lead_name, unansweredCount, hoursAgo });
+      console.log(`[followup] Unanswered inbound alert for ${lead.lead_name} (ticket ${ticketId}) — ${unansweredCount} msgs, ${hoursAgo}h ago`);
+    }
+
+    if (changed) {
+      await writeCRMState(crmState, sha);
+      const refreshed = await readCRMState();
+      Object.assign(crmState, refreshed.state);
+      sha = refreshed.sha;
+      changed = false;
+    }
+
     // ── Smart contextual follow-up ────────────────────────────────────────────
     // Targets leads who engaged (replied) but went quiet after a conversation started.
     // Separate from the initial 6h/12h/23h nudges — those are for leads who never replied.
@@ -487,8 +553,16 @@ export default async function handler(req, res) {
     for (const [leadId, lead] of Object.entries(crmState)) {
       // Must have engaged (replied at least once) and bot replied back
       if (!lead.lead_replied || !lead.bot_reply_count || lead.bot_reply_count === 0) continue;
-      // Not already done
-      if (lead.smart_followup_sent) continue;
+      // Re-triggerable: allow if smart_followup_last_at is > 12h ago AND there's been
+      // new bot activity since the last follow-up (conversation continued and went silent again)
+      if (lead.smart_followup_sent) {
+        const lastFollowAt = lead.smart_followup_last_at ? new Date(lead.smart_followup_last_at).getTime() : 0;
+        const lastBotReply = lead.last_bot_reply_at ? new Date(lead.last_bot_reply_at).getTime() : 0;
+        const twelveHoursAgo = Date.now() - (12 * 60 * 60 * 1000);
+        // Only re-trigger if: 12h+ since last follow-up AND bot has replied since the follow-up
+        const canRetrigger = lastFollowAt < twelveHoursAgo && lastBotReply > lastFollowAt;
+        if (!canRetrigger) continue;
+      }
       // Not paused, not closed/lost/viewing
       if (lead.bot_paused) continue;
       if (['viewing', 'closed', 'lost'].includes(lead.stage)) continue;
@@ -516,8 +590,10 @@ export default async function handler(req, res) {
       // Ask AI: should we follow up, and how?
       const { send, message } = await generateSmartFollowUp(messages, lead, refMapping);
 
-      crmState[leadId].smart_followup_sent = true;
-      crmState[leadId].smart_followup_at   = new Date().toISOString();
+      crmState[leadId].smart_followup_sent    = true;
+      crmState[leadId].smart_followup_last_at = new Date().toISOString();
+      // Keep legacy field for backward compat
+      crmState[leadId].smart_followup_at      = new Date().toISOString();
       changed = true;
 
       if (send && message) {

@@ -1578,7 +1578,11 @@ export default async function handler(req, res) {
     /please (leave|send) (a message|your (details|enquiry))/i,
     /our (team|staff|office) (will|is)/i,
   ];
-  const isAutoResponder = AUTO_RESPONDER_PATTERNS.some(p => p.test(messageText));
+  const matchesAutoPattern = AUTO_RESPONDER_PATTERNS.some(p => p.test(messageText));
+  // Guard: real leads sometimes START with a polite phrase ("Yes, thank you for contacting")
+  // but then ask a real question. Auto-responders are short canned messages (< 120 chars)
+  // and never contain question marks. If the message is long or has a ?, it's a real person.
+  const isAutoResponder = matchesAutoPattern && messageText.length < 120 && !messageText.includes('?');
   if (isAutoResponder) {
     console.log(`[auto-reply] Auto-responder detected on ticket ${ticketId} — posting internal note`);
     await postTrengoNote(ticketId,
@@ -2143,6 +2147,8 @@ async function handleInboundWithLock(req, res, body, ticketId, leadId, leadMeta,
   crmState[leadId].last_bot_reply_content    = reply.trim(); // used to detect bot echo in OUTBOUND webhooks
   crmState[leadId].bot_reply_count           = (leadMeta.bot_reply_count || 0) + 1;
   if (incomingMsgId) crmState[leadId].last_processed_message_id = incomingMsgId;
+  // Reset follow-up flags so cron can re-trigger if lead goes silent after this exchange
+  crmState[leadId].unanswered_alert_sent     = false;
 
   // ── Lead quality scoring — update after every reply ───────────────────────
   const { score, label, signals } = scoreLeadQuality(conversation, leadMeta, messageText);
