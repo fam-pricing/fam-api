@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-13T11:52:26.548Z",
+  "ts": "2026-04-13T11:52:49.455Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4228296801",
-    "ticket_id": "942204459",
-    "message": "Hi Amy,\r\n\r\nHow can I help you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535760321",
-    "contact_name": "amy",
-    "contact_identifier": "+971501170660",
+    "type": "INBOUND",
+    "message_id": "4228297395",
+    "ticket_id": "942113142",
+    "message": "This is 2 beds? \nThe rates keeps flunctuating even if i take contract for one year?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536027002",
+    "contact_name": "Salman",
+    "contact_identifier": "+971502039930",
+    "parent_message_id": "4228294342",
+    "parent_ticket_id": "942113142",
+    "event_type": "INBOUND"
   }
 }
