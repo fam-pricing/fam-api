@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-13T12:25:23.121Z",
+  "ts": "2026-04-13T12:26:26.856Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4228337764",
-    "ticket_id": "942208588",
-    "message": "Please share your EID or passport photo to arrange in person viewing for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536052232",
-    "contact_name": "DJ SAM",
-    "contact_identifier": "+96171746766",
+    "type": "INBOUND",
+    "message_id": "4228338930",
+    "ticket_id": "942204459",
+    "message": "?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535760321",
+    "contact_name": "amy",
+    "contact_identifier": "+971501170660",
+    "parent_message_id": "4228302334",
+    "parent_ticket_id": "942204459",
+    "event_type": "INBOUND"
   }
 }
