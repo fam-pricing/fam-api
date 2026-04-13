@@ -1275,7 +1275,7 @@ You MUST call exactly one tool. Choose the right tool based on your confidence l
     const toolName = toolBlock.name;
     const toolArgs = toolBlock.input || {};
 
-    // ── Clean helper: strip em/en dashes + surrounding quotes from any customer-facing text ──
+    // ── Clean helper: strip em/en dashes, self-critique, and surrounding quotes from any customer-facing text ──
     const cleanMsg = (s) => {
       let t = (s || '')
         .replace(/\s*\u2014\s*/g, ', ')
@@ -1289,6 +1289,32 @@ You MUST call exactly one tool. Choose the right tool based on your confidence l
         t = failLines.slice(lastFailIdx + 1).join('\n').trim();
         console.warn('[auto-reply] cleanMsg: stripped FAIL self-critique preamble from tool message');
       }
+
+      // ── Inline self-critique detection ──
+      // Claude sometimes embeds thinking mid-message without a FAIL marker, e.g.:
+      // "Great, reach out anytime. Wait, that has an em dash. Let me re-check. Great, reach out anytime."
+      // Detect these phrases, strip everything from the first critique sentence through the last,
+      // and keep only: text before the first critique + text after the last critique.
+      const critiqueStarters = /(?:^|[.!?]\s+|\n)((?:Wait,?\s|Hold on,?\s|Oops,?\s|Hmm,?\s|Actually,?\s(?:I|that|let)|Let me (?:re-?check|fix|correct|rephrase|revise|rewrite|think|re-do)|I (?:need to|should|shouldn't have|used an?|notice)|Re-check|That (?:has|uses|contains) (?:an? )?(?:em|en))[^.!?\n]*[.!?\n])/i;
+      const critiqueMatch = t.match(critiqueStarters);
+      if (critiqueMatch) {
+        const critiqueStart = t.indexOf(critiqueMatch[1]);
+        const beforeCritique = t.slice(0, critiqueStart).trim();
+        // Find the end of all consecutive critique sentences
+        const afterCritiqueRaw = t.slice(critiqueStart);
+        // Keep stripping sentences that look like self-critique
+        const sentences = afterCritiqueRaw.split(/(?<=\.)\s+/);
+        let lastCritiqueIdx = 0;
+        const critWords = /^(wait|hold on|oops|hmm|actually|let me|i need|i should|re-?check|that (?:has|uses|contains))/i;
+        for (let i = 0; i < sentences.length; i++) {
+          if (critWords.test(sentences[i].trim())) lastCritiqueIdx = i;
+        }
+        const afterCritique = sentences.slice(lastCritiqueIdx + 1).join(' ').trim();
+        // Prefer the corrected text (after critique); fall back to text before critique
+        t = afterCritique || beforeCritique || t;
+        console.warn(`[auto-reply] cleanMsg: stripped inline self-critique from tool message`);
+      }
+
       // Strip surrounding quotes if Claude wrapped the reply in them (e.g. "Yes, available!")
       if ((t.startsWith('"') && t.endsWith('"')) || (t.startsWith("'") && t.endsWith("'"))) {
         t = t.slice(1, -1).trim();
