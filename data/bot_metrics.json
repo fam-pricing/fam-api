@@ -1,41 +1,5 @@
 [
   {
-    "ts": "2026-04-06T08:38:39.041Z",
-    "ticket_id": 940227426,
-    "lead_id": "message_lead_28620898",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 18635,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": "Lead asking about pricing for 4 months on the 1BR in Polo Residences. This is beyond the 3-month block we can confirm. Current listed price is AED 5,000/mo. Need manager to advise on long-term rate or whether current rate can be locked for 4 months."
-  },
-  {
-    "ts": "2026-04-06T08:38:49.225Z",
-    "ticket_id": 940227426,
-    "lead_id": "message_lead_28620898",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 841,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-04-06T08:39:03.173Z",
-    "ticket_id": 940225428,
-    "lead_id": "message_lead_28620685",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 16924,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": null
-  },
-  {
     "ts": "2026-04-06T08:42:00.343Z",
     "ticket_id": 940227426,
     "lead_id": "message_lead_28620898",
@@ -6078,6 +6042,18 @@
     "action": "skipped",
     "tool_used": null,
     "response_time_ms": 1085,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
+    "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-04-13T08:38:39.547Z",
+    "ticket_id": 942113142,
+    "lead_id": "message_lead_28735070",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1104,
     "critic_pass": null,
     "lead_quality": 15,
     "buying_stage": "COLD",
