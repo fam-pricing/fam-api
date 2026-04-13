@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-13T10:34:13.523Z",
+  "ts": "2026-04-13T10:34:23.320Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4228198625",
-    "ticket_id": "941132015",
-    "message": "Can you help to find apartment to rent in Baku?",
-    "channel_id": "585723",
-    "contact_id": "535785234",
-    "contact_name": "Slava",
-    "contact_identifier": "+971562912018",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4228198794",
+    "ticket_id": "942162571",
+    "message": "Yes, it's available from April 25. Extensions work on a rolling monthly basis after the initial 3 months, so you can keep renewing as long as the calendar stays open.\n\nWant to see some photos of the place?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "536039660",
+    "contact_name": "Valeria",
+    "contact_identifier": "+971551350746",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
