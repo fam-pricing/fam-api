@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-13T06:53:28.111Z",
+  "ts": "2026-04-13T06:54:01.368Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4227930182",
+    "type": "OUTBOUND",
+    "message_id": "4227930858",
     "ticket_id": "942077004",
-    "message": "This is for monthly right so what is this first and last month rent thing?",
-    "channel_id": "1304636",
+    "message": "Yes, monthly rent. The first and last month upfront is just how we hold the unit for you, so to lock it in before the 1st you'd pay two months plus the AED 2,000 refundable deposit. That's everything, no extras.\n\nWant to come take a look before you commit?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536018229",
     "contact_name": "Maryanne",
     "contact_identifier": "+971501583955",
-    "parent_message_id": "4227883428",
-    "parent_ticket_id": "942077004",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
