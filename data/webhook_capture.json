@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-13T08:01:43.118Z",
+  "ts": "2026-04-13T08:02:55.044Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4228009410",
+    "type": "INBOUND",
+    "message_id": "4228010766",
     "ticket_id": "942113142",
-    "message": "We will not provide daily house keeping however if you wish to have cleaning we can arrange with an additional charges per cleaning",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "536027002",
     "contact_name": "Salman",
     "contact_identifier": "+971502039930",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4228009410",
+    "parent_ticket_id": "942113142",
+    "event_type": "INBOUND"
   }
 }
