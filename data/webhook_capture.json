@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-13T10:41:02.172Z",
+  "ts": "2026-04-13T10:41:28.942Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4228206250",
+    "type": "OUTBOUND",
+    "message_id": "4228206725",
     "ticket_id": "942162571",
-    "message": "Can you let me know about any additional payments? Deposit or etc",
-    "channel_id": "1304636",
+    "message": "The deposit is refundable and returned within 14 working days after check-out. To secure the unit, the first and last month are paid upfront. Any other questions before you decide?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536039660",
     "contact_name": "Valeria",
     "contact_identifier": "+971551350746",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
