@@ -514,23 +514,32 @@ export default async function handler(req, res) {
       const hoursAgo = Math.round((Date.now() - latestTime) / (60 * 60 * 1000));
       const lastLeadMsg = (latest.message || latest.body || '').substring(0, 200);
 
-      // Post internal note to Faysal
+      // Escalate to team Reservations (assign ticket + internal note + pause bot)
       const token = process.env.TRENGO_TOKEN;
       if (token) {
         try {
+          // Post internal note with context
           await fetch(`${TRENGO_API}/tickets/${ticketId}/messages`, {
             method: 'POST',
             headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
             body: JSON.stringify({
-              message: `🚨 UNANSWERED LEAD — ${lead.lead_name || 'Unknown'} has ${unansweredCount} unanswered message(s) from ${hoursAgo}h ago.\n\nLast message: "${lastLeadMsg}"\n\nBot failed to reply. Please follow up manually.\n— fäm Bot`,
+              message: `🚨 UNANSWERED LEAD — ${lead.lead_name || 'Unknown'} has ${unansweredCount} unanswered message(s) from ${hoursAgo}h ago.\n\nLast message: "${lastLeadMsg}"\n\nBot failed to reply. Escalating to team.\n— fäm Bot`,
               internal: true,
             }),
           });
-        } catch (e) { console.error('[followup] unanswered note error:', e?.message); }
+          // Assign to team Reservations (id: 78822)
+          await fetch(`${TRENGO_API}/tickets/${ticketId}/assign`, {
+            method: 'POST',
+            headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
+            body: JSON.stringify({ ticket_id: ticketId, type: 'team', team_id: 78822 }),
+          });
+          console.log(`[followup] Unanswered ticket ${ticketId} assigned to team Reservations`);
+        } catch (e) { console.error('[followup] unanswered escalation error:', e?.message); }
       }
 
       crmState[leadId].unanswered_alert_sent = true;
       crmState[leadId].unanswered_alert_at   = new Date().toISOString();
+      crmState[leadId].bot_paused            = true; // Pause bot so it doesn't interfere with team
       changed = true;
       results.unanswered_escalated.push({ leadId, name: lead.lead_name, unansweredCount, hoursAgo });
       console.log(`[followup] Unanswered inbound alert for ${lead.lead_name} (ticket ${ticketId}) — ${unansweredCount} msgs, ${hoursAgo}h ago`);
@@ -553,14 +562,14 @@ export default async function handler(req, res) {
     for (const [leadId, lead] of Object.entries(crmState)) {
       // Must have engaged (replied at least once) and bot replied back
       if (!lead.lead_replied || !lead.bot_reply_count || lead.bot_reply_count === 0) continue;
-      // Re-triggerable: allow if smart_followup_last_at is > 12h ago AND there's been
+      // Re-triggerable: allow if smart_followup_last_at is > 1h ago AND there's been
       // new bot activity since the last follow-up (conversation continued and went silent again)
       if (lead.smart_followup_sent) {
         const lastFollowAt = lead.smart_followup_last_at ? new Date(lead.smart_followup_last_at).getTime() : 0;
         const lastBotReply = lead.last_bot_reply_at ? new Date(lead.last_bot_reply_at).getTime() : 0;
-        const twelveHoursAgo = Date.now() - (12 * 60 * 60 * 1000);
-        // Only re-trigger if: 12h+ since last follow-up AND bot has replied since the follow-up
-        const canRetrigger = lastFollowAt < twelveHoursAgo && lastBotReply > lastFollowAt;
+        const oneHourAgo = Date.now() - (1 * 60 * 60 * 1000);
+        // Only re-trigger if: 1h+ since last follow-up AND bot has replied since the follow-up
+        const canRetrigger = lastFollowAt < oneHourAgo && lastBotReply > lastFollowAt;
         if (!canRetrigger) continue;
       }
       // Not paused, not closed/lost/viewing
