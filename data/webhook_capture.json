@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-13T12:08:27.009Z",
+  "ts": "2026-04-13T12:08:58.438Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4228317339",
+    "type": "INBOUND",
+    "message_id": "4228318002",
     "ticket_id": "942208588",
-    "message": "Still available. For 5, 6 months that works out simply at AED 5,500 each month. When exactly are you thinking of moving in?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": ".",
+    "channel_id": "1304636",
     "contact_id": "536052232",
     "contact_name": "DJ SAM",
     "contact_identifier": "+96171746766",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4228317200",
+    "parent_ticket_id": "942208588",
+    "event_type": "INBOUND"
   }
 }
