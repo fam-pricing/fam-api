@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-13T05:51:48.400Z",
+  "ts": "2026-04-13T05:52:10.237Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4227884301",
+    "type": "OUTBOUND",
+    "message_id": "4227884577",
     "ticket_id": "942077004",
-    "message": "Let me check with them so I can confirm the viewing date",
-    "channel_id": "1304636",
+    "message": "Of course, take your time. Once they've had a chance to look, what day were you thinking for the viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536018229",
     "contact_name": "Maryanne",
     "contact_identifier": "+971501583955",
-    "parent_message_id": "4227883766",
-    "parent_ticket_id": "942077004",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
