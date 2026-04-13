@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-13T16:13:23.997Z",
+  "ts": "2026-04-13T16:40:40.219Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4228610894",
-    "ticket_id": "942278130",
-    "message": "So can you give me the unit number for tomorrow morning please ,",
+    "type": "OUTBOUND",
+    "message_id": "4228635975",
+    "ticket_id": "942180919",
+    "message": "We have arrange the viewing for you at 1pm tomorrow and hope to see you at the building",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536043992",
+    "contact_name": "Anna",
+    "contact_identifier": "+971566816023",
     "channel_id": "1304636",
-    "contact_id": "535238540",
-    "contact_name": "Jodie",
-    "contact_identifier": "+971528861449",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
