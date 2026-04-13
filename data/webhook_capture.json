@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-13T12:33:41.572Z",
+  "ts": "2026-04-13T12:34:39.009Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4228349920",
-    "ticket_id": "942204459",
-    "message": "23 april",
+    "type": "OUTBOUND",
+    "message_id": "4228351636",
+    "ticket_id": "942085599",
+    "message": "We have received the payment. Allow me to check for the time we can arrange cleaning tomorrow",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535052322",
+    "contact_name": "Frank",
+    "contact_identifier": "+971553274493",
     "channel_id": "1304636",
-    "contact_id": "535760321",
-    "contact_name": "amy",
-    "contact_identifier": "+971501170660",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
