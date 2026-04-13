@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-13T12:04:36.404Z",
+  "ts": "2026-04-13T12:04:54.710Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4228311995",
+    "type": "OUTBOUND",
+    "message_id": "4228312345",
     "ticket_id": "942208588",
-    "message": "How long is the contract?",
-    "channel_id": "1304636",
+    "message": "Contracts here run from 1 month up to 12 months. What length were you thinking?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536052232",
     "contact_name": "DJ SAM",
     "contact_identifier": "+96171746766",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
