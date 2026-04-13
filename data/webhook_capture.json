@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-13T15:08:09.784Z",
+  "ts": "2026-04-13T15:08:13.499Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4228551261",
+    "type": "OUTBOUND",
+    "message_id": "4228551338",
     "ticket_id": "942278130",
-    "message": "I m already in the building",
-    "channel_id": "1304636",
+    "message": "It's available for 12 months, rates are confirmed in 3-month blocks, so we'd lock in the first period and give you advance notice before each renewal. What's your planned move-in date?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535238540",
     "contact_name": "Jodie",
     "contact_identifier": "+971528861449",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
