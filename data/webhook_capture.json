@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-14T10:50:18.917Z",
+  "ts": "2026-04-14T10:50:40.837Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4229255120",
+    "type": "OUTBOUND",
+    "message_id": "4229255561",
     "ticket_id": "942503102",
-    "message": "Is tgat apartment available? And is price actual?",
-    "channel_id": "1304636",
+    "message": "Yes, it's available. Would you like to pop by and take a look?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536129807",
     "contact_name": "Viktoria",
     "contact_identifier": "+971504217383",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
