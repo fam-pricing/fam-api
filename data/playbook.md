@@ -302,3 +302,7 @@ Once payment has been completed, the booking falls under a non-refundable policy
 ## Learned (2026-04-13)
 - If a lead asks whether the property includes cleaning services, toiletries, or similar amenities, respond by letting them know that daily housekeeping is not included as standard, but that cleaning can be arranged upon request for an additional charge per session.
   (Learned from Faysal handling Salman re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-04-14)
+- If a lead asks whether the price can increase every 3 months or requests a 1-year rental contract, clarify that the company does not offer Ejari contracts. Explain that stays can be extended in 3-month blocks, but that guaranteed rates cannot be provided for a full year due to current market conditions.
+  (Learned from Faysal handling Pedro Machado re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
