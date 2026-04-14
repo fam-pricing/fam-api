@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-14T05:05:33.511Z",
+  "ts": "2026-04-14T05:06:40.191Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4228899623",
-    "ticket_id": "942371785",
-    "message": "Good morning,\r\n\r\nMay I know how many bedrooms your looking for?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536096175",
-    "contact_name": "Ak",
-    "contact_identifier": "+971565662687",
+    "type": "INBOUND",
+    "message_id": "4228900067",
+    "ticket_id": "902119644",
+    "message": "🙏",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "490039719",
+    "contact_name": "Mr NIELS BORMANS",
+    "contact_identifier": "+96871144492",
+    "parent_message_id": "4228898592",
+    "parent_ticket_id": "902119644",
+    "event_type": "INBOUND"
   }
 }
