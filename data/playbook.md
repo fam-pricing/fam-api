@@ -306,3 +306,7 @@ Once payment has been completed, the booking falls under a non-refundable policy
 ## Learned (2026-04-14)
 - If a lead asks whether the price can increase every 3 months or requests a 1-year rental contract, clarify that the company does not offer Ejari contracts. Explain that stays can be extended in 3-month blocks, but that guaranteed rates cannot be provided for a full year due to current market conditions.
   (Learned from Faysal handling Pedro Machado re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-04-14)
+- If a lead confirms that check-in has been completed, respond with: "Please note that our standard check-in time starts at 3:00 PM. However, if the unit is ready, we are more than happy to offer early check-in."
+  (Learned from Faysal handling Prithvi 🌏 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-13851930.html)
