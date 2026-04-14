@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-14T11:26:59.234Z",
+  "ts": "2026-04-14T11:28:35.275Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4229295444",
-    "ticket_id": "942278098",
-    "message": "Good, thank you",
+    "type": "OUTBOUND",
+    "message_id": "4229297599",
+    "ticket_id": "942507133",
+    "message": "Yes sure that will be okay, However before the check in you need to complete the full payments",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535986253",
+    "contact_name": "Sheza imran Butt",
+    "contact_identifier": "+971505644681",
     "channel_id": "1304636",
-    "contact_id": "535973963",
-    "contact_name": "Pedro Machado",
-    "contact_identifier": "+351916602036",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
