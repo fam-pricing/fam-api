@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-14T07:38:56.665Z",
+  "ts": "2026-04-14T07:39:23.094Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4229001553",
+    "type": "INBOUND",
+    "message_id": "4229002104",
     "ticket_id": "936734695",
-    "message": "The reservation is calculated on a 30-day basis. Since your check-in starts on 25th March, the 30-day period will be counted until 24th April.\r\n\r\nHope you understand",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Okay 👍✅",
+    "channel_id": "585723",
     "contact_id": "534737062",
     "contact_name": "IFEOMA NWAOGU",
     "contact_identifier": "+971525824134",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4229001553",
+    "parent_ticket_id": "936734695",
+    "event_type": "INBOUND"
   }
 }
