@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-14T05:27:41.251Z",
+  "ts": "2026-04-14T05:28:09.419Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4228906954",
+    "type": "OUTBOUND",
+    "message_id": "4228907092",
     "ticket_id": "942353511",
-    "message": "What is the second floor?",
-    "channel_id": "1304636",
+    "message": "Let me check that for you and come back shortly!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536091952",
     "contact_name": "Amina",
     "contact_identifier": "+79389991551",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
