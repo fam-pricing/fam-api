@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-14T12:51:40.924Z",
+  "ts": "2026-04-14T12:52:28.962Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4229403202",
+    "type": "OUTBOUND",
+    "message_id": "4229403994",
     "ticket_id": "942541610",
-    "message": "Can we do after 6pm",
-    "channel_id": "1304636",
+    "message": "Unfortunately we can arrange viewing from 9am - 6pm only",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536139640",
     "contact_name": "ANKIT KUMAR",
     "contact_identifier": "+971585335649",
-    "parent_message_id": "4229400660",
-    "parent_ticket_id": "942541610",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
