@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-14T14:37:41.096Z",
+  "ts": "2026-04-14T14:37:41.542Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4229531866",
+    "type": "INBOUND",
+    "message_id": "4229531888",
     "ticket_id": "941928366",
-    "message": "We will need to make the reservation from 15th April to 1st May, as your main reservation starts on 1st May after 3:00 PM.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Please confirm so I’ll book",
+    "channel_id": "1304636",
     "contact_id": "535926291",
     "contact_name": "Rimsha Akram",
     "contact_identifier": "+971526064450",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
