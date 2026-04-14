@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-14T20:54:40.696Z",
+  "ts": "2026-04-14T20:55:59.123Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4229812471",
+    "type": "INBOUND",
+    "message_id": "4229812910",
     "ticket_id": "942671124",
-    "message": "The price is fixed at AED 13,000/month. What dates are you looking at?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Ok thank you, it’s too expensive for us",
+    "channel_id": "1304636",
     "contact_id": "536177241",
     "contact_name": "Romana",
     "contact_identifier": "+33674303335",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
