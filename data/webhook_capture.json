@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-14T14:04:08.268Z",
+  "ts": "2026-04-14T14:06:50.679Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4229489054",
-    "ticket_id": "942503102",
-    "message": "Thank you",
+    "type": "OUTBOUND",
+    "message_id": "4229492356",
+    "ticket_id": "941928366",
+    "message": "We can proceed with the first reservation for 46 nights as a single booking. Kindly confirm if you would be able to complete the full payment prior to check-in, as we need to update the DTCM accordingly. The rate for the first booking will be AED 7,666.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535926291",
+    "contact_name": "Rimsha Akram",
+    "contact_identifier": "+971526064450",
     "channel_id": "1304636",
-    "contact_id": "536129807",
-    "contact_name": "Viktoria",
-    "contact_identifier": "+971504217383",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
