@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-14T06:49:55.557Z",
+  "ts": "2026-04-14T06:49:58.690Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4228953505",
+    "type": "OUTBOUND",
+    "message_id": "4228953540",
     "ticket_id": "942418828",
-    "message": "Hi i would like to book 16-19 april \nBut it doesn’t show the prices if you contact me please for prices",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "536107748",
     "contact_name": "Salama",
     "contact_identifier": "123aa498-8eb4-417b-aa35-5f8f1001d09f",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
