@@ -1,17 +1,19 @@
 {
-  "ts": "2026-04-14T07:15:56.469Z",
+  "ts": "2026-04-14T07:16:06.671Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4228976888",
+    "message_id": "4228977026",
     "ticket_id": "942420119",
-    "message": "you have many listings with same photos and different prices",
+    "message": "this one is photos of 1bed for 5500",
     "channel_id": "1304636",
     "contact_id": "536057284",
     "contact_name": "Mario Simoncik",
     "contact_identifier": "+971568236024",
+    "parent_message_id": "4228703065",
+    "parent_ticket_id": "942420119",
     "event_type": "INBOUND"
   }
 }
