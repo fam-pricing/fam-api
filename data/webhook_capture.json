@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-14T13:54:02.926Z",
+  "ts": "2026-04-14T13:54:31.365Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4229476769",
+    "type": "OUTBOUND",
+    "message_id": "4229477286",
     "ticket_id": "942568297",
-    "message": "H i am looking for a two bedroom apartmetn for 7500 per month for 6 months and more",
-    "channel_id": "1304636",
+    "message": "The 2BR in Elite Business Bay is AED 5,500/month, so well under your 7,500 budget. For a 6-month stay, the rate is confirmed in 3-month blocks at the same price. Want me to send the full listing with photos?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536148312",
     "contact_name": "Christian Savy",
     "contact_identifier": "+971565981981",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
