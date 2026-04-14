@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-14T05:12:05.824Z",
+  "ts": "2026-04-14T05:12:45.085Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4228901570",
+    "type": "INBOUND",
+    "message_id": "4228901889",
     "ticket_id": "942287295",
-    "message": "Sure allow me to check",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Waiting for you",
+    "channel_id": "585723",
     "contact_id": "521802004",
     "contact_name": "moza",
     "contact_identifier": "+971504008841",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4228901570",
+    "parent_ticket_id": "942287295",
+    "event_type": "INBOUND"
   }
 }
