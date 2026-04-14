@@ -310,3 +310,7 @@ Once payment has been completed, the booking falls under a non-refundable policy
 ## Learned (2026-04-14)
 - If a lead confirms that check-in has been completed, respond with: "Please note that our standard check-in time starts at 3:00 PM. However, if the unit is ready, we are more than happy to offer early check-in."
   (Learned from Faysal handling Prithvi 🌏 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-13851930.html)
+
+## Learned (2026-04-14)
+- If a lead responds with "That's well noted, appreciate it," reply with: "We will share the check-in details on your arrival date once the rental payment has been completed."
+  (Learned from Faysal handling Prithvi 🌏 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-13851930.html)
