@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-14T13:35:51.301Z",
+  "ts": "2026-04-14T13:36:46.490Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4229455685",
-    "ticket_id": "885187454",
-    "message": "Hello. I am writing to you with full confidence that you have been patient with my delayed payment, and because you trust that I will never be late in payment unless there are compelling reasons, which is indeed the case. I ask that you take this situation into consideration, as I am currently unemployed and my country is at war. I am waiting until the end of this month for the money to arrive, and I will then pay you. Please note, I ask that you do not send anyone to knock on my door, causing disturbance and violating my privacy. Even the government here is considerate of people in these circumstances.",
-    "channel_id": "585723",
-    "contact_id": "478665350",
-    "contact_name": "Mrs Sahar Zaarour",
-    "contact_identifier": "+971528500671",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4229456857",
+    "ticket_id": "942180919",
+    "message": "Our standard check-in time is from 3:00 PM, and check-out time is at 12:00 PM.\r\n\r\nPlease note that once payment is completed, it is considered non-refundable.\r\n\r\nThe security deposit will be refunded within 14 working days after departure; however, we are doing our best to expedite the process and aim to process the refund within 7 days.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536043992",
+    "contact_name": "Anna",
+    "contact_identifier": "+971566816023",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
