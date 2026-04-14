@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-14T05:03:37.335Z",
+  "ts": "2026-04-14T05:03:57.112Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4228898767",
+    "type": "INBOUND",
+    "message_id": "4228898820",
     "ticket_id": "942278130",
-    "message": "Good morning,\r\n\r\nCan I have the EID or passport photo to arrange viewing for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "We have appointment now",
+    "channel_id": "1304636",
     "contact_id": "535238540",
     "contact_name": "Jodie",
     "contact_identifier": "+971528861449",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
