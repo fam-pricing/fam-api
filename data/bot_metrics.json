@@ -6034,5 +6034,17 @@
     "lead_quality": 15,
     "buying_stage": "COLD",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-04-14T14:21:43.236Z",
+    "ticket_id": 942180919,
+    "lead_id": "message_lead_28739452",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 877,
+    "critic_pass": null,
+    "lead_quality": 50,
+    "buying_stage": "WARM",
+    "skip_reason": "bot_paused"
   }
 ]
