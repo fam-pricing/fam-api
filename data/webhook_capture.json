@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-14T00:11:00.283Z",
+  "ts": "2026-04-14T00:11:31.458Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4228843325",
+    "type": "OUTBOUND",
+    "message_id": "4228843377",
     "ticket_id": "942370399",
-    "message": "I want to inquire about the possibility of signing for a 10 month contract starting from September",
-    "channel_id": "1304636",
+    "message": "10-month contracts aren't something we typically do, we work in 3-month blocks, so a 10-month stay would span across a few of those. What's your exact move-in date in September?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536095853",
     "contact_name": "Liz",
     "contact_identifier": "+971524865057",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
