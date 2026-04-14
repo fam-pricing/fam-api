@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-14T20:38:21.403Z",
+  "ts": "2026-04-14T20:38:43.361Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4229805241",
+    "type": "OUTBOUND",
+    "message_id": "4229805494",
     "ticket_id": "942663524",
-    "message": "May I know the agent I’ll be meeting?",
-    "channel_id": "1304636",
+    "message": "Thursday at 5pm is confirmed. The team will be in touch with the agent's details before then, could you send over a photo of your passport or Emirates ID so we can arrange building access?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536175184",
     "contact_name": "Jawaher Al Amiri",
     "contact_identifier": "+971544644204",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
