@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-14T07:35:09.070Z",
+  "ts": "2026-04-14T07:36:35.136Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4228997341",
+    "type": "INBOUND",
+    "message_id": "4228998874",
     "ticket_id": "936734695",
-    "message": "Attachment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "My check in 25 why my check out is 24th",
+    "channel_id": "585723",
     "contact_id": "534737062",
     "contact_name": "IFEOMA NWAOGU",
     "contact_identifier": "+971525824134",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4228997341",
+    "parent_ticket_id": "936734695",
+    "event_type": "INBOUND"
   }
 }
