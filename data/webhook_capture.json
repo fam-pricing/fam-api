@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-15T15:04:02.159Z",
+  "ts": "2026-04-15T15:08:40.457Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4230540028",
-    "ticket_id": "942507133",
-    "message": "Kindly confirm the apartment number as we booked the apartment which is on 1st floor \nI think 109",
+    "type": "OUTBOUND",
+    "message_id": "4230544506",
+    "ticket_id": "942180919",
+    "message": "Attachment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536043992",
+    "contact_name": "Anna",
+    "contact_identifier": "+971566816023",
     "channel_id": "1304636",
-    "contact_id": "535986253",
-    "contact_name": "Sheza imran Butt",
-    "contact_identifier": "+971505644681",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
