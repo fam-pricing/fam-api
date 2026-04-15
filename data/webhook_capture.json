@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-15T15:52:46.701Z",
+  "ts": "2026-04-15T15:53:28.997Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4230582167",
+    "type": "OUTBOUND",
+    "message_id": "4230582787",
     "ticket_id": "942148110",
-    "message": "Good afternoon, and thank you for getting back to me.\n\nBelow is a summary of our requirements:\n\n*   2 bedrooms\n*   2 bathrooms\n*   Fully furnished\n*   All costs included\n*   Lease term of 6 months + an additional 6‑month extension (with no change in rent)\n*   Expected occupancy: 4–5 people\n*   No fixed move‑in date at this time\n\nRegarding the price, as we have a predefined budget that does not fully align with the amount indicated in your listing, before considering scheduling a viewing of the apartment, I would like to ask whether the monthly rent is negotiable.\n\nI look forward to your reply.\n\nThank you and kind regards",
-    "channel_id": "1304636",
+    "message": "The 2BR at Elite Business Bay checks both boxes on furnished and all-inclusive. Two things I do need to confirm with the team though: our pricing is structured in 3-month blocks, so a locked rate across two consecutive 6-month terms needs sign-off, and the same goes for 4, 5 occupants on a 2BR. What's the budget you're working with so I can bring everything to them in one go?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536035990",
     "contact_name": "Andrea F",
     "contact_identifier": "+971585968991",
-    "parent_message_id": "4228104211",
-    "parent_ticket_id": "942148110",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
