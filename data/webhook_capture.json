@@ -1,16 +1,18 @@
 {
-  "ts": "2026-04-15T08:22:26.042Z",
+  "ts": "2026-04-15T08:27:07.095Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4230087160",
-    "ticket_id": "942468897",
-    "message": "Image",
-    "channel_id": "1304636",
-    "contact_id": "536120342",
-    "contact_identifier": "+971502469315",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4230093464",
+    "ticket_id": "942791036",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
+    "contact_id": "535978721",
+    "contact_name": "Mariam",
+    "contact_email": "201501101@uaeu.ac.ae",
+    "contact_identifier": "af761d8e-d100-4534-4a0f-1aced640ba5a",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
