@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-15T17:46:50.214Z",
+  "ts": "2026-04-15T17:46:54.991Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4230668526",
+    "type": "OUTBOUND",
+    "message_id": "4230668624",
     "ticket_id": "942940115",
-    "message": "Hi I want to book but the rate is zero",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "536245213",
     "contact_name": "Yasser",
     "contact_identifier": "74c278ed-0bd2-4e11-d3e3-1528cd8c7cd4",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
