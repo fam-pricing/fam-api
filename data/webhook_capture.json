@@ -1,18 +1,21 @@
 {
-  "ts": "2026-04-15T09:43:42.449Z",
+  "ts": "2026-04-15T09:46:45.940Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4230183084",
+    "type": "OUTBOUND",
+    "message_id": "4230186348",
     "ticket_id": "942815753",
-    "message": "hi",
-    "channel_id": "883603",
+    "message": "We have studio and 01 bedroom apartment available in Upside Living",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536204696",
     "contact_name": "mike",
     "contact_email": "mike@notiostudio.co.uk",
     "contact_identifier": "d0035a39-59bd-4b03-2781-59e302c2b93a",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
