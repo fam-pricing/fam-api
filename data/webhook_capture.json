@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-15T21:30:35.607Z",
+  "ts": "2026-04-15T21:30:54.755Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4230778999",
+    "type": "OUTBOUND",
+    "message_id": "4230779098",
     "ticket_id": "942975570",
-    "message": "Hello I’m interested can I visit it ?",
-    "channel_id": "1304636",
+    "message": "What day works for you? Viewings are available between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536255089",
     "contact_name": "Luna Dinç",
     "contact_identifier": "+971525102828",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
