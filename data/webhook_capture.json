@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-15T05:30:46.777Z",
+  "ts": "2026-04-15T05:35:11.328Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4229947145",
-    "ticket_id": "906744230",
-    "message": "Please check my remaining credit I have credit with you 1,300 use it for the rent to proceed with the booking",
+    "type": "OUTBOUND",
+    "message_id": "4229948867",
+    "ticket_id": "932799979",
+    "message": "Your reservation is confirmed until May 2nd. Kindly note that if you choose to check out tomorrow, the remaining unused days will not be refunded, as the booking is under a non-refundable policy.\r\n\r\nAfter check-out, the security deposit will be refunded within 14 working days; however, we will do our best to process it sooner, ideally within 7 working days.\r\n\r\nYou may leave the access cards inside the apartment and share a photo with us for confirmation",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "533748349",
+    "contact_name": "Yevgeniya Kriger",
+    "contact_identifier": "+77778408448",
     "channel_id": "585723",
-    "contact_id": "352711534",
-    "contact_name": "Mohammed Alhemeiri",
-    "contact_identifier": "+971509552269",
-    "parent_message_id": "4229685550",
-    "parent_ticket_id": "906744230",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
