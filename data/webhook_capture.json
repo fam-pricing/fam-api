@@ -1,20 +1,18 @@
 {
-  "ts": "2026-04-15T10:37:06.290Z",
+  "ts": "2026-04-15T10:37:12.692Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4230242367",
-    "ticket_id": "942769734",
-    "message": "Unfortunately we can arrange viewing only in between 9am. - 6pm",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536193516",
-    "contact_name": "Hajer Trimeche",
-    "contact_identifier": "+971551761082",
+    "type": "INBOUND",
+    "message_id": "4230242459",
+    "ticket_id": "942468897",
+    "message": "Okk thank you",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536120342",
+    "contact_identifier": "+971502469315",
+    "parent_message_id": "4230241883",
+    "parent_ticket_id": "942468897",
+    "event_type": "INBOUND"
   }
 }
