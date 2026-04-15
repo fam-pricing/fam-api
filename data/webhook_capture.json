@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-15T06:36:39.682Z",
+  "ts": "2026-04-15T06:36:58.787Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4229980386",
+    "type": "INBOUND",
+    "message_id": "4229980582",
     "ticket_id": "942541610",
-    "message": "Kindly note that the calendar is currently open across multiple platforms, and reservations may be received at any time.\r\n\r\nTherefore, we would appreciate it if you could provide an update at your earliest convenience.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Please send this",
+    "channel_id": "1304636",
     "contact_id": "536139640",
     "contact_name": "ANKIT KUMAR",
     "contact_identifier": "+971585335649",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4229980132",
+    "parent_ticket_id": "942541610",
+    "event_type": "INBOUND"
   }
 }
