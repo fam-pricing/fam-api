@@ -1,20 +1,18 @@
 {
-  "ts": "2026-04-15T08:44:16.444Z",
+  "ts": "2026-04-15T08:44:39.173Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4230114628",
-    "ticket_id": "942769734",
-    "message": "May I know starting from which month you are planning to make the reservation please",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536193516",
-    "contact_name": "Hajer Trimeche",
-    "contact_identifier": "+971551761082",
+    "type": "INBOUND",
+    "message_id": "4230115035",
+    "ticket_id": "942468897",
+    "message": "Sure",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536120342",
+    "contact_identifier": "+971502469315",
+    "parent_message_id": "4230113274",
+    "parent_ticket_id": "942468897",
+    "event_type": "INBOUND"
   }
 }
