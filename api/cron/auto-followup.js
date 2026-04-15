@@ -321,11 +321,16 @@ ${history}
 
 TASK: Decide if a contextual follow-up message should be sent, and if so, write it.
 
-DECISION RULES:
-- Send ONLY if the conversation ended with an open question or the ball is clearly in the lead's court
-- Do NOT send if: lead said not interested, lead asked for time and it's too soon, viewing is confirmed, or conversation reached a natural close
-- ${buyingStage === 'READY_TO_BOOK' ? 'PRIORITY: This lead was close to booking. A well-crafted follow-up here is high value.' : ''}
-- ${buyingStage === 'OBJECTING' ? 'CAUTION: Lead had budget concerns. Do NOT push on price. Offer alternatives or flexibility.' : ''}
+DECISION RULES (default = YES, only say NO with a strong reason):
+- DEFAULT: Send a follow-up. These are paid leads who went quiet — nudging is almost always better than losing them in silence.
+- Say NO ONLY if: the lead EXPLICITLY said "not interested" / "not for me" / "already booked elsewhere", OR a viewing is firmly confirmed with a time set, OR the last agent message was itself a follow-up sent less than a few hours ago.
+- "I'll check and get back" / "Let me think" / "I'll discuss with wife/partner" / "Will let you know" — these are NOT reasons to skip. 4h+ of silence after that kind of reply IS exactly when a gentle follow-up helps.
+- If the lead asked a question and the bot answered — the ball is in the lead's court. Send.
+- If the bot offered options/alternatives and the lead went silent — Send. Reference the alternatives gently.
+- If the bot proposed a viewing/next step and the lead went silent — Send. Gently re-offer.
+- ${buyingStage === 'READY_TO_BOOK' ? 'PRIORITY: This lead was close to booking. DEFINITELY send a warm nudge toward the next step.' : ''}
+- ${buyingStage === 'OBJECTING' ? 'CAUTION: Lead had budget concerns. Do NOT push on price. Offer alternatives, flexibility, or different units.' : ''}
+- ${buyingStage === 'ENGAGED' ? 'This lead was engaged. A short, contextual nudge about the next step they were considering is high-leverage.' : ''}
 
 MESSAGE RULES (if sending):
 - Write ONE short warm WhatsApp message (1-3 sentences max)
@@ -562,15 +567,22 @@ export default async function handler(req, res) {
     for (const [leadId, lead] of Object.entries(crmState)) {
       // Must have engaged (replied at least once) and bot replied back
       if (!lead.lead_replied || !lead.bot_reply_count || lead.bot_reply_count === 0) continue;
-      // Re-triggerable: allow if smart_followup_last_at is > 1h ago AND there's been
-      // new bot activity since the last follow-up (conversation continued and went silent again)
-      if (lead.smart_followup_sent) {
-        const lastFollowAt = lead.smart_followup_last_at ? new Date(lead.smart_followup_last_at).getTime() : 0;
-        const lastBotReply = lead.last_bot_reply_at ? new Date(lead.last_bot_reply_at).getTime() : 0;
-        const oneHourAgo = Date.now() - (1 * 60 * 60 * 1000);
-        // Only re-trigger if: 1h+ since last follow-up AND bot has replied since the follow-up
-        const canRetrigger = lastFollowAt < oneHourAgo && lastBotReply > lastFollowAt;
+      // Re-triggerable logic — separate "checked" vs "actually sent" so an AI "NO"
+      // doesn't permanently block future attempts.
+      //   - If we actually SENT a follow-up: require 1h+ since last send AND new bot activity
+      //   - If AI said NO last time: retry after 3h cooldown (circumstances may have changed)
+      const lastSentAt    = lead.smart_followup_last_sent_at ? new Date(lead.smart_followup_last_sent_at).getTime() : 0;
+      const lastCheckedAt = lead.smart_followup_last_checked_at ? new Date(lead.smart_followup_last_checked_at).getTime() : 0;
+      const lastBotReply  = lead.last_bot_reply_at ? new Date(lead.last_bot_reply_at).getTime() : 0;
+      const nowMs         = Date.now();
+      if (lastSentAt) {
+        const oneHourAgo = nowMs - (1 * 60 * 60 * 1000);
+        const canRetrigger = lastSentAt < oneHourAgo && lastBotReply > lastSentAt;
         if (!canRetrigger) continue;
+      } else if (lastCheckedAt) {
+        // AI said NO previously but never sent — retry after 3h cooldown
+        const threeHoursAgo = nowMs - (3 * 60 * 60 * 1000);
+        if (lastCheckedAt > threeHoursAgo) continue;
       }
       // Not paused, not closed/lost/viewing
       if (lead.bot_paused) continue;
@@ -599,15 +611,19 @@ export default async function handler(req, res) {
       // Ask AI: should we follow up, and how?
       const { send, message } = await generateSmartFollowUp(messages, lead, refMapping);
 
+      // Always record that we checked (for cooldown tracking on NO decisions)
+      crmState[leadId].smart_followup_last_checked_at = new Date().toISOString();
+      // Keep legacy flag for backward compat
       crmState[leadId].smart_followup_sent    = true;
       crmState[leadId].smart_followup_last_at = new Date().toISOString();
-      // Keep legacy field for backward compat
       crmState[leadId].smart_followup_at      = new Date().toISOString();
       changed = true;
 
       if (send && message) {
         const ok = await sendFollowUpMessage(lead.trengo_ticket_id, message);
         if (ok) {
+          // Record actual send time (separate from checked time) for re-trigger logic
+          crmState[leadId].smart_followup_last_sent_at = new Date().toISOString();
           crmState[leadId].smart_followup_message = message;
           results.smart_followup_sent.push({ leadId, name: lead.lead_name, message });
           console.log(`[followup] Smart follow-up sent to ${lead.lead_name} (ticket ${lead.trengo_ticket_id}): "${message}"`);
@@ -616,7 +632,7 @@ export default async function handler(req, res) {
         }
       } else {
         results.smart_followup_skipped.push({ leadId, name: lead.lead_name, reason: 'AI decided no follow-up needed' });
-        console.log(`[followup] Smart follow-up skipped for ${lead.lead_name} — AI said not appropriate`);
+        console.log(`[followup] Smart follow-up skipped for ${lead.lead_name} — AI said not appropriate (will retry in 3h)`);
       }
     }
 
