@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-15T15:53:28.997Z",
+  "ts": "2026-04-15T16:24:59.381Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4230582787",
+    "type": "INBOUND",
+    "message_id": "4230607412",
     "ticket_id": "942148110",
-    "message": "The 2BR at Elite Business Bay checks both boxes on furnished and all-inclusive. Two things I do need to confirm with the team though: our pricing is structured in 3-month blocks, so a locked rate across two consecutive 6-month terms needs sign-off, and the same goes for 4, 5 occupants on a 2BR. What's the budget you're working with so I can bring everything to them in one go?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Ok perfect. \n\nAbout the budget, is 2000 AED per month",
+    "channel_id": "1304636",
     "contact_id": "536035990",
     "contact_name": "Andrea F",
     "contact_identifier": "+971585968991",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4230582787",
+    "parent_ticket_id": "942148110",
+    "event_type": "INBOUND"
   }
 }
