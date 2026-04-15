@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-15T19:42:23.540Z",
+  "ts": "2026-04-15T19:42:25.034Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4230734908",
+    "type": "INBOUND",
+    "message_id": "4230734910",
     "ticket_id": "942960107",
-    "message": "It's a beautiful day at fäm Living; how can I help you?",
+    "message": "I have been trying to schedule an appointment",
+    "channel_id": "883603",
     "contact_id": "536251258",
     "contact_name": "Pamela",
     "contact_identifier": "64cc7c81-4a16-4916-bf1c-36e7d881fecb",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
