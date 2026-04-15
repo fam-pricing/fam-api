@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-15T12:52:57.559Z",
+  "ts": "2026-04-15T12:53:43.534Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4230391057",
+    "type": "INBOUND",
+    "message_id": "4230391918",
     "ticket_id": "919953013",
-    "message": "Yes Mr Salim with the 30 days reservation check out is scheduled for 29th April",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "😢",
+    "channel_id": "585723",
     "contact_id": "530553965",
     "contact_name": "SALIM MAHROUCH",
     "contact_identifier": "+447710877670",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4230391057",
+    "parent_ticket_id": "919953013",
+    "event_type": "INBOUND"
   }
 }
