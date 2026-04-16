@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-16T10:38:07.847Z",
+  "ts": "2026-04-16T10:40:09.606Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4231190780",
-    "ticket_id": "943121212",
-    "message": "I have sent request for 3 apartments under your agency",
+    "type": "OUTBOUND",
+    "message_id": "4231192547",
+    "ticket_id": "943022827",
+    "message": "Can you share me your Emirates id or passport copy so we can arrange the viewing for you",
+    "user_id": "746181",
+    "user_name": "Avinash I",
+    "user_email": "avinashanilkumar.i@famliving.com",
+    "contact_id": "536262862",
+    "contact_name": "Mary A",
+    "contact_identifier": "+971585967454",
     "channel_id": "1304636",
-    "contact_id": "536152435",
-    "contact_name": "Ahmed",
-    "contact_identifier": "+971526477199",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
