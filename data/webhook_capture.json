@@ -1,19 +1,18 @@
 {
-  "ts": "2026-04-16T11:23:40.313Z",
+  "ts": "2026-04-16T11:24:58.592Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4231238632",
+    "type": "INBOUND",
+    "message_id": "4231240004",
     "ticket_id": "942468897",
-    "message": "Ok just to reconfirm may I know starting from which date please you would like to starts the reservation",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "It will be really convenient if can start from Saturday 18th april",
+    "channel_id": "1304636",
     "contact_id": "536120342",
     "contact_identifier": "+971502469315",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4231238632",
+    "parent_ticket_id": "942468897",
+    "event_type": "INBOUND"
   }
 }
