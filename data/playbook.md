@@ -328,3 +328,15 @@ Once payment has been completed, the booking falls under a non-refundable policy
 
 "We can secure your rate for 3-month periods. While we are unable to offer a long-term fixed rate, you are welcome to extend your reservation for as long as you wish to continue your stay."
   (Learned from Faysal handling Rachel S. re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVy5H4ZsBs.html)
+
+## Learned (2026-04-16)
+- When a lead says they haven't personally viewed the unit but a friend has on their behalf, proceed with the booking process as normal. Respond with:
+
+"To confirm your booking, we'll need the following details:
+
+1. A copy of your ID or passport
+2. Email address
+3. Phone number
+
+Once we have these, we'll send you a payment link to secure your reservation."
+  (Learned from Faysal handling Lead re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q4rybf4K5g.html)
