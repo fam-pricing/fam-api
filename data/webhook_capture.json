@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-16T06:16:27.597Z",
+  "ts": "2026-04-16T06:16:38.157Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4230903182",
+    "type": "OUTBOUND",
+    "message_id": "4230903371",
     "ticket_id": "942975570",
-    "message": "Ok I ask her",
-    "channel_id": "1304636",
+    "message": "Yes, she's welcome to come on her own. What time works for her today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536255089",
     "contact_name": "Luna Dinç",
     "contact_identifier": "+971525102828",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
