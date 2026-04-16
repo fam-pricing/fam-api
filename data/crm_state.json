@@ -7193,25 +7193,30 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-opera-district-grande-14592976.html",
     "trengo_ticket_id": 942975570,
     "lead_name": "Luna Dinç",
-    "last_bot_reply_content": "Yes, it's fixed at AED 11,000.",
-    "last_bot_reply_at": "2026-04-16T06:23:29.514Z",
+    "last_bot_reply_content": "Thank you for sending your ID. Our team will be in touch shortly to confirm the property location and all viewing details.",
+    "last_bot_reply_at": "2026-04-16T06:31:57.370Z",
     "lead_replied": true,
-    "lead_replied_at": "2026-04-16T06:23:29.514Z",
-    "bot_reply_count": 15,
-    "last_processed_message_id": "4230908510",
+    "lead_replied_at": "2026-04-16T06:25:11.148Z",
+    "bot_reply_count": 18,
+    "last_processed_message_id": "4230913883",
     "unanswered_alert_sent": false,
-    "lead_quality_score": 40,
+    "lead_quality_score": 65,
     "lead_quality_label": "WARM",
     "lead_quality_signals": [
       "high engagement (5+ messages)",
+      "urgent timeline",
       "viewing interest",
       "pricing enquiry"
     ],
-    "viewing_status": "pending_id",
+    "viewing_status": "id_received_no_coords",
     "viewing_day": "today",
     "viewing_time": "11:15am",
     "viewing_property": "2BR in Grande Downtown",
-    "viewing_pending_since": "2026-04-16T06:20:40.252Z"
+    "viewing_pending_since": "2026-04-16T06:25:11.148Z",
+    "bot_paused": true,
+    "viewing_id_url": null,
+    "last_agent_reply_at": "2026-04-16T09:36:07.204Z",
+    "last_learned_at": "2026-04-16T09:36:11.076Z"
   },
   "message_lead_28787357": {
     "stage": "new",
@@ -7307,5 +7312,15 @@
     "bot_paused": true,
     "last_escalated_at": "2026-04-16T05:50:19.304Z",
     "last_escalated_question": null
+  },
+  "message_lead_28791258": {
+    "stage": "new",
+    "notes": [],
+    "auto_responded": true,
+    "auto_responded_at": "2026-04-16T07:36:50.662Z",
+    "pf_phone": "971585916699",
+    "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-burj-crown-13851904.html",
+    "trengo_ticket_id": 943059276,
+    "lead_name": "迪拜房产Beibei"
   }
 }
