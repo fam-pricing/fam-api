@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-16T13:34:03.338Z",
+  "ts": "2026-04-16T13:34:17.494Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4231390468",
-    "ticket_id": "906744230",
-    "message": "Unfortunately, all City Walk apartments are fully booked today. The only available option at the moment is a one-bedroom apartment in Viridian.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "352711534",
-    "contact_name": "Mohammed Alhemeiri",
-    "contact_identifier": "+971509552269",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4231390750",
+    "ticket_id": "943181878",
+    "message": "Hello, apologies but I have to cancel the booking, I have some unexpected private matters so will not be able to move in to the apartment, can I pls ask to return the deposit-500 aed, thank you and apologies one more time",
+    "channel_id": "1304636",
+    "contact_id": "536043992",
+    "contact_name": "Anna",
+    "contact_identifier": "+971566816023",
+    "event_type": "INBOUND"
   }
 }
