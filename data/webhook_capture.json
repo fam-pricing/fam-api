@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-16T12:08:40.301Z",
+  "ts": "2026-04-16T12:09:25.151Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4231289933",
-    "ticket_id": "943121212",
-    "message": "Yes this apartment is still available",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536152435",
-    "contact_name": "Ahmed",
-    "contact_identifier": "+971526477199",
+    "type": "INBOUND",
+    "message_id": "4231290882",
+    "ticket_id": "942975570",
+    "message": "Yes I know it’s not the problem",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536255089",
+    "contact_name": "Luna Dinç",
+    "contact_identifier": "+971525102828",
+    "parent_message_id": "4231289161",
+    "parent_ticket_id": "942975570",
+    "event_type": "INBOUND"
   }
 }
