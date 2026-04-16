@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-16T05:21:29.552Z",
+  "ts": "2026-04-16T05:21:50.239Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4230879001",
+    "type": "OUTBOUND",
+    "message_id": "4230879094",
     "ticket_id": "943025381",
-    "message": "Yes, I would love to come today for a viewing if possible.",
-    "channel_id": "1304636",
+    "message": "The 2BR is available, Rastko! We can arrange a viewing today between 9am and 6pm. What time works best for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536263217",
     "contact_name": "~Rastko",
     "contact_identifier": "+971554658838",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
