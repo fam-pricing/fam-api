@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-16T07:53:06.575Z",
+  "ts": "2026-04-16T07:57:24.913Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4230989598",
-    "ticket_id": "937727795",
-    "message": "Sure we will arrange today at 12.30 pm",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "476796436",
-    "contact_name": "Mrs Corina Astrid Bagireanu",
-    "contact_identifier": "+447586775769",
+    "type": "INBOUND",
+    "message_id": "4230995046",
+    "ticket_id": "941125723",
+    "message": "Hi! what is the size of this unit?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "535783872",
+    "contact_name": "Elena H",
+    "contact_identifier": "+971555746622",
+    "parent_message_id": "4225574304",
+    "parent_ticket_id": "941125723",
+    "event_type": "INBOUND"
   }
 }
