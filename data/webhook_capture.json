@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-16T10:25:35.461Z",
+  "ts": "2026-04-16T10:26:21.398Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4231177372",
+    "type": "OUTBOUND",
+    "message_id": "4231178053",
     "ticket_id": "943116494",
-    "message": "Ok",
-    "channel_id": "1304636",
+    "message": "Would you like to view the apartment?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536285300",
     "contact_name": "Vardhini",
     "contact_identifier": "+971563849851",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
