@@ -314,3 +314,7 @@ Once payment has been completed, the booking falls under a non-refundable policy
 ## Learned (2026-04-14)
 - If a lead responds with "That's well noted, appreciate it," reply with: "We will share the check-in details on your arrival date once the rental payment has been completed."
   (Learned from Faysal handling Prithvi 🌏 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-13851930.html)
+
+## Learned (2026-04-16)
+- When a lead asks whether the price is guaranteed at AED 11,000 for a full year, clarify that the rate can only be locked in for a period of 3 months. After that period, the rate will be reviewed and adjusted based on market conditions. Do not commit to a fixed price beyond 3 months under any circumstances.
+  (Learned from Faysal handling Luna Dinç re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-opera-district-grande-14592976.html)
