@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-16T05:36:17.726Z",
+  "ts": "2026-04-16T05:36:49.349Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4230884648",
+    "type": "OUTBOUND",
+    "message_id": "4230884911",
     "ticket_id": "942975570",
-    "message": "Do you have the photos of the other bedroom ?",
-    "channel_id": "1304636",
+    "message": "All the photos we have are in the listing: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-opera-district-grande-14592976.html, you'll be able to walk through both bedrooms properly at the viewing. What time works for your roommate today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536255089",
     "contact_name": "Luna Dinç",
     "contact_identifier": "+971525102828",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
