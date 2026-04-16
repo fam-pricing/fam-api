@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-16T10:37:54.291Z",
+  "ts": "2026-04-16T10:38:07.847Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4231190556",
-    "ticket_id": "943030908",
-    "message": "Do you like to view the apartment and we have other options as well",
-    "user_id": "746181",
-    "user_name": "Avinash I",
-    "user_email": "avinashanilkumar.i@famliving.com",
-    "contact_id": "536264276",
-    "contact_name": "Swetha Baskar",
-    "contact_identifier": "+971557881294",
+    "type": "INBOUND",
+    "message_id": "4231190780",
+    "ticket_id": "943121212",
+    "message": "I have sent request for 3 apartments under your agency",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536152435",
+    "contact_name": "Ahmed",
+    "contact_identifier": "+971526477199",
+    "event_type": "INBOUND"
   }
 }
