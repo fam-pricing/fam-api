@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-16T05:17:21.190Z",
+  "ts": "2026-04-16T05:17:39.686Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4230877831",
+    "type": "INBOUND",
+    "message_id": "4230877928",
     "ticket_id": "917543223",
-    "message": "How can I help you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Is it OK if I send voice message?",
+    "channel_id": "585723",
     "contact_id": "512108182",
     "contact_name": "Ms SARINA GHASEMI",
     "contact_identifier": "+971502987940",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
