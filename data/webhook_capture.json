@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-16T13:34:17.494Z",
+  "ts": "2026-04-16T13:35:04.696Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4231390750",
-    "ticket_id": "943181878",
-    "message": "Hello, apologies but I have to cancel the booking, I have some unexpected private matters so will not be able to move in to the apartment, can I pls ask to return the deposit-500 aed, thank you and apologies one more time",
+    "type": "OUTBOUND",
+    "message_id": "4231391518",
+    "ticket_id": "943160441",
+    "message": "May I know which unit you viewed so I can check for the rate",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536175184",
+    "contact_name": "Jawaher Al Amiri",
+    "contact_identifier": "+971544644204",
     "channel_id": "1304636",
-    "contact_id": "536043992",
-    "contact_name": "Anna",
-    "contact_identifier": "+971566816023",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
