@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-16T09:36:35.842Z",
+  "ts": "2026-04-16T09:38:41.148Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4231108654",
+    "type": "OUTBOUND",
+    "message_id": "4231110891",
     "ticket_id": "906744230",
-    "message": "???",
-    "channel_id": "585723",
+    "message": "Here is some important information for your stay with us at fäm Living:\r\n\r\nBuilding Number: 2A\r\n\r\nApartment Number: 205 on the 2nd floor\r\n\r\nDoor code: 8080 🔑\r\n\r\nWifi Password : famliving_cw\r\n\r\nParking slot number: B-05\r\n\r\nThe swimming pool opens from 7 AM -10 PM on the 1st floor.\r\n\r\nKindly pass by the reception to collect the access card upon your arrival",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "352711534",
     "contact_name": "Mohammed Alhemeiri",
     "contact_identifier": "+971509552269",
-    "parent_message_id": "4230937162",
-    "parent_ticket_id": "906744230",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
