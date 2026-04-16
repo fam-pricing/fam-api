@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-16T06:24:52.582Z",
+  "ts": "2026-04-16T06:25:16.136Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4230909599",
+    "type": "OUTBOUND",
+    "message_id": "4230909803",
     "ticket_id": "942975570",
-    "message": "I will I’m just waiting for the passeport of my roomate and she will come today at 11:15 am to visit it",
-    "channel_id": "1304636",
+    "message": "11:15 works perfectly, she's all set. Just send over her passport photo when you have it and we'll get building access sorted.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536255089",
     "contact_name": "Luna Dinç",
     "contact_identifier": "+971525102828",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
