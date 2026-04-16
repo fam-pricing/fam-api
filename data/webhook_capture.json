@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-16T07:39:45.007Z",
+  "ts": "2026-04-16T07:43:55.711Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4230975700",
+    "type": "OUTBOUND",
+    "message_id": "4230979807",
     "ticket_id": "942992418",
-    "message": "Okay, what do you have? My transfer date is 30/4",
-    "channel_id": "1304636",
+    "message": "We have a studio apartment available, and we can offer a rate of AED 4,500 for the first 3 months.\r\n\r\nIf you are interested, we would be happy to arrange a viewing so you can take a look at the apartment.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536258387",
     "contact_name": "n",
     "contact_identifier": "+971589809764",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
