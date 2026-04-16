@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-16T08:32:55.099Z",
+  "ts": "2026-04-16T08:33:18.188Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4231034697",
+    "type": "INBOUND",
+    "message_id": "4231035156",
     "ticket_id": "943067371",
-    "message": "However Email address is fine as we communicate through wtapp and booking.com platform",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "If you can change it to this",
+    "channel_id": "585723",
     "contact_id": "198617159",
     "contact_name": "Hamad  Almazrouei Almazrouei",
     "contact_identifier": "+971565828881",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4231031632",
+    "parent_ticket_id": "943067371",
+    "event_type": "INBOUND"
   }
 }
