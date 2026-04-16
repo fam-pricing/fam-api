@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-16T04:23:53.119Z",
+  "ts": "2026-04-16T04:24:16.930Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4230862687",
+    "type": "OUTBOUND",
+    "message_id": "4230862728",
     "ticket_id": "942975570",
-    "message": "İs the price negociable ? İs it possible to fix it for aed 11 000 per month ?",
-    "channel_id": "1304636",
+    "message": "The price is fixed at AED 11,000, so unfortunately that's not something we can adjust.\n\nWould you like to come see it first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536255089",
     "contact_name": "Luna Dinç",
     "contact_identifier": "+971525102828",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
