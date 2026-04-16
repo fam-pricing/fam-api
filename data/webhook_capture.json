@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-16T14:48:03.241Z",
+  "ts": "2026-04-16T14:48:30.034Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4231477181",
+    "type": "INBOUND",
+    "message_id": "4231477589",
     "ticket_id": "943203873",
-    "message": "Unfortunately we do not have videos available and there will be a parking slot available",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I need 2 parking slots",
+    "channel_id": "1304636",
     "contact_id": "536152435",
     "contact_name": "Ahmed",
     "contact_identifier": "+971526477199",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4231477181",
+    "parent_ticket_id": "943203873",
+    "event_type": "INBOUND"
   }
 }
