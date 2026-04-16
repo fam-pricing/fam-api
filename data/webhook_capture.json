@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-16T04:25:37.679Z",
+  "ts": "2026-04-16T04:25:58.503Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4230862891",
+    "type": "OUTBOUND",
+    "message_id": "4230862953",
     "ticket_id": "942975570",
-    "message": "So it’s 11 000 ?",
-    "channel_id": "1304636",
+    "message": "Yes, AED 11,000/month all-inclusive. Want to come see it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536255089",
     "contact_name": "Luna Dinç",
     "contact_identifier": "+971525102828",
-    "parent_message_id": "4230862728",
-    "parent_ticket_id": "942975570",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
