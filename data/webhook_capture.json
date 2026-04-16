@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-16T08:16:40.260Z",
+  "ts": "2026-04-16T08:17:47.642Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4231017402",
-    "ticket_id": "942975570",
-    "message": "The price is 11 000aed that’s right ?",
-    "channel_id": "1304636",
-    "contact_id": "536255089",
-    "contact_name": "Luna Dinç",
-    "contact_identifier": "+971525102828",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4231018472",
+    "ticket_id": "943067371",
+    "message": "Rent payment - https://totalpay.ae/payment/202604164169e09ae999880\r\n\r\nDeposit payment - https://totalpay.ae/payment/202604163269e09b1c4b8a8",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "198617159",
+    "contact_name": "Hamad  Almazrouei Almazrouei",
+    "contact_identifier": "+971565828881",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
