@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-16T05:49:27.529Z",
+  "ts": "2026-04-16T05:49:47.950Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4230889714",
+    "type": "OUTBOUND",
+    "message_id": "4230889922",
     "ticket_id": "943030908",
-    "message": "Hello",
-    "channel_id": "1304636",
+    "message": "Swetha, great timing, that apartment in Business Bay is still available. What's your expected move-in date?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536264276",
     "contact_name": "Swetha Baskar",
     "contact_identifier": "+971557881294",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
