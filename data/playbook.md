@@ -318,3 +318,7 @@ Once payment has been completed, the booking falls under a non-refundable policy
 ## Learned (2026-04-16)
 - When a lead asks whether the price is guaranteed at AED 11,000 for a full year, clarify that the rate can only be locked in for a period of 3 months. After that period, the rate will be reviewed and adjusted based on market conditions. Do not commit to a fixed price beyond 3 months under any circumstances.
   (Learned from Faysal handling Luna Dinç re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-opera-district-grande-14592976.html)
+
+## Learned (2026-04-16)
+- When a lead says they need to discuss internally and asks whether you also manage long-term stays, respond by letting them know you can extend their stay in the same apartment at a confirmed rate for each 3-month period, for as long as they choose to stay.
+  (Learned from Faysal handling Andrea F re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
