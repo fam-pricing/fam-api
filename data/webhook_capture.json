@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-16T15:27:46.650Z",
+  "ts": "2026-04-16T15:29:01.995Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4231514254",
+    "type": "OUTBOUND",
+    "message_id": "4231515382",
     "ticket_id": "943067371",
-    "message": "How should i lock it",
-    "channel_id": "585723",
+    "message": "Please enter the code and rotate on left side to lock.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "198617159",
     "contact_name": "Hamad  Almazrouei Almazrouei",
     "contact_identifier": "+971565828881",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
