@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-16T11:10:56.223Z",
+  "ts": "2026-04-16T11:10:58.661Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4231223401",
-    "ticket_id": "942944912",
-    "message": "We can provide you a secure payment link to complete the payment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536245418",
-    "contact_name": "Ufuk Gökmen",
-    "contact_identifier": "+971525203982",
+    "type": "INBOUND",
+    "message_id": "4231223421",
+    "ticket_id": "943121212",
+    "message": "Hi, check out this property I found on Property Finder.\n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-city-walk-residential-city-walk-residential-building-18b-16073637.html",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536152435",
+    "contact_name": "Ahmed",
+    "contact_identifier": "+971526477199",
+    "event_type": "INBOUND"
   }
 }
