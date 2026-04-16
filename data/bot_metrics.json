@@ -1,17 +1,5 @@
 [
   {
-    "ts": "2026-04-09T11:17:06.721Z",
-    "ticket_id": 940682564,
-    "lead_id": "message_lead_28645848",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1021,
-    "critic_pass": null,
-    "lead_quality": 50,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-04-09T12:00:03.957Z",
     "ticket_id": 940682564,
     "lead_id": "message_lead_28645848",
@@ -7354,5 +7342,17 @@
     "lead_quality": 30,
     "buying_stage": "COOL",
     "skip_reason": "Agent (Faysal) previously promised Aleksandr a video of the 1BR in Sunrise Bay Tower 2 would be sent shortly. The video was never delivered. Need Faysal to send the video now to fulfill that promise."
+  },
+  {
+    "ts": "2026-04-16T11:17:10.539Z",
+    "ticket_id": 943121212,
+    "lead_id": "message_lead_28795219",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 2178,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "bot_paused"
   }
 ]
