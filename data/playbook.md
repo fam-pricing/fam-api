@@ -340,3 +340,7 @@ Once payment has been completed, the booking falls under a non-refundable policy
 
 Once we have these, we'll send you a payment link to secure your reservation."
   (Learned from Faysal handling Lead re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q4rybf4K5g.html)
+
+## Learned (2026-04-16)
+- If a lead requests a 1-year rental at a fixed rate of AED 11,000 per month or less, respond: "Unfortunately, we are unable to fix the rate for more than 3 months."
+  (Learned from Faysal handling Luna Dinç re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-opera-district-grande-14592976.html)
