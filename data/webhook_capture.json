@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-16T13:12:52.428Z",
+  "ts": "2026-04-16T13:13:06.873Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4231365084",
+    "type": "OUTBOUND",
+    "message_id": "4231365335",
     "ticket_id": "906744230",
-    "message": "?",
-    "channel_id": "585723",
+    "message": "Unfortunately, that apartment is not available at the moment, which is why we have accommodated you in this apartment.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "352711534",
     "contact_name": "Mohammed Alhemeiri",
     "contact_identifier": "+971509552269",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
