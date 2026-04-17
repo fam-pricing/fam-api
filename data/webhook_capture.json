@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-17T11:52:36.215Z",
+  "ts": "2026-04-17T11:53:40.325Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4232196397",
-    "ticket_id": "943463170",
-    "message": "Good afternoon. I need another cleaning this Sunday around noon",
+    "type": "OUTBOUND",
+    "message_id": "4232197326",
+    "ticket_id": "943419403",
+    "message": "Unfortunately, we are unable to reduce the rate to AED 4,000, as it has already been adjusted in line with current market conditions. However, may I kindly ask for your budget so we can explore suitable options for you?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536357623",
+    "contact_name": "Amna",
+    "contact_identifier": "+923228898800",
     "channel_id": "1304636",
-    "contact_id": "535052322",
-    "contact_name": "Frank",
-    "contact_identifier": "+971553274493",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
