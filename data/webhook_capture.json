@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-17T12:55:50.075Z",
+  "ts": "2026-04-17T12:56:05.624Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4232262506",
-    "ticket_id": "943330149",
-    "message": "May I have an update on the viewing please",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536340091",
-    "contact_name": "M",
-    "contact_identifier": "+971585429848",
+    "type": "INBOUND",
+    "message_id": "4232262741",
+    "ticket_id": "943478879",
+    "message": "Yeah",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535452159",
+    "contact_name": "Shouq",
+    "contact_identifier": "+971503671717",
+    "parent_message_id": "4232262202",
+    "parent_ticket_id": "943478879",
+    "event_type": "INBOUND"
   }
 }
