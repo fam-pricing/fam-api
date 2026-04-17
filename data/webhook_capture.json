@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-17T10:58:35.561Z",
+  "ts": "2026-04-17T10:59:14.161Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4232138459",
-    "ticket_id": "943203873",
-    "message": "Would you like to proceed with the reservation?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536152435",
-    "contact_name": "Ahmed",
-    "contact_identifier": "+971526477199",
+    "type": "INBOUND",
+    "message_id": "4232139209",
+    "ticket_id": "943419403",
+    "message": "I’m interested in these 3 properties",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536357623",
+    "contact_name": "Amna",
+    "contact_identifier": "+923228898800",
+    "event_type": "INBOUND"
   }
 }
