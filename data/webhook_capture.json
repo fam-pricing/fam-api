@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-17T07:20:11.044Z",
+  "ts": "2026-04-17T07:20:29.580Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4231910758",
+    "type": "OUTBOUND",
+    "message_id": "4231911015",
     "ticket_id": "943369697",
-    "message": "I can see the apartment tody",
-    "channel_id": "1304636",
+    "message": "The 2BR is available and yes, we can arrange a viewing today. What time works for you? We can do any slot between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536346676",
     "contact_name": "Roya",
     "contact_identifier": "+971562727884",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
