@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-17T14:11:17.729Z",
+  "ts": "2026-04-17T14:11:37.081Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4232345090",
-    "ticket_id": "943463170",
-    "message": "I paid this week 260",
+    "type": "OUTBOUND",
+    "message_id": "4232345413",
+    "ticket_id": "942468897",
+    "message": "Payment link for the rent with card charges\r\n\r\nhttps://totalpay.ae/payment/202604170469e23f786df2b",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536120342",
+    "contact_name": "Rakshith Totalekere",
+    "contact_identifier": "+971502469315",
     "channel_id": "1304636",
-    "contact_id": "535052322",
-    "contact_name": "Frank",
-    "contact_identifier": "+971553274493",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
