@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-17T07:16:10.548Z",
+  "ts": "2026-04-17T07:16:40.006Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4231907116",
+    "type": "OUTBOUND",
+    "message_id": "4231907717",
     "ticket_id": "943369697",
-    "message": "Available",
-    "channel_id": "1304636",
+    "message": "Yes, it's available now. What would you like to know about it, when you're looking to move in, or anything specific about the apartment?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536346676",
     "contact_name": "Roya",
     "contact_identifier": "+971562727884",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
