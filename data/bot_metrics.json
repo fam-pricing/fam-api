@@ -7774,5 +7774,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "Cannot identify the property for lead Amna. The reference PF-HH-AR-68202 is not mapped to any known listing in the portfolio."
+  },
+  {
+    "ts": "2026-04-17T09:40:15.412Z",
+    "ticket_id": 942468897,
+    "lead_id": "message_lead_28755697",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1226,
+    "critic_pass": null,
+    "lead_quality": 95,
+    "buying_stage": "HOT",
+    "skip_reason": "acknowledgment_skip"
   }
 ]
