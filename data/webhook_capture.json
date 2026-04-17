@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-17T07:37:18.501Z",
+  "ts": "2026-04-17T07:38:43.164Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4231927957",
-    "ticket_id": "943374216",
-    "message": "That’s alright, thank you",
+    "type": "OUTBOUND",
+    "message_id": "4231929177",
+    "ticket_id": "943369697",
+    "message": "Would you like to arrange viewing for you today?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536346676",
+    "contact_name": "Roya",
+    "contact_identifier": "+971562727884",
     "channel_id": "1304636",
-    "contact_id": "536264276",
-    "contact_name": "Swetha Baskar",
-    "contact_identifier": "+971557881294",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
