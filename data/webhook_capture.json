@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-17T07:49:42.206Z",
+  "ts": "2026-04-17T07:49:50.212Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4231940094",
+    "type": "INBOUND",
+    "message_id": "4231940216",
     "ticket_id": "934994591",
-    "message": "As the link is still active we are not sure what is the issue you are facing",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "The payment isn’t going through on the link",
+    "channel_id": "585723",
     "contact_id": "534253030",
     "contact_name": "KATIE LOUISE WILLIAMS",
     "contact_identifier": "+971585739407",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
