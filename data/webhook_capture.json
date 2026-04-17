@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-17T05:42:52.392Z",
+  "ts": "2026-04-17T05:44:32.466Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4231843702",
-    "ticket_id": "934994591",
-    "message": "I’m not paying 3.1% card processing fee",
+    "type": "OUTBOUND",
+    "message_id": "4231844194",
+    "ticket_id": "893132121",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "485463890",
+    "contact_name": "Mrs Zahra Jamali",
+    "contact_identifier": "+971547669747",
     "channel_id": "585723",
-    "contact_id": "534253030",
-    "contact_name": "KATIE LOUISE WILLIAMS",
-    "contact_identifier": "+971585739407",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
