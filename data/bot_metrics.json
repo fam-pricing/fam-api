@@ -1,77 +1,5 @@
 [
   {
-    "ts": "2026-04-10T18:53:17.374Z",
-    "ticket_id": 941627171,
-    "lead_id": "message_lead_28698234",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 23797,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-04-10T18:54:51.360Z",
-    "ticket_id": 941627171,
-    "lead_id": "message_lead_28698234",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1107,
-    "critic_pass": null,
-    "lead_quality": 50,
-    "buying_stage": "WARM",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-04-10T18:58:19.173Z",
-    "ticket_id": 941627171,
-    "lead_id": "message_lead_28698234",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 925,
-    "critic_pass": null,
-    "lead_quality": 70,
-    "buying_stage": "HOT",
-    "skip_reason": "acknowledgment_skip"
-  },
-  {
-    "ts": "2026-04-10T19:01:56.518Z",
-    "ticket_id": 941627171,
-    "lead_id": "message_lead_28698234",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1261,
-    "critic_pass": null,
-    "lead_quality": 70,
-    "buying_stage": "HOT",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-04-10T19:05:01.913Z",
-    "ticket_id": 941628947,
-    "lead_id": "message_lead_28698386",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 19385,
-    "critic_pass": null,
-    "lead_quality": 25,
-    "buying_stage": "COOL",
-    "skip_reason": "Lead is asking about a 6-month rental in Downtown (1BR Act One Tower 1 at AED 7,000/month) and wants to know if there is price flexibility. This is a long-term pricing request beyond 3 months and requires manager input on any possible discount or negotiation."
-  },
-  {
-    "ts": "2026-04-10T19:05:51.056Z",
-    "ticket_id": 941628947,
-    "lead_id": "message_lead_28698386",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1498,
-    "critic_pass": null,
-    "lead_quality": 25,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-04-11T05:07:55.082Z",
     "ticket_id": 941627171,
     "lead_id": "message_lead_28698234",
@@ -8241,6 +8169,18 @@
     "critic_pass": null,
     "lead_quality": 40,
     "buying_stage": "WARM",
+    "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-04-17T21:15:41.864Z",
+    "ticket_id": 943419403,
+    "lead_id": "message_lead_28812094",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1514,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
     "skip_reason": "bot_paused"
   }
 ]
