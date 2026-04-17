@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-17T07:04:23.961Z",
+  "ts": "2026-04-17T07:06:24.376Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4231894748",
+    "type": "OUTBOUND",
+    "message_id": "4231897089",
     "ticket_id": "934994591",
-    "message": "Can you please send me the link for the payment for AED 36k my card is not working because it’s Australian. We are moving in today and I can send you the money right now at the agreed price",
-    "channel_id": "585723",
+    "message": "If you choose to complete the payment via the provided payment link, please note that card processing charges will apply.\r\n\r\nYou may proceed with the payment using the link shared above.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "534253030",
     "contact_name": "KATIE LOUISE WILLIAMS",
     "contact_identifier": "+971585739407",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
