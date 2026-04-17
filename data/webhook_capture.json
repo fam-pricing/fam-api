@@ -1,17 +1,19 @@
 {
-  "ts": "2026-04-17T09:38:56.738Z",
+  "ts": "2026-04-17T09:39:42.906Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4232056759",
-    "ticket_id": "942082281",
-    "message": "Where is it ?",
-    "channel_id": "585723",
-    "contact_id": "535956059",
-    "contact_name": "Zeina Elnahas",
-    "contact_identifier": "+971523770869",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4232057603",
+    "ticket_id": "942468897",
+    "message": "Yes, we have received it.\r\n\r\nWe will share the remaining check-in details along with the balance payment on the check-in date.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536120342",
+    "contact_identifier": "+971502469315",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
