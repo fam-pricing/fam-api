@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-17T05:38:51.257Z",
+  "ts": "2026-04-17T05:39:38.890Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4231842460",
-    "ticket_id": "942082281",
-    "message": "Good morning",
+    "type": "OUTBOUND",
+    "message_id": "4231842692",
+    "ticket_id": "934994591",
+    "message": "Kindly note that the agreed amount is AED 36,000. Including card processing charges, the total payable is AED 37,116.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "534253030",
+    "contact_name": "KATIE LOUISE WILLIAMS",
+    "contact_identifier": "+971585739407",
     "channel_id": "585723",
-    "contact_id": "535956059",
-    "contact_name": "Zeina Elnahas",
-    "contact_identifier": "+971523770869",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
