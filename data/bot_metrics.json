@@ -1,17 +1,5 @@
 [
   {
-    "ts": "2026-04-11T10:13:46.928Z",
-    "ticket_id": 941720651,
-    "lead_id": "message_lead_28705379",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 18522,
-    "critic_pass": null,
-    "lead_quality": 50,
-    "buying_stage": "WARM",
-    "skip_reason": "Conversation is highly fragmented and confusing. Multiple conflicting times (3pm vs 4pm) have been set by previous agent messages, lead has sent an image (likely their ID), confirmed 3 months at AED 5,000/month, and the conversation is out of sync. I cannot determine the current confirmed viewing time, whether the ID has been received/processed, or what \"here it is?\" refers to. Needs human to take over and consolidate."
-  },
-  {
     "ts": "2026-04-11T10:29:44.748Z",
     "ticket_id": 941720651,
     "lead_id": "message_lead_28705379",
@@ -8538,6 +8526,18 @@
     "action": "skipped",
     "tool_used": null,
     "response_time_ms": 1077,
+    "critic_pass": null,
+    "lead_quality": 50,
+    "buying_stage": "WARM",
+    "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-04-18T10:10:51.260Z",
+    "ticket_id": 943398053,
+    "lead_id": "message_lead_28810932",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1457,
     "critic_pass": null,
     "lead_quality": 50,
     "buying_stage": "WARM",
