@@ -380,3 +380,7 @@ Once received, we'll send you a payment link via Noon to secure your reservation
 
 "We're unable to confirm pricing beyond a 3-month period. That said, you're welcome to extend your stay after the initial 3 months — rates at that point will be subject to prevailing market conditions."
   (Learned from Faysal handling Lead re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q4rybf4K5g.html)
+
+## Learned (2026-04-18)
+- When a lead asks how much they need to pay to make a reservation, respond: "Once you complete the deposit payment, we can block the unit for you."
+  (Learned from Faysal handling Leila Dehbandi re PF-HH-AR-68202)
