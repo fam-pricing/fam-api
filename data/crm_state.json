@@ -7625,12 +7625,12 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-opera-district-grande-14592976.html",
     "trengo_ticket_id": 943447682,
     "lead_name": "Sandra Muñoz",
-    "last_bot_reply_content": "Got it, Sandra, what time works for you? We're available anytime between 9am and 6pm.",
-    "last_bot_reply_at": "2026-04-18T10:25:28.405Z",
+    "last_bot_reply_content": "Thank you for sending your ID. Our team will be in touch shortly to confirm the property location and all viewing details.",
+    "last_bot_reply_at": "2026-04-18T10:26:59.061Z",
     "lead_replied": true,
-    "lead_replied_at": "2026-04-18T10:25:28.405Z",
-    "bot_reply_count": 4,
-    "last_processed_message_id": "4232837244",
+    "lead_replied_at": "2026-04-18T10:26:09.313Z",
+    "bot_reply_count": 7,
+    "last_processed_message_id": "4232837910",
     "unanswered_alert_sent": false,
     "lead_quality_score": 55,
     "lead_quality_label": "WARM",
@@ -7638,7 +7638,14 @@
       "high engagement (5+ messages)",
       "urgent timeline",
       "viewing interest"
-    ]
+    ],
+    "viewing_status": "id_received_no_coords",
+    "viewing_day": "today",
+    "viewing_time": "3:30pm",
+    "viewing_property": "2BR in Grande Downtown",
+    "viewing_pending_since": "2026-04-18T10:26:09.313Z",
+    "bot_paused": true,
+    "viewing_id_url": null
   },
   "message_lead_28814429": {
     "stage": "new",
@@ -7757,5 +7764,35 @@
     "bot_paused": true,
     "last_escalated_at": "2026-04-18T09:57:30.601Z",
     "last_escalated_question": null
+  },
+  "message_lead_28832648": {
+    "stage": "new",
+    "notes": [],
+    "auto_responded": true,
+    "auto_responded_at": "2026-04-18T11:40:51.651Z",
+    "pf_phone": "971524136880",
+    "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html",
+    "trengo_ticket_id": 943701990,
+    "lead_name": "."
+  },
+  "message_lead_28832661": {
+    "stage": "new",
+    "notes": [],
+    "auto_responded": true,
+    "auto_responded_at": "2026-04-18T11:41:50.639Z",
+    "pf_phone": "971543957967",
+    "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html",
+    "trengo_ticket_id": 943702235,
+    "lead_name": "Dhanalakshmi Suresh",
+    "last_bot_reply_content": "The 2BR in Elite Business Bay is available now at AED 5,500/month, all-inclusive. Would you like to arrange a viewing?",
+    "last_bot_reply_at": "2026-04-18T11:42:33.368Z",
+    "lead_replied": true,
+    "lead_replied_at": "2026-04-18T11:42:33.368Z",
+    "bot_reply_count": 1,
+    "last_processed_message_id": "4232873156",
+    "unanswered_alert_sent": false,
+    "lead_quality_score": 5,
+    "lead_quality_label": "COLD",
+    "lead_quality_signals": []
   }
 }
