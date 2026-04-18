@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-18T15:34:29.896Z",
+  "ts": "2026-04-18T15:34:46.456Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4232985782",
+    "type": "OUTBOUND",
+    "message_id": "4232985859",
     "ticket_id": "943739508",
-    "message": "Can you get back?",
-    "channel_id": "1304636",
+    "message": "Sure, what would you like to know about it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535964899",
     "contact_name": "Ikdeep Kaur",
     "contact_identifier": "+971542215725",
-    "parent_message_id": "4227401024",
-    "parent_ticket_id": "941802609",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
