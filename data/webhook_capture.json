@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-18T10:23:37.087Z",
+  "ts": "2026-04-18T10:23:44.381Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4232836564",
-    "ticket_id": "943447682",
-    "message": "Yes, you can come today, viewings run 9am to 6pm. Could you share your Emirates ID or passport copy so we can confirm your slot?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "535370331",
-    "contact_name": "Sandra Muñoz",
-    "contact_identifier": "+971525789941",
+    "type": "INBOUND",
+    "message_id": "4232836602",
+    "ticket_id": "942468897",
+    "message": "Please confirm as we are in the building waiting for the confirmation now",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536120342",
+    "contact_name": "Rakshith Totalekere",
+    "contact_identifier": "+971502469315",
+    "event_type": "INBOUND"
   }
 }
