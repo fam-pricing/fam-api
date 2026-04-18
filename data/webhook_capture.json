@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-18T15:05:54.622Z",
+  "ts": "2026-04-18T15:11:52.568Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4232973557",
-    "ticket_id": "943650350",
-    "message": "Hello, I am done with the visit.\nI liked the place but I am seeing a lot of negative reviews for the building on google.\nAre guests not allowed? As well as deliveries? \nCould you please share with me any related information about these policies",
+    "type": "OUTBOUND",
+    "message_id": "4232976362",
+    "ticket_id": "943736375",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nPF-HH-AR-136452\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "536437567",
+    "contact_name": "Faye Jackson",
+    "contact_identifier": "+255658812437",
     "channel_id": "1304636",
-    "contact_id": "536414061",
-    "contact_name": "Maria",
-    "contact_identifier": "+96176100864",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
