@@ -368,3 +368,9 @@ Once received, we'll send you a payment link via Noon to secure your reservation
 ## Learned (2026-04-18)
 - When a lead commits to a viewing date that is more than one day away and shares their contact number, acknowledge their request and then advise them that the calendar is listed across multiple platforms and additional bookings may come in before their visit. Recommend that they schedule the viewing for today or tomorrow instead, and complete the deposit payment to secure and confirm their booking.
   (Learned from Faysal handling . re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-04-18)
+- When a lead asks about the deposit or full cost breakdown, respond with:
+
+"Please note that viewings are available between 9:00 AM and 6:00 PM. To schedule yours, kindly provide a copy of your Emirates ID or passport along with your preferred date and time, and we will confirm the arrangement."
+  (Learned from Faysal handling Leila Dehbandi re PF-HH-AR-68202)
