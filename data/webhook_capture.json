@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-18T15:40:52.143Z",
+  "ts": "2026-04-18T15:40:52.789Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4232988405",
-    "ticket_id": "943739508",
-    "message": "Taking a monthly rental for the first time",
+    "type": "OUTBOUND",
+    "message_id": "4232988413",
+    "ticket_id": "943736375",
+    "message": "Allow me to check",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536437567",
+    "contact_name": "Faye Jackson",
+    "contact_identifier": "+255658812437",
     "channel_id": "1304636",
-    "contact_id": "535964899",
-    "contact_name": "Ikdeep Kaur",
-    "contact_identifier": "+971542215725",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
