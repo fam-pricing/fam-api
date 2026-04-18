@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-18T10:25:28.834Z",
+  "ts": "2026-04-18T10:25:34.790Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4232837336",
+    "type": "OUTBOUND",
+    "message_id": "4232837379",
     "ticket_id": "943447682",
-    "message": "Open the pdf",
-    "channel_id": "1304636",
+    "message": "Got it, Sandra, what time works for you? We're available anytime between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535370331",
     "contact_name": "Sandra Muñoz",
     "contact_identifier": "+971525789941",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
