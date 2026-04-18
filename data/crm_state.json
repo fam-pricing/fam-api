@@ -7492,7 +7492,9 @@
     "lead_quality_signals": [],
     "bot_paused": true,
     "last_escalated_at": "2026-04-17T04:30:11.506Z",
-    "last_escalated_question": null
+    "last_escalated_question": null,
+    "last_agent_reply_at": "2026-04-18T06:02:45.313Z",
+    "last_learned_at": "2026-04-18T06:02:49.314Z"
   },
   "message_lead_28809148": {
     "stage": "new",
@@ -7655,7 +7657,7 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVy5H4ZsBs.html",
     "trengo_ticket_id": 943478879,
     "lead_name": "Shouq",
-    "last_bot_reply_content": "The 10% discount brings it down to AED 5,400/month. Which property are you currently in with us?",
+    "last_bot_reply_content": "Let me check the details on both for you and come back shortly!",
     "last_bot_reply_at": "2026-04-17T12:43:02.250Z",
     "lead_replied": true,
     "lead_replied_at": "2026-04-17T12:43:02.250Z",
@@ -7667,6 +7669,50 @@
     "lead_quality_signals": [
       "high engagement (5+ messages)",
       "pricing enquiry"
-    ]
+    ],
+    "bot_paused": true,
+    "last_escalated_at": "2026-04-17T12:43:41.464Z",
+    "last_escalated_question": null
+  },
+  "message_lead_28820915": {
+    "stage": "new",
+    "notes": [],
+    "auto_responded": true,
+    "auto_responded_at": "2026-04-17T17:45:52.144Z",
+    "pf_phone": "33695624458",
+    "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-the-bay-2PZWbS2FraC.html",
+    "trengo_ticket_id": 943559550,
+    "lead_name": "Sofiane",
+    "last_bot_reply_content": "Just send the ID photo whenever you're ready, Sofiane.",
+    "last_bot_reply_at": "2026-04-17T17:51:40.697Z",
+    "lead_replied": true,
+    "lead_replied_at": "2026-04-17T17:51:40.697Z",
+    "bot_reply_count": 5,
+    "last_processed_message_id": "4232518353",
+    "unanswered_alert_sent": false,
+    "lead_quality_score": 40,
+    "lead_quality_label": "WARM",
+    "lead_quality_signals": [
+      "high engagement (5+ messages)",
+      "urgent timeline"
+    ],
+    "viewing_status": "pending_id",
+    "viewing_day": "tomorrow",
+    "viewing_time": "10am",
+    "viewing_property": "2BR in The Bay Business Bay",
+    "viewing_pending_since": "2026-04-17T17:49:50.862Z",
+    "bot_paused": true,
+    "last_escalated_at": "2026-04-17T17:52:17.486Z",
+    "last_escalated_question": null
+  },
+  "message_lead_28821939": {
+    "stage": "new",
+    "notes": [],
+    "auto_responded": true,
+    "auto_responded_at": "2026-04-17T19:05:51.224Z",
+    "pf_phone": "919560984640",
+    "listing_title": "1BR in MAG 318",
+    "trengo_ticket_id": 943571947,
+    "lead_name": "Sukhmani"
   }
 }
