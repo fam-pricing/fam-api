@@ -374,3 +374,9 @@ Once received, we'll send you a payment link via Noon to secure your reservation
 
 "Please note that viewings are available between 9:00 AM and 6:00 PM. To schedule yours, kindly provide a copy of your Emirates ID or passport along with your preferred date and time, and we will confirm the arrangement."
   (Learned from Faysal handling Leila Dehbandi re PF-HH-AR-68202)
+
+## Learned (2026-04-18)
+- When a lead asks about renewing or extending their stay at the same rate, respond:
+
+"We're unable to confirm pricing beyond a 3-month period. That said, you're welcome to extend your stay after the initial 3 months — rates at that point will be subject to prevailing market conditions."
+  (Learned from Faysal handling Lead re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q4rybf4K5g.html)
