@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-18T09:15:56.763Z",
+  "ts": "2026-04-18T09:17:53.459Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4232803324",
+    "type": "INBOUND",
+    "message_id": "4232804643",
     "ticket_id": "943055228",
-    "message": "Sure we will wait for your message thank you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "535926291",
     "contact_name": "Rimsha Akram",
     "contact_identifier": "+971526064450",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4232803324",
+    "parent_ticket_id": "943055228",
+    "event_type": "INBOUND"
   }
 }
