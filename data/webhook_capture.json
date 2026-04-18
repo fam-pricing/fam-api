@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-18T15:40:36.531Z",
+  "ts": "2026-04-18T15:40:52.143Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4232988300",
+    "type": "INBOUND",
+    "message_id": "4232988405",
     "ticket_id": "943739508",
-    "message": "The deposit is AED 2,000, fully refundable within 14 working days of check-out. On the rate, yes there is a chance it could change after each 3-month block, though you'd always know the new rate before committing to the next one. Would you like to come see the place first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Taking a monthly rental for the first time",
+    "channel_id": "1304636",
     "contact_id": "535964899",
     "contact_name": "Ikdeep Kaur",
     "contact_identifier": "+971542215725",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
