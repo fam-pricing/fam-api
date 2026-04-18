@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-18T09:22:21.423Z",
+  "ts": "2026-04-18T09:22:24.027Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4232806743",
+    "type": "OUTBOUND",
+    "message_id": "4232806763",
     "ticket_id": "943679019",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "536420872",
     "contact_name": "Ariba Ahmed",
     "contact_identifier": "+971554783013",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
