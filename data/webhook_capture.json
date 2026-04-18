@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-18T16:59:40.911Z",
+  "ts": "2026-04-18T17:00:11.492Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4233020476",
+    "type": "INBOUND",
+    "message_id": "4233020746",
     "ticket_id": "943708692",
-    "message": "June - AED 6,000\r\nJuly- AED 6,000\r\nAug - AED 6,000\r\nSep - AED 7,000\r\nOct - AED 8,000\r\nNov - AED 9,000\r\nDec - AED 11,000\r\nJan AED 10,500",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "This is 8 months",
+    "channel_id": "585723",
     "contact_id": "536429310",
     "contact_name": "Chris",
     "contact_identifier": "+971506680392",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4233020476",
+    "parent_ticket_id": "943708692",
+    "event_type": "INBOUND"
   }
 }
