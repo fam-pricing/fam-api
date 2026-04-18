@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-18T08:25:57.054Z",
+  "ts": "2026-04-18T08:30:18.453Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4232777932",
-    "ticket_id": "943055228",
-    "message": "Thank you but please today give me access card",
+    "type": "OUTBOUND",
+    "message_id": "4232780023",
+    "ticket_id": "943650350",
+    "message": "Sure, we have a one-bedroom apartment available in Upside Living. If you wish, we can arrange a viewing for you at your convenience.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536414061",
+    "contact_name": "Maria",
+    "contact_identifier": "+96176100864",
     "channel_id": "1304636",
-    "contact_id": "535926291",
-    "contact_name": "Rimsha Akram",
-    "contact_identifier": "+971526064450",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
