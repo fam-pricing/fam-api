@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-18T14:44:03.473Z",
+  "ts": "2026-04-18T14:44:16.759Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4232963121",
-    "ticket_id": "943677677",
-    "message": "I will join directly from the airport, once I land in Dubai",
+    "type": "OUTBOUND",
+    "message_id": "4232963302",
+    "ticket_id": "943330149",
+    "message": "Ok sure I will check with the management and update you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536340091",
+    "contact_name": "M - Nobles",
+    "contact_identifier": "+971585429848",
     "channel_id": "1304636",
-    "contact_id": "536245418",
-    "contact_name": "Ufuk Gökmen",
-    "contact_identifier": "+971525203982",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
