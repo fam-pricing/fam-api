@@ -344,3 +344,15 @@ Once we have these, we'll send you a payment link to secure your reservation."
 ## Learned (2026-04-16)
 - If a lead requests a 1-year rental at a fixed rate of AED 11,000 per month or less, respond: "Unfortunately, we are unable to fix the rate for more than 3 months."
   (Learned from Faysal handling Luna Dinç re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-opera-district-grande-14592976.html)
+
+## Learned (2026-04-18)
+- When a lead asks about how to book, respond with the following:
+
+To confirm your booking, we'll need the following from you:
+
+1. A copy of your ID or passport
+2. Your email address
+3. Your phone number
+
+Once received, we'll send you a payment link via Noon to secure your reservation.
+  (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html)
