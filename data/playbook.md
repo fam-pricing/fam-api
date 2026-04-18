@@ -360,3 +360,7 @@ Once received, we'll send you a payment link via Noon to secure your reservation
 ## Learned (2026-04-18)
 - When a lead confirms they will complete the remaining payment and check in around 1:00 PM, inform them that standard check-in time begins at 3:00 PM. Also prompt them to complete the check-in form, as this is required to finalise the process.
   (Learned from Faysal handling Lead re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q4rybf4K5g.html)
+
+## Learned (2026-04-18)
+- If a lead questions the total amount (e.g., "Why is this 5,464?"), explain that a 3.1% card processing fee has been applied to the booking.
+  (Learned from Faysal handling Lead re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q4rybf4K5g.html)
