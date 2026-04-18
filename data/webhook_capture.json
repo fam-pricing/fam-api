@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-18T10:29:39.606Z",
+  "ts": "2026-04-18T10:29:53.733Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4232839350",
+    "type": "INBOUND",
+    "message_id": "4232839477",
     "ticket_id": "942468897",
-    "message": "Still we are unable to confirm the bank transfer however I have register you in the building you can proceed with the check in process",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "536120342",
     "contact_name": "Rakshith Totalekere",
     "contact_identifier": "+971502469315",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4232839350",
+    "parent_ticket_id": "942468897",
+    "event_type": "INBOUND"
   }
 }
