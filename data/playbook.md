@@ -356,3 +356,7 @@ To confirm your booking, we'll need the following from you:
 
 Once received, we'll send you a payment link via Noon to secure your reservation.
   (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html)
+
+## Learned (2026-04-18)
+- When a lead confirms they will complete the remaining payment and check in around 1:00 PM, inform them that standard check-in time begins at 3:00 PM. Also prompt them to complete the check-in form, as this is required to finalise the process.
+  (Learned from Faysal handling Lead re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q4rybf4K5g.html)
