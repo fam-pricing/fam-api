@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-18T09:27:09.640Z",
+  "ts": "2026-04-18T09:27:25.091Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4232809075",
+    "type": "INBOUND",
+    "message_id": "4232809167",
     "ticket_id": "942468897",
-    "message": "Here is the bank account number once transferred please share the payment receipt so we can double check with the finance team",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Sure",
+    "channel_id": "1304636",
     "contact_id": "536120342",
     "contact_name": "Rakshith Totalekere",
     "contact_identifier": "+971502469315",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4232809075",
+    "parent_ticket_id": "942468897",
+    "event_type": "INBOUND"
   }
 }
