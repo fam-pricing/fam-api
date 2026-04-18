@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-18T10:00:33.345Z",
+  "ts": "2026-04-18T10:01:14.230Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4232824958",
+    "type": "INBOUND",
+    "message_id": "4232825387",
     "ticket_id": "942468897",
-    "message": "We have received the payment and you can proceed with the balance payment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Done thanks",
+    "channel_id": "1304636",
     "contact_id": "536120342",
     "contact_name": "Rakshith Totalekere",
     "contact_identifier": "+971502469315",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4232824958",
+    "parent_ticket_id": "942468897",
+    "event_type": "INBOUND"
   }
 }
