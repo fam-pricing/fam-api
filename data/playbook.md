@@ -364,3 +364,7 @@ Once received, we'll send you a payment link via Noon to secure your reservation
 ## Learned (2026-04-18)
 - If a lead questions the total amount (e.g., "Why is this 5,464?"), explain that a 3.1% card processing fee has been applied to the booking.
   (Learned from Faysal handling Lead re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q4rybf4K5g.html)
+
+## Learned (2026-04-18)
+- When a lead commits to a viewing date that is more than one day away and shares their contact number, acknowledge their request and then advise them that the calendar is listed across multiple platforms and additional bookings may come in before their visit. Recommend that they schedule the viewing for today or tomorrow instead, and complete the deposit payment to secure and confirm their booking.
+  (Learned from Faysal handling . re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
