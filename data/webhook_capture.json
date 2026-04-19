@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-19T08:28:20.824Z",
+  "ts": "2026-04-19T08:28:56.031Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4233270309",
+    "type": "INBOUND",
+    "message_id": "4233270657",
     "ticket_id": "943419403",
-    "message": "Our team has been waiting for you since 12:00 PM; however, they have proceeded to another pre-scheduled viewing and are expected to return around 1:50 PM.\r\n\r\nIn the meantime, kindly proceed with the upside viewing first and return at 1:50 PM.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I’m there",
+    "channel_id": "1304636",
     "contact_id": "536357623",
     "contact_name": "Amna",
     "contact_identifier": "+923228898800",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
