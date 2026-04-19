@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-19T19:05:00.717Z",
+  "ts": "2026-04-19T19:05:09.352Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233548671",
-    "ticket_id": "943974720",
-    "message": "13h",
+    "type": "OUTBOUND",
+    "message_id": "4233548754",
+    "ticket_id": "943975000",
+    "message": "Let me get that video arranged for you right away, Ahmed!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "536501521",
+    "contact_name": "Ahmed Othmaan",
+    "contact_identifier": "+971564315914",
     "channel_id": "1304636",
-    "contact_id": "536501473",
-    "contact_name": "JR",
-    "contact_identifier": "+971586730550",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
