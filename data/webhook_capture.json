@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-19T23:15:04.636Z",
+  "ts": "2026-04-19T23:15:29.217Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233610418",
+    "type": "OUTBOUND",
+    "message_id": "4233610449",
     "ticket_id": "944003410",
-    "message": "I want to see the apartment and then make decisions! I don't need a deposit either? I'll pay monthly, but I want to sign a contract for 3 months",
-    "channel_id": "1304636",
+    "message": "Andrei, on the deposit, we do require the first and last month upfront to secure the unit, then monthly from there.\n\nFor the viewing, what day works best for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536509061",
     "contact_name": "Andrei",
     "contact_identifier": "+971585967170",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
