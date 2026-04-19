@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-19T07:56:27.773Z",
+  "ts": "2026-04-19T07:58:52.519Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233254892",
+    "type": "OUTBOUND",
+    "message_id": "4233255831",
     "ticket_id": "943419403",
-    "message": "Hello?",
-    "channel_id": "1304636",
+    "message": "Yes you can go now one of our team member will be there to assist you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536357623",
     "contact_name": "Amna",
     "contact_identifier": "+923228898800",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
