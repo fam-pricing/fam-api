@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-19T08:31:23.999Z",
+  "ts": "2026-04-19T08:32:31.406Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233272084",
+    "type": "OUTBOUND",
+    "message_id": "4233272715",
     "ticket_id": "943419403",
-    "message": "The receptionist is asking for email",
-    "channel_id": "1304636",
+    "message": "Attachment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536357623",
     "contact_name": "Amna",
     "contact_identifier": "+923228898800",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
