@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-19T16:53:31.514Z",
+  "ts": "2026-04-19T16:53:34.761Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4233498291",
+    "type": "INBOUND",
+    "message_id": "4233498302",
     "ticket_id": "943953084",
-    "message": "Glad everything looks good! Let me check with the owner on the discount and come back to you shortly.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Sure you can take your time on that but would like to build some long term certainty with the owner",
+    "channel_id": "1304636",
     "contact_id": "536495465",
     "contact_name": "A",
     "contact_identifier": "+971545030587",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4233498041",
+    "parent_ticket_id": "943953084",
+    "event_type": "INBOUND"
   }
 }
