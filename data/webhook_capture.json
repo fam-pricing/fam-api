@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-19T13:30:40.911Z",
+  "ts": "2026-04-19T13:31:29.632Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4233412534",
+    "type": "INBOUND",
+    "message_id": "4233412802",
     "ticket_id": "943918453",
-    "message": "The damage deposit is AED 1,500, fully refundable within 14 working days after check-out. Here's the listing with full photos: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVy5H4ZsBs.html. Would you like to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes",
+    "channel_id": "1304636",
     "contact_id": "536485502",
     "contact_name": "Margaret",
     "contact_identifier": "+971588074843",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
