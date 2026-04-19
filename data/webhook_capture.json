@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-19T16:52:28.700Z",
+  "ts": "2026-04-19T16:52:42.496Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233497997",
+    "type": "OUTBOUND",
+    "message_id": "4233498041",
     "ticket_id": "943953084",
-    "message": "1,000 monthly discount",
-    "channel_id": "1304636",
+    "message": "Rates are month-to-month, confirmed in 3-month blocks, so a full-year fixed price isn't something the owner offers. There may be some flexibility on the monthly rate though, want me to check what's possible with them?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536495465",
     "contact_name": "A",
     "contact_identifier": "+971545030587",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
