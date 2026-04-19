@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-19T10:27:11.050Z",
+  "ts": "2026-04-19T10:27:33.671Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233327351",
+    "type": "OUTBOUND",
+    "message_id": "4233327480",
     "ticket_id": "943890277",
-    "message": "At 5 pm it’s okay ?",
-    "channel_id": "1304636",
+    "message": "5pm works! Just need a photo of your passport or Emirates ID to arrange building access, could you send it here?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536477951",
     "contact_name": "Vanessa",
     "contact_identifier": "+573002591757",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
