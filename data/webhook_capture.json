@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-19T15:05:29.463Z",
+  "ts": "2026-04-19T15:07:57.358Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233453199",
+    "type": "OUTBOUND",
+    "message_id": "4233454055",
     "ticket_id": "943932862",
-    "message": "Ok thanks.",
-    "channel_id": "585723",
+    "message": "Receptionist will come to the apartment now to handover the keys",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536490157",
     "contact_name": "May T Almoayed",
     "contact_identifier": "+97339666888",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
