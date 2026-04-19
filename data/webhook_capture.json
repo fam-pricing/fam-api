@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-19T19:25:58.321Z",
+  "ts": "2026-04-19T19:26:05.566Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4233556013",
+    "type": "INBOUND",
+    "message_id": "4233556033",
     "ticket_id": "943974720",
-    "message": "There's just the one 3BR available, sometimes listings show different photos of the same apartment, which can make it look like two separate units. Here's the full listing so you can see everything: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-imperial-avenue-15819509.html\n\nWhat time tomorrow works for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "So, tomorrow 13h, confirmed?",
+    "channel_id": "1304636",
     "contact_id": "536501473",
     "contact_name": "JR",
     "contact_identifier": "+971586730550",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4233548671",
+    "parent_ticket_id": "943974720",
+    "event_type": "INBOUND"
   }
 }
