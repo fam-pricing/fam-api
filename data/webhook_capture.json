@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-19T07:36:12.066Z",
+  "ts": "2026-04-19T07:37:25.905Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233245702",
+    "type": "OUTBOUND",
+    "message_id": "4233246173",
     "ticket_id": "943680486",
-    "message": "Deposit aed3000?",
-    "channel_id": "585723",
+    "message": "Yes there will be a security deposit of AED 3000",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536421245",
     "contact_name": "Ahmed Ben Saad",
     "contact_identifier": "+971524484287",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
