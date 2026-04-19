@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-19T10:25:09.070Z",
+  "ts": "2026-04-19T10:25:15.171Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233326600",
+    "type": "OUTBOUND",
+    "message_id": "4233326644",
     "ticket_id": "943890277",
-    "message": "Move date April 21-may 21",
-    "channel_id": "1304636",
+    "message": "The security deposit is AED 1,000 on top of the first month, so AED 5,500 upfront in total. Would you like to come see it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536477951",
     "contact_name": "Vanessa",
     "contact_identifier": "+573002591757",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
