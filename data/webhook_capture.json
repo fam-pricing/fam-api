@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-19T16:50:59.822Z",
+  "ts": "2026-04-19T16:51:23.960Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233497554",
+    "type": "OUTBOUND",
+    "message_id": "4233497665",
     "ticket_id": "943953084",
-    "message": "Yes I’ve seen it",
-    "channel_id": "1304636",
+    "message": "The security deposit is AED 2,000, refundable within 14 working days after check-out. That's the only extra cost. Would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536495465",
     "contact_name": "A",
     "contact_identifier": "+971545030587",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
