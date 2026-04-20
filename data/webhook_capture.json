@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-20T05:57:01.728Z",
+  "ts": "2026-04-20T05:58:01.861Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4233699722",
+    "type": "INBOUND",
+    "message_id": "4233700119",
     "ticket_id": "944045748",
-    "message": "Sure I will inform",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "536514867",
     "contact_name": "Sandali Resident Liaison MAG318",
     "contact_identifier": "+971552048720",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4233699722",
+    "parent_ticket_id": "944045748",
+    "event_type": "INBOUND"
   }
 }
