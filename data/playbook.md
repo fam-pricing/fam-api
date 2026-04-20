@@ -399,3 +399,7 @@ Once received, we'll send you a payment link via Noon to secure your reservation
 
 Once received, we'll send over the registration card for your signature. As soon as everything is completed, we'll share your self-check-in details."
   (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html)
+
+## Learned (2026-04-20)
+- If a lead asks about deposit charges, reassure them that the refundable deposit is completely free of any additional charges.
+  (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html)
