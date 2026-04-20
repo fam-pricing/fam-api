@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-20T06:14:54.885Z",
+  "ts": "2026-04-20T06:15:52.843Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233711029",
-    "ticket_id": "943559550",
-    "message": "The pest control technician has finished his work. He said the apartment needs to be cleaned in 2–3 hours. Will you be sending a cleaning team ?",
+    "type": "OUTBOUND",
+    "message_id": "4233711563",
+    "ticket_id": "943926977",
+    "message": "Yes we can offer Rent AED 6000 for the 01st 03 months and security deposit of AED 2000",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536281420",
+    "contact_name": "Rachel S.",
+    "contact_identifier": "+971585004816",
     "channel_id": "1304636",
-    "contact_id": "536394570",
-    "contact_name": "Sofiane",
-    "contact_identifier": "+33695624458",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
