@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-20T08:41:03.084Z",
+  "ts": "2026-04-20T08:41:36.045Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233877288",
+    "type": "OUTBOUND",
+    "message_id": "4233877923",
     "ticket_id": "873321159",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "Good afternoon Mrs ANDREA\r\n\r\nApologies for the delay\r\n\r\nWe can extend the stay for 07 nights with the rate of AED 1983 I will send the payment link to complete the payment and confirm the extension",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "518768648",
     "contact_name": "Mrs ANDREA PINIELLA ALVAREZ",
     "contact_identifier": "+971588014203",
-    "parent_message_id": "4233853384",
-    "parent_ticket_id": "873321159",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
