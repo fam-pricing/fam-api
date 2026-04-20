@@ -1,17 +1,19 @@
 {
-  "ts": "2026-04-20T07:59:29.192Z",
+  "ts": "2026-04-20T08:01:07.820Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233823156",
-    "ticket_id": "944079614",
-    "message": "All bills included?",
+    "type": "OUTBOUND",
+    "message_id": "4233825403",
+    "ticket_id": "943962439",
+    "message": "We have a one-bedroom apartment at Upside Living, as well as a unit at Bayz by Danube, both of which fall within your budget.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535502953",
+    "contact_identifier": "+33781412632",
     "channel_id": "1304636",
-    "contact_id": "536522632",
-    "contact_name": "Amir Hosseini",
-    "contact_identifier": "+971567769459",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
