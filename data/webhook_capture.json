@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-20T18:30:30.381Z",
+  "ts": "2026-04-20T18:30:45.985Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234566415",
-    "ticket_id": "944312076",
-    "message": "Hi",
+    "type": "OUTBOUND",
+    "message_id": "4234566546",
+    "ticket_id": "943715492",
+    "message": "Is there anything else I can help you with today ?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536431348",
+    "contact_name": "Leila Dehbandi - RP Heights",
+    "contact_identifier": "+971504784948",
     "channel_id": "1304636",
-    "contact_id": "536585155",
-    "contact_name": "Muhammad",
-    "contact_identifier": "+971561683935",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
