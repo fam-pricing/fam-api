@@ -403,3 +403,7 @@ Once received, we'll send over the registration card for your signature. As soon
 ## Learned (2026-04-20)
 - If a lead asks about deposit charges, reassure them that the refundable deposit is completely free of any additional charges.
   (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html)
+
+## Learned (2026-04-20)
+- If a lead requests a year-long contract, explain that bookings are confirmed in 3-month blocks and that the rate for each subsequent period will be reviewed and adjusted based on current market conditions.
+  (Learned from Faysal handling M re PF-HH-AR-68202)
