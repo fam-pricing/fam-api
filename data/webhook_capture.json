@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-20T08:40:52.226Z",
+  "ts": "2026-04-20T08:41:03.084Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4233877073",
-    "ticket_id": "943680486",
-    "message": "I am checking with the management for that",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536421245",
-    "contact_name": "Ahmed Ben Saad",
-    "contact_identifier": "+971524484287",
+    "type": "INBOUND",
+    "message_id": "4233877288",
+    "ticket_id": "873321159",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "518768648",
+    "contact_name": "Mrs ANDREA PINIELLA ALVAREZ",
+    "contact_identifier": "+971588014203",
+    "parent_message_id": "4233853384",
+    "parent_ticket_id": "873321159",
+    "event_type": "INBOUND"
   }
 }
