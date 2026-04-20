@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-20T08:41:58.421Z",
+  "ts": "2026-04-20T08:42:22.953Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4233878413",
+    "type": "INBOUND",
+    "message_id": "4233878888",
     "ticket_id": "943330149",
-    "message": "Sure once done please share the payment receipt to confirm from the finance",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "The link is expired",
+    "channel_id": "1304636",
     "contact_id": "536340091",
     "contact_name": "M - Nobles",
     "contact_identifier": "+971585429848",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4233794448",
+    "parent_ticket_id": "943330149",
+    "event_type": "INBOUND"
   }
 }
