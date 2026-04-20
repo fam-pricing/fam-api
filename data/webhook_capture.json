@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-20T07:27:44.060Z",
+  "ts": "2026-04-20T07:28:02.044Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4233781919",
-    "ticket_id": "943330149",
-    "message": "For self-check-in, we will need the following to be able to process:\r\n\r\n1- Copy of your passport\r\n2- email\r\n\r\n3- We will send you the registration card; please sign it and send it back to us.\r\n\r\nOnce we complete the above steps, we will send you the self-check-in details",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536340091",
-    "contact_name": "M - Nobles",
-    "contact_identifier": "+971585429848",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4233782409",
+    "ticket_id": "944047205",
+    "message": "👍",
+    "channel_id": "585723",
+    "contact_id": "536515108",
+    "contact_name": "Signature hotel",
+    "contact_identifier": "+971526978474",
+    "parent_message_id": "4233781626",
+    "parent_ticket_id": "944047205",
+    "event_type": "INBOUND"
   }
 }
