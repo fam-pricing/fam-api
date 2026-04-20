@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-20T08:22:29.261Z",
+  "ts": "2026-04-20T08:23:55.818Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4233853384",
-    "ticket_id": "873321159",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "518768648",
-    "contact_name": "Mrs ANDREA PINIELLA ALVAREZ",
-    "contact_identifier": "+971588014203",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4233855170",
+    "ticket_id": "943974720",
+    "message": "Please send me",
+    "channel_id": "1304636",
+    "contact_id": "536501473",
+    "contact_name": "JR",
+    "contact_identifier": "+971586730550",
+    "parent_message_id": "4233556669",
+    "parent_ticket_id": "943974720",
+    "event_type": "INBOUND"
   }
 }
