@@ -10006,5 +10006,17 @@
     "lead_quality": 35,
     "buying_stage": "COOL",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-04-20T09:03:32.748Z",
+    "ticket_id": 944115165,
+    "lead_id": "message_lead_28865212",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 16547,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "Cannot identify the property. Ref PF-HH-AR-68202 is not mapped to any known listing in the portfolio. Need Faysal to confirm which property this lead enquired about before proceeding."
   }
 ]
