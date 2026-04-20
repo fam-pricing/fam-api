@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-20T06:49:53.587Z",
+  "ts": "2026-04-20T06:50:35.054Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233739271",
-    "ticket_id": "944047205",
-    "message": "Contact (Name: Reception Signature Marina | Phone: +971 52 876 4503)",
+    "type": "OUTBOUND",
+    "message_id": "4233739722",
+    "ticket_id": "943882741",
+    "message": "Can you please complete the check in form and update us",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536475880",
+    "contact_name": "Gasim Abdalla",
+    "contact_identifier": "+971544644969",
     "channel_id": "585723",
-    "contact_id": "536515108",
-    "contact_name": "Signature hotel",
-    "contact_identifier": "+971526978474",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
