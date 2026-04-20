@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-20T07:18:33.268Z",
+  "ts": "2026-04-20T07:19:45.306Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233771538",
-    "ticket_id": "944079614",
-    "message": "What’s the details?",
-    "channel_id": "1304636",
-    "contact_id": "536522632",
-    "contact_name": "Amir Hosseini",
-    "contact_identifier": "+971567769459",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4233772742",
+    "ticket_id": "941757415",
+    "message": "https://totalpay.ae/payment/202604202569e5d37dc3b6e",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535953930",
+    "contact_name": "Shakiba alsama",
+    "contact_identifier": "+971502487446",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
