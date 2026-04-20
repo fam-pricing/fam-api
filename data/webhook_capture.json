@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-20T11:35:50.395Z",
+  "ts": "2026-04-20T11:35:53.582Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4234108775",
-    "ticket_id": "944166370",
-    "message": "May I know the check out date please. per night rates will be different",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536544073",
-    "contact_name": "Théo Soggiu 🇫🇷",
-    "contact_identifier": "+971545171713",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4234108874",
+    "ticket_id": "944156878",
+    "message": "That Studio is available?",
+    "channel_id": "1304636",
+    "contact_id": "536542486",
+    "contact_name": "Flavia Castro",
+    "contact_identifier": "+553488183982",
+    "event_type": "INBOUND"
   }
 }
