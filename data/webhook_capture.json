@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-20T06:50:35.054Z",
+  "ts": "2026-04-20T06:51:56.146Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4233739722",
-    "ticket_id": "943882741",
-    "message": "Can you please complete the check in form and update us",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536475880",
-    "contact_name": "Gasim Abdalla",
-    "contact_identifier": "+971544644969",
+    "type": "INBOUND",
+    "message_id": "4233740742",
+    "ticket_id": "944061930",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "474327787",
+    "contact_name": "Daniyar",
+    "contact_identifier": "+971509254474",
+    "parent_message_id": "4233725729",
+    "parent_ticket_id": "944061930",
+    "event_type": "INBOUND"
   }
 }
