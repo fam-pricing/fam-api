@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-20T09:27:13.152Z",
+  "ts": "2026-04-20T09:28:55.824Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233937022",
-    "ticket_id": "943715492",
-    "message": "Good afternoon",
+    "type": "OUTBOUND",
+    "message_id": "4233938973",
+    "ticket_id": "943974720",
+    "message": "Team will be waiting for you at the building.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "536501473",
+    "contact_name": "JR",
+    "contact_identifier": "+971586730550",
     "channel_id": "1304636",
-    "contact_id": "536431348",
-    "contact_name": "Leila Dehbandi - RP Heights",
-    "contact_identifier": "+971504784948",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
