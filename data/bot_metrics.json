@@ -10642,5 +10642,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-04-20T18:32:20.627Z",
+    "ticket_id": 943735541,
+    "lead_id": "message_lead_28836264",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1223,
+    "critic_pass": null,
+    "lead_quality": 35,
+    "buying_stage": "COOL",
+    "skip_reason": "bot_paused"
   }
 ]
