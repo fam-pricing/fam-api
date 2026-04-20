@@ -388,3 +388,14 @@ Once received, we'll send you a payment link via Noon to secure your reservation
 ## Learned (2026-04-20)
 - If a lead says they are available today after 6:00 PM, inform them that the team operates from 9:00 AM to 6:00 PM and offer to schedule a call within those hours.
   (Learned from Faysal handling Sofiane re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-the-bay-2PZWbS2FraC.html)
+
+## Learned (2026-04-20)
+- When a lead says "Proceed the booking" (or any clear confirmation to book), respond with the following:
+
+"To process your booking and arrange self-check-in, we'll need the following from you:
+
+1. A copy of your passport
+2. Your email address
+
+Once received, we'll send over the registration card for your signature. As soon as everything is completed, we'll share your self-check-in details."
+  (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html)
