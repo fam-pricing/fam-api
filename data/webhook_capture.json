@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-20T09:57:52.921Z",
+  "ts": "2026-04-20T10:00:29.392Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233978432",
-    "ticket_id": "873321159",
-    "message": "What's our current check out date?",
-    "channel_id": "585723",
-    "contact_id": "518768648",
-    "contact_name": "Mrs ANDREA PINIELLA ALVAREZ",
-    "contact_identifier": "+971588014203",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4233981573",
+    "ticket_id": "944115165",
+    "message": "Hi\r\n\r\nUnfortunately, we are unable to proceed with this unit as has already been booked by another guest.\r\n\r\nMay I check if you would like me to suggest another 1-bedroom apartment in the Upside Living building instead?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536532309",
+    "contact_name": "M",
+    "contact_identifier": "+971585891507",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
