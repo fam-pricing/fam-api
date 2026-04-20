@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-20T09:41:08.329Z",
+  "ts": "2026-04-20T09:41:25.938Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233954494",
+    "type": "OUTBOUND",
+    "message_id": "4233954904",
     "ticket_id": "943974720",
-    "message": "You should provide better guidance; there's no space to park the car",
-    "channel_id": "1304636",
+    "message": "You can give the car to valet",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "536501473",
     "contact_name": "JR",
     "contact_identifier": "+971586730550",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
