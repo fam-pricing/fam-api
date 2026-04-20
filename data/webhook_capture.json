@@ -1,17 +1,19 @@
 {
-  "ts": "2026-04-20T05:50:35.924Z",
+  "ts": "2026-04-20T05:51:54.732Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233696786",
-    "ticket_id": "943972714",
-    "message": "Sure, who will i meet there?",
+    "type": "OUTBOUND",
+    "message_id": "4233697291",
+    "ticket_id": "943962439",
+    "message": "Hi good morning,\r\n\r\nYes the apartment is still available would you like to make a reservation with us",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535502953",
+    "contact_identifier": "+33781412632",
     "channel_id": "1304636",
-    "contact_id": "536476505",
-    "contact_name": "Georgi",
-    "contact_identifier": "+447413535253",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
