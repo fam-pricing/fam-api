@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-20T12:58:01.785Z",
+  "ts": "2026-04-20T12:58:14.804Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234221712",
-    "ticket_id": "924165260",
-    "message": "I booked apart in your agency, and you send me the deposit to my card",
+    "type": "OUTBOUND",
+    "message_id": "4234221935",
+    "ticket_id": "943680486",
+    "message": "Your most welcome and waiting for the response",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536421245",
+    "contact_name": "Ahmed Ben Saad",
+    "contact_identifier": "+971524484287",
     "channel_id": "585723",
-    "contact_id": "531623777",
-    "contact_name": "Roman Sosnov",
-    "contact_identifier": "+79030866663",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
