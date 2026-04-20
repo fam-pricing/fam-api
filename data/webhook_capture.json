@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-20T06:38:11.493Z",
+  "ts": "2026-04-20T06:38:33.303Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4233728305",
+    "type": "INBOUND",
+    "message_id": "4233728750",
     "ticket_id": "943926977",
-    "message": "Please note that the calendar is also open on other platforms, and we may receive bookings at any time. The unit will be secured for you only upon receipt of the deposit payment.\r\n\r\nHope you understand!",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Understood :-)",
+    "channel_id": "1304636",
     "contact_id": "536281420",
     "contact_name": "Rachel S.",
     "contact_identifier": "+971585004816",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4233728305",
+    "parent_ticket_id": "943926977",
+    "event_type": "INBOUND"
   }
 }
