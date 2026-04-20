@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-20T08:42:22.953Z",
+  "ts": "2026-04-20T08:43:17.553Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233878888",
+    "type": "OUTBOUND",
+    "message_id": "4233880021",
     "ticket_id": "943330149",
-    "message": "The link is expired",
-    "channel_id": "1304636",
+    "message": "Allow me to resend it",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536340091",
     "contact_name": "M - Nobles",
     "contact_identifier": "+971585429848",
-    "parent_message_id": "4233794448",
-    "parent_ticket_id": "943330149",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
