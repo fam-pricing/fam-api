@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-20T14:09:39.308Z",
+  "ts": "2026-04-20T14:10:18.860Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234316321",
-    "ticket_id": "943972714",
-    "message": "And this is what you told me about the deposit and nothing else",
+    "type": "OUTBOUND",
+    "message_id": "4234317215",
+    "ticket_id": "943907807",
+    "message": "Apologies for the delay,\r\n\r\nHowever, please note that this unit is no longer available as we have received another confirmed booking.\r\n\r\nKindly let me know if we should share the details for the Upside Living 1-bedroom apartment or Bayz by Danube instead.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536482361",
+    "contact_name": "Muhib",
+    "contact_identifier": "+971568165869",
     "channel_id": "1304636",
-    "contact_id": "536476505",
-    "contact_name": "Georgi",
-    "contact_identifier": "+447413535253",
-    "parent_message_id": "4233309940",
-    "parent_ticket_id": "943972714",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
