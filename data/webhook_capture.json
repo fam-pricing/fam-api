@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-20T06:38:33.303Z",
+  "ts": "2026-04-20T06:39:56.380Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233728750",
+    "type": "OUTBOUND",
+    "message_id": "4233730153",
     "ticket_id": "943926977",
-    "message": "Understood :-)",
-    "channel_id": "1304636",
+    "message": "Please double check with us before completing the deposit payment on next week",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536281420",
     "contact_name": "Rachel S.",
     "contact_identifier": "+971585004816",
-    "parent_message_id": "4233728305",
-    "parent_ticket_id": "943926977",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
