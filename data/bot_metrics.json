@@ -1,65 +1,5 @@
 [
   {
-    "ts": "2026-04-13T16:42:41.618Z",
-    "ticket_id": 942303330,
-    "lead_id": "message_lead_28746127",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1393,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-04-13T16:43:44.268Z",
-    "ticket_id": 942303330,
-    "lead_id": "message_lead_28746127",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 25515,
-    "critic_pass": null,
-    "lead_quality": 35,
-    "buying_stage": "COOL",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-04-13T16:46:48.424Z",
-    "ticket_id": 942303330,
-    "lead_id": "message_lead_28746127",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 22769,
-    "critic_pass": null,
-    "lead_quality": 50,
-    "buying_stage": "WARM",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-04-13T16:49:21.234Z",
-    "ticket_id": 942303330,
-    "lead_id": "message_lead_28746127",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1416,
-    "critic_pass": null,
-    "lead_quality": 50,
-    "buying_stage": "WARM",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-04-13T16:50:51.116Z",
-    "ticket_id": 942303330,
-    "lead_id": "message_lead_28746127",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 24462,
-    "critic_pass": null,
-    "lead_quality": 70,
-    "buying_stage": "HOT",
-    "skip_reason": null
-  },
-  {
     "ts": "2026-04-13T18:55:38.894Z",
     "ticket_id": 941752223,
     "lead_id": "message_lead_28708841",
@@ -10569,6 +10509,18 @@
     "critic_pass": null,
     "lead_quality": 40,
     "buying_stage": "WARM",
+    "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-04-20T16:57:51.737Z",
+    "ticket_id": 944115165,
+    "lead_id": "message_lead_28865212",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1201,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
     "skip_reason": "bot_paused"
   }
 ]
