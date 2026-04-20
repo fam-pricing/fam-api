@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-20T05:28:56.760Z",
+  "ts": "2026-04-20T05:32:24.260Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233687232",
+    "type": "OUTBOUND",
+    "message_id": "4233689047",
     "ticket_id": "944047205",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536515108",
     "contact_name": "Signature hotel",
     "contact_identifier": "+971526978474",
-    "parent_message_id": "4233686729",
-    "parent_ticket_id": "944047205",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
