@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-20T07:40:21.301Z",
+  "ts": "2026-04-20T07:40:27.920Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233798636",
+    "type": "OUTBOUND",
+    "message_id": "4233798774",
     "ticket_id": "943330149",
-    "message": "Bank transfer",
-    "channel_id": "1304636",
+    "message": "Yes this amount is fully refundable at check-out, provided there are no damages to the apartment. The refund will be processed within 14 working days after your departure.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536340091",
     "contact_name": "M - Nobles",
     "contact_identifier": "+971585429848",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
