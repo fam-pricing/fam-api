@@ -384,3 +384,7 @@ Once received, we'll send you a payment link via Noon to secure your reservation
 ## Learned (2026-04-18)
 - When a lead asks how much they need to pay to make a reservation, respond: "Once you complete the deposit payment, we can block the unit for you."
   (Learned from Faysal handling Leila Dehbandi re PF-HH-AR-68202)
+
+## Learned (2026-04-20)
+- If a lead says they are available today after 6:00 PM, inform them that the team operates from 9:00 AM to 6:00 PM and offer to schedule a call within those hours.
+  (Learned from Faysal handling Sofiane re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-the-bay-2PZWbS2FraC.html)
