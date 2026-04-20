@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-20T06:20:47.462Z",
+  "ts": "2026-04-20T06:25:24.416Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4233714494",
-    "ticket_id": "943559550",
-    "message": "I am available today from 8:00 PM after work.",
+    "type": "OUTBOUND",
+    "message_id": "4233717722",
+    "ticket_id": "943650350",
+    "message": "Good morning,\r\n\r\nWe have checked with the management, and they have approved fixing the rate for a total period of six months. The first three months will be at AED 5,000 per month, followed by AED 6,000 per month for the next three months.\r\n\r\nHope this works for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536414061",
+    "contact_name": "Maria",
+    "contact_identifier": "+96176100864",
     "channel_id": "1304636",
-    "contact_id": "536394570",
-    "contact_name": "Sofiane",
-    "contact_identifier": "+33695624458",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
