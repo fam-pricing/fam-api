@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-21T08:43:37.885Z",
+  "ts": "2026-04-21T08:45:20.584Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234911897",
-    "ticket_id": "944355699",
-    "message": "I left the place!",
+    "type": "OUTBOUND",
+    "message_id": "4234914032",
+    "ticket_id": "944387778",
+    "message": "so do you like to book the apartment",
+    "user_id": "746181",
+    "user_name": "Avinash I",
+    "user_email": "avinashanilkumar.i@famliving.com",
+    "contact_id": "536284001",
+    "contact_name": "Rs Mlk",
+    "contact_identifier": "+971581451699",
     "channel_id": "1304636",
-    "contact_id": "536600338",
-    "contact_name": "Pardis sarhangpour",
-    "contact_identifier": "+971555621370",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
