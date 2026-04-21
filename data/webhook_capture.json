@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-21T09:14:37.509Z",
+  "ts": "2026-04-21T09:15:45.507Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234947393",
-    "ticket_id": "944400397",
-    "message": "Please send me the location and the name of the agent who will be there.",
+    "type": "OUTBOUND",
+    "message_id": "4234948687",
+    "ticket_id": "943330149",
+    "message": "You may proceed with the payment in two installments: the first covering the initial three months, and the second covering the following three months.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536340091",
+    "contact_name": "Mahassine Al Awad",
+    "contact_identifier": "+971585429848",
     "channel_id": "1304636",
-    "contact_id": "536612300",
-    "contact_name": "Zagra Shaiikhmagomedova",
-    "contact_identifier": "+971521393836",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
