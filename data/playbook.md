@@ -422,3 +422,15 @@ Once received, we'll send over the registration card for your signature. As soon
 
 Once received, we will send you a registration card to sign and return. After completing these steps, we will share your self-check-in details."
   (Learned from Faysal handling Muhammad re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-04-21)
+- When a lead confirms they are happy to proceed, respond with the following:
+
+"For self-check-in, we will need the following to complete your booking:
+
+1. A copy of your passport
+2. Your email address
+3. A signed registration card (we will send this to you)
+
+Once we have received the above, we will send you your self-check-in details."
+  (Learned from Faysal handling Rs Mlk re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
