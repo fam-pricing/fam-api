@@ -8519,7 +8519,9 @@
     "viewing_pending_since": "2026-04-20T18:32:38.964Z",
     "bot_paused": true,
     "last_escalated_at": "2026-04-20T18:33:30.580Z",
-    "last_escalated_question": null
+    "last_escalated_question": null,
+    "last_agent_reply_at": "2026-04-21T07:33:09.973Z",
+    "last_learned_at": "2026-04-21T07:33:14.869Z"
   },
   "message_lead_28877032": {
     "stage": "new",
@@ -8599,17 +8601,18 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html",
     "trengo_ticket_id": 944387778,
     "lead_name": "Rs Mlk",
-    "last_bot_reply_content": "The studio is AED 4,500/month all-inclusive. What dates are you looking at moving in?",
-    "last_bot_reply_at": "2026-04-21T07:27:26.356Z",
+    "last_bot_reply_content": "May 1st works great. What price did you see in the ad?",
+    "last_bot_reply_at": "2026-04-21T07:31:03.996Z",
     "lead_replied": true,
-    "lead_replied_at": "2026-04-21T07:27:26.356Z",
-    "bot_reply_count": 4,
-    "last_processed_message_id": "4234826610",
+    "lead_replied_at": "2026-04-21T07:31:03.996Z",
+    "bot_reply_count": 6,
+    "last_processed_message_id": "4234830291",
     "unanswered_alert_sent": false,
-    "lead_quality_score": 15,
-    "lead_quality_label": "COLD",
+    "lead_quality_score": 30,
+    "lead_quality_label": "COOL",
     "lead_quality_signals": [
       "high engagement (5+ messages)",
+      "near-term timeline",
       "budget concern",
       "specific unit type"
     ]
