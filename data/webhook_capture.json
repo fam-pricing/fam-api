@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-21T07:26:17.866Z",
+  "ts": "2026-04-21T07:26:39.436Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234825813",
+    "type": "OUTBOUND",
+    "message_id": "4234826144",
     "ticket_id": "944387778",
-    "message": "the ad i saw it was cheaper",
-    "channel_id": "1304636",
+    "message": "The studio is still available. What price did you see in the ad?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536284001",
     "contact_name": "Rs Mlk",
     "contact_identifier": "+971581451699",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
