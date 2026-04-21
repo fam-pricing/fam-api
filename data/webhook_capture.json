@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-21T08:09:01.018Z",
+  "ts": "2026-04-21T08:09:25.204Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234871958",
+    "type": "OUTBOUND",
+    "message_id": "4234872417",
     "ticket_id": "944400397",
-    "message": "I'm interested in renting this apartment",
-    "channel_id": "1304636",
+    "message": "Available now, the 2BR in Elite Business Bay is all-in at AED 5,500/month, nothing extra beyond the deposit.\n\nWhen are you looking to move in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536612300",
     "contact_name": "Zagra Shaiikhmagomedova",
     "contact_identifier": "+971521393836",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
