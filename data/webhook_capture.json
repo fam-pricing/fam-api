@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-21T05:39:50.817Z",
+  "ts": "2026-04-21T05:41:59.253Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234746895",
-    "ticket_id": "943972714",
-    "message": "Paid, please confirm if everything is ok and money received",
+    "type": "OUTBOUND",
+    "message_id": "4234747955",
+    "ticket_id": "944315110",
+    "message": "We can offer a rate of AED 5,500 per month for the first three months for the one-bedroom apartment, and AED 4,500 per month for 1st three months the studio apartment at Upside Living.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535489706",
+    "contact_name": "Gabriela Soler",
+    "contact_identifier": "+34669662413",
     "channel_id": "1304636",
-    "contact_id": "536476505",
-    "contact_name": "Georgi",
-    "contact_identifier": "+447413535253",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
