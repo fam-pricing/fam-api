@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-21T02:00:41.083Z",
+  "ts": "2026-04-21T03:44:52.483Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234699336",
-    "ticket_id": "944346338",
-    "message": "I thought the issue was with the hose, but at times I can see the water dripping from the ceiling",
+    "type": "OUTBOUND",
+    "message_id": "4234719846",
+    "ticket_id": "944355699",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-13851930.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "536600338",
+    "contact_name": "Pardis sarhangpour",
+    "contact_identifier": "+971555621370",
     "channel_id": "1304636",
-    "contact_id": "535581566",
-    "contact_name": "MOHAMMED AMIR SAAD ISHTIAQUE",
-    "contact_identifier": "+971501911263",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
