@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-21T12:49:54.840Z",
+  "ts": "2026-04-21T12:52:32.722Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4235197784",
-    "ticket_id": "943974720",
-    "message": "I pay in cash at check-in",
-    "channel_id": "1304636",
-    "contact_id": "536501473",
-    "contact_name": "JR",
-    "contact_identifier": "+971586730550",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4235200457",
+    "ticket_id": "944253428",
+    "message": "May I know how many bedrooms you are looking for",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536567159",
+    "contact_name": "Mishael",
+    "contact_identifier": "+971523720519",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
