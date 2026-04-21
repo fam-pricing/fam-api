@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-21T09:13:48.952Z",
+  "ts": "2026-04-21T09:14:37.509Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4234946417",
+    "type": "INBOUND",
+    "message_id": "4234947393",
     "ticket_id": "944400397",
-    "message": "Sure we have arranged the viewing for you and our team will be there at 5pm to assist you with the viewing",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Please send me the location and the name of the agent who will be there.",
+    "channel_id": "1304636",
     "contact_id": "536612300",
     "contact_name": "Zagra Shaiikhmagomedova",
     "contact_identifier": "+971521393836",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
