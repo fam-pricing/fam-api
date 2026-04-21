@@ -434,3 +434,7 @@ Once received, we will send you a registration card to sign and return. After co
 
 Once we have received the above, we will send you your self-check-in details."
   (Learned from Faysal handling Rs Mlk re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
+
+## Learned (2026-04-21)
+- If the lead confirms they want to proceed, instruct them to complete payment in two installments: the first covering the initial three months, and the second covering the following three months.
+  (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html)
