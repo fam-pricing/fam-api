@@ -8622,7 +8622,9 @@
     ],
     "bot_paused": true,
     "last_escalated_at": "2026-04-21T07:37:37.187Z",
-    "last_escalated_question": null
+    "last_escalated_question": null,
+    "last_agent_reply_at": "2026-04-21T09:00:45.976Z",
+    "last_learned_at": "2026-04-21T09:00:50.578Z"
   },
   "message_lead_28884357": {
     "stage": "new",
@@ -8633,15 +8635,28 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html",
     "trengo_ticket_id": 944400397,
     "lead_name": "Zagra Shaiikhmagomedova",
-    "last_bot_reply_content": "Any questions about the property, or what are you looking for in a place?",
-    "last_bot_reply_at": "2026-04-21T08:08:23.117Z",
+    "last_bot_reply_content": "Thank you for sending your ID. Our team will be in touch shortly to confirm the property location and all viewing details.",
+    "last_bot_reply_at": "2026-04-21T08:18:23.635Z",
     "lead_replied": true,
-    "lead_replied_at": "2026-04-21T08:08:23.117Z",
-    "bot_reply_count": 1,
-    "last_processed_message_id": "4234870994",
+    "lead_replied_at": "2026-04-21T08:16:50.480Z",
+    "bot_reply_count": 6,
+    "last_processed_message_id": "4234882354",
     "unanswered_alert_sent": false,
-    "lead_quality_score": 5,
-    "lead_quality_label": "COLD",
-    "lead_quality_signals": []
+    "lead_quality_score": 90,
+    "lead_quality_label": "HOT",
+    "lead_quality_signals": [
+      "high engagement (5+ messages)",
+      "urgent timeline",
+      "move-in intent",
+      "viewing interest",
+      "pricing enquiry"
+    ],
+    "viewing_status": "id_received_no_coords",
+    "viewing_day": "today",
+    "viewing_time": "5pm",
+    "viewing_property": "2BR in Elite Business Bay Residence",
+    "viewing_pending_since": "2026-04-21T08:16:50.479Z",
+    "bot_paused": true,
+    "viewing_id_url": null
   }
 }
