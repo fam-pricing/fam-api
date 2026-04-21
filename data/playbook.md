@@ -438,3 +438,7 @@ Once we have received the above, we will send you your self-check-in details."
 ## Learned (2026-04-21)
 - If the lead confirms they want to proceed, instruct them to complete payment in two installments: the first covering the initial three months, and the second covering the following three months.
   (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-nobles-tower-2PT65kD87Bg.html)
+
+## Learned (2026-04-21)
+- If a lead asks how long the quoted price is valid, confirm that the rate is available for the first 2 months.
+  (Learned from Faysal handling Rs Mlk re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
