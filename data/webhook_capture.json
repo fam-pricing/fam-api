@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-21T08:28:18.281Z",
+  "ts": "2026-04-21T08:28:25.562Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234893110",
-    "ticket_id": "944405653",
-    "message": "If you prefer, we can do it through Airbnb",
+    "type": "OUTBOUND",
+    "message_id": "4234893254",
+    "ticket_id": "944115165",
+    "message": "We can offer a rate of AED 5,000 for the first three months, followed by AED 6,000 for the next three months. starting from May\r\n\r\nAdditionally we need a security deposit of AED 2000",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536532309",
+    "contact_name": "M",
+    "contact_identifier": "+971585891507",
     "channel_id": "1304636",
-    "contact_id": "536485795",
-    "contact_name": ".",
-    "contact_identifier": "+994775308398",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
