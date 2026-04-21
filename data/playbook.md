@@ -442,3 +442,14 @@ Once we have received the above, we will send you your self-check-in details."
 ## Learned (2026-04-21)
 - If a lead asks how long the quoted price is valid, confirm that the rate is available for the first 2 months.
   (Learned from Faysal handling Rs Mlk re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
+
+## Learned (2026-04-21)
+- When a lead confirms they want to proceed with a property (e.g., "The first one we saw yesterday"), respond with the following:
+
+"To complete your booking, we will need the following:
+
+1. A copy of your passport
+2. Your email address
+
+Once we receive these, we will send you a registration card to sign and return. Upon completion, we will provide you with your self-check-in details."
+  (Learned from Faysal handling JR re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-imperial-avenue-15819509.html)
