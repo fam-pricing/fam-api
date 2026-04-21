@@ -8567,7 +8567,7 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-13851930.html",
     "trengo_ticket_id": 944355699,
     "lead_name": "Pardis sarhangpour",
-    "last_bot_reply_content": "Got it, just received your document. Did you want to confirm a time in the 1:00, 1:30 window, or is there a slot that suits you better?",
+    "last_bot_reply_content": "Apologies for any inconvenience. Let me get someone from the team to assist you personally.",
     "last_bot_reply_at": "2026-04-21T08:00:34.273Z",
     "lead_replied": true,
     "lead_replied_at": "2026-04-21T08:00:34.273Z",
@@ -8581,7 +8581,10 @@
       "urgent timeline",
       "viewing interest",
       "pricing enquiry"
-    ]
+    ],
+    "bot_paused": true,
+    "last_escalated_at": "2026-04-21T08:04:39.923Z",
+    "last_escalated_question": null
   },
   "message_lead_28880158": {
     "stage": "new",
@@ -8620,5 +8623,25 @@
     "bot_paused": true,
     "last_escalated_at": "2026-04-21T07:37:37.187Z",
     "last_escalated_question": null
+  },
+  "message_lead_28884357": {
+    "stage": "new",
+    "notes": [],
+    "auto_responded": true,
+    "auto_responded_at": "2026-04-21T08:07:51.685Z",
+    "pf_phone": "971521393836",
+    "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html",
+    "trengo_ticket_id": 944400397,
+    "lead_name": "Zagra Shaiikhmagomedova",
+    "last_bot_reply_content": "Any questions about the property, or what are you looking for in a place?",
+    "last_bot_reply_at": "2026-04-21T08:08:23.117Z",
+    "lead_replied": true,
+    "lead_replied_at": "2026-04-21T08:08:23.117Z",
+    "bot_reply_count": 1,
+    "last_processed_message_id": "4234870994",
+    "unanswered_alert_sent": false,
+    "lead_quality_score": 5,
+    "lead_quality_label": "COLD",
+    "lead_quality_signals": []
   }
 }
