@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-21T03:55:13.762Z",
+  "ts": "2026-04-21T03:55:37.446Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234721887",
+    "type": "OUTBOUND",
+    "message_id": "4234721930",
     "ticket_id": "944355699",
-    "message": "Can you tell me about details? \nAnd Can I visit the room?",
-    "channel_id": "1304636",
+    "message": "It's available right now, so you can move in straight away. Want to come see it today or tomorrow, what time works for you between 9am and 6pm?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536600338",
     "contact_name": "Pardis sarhangpour",
     "contact_identifier": "+971555621370",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
