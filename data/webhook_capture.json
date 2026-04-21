@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-21T09:22:28.471Z",
+  "ts": "2026-04-21T09:24:38.217Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234956413",
-    "ticket_id": "943330149",
-    "message": "Sure",
+    "type": "OUTBOUND",
+    "message_id": "4234958998",
+    "ticket_id": "944400397",
+    "message": "Our team will be there at 5pm and we have shared your details with them and they will contact you at that time",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536612300",
+    "contact_name": "Zagra Shaiikhmagomedova",
+    "contact_identifier": "+971521393836",
     "channel_id": "1304636",
-    "contact_id": "536340091",
-    "contact_name": "Mahassine Al Awad",
-    "contact_identifier": "+971585429848",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
