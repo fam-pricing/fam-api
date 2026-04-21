@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-21T07:36:41.447Z",
+  "ts": "2026-04-21T07:36:42.438Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4234836672",
+    "type": "INBOUND",
+    "message_id": "4234836699",
     "ticket_id": "944387778",
-    "message": "The studio at Upside Living is still available. What price were you seeing in the ad?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "4500 i saw and its oj",
+    "channel_id": "1304636",
     "contact_id": "536284001",
     "contact_name": "Rs Mlk",
     "contact_identifier": "+971581451699",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4234835698",
+    "parent_ticket_id": "944387778",
+    "event_type": "INBOUND"
   }
 }
