@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-21T07:48:20.561Z",
+  "ts": "2026-04-21T07:48:30.861Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234849582",
-    "ticket_id": "944395055",
-    "message": "Hello, sorry I didn't see your message",
+    "type": "OUTBOUND",
+    "message_id": "4234849820",
+    "ticket_id": "944355699",
+    "message": "Yes, 1pm works. Shall I confirm that for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "536600338",
+    "contact_name": "Pardis sarhangpour",
+    "contact_identifier": "+971555621370",
     "channel_id": "1304636",
-    "contact_id": "536414061",
-    "contact_name": "Maria",
-    "contact_identifier": "+96176100864",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
