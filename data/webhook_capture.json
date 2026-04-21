@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-21T10:42:20.599Z",
+  "ts": "2026-04-21T10:42:36.644Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4235053547",
+    "type": "OUTBOUND",
+    "message_id": "4235053827",
     "ticket_id": "944387778",
-    "message": "Yes its better",
-    "channel_id": "1304636",
+    "message": "May I know at what time you will be able to do the viewing today?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536284001",
     "contact_name": "Rs Mlk",
     "contact_identifier": "+971581451699",
-    "parent_message_id": "4235053253",
-    "parent_ticket_id": "944387778",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
