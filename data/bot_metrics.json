@@ -10690,5 +10690,17 @@
     "lead_quality": 35,
     "buying_stage": "COOL",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-04-21T08:04:41.083Z",
+    "ticket_id": 944355699,
+    "lead_id": "message_lead_28880116",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 11793,
+    "critic_pass": null,
+    "lead_quality": 65,
+    "buying_stage": "WARM",
+    "skip_reason": "frustration_detected"
   }
 ]
