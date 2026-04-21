@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-21T10:42:02.382Z",
+  "ts": "2026-04-21T10:42:17.055Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4235053253",
-    "ticket_id": "944387778",
-    "message": "You may proceed with the viewing today. If you confirm before 3:00 PM, we will be able to secure the reservation on the same day. Otherwise, we can arrange the reservation for tomorrow.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536284001",
-    "contact_name": "Rs Mlk",
-    "contact_identifier": "+971581451699",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4235053481",
+    "ticket_id": "941125723",
+    "message": "He wants to go today",
+    "channel_id": "585723",
+    "contact_id": "535783872",
+    "contact_name": "Elena H",
+    "contact_identifier": "+971555746622",
+    "event_type": "INBOUND"
   }
 }
