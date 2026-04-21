@@ -411,3 +411,14 @@ Once received, we'll send over the registration card for your signature. As soon
 ## Learned (2026-04-21)
 - If a lead asks about extending their stay beyond the initial period, respond: "We will review the current market conditions and update the rates accordingly, based on three-month rental blocks."
   (Learned from Faysal handling Bakhazi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-04-21)
+- When a lead asks to speak by phone or says they have more questions before booking, do not provide a phone number. Instead, guide them toward completing the reservation digitally by responding with the following:
+
+"To proceed with your reservation, please provide the following:
+
+1. A copy of your passport
+2. Your email address
+
+Once received, we will send you a registration card to sign and return. After completing these steps, we will share your self-check-in details."
+  (Learned from Faysal handling Muhammad re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
