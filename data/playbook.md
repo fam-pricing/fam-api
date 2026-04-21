@@ -407,3 +407,7 @@ Once received, we'll send over the registration card for your signature. As soon
 ## Learned (2026-04-20)
 - If a lead requests a year-long contract, explain that bookings are confirmed in 3-month blocks and that the rate for each subsequent period will be reviewed and adjusted based on current market conditions.
   (Learned from Faysal handling M re PF-HH-AR-68202)
+
+## Learned (2026-04-21)
+- If a lead asks about extending their stay beyond the initial period, respond: "We will review the current market conditions and update the rates accordingly, based on three-month rental blocks."
+  (Learned from Faysal handling Bakhazi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
