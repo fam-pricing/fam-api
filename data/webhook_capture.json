@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-21T05:34:46.224Z",
+  "ts": "2026-04-21T05:35:34.435Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234745112",
+    "type": "OUTBOUND",
+    "message_id": "4234745380",
     "ticket_id": "943972714",
-    "message": "Send over the link I will pay you the deposit now",
-    "channel_id": "1304636",
+    "message": "Payment link - https://totalpay.ae/payment/202604211169e70c8fe1f22",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536476505",
     "contact_name": "Georgi",
     "contact_identifier": "+447413535253",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
