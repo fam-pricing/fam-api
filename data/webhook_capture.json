@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-21T07:46:29.570Z",
+  "ts": "2026-04-21T07:48:06.100Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234847633",
-    "ticket_id": "944312076",
-    "message": "Ok. Then can I come your office to speak about this option?",
+    "type": "OUTBOUND",
+    "message_id": "4234849328",
+    "ticket_id": "943330149",
+    "message": "As you mentioned that you will complete the payment in full at once, we have secured this rate for you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536340091",
+    "contact_name": "Mahassine Al Awad",
+    "contact_identifier": "+971585429848",
     "channel_id": "1304636",
-    "contact_id": "536585155",
-    "contact_name": "Muhammad",
-    "contact_identifier": "+971561683935",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
