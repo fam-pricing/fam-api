@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-21T10:32:35.833Z",
+  "ts": "2026-04-21T10:32:49.860Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4235043051",
-    "ticket_id": "943974720",
-    "message": "Ok, done",
+    "type": "OUTBOUND",
+    "message_id": "4235043296",
+    "ticket_id": "944375432",
+    "message": "Please complete the deposit payment to block the unit for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535760321",
+    "contact_name": "amy",
+    "contact_identifier": "+971501170660",
     "channel_id": "1304636",
-    "contact_id": "536501473",
-    "contact_name": "JR",
-    "contact_identifier": "+971586730550",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
