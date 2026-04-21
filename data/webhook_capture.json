@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-21T09:58:10.895Z",
+  "ts": "2026-04-21T09:58:11.384Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4234999035",
-    "ticket_id": "944309555",
-    "message": "Would you like to schedule a viewing of the apartment?",
-    "user_id": "746181",
-    "user_name": "Avinash I",
-    "user_email": "avinashanilkumar.i@famliving.com",
-    "contact_id": "536583873",
-    "contact_name": "Aysha",
-    "contact_identifier": "+971507638836",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4234999039",
+    "ticket_id": "944408968",
+    "message": "That’s surprising that August is not on the same rate as July",
+    "channel_id": "1304636",
+    "contact_id": "536564339",
+    "contact_name": "Arthur Max",
+    "contact_identifier": "+33664282424",
+    "event_type": "INBOUND"
   }
 }
