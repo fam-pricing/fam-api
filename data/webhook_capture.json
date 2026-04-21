@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-21T09:38:47.811Z",
+  "ts": "2026-04-21T09:38:49.648Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234976230",
+    "type": "OUTBOUND",
+    "message_id": "4234976281",
     "ticket_id": "944429109",
-    "message": "I want to enlist my hotel property, is this possible?",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "536622174",
     "contact_name": "Mark",
     "contact_identifier": "4ecda21a-d2d7-4107-b5a9-b8122f17996c",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
