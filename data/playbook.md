@@ -453,3 +453,7 @@ Once we have received the above, we will send you your self-check-in details."
 
 Once we receive these, we will send you a registration card to sign and return. Upon completion, we will provide you with your self-check-in details."
   (Learned from Faysal handling JR re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-imperial-avenue-15819509.html)
+
+## Learned (2026-04-21)
+- If a lead says they are available after 6:00 PM, respond with: "You're welcome to proceed with the viewing today. Please note that confirming before 3:00 PM allows us to secure the reservation on the same day — otherwise, we will arrange it for tomorrow."
+  (Learned from Faysal handling Rs Mlk re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
