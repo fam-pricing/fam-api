@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-21T07:58:55.896Z",
+  "ts": "2026-04-21T07:59:01.854Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4234860341",
-    "ticket_id": "944273620",
-    "message": "Unfortunately, we are unable to confirm a long-term rate of AED 4,000, as the current pricing is based on prevailing market conditions.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536193516",
-    "contact_name": "Hajer Trimeche",
-    "contact_identifier": "+971551761082",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4234860408",
+    "ticket_id": "944309555",
+    "message": "Confirm",
+    "channel_id": "585723",
+    "contact_id": "536583873",
+    "contact_name": "Aysha",
+    "contact_identifier": "+971507638836",
+    "parent_message_id": "4234552686",
+    "parent_ticket_id": "944309555",
+    "event_type": "INBOUND"
   }
 }
