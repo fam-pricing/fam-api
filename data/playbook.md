@@ -461,3 +461,11 @@ Once we receive these, we will send you a registration card to sign and return. 
 ## Learned (2026-04-21)
 - If a lead requests a 6-month stay starting May 1st, inform them that we are unable to confirm the rate for 6 months, but we can lock in the rate for 3 months.
   (Learned from Faysal handling Propertyana Holiday Homes re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVy5H4ZsBs.html)
+
+## Learned (2026-04-21)
+- When a lead asks whether they can pay the security deposit now and deliver the remaining balance (e.g., "I'll pay this one and personally deliver the remaining 10k") in person, respond as follows:
+
+The amount being requested is a fully refundable security deposit. It will be returned within 7 working days after check-out, provided the apartment is left without damages.
+
+Remind the lead that the rent must be paid separately and in full through the proper payment process — it cannot be delivered in person or combined with the deposit payment.
+  (Learned from Faysal handling JR re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-imperial-avenue-15819509.html)
