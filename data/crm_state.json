@@ -8448,7 +8448,9 @@
     ],
     "bot_paused": true,
     "last_escalated_at": "2026-04-20T12:22:22.142Z",
-    "last_escalated_question": null
+    "last_escalated_question": null,
+    "last_agent_reply_at": "2026-04-21T06:52:42.370Z",
+    "last_learned_at": "2026-04-21T06:52:45.699Z"
   },
   "message_lead_28872330": {
     "stage": "new",
@@ -8563,17 +8565,19 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-13851930.html",
     "trengo_ticket_id": 944355699,
     "lead_name": "Pardis sarhangpour",
-    "last_bot_reply_content": "Yes, today or tomorrow works perfectly. It's the Studio in Bayz by Danube, Business Bay, all-inclusive at AED 4,400/month. Which date suits you better?\n\nWait, \n\nYes, today or tomorrow is no problem. Which works better for you?",
-    "last_bot_reply_at": "2026-04-21T03:53:52.177Z",
+    "last_bot_reply_content": "Great, today works. What time are you thinking?",
+    "last_bot_reply_at": "2026-04-21T04:33:13.170Z",
     "lead_replied": true,
-    "lead_replied_at": "2026-04-21T03:53:52.177Z",
-    "bot_reply_count": 2,
-    "last_processed_message_id": "4234721656",
+    "lead_replied_at": "2026-04-21T04:33:13.170Z",
+    "bot_reply_count": 6,
+    "last_processed_message_id": "4234728614",
     "unanswered_alert_sent": false,
-    "lead_quality_score": 40,
+    "lead_quality_score": 65,
     "lead_quality_label": "WARM",
     "lead_quality_signals": [
+      "high engagement (5+ messages)",
       "urgent timeline",
+      "viewing interest",
       "pricing enquiry"
     ]
   },
