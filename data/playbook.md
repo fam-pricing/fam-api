@@ -457,3 +457,7 @@ Once we receive these, we will send you a registration card to sign and return. 
 ## Learned (2026-04-21)
 - If a lead says they are available after 6:00 PM, respond with: "You're welcome to proceed with the viewing today. Please note that confirming before 3:00 PM allows us to secure the reservation on the same day — otherwise, we will arrange it for tomorrow."
   (Learned from Faysal handling Rs Mlk re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
+
+## Learned (2026-04-21)
+- If a lead requests a 6-month stay starting May 1st, inform them that we are unable to confirm the rate for 6 months, but we can lock in the rate for 3 months.
+  (Learned from Faysal handling Propertyana Holiday Homes re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVy5H4ZsBs.html)
