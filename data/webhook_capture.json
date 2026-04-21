@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-21T03:55:37.446Z",
+  "ts": "2026-04-21T03:56:13.208Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4234721930",
+    "type": "INBOUND",
+    "message_id": "4234721988",
     "ticket_id": "944355699",
-    "message": "It's available right now, so you can move in straight away. Want to come see it today or tomorrow, what time works for you between 9am and 6pm?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Please tell me details about total price",
+    "channel_id": "1304636",
     "contact_id": "536600338",
     "contact_name": "Pardis sarhangpour",
     "contact_identifier": "+971555621370",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
