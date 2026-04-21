@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-21T07:37:26.670Z",
+  "ts": "2026-04-21T07:37:31.270Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4234837490",
-    "ticket_id": "944387778",
-    "message": "Yes",
+    "type": "OUTBOUND",
+    "message_id": "4234837550",
+    "ticket_id": "944375432",
+    "message": "Unfortunately, we are unable to accept the deposit payment in cash today. You may proceed with the payment via the payment link to secure and block the unit for you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535760321",
+    "contact_name": "amy",
+    "contact_identifier": "+971501170660",
     "channel_id": "1304636",
-    "contact_id": "536284001",
-    "contact_name": "Rs Mlk",
-    "contact_identifier": "+971581451699",
-    "parent_message_id": "4234836993",
-    "parent_ticket_id": "944387778",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
