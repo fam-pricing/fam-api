@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-22T12:26:04.507Z",
+  "ts": "2026-04-22T12:26:06.742Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4236171145",
-    "ticket_id": "944815972",
-    "message": "Ok",
-    "channel_id": "585723",
-    "contact_id": "536731079",
-    "contact_name": "Ahmed Rashid",
-    "contact_identifier": "+971504344100",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4236171201",
+    "ticket_id": "944797072",
+    "message": "Yes we can arrange a call for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536725848",
+    "contact_name": "Indiana",
+    "contact_identifier": "+46729618909",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
