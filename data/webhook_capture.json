@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-22T13:55:34.219Z",
+  "ts": "2026-04-22T13:55:42.717Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4236276588",
-    "ticket_id": "944845192",
-    "message": "I’m from fäm",
+    "type": "OUTBOUND",
+    "message_id": "4236276744",
+    "ticket_id": "943680486",
+    "message": "waiting for the response",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536421245",
+    "contact_name": "Ahmed Ben Saad",
+    "contact_identifier": "+971524484287",
     "channel_id": "585723",
-    "contact_id": "536741202",
-    "contact_name": "Majd - fäm properties",
-    "contact_identifier": "+971586681556",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
