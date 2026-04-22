@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-22T06:19:53.873Z",
+  "ts": "2026-04-22T06:20:08.097Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4235777662",
-    "ticket_id": "926592783",
-    "message": "Confirm",
-    "channel_id": "585723",
-    "contact_id": "517825599",
-    "contact_name": "Arifa Patel",
-    "contact_identifier": "+971567647755",
-    "parent_message_id": "4235775697",
-    "parent_ticket_id": "926592783",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4235777769",
+    "ticket_id": "944678790",
+    "message": "Please note that the security deposit and rent payment must be completed separately. The deposit is refundable, and if the rent is paid by card, a 3.1% processing fee will apply.\r\n\r\nTherefore, we kindly request you to process these payments separately.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535370331",
+    "contact_name": "Sandra Muñoz",
+    "contact_identifier": "+971525789941",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
