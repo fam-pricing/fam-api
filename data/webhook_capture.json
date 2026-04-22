@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-22T11:16:09.253Z",
+  "ts": "2026-04-22T11:17:52.834Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4236091974",
-    "ticket_id": "944797072",
-    "message": "thank you, Im not in Dubai at the moment so i would like to take the call n botim if thats possible, or if they can have a call on Whatsapp I dont mind, and i prefer someone thats speaks Arabic xx",
+    "type": "OUTBOUND",
+    "message_id": "4236093837",
+    "ticket_id": "944798491",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-opera-district-grande-14592976.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "536726326",
+    "contact_name": "J.",
+    "contact_identifier": "+971585874597",
     "channel_id": "1304636",
-    "contact_id": "536725848",
-    "contact_name": "Indiana",
-    "contact_identifier": "+46729618909",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
