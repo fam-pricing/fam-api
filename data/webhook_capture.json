@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-22T10:08:01.456Z",
+  "ts": "2026-04-22T10:08:23.197Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4236017474",
-    "ticket_id": "944775918",
-    "message": "Let's proceed with this",
+    "type": "OUTBOUND",
+    "message_id": "4236017886",
+    "ticket_id": "944400397",
+    "message": "He is off today.\r\n\r\nOnce the payment is completed, we will update your details with the building management and register your reservation accordingly.\r\n\r\nAs our standard check-in time is from 3:00 PM onwards, we will share the check-in details between 2:00 PM and 3:00 PM on the check-in date.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536612300",
+    "contact_name": "Zagra Shaiikhmagomedova",
+    "contact_identifier": "+971521393836",
     "channel_id": "1304636",
-    "contact_id": "536414061",
-    "contact_name": "Maria",
-    "contact_identifier": "+96176100864",
-    "parent_message_id": "4233717722",
-    "parent_ticket_id": "944395055",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
