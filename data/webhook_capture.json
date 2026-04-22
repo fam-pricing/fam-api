@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-22T19:03:45.952Z",
+  "ts": "2026-04-22T19:04:07.878Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4236540442",
+    "type": "OUTBOUND",
+    "message_id": "4236540614",
     "ticket_id": "944920197",
-    "message": "We are thinking of making a 3-month long-term rental. Can I get information about the prices? Is there a dishwasher at home? What floor? From May 10",
-    "channel_id": "1304636",
+    "message": "Let me pull up the full details for you and come back shortly!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536766897",
     "contact_name": "Büşra Arslan",
     "contact_identifier": "+971557922241",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
