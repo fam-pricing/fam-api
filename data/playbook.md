@@ -469,3 +469,7 @@ The amount being requested is a fully refundable security deposit. It will be re
 
 Remind the lead that the rent must be paid separately and in full through the proper payment process — it cannot be delivered in person or combined with the deposit payment.
   (Learned from Faysal handling JR re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-imperial-avenue-15819509.html)
+
+## Learned (2026-04-22)
+- If a lead requests billing on a specific monthly date (e.g., "the 22nd of each month"), clarify that billing does not follow calendar months. Explain that all bookings are calculated on a 30-day cycle, meaning the billing date is determined by the start date and repeats every 30 days, not on a fixed date each month.
+  (Learned from Faysal handling Margaret re 1BR in MAG 318)
