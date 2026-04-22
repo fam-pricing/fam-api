@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-22T12:25:17.289Z",
+  "ts": "2026-04-22T12:25:26.647Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4236170287",
-    "ticket_id": "944781978",
-    "message": "Yes plz",
-    "channel_id": "1304636",
-    "contact_id": "536721100",
-    "contact_name": "I",
-    "contact_identifier": "+971507455718",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4236170463",
+    "ticket_id": "944815972",
+    "message": "Please complete the check in form to register you in the building",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536731079",
+    "contact_name": "Ahmed Rashid",
+    "contact_identifier": "+971504344100",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
