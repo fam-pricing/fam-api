@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-22T11:20:48.712Z",
+  "ts": "2026-04-22T11:21:22.101Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4236097172",
-    "ticket_id": "944781978",
-    "message": "Yes this unit is available from 25th April would you like to proceed with the reservation",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536721100",
-    "contact_name": "I",
-    "contact_identifier": "+971507455718",
+    "type": "INBOUND",
+    "message_id": "4236097774",
+    "ticket_id": "944408968",
+    "message": "Can you send the detail of your company",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536564339",
+    "contact_name": "Arthur Max",
+    "contact_identifier": "+33664282424",
+    "event_type": "INBOUND"
   }
 }
