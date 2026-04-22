@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-22T10:14:06.279Z",
+  "ts": "2026-04-22T10:14:43.104Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4236024146",
+    "type": "INBOUND",
+    "message_id": "4236024757",
     "ticket_id": "944400397",
-    "message": "May I know your estimated check in time please?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Cash",
+    "channel_id": "1304636",
     "contact_id": "536612300",
     "contact_name": "Magomed Aliev",
     "contact_identifier": "+971521393836",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4236023884",
+    "parent_ticket_id": "944400397",
+    "event_type": "INBOUND"
   }
 }
