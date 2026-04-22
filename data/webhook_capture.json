@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-22T13:01:47.857Z",
+  "ts": "2026-04-22T13:07:29.647Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4236215499",
-    "ticket_id": "944798491",
-    "message": "May I reconfirm you would like to make a reservation in Grande apartment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536726326",
-    "contact_name": "J.",
-    "contact_identifier": "+971585874597",
+    "type": "INBOUND",
+    "message_id": "4236222128",
+    "ticket_id": "944781978",
+    "message": "Ok tomorrow then",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536721100",
+    "contact_name": "I",
+    "contact_identifier": "+971507455718",
+    "event_type": "INBOUND"
   }
 }
