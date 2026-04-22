@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-22T07:45:57.715Z",
+  "ts": "2026-04-22T07:46:29.887Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4235854078",
-    "ticket_id": "944400397",
-    "message": "Could you please confirm whether you sent this email?",
+    "type": "OUTBOUND",
+    "message_id": "4235854664",
+    "ticket_id": "944424653",
+    "message": "Hi good morning",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "536476505",
+    "contact_name": "Georgi",
+    "contact_identifier": "+447413535253",
     "channel_id": "1304636",
-    "contact_id": "536612300",
-    "contact_name": "Zagra Shaiikhmagomedova",
-    "contact_identifier": "+971521393836",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
