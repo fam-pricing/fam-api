@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-22T18:59:54.502Z",
+  "ts": "2026-04-22T19:03:45.952Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4236538425",
+    "type": "INBOUND",
+    "message_id": "4236540442",
     "ticket_id": "944920197",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nPF-HH-AR-136820\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "We are thinking of making a 3-month long-term rental. Can I get information about the prices? Is there a dishwasher at home? What floor? From May 10",
+    "channel_id": "1304636",
     "contact_id": "536766897",
     "contact_name": "Büşra Arslan",
     "contact_identifier": "+971557922241",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
