@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-22T11:00:22.001Z",
+  "ts": "2026-04-22T11:00:49.334Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4236071598",
+    "type": "INBOUND",
+    "message_id": "4236072586",
     "ticket_id": "944408968",
-    "message": "To arrange a viewing of the apartment, we are required to update your details with the building management. For this reason, we kindly request you to share your ID at your earliest convenience.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Which data do you need ?",
+    "channel_id": "1304636",
     "contact_id": "536564339",
     "contact_name": "Arthur Max",
     "contact_identifier": "+33664282424",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
