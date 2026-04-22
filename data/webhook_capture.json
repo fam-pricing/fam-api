@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-22T07:19:19.850Z",
+  "ts": "2026-04-22T07:19:29.935Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4235826131",
-    "ticket_id": "934199428",
-    "message": "Hi Good morning\r\n\r\n02 bedroom apartments which is vacant\r\n\r\nUnit - 209/407/607/609/707/709/909",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "534076190",
-    "contact_name": "Thanvir Aafaq",
-    "contact_identifier": "+971521229233",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4235826258",
+    "ticket_id": "944400397",
+    "message": "Thank you for your reply.\n\nA detailed email confirmation will be acceptable, provided it clearly states that:\n\n- the monthly rate of AED ___ is fixed for the entire stay from Apr 23 to Jul 23, 2026  \n- the rate will not be subject to any change or increase, regardless of payment schedule  \n- the rate is not subject to seasonal adjustments or market changes  \n\nPlease include the property name and my reservation details in the confirmation.\n\nOnce this is confirmed in writing, I will proceed.",
+    "channel_id": "1304636",
+    "contact_id": "536612300",
+    "contact_name": "Zagra Shaiikhmagomedova",
+    "contact_identifier": "+971521393836",
+    "event_type": "INBOUND"
   }
 }
