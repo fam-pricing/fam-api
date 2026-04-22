@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-22T10:11:10.054Z",
+  "ts": "2026-04-22T10:11:30.306Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4236021289",
+    "type": "INBOUND",
+    "message_id": "4236021630",
     "ticket_id": "944400397",
-    "message": "Let me check",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536612300",
-    "contact_name": "Zagra Shaiikhmagomedova",
-    "contact_identifier": "+971521393836",
+    "message": "We asked the agent if we could check in early, and he said we could. Could you confirm if that’s possible?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536612300",
+    "contact_name": "Magomed Aliev",
+    "contact_identifier": "+971521393836",
+    "event_type": "INBOUND"
   }
 }
