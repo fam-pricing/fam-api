@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-22T06:16:14.290Z",
+  "ts": "2026-04-22T06:16:17.735Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4235775697",
-    "ticket_id": "926592783",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "517825599",
-    "contact_name": "Arifa Patel",
-    "contact_identifier": "+971567647755",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4235775732",
+    "ticket_id": "944400397",
+    "message": "Is this an official contract?",
+    "channel_id": "1304636",
+    "contact_id": "536612300",
+    "contact_name": "Zagra Shaiikhmagomedova",
+    "contact_identifier": "+971521393836",
+    "event_type": "INBOUND"
   }
 }
