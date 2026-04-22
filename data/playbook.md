@@ -473,3 +473,14 @@ Remind the lead that the rent must be paid separately and in full through the pr
 ## Learned (2026-04-22)
 - If a lead requests billing on a specific monthly date (e.g., "the 22nd of each month"), clarify that billing does not follow calendar months. Explain that all bookings are calculated on a 30-day cycle, meaning the billing date is determined by the start date and repeats every 30 days, not on a fixed date each month.
   (Learned from Faysal handling Margaret re 1BR in MAG 318)
+
+## Learned (2026-04-22)
+- When a lead responds with "Ok" (or any clear confirmation to proceed), send the following message:
+
+To proceed with your booking, we'll need the following:
+
+1. A copy of your passport
+2. Your email address
+
+Once we receive these, we'll send you a registration card to sign and return. After completing these steps, we'll share your self-check-in details.
+  (Learned from Faysal handling Margaret re 1BR in MAG 318)
