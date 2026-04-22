@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-22T08:50:27.273Z",
+  "ts": "2026-04-22T08:51:15.366Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4235925703",
+    "type": "OUTBOUND",
+    "message_id": "4235926557",
     "ticket_id": "944551758",
-    "message": "I send it already",
-    "channel_id": "1304636",
+    "message": "Just now I received the confirmation from the finance and we have received the payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536340091",
     "contact_name": "Mahassine Al Awad",
     "contact_identifier": "+971585429848",
-    "parent_message_id": "4235399148",
-    "parent_ticket_id": "944551758",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
