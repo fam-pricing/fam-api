@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-22T09:57:33.377Z",
+  "ts": "2026-04-22T09:59:20.630Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4236005258",
-    "ticket_id": "944636273",
-    "message": "How much is possible to give me discount please let me knows",
+    "type": "OUTBOUND",
+    "message_id": "4236007041",
+    "ticket_id": "944346338",
+    "message": "We're sorry to hear that. We have forward the complaint to the contractor.",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "535581566",
+    "contact_name": "MOHAMMED AMIR SAAD ISHTIAQUE",
+    "contact_identifier": "+971501911263",
     "channel_id": "1304636",
-    "contact_id": "535119429",
-    "contact_name": "Reihaneh Hossein Til",
-    "contact_identifier": "+971504133080",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
