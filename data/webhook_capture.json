@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-23T16:11:32.163Z",
+  "ts": "2026-04-23T16:11:55.788Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4237370885",
+    "type": "INBOUND",
+    "message_id": "4237371143",
     "ticket_id": "928781438",
-    "message": "Attachment",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "Wat is there in this",
+    "channel_id": "585723",
     "contact_id": "532732239",
     "contact_name": "Deepna Kothari",
     "contact_identifier": "+919820744665",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4237370425",
+    "parent_ticket_id": "928781438",
+    "event_type": "INBOUND"
   }
 }
