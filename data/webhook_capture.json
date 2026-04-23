@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-23T05:31:26.231Z",
+  "ts": "2026-04-23T05:39:57.453Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4236690980",
-    "ticket_id": "944972513",
-    "message": "Please confirm. I would appreciate it, thank you.",
+    "type": "OUTBOUND",
+    "message_id": "4236694700",
+    "ticket_id": "944920197",
+    "message": "Yes this apartment is available from 10th May and we can offer the rate as AED 7000",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536766897",
+    "contact_name": "Büşra Arslan",
+    "contact_identifier": "+971557922241",
     "channel_id": "1304636",
-    "contact_id": "535119429",
-    "contact_name": "Reihaneh Hossein Til",
-    "contact_identifier": "+971504133080",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
