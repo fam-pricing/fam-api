@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-23T13:01:43.358Z",
+  "ts": "2026-04-23T13:02:52.520Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237167808",
-    "ticket_id": "945110255",
-    "message": "Hi, I hope you're doing well. I'm reaching out regarding the apartment. Given the current situation with the war, I wanted to ask if it would be possible to adjust the payment to 5k. We would really appreciate your understanding during this difficult time and are open to discussing it to find a solution that works for both of us. Thank you very much.",
+    "type": "OUTBOUND",
+    "message_id": "4237168944",
+    "ticket_id": "945111083",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nyour enquiry on Property Finder\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "536168955",
+    "contact_name": "...",
+    "contact_identifier": "+971555776918",
     "channel_id": "1304636",
-    "contact_id": "536485502",
-    "contact_name": "Margaret",
-    "contact_identifier": "+971588074843",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
