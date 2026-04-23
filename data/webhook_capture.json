@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-23T13:00:00.712Z",
+  "ts": "2026-04-23T13:00:01.885Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4237165987",
-    "ticket_id": "945110247",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in MAG 318\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "536795748",
-    "contact_name": "Shivani Harjani",
-    "contact_identifier": "+34637455645",
+    "type": "INBOUND",
+    "message_id": "4237165997",
+    "ticket_id": "945110255",
+    "message": "Hi",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536485502",
+    "contact_name": "Margaret",
+    "contact_identifier": "+971588074843",
+    "event_type": "INBOUND"
   }
 }
