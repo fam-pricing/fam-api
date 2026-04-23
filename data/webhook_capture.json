@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-23T15:07:36.738Z",
+  "ts": "2026-04-23T15:07:58.940Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237313450",
+    "type": "OUTBOUND",
+    "message_id": "4237313773",
     "ticket_id": "945146328",
-    "message": "I can visit today or tomorrow, you tell me",
-    "channel_id": "1304636",
+    "message": "Both work, what time suits you best, today or tomorrow?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536836946",
     "contact_name": "Sandro Manager AL Granada",
     "contact_identifier": "+554891338181",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
