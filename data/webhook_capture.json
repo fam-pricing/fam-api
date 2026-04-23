@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-23T07:49:52.995Z",
+  "ts": "2026-04-23T07:50:07.736Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4236796585",
-    "ticket_id": "945007222",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-harbour-emaar-beachfront-sunrise-bay-sunrise-bay-tower-2-69094760.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "536786688",
-    "contact_name": "V",
-    "contact_identifier": "+971544726222",
+    "type": "INBOUND",
+    "message_id": "4236796827",
+    "ticket_id": "944781978",
+    "message": "Yes",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536721100",
+    "contact_name": "I",
+    "contact_identifier": "+971507455718",
+    "parent_message_id": "4236791492",
+    "parent_ticket_id": "944781978",
+    "event_type": "INBOUND"
   }
 }
