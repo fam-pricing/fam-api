@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-23T13:54:49.300Z",
+  "ts": "2026-04-23T13:56:39.299Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237229256",
-    "ticket_id": "945110255",
-    "message": "Ok",
+    "type": "OUTBOUND",
+    "message_id": "4237231266",
+    "ticket_id": "944781978",
+    "message": "As per the booking confirmation it is fine we need to register you in the building with the terms and conditions",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536721100",
+    "contact_name": "Imane Selmouni",
+    "contact_identifier": "+971507455718",
     "channel_id": "1304636",
-    "contact_id": "536485502",
-    "contact_name": "Margaret",
-    "contact_identifier": "+971588074843",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
