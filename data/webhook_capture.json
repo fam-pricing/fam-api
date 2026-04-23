@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-23T13:24:46.683Z",
+  "ts": "2026-04-23T13:25:48.783Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4237193926",
-    "ticket_id": "943932862",
-    "message": "You may proceed with the self check-out process and leave the keys inside the apartment. Kindly share a photo with us for confirmation once completed.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536490157",
-    "contact_name": "May T Almoayed",
-    "contact_identifier": "+97339666888",
+    "type": "INBOUND",
+    "message_id": "4237195043",
+    "ticket_id": "945115311",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "536692609",
+    "contact_name": "Martina",
+    "contact_identifier": "+393421635679",
+    "parent_message_id": "4237184605",
+    "parent_ticket_id": "945115311",
+    "event_type": "INBOUND"
   }
 }
