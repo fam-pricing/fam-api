@@ -497,3 +497,7 @@ Once we receive these, we'll send you a registration card to sign and return. Af
 
 Once we have completed the above steps, we will send you your self-check-in details."
   (Learned from Faysal handling I re PF-HH-AR-136820)
+
+## Learned (2026-04-23)
+- If a lead asks how long the quoted rate can be confirmed for, explain that rates can only be secured for an initial period of three months. Beyond that, the rate cannot be guaranteed and will be reviewed and adjusted in line with market conditions at the time.
+  (Learned from Faysal handling Ricky U re PF-HH-AR-136820)
