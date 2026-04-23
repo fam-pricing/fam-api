@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-23T11:59:34.751Z",
+  "ts": "2026-04-23T12:01:23.532Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237100382",
-    "ticket_id": "924165260",
-    "message": "My bank asked me about your payment",
+    "type": "OUTBOUND",
+    "message_id": "4237102627",
+    "ticket_id": "942287295",
+    "message": "Building name - Imperial Avenue, Downtown Dubai\r\n\r\nLocation - https://maps.app.goo.gl/zVJaHZ16ry7MBsn97",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "521802004",
+    "contact_name": "moza",
+    "contact_identifier": "+971504008841",
     "channel_id": "585723",
-    "contact_id": "531623777",
-    "contact_name": "Roman Sosnov",
-    "contact_identifier": "+79030866663",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
