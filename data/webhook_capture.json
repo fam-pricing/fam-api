@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-23T05:52:00.038Z",
+  "ts": "2026-04-23T05:52:27.813Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4236699210",
+    "type": "OUTBOUND",
+    "message_id": "4236699373",
     "ticket_id": "944972075",
-    "message": "Whats the price breakdown for this unit pls",
-    "channel_id": "1304636",
+    "message": "The AED 8,500/month is all-inclusive, water, electricity, internet, and VAT. The only addition is a refundable security deposit of AED 2,000.\n\nWant to come see it this afternoon?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536779834",
     "contact_name": "M - urban oasis",
     "contact_identifier": "+421911120211",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
