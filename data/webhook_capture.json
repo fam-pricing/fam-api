@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-23T11:54:15.858Z",
+  "ts": "2026-04-23T11:54:22.206Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4237094486",
-    "ticket_id": "942287295",
-    "message": "We have in downtown Imperial avenue",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "521802004",
-    "contact_name": "moza",
-    "contact_identifier": "+971504008841",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4237094633",
+    "ticket_id": "944515230",
+    "message": "Im asking about that",
+    "channel_id": "1304636",
+    "contact_id": "536478274",
+    "contact_name": "6alal",
+    "contact_identifier": "+971503087371",
+    "parent_message_id": "4235275600",
+    "parent_ticket_id": "944515230",
+    "event_type": "INBOUND"
   }
 }
