@@ -484,3 +484,16 @@ To proceed with your booking, we'll need the following:
 
 Once we receive these, we'll send you a registration card to sign and return. After completing these steps, we'll share your self-check-in details.
   (Learned from Faysal handling Margaret re 1BR in MAG 318)
+
+## Learned (2026-04-23)
+- When a lead responds with "Ok," send the following message:
+
+"To process your booking, we will need the following:
+
+1. A copy of your passport
+2. Your email address
+3. Please sign the registration card we will send you and return it to us
+4. Your check-in date
+
+Once we have completed the above steps, we will send you your self-check-in details."
+  (Learned from Faysal handling I re PF-HH-AR-136820)
