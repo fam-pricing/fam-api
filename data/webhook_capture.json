@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-23T13:34:03.438Z",
+  "ts": "2026-04-23T13:35:08.472Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4237205216",
-    "ticket_id": "945120816",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536828402",
-    "contact_name": "Hamza Elallaoui",
-    "contact_identifier": "+971509166474",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4237206585",
+    "ticket_id": "944781978",
+    "message": "Please send the bank details and the rent payment will be paid on the same move-in date on 25th of April 2026",
+    "channel_id": "1304636",
+    "contact_id": "536721100",
+    "contact_name": "Imane Selmouni",
+    "contact_identifier": "+971507455718",
+    "event_type": "INBOUND"
   }
 }
