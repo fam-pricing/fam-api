@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-23T14:09:02.699Z",
+  "ts": "2026-04-23T14:09:45.965Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4237245087",
-    "ticket_id": "945120816",
-    "message": "Sure let me check may I know have you completed the deposit payment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536828402",
-    "contact_name": "Hamza Elallaoui",
-    "contact_identifier": "+971509166474",
+    "type": "INBOUND",
+    "message_id": "4237245863",
+    "ticket_id": "943915428",
+    "message": "Hi, still available?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "536484706",
+    "contact_name": "Raja Sajid 🇦🇪",
+    "contact_identifier": "+971566960509",
+    "parent_message_id": "4234792626",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
