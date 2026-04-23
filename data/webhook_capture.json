@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-23T11:05:10.187Z",
+  "ts": "2026-04-23T11:05:43.858Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237025272",
+    "type": "OUTBOUND",
+    "message_id": "4237025835",
     "ticket_id": "944907111",
-    "message": ".",
-    "channel_id": "1304636",
+    "message": "Unfortunately we do not have any videos available",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536762796",
     "contact_name": "SS",
     "contact_identifier": "+919167821142",
-    "parent_message_id": "4236491323",
-    "parent_ticket_id": "944907111",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
