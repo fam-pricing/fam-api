@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-23T16:12:42.463Z",
+  "ts": "2026-04-23T16:12:43.263Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4237371676",
-    "ticket_id": "928781438",
-    "message": "All the shirts are inside this paper bag.",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "532732239",
-    "contact_name": "Deepna Kothari",
-    "contact_identifier": "+919820744665",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4237371692",
+    "ticket_id": "945137658",
+    "message": "Before I complete and submit the form, I kindly ask that the check-in date to be corrected to match the booking agreement/confirmation. \n\nI would prefer to ensure that all documents/forms are accurate to avoid any issues.\n\nPlease let me know once the corrected form is available.",
+    "channel_id": "1304636",
+    "contact_id": "536721100",
+    "contact_name": "Imane Selmouni",
+    "contact_identifier": "+971507455718",
+    "parent_message_id": "4237231266",
+    "parent_ticket_id": "944781978",
+    "event_type": "INBOUND"
   }
 }
