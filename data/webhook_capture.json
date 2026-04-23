@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-23T10:53:13.889Z",
+  "ts": "2026-04-23T10:53:38.860Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4237012712",
+    "type": "INBOUND",
+    "message_id": "4237013074",
     "ticket_id": "938546983",
-    "message": "I have already shared the payment link with your husband for the extension",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Awesome thanks",
+    "channel_id": "585723",
     "contact_id": "535208016",
     "contact_name": "DEANNO GARRY LUPKE",
     "contact_identifier": "+27815663899",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4237012712",
+    "parent_ticket_id": "938546983",
+    "event_type": "INBOUND"
   }
 }
