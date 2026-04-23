@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-23T05:43:13.151Z",
+  "ts": "2026-04-23T05:46:14.068Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4236696000",
+    "type": "INBOUND",
+    "message_id": "4236697066",
     "ticket_id": "944972513",
-    "message": "Unfortunately, we are unable to accept the security deposit as part of the rent payment. Therefore, we kindly request you to complete the remaining balance of AED 1,000 and notify us once done, so we can proceed with arranging the extension for you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "You previously received AED 3,000 from me as a security deposit. However, this form now mentions AED 2,000, and I have time until May 4 for you to arrange a replacement.",
+    "channel_id": "1304636",
     "contact_id": "535119429",
     "contact_name": "Reihaneh Hossein Til",
     "contact_identifier": "+971504133080",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
