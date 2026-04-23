@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-23T11:52:27.220Z",
+  "ts": "2026-04-23T11:53:52.048Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4237092076",
+    "type": "INBOUND",
+    "message_id": "4237094008",
     "ticket_id": "944938803",
-    "message": "Unfortunately we are unable to confirm the rate for 12 months as it gets changed",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "So how long can you confirm for ?",
+    "channel_id": "1304636",
     "contact_id": "536773221",
     "contact_name": "Ricky U",
     "contact_identifier": "+447713448779",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
