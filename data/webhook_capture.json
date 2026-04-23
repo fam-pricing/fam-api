@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-23T13:23:23.847Z",
+  "ts": "2026-04-23T13:23:25.247Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237192526",
+    "type": "OUTBOUND",
+    "message_id": "4237192562",
     "ticket_id": "945117462",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "536827578",
     "contact_name": "Sean Reilly",
     "contact_identifier": "+447753781247",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
