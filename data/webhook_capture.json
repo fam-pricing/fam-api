@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-23T07:57:02.243Z",
+  "ts": "2026-04-23T07:57:35.605Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4236803899",
-    "ticket_id": "944781978",
-    "message": "Would you like to make the reservation",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536721100",
-    "contact_name": "I",
-    "contact_identifier": "+971507455718",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4236804455",
+    "ticket_id": "944982076",
+    "message": "What’s the best price you can give for this?",
+    "channel_id": "585723",
+    "contact_id": "485978103",
+    "contact_name": "Mr Ava Esa Saleh",
+    "contact_identifier": "+971553036591",
+    "parent_message_id": "4236795306",
+    "parent_ticket_id": "944982076",
+    "event_type": "INBOUND"
   }
 }
