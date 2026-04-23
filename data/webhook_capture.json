@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-23T16:15:25.578Z",
+  "ts": "2026-04-23T16:16:11.492Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237373541",
+    "type": "OUTBOUND",
+    "message_id": "4237374052",
     "ticket_id": "928781438",
-    "message": "This is ur full address ?",
-    "channel_id": "585723",
+    "message": "Yes he can come to building reception.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "532732239",
     "contact_name": "Deepna Kothari",
     "contact_identifier": "+919820744665",
-    "parent_message_id": "4237372930",
-    "parent_ticket_id": "928781438",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
