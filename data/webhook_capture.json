@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-23T12:14:49.142Z",
+  "ts": "2026-04-23T12:14:53.486Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237116824",
-    "ticket_id": "926592783",
-    "message": "The technician has returned with the extractor fan and is saying that there is an issue with the power supply",
-    "channel_id": "585723",
-    "contact_id": "517825599",
-    "contact_name": "Arifa Patel",
-    "contact_identifier": "+971567647755",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4237116917",
+    "ticket_id": "945096963",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nyour enquiry on Property Finder\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "536168955",
+    "contact_name": "...",
+    "contact_identifier": "+971555776918",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
