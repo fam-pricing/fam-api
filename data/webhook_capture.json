@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-24T10:54:16.274Z",
+  "ts": "2026-04-24T10:56:39.871Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237932106",
+    "type": "OUTBOUND",
+    "message_id": "4237934232",
     "ticket_id": "873321159",
-    "message": "Thanks!",
-    "channel_id": "585723",
+    "message": "Are you coming to office to complete the payment or shall I send the payment link",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "518768648",
     "contact_name": "Mrs ANDREA PINIELLA ALVAREZ",
     "contact_identifier": "+971588014203",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
