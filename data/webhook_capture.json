@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-24T10:59:13.898Z",
+  "ts": "2026-04-24T10:59:17.986Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237936523",
+    "type": "OUTBOUND",
+    "message_id": "4237936578",
     "ticket_id": "945343781",
-    "message": "Hello, I have an issue with my air condition. It doesn’t seem to work properly. I have it on and it makes no difference in the temperature. Can someone check it out?",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "526338492",
     "contact_name": "Christina",
     "contact_identifier": "+971585944549",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
