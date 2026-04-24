@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-24T05:07:40.598Z",
+  "ts": "2026-04-24T05:11:16.814Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237640525",
+    "type": "OUTBOUND",
+    "message_id": "4237641489",
     "ticket_id": "917487474",
-    "message": "OTP please?",
-    "channel_id": "585723",
+    "message": "Good morning",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "529923301",
     "contact_name": "Vianca",
     "contact_identifier": "+971523716254",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
