@@ -505,3 +505,7 @@ Once we have completed the above steps, we will send you your self-check-in deta
 ## Learned (2026-04-24)
 - When a lead asks how the rate works, explain that we can secure their rate for a period of three months. After that, the rate will be reviewed and adjusted in line with current market conditions.
   (Learned from Faysal handling Zara re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-harbour-emaar-beachfront-sunrise-bay-sunrise-bay-tower-1-16198279.html)
+
+## Learned (2026-04-24)
+- If a lead asks about pricing after 6 months, respond: "After 6 months, we will review the current market rate and update the pricing accordingly."
+  (Learned from Faysal handling Ghazal re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
