@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-24T08:02:59.730Z",
+  "ts": "2026-04-24T08:03:21.268Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237752626",
+    "type": "OUTBOUND",
+    "message_id": "4237753032",
     "ticket_id": "945201257",
-    "message": "How about tomorrow at 1030?",
-    "channel_id": "1304636",
+    "message": "Tomorrow at 10:30am is confirmed, Malek. To arrange building access, could you send a photo of your passport or Emirates ID?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536856078",
     "contact_name": "Malek Akili",
     "contact_identifier": "+971504577927",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
