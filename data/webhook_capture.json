@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-24T13:07:06.446Z",
+  "ts": "2026-04-24T13:07:32.682Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238060656",
+    "type": "OUTBOUND",
+    "message_id": "4238061100",
     "ticket_id": "945272638",
-    "message": "Yes please",
-    "channel_id": "1304636",
+    "message": "Sure I will send the payment link for you now",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535230088",
     "contact_name": "Roman Wagner",
     "contact_identifier": "+971585412443",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
