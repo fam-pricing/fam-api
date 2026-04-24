@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-24T04:56:15.962Z",
+  "ts": "2026-04-24T04:56:22.939Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237637437",
+    "type": "OUTBOUND",
+    "message_id": "4237637454",
     "ticket_id": "945192287",
-    "message": "how long would the visit be?",
-    "channel_id": "1304636",
+    "message": "Take your time! The deposit is AED 2,000 fully refundable and the rate is fixed at AED 8,000/month for the 3 months. Would you like to come see it today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536853408",
     "contact_name": "Lucas",
     "contact_identifier": "+34666184919",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
