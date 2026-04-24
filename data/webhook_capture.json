@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-24T09:54:48.455Z",
+  "ts": "2026-04-24T09:55:15.565Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4237874093",
-    "ticket_id": "945309172",
-    "message": "Yes, you may visit our office to complete the payment and confirm your reservation.\r\nHowever, please note that the calendar is also open on other platforms, and availability is subject to change. To secure your booking, we highly recommend completing the deposit payment at the earliest convenience.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536881028",
-    "contact_name": "😵‍💫",
-    "contact_identifier": "+971521953097",
+    "type": "INBOUND",
+    "message_id": "4237874545",
+    "ticket_id": "944813856",
+    "message": "https://totalpay.ae/payment/202604245169eb25c7129c0/success?payment_id=81999554-3fc3-11f1-9b26-aadee5d95bc0&trans_id=93f9b03a-3fc3-11f1-9c14-aadee5d95bc0&order_id=BC-4q2PoQA32&hash=0b76d291ee6db661843f1e5adde0d3a1d8f2dd72&payment_method=card&brand=visa",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "131758506",
+    "contact_name": "Ms Fakhera Al suwaidi",
+    "contact_identifier": "+971501434545",
+    "event_type": "INBOUND"
   }
 }
