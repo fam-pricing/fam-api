@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-24T13:02:15.990Z",
+  "ts": "2026-04-24T13:02:40.822Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238055910",
-    "ticket_id": "945360775",
-    "message": "August 1st",
+    "type": "OUTBOUND",
+    "message_id": "4238056373",
+    "ticket_id": "945137658",
+    "message": "Sure once we receive the payment we will get the confirmation from the finance and update with the check in process",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536721100",
+    "contact_name": "Imane Selmouni",
+    "contact_identifier": "+971507455718",
     "channel_id": "1304636",
-    "contact_id": "536897643",
-    "contact_name": "Zara",
-    "contact_identifier": "+971585817860",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
