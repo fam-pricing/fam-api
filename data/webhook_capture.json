@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-24T13:56:19.217Z",
+  "ts": "2026-04-24T13:56:56.005Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238107609",
-    "ticket_id": "945387995",
-    "message": "Hi, good evening. I am interested in renting the property from June 1 onwards. I realize that my dates are a while away but Could I please ask you to keep me updated on the availability? I am looking at initial 2-3 months with more if a possible agreement can be reached with the client. Best regards. Alex",
+    "type": "OUTBOUND",
+    "message_id": "4238108161",
+    "ticket_id": "945268111",
+    "message": "We can offer a rate of AED 5,500 for the first three months, followed by AED 6,000 for the subsequent three months.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536870373",
+    "contact_name": "Ghazal",
+    "contact_identifier": "+971523442425",
     "channel_id": "1304636",
-    "contact_id": "536906157",
-    "contact_name": "Alex Elliott",
-    "contact_identifier": "+971503860427",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
