@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-24T09:27:52.554Z",
+  "ts": "2026-04-24T09:29:17.972Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4237846426",
-    "ticket_id": "944813856",
-    "message": "Rent payment - https://totalpay.ae/payment/202604243869eb250637c9c\r\n\r\nDeposit payment - https://totalpay.ae/payment/202604245169eb25c7129c0",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "131758506",
-    "contact_name": "Ms Fakhera Al suwaidi",
-    "contact_identifier": "+971501434545",
+    "type": "INBOUND",
+    "message_id": "4237848151",
+    "ticket_id": "943053403",
+    "message": "3 rooms",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "536268967",
+    "contact_name": "Aysha",
+    "contact_identifier": "+971504171222",
+    "event_type": "INBOUND"
   }
 }
