@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-24T08:01:13.705Z",
+  "ts": "2026-04-24T08:01:16.919Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237750440",
+    "type": "OUTBOUND",
+    "message_id": "4237750482",
     "ticket_id": "945192287",
-    "message": "The building",
-    "channel_id": "1304636",
+    "message": "Our team will now be leaving for prayers, as they have been waiting for you for one hour.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536853408",
     "contact_name": "Lucas",
     "contact_identifier": "+34666184919",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
