@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-24T07:42:50.758Z",
+  "ts": "2026-04-24T07:43:04.283Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4237732312",
+    "type": "INBOUND",
+    "message_id": "4237732512",
     "ticket_id": "945192287",
-    "message": "Name - Junaid Ahmed",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "❤️",
+    "channel_id": "1304636",
     "contact_id": "536853408",
     "contact_name": "Lucas",
     "contact_identifier": "+34666184919",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4237732312",
+    "parent_ticket_id": "945192287",
+    "event_type": "INBOUND"
   }
 }
