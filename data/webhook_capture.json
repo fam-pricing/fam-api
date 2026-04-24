@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-24T08:01:58.389Z",
+  "ts": "2026-04-24T08:02:21.870Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237751387",
+    "type": "OUTBOUND",
+    "message_id": "4237751975",
     "ticket_id": "945201257",
-    "message": "i’d like to see the property",
-    "channel_id": "1304636",
+    "message": "What day and time works best for you, Malek? Viewings are available any day between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536856078",
     "contact_name": "Malek Akili",
     "contact_identifier": "+971504577927",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
