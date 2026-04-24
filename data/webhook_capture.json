@@ -1,17 +1,19 @@
 {
-  "ts": "2026-04-24T05:23:39.978Z",
+  "ts": "2026-04-24T05:23:43.621Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237645295",
-    "ticket_id": "945192287",
-    "message": "Yes, please, today at 10 am?",
+    "type": "OUTBOUND",
+    "message_id": "4237645317",
+    "ticket_id": "944439939",
+    "message": "Hello ! PropertyFinder send me your contact regarding this listing:\n\nHow can I help you ?\n\nHow can I help you ?",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "536625460",
+    "contact_identifier": "+447768275134",
     "channel_id": "1304636",
-    "contact_id": "536853408",
-    "contact_name": "Lucas",
-    "contact_identifier": "+34666184919",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
