@@ -501,3 +501,7 @@ Once we have completed the above steps, we will send you your self-check-in deta
 ## Learned (2026-04-23)
 - If a lead asks how long the quoted rate can be confirmed for, explain that rates can only be secured for an initial period of three months. Beyond that, the rate cannot be guaranteed and will be reviewed and adjusted in line with market conditions at the time.
   (Learned from Faysal handling Ricky U re PF-HH-AR-136820)
+
+## Learned (2026-04-24)
+- When a lead asks how the rate works, explain that we can secure their rate for a period of three months. After that, the rate will be reviewed and adjusted in line with current market conditions.
+  (Learned from Faysal handling Zara re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-harbour-emaar-beachfront-sunrise-bay-sunrise-bay-tower-1-16198279.html)
