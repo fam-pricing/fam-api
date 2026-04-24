@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-24T14:25:07.142Z",
+  "ts": "2026-04-24T14:25:09.175Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238135851",
+    "type": "OUTBOUND",
+    "message_id": "4238135877",
     "ticket_id": "945395189",
-    "message": "مرحبا",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "276919839",
     "contact_name": "Ibrahim Alhosani",
     "contact_identifier": "+971554433438",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
