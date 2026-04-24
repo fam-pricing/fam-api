@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-24T07:29:41.279Z",
+  "ts": "2026-04-24T07:29:42.102Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4237720381",
+    "type": "OUTBOUND",
+    "message_id": "4237720374",
     "ticket_id": "945268111",
-    "message": "Audio",
-    "channel_id": "1304636",
+    "message": "Ghazal, it's available now, what would you like to know first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536870373",
     "contact_name": "Ghazal",
     "contact_identifier": "+971523442425",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
