@@ -203,10 +203,35 @@ export default async function handler(req, res) {
       fetchGHJson(REF_URL_FILE),
     ]);
 
+    // ── CIRCUIT BREAKER: Empty/tiny CRM state = data loss, NOT "all leads are new" ─────
+    // Normal CRM has 100+ leads. If readCRMState returns < 10 entries,
+    // something is critically wrong (Redis flush, GitHub empty, migration lost).
+    // NEVER treat 50 "new" leads as real — that's the 600-ticket loop bug.
+    const crmSize = Object.keys(crmState).length;
+    if (crmSize < 10) {
+      console.error(`[cron] CIRCUIT BREAKER: CRM state has only ${crmSize} entries — refusing to process. Fix data source.`);
+      return res.status(200).json({
+        ok: false,
+        circuit_breaker: true,
+        crm_size: crmSize,
+        message: `CRM state suspiciously small (${crmSize} leads). Halting to prevent mass-send loop.`,
+      });
+    }
+
     // Only leads not yet auto-responded and with a responseLink
     const newLeads = rawLeads.filter(l => l.responseLink && !crmState[l.id]?.auto_responded);
 
-    if (newLeads.length === 0) {
+    // ── BATCH LIMIT: Never send more than 5 templates in a single cron run ────────
+    // Normal flow: 1-3 new leads per hour. If we see 10+, something is wrong
+    // (stale CRM, duplicate cron invocations, PF API returning old leads).
+    // Process at most 5, log a warning for the rest.
+    const MAX_BATCH = 5;
+    if (newLeads.length > MAX_BATCH) {
+      console.warn(`[cron] BATCH LIMIT: ${newLeads.length} "new" leads detected — capping to ${MAX_BATCH}. Possible stale CRM state.`);
+    }
+    const cappedLeads = newLeads.slice(0, MAX_BATCH);
+
+    if (cappedLeads.length === 0) {
       return res.status(200).json({ ok: true, responded: 0, message: 'No new leads' });
     }
 
@@ -226,7 +251,7 @@ export default async function handler(req, res) {
     const results = [];
     const phonesThisBatch = new Set();
 
-    for (const lead of newLeads) {
+    for (const lead of cappedLeads) {
       // 1. Hit PF responseLink → marks lead replied on PF, extracts lead phone
       const phone = await autoRespond(lead.responseLink);
 
@@ -290,13 +315,16 @@ export default async function handler(req, res) {
     await writeCRMState(freshState, freshSha);
 
     const trengoCount = results.filter(r => r.trengoTicketId).length;
-    console.log(`[cron] Responded: ${newLeads.length} PF leads, ${trengoCount} Trengo tickets created`);
+    console.log(`[cron] Responded: ${cappedLeads.length} PF leads, ${trengoCount} Trengo tickets created`);
 
     return res.status(200).json({
       ok: true,
-      responded:     newLeads.length,
-      trengo_tickets: trengoCount,
-      details:        results.map(r => ({ id: r.id, phone: r.phone, trengo: r.trengoTicketId })),
+      responded:      cappedLeads.length,
+      total_new:       newLeads.length,
+      batch_capped:    newLeads.length > MAX_BATCH,
+      trengo_tickets:  trengoCount,
+      crm_size:        crmSize,
+      details:         results.map(r => ({ id: r.id, phone: r.phone, trengo: r.trengoTicketId })),
     });
 
   } catch (err) {
