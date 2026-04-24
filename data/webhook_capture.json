@@ -1,17 +1,19 @@
 {
-  "ts": "2026-04-24T06:20:06.459Z",
+  "ts": "2026-04-24T06:20:25.759Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4237668839",
+    "message_id": "4237669000",
     "ticket_id": "945146328",
-    "message": "What is the name of the building and location?",
+    "message": "Confirmed",
     "channel_id": "1304636",
     "contact_id": "536836946",
     "contact_name": "Sandro Manager AL Granada",
     "contact_identifier": "+554891338181",
+    "parent_message_id": "4237666635",
+    "parent_ticket_id": "945146328",
     "event_type": "INBOUND"
   }
 }
