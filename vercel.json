@@ -1,48 +1,20 @@
 {
+  "ignoreCommand": "git diff HEAD^ HEAD --name-only | grep -qvE '^data/'",
   "functions": {
-    "api/*.js": {
-      "maxDuration": 30
-    },
-    "api/cron/auto-respond.js": {
-      "maxDuration": 60
-    },
-    "api/cron/auto-followup.js": {
-      "maxDuration": 60
-    },
-    "api/cron/escalation-reminder.js": {
-      "maxDuration": 30
-    },
-    "api/crm/auto-reply.js": {
-      "maxDuration": 45
-    },
-    "api/crm/bot-status.js": {
-      "maxDuration": 15
-    },
-    "api/crm/leads.js": {
-      "maxDuration": 30
-    },
-    "api/crm/trengo-thread.js": {
-      "maxDuration": 30
-    },
-    "api/crm/update.js": {
-      "maxDuration": 15
-    },
-    "api/crm/playground.js": {
-      "maxDuration": 30
-    }
+    "api/*.js": { "maxDuration": 30 },
+    "api/cron/auto-respond.js": { "maxDuration": 60 },
+    "api/cron/auto-followup.js": { "maxDuration": 60 },
+    "api/cron/escalation-reminder.js": { "maxDuration": 30 },
+    "api/crm/auto-reply.js": { "maxDuration": 45 },
+    "api/crm/bot-status.js": { "maxDuration": 15 },
+    "api/crm/leads.js": { "maxDuration": 30 },
+    "api/crm/trengo-thread.js": { "maxDuration": 30 },
+    "api/crm/update.js": { "maxDuration": 15 },
+    "api/crm/playground.js": { "maxDuration": 30 }
   },
   "crons": [
-    {
-      "path": "/api/cron/auto-respond",
-      "schedule": "*/5 * * * *"
-    },
-    {
-      "path": "/api/cron/auto-followup",
-      "schedule": "0 * * * *"
-    },
-    {
-      "path": "/api/cron/escalation-reminder",
-      "schedule": "0 * * * *"
-    }
+    { "path": "/api/cron/auto-respond", "schedule": "*/5 * * * *" },
+    { "path": "/api/cron/auto-followup", "schedule": "0 * * * *" },
+    { "path": "/api/cron/escalation-reminder", "schedule": "0 * * * *" }
   ]
 }
