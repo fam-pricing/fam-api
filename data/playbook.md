@@ -513,3 +513,14 @@ Once we have completed the above steps, we will send you your self-check-in deta
 ## Learned (2026-04-25)
 - If a lead asks whether the unit is available for 12 months, confirm that it is available for a 12-month term, but clarify that the rate can only be confirmed for the initial three months. Advise them that after this period, the rate will be reviewed and adjusted based on current market conditions.
   (Learned from Faysal handling Jodie re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-69095495.html)
+
+## Learned (2026-04-25)
+- When a lead confirms a budget (e.g., AED 5,000 all-inclusive) and a requested move-in date, respond with the following:
+
+"To process your booking, we will need the following from you:
+
+1. A copy of your passport
+2. Your email address
+
+Once received, we will send you a registration card to sign and return."
+  (Learned from Faysal handling Adil Mateen re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q6vOmeA8g4.html)
