@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-25T17:32:21.934Z",
+  "ts": "2026-04-25T17:32:41.930Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238783161",
+    "type": "OUTBOUND",
+    "message_id": "4238783258",
     "ticket_id": "945596803",
-    "message": "Did you buy the apartment viewing today?",
-    "channel_id": "1304636",
+    "message": "Yes, the 2BR in Elite Business Bay is available. Want to pop by for a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536962568",
     "contact_name": "عععع",
     "contact_identifier": "+971569471873",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
