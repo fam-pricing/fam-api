@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-25T08:23:36.096Z",
+  "ts": "2026-04-25T08:23:45.468Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238532539",
-    "ticket_id": "943114702",
-    "message": "So 9000 + 1000deposit",
-    "channel_id": "1304636",
-    "contact_id": "536284001",
-    "contact_name": "Rs Mlk",
-    "contact_identifier": "+971581451699",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4238532627",
+    "ticket_id": "928641848",
+    "message": "Payment link - https://totalpay.ae/payment/202604251369ec77d51d75e",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "532699095",
+    "contact_name": "Ms Imane Hattani",
+    "contact_identifier": "+971542238840",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
