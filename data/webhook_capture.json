@@ -1,18 +1,21 @@
 {
-  "ts": "2026-04-25T09:35:49.101Z",
+  "ts": "2026-04-25T09:36:28.596Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238570667",
+    "type": "OUTBOUND",
+    "message_id": "4238570974",
     "ticket_id": "945533173",
-    "message": "Where is your office location?",
-    "channel_id": "883603",
+    "message": "Yes, the apartment is ready for check-in as previously agreed.\r\n\r\nHowever, unfortunately, without the payment being completed, we are unable to proceed with your registration in the building, as registration is not permitted without confirmation of payment.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536943653",
     "contact_name": "Imane",
     "contact_email": "ab.leeds11@gmail.com",
     "contact_identifier": "52a05ff4-2d19-4d36-6bb2-76a2b11eddf5",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
