@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-25T09:24:28.215Z",
+  "ts": "2026-04-25T09:24:59.621Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4238563861",
+    "type": "INBOUND",
+    "message_id": "4238564113",
     "ticket_id": "945533173",
-    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
+    "message": "I need someone to contact me urgently",
+    "channel_id": "883603",
     "contact_id": "536943653",
     "contact_name": "Imane",
     "contact_identifier": "52a05ff4-2d19-4d36-6bb2-76a2b11eddf5",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
