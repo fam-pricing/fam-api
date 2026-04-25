@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-25T12:39:13.364Z",
+  "ts": "2026-04-25T12:39:14.202Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238656711",
-    "ticket_id": "945378261",
-    "message": "Do you know if it has a sauna?",
+    "type": "OUTBOUND",
+    "message_id": "4238656707",
+    "ticket_id": "945558689",
+    "message": "Tomorrow at 11 works, see you then, Deema! To arrange building access, could you send a photo of your passport or Emirates ID here?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "536950990",
+    "contact_name": "Deema Al Asadi",
+    "contact_identifier": "+971586892081",
     "channel_id": "1304636",
-    "contact_id": "536501473",
-    "contact_name": "Joubert Rocha Chaves",
-    "contact_identifier": "+971586730550",
-    "parent_message_id": "4238654885",
-    "parent_ticket_id": "945378261",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
