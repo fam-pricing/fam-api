@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-25T04:41:17.222Z",
+  "ts": "2026-04-25T04:44:01.834Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238446339",
-    "ticket_id": "945495099",
-    "message": "Hello, we need your help regarding the access card.\n\nWhen we moved in, we were told that the card is only for parking, so we were given just one card for the whole family.\n\nNow we found out that the same card is also required for the gym and swimming pool. This creates a problem, because only one person can use the facilities at a time.\n\nAlso, when one of us leaves with the card (for example, using the parking), the rest of the family is left without access to the building facilities.\n\nCould you please provide us with an additional access card?\n\nThank you.",
+    "type": "OUTBOUND",
+    "message_id": "4238446626",
+    "ticket_id": "945314774",
+    "message": "Good morning",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536760221",
+    "contact_name": "ELISSAR RUSTOM",
+    "contact_identifier": "+447828880739",
     "channel_id": "1304636",
-    "contact_id": "536612300",
-    "contact_name": "Magomed Aliev",
-    "contact_identifier": "+971521393836",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
