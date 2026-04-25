@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-25T12:39:50.510Z",
+  "ts": "2026-04-25T12:39:53.042Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238656978",
+    "type": "OUTBOUND",
+    "message_id": "4238656993",
     "ticket_id": "945378261",
-    "message": "In two weeks you can pick up the payment for next month from me; we'll be staying for at least two months. So you can reserve it now",
-    "channel_id": "1304636",
+    "message": "Yes, there is but for that you need to pass by the reception for a booking",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "536501473",
     "contact_name": "Joubert Rocha Chaves",
     "contact_identifier": "+971586730550",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
