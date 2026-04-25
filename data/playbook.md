@@ -530,3 +530,7 @@ Once received, we will send you a registration card to sign and return."
 
 Unfortunately, we are unable to confirm a yearly rate at this time. We can secure the rate for an initial period of three months only. Thereafter, any extension will be subject to a new three-month rate confirmation based on prevailing market conditions.
   (Learned from Faysal handling Jodie re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-69095495.html)
+
+## Learned (2026-04-25)
+- If a lead expresses that there are many available options, respond by letting them know that viewings or arrangements can only be scheduled between 9:00 AM and 6:00 PM, and ask them to confirm a preferred time within that window.
+  (Learned from Faysal handling Sarah re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-harbour-emaar-beachfront-sunrise-bay-sunrise-bay-tower-2-69094760.html)
