@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-25T06:20:47.377Z",
+  "ts": "2026-04-25T06:20:47.939Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238469441",
+    "type": "OUTBOUND",
+    "message_id": "4238469440",
     "ticket_id": "940787691",
-    "message": "We have an issue with GAS. Gas is not working.\n\nI asked the reception and they told me to call you.\n\nMaybe you should pay the monthly subscription",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535640336",
     "contact_name": "Mohammad Amanzadegan",
     "contact_identifier": "+971503062921",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
