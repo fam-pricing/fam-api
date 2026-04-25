@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-25T05:59:42.332Z",
+  "ts": "2026-04-25T06:00:08.150Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238462355",
+    "type": "OUTBOUND",
+    "message_id": "4238462444",
     "ticket_id": "945500983",
-    "message": "I need to confirm the payment firsr",
-    "channel_id": "1304636",
+    "message": "Payment confirmation is straightforward, once you send your passport copy and email, we can lock in the rate and get everything set for end of month. Want to go ahead?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536935164",
     "contact_name": "Ash Baghdadi",
     "contact_identifier": "+971505778194",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
