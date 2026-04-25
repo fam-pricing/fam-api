@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-25T08:10:42.684Z",
+  "ts": "2026-04-25T08:13:36.298Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4238525214",
-    "ticket_id": "945389992",
-    "message": "We will share the check-in details once we receive the payment",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "536721100",
-    "contact_name": "Imane Selmouni",
-    "contact_identifier": "+971507455718",
+    "type": "INBOUND",
+    "message_id": "4238526795",
+    "ticket_id": "945519224",
+    "message": "I want to rent a property",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536939881",
+    "contact_name": "Sarah",
+    "contact_identifier": "+447534011930",
+    "event_type": "INBOUND"
   }
 }
