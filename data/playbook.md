@@ -524,3 +524,9 @@ Once we have completed the above steps, we will send you your self-check-in deta
 
 Once received, we will send you a registration card to sign and return."
   (Learned from Faysal handling Adil Mateen re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q6vOmeA8g4.html)
+
+## Learned (2026-04-25)
+- If a lead asks to agree on a yearly price, respond as follows:
+
+Unfortunately, we are unable to confirm a yearly rate at this time. We can secure the rate for an initial period of three months only. Thereafter, any extension will be subject to a new three-month rate confirmation based on prevailing market conditions.
+  (Learned from Faysal handling Jodie re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-69095495.html)
