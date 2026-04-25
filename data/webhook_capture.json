@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-25T13:02:08.434Z",
+  "ts": "2026-04-25T13:02:35.316Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238668132",
+    "type": "OUTBOUND",
+    "message_id": "4238668357",
     "ticket_id": "945563501",
-    "message": "Hello ..can you please share all details of that apartment",
-    "channel_id": "1304636",
+    "message": "The full listing with photos and floor plan is here: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html\n\nWould you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536952591",
     "contact_name": "Misbah Rashid",
     "contact_identifier": "+923215860088",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
