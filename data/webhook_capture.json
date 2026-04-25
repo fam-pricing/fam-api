@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-25T11:35:55.381Z",
+  "ts": "2026-04-25T11:37:00.509Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4238628834",
+    "type": "INBOUND",
+    "message_id": "4238629296",
     "ticket_id": "945268111",
-    "message": "Once you complete the deposit payment only we will be able to block the unit for you. If you are able to visit our office before 4.30pm today we can accept the payment and confirm the reservation for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Send me your address office",
+    "channel_id": "1304636",
     "contact_id": "536870373",
     "contact_name": "Ghazal",
     "contact_identifier": "+971523442425",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
