@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-25T09:17:06.991Z",
+  "ts": "2026-04-25T09:17:10.718Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4238560103",
-    "ticket_id": "945512243",
-    "message": "We have informed the management and are currently awaiting their confirmation. As soon as we receive an update, we will share the rate with you accordingly.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536937913",
-    "contact_name": "CW viridian",
-    "contact_identifier": "+971506573219",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4238560159",
+    "ticket_id": "944818897",
+    "message": "Ok perfect",
+    "channel_id": "1304636",
+    "contact_id": "535489706",
+    "contact_name": "Gabriela Soler",
+    "contact_identifier": "+34669662413",
+    "parent_message_id": "4238504524",
+    "parent_ticket_id": "944818897",
+    "event_type": "INBOUND"
   }
 }
