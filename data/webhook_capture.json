@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-25T13:48:03.399Z",
+  "ts": "2026-04-25T13:48:21.535Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238689877",
-    "ticket_id": "944818897",
-    "message": "Of course",
-    "channel_id": "1304636",
-    "contact_id": "535489706",
-    "contact_name": "Gabriela Soler",
-    "contact_identifier": "+34669662413",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4238689976",
+    "ticket_id": "945536661",
+    "message": "You can proceed with a bank transfer",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536944547",
+    "contact_name": "Firas Al-Lawati",
+    "contact_identifier": "+971585132211",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
