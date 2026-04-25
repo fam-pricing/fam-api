@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-25T10:01:42.520Z",
+  "ts": "2026-04-25T10:02:49.170Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238583382",
+    "type": "OUTBOUND",
+    "message_id": "4238584054",
     "ticket_id": "945536661",
-    "message": "And finally, confirming this is the exact apartment correct? Can you please let me know which floor is it?",
-    "channel_id": "585723",
+    "message": "Please note that this unit is without a Burj view. If you wish, we can arrange an advance viewing of the apartment today so you may proceed accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536944547",
     "contact_name": "Firas Al-Lawati",
     "contact_identifier": "+971585132211",
-    "parent_message_id": "4238577500",
-    "parent_ticket_id": "945536661",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
