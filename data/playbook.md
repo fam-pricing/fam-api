@@ -534,3 +534,9 @@ Unfortunately, we are unable to confirm a yearly rate at this time. We can secur
 ## Learned (2026-04-25)
 - If a lead expresses that there are many available options, respond by letting them know that viewings or arrangements can only be scheduled between 9:00 AM and 6:00 PM, and ask them to confirm a preferred time within that window.
   (Learned from Faysal handling Sarah re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-harbour-emaar-beachfront-sunrise-bay-sunrise-bay-tower-2-69094760.html)
+
+## Learned (2026-04-25)
+- If a lead says they have cash available and asks you to choose a convenient time for payment, respond as follows:
+
+"To block the unit for you, we require the deposit payment to be completed first. If you're able to visit our office before 4:30 PM today, we can process the payment and confirm your reservation on the spot."
+  (Learned from Faysal handling Ghazal re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
