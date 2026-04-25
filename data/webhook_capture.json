@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-25T12:28:51.657Z",
+  "ts": "2026-04-25T12:29:09.773Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4238652369",
+    "type": "INBOUND",
+    "message_id": "4238652466",
     "ticket_id": "945558689",
-    "message": "For a 6-month stay, the rate is locked for the first 3 months, then reviewed for the second half, you'd stay in the same unit throughout. Would you like to come see it first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes",
+    "channel_id": "1304636",
     "contact_id": "536950990",
     "contact_name": "Deema Al Asadi",
     "contact_identifier": "+971586892081",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
