@@ -509,3 +509,7 @@ Once we have completed the above steps, we will send you your self-check-in deta
 ## Learned (2026-04-24)
 - If a lead asks about pricing after 6 months, respond: "After 6 months, we will review the current market rate and update the pricing accordingly."
   (Learned from Faysal handling Ghazal re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-04-25)
+- If a lead asks whether the unit is available for 12 months, confirm that it is available for a 12-month term, but clarify that the rate can only be confirmed for the initial three months. Advise them that after this period, the rate will be reviewed and adjusted based on current market conditions.
+  (Learned from Faysal handling Jodie re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-69095495.html)
