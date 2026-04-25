@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-25T09:43:40.870Z",
+  "ts": "2026-04-25T09:43:44.356Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238574346",
+    "type": "OUTBOUND",
+    "message_id": "4238574383",
     "ticket_id": "945536661",
-    "message": "Hello - i am interested in a stay at a property i saw online and willing to book today. Would appreciate assistance with the booking. Thanks!",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "536944547",
     "contact_name": "Firas Al-Lawati",
     "contact_identifier": "+971585132211",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
