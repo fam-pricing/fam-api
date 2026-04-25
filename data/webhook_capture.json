@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-25T09:11:20.418Z",
+  "ts": "2026-04-25T09:13:46.552Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238556975",
-    "ticket_id": "945529647",
-    "message": "Ok thanks",
+    "type": "OUTBOUND",
+    "message_id": "4238558088",
+    "ticket_id": "928641848",
+    "message": "Well received the payment and we have updated the extension",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "532699095",
+    "contact_name": "Ms Imane Hattani",
+    "contact_identifier": "+971542238840",
     "channel_id": "585723",
-    "contact_id": "535119429",
-    "contact_name": "Reihaneh Hossein Til",
-    "contact_identifier": "+971504133080",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
