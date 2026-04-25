@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-25T00:56:49.161Z",
+  "ts": "2026-04-25T00:57:10.010Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238411710",
+    "type": "OUTBOUND",
+    "message_id": "4238411743",
     "ticket_id": "945476150",
-    "message": "Goodmorning",
-    "channel_id": "1304636",
+    "message": "Good morning, Gino! Let me pull up the details for you.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536931646",
     "contact_name": "Gino",
     "contact_identifier": "+971563777474",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
