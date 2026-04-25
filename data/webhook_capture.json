@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-25T09:24:25.864Z",
+  "ts": "2026-04-25T09:24:28.215Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238563829",
+    "type": "OUTBOUND",
+    "message_id": "4238563861",
     "ticket_id": "945533173",
-    "message": "I am outside the apartment for the check-in and no one showed up! \n\nPlease contact this number urgently \n\n0545001098",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "536943653",
     "contact_name": "Imane",
     "contact_identifier": "52a05ff4-2d19-4d36-6bb2-76a2b11eddf5",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
