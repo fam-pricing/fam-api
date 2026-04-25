@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-25T11:44:51.668Z",
+  "ts": "2026-04-25T11:52:58.982Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238632639",
-    "ticket_id": "945268111",
-    "message": "I'll let you know an hour before. Could I have your phone number?",
+    "type": "OUTBOUND",
+    "message_id": "4238636465",
+    "ticket_id": "945378261",
+    "message": "Our house keeping team is on the way they will reach shortly",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536501473",
+    "contact_name": "Joubert Rocha Chaves",
+    "contact_identifier": "+971586730550",
     "channel_id": "1304636",
-    "contact_id": "536870373",
-    "contact_name": "Ghazal",
-    "contact_identifier": "+971523442425",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
