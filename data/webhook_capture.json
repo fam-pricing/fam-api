@@ -1,21 +1,18 @@
 {
-  "ts": "2026-04-25T09:43:52.498Z",
+  "ts": "2026-04-25T09:44:14.125Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4238574429",
+    "type": "INBOUND",
+    "message_id": "4238574630",
     "ticket_id": "945533173",
-    "message": "Customer care number +971 800326600",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Are you serious? \n\nI have been calling this number all day",
+    "channel_id": "883603",
     "contact_id": "536943653",
     "contact_name": "Imane",
     "contact_email": "ab.leeds11@gmail.com",
     "contact_identifier": "52a05ff4-2d19-4d36-6bb2-76a2b11eddf5",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
