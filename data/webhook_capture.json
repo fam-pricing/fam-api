@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-25T06:23:37.554Z",
+  "ts": "2026-04-25T06:26:33.174Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238470494",
+    "type": "OUTBOUND",
+    "message_id": "4238471349",
     "ticket_id": "945476150",
-    "message": "You dont speak english",
-    "channel_id": "1304636",
+    "message": "which language is easy for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536931646",
     "contact_name": "Gino",
     "contact_identifier": "+971563777474",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
