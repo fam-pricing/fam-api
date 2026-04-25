@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-25T10:13:26.388Z",
+  "ts": "2026-04-25T10:14:24.972Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238589353",
+    "type": "OUTBOUND",
+    "message_id": "4238589801",
     "ticket_id": "945536661",
-    "message": "Can we proceed with a better price for this apartment? Happy to pay all upfront and confirm today with deposit and payment with better price",
-    "channel_id": "585723",
+    "message": "Allow me to check",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536944547",
     "contact_name": "Firas Al-Lawati",
     "contact_identifier": "+971585132211",
-    "parent_message_id": "4238587844",
-    "parent_ticket_id": "945536661",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
