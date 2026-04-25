@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-25T11:10:01.540Z",
+  "ts": "2026-04-25T11:15:02.344Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4238616188",
-    "ticket_id": "945536661",
-    "message": "Please complete the payment and update us to block the unit for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536944547",
-    "contact_name": "Firas Al-Lawati",
-    "contact_identifier": "+971585132211",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4238618504",
+    "ticket_id": "945378261",
+    "message": "Hi",
+    "channel_id": "1304636",
+    "contact_id": "536501473",
+    "contact_name": "Joubert Rocha Chaves",
+    "contact_identifier": "+971586730550",
+    "event_type": "INBOUND"
   }
 }
