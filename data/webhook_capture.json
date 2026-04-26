@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-26T10:01:49.081Z",
+  "ts": "2026-04-26T10:02:09.572Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239038354",
-    "ticket_id": "945536661",
-    "message": "Hello - just following up… Any updates on this?",
+    "type": "OUTBOUND",
+    "message_id": "4239038489",
+    "ticket_id": "944813856",
+    "message": "We have found this in the apartment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "131758506",
+    "contact_name": "Ms Fakhera Al suwaidi",
+    "contact_identifier": "+971501434545",
     "channel_id": "585723",
-    "contact_id": "536944547",
-    "contact_name": "Firas Al-Lawati",
-    "contact_identifier": "+971585132211",
-    "parent_message_id": "4238999467",
-    "parent_ticket_id": "945536661",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
