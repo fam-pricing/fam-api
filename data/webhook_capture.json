@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-26T17:35:35.416Z",
+  "ts": "2026-04-26T17:35:48.316Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239220349",
+    "type": "OUTBOUND",
+    "message_id": "4239220433",
     "ticket_id": "945740062",
-    "message": "How many rooms",
-    "channel_id": "1304636",
+    "message": "That's a 2-bedroom apartment in Elite Business Bay. Anything specific you'd like to know about it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536996325",
     "contact_name": "Rand",
     "contact_identifier": "+971588026688",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
