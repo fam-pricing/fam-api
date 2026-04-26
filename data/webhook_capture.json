@@ -1,17 +1,19 @@
 {
-  "ts": "2026-04-26T04:38:04.508Z",
+  "ts": "2026-04-26T04:39:44.775Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4238915307",
+    "message_id": "4238915531",
     "ticket_id": "945655258",
-    "message": "Hello",
+    "message": "Should I still use the payment link provided even if the name written is wrong?",
     "channel_id": "1304636",
     "contact_id": "536414061",
     "contact_name": "Maria",
     "contact_identifier": "+96176100864",
+    "parent_message_id": "4236088003",
+    "parent_ticket_id": "944775918",
     "event_type": "INBOUND"
   }
 }
