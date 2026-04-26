@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-26T08:12:49.893Z",
+  "ts": "2026-04-26T08:13:05.727Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4238987081",
-    "ticket_id": "945536661",
-    "message": "Yes you can proceed with AED 18,000",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536944547",
-    "contact_name": "Firas Al-Lawati",
-    "contact_identifier": "+971585132211",
+    "type": "INBOUND",
+    "message_id": "4238987166",
+    "ticket_id": "928641848",
+    "message": "10:00 AM - 12:00 PM",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "532699095",
+    "contact_name": "Ms Imane Hattani",
+    "contact_identifier": "+971542238840",
+    "parent_message_id": "4238456897",
+    "parent_ticket_id": "928641848",
+    "event_type": "INBOUND"
   }
 }
