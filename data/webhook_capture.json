@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-26T18:56:16.010Z",
+  "ts": "2026-04-26T18:56:50.274Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239250463",
+    "type": "OUTBOUND",
+    "message_id": "4239250768",
     "ticket_id": "945759835",
-    "message": "Do you have a video?",
-    "channel_id": "1304636",
+    "message": "Svetlana, we don't have a video at the moment, but here's the full listing with photos: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-opera-district-grande-14592976.html\n\nWould you like to arrange a viewing before your April 30 move-in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537001775",
     "contact_name": "Svetlana",
     "contact_identifier": "+971581834106",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
