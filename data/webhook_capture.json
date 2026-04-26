@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-26T19:42:19.048Z",
+  "ts": "2026-04-26T19:42:49.319Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239265069",
+    "type": "OUTBOUND",
+    "message_id": "4239265147",
     "ticket_id": "945759835",
-    "message": "Which floor?",
-    "channel_id": "1304636",
+    "message": "The floor I don't have on hand, but I can find out for you. Want me to check with the team and come back to you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537001775",
     "contact_name": "Svetlana",
     "contact_identifier": "+971581834106",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
