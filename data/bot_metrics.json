@@ -5278,5 +5278,17 @@
     "lead_quality": 15,
     "buying_stage": "COLD",
     "skip_reason": "Lead is sharing images we cannot process, asking us to draw on a map, and is frustrated about the property location being shown on the wrong side of the canal. The conversation has been going in circles for a long time with multiple agents. Lead also asked about 12 months (long-term pricing beyond 3 months). A human needs to share the correct Google Maps pin directly, view the images the lead is sending, and confirm the exact location visually. This cannot be resolved by the bot."
+  },
+  {
+    "ts": "2026-04-26T16:20:09.804Z",
+    "ticket_id": 945733914,
+    "lead_id": "message_lead_28982915",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 750,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
+    "skip_reason": "bot_paused"
   }
 ]
