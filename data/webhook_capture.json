@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-26T10:02:46.060Z",
+  "ts": "2026-04-26T10:08:05.896Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239038790",
+    "type": "OUTBOUND",
+    "message_id": "4239041251",
     "ticket_id": "945536661",
-    "message": "Thank you",
-    "channel_id": "585723",
+    "message": "As the reservation has been made on a monthly basis, the check-out date will initially reflect the end of the first month. However, please be assured that the booking has been confirmed for three months and has been updated accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536944547",
     "contact_name": "Firas Al-Lawati",
     "contact_identifier": "+971585132211",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
