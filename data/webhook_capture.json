@@ -1,17 +1,19 @@
 {
-  "ts": "2026-04-26T09:46:13.406Z",
+  "ts": "2026-04-26T09:49:06.519Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4239031616",
-    "ticket_id": "945536661",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "536944547",
-    "contact_name": "Firas Al-Lawati",
-    "contact_identifier": "+971585132211",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4239032767",
+    "ticket_id": "945694392",
+    "message": "No one came to solve the sink problem",
+    "channel_id": "1304636",
+    "contact_id": "536394570",
+    "contact_name": "Sofiane",
+    "contact_identifier": "+33695624458",
+    "parent_message_id": "4236998660",
+    "parent_ticket_id": "945221738",
+    "event_type": "INBOUND"
   }
 }
