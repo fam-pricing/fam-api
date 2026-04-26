@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-26T08:01:16.174Z",
+  "ts": "2026-04-26T08:02:55.921Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4238980457",
+    "type": "OUTBOUND",
+    "message_id": "4238981375",
     "ticket_id": "945309172",
-    "message": "Are you working today? Can i come make the payment please?",
-    "channel_id": "585723",
+    "message": "Hi\r\n\r\nToday our office is closed if you can proceed the payment link we can provide a secured payment link for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536881028",
     "contact_name": "VALERIYA KORYAKOVS'KA",
     "contact_identifier": "+971521953097",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
