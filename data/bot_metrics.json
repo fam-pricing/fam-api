@@ -5266,5 +5266,17 @@
     "lead_quality": 30,
     "buying_stage": "COOL",
     "skip_reason": "Lead is frustrated and confused about the property location, has sent \"?\" indicating frustration, is asking for a Google Maps pin which needs to be shared manually, conversation has been going in circles across many messages, and lead is now asking about other buildings. Also asked about 12 months. A human needs to take over to share the correct location pin and discuss options properly."
+  },
+  {
+    "ts": "2026-04-26T16:20:08.080Z",
+    "ticket_id": 945733914,
+    "lead_id": "message_lead_28982915",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 22228,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
+    "skip_reason": "Lead is sharing images we cannot process, asking us to draw on a map, and is frustrated about the property location being shown on the wrong side of the canal. The conversation has been going in circles for a long time with multiple agents. Lead also asked about 12 months (long-term pricing beyond 3 months). A human needs to share the correct Google Maps pin directly, view the images the lead is sending, and confirm the exact location visually. This cannot be resolved by the bot."
   }
 ]
