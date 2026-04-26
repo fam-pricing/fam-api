@@ -1,17 +1,19 @@
 {
-  "ts": "2026-04-26T15:31:10.041Z",
+  "ts": "2026-04-26T15:34:31.660Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4239172658",
-    "ticket_id": "944166370",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "536544073",
-    "contact_name": "Théo Soggiu 🇫🇷",
-    "contact_identifier": "+971545171713",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4239174027",
+    "ticket_id": "945733914",
+    "message": "Let me check with my freidn and see the location .",
+    "channel_id": "1304636",
+    "contact_id": "536994646",
+    "contact_name": "Ivan Stoimenov AMG",
+    "contact_identifier": "+971524617694",
+    "parent_message_id": "4239167618",
+    "parent_ticket_id": "945733914",
+    "event_type": "INBOUND"
   }
 }
