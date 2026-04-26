@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-26T05:22:08.325Z",
+  "ts": "2026-04-26T05:24:22.258Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4238923083",
-    "ticket_id": "890099867",
-    "message": "Hi good morning\r\n\r\nYes the studio apartment which you stood with us is available would you like to make a reservation in that?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "522625903",
-    "contact_name": "Mr FAKHRI ABDULJALIL FAKHRI",
-    "contact_identifier": "+971509252111",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4238923608",
+    "ticket_id": "945655258",
+    "message": "Could you please confirm the following details, I want to make sure we are aligned:\n- the rent will be paid on a monthly basis\n- ⁠the rent price will be fixed aed 5k for first 3 months, then 6k for the next 3 months if we were to extend my stay\n- ⁠deposit will be returned when I move out \n- ⁠if I were to move out, 1 month prior notice is enough\n- I will have access to gym, pool and parking space\n- ⁠ a contract will be shared once the deposit is done\n\nCan I know your name please as well?",
+    "channel_id": "1304636",
+    "contact_id": "536414061",
+    "contact_name": "Maria",
+    "contact_identifier": "+96176100864",
+    "event_type": "INBOUND"
   }
 }
