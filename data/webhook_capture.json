@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-26T15:34:31.660Z",
+  "ts": "2026-04-26T15:34:53.590Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239174027",
+    "type": "OUTBOUND",
+    "message_id": "4239174149",
     "ticket_id": "945733914",
-    "message": "Let me check with my freidn and see the location .",
-    "channel_id": "1304636",
+    "message": "Sounds good, take your time! Once you've checked with your friend, let us know what day and time works for a viewing and we'll get it booked in. Any day between 9am and 6pm works for us.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536994646",
     "contact_name": "Ivan Stoimenov AMG",
     "contact_identifier": "+971524617694",
-    "parent_message_id": "4239167618",
-    "parent_ticket_id": "945733914",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
