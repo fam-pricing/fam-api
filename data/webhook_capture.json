@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-26T16:20:34.499Z",
+  "ts": "2026-04-26T16:20:40.971Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4239192031",
+    "type": "INBOUND",
+    "message_id": "4239192079",
     "ticket_id": "945733914",
-    "message": "Let me get someone from the team to help you directly right now, including the exact location and all your other questions.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "It’s far I seen it",
+    "channel_id": "1304636",
     "contact_id": "536994646",
     "contact_name": "Ivan Stoimenov AMG",
     "contact_identifier": "+971524617694",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4239191815",
+    "parent_ticket_id": "945733914",
+    "event_type": "INBOUND"
   }
 }
