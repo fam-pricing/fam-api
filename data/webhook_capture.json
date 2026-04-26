@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-26T16:11:26.130Z",
+  "ts": "2026-04-26T16:11:50.289Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239188219",
+    "type": "OUTBOUND",
+    "message_id": "4239188363",
     "ticket_id": "945737333",
-    "message": "I’m in downtown",
-    "channel_id": "1304636",
+    "message": "You're in Downtown, so it's just a short drive over to Business Bay. What time were you thinking of heading over?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536995527",
     "contact_name": "Mo Alaa",
     "contact_identifier": "+971522415511",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
