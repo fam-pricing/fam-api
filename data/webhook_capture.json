@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-26T16:17:30.147Z",
+  "ts": "2026-04-26T16:17:43.690Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4239190959",
+    "type": "INBOUND",
+    "message_id": "4239191027",
     "ticket_id": "945733914",
-    "message": "Can't open what, the location link? If you can share a screenshot of what you're seeing I can try to help, or I can drop the address in text so you can search it directly.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "This",
+    "channel_id": "1304636",
     "contact_id": "536994646",
     "contact_name": "Ivan Stoimenov AMG",
     "contact_identifier": "+971524617694",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4239189372",
+    "parent_ticket_id": "945733914",
+    "event_type": "INBOUND"
   }
 }
