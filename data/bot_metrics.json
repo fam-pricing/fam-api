@@ -5254,5 +5254,17 @@
     "lead_quality": 30,
     "buying_stage": "COOL",
     "skip_reason": "optimistic_lock"
+  },
+  {
+    "ts": "2026-04-26T16:18:11.657Z",
+    "ticket_id": 945733914,
+    "lead_id": "message_lead_28982915",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 23083,
+    "critic_pass": null,
+    "lead_quality": 30,
+    "buying_stage": "COOL",
+    "skip_reason": "Lead is frustrated and confused about the property location, has sent \"?\" indicating frustration, is asking for a Google Maps pin which needs to be shared manually, conversation has been going in circles across many messages, and lead is now asking about other buildings. Also asked about 12 months. A human needs to take over to share the correct location pin and discuss options properly."
   }
 ]
