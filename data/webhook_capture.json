@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-26T11:48:31.811Z",
+  "ts": "2026-04-26T11:48:53.947Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4239083428",
+    "type": "INBOUND",
+    "message_id": "4239083724",
     "ticket_id": "945698163",
-    "message": "At the moment, there is a reservation for a 3-bedroom apartment with a maid’s room in City Walk; however, it is not yet confirmed. We will follow up with the guest tomorrow and update you on the availability accordingly.\r\n\r\nI hope this arrangement works for you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Ok",
+    "channel_id": "585723",
     "contact_id": "477060010",
     "contact_name": "Kunal PA",
     "contact_identifier": "+971524335902",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
