@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-27T00:52:23.741Z",
+  "ts": "2026-04-27T00:52:48.200Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239325349",
+    "type": "OUTBOUND",
+    "message_id": "4239325399",
     "ticket_id": "945800051",
-    "message": "yes please",
-    "channel_id": "1304636",
+    "message": "To get things started, could you send over a copy of your passport or Emirates ID and your email address? Once we have those, we'll get your self-check-in details sorted.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537010632",
     "contact_name": "nhyira",
     "contact_identifier": "+233506887713",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
