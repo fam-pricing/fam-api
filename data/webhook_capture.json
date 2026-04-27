@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-27T21:05:58.718Z",
+  "ts": "2026-04-27T21:45:16.768Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4240070457",
-    "ticket_id": "946024760",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in MAG 318\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "536357156",
-    "contact_name": "Haris M",
-    "contact_identifier": "+971585528376",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4240082220",
+    "ticket_id": "930107729",
+    "message": "Hi fawad here upside living 1510 owner",
+    "channel_id": "585723",
+    "contact_id": "474225147",
+    "contact_name": "Fawad",
+    "contact_identifier": "+12066185257",
+    "event_type": "INBOUND"
   }
 }
