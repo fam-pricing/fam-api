@@ -1,16 +1,20 @@
 {
-  "ts": "2026-04-27T13:04:10.936Z",
+  "ts": "2026-04-27T13:05:09.548Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239740861",
-    "ticket_id": "945826323",
-    "message": "Can you tell me which apartment number I like this I can say visiting ?",
-    "channel_id": "1304636",
-    "contact_id": "535502953",
-    "contact_identifier": "+33781412632",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4239741695",
+    "ticket_id": "945878489",
+    "message": "We have checked with the owner, and only one access card is available. We trust this was communicated to you during the viewing.\r\n\r\nHowever, should you require an additional card, we can arrange it at an extra cost.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536612300",
+    "contact_name": "Magomed Aliev",
+    "contact_identifier": "+971521393836",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
