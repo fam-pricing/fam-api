@@ -3442,5 +3442,17 @@
     "lead_quality": 80,
     "buying_stage": "HOT",
     "skip_reason": "optimistic_lock"
+  },
+  {
+    "ts": "2026-04-27T13:29:38.916Z",
+    "ticket_id": 945922839,
+    "lead_id": "message_lead_28997595",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 7043,
+    "critic_pass": null,
+    "lead_quality": 80,
+    "buying_stage": "HOT",
+    "skip_reason": "live_agent_guard"
   }
 ]
