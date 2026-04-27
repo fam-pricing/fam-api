@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-27T08:29:24.832Z",
+  "ts": "2026-04-27T08:29:38.443Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239500387",
-    "ticket_id": "945865678",
-    "message": "You are in the office ?",
+    "type": "OUTBOUND",
+    "message_id": "4239500640",
+    "ticket_id": "944818897",
+    "message": "Please proceed to 6th floor our team is over there to assist you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535489706",
+    "contact_name": "Gabriela Soler",
+    "contact_identifier": "+34669662413",
     "channel_id": "1304636",
-    "contact_id": "536870373",
-    "contact_name": "Ghazal",
-    "contact_identifier": "+971523442425",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
