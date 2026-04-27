@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-27T09:01:30.294Z",
+  "ts": "2026-04-27T09:02:08.227Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239529871",
-    "ticket_id": "945852746",
-    "message": "What about our commission?",
+    "type": "OUTBOUND",
+    "message_id": "4239530627",
+    "ticket_id": "929667673",
+    "message": "Can I have the reservation number please so I can check for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "532944791",
+    "contact_name": "Moza",
+    "contact_identifier": "+971561115622",
     "channel_id": "585723",
-    "contact_id": "531448316",
-    "contact_name": "Hu",
-    "contact_identifier": "+971521299692",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
