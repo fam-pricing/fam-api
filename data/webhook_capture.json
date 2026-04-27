@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-27T12:58:49.939Z",
+  "ts": "2026-04-27T12:58:58.028Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239735745",
-    "ticket_id": "945930967",
-    "message": "Hi, what will be the rent price for the current apartment in Jun and July?",
-    "channel_id": "1304636",
-    "contact_id": "535230088",
-    "contact_name": "Roman Wagner",
-    "contact_identifier": "+971585412443",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4239735868",
+    "ticket_id": "943680486",
+    "message": "She need to complete the check in form to register in the building",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536421245",
+    "contact_name": "Ahmed Ben Saad",
+    "contact_identifier": "+971524484287",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
