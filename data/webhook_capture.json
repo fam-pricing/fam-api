@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-27T08:44:54.684Z",
+  "ts": "2026-04-27T08:48:54.892Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4239515568",
+    "type": "INBOUND",
+    "message_id": "4239519016",
     "ticket_id": "945867811",
-    "message": "Yes it is available would you like to proceed with the reservation",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "How much will it cost for 3 months, paid in 3 cheqs?",
+    "channel_id": "1304636",
     "contact_id": "536684740",
     "contact_name": "Jr Dubai",
     "contact_identifier": "+971588531615",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
