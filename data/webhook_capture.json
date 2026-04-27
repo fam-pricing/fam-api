@@ -1,16 +1,20 @@
 {
-  "ts": "2026-04-27T12:59:18.980Z",
+  "ts": "2026-04-27T13:01:12.735Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239736164",
-    "ticket_id": "945826323",
-    "message": "Ok, what’s the parking situation ?",
+    "type": "OUTBOUND",
+    "message_id": "4239737839",
+    "ticket_id": "945930967",
+    "message": "Unfortunately the apartment is not available after your check out date as it is off boarding",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535230088",
+    "contact_name": "Roman Wagner",
+    "contact_identifier": "+971585412443",
     "channel_id": "1304636",
-    "contact_id": "535502953",
-    "contact_identifier": "+33781412632",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
