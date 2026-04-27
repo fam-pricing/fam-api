@@ -1,17 +1,19 @@
 {
-  "ts": "2026-04-27T11:19:19.031Z",
+  "ts": "2026-04-27T11:19:35.760Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4239649852",
+    "message_id": "4239650064",
     "ticket_id": "945737333",
-    "message": "Hello",
+    "message": "I came yesterday",
     "channel_id": "1304636",
     "contact_id": "536995527",
     "contact_name": "Mo Alaa",
     "contact_identifier": "+971522415511",
+    "parent_message_id": "4239182196",
+    "parent_ticket_id": "945737333",
     "event_type": "INBOUND"
   }
 }
