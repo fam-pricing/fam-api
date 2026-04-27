@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-27T08:56:09.004Z",
+  "ts": "2026-04-27T08:57:28.728Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4239525120",
-    "ticket_id": "943680486",
-    "message": "Sure I will contact the guest",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536421245",
-    "contact_name": "Ahmed Ben Saad",
-    "contact_identifier": "+971524484287",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4239526164",
+    "ticket_id": "945873384",
+    "message": "I need an urgent call regarding my booking",
+    "channel_id": "883603",
+    "contact_id": "537025858",
+    "contact_name": "Mouza",
+    "contact_identifier": "182ba30a-5ccd-4042-b809-6fe81a9850a3",
+    "event_type": "INBOUND"
   }
 }
