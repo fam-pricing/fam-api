@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-27T05:06:41.223Z",
+  "ts": "2026-04-27T05:07:44.872Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4239373802",
+    "type": "INBOUND",
+    "message_id": "4239374323",
     "ticket_id": "944166370",
-    "message": "Unfortunately, the Madinat Jumeirah Living apartment is currently unavailable. However, we do have other two-bedroom apartments available. Please let us know if you would like us to share alternative options.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Until when will it be unavailable please ?",
+    "channel_id": "585723",
     "contact_id": "536544073",
     "contact_name": "Théo Soggiu 🇫🇷",
     "contact_identifier": "+971545171713",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
