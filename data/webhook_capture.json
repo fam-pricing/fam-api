@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-27T13:50:01.427Z",
+  "ts": "2026-04-27T13:50:16.523Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4239782118",
+    "type": "INBOUND",
+    "message_id": "4239782347",
     "ticket_id": "945713424",
-    "message": "Sure arranged for tomorrow at 5.20pm",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍🏻",
+    "channel_id": "1304636",
     "contact_id": "536987749",
     "contact_name": "Lyercoo Trading",
     "contact_identifier": "+971561745560",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4239782118",
+    "parent_ticket_id": "945713424",
+    "event_type": "INBOUND"
   }
 }
