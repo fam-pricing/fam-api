@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-27T09:09:12.375Z",
+  "ts": "2026-04-27T09:09:59.735Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239536833",
+    "type": "OUTBOUND",
+    "message_id": "4239537754",
     "ticket_id": "945875619",
-    "message": "Ok",
-    "channel_id": "585723",
+    "message": "We have received the reservation details for Viridian. We hope you have also received the payment link to complete the deposit.\r\n\r\nKindly update us once the payment has been completed so we may proceed with the reservation accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537026441",
     "contact_name": "agent",
     "contact_identifier": "+34647269725",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
