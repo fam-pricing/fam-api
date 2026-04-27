@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-27T09:27:42.084Z",
+  "ts": "2026-04-27T09:28:31.057Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239553027",
-    "ticket_id": "945771168",
-    "message": "hello,may i know if apartments is available?\nfrom 1st of may till end of august",
-    "channel_id": "1304636",
-    "contact_id": "537004773",
-    "contact_name": "⠀",
-    "contact_identifier": "+971525408088",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4239553681",
+    "ticket_id": "943680486",
+    "message": "Yes that will be fine",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536421245",
+    "contact_name": "Ahmed Ben Saad",
+    "contact_identifier": "+971524484287",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
