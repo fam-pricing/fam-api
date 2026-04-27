@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-27T11:17:33.101Z",
+  "ts": "2026-04-27T11:18:13.089Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4239648459",
-    "ticket_id": "945875619",
-    "message": "Office 306",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537026441",
-    "contact_name": "OKSANA LAMZOVA",
-    "contact_identifier": "+34647269725",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4239648972",
+    "ticket_id": "945838197",
+    "message": "Can you please calculate the total cost of this apartment, including all fees, deposit, taxes—everything?",
+    "channel_id": "1304636",
+    "contact_id": "537017110",
+    "contact_name": "Koala",
+    "contact_identifier": "+971528416686",
+    "event_type": "INBOUND"
   }
 }
