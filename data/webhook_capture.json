@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-27T17:50:07.208Z",
+  "ts": "2026-04-27T18:35:22.787Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239970831",
-    "ticket_id": "945904905",
-    "message": "Waiting",
+    "type": "OUTBOUND",
+    "message_id": "4239997686",
+    "ticket_id": "945998803",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537061425",
+    "contact_name": "Emanuel Rendas",
+    "contact_identifier": "+971542798998",
     "channel_id": "1304636",
-    "contact_id": "537034140",
-    "contact_name": "Polina🤍",
-    "contact_identifier": "+971558443341",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
