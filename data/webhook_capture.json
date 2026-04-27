@@ -1,17 +1,19 @@
 {
-  "ts": "2026-04-27T09:15:35.491Z",
+  "ts": "2026-04-27T09:15:46.674Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4239542380",
-    "ticket_id": "945878174",
-    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
-    "contact_id": "537027089",
-    "contact_name": "Magomed",
-    "contact_identifier": "a7de62ae-0fd8-44ab-dd13-637b65e4fb78",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4239542520",
+    "ticket_id": "945875619",
+    "message": "Should I come to ur office",
+    "channel_id": "585723",
+    "contact_id": "537026441",
+    "contact_name": "agent",
+    "contact_identifier": "+34647269725",
+    "parent_message_id": "4239540480",
+    "parent_ticket_id": "945875619",
+    "event_type": "INBOUND"
   }
 }
