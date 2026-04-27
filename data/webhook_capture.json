@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-27T18:38:00.524Z",
+  "ts": "2026-04-27T18:38:25.291Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239999246",
+    "type": "OUTBOUND",
+    "message_id": "4239999491",
     "ticket_id": "945998803",
-    "message": "Hi, is this unit available for 31 of April ?",
-    "channel_id": "1304636",
+    "message": "April only has 30 days, so I've assumed you mean the 30th, the 3BR in Sulafa Tower is free from then. Want to lock in that date?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537061425",
     "contact_name": "Emanuel Rendas",
     "contact_identifier": "+971542798998",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
