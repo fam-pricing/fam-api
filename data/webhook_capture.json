@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-27T09:40:07.922Z",
+  "ts": "2026-04-27T09:47:50.242Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4239564276",
-    "ticket_id": "945883340",
-    "message": "Our standard check in time starts at 3pm however please complete the check in form to complete the check in process and register you in the building",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537028361",
-    "contact_name": "Etsuko Kawabata",
-    "contact_identifier": "+6587225082",
+    "type": "INBOUND",
+    "message_id": "4239571203",
+    "ticket_id": "945852746",
+    "message": "Is it usually 5% ?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "531448316",
+    "contact_name": "Hu",
+    "contact_identifier": "+971521299692",
+    "event_type": "INBOUND"
   }
 }
