@@ -1,17 +1,17 @@
 {
-  "ts": "2026-04-27T09:15:34.318Z",
+  "ts": "2026-04-27T09:15:35.491Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239542358",
+    "type": "OUTBOUND",
+    "message_id": "4239542380",
     "ticket_id": "945878174",
-    "message": "Hello! What should I do if I'm not getting a response to my messages in the private chat? I rented an apartment from you, and now I'm not getting a response in the support chat.",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "537027089",
     "contact_name": "Magomed",
     "contact_identifier": "a7de62ae-0fd8-44ab-dd13-637b65e4fb78",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
