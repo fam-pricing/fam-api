@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-27T13:19:18.795Z",
+  "ts": "2026-04-27T13:19:42.157Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4239753835",
+    "type": "INBOUND",
+    "message_id": "4239754097",
     "ticket_id": "945878489",
-    "message": "We have provided you with the master card, which grants full access to all facilities. Unfortunately, this is the only card available. Should you require an additional card, please note that it can be arranged at an extra charge.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "How much does an additional card cost?",
+    "channel_id": "585723",
     "contact_id": "536612300",
     "contact_name": "Magomed Aliev",
     "contact_identifier": "+971521393836",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
