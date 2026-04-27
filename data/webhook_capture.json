@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-27T08:55:49.254Z",
+  "ts": "2026-04-27T08:56:09.004Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4239524850",
+    "type": "OUTBOUND",
+    "message_id": "4239525120",
     "ticket_id": "943680486",
-    "message": "👆this is the tenant contact number",
-    "channel_id": "585723",
+    "message": "Sure I will contact the guest",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536421245",
     "contact_name": "Ahmed Ben Saad",
     "contact_identifier": "+971524484287",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
