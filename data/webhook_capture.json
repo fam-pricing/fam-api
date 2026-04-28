@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-28T07:28:26.314Z",
+  "ts": "2026-04-28T07:28:35.680Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4240264351",
+    "type": "INBOUND",
+    "message_id": "4240264588",
     "ticket_id": "945904905",
-    "message": "2pm we have another confirmed viewing and then may I know at 2.30pm will be good for you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Yes",
+    "channel_id": "1304636",
     "contact_id": "537034140",
     "contact_name": "Polina🤍",
     "contact_identifier": "+971558443341",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4240264351",
+    "parent_ticket_id": "945904905",
+    "event_type": "INBOUND"
   }
 }
