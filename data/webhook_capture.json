@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-28T12:05:35.824Z",
+  "ts": "2026-04-28T12:05:38.245Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4240617783",
-    "ticket_id": "946198549",
-    "message": "May I know starting from which date please?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537108041",
-    "contact_name": "Finance",
-    "contact_identifier": "+971542365911",
+    "type": "INBOUND",
+    "message_id": "4240617801",
+    "ticket_id": "946198747",
+    "message": "Yes",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "537108112",
+    "contact_name": "Nowzath",
+    "contact_identifier": "+971526175149",
+    "parent_message_id": "4240617173",
+    "parent_ticket_id": "946198747",
+    "event_type": "INBOUND"
   }
 }
