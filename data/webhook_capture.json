@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-28T08:39:56.726Z",
+  "ts": "2026-04-28T08:40:17.145Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4240354365",
+    "type": "OUTBOUND",
+    "message_id": "4240354765",
     "ticket_id": "946125242",
-    "message": "This flat available",
-    "channel_id": "1304636",
+    "message": "Yes, it's available. When are you looking to move in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537087920",
     "contact_name": "Mostafa",
     "contact_identifier": "+971523196051",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
