@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-28T05:53:13.366Z",
+  "ts": "2026-04-28T05:53:28.519Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4240186804",
+    "type": "INBOUND",
+    "message_id": "4240186974",
     "ticket_id": "946074089",
-    "message": "Let me pull up the exact cost for your May 8 to June 23 stay and come back to you shortly!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "537076491",
     "contact_name": "Виктория",
     "contact_identifier": "+79138287704",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4240186804",
+    "parent_ticket_id": "946074089",
+    "event_type": "INBOUND"
   }
 }
