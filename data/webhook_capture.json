@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-28T21:01:11.003Z",
+  "ts": "2026-04-28T21:25:37.149Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4241062799",
-    "ticket_id": "945698948",
-    "message": "Image",
+    "type": "OUTBOUND",
+    "message_id": "4241071467",
+    "ticket_id": "946322532",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-city-walk-residential-city-walk-residential-building-19-2Pg0l0haPU8.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537146330",
+    "contact_name": "~EI",
+    "contact_identifier": "+33634581322",
     "channel_id": "1304636",
-    "contact_id": "536394570",
-    "contact_name": "Sofiane",
-    "contact_identifier": "+33695624458",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
