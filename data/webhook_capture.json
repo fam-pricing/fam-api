@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-28T12:26:42.542Z",
+  "ts": "2026-04-28T12:26:55.241Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4240642555",
-    "ticket_id": "946197126",
-    "message": "First of the month",
+    "type": "OUTBOUND",
+    "message_id": "4240642780",
+    "ticket_id": "946205400",
+    "message": "The 3BR in Sulafa Tower is AED 9,000/month all-inclusive. We also have a few other 3BRs if you want more options, Business Bay from AED 10,000, Dubai Creek Harbour at AED 11,000. What's your budget for the 3BR?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537110116",
+    "contact_name": "Sara",
+    "contact_identifier": "+971569720329",
     "channel_id": "1304636",
-    "contact_id": "537107575",
-    "contact_name": "Steve El Hitti",
-    "contact_identifier": "+971585703300",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
