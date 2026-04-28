@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-28T20:46:57.405Z",
+  "ts": "2026-04-28T20:47:13.271Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4241057271",
+    "type": "OUTBOUND",
+    "message_id": "4241057443",
     "ticket_id": "946317077",
-    "message": "This is what I want",
-    "channel_id": "1304636",
+    "message": "The closest we have to your budget is a 1BR in Signature Hotel Apartments at AED 5,000/month. Want me to send you the listing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537144978",
     "contact_name": "D BOSS",
     "contact_identifier": "+971558774034",
-    "parent_message_id": "4241054824",
-    "parent_ticket_id": "946317077",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
