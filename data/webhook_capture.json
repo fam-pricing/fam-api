@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-28T13:34:57.234Z",
+  "ts": "2026-04-28T13:35:36.626Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4240722163",
+    "type": "OUTBOUND",
+    "message_id": "4240722913",
     "ticket_id": "945878489",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "Hi Magomed,\r\n\r\nCharges for another access card is AED 400",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536612300",
     "contact_name": "Magomed Aliev",
     "contact_identifier": "+971521393836",
-    "parent_message_id": "4240721116",
-    "parent_ticket_id": "945878489",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
