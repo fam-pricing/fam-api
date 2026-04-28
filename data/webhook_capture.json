@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-28T05:52:09.909Z",
+  "ts": "2026-04-28T05:52:26.927Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4240186277",
-    "ticket_id": "946074089",
-    "message": "The 3-bedroom in City Walk Building 19 is available for your dates. For a stay from May 8 to June 23 that works out to about 46 days, want me to calculate the exact cost for that period so you have a clear number?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537076491",
-    "contact_name": "Виктория",
-    "contact_identifier": "+79138287704",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4240186426",
+    "ticket_id": "946074177",
+    "message": "🙏",
+    "channel_id": "585723",
+    "contact_id": "537076515",
+    "contact_name": "galia",
+    "contact_identifier": "+971589496600",
+    "parent_message_id": "4240186183",
+    "parent_ticket_id": "946074177",
+    "event_type": "INBOUND"
   }
 }
