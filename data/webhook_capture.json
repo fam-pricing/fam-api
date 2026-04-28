@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-28T12:06:05.190Z",
+  "ts": "2026-04-28T12:07:00.968Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4240618398",
+    "type": "OUTBOUND",
+    "message_id": "4240619472",
     "ticket_id": "946198747",
-    "message": "Send me the location to meet you",
-    "channel_id": "585723",
+    "message": "Let me check for today please",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537108112",
     "contact_name": "Nowzath",
     "contact_identifier": "+971526175149",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
