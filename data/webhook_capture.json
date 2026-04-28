@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-28T14:45:22.711Z",
+  "ts": "2026-04-28T14:45:33.214Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4240806579",
+    "type": "OUTBOUND",
+    "message_id": "4240806789",
     "ticket_id": "946044486",
-    "message": "no i need a maids room",
-    "channel_id": "1304636",
+    "message": "The 3BR in Urban Oasis is available and fully furnished, but it doesn't come with a maid's room. Just to clarify, was the maid's room listed somewhere specific, or were you going off something you saw online? That'll help me track down exactly what you were looking at.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537071430",
     "contact_name": "dima sherif",
     "contact_identifier": "+201277220769",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
