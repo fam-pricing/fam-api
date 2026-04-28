@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-28T17:34:41.085Z",
+  "ts": "2026-04-28T17:34:53.578Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4240950202",
-    "ticket_id": "868142227",
-    "message": "May I know have you completed the payment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "517559757",
-    "contact_name": "Ms Jodie Tia Walsh",
-    "contact_identifier": "+971509848657",
+    "type": "INBOUND",
+    "message_id": "4240950343",
+    "ticket_id": "945875619",
+    "message": "This is old name oksana it’s not gonna live there",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "537026441",
+    "contact_name": "OKSANA LAMZOVA",
+    "contact_identifier": "+34647269725",
+    "parent_message_id": "4240949423",
+    "parent_ticket_id": "945875619",
+    "event_type": "INBOUND"
   }
 }
