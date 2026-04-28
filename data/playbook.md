@@ -548,3 +548,7 @@ Unfortunately, we are unable to confirm a yearly rate at this time. We can secur
 ## Learned (2026-04-28)
 - If a lead asks whether Sulafa Tower (or any of our apartments) is pet-friendly, respond clearly that none of our apartments allow pets.
   (Learned from Faysal handling Emanuel Rendas re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html)
+
+## Learned (2026-04-28)
+- If a lead asks "Is that okay?" in the context of viewing, respond by clarifying that self-viewings are not possible and that all viewings must be arranged in advance, as a team member needs to be present to assist.
+  (Learned from Faysal handling Mishell  re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVy5H4ZsBs.html)
