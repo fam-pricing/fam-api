@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-28T11:58:26.028Z",
+  "ts": "2026-04-28T11:59:46.469Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4240608782",
+    "type": "OUTBOUND",
+    "message_id": "4240610372",
     "ticket_id": "946120844",
-    "message": "Sry 4 months",
-    "channel_id": "1304636",
+    "message": "I will send the payment link shortly for you to complete the deposit payment and confirm the reservation.\r\nPlease note that we are currently able to confirm the booking for a period of three months only. After this period, the rate will be reviewed and updated accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536284001",
     "contact_name": "Rs Mlk",
     "contact_identifier": "+971581451699",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
