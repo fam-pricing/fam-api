@@ -552,3 +552,7 @@ Unfortunately, we are unable to confirm a yearly rate at this time. We can secur
 ## Learned (2026-04-28)
 - If a lead asks "Is that okay?" in the context of viewing, respond by clarifying that self-viewings are not possible and that all viewings must be arranged in advance, as a team member needs to be present to assist.
   (Learned from Faysal handling Mishell  re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVy5H4ZsBs.html)
+
+## Learned (2026-04-28)
+- If a lead states they have an ID but are unable to send a photo of it, respond by explaining that we require a copy of their Emirates ID or passport in order to arrange a viewing and complete the building registration process.
+  (Learned from Faysal handling Homa_olkeh re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
