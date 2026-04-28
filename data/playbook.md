@@ -544,3 +544,7 @@ Unfortunately, we are unable to confirm a yearly rate at this time. We can secur
 ## Learned (2026-04-27)
 - If a lead requests the annual rental rate before a viewing, respond that yearly rates are not available at this time. Explain that the rate can only be secured for an initial three-month period, after which it will be reviewed and adjusted based on current market conditions.
   (Learned from Faysal handling AM re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-dubai-creek-residences-dubai-creek-residences-north-dubai-creek-residences-north-tower-2-68288177.html)
+
+## Learned (2026-04-28)
+- If a lead asks whether Sulafa Tower (or any of our apartments) is pet-friendly, respond clearly that none of our apartments allow pets.
+  (Learned from Faysal handling Emanuel Rendas re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html)
