@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-28T12:25:03.961Z",
+  "ts": "2026-04-28T12:25:41.999Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4240640595",
+    "type": "INBOUND",
+    "message_id": "4240641336",
     "ticket_id": "946205400",
-    "message": "Here are a few monthly options around your budget:\n\n1BR in Urban Oasis, Business Bay, AED 6,500/mo\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-15691213.html\n\n2BR in Signature Hotel Apartments, Dubai Marina, AED 6,500/mo\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-signature-hotel-apartments-spa-marina-78186662.html\n\n1BR in Sunrise Bay Tower 2, Dubai Harbour, AED 7,000/mo\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-harbour-emaar-beachfront-sunrise-bay-sunrise-bay-tower-2-69094760.html\n\nWhich one do you want more details on?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "A whole month",
+    "channel_id": "1304636",
     "contact_id": "537110116",
     "contact_name": "Sara",
     "contact_identifier": "+971569720329",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4240640613",
+    "parent_ticket_id": "946205400",
+    "event_type": "INBOUND"
   }
 }
