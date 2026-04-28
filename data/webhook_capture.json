@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-28T06:27:46.669Z",
+  "ts": "2026-04-28T06:31:34.375Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4240208425",
+    "type": "INBOUND",
+    "message_id": "4240211516",
     "ticket_id": "946024760",
-    "message": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVy5H4ZsBs.html",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Price\nAnd conditions\nThanks",
+    "channel_id": "1304636",
     "contact_id": "536357156",
     "contact_name": "Haris M",
     "contact_identifier": "+971585528376",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4240208425",
+    "parent_ticket_id": "946024760",
+    "event_type": "INBOUND"
   }
 }
