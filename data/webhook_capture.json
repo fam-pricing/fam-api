@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-28T12:48:20.705Z",
+  "ts": "2026-04-28T12:50:24.116Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4240667827",
+    "type": "OUTBOUND",
+    "message_id": "4240670187",
     "ticket_id": "946074089",
-    "message": "And is there a loud construction site nearby?",
-    "channel_id": "1304636",
+    "message": "Yes, the building includes both a pool and a gym.\r\n\r\nWe can offer a rate of AED 27,600 for the period from 8th May to 23rd June (46 nights).",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537076491",
     "contact_name": "Виктория",
     "contact_identifier": "+79138287704",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
