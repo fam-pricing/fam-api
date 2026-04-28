@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-28T07:45:55.061Z",
+  "ts": "2026-04-28T07:46:17.587Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4240285741",
-    "ticket_id": "946105962",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-sports-city-canal-residence-arabian-16188259.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537083275",
-    "contact_name": "Anna Kasfie",
-    "contact_identifier": "+971585942408",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4240286494",
+    "ticket_id": "937192947",
+    "message": "Wait TBH the rate is a bit high, I found other options for better price, let me think about it and If I'm still staying I'll ask you to give me a new link",
+    "channel_id": "585723",
+    "contact_id": "534886793",
+    "contact_name": "Muhammad Diab",
+    "contact_identifier": "+971527166175",
+    "event_type": "INBOUND"
   }
 }
