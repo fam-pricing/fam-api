@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-28T08:54:30.032Z",
+  "ts": "2026-04-28T08:54:34.423Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4240372394",
-    "ticket_id": "946120844",
-    "message": "Today its fine",
+    "type": "OUTBOUND",
+    "message_id": "4240372565",
+    "ticket_id": "946128398",
+    "message": "Yes, 15th May works, it's available from then. For 3 months that's AED 30,000 total. Want to arrange a viewing before committing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537088925",
+    "contact_name": "Seal",
+    "contact_identifier": "+447957558800",
     "channel_id": "1304636",
-    "contact_id": "536284001",
-    "contact_name": "Rs Mlk",
-    "contact_identifier": "+971581451699",
-    "parent_message_id": "4240369217",
-    "parent_ticket_id": "946120844",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
