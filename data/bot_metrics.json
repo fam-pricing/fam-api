@@ -2566,5 +2566,17 @@
     "lead_quality": 70,
     "buying_stage": "HOT",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-04-28T08:59:50.811Z",
+    "ticket_id": 946125242,
+    "lead_id": "message_lead_29010897",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 13649,
+    "critic_pass": null,
+    "lead_quality": 60,
+    "buying_stage": "WARM",
+    "skip_reason": "optimistic_lock"
   }
 ]
