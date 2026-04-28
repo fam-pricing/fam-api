@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-28T08:59:51.330Z",
+  "ts": "2026-04-28T09:00:00.059Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4240378796",
-    "ticket_id": "946128398",
-    "message": "So the total cost for the property will be ?",
+    "type": "OUTBOUND",
+    "message_id": "4240379004",
+    "ticket_id": "946125242",
+    "message": "Mostafa, the 2BR in Elite Business Bay is ready whenever you want to come by. What time works for you tomorrow?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537087920",
+    "contact_name": "Mostafa",
+    "contact_identifier": "+971523196051",
     "channel_id": "1304636",
-    "contact_id": "537088925",
-    "contact_name": "Seal",
-    "contact_identifier": "+447957558800",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
