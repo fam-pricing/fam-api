@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-28T10:52:21.868Z",
+  "ts": "2026-04-28T10:52:43.684Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4240529023",
+    "type": "INBOUND",
+    "message_id": "4240529443",
     "ticket_id": "946120844",
-    "message": "You want to start the reservation from today or from 1st of May",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "30 or 1st of may",
+    "channel_id": "1304636",
     "contact_id": "536284001",
     "contact_name": "Rs Mlk",
     "contact_identifier": "+971581451699",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4240529023",
+    "parent_ticket_id": "946120844",
+    "event_type": "INBOUND"
   }
 }
