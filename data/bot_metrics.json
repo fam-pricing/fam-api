@@ -2002,5 +2002,17 @@
     "lead_quality": 35,
     "buying_stage": "COOL",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-04-28T12:27:00.291Z",
+    "ticket_id": 946205400,
+    "lead_id": "message_lead_29015666",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 28142,
+    "critic_pass": null,
+    "lead_quality": 25,
+    "buying_stage": "COOL",
+    "skip_reason": "optimistic_lock"
   }
 ]
