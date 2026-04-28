@@ -556,3 +556,7 @@ Unfortunately, we are unable to confirm a yearly rate at this time. We can secur
 ## Learned (2026-04-28)
 - If a lead states they have an ID but are unable to send a photo of it, respond by explaining that we require a copy of their Emirates ID or passport in order to arrange a viewing and complete the building registration process.
   (Learned from Faysal handling Homa_olkeh re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
+
+## Learned (2026-04-28)
+- When a lead sends a confirmation request, respond by informing them that both the rent and deposit must be paid in full before check-in in order to proceed with the check-in process.
+  (Learned from Faysal handling Mo Alaa re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
