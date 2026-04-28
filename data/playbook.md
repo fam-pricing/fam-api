@@ -560,3 +560,7 @@ Unfortunately, we are unable to confirm a yearly rate at this time. We can secur
 ## Learned (2026-04-28)
 - When a lead sends a confirmation request, respond by informing them that both the rent and deposit must be paid in full before check-in in order to proceed with the check-in process.
   (Learned from Faysal handling Mo Alaa re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
+
+## Learned (2026-04-28)
+- When a lead says "Please confirm" or requests confirmation, respond with: Once the security deposit has been received, we will block the unit, process the reservation, and share the confirmation with you.
+  (Learned from Faysal handling Mo Alaa re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
