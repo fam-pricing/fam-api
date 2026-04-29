@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-29T08:22:35.528Z",
+  "ts": "2026-04-29T08:22:55.656Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4241318772",
-    "ticket_id": "946388723",
-    "message": "Amazing! 4,500AED/Month includes everything? How is the payment method?",
+    "type": "OUTBOUND",
+    "message_id": "4241319142",
+    "ticket_id": "945737333",
+    "message": "Payment link - https://totalpay.ae/payment/202604293869f1bfce611c4",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536995527",
+    "contact_name": "Mo Alaa",
+    "contact_identifier": "+971522415511",
     "channel_id": "1304636",
-    "contact_id": "536546224",
-    "contact_name": "Bakhazi",
-    "contact_identifier": "+971554221866",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
