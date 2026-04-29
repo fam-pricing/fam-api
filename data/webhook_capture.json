@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-29T14:32:59.961Z",
+  "ts": "2026-04-29T14:33:09.971Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4241765558",
+    "type": "OUTBOUND",
+    "message_id": "4241765766",
     "ticket_id": "941133498",
-    "message": "So, I’m asking : are you still coming tomorrow at 12:00 as agreed ?\nI’ll wait for you at the appartement \nThansh. Stan",
-    "channel_id": "585723",
+    "message": "Till what time you need the late check out please let us know\r\n\r\nwe will check the availability and update you if possible",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535785520",
     "contact_name": "Stanislas Reiner Maria Oberty Rilke",
     "contact_identifier": "+971585912046",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
