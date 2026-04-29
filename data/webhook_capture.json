@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-29T09:33:50.224Z",
+  "ts": "2026-04-29T09:34:14.082Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4241408355",
+    "type": "OUTBOUND",
+    "message_id": "4241408732",
     "ticket_id": "946434671",
-    "message": "Allow pets",
-    "channel_id": "1304636",
+    "message": "Let me check the pet approval for you and come back within the next couple of hours, Kifah!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537172251",
     "contact_name": "Kifah",
     "contact_identifier": "+971525261281",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
