@@ -582,3 +582,15 @@ Unfortunately, we are unable to confirm a yearly rate at this time. We can secur
 ## Learned (2026-04-29)
 - If a lead states they will need two sets of bed linen and towels if cleaning is not included, clarify that a standard set of amenities is provided but cleaning services are not included in the booking. Let them know that cleaning can be arranged upon request for an additional charge per session.
   (Learned from Faysal handling Виктория re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-city-walk-residential-city-walk-residential-building-19-2Pg0l0haPU8.html)
+
+## Learned (2026-04-29)
+- If a lead sends an image, reply:
+
+"If you have a vehicle, we will need the following details for advance registration. Please provide:
+
+- Emirate of issue (Dubai, Abu Dhabi, Sharjah, etc.)
+- Code
+- Plate number
+- Vehicle make/model
+- Color"
+  (Learned from Faysal handling Виктория re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-city-walk-residential-city-walk-residential-building-19-2Pg0l0haPU8.html)
