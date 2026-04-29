@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-29T14:42:04.980Z",
+  "ts": "2026-04-29T14:42:36.187Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4241776111",
+    "type": "INBOUND",
+    "message_id": "4241776874",
     "ticket_id": "946317077",
-    "message": "Thank you",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "So how much you can give me this last",
+    "channel_id": "1304636",
     "contact_id": "537144978",
     "contact_name": "D BOSS",
     "contact_identifier": "+971558774034",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4241054824",
+    "parent_ticket_id": "946317077",
+    "event_type": "INBOUND"
   }
 }
