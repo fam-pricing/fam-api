@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-29T04:48:49.273Z",
+  "ts": "2026-04-29T04:48:54.075Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4241157323",
+    "type": "OUTBOUND",
+    "message_id": "4241157332",
     "ticket_id": "946358064",
-    "message": "We are interested in long-term apartments with monthly payment.",
-    "channel_id": "1304636",
+    "message": "Maria, have you had a chance to look at the listing yet?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537154119",
     "contact_name": "Maria",
     "contact_identifier": "+79585929648",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
