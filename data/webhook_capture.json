@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-29T14:35:38.699Z",
+  "ts": "2026-04-29T14:36:23.069Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4241768473",
+    "type": "OUTBOUND",
+    "message_id": "4241769426",
     "ticket_id": "941133498",
-    "message": "Please confirm clearly:\n\n1. What exact time will your staff arrive tomorrow?\n2. Will the AED 2000 cash deposit be returned at the apartment during check-out?\n\nI will leave at 12:00.\nThanks.",
-    "channel_id": "585723",
+    "message": "Allow us to check with the team and update you for the check out inspection and deposit",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535785520",
     "contact_name": "Stanislas Reiner Maria Oberty Rilke",
     "contact_identifier": "+971585912046",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
