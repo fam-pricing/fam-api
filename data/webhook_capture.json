@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-29T05:43:21.657Z",
+  "ts": "2026-04-29T05:43:51.558Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4241174128",
+    "type": "OUTBOUND",
+    "message_id": "4241174331",
     "ticket_id": "946318325",
-    "message": "Please let me know which floor is",
-    "channel_id": "1304636",
+    "message": "Take your time! If you have any questions once you've had a look, just let me know what works for a viewing.\n\nWait, I need to re-examine this against the rules more carefully before outputting.\n\nThe lead said \"I will check.\" The draft:\n- Rule 8: Brings up passport, email, move-in confirmation, deposit, viewing time, none of which the lead asked about. .\n- Rule 11: Asks for passport and mentions costs/deposit when lead hasn't asked to proceed. .\n- Rule 12: Repeats deposit/cost info not previously stated but brings up unsolicited financial details. .\n- Rule 13: Too long, more than 3 sentences. .\n- Rule 6: \"what time works best between 9am and 6pm?\" is a reasonable CTA but the whole reply is bloated.\n\n\nTake your time. Once you've had a look, let me know if Thursday still works for the viewing.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537145327",
     "contact_name": "Dayana",
     "contact_identifier": "+393275863563",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
