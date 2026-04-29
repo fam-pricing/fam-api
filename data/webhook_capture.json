@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-29T07:47:15.840Z",
+  "ts": "2026-04-29T07:47:58.351Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4241275962",
-    "ticket_id": "946388723",
-    "message": "you need 1 bedroom or studio in upside living and for how many months you need ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "536546224",
-    "contact_name": "Bakhazi",
-    "contact_identifier": "+971554221866",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4241276728",
+    "ticket_id": "943915428",
+    "message": "Rent details?",
+    "channel_id": "585723",
+    "contact_id": "536484706",
+    "contact_name": "Raja Sajid 🇦🇪",
+    "contact_identifier": "+971566960509",
+    "parent_message_id": "4239420382",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
