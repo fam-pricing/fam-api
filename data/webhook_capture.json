@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-29T09:11:15.938Z",
+  "ts": "2026-04-29T09:11:39.401Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4241380180",
+    "type": "INBOUND",
+    "message_id": "4241380783",
     "ticket_id": "946388723",
-    "message": "All are included. Kindly note that a security deposit of AED 2,000 is also applicable.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I know 🙁",
+    "channel_id": "1304636",
     "contact_id": "536546224",
     "contact_name": "Bakhazi",
     "contact_identifier": "+971554221866",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4241379195",
+    "parent_ticket_id": "946388723",
+    "event_type": "INBOUND"
   }
 }
