@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-29T15:04:48.257Z",
+  "ts": "2026-04-29T15:05:04.002Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4241802802",
+    "type": "OUTBOUND",
+    "message_id": "4241803086",
     "ticket_id": "946318325",
-    "message": "And it’s ready to move ?",
-    "channel_id": "1304636",
+    "message": "Tomorrow between 9am and 6pm works, what time suits you best?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537145327",
     "contact_name": "Dayana",
     "contact_identifier": "+393275863563",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
