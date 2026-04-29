@@ -578,3 +578,7 @@ Unfortunately, we are unable to confirm a yearly rate at this time. We can secur
 
 "Please note that no one will be available at the property to collect cash payments. All payments must be completed before check-in in order to proceed with and finalise the check-in process."
   (Learned from Faysal handling Mo Alaa re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
+
+## Learned (2026-04-29)
+- If a lead states they will need two sets of bed linen and towels if cleaning is not included, clarify that a standard set of amenities is provided but cleaning services are not included in the booking. Let them know that cleaning can be arranged upon request for an additional charge per session.
+  (Learned from Faysal handling Виктория re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-city-walk-residential-city-walk-residential-building-19-2Pg0l0haPU8.html)
