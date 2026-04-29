@@ -2230,5 +2230,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "optimistic_lock"
+  },
+  {
+    "ts": "2026-04-29T10:29:22.188Z",
+    "ticket_id": 946452423,
+    "lead_id": "message_lead_29032162",
+    "action": "reply",
+    "tool_used": "send_reply",
+    "response_time_ms": 16336,
+    "critic_pass": null,
+    "lead_quality": 50,
+    "buying_stage": "WARM",
+    "skip_reason": null
   }
 ]
