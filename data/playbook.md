@@ -568,3 +568,7 @@ Unfortunately, we are unable to confirm a yearly rate at this time. We can secur
 ## Learned (2026-04-29)
 - When a lead asks about the total cost of VAT, service fees, and DTCM charges, reassure them that the quoted rate already includes all of these. The only additional cost is the refundable security deposit.
   (Learned from Faysal handling Sitwat re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
+
+## Learned (2026-04-29)
+- When a lead says they want to view the property today or tomorrow, ask them to confirm their preferred date and time. Let them know that viewings are available between 10:00 AM and 5:00 PM only, so the agent can be arranged accordingly.
+  (Learned from Faysal handling Sitwat re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
