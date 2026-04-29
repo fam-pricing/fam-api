@@ -564,3 +564,7 @@ Unfortunately, we are unable to confirm a yearly rate at this time. We can secur
 ## Learned (2026-04-28)
 - When a lead says "Please confirm" or requests confirmation, respond with: Once the security deposit has been received, we will block the unit, process the reservation, and share the confirmation with you.
   (Learned from Faysal handling Mo Alaa re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
+
+## Learned (2026-04-29)
+- When a lead asks about the total cost of VAT, service fees, and DTCM charges, reassure them that the quoted rate already includes all of these. The only additional cost is the refundable security deposit.
+  (Learned from Faysal handling Sitwat re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
