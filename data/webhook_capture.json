@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-29T11:26:16.848Z",
+  "ts": "2026-04-29T11:26:27.155Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4241540154",
-    "ticket_id": "946472604",
-    "message": "Hello if we do the viewing and we want to move in wha is the payment method and pricing as in will you have different pricing during the summer and winter?",
+    "type": "OUTBOUND",
+    "message_id": "4241540377",
+    "ticket_id": "946472430",
+    "message": "Yes, it's still available. Shall I arrange a viewing so you can see it in person?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537184785",
+    "contact_name": "Rich Rigby",
+    "contact_identifier": "+447380213975",
     "channel_id": "1304636",
-    "contact_id": "537010632",
-    "contact_name": "nhyira",
-    "contact_identifier": "+233506887713",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
