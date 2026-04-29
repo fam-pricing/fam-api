@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-29T06:40:09.396Z",
+  "ts": "2026-04-29T06:40:49.594Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4241208180",
+    "type": "INBOUND",
+    "message_id": "4241208648",
     "ticket_id": "945733914",
-    "message": "Door code - 8080🔑",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Who is going to show us ?",
+    "channel_id": "1304636",
     "contact_id": "536994646",
     "contact_name": "Ivan Stoimenov AMG",
     "contact_identifier": "+971524617694",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4241207979",
+    "parent_ticket_id": "945733914",
+    "event_type": "INBOUND"
   }
 }
