@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-29T05:40:06.783Z",
+  "ts": "2026-04-29T05:40:11.360Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4241172781",
+    "type": "INBOUND",
+    "message_id": "4241172804",
     "ticket_id": "946268604",
-    "message": "Good Morning",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Hi! It looks like you tried to contact an agent but the enquiry didn't go through. Remember - any changes to a message will result in the enquiry not being sent. Keep searching > https://www.propertyfinder.ae",
+    "channel_id": "1304636",
     "contact_id": "461634798",
     "contact_name": "97145560367",
     "contact_identifier": "+97145560367",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
