@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-29T04:31:14.376Z",
+  "ts": "2026-04-29T04:36:18.346Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4241152930",
-    "ticket_id": "946356665",
-    "message": "Good morning",
+    "type": "OUTBOUND",
+    "message_id": "4241154207",
+    "ticket_id": "945737333",
+    "message": "Good morning,\r\n\r\nMay I know you need to start the reservation from today or from tomorrow",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536995527",
+    "contact_name": "Mo Alaa",
+    "contact_identifier": "+971522415511",
     "channel_id": "1304636",
-    "contact_id": "523437451",
-    "contact_name": "Ali Alzakour | fäm properties",
-    "contact_identifier": "+971508390912",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
