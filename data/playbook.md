@@ -572,3 +572,9 @@ Unfortunately, we are unable to confirm a yearly rate at this time. We can secur
 ## Learned (2026-04-29)
 - When a lead says they want to view the property today or tomorrow, ask them to confirm their preferred date and time. Let them know that viewings are available between 10:00 AM and 5:00 PM only, so the agent can be arranged accordingly.
   (Learned from Faysal handling Sitwat re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
+
+## Learned (2026-04-29)
+- If a lead requests to pay cash on arrival, respond:
+
+"Please note that no one will be available at the property to collect cash payments. All payments must be completed before check-in in order to proceed with and finalise the check-in process."
+  (Learned from Faysal handling Mo Alaa re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
