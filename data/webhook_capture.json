@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-29T08:51:42.857Z",
+  "ts": "2026-04-29T08:53:47.115Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4241355005",
-    "ticket_id": "945737333",
-    "message": "Please note that there will be no one available at the property to collect cash payments. Kindly ensure that all payments are completed prior to check-in in order to proceed with and complete the check-in process.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536995527",
-    "contact_name": "Mo Alaa",
-    "contact_identifier": "+971522415511",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4241357453",
+    "ticket_id": "943915428",
+    "message": "👍",
+    "channel_id": "585723",
+    "contact_id": "536484706",
+    "contact_name": "Raja Sajid 🇦🇪",
+    "contact_identifier": "+971566960509",
+    "parent_message_id": "4241349305",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
