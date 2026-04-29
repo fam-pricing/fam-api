@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-29T13:36:22.706Z",
+  "ts": "2026-04-29T13:37:07.084Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4241695474",
+    "type": "OUTBOUND",
+    "message_id": "4241696231",
     "ticket_id": "946513976",
-    "message": "Hi\nExcuse me I need to rent this apartment for 4 months \nFrom 5th of may\nSend me all the details please \nAnd monthly payment\nAnd location please",
-    "channel_id": "1304636",
+    "message": "It's a studio in Upside Living, Business Bay, available from May 5th. For a 4-month stay, the first 3 months are locked in at the same rate, month 4 gets confirmed closer to the time based on availability.\n\nDoes that work for you, or would you like to see it in person first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537196562",
     "contact_name": "Marian Murra",
     "contact_identifier": "+972594868601",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
