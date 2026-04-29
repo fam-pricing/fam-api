@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-29T06:06:24.982Z",
+  "ts": "2026-04-29T06:06:28.709Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4241185025",
-    "ticket_id": "945875619",
-    "message": "To process a smooth check in for you, please complete this form: https://guest-app.guesty.com/r/69ef295da23484dc5187ae97/e3tndWVzdF9hcHA6OnNhbXBsZV9ndWVzdF9hcHB9fQ==",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537026441",
-    "contact_name": "OKSANA LAMZOVA",
-    "contact_identifier": "+34647269725",
+    "type": "INBOUND",
+    "message_id": "4241185069",
+    "ticket_id": "919953013",
+    "message": "This is an invoice",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "530553965",
+    "contact_name": "SALIM MAHROUCH",
+    "contact_identifier": "+447710877670",
+    "event_type": "INBOUND"
   }
 }
