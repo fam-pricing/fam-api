@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-29T13:21:00.118Z",
+  "ts": "2026-04-29T13:21:04.729Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4241677677",
-    "ticket_id": "946472604",
-    "message": "oh ok ok",
+    "type": "OUTBOUND",
+    "message_id": "4241677785",
+    "ticket_id": "946472430",
+    "message": "Well noted, Mr. Richard.\r\n\r\nKindly allow us until tomorrow to update you regarding the cleaning schedule and apartment availability. We will also confirm with the owner, as a deep cleaning is required before handover.\r\n\r\nPlease let us know if it is acceptable for us to revert back to you by tomorrow with the confirmation.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537184785",
+    "contact_name": "Rich Rigby",
+    "contact_identifier": "+447380213975",
     "channel_id": "1304636",
-    "contact_id": "537010632",
-    "contact_name": "nhyira",
-    "contact_identifier": "+233506887713",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
