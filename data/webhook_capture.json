@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-30T06:08:10.833Z",
+  "ts": "2026-04-30T06:08:50.751Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242183214",
+    "type": "OUTBOUND",
+    "message_id": "4242183832",
     "ticket_id": "946300215",
-    "message": "Can you arrange the viewing",
-    "channel_id": "1304636",
+    "message": "We can arrange the viewing after 11:00 AM. Kindly share your ID so we can proceed with scheduling the viewing.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537140689",
     "contact_name": "Sitwat",
     "contact_identifier": "+971502559821",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
