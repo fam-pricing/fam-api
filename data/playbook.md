@@ -613,3 +613,9 @@ Once we have these, we'll send you a payment link to complete the reservation.
 ## Learned (2026-04-30)
 - When a lead asks whether the price will stay the same or change over time, confirm that the current rate can be locked in for a maximum of three months. After that period, the rate will be adjusted in line with the market rate. Make clear that the guarantee applies only within that three-month window.
   (Learned from Faysal handling Ameni re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVxAftgMJE.html)
+
+## Learned (2026-04-30)
+- If a lead asks about pricing beyond the initial 3-month period, respond with:
+
+"At this time, we are unable to confirm the rate beyond the first 3 months, as it will be subject to the prevailing market rate. We can guarantee the current rate for the initial 3-month period only."
+  (Learned from Faysal handling Ameni re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVxAftgMJE.html)
