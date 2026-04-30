@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-30T07:02:09.342Z",
+  "ts": "2026-04-30T07:02:29.624Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242226368",
+    "type": "OUTBOUND",
+    "message_id": "4242226713",
     "ticket_id": "946690355",
-    "message": "I am ready , how soon you can be there?",
-    "channel_id": "1304636",
+    "message": "Paula, the apartment is free and viewings run 9am, 6pm any day. What time works for you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536314933",
     "contact_name": "Paula K",
     "contact_identifier": "+971555411139",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
