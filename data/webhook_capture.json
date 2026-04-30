@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-30T09:01:55.197Z",
+  "ts": "2026-04-30T09:02:12.523Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242368472",
+    "type": "OUTBOUND",
+    "message_id": "4242368805",
     "ticket_id": "946668508",
-    "message": "I am currently based in Bayz, the same building",
-    "channel_id": "1304636",
+    "message": "Early check-in can only be confirmed tomorrow after 9:00 AM.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535952622",
     "contact_name": "Simone Chhabda",
     "contact_identifier": "+971581770094",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
