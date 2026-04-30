@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-30T11:46:20.552Z",
+  "ts": "2026-04-30T11:46:41.019Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242587409",
-    "ticket_id": "946442736",
-    "message": "My arrival date to the property is 04/05 for the check in\n\nPlease update \nThanks.",
+    "type": "OUTBOUND",
+    "message_id": "4242587737",
+    "ticket_id": "946452423",
+    "message": "once payment done, then we will block the unit for you",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536827119",
+    "contact_name": "Mdm",
+    "contact_identifier": "+33677542023",
     "channel_id": "1304636",
-    "contact_id": "536340091",
-    "contact_name": "Mahassine Al Awad",
-    "contact_identifier": "+971585429848",
-    "parent_message_id": "4241438191",
-    "parent_ticket_id": "946442736",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
