@@ -1,19 +1,17 @@
 {
-  "ts": "2026-04-30T12:16:03.125Z",
+  "ts": "2026-04-30T12:16:17.678Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242633455",
-    "ticket_id": "940787691",
-    "message": "Thanks",
+    "type": "OUTBOUND",
+    "message_id": "4242633736",
+    "ticket_id": "945740413",
+    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
+    "contact_id": "536996463",
+    "contact_name": "Hossam Fadel",
+    "contact_identifier": "+971522055341",
     "channel_id": "585723",
-    "contact_id": "535640336",
-    "contact_name": "Mohammad Amanzadegan",
-    "contact_identifier": "+971503062921",
-    "parent_message_id": "4242633035",
-    "parent_ticket_id": "940787691",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
