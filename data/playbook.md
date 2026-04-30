@@ -605,3 +605,7 @@ To confirm your booking, we'll need two things from you:
 
 Once we have these, we'll send you a payment link to complete the reservation.
   (Learned from Faysal handling Mdm re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
+
+## Learned (2026-04-30)
+- When a lead says it is time to register new beneficiaries, respond: "Once payment is completed, we will block the unit for you."
+  (Learned from Faysal handling Mdm re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
