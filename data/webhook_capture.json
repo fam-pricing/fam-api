@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-30T10:09:40.247Z",
+  "ts": "2026-04-30T10:10:02.189Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242452479",
+    "type": "OUTBOUND",
+    "message_id": "4242452862",
     "ticket_id": "946764553",
-    "message": "What time is possible",
-    "channel_id": "585723",
+    "message": "between 5:00 PM and 5:30 PM",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535986253",
     "contact_name": "Sheza imran Butt",
     "contact_identifier": "+971505644681",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
