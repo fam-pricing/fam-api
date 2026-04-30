@@ -1,19 +1,20 @@
 {
-  "ts": "2026-04-30T13:15:08.009Z",
+  "ts": "2026-04-30T13:29:54.622Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242716184",
-    "ticket_id": "946847797",
-    "message": "I Accept Charges",
-    "channel_id": "585723",
-    "contact_id": "537276725",
-    "contact_name": "Souheil Alkhayer",
-    "contact_identifier": "+971504676132",
-    "parent_message_id": "4242680615",
-    "parent_ticket_id": "946847797",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4242738851",
+    "ticket_id": "946442736",
+    "message": "Attachment",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536340091",
+    "contact_name": "Mahassine Al Awad",
+    "contact_identifier": "+971585429848",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
