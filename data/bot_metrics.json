@@ -1,65 +1,5 @@
 [
   {
-    "ts": "2026-04-23T07:14:32.158Z",
-    "ticket_id": 944906329,
-    "lead_id": "message_lead_28916981",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1298,
-    "critic_pass": null,
-    "lead_quality": 10,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-04-23T07:28:30.363Z",
-    "ticket_id": 944781978,
-    "lead_id": "message_lead_28907674",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1038,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-04-23T07:33:12.471Z",
-    "ticket_id": 944781978,
-    "lead_id": "message_lead_28907674",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1040,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-04-23T08:14:01.549Z",
-    "ticket_id": 944972075,
-    "lead_id": "message_lead_28921481",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1086,
-    "critic_pass": null,
-    "lead_quality": 55,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-04-23T08:14:11.291Z",
-    "ticket_id": 944972075,
-    "lead_id": "message_lead_28921481",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 952,
-    "critic_pass": null,
-    "lead_quality": 55,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-04-23T08:26:08.226Z",
     "ticket_id": 944781978,
     "lead_id": "message_lead_28907674",
@@ -2409,6 +2349,18 @@
     "critic_pass": null,
     "lead_quality": 55,
     "buying_stage": "WARM",
+    "skip_reason": null
+  },
+  {
+    "ts": "2026-04-30T08:20:05.866Z",
+    "ticket_id": 946678914,
+    "lead_id": "message_lead_29045202",
+    "action": "reply",
+    "tool_used": "send_reply",
+    "response_time_ms": 16109,
+    "critic_pass": null,
+    "lead_quality": 5,
+    "buying_stage": "COLD",
     "skip_reason": null
   }
 ]
