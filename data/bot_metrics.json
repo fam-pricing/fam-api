@@ -1,17 +1,5 @@
 [
   {
-    "ts": "2026-04-23T08:47:10.106Z",
-    "ticket_id": 945028350,
-    "lead_id": "message_lead_28926305",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 25593,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": null
-  },
-  {
     "ts": "2026-04-23T10:27:59.911Z",
     "ticket_id": 943559550,
     "lead_id": "message_lead_28820915",
@@ -2398,5 +2386,17 @@
     "lead_quality": 50,
     "buying_stage": "WARM",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-04-30T08:51:28.912Z",
+    "ticket_id": 946733389,
+    "lead_id": "message_lead_29048407",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 20176,
+    "critic_pass": null,
+    "lead_quality": 10,
+    "buying_stage": "COLD",
+    "skip_reason": "Lead Mahyar Kh is offering AED 6,000/month for the Palm Tower studio (listed at AED 6,499/month) for 6 months. The gap is around 7.7% which is within the 10% discount cap, but the lead is also asking to speak with the owner directly. Also, 6 months is beyond the 3-month pricing block policy. Needs human handling for both the owner request and the long-term pricing negotiation."
   }
 ]
