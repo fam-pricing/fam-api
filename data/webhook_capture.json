@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-30T13:07:44.516Z",
+  "ts": "2026-04-30T13:08:45.190Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242707651",
+    "type": "OUTBOUND",
+    "message_id": "4242708787",
     "ticket_id": "946707378",
-    "message": "What is the final price?",
-    "channel_id": "1304636",
+    "message": "We can offer you a final price of AED 7,500 for 30 nights. Additionally, a security deposit of AED 3,000 is required.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537241711",
     "contact_name": "Hanna",
     "contact_identifier": "+971524881996",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
