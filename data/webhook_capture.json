@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-30T11:45:58.073Z",
+  "ts": "2026-04-30T11:46:08.884Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242586978",
-    "ticket_id": "946452423",
-    "message": "It’s time for register new beneficiaries",
-    "channel_id": "1304636",
-    "contact_id": "536827119",
-    "contact_name": "Mdm",
-    "contact_identifier": "+33677542023",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4242587215",
+    "ticket_id": "946801576",
+    "message": "Apologies for the inconvenience, and noted.\r\n\r\nAs previously mentioned, we will proceed with cancelling your booking. However, please be informed that we are unable to process a refund of the deposit in this case, as the unit was already blocked and reserved for your stay. Therefore, the deposit is non-refundable.\r\n\r\nWe appreciate your understanding. Kindly let us know if you need any further assistance.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536043992",
+    "contact_name": "Anna",
+    "contact_identifier": "+971566816023",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
