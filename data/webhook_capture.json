@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-30T08:50:46.469Z",
+  "ts": "2026-04-30T08:50:49.355Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4242354498",
+    "type": "INBOUND",
+    "message_id": "4242354547",
     "ticket_id": "946733389",
-    "message": "Doing well! Any questions about the Palm Tower studio?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Availble?",
+    "channel_id": "1304636",
     "contact_id": "536887219",
     "contact_name": "Mahyar Kh",
     "contact_identifier": "+971561077070",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4242353784",
+    "parent_ticket_id": "946733389",
+    "event_type": "INBOUND"
   }
 }
