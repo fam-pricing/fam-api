@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-30T08:21:56.475Z",
+  "ts": "2026-04-30T08:22:22.540Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242319398",
+    "type": "OUTBOUND",
+    "message_id": "4242319860",
     "ticket_id": "946718100",
-    "message": "that was sent to me on booking",
-    "channel_id": "585723",
+    "message": "That is fine. The deposit amount was previously higher; however, we have reduced it for you to AED 1,000. We have already received your deposit amount.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537243905",
     "contact_name": "Tomas Marek",
     "contact_identifier": "+971585120165",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
