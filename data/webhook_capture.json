@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-30T16:40:10.192Z",
+  "ts": "2026-04-30T16:40:25.404Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242952724",
-    "ticket_id": "946452423",
-    "message": "Virement please",
+    "type": "OUTBOUND",
+    "message_id": "4242952874",
+    "ticket_id": "946713819",
+    "message": "At this time, we are unable to confirm the rate beyond the initial 3-month period, as it will be subject to the prevailing market rate. For now, we can offer the same rate for the first 3 months only.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537243109",
+    "contact_name": "Ameni",
+    "contact_identifier": "+21629435936",
     "channel_id": "1304636",
-    "contact_id": "536827119",
-    "contact_name": "Mdm",
-    "contact_identifier": "+33677542023",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
