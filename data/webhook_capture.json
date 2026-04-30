@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-30T15:58:33.629Z",
+  "ts": "2026-04-30T15:58:39.810Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4242922451",
-    "ticket_id": "946940686",
-    "message": "It's a 2-bedroom in MAG 318, what are you looking to know about it?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537307325",
-    "contact_name": "Parva",
-    "contact_identifier": "+971528404451",
+    "type": "INBOUND",
+    "message_id": "4242922544",
+    "ticket_id": "946940664",
+    "message": "Hello",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537307322",
+    "contact_name": "Nuray",
+    "contact_identifier": "+971551279084",
+    "event_type": "INBOUND"
   }
 }
