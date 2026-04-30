@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-30T10:13:51.234Z",
+  "ts": "2026-04-30T10:14:11.882Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242457513",
+    "type": "OUTBOUND",
+    "message_id": "4242457987",
     "ticket_id": "946713819",
-    "message": "This apartment short term rental",
-    "channel_id": "1304636",
+    "message": "MAG 318 in Business Bay, we have units available. Are you looking for something monthly, or more short-term like weekly or nightly?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537243109",
     "contact_name": "Ameni",
     "contact_identifier": "+21629435936",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
