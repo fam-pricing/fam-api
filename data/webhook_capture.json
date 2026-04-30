@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-30T07:08:09.029Z",
+  "ts": "2026-04-30T07:08:34.699Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242235491",
+    "type": "OUTBOUND",
+    "message_id": "4242235928",
     "ticket_id": "946554379",
-    "message": "Hey! Do you by any chance do yearly?",
-    "channel_id": "1304636",
+    "message": "Yes, you can stay for up to 12 months. Just keep in mind that rates are confirmed in 3-month blocks, so the price for each new period is set based on market conditions at that time. What duration were you thinking?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537208189",
     "contact_name": "Kassem Zeinab",
     "contact_identifier": "+971505520987",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
