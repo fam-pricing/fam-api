@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-30T06:49:07.711Z",
+  "ts": "2026-04-30T06:49:50.158Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4242213667",
+    "type": "INBOUND",
+    "message_id": "4242214357",
     "ticket_id": "941125723",
-    "message": "yes, included",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "535783872",
     "contact_name": "Elena H",
     "contact_identifier": "+971555746622",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4242213667",
+    "parent_ticket_id": "941125723",
+    "event_type": "INBOUND"
   }
 }
