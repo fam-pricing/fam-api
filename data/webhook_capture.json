@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-30T08:06:13.855Z",
+  "ts": "2026-04-30T08:07:19.051Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4242299747",
-    "ticket_id": "946707378",
-    "message": "5:15pm works, our last viewing slot is 5pm though. Can you make it by 5pm today, or would tomorrow suit you better?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537241711",
-    "contact_name": "Hanna",
-    "contact_identifier": "+971524881996",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4242300957",
+    "ticket_id": "946488243",
+    "message": "👍",
+    "channel_id": "585723",
+    "contact_id": "531448413",
+    "contact_name": "Nurjemal",
+    "contact_identifier": "+971555386752",
+    "parent_message_id": "4242276144",
+    "parent_ticket_id": "946488243",
+    "event_type": "INBOUND"
   }
 }
