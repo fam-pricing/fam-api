@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-30T11:22:56.774Z",
+  "ts": "2026-04-30T11:23:03.450Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4242559525",
-    "ticket_id": "946197126",
-    "message": "Here is the payment link for the deposit: https://totalpay.ae/payment/202604302769f33b7311e82",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537107575",
-    "contact_name": "Steve El Hitti",
-    "contact_identifier": "+971585703300",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4242559618",
+    "ticket_id": "924621310",
+    "message": "Can you stop sending me these bot messages",
+    "channel_id": "585723",
+    "contact_id": "531737122",
+    "contact_name": "Pukhraj",
+    "contact_identifier": "+919501933339",
+    "event_type": "INBOUND"
   }
 }
