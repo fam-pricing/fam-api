@@ -1,20 +1,19 @@
 {
-  "ts": "2026-04-30T00:19:39.611Z",
+  "ts": "2026-04-30T00:19:47.017Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4242089584",
+    "type": "INBOUND",
+    "message_id": "4242089601",
     "ticket_id": "946633717",
-    "message": "No problem at all, since you're not in Dubai right now let me get a video arranged for you. Someone from the team will be with you shortly!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Afternoon",
+    "channel_id": "1304636",
     "contact_id": "537230588",
     "contact_name": "N",
     "contact_identifier": "+212603324940",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4242089553",
+    "parent_ticket_id": "946633717",
+    "event_type": "INBOUND"
   }
 }
