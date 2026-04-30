@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-30T13:05:36.482Z",
+  "ts": "2026-04-30T13:05:59.984Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242703860",
+    "type": "OUTBOUND",
+    "message_id": "4242704578",
     "ticket_id": "946707378",
-    "message": "They gave me access I’m already in the apartment",
-    "channel_id": "1304636",
+    "message": "We have scheduled your viewing for Unit 207, Ms. Hanna, as this is the only available unit.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537241711",
     "contact_name": "Hanna",
     "contact_identifier": "+971524881996",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
