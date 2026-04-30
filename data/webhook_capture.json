@@ -1,20 +1,17 @@
 {
-  "ts": "2026-04-30T11:08:11.582Z",
+  "ts": "2026-04-30T11:08:27.531Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4242541658",
+    "type": "INBOUND",
+    "message_id": "4242542047",
     "ticket_id": "946523869",
-    "message": "you have booked the unit for 1 month correct ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "No",
+    "channel_id": "1304636",
     "contact_id": "536870373",
     "contact_name": "Asmae Elalaouì",
     "contact_identifier": "+971523442425",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
