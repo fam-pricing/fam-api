@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-30T08:24:12.695Z",
+  "ts": "2026-04-30T08:27:48.789Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242321917",
+    "type": "OUTBOUND",
+    "message_id": "4242326474",
     "ticket_id": "946452423",
-    "message": "Let's go to 7000 aed and I'll make the reservation today",
-    "channel_id": "1304636",
+    "message": "Okay, in that case we will set the rental amount at AED 7,000 per month for May and June.\r\n\r\nKindly confirm if you would like to proceed with the booking from 1st May until 30th June, is that correct?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536827119",
     "contact_name": "Mdm",
     "contact_identifier": "+33677542023",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
