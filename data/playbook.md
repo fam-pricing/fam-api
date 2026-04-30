@@ -609,3 +609,7 @@ Once we have these, we'll send you a payment link to complete the reservation.
 ## Learned (2026-04-30)
 - When a lead says it is time to register new beneficiaries, respond: "Once payment is completed, we will block the unit for you."
   (Learned from Faysal handling Mdm re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
+
+## Learned (2026-04-30)
+- When a lead asks whether the price will stay the same or change over time, confirm that the current rate can be locked in for a maximum of three months. After that period, the rate will be adjusted in line with the market rate. Make clear that the guarantee applies only within that three-month window.
+  (Learned from Faysal handling Ameni re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVxAftgMJE.html)
