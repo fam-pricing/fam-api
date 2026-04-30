@@ -1,17 +1,20 @@
 {
-  "ts": "2026-04-30T05:56:31.074Z",
+  "ts": "2026-04-30T05:58:07.979Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4242174541",
+    "type": "OUTBOUND",
+    "message_id": "4242175265",
     "ticket_id": "945057658",
-    "message": "Hi",
-    "channel_id": "585723",
+    "message": "Please note that since the payment was made via the payment link, a card processing fee of 3.1% has been applied. This is the reason the total amount comes to AED 5,155.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536801177",
     "contact_name": "DEANNO GARRY LUPKE",
     "contact_identifier": "+27659885182",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
