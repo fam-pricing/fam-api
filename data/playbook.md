@@ -594,3 +594,14 @@ Unfortunately, we are unable to confirm a yearly rate at this time. We can secur
 - Vehicle make/model
 - Color"
   (Learned from Faysal handling Виктория re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-city-walk-residential-city-walk-residential-building-19-2Pg0l0haPU8.html)
+
+## Learned (2026-04-30)
+- When a lead asks how to proceed with booking, respond with the following:
+
+To confirm your booking, we'll need two things from you:
+
+1. A copy of your ID or passport
+2. Your email address
+
+Once we have these, we'll send you a payment link to complete the reservation.
+  (Learned from Faysal handling Mdm re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
