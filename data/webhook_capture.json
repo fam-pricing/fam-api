@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-01T13:38:27.371Z",
+  "ts": "2026-05-01T13:38:31.410Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4243601732",
+    "type": "OUTBOUND",
+    "message_id": "4243601807",
     "ticket_id": "947202318",
-    "message": "Hi i try to contact with you to confmy reservation",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "537364109",
     "contact_name": "Amani",
     "contact_identifier": "32175249-ee5f-4623-c267-a69a1c5f1dc2",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
