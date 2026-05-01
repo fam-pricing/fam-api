@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-01T10:10:15.291Z",
+  "ts": "2026-05-01T10:10:18.455Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243426464",
+    "type": "INBOUND",
+    "message_id": "4243426519",
     "ticket_id": "947126999",
-    "message": "Here are the photos for the Urban Oasis 3BR: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-69095495.html\n\nFor long-term, we can arrange a viewing on May 10th, what time works for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Today/tomorrow works best for me",
+    "channel_id": "1304636",
     "contact_id": "537344544",
     "contact_name": "Enhance Fitness",
     "contact_identifier": "+971521829680",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4243426038",
+    "parent_ticket_id": "947126999",
+    "event_type": "INBOUND"
   }
 }
