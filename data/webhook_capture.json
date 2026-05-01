@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-01T15:23:47.327Z",
+  "ts": "2026-05-01T15:24:08.435Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4243686594",
+    "type": "OUTBOUND",
+    "message_id": "4243686800",
     "ticket_id": "947226237",
-    "message": "Hi",
-    "channel_id": "1304636",
+    "message": "Welcome to fäm Living! Are you looking to move in soon, or still exploring options?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537370377",
     "contact_name": "N.K",
     "contact_identifier": "+971547771324",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
