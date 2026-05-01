@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-01T09:11:57.878Z",
+  "ts": "2026-05-01T09:12:24.596Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4243374656",
-    "ticket_id": "946668508",
-    "message": "I’ll be reaching by 2 there, slight delay",
+    "type": "OUTBOUND",
+    "message_id": "4243375052",
+    "ticket_id": "946690355",
+    "message": "Dear Mrs. Paula,\r\n\r\nKindly be informed that this unit will be available for monthly bookings starting from 3rd June onwards. Prior to this date, the unit is fully booked.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536314933",
+    "contact_name": "Paula K",
+    "contact_identifier": "+971555411139",
     "channel_id": "1304636",
-    "contact_id": "535952622",
-    "contact_name": "Simone Chhabda",
-    "contact_identifier": "+971581770094",
-    "parent_message_id": "4243326275",
-    "parent_ticket_id": "946668508",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
