@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-01T11:30:43.866Z",
+  "ts": "2026-05-01T11:30:49.107Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243493249",
-    "ticket_id": "947167024",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n3BR in Imperial Avenue\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537353453",
-    "contact_name": "Jack Ward",
-    "contact_identifier": "+447495576908",
+    "type": "INBOUND",
+    "message_id": "4243493389",
+    "ticket_id": "947160807",
+    "message": "No I live in Saudi Arabia",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537352143",
+    "contact_name": "A ☕️",
+    "contact_identifier": "+33668966366",
+    "event_type": "INBOUND"
   }
 }
