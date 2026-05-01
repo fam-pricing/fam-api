@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-01T06:34:04.512Z",
+  "ts": "2026-05-01T06:35:28.768Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243248111",
-    "ticket_id": "946995313",
-    "message": "Hello Maria,\r\n\r\nThank you for sharing your CV. At the moment, we do not have any job vacancies available. However, we will keep your details on file and contact you should a suitable opportunity arise in the future.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537322724",
-    "contact_name": "Maria",
-    "contact_identifier": "+79523401505",
+    "type": "INBOUND",
+    "message_id": "4243248975",
+    "ticket_id": "947080874",
+    "message": "hello",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "537236972",
+    "contact_name": "Sumi",
+    "contact_identifier": "+971508323289",
+    "event_type": "INBOUND"
   }
 }
