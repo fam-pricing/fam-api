@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-01T09:52:22.760Z",
+  "ts": "2026-05-01T09:52:44.198Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4243411392",
+    "type": "OUTBOUND",
+    "message_id": "4243411660",
     "ticket_id": "947138244",
-    "message": "6 months?",
-    "channel_id": "1304636",
+    "message": "Minimum stay is 3 months, but after that you can extend month by month for as long as you want. Most guests do 6 or 12 months. What date were you thinking of moving in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537346971",
     "contact_name": "Abdelrehim Elembaby",
     "contact_identifier": "+971581608626",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
