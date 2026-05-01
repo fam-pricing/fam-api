@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-01T18:39:31.404Z",
+  "ts": "2026-05-01T18:40:43.300Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4243783389",
-    "ticket_id": "947258125",
-    "message": "🙏",
+    "type": "OUTBOUND",
+    "message_id": "4243783898",
+    "ticket_id": "947258340",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537379161",
+    "contact_name": "Dr Peyman",
+    "contact_identifier": "+96894930296",
     "channel_id": "1304636",
-    "contact_id": "536870373",
-    "contact_name": "Asmae Elalaouì",
-    "contact_identifier": "+971523442425",
-    "parent_message_id": "4243447178",
-    "parent_ticket_id": "947073061",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
