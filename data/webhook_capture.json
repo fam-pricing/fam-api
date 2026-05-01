@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-01T11:15:32.106Z",
+  "ts": "2026-05-01T11:15:58.399Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243479957",
+    "type": "INBOUND",
+    "message_id": "4243480576",
     "ticket_id": "946668508",
-    "message": "Sure, you can check in now as we have already shared your details to the bayz team",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Okay, please let me know",
+    "channel_id": "1304636",
     "contact_id": "535952622",
     "contact_name": "Simone Chhabda",
     "contact_identifier": "+971581770094",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4243474544",
+    "parent_ticket_id": "946668508",
+    "event_type": "INBOUND"
   }
 }
