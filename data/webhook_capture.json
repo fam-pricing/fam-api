@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-01T10:08:33.512Z",
+  "ts": "2026-05-01T10:08:39.003Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243425264",
+    "type": "INBOUND",
+    "message_id": "4243425325",
     "ticket_id": "947126999",
-    "message": "Tonight's viewings aren't available, but you're confirmed for the 10th. What time works best for you between 9am and 6pm?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I will definitely need more space",
+    "channel_id": "1304636",
     "contact_id": "537344544",
     "contact_name": "Enhance Fitness",
     "contact_identifier": "+971521829680",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4243424781",
+    "parent_ticket_id": "947126999",
+    "event_type": "INBOUND"
   }
 }
