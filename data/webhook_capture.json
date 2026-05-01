@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-01T10:09:13.578Z",
+  "ts": "2026-05-01T10:09:17.004Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243425705",
+    "type": "INBOUND",
+    "message_id": "4243425750",
     "ticket_id": "947126999",
-    "message": "Here's the Urban Oasis listing with photos: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-69095495.html\n\nWhat time works best for you on the 10th between 9am and 6pm?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I would like to move in on the 10th of may or before",
+    "channel_id": "1304636",
     "contact_id": "537344544",
     "contact_name": "Enhance Fitness",
     "contact_identifier": "+971521829680",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4243425264",
+    "parent_ticket_id": "947126999",
+    "event_type": "INBOUND"
   }
 }
