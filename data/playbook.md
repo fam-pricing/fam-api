@@ -619,3 +619,9 @@ Once we have these, we'll send you a payment link to complete the reservation.
 
 "At this time, we are unable to confirm the rate beyond the first 3 months, as it will be subject to the prevailing market rate. We can guarantee the current rate for the initial 3-month period only."
   (Learned from Faysal handling Ameni re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVxAftgMJE.html)
+
+## Learned (2026-05-01)
+- When a lead asks what time they can access the property or go to the unit today, respond:
+
+Please be informed that check-in time is from 3:00 PM onwards. Kindly note that payment must be completed prior to check-in. Once payment is received, we will promptly share the apartment details so you can proceed directly to the unit.
+  (Learned from Faysal handling Mdm re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
