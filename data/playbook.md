@@ -625,3 +625,13 @@ Once we have these, we'll send you a payment link to complete the reservation.
 
 Please be informed that check-in time is from 3:00 PM onwards. Kindly note that payment must be completed prior to check-in. Once payment is received, we will promptly share the apartment details so you can proceed directly to the unit.
   (Learned from Faysal handling Mdm re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
+
+## Learned (2026-05-01)
+- When a lead asks about moving in or accessing the property today, respond by letting them know that if they have a vehicle, you will need the following details for advance registration:
+
+- Emirate of issue (Dubai, Abu Dhabi, Sharjah, etc.)
+- Code
+- Plate number
+- Vehicle make/model
+- Color
+  (Learned from Faysal handling Mdm re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
