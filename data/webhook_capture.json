@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-01T06:36:11.933Z",
+  "ts": "2026-05-01T06:37:02.217Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243249317",
-    "ticket_id": "947070647",
-    "message": "Good morning,\r\n\r\nI hope you are doing well.\r\n\r\nI would like to confirm that you are looking for a 3-bedroom apartment in the same building, but with five apartments in total , kindly confirm if this is correct.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537333421",
-    "contact_name": "A.M",
-    "contact_identifier": "+971547700304",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4243249934",
+    "ticket_id": "945883340",
+    "message": "Self check out",
+    "channel_id": "585723",
+    "contact_id": "537028361",
+    "contact_name": "Etsuko Kawabata",
+    "contact_identifier": "+6587225082",
+    "event_type": "INBOUND"
   }
 }
