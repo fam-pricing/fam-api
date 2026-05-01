@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-01T01:03:31.016Z",
+  "ts": "2026-05-01T01:03:56.214Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4243162036",
+    "type": "OUTBOUND",
+    "message_id": "4243162098",
     "ticket_id": "946970944",
-    "message": "Amazing, would be morning \n\nBut let me get back to you later today to 100% confirm on everything we discussed",
-    "channel_id": "1304636",
+    "message": "Morning works perfectly, take your time and confirm later today when you're ready.\n\nIf you end up needing more than a month, just let us know and we can sort an extension.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537315836",
     "contact_name": "Maeva",
     "contact_identifier": "+447542662024",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
