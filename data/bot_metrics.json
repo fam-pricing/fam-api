@@ -2302,5 +2302,17 @@
     "lead_quality": 50,
     "buying_stage": "WARM",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-05-01T11:14:05.225Z",
+    "ticket_id": 947149322,
+    "lead_id": "message_lead_29068315",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 892,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "ticket_locked"
   }
 ]
