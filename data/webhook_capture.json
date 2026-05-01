@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-01T13:22:21.614Z",
+  "ts": "2026-05-01T13:22:23.663Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4243588351",
+    "type": "OUTBOUND",
+    "message_id": "4243588369",
     "ticket_id": "947197793",
-    "message": "All bills included?",
-    "channel_id": "1304636",
+    "message": "The 2BR in Elite Business Bay is available this evening for a viewing, viewings run 9am, 6pm. What time works for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537361941",
     "contact_name": "Gerard",
     "contact_identifier": "+971581566095",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
