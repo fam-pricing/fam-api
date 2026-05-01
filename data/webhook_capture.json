@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-01T05:34:40.600Z",
+  "ts": "2026-05-01T05:37:44.436Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243221626",
+    "type": "INBOUND",
+    "message_id": "4243222624",
     "ticket_id": "947068797",
-    "message": "We hope you enjoyed your stay; please let us know your expected check-out time so we can arrange it accordingly.\n\n* Our standard check-out time is between 10:00 AM and 12:00 PM.*\n\n_Please note if you self-checkout without the presence of our staff for inspection, then you consent acceptance to any damage(s) reported by admin staff._",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Confirm",
+    "channel_id": "585723",
     "contact_id": "537333134",
     "contact_name": "Mouza Alkhyeli",
     "contact_identifier": "+971561344438",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4243221502",
+    "parent_ticket_id": "947068797",
+    "event_type": "INBOUND"
   }
 }
