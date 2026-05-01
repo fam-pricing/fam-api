@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-01T12:21:17.290Z",
+  "ts": "2026-05-01T12:21:19.371Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243537866",
-    "ticket_id": "947157625",
-    "message": "Yes, it's available. The price will be 3550 AED + 3000 AED refundable deposit",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "506895111",
-    "contact_name": "Ms Amani Mohammed Salem Humood Algaydi",
-    "contact_identifier": "+971547694466",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4243537910",
+    "ticket_id": "947167024",
+    "message": "Thank you very much",
+    "channel_id": "1304636",
+    "contact_id": "537353453",
+    "contact_name": "Jack Ward",
+    "contact_identifier": "+447495576908",
+    "parent_message_id": "4243536999",
+    "parent_ticket_id": "947167024",
+    "event_type": "INBOUND"
   }
 }
