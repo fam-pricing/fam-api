@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-01T08:23:53.801Z",
+  "ts": "2026-05-01T08:25:07.478Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4243332699",
-    "ticket_id": "946690355",
-    "message": "Hello, how are you? please can you advise if this apartment is available?",
+    "type": "OUTBOUND",
+    "message_id": "4243333875",
+    "ticket_id": "946318325",
+    "message": "Hello Dayana,\r\n\r\nI hope you are doing well.\r\n\r\nWe would like to inform you that unfortunately we are unable to proceed with the viewing for this apartment as it has already been booked for a long-term stay. As a result, no units are currently available in Noble.\r\n\r\nTherefore, your viewing appointment will be cancelled.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537145327",
+    "contact_name": "Dayana",
+    "contact_identifier": "+393275863563",
     "channel_id": "1304636",
-    "contact_id": "536314933",
-    "contact_name": "Paula K",
-    "contact_identifier": "+971555411139",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
