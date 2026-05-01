@@ -639,3 +639,7 @@ Please be informed that check-in time is from 3:00 PM onwards. Kindly note that 
 ## Learned (2026-05-01)
 - If a lead asks for the property's number plate or parking details, reply: If you have a vehicle, we will need the details in advance for registration purposes.
   (Learned from Faysal handling Mdm re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
+
+## Learned (2026-05-01)
+- If a lead asks whether you will send them the access code, respond that apartment access details will only be shared once payment has been completed.
+  (Learned from Faysal handling Mdm re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
