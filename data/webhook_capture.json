@@ -1,17 +1,19 @@
 {
-  "ts": "2026-05-01T09:51:26.130Z",
+  "ts": "2026-05-01T09:51:36.703Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4243410612",
+    "message_id": "4243410743",
     "ticket_id": "947138244",
-    "message": "Hello",
+    "message": "I want all details",
     "channel_id": "1304636",
     "contact_id": "537346971",
     "contact_name": "Abdelrehim Elembaby",
     "contact_identifier": "+971581608626",
+    "parent_message_id": "4243410612",
+    "parent_ticket_id": "947138244",
     "event_type": "INBOUND"
   }
 }
