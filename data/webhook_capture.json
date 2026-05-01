@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-01T10:36:23.961Z",
+  "ts": "2026-05-01T10:37:35.786Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4243448048",
+    "type": "OUTBOUND",
+    "message_id": "4243448909",
     "ticket_id": "946452423",
-    "message": "Image",
-    "channel_id": "1304636",
+    "message": "Thank you for the payment confirmation",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536827119",
     "contact_name": "Akram GHEZAL",
     "contact_identifier": "+33677542023",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
