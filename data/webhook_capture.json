@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-01T09:56:10.223Z",
+  "ts": "2026-05-01T09:56:53.783Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243414443",
+    "type": "INBOUND",
+    "message_id": "4243414990",
     "ticket_id": "947138244",
-    "message": "No problem, take your time. The upfront is first month + last month + AED 2,000 deposit. Whenever you're ready, what date were you thinking of moving in?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Between 7-12 of May",
+    "channel_id": "1304636",
     "contact_id": "537346971",
     "contact_name": "Abdelrehim Elembaby",
     "contact_identifier": "+971581608626",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4243414443",
+    "parent_ticket_id": "947138244",
+    "event_type": "INBOUND"
   }
 }
