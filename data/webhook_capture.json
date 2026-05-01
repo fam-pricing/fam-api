@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-01T11:15:58.399Z",
+  "ts": "2026-05-01T11:16:06.485Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4243480576",
+    "type": "OUTBOUND",
+    "message_id": "4243480734",
     "ticket_id": "946668508",
-    "message": "Okay, please let me know",
-    "channel_id": "1304636",
+    "message": "Your unit number: 2005\r\n\r\nPlease pass by to the main office unit: 2018 , bayz team will assist you",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535952622",
     "contact_name": "Simone Chhabda",
     "contact_identifier": "+971581770094",
-    "parent_message_id": "4243474544",
-    "parent_ticket_id": "946668508",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
