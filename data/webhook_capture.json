@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-01T18:36:33.024Z",
+  "ts": "2026-05-01T18:39:31.404Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243782143",
-    "ticket_id": "946940664",
-    "message": "One of our team will be there to meet you and show you around. Does tomorrow still work for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537307322",
-    "contact_name": "Nuray",
-    "contact_identifier": "+971551279084",
+    "type": "INBOUND",
+    "message_id": "4243783389",
+    "ticket_id": "947258125",
+    "message": "🙏",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536870373",
+    "contact_name": "Asmae Elalaouì",
+    "contact_identifier": "+971523442425",
+    "parent_message_id": "4243447178",
+    "parent_ticket_id": "947073061",
+    "event_type": "INBOUND"
   }
 }
