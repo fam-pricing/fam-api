@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-01T11:17:33.675Z",
+  "ts": "2026-05-01T11:17:54.684Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4243481910",
+    "type": "OUTBOUND",
+    "message_id": "4243482251",
     "ticket_id": "947149322",
-    "message": "I pay monthly ya ?",
-    "channel_id": "1304636",
+    "message": "Yes, monthly. Send over your passport copy and email and we'll get the payment link out to you today, does that work?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537349684",
     "contact_name": "RITA H",
     "contact_identifier": "+971585443233",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
