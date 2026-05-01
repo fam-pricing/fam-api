@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-01T18:13:41.704Z",
+  "ts": "2026-05-01T18:36:12.999Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243772636",
+    "type": "INBOUND",
+    "message_id": "4243782033",
     "ticket_id": "946940664",
-    "message": "Totally understand, Nuray. You're welcome to bring your ID with you when you come for the viewing tomorrow at 2pm, no need to send anything now.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I will have it for sure\nIs there anybody there to meet? Or is it an open apartment",
+    "channel_id": "1304636",
     "contact_id": "537307322",
     "contact_name": "Nuray",
     "contact_identifier": "+971551279084",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4243772636",
+    "parent_ticket_id": "946940664",
+    "event_type": "INBOUND"
   }
 }
