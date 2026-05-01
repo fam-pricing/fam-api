@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-01T13:21:09.231Z",
+  "ts": "2026-05-01T13:21:43.590Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243587353",
-    "ticket_id": "947188135",
-    "message": "Good afternoon Roman,\r\n\r\nI hope you are doing well.\r\n\r\nWe would like to kindly follow up regarding the payment for your extension, which is scheduled to start from tomorrow. Could you please confirm how you would prefer to proceed with the payment, either by card or cash?\r\n\r\nThank you, and we look forward to your confirmation.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535230088",
-    "contact_name": "Roman Wagner",
-    "contact_identifier": "+971585412443",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4243587832",
+    "ticket_id": "947197793",
+    "message": "Hello",
+    "channel_id": "1304636",
+    "contact_id": "537361941",
+    "contact_name": "Gerard",
+    "contact_identifier": "+971581566095",
+    "event_type": "INBOUND"
   }
 }
