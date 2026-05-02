@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-02T05:23:23.538Z",
+  "ts": "2026-05-02T05:23:56.191Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4243931497",
+    "type": "OUTBOUND",
+    "message_id": "4243931556",
     "ticket_id": "947329253",
-    "message": "☝🏻",
-    "channel_id": "1304636",
+    "message": "Unfortunately it will be available from 3rd June. Please let us know if that's ok with you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "537076515",
     "contact_name": "Princess Galia",
     "contact_identifier": "+971589496600",
-    "parent_message_id": "4243931070",
-    "parent_ticket_id": "947329253",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
