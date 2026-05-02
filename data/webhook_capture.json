@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-02T16:25:39.131Z",
+  "ts": "2026-05-02T17:00:45.161Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244240935",
-    "ticket_id": "947242661",
-    "message": "Hello,\nThank you for your message.\nYes, I am open to listing my apartment as a holiday home for short-term rental.\nIt is a 2-bedroom apartment in Regalia by Deyaar, Business Bay. Could you please provide me with an estimated net monthly return, after deducting all charges and management fees?\nI would also appreciate it if you could share the expected occupancy rate, average nightly rate, service charges, DTCM fees, management fees, and any other costs involved.\nBest regards,\nMounir",
-    "channel_id": "585723",
-    "contact_id": "537375253",
-    "contact_name": "Mounir Guebbas",
-    "contact_identifier": "+34697705988",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4244254223",
+    "ticket_id": "947446398",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537349684",
+    "contact_name": "RITA H",
+    "contact_identifier": "+971585443233",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
