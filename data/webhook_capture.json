@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-02T13:29:09.073Z",
+  "ts": "2026-05-02T13:30:32.474Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244159934",
+    "type": "OUTBOUND",
+    "message_id": "4244160783",
     "ticket_id": "947225177",
-    "message": "What time can I come tomorrow?",
-    "channel_id": "1304636",
+    "message": "Check in time is at 3pm",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537335462",
     "contact_name": "salima",
     "contact_identifier": "+79991290913",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
