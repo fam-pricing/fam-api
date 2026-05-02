@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-02T11:32:06.249Z",
+  "ts": "2026-05-02T11:32:35.913Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244099015",
+    "type": "INBOUND",
+    "message_id": "4244099214",
     "ticket_id": "947394710",
-    "message": "Sounds good, Tuesday it is. The studio is available for viewing, just let us know what time works and we'll have someone there for you. Looking forward to it!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is online viewing available?",
+    "channel_id": "1304636",
     "contact_id": "537404585",
     "contact_name": "Rataj",
     "contact_identifier": "+96560711140",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
