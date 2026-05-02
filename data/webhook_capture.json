@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-02T12:23:18.647Z",
+  "ts": "2026-05-02T12:23:47.214Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244125990",
+    "type": "OUTBOUND",
+    "message_id": "4244126183",
     "ticket_id": "947225177",
-    "message": "Okay good, can I do it evening time today 8-9 pm, I need to go to ATM",
-    "channel_id": "1304636",
+    "message": "Please note that if you would like to book for 6 months, the payment method will be different. It will require payment of the first month, last month, and the security deposit in advance. Only then will we be able to block the unit for the full 6-month period.\r\n\r\nOtherwise, for monthly bookings, we will continue to issue the contract on a month-to-month basis and follow up for extensions 7 days prior to the check-out date.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537335462",
     "contact_name": "salima",
     "contact_identifier": "+79991290913",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
