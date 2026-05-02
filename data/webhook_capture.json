@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-02T10:22:50.973Z",
+  "ts": "2026-05-02T10:23:09.414Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244064485",
+    "type": "OUTBOUND",
+    "message_id": "4244064637",
     "ticket_id": "947385158",
-    "message": "HI",
-    "channel_id": "1304636",
+    "message": "Rahul, do you have any questions about the property?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537401735",
     "contact_name": "Rahul Vinay S",
     "contact_identifier": "+971547997976",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
