@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-02T15:33:29.005Z",
+  "ts": "2026-05-02T15:34:10.136Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244219284",
+    "type": "INBOUND",
+    "message_id": "4244219517",
     "ticket_id": "947433586",
-    "message": "Sounds good. Speak tomorrow once you've got your arrival date confirmed.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "🙏",
+    "channel_id": "1304636",
     "contact_id": "537418053",
     "contact_name": "Simon",
     "contact_identifier": "+64277700886",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4244219284",
+    "parent_ticket_id": "947433586",
+    "event_type": "INBOUND"
   }
 }
