@@ -1,16 +1,20 @@
 {
-  "ts": "2026-05-02T11:20:35.147Z",
+  "ts": "2026-05-02T11:20:49.611Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244093000",
-    "ticket_id": "946269249",
-    "message": "What is his name?",
+    "type": "OUTBOUND",
+    "message_id": "4244093116",
+    "ticket_id": "947225177",
+    "message": "Please find below the rates for the 6-month period:\r\n\r\nMay: AED 5,500\r\n\r\nJune: AED 6,000\r\n\r\nJuly: AED 6,000\r\n\r\nAugust: AED 6,000\r\n\r\nSeptember: AED 6,500\r\n\r\nOctober: AED 7,500\r\n\r\nKindly let us know if you would like to proceed.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537335462",
+    "contact_name": "salima",
+    "contact_identifier": "+79991290913",
     "channel_id": "1304636",
-    "contact_id": "537130894",
-    "contact_identifier": "+971553436045",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
