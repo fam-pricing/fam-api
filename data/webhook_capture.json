@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-02T06:44:17.935Z",
+  "ts": "2026-05-02T06:44:53.464Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4243956410",
+    "type": "OUTBOUND",
+    "message_id": "4243956728",
     "ticket_id": "947348310",
-    "message": "Could you please confirm the total final price including all fees, agency commission, and any additional costs?",
-    "channel_id": "1304636",
+    "message": "The total is AED 6,000/month, all-inclusive, water, electricity, internet, and VAT, no agency commission. There's a refundable security deposit of AED 1,500, returned within 14 working days after check-out. Would you like to come see it in person?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537392878",
     "contact_name": "Sussana Gómez",
     "contact_identifier": "+34661568898",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
