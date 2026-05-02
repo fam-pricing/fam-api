@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-02T13:47:49.820Z",
+  "ts": "2026-05-02T13:50:00.115Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244169332",
+    "type": "OUTBOUND",
+    "message_id": "4244170238",
     "ticket_id": "947417522",
-    "message": "Through contract with property finder?",
-    "channel_id": "1304636",
+    "message": "If you would like to proceed with the booking, we will be happy to assist you and send the confirmation once completed.\r\n\r\nPlease note that the entire process is done online. Once everything is confirmed, we will share the apartment details with you, and you may simply proceed to the reception where they will assist you with the check-in.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537413833",
     "contact_name": "True Koncept",
     "contact_identifier": "+971506924243",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
