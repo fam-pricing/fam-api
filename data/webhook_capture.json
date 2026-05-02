@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-02T06:51:25.097Z",
+  "ts": "2026-05-02T06:51:56.768Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243959196",
+    "type": "INBOUND",
+    "message_id": "4243959543",
     "ticket_id": "947348310",
-    "message": "We don't have a video right now, but all the photos are in the listing link already sent. Would you like to pop by for a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "But it’s that building?",
+    "channel_id": "1304636",
     "contact_id": "537392878",
     "contact_name": "Sussana Gómez",
     "contact_identifier": "+34661568898",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4243958984",
+    "parent_ticket_id": "947348310",
+    "event_type": "INBOUND"
   }
 }
