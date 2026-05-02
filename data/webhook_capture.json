@@ -1,16 +1,19 @@
 {
-  "ts": "2026-05-02T11:02:31.125Z",
+  "ts": "2026-05-02T11:02:57.032Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244083693",
+    "type": "OUTBOUND",
+    "message_id": "4244083950",
     "ticket_id": "946269249",
-    "message": "Is there a parking nearby",
-    "channel_id": "1304636",
+    "message": "You will have the RTA parking",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537130894",
     "contact_identifier": "+971553436045",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
