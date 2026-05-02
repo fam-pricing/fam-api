@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-02T09:25:29.743Z",
+  "ts": "2026-05-02T09:46:26.836Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244034126",
+    "type": "OUTBOUND",
+    "message_id": "4244045055",
     "ticket_id": "946442736",
-    "message": "Can you check with the landlord if he can give the same amount I can pay today the second contract",
-    "channel_id": "1304636",
+    "message": "Unfortunately, this will not be possible as we have already provided you with a discounted rate for your entire stay.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536340091",
     "contact_name": "Mahassine Al Awad",
     "contact_identifier": "+971585429848",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
