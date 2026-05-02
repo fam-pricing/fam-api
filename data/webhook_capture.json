@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-02T07:18:35.663Z",
+  "ts": "2026-05-02T07:27:21.084Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4243971090",
+    "type": "OUTBOUND",
+    "message_id": "4243974608",
     "ticket_id": "947348310",
-    "message": "👍",
-    "channel_id": "1304636",
+    "message": "Thank you for the EID we will arrange the viewing at 2pm today",
+    "user_id": "746181",
+    "user_name": "Avinash I",
+    "user_email": "avinashanilkumar.i@famliving.com",
     "contact_id": "537392878",
     "contact_name": "Sussana Gómez",
     "contact_identifier": "+34661568898",
-    "parent_message_id": "4243970986",
-    "parent_ticket_id": "947348310",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
