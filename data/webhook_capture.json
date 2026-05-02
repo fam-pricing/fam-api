@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-02T22:02:06.568Z",
+  "ts": "2026-05-02T22:02:24.289Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244345133",
+    "type": "INBOUND",
+    "message_id": "4244345185",
     "ticket_id": "947481212",
-    "message": "Longer-term works well for this one, it's available on 3-month rolling blocks, so you can keep extending as long as you need. How long are you thinking?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "537429997",
     "contact_name": "Peter Pan",
     "contact_identifier": "+971581777205",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4244345133",
+    "parent_ticket_id": "947481212",
+    "event_type": "INBOUND"
   }
 }
