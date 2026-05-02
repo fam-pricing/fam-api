@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-02T12:38:54.736Z",
+  "ts": "2026-05-02T12:39:13.211Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244134613",
-    "ticket_id": "947165331",
-    "message": "as per our system unit is vacant",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537353305",
-    "contact_name": "Vanita",
-    "contact_identifier": "+971581582889",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4244134737",
+    "ticket_id": "947126999",
+    "message": "3 bedroom is my first choice",
+    "channel_id": "1304636",
+    "contact_id": "537344544",
+    "contact_name": "Enhance Fitness",
+    "contact_identifier": "+971521829680",
+    "parent_message_id": "4244133564",
+    "parent_ticket_id": "947126999",
+    "event_type": "INBOUND"
   }
 }
