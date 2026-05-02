@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-02T14:40:55.164Z",
+  "ts": "2026-05-02T14:41:21.941Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244195566",
+    "type": "OUTBOUND",
+    "message_id": "4244195763",
     "ticket_id": "947425576",
-    "message": "I can give my ID to building security tomorrow to see the apt",
-    "channel_id": "1304636",
+    "message": "The Emirates ID needs to be shared with us here beforehand so building management can register it before your arrival, security on the day won't be able to process it in time. Can you send it over now so we're all set for 12:30pm tomorrow?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537415891",
     "contact_name": "Neha Nihalani",
     "contact_identifier": "+971554230033",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
