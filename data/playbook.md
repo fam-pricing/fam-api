@@ -643,3 +643,7 @@ Please be informed that check-in time is from 3:00 PM onwards. Kindly note that 
 ## Learned (2026-05-01)
 - If a lead asks whether you will send them the access code, respond that apartment access details will only be shared once payment has been completed.
   (Learned from Faysal handling Mdm re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
+
+## Learned (2026-05-02)
+- If a lead states that All Holds Home only accepts monthly payments, respond by clarifying that to secure a 6-month booking, the first and last month's payment must be made upfront. After that, they can continue paying on a monthly basis.
+  (Learned from Faysal handling RITA H re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-15691213.html)
