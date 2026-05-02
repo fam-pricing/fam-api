@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-02T16:06:14.451Z",
+  "ts": "2026-05-02T16:06:39.227Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244233512",
-    "ticket_id": "940349036",
-    "message": "i booked the place again",
-    "channel_id": "585723",
-    "contact_id": "535605092",
-    "contact_name": "Farzad Banihashem",
-    "contact_identifier": "+971585284945",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4244233617",
+    "ticket_id": "947434817",
+    "message": "Let me get that arranged for you right away!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537418241",
+    "contact_name": "Ehsan Pendar",
+    "contact_identifier": "+971509762521",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
