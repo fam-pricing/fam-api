@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-02T07:53:19.429Z",
+  "ts": "2026-05-02T07:53:45.206Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243987314",
+    "type": "INBOUND",
+    "message_id": "4243987496",
     "ticket_id": "943915428",
-    "message": "May i know the reason for the meeting ?\r\n\r\nHowever, if guest wants to make the payment in office its fine he can come on Monday to our office between 10 to 5pm.",
-    "user_id": "746181",
-    "user_name": "Avinash I",
-    "user_email": "avinashanilkumar.i@famliving.com",
+    "message": "Contract signed",
+    "channel_id": "585723",
     "contact_id": "536484706",
     "contact_name": "Raja Sajid 🇦🇪",
     "contact_identifier": "+971566960509",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4243987314",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
