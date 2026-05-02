@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-02T14:00:19.717Z",
+  "ts": "2026-05-02T14:02:15.715Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244175935",
+    "type": "INBOUND",
+    "message_id": "4244176906",
     "ticket_id": "947421074",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-palm-jumeirah-the-palm-tower-2PkzmNyowPw.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Image",
+    "channel_id": "1304636",
     "contact_id": "536887219",
     "contact_name": "Mahyar Kh",
     "contact_identifier": "+971561077070",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4242402974",
+    "parent_ticket_id": "946733389",
+    "event_type": "INBOUND"
   }
 }
