@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-02T12:18:50.856Z",
+  "ts": "2026-05-02T12:19:14.255Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244122899",
+    "type": "OUTBOUND",
+    "message_id": "4244123090",
     "ticket_id": "945536661",
-    "message": "Hello - slight delay at the airport, will arrive between 4:30-5:00pm",
-    "channel_id": "585723",
+    "message": "Well noted Mr Firas",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536944547",
     "contact_name": "Firas Al-Lawati",
     "contact_identifier": "+971585132211",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
