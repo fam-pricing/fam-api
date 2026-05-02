@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-02T06:31:44.178Z",
+  "ts": "2026-05-02T06:32:05.358Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4243952137",
+    "type": "INBOUND",
+    "message_id": "4243952225",
     "ticket_id": "943915428",
-    "message": "Please assist us to complete the check in form",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "536484706",
     "contact_name": "Raja Sajid 🇦🇪",
     "contact_identifier": "+971566960509",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4243952137",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
