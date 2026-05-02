@@ -647,3 +647,7 @@ Please be informed that check-in time is from 3:00 PM onwards. Kindly note that 
 ## Learned (2026-05-02)
 - If a lead states that All Holds Home only accepts monthly payments, respond by clarifying that to secure a 6-month booking, the first and last month's payment must be made upfront. After that, they can continue paying on a monthly basis.
   (Learned from Faysal handling RITA H re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-15691213.html)
+
+## Learned (2026-05-02)
+- If a lead requests an immediate viewing of the 2-bedroom apartment outside of business hours, let them know that viewings are available daily from 10:00 AM to 6:00 PM only, and offer to schedule one for the following day.
+  (Learned from Faysal handling Enhance Fitness re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
