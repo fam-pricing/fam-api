@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-02T15:29:30.884Z",
+  "ts": "2026-05-02T15:29:41.209Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244217571",
+    "type": "INBOUND",
+    "message_id": "4244217623",
     "ticket_id": "947433586",
-    "message": "Upside Living in Business Bay checks both boxes, Simon, metro is walkable and it's right in the business hub. Since you're coming in a couple of weeks, what's your arrival date so we can confirm availability for that window?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "How far is it from metro?",
+    "channel_id": "1304636",
     "contact_id": "537418053",
     "contact_name": "Simon",
     "contact_identifier": "+64277700886",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
