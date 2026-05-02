@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-02T15:17:44.221Z",
+  "ts": "2026-05-02T15:24:17.657Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244212820",
+    "type": "OUTBOUND",
+    "message_id": "4244215358",
     "ticket_id": "947126999",
-    "message": "Would it be possible to view the 2 bedroom apartment now?",
-    "channel_id": "1304636",
+    "message": "Our viewing timings are from 10:00 AM to 6:00 PM only. Unfortunately, it is not possible to arrange it at this time. However, we can schedule it for tomorrow.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537344544",
     "contact_name": "Enhance Fitness",
     "contact_identifier": "+971521829680",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
