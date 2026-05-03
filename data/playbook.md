@@ -667,3 +667,7 @@ Daily and weekly cleaning is not included in our standard offering. Should you r
 
 "Please note that a standard set of amenities will be provided upon check-in. Should you require additional cleaning services, these can be arranged at an extra charge per session. Each cleaning service includes fresh bed linens and towels."
   (Learned from Faysal handling Muhsin Hassan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-05-03)
+- If a lead asks about yearly rental or Ejari contracts, respond: "We operate on a monthly booking basis only and do not offer Ejari contracts."
+  (Learned from Faysal handling Enhance Fitness re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
