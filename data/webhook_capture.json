@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-03T12:03:21.487Z",
+  "ts": "2026-05-03T12:03:41.230Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244620234",
+    "type": "OUTBOUND",
+    "message_id": "4244620335",
     "ticket_id": "947576947",
-    "message": "Image",
-    "channel_id": "585723",
+    "message": "Our team will be there at 5pm so please be there at 5pm for check in",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537335462",
     "contact_name": "salima",
     "contact_identifier": "+79991290913",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
