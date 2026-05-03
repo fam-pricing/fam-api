@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-03T11:13:13.581Z",
+  "ts": "2026-05-03T11:14:43.197Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244594632",
+    "type": "OUTBOUND",
+    "message_id": "4244595432",
     "ticket_id": "938803090",
-    "message": "Please give me your bank details I will ask him to transfer",
-    "channel_id": "585723",
+    "message": "Unfortunately, we are currently unable to accept bank transfers, as we will not be able to obtain the confirmation today.\r\nAt the moment, we can only proceed with either a payment link or cash payment.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535274790",
     "contact_name": "TRÂN BÌNH NGUYỄN",
     "contact_identifier": "+971501327638",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
