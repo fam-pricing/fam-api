@@ -651,3 +651,7 @@ Please be informed that check-in time is from 3:00 PM onwards. Kindly note that 
 ## Learned (2026-05-02)
 - If a lead requests an immediate viewing of the 2-bedroom apartment outside of business hours, let them know that viewings are available daily from 10:00 AM to 6:00 PM only, and offer to schedule one for the following day.
   (Learned from Faysal handling Enhance Fitness re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-03)
+- If a lead requests a long-term rate lock, respond: "At the moment, we can lock the rate for 3 months with rolling 3-month rate blocks, and your stay can be extended accordingly."
+  (Learned from Faysal handling Peter Pan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-69095495.html)
