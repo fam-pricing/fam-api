@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-03T08:35:21.001Z",
+  "ts": "2026-05-03T08:35:53.225Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244508120",
-    "ticket_id": "947250168",
-    "message": "Need one more parking",
+    "type": "OUTBOUND",
+    "message_id": "4244508355",
+    "ticket_id": "947434817",
+    "message": "Can I have your EID or passport to arrange viewing for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537418241",
+    "contact_name": "Ehsan Pendar",
+    "contact_identifier": "+971509762521",
     "channel_id": "1304636",
-    "contact_id": "537376941",
-    "contact_name": "Muhsin Hassan",
-    "contact_identifier": "+971528179317",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
