@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-03T09:08:10.738Z",
+  "ts": "2026-05-03T09:09:18.986Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244525916",
+    "type": "OUTBOUND",
+    "message_id": "4244526784",
     "ticket_id": "947512667",
-    "message": "I want to see area",
-    "channel_id": "585723",
+    "message": "Sure you can book the unit for few days and check the area first may I know starting from which date you would like to make a reservation",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537432809",
     "contact_name": "Support",
     "contact_identifier": "+447459197620",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
