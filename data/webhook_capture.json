@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-03T22:47:15.667Z",
+  "ts": "2026-05-03T22:48:29.163Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244871920",
+    "type": "INBOUND",
+    "message_id": "4244872252",
     "ticket_id": "947701463",
-    "message": "The gap to AED 5,000 is a bit more than we can move on, but I'll see what I can do. Are you looking to move in on the 11th?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes I’m moving in this month on the 11th",
+    "channel_id": "1304636",
     "contact_id": "537471726",
     "contact_name": "You",
     "contact_identifier": "+971568868046",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4244871920",
+    "parent_ticket_id": "947701463",
+    "event_type": "INBOUND"
   }
 }
