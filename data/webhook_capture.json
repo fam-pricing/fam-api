@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-03T08:45:08.769Z",
+  "ts": "2026-05-03T08:46:09.949Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244513139",
-    "ticket_id": "947512667",
-    "message": "Hello ?",
-    "channel_id": "585723",
-    "contact_id": "537432809",
-    "contact_name": "Support",
-    "contact_identifier": "+447459197620",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4244513619",
+    "ticket_id": "947250168",
+    "message": "We do not provide daily or weekly cleaning services as part of the standard offering. However, if you would like housekeeping, we can arrange it for you at an additional charge per cleaning.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537376941",
+    "contact_name": "Muhsin Hassan",
+    "contact_identifier": "+971528179317",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
