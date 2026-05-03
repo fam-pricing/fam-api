@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-03T09:20:23.321Z",
+  "ts": "2026-05-03T09:20:28.944Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244534382",
-    "ticket_id": "947571307",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537441647",
-    "contact_name": "Muhammed Iqbal",
-    "contact_identifier": "+971503454961",
+    "type": "INBOUND",
+    "message_id": "4244534427",
+    "ticket_id": "947126999",
+    "message": "Great. Then you may be able to provide the rate for a whole year, based on your previous business year. I will see if that suit my budget and go ahead.",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537344544",
+    "contact_name": "Enhance Fitness",
+    "contact_identifier": "+971521829680",
+    "parent_message_id": "4244531076",
+    "parent_ticket_id": "947126999",
+    "event_type": "INBOUND"
   }
 }
