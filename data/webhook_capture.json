@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-03T11:40:00.813Z",
+  "ts": "2026-05-03T11:40:58.009Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244608012",
+    "type": "OUTBOUND",
+    "message_id": "4244608380",
     "ticket_id": "938803090",
-    "message": ".",
-    "channel_id": "585723",
+    "message": "Allow me to check with the team for the location",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535274790",
     "contact_name": "TRÂN BÌNH NGUYỄN",
     "contact_identifier": "+971501327638",
-    "parent_message_id": "4244597094",
-    "parent_ticket_id": "938803090",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
