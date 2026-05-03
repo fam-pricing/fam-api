@@ -671,3 +671,14 @@ Daily and weekly cleaning is not included in our standard offering. Should you r
 ## Learned (2026-05-03)
 - If a lead asks about yearly rental or Ejari contracts, respond: "We operate on a monthly booking basis only and do not offer Ejari contracts."
   (Learned from Faysal handling Enhance Fitness re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-03)
+- When a lead asks about how to book or what is required to proceed, respond with the following:
+
+To confirm your booking, we'll need:
+
+1. A copy of your ID or passport
+2. Your email address
+
+Once we have these, we'll send you a payment link to secure the deposit and finalize your reservation.
+  (Learned from Faysal handling Muhsin Hassan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
