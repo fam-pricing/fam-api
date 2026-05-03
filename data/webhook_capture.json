@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-03T09:01:29.456Z",
+  "ts": "2026-05-03T09:03:40.058Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244521409",
+    "type": "INBOUND",
+    "message_id": "4244522673",
     "ticket_id": "947126999",
-    "message": "You may extend your stay with us for as long as required; however, the rate will be reviewed and adjusted in accordance with the prevailing market conditions.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I like long stay. I have family.  It won't be convenient moving around every month, if we don't come to as agreement about the next rates.",
+    "channel_id": "1304636",
     "contact_id": "537344544",
     "contact_name": "Enhance Fitness",
     "contact_identifier": "+971521829680",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4244521409",
+    "parent_ticket_id": "947126999",
+    "event_type": "INBOUND"
   }
 }
