@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-03T11:48:09.940Z",
+  "ts": "2026-05-03T11:50:32.971Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244612371",
+    "type": "OUTBOUND",
+    "message_id": "4244614177",
     "ticket_id": "947250168",
-    "message": "Hello",
-    "channel_id": "1304636",
+    "message": "Booking date is from 5th May to 4th June and rate will be AED 5500 for 30 days",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537376941",
     "contact_name": "Muhsin Hassan",
     "contact_identifier": "+971528179317",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
