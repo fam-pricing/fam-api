@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-03T10:31:14.164Z",
+  "ts": "2026-05-03T10:31:50.127Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244572629",
-    "ticket_id": "947576947",
-    "message": "Unfortunately, our finance team is not available at the office today to process the payment. Additionally, as per our procedure, we are unable to provide access without the cleaning being completed.\r\n\r\nKindly note that we will only be able to proceed with the reservation from tomorrow.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537335462",
-    "contact_name": "salima",
-    "contact_identifier": "+79991290913",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4244572870",
+    "ticket_id": "947250168",
+    "message": "Why are you wasting our time if it was booked",
+    "channel_id": "1304636",
+    "contact_id": "537376941",
+    "contact_name": "Muhsin Hassan",
+    "contact_identifier": "+971528179317",
+    "parent_message_id": "4244571524",
+    "parent_ticket_id": "947250168",
+    "event_type": "INBOUND"
   }
 }
