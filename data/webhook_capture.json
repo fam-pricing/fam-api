@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-03T14:14:13.927Z",
+  "ts": "2026-05-03T14:20:25.571Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244685355",
-    "ticket_id": "947434216",
-    "message": "May I know the convenient time for you tomorrow in between 10am - 6pm to arrange viewing for you and please share the EID or passport to update the viewing",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537418241",
-    "contact_name": "Ehsan Pendar",
-    "contact_identifier": "+971509762521",
+    "type": "INBOUND",
+    "message_id": "4244688356",
+    "ticket_id": "947481212",
+    "message": "Yes",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537429997",
+    "contact_name": "Peter Pan",
+    "contact_identifier": "+971581777205",
+    "event_type": "INBOUND"
   }
 }
