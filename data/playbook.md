@@ -682,3 +682,7 @@ To confirm your booking, we'll need:
 
 Once we have these, we'll send you a payment link to secure the deposit and finalize your reservation.
   (Learned from Faysal handling Muhsin Hassan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-05-03)
+- When a lead questions the link amount (e.g., "Link is 3000"), clarify that the charge is a fully refundable security deposit. Let them know the deposit is returned at check-out, provided there are no damages to the apartment, and that the refund is processed within 7 working days after departure.
+  (Learned from Faysal handling Muhsin Hassan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
