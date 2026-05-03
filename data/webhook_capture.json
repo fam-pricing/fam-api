@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-03T05:29:11.435Z",
+  "ts": "2026-05-03T05:29:25.507Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244430698",
+    "type": "OUTBOUND",
+    "message_id": "4244430747",
     "ticket_id": "938803090",
-    "message": "About 4pm please",
-    "channel_id": "585723",
+    "message": "Could you please share your friend’s Emirates ID or passport details, along with a convenient time for cash collection before 12:00 PM?\r\n\r\nAdditionally, kindly confirm if the security deposit will remain the same.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535274790",
     "contact_name": "TRÂN BÌNH NGUYỄN",
     "contact_identifier": "+971501327638",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
