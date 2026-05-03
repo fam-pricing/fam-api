@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-03T09:59:30.378Z",
+  "ts": "2026-05-03T10:00:45.355Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244555299",
-    "ticket_id": "947460483",
-    "message": "Thank u\nTo be honest, we had a problem with the noise from the buildings across the street, but overall it was okay. Could you please give us a discount on the final price?",
-    "channel_id": "1304636",
-    "contact_id": "535424092",
-    "contact_name": "Neda",
-    "contact_identifier": "+971504950614",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4244556077",
+    "ticket_id": "947576947",
+    "message": "Unfortunately, we are unable to arrange the check-in today at 3:00 PM, as the unit is not yet ready. We can, however, schedule your check-in for tomorrow.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537335462",
+    "contact_name": "salima",
+    "contact_identifier": "+79991290913",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
