@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-03T07:52:10.876Z",
+  "ts": "2026-05-03T07:52:20.376Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244483172",
+    "type": "OUTBOUND",
+    "message_id": "4244483243",
     "ticket_id": "947496796",
-    "message": "I would like to visit it",
-    "channel_id": "1304636",
+    "message": "What day and time works best for you? Viewings are available any day between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537431749",
     "contact_name": "Lama Cryptobanking",
     "contact_identifier": "+34622400391",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
