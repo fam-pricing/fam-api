@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-03T05:12:20.796Z",
+  "ts": "2026-05-03T05:19:53.210Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244426631",
-    "ticket_id": "947434817",
-    "message": "How much total price monthly?",
-    "channel_id": "1304636",
-    "contact_id": "537418241",
-    "contact_name": "Ehsan Pendar",
-    "contact_identifier": "+971509762521",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4244428360",
+    "ticket_id": "940349036",
+    "message": "Good morning,\r\n\r\nHow can I help you?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535605092",
+    "contact_name": "Farzad Banihashem",
+    "contact_identifier": "+971585284945",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
