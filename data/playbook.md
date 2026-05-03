@@ -686,3 +686,7 @@ Once we have these, we'll send you a payment link to secure the deposit and fina
 ## Learned (2026-05-03)
 - When a lead questions the link amount (e.g., "Link is 3000"), clarify that the charge is a fully refundable security deposit. Let them know the deposit is returned at check-out, provided there are no damages to the apartment, and that the refund is processed within 7 working days after departure.
   (Learned from Faysal handling Muhsin Hassan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-05-03)
+- If a lead asks to speak with a human instead of a bot, respond with: The confirmation will be issued for the first month, and thereafter monthly confirmations will be provided, as payments will be made on a monthly basis at the agreed rate.
+  (Learned from Faysal handling Rahul Vinay S re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
