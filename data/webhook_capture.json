@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-03T07:44:04.497Z",
+  "ts": "2026-05-03T07:44:27.476Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244479702",
+    "type": "INBOUND",
+    "message_id": "4244479867",
     "ticket_id": "947421074",
-    "message": "The studio's at AED 6,499/month and that's the best we can do on price. What day works for a viewing, any time between 9am and 6pm?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "You gave me offer 6k for 4 months",
+    "channel_id": "1304636",
     "contact_id": "536887219",
     "contact_name": "Mahyar Kh",
     "contact_identifier": "+971561077070",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
