@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-03T13:45:40.567Z",
+  "ts": "2026-05-03T13:46:13.360Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244671296",
-    "ticket_id": "947577839",
-    "message": "You didn’t ask before for this payment",
+    "type": "OUTBOUND",
+    "message_id": "4244671624",
+    "ticket_id": "947250168",
+    "message": "Please find attached *very important information regarding your booking.\r\n\r\nHere is the location map for your booking at Elite Residence\r\n\r\nhttps://maps.app.goo.gl/fN3zcJ5DpZW5oASe8",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537376941",
+    "contact_name": "Muhsin Hassan",
+    "contact_identifier": "+971528179317",
     "channel_id": "1304636",
-    "contact_id": "535926291",
-    "contact_name": "Rimsha Akram",
-    "contact_identifier": "+971526064450",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
