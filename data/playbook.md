@@ -661,3 +661,9 @@ Please be informed that check-in time is from 3:00 PM onwards. Kindly note that 
 
 Daily and weekly cleaning is not included in our standard offering. Should you require housekeeping, we can arrange it for you at an additional charge per session.
   (Learned from Faysal handling Muhsin Hassan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-05-03)
+- When a lead asks about **images/photos** of the property, respond with:
+
+"Please note that a standard set of amenities will be provided upon check-in. Should you require additional cleaning services, these can be arranged at an extra charge per session. Each cleaning service includes fresh bed linens and towels."
+  (Learned from Faysal handling Muhsin Hassan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
