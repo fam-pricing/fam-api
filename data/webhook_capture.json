@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-03T09:22:25.846Z",
+  "ts": "2026-05-03T09:22:51.435Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244535515",
+    "type": "INBOUND",
+    "message_id": "4244535816",
     "ticket_id": "945698163",
-    "message": "Yes Mr Kunal all the city walk units are fully booked on the preferred dates",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Audio",
+    "channel_id": "585723",
     "contact_id": "477060010",
     "contact_name": "Kunal PA",
     "contact_identifier": "+971524335902",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4244534620",
+    "parent_ticket_id": "945698163",
+    "event_type": "INBOUND"
   }
 }
