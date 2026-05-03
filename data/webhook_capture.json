@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-03T11:51:20.634Z",
+  "ts": "2026-05-03T11:52:30.060Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244614593",
+    "type": "OUTBOUND",
+    "message_id": "4244615043",
     "ticket_id": "947250168",
-    "message": "Deposit",
-    "channel_id": "1304636",
+    "message": "Link is for the security deposit which is fully refundable at check-out, provided there are no damages to the apartment. The refund will be processed within 7 working days after your departure",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537376941",
     "contact_name": "Muhsin Hassan",
     "contact_identifier": "+971528179317",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
