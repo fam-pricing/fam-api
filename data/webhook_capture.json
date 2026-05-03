@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-03T09:16:13.285Z",
+  "ts": "2026-05-03T09:16:45.670Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244531972",
+    "type": "INBOUND",
+    "message_id": "4244532307",
     "ticket_id": "945698163",
-    "message": "All city walk units are booked only Viridian 01 bedroom is available on your preferred dates",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Where is this n wht is Viridian",
+    "channel_id": "585723",
     "contact_id": "477060010",
     "contact_name": "Kunal PA",
     "contact_identifier": "+971524335902",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4244531972",
+    "parent_ticket_id": "945698163",
+    "event_type": "INBOUND"
   }
 }
