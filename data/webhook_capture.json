@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-03T22:48:29.163Z",
+  "ts": "2026-05-03T22:48:54.138Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244872252",
+    "type": "OUTBOUND",
+    "message_id": "4244872285",
     "ticket_id": "947701463",
-    "message": "Yes I’m moving in this month on the 11th",
-    "channel_id": "1304636",
+    "message": "Monthly payments are fine and long-term is no problem. For move-in on the 11th, want me to hold that date for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537471726",
     "contact_name": "You",
     "contact_identifier": "+971568868046",
-    "parent_message_id": "4244871920",
-    "parent_ticket_id": "947701463",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
