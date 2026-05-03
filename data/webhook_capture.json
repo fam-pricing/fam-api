@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-03T09:55:51.000Z",
+  "ts": "2026-05-03T09:55:56.088Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244553633",
-    "ticket_id": "947577839",
-    "message": "Good afternoon",
+    "type": "OUTBOUND",
+    "message_id": "4244553677",
+    "ticket_id": "947385158",
+    "message": "Your viewing was scheduled for 12 pm today and our team was there for you however we can arrange for 2.30 pm\r\n\r\nI hope it will be fine for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537401735",
+    "contact_name": "Rahul Vinay S",
+    "contact_identifier": "+971547997976",
     "channel_id": "1304636",
-    "contact_id": "535926291",
-    "contact_name": "Rimsha Akram",
-    "contact_identifier": "+971526064450",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
