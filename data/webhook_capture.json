@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-03T05:47:54.498Z",
+  "ts": "2026-05-03T05:50:35.909Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244435212",
+    "type": "OUTBOUND",
+    "message_id": "4244435768",
     "ticket_id": "940349036",
-    "message": "i booked the unit in citywalk on airbnb. just need it to be approved",
-    "channel_id": "585723",
+    "message": "Could you please amend the request dates to start from today? If we proceed with approval today, it will be reflected as starting from yesterday.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535605092",
     "contact_name": "Farzad Banihashem",
     "contact_identifier": "+971585284945",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
