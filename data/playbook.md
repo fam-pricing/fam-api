@@ -655,3 +655,9 @@ Please be informed that check-in time is from 3:00 PM onwards. Kindly note that 
 ## Learned (2026-05-03)
 - If a lead requests a long-term rate lock, respond: "At the moment, we can lock the rate for 3 months with rolling 3-month rate blocks, and your stay can be extended accordingly."
   (Learned from Faysal handling Peter Pan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-69095495.html)
+
+## Learned (2026-05-03)
+- If the lead responds with "Okay," reply with the following:
+
+Daily and weekly cleaning is not included in our standard offering. Should you require housekeeping, we can arrange it for you at an additional charge per session.
+  (Learned from Faysal handling Muhsin Hassan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
