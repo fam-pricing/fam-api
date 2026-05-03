@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-03T22:45:57.992Z",
+  "ts": "2026-05-03T22:46:55.674Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4244871304",
+    "type": "INBOUND",
+    "message_id": "4244871783",
     "ticket_id": "947701463",
-    "message": "AED 6,499/month all-inclusive, long-term is no problem. Are you thinking of moving in on the 11th?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Please can we make it 5k monthly if possible just asking",
+    "channel_id": "1304636",
     "contact_id": "537471726",
     "contact_name": "You",
     "contact_identifier": "+971568868046",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4244871304",
+    "parent_ticket_id": "947701463",
+    "event_type": "INBOUND"
   }
 }
