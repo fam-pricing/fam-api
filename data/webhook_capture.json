@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-04T18:38:50.203Z",
+  "ts": "2026-05-04T18:39:12.566Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4245789838",
+    "type": "OUTBOUND",
+    "message_id": "4245790046",
     "ticket_id": "947968643",
-    "message": "Is 6pm tomorrow okay?",
-    "channel_id": "1304636",
+    "message": "6pm tomorrow works perfectly. And yes, the gym and pool are definitely worth seeing in person, the listing only shows so much. Shall I lock you in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537534256",
     "contact_name": "Jo",
     "contact_identifier": "+33616710812",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
