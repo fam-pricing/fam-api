@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-04T12:57:20.813Z",
+  "ts": "2026-05-04T12:57:34.058Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4245457563",
+    "type": "OUTBOUND",
+    "message_id": "4245457750",
     "ticket_id": "947888768",
-    "message": "I can not pay for first and last month",
-    "channel_id": "1304636",
+    "message": "All good! For 4, 6 months from May 15, you'd need the first and last month plus a refundable AED 1,000 damage deposit to secure it. Want to go ahead?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537510754",
     "contact_name": "Anastasia",
     "contact_identifier": "+79153412426",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
