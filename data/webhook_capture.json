@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-04T18:28:27.068Z",
+  "ts": "2026-05-04T18:28:31.960Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4245783833",
+    "type": "OUTBOUND",
+    "message_id": "4245783888",
     "ticket_id": "947988221",
-    "message": "I would like to know more about this",
-    "channel_id": "1304636",
+    "message": "Jordyne, great that you reached out, do you have a move-in date in mind?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537427235",
     "contact_name": "Jordyne",
     "contact_identifier": "+48501217365",
-    "parent_message_id": "4245783709",
-    "parent_ticket_id": "947988221",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
