@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-04T11:22:49.193Z",
+  "ts": "2026-05-04T11:23:34.368Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4245337514",
+    "type": "INBOUND",
+    "message_id": "4245338414",
     "ticket_id": "947863050",
-    "message": "May I reconfirm you need to arrange viewing for the upside living studio ?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Yes this one",
+    "channel_id": "1304636",
     "contact_id": "536546224",
     "contact_name": "Bakhazi",
     "contact_identifier": "+971554221866",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4241365593",
+    "parent_ticket_id": "947863050",
+    "event_type": "INBOUND"
   }
 }
