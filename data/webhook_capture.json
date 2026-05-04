@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-04T06:03:43.010Z",
+  "ts": "2026-05-04T06:05:06.548Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244969164",
+    "type": "OUTBOUND",
+    "message_id": "4244970123",
     "ticket_id": "947746198",
-    "message": "I have akready filled in your form. Do i need to do it again?",
-    "channel_id": "585723",
+    "message": "Well received the payment and you have completed the check in form and one of our agent will be there at 1am to assist with the check in on 5th May",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537477032",
     "contact_name": "Gouldjan Tcharyeva Rüegg",
     "contact_identifier": "+41799371177",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
