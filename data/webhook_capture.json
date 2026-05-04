@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-04T12:49:07.634Z",
+  "ts": "2026-05-04T12:49:32.059Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4245447160",
+    "type": "OUTBOUND",
+    "message_id": "4245447761",
     "ticket_id": "947884016",
-    "message": "Yes please\nI coming now in 10 mins",
-    "channel_id": "1304636",
+    "message": "Perfect, see you in a bit! To get you into the building, could you send a photo of your passport or Emirates ID?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537509732",
     "contact_name": "Sunil Roy",
     "contact_identifier": "+971506538442",
-    "parent_message_id": "4245446561",
-    "parent_ticket_id": "947884016",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
