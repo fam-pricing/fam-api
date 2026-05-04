@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-04T04:40:46.789Z",
+  "ts": "2026-05-04T04:41:05.203Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244938632",
+    "type": "OUTBOUND",
+    "message_id": "4244938680",
     "ticket_id": "947496796",
-    "message": "Hello!!",
-    "channel_id": "1304636",
+    "message": "Still available if you'd like to come see it, what day works for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537431749",
     "contact_name": "Lama Cryptobanking",
     "contact_identifier": "+34622400391",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
