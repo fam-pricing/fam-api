@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-04T13:59:02.335Z",
+  "ts": "2026-05-04T13:59:15.460Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4245533779",
-    "ticket_id": "944982076",
-    "message": "And send me an email to my account",
+    "type": "OUTBOUND",
+    "message_id": "4245534025",
+    "ticket_id": "947188135",
+    "message": "Unfortunately the apartment will not be available after your check out",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535230088",
+    "contact_name": "Roman Wagner",
+    "contact_identifier": "+971585412443",
     "channel_id": "585723",
-    "contact_id": "485978103",
-    "contact_name": "Mr Ava Esa Saleh",
-    "contact_identifier": "+971553036591",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
