@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-04T05:48:20.014Z",
+  "ts": "2026-05-04T05:49:25.777Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244961488",
-    "ticket_id": "947609821",
-    "message": "What apartment types are those? Please share images",
+    "type": "OUTBOUND",
+    "message_id": "4244962011",
+    "ticket_id": "947746198",
+    "message": "Please complete the Rent, Security deposit and late check in charges and update us to register in the building",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537477032",
+    "contact_name": "Gouldjan Tcharyeva Rüegg",
+    "contact_identifier": "+41799371177",
     "channel_id": "585723",
-    "contact_id": "537450284",
-    "contact_name": "Alisa",
-    "contact_identifier": "+79817821817",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
