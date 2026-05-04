@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-04T05:49:26.554Z",
+  "ts": "2026-05-04T05:49:31.088Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244962028",
+    "type": "OUTBOUND",
+    "message_id": "4244962048",
     "ticket_id": "947753506",
-    "message": "Hello, \nI am the Ahmed’s Agent. \nOwner of 2306 Creek Gate Tower 1. \nI need to retrieve the keys for this apartment as I have viewings scheduled. \nThank you",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "537478214",
     "contact_name": "Rosie Thompson",
     "contact_identifier": "+971585423103",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
