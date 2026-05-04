@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-04T13:57:10.019Z",
+  "ts": "2026-05-04T13:58:07.475Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4245531328",
+    "type": "INBOUND",
+    "message_id": "4245532667",
     "ticket_id": "947908187",
-    "message": "Unfortunately, we do not provide Ejari contracts. However, you are welcome to stay with us on a monthly extension basis for as long as required.\r\n\r\nPlease note that we are currently unable to confirm the rate for a one-year period at this time.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "What is the maximum term we can stay for?",
+    "channel_id": "1304636",
     "contact_id": "537353453",
     "contact_name": "Jack Ward",
     "contact_identifier": "+447495576908",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
