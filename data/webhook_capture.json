@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-04T08:45:08.615Z",
+  "ts": "2026-05-04T08:47:16.608Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4245142219",
-    "ticket_id": "947460483",
-    "message": "I understand, but if possible, please talk to your manager and make an exception for me. I'm only having trouble transferring money this month and I'll extend it for the following months.",
-    "channel_id": "1304636",
-    "contact_id": "535424092",
-    "contact_name": "Neda",
-    "contact_identifier": "+971504950614",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4245144745",
+    "ticket_id": "933725324",
+    "message": "Is there any update on the payment. Once done please share the payment receipt with us",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "533971685",
+    "contact_name": "Francesco Topputo",
+    "contact_identifier": "+971508345936",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
