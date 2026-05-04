@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-04T11:42:40.855Z",
+  "ts": "2026-05-04T11:43:06.187Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4245361326",
-    "ticket_id": "934120775",
-    "message": "I am not able to find the deposit reversal entry in my bank statements. Can you please help me with it?",
-    "channel_id": "585723",
-    "contact_id": "534056445",
-    "contact_name": "Goswami Aditya",
-    "contact_identifier": "+919967598896",
-    "parent_message_id": "4205379339",
-    "parent_ticket_id": "934120775",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4245361773",
+    "ticket_id": "947802245",
+    "message": "Here is the contact number to coordinate with the reservations",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537376941",
+    "contact_name": "Muhsin Hassan",
+    "contact_identifier": "+971528179317",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
