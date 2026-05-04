@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-04T10:00:48.953Z",
+  "ts": "2026-05-04T10:00:55.819Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4245240832",
-    "ticket_id": "947460483",
-    "message": "We have checked with the management and best rate which we can offer at the moment is AED 6000 for 30 days",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535424092",
-    "contact_name": "Neda",
-    "contact_identifier": "+971504950614",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4245241044",
+    "ticket_id": "943680486",
+    "message": "Hello,\nCould you please send me the booking form of my client.",
+    "channel_id": "585723",
+    "contact_id": "536421245",
+    "contact_name": "Ahmed Ben Saad",
+    "contact_identifier": "+971524484287",
+    "event_type": "INBOUND"
   }
 }
