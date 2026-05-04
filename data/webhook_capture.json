@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-04T14:10:12.901Z",
+  "ts": "2026-05-04T14:10:51.674Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4245549471",
-    "ticket_id": "947908187",
-    "message": "My company will insist on this",
-    "channel_id": "1304636",
-    "contact_id": "537353453",
-    "contact_name": "Jack Ward",
-    "contact_identifier": "+447495576908",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4245550284",
+    "ticket_id": "934120775",
+    "message": "We have informed the finance team and are currently awaiting their update.\r\n\r\nAs soon as we receive any response, I will update you accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "534056445",
+    "contact_name": "Goswami Aditya",
+    "contact_identifier": "+919967598896",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
