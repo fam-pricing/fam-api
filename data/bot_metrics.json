@@ -1,41 +1,5 @@
 [
   {
-    "ts": "2026-04-27T14:42:20.267Z",
-    "ticket_id": 945733914,
-    "lead_id": "message_lead_28982915",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1050,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-04-27T15:18:24.022Z",
-    "ticket_id": 945964906,
-    "lead_id": "message_lead_29000830",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 30970,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-04-27T15:20:07.757Z",
-    "ticket_id": 945964906,
-    "lead_id": "message_lead_29000830",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 22094,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": "Lead is requesting a video of the property. Also confirmed May 1 move-in interest for the 2BR in Elite Business Bay. Need to share a video walkthrough."
-  },
-  {
     "ts": "2026-04-27T18:40:28.713Z",
     "ticket_id": 945998803,
     "lead_id": "message_lead_29003834",
@@ -3333,6 +3297,18 @@
     "critic_pass": null,
     "lead_quality": 20,
     "buying_stage": "COOL",
+    "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-05-04T16:48:57.701Z",
+    "ticket_id": 947968643,
+    "lead_id": "message_lead_29133258",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1177,
+    "critic_pass": null,
+    "lead_quality": 5,
+    "buying_stage": "COLD",
     "skip_reason": "ticket_locked"
   }
 ]
