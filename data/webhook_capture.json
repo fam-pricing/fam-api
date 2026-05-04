@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-04T12:48:37.327Z",
+  "ts": "2026-05-04T12:49:07.634Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4245446561",
+    "type": "INBOUND",
+    "message_id": "4245447160",
     "ticket_id": "947884016",
-    "message": "Come now works, head to Elite Business Bay Residence in Business Bay. Here's the location: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html\n\nYour colleague is welcome too. Who should I let know to expect you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes please\nI coming now in 10 mins",
+    "channel_id": "1304636",
     "contact_id": "537509732",
     "contact_name": "Sunil Roy",
     "contact_identifier": "+971506538442",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4245446561",
+    "parent_ticket_id": "947884016",
+    "event_type": "INBOUND"
   }
 }
