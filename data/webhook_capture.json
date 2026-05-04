@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-04T07:41:42.766Z",
+  "ts": "2026-05-04T07:41:58.760Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4245064053",
+    "type": "INBOUND",
+    "message_id": "4245064442",
     "ticket_id": "933725324",
-    "message": "May I know you need our bank account details?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Exactly",
+    "channel_id": "585723",
     "contact_id": "533971685",
     "contact_name": "Francesco Topputo",
     "contact_identifier": "+971508345936",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
