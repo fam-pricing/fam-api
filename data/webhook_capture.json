@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-04T14:12:31.470Z",
+  "ts": "2026-05-04T14:12:49.271Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4245552438",
-    "ticket_id": "947864346",
-    "message": "Sticker",
-    "channel_id": "1304636",
-    "contact_id": "537471726",
-    "contact_name": "You",
-    "contact_identifier": "+971568868046",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4245552764",
+    "ticket_id": "945740012",
+    "message": "As I didn't hear back from you in a while, I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536996303",
+    "contact_name": "H.",
+    "contact_identifier": "+97455913400",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
