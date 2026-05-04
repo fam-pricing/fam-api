@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-04T12:54:43.762Z",
+  "ts": "2026-05-04T12:54:54.918Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4245454298",
-    "ticket_id": "947888768",
-    "message": "Yes, it's available from May 15. How long are you looking to stay?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537510754",
-    "contact_name": "Anastasia",
-    "contact_identifier": "+79153412426",
+    "type": "INBOUND",
+    "message_id": "4245454489",
+    "ticket_id": "947884016",
+    "message": "Please tell me where to come",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537509732",
+    "contact_name": "Sunil Roy",
+    "contact_identifier": "+971506538442",
+    "event_type": "INBOUND"
   }
 }
