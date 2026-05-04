@@ -702,3 +702,7 @@ Once we have these, we'll send you a payment link to secure the deposit and fina
 
 Please note that building registration and access can only be provided once full payment has been cleared. To avoid any delays to your check-in, we kindly ask that you settle the outstanding balance in advance.
   (Learned from Faysal handling Rahul Vinay S re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
+
+## Learned (2026-05-04)
+- If a lead asks whether the price will remain the same, respond: "At the moment, we can confirm the rate for a 3-month period only. Thereafter, we will review current market conditions and update the rate accordingly."
+  (Learned from Faysal handling Anastasia re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
