@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-04T10:42:44.621Z",
+  "ts": "2026-05-04T10:42:47.122Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4245290235",
-    "ticket_id": "947481212",
-    "message": "May I check for any other available 03 bedroom apartments for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537429997",
-    "contact_name": "Peter Pan",
-    "contact_identifier": "+971581777205",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4245290263",
+    "ticket_id": "947825240",
+    "message": "Great, please let me know what the next step will be after payment and whether the contact person will still be Mr. Faysal, who met me at the unit",
+    "channel_id": "585723",
+    "contact_id": "537401267",
+    "contact_name": "Shaker Mousa",
+    "contact_identifier": "+971588929205",
+    "event_type": "INBOUND"
   }
 }
