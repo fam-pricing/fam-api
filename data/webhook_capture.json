@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-04T07:19:13.507Z",
+  "ts": "2026-05-04T07:19:36.377Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4245035181",
+    "type": "OUTBOUND",
+    "message_id": "4245035561",
     "ticket_id": "947666827",
-    "message": "Apartment",
-    "channel_id": "1304636",
+    "message": "It's a fully furnished apartment, yes. June still works on our end, what date were you thinking for move-in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537464828",
     "contact_name": "Salam",
     "contact_identifier": "+971544425363",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
