@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-04T11:05:38.598Z",
+  "ts": "2026-05-04T11:10:32.806Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4245316194",
-    "ticket_id": "947383439",
-    "message": "I have several meetings today, so I won’t be able to come. I transfer the amount online and would like to know what the next step will be.”",
-    "channel_id": "1304636",
-    "contact_id": "537401267",
-    "contact_name": "Shaker Mousa",
-    "contact_identifier": "+971588929205",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4245316601",
+    "ticket_id": "944982076",
+    "message": "Payment link - https://totalpay.ae/payment/202605040069f87d981cbf2",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "485978103",
+    "contact_name": "Mr Ava Esa Saleh",
+    "contact_identifier": "+971553036591",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
