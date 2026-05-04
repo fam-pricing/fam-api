@@ -690,3 +690,9 @@ Once we have these, we'll send you a payment link to secure the deposit and fina
 ## Learned (2026-05-03)
 - If a lead asks to speak with a human instead of a bot, respond with: The confirmation will be issued for the first month, and thereafter monthly confirmations will be provided, as payments will be made on a monthly basis at the agreed rate.
   (Learned from Faysal handling Rahul Vinay S re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
+
+## Learned (2026-05-04)
+- If a lead asks whether they can pay by cash or bank transfer, reply:
+
+"You may complete the payment via bank transfer, or we can provide a secure payment link for your convenience. If you are able to visit our office, we are also happy to accept cash payments."
+  (Learned from Faysal handling You re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-palm-jumeirah-the-palm-tower-2PkzmNyowPw.html)
