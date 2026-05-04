@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-04T11:19:36.351Z",
+  "ts": "2026-05-04T11:19:59.665Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4245333135",
-    "ticket_id": "947481212",
-    "message": "And now you telling me it’s not available",
+    "type": "OUTBOUND",
+    "message_id": "4245333699",
+    "ticket_id": "947864346",
+    "message": "Sure allow me to check one more time for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537471726",
+    "contact_name": "You",
+    "contact_identifier": "+971568868046",
     "channel_id": "1304636",
-    "contact_id": "537429997",
-    "contact_name": "Peter Pan",
-    "contact_identifier": "+971581777205",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
