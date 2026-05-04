@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-04T15:34:26.220Z",
+  "ts": "2026-05-04T15:39:07.756Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4245647724",
-    "ticket_id": "947588552",
-    "message": "How long will they take ?",
+    "type": "OUTBOUND",
+    "message_id": "4245651856",
+    "ticket_id": "947609821",
+    "message": "These are the only available options at the moment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537450284",
+    "contact_name": "Alisa",
+    "contact_identifier": "+79817821817",
     "channel_id": "585723",
-    "contact_id": "537445561",
-    "contact_name": "H.P. Singh",
-    "contact_identifier": "+971524639684",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
