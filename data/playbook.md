@@ -696,3 +696,9 @@ Once we have these, we'll send you a payment link to secure the deposit and fina
 
 "You may complete the payment via bank transfer, or we can provide a secure payment link for your convenience. If you are able to visit our office, we are also happy to accept cash payments."
   (Learned from Faysal handling You re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-palm-jumeirah-the-palm-tower-2PkzmNyowPw.html)
+
+## Learned (2026-05-04)
+- If a lead says they will move in tomorrow and pay the remainder upon arrival, respond with the following:
+
+Please note that building registration and access can only be provided once full payment has been cleared. To avoid any delays to your check-in, we kindly ask that you settle the outstanding balance in advance.
+  (Learned from Faysal handling Rahul Vinay S re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
