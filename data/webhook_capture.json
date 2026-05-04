@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-04T11:26:18.892Z",
+  "ts": "2026-05-04T11:26:28.068Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4245341530",
-    "ticket_id": "947858418",
-    "message": "May I know how many bedrooms you are looking for and starting from which date so I can check for the availability and share the rate with you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537503419",
-    "contact_name": "Ryan",
-    "contact_identifier": "a7d08807-a37e-484a-5f10-39ea024e8a0b",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4245341678",
+    "ticket_id": "947802245",
+    "message": "Can you give rep number to coordinate",
+    "channel_id": "1304636",
+    "contact_id": "537376941",
+    "contact_name": "Muhsin Hassan",
+    "contact_identifier": "+971528179317",
+    "event_type": "INBOUND"
   }
 }
