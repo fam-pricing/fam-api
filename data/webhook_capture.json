@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-04T04:43:25.999Z",
+  "ts": "2026-05-04T04:43:45.673Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4244939105",
+    "type": "OUTBOUND",
+    "message_id": "4244939175",
     "ticket_id": "947496796",
-    "message": "Tomorrow at 9 am?",
-    "channel_id": "1304636",
+    "message": "Tomorrow at 9am works. To arrange building access, could you send a photo of your passport or Emirates ID?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537431749",
     "contact_name": "Lama Cryptobanking",
     "contact_identifier": "+34622400391",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
