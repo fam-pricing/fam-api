@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-04T13:00:29.565Z",
+  "ts": "2026-05-04T13:00:42.403Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4245461526",
-    "ticket_id": "947884016",
-    "message": "Please allow me a moment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537509732",
-    "contact_name": "Sunil Roy",
-    "contact_identifier": "+971506538442",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4245461844",
+    "ticket_id": "947188135",
+    "message": "Hi, wanted to check regarding June",
+    "channel_id": "585723",
+    "contact_id": "535230088",
+    "contact_name": "Roman Wagner",
+    "contact_identifier": "+971585412443",
+    "parent_message_id": "4243617207",
+    "parent_ticket_id": "947188135",
+    "event_type": "INBOUND"
   }
 }
