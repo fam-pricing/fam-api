@@ -712,3 +712,7 @@ Please note that building registration and access can only be provided once full
 
 If the guest requires cleaning services during their stay, let them know this can be arranged upon request, but that an additional charge will apply.
   (Learned from Faysal handling Michele Ippedico re 1BR in MAG 318)
+
+## Learned (2026-05-05)
+- If a lead mentions audio, reply: "Viewings are available between 10:00 AM and 6:00 PM only."
+  (Learned from Faysal handling I'm Riana😎 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
