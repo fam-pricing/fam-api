@@ -706,3 +706,9 @@ Please note that building registration and access can only be provided once full
 ## Learned (2026-05-04)
 - If a lead asks whether the price will remain the same, respond: "At the moment, we can confirm the rate for a 3-month period only. Thereafter, we will review current market conditions and update the rate accordingly."
   (Learned from Faysal handling Anastasia re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
+
+## Learned (2026-05-05)
+- When a lead asks whether the agency fee is included in the quoted rate, confirm that the rate is fully all-inclusive, covering VAT, service fees, and all applicable taxes, with no additional charges.
+
+If the guest requires cleaning services during their stay, let them know this can be arranged upon request, but that an additional charge will apply.
+  (Learned from Faysal handling Michele Ippedico re 1BR in MAG 318)
