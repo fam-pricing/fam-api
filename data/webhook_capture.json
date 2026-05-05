@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T14:49:59.983Z",
+  "ts": "2026-05-05T14:51:02.993Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246566778",
-    "ticket_id": "947888768",
-    "message": "Tomorrow ?",
+    "type": "OUTBOUND",
+    "message_id": "4246567996",
+    "ticket_id": "948230962",
+    "message": "Good evening Christian,\r\n\r\nMay I know from which date are you planing to book this apartment and how many months?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537603349",
+    "contact_name": "Chrishan Smith",
+    "contact_identifier": "+971585569240",
     "channel_id": "1304636",
-    "contact_id": "537510754",
-    "contact_name": "Anastasia",
-    "contact_identifier": "+79153412426",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
