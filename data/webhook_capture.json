@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-05T05:38:39.509Z",
+  "ts": "2026-05-05T05:38:44.931Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4245990634",
-    "ticket_id": "947957712",
-    "message": "allow me to check for you",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537530120",
-    "contact_name": "Michele Ippedico",
-    "contact_identifier": "+971508478252",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4245990686",
+    "ticket_id": "948083818",
+    "message": "We booked at booking and it says there’s no need to pay anything",
+    "channel_id": "585723",
+    "contact_id": "537557629",
+    "contact_name": "Umut Bozkurt",
+    "contact_identifier": "+971501156836",
+    "event_type": "INBOUND"
   }
 }
