@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T23:49:58.098Z",
+  "ts": "2026-05-05T23:50:23.988Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246854214",
+    "type": "OUTBOUND",
+    "message_id": "4246854270",
     "ticket_id": "948321131",
-    "message": "Good morning",
-    "channel_id": "1304636",
+    "message": "Here's the breakdown for the first payment:\n\nFirst month: AED 7,000\nLast month deposit: AED 7,000\nSecurity deposit: AED 1,500 (fully refundable within 14 working days after check-out)\n\nTotal to start: AED 15,500\n\nTo confirm everything, we just need your passport copy and email to send the payment link. What's your planned move-in date?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537634308",
     "contact_name": "Happy",
     "contact_identifier": "+971559022022",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
