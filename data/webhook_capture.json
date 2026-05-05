@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-05T06:37:57.855Z",
+  "ts": "2026-05-05T06:38:18.067Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4246021851",
-    "ticket_id": "947165331",
-    "message": "Good Morning Vanita",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537353305",
-    "contact_name": "Vanita",
-    "contact_identifier": "+971581582889",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4246022027",
+    "ticket_id": "947996932",
+    "message": "Give me good and better price",
+    "channel_id": "1304636",
+    "contact_id": "535452159",
+    "contact_name": "Shouq",
+    "contact_identifier": "+971503671717",
+    "parent_message_id": "4246021739",
+    "parent_ticket_id": "947996932",
+    "event_type": "INBOUND"
   }
 }
