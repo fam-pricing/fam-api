@@ -13285,17 +13285,19 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-harbour-emaar-beachfront-sunrise-bay-sunrise-bay-tower-2-69094760.html",
     "trengo_ticket_id": 948321131,
     "lead_name": "Happy",
-    "last_bot_reply_content": "Here's the breakdown for the first payment:\n\nFirst month: AED 7,000\nLast month deposit: AED 7,000\nSecurity deposit: AED 1,500 (fully refundable within 14 working days after check-out)\n\nTotal to start: AED 15,500\n\nTo confirm everything, we just need your passport copy and email to send the payment link. What's your planned move-in date?",
-    "last_bot_reply_at": "2026-05-05T23:50:18.884Z",
+    "last_bot_reply_content": "So the confusion makes sense, the AED 1,500 is just the security deposit, but because we also take the last month upfront, the total comes to AED 15,500 to start. After that it's AED 7,000 a month. What date were you thinking of moving in?",
+    "last_bot_reply_at": "2026-05-05T23:52:37.753Z",
     "lead_replied": true,
-    "lead_replied_at": "2026-05-05T23:50:18.884Z",
-    "bot_reply_count": 1,
-    "last_processed_message_id": "4246854202",
+    "lead_replied_at": "2026-05-05T23:52:37.753Z",
+    "bot_reply_count": 2,
+    "last_processed_message_id": "4246854683",
     "unanswered_alert_sent": false,
-    "lead_quality_score": 25,
-    "lead_quality_label": "COOL",
+    "lead_quality_score": 40,
+    "lead_quality_label": "WARM",
     "lead_quality_signals": [
-      "payment/booking intent"
+      "moderate engagement",
+      "payment/booking intent",
+      "pricing enquiry"
     ]
   }
 }
