@@ -1,21 +1,17 @@
 {
-  "ts": "2026-05-05T08:13:14.391Z",
+  "ts": "2026-05-05T08:14:48.266Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4246118928",
-    "ticket_id": "948119485",
-    "message": "Unfortunately, we do not have any villa that can accommodate 15 to 20 guests.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537565947",
-    "contact_name": "Bina",
-    "contact_email": "bina.n.mehta@gmail.com",
-    "contact_identifier": "11a7a302-4fa8-4b1e-2194-3485388b2dfc",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4246120574",
+    "ticket_id": "947957712",
+    "message": "Ok, can we set up an appointment for this Thursday? What time can I come and see the house?",
+    "channel_id": "1304636",
+    "contact_id": "537530120",
+    "contact_name": "Michele Ippedico",
+    "contact_identifier": "+971508478252",
+    "event_type": "INBOUND"
   }
 }
