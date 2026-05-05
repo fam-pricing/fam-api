@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-05T06:04:48.756Z",
+  "ts": "2026-05-05T06:05:16.674Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246002001",
-    "ticket_id": "941451761",
-    "message": "Yes it’s good",
+    "type": "OUTBOUND",
+    "message_id": "4246002231",
+    "ticket_id": "948083818",
+    "message": "may i have your email please",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537557629",
+    "contact_name": "Umut Bozkurt",
+    "contact_identifier": "+971501156836",
     "channel_id": "585723",
-    "contact_id": "535680169",
-    "contact_name": "HUMAM SHAMDEEN",
-    "contact_identifier": "+971555795196",
-    "parent_message_id": "4245988271",
-    "parent_ticket_id": "941451761",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
