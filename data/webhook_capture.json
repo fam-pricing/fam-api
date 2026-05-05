@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-05T13:43:23.723Z",
+  "ts": "2026-05-05T13:44:30.092Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4246490768",
-    "ticket_id": "948198898",
-    "message": "Your refund was already been processed before, and we received the receipt from the finance team today.\r\n\r\nPlease note that since the payment was made via the payment link, the refund will be returned to the same bank/card used for the transaction. No additional bank details are required.\r\n\r\nFor the card details, let us check with the finance team which card number was used, and we will update you accordingly.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537592115",
-    "contact_name": "Imane",
-    "contact_identifier": "+971541927594",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4246491925",
+    "ticket_id": "948183759",
+    "message": "11000AED",
+    "channel_id": "1304636",
+    "contact_id": "536961964",
+    "contact_name": "Catarina Loução",
+    "contact_identifier": "+971585691288",
+    "event_type": "INBOUND"
   }
 }
