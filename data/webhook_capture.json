@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T16:46:46.564Z",
+  "ts": "2026-05-05T16:47:06.176Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246670793",
+    "type": "OUTBOUND",
+    "message_id": "4246671010",
     "ticket_id": "948268402",
-    "message": "Yep",
-    "channel_id": "1304636",
+    "message": "Good evening! I don't have the exact appliance list for that unit, but the quickest way to find out is a walkthrough. What day works for you, any time between 9am and 6pm?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537616260",
     "contact_name": "Amir",
     "contact_identifier": "+971545145363",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
