@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T06:29:14.671Z",
+  "ts": "2026-05-05T06:29:57.788Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246015986",
-    "ticket_id": "948083818",
-    "message": "Can you tell me the room number so we don’t have to guess",
+    "type": "OUTBOUND",
+    "message_id": "4246016375",
+    "ticket_id": "942082281",
+    "message": "allow me to inform the team",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535956059",
+    "contact_name": "Zeina Elnahas",
+    "contact_identifier": "+971523770869",
     "channel_id": "585723",
-    "contact_id": "537557629",
-    "contact_name": "Umut Bozkurt",
-    "contact_identifier": "+971501156836",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
