@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-05T05:43:08.225Z",
+  "ts": "2026-05-05T05:43:55.643Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4245992159",
-    "ticket_id": "948083818",
-    "message": "allow me to check",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537557629",
-    "contact_name": "Umut Bozkurt",
-    "contact_identifier": "+971501156836",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4245992464",
+    "ticket_id": "947968643",
+    "message": "Is this one in the Primestay oasis building ?",
+    "channel_id": "1304636",
+    "contact_id": "537534256",
+    "contact_name": "Jo",
+    "contact_identifier": "+33616710812",
+    "parent_message_id": "4245984190",
+    "parent_ticket_id": "947968643",
+    "event_type": "INBOUND"
   }
 }
