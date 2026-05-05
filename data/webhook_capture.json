@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T16:46:35.173Z",
+  "ts": "2026-05-05T16:46:40.172Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246670473",
+    "type": "OUTBOUND",
+    "message_id": "4246670572",
     "ticket_id": "948268402",
-    "message": "Dishwasher is available??",
-    "channel_id": "1304636",
+    "message": "Amir, great timing, the studio in Upside Living is still available. Want to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537616260",
     "contact_name": "Amir",
     "contact_identifier": "+971545145363",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
