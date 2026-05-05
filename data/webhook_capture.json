@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T08:51:05.275Z",
+  "ts": "2026-05-05T08:51:29.506Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246163096",
+    "type": "OUTBOUND",
+    "message_id": "4246163596",
     "ticket_id": "948135294",
-    "message": "Hi",
-    "channel_id": "1304636",
+    "message": "Rohit, welcome! What are you looking for in a holiday home, is this for a short stay or something longer term?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537570583",
     "contact_name": "Rohit",
     "contact_identifier": "+971585926556",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
