@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T23:10:32.379Z",
+  "ts": "2026-05-05T23:10:52.664Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246847489",
+    "type": "OUTBOUND",
+    "message_id": "4246847560",
     "ticket_id": "948318940",
-    "message": "Bonjour 👋\nMerci pour votre message.\nNotre équipe est actuellement indisponible, mais nous reviendrons vers vous dès que possible.\n⏰ Horaires : 24/7 (réponse rapide sous quelques heures)\nPour toute urgence, veuillez préciser votre demande.",
-    "channel_id": "1304636",
+    "message": "Let me check this and get back to you shortly!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537633708",
     "contact_name": "Grand Capital",
     "contact_identifier": "+447923152587",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
