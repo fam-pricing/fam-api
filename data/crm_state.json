@@ -13061,7 +13061,7 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2Q6w3EvRpAG.html",
     "trengo_ticket_id": 948242878,
     "lead_name": "SHEYDA",
-    "last_bot_reply_content": "Sheyda, monthly payments work fine. To get started, it's first and last month (AED 15,000) plus a AED 2,000 refundable deposit upfront, so AED 17,000 to move in, then AED 7,500 each month after that. Would you like to come see the place before committing?",
+    "last_bot_reply_content": "Sheyda, let me get someone from the team to go over the payment options with you directly. Won't be long!",
     "last_bot_reply_at": "2026-05-05T17:01:13.450Z",
     "lead_replied": true,
     "lead_replied_at": "2026-05-05T17:01:13.450Z",
@@ -13077,7 +13077,10 @@
       "payment/booking intent",
       "pricing enquiry",
       "specific unit type"
-    ]
+    ],
+    "bot_paused": true,
+    "last_escalated_at": "2026-05-05T17:04:32.235Z",
+    "last_escalated_question": null
   },
   "message_lead_29150140": {
     "stage": "new",
