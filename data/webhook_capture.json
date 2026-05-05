@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-05T10:25:26.478Z",
+  "ts": "2026-05-05T10:25:47.665Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4246272093",
+    "type": "INBOUND",
+    "message_id": "4246272528",
     "ticket_id": "948162088",
-    "message": "However, please note that this unit is also listed online. We will be happy to arrange the viewing on your preferred date as long as it remains available.\r\n\r\nIn case the unit gets booked before then, we will inform you and cancel the viewing accordingly.\r\n\r\nThank you for your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Yes",
+    "channel_id": "1304636",
     "contact_id": "537579576",
     "contact_name": "Rebecca  Arora",
     "contact_identifier": "+971568235151",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4246269749",
+    "parent_ticket_id": "948162088",
+    "event_type": "INBOUND"
   }
 }
