@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T08:14:48.266Z",
+  "ts": "2026-05-05T08:15:59.766Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246120574",
-    "ticket_id": "947957712",
-    "message": "Ok, can we set up an appointment for this Thursday? What time can I come and see the house?",
-    "channel_id": "1304636",
-    "contact_id": "537530120",
-    "contact_name": "Michele Ippedico",
-    "contact_identifier": "+971508478252",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4246121897",
+    "ticket_id": "948124108",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535424092",
+    "contact_name": "Neda",
+    "contact_identifier": "+971504950614",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
