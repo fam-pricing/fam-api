@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-05T11:18:55.077Z",
+  "ts": "2026-05-05T11:20:45.594Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4246327239",
+    "type": "INBOUND",
+    "message_id": "4246329241",
     "ticket_id": "948175382",
-    "message": "Good Afternoon Bogdan,\r\n\r\nRegarding this matter, we kindly request you to contact our onboarding team at onboarding@famliving.com, who will be able to assist you further.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "🙏",
+    "channel_id": "585723",
     "contact_id": "537584914",
     "contact_name": "Bogdan",
     "contact_identifier": "+971585829936",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4246327239",
+    "parent_ticket_id": "948175382",
+    "event_type": "INBOUND"
   }
 }
