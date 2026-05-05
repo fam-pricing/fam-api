@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T16:56:54.376Z",
+  "ts": "2026-05-05T16:57:22.397Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246677947",
+    "type": "OUTBOUND",
+    "message_id": "4246678230",
     "ticket_id": "948242878",
-    "message": "Can I pay monthly?",
-    "channel_id": "1304636",
+    "message": "Sheyda, yes, monthly payments work. To get started, it's first and last month (AED 15,000) plus a refundable AED 2,000 deposit, so AED 17,000 upfront. Would you like to see photos of the apartment?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537607776",
     "contact_name": "SHEYDA",
     "contact_identifier": "+971502809008",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
