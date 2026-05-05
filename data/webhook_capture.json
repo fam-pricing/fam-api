@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-05T05:19:08.607Z",
+  "ts": "2026-05-05T05:19:22.420Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4245984190",
+    "type": "INBOUND",
+    "message_id": "4245984254",
     "ticket_id": "947968643",
-    "message": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-15691213.html",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Hello \nWhen would the flat be available again ?",
+    "channel_id": "1304636",
     "contact_id": "537534256",
     "contact_name": "Jo",
     "contact_identifier": "+33616710812",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4245984095",
+    "parent_ticket_id": "947968643",
+    "event_type": "INBOUND"
   }
 }
