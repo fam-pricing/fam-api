@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-05T05:19:22.420Z",
+  "ts": "2026-05-05T05:20:47.531Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4245984254",
-    "ticket_id": "947968643",
-    "message": "Hello \nWhen would the flat be available again ?",
+    "type": "OUTBOUND",
+    "message_id": "4245984792",
+    "ticket_id": "947988272",
+    "message": "Good Morning Ed,\r\n\r\nHope you doing well\r\n\r\nKindly let us know if you are interested in proceeding with a booking or arranging an in-person viewing. We will be happy to assist you further.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537540002",
+    "contact_name": "Ed Harris",
+    "contact_identifier": "+447479876456",
     "channel_id": "1304636",
-    "contact_id": "537534256",
-    "contact_name": "Jo",
-    "contact_identifier": "+33616710812",
-    "parent_message_id": "4245984095",
-    "parent_ticket_id": "947968643",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
