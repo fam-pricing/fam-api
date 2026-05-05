@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T09:37:12.243Z",
+  "ts": "2026-05-05T09:39:52.361Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246219190",
+    "type": "OUTBOUND",
+    "message_id": "4246222112",
     "ticket_id": "947996932",
-    "message": "Audio",
-    "channel_id": "1304636",
+    "message": "As per our system, the payment has not gone through. If you prefer, you may proceed with a bank transfer, Ms. Shouq. However, we are currently unsure why it is not working, as it still shows as active from our end.\r\n\r\nKindly let us know what message appears when you open the link. If possible, please share a screenshot with us for further assistance.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535452159",
     "contact_name": "Shouq",
     "contact_identifier": "+971503671717",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
