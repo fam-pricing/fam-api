@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-05T17:15:48.543Z",
+  "ts": "2026-05-05T17:20:52.575Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4246693192",
-    "ticket_id": "948274249",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537431749",
-    "contact_name": "Lama Cryptobanking",
-    "contact_identifier": "+34622400391",
+    "type": "INBOUND",
+    "message_id": "4246696786",
+    "ticket_id": "948274980",
+    "message": "Hi how are you?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536193516",
+    "contact_name": "Hajer Trimeche",
+    "contact_identifier": "+971551761082",
+    "event_type": "INBOUND"
   }
 }
