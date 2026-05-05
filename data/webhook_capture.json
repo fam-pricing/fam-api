@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-05T10:22:21.288Z",
+  "ts": "2026-05-05T10:23:09.048Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246268950",
+    "type": "OUTBOUND",
+    "message_id": "4246269749",
     "ticket_id": "948162088",
-    "message": "👍",
-    "channel_id": "1304636",
+    "message": "You would like to view this apartment on 25th may correct?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537579576",
     "contact_name": "Rebecca  Arora",
     "contact_identifier": "+971568235151",
-    "parent_message_id": "4246268511",
-    "parent_ticket_id": "948162088",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
