@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-05T11:50:25.417Z",
+  "ts": "2026-05-05T11:50:32.399Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4246362625",
-    "ticket_id": "948183904",
-    "message": "Understood. What kind of place are you looking for, size, area, budget?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537587488",
-    "contact_name": "Dia Ibrahim | Casa Vista Development",
-    "contact_identifier": "+971586013344",
+    "type": "INBOUND",
+    "message_id": "4246362806",
+    "ticket_id": "948183759",
+    "message": "Price, please?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536961964",
+    "contact_name": "Catarina Loução",
+    "contact_identifier": "+971585691288",
+    "event_type": "INBOUND"
   }
 }
