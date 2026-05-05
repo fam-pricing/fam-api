@@ -716,3 +716,9 @@ If the guest requires cleaning services during their stay, let them know this ca
 ## Learned (2026-05-05)
 - If a lead mentions audio, reply: "Viewings are available between 10:00 AM and 6:00 PM only."
   (Learned from Faysal handling I'm Riana😎 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
+
+## Learned (2026-05-05)
+- When a lead requests a formal long-term contract beyond 30 days, respond as follows:
+
+We can provide a 3-month booking confirmation. To block the unit for that period, the first and last month's payment is required upfront, with the remaining months billed on a monthly basis.
+  (Learned from Faysal handling I'm Riana😎 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
