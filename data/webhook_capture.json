@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-05T18:41:59.450Z",
+  "ts": "2026-05-05T18:42:06.914Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4246749923",
-    "ticket_id": "948271185",
-    "message": "Looks like we might have crossed wires there! Are you looking to rent the studio in Peninsula Five, or did you have a different property in mind?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537617260",
-    "contact_name": "AbdulAzeez AlAmoodi BigZ",
-    "contact_identifier": "+971564544449",
+    "type": "INBOUND",
+    "message_id": "4246750007",
+    "ticket_id": "948274980",
+    "message": "I want to take th8s offer please",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536193516",
+    "contact_name": "Hajer Trimeche",
+    "contact_identifier": "+971551761082",
+    "parent_message_id": "4230195232",
+    "parent_ticket_id": "947491731",
+    "event_type": "INBOUND"
   }
 }
