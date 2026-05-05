@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-05T07:48:40.742Z",
+  "ts": "2026-05-05T07:51:05.089Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4246087793",
-    "ticket_id": "942082281",
-    "message": "Hello Zeina,\r\n\r\nIt was from the building management, and the power was temporarily switched off for 2 hours. It should now be restored.\r\n\r\nWe hope you have received the notice from the building regarding this matter. Thank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535956059",
-    "contact_name": "Zeina Elnahas",
-    "contact_identifier": "+971523770869",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4246090139",
+    "ticket_id": "947996932",
+    "message": "Ok",
+    "channel_id": "1304636",
+    "contact_id": "535452159",
+    "contact_name": "Shouq",
+    "contact_identifier": "+971503671717",
+    "parent_message_id": "4246070889",
+    "parent_ticket_id": "947996932",
+    "event_type": "INBOUND"
   }
 }
