@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T06:24:47.064Z",
+  "ts": "2026-05-05T06:28:44.990Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246013382",
+    "type": "OUTBOUND",
+    "message_id": "4246015746",
     "ticket_id": "948083818",
-    "message": "Image",
-    "channel_id": "585723",
+    "message": "Thank you. You are all set for the check-in. As soon as the unit is ready between 12:00 PM and 1:00 PM, our team will assist you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537557629",
     "contact_name": "Umut Bozkurt",
     "contact_identifier": "+971501156836",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
