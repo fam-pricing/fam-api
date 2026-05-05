@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T14:20:08.639Z",
+  "ts": "2026-05-05T14:20:28.159Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246533519",
+    "type": "OUTBOUND",
+    "message_id": "4246533850",
     "ticket_id": "948230962",
-    "message": "Is it available?",
-    "channel_id": "1304636",
+    "message": "Yes, it is. Want to know the price or would you prefer to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537603349",
     "contact_name": "Chrishan Smith",
     "contact_identifier": "+971585569240",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
