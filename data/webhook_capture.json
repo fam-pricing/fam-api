@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T09:20:01.933Z",
+  "ts": "2026-05-05T09:24:55.804Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246198790",
+    "type": "OUTBOUND",
+    "message_id": "4246204602",
     "ticket_id": "948124108",
-    "message": "Do u accept cash?",
-    "channel_id": "585723",
+    "message": "Yes, we accept cash payments. If you decide to proceed with the booking after the viewing, you may hand over the cash to our Guest Relations team who will be assisting you during the viewing. We will then complete the booking and send you the confirmation. Thank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535424092",
     "contact_name": "Neda",
     "contact_identifier": "+971504950614",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
