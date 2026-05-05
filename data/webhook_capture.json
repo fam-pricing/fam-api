@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-05T07:41:41.078Z",
+  "ts": "2026-05-05T07:45:02.691Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4246080732",
-    "ticket_id": "933725324",
-    "message": "Good morning Francesco,\r\n\r\nHope you are doing well.\r\n\r\nWe would like to follow up on the payment. Kindly let us know if it has been completed, and share an update with us at your earliest convenience.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "533971685",
-    "contact_name": "Francesco Topputo",
-    "contact_identifier": "+971508345936",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4246084100",
+    "ticket_id": "948111782",
+    "message": "Hi good morning \nAs we talk before I would like to rent this unit for 1 month \nBut my maximum budget is 5500 AED\nplease talk to your manager, duo to situation maybe you can give me the new price\nI'm ready to sign contract today \nPlease let me know if it's possible",
+    "channel_id": "1304636",
+    "contact_id": "535424092",
+    "contact_name": "Neda",
+    "contact_identifier": "+971504950614",
+    "parent_message_id": "4245240832",
+    "parent_ticket_id": "947460483",
+    "event_type": "INBOUND"
   }
 }
