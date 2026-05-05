@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T12:55:57.814Z",
+  "ts": "2026-05-05T12:57:32.291Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246437345",
+    "type": "OUTBOUND",
+    "message_id": "4246438959",
     "ticket_id": "948198898",
-    "message": "Can u make sure which one u sent to",
-    "channel_id": "585723",
+    "message": "It has been refunded to the same card used for the deposit payment. At this stage, it is not possible to change the refund method. You should receive the amount within 2 to 3 days in the same account/card.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537592115",
     "contact_name": "Imane",
     "contact_identifier": "+971541927594",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
