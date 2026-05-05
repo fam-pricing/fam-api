@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-05T05:58:59.852Z",
+  "ts": "2026-05-05T06:00:15.886Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4245998671",
-    "ticket_id": "947957712",
-    "message": "Yes, it is available from 8th May, and the viewing can be arranged on 7th May only. Would that be convenient for you?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537530120",
-    "contact_name": "Michele Ippedico",
-    "contact_identifier": "+971508478252",
+    "type": "INBOUND",
+    "message_id": "4245999260",
+    "ticket_id": "947968643",
+    "message": "Perfect we can visit this one later then",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537534256",
+    "contact_name": "Jo",
+    "contact_identifier": "+33616710812",
+    "parent_message_id": "4245993477",
+    "parent_ticket_id": "947968643",
+    "event_type": "INBOUND"
   }
 }
