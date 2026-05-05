@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T23:53:32.061Z",
+  "ts": "2026-05-05T23:54:00.860Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246854864",
+    "type": "OUTBOUND",
+    "message_id": "4246854917",
     "ticket_id": "948321131",
-    "message": "Am renting for one month",
-    "channel_id": "1304636",
+    "message": "Since you're only renting for one month, it's just the first month rent of AED 7,000 plus the AED 1,500 refundable security deposit, so AED 8,500 total to start. What date are you looking to move in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537634308",
     "contact_name": "Happy",
     "contact_identifier": "+971559022022",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
