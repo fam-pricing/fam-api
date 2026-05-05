@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-05T09:57:36.003Z",
+  "ts": "2026-05-05T09:57:46.000Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246242412",
-    "ticket_id": "947996932",
-    "message": "Purchase of AED 5,155.00 with Debit Card ending 7020 at FAMCO VACATION HOMES R, Dubai. Avl Bal",
+    "type": "OUTBOUND",
+    "message_id": "4246242573",
+    "ticket_id": "947908187",
+    "message": "Unfortunately, it will not be possible. We can arrange the viewing in person only.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537353453",
+    "contact_name": "Jack Ward",
+    "contact_identifier": "+447495576908",
     "channel_id": "1304636",
-    "contact_id": "535452159",
-    "contact_name": "Shouq",
-    "contact_identifier": "+971503671717",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
