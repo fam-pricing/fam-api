@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-06T10:19:53.581Z",
+  "ts": "2026-05-06T10:21:40.323Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4247233599",
+    "type": "INBOUND",
+    "message_id": "4247235563",
     "ticket_id": "948455371",
-    "message": "however please share the EID or Passport to register the viewing",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Im in my way driving to the location can i give it to u when we meet",
+    "channel_id": "1304636",
     "contact_id": "537660155",
     "contact_name": "Loujain Khattar",
     "contact_identifier": "+971524222538",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4247233599",
+    "parent_ticket_id": "948455371",
+    "event_type": "INBOUND"
   }
 }
