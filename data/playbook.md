@@ -756,3 +756,7 @@ Please note that we do not offer Ejari contracts, as we operate on a monthly boo
 
 Since payments are made on a monthly basis, contracts are issued monthly. Assure the lead that the rate will remain fixed for the entire initial three-month period.
   (Learned from Faysal handling Emilia re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html)
+
+## Learned (2026-05-06)
+- If a lead says: "What is the total payment for 6 month or year contract" → Reply: "Unfortunately we are unable to confirm the rate for more than 3months at the moment"
+  (Learned from Faysal handling Mayada Ismail re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
