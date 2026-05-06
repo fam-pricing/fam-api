@@ -750,3 +750,9 @@ Once we have these, we'll send you a payment link via Noon to secure the reserva
 
 Please note that we do not offer Ejari contracts, as we operate on a monthly booking basis. Under current market conditions, we are only able to guarantee the agreed rate for an initial three-month period. After that, rates will be reviewed and adjusted in line with prevailing market conditions.
   (Learned from Faysal handling Sanjeeda re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-06)
+- If a lead requests a contract that guarantees a fixed price for three months, respond as follows:
+
+Since payments are made on a monthly basis, contracts are issued monthly. Assure the lead that the rate will remain fixed for the entire initial three-month period.
+  (Learned from Faysal handling Emilia re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html)
