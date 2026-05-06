@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-06T13:35:12.010Z",
+  "ts": "2026-05-06T13:35:44.257Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4247472920",
+    "type": "OUTBOUND",
+    "message_id": "4247473448",
     "ticket_id": "948533968",
-    "message": "What about commission?",
-    "channel_id": "1304636",
+    "message": "No commission, it's all included in the monthly rate.\n\nThe first payment is AED 8,000 total: first month (AED 6,000) plus a fully refundable AED 2,000 security deposit. After that it's AED 6,000 a month.\n\nWould you like to come see it in person?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537678623",
     "contact_name": "J",
     "contact_identifier": "+971551529386",
-    "parent_message_id": "4247471473",
-    "parent_ticket_id": "948533968",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
