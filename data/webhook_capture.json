@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-06T13:46:29.567Z",
+  "ts": "2026-05-06T13:47:38.709Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4247488508",
+    "type": "INBOUND",
+    "message_id": "4247490226",
     "ticket_id": "948533968",
-    "message": "Sure, just ping me when you're ready and I'll get a time locked in for you.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Sure I’ll let you know",
+    "channel_id": "1304636",
     "contact_id": "537678623",
     "contact_name": "J",
     "contact_identifier": "+971551529386",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4247488508",
+    "parent_ticket_id": "948533968",
+    "event_type": "INBOUND"
   }
 }
