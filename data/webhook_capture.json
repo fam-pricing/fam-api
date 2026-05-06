@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-06T09:34:25.834Z",
+  "ts": "2026-05-06T09:34:52.686Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4247175451",
+    "type": "INBOUND",
+    "message_id": "4247175993",
     "ticket_id": "948429238",
-    "message": "and there is a security deposit of AED 3000",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I call this unit",
+    "channel_id": "1304636",
     "contact_id": "537654417",
     "contact_name": "Javid",
     "contact_identifier": "+971509117418",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4247144224",
+    "parent_ticket_id": "948429238",
+    "event_type": "INBOUND"
   }
 }
