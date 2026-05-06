@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-06T14:27:09.658Z",
+  "ts": "2026-05-06T14:29:01.037Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4247538056",
+    "type": "INBOUND",
+    "message_id": "4247540465",
     "ticket_id": "948557955",
-    "message": "Any questions about the property, or are you looking for something specific in Dubai?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "For same unit",
+    "channel_id": "1304636",
     "contact_id": "537684657",
     "contact_name": "R.A",
     "contact_identifier": "+971544480937",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4247536452",
+    "parent_ticket_id": "948557955",
+    "event_type": "INBOUND"
   }
 }
