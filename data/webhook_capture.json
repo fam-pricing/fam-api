@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-06T10:35:38.295Z",
+  "ts": "2026-05-06T10:35:39.356Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4247251624",
+    "type": "OUTBOUND",
+    "message_id": "4247251615",
     "ticket_id": "948455371",
-    "message": "Ok",
-    "channel_id": "1304636",
+    "message": "Shall I arrange viewing for this unit?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537660155",
     "contact_name": "Loujain Khattar",
     "contact_identifier": "+971524222538",
-    "parent_message_id": "4247251396",
-    "parent_ticket_id": "948455371",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
