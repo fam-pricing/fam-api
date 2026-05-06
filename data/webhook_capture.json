@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-06T13:38:18.855Z",
+  "ts": "2026-05-06T13:38:52.398Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4247476746",
-    "ticket_id": "948496998",
-    "message": "Why",
+    "type": "OUTBOUND",
+    "message_id": "4247477789",
+    "ticket_id": "941757415",
+    "message": "Unfortunately we are unable to change the door code",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535953930",
+    "contact_name": "Shakiba alsama",
+    "contact_identifier": "+971502487446",
     "channel_id": "585723",
-    "contact_id": "537670312",
-    "contact_name": "Omar",
-    "contact_identifier": "+971543273032",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
