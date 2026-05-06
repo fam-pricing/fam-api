@@ -734,3 +734,7 @@ We can provide a 3-month booking confirmation. To block the unit for that period
 
 Once we have these, we'll send you a payment link via Noon to secure the reservation."
   (Learned from Faysal handling SHEYDA re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2Q6w3EvRpAG.html)
+
+## Learned (2026-05-06)
+- If a lead requests to hold a property while awaiting an international fund transfer, respond with: "Unfortunately, we are unable to reserve the unit until the security deposit payment has been received."
+  (Learned from Faysal handling SHEYDA re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2Q6w3EvRpAG.html)
