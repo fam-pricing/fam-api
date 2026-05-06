@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-06T11:50:19.163Z",
+  "ts": "2026-05-06T11:51:10.543Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4247336918",
-    "ticket_id": "948491003",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537669358",
-    "contact_name": "Danica",
-    "contact_identifier": "+971508022178",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4247337899",
+    "ticket_id": "948491237",
+    "message": "Good afternoon! Please specify any questions. I own an apartment in Prive and am considering engaging a professional property management company. Before I proceed, I would like to request the following information from you:\n\n1. Your cooperation terms:\n   · Management fee structure (percentage of rent, fixed fee, or hybrid)\n   · Any setup, marketing, or administrative fees\n   · Contract duration and termination conditions\n1. Rental price forecast for my unit:\n   · Current market rental value (long‑term and short‑term)\n   · Expected price trend for the next 6–12 months\n   · Any data or market report you can share to support your forecast",
+    "channel_id": "585723",
+    "contact_id": "537669434",
+    "contact_name": "Татьяна Курчангина",
+    "contact_identifier": "+79088712051",
+    "event_type": "INBOUND"
   }
 }
