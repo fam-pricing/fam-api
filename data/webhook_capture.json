@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-06T05:47:06.208Z",
+  "ts": "2026-05-06T05:47:09.094Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4246939451",
-    "ticket_id": "948124108",
-    "message": "Hello, good morning. I will send you the documents and pay you in cash. Just tell me where I should deliver the money.",
+    "type": "OUTBOUND",
+    "message_id": "4246939478",
+    "ticket_id": "944080378",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536521741",
+    "contact_name": "Signature",
+    "contact_identifier": "+971528764503",
     "channel_id": "585723",
-    "contact_id": "535424092",
-    "contact_name": "Neda",
-    "contact_identifier": "+971504950614",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
