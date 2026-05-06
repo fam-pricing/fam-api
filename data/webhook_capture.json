@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-06T09:11:02.874Z",
+  "ts": "2026-05-06T09:11:28.760Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4247145300",
+    "type": "OUTBOUND",
+    "message_id": "4247145834",
     "ticket_id": "948429238",
-    "message": "I want to ask, do you sign a 5-month contract?",
-    "channel_id": "1304636",
+    "message": "Yes, 5 months is fine, we can arrange that.\n\nQuick question though, are you looking at the 2BR in Bayz by Danube or the one in Elite Business Bay Residence? Both are in Business Bay so just want to make sure we're working on the right one.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537654417",
     "contact_name": "Javid",
     "contact_identifier": "+971509117418",
-    "parent_message_id": "4247144615",
-    "parent_ticket_id": "948429238",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
