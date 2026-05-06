@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-06T07:55:31.700Z",
+  "ts": "2026-05-06T07:57:07.313Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4247052846",
+    "type": "INBOUND",
+    "message_id": "4247054789",
     "ticket_id": "947957712",
-    "message": "Apologies for the confusion. We have received a last-minute booking from another platform a few minutes ago therefore, we are unable to arrange the viewing for you today.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "the visit is tomorrow it wasn't for today",
+    "channel_id": "1304636",
     "contact_id": "537530120",
     "contact_name": "Michele Ippedico",
     "contact_identifier": "+971508478252",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
