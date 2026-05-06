@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-06T08:01:00.705Z",
+  "ts": "2026-05-06T08:09:05.403Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4247059571",
-    "ticket_id": "947957712",
-    "message": "My apologies for mentioning today however we are unable to arrange viewing as we have received another confirmed booking",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537530120",
-    "contact_name": "Michele Ippedico",
-    "contact_identifier": "+971508478252",
+    "type": "INBOUND",
+    "message_id": "4247069148",
+    "ticket_id": "947753526",
+    "message": "Any update from the owner?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535147845",
+    "contact_name": "Osama Omar",
+    "contact_identifier": "+971556969743",
+    "event_type": "INBOUND"
   }
 }
