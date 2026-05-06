@@ -722,3 +722,15 @@ If the guest requires cleaning services during their stay, let them know this ca
 
 We can provide a 3-month booking confirmation. To block the unit for that period, the first and last month's payment is required upfront, with the remaining months billed on a monthly basis.
   (Learned from Faysal handling I'm Riana😎 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
+
+## Learned (2026-05-06)
+- When a lead says they want to proceed with a booking, respond with the following:
+
+"Great! To confirm your booking, we'll need a few details from you:
+
+1. A copy of your ID or passport
+2. Your email address
+3. Your phone number
+
+Once we have these, we'll send you a payment link via Noon to secure the reservation."
+  (Learned from Faysal handling SHEYDA re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2Q6w3EvRpAG.html)
