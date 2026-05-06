@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-06T09:10:59.489Z",
+  "ts": "2026-05-06T09:11:02.874Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4247145197",
+    "type": "INBOUND",
+    "message_id": "4247145300",
     "ticket_id": "948429238",
-    "message": "Javid, it's available, what dates are you thinking for the move-in?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I want to ask, do you sign a 5-month contract?",
+    "channel_id": "1304636",
     "contact_id": "537654417",
     "contact_name": "Javid",
     "contact_identifier": "+971509117418",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4247144615",
+    "parent_ticket_id": "948429238",
+    "event_type": "INBOUND"
   }
 }
