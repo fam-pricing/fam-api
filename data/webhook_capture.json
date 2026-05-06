@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-06T11:27:32.901Z",
+  "ts": "2026-05-06T11:28:32.838Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4247308803",
+    "type": "OUTBOUND",
+    "message_id": "4247309970",
     "ticket_id": "936549278",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "Hi Rahimudin,\r\n\r\nAs per the update received from our finance team, kindly note that we have not yet received the payment for your stay.\r\n\r\nWe would appreciate it if you could arrange the payment by today to avoid any inconvenience",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "534682324",
     "contact_name": "Rahimudin Mangudin",
     "contact_identifier": "+447366477777",
-    "parent_message_id": "4247289574",
-    "parent_ticket_id": "936549278",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
