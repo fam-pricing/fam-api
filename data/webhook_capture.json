@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-06T10:22:55.315Z",
+  "ts": "2026-05-06T10:23:40.467Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4247236891",
+    "type": "OUTBOUND",
+    "message_id": "4247237635",
     "ticket_id": "948242878",
-    "message": "Please hold this property for me. I’m waiting for a payment to be transferred from another country. I will make the payment as soon as possible and keep you updated.",
-    "channel_id": "1304636",
+    "message": "Unfortunately we are unable to block the unit until we receive the security deposit payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537607776",
     "contact_name": "SHEYDA",
     "contact_identifier": "+971502809008",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
