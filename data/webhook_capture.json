@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-06T16:32:09.601Z",
+  "ts": "2026-05-06T16:32:42.679Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4247664237",
+    "type": "OUTBOUND",
+    "message_id": "4247664666",
     "ticket_id": "948557955",
-    "message": "What is visit timing for tomorrow",
-    "channel_id": "1304636",
+    "message": "Viewings tomorrow are open 9am, 6pm, what time works for you?\n\nOn the yearly rate, we can't lock in a fixed annual price as it's reviewed quarterly after the first 3 months, but the starting rate is AED 5,500/month. No video available for this one, but the photo gallery in the listing covers it well.\n\nWhat time tomorrow suits you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537684657",
     "contact_name": "R.A",
     "contact_identifier": "+971544480937",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
