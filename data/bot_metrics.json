@@ -1,41 +1,5 @@
 [
   {
-    "ts": "2026-04-29T13:39:53.429Z",
-    "ticket_id": 946513976,
-    "lead_id": "message_lead_29036229",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 23077,
-    "critic_pass": null,
-    "lead_quality": 50,
-    "buying_stage": "WARM",
-    "skip_reason": "Lead is asking about oven and balcony specifics for the Upside Living studio, requesting videos, and confirming 4-month stay from May 5th with monthly payment. Cannot confirm appliance or balcony details from portfolio data. Video request also requires escalation. Need Faysal to confirm unit specifics and provide video."
-  },
-  {
-    "ts": "2026-04-29T13:40:29.721Z",
-    "ticket_id": 945733914,
-    "lead_id": "message_lead_28982915",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1031,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-04-29T13:40:36.301Z",
-    "ticket_id": 945733914,
-    "lead_id": "message_lead_28982915",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 889,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-04-29T13:51:17.999Z",
     "ticket_id": 946128398,
     "lead_id": "message_lead_29011209",
@@ -3070,5 +3034,17 @@
     "lead_quality": 35,
     "buying_stage": "COOL",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-05-06T13:40:42.620Z",
+    "ticket_id": 948533968,
+    "lead_id": "message_lead_29167849",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 910,
+    "critic_pass": null,
+    "lead_quality": 70,
+    "buying_stage": "HOT",
+    "skip_reason": "acknowledgment_skip"
   }
 ]
