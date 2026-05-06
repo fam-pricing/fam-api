@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-06T13:32:01.352Z",
+  "ts": "2026-05-06T13:32:56.716Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4247469645",
+    "type": "INBOUND",
+    "message_id": "4247470691",
     "ticket_id": "948533968",
-    "message": "To get started, it's AED 2,000 security deposit plus first and last month upfront, AED 14,000 total. Want to come see it before committing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I can pay monthly I cannot pay last month and first the same time",
+    "channel_id": "1304636",
     "contact_id": "537678623",
     "contact_name": "J",
     "contact_identifier": "+971551529386",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4247469645",
+    "parent_ticket_id": "948533968",
+    "event_type": "INBOUND"
   }
 }
