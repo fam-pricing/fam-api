@@ -744,3 +744,9 @@ Once we have these, we'll send you a payment link via Noon to secure the reserva
 
 "This amount is fully refundable at check-out, provided there are no damages to the apartment. The refund will be processed within 7 working days after your departure."
   (Learned from Faysal handling Happy re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-harbour-emaar-beachfront-sunrise-bay-sunrise-bay-tower-2-69094760.html)
+
+## Learned (2026-05-06)
+- If a lead requests that rental rates remain fixed for a full year and be revised only at renewal, respond as follows:
+
+Please note that we do not offer Ejari contracts, as we operate on a monthly booking basis. Under current market conditions, we are only able to guarantee the agreed rate for an initial three-month period. After that, rates will be reviewed and adjusted in line with prevailing market conditions.
+  (Learned from Faysal handling Sanjeeda re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
