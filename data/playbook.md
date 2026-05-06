@@ -738,3 +738,9 @@ Once we have these, we'll send you a payment link via Noon to secure the reserva
 ## Learned (2026-05-06)
 - If a lead requests to hold a property while awaiting an international fund transfer, respond with: "Unfortunately, we are unable to reserve the unit until the security deposit payment has been received."
   (Learned from Faysal handling SHEYDA re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2Q6w3EvRpAG.html)
+
+## Learned (2026-05-06)
+- When a lead asks for a discount on the rent, respond with the following:
+
+"This amount is fully refundable at check-out, provided there are no damages to the apartment. The refund will be processed within 7 working days after your departure."
+  (Learned from Faysal handling Happy re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-harbour-emaar-beachfront-sunrise-bay-sunrise-bay-tower-2-69094760.html)
