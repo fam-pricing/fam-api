@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-06T15:42:58.325Z",
+  "ts": "2026-05-06T15:44:31.130Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4247621620",
-    "ticket_id": "948551744",
-    "message": "How can I use the property if I don’t have access cards ?",
+    "type": "OUTBOUND",
+    "message_id": "4247623013",
+    "ticket_id": "948575895",
+    "message": "Unfortunately we are unable to confirm the rate for more than 3months at the moment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537689386",
+    "contact_name": "Mayada Ismail",
+    "contact_identifier": "+971525089326",
     "channel_id": "1304636",
-    "contact_id": "536340091",
-    "contact_name": "Mahassine Al Awad",
-    "contact_identifier": "+971585429848",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
