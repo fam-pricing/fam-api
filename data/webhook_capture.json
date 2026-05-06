@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-06T12:31:27.509Z",
+  "ts": "2026-05-06T12:31:29.855Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4247391030",
-    "ticket_id": "933725324",
-    "message": "Well received the payment and waiting for the balance payment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "533971685",
-    "contact_name": "Francesco Topputo",
-    "contact_identifier": "+971508345936",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4247391090",
+    "ticket_id": "948321131",
+    "message": "👍🏻",
+    "channel_id": "1304636",
+    "contact_id": "537634308",
+    "contact_name": "Happy",
+    "contact_identifier": "+971559022022",
+    "parent_message_id": "4247389274",
+    "parent_ticket_id": "948321131",
+    "event_type": "INBOUND"
   }
 }
