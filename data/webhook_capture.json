@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-06T13:31:13.938Z",
+  "ts": "2026-05-06T13:31:35.439Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4247468699",
-    "ticket_id": "947908187",
-    "message": "May I know what you need to clarify exactly so I can check for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537353453",
-    "contact_name": "Jack Ward",
-    "contact_identifier": "+447495576908",
+    "type": "INBOUND",
+    "message_id": "4247469173",
+    "ticket_id": "948533968",
+    "message": "How much it would be total first payment",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537678623",
+    "contact_name": "J",
+    "contact_identifier": "+971551529386",
+    "parent_message_id": "4247468192",
+    "parent_ticket_id": "948533968",
+    "event_type": "INBOUND"
   }
 }
