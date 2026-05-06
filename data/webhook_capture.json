@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-06T18:05:48.630Z",
+  "ts": "2026-05-06T18:06:05.932Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4247736045",
+    "type": "OUTBOUND",
+    "message_id": "4247736316",
     "ticket_id": "948620073",
-    "message": "Is it available move in from tomorrow",
-    "channel_id": "1304636",
+    "message": "Yes, move-in from tomorrow works. What's your name?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537700926",
     "contact_name": "BA",
     "contact_identifier": "+971588667109",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
