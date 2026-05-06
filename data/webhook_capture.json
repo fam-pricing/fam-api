@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-06T09:34:18.088Z",
+  "ts": "2026-05-06T09:34:25.834Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4247175286",
-    "ticket_id": "948274980",
-    "message": "So first month I pay 5500 no deposit right ?",
+    "type": "OUTBOUND",
+    "message_id": "4247175451",
+    "ticket_id": "948429238",
+    "message": "and there is a security deposit of AED 3000",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537654417",
+    "contact_name": "Javid",
+    "contact_identifier": "+971509117418",
     "channel_id": "1304636",
-    "contact_id": "536193516",
-    "contact_name": "Hajer Trimeche",
-    "contact_identifier": "+971551761082",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
