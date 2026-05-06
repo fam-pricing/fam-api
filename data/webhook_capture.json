@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-06T12:02:50.834Z",
+  "ts": "2026-05-06T12:03:00.611Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4247354820",
-    "ticket_id": "948491237",
-    "message": "At the moment, we do not require any assistance, thank you. However, we will reach out to you if we need anything in the future.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537669434",
-    "contact_name": "Татьяна Курчангина",
-    "contact_identifier": "+79088712051",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4247355007",
+    "ticket_id": "948321131",
+    "message": "👍🏻",
+    "channel_id": "1304636",
+    "contact_id": "537634308",
+    "contact_name": "Happy",
+    "contact_identifier": "+971559022022",
+    "parent_message_id": "4247351252",
+    "parent_ticket_id": "948321131",
+    "event_type": "INBOUND"
   }
 }
