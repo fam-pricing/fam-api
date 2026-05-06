@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-06T13:43:34.930Z",
+  "ts": "2026-05-06T13:44:42.010Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4247484407",
+    "type": "INBOUND",
+    "message_id": "4247485948",
     "ticket_id": "948533968",
-    "message": "It's in Canal Residence Arabian, Dubai Sports City, full photos and the exact location are in the listing: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-sports-city-canal-residence-arabian-16188259.html\n\nWant to come take a look in person?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes when can visit for the viewing",
+    "channel_id": "1304636",
     "contact_id": "537678623",
     "contact_name": "J",
     "contact_identifier": "+971551529386",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4247484407",
+    "parent_ticket_id": "948533968",
+    "event_type": "INBOUND"
   }
 }
