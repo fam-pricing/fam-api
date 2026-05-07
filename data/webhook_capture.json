@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T10:56:45.611Z",
+  "ts": "2026-05-07T10:57:14.445Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248280742",
+    "type": "OUTBOUND",
+    "message_id": "4248281184",
     "ticket_id": "948812118",
-    "message": "Hello, good afternoon. I’m interested in the apartment, however I would like to better understand how the rental process works. I would like to know if it is possible to rent using only my passport and also if any security deposit is required. Could you please explain it to me?",
-    "channel_id": "1304636",
+    "message": "Good afternoon! A passport is all you need, no Emirates ID required.\n\nThe process is simple: you share a copy of your passport and your email, we send you a registration card to sign, then you receive your self-check-in details.\n\nThe security deposit for this unit is AED 2,000, fully refundable within 14 working days after check-out following a standard inspection.\n\nWhat date are you looking to move in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537744562",
     "contact_name": "Cboss",
     "contact_identifier": "+971528459492",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
