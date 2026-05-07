@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-07T15:16:06.949Z",
+  "ts": "2026-05-07T15:16:34.971Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248564987",
-    "ticket_id": "948879450",
-    "message": "Im looking for studio in upside \nIt was 4500k monthly",
+    "type": "OUTBOUND",
+    "message_id": "4248565376",
+    "ticket_id": "948812118",
+    "message": "For the booking we will be needing your EID, email and before that we will send you the payment for the deposit once it’s done we will block the unit for you",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537744562",
+    "contact_name": "Cboss",
+    "contact_identifier": "+971528459492",
     "channel_id": "1304636",
-    "contact_id": "536284001",
-    "contact_name": "Rs Mlk",
-    "contact_identifier": "+971581451699",
-    "parent_message_id": "4248542975",
-    "parent_ticket_id": "948879450",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
