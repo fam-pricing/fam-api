@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-07T08:00:21.469Z",
+  "ts": "2026-05-07T08:01:05.142Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248086104",
+    "type": "INBOUND",
+    "message_id": "4248087367",
     "ticket_id": "948745689",
-    "message": "That works, Mia. First month plus last month upfront (AED 20,000), and a refundable AED 2,000 damage deposit. Shall I get the contract started?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "On this month I can pay only 10k and deposit (not 20k upfront)",
+    "channel_id": "1304636",
     "contact_id": "537722578",
     "contact_name": "MIA LACQERAN",
     "contact_identifier": "+971585563955",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
