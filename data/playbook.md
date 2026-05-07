@@ -800,3 +800,7 @@ The yearly price for Elite is 160,000 AED (13,333.33 AED per month), inclusive o
 ## Learned (2026-05-07)
 - If a lead references a listed price (e.g., "This one is listed at 5,500"), clarify that the listed price applies to the current month only.
   (Learned from Faysal handling Maleeha Hameed re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-07)
+- When a lead says they need to check with their husband about viewing today or tomorrow, respond by informing them that viewings are available daily from 9:00 AM to 6:00 PM.
+  (Learned from Faysal handling yassmeenelshreef re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
