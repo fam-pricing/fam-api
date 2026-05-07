@@ -770,3 +770,7 @@ Since payments are made on a monthly basis, contracts are issued monthly. Assure
 
 Please note that the quoted rate applies to the initial 3-month period only. Beyond this period, pricing will be subject to prevailing market conditions, and we are unable to guarantee or confirm rates beyond that initial term at this stage.
   (Learned from Faysal handling Tanzil Khalif re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-05-07)
+- If a lead mentions they are in Business Bay and wants to view the property, inform them that a viewing must be arranged in advance — reception will not grant access without an email confirmation sent prior to their arrival.
+  (Learned from Faysal handling Wealth💵 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
