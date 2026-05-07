@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-07T13:38:18.314Z",
+  "ts": "2026-05-07T13:40:11.367Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248459924",
-    "ticket_id": "945536661",
-    "message": "Hello - any updates regarding this?",
+    "type": "OUTBOUND",
+    "message_id": "4248461975",
+    "ticket_id": "948860265",
+    "message": "Yes Mouza",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "255670888",
+    "contact_name": "Mouza Almazrouei",
+    "contact_identifier": "+971503330733",
     "channel_id": "585723",
-    "contact_id": "536944547",
-    "contact_name": "Firas Al-Lawati",
-    "contact_identifier": "+971585132211",
-    "parent_message_id": "4247989159",
-    "parent_ticket_id": "945536661",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
