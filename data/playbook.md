@@ -782,3 +782,7 @@ Please note that the quoted rate applies to the initial 3-month period only. Bey
 ## Learned (2026-05-07)
 - If a lead responds with "2", reply: "We can provide a yearly holiday homes contract."
   (Learned from Faysal handling Mohammad re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
+
+## Learned (2026-05-07)
+- If a lead books 3 nights at AED 5,500 per night (total AED 16,500), inform them that the security deposit will be AED 5,000.
+  (Learned from Faysal handling Mohammad re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
