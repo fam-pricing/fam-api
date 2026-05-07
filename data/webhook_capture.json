@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T20:45:25.224Z",
+  "ts": "2026-05-07T20:45:50.488Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248763256",
+    "type": "OUTBOUND",
+    "message_id": "4248763380",
     "ticket_id": "948938285",
-    "message": "To much",
-    "channel_id": "1304636",
+    "message": "The AED 2,000 deposit is fully refundable, it comes back within 14 working days after check-out, as long as the apartment is left in good condition.\n\nAre you thinking May 14 or May 16?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537793990",
     "contact_name": "STN",
     "contact_identifier": "+79015817252",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
