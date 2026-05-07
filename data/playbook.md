@@ -764,3 +764,9 @@ Since payments are made on a monthly basis, contracts are issued monthly. Assure
 ## Learned (2026-05-06)
 - If a lead says: "I’m looking to stay on rent permanently" → Reply: "You can stay as long as you wants to stay however please note that we will be able to confirm the rate only for 3months at the moment and after 3months we will update the rate accordingly with the prevailing market confidence"
   (Learned from Faysal handling Anthony Shanouk   B+  #4 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-07)
+- When a resident lead confirms they are interested in a monthly arrangement and asks whether the rate will stay the same beyond the first 3-month block, respond as follows:
+
+Please note that the quoted rate applies to the initial 3-month period only. Beyond this period, pricing will be subject to prevailing market conditions, and we are unable to guarantee or confirm rates beyond that initial term at this stage.
+  (Learned from Faysal handling Tanzil Khalif re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
