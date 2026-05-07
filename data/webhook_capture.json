@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-07T20:41:20.445Z",
+  "ts": "2026-05-07T20:41:45.243Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248761951",
+    "type": "INBOUND",
+    "message_id": "4248762069",
     "ticket_id": "948938285",
-    "message": "Month-to-month works perfectly, so you can start with the first month and keep going from there. What date are you looking to move in?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "14 or 16 may",
+    "channel_id": "1304636",
     "contact_id": "537793990",
     "contact_name": "STN",
     "contact_identifier": "+79015817252",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4248761951",
+    "parent_ticket_id": "948938285",
+    "event_type": "INBOUND"
   }
 }
