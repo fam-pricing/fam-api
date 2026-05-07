@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-07T10:42:51.317Z",
+  "ts": "2026-05-07T10:43:01.170Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248267029",
+    "type": "INBOUND",
+    "message_id": "4248267154",
     "ticket_id": "948812066",
-    "message": "5:30pm Saturday works. Confirm tomorrow and we'll get it locked in.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is this your direct contact?",
+    "channel_id": "1304636",
     "contact_id": "537744550",
     "contact_name": "Sarah Ansari",
     "contact_identifier": "+971563612050",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
