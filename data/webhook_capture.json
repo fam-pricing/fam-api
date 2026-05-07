@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T07:58:00.686Z",
+  "ts": "2026-05-07T07:58:01.501Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248083641",
-    "ticket_id": "948745689",
-    "message": "I could pay monthly please",
+    "type": "OUTBOUND",
+    "message_id": "4248083653",
+    "ticket_id": "948762058",
+    "message": "deposit will be 5,000",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537726830",
+    "contact_name": "Mohammad",
+    "contact_identifier": "+971544047000",
     "channel_id": "1304636",
-    "contact_id": "537722578",
-    "contact_name": "MIA LACQERAN",
-    "contact_identifier": "+971585563955",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
