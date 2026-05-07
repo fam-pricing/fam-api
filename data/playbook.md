@@ -778,3 +778,7 @@ Please note that the quoted rate applies to the initial 3-month period only. Bey
 ## Learned (2026-05-07)
 - If a lead requests a stay from May 14 to June 13, respond with: "The rate for 1 month (30 nights) is AED 5,000 for this unit."
   (Learned from Faysal handling Rana re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-signature-hotel-apartments-spa-marina-78183877.html)
+
+## Learned (2026-05-07)
+- If a lead responds with "2", reply: "We can provide a yearly holiday homes contract."
+  (Learned from Faysal handling Mohammad re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
