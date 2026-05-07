@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-07T18:46:13.600Z",
+  "ts": "2026-05-07T18:46:36.998Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248710281",
+    "type": "INBOUND",
+    "message_id": "4248710497",
     "ticket_id": "948924177",
-    "message": "The Grande 2BR is available now at AED 11,000/month, all-inclusive. Would you like to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "May I know which floor? Is high floor?",
+    "channel_id": "1304636",
     "contact_id": "537789029",
     "contact_name": "Jocelyn",
     "contact_identifier": "+971502278356",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
