@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-07T10:04:51.515Z",
+  "ts": "2026-05-07T10:05:01.723Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248227917",
-    "ticket_id": "948441301",
-    "message": "Alright, that works for me",
+    "type": "OUTBOUND",
+    "message_id": "4248228135",
+    "ticket_id": "948780759",
+    "message": "Great, we'll see you there! The address is Elite Business Bay Residence, Business Bay, head up and the team will be expecting you.\n\nWait, that has an em dash. Let me correct:\n\n\nGreat, we'll see you there! The address is Elite Business Bay Residence, Business Bay. The team is expecting you. Could you send a photo of your passport or Emirates ID so we can arrange building access?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537732309",
+    "contact_name": "Maleeha Hameed",
+    "contact_identifier": "+971522958566",
     "channel_id": "1304636",
-    "contact_id": "537657215",
-    "contact_name": "Emilia",
-    "contact_identifier": "+971557689270",
-    "parent_message_id": "4248227373",
-    "parent_ticket_id": "948441301",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
