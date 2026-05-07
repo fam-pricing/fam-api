@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T15:18:56.903Z",
+  "ts": "2026-05-07T15:19:31.482Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248567344",
+    "type": "OUTBOUND",
+    "message_id": "4248567829",
     "ticket_id": "948885207",
-    "message": "I  would like to know the process",
-    "channel_id": "1304636",
+    "message": "Here's how it works: once you share a copy of your ID or passport and your email, we'll send you a payment link via Noon to lock in the reservation. What date are you looking to move in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537774255",
     "contact_name": "DEV",
     "contact_identifier": "+971545077573",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
