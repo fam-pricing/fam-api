@@ -774,3 +774,7 @@ Please note that the quoted rate applies to the initial 3-month period only. Bey
 ## Learned (2026-05-07)
 - If a lead mentions they are in Business Bay and wants to view the property, inform them that a viewing must be arranged in advance — reception will not grant access without an email confirmation sent prior to their arrival.
   (Learned from Faysal handling Wealth💵 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-05-07)
+- If a lead requests a stay from May 14 to June 13, respond with: "The rate for 1 month (30 nights) is AED 5,000 for this unit."
+  (Learned from Faysal handling Rana re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-signature-hotel-apartments-spa-marina-78183877.html)
