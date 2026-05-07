@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T10:43:50.119Z",
+  "ts": "2026-05-07T10:44:15.217Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248267892",
+    "type": "OUTBOUND",
+    "message_id": "4248268280",
     "ticket_id": "948812066",
-    "message": "Which one is closer to metro?",
-    "channel_id": "1304636",
+    "message": "Both are in Business Bay, right by the Business Bay Metro Station on the Red Line, so neither is a long walk. Which works better for you to view on Saturday?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537744550",
     "contact_name": "Sarah Ansari",
     "contact_identifier": "+971563612050",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
