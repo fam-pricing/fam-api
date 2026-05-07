@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-07T20:42:11.173Z",
+  "ts": "2026-05-07T20:43:52.197Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248762188",
+    "type": "INBOUND",
+    "message_id": "4248762665",
     "ticket_id": "948938285",
-    "message": "Month-to-month works perfectly, and the unit is available for both dates. To get things moving, could you send over a copy of your passport and your email address?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes I will before can I have the price and know what is the final price?",
+    "channel_id": "1304636",
     "contact_id": "537793990",
     "contact_name": "STN",
     "contact_identifier": "+79015817252",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4248762188",
+    "parent_ticket_id": "948938285",
+    "event_type": "INBOUND"
   }
 }
