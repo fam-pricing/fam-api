@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T07:56:33.364Z",
+  "ts": "2026-05-07T07:57:00.803Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248081947",
+    "type": "OUTBOUND",
+    "message_id": "4248082471",
     "ticket_id": "948745689",
-    "message": "May I know if there is deposit required?",
-    "channel_id": "1304636",
+    "message": "The deposit is refundable and returned within 14 working days after check-out. To secure the unit, the first and last month's rent would be needed upfront. Does that work for you, Mia?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537722578",
     "contact_name": "MIA LACQERAN",
     "contact_identifier": "+971585563955",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
