@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T21:08:11.587Z",
+  "ts": "2026-05-07T21:08:38.295Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248770485",
+    "type": "OUTBOUND",
+    "message_id": "4248770585",
     "ticket_id": "948938285",
-    "message": "We will tell you after seeing the appartement on Saturday",
-    "channel_id": "1304636",
+    "message": "Saturday viewing sounds good. The deposit is AED 2,000 refundable, so your total to start is AED 7,500, then AED 5,500 each month after. What time works best for you on Saturday?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537793990",
     "contact_name": "STN",
     "contact_identifier": "+79015817252",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
