@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-07T09:01:59.011Z",
+  "ts": "2026-05-07T09:02:12.680Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248155349",
+    "type": "INBOUND",
+    "message_id": "4248155640",
     "ticket_id": "948780759",
-    "message": "The address is Elite Business Bay Residence, Business Bay, Dubai. See you at 2pm!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "537732309",
     "contact_name": "Maleeha Hameed",
     "contact_identifier": "+971522958566",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4248155349",
+    "parent_ticket_id": "948780759",
+    "event_type": "INBOUND"
   }
 }
