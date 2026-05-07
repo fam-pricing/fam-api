@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T14:41:49.786Z",
+  "ts": "2026-05-07T14:45:28.614Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248530202",
-    "ticket_id": "948878324",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html\n\nHow can I help you today?\nI saw this one",
-    "channel_id": "1304636",
+    "type": "OUTBOUND",
+    "message_id": "4248534683",
+    "ticket_id": "948879450",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536284001",
-    "contact_name": "Zahra Abas",
+    "contact_name": "Rs Mlk",
     "contact_identifier": "+971581451699",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
