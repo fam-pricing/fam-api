@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T05:49:18.502Z",
+  "ts": "2026-05-07T05:49:56.242Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4247973608",
-    "ticket_id": "948652024",
-    "message": "Is it possible for us to visit this apartment? \nAnd if we can stay for 1 year or beyond? Will the payment be the same? \nAnd also can you send me the initial payment breakdown",
+    "type": "OUTBOUND",
+    "message_id": "4247973823",
+    "ticket_id": "948242878",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537607776",
+    "contact_name": "SHEYDA",
+    "contact_identifier": "+971502809008",
     "channel_id": "1304636",
-    "contact_id": "537709601",
-    "contact_name": "Tanzil Khalif",
-    "contact_identifier": "+971568612759",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
