@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-07T06:17:45.277Z",
+  "ts": "2026-05-07T06:19:38.296Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4247989552",
+    "type": "INBOUND",
+    "message_id": "4247990672",
     "ticket_id": "947579657",
-    "message": "Regarding the high chair we will check availability with the team if possible they will provide",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "537076491",
     "contact_name": "VIKTORIIA",
     "contact_identifier": "+79138287704",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4247989552",
+    "parent_ticket_id": "947579657",
+    "event_type": "INBOUND"
   }
 }
