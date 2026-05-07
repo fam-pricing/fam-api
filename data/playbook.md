@@ -796,3 +796,7 @@ Please note that the quoted rate applies to the initial 3-month period only. Bey
 
 The yearly price for Elite is 160,000 AED (13,333.33 AED per month), inclusive of all bills and taxes. The first and last months are required to be paid in advance.
   (Learned from Faysal handling Maleeha Hameed re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-07)
+- If a lead references a listed price (e.g., "This one is listed at 5,500"), clarify that the listed price applies to the current month only.
+  (Learned from Faysal handling Maleeha Hameed re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
