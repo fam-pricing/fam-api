@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T12:24:39.539Z",
+  "ts": "2026-05-07T12:24:46.483Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248375752",
-    "ticket_id": "948510574",
-    "message": "This should have been checked before giving apartment",
+    "type": "OUTBOUND",
+    "message_id": "4248375881",
+    "ticket_id": "948813232",
+    "message": "unfortunately not possible maximum is 3 months",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537509732",
+    "contact_name": "Sunil Roy",
+    "contact_identifier": "+971506538442",
     "channel_id": "1304636",
-    "contact_id": "537401735",
-    "contact_name": "Rahul Vinay S",
-    "contact_identifier": "+971547997976",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
