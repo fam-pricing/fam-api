@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T10:43:01.170Z",
+  "ts": "2026-05-07T10:43:29.658Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248267154",
+    "type": "OUTBOUND",
+    "message_id": "4248267572",
     "ticket_id": "948812066",
-    "message": "Is this your direct contact?",
-    "channel_id": "1304636",
+    "message": "Yes, you can reach us directly here. We have the 2BR at Elite Business Bay and a 1BR at Urban Oasis, both worth a look on Saturday. Just confirm your timing tomorrow and we'll get it locked in.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537744550",
     "contact_name": "Sarah Ansari",
     "contact_identifier": "+971563612050",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
