@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T13:08:48.437Z",
+  "ts": "2026-05-07T13:09:02.427Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248425540",
+    "type": "OUTBOUND",
+    "message_id": "4248425887",
     "ticket_id": "948851638",
-    "message": "Apartment",
-    "channel_id": "1304636",
+    "message": "Let me get someone from the team to help you right away.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537760402",
     "contact_name": "yassmeenelshreef",
     "contact_identifier": "+201000304200",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
