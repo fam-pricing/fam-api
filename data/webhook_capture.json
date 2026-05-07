@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T06:48:13.952Z",
+  "ts": "2026-05-07T06:48:38.449Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248014388",
-    "ticket_id": "948274980",
-    "message": "I am ready to book 😀",
+    "type": "OUTBOUND",
+    "message_id": "4248014673",
+    "ticket_id": "948581587",
+    "message": "Rate will be 6,500 AED For 30 nights and we have deposit of 2000 AED as well",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "517133277",
+    "contact_name": "Aleksandr",
+    "contact_identifier": "+971588551816",
     "channel_id": "1304636",
-    "contact_id": "536193516",
-    "contact_name": "Hajer Trimeche",
-    "contact_identifier": "+971551761082",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
