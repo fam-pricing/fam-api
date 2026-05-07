@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T14:12:57.699Z",
+  "ts": "2026-05-07T14:13:03.050Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248497818",
+    "type": "OUTBOUND",
+    "message_id": "4248497905",
     "ticket_id": "948870592",
-    "message": "This is monthly?",
-    "channel_id": "1304636",
+    "message": "Just to clarify, are you looking to rent this apartment for yourself, or enquiring on behalf of a client?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537767817",
     "contact_name": "Neda",
     "contact_identifier": "+96892436842",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
