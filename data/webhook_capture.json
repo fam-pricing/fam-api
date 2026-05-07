@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-07T14:52:43.866Z",
+  "ts": "2026-05-07T14:53:03.740Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248542589",
+    "type": "OUTBOUND",
+    "message_id": "4248542975",
     "ticket_id": "948879450",
-    "message": "?",
-    "channel_id": "1304636",
+    "message": "What were you looking to find out about it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536284001",
     "contact_name": "Rs Mlk",
     "contact_identifier": "+971581451699",
-    "parent_message_id": "4248534683",
-    "parent_ticket_id": "948879450",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
