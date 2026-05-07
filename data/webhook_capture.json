@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T10:58:18.640Z",
+  "ts": "2026-05-07T10:58:39.031Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248282344",
+    "type": "OUTBOUND",
+    "message_id": "4248282667",
     "ticket_id": "948817144",
-    "message": "Within this week",
-    "channel_id": "1304636",
+    "message": "Perfect, we can get you moved in this week. What day works best for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537746971",
     "contact_name": "Zeeshan Haider",
     "contact_identifier": "+971547215556",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
