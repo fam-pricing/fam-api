@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-07T20:47:28.582Z",
+  "ts": "2026-05-07T20:47:41.732Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248763899",
+    "type": "INBOUND",
+    "message_id": "4248763954",
     "ticket_id": "948938285",
-    "message": "The deposit is AED 2,000, held as security and returned within 14 working days after check-out, so it does come back to you. Move-in would be AED 5,500 for the first month plus the AED 2,000 deposit. Does May 14 or 16 work better for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "So why to pay now ?",
+    "channel_id": "1304636",
     "contact_id": "537793990",
     "contact_name": "STN",
     "contact_identifier": "+79015817252",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4248763883",
+    "parent_ticket_id": "948938285",
+    "event_type": "INBOUND"
   }
 }
