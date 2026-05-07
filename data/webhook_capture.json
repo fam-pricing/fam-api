@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-07T20:56:46.939Z",
+  "ts": "2026-05-07T20:57:23.175Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248767001",
+    "type": "OUTBOUND",
+    "message_id": "4248767222",
     "ticket_id": "948938285",
-    "message": "About the deposit we will discuss about but rent monthly it’s okey for the price",
-    "channel_id": "1304636",
+    "message": "The deposit is just a refundable hold, not an extra charge, you get it straight back after check-out.\n\nSo next week it's AED 7,500 to move in (first month + deposit), then AED 5,500 each month after that.\n\nWhat date were you thinking for move-in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537793990",
     "contact_name": "STN",
     "contact_identifier": "+79015817252",
-    "parent_message_id": "4248766340",
-    "parent_ticket_id": "948938285",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
