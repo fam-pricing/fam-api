@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T09:47:16.603Z",
+  "ts": "2026-05-07T09:47:45.217Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248206007",
+    "type": "OUTBOUND",
+    "message_id": "4248206520",
     "ticket_id": "948793766",
-    "message": "Can we pay just one month upfront and a deposit ?",
-    "channel_id": "1304636",
+    "message": "To secure it we need the first and last month upfront plus a refundable damage deposit of AED 2,000, so AED 17,000 all in before the deposit. Can one month upfront work for you, or is the two-month structure a sticking point?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537737531",
     "contact_name": "Zaineb Deen",
     "contact_identifier": "+971505142182",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
