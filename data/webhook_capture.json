@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-07T13:26:38.101Z",
+  "ts": "2026-05-07T13:26:40.409Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248446788",
+    "type": "OUTBOUND",
+    "message_id": "4248446882",
     "ticket_id": "948859135",
-    "message": "hi",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "537763110",
     "contact_name": "Mouza Ahmed",
     "contact_identifier": "ba052b20-47f6-4ef2-30e0-b0eaaccf5c48",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
