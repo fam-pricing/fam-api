@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T15:20:38.101Z",
+  "ts": "2026-05-07T15:21:04.374Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248568809",
+    "type": "OUTBOUND",
+    "message_id": "4248569165",
     "ticket_id": "948885207",
-    "message": "The price is 6600 aed right",
-    "channel_id": "1304636",
+    "message": "Yes, AED 6,600/month all-inclusive. Just send over your ID or passport and email and we'll get the payment link across to you via Noon. Does the 14th still work for your move-in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537774255",
     "contact_name": "DEV",
     "contact_identifier": "+971545077573",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
