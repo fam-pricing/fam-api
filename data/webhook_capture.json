@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T13:33:21.023Z",
+  "ts": "2026-05-07T13:33:33.749Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248454499",
+    "type": "OUTBOUND",
+    "message_id": "4248454778",
     "ticket_id": "948860265",
-    "message": "hi",
-    "channel_id": "585723",
+    "message": "In City Walk, we are currently fully booked and unfortunately do not have any apartments available for your preferred dates in this location.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "255670888",
     "contact_name": "Mouza Almazrouei",
     "contact_identifier": "+971503330733",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
