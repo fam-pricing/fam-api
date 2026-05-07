@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T19:57:55.820Z",
+  "ts": "2026-05-07T19:58:20.574Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248745419",
+    "type": "OUTBOUND",
+    "message_id": "4248745592",
     "ticket_id": "948932992",
-    "message": "Deposit …..",
-    "channel_id": "1304636",
+    "message": "The deposit is AED 2,000, fully refundable within 14 working days after check-out. For 6 months, it's first and last month upfront, then monthly after that. Want to come take a look?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537792157",
     "contact_name": "Nadjet Kenniche",
     "contact_identifier": "+971558448820",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
