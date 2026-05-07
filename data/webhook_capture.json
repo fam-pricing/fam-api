@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T23:26:08.652Z",
+  "ts": "2026-05-07T23:26:35.706Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248802413",
+    "type": "OUTBOUND",
+    "message_id": "4248802576",
     "ticket_id": "948952058",
-    "message": "hello\nis is available yearly?",
-    "channel_id": "1304636",
+    "message": "Yes, it's available on a long-stay basis. Rates are confirmed in 3-month blocks, so there's no single fixed yearly price, but you can absolutely stay longer than that. What date are you looking to move in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537798620",
     "contact_name": "nour",
     "contact_identifier": "+971529552534",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
