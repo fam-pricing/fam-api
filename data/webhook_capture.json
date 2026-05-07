@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-07T12:24:25.795Z",
+  "ts": "2026-05-07T12:24:39.539Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248375509",
-    "ticket_id": "885187454",
-    "message": "unfortunately we can't do anything you have to clear the pending payment in full",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "478665350",
-    "contact_name": "Mrs Sahar Zaarour",
-    "contact_identifier": "+971528500671",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4248375752",
+    "ticket_id": "948510574",
+    "message": "This should have been checked before giving apartment",
+    "channel_id": "1304636",
+    "contact_id": "537401735",
+    "contact_name": "Rahul Vinay S",
+    "contact_identifier": "+971547997976",
+    "event_type": "INBOUND"
   }
 }
