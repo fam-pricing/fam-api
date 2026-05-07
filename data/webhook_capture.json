@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-07T20:53:30.353Z",
+  "ts": "2026-05-07T20:54:49.825Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248765840",
+    "type": "INBOUND",
+    "message_id": "4248766224",
     "ticket_id": "948938285",
-    "message": "Saturday the 14th works. First month is AED 5,500 plus a AED 2,000 refundable deposit, so AED 7,500 to move in, then AED 5,500 each month after that. Want to go ahead?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "About the deposit we will discuss about but rent monthly it’s okey for the price",
+    "channel_id": "1304636",
     "contact_id": "537793990",
     "contact_name": "STN",
     "contact_identifier": "+79015817252",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4248765840",
+    "parent_ticket_id": "948938285",
+    "event_type": "INBOUND"
   }
 }
