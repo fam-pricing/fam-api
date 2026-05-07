@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T13:16:48.268Z",
+  "ts": "2026-05-07T13:17:08.065Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248434438",
-    "ticket_id": "948856369",
-    "message": "Hey, should I pay the rent for this month to the same account number or you will give me the new one?",
+    "type": "OUTBOUND",
+    "message_id": "4248434812",
+    "ticket_id": "948841694",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537757072",
+    "contact_name": "Ebru",
+    "contact_identifier": "+905375983424",
     "channel_id": "1304636",
-    "contact_id": "535634432",
-    "contact_name": "Raha",
-    "contact_identifier": "+971566081840",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
