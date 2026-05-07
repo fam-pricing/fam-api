@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-07T11:24:37.517Z",
+  "ts": "2026-05-07T11:25:17.547Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248310767",
+    "type": "INBOUND",
+    "message_id": "4248311483",
     "ticket_id": "948780759",
-    "message": "yearly price for elite will be 160,000 AED / 13,333.33 AED per month\r\nincluding all bills and taxes\r\nfirst and last month to be paid in advance",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "This one is listed at 5500",
+    "channel_id": "1304636",
     "contact_id": "537732309",
     "contact_name": "Maleeha Hameed",
     "contact_identifier": "+971522958566",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4248142010",
+    "parent_ticket_id": "948780759",
+    "event_type": "INBOUND"
   }
 }
