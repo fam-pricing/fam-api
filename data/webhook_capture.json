@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-07T22:06:57.273Z",
+  "ts": "2026-05-07T22:07:28.351Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248786542",
+    "type": "OUTBOUND",
+    "message_id": "4248786645",
     "ticket_id": "948938285",
-    "message": "Before 12",
-    "channel_id": "1304636",
+    "message": "Saturday before 12 works. To get you set up for building access, could you send a photo of your passport or Emirates ID?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537793990",
     "contact_name": "STN",
     "contact_identifier": "+79015817252",
-    "parent_message_id": "4248770585",
-    "parent_ticket_id": "948938285",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
