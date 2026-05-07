@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-07T13:29:23.780Z",
+  "ts": "2026-05-07T13:29:46.186Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248449971",
+    "type": "OUTBOUND",
+    "message_id": "4248450348",
     "ticket_id": "948857269",
-    "message": "I think 3pm is better",
-    "channel_id": "1304636",
+    "message": "3pm works. See you then! To confirm your spot, could you send a photo of your passport or Emirates ID?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537762355",
     "contact_name": ".",
     "contact_identifier": "+971568970688",
-    "parent_message_id": "4248449078",
-    "parent_ticket_id": "948857269",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
