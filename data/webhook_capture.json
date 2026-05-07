@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T01:41:00.610Z",
+  "ts": "2026-05-07T01:41:27.766Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4247903004",
+    "type": "OUTBOUND",
+    "message_id": "4247903053",
     "ticket_id": "948689269",
-    "message": "Aftoonon . I am closed by just 2 minutes away",
-    "channel_id": "1304636",
+    "message": "Here's what you need to move in:\n\nFirst month: AED 6,600\nLast month: AED 6,600\nRefundable deposit: AED 2,000\nTotal: AED 15,200\n\nYou mentioned you're just 2 minutes away, want to head over now for a quick look?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537715347",
     "contact_name": "Robert Cosman",
     "contact_identifier": "+971562805447",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
