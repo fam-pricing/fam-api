@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T18:27:38.738Z",
+  "ts": "2026-05-07T18:28:10.945Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248700373",
+    "type": "OUTBOUND",
+    "message_id": "4248700635",
     "ticket_id": "948921289",
-    "message": "Hey I viewed this unit today - can you give me a full breakdown of all fees to rent 8th May - 8th September",
-    "channel_id": "1304636",
+    "message": "Rent for 8 May to 8 September works out to AED 18,000 total. Worth knowing that rates are priced in 3-month blocks, so the 4th month would be confirmed separately closer to that date. Would you like to know more about the deposit or move-in process?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537788056",
     "contact_name": "HB",
     "contact_identifier": "+447734716584",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
