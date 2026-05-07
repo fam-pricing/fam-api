@@ -786,3 +786,7 @@ Please note that the quoted rate applies to the initial 3-month period only. Bey
 ## Learned (2026-05-07)
 - If a lead books 3 nights at AED 5,500 per night (total AED 16,500), inform them that the security deposit will be AED 5,000.
   (Learned from Faysal handling Mohammad re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
+
+## Learned (2026-05-07)
+- When a lead mentions needing to consult their partner before deciding, redirect the conversation back to the booking terms without engaging with the personal dynamic. Clarify that the available options are month-to-month, or a full-period booking which requires two months' payment in advance plus the deposit, as previously outlined.
+  (Learned from Faysal handling Zaineb Deen re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
