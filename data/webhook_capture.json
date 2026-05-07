@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T09:36:29.055Z",
+  "ts": "2026-05-07T09:36:41.905Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248193693",
-    "ticket_id": "948793766",
-    "message": "Hi what's the maximum time we can stay here",
+    "type": "OUTBOUND",
+    "message_id": "4248193914",
+    "ticket_id": "948441301",
+    "message": "Please note that you need to be there between 5:00 PM and 6:00 PM, not exactly at 6:00 PM, especially if you are making a cash payment.\r\n\r\nAlternatively, we can also share the bank details so you may complete the transfer at any time. In that case, we can arrange a self check-in for your convenience.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537657215",
+    "contact_name": "Emilia",
+    "contact_identifier": "+971557689270",
     "channel_id": "1304636",
-    "contact_id": "537737531",
-    "contact_name": "Zaineb Deen",
-    "contact_identifier": "+971505142182",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
