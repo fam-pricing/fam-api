@@ -790,3 +790,9 @@ Please note that the quoted rate applies to the initial 3-month period only. Bey
 ## Learned (2026-05-07)
 - When a lead mentions needing to consult their partner before deciding, redirect the conversation back to the booking terms without engaging with the personal dynamic. Clarify that the available options are month-to-month, or a full-period booking which requires two months' payment in advance plus the deposit, as previously outlined.
   (Learned from Faysal handling Zaineb Deen re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
+
+## Learned (2026-05-07)
+- When a lead asks for an explanation of the Elite package, respond with the following:
+
+The yearly price for Elite is 160,000 AED (13,333.33 AED per month), inclusive of all bills and taxes. The first and last months are required to be paid in advance.
+  (Learned from Faysal handling Maleeha Hameed re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
