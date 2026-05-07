@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-07T10:56:24.015Z",
+  "ts": "2026-05-07T10:56:45.611Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248280392",
+    "type": "INBOUND",
+    "message_id": "4248280742",
     "ticket_id": "948812118",
-    "message": "What are you looking for in a property, move-in date, number of bedrooms, anything like that?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello, good afternoon. I’m interested in the apartment, however I would like to better understand how the rental process works. I would like to know if it is possible to rent using only my passport and also if any security deposit is required. Could you please explain it to me?",
+    "channel_id": "1304636",
     "contact_id": "537744562",
     "contact_name": "Cboss",
     "contact_identifier": "+971528459492",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
