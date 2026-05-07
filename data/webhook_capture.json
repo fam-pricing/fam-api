@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-07T19:13:26.308Z",
+  "ts": "2026-05-07T19:13:58.635Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248723980",
+    "type": "OUTBOUND",
+    "message_id": "4248724226",
     "ticket_id": "948921289",
-    "message": "Hi I’ve been offered this apartment for 4500 AED for 4 months move in tomorrow!",
-    "channel_id": "1304636",
+    "message": "Here's the full breakdown for 8 May to 8 September:\n\nRent: AED 4,500/month x 3 months = AED 13,500\nSecurity deposit: AED 1,000 (refundable within 14 working days after check-out)\nUpfront to secure: AED 9,000 (first + last month)\n\nVAT, water, electricity and internet are all included. Does that work for your budget, or do you have any questions before deciding?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537788056",
     "contact_name": "HB",
     "contact_identifier": "+447734716584",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
