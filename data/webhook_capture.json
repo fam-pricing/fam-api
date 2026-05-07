@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-07T08:48:05.908Z",
+  "ts": "2026-05-07T08:48:20.566Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248139500",
+    "type": "INBOUND",
+    "message_id": "4248139714",
     "ticket_id": "948581587",
-    "message": "Rate of AED 6,500 that we have shared can be offered to you for a period of 3 months, Aleksandr.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "🙏🏼",
+    "channel_id": "1304636",
     "contact_id": "517133277",
     "contact_name": "Aleksandr",
     "contact_identifier": "+971588551816",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4248139500",
+    "parent_ticket_id": "948581587",
+    "event_type": "INBOUND"
   }
 }
