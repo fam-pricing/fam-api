@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T10:54:39.056Z",
+  "ts": "2026-05-08T10:54:51.509Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249195516",
-    "ticket_id": "949079182",
-    "message": "That’s fine\nWe need it in downtown views 2",
+    "type": "OUTBOUND",
+    "message_id": "4249195669",
+    "ticket_id": "949031449",
+    "message": "Yes, the rent is charged monthly. What dates are you thinking of moving in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537807516",
+    "contact_name": "Asif",
+    "contact_identifier": "+971502580329",
     "channel_id": "1304636",
-    "contact_id": "537817977",
-    "contact_name": "Kanika",
-    "contact_identifier": "+919051525237",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
