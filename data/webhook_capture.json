@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T07:06:27.338Z",
+  "ts": "2026-05-08T07:06:34.278Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248954872",
-    "ticket_id": "948928305",
-    "message": "Who should I contact upon arrival??",
-    "channel_id": "1304636",
-    "contact_id": "537790481",
-    "contact_name": "Akshay N",
-    "contact_identifier": "+971507821911",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4248954969",
+    "ticket_id": "949031857",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "467308730",
+    "contact_name": "Ms Yuliia Zinchenko",
+    "contact_identifier": "+971547920167",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
