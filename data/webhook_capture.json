@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-08T11:23:07.413Z",
+  "ts": "2026-05-08T11:23:23.423Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249224499",
+    "type": "INBOUND",
+    "message_id": "4249224762",
     "ticket_id": "949116656",
-    "message": "The deposit is AED 1,000, fully refundable within 14 working days after check-out. Would you like to come see the place before committing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is it near a metro station",
+    "channel_id": "1304636",
     "contact_id": "537827410",
     "contact_name": "razan",
     "contact_identifier": "+971507328690",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
