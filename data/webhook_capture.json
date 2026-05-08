@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T19:30:17.908Z",
+  "ts": "2026-05-08T19:30:48.183Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249618826",
+    "type": "OUTBOUND",
+    "message_id": "4249619028",
     "ticket_id": "949235113",
-    "message": "What is the commission and deposit? I will pay monthly.",
-    "channel_id": "1304636",
+    "message": "No commission. To secure the unit it's first and last month's rent upfront, plus a refundable AED 2,000 security deposit returned within 14 working days after check-out. Would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537858947",
     "contact_name": "Fay G",
     "contact_identifier": "+971505908299",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
