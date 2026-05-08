@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T07:02:00.614Z",
+  "ts": "2026-05-08T07:02:21.411Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248950252",
-    "ticket_id": "949029760",
-    "message": "Hi what is the rent for thia property?",
+    "type": "OUTBOUND",
+    "message_id": "4248950495",
+    "ticket_id": "949023033",
+    "message": "we can give 3 months contract",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537689386",
+    "contact_name": "Mayada Ismail",
+    "contact_identifier": "+971525089326",
     "channel_id": "1304636",
-    "contact_id": "537807516",
-    "contact_name": "Asif",
-    "contact_identifier": "+971502580329",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
