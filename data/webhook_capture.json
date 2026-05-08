@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T18:48:01.515Z",
+  "ts": "2026-05-08T18:48:13.414Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249597030",
+    "type": "OUTBOUND",
+    "message_id": "4249597122",
     "ticket_id": "949232566",
-    "message": "Tell me fist about payment",
-    "channel_id": "1304636",
+    "message": "No worries, viewings are any day between 9am and 6pm. What day works for you, Amir?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537616260",
     "contact_name": "Amir",
     "contact_identifier": "+971545145363",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
