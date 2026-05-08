@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T00:31:03.359Z",
+  "ts": "2026-05-08T00:31:34.328Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248818039",
+    "type": "OUTBOUND",
+    "message_id": "4248818080",
     "ticket_id": "948961092",
-    "message": "Does the rental fee is changing constantly?",
-    "channel_id": "1304636",
+    "message": "The rate is locked in 3-month blocks, then reviewed based on market conditions, so there's no single fixed yearly rate. That said, plenty of people stay long-term and just renew each time.\n\nWhich matters more to you, a higher floor with a view or are you flexible on that?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537799416",
     "contact_name": "Eliana Toapanta Alban",
     "contact_identifier": "+971501149950",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
