@@ -862,3 +862,7 @@ We will then send you a payment link to secure your reservation."
 ## Learned (2026-05-08)
 - If a lead asks about the deposit, respond: "The deposit is AED 3,000."
   (Learned from Faysal handling Florinda Lopes re PF-HH-AR-134391)
+
+## Learned (2026-05-08)
+- When a lead asks about the deposit, explain that it will be fully refunded within 14 working days after check-out, subject to a property inspection, and that the refund will be processed via credit card or bank transfer. 🔹
+  (Learned from Faysal handling Florinda Lopes re PF-HH-AR-134391)
