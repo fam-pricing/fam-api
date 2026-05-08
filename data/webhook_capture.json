@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T03:52:48.248Z",
+  "ts": "2026-05-08T03:53:15.417Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248866945",
+    "type": "OUTBOUND",
+    "message_id": "4248866991",
     "ticket_id": "948990919",
-    "message": "Hello yes please I need to check what is the rent on yearly basis",
-    "channel_id": "1304636",
+    "message": "The yearly equivalent works out to AED 160,000, though we confirm pricing in 3-month blocks rather than a full-year lock-in since rates move with the market. Would you like to know what's included in the rate?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537801759",
     "contact_name": "Ilda",
     "contact_identifier": "+971525360173",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
