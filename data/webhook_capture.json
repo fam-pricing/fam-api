@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T10:55:48.129Z",
+  "ts": "2026-05-08T10:56:08.238Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249196561",
+    "type": "OUTBOUND",
+    "message_id": "4249196880",
     "ticket_id": "949031449",
-    "message": "Most probably 25th May",
-    "channel_id": "1304636",
+    "message": "May 25 sounds good. Would you like to come see the place before then?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537807516",
     "contact_name": "Asif",
     "contact_identifier": "+971502580329",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
