@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-08T07:21:13.478Z",
+  "ts": "2026-05-08T07:21:28.632Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248970434",
+    "type": "INBOUND",
+    "message_id": "4248970720",
     "ticket_id": "949029554",
-    "message": "because our apartments are furnished",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "So?",
+    "channel_id": "1304636",
     "contact_id": "537807454",
     "contact_name": "Reem Yasin",
     "contact_identifier": "+971552499443",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4248970434",
+    "parent_ticket_id": "949029554",
+    "event_type": "INBOUND"
   }
 }
