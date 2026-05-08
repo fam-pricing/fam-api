@@ -823,3 +823,7 @@ We will then send you a payment link to complete your reservation."
 ## Learned (2026-05-08)
 - If a lead assumes the property is rented on a monthly or long-term lease basis and requests a 1-year contract, clarify that the property operates as a holiday home and provide the annual rate: 160,000 AED for 12 months, inclusive of all bills and taxes.
   (Learned from Faysal handling PP❤️ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-08)
+- If a lead asks how long the price is available for, reply: "We can guarantee the same price for 3 months."
+  (Learned from Faysal handling SARATH 😇 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
