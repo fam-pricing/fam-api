@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-08T06:35:22.609Z",
+  "ts": "2026-05-08T06:36:33.791Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248930972",
+    "type": "INBOUND",
+    "message_id": "4248931770",
     "ticket_id": "949023033",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-signature-hotel-apartments-spa-marina-78186662.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello Will this be available for 6 month contract",
+    "channel_id": "1304636",
     "contact_id": "537689386",
     "contact_name": "Mayada Ismail",
     "contact_identifier": "+971525089326",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4248930972",
+    "parent_ticket_id": "949023033",
+    "event_type": "INBOUND"
   }
 }
