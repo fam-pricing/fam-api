@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-08T10:02:04.406Z",
+  "ts": "2026-05-08T10:02:18.770Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249143911",
-    "ticket_id": "949094472",
-    "message": "Our standard check-in time is at 3 pm.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537821731",
-    "contact_name": "Maryam Alshehhi",
-    "contact_identifier": "+971544590790",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4249144162",
+    "ticket_id": "948924177",
+    "message": "Is the price AED 11000?",
+    "channel_id": "1304636",
+    "contact_id": "537789029",
+    "contact_name": "Jocelyn",
+    "contact_identifier": "+971502278356",
+    "event_type": "INBOUND"
   }
 }
