@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-08T10:39:25.288Z",
+  "ts": "2026-05-08T10:43:56.438Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249181820",
-    "ticket_id": "949096358",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: PF-HH-AR-134391 How can I help you today?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537822306",
-    "contact_name": "Florinda Lopes",
-    "contact_identifier": "+351915273393",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4249185819",
+    "ticket_id": "947579657",
+    "message": "The internet is not working in the master bedroom",
+    "channel_id": "585723",
+    "contact_id": "537076491",
+    "contact_name": "VIKTORIIA",
+    "contact_identifier": "+79138287704",
+    "event_type": "INBOUND"
   }
 }
