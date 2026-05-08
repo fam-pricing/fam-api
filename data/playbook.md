@@ -835,3 +835,14 @@ We will then send you a payment link to complete your reservation."
 ## Learned (2026-05-08)
 - If a lead requests a long-term stay of 4 to 6 months, inform them that we can only guarantee the quoted price for a 3-month period.
   (Learned from Faysal handling Robi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html)
+
+## Learned (2026-05-08)
+- When a lead provides a move-in date, respond with the following:
+
+"To confirm your booking, please send us:
+
+1. A copy of your ID or passport
+2. Your email address
+
+We will then send you a payment link to secure your reservation."
+  (Learned from Faysal handling Akshay N re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
