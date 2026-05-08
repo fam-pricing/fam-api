@@ -1,17 +1,19 @@
 {
-  "ts": "2026-05-08T08:46:19.277Z",
+  "ts": "2026-05-08T08:46:28.884Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249061064",
-    "ticket_id": "947579657",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "537076491",
-    "contact_name": "VIKTORIIA",
-    "contact_identifier": "+79138287704",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4249061293",
+    "ticket_id": "948938285",
+    "message": "👍",
+    "channel_id": "1304636",
+    "contact_id": "537793990",
+    "contact_name": "STN",
+    "contact_identifier": "+79015817252",
+    "parent_message_id": "4248957824",
+    "parent_ticket_id": "948938285",
+    "event_type": "INBOUND"
   }
 }
