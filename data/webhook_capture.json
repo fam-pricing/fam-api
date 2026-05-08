@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-08T07:24:31.130Z",
+  "ts": "2026-05-08T07:24:50.246Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4248974457",
+    "type": "INBOUND",
+    "message_id": "4248974808",
     "ticket_id": "948928305",
-    "message": "we have a security deposit of 3000 AED to be paid on the check-in and refunded upon check-out",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "That I have understood",
+    "channel_id": "1304636",
     "contact_id": "537790481",
     "contact_name": "Akshay N",
     "contact_identifier": "+971507821911",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4248974457",
+    "parent_ticket_id": "948928305",
+    "event_type": "INBOUND"
   }
 }
