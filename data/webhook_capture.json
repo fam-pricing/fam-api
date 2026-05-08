@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-08T11:19:13.898Z",
+  "ts": "2026-05-08T11:19:22.359Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249220773",
+    "type": "OUTBOUND",
+    "message_id": "4249220916",
     "ticket_id": "949116656",
-    "message": "Is 4500 the final price ? You don’t have any discounts or summer offers",
-    "channel_id": "1304636",
+    "message": "Sounds good, just let us know when you're free and we'll get it booked in. Any day between 9am and 6pm works. Is there a day this week or next that suits you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537827410",
     "contact_name": "razan",
     "contact_identifier": "+971507328690",
-    "parent_message_id": "4249219410",
-    "parent_ticket_id": "949116656",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
