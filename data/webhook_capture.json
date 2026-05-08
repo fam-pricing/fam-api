@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-08T13:02:52.197Z",
+  "ts": "2026-05-08T13:05:08.860Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249325034",
-    "ticket_id": "919953013",
-    "message": "no worries you are welcome",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "530553965",
-    "contact_name": "SALIM MAHROUCH",
-    "contact_identifier": "+447710877670",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4249327609",
+    "ticket_id": "949118141",
+    "message": "What time can I view it tomorrow please?",
+    "channel_id": "1304636",
+    "contact_id": "537827964",
+    "contact_name": "Pablo Benitez",
+    "contact_identifier": "+971503203035",
+    "parent_message_id": "4249290533",
+    "parent_ticket_id": "949118141",
+    "event_type": "INBOUND"
   }
 }
