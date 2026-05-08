@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T17:30:12.272Z",
+  "ts": "2026-05-08T17:30:36.929Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249554297",
+    "type": "OUTBOUND",
+    "message_id": "4249554541",
     "ticket_id": "949218207",
-    "message": "It shows 5500 per month !",
-    "channel_id": "1304636",
+    "message": "Tony, that 5,500/month is the short-term rate. On a 12-month contract it comes to AED 160,000 all-inclusive, so around 13,333/month. Want to arrange a viewing first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537855117",
     "contact_name": "Tony  Wa",
     "contact_identifier": "+971566040365",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
