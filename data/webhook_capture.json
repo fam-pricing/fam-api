@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T11:23:23.423Z",
+  "ts": "2026-05-08T11:23:58.132Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249224762",
+    "type": "OUTBOUND",
+    "message_id": "4249225304",
     "ticket_id": "949116656",
-    "message": "Is it near a metro station",
-    "channel_id": "1304636",
+    "message": "Business Bay Metro Station is about a 10-minute walk away on the Red Line. Want to come see it before committing, are you free this week?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537827410",
     "contact_name": "razan",
     "contact_identifier": "+971507328690",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
