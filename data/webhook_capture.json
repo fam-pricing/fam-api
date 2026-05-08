@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-08T04:49:31.215Z",
+  "ts": "2026-05-08T04:50:01.216Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248883507",
+    "type": "OUTBOUND",
+    "message_id": "4248883591",
     "ticket_id": "948995077",
-    "message": "For the 2BR can I know the full price details?",
-    "channel_id": "1304636",
+    "message": "The 2BR is AED 5,500/month all-inclusive. Since you're looking for a studio or 1BR, we have a studio in MAG 318 at AED 5,300/month and a 1BR in Urban Oasis at AED 5,500/month, both in Business Bay. Would you like to take a look at either of those?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537802319",
     "contact_name": "Fio",
     "contact_identifier": "+971521531175",
-    "parent_message_id": "4248874643",
-    "parent_ticket_id": "948995077",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
