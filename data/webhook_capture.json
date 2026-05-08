@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-08T15:17:00.789Z",
+  "ts": "2026-05-08T15:17:39.978Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249461738",
+    "type": "INBOUND",
+    "message_id": "4249462365",
     "ticket_id": "949028062",
-    "message": "Yes because you booked it under your name",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I updated it on booking.com",
+    "channel_id": "585723",
     "contact_id": "537807171",
     "contact_name": "Mandi Theron",
     "contact_identifier": "+27826800280",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
