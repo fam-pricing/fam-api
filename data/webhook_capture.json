@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T12:25:56.951Z",
+  "ts": "2026-05-08T12:27:42.062Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249287752",
+    "type": "OUTBOUND",
+    "message_id": "4249289324",
     "ticket_id": "949118141",
-    "message": "Hello?",
-    "channel_id": "1304636",
+    "message": "sure do allow me to check the monthly price for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537827964",
     "contact_name": "Pablo Benitez",
     "contact_identifier": "+971503203035",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
