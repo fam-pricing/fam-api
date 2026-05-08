@@ -854,3 +854,7 @@ We will then send you a payment link to secure your reservation."
 ## Learned (2026-05-08)
 - If a lead asks to pay the full amount upon arrival, inform them that a deposit is required upfront to secure the booking, and the remaining rent balance is due on arrival.
   (Learned from Faysal handling Akshay N re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-08)
+- When a lead responds with "sure," immediately reply: "This price can be locked in for 3 months only."
+  (Learned from Faysal handling B re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
