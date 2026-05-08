@@ -827,3 +827,7 @@ We will then send you a payment link to complete your reservation."
 ## Learned (2026-05-08)
 - If a lead asks how long the price is available for, reply: "We can guarantee the same price for 3 months."
   (Learned from Faysal handling SARATH 😇 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-08)
+- If a lead is looking for a longer stay (4–6 months), inform them that 2 months' payment is required in advance.
+  (Learned from Faysal handling Robi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html)
