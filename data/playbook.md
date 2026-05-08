@@ -846,3 +846,7 @@ We will then send you a payment link to complete your reservation."
 
 We will then send you a payment link to secure your reservation."
   (Learned from Faysal handling Akshay N re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-08)
+- When a lead asks to confirm that the price is all-inclusive with no additional charges, clarify that a refundable security deposit of 3,000 AED is required at check-in and will be fully refunded upon check-out.
+  (Learned from Faysal handling Akshay N re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
