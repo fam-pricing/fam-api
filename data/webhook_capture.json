@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-08T11:20:54.196Z",
+  "ts": "2026-05-08T11:21:14.693Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249222366",
+    "type": "OUTBOUND",
+    "message_id": "4249222667",
     "ticket_id": "949116656",
-    "message": "^",
-    "channel_id": "1304636",
+    "message": "Everything's included, no separate bills. Want to come take a look before deciding?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537827410",
     "contact_name": "razan",
     "contact_identifier": "+971507328690",
-    "parent_message_id": "4249220773",
-    "parent_ticket_id": "949116656",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
