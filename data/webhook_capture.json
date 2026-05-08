@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T07:59:30.160Z",
+  "ts": "2026-05-08T07:59:43.715Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249009820",
+    "type": "OUTBOUND",
+    "message_id": "4249010036",
     "ticket_id": "948995077",
-    "message": "May I know the details for other fees?",
-    "channel_id": "1304636",
+    "message": "Yes, the rate can be locked for 3 months, though it gets reviewed each time if you extend beyond that. Would that work for you, or would you prefer to lock in a longer period upfront?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537802319",
     "contact_name": "Fio",
     "contact_identifier": "+971521531175",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
