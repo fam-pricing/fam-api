@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-08T11:45:49.871Z",
+  "ts": "2026-05-08T11:48:41.333Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249248091",
-    "ticket_id": "949127369",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nPF-HH-AR-134391\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537830495",
-    "contact_name": "Nazario",
-    "contact_identifier": "+971585866535",
+    "type": "INBOUND",
+    "message_id": "4249250872",
+    "ticket_id": "949116656",
+    "message": "Is 4000/ month doable",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537827410",
+    "contact_name": "razan",
+    "contact_identifier": "+971507328690",
+    "event_type": "INBOUND"
   }
 }
