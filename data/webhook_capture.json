@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-08T18:57:17.789Z",
+  "ts": "2026-05-08T19:04:25.404Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249602013",
-    "ticket_id": "949235113",
-    "message": "What are you looking for in a rental, short-term stay or something longer-term?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537858947",
-    "contact_name": "Fay G",
-    "contact_identifier": "+971505908299",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4249605822",
+    "ticket_id": "949011403",
+    "message": "Hi\nWe'll arrive at 1 AM, please advise whether there's a self checking in",
+    "channel_id": "585723",
+    "contact_id": "537804364",
+    "contact_name": "abdulrahim alamoodi",
+    "contact_identifier": "+971509910799",
+    "event_type": "INBOUND"
   }
 }
