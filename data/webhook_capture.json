@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T00:27:12.896Z",
+  "ts": "2026-05-08T00:27:50.402Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4248816707",
+    "type": "OUTBOUND",
+    "message_id": "4248816763",
     "ticket_id": "948961092",
-    "message": "Hello I would like to know which floor and the conditions to rent per year",
-    "channel_id": "1304636",
+    "message": "That unit's no longer available, but we do have a 2BR in Elite Business Bay at AED 5,500/month all-inclusive. We work on monthly bookings rather than Ejari contracts, with rates locked in 3-month blocks. Would you like to see some photos of the unit?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537799416",
     "contact_name": "Eliana Toapanta Alban",
     "contact_identifier": "+971501149950",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
