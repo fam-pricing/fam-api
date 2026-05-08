@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-08T11:19:22.359Z",
+  "ts": "2026-05-08T11:19:58.159Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249220916",
+    "type": "INBOUND",
+    "message_id": "4249221448",
     "ticket_id": "949116656",
-    "message": "Sounds good, just let us know when you're free and we'll get it booked in. Any day between 9am and 6pm works. Is there a day this week or next that suits you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I’ll let you know when",
+    "channel_id": "1304636",
     "contact_id": "537827410",
     "contact_name": "razan",
     "contact_identifier": "+971507328690",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4249220916",
+    "parent_ticket_id": "949116656",
+    "event_type": "INBOUND"
   }
 }
