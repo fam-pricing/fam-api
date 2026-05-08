@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-08T11:19:58.159Z",
+  "ts": "2026-05-08T11:20:18.694Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249221448",
+    "type": "OUTBOUND",
+    "message_id": "4249221780",
     "ticket_id": "949116656",
-    "message": "I’ll let you know when",
-    "channel_id": "1304636",
+    "message": "Sounds good, Razan. Whenever you're ready to take a look, just say the word and we'll sort a time.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537827410",
     "contact_name": "razan",
     "contact_identifier": "+971507328690",
-    "parent_message_id": "4249220916",
-    "parent_ticket_id": "949116656",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
