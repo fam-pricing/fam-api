@@ -866,3 +866,7 @@ We will then send you a payment link to secure your reservation."
 ## Learned (2026-05-08)
 - When a lead asks about the deposit, explain that it will be fully refunded within 14 working days after check-out, subject to a property inspection, and that the refund will be processed via credit card or bank transfer. 🔹
   (Learned from Faysal handling Florinda Lopes re PF-HH-AR-134391)
+
+## Learned (2026-05-08)
+- If a lead questions the monthly rate — e.g., "What do you mean for the current month? It's not 5,500 every month?" — clarify that the quoted price of AED 5,500/month can be locked in for a maximum of 3 months only.
+  (Learned from Faysal handling PP❤️ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
