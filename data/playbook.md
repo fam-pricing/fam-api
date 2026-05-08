@@ -831,3 +831,7 @@ We will then send you a payment link to complete your reservation."
 ## Learned (2026-05-08)
 - If a lead is looking for a longer stay (4–6 months), inform them that 2 months' payment is required in advance.
   (Learned from Faysal handling Robi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html)
+
+## Learned (2026-05-08)
+- If a lead requests a long-term stay of 4 to 6 months, inform them that we can only guarantee the quoted price for a 3-month period.
+  (Learned from Faysal handling Robi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html)
