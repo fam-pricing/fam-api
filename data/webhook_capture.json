@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T20:43:56.619Z",
+  "ts": "2026-05-08T20:44:16.663Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249650868",
+    "type": "OUTBOUND",
+    "message_id": "4249651061",
     "ticket_id": "949253247",
-    "message": "Available ?",
-    "channel_id": "1304636",
+    "message": "Yes, it's available now. What's your planned move-in date?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537862900",
     "contact_name": "JT",
     "contact_identifier": "+971585827759",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
