@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T08:03:09.590Z",
+  "ts": "2026-05-08T08:03:34.966Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249014686",
+    "type": "OUTBOUND",
+    "message_id": "4249015195",
     "ticket_id": "948932992",
-    "message": "2000 its to much as a deposit",
-    "channel_id": "1304636",
+    "message": "The AED 2,000 is fully refundable when you leave, as long as there are no damages, so you get it back within 14 working days. It's more of a security hold than an actual cost.\n\nWould you like to come see the apartment first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537792157",
     "contact_name": "Nadjet Kenniche",
     "contact_identifier": "+971558448820",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
