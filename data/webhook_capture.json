@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T10:51:28.937Z",
+  "ts": "2026-05-08T10:51:57.051Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249192881",
-    "ticket_id": "949096358",
-    "message": "Please send me the links of the properties since it’s difficult to keep up with all the agents I’m talking to. Thanks",
+    "type": "OUTBOUND",
+    "message_id": "4249193340",
+    "ticket_id": "948966971",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537799918",
+    "contact_name": "Jaki Palm",
+    "contact_identifier": "+971568590006",
     "channel_id": "1304636",
-    "contact_id": "537822306",
-    "contact_name": "Florinda Lopes",
-    "contact_identifier": "+351915273393",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
