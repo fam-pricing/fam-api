@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T20:44:37.307Z",
+  "ts": "2026-05-08T20:44:56.658Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249651176",
+    "type": "OUTBOUND",
+    "message_id": "4249651269",
     "ticket_id": "949253247",
-    "message": "is it 5500 per month for 2 BR ?",
-    "channel_id": "1304636",
+    "message": "That one's actually a 1BR, not a 2BR. Would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537862900",
     "contact_name": "JT",
     "contact_identifier": "+971585827759",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
