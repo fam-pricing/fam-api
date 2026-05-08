@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-08T10:56:55.638Z",
+  "ts": "2026-05-08T10:56:57.478Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249197623",
+    "type": "OUTBOUND",
+    "message_id": "4249197643",
     "ticket_id": "949031449",
-    "message": "What is the rent we are talking about?",
-    "channel_id": "1304636",
+    "message": "Noted, viewing before the 25th works perfectly. What time suits you best, morning or afternoon?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537807516",
     "contact_name": "Asif",
     "contact_identifier": "+971502580329",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
