@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-08T13:05:08.860Z",
+  "ts": "2026-05-08T13:12:27.993Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249327609",
+    "type": "OUTBOUND",
+    "message_id": "4249335775",
     "ticket_id": "949118141",
-    "message": "What time can I view it tomorrow please?",
-    "channel_id": "1304636",
+    "message": "We can do at 12 pm",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537827964",
     "contact_name": "Pablo Benitez",
     "contact_identifier": "+971503203035",
-    "parent_message_id": "4249290533",
-    "parent_ticket_id": "949118141",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
