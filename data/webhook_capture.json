@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-09T16:51:06.737Z",
+  "ts": "2026-05-09T16:55:59.003Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4250103561",
-    "ticket_id": "949432041",
-    "message": "Thank you for contacting Driven Properties! Please let us know how we can help you.",
+    "type": "OUTBOUND",
+    "message_id": "4250105397",
+    "ticket_id": "949432627",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537899195",
+    "contact_name": "Joy",
+    "contact_identifier": "+971552905881",
     "channel_id": "1304636",
-    "contact_id": "537899033",
-    "contact_name": "Shaba Barcella",
-    "contact_identifier": "+971504041795",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
