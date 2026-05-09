@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-09T17:11:00.406Z",
+  "ts": "2026-05-09T17:11:20.516Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4250112430",
+    "type": "OUTBOUND",
+    "message_id": "4250112618",
     "ticket_id": "949435130",
-    "message": "Yes",
-    "channel_id": "1304636",
+    "message": "Let me get someone from the team for you right away!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537899702",
     "contact_name": "Dr Nazanin*Azizi Sales Manager*",
     "contact_identifier": "+971582097438",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
