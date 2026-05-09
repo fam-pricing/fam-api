@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-09T07:33:07.032Z",
+  "ts": "2026-05-09T07:36:05.141Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249816296",
-    "ticket_id": "947888768",
-    "message": "your booking date will start from today correct ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537510754",
-    "contact_name": "Anastasia",
-    "contact_identifier": "+79153412426",
+    "type": "INBOUND",
+    "message_id": "4249817762",
+    "ticket_id": "949213682",
+    "message": "got it",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537853906",
+    "contact_name": "Emy",
+    "contact_identifier": "+971507958864",
+    "parent_message_id": "4249774284",
+    "parent_ticket_id": "949213682",
+    "event_type": "INBOUND"
   }
 }
