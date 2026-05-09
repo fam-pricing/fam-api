@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-09T11:57:40.641Z",
+  "ts": "2026-05-09T11:58:28.690Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249961753",
-    "ticket_id": "949384142",
-    "message": "Please ignore the message above. Is there anything else we can assist you with?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "536870373",
-    "contact_name": "Asmae Elalaouì",
-    "contact_identifier": "+971523442425",
+    "type": "INBOUND",
+    "message_id": "4249962338",
+    "ticket_id": "949324104",
+    "message": "Thank you:) \nI can arrive any time? \nBecause I might be there tomorrow",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "537657215",
+    "contact_name": "Emilia",
+    "contact_identifier": "+971557689270",
+    "parent_message_id": "4249961022",
+    "parent_ticket_id": "949324104",
+    "event_type": "INBOUND"
   }
 }
