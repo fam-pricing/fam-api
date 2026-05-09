@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-09T13:57:03.673Z",
+  "ts": "2026-05-09T14:00:22.328Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4250022074",
+    "type": "OUTBOUND",
+    "message_id": "4250023730",
     "ticket_id": "949235113",
-    "message": "No parking",
-    "channel_id": "1304636",
+    "message": "Unfortunately, the security won't allow for the temporary parking space\r\n\r\nYou may park nearby RTA parking or beside; there is a parking space for Carrefour, where you may park",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537858947",
     "contact_name": "Fay G",
     "contact_identifier": "+971505908299",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
