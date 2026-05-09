@@ -870,3 +870,7 @@ We will then send you a payment link to secure your reservation."
 ## Learned (2026-05-08)
 - If a lead questions the monthly rate — e.g., "What do you mean for the current month? It's not 5,500 every month?" — clarify that the quoted price of AED 5,500/month can be locked in for a maximum of 3 months only.
   (Learned from Faysal handling PP❤️ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-09)
+- If a lead requests a viewing at 6:00 PM, inform them that viewing hours are from 9:00 AM to 6:00 PM and ask them to arrive before 6:00 PM.
+  (Learned from Faysal handling Fay G re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
