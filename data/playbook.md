@@ -904,3 +904,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-09)
 - When a lead requests a viewing, inform them that viewing hours end at 6 PM. Make clear that building security will not permit access to anyone arriving after this time.
   (Learned from Faysal handling Amir re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html)
+
+## Learned (2026-05-09)
+- If a lead requests documents, respond: "Please note that viewing hours are until 6:00 PM only. Arrivals after 6:00 PM will not be permitted access by building security."
+  (Learned from Faysal handling Wael re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
