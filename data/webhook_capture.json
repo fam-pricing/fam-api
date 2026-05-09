@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-09T05:54:50.513Z",
+  "ts": "2026-05-09T05:54:51.673Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249773881",
-    "ticket_id": "949195206",
-    "message": "Kindly let us know if you are interested in proceeding with a booking or arranging an in-person viewing. We will be happy to assist you further.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537848457",
-    "contact_name": "Dr Ali Alawadhi",
-    "contact_identifier": "+971567164219",
+    "type": "INBOUND",
+    "message_id": "4249773901",
+    "ticket_id": "949131138",
+    "message": "Perfect thank you \nWhat is the name of the agent who will make the visit?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537534256",
+    "contact_name": "Jo",
+    "contact_identifier": "+33616710812",
+    "event_type": "INBOUND"
   }
 }
