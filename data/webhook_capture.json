@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-09T08:34:03.871Z",
+  "ts": "2026-05-09T08:34:05.417Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249849978",
-    "ticket_id": "949347718",
-    "message": "Yes, viewings are available any day between 9am and 6pm. What day and time works best for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "536684740",
-    "contact_name": "Jr Dubai",
-    "contact_identifier": "+971588531615",
+    "type": "INBOUND",
+    "message_id": "4249849984",
+    "ticket_id": "949020335",
+    "message": "Since you didn't email them yet",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535634432",
+    "contact_name": "Raha",
+    "contact_identifier": "+971566081840",
+    "event_type": "INBOUND"
   }
 }
