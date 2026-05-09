@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-09T09:30:19.731Z",
+  "ts": "2026-05-09T09:30:55.669Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249882304",
-    "ticket_id": "948931081",
-    "message": "I am finishing lunch now.. will be there before 3pm..",
+    "type": "OUTBOUND",
+    "message_id": "4249882817",
+    "ticket_id": "949359371",
+    "message": "The rate for the 2BR is AED 5,500/month all-inclusive. It stays locked for 3-month blocks, so you're not limited to one month at all, long-term works perfectly. Is a 2BR the right fit, or were you looking for a different size?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537879756",
+    "contact_name": "Adeel Leo",
+    "contact_identifier": "+971552322107",
     "channel_id": "1304636",
-    "contact_id": "537791517",
-    "contact_name": "Ram 👍",
-    "contact_identifier": "+971552211238",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
