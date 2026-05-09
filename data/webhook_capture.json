@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-09T07:46:29.803Z",
+  "ts": "2026-05-09T07:47:10.065Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249823191",
+    "type": "INBOUND",
+    "message_id": "4249823595",
     "ticket_id": "949028062",
-    "message": "We understand, however the booking is still under the name Mandi. Therefore, kindly ensure the check-in process is completed accordingly. Please also note that a deposit of AED 1,000 is pending and needs to be settled.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Please update the booking name",
+    "channel_id": "585723",
     "contact_id": "537807171",
     "contact_name": "Mandi Theron",
     "contact_identifier": "+27826800280",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
