@@ -892,3 +892,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-09)
 - If a lead asks whether they will receive a contract, inform them that the same rate can be offered for a maximum of 3 months only.
   (Learned from Faysal handling Emirates Gold re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-09)
+- If a lead references a 6-month booking, confirm that it is possible, but clarify that the rate applies only for the first 3 months. For the following 3 months, a different rate will apply.
+  (Learned from Faysal handling Emirates Gold re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
