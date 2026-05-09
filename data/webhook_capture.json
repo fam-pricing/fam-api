@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-09T05:41:29.894Z",
+  "ts": "2026-05-09T05:41:33.654Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249769137",
-    "ticket_id": "948938285",
-    "message": "The meeting is confirm ?",
+    "type": "OUTBOUND",
+    "message_id": "4249769161",
+    "ticket_id": "949235113",
+    "message": "Please note that our viewing timings are from 9:00 AM to 6:00 PM only. Kindly ensure that you arrive before 6:00 PM for the viewing.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537858947",
+    "contact_name": "Fay G",
+    "contact_identifier": "+971505908299",
     "channel_id": "1304636",
-    "contact_id": "537793990",
-    "contact_name": "STN",
-    "contact_identifier": "+79015817252",
-    "parent_message_id": "4248955245",
-    "parent_ticket_id": "948938285",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
