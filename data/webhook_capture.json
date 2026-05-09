@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-09T13:07:52.277Z",
+  "ts": "2026-05-09T13:09:02.496Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249998477",
+    "type": "INBOUND",
+    "message_id": "4249998982",
     "ticket_id": "949269986",
-    "message": "Umair, June 1 to August 15 is confirmed at a fixed rate. To get things moving, can you send over a copy of your passport or Emirates ID?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I already sent",
+    "channel_id": "1304636",
     "contact_id": "537865623",
     "contact_name": "😊",
     "contact_identifier": "+923314067795",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4249998477",
+    "parent_ticket_id": "949269986",
+    "event_type": "INBOUND"
   }
 }
