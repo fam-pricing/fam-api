@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-09T11:58:28.690Z",
+  "ts": "2026-05-09T11:59:30.066Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249962338",
+    "type": "OUTBOUND",
+    "message_id": "4249963062",
     "ticket_id": "949324104",
-    "message": "Thank you:) \nI can arrive any time? \nBecause I might be there tomorrow",
-    "channel_id": "585723",
+    "message": "Yes, that is completely fine as it is a self check-in. There will be a 24-hour reception, so you can simply pass by the reception to collect the access card.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537657215",
     "contact_name": "Emilia",
     "contact_identifier": "+971557689270",
-    "parent_message_id": "4249961022",
-    "parent_ticket_id": "949324104",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
