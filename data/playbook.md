@@ -896,3 +896,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-09)
 - If a lead references a 6-month booking, confirm that it is possible, but clarify that the rate applies only for the first 3 months. For the following 3 months, a different rate will apply.
   (Learned from Faysal handling Emirates Gold re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-09)
+- If a lead requests a viewing later in the evening, inform them that viewing hours are from 10:00 AM to 6:00 PM only.
+  (Learned from Faysal handling Kanika re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
