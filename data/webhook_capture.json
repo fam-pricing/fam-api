@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-09T17:10:30.024Z",
+  "ts": "2026-05-09T17:10:47.551Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4250112108",
+    "type": "OUTBOUND",
+    "message_id": "4250112321",
     "ticket_id": "949435130",
-    "message": "How are you",
-    "channel_id": "1304636",
+    "message": "Looks like this enquiry may have landed with us by mistake, our listing was for renting a property in Elite Business Bay. Were you looking to rent a place in Dubai?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537899702",
     "contact_name": "Dr Nazanin*Azizi Sales Manager*",
     "contact_identifier": "+971582097438",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
