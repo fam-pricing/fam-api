@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-09T10:04:48.282Z",
+  "ts": "2026-05-09T10:06:39.853Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249901961",
+    "type": "OUTBOUND",
+    "message_id": "4249902911",
     "ticket_id": "942082281",
-    "message": "The curtains are not working again",
-    "channel_id": "585723",
+    "message": "Good afternoon Zeina,\r\n\r\nCould you please share the pictures of the curtains so we can forward them to the maintenance team and assist you accordingly?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535956059",
     "contact_name": "Zeina Elnahas",
     "contact_identifier": "+971523770869",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
