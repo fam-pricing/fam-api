@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-09T09:24:21.565Z",
+  "ts": "2026-05-09T09:24:32.382Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249879156",
-    "ticket_id": "948931081",
-    "message": "Which floor is this unit? Are there multiple units which I can view?",
+    "type": "OUTBOUND",
+    "message_id": "4249879296",
+    "ticket_id": "949079182",
+    "message": "Name: Junaid\r\nNumber: +971 58 841 6596",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537817977",
+    "contact_name": "Kanika",
+    "contact_identifier": "+919051525237",
     "channel_id": "1304636",
-    "contact_id": "537791517",
-    "contact_name": "Ram 👍",
-    "contact_identifier": "+971552211238",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
