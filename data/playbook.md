@@ -908,3 +908,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-09)
 - If a lead requests documents, respond: "Please note that viewing hours are until 6:00 PM only. Arrivals after 6:00 PM will not be permitted access by building security."
   (Learned from Faysal handling Wael re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-09)
+- When a lead asks how long the listed price can be locked in, confirm that the rate can be fixed for a maximum of 3 months.
+  (Learned from Faysal handling Fay G re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
