@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-09T08:12:34.067Z",
+  "ts": "2026-05-09T08:12:54.143Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249838082",
+    "type": "OUTBOUND",
+    "message_id": "4249838386",
     "ticket_id": "949339890",
-    "message": "1st week june",
-    "channel_id": "1304636",
+    "message": "Yes, it's available for the first week of June. Are you looking to move in around that time?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537875475",
     "contact_name": "Batool",
     "contact_identifier": "+971585678225",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
