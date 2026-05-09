@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-09T06:25:01.106Z",
+  "ts": "2026-05-09T06:29:30.262Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249784194",
-    "ticket_id": "949232566",
-    "message": "At what time you would like to do the viewing ?",
-    "user_id": "746181",
-    "user_name": "Avinash I",
-    "user_email": "avinashanilkumar.i@famliving.com",
-    "contact_id": "537616260",
-    "contact_name": "Amir",
-    "contact_identifier": "+971545145363",
+    "type": "INBOUND",
+    "message_id": "4249785596",
+    "ticket_id": "949213691",
+    "message": "Yiu said 6 months",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537853912",
+    "contact_name": "Emirates Gold",
+    "contact_identifier": "+971564289019",
+    "parent_message_id": "4249538028",
+    "parent_ticket_id": "949213691",
+    "event_type": "INBOUND"
   }
 }
