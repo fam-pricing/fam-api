@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-09T22:31:34.029Z",
+  "ts": "2026-05-09T22:31:53.126Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4250212007",
+    "type": "OUTBOUND",
+    "message_id": "4250212045",
     "ticket_id": "949475928",
-    "message": "Is it available?",
-    "channel_id": "1304636",
+    "message": "Yes, it's available. Want to book a viewing so you can see it in person?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537908669",
     "contact_name": "Sh. Msd",
     "contact_identifier": "+971503430195",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
