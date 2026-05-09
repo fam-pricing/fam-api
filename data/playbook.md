@@ -882,3 +882,9 @@ We will then send you a payment link to secure your reservation."
 ## Learned (2026-05-09)
 - If a lead says they will bring their ID to the viewing, inform them that a copy of their ID is required in advance to update the building management, and that the viewing cannot be confirmed until it is received.
   (Learned from Faysal handling Maryam re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
+
+## Learned (2026-05-09)
+- If a lead declines to share their personal data, respond with the following:
+
+Please note that building security requires advance notification before granting access to any visitor. To arrange your viewing and avoid any inconvenience on the day, providing a valid ID is mandatory.
+  (Learned from Faysal handling STN re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
