@@ -888,3 +888,7 @@ We will then send you a payment link to secure your reservation."
 
 Please note that building security requires advance notification before granting access to any visitor. To arrange your viewing and avoid any inconvenience on the day, providing a valid ID is mandatory.
   (Learned from Faysal handling STN re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-05-09)
+- If a lead asks whether they will receive a contract, inform them that the same rate can be offered for a maximum of 3 months only.
+  (Learned from Faysal handling Emirates Gold re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
