@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-09T13:22:20.901Z",
+  "ts": "2026-05-09T13:32:17.259Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4250005225",
-    "ticket_id": "949397210",
-    "message": "May I kindly know which location you prefer, how many bedrooms you are looking for, and from which date you would like to book?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537889681",
-    "contact_name": "Tuchen",
-    "contact_identifier": "+971554110621",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4250010022",
+    "ticket_id": "949347718",
+    "message": "Please let me know it's price for stay from 25 May to 25 July?",
+    "channel_id": "1304636",
+    "contact_id": "536684740",
+    "contact_name": "Jr Dubai",
+    "contact_identifier": "+971588531615",
+    "event_type": "INBOUND"
   }
 }
