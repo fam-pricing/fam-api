@@ -878,3 +878,7 @@ We will then send you a payment link to secure your reservation."
 ## Learned (2026-05-09)
 - If a lead states they are on their way to view the apartment, inform them that a copy of their ID is required to update the building management before the viewing can be confirmed. Make clear that without the ID, the viewing cannot be confirmed.
   (Learned from Faysal handling STN re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-05-09)
+- If a lead says they will bring their ID to the viewing, inform them that a copy of their ID is required in advance to update the building management, and that the viewing cannot be confirmed until it is received.
+  (Learned from Faysal handling Maryam re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
