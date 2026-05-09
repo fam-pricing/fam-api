@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-09T09:01:12.791Z",
+  "ts": "2026-05-09T09:03:38.775Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249866274",
+    "type": "INBOUND",
+    "message_id": "4249868053",
     "ticket_id": "949347718",
-    "message": "Here is the location map at Elite Business Bay Residence\r\n\r\nhttps://maps.app.goo.gl/GwDF2VKquc8k8vPy5",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Who should I look for there, and what's the apartment number?",
+    "channel_id": "1304636",
     "contact_id": "536684740",
     "contact_name": "Jr Dubai",
     "contact_identifier": "+971588531615",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
