@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-09T10:42:10.631Z",
+  "ts": "2026-05-09T10:42:23.494Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249920427",
+    "type": "OUTBOUND",
+    "message_id": "4249920523",
     "ticket_id": "949372208",
-    "message": "Is the property still available for rent??",
-    "channel_id": "1304636",
+    "message": "Yes, it's available! Did you have any questions about it, or would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537883717",
     "contact_name": "Joel Wilson",
     "contact_identifier": "+971588404656",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
