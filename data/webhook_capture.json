@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-09T05:54:51.673Z",
+  "ts": "2026-05-09T05:55:16.208Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249773901",
-    "ticket_id": "949131138",
-    "message": "Perfect thank you \nWhat is the name of the agent who will make the visit?",
+    "type": "OUTBOUND",
+    "message_id": "4249774021",
+    "ticket_id": "949218207",
+    "message": "Good Morning Tony",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537855117",
+    "contact_name": "Tony  Wa",
+    "contact_identifier": "+971566040365",
     "channel_id": "1304636",
-    "contact_id": "537534256",
-    "contact_name": "Jo",
-    "contact_identifier": "+33616710812",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
