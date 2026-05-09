@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-09T10:03:22.201Z",
+  "ts": "2026-05-09T10:03:51.891Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249901187",
+    "type": "OUTBOUND",
+    "message_id": "4249901511",
     "ticket_id": "949031449",
-    "message": "I'm at the gate entrance",
-    "channel_id": "1304636",
+    "message": "Unfortunately, the security won't allow for the temporary parking space",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "537807516",
     "contact_name": "Asif",
     "contact_identifier": "+971502580329",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
