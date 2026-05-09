@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-09T05:55:43.104Z",
+  "ts": "2026-05-09T05:56:04.518Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249774116",
-    "ticket_id": "949213682",
-    "message": "Good Morning",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537853906",
-    "contact_name": "Emy",
-    "contact_identifier": "+971507958864",
+    "type": "INBOUND",
+    "message_id": "4249774186",
+    "ticket_id": "949195206",
+    "message": "I was ask about this unit",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537848457",
+    "contact_name": "Dr Ali Alawadhi",
+    "contact_identifier": "+971567164219",
+    "parent_message_id": "4249473242",
+    "parent_ticket_id": "949195206",
+    "event_type": "INBOUND"
   }
 }
