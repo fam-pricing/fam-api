@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-09T10:03:19.562Z",
+  "ts": "2026-05-09T10:03:22.201Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249901164",
+    "type": "INBOUND",
+    "message_id": "4249901187",
     "ticket_id": "949031449",
-    "message": "Apartment no 707 on the 7th floor, and we left it open for you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "I'm at the gate entrance",
+    "channel_id": "1304636",
     "contact_id": "537807516",
     "contact_name": "Asif",
     "contact_identifier": "+971502580329",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
