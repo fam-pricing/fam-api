@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-09T13:09:02.496Z",
+  "ts": "2026-05-09T13:09:04.751Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249998982",
-    "ticket_id": "949269986",
-    "message": "I already sent",
+    "type": "OUTBOUND",
+    "message_id": "4249998986",
+    "ticket_id": "949235113",
+    "message": "we need your id to arrange the viewing",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537858947",
+    "contact_name": "Fay G",
+    "contact_identifier": "+971505908299",
     "channel_id": "1304636",
-    "contact_id": "537865623",
-    "contact_name": "😊",
-    "contact_identifier": "+923314067795",
-    "parent_message_id": "4249998477",
-    "parent_ticket_id": "949269986",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
