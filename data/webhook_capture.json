@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-09T05:12:51.308Z",
+  "ts": "2026-05-09T05:12:56.933Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4249760924",
-    "ticket_id": "949131138",
-    "message": "Hello \nHope you are well \n\nCould you please confirm the visit on Sunday 11am at MAG318\n\nThank you",
+    "type": "OUTBOUND",
+    "message_id": "4249760982",
+    "ticket_id": "949229990",
+    "message": "Good Morning Maryam",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537857718",
+    "contact_name": "Maryam",
+    "contact_identifier": "+971555560372",
     "channel_id": "1304636",
-    "contact_id": "537534256",
-    "contact_name": "Jo",
-    "contact_identifier": "+33616710812",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
