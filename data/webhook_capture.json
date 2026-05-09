@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-09T05:49:12.566Z",
+  "ts": "2026-05-09T05:49:24.294Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4249772164",
-    "ticket_id": "949131138",
-    "message": "Could you please confirm if you would like to arrange a viewing tomorrow for the 1-bedroom apartment in MAG 318?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537534256",
-    "contact_name": "Jo",
-    "contact_identifier": "+33616710812",
+    "type": "INBOUND",
+    "message_id": "4249772228",
+    "ticket_id": "948938285",
+    "message": "If not possible for viewing because of passport then you can cancel no problem",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537793990",
+    "contact_name": "STN",
+    "contact_identifier": "+79015817252",
+    "event_type": "INBOUND"
   }
 }
