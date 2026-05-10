@@ -942,3 +942,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-10)
 - When a lead proposes a staggered payment plan — such as paying the security deposit and first month's rent upfront, then continuing with monthly payments and adding a pro-rata amount in the final month — inform them that to confirm and hold the full rental period, a non-refundable advance payment of AED 5,000 is required. This amount will be adjusted against the last month's rent.
   (Learned from Faysal handling Kanika re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
+
+## Learned (2026-05-10)
+- If a lead questions the 5,500 AED monthly price, inform them that the security deposit is 3,000 AED.
+  (Learned from Faysal handling Z A re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
