@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-10T14:19:06.807Z",
+  "ts": "2026-05-10T14:19:37.162Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4250538459",
+    "type": "OUTBOUND",
+    "message_id": "4250538667",
     "ticket_id": "949609966",
-    "message": "Hi just seeing what the maximum amount of time I can rent this property for as looking for a longer term if possible.  But to pay monthly",
-    "channel_id": "1304636",
+    "message": "No maximum stay, and monthly payments work fine. The rate is confirmed in 3-month blocks, so it gets reviewed at each interval based on market conditions. To get started, the first and last month are paid upfront, then you continue monthly from there. What dates are you looking at moving in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537932794",
     "contact_name": "Mark",
     "contact_identifier": "+447894071144",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
