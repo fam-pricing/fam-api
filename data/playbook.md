@@ -916,3 +916,9 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-10)
 - When a lead asks for a final or discounted price, respond clearly: "Our prices are fixed and we do not offer special discounts."
   (Learned from Faysal handling Sh. Msd re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-85302784.html)
+
+## Learned (2026-05-10)
+- When a lead asks about yearly or monthly rental options, respond with the following:
+
+"For the current month, the price is AED 5,500, which includes all bills and taxes. The security deposit is AED 3,000."
+  (Learned from Faysal handling Dr Nazanin*Azizi Sales Manager* re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
