@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-10T05:42:44.442Z",
+  "ts": "2026-05-10T05:42:51.151Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4250300112",
-    "ticket_id": "949420133",
-    "message": "Yes available price will be 8000 aed for 30 nights and deposit is 3000 aed",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537895902",
-    "contact_name": "Patrick Jackson",
-    "contact_identifier": "+61416116356",
+    "type": "INBOUND",
+    "message_id": "4250300140",
+    "ticket_id": "944346338",
+    "message": "This is the message you had sent me when I asked about 3 months",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535581566",
+    "contact_name": "MOHAMMED AMIR SAAD ISHTIAQUE",
+    "contact_identifier": "+971501911263",
+    "parent_message_id": "4224262755",
+    "parent_ticket_id": "941559061",
+    "event_type": "INBOUND"
   }
 }
