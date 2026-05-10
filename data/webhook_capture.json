@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-10T10:58:50.378Z",
+  "ts": "2026-05-10T11:01:19.226Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4250438761",
-    "ticket_id": "949422575",
-    "message": "I am in reception area please",
-    "channel_id": "1304636",
-    "contact_id": "537896480",
-    "contact_name": "3D",
-    "contact_identifier": "+971556507344",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4250440371",
+    "ticket_id": "941501853",
+    "message": "https://totalpay.ae/payment/20260510546a006566a5ec9",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535128769",
+    "contact_name": "Alex",
+    "contact_identifier": "+256742443400",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
