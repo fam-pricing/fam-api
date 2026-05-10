@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-10T04:57:30.089Z",
+  "ts": "2026-05-10T04:59:41.603Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4250289986",
+    "type": "INBOUND",
+    "message_id": "4250290476",
     "ticket_id": "949520935",
-    "message": "Yes, it's available in September. The only extra cost is a refundable security deposit of AED 2,000, returned after check-out. Would you like to pick a move-in date so I can check availability for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Roughly between September 7 - 12",
+    "channel_id": "1304636",
     "contact_id": "537913218",
     "contact_name": "Rayo",
     "contact_identifier": "+971525367659",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
