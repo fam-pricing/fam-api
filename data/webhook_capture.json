@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-10T06:32:20.700Z",
+  "ts": "2026-05-10T06:32:21.872Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4250315811",
+    "type": "OUTBOUND",
+    "message_id": "4250315849",
     "ticket_id": "949533286",
-    "message": "I’m looking at booking a property through you AI system on what’s app and it’s not working can you please assist",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "537914993",
     "contact_name": "Reece",
     "contact_identifier": "e4c91341-2a5f-432f-b8df-c3e03cb7dafd",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
