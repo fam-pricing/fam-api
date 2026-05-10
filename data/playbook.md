@@ -926,3 +926,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-10)
 - If a lead asks about yearly and monthly pricing, respond with: "The yearly price is AED 160,000."
   (Learned from Faysal handling Dr Nazanin*Azizi Sales Manager* re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
+
+## Learned (2026-05-10)
+- If a lead asks about pricing for other months, confirm that we can only guarantee the same price for up to 3 months.
+  (Learned from Faysal handling Dr Nazanin*Azizi Sales Manager* re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
