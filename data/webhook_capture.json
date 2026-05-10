@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-10T07:20:59.139Z",
+  "ts": "2026-05-10T07:21:43.946Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4250333631",
-    "ticket_id": "949468218",
-    "message": "you can book here and we can waive the deposit",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537906969",
-    "contact_name": "Alex",
-    "contact_identifier": "+13462976912",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4250333908",
+    "ticket_id": "949195206",
+    "message": "In case of monthly rent, is the amount fixed with a contract or can it change every month?",
+    "channel_id": "1304636",
+    "contact_id": "537848457",
+    "contact_name": "Dr Ali Alawadhi",
+    "contact_identifier": "+971567164219",
+    "event_type": "INBOUND"
   }
 }
