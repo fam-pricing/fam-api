@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-10T07:45:12.976Z",
+  "ts": "2026-05-10T07:45:14.335Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4250343489",
-    "ticket_id": "949540885",
-    "message": "Hello hope you are doing well we have availability",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537786720",
-    "contact_name": "Majd Azzam",
-    "contact_identifier": "+96176846114",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4250343552",
+    "ticket_id": "949195206",
+    "message": "For this same?!",
+    "channel_id": "1304636",
+    "contact_id": "537848457",
+    "contact_name": "Dr Ali Alawadhi",
+    "contact_identifier": "+971567164219",
+    "parent_message_id": "4249556280",
+    "parent_ticket_id": "949195206",
+    "event_type": "INBOUND"
   }
 }
