@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-10T07:09:45.531Z",
+  "ts": "2026-05-10T07:10:44.857Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4250329146",
-    "ticket_id": "949447250",
-    "message": "My route is long and I need to leave early. If this appointment is confirmed, please send me the address.",
+    "type": "OUTBOUND",
+    "message_id": "4250329586",
+    "ticket_id": "949426097",
+    "message": "will arrange viewing at 12 pm",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537897280",
+    "contact_name": "Reece",
+    "contact_identifier": "+61412787716",
     "channel_id": "1304636",
-    "contact_id": "537902565",
-    "contact_name": "Iman",
-    "contact_identifier": "+971559130155",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
