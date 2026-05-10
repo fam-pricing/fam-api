@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-10T07:38:35.462Z",
+  "ts": "2026-05-10T07:40:03.390Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4250340761",
+    "type": "INBOUND",
+    "message_id": "4250341273",
     "ticket_id": "949195206",
-    "message": "we can confirm the same price for 3 months after that subject to market price",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "So not yearly",
+    "channel_id": "1304636",
     "contact_id": "537848457",
     "contact_name": "Dr Ali Alawadhi",
     "contact_identifier": "+971567164219",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4250340761",
+    "parent_ticket_id": "949195206",
+    "event_type": "INBOUND"
   }
 }
