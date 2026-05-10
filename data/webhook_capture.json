@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-10T08:13:16.668Z",
+  "ts": "2026-05-10T08:13:48.388Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4250358062",
-    "ticket_id": "949540885",
-    "message": "will drop the booking and share a payment link",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537786720",
-    "contact_name": "Majd Azzam",
-    "contact_identifier": "+96176846114",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4250358258",
+    "ticket_id": "949426097",
+    "message": "This is terrible service.",
+    "channel_id": "1304636",
+    "contact_id": "537897280",
+    "contact_name": "Reece",
+    "contact_identifier": "+61412787716",
+    "event_type": "INBOUND"
   }
 }
