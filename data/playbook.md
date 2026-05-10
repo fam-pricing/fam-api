@@ -922,3 +922,7 @@ Please note that building security requires advance notification before granting
 
 "For the current month, the price is AED 5,500, which includes all bills and taxes. The security deposit is AED 3,000."
   (Learned from Faysal handling Dr Nazanin*Azizi Sales Manager* re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
+
+## Learned (2026-05-10)
+- If a lead asks about yearly and monthly pricing, respond with: "The yearly price is AED 160,000."
+  (Learned from Faysal handling Dr Nazanin*Azizi Sales Manager* re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
