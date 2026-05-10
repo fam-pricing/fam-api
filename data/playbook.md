@@ -930,3 +930,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-10)
 - If a lead asks about pricing for other months, confirm that we can only guarantee the same price for up to 3 months.
   (Learned from Faysal handling Dr Nazanin*Azizi Sales Manager* re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
+
+## Learned (2026-05-10)
+- When a lead asks how many days it will take to receive their deposit refund after checkout and handing over the apartment, respond: "We can confirm the same price for 3 months; after that, pricing is subject to market rates."
+  (Learned from Faysal handling Dr Ali Alawadhi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
