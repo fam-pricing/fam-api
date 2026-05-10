@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-10T11:51:28.063Z",
+  "ts": "2026-05-10T11:53:00.730Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4250464693",
-    "ticket_id": "949079182",
-    "message": "Hi, can you please add the following details in the invoice:\n1. Flat number, and address\n2. ⁠all bills included including DEWA, GAS and internet.",
+    "type": "OUTBOUND",
+    "message_id": "4250465505",
+    "ticket_id": "949462591",
+    "message": "maximum now we can do 3 months",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537905681",
+    "contact_name": "Paris",
+    "contact_identifier": "+971525481995",
     "channel_id": "1304636",
-    "contact_id": "537817977",
-    "contact_name": "Kanika",
-    "contact_identifier": "+919051525237",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
