@@ -1,20 +1,18 @@
 {
-  "ts": "2026-05-10T08:09:09.285Z",
+  "ts": "2026-05-10T08:09:21.047Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4250356143",
-    "ticket_id": "949540885",
-    "message": "For booking I need a copy of you ID/ passport and email",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537786720",
-    "contact_name": "Majd Azzam",
-    "contact_identifier": "+96176846114",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4250356215",
+    "ticket_id": "949533286",
+    "message": "Please give me your contact info so I can call you ",
+    "channel_id": "883603",
+    "contact_id": "537914993",
+    "contact_name": "Reece",
+    "contact_email": "rmogg11@gmail.com",
+    "contact_identifier": "e4c91341-2a5f-432f-b8df-c3e03cb7dafd",
+    "event_type": "INBOUND"
   }
 }
