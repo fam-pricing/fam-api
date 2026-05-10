@@ -912,3 +912,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-09)
 - When a lead asks how long the listed price can be locked in, confirm that the rate can be fixed for a maximum of 3 months.
   (Learned from Faysal handling Fay G re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
+
+## Learned (2026-05-10)
+- When a lead asks for a final or discounted price, respond clearly: "Our prices are fixed and we do not offer special discounts."
+  (Learned from Faysal handling Sh. Msd re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-85302784.html)
