@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-11T08:39:11.564Z",
+  "ts": "2026-05-11T08:40:20.954Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4250994420",
+    "type": "INBOUND",
+    "message_id": "4250995878",
     "ticket_id": "949781673",
-    "message": "If you would like to proceed with a booking for 3 to 4 months, we would be happy to assist you.\r\n\r\nKindly note that the payment terms will be as follows: the first month’s rent, the last month’s rent, and the security deposit will be required upfront. After that, the remaining rent can be paid on a monthly basis.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Last month rent as in?",
+    "channel_id": "585723",
     "contact_id": "537968236",
     "contact_name": "bayz",
     "contact_identifier": "+971521085291",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4250994420",
+    "parent_ticket_id": "949781673",
+    "event_type": "INBOUND"
   }
 }
