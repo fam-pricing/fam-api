@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-11T11:10:16.746Z",
+  "ts": "2026-05-11T11:11:11.444Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4251198139",
+    "type": "INBOUND",
+    "message_id": "4251199122",
     "ticket_id": "949825670",
-    "message": "We can offer you the same rate of AED 4,999 per month for June and July. Each month will be calculated as 30 nights.\r\n\r\nPlease also note that a security deposit of AED 2,000 is applicable.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "This is all inclusive?",
+    "channel_id": "585723",
     "contact_id": "537978912",
     "contact_name": "Richa Jain",
     "contact_identifier": "+971585798788",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4251198139",
+    "parent_ticket_id": "949825670",
+    "event_type": "INBOUND"
   }
 }
