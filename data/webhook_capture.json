@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-11T12:58:49.262Z",
+  "ts": "2026-05-11T13:03:17.179Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4251341362",
-    "ticket_id": "949883425",
-    "message": "Hello Pablo,\r\n\r\nViewing can be arranged before 6:00 PM only, as our standard viewing timings are from 9:00 AM to 6:00 PM.\r\n\r\nHowever, if you prefer, we can also arrange an exceptional viewing after 6:00 PM today. Kindly let us know if that works for you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537827964",
-    "contact_name": "Pablo Benitez",
-    "contact_identifier": "+971503203035",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4251347601",
+    "ticket_id": "949877393",
+    "message": "Booked until?",
+    "channel_id": "585723",
+    "contact_id": "537994857",
+    "contact_name": "~",
+    "contact_identifier": "+971504402468",
+    "event_type": "INBOUND"
   }
 }
