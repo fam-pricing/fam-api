@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-11T12:11:41.783Z",
+  "ts": "2026-05-11T12:13:37.401Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4251276335",
-    "ticket_id": "949825670",
-    "message": "I will be there by 3.40 or so",
+    "type": "OUTBOUND",
+    "message_id": "4251278759",
+    "ticket_id": "949865272",
+    "message": "Dear Ma’am,\r\n\r\nDue to the payment method, we are unable to proceed with the check, and cash collection is not possible. The payment needs to be made by card only.\r\n\r\nWe sincerely apologize for any inconvenience this may cause and appreciate your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537990821",
+    "contact_name": "blue",
+    "contact_identifier": "+971543713060",
     "channel_id": "585723",
-    "contact_id": "537978912",
-    "contact_name": "Richa Jain",
-    "contact_identifier": "+971585798788",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
