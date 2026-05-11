@@ -1,17 +1,19 @@
 {
-  "ts": "2026-05-11T12:22:50.834Z",
+  "ts": "2026-05-11T12:23:02.292Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4251293560",
-    "ticket_id": "949871990",
-    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
-    "contact_id": "537993105",
-    "contact_name": "Nelli",
-    "contact_identifier": "51ad5e63-e92e-4932-8469-ea737ce5d0b9",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4251294707",
+    "ticket_id": "949869782",
+    "message": "Tomorrow is ok",
+    "channel_id": "1304636",
+    "contact_id": "537992155",
+    "contact_name": "Ahmed",
+    "contact_identifier": "+971551066086",
+    "parent_message_id": "4251292754",
+    "parent_ticket_id": "949869782",
+    "event_type": "INBOUND"
   }
 }
