@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-11T09:52:37.825Z",
+  "ts": "2026-05-11T09:52:51.089Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4251097958",
+    "type": "OUTBOUND",
+    "message_id": "4251098202",
     "ticket_id": "949665310",
-    "message": "i would like to book from 20th May",
-    "channel_id": "1304636",
+    "message": "May 20 is noted. To confirm the booking, could you share a copy of your ID or passport and your email address so we can send you a payment link?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535846014",
     "contact_name": "S",
     "contact_identifier": "+971559338668",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
