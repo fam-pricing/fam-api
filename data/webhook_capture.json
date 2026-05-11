@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-11T09:24:50.864Z",
+  "ts": "2026-05-11T09:24:55.379Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4251058966",
+    "type": "OUTBOUND",
+    "message_id": "4251059104",
     "ticket_id": "949781673",
-    "message": "Thank you",
-    "channel_id": "585723",
+    "message": "Here is the location map at Bayz By Danub\r\n\r\nhttps://maps.app.goo.gl/1c3M59J1aVxjdpQk7",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537968236",
     "contact_name": "bayz",
     "contact_identifier": "+971521085291",
-    "parent_message_id": "4251058804",
-    "parent_ticket_id": "949781673",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
