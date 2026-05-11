@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-11T14:15:04.012Z",
+  "ts": "2026-05-11T14:15:27.817Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4251443204",
+    "type": "OUTBOUND",
+    "message_id": "4251443729",
     "ticket_id": "949909216",
-    "message": "Send me now the location, as well as the contact number, and when I attend, my papers will be with me. I do not send my papers to anyone. This is a security matter until the contract is completed.",
-    "channel_id": "1304636",
+    "message": "Understood, no problem at all. Let me get someone from the team to send you the location and their contact number directly.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536168955",
     "contact_name": "...",
     "contact_identifier": "+971555776918",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
