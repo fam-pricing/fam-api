@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-11T09:15:37.981Z",
+  "ts": "2026-05-11T09:16:50.863Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4251043310",
+    "type": "OUTBOUND",
+    "message_id": "4251045311",
     "ticket_id": "949781673",
-    "message": "Audio",
-    "channel_id": "585723",
+    "message": "Please note that each month is calculated based on 30 nights.\r\n\r\nFor example, if the check-in is on 12th May, the check-out will be on 11th June. This is how each monthly booking will be counted, with every month considered as 30 nights.\r\n\r\nKindly let us know if you need any further clarification.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537968236",
     "contact_name": "bayz",
     "contact_identifier": "+971521085291",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
