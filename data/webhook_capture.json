@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-11T12:22:32.791Z",
+  "ts": "2026-05-11T12:22:39.229Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4251292148",
+    "type": "OUTBOUND",
+    "message_id": "4251292754",
     "ticket_id": "949869782",
-    "message": "Which time that i can come to ceck",
-    "channel_id": "1304636",
+    "message": "What day and time works for you? We can do any day between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537992155",
     "contact_name": "Ahmed",
     "contact_identifier": "+971551066086",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
