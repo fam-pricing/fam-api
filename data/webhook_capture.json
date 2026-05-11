@@ -1,17 +1,21 @@
 {
-  "ts": "2026-05-11T12:28:11.598Z",
+  "ts": "2026-05-11T12:28:12.866Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4251302270",
-    "ticket_id": "949825670",
-    "message": "Sure confirmed.",
-    "channel_id": "585723",
-    "contact_id": "537978912",
-    "contact_name": "Richa Jain",
-    "contact_identifier": "+971585798788",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4251302276",
+    "ticket_id": "949871990",
+    "message": "Dear Nelli,\r\n\r\nUnfortunately, we do not have any available units in your preferred building or location at the moment.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537993105",
+    "contact_name": "Nelli",
+    "contact_email": "minina1804@mail.ru",
+    "contact_identifier": "51ad5e63-e92e-4932-8469-ea737ce5d0b9",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
