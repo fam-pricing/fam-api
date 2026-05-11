@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-11T08:34:42.970Z",
+  "ts": "2026-05-11T08:35:34.854Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4250988735",
+    "type": "INBOUND",
+    "message_id": "4250989846",
     "ticket_id": "949781673",
-    "message": "we have deposit of 3000aed as well",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "It is only available for 30 days?",
+    "channel_id": "585723",
     "contact_id": "537968236",
     "contact_name": "bayz",
     "contact_identifier": "+971521085291",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4250988539",
+    "parent_ticket_id": "949781673",
+    "event_type": "INBOUND"
   }
 }
