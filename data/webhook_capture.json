@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-11T05:18:44.568Z",
+  "ts": "2026-05-11T05:19:27.959Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4250804080",
+    "type": "INBOUND",
+    "message_id": "4250804300",
     "ticket_id": "949313494",
-    "message": "And the maintenance team will be there between 12 to 1 PM",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Buy it !!\nTell to manager buy it \nit’s not my problem \nI need drying rack at home",
+    "channel_id": "585723",
     "contact_id": "537607776",
     "contact_name": "SHEYDA",
     "contact_identifier": "+971502809008",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4250803987",
+    "parent_ticket_id": "949313494",
+    "event_type": "INBOUND"
   }
 }
