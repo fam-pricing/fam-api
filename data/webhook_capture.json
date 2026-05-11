@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-11T11:48:15.744Z",
+  "ts": "2026-05-11T11:49:08.849Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4251246306",
+    "type": "OUTBOUND",
+    "message_id": "4251247645",
     "ticket_id": "949821871",
-    "message": "Can I make the refundable security deposit amount in three instalments, please?",
-    "channel_id": "585723",
+    "message": "Full deposit must be paid on the same day as the rent. Both the rent and security deposit should be settled together.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537977808",
     "contact_name": "Ashhhh",
     "contact_identifier": "+971582955750",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
