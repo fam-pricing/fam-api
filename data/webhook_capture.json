@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-11T12:17:35.432Z",
+  "ts": "2026-05-11T12:17:45.215Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4251283392",
+    "type": "INBOUND",
+    "message_id": "4251283629",
     "ticket_id": "949821871",
-    "message": "you need 2 bedrooms in same building ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Yes, just in case you have",
+    "channel_id": "585723",
     "contact_id": "537977808",
     "contact_name": "Ashhhh",
     "contact_identifier": "+971582955750",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4251283392",
+    "parent_ticket_id": "949821871",
+    "event_type": "INBOUND"
   }
 }
