@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-11T13:05:21.853Z",
+  "ts": "2026-05-11T13:05:47.351Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4251350346",
-    "ticket_id": "949888067",
-    "message": "I search about studio",
+    "type": "OUTBOUND",
+    "message_id": "4251350838",
+    "ticket_id": "949881208",
+    "message": "As per our team, the door has now been fixed. May I kindly know how else I can assist you?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535926291",
+    "contact_name": "Rimsha Akram",
+    "contact_identifier": "+971526064450",
     "channel_id": "1304636",
-    "contact_id": "537997433",
-    "contact_name": "Salim",
-    "contact_identifier": "+971554178871",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
