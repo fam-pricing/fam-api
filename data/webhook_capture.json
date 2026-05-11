@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-11T07:56:33.433Z",
+  "ts": "2026-05-11T07:56:38.926Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4250940323",
-    "ticket_id": "949770115",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537964154",
-    "contact_name": "Yohan Gregory D Monte D Monte Ronald Gregory",
-    "contact_identifier": "+919271071990",
+    "type": "INBOUND",
+    "message_id": "4250940489",
+    "ticket_id": "949734563",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "537899930",
+    "contact_name": "Vivek N",
+    "contact_identifier": "+971505459800",
+    "parent_message_id": "4250814620",
+    "parent_ticket_id": "949734563",
+    "event_type": "INBOUND"
   }
 }
