@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-11T07:46:57.763Z",
+  "ts": "2026-05-11T07:47:05.335Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4250929112",
+    "type": "OUTBOUND",
+    "message_id": "4250929257",
     "ticket_id": "873321159",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "518768648",
     "contact_name": "Mrs ANDREA PINIELLA ALVAREZ",
     "contact_identifier": "+971588014203",
-    "parent_message_id": "4250928708",
-    "parent_ticket_id": "873321159",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
