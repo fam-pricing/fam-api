@@ -946,3 +946,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-10)
 - If a lead questions the 5,500 AED monthly price, inform them that the security deposit is 3,000 AED.
   (Learned from Faysal handling Z A re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
+
+## Learned (2026-05-11)
+- If a lead asks whether the security deposit can be applied toward rent or is refundable, clarify that the security deposit is fully refundable but cannot be adjusted against rent under any circumstances.
+  (Learned from Faysal handling 😊 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
