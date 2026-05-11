@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-11T10:15:18.762Z",
+  "ts": "2026-05-11T10:16:08.782Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4251130189",
-    "ticket_id": "949824875",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "type": "INBOUND",
+    "message_id": "4251131223",
+    "ticket_id": "949825099",
+    "message": "Hi, check out this property I found on Property Finder.\n\n https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-west-wharf-85744616.html",
+    "channel_id": "1304636",
     "contact_id": "537978912",
     "contact_name": "Richa Jain",
     "contact_identifier": "+971585798788",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
