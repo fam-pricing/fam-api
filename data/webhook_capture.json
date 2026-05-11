@@ -1,19 +1,18 @@
 {
-  "ts": "2026-05-11T12:23:07.449Z",
+  "ts": "2026-05-11T12:23:12.863Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4251295130",
-    "ticket_id": "949741498",
-    "message": "I would prefer to pay through bank transfer",
-    "channel_id": "585723",
-    "contact_id": "537865623",
-    "contact_name": "UMAIR SALEEM",
-    "contact_identifier": "+923314067795",
-    "parent_message_id": "4251246372",
-    "parent_ticket_id": "949741498",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4251295693",
+    "ticket_id": "949871990",
+    "message": "Thanks! You will get a reply by email if you leave this website.",
+    "contact_id": "537993105",
+    "contact_name": "Nelli",
+    "contact_email": "minina1804@mail.ru",
+    "contact_identifier": "51ad5e63-e92e-4932-8469-ea737ce5d0b9",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
