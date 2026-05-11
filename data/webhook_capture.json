@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-11T14:18:03.834Z",
+  "ts": "2026-05-11T14:18:17.435Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4251446848",
-    "ticket_id": "949897405",
-    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537896480",
-    "contact_name": "3D",
-    "contact_identifier": "+971556507344",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4251447080",
+    "ticket_id": "949883425",
+    "message": "You mentioned you can arrange an exception after 6pm…",
+    "channel_id": "1304636",
+    "contact_id": "537827964",
+    "contact_name": "Pablo Benitez",
+    "contact_identifier": "+971503203035",
+    "parent_message_id": "4251341362",
+    "parent_ticket_id": "949883425",
+    "event_type": "INBOUND"
   }
 }
