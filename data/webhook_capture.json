@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-11T17:50:57.190Z",
+  "ts": "2026-05-11T17:51:16.812Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4251658435",
+    "type": "OUTBOUND",
+    "message_id": "4251658666",
     "ticket_id": "949979541",
-    "message": "Yes will this be available by 1st june",
-    "channel_id": "1304636",
+    "message": "Yes, it's available from 1st June. Would you like to arrange a viewing before then?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538023485",
     "contact_name": "Mind Smart Academy",
     "contact_identifier": "+918289893685",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
