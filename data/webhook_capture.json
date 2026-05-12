@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-12T11:49:07.132Z",
+  "ts": "2026-05-12T11:50:28.681Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4252290338",
-    "ticket_id": "949825670",
-    "message": "Need to talk",
-    "channel_id": "585723",
-    "contact_id": "537978912",
-    "contact_name": "Richa Jain",
-    "contact_identifier": "+971585798788",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4252291998",
+    "ticket_id": "950199404",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-opera-district-grande-14592976.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535024594",
+    "contact_name": "R",
+    "contact_identifier": "+971585781304",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
