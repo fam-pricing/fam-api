@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-12T12:41:40.120Z",
+  "ts": "2026-05-12T12:41:41.625Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4252358400",
-    "ticket_id": "949889424",
-    "message": "We will give you a call now",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537353453",
-    "contact_name": "Jack Ward",
-    "contact_identifier": "+447495576908",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4252358440",
+    "ticket_id": "950219168",
+    "message": "?",
+    "channel_id": "883603",
+    "contact_id": "538078200",
+    "contact_name": "Alexander Moskalenko",
+    "contact_identifier": "32fa957c-c799-4cb6-5753-93f9812b3004",
+    "event_type": "INBOUND"
   }
 }
