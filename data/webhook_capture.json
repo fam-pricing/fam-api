@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-12T09:50:17.756Z",
+  "ts": "2026-05-12T09:50:46.908Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4252147853",
+    "type": "INBOUND",
+    "message_id": "4252148442",
     "ticket_id": "949907209",
-    "message": "Monthly works, and June 1 is fine as a move-in date. The rate runs in 3-month blocks, so that would take you through to end of August, want me to send through the pricing for that period?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "in this I am getting list of apartments",
+    "channel_id": "1304636",
     "contact_id": "538001974",
     "contact_name": "Heer NG",
     "contact_identifier": "+918511108666",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
