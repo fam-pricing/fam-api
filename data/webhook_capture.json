@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-12T13:29:35.713Z",
+  "ts": "2026-05-12T13:30:15.983Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4252419348",
-    "ticket_id": "949825670",
-    "message": "Also I have a request , upon inspection I did notice the appliances like oven washer etc needs deep cleaning from inside.  Also the bath tub . Kindly get it thourougly cleaned . Rest all was ok . I have had experience in the past with no deep cleaning done then had to do it all on my own after moving",
-    "channel_id": "585723",
-    "contact_id": "537978912",
-    "contact_name": "Richa Jain",
-    "contact_identifier": "+971585798788",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4252420245",
+    "ticket_id": "950240529",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Bluewaters Building 4\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "538082968",
+    "contact_name": "Kuchkarava Katsiarina",
+    "contact_identifier": "+971557100234",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
