@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-12T10:01:42.958Z",
+  "ts": "2026-05-12T10:10:21.143Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4252162676",
-    "ticket_id": "950157225",
-    "message": "Any time from 6",
+    "type": "OUTBOUND",
+    "message_id": "4252174222",
+    "ticket_id": "949907209",
+    "message": "Hello Heer,\r\n\r\nUnfortunately, this apartment is fully booked and there is no availability at the moment.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538001974",
+    "contact_name": "Heer NG",
+    "contact_identifier": "+918511108666",
     "channel_id": "1304636",
-    "contact_id": "538060959",
-    "contact_name": "Hana",
-    "contact_identifier": "+971507164786",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
