@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-12T05:34:33.427Z",
+  "ts": "2026-05-12T05:55:39.638Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4251887679",
-    "ticket_id": "948551744",
-    "message": "Hi good morning. We apologize for the inconvenience that may have been caused you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "536340091",
-    "contact_name": "Mahassine Al Awad",
-    "contact_identifier": "+971585429848",
+    "type": "INBOUND",
+    "message_id": "4251897183",
+    "ticket_id": "949814626",
+    "message": "?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537976121",
+    "contact_name": "Shrey Jain",
+    "contact_identifier": "+919930996383",
+    "parent_message_id": "4251096654",
+    "parent_ticket_id": "949814626",
+    "event_type": "INBOUND"
   }
 }
