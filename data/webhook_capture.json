@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-12T07:04:16.448Z",
+  "ts": "2026-05-12T07:09:30.446Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4251949585",
+    "type": "OUTBOUND",
+    "message_id": "4251954517",
     "ticket_id": "941451761",
-    "message": "I want to check about this payment",
-    "channel_id": "585723",
+    "message": "Apologies for the delay and yes we have received your payment of 5000 AED",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535680169",
     "contact_name": "HUMAM SHAMDEEN",
     "contact_identifier": "+971555795196",
-    "parent_message_id": "4247577815",
-    "parent_ticket_id": "941451761",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
