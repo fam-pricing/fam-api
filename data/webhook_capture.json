@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-12T15:11:17.361Z",
+  "ts": "2026-05-12T15:11:23.088Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4252545888",
+    "type": "INBOUND",
+    "message_id": "4252545947",
     "ticket_id": "950256107",
-    "message": "Allow me to check and update you upside team now",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Here at the bottom it says success",
+    "channel_id": "1304636",
     "contact_id": "536353062",
     "contact_name": "Yohan Gregory",
     "contact_identifier": "+971509558132",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4252544953",
+    "parent_ticket_id": "950256107",
+    "event_type": "INBOUND"
   }
 }
