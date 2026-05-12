@@ -954,3 +954,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-12)
 - If a lead mentions they are planning a year in advance, inform them that bookings are only available on a monthly basis.
   (Learned from Faysal handling Mind Smart Academy re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-sports-city-canal-residence-arabian-16188259.html)
+
+## Learned (2026-05-12)
+- If a lead asks whether they can pay monthly, clarify the full payment structure for a 6-month booking: the first month's rent, last month's rent, and the security deposit are all due upfront, with the remaining months billed monthly at 30 nights per month.
+  (Learned from Faysal handling RITA H re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2Q1VPFY440G.html)
