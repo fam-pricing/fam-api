@@ -950,3 +950,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-11)
 - If a lead asks whether the security deposit can be applied toward rent or is refundable, clarify that the security deposit is fully refundable but cannot be adjusted against rent under any circumstances.
   (Learned from Faysal handling 😊 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-05-12)
+- If a lead mentions they are planning a year in advance, inform them that bookings are only available on a monthly basis.
+  (Learned from Faysal handling Mind Smart Academy re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-sports-city-canal-residence-arabian-16188259.html)
