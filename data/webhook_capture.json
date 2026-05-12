@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-12T06:26:46.391Z",
+  "ts": "2026-05-12T06:28:13.617Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4251917448",
+    "type": "INBOUND",
+    "message_id": "4251918329",
     "ticket_id": "950081332",
-    "message": "Attachment",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I see no same",
+    "channel_id": "585723",
     "contact_id": "538043163",
     "contact_name": "Thi Tieu Hiep Nguyen",
     "contact_identifier": "+971582652288",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4251917448",
+    "parent_ticket_id": "950081332",
+    "event_type": "INBOUND"
   }
 }
