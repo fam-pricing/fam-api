@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-12T04:57:20.112Z",
+  "ts": "2026-05-12T04:58:00.942Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4251874067",
-    "ticket_id": "949910331",
-    "message": "Hi! It looks like you tried to contact an agent but the enquiry didn't go through. Remember - any changes to a message will result in the enquiry not being sent. Keep searching > https://www.propertyfinder.ae",
+    "type": "OUTBOUND",
+    "message_id": "4251874283",
+    "ticket_id": "950069232",
+    "message": "Good Morning,\r\n\r\nUnfortunately, we are currently fully booked for the Elite 2-bedroom apartment.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537790481",
+    "contact_name": "Akshay N",
+    "contact_identifier": "+971507821911",
     "channel_id": "1304636",
-    "contact_id": "461634798",
-    "contact_name": "97145560367",
-    "contact_identifier": "+97145560367",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
