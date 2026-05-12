@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-12T15:24:23.018Z",
+  "ts": "2026-05-12T15:24:27.104Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4252558215",
-    "ticket_id": "950131949",
-    "message": "Card*",
-    "channel_id": "1304636",
-    "contact_id": "535147845",
-    "contact_name": "Osama Omar",
-    "contact_identifier": "+971556969743",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4252558273",
+    "ticket_id": "950274464",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536353062",
+    "contact_name": "Yohan Gregory",
+    "contact_identifier": "+971509558132",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
