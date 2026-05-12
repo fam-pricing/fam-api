@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-12T12:59:50.176Z",
+  "ts": "2026-05-12T13:00:02.080Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4252382325",
+    "type": "OUTBOUND",
+    "message_id": "4252382561",
     "ticket_id": "950219168",
-    "message": "Hi",
-    "channel_id": "883603",
+    "message": "may i know your unit number ?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538078200",
     "contact_name": "Alexander Moskalenko",
     "contact_identifier": "32fa957c-c799-4cb6-5753-93f9812b3004",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
