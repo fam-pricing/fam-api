@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-12T14:02:14.017Z",
+  "ts": "2026-05-12T14:02:18.377Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4252464284",
-    "ticket_id": "950247613",
-    "message": "Done",
+    "type": "OUTBOUND",
+    "message_id": "4252464416",
+    "ticket_id": "949792137",
+    "message": "You are most welcome",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537970841",
+    "contact_name": "Mayank kejriwal",
+    "contact_identifier": "+971561177107",
     "channel_id": "585723",
-    "contact_id": "537978912",
-    "contact_name": "Richa Jain",
-    "contact_identifier": "+971585798788",
-    "parent_message_id": "4252445657",
-    "parent_ticket_id": "950247613",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
