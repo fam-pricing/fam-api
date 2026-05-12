@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-12T15:21:26.234Z",
+  "ts": "2026-05-12T15:21:32.746Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4252555372",
+    "type": "OUTBOUND",
+    "message_id": "4252555472",
     "ticket_id": "950256107",
-    "message": "Thank you",
-    "channel_id": "1304636",
+    "message": "We have shared your details to the reception",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536353062",
     "contact_name": "Yohan Gregory",
     "contact_identifier": "+971509558132",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
