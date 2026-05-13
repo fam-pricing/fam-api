@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-13T06:39:39.634Z",
+  "ts": "2026-05-13T06:41:08.747Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4252962405",
+    "type": "OUTBOUND",
+    "message_id": "4252963537",
     "ticket_id": "948074761",
-    "message": "Urgently",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "529373197",
     "contact_name": "Ashish Mehta Ravindra Mohan Mehta",
     "contact_identifier": "+971501140847",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
