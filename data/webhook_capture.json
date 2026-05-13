@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-13T13:40:58.540Z",
+  "ts": "2026-05-13T13:41:35.901Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4253503962",
+    "type": "OUTBOUND",
+    "message_id": "4253505133",
     "ticket_id": "950575440",
-    "message": "You have guest today ?",
-    "channel_id": "585723",
+    "message": "Yes our agent is no longer available today for viewing he can assist tomorrow",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538178428",
     "contact_name": "Dr. Barbi Al",
     "contact_identifier": "+971569589393",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
