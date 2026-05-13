@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-13T12:34:40.128Z",
+  "ts": "2026-05-13T12:35:00.858Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4253401065",
+    "type": "OUTBOUND",
+    "message_id": "4253401471",
     "ticket_id": "950529070",
-    "message": "Today for me better",
-    "channel_id": "1304636",
+    "message": "Unfortunately we do not have our agent available for today",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538168752",
     "contact_name": "Vivi",
     "contact_identifier": "+380639712702",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
