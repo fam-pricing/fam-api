@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-13T13:34:27.174Z",
+  "ts": "2026-05-13T13:35:38.979Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4253492012",
+    "type": "OUTBOUND",
+    "message_id": "4253494432",
     "ticket_id": "950575440",
-    "message": "Available?",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538178428",
     "contact_name": "Dr. Barbi Al",
     "contact_identifier": "+971569589393",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
