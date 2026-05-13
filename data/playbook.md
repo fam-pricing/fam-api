@@ -968,3 +968,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-13)
 - When a lead asks for full pricing information before committing, respond with the following: "We can offer this price for a maximum of 3 months at AED 6,500 per month."
   (Learned from Faysal handling Vivi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-palm-jumeirah-the-palm-tower-2PkzmNyowPw.html)
+
+## Learned (2026-05-13)
+- If a lead offers to pay by cheque — regardless of whether they are a UAE resident — politely but firmly decline and inform them that we only accept cash or card payments.
+  (Learned from Faysal handling Vivi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-palm-jumeirah-the-palm-tower-2PkzmNyowPw.html)
