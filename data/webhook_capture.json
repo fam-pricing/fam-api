@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-13T00:02:12.137Z",
+  "ts": "2026-05-13T00:02:35.689Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4252843259",
+    "type": "OUTBOUND",
+    "message_id": "4252843408",
     "ticket_id": "950368803",
-    "message": "Hi how much is rent for this unit for one month",
-    "channel_id": "1304636",
+    "message": "The studio is AED 6,499/month all-inclusive, water, electricity, internet, and VAT covered. Would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538123805",
     "contact_name": "H",
     "contact_identifier": "+971501267344",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
