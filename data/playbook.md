@@ -964,3 +964,7 @@ Please note that building security requires advance notification before granting
 
 "The price is AED 6,500, which includes all bills and taxes. A refundable security deposit of AED 2,000 is also required."
   (Learned from Faysal handling Vivi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-palm-jumeirah-the-palm-tower-2PkzmNyowPw.html)
+
+## Learned (2026-05-13)
+- When a lead asks for full pricing information before committing, respond with the following: "We can offer this price for a maximum of 3 months at AED 6,500 per month."
+  (Learned from Faysal handling Vivi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-palm-jumeirah-the-palm-tower-2PkzmNyowPw.html)
