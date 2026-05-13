@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-13T12:01:26.016Z",
+  "ts": "2026-05-13T12:01:54.316Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4253353245",
+    "type": "OUTBOUND",
+    "message_id": "4253354192",
     "ticket_id": "950529070",
-    "message": "I’m interested to rent 1 June 1 October",
-    "channel_id": "1304636",
+    "message": "That's 4 months, June through October. Just worth knowing the rate is confirmed in 3-month blocks, so month 4 would be reviewed closer to the time based on market conditions.\n\nWant to see some photos of the unit?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538168752",
     "contact_name": "Vivi",
     "contact_identifier": "+380639712702",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
