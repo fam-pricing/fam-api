@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-14T13:51:16.470Z",
+  "ts": "2026-05-14T13:51:25.386Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254424661",
-    "ticket_id": "950816764",
-    "message": "Sol Jama",
+    "type": "OUTBOUND",
+    "message_id": "4254424743",
+    "ticket_id": "950862638",
+    "message": "Arman, let me get someone from the team to coordinate your visit right now!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "538240319",
+    "contact_name": "Arman",
+    "contact_identifier": "+971545555073",
     "channel_id": "1304636",
-    "contact_id": "538230204",
-    "contact_name": "Sol",
-    "contact_identifier": "+971503417608",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
