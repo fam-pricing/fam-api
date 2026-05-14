@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-14T10:20:26.647Z",
+  "ts": "2026-05-14T10:20:29.166Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254224954",
+    "type": "OUTBOUND",
+    "message_id": "4254225039",
     "ticket_id": "950837581",
-    "message": "Hello Fam Team.",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "538233802",
     "contact_name": "Divina",
     "contact_identifier": "43462629-8e6d-4ac5-68cb-67e891e0fb3f",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
