@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-14T05:15:04.875Z",
+  "ts": "2026-05-14T05:15:20.095Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4253979035",
-    "ticket_id": "950671567",
-    "message": "Kindly let us know if you are interested in proceeding with a booking or arranging an in-person viewing. We will be happy to assist you further.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "538031986",
-    "contact_name": "Gohary",
-    "contact_identifier": "+971508749739",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4253979088",
+    "ticket_id": "949305469",
+    "message": "Can you tell me the price of these, or should I come now to see them?",
+    "channel_id": "585723",
+    "contact_id": "537869630",
+    "contact_name": "ملوكاا 💞",
+    "contact_identifier": "+905373592583",
+    "parent_message_id": "4249796712",
+    "parent_ticket_id": "949305469",
+    "event_type": "INBOUND"
   }
 }
