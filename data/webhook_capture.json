@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-14T16:40:31.018Z",
+  "ts": "2026-05-14T16:49:12.314Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254567526",
-    "ticket_id": "950843500",
-    "message": "hello",
+    "type": "OUTBOUND",
+    "message_id": "4254573392",
+    "ticket_id": "950596413",
+    "message": "Unfortunately, we do not have a video available. However, we can arrange an in-person viewing for you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537556289",
+    "contact_name": "✨",
+    "contact_identifier": "+971562034800",
     "channel_id": "1304636",
-    "contact_id": "538235211",
-    "contact_name": "T",
-    "contact_identifier": "+971505543185",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
