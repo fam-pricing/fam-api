@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-14T10:26:41.746Z",
+  "ts": "2026-05-14T10:27:20.996Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254231916",
-    "ticket_id": "948551744",
-    "message": "Hi",
-    "channel_id": "1304636",
-    "contact_id": "536340091",
-    "contact_name": "Mahassine Al Awad",
-    "contact_identifier": "+971585429848",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4254232572",
+    "ticket_id": "945698163",
+    "message": "Dear Kunal,\r\n\r\nUnfortunately, cancellations must be made at least 7 days prior to check-in to be eligible for a refund. As the cancellation was requested within 24 hours, it will be considered non-refundable.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "477060010",
+    "contact_name": "Kunal PA",
+    "contact_identifier": "+971524335902",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
