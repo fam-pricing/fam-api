@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-14T09:50:32.300Z",
+  "ts": "2026-05-14T09:51:21.417Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254187988",
-    "ticket_id": "950816764",
-    "message": "Hello",
-    "channel_id": "1304636",
-    "contact_id": "538230204",
-    "contact_name": "Sol",
-    "contact_identifier": "+971503417608",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4254188926",
+    "ticket_id": "948074761",
+    "message": "Hello Ashish,\r\n\r\nWe sincerely apologize for the delay. As your deposit was paid via bank transfer, could you kindly share your bank details with us so we may proceed with the refund?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "529373197",
+    "contact_name": "Ashish Mehta Ravindra Mohan Mehta",
+    "contact_identifier": "+971501140847",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
