@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-14T10:58:09.324Z",
+  "ts": "2026-05-14T10:58:15.134Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4254260012",
+    "type": "INBOUND",
+    "message_id": "4254260051",
     "ticket_id": "950847706",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
+    "message": "I would like to enquire about short term stay in Downtown",
+    "channel_id": "585723",
     "contact_id": "538236361",
     "contact_name": "Khush",
     "contact_identifier": "+971554285038",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
