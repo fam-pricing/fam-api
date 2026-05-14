@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-14T05:36:10.297Z",
+  "ts": "2026-05-14T05:36:48.512Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4253986381",
+    "type": "OUTBOUND",
+    "message_id": "4253986632",
     "ticket_id": "950757477",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "Good Morning Ilham",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538129428",
     "contact_name": "Ilham",
     "contact_identifier": "+971563446779",
-    "parent_message_id": "4253975369",
-    "parent_ticket_id": "950757477",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
