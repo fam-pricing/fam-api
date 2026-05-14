@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-14T10:52:56.221Z",
+  "ts": "2026-05-14T10:53:00.147Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254255704",
+    "type": "OUTBOUND",
+    "message_id": "4254255743",
     "ticket_id": "950846769",
-    "message": "Do you have availability for a 2 bed unit in downtown from 27th May - 26th June for 2 people?",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "538236020",
     "contact_name": "Khush",
     "contact_identifier": "26544508-84ca-4bfd-ae6c-2f46a3365728",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
