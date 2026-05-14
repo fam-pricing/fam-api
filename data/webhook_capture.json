@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-14T12:02:45.975Z",
+  "ts": "2026-05-14T12:03:01.930Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254324473",
+    "type": "OUTBOUND",
+    "message_id": "4254324716",
     "ticket_id": "950862638",
-    "message": "Available",
-    "channel_id": "1304636",
+    "message": "Just to clarify, this one is for rent only and not available for sale. Would you like to go ahead and rent it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538240319",
     "contact_name": "Arman",
     "contact_identifier": "+971545555073",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
