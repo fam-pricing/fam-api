@@ -976,3 +976,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-14)
 - When a lead requests to arrange a viewing, respond with: "The rate is 5,000 AED per month, and there is also a 2,000 AED deposit required."
   (Learned from Faysal handling Gohary re PF-HH-AR-134391)
+
+## Learned (2026-05-14)
+- If a lead requests a viewing outside business hours (e.g., at 7:00 PM due to work commitments), inform them that viewing timings are from 10:00 AM to 6:00 PM only and invite them to schedule within that window.
+  (Learned from Faysal handling Gohary re PF-HH-AR-134391)
