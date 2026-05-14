@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-14T11:14:54.362Z",
+  "ts": "2026-05-14T11:20:39.579Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254276398",
-    "ticket_id": "950760438",
-    "message": "What’s the lowest price you can give if I book directly from you?",
+    "type": "OUTBOUND",
+    "message_id": "4254281565",
+    "ticket_id": "949850891",
+    "message": "Thank you for the details. We will share them with our finance team and update you once it has been released.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "493096120",
+    "contact_name": "Mr Nicolas Elustondo",
+    "contact_identifier": "+971504576646",
     "channel_id": "585723",
-    "contact_id": "538216682",
-    "contact_name": "Irresistible",
-    "contact_identifier": "+971529175174",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
