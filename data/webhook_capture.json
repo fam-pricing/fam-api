@@ -1,17 +1,19 @@
 {
-  "ts": "2026-05-14T17:22:09.463Z",
+  "ts": "2026-05-14T18:46:07.479Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4254596723",
-    "ticket_id": "949850891",
-    "message": "Thank you for choosing fäm Living, How likely are you to recommend fäm Living to family and friends? https://csat.trengo.com/?uuid=a1c76ef8-99f2-4269-b3b3-e5323978ea69\n",
-    "contact_id": "493096120",
-    "contact_name": "Mr Nicolas Elustondo",
-    "contact_identifier": "+971504576646",
+    "type": "INBOUND",
+    "message_id": "4254647891",
+    "ticket_id": "950841135",
+    "message": "i need to shoot , an video it is important",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "538234550",
+    "contact_name": "Ahmed",
+    "contact_identifier": "+971547925181",
+    "parent_message_id": "4254417182",
+    "parent_ticket_id": "950841135",
+    "event_type": "INBOUND"
   }
 }
