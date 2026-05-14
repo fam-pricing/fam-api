@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-14T07:24:03.221Z",
+  "ts": "2026-05-14T07:24:28.862Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254058831",
+    "type": "OUTBOUND",
+    "message_id": "4254059111",
     "ticket_id": "950773308",
-    "message": "We pay first and last month now + the deposit right ?",
-    "channel_id": "1304636",
+    "message": "That's first month + last month + AED 1,000 deposit, so AED 12,000 upfront in total. Can you send over your passport and email so I can get the payment link to you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538219382",
     "contact_name": "Glory Manuel",
     "contact_identifier": "+33769552076",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
