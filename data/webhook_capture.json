@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-14T07:03:40.981Z",
+  "ts": "2026-05-14T07:04:09.281Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254042670",
+    "type": "OUTBOUND",
+    "message_id": "4254043124",
     "ticket_id": "950773308",
-    "message": "Sure but first I’d like to know what I’m going to pay only rent or fees/ deposit ?",
-    "channel_id": "1304636",
+    "message": "Here's what you'd be paying: first and last month upfront (AED 11,000 total) plus a refundable security deposit of AED 1,000 which comes back to you within 14 working days after check-out. Then it's just monthly rent after that. Does that work for you, Glory?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538219382",
     "contact_name": "Glory Manuel",
     "contact_identifier": "+33769552076",
-    "parent_message_id": "4254039281",
-    "parent_ticket_id": "950773308",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
