@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-14T12:14:14.304Z",
+  "ts": "2026-05-14T12:14:36.043Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254335722",
+    "type": "OUTBOUND",
+    "message_id": "4254336032",
     "ticket_id": "950862638",
-    "message": "Yes",
-    "channel_id": "1304636",
+    "message": "It's available for rent, want to go ahead and book it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538240319",
     "contact_name": "Arman",
     "contact_identifier": "+971545555073",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
