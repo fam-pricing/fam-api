@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-14T13:49:32.200Z",
+  "ts": "2026-05-14T13:49:52.873Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254423144",
+    "type": "OUTBOUND",
+    "message_id": "4254423401",
     "ticket_id": "950862638",
-    "message": "Can we do today",
-    "channel_id": "1304636",
+    "message": "It's available for rent at AED 13,000/month all-inclusive, with a refundable AED 2,000 deposit for a 1-month stay. What day works for a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538240319",
     "contact_name": "Arman",
     "contact_identifier": "+971545555073",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
