@@ -972,3 +972,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-13)
 - If a lead offers to pay by cheque — regardless of whether they are a UAE resident — politely but firmly decline and inform them that we only accept cash or card payments.
   (Learned from Faysal handling Vivi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-palm-jumeirah-the-palm-tower-2PkzmNyowPw.html)
+
+## Learned (2026-05-14)
+- When a lead requests to arrange a viewing, respond with: "The rate is 5,000 AED per month, and there is also a 2,000 AED deposit required."
+  (Learned from Faysal handling Gohary re PF-HH-AR-134391)
