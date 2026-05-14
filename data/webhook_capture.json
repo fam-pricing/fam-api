@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-14T10:43:11.081Z",
+  "ts": "2026-05-14T10:45:11.293Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254246695",
-    "ticket_id": "950816764",
-    "message": "kindly let me know if we can still proceed with the viewing",
+    "type": "OUTBOUND",
+    "message_id": "4254248409",
+    "ticket_id": "950201213",
+    "message": "Yes, we have received your payment. However, it was for a different category/unit, which is AED 5,000. As our colleague previously informed you, booking Unit 406 has a price difference.\r\n\r\nAccordingly, we have shared the payment details for the remaining balance.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537726041",
+    "contact_name": "Assia",
+    "contact_identifier": "+96171384568",
     "channel_id": "1304636",
-    "contact_id": "538230204",
-    "contact_name": "Sol",
-    "contact_identifier": "+971503417608",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
