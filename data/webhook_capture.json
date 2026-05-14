@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-14T09:34:32.632Z",
+  "ts": "2026-05-14T09:42:03.670Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254173100",
-    "ticket_id": "950816764",
-    "message": "can we arrange a viewing?",
-    "channel_id": "1304636",
-    "contact_id": "538230204",
-    "contact_name": "Sol",
-    "contact_identifier": "+971503417608",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4254180397",
+    "ticket_id": "936549278",
+    "message": "Dear Rahimudin,\r\n\r\nWe have received AED 12,000 so far, while the total booking amount is AED 13,000. Could you please confirm how the remaining AED 1,000 will be settled?\r\n\r\nKindly let us know at your earliest convenience.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "534682324",
+    "contact_name": "Rahimudin Mangudin",
+    "contact_identifier": "+447366477777",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
