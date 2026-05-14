@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-14T10:06:47.270Z",
+  "ts": "2026-05-14T10:07:05.105Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4254209847",
+    "type": "INBOUND",
+    "message_id": "4254210301",
     "ticket_id": "950699182",
-    "message": "The 3-month rate lock can be put in writing so each renewal is documented and straightforward. July start works and the unit is ready. Want to come see it?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "^",
+    "channel_id": "1304636",
     "contact_id": "538209128",
     "contact_name": "M@#3R",
     "contact_identifier": "+447429791800",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4254208153",
+    "parent_ticket_id": "950699182",
+    "event_type": "INBOUND"
   }
 }
