@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-14T05:18:38.222Z",
+  "ts": "2026-05-14T05:19:02.452Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4253979887",
+    "type": "OUTBOUND",
+    "message_id": "4253979982",
     "ticket_id": "950575440",
-    "message": "This is on grande signature ?",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538178428",
     "contact_name": "Dr. Barbi Al",
     "contact_identifier": "+971569589393",
-    "parent_message_id": "4253491624",
-    "parent_ticket_id": "950575440",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
