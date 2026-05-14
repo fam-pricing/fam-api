@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-14T08:43:11.507Z",
+  "ts": "2026-05-14T08:43:23.081Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4254127387",
-    "ticket_id": "950201213",
-    "message": "Dear Assia,\r\n\r\nI hope you are doing well.\r\n\r\nWe have received information that the check-in is for 3 adults. As this is a 1-bedroom category, the maximum occupancy is 2 guests.\r\n\r\nCould you please confirm the exact number of guests who will be checking in?\r\n\r\nThank you, and we look forward to your response.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537726041",
-    "contact_name": "Assia",
-    "contact_identifier": "+96171384568",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4254127526",
+    "ticket_id": "936549278",
+    "message": "Done ✅",
+    "channel_id": "585723",
+    "contact_id": "534682324",
+    "contact_name": "Rahimudin Mangudin",
+    "contact_identifier": "+447366477777",
+    "parent_message_id": "4254124632",
+    "parent_ticket_id": "936549278",
+    "event_type": "INBOUND"
   }
 }
