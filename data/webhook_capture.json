@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-15T13:38:01.106Z",
+  "ts": "2026-05-15T13:38:38.954Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4255351012",
+    "type": "INBOUND",
+    "message_id": "4255351569",
     "ticket_id": "936734695",
-    "message": "Okay, we will proceed with the booking and send you the confirmation shortly.\r\n\r\nRegarding the payment, you may either pay in cash or make a bank transfer as well. Please let us know your preferred option.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Yes",
+    "channel_id": "585723",
     "contact_id": "534737062",
     "contact_name": "IFEOMA NWAOGU",
     "contact_identifier": "+971525824134",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4255351012",
+    "parent_ticket_id": "936734695",
+    "event_type": "INBOUND"
   }
 }
