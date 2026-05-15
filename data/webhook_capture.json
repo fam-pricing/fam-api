@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-15T07:12:35.384Z",
+  "ts": "2026-05-15T07:13:50.720Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254902229",
+    "type": "OUTBOUND",
+    "message_id": "4254903392",
     "ticket_id": "951075424",
-    "message": "I’m ready to proceed if it’s same rate that I have 3,160, and would like ask discount for deposit as well not 1000 , only 500 I can give 🙏🏼🙏🏼",
-    "channel_id": "585723",
+    "message": "Unfortunately, no. The security deposit is AED 2,000. However, we have already reduced it for you. You may also check our website to review our deposit policy.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538283576",
     "contact_name": ".",
     "contact_identifier": "+971581044058",
-    "parent_message_id": "4254899064",
-    "parent_ticket_id": "951075424",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
