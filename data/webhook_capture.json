@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-15T04:12:01.589Z",
+  "ts": "2026-05-15T04:12:21.858Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254809156",
+    "type": "OUTBOUND",
+    "message_id": "4254809195",
     "ticket_id": "951046259",
-    "message": "Yes wanted to know if the pictures are actual property pictures?\nAlso the rental is 6.6k/ month, right",
-    "channel_id": "1304636",
+    "message": "Yes, those are actual photos of the property. Would you like to come take a look?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538277572",
     "contact_name": "Sunil",
     "contact_identifier": "+971556854403",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
