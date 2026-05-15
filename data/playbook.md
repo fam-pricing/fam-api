@@ -990,3 +990,11 @@ Please note that building security requires advance notification before granting
 
 "The rate is 13,500 AED for 1 month (30 nights). A refundable deposit of 3,000 AED is also required."
   (Learned from Faysal handling Arman re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-the-address-residences-dubai-opera-the-address-residences-dubai-opera-tower-1-15597551.html)
+
+## Learned (2026-05-15)
+- When a lead confirms interest in viewing and asks about pricing after September and/or requests additional available units, respond with the following:
+
+Thank them for their interest, then let them know that the current rate can be held for a maximum of 2 months only. Remind them that viewings are available every day between 9:00 AM and 6:00 PM, and invite them to confirm a date that works for them.
+
+If they have requested additional units in Business Bay or Downtown within their budget, share any suitable listings at this stage.
+  (Learned from Faysal handling Lisa Camalet re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
