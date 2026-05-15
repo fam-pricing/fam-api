@@ -1,20 +1,18 @@
 {
-  "ts": "2026-05-15T11:25:05.498Z",
+  "ts": "2026-05-15T11:29:02.360Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4255219437",
-    "ticket_id": "949561387",
-    "message": "Good afternoon Ms. Eliza,\r\n\r\nRegarding this matter, we kindly request you to contact our team at pm@famliving.com or reach out to the below number, where they will be able to assist you further.\r\n\r\nName: Sneha\r\nNumber: 055 538 6230\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "280507914",
-    "contact_name": "Ms Eliza",
-    "contact_identifier": "+971586017110",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4255223239",
+    "ticket_id": "950784721",
+    "message": "Just the above info would be great, Based on that, I can run a more accurate estimate with Skylee from a net returns perspective while also factoring in the agency fee structure on your side for your review and see if we could align better.",
+    "channel_id": "1304636",
+    "contact_id": "536625460",
+    "contact_identifier": "+447768275134",
+    "parent_message_id": "4255216794",
+    "parent_ticket_id": "950784721",
+    "event_type": "INBOUND"
   }
 }
