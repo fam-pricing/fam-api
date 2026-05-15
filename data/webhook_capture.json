@@ -1,16 +1,19 @@
 {
-  "ts": "2026-05-15T08:56:14.738Z",
+  "ts": "2026-05-15T08:57:09.651Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255025891",
+    "type": "OUTBOUND",
+    "message_id": "4255026837",
     "ticket_id": "950784721",
-    "message": "I can run the numbers and get back to you with an estimate for you to review. Would that be okay?",
-    "channel_id": "1304636",
+    "message": "yes, it will be fine",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536625460",
     "contact_identifier": "+447768275134",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
