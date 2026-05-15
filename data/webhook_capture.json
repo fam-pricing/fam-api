@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-15T08:37:46.981Z",
+  "ts": "2026-05-15T08:38:06.385Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4255007624",
-    "ticket_id": "951064226",
-    "message": "well noted, we will inform the team",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "536501473",
-    "contact_name": "Joubert Rocha Chaves",
-    "contact_identifier": "+971586730550",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4255007909",
+    "ticket_id": "950921829",
+    "message": "do u have any discounts or promotions?",
+    "channel_id": "585723",
+    "contact_id": "538252849",
+    "contact_name": "S3eed",
+    "contact_identifier": "+971502266558",
+    "parent_message_id": "4255007366",
+    "parent_ticket_id": "950921829",
+    "event_type": "INBOUND"
   }
 }
