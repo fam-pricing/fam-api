@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-15T05:41:43.776Z",
+  "ts": "2026-05-15T05:43:02.525Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254834265",
+    "type": "OUTBOUND",
+    "message_id": "4254834633",
     "ticket_id": "951052810",
-    "message": "Document",
-    "channel_id": "585723",
+    "message": "Thank you for competing the check in from Mrs Alanoud",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535867634",
     "contact_name": "Alanoud Almarar",
     "contact_identifier": "+971567530017",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
