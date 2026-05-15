@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-15T09:27:18.961Z",
+  "ts": "2026-05-15T09:28:31.778Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255064882",
-    "ticket_id": "948551744",
-    "message": "Update me please",
+    "type": "OUTBOUND",
+    "message_id": "4255068582",
+    "ticket_id": "950789090",
+    "message": "Dear Mrs. Hanan,\r\n\r\nWe have checked with our team, and regarding the kitchen pots, unfortunately, it will not be possible to replace or change them, and they will remain as they are.\r\n\r\nHowever, for the access card, we have already updated your details with Emaar Management, and it should now be working.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537634308",
+    "contact_name": "Hanan Ibrahim",
+    "contact_identifier": "+971559022022",
     "channel_id": "1304636",
-    "contact_id": "536340091",
-    "contact_name": "Mahassine Al Awad",
-    "contact_identifier": "+971585429848",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
