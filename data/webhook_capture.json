@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-15T08:08:39.625Z",
+  "ts": "2026-05-15T08:09:04.505Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254954384",
+    "type": "OUTBOUND",
+    "message_id": "4254954738",
     "ticket_id": "951075424",
-    "message": "Thanks",
-    "channel_id": "585723",
+    "message": "They will be there at 2:30pm so you can be there at the reception please",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538283576",
     "contact_name": "Aisha Umidovna Akhmedova",
     "contact_identifier": "+971581044058",
-    "parent_message_id": "4254952133",
-    "parent_ticket_id": "951075424",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
