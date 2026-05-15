@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-15T03:37:37.504Z",
+  "ts": "2026-05-15T03:37:44.995Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254800347",
+    "type": "OUTBOUND",
+    "message_id": "4254800355",
     "ticket_id": "951040365",
-    "message": "What could be the rent after the 1st 3 months?",
-    "channel_id": "1304636",
+    "message": "Pricing is fixed on this one, so no discount available. The 6-month structure means the first 3 months are locked in, and the second block gets confirmed closer to the time based on market rates. Want to come see it first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538276942",
     "contact_name": "Sheila",
     "contact_identifier": "+15068899244",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
