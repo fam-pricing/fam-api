@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-15T06:36:17.576Z",
+  "ts": "2026-05-15T06:37:27.329Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4254871673",
+    "type": "INBOUND",
+    "message_id": "4254872827",
     "ticket_id": "949313494",
-    "message": "Apart from the water leakage, may I know what other issues you are facing? Please let us know so we can inform the team.",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": ".",
+    "channel_id": "585723",
     "contact_id": "537607776",
     "contact_name": "SHEYDA",
     "contact_identifier": "+971502809008",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4253821568",
+    "parent_ticket_id": "949313494",
+    "event_type": "INBOUND"
   }
 }
