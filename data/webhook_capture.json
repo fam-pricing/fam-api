@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-15T08:27:50.379Z",
+  "ts": "2026-05-15T08:28:10.672Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4254989515",
-    "ticket_id": "951064226",
-    "message": "Good morning Joubert,\r\n\r\nThank you for the update. Could you please let us know what time today our team can come to collect the cash?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "536501473",
-    "contact_name": "Joubert Rocha Chaves",
-    "contact_identifier": "+971586730550",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4254991311",
+    "ticket_id": "951097881",
+    "message": "Confirm",
+    "channel_id": "585723",
+    "contact_id": "538291048",
+    "contact_name": "Hayder",
+    "contact_identifier": "+971565996969",
+    "parent_message_id": "4254976699",
+    "parent_ticket_id": "951097881",
+    "event_type": "INBOUND"
   }
 }
