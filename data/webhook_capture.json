@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-15T13:14:45.000Z",
+  "ts": "2026-05-15T13:14:52.010Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255329050",
-    "ticket_id": "951171700",
-    "message": "That’s okay I didn’t know. I can do that from now on. Thank you!",
-    "channel_id": "1304636",
-    "contact_id": "536353062",
-    "contact_name": "Yohan Gregory",
-    "contact_identifier": "+971509558132",
-    "parent_message_id": "4255313891",
-    "parent_ticket_id": "951171700",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4255329183",
+    "ticket_id": "951097881",
+    "message": "Yes, Mr. Hayder, we are happy to assist you. During your stay, if you need anything, please feel free to let us know and we will be glad to support you accordingly.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538291048",
+    "contact_name": "Hayder",
+    "contact_identifier": "+971565996969",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
