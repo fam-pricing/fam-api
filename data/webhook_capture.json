@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-15T13:45:01.621Z",
+  "ts": "2026-05-15T13:51:00.359Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255357841",
-    "ticket_id": "951193609",
-    "message": "Can you send this over via email jack@interactivepharma.com",
+    "type": "OUTBOUND",
+    "message_id": "4255363830",
+    "ticket_id": "951145467",
+    "message": "let me check for you",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538306008",
+    "contact_name": "Ane",
+    "contact_identifier": "+971551725273",
     "channel_id": "1304636",
-    "contact_id": "537353453",
-    "contact_name": "Jack Ward",
-    "contact_identifier": "+447495576908",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
