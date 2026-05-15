@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-15T06:55:50.388Z",
+  "ts": "2026-05-15T06:55:56.202Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254887041",
-    "ticket_id": "950921829",
-    "message": "im asking",
+    "type": "OUTBOUND",
+    "message_id": "4254887109",
+    "ticket_id": "951075424",
+    "message": "may i have your booking confirmation number please ?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538283576",
+    "contact_name": ".",
+    "contact_identifier": "+971581044058",
     "channel_id": "585723",
-    "contact_id": "538252849",
-    "contact_name": "S3eed",
-    "contact_identifier": "+971502266558",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
