@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-15T09:51:47.123Z",
+  "ts": "2026-05-15T09:51:53.276Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255125453",
-    "ticket_id": "929667673",
-    "message": "Heater has low with water in the room",
+    "type": "OUTBOUND",
+    "message_id": "4255125559",
+    "ticket_id": "924810041",
+    "message": "Attachment",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "531782816",
+    "contact_name": "Denis Byvaltsev",
+    "contact_identifier": "+971524851531",
     "channel_id": "585723",
-    "contact_id": "532944791",
-    "contact_name": "Moza",
-    "contact_identifier": "+971561115622",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
