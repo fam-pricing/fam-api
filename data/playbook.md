@@ -980,3 +980,7 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-14)
 - If a lead requests a viewing outside business hours (e.g., at 7:00 PM due to work commitments), inform them that viewing timings are from 10:00 AM to 6:00 PM only and invite them to schedule within that window.
   (Learned from Faysal handling Gohary re PF-HH-AR-134391)
+
+## Learned (2026-05-15)
+- If a lead asks whether the security deposit is fully refundable, confirm that it will be refunded in full at check-out, provided there are no damages to the apartment, and that the refund will be processed within 7 working days of their departure.
+  (Learned from Faysal handling Abderahman Aitouche re Studio in Azizi Riviera 16)
