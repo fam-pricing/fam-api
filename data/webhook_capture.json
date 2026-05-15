@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-15T03:44:20.863Z",
+  "ts": "2026-05-15T03:44:44.185Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4254801421",
+    "type": "INBOUND",
+    "message_id": "4254801459",
     "ticket_id": "951040365",
-    "message": "In that range we also have a 2BR in Urban Oasis at AED 8,000/month, or there's a 3BR in Dubai Creek Residences at AED 11,000 if you'd want more space. Both are all-inclusive. Which one would you like to know more about?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Where is urban oasis?",
+    "channel_id": "1304636",
     "contact_id": "538276942",
     "contact_name": "Sheila",
     "contact_identifier": "+15068899244",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
