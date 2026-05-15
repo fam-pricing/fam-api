@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-15T06:58:54.152Z",
+  "ts": "2026-05-15T07:01:17.201Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254889220",
+    "type": "OUTBOUND",
+    "message_id": "4254891206",
     "ticket_id": "951075424",
-    "message": "15-31",
-    "channel_id": "585723",
+    "message": "Let me check if we can proceed with the booking. Please note that the payment must be completed via card to confirm the reservation.\r\n\r\nKindly let me know what time you would like to check in, and I will coordinate with the team and update you accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538283576",
     "contact_name": ".",
     "contact_identifier": "+971581044058",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
