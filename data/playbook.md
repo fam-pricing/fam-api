@@ -984,3 +984,9 @@ Please note that building security requires advance notification before granting
 ## Learned (2026-05-15)
 - If a lead asks whether the security deposit is fully refundable, confirm that it will be refunded in full at check-out, provided there are no damages to the apartment, and that the refund will be processed within 7 working days of their departure.
   (Learned from Faysal handling Abderahman Aitouche re Studio in Azizi Riviera 16)
+
+## Learned (2026-05-15)
+- When a lead sends a vague opening inquiry such as "Hi, do you have anything available?", respond with the following:
+
+"The rate is 13,500 AED for 1 month (30 nights). A refundable deposit of 3,000 AED is also required."
+  (Learned from Faysal handling Arman re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-the-address-residences-dubai-opera-the-address-residences-dubai-opera-tower-1-15597551.html)
