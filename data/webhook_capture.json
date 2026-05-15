@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-15T12:16:52.450Z",
+  "ts": "2026-05-15T12:16:56.927Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255269994",
+    "type": "OUTBOUND",
+    "message_id": "4255270067",
     "ticket_id": "950860144",
-    "message": "??",
-    "channel_id": "1304636",
+    "message": "Unfortunately, after 6:00 PM, the building management does not allow viewings. However, if you would like, we can reschedule the viewing for tomorrow between 9:00 AM and 6:00 PM.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537801340",
     "contact_name": "M",
     "contact_identifier": "+971562990311",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
