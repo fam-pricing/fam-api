@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-15T08:52:53.890Z",
+  "ts": "2026-05-15T08:53:12.015Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4255022604",
+    "type": "INBOUND",
+    "message_id": "4255022923",
     "ticket_id": "950860144",
-    "message": "viewing can be done before 6pm only please",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "It depends about the apartment",
+    "channel_id": "1304636",
     "contact_id": "537801340",
     "contact_name": "M",
     "contact_identifier": "+971562990311",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4255022389",
+    "parent_ticket_id": "950860144",
+    "event_type": "INBOUND"
   }
 }
