@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-15T06:21:13.822Z",
+  "ts": "2026-05-15T06:22:14.097Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4254860792",
+    "type": "OUTBOUND",
+    "message_id": "4254861534",
     "ticket_id": "941501853",
-    "message": "Yes",
-    "channel_id": "585723",
+    "message": "Well noted Mrs Alex thank you for your update",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "535128769",
     "contact_name": "Alex",
     "contact_identifier": "+256742443400",
-    "parent_message_id": "4254853105",
-    "parent_ticket_id": "941501853",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
