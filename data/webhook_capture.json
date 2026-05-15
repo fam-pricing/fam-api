@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-15T12:14:18.481Z",
+  "ts": "2026-05-15T12:14:49.018Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255267476",
-    "ticket_id": "951158022",
-    "message": "I’m staying in Bayz By Danube, apartment 2005. I would like reconfirm by stay for the next three months, I had spoken to Chahana about this",
+    "type": "OUTBOUND",
+    "message_id": "4255268037",
+    "ticket_id": "950860144",
+    "message": "We can offer you this apartment at a final price of AED 4,500 for 1 month (30 nights).",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537801340",
+    "contact_name": "M",
+    "contact_identifier": "+971562990311",
     "channel_id": "1304636",
-    "contact_id": "535952622",
-    "contact_name": "Simone Chhabda",
-    "contact_identifier": "+971581770094",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
