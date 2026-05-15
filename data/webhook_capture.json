@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-15T15:40:49.917Z",
+  "ts": "2026-05-15T15:44:18.813Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255465526",
-    "ticket_id": "951158022",
-    "message": "Can I please speak with someone?",
+    "type": "OUTBOUND",
+    "message_id": "4255467918",
+    "ticket_id": "950645407",
+    "message": "it will be on 8th floor",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536129807",
+    "contact_name": "Viktoria",
+    "contact_identifier": "+971504217383",
     "channel_id": "1304636",
-    "contact_id": "535952622",
-    "contact_name": "Simone Pravin Chhabda Pravin Kishan Chhabda",
-    "contact_identifier": "+971581770094",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
