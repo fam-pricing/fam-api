@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-15T13:14:52.010Z",
+  "ts": "2026-05-15T13:15:10.496Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4255329183",
-    "ticket_id": "951097881",
-    "message": "Yes, Mr. Hayder, we are happy to assist you. During your stay, if you need anything, please feel free to let us know and we will be glad to support you accordingly.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "538291048",
-    "contact_name": "Hayder",
-    "contact_identifier": "+971565996969",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4255329491",
+    "ticket_id": "950645407",
+    "message": "What is the month rate?",
+    "channel_id": "1304636",
+    "contact_id": "536129807",
+    "contact_name": "Viktoria",
+    "contact_identifier": "+971504217383",
+    "event_type": "INBOUND"
   }
 }
