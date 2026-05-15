@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-15T13:17:45.967Z",
+  "ts": "2026-05-15T13:18:56.219Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4255331941",
-    "ticket_id": "950645407",
-    "message": "It will be AED 6,000 for 1 month (30 nights), and there is also a security deposit of AED 2,000.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "536129807",
-    "contact_name": "Viktoria",
-    "contact_identifier": "+971504217383",
+    "type": "INBOUND",
+    "message_id": "4255333012",
+    "ticket_id": "951145467",
+    "message": "Is this available?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538306008",
+    "contact_name": "Ane",
+    "contact_identifier": "+971551725273",
+    "parent_message_id": "4255317256",
+    "parent_ticket_id": "951145467",
+    "event_type": "INBOUND"
   }
 }
