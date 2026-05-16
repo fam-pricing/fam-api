@@ -1004,3 +1004,9 @@ If they have requested additional units in Business Bay or Downtown within their
 
 "Our viewing hours are from 10:00 AM to 6:00 PM. If you arrive before 6:00 PM, that works perfectly — we can arrange your viewing between 4:00 PM and 6:00 PM. Thank you!"
   (Learned from Faysal handling Sunil re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-85302784.html)
+
+## Learned (2026-05-16)
+- If a lead sends a ❤️ emoji, respond with:
+
+"Unfortunately, parking is not included as this is a hotel property. If you require parking, our outsourced concierge team can assist with arrangements, though additional charges may apply."
+  (Learned from Faysal handling Daniel re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-signature-hotel-apartments-spa-marina-78186662.html)
