@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-16T12:25:10.847Z",
+  "ts": "2026-05-16T12:26:46.934Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255922920",
+    "type": "OUTBOUND",
+    "message_id": "4255923784",
     "ticket_id": "951355235",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "Good afternoon Rahimudin,\r\n\r\nI hope you are doing well.\r\n\r\nWe would like to kindly follow up regarding your pending payment of AED 1,000. Our team visited your apartment earlier but did not receive a response.\r\n\r\nCould you please let us know how you would like to proceed with the payment?\r\n\r\nThank you, and we look forward to your response.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "534682324",
     "contact_name": "Rahimudin Mangudin",
     "contact_identifier": "+447366477777",
-    "parent_message_id": "4255922783",
-    "parent_ticket_id": "951355235",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
