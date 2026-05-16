@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-16T11:15:03.930Z",
+  "ts": "2026-05-16T11:15:30.660Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255885142",
+    "type": "OUTBOUND",
+    "message_id": "4255885367",
     "ticket_id": "951265423",
-    "message": "Deposit? Commission?",
-    "channel_id": "1304636",
+    "message": "Security deposit is AED 1,500, fully refundable at check-out. No commission, wait, no dash, no commission, and the price is all-inclusive.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538357750",
     "contact_name": "V",
     "contact_identifier": "+971554831031",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
