@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-16T10:42:18.678Z",
+  "ts": "2026-05-16T10:42:30.190Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255866337",
+    "type": "OUTBOUND",
+    "message_id": "4255866519",
     "ticket_id": "951325558",
-    "message": "I can confirm that by tomorrow evening is that okay ?",
-    "channel_id": "1304636",
+    "message": "sure, its fine",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536120342",
     "contact_name": "Rakshith Totalekere",
     "contact_identifier": "+971502469315",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
