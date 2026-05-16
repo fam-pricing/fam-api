@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-16T03:42:41.311Z",
+  "ts": "2026-05-16T03:42:50.101Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255694192",
+    "type": "OUTBOUND",
+    "message_id": "4255694204",
     "ticket_id": "951289273",
-    "message": "Is there any chance for getting discount?",
-    "channel_id": "1304636",
+    "message": "Available on a monthly basis with no fixed end date, so your 3-month stay works perfectly. Would you like to move in soon?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538363776",
     "contact_name": "Dr. Aylar",
     "contact_identifier": "+971507955452",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
