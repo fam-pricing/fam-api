@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-16T08:28:14.371Z",
+  "ts": "2026-05-16T08:29:14.147Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255792536",
-    "ticket_id": "906744230",
-    "message": "🙏",
+    "type": "OUTBOUND",
+    "message_id": "4255793192",
+    "ticket_id": "951199783",
+    "message": "Unfortunately, for short-term bookings, we are unable to arrange a viewing, Mariam.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "182824734",
+    "contact_name": "Mariam Alshomali",
+    "contact_identifier": "+971529827611",
     "channel_id": "585723",
-    "contact_id": "352711534",
-    "contact_name": "Mohammed Alhemeiri",
-    "contact_identifier": "+971509552269",
-    "parent_message_id": "4255792453",
-    "parent_ticket_id": "906744230",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
