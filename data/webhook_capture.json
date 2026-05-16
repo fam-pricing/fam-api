@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-16T05:32:50.958Z",
+  "ts": "2026-05-16T05:33:45.967Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255713316",
-    "ticket_id": "951225357",
-    "message": "Thank you for your message. We are currently unavailable.\n\nRegarding appointments, our clinic coordinator, Ms. Nahla, will contact you. For any medical emergencies or urgent medical advice, Dr. Haitham will contact you as soon as he is available.For all other non-urgent inquiries, we will reply to your message between 4:00 PM – 6:00 PM, Sun-Fri\nللمواعيد، ستتواصل معكم  السيدة نهلة.وللحالات الطبية الطارئة، سيتواصل د. هيثم معكم بأقرب وقت ممكن.أما الاستفسارات الأخرى،سيتم الرد عليها بين٤-٦ مساء من الاحد للجمعة",
+    "type": "OUTBOUND",
+    "message_id": "4255713455",
+    "ticket_id": "951139768",
+    "message": "Please provide the Emirates ID or passport copy details of all guests who will be arriving with you? We need this information to register all guests in advance.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538304118",
+    "contact_name": "Mason Alexander",
+    "contact_identifier": "+17472569820",
     "channel_id": "585723",
-    "contact_id": "538341561",
-    "contact_name": "Dr Haitham Mouded",
-    "contact_identifier": "+971569259716",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
