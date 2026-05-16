@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-16T11:24:17.665Z",
+  "ts": "2026-05-16T11:24:22.585Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4255890145",
-    "ticket_id": "937192947",
-    "message": "Is there anything else I can help you with today ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "534886793",
-    "contact_name": "Muhammad Diab",
-    "contact_identifier": "+971527166175",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4255890250",
+    "ticket_id": "951265423",
+    "message": "You said 1500 deposit",
+    "channel_id": "1304636",
+    "contact_id": "538357750",
+    "contact_name": "V",
+    "contact_identifier": "+971554831031",
+    "event_type": "INBOUND"
   }
 }
