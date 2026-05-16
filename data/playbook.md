@@ -998,3 +998,9 @@ Thank them for their interest, then let them know that the current rate can be h
 
 If they have requested additional units in Business Bay or Downtown within their budget, share any suitable listings at this stage.
   (Learned from Faysal handling Lisa Camalet re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
+
+## Learned (2026-05-16)
+- When a lead says they will confirm or arrive "mostly between 4–6," respond with:
+
+"Our viewing hours are from 10:00 AM to 6:00 PM. If you arrive before 6:00 PM, that works perfectly — we can arrange your viewing between 4:00 PM and 6:00 PM. Thank you!"
+  (Learned from Faysal handling Sunil re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-85302784.html)
