@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-16T11:24:03.845Z",
+  "ts": "2026-05-16T11:24:07.930Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4255890033",
-    "ticket_id": "951139768",
-    "message": "So may I know what time you will arrive for the check-in?\r\n\r\nAlso, we have already received the two passport copies.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "538304118",
-    "contact_name": "Mason Alexander",
-    "contact_identifier": "+17472569820",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4255890067",
+    "ticket_id": "951337559",
+    "message": "Let’s say tomorrow 1 pm?",
+    "channel_id": "1304636",
+    "contact_id": "536245418",
+    "contact_name": "Ufuk Gökmen",
+    "contact_identifier": "+971525203982",
+    "event_type": "INBOUND"
   }
 }
