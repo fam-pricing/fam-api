@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-16T13:39:56.413Z",
+  "ts": "2026-05-16T13:40:35.597Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255961543",
-    "ticket_id": "951151060",
-    "message": "Can you tell me the price of the apartment in bayz by Danube from May 30th until end of September?",
+    "type": "OUTBOUND",
+    "message_id": "4255961971",
+    "ticket_id": "951328442",
+    "message": "Here is the payment link for the deposit: https://totalpay.ae/payment/20260516076a0873b78ee64",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538375001",
+    "contact_name": "Timur Aghayev",
+    "contact_identifier": "+971561630343",
     "channel_id": "1304636",
-    "contact_id": "538310079",
-    "contact_name": "Lisa Camalet",
-    "contact_identifier": "+971501542726",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
