@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-16T10:11:55.651Z",
+  "ts": "2026-05-16T10:12:36.949Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4255849129",
+    "type": "INBOUND",
+    "message_id": "4255849491",
     "ticket_id": "951199783",
-    "message": "Thank you for completing the check-in for Ms. Mariam.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "For the deposit is it mandatory?",
+    "channel_id": "585723",
     "contact_id": "182824734",
     "contact_name": "Mariam Alshomali",
     "contact_identifier": "+971529827611",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
