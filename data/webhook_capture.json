@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-16T15:11:00.088Z",
+  "ts": "2026-05-16T15:11:20.393Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256015873",
+    "type": "OUTBOUND",
+    "message_id": "4256016017",
     "ticket_id": "951386839",
-    "message": "Good evening",
-    "channel_id": "1304636",
+    "message": "Good evening! The studio is AED 4,500/month, all-inclusive. Would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538393867",
     "contact_name": "so....",
     "contact_identifier": "+971523191957",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
