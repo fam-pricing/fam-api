@@ -1,19 +1,17 @@
 {
-  "ts": "2026-05-16T07:34:44.060Z",
+  "ts": "2026-05-16T07:34:45.423Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255764106",
+    "type": "OUTBOUND",
+    "message_id": "4255764120",
     "ticket_id": "951312196",
-    "message": "???",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "538369528",
     "contact_name": "Joweria Nakyanzi Sempijja",
     "contact_identifier": "+971507184922",
-    "parent_message_id": "4255763116",
-    "parent_ticket_id": "951312196",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
