@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-16T09:30:55.559Z",
+  "ts": "2026-05-16T09:32:43.543Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4255825798",
-    "ticket_id": "951139768",
-    "message": "Could you please update us on your estimated arrival time thank you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "538304118",
-    "contact_name": "Mason Alexander",
-    "contact_identifier": "+17472569820",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4255826688",
+    "ticket_id": "951046259",
+    "message": "👍",
+    "channel_id": "1304636",
+    "contact_id": "538277572",
+    "contact_name": "Sunil",
+    "contact_identifier": "+971556854403",
+    "parent_message_id": "4255824739",
+    "parent_ticket_id": "951046259",
+    "event_type": "INBOUND"
   }
 }
