@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-16T11:12:00.357Z",
+  "ts": "2026-05-16T11:12:13.315Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4255883345",
+    "type": "INBOUND",
+    "message_id": "4255883497",
     "ticket_id": "951340900",
-    "message": "We would like to inform you that our team will provide the kitchen staff tomorrow. Thank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍🏻",
+    "channel_id": "585723",
     "contact_id": "537634308",
     "contact_name": "Hanan Ibrahim",
     "contact_identifier": "+971559022022",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4255883345",
+    "parent_ticket_id": "951340900",
+    "event_type": "INBOUND"
   }
 }
