@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-16T11:21:03.913Z",
+  "ts": "2026-05-16T11:21:18.714Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255888433",
-    "ticket_id": "951345992",
-    "message": "5th June",
+    "type": "OUTBOUND",
+    "message_id": "4255888574",
+    "ticket_id": "951236644",
+    "message": "Okay, to arrange the viewing, could you please share your ID? We need it to update the building team for access to the apartment.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538346358",
+    "contact_name": "Kassie",
+    "contact_identifier": "+971509980020",
     "channel_id": "1304636",
-    "contact_id": "537802319",
-    "contact_name": "Fio",
-    "contact_identifier": "+971521531175",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
