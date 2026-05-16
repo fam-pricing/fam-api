@@ -1,53 +1,5 @@
 [
   {
-    "ts": "2026-05-09T06:59:43.866Z",
-    "ticket_id": 949079182,
-    "lead_id": "message_lead_29201229",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 798,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-05-09T07:07:29.684Z",
-    "ticket_id": 949079182,
-    "lead_id": "message_lead_29201229",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1007,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-05-09T07:30:55.614Z",
-    "ticket_id": 949079182,
-    "lead_id": "message_lead_29201229",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 910,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-05-09T08:12:05.687Z",
-    "ticket_id": 949339890,
-    "lead_id": "message_lead_29218253",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1347,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
     "ts": "2026-05-09T09:17:29.107Z",
     "ticket_id": 949079182,
     "lead_id": "message_lead_29201229",
@@ -1942,5 +1894,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-05-16T09:16:33.110Z",
+    "ticket_id": 951328436,
+    "lead_id": "message_lead_29358329",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 21395,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "Lead Daniel is asking about a 2BR in Signature Hotel Apartments (78186662) with check-in 19 June 2026 and check-out 19 April 2027 (10 months). This is long-term pricing beyond 3 months. Also needs confirmation on whether 2 parking spots can be accommodated for this unit. Both require manager input."
   }
 ]
