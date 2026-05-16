@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-16T09:15:52.275Z",
+  "ts": "2026-05-16T09:16:11.716Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4255817412",
-    "ticket_id": "951328442",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Bluewaters Building 4\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "538375001",
-    "contact_name": "Timur Aghayev",
-    "contact_identifier": "+971561630343",
+    "type": "INBOUND",
+    "message_id": "4255817535",
+    "ticket_id": "951328436",
+    "message": "I’m looking for a 2-bedroom apartment for a short-term/medium-term rental, with check-in on 19 June 2026 and check-out on 19 April 2027. We will require two parking spots, so please only share options where this can be accommodated, whether the apartment already includes one or two spaces or where an additional parking space can be arranged. Ideally, we are looking for a well-maintained apartment in a good building, with clear pricing and all terms confirmed upfront.",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538374997",
+    "contact_name": "Daniel",
+    "contact_identifier": "+971545829412",
+    "event_type": "INBOUND"
   }
 }
