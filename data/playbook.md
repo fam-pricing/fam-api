@@ -1010,3 +1010,9 @@ If they have requested additional units in Business Bay or Downtown within their
 
 "Unfortunately, parking is not included as this is a hotel property. If you require parking, our outsourced concierge team can assist with arrangements, though additional charges may apply."
   (Learned from Faysal handling Daniel re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-signature-hotel-apartments-spa-marina-78186662.html)
+
+## Learned (2026-05-16)
+- When a lead confirms they want to proceed, reply:
+
+"Great! To get your booking started, please share your Emirates ID or passport copy along with your email address. Once we receive these, we'll send you the payment link for the deposit to secure the unit."
+  (Learned from Faysal handling Timur Aghayev re 2BR in Bluewaters Building 4)
