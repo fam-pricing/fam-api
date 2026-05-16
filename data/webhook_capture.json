@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-16T09:20:37.939Z",
+  "ts": "2026-05-16T09:21:04.064Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255819985",
+    "type": "OUTBOUND",
+    "message_id": "4255820212",
     "ticket_id": "951328442",
-    "message": "First i want to know exactly price for this property \nProbably i would reschedule to 30 August",
-    "channel_id": "1304636",
+    "message": "The price is AED 19,999/month all-inclusive, available from 22 May. If 30 August works better as your end date, that's no problem at all. How long are you thinking of staying?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538375001",
     "contact_name": "Timur Aghayev",
     "contact_identifier": "+971561630343",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
