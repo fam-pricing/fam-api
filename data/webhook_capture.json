@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-16T14:34:19.108Z",
+  "ts": "2026-05-16T14:40:41.025Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4255998674",
-    "ticket_id": "951363543",
-    "message": "Monday works, what time suits you best?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "538387886",
-    "contact_name": "Zayneb",
-    "contact_identifier": "+971527223095",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4256001703",
+    "ticket_id": "951312196",
+    "message": "Hello what’s the earliest check in time?",
+    "channel_id": "585723",
+    "contact_id": "538369528",
+    "contact_name": "Joweria Nakyanzi Sempijja",
+    "contact_identifier": "+971507184922",
+    "event_type": "INBOUND"
   }
 }
