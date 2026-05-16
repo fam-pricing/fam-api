@@ -1,17 +1,5 @@
 [
   {
-    "ts": "2026-05-09T09:17:29.107Z",
-    "ticket_id": 949079182,
-    "lead_id": "message_lead_29201229",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 919,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-05-09T09:22:51.257Z",
     "ticket_id": 949079182,
     "lead_id": "message_lead_29201229",
@@ -1906,5 +1894,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "Lead Daniel is asking about a 2BR in Signature Hotel Apartments (78186662) with check-in 19 June 2026 and check-out 19 April 2027 (10 months). This is long-term pricing beyond 3 months. Also needs confirmation on whether 2 parking spots can be accommodated for this unit. Both require manager input."
+  },
+  {
+    "ts": "2026-05-16T09:21:45.744Z",
+    "ticket_id": 951046259,
+    "lead_id": "message_lead_29334483",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 827,
+    "critic_pass": null,
+    "lead_quality": 65,
+    "buying_stage": "WARM",
+    "skip_reason": "bot_paused"
   }
 ]
