@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-16T09:16:18.083Z",
+  "ts": "2026-05-16T09:16:36.370Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255817640",
-    "ticket_id": "951328442",
-    "message": "Hello",
+    "type": "OUTBOUND",
+    "message_id": "4255817929",
+    "ticket_id": "951328436",
+    "message": "Thanks for the detail, Daniel, that really helps. Let me check the parking situation and confirm the full terms for your dates, and I'll come back to you shortly.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "538374997",
+    "contact_name": "Daniel",
+    "contact_identifier": "+971545829412",
     "channel_id": "1304636",
-    "contact_id": "538375001",
-    "contact_name": "Timur Aghayev",
-    "contact_identifier": "+971561630343",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
