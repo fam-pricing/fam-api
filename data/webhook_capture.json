@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-16T11:40:06.861Z",
+  "ts": "2026-05-16T11:40:49.065Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255898935",
-    "ticket_id": "951151060",
-    "message": "I can’t find it",
+    "type": "OUTBOUND",
+    "message_id": "4255899312",
+    "ticket_id": "951328442",
+    "message": "As the unit was available on the online platform, it has now been booked.\r\n\r\nHowever, if you would like, we can still arrange a viewing today before 6 PM. Unfortunately, tomorrow it will not be possible due to existing bookings.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538375001",
+    "contact_name": "Timur Aghayev",
+    "contact_identifier": "+971561630343",
     "channel_id": "1304636",
-    "contact_id": "538310079",
-    "contact_name": "Lisa Camalet",
-    "contact_identifier": "+971501542726",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
