@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-16T03:41:01.295Z",
+  "ts": "2026-05-16T03:41:22.254Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255693954",
+    "type": "OUTBOUND",
+    "message_id": "4255694084",
     "ticket_id": "951289273",
-    "message": "Hello, how long is this unit available for ?",
-    "channel_id": "1304636",
+    "message": "The 1BR in Viridian Central Park is available now and you can move in right away. How long are you looking to stay?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538363776",
     "contact_name": "Dr. Aylar",
     "contact_identifier": "+971507955452",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
