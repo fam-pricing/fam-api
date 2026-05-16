@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-16T09:07:45.928Z",
+  "ts": "2026-05-16T09:08:22.003Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255813046",
+    "type": "OUTBOUND",
+    "message_id": "4255813336",
     "ticket_id": "951199783",
-    "message": "I need to understand if this is confirmed or not",
-    "channel_id": "585723",
+    "message": "yes, that rate is confirm which we have send you",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "182824734",
     "contact_name": "Mariam Alshomali",
     "contact_identifier": "+971529827611",
-    "parent_message_id": "4255736610",
-    "parent_ticket_id": "951199783",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
