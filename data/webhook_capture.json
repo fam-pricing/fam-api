@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-16T11:54:41.766Z",
+  "ts": "2026-05-16T11:54:59.010Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255906848",
-    "ticket_id": "951265423",
-    "message": "👍",
+    "type": "OUTBOUND",
+    "message_id": "4255907029",
+    "ticket_id": "951345992",
+    "message": "Monday works, what time suits you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537802319",
+    "contact_name": "Fio",
+    "contact_identifier": "+971521531175",
     "channel_id": "1304636",
-    "contact_id": "538357750",
-    "contact_name": "V",
-    "contact_identifier": "+971554831031",
-    "parent_message_id": "4255898379",
-    "parent_ticket_id": "951265423",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
