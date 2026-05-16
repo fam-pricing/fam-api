@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-16T11:24:22.585Z",
+  "ts": "2026-05-16T11:24:31.410Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255890250",
-    "ticket_id": "951265423",
-    "message": "You said 1500 deposit",
+    "type": "OUTBOUND",
+    "message_id": "4255890393",
+    "ticket_id": "951337559",
+    "message": "sure, we can arrange tomorrow 1pm",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536245418",
+    "contact_name": "Ufuk Gökmen",
+    "contact_identifier": "+971525203982",
     "channel_id": "1304636",
-    "contact_id": "538357750",
-    "contact_name": "V",
-    "contact_identifier": "+971554831031",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
