@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-16T03:43:05.712Z",
+  "ts": "2026-05-16T03:43:33.405Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4255694222",
+    "type": "OUTBOUND",
+    "message_id": "4255694261",
     "ticket_id": "951289273",
-    "message": "Yes",
-    "channel_id": "1304636",
+    "message": "No room to move on price, it's already set at market level for this building. A 3-month stay works perfectly. What date were you thinking of moving in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538363776",
     "contact_name": "Dr. Aylar",
     "contact_identifier": "+971507955452",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
