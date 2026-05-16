@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-16T16:10:58.594Z",
+  "ts": "2026-05-16T16:30:25.154Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4256042214",
-    "ticket_id": "951312196",
-    "message": "please complete the check in process via above link",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "538369528",
-    "contact_name": "Joweria Nakyanzi Sempijja",
-    "contact_identifier": "+971507184922",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4256049460",
+    "ticket_id": "951396206",
+    "message": "Discount was 1500 aed",
+    "channel_id": "1304636",
+    "contact_id": "538375001",
+    "contact_name": "Timur Aghayev",
+    "contact_identifier": "+971561630343",
+    "event_type": "INBOUND"
   }
 }
