@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-17T09:43:47.617Z",
+  "ts": "2026-05-17T09:43:48.146Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256306703",
-    "ticket_id": "951486771",
-    "message": "We are waiting for the refund that we paid in advance for a full month though we didn’t receive from you any service.\nWe are still waiting to get back our money !!!",
+    "type": "OUTBOUND",
+    "message_id": "4256306710",
+    "ticket_id": "951486581",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535634432",
+    "contact_name": "Raha",
+    "contact_identifier": "+971566081840",
     "channel_id": "1304636",
-    "contact_id": "537726041",
-    "contact_name": "Assia",
-    "contact_identifier": "+96171384568",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
