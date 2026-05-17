@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-17T08:54:12.347Z",
+  "ts": "2026-05-17T08:54:13.106Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256282131",
+    "type": "OUTBOUND",
+    "message_id": "4256282130",
     "ticket_id": "951480428",
-    "message": "rent",
-    "channel_id": "883603",
+    "message": "It's a beautiful day at fäm Living; how can I help you?",
     "contact_id": "538417868",
     "contact_name": "rent",
     "contact_identifier": "2c8f6cf0-21a6-47c6-d535-9531573218a7",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
