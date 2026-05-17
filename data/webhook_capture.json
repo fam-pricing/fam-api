@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-17T09:42:17.298Z",
+  "ts": "2026-05-17T09:42:41.103Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256306071",
-    "ticket_id": "951486581",
-    "message": "Can you please handle this?",
-    "channel_id": "1304636",
-    "contact_id": "535634432",
-    "contact_name": "Raha",
-    "contact_identifier": "+971566081840",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4256306278",
+    "ticket_id": "951052568",
+    "message": "Can you please sign the agreement for the new check -in",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538278673",
+    "contact_name": "Suhail Al Mansoori",
+    "contact_identifier": "+971507223733",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
