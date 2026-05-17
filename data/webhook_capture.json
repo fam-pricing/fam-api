@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-17T09:02:50.520Z",
+  "ts": "2026-05-17T09:02:53.442Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256286716",
-    "ticket_id": "951481585",
-    "message": "We would like to book this apartment and we want to move on Friday",
-    "channel_id": "1304636",
-    "contact_id": "536129807",
-    "contact_name": "Viktoria",
-    "contact_identifier": "+971504217383",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4256286752",
+    "ticket_id": "951312196",
+    "message": "Our agent will contact you shortly",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538369528",
+    "contact_name": "Joweria Nakyanzi Sempijja",
+    "contact_identifier": "+971507184922",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
