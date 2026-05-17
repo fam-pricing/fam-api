@@ -1030,3 +1030,7 @@ If they have requested additional units in Business Bay or Downtown within their
 
 "The available price is 6,000 AED per month, inclusive of all bills and taxes. A refundable security deposit of 3,000 AED is also required."
   (Learned from Faysal handling islam ibrahim re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-sports-city-canal-residence-arabian-16188259.html)
+
+## Learned (2026-05-17)
+- If a lead declines paying monthly in advance, inform them that blocking the full calendar requires 2 months' payment in advance plus a security deposit.
+  (Learned from Faysal handling islam ibrahim re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-sports-city-canal-residence-arabian-16188259.html)
