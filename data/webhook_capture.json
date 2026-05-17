@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-17T10:45:05.856Z",
+  "ts": "2026-05-17T10:45:41.237Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256335907",
-    "ticket_id": "951490668",
-    "message": "With maids?",
-    "channel_id": "585723",
-    "contact_id": "129473446",
-    "contact_name": "Ahmed AlSheebani",
-    "contact_identifier": "+971502152215",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4256336210",
+    "ticket_id": "951495041",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-13851925.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "538422502",
+    "contact_name": "Emi",
+    "contact_identifier": "+971545126008",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
