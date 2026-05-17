@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-17T08:53:31.633Z",
+  "ts": "2026-05-17T08:53:32.847Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256281792",
+    "type": "OUTBOUND",
+    "message_id": "4256281808",
     "ticket_id": "951480336",
-    "message": "Hi I am looking for a 3 bedroom",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "538417841",
     "contact_name": "Bashir",
     "contact_identifier": "989294c7-aeaf-4dac-1bc7-beaee0b5b0f4",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
