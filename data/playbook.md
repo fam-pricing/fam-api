@@ -1034,3 +1034,7 @@ If they have requested additional units in Business Bay or Downtown within their
 ## Learned (2026-05-17)
 - If a lead declines paying monthly in advance, inform them that blocking the full calendar requires 2 months' payment in advance plus a security deposit.
   (Learned from Faysal handling islam ibrahim re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-sports-city-canal-residence-arabian-16188259.html)
+
+## Learned (2026-05-17)
+- If a lead requests a bulk or upfront payment discount (e.g., "I'll pay 2 months together if you lower the rate"), respond by stating that prices are fixed and no discount can be offered.
+  (Learned from Faysal handling islam ibrahim re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-sports-city-canal-residence-arabian-16188259.html)
