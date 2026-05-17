@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-17T10:14:08.901Z",
+  "ts": "2026-05-17T10:15:34.854Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256321389",
+    "type": "OUTBOUND",
+    "message_id": "4256322271",
     "ticket_id": "951477830",
-    "message": "I am waiting for someone to contact me with the location and viewing details. Can you see the previous conversation?",
-    "channel_id": "1304636",
+    "message": "Your viewing is confirmed today at 3 pm in bayz by danube",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538417004",
     "contact_name": "Aqueel",
     "contact_identifier": "+971504372981",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
