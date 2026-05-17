@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-17T10:57:01.595Z",
+  "ts": "2026-05-17T10:57:09.757Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256341489",
+    "type": "OUTBOUND",
+    "message_id": "4256341553",
     "ticket_id": "871900501",
-    "message": "Kindly am looking for room 1 person \nFrom 26 to 30 may",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "508572288",
     "contact_name": "Tahseen Ayash",
     "contact_identifier": "+966543515544",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
