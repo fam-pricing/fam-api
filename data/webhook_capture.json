@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-17T09:43:48.146Z",
+  "ts": "2026-05-17T09:43:57.866Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4256306710",
-    "ticket_id": "951486581",
-    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535634432",
-    "contact_name": "Raha",
-    "contact_identifier": "+971566081840",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4256306780",
+    "ticket_id": "951052568",
+    "message": "I think The above link is expired",
+    "channel_id": "585723",
+    "contact_id": "538278673",
+    "contact_name": "Suhail Al Mansoori",
+    "contact_identifier": "+971507223733",
+    "event_type": "INBOUND"
   }
 }
