@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-17T10:05:52.476Z",
+  "ts": "2026-05-17T10:05:59.071Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4256317699",
+    "type": "INBOUND",
+    "message_id": "4256317750",
     "ticket_id": "951482393",
-    "message": "3 bedrooms",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "And where is the location",
+    "channel_id": "585723",
     "contact_id": "146347558",
     "contact_name": "Amira",
     "contact_identifier": "+971563366619",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4256316991",
+    "parent_ticket_id": "951482393",
+    "event_type": "INBOUND"
   }
 }
