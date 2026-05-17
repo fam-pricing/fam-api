@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-17T06:16:03.455Z",
+  "ts": "2026-05-17T06:18:28.946Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256214622",
-    "ticket_id": "951052568",
-    "message": "I just booked a 1 bedroom apartment\n\nI will check out from the current apartment, will go and drop my wife's friend to her house then come back with my wife",
-    "channel_id": "585723",
-    "contact_id": "538278673",
-    "contact_name": "Suhail Al Mansoori",
-    "contact_identifier": "+971507223733",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4256215474",
+    "ticket_id": "951441068",
+    "message": "Allow me to check please",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538409255",
+    "contact_name": "Raja Hilal",
+    "contact_identifier": "+971543227523",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
