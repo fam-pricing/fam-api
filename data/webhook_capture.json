@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-17T05:46:30.343Z",
+  "ts": "2026-05-17T05:46:58.937Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4256207119",
+    "type": "INBOUND",
+    "message_id": "4256207198",
     "ticket_id": "951441068",
-    "message": "Can you please advise which unit you are looking to book",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nPF-HH-AR-134391\n\nHow can I help you today?",
+    "channel_id": "1304636",
     "contact_id": "538409255",
     "contact_name": "Raja Hilal",
     "contact_identifier": "+971543227523",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
