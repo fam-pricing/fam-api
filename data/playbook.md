@@ -1024,3 +1024,9 @@ If they have requested additional units in Business Bay or Downtown within their
 ## Learned (2026-05-17)
 - If a lead requests a yearly contract, respond: "At this price, we can offer a maximum term of 3 months."
   (Learned from Faysal handling Raja Hilal re PF-HH-AR-134391)
+
+## Learned (2026-05-17)
+- If a lead asks about a 4-month stay, respond with the following:
+
+"The available price is 6,000 AED per month, inclusive of all bills and taxes. A refundable security deposit of 3,000 AED is also required."
+  (Learned from Faysal handling islam ibrahim re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-sports-city-canal-residence-arabian-16188259.html)
