@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-17T09:05:08.898Z",
+  "ts": "2026-05-17T09:05:10.325Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4256288086",
+    "type": "INBOUND",
+    "message_id": "4256288113",
     "ticket_id": "951481585",
-    "message": "mag 1 bedroom when is the check-in date",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "What will be the price for 6 months ?",
+    "channel_id": "1304636",
     "contact_id": "536129807",
     "contact_name": "Viktoria",
     "contact_identifier": "+971504217383",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4255331941",
+    "parent_ticket_id": "951481585",
+    "event_type": "INBOUND"
   }
 }
