@@ -1016,3 +1016,7 @@ If they have requested additional units in Business Bay or Downtown within their
 
 "Great! To get your booking started, please share your Emirates ID or passport copy along with your email address. Once we receive these, we'll send you the payment link for the deposit to secure the unit."
   (Learned from Faysal handling Timur Aghayev re 2BR in Bluewaters Building 4)
+
+## Learned (2026-05-17)
+- If a lead requests either June 17 or June 30, respond with: "The price for those dates is AED 5,000, inclusive of all bills and taxes. A refundable deposit of AED 2,000 is also required."
+  (Learned from Faysal handling Anjali re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
