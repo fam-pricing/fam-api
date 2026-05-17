@@ -1020,3 +1020,7 @@ If they have requested additional units in Business Bay or Downtown within their
 ## Learned (2026-05-17)
 - If a lead requests either June 17 or June 30, respond with: "The price for those dates is AED 5,000, inclusive of all bills and taxes. A refundable deposit of AED 2,000 is also required."
   (Learned from Faysal handling Anjali re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
+
+## Learned (2026-05-17)
+- If a lead requests a yearly contract, respond: "At this price, we can offer a maximum term of 3 months."
+  (Learned from Faysal handling Raja Hilal re PF-HH-AR-134391)
