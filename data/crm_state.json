@@ -18455,7 +18455,7 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html",
     "trengo_ticket_id": 951487091,
     "lead_name": "Vanessa",
-    "last_bot_reply_content": "Vanessa, understood, no problem at all. Is there a different type of property or area you're looking for? Happy to point you in the right direction.\n\nWait, I need to recheck myself. Let me re-examine.\n\nThe draft contains \", \" (em dash) in \"up or down with the market, it doesn't mean\", actually no, let me recheck the draft for em dashes. The draft uses commas, not em dashes. But the lead's message is \"Yes this is not for me\", meaning they're rejecting the property/arrangement. The draft ignores this and tries to re-explain the rental terms, which fails Rule 2 (engaged with lead context) and potentially Rule 3 (repeating info already given about 3-month blocks).\n\nAlso my corrected reply above contains \", \" which violates Rule 9.\n\n\nVanessa, no worries at all. Is there a different setup you had in mind, or a different area you're considering? I can try to help point you somewhere that fits better.",
+    "last_bot_reply_content": "Vanessa, let me get someone from the team to help you sort out the yearly arrangement. They'll be with you shortly.",
     "last_bot_reply_at": "2026-05-17T09:51:02.920Z",
     "lead_replied": true,
     "lead_replied_at": "2026-05-17T09:51:02.920Z",
@@ -18470,7 +18470,10 @@
       "move-in intent",
       "payment/booking intent",
       "pricing enquiry"
-    ]
+    ],
+    "bot_paused": true,
+    "last_escalated_at": "2026-05-17T09:53:19.086Z",
+    "last_escalated_question": null
   },
   "message_lead_29377104": {
     "stage": "new",
