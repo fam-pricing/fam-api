@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-17T08:48:55.240Z",
+  "ts": "2026-05-17T08:49:21.970Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4256279753",
-    "ticket_id": "951337559",
-    "message": "Hello you have reached upside living",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536245418",
-    "contact_name": "Ufuk Gökmen",
-    "contact_identifier": "+971525203982",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4256279930",
+    "ticket_id": "951312196",
+    "message": "Can we check in early please?",
+    "channel_id": "585723",
+    "contact_id": "538369528",
+    "contact_name": "Joweria Nakyanzi Sempijja",
+    "contact_identifier": "+971507184922",
+    "event_type": "INBOUND"
   }
 }
