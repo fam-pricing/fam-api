@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-17T08:54:44.637Z",
+  "ts": "2026-05-17T08:57:49.521Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256282482",
-    "ticket_id": "951480336",
-    "message": "Hello?",
-    "channel_id": "883603",
-    "contact_id": "538417841",
-    "contact_name": "Bashir",
-    "contact_identifier": "989294c7-aeaf-4dac-1bc7-beaee0b5b0f4",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4256283951",
+    "ticket_id": "951312196",
+    "message": "apartment is not yet ready for the check in",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538369528",
+    "contact_name": "Joweria Nakyanzi Sempijja",
+    "contact_identifier": "+971507184922",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
