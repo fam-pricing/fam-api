@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-17T08:32:45.928Z",
+  "ts": "2026-05-17T08:33:12.749Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256271918",
+    "type": "OUTBOUND",
+    "message_id": "4256272142",
     "ticket_id": "951477830",
-    "message": "Move in date around 21 June",
-    "channel_id": "1304636",
+    "message": "June 21 works as a move-in date. For a 6-month stay, we lock in the rate for the first 3 months, then confirm the following 3 based on market conditions at that time. Would you like to arrange a viewing before we take it further?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538417004",
     "contact_name": "Aqueel",
     "contact_identifier": "+971504372981",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
