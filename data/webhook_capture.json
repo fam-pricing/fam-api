@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-17T05:01:55.305Z",
+  "ts": "2026-05-17T05:23:18.095Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256197706",
-    "ticket_id": "951441068",
-    "message": "Ok",
+    "type": "OUTBOUND",
+    "message_id": "4256201940",
+    "ticket_id": "951064226",
+    "message": "Thank you Mr Joubert we received the amount",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "536501473",
+    "contact_name": "Joubert Rocha Chaves",
+    "contact_identifier": "+971586730550",
     "channel_id": "1304636",
-    "contact_id": "538409255",
-    "contact_name": "Raja Hilal",
-    "contact_identifier": "+971543227523",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
