@@ -1038,3 +1038,9 @@ If they have requested additional units in Business Bay or Downtown within their
 ## Learned (2026-05-17)
 - If a lead requests a bulk or upfront payment discount (e.g., "I'll pay 2 months together if you lower the rate"), respond by stating that prices are fixed and no discount can be offered.
   (Learned from Faysal handling islam ibrahim re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-sports-city-canal-residence-arabian-16188259.html)
+
+## Learned (2026-05-17)
+- If a lead responds with 👍, reply with the following message:
+
+"The yearly price is 160,000 AED, inclusive of all bills and taxes."
+  (Learned from Faysal handling Vanessa re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
