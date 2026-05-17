@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-17T07:18:04.867Z",
+  "ts": "2026-05-17T07:19:56.480Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4256236195",
+    "type": "INBOUND",
+    "message_id": "4256237033",
     "ticket_id": "951448527",
-    "message": "please note that if you wish to block the full calendar you have to pay 2 months in advance and deposit",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "It's more in one time \nIf you make for me good discount like 5000 per month can pay 2 months together",
+    "channel_id": "1304636",
     "contact_id": "538410385",
     "contact_name": "islam ibrahim",
     "contact_identifier": "+971566833096",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4256236195",
+    "parent_ticket_id": "951448527",
+    "event_type": "INBOUND"
   }
 }
