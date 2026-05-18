@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-18T07:16:57.313Z",
+  "ts": "2026-05-18T07:25:17.895Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256776913",
-    "ticket_id": "951628157",
-    "message": "Hello?",
+    "type": "OUTBOUND",
+    "message_id": "4256786521",
+    "ticket_id": "951645241",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nPF-HH-AR-135642\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "538463470",
+    "contact_name": "Isma",
+    "contact_identifier": "+995599045592",
     "channel_id": "1304636",
-    "contact_id": "538459352",
-    "contact_name": "SENA",
-    "contact_identifier": "+971566358484",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
