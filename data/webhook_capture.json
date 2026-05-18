@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-18T08:17:53.092Z",
+  "ts": "2026-05-18T08:21:44.645Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256851944",
+    "type": "OUTBOUND",
+    "message_id": "4256856990",
     "ticket_id": "951628157",
-    "message": "Do you have any unit that flat rate?",
-    "channel_id": "1304636",
+    "message": "Unfortunately, no. The rates mentioned above will be the fixed rates for you. Since holiday home pricing is subject to market changes, rates may vary.\r\n\r\nHowever, if you are happy with the above offer, we can fix this rate for you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538459352",
     "contact_name": "SENA",
     "contact_identifier": "+971566358484",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
