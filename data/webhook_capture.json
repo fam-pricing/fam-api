@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-18T10:35:19.182Z",
+  "ts": "2026-05-18T10:39:54.951Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4257036362",
+    "type": "OUTBOUND",
+    "message_id": "4257042100",
     "ticket_id": "951337559",
-    "message": "NOMOD as usual",
-    "channel_id": "1304636",
+    "message": "Sure, you can make the payment by American Express; however, a 3.1% card fee will apply on top of the rent amount.\r\n\r\nRent: AED 4,500\r\nTotal including 3.1% fee: AED 4,639.5",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536245418",
     "contact_name": "Ufuk Gökmen",
     "contact_identifier": "+971525203982",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
