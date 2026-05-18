@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-18T11:45:34.928Z",
+  "ts": "2026-05-18T11:47:19.419Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4257127990",
-    "ticket_id": "951728382",
-    "message": "It's AED 6,000/month all-inclusive, water, electricity, internet, and VAT. Would you like to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "538490039",
-    "contact_name": "Ali",
-    "contact_identifier": "+9647517499150",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4257130258",
+    "ticket_id": "951657693",
+    "message": "Confirm",
+    "channel_id": "585723",
+    "contact_id": "538466901",
+    "contact_name": "Pratham Shivnani Purshotham Shivnani",
+    "contact_identifier": "+971568658283",
+    "parent_message_id": "4256835057",
+    "parent_ticket_id": "951657693",
+    "event_type": "INBOUND"
   }
 }
