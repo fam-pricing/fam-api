@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-18T08:50:47.132Z",
+  "ts": "2026-05-18T08:53:36.762Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4256896044",
-    "ticket_id": "951656042",
-    "message": "Well noted. We will inform our team to assist you with the cash collection. Alternatively, will you be passing by our office, Sofiane?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "536394570",
-    "contact_name": "Sofiane",
-    "contact_identifier": "+33695624458",
+    "type": "INBOUND",
+    "message_id": "4256900014",
+    "ticket_id": "951617602",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "538457647",
+    "contact_name": "Tim Dominik Germany",
+    "contact_identifier": "+56931740105",
+    "parent_message_id": "4256824710",
+    "parent_ticket_id": "951617602",
+    "event_type": "INBOUND"
   }
 }
