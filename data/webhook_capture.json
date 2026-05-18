@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-18T12:19:19.853Z",
+  "ts": "2026-05-18T12:19:22.742Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4257171806",
+    "type": "OUTBOUND",
+    "message_id": "4257171876",
     "ticket_id": "951739814",
-    "message": "Hello, just would like to ask for your room/apartment rates for this coming EID. May 27 for 7 adults 1 child 4 yo",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "538494084",
     "contact_name": "gen",
     "contact_identifier": "201d0de9-2f38-482c-dce0-b00a29fa5298",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
