@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-18T14:00:06.919Z",
+  "ts": "2026-05-18T14:02:43.422Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4257303627",
-    "ticket_id": "951763108",
-    "message": "Please find below our Booking.com link for more information about our apartments at 3-Bedroom Apartment in Creek Gate.\r\n\r\nhttps://booking.com/hotel/ae/fam-living-creek-gate-3bedroom-sea-view.en.html",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "538494084",
-    "contact_name": "gen",
-    "contact_identifier": "201d0de9-2f38-482c-dce0-b00a29fa5298",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4257307099",
+    "ticket_id": "951756507",
+    "message": "Confirm",
+    "channel_id": "585723",
+    "contact_id": "538499549",
+    "contact_name": "Ahmad",
+    "contact_identifier": "+971545438045",
+    "parent_message_id": "4257242855",
+    "parent_ticket_id": "951756507",
+    "event_type": "INBOUND"
   }
 }
