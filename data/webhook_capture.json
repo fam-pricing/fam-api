@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-18T10:01:27.531Z",
+  "ts": "2026-05-18T10:02:19.577Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4256992173",
+    "type": "INBOUND",
+    "message_id": "4256993338",
     "ticket_id": "951617602",
-    "message": "Thank you. We will proceed with the booking and send you the confirmation.\r\n\r\nJust to double confirm, your check-in date is from 20th May to 3rd June, correct?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Yes",
+    "channel_id": "585723",
     "contact_id": "538457647",
     "contact_name": "Tim Dominik Germany",
     "contact_identifier": "+56931740105",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
