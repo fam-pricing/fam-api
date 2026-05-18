@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-18T13:26:26.716Z",
+  "ts": "2026-05-18T13:28:30.700Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4257259094",
-    "ticket_id": "951739814",
-    "message": "Hello yes",
-    "channel_id": "883603",
-    "contact_id": "538494084",
-    "contact_name": "gen",
-    "contact_identifier": "201d0de9-2f38-482c-dce0-b00a29fa5298",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4257261829",
+    "ticket_id": "951728382",
+    "message": "Good Afternoon Ali,\r\n\r\nUnfortunately, we do not have a video for this apartment. However, we can arrange an in-person viewing tomorrow. Would that be convenient for you?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538490039",
+    "contact_name": "Ali",
+    "contact_identifier": "+9647517499150",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
