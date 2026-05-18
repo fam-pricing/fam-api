@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-18T05:58:49.177Z",
+  "ts": "2026-05-18T06:02:09.567Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256707853",
+    "type": "OUTBOUND",
+    "message_id": "4256711684",
     "ticket_id": "951614358",
-    "message": "Till what time we can do may i ask?",
-    "channel_id": "585723",
+    "message": "Check-out time is at 12 PM. However, as mentioned earlier, you may visit unit 2018 if you would like to check out early.\r\nOne of our team members will assist you,\r\n\r\nor they will come at 12 PM for the check-out process.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536120342",
     "contact_name": "Rakshith Totalekere",
     "contact_identifier": "+971502469315",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
