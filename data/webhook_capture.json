@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-18T05:39:24.090Z",
+  "ts": "2026-05-18T05:41:03.135Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4256698235",
-    "ticket_id": "934199428",
-    "message": "No, 909 is already occupied, and we already have a booking for 709 starting from tomorrow.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "534076190",
-    "contact_name": "Thanvir Aafaq",
-    "contact_identifier": "+971521229233",
+    "type": "INBOUND",
+    "message_id": "4256698948",
+    "ticket_id": "951614358",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "536120342",
+    "contact_name": "Rakshith Totalekere",
+    "contact_identifier": "+971502469315",
+    "parent_message_id": "4256685140",
+    "parent_ticket_id": "951614358",
+    "event_type": "INBOUND"
   }
 }
