@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-18T11:40:45.591Z",
+  "ts": "2026-05-18T11:42:12.257Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4257121928",
+    "type": "INBOUND",
+    "message_id": "4257123818",
     "ticket_id": "951728382",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-al-safa-al-safa-1-13851850.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Send photos of the property",
+    "channel_id": "1304636",
     "contact_id": "538490039",
     "contact_name": "Ali",
     "contact_identifier": "+9647517499150",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
