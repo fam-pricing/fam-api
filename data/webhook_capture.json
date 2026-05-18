@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-18T13:38:22.988Z",
+  "ts": "2026-05-18T13:40:01.757Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4257275235",
+    "type": "OUTBOUND",
+    "message_id": "4257277373",
     "ticket_id": "951728382",
-    "message": "Will you reduce the price?",
-    "channel_id": "1304636",
+    "message": "Unfortunately, the price remains the same at AED 6,000 for 1 month (30 nights). A deposit of AED 2,000 is also required.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538490039",
     "contact_name": "Ali",
     "contact_identifier": "+9647517499150",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
