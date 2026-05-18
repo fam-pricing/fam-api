@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-18T09:52:20.222Z",
+  "ts": "2026-05-18T09:56:56.948Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4256979888",
+    "type": "OUTBOUND",
+    "message_id": "4256986118",
     "ticket_id": "951617602",
-    "message": "Yes please",
-    "channel_id": "585723",
+    "message": "Perfect, may I have your email address please? We already have your passport copy, so I can proceed with the booking and send you the payment link to confirm your reservation accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538457647",
     "contact_name": "Tim Dominik Germany",
     "contact_identifier": "+56931740105",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
