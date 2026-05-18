@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-18T14:21:37.445Z",
+  "ts": "2026-05-18T14:21:41.014Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4257349201",
+    "type": "OUTBOUND",
+    "message_id": "4257349275",
     "ticket_id": "951781692",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "281131944",
     "contact_name": "Mrs. Hessa Alameri",
     "contact_identifier": "+971566360047",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
