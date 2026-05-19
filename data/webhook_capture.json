@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-19T18:48:22.256Z",
+  "ts": "2026-05-19T18:49:35.850Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4258619820",
-    "ticket_id": "952131977",
-    "message": "The 3BR in Bayz by Danube is available for viewings any day between 9am and 6pm. What day works best for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "538620599",
-    "contact_name": ".",
-    "contact_identifier": "+962789426438",
+    "type": "INBOUND",
+    "message_id": "4258620428",
+    "ticket_id": "952100819",
+    "message": "Can we check it out?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537793990",
+    "contact_name": "STN",
+    "contact_identifier": "+79015817252",
+    "parent_message_id": "4257807432",
+    "parent_ticket_id": "951864451",
+    "event_type": "INBOUND"
   }
 }
