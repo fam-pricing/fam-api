@@ -1,17 +1,19 @@
 {
-  "ts": "2026-05-19T17:19:13.863Z",
+  "ts": "2026-05-19T17:31:08.020Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4258564175",
-    "ticket_id": "951656042",
-    "message": "Thank you for choosing fäm living. Please note that our work timings are from 9:00 AM to 9:00 PM. To avail yourself of our best offers and prices, you can now make your bookings on our website; please visit www.famliving.com.\n\nشكرًا لاتصالك , يرجى ملاحظة أن أوقات العمل لدينا هي من 9:00 صباحًا إلى 9:00 مساءً ، للاستفادة من أفضل العروض والأسعار، يمكنك الآن إجراء حجوزاتك على موقعنا على الإنترنت\n\nwww.famliving.com",
-    "contact_id": "536394570",
-    "contact_name": "Sofiane",
-    "contact_identifier": "+33695624458",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4258572732",
+    "ticket_id": "952062484",
+    "message": "Since you don’t have the video \nDoes the apartment look exactly like how it is in the pictures",
+    "channel_id": "1304636",
+    "contact_id": "538422106",
+    "contact_name": "Kunjal Kedia",
+    "contact_identifier": "+916261424909",
+    "parent_message_id": "4258362147",
+    "parent_ticket_id": "952062484",
+    "event_type": "INBOUND"
   }
 }
