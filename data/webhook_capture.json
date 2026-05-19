@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-19T09:48:27.658Z",
+  "ts": "2026-05-19T09:50:25.277Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258069060",
-    "ticket_id": "951990891",
-    "message": "Could you remind me if you rent this apartment on a annual basis?",
+    "type": "OUTBOUND",
+    "message_id": "4258071447",
+    "ticket_id": "950131949",
+    "message": "We truly understand you, Mr. Osama, as the owner of the apartment is out of the country and the issue is that we are unable to access Emaar, which is the only way to get a new parking card.",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "535147845",
+    "contact_name": "Osama Omar",
+    "contact_identifier": "+971556969743",
     "channel_id": "1304636",
-    "contact_id": "536501473",
-    "contact_name": "Joubert Rocha Chaves",
-    "contact_identifier": "+971586730550",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
