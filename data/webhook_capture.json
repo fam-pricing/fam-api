@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-19T11:51:52.315Z",
+  "ts": "2026-05-19T12:02:34.072Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4258214384",
-    "ticket_id": "951879880",
-    "message": "Of course, let me get someone from the team for you right away. The 3BR in Imperial Avenue is available now, so great timing!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "538541074",
-    "contact_name": "J",
-    "contact_identifier": "+61400911992",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4258227023",
+    "ticket_id": "951995304",
+    "message": "👍",
+    "channel_id": "585723",
+    "contact_id": "538570682",
+    "contact_name": "Saina",
+    "contact_identifier": "+971555406514",
+    "parent_message_id": "4258141242",
+    "parent_ticket_id": "951995304",
+    "event_type": "INBOUND"
   }
 }
