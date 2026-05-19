@@ -1044,3 +1044,9 @@ If they have requested additional units in Business Bay or Downtown within their
 
 "The yearly price is 160,000 AED, inclusive of all bills and taxes."
   (Learned from Faysal handling Vanessa re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
+
+## Learned (2026-05-19)
+- If a lead requests a viewing after 5:30 PM, confirm that 5:30 PM is acceptable, but make clear that viewings must conclude by 6:00 PM and no viewings can be arranged after that time.
+
+Suggested response: "Our viewing hours are 9:00 AM to 6:00 PM. A 5:30 PM viewing works fine — just note that we cannot accommodate viewings after 6:00 PM."
+  (Learned from Faysal handling Gayane re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html)
