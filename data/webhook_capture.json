@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-19T15:29:30.718Z",
+  "ts": "2026-05-19T15:29:59.574Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258472155",
+    "type": "OUTBOUND",
+    "message_id": "4258472918",
     "ticket_id": "951345992",
-    "message": "In marina",
-    "channel_id": "1304636",
+    "message": "For Marina, the only active listing right now is a 3BR in Sulafa Tower at AED 9,000/month, all-inclusive. It's larger and pricier than the 2BR you were looking at. Is a 2BR still the priority, or is the Marina location the main thing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537802319",
     "contact_name": "Fio",
     "contact_identifier": "+971521531175",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
