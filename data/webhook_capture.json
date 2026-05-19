@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-19T06:39:15.991Z",
+  "ts": "2026-05-19T06:39:56.558Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4257838083",
+    "type": "OUTBOUND",
+    "message_id": "4257838741",
     "ticket_id": "951656042",
-    "message": "Document",
-    "channel_id": "585723",
+    "message": "Please note that if you pay via the payment link, a 3.1% charge will be added. We have also mentioned this to you previously. To avoid these charges, you may pay by cash or bank transfer only.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536394570",
     "contact_name": "Sofiane",
     "contact_identifier": "+33695624458",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
