@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-19T10:01:59.551Z",
+  "ts": "2026-05-19T10:02:00.484Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258086017",
+    "type": "OUTBOUND",
+    "message_id": "4258086059",
     "ticket_id": "951995304",
-    "message": "hello \ngood afternoon\nI wanted to rent apartment from 20th of june for two months",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "538570682",
     "contact_name": "Saina",
     "contact_identifier": "+971555406514",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
