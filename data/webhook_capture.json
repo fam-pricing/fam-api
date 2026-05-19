@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-19T14:04:00.693Z",
+  "ts": "2026-05-19T14:04:28.940Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258373332",
+    "type": "OUTBOUND",
+    "message_id": "4258373945",
     "ticket_id": "952062484",
-    "message": "Can you share the video of the apartment please",
-    "channel_id": "1304636",
+    "message": "We don't have a video at the moment, but you're welcome to visit any day between 9am and 6pm. What day works for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538422106",
     "contact_name": "Kunjal Kedia",
     "contact_identifier": "+916261424909",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
