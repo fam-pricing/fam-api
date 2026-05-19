@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-19T14:06:37.638Z",
+  "ts": "2026-05-19T14:07:22.539Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4258376724",
+    "type": "INBOUND",
+    "message_id": "4258377583",
     "ticket_id": "952062484",
-    "message": "Let me pull up the full breakdown for you and come back shortly!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Ok please let me know by today itself",
+    "channel_id": "1304636",
     "contact_id": "538422106",
     "contact_name": "Kunjal Kedia",
     "contact_identifier": "+916261424909",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4258373945",
+    "parent_ticket_id": "952062484",
+    "event_type": "INBOUND"
   }
 }
