@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-19T18:30:49.386Z",
+  "ts": "2026-05-19T18:31:10.545Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258609590",
+    "type": "OUTBOUND",
+    "message_id": "4258609782",
     "ticket_id": "952129570",
-    "message": "Hi",
-    "channel_id": "1304636",
+    "message": "Henry, the City Walk apartment is still available, anything specific you'd like to know before arranging a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537001188",
     "contact_name": "Henry Moukamer",
     "contact_identifier": "+96171310827",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
