@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-19T12:32:59.440Z",
+  "ts": "2026-05-19T12:33:09.382Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258263217",
+    "type": "OUTBOUND",
+    "message_id": "4258263451",
     "ticket_id": "952033972",
-    "message": "And for the rest amount invoice for payment?",
-    "channel_id": "1304636",
+    "message": "As per our finance team, this is a deposit amount which is fully refundable. Therefore, only a receipt can be provided, and an invoice can be issued only for the rent amount once it is received.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538375001",
     "contact_name": "Timur Aghayev",
     "contact_identifier": "+971561630343",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
