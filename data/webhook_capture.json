@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-19T09:05:51.370Z",
+  "ts": "2026-05-19T09:06:28.818Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258013811",
-    "ticket_id": "950760438",
-    "message": "May you please arrange viewing with the guest?",
+    "type": "OUTBOUND",
+    "message_id": "4258014661",
+    "ticket_id": "945309172",
+    "message": "Unfortunately, we are unable to extend your stay as we have received other bookings.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536881028",
+    "contact_name": "VALERIYA KORYAKOVS'KA",
+    "contact_identifier": "+971521953097",
     "channel_id": "585723",
-    "contact_id": "538216682",
-    "contact_name": "Irresistible",
-    "contact_identifier": "+971529175174",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
