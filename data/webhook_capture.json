@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-19T20:50:11.667Z",
+  "ts": "2026-05-19T21:15:52.306Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4258676499",
+    "type": "INBOUND",
+    "message_id": "4258685006",
     "ticket_id": "952149548",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-sports-city-canal-residence-arabian-16188259.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is the rent included with electricity and WiFi bill?",
+    "channel_id": "1304636",
     "contact_id": "538626330",
     "contact_name": "S A L M A ✨",
     "contact_identifier": "+971563563273",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
