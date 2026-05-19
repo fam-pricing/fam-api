@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-19T18:52:05.488Z",
+  "ts": "2026-05-19T18:52:51.836Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4258621726",
+    "type": "INBOUND",
+    "message_id": "4258622254",
     "ticket_id": "952131977",
-    "message": "The 3BR is available now. On a longer stay, happy to accommodate, just so you know, the rate is locked in for 3 months at a time and reviewed after that. Want to come see it first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes, please",
+    "channel_id": "1304636",
     "contact_id": "538620599",
     "contact_name": ".",
     "contact_identifier": "+962789426438",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4258621726",
+    "parent_ticket_id": "952131977",
+    "event_type": "INBOUND"
   }
 }
