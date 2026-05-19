@@ -1,17 +1,19 @@
 {
-  "ts": "2026-05-19T18:50:00.881Z",
+  "ts": "2026-05-19T18:50:17.001Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4258620627",
+    "message_id": "4258620763",
     "ticket_id": "952100819",
-    "message": "I mean can we check it ?",
+    "message": "Error with my keyboard",
     "channel_id": "1304636",
     "contact_id": "537793990",
     "contact_name": "STN",
     "contact_identifier": "+79015817252",
+    "parent_message_id": "4258620428",
+    "parent_ticket_id": "952100819",
     "event_type": "INBOUND"
   }
 }
