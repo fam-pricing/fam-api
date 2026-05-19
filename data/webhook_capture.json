@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-19T14:31:13.108Z",
+  "ts": "2026-05-19T14:31:34.740Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258406152",
+    "type": "OUTBOUND",
+    "message_id": "4258406625",
     "ticket_id": "952073207",
-    "message": "Hello\nCan you tell me more about the apartment",
-    "channel_id": "1304636",
+    "message": "It's a 3-bedroom in Dubai Marina, what would you like to know first, the layout or when you could move in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538599903",
     "contact_name": "Kevin✌️🤞",
     "contact_identifier": "+971505027774",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
