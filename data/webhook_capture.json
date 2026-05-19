@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-19T08:45:53.358Z",
+  "ts": "2026-05-19T08:47:29.436Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4257986670",
-    "ticket_id": "951967023",
-    "message": "May I know how many bedrooms you are looking for, your preferred move-in date, and if you have any location preference?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "538562249",
-    "contact_name": "shaloo mengi",
-    "contact_identifier": "ebe3a756-d403-42c2-6d7b-a121f9d657ee",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4257988841",
+    "ticket_id": "951864451",
+    "message": "Okey don’t have an other",
+    "channel_id": "1304636",
+    "contact_id": "537793990",
+    "contact_name": "STN",
+    "contact_identifier": "+79015817252",
+    "parent_message_id": "4257824972",
+    "parent_ticket_id": "951864451",
+    "event_type": "INBOUND"
   }
 }
