@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-19T13:36:57.754Z",
+  "ts": "2026-05-19T13:37:29.064Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4258338946",
+    "type": "INBOUND",
+    "message_id": "4258339529",
     "ticket_id": "951879880",
-    "message": "Rate is AED 13,000 for 30 nights 1 month, and a security deposit of AED 3,000 is also applicable.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "This is all inclusive ?",
+    "channel_id": "1304636",
     "contact_id": "538541074",
     "contact_name": "J",
     "contact_identifier": "+61400911992",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4258338946",
+    "parent_ticket_id": "951879880",
+    "event_type": "INBOUND"
   }
 }
