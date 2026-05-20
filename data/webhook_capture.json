@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-20T11:47:25.322Z",
+  "ts": "2026-05-20T11:49:17.205Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4259180509",
-    "ticket_id": "952293742",
-    "message": "Got it, see you at 9am tomorrow. Could you send a photo of your passport or Emirates ID here?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537793990",
-    "contact_name": "STN",
-    "contact_identifier": "+79015817252",
+    "type": "INBOUND",
+    "message_id": "4259182690",
+    "ticket_id": "952293758",
+    "message": "I think to be sure we can make it Saturday or Sunday",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538423864",
+    "contact_name": "sengatubanje",
+    "contact_identifier": "+260977293603",
+    "parent_message_id": "4259177971",
+    "parent_ticket_id": "952293758",
+    "event_type": "INBOUND"
   }
 }
