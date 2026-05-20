@@ -1056,3 +1056,14 @@ Suggested response: "Our viewing hours are 9:00 AM to 6:00 PM. A 5:30 PM viewing
 
 We offer a fixed rate for stays of up to 3 months. The last available price is 30,000 AED, inclusive of all bills and taxes.
   (Learned from Faysal handling PJL ENERGY re https://www.propertyfinder.ae/en/plp/rent/penthouse-for-rent-dubai-palm-jumeirah-azizi-mina-2P0VA2m2euW.html)
+
+## Learned (2026-05-20)
+- When a lead says "Yes, send me," respond with the following message:
+
+"To confirm your booking, please provide:
+
+1. A copy of your ID or passport
+2. Your email address
+
+We will send you a payment link to complete your reservation."
+  (Learned from Faysal handling Cindy re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVy5H4ZsBs.html)
