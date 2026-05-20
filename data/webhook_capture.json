@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-20T09:58:31.856Z",
+  "ts": "2026-05-20T09:58:50.932Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4259054725",
+    "type": "INBOUND",
+    "message_id": "4259055086",
     "ticket_id": "952262281",
-    "message": "The 2BR in Bayz by Danube is available at AED 6,600/month, all-inclusive. Would you like to come see it?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "What does that include / exclude?",
+    "channel_id": "1304636",
     "contact_id": "538656175",
     "contact_name": "Aakarsh Malhotra",
     "contact_identifier": "+971503860237",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4259054725",
+    "parent_ticket_id": "952262281",
+    "event_type": "INBOUND"
   }
 }
