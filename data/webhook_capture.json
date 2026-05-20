@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-20T06:25:28.512Z",
+  "ts": "2026-05-20T06:25:50.972Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258813513",
-    "ticket_id": "950575440",
-    "message": "What time they will be here?",
+    "type": "OUTBOUND",
+    "message_id": "4258813759",
+    "ticket_id": "933725324",
+    "message": "welcome",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "533971685",
+    "contact_name": "Francesco Topputo",
+    "contact_identifier": "+971508345936",
     "channel_id": "585723",
-    "contact_id": "538178428",
-    "contact_name": "BARBARA ALMEIDA CUNHA",
-    "contact_identifier": "+971569589393",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
