@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-20T03:11:53.085Z",
+  "ts": "2026-05-20T03:12:22.085Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258749676",
+    "type": "OUTBOUND",
+    "message_id": "4258749745",
     "ticket_id": "952179215",
-    "message": "Hi thanks\nDo you have a video?",
-    "channel_id": "1304636",
+    "message": "No video right now, but you can see all the photos in the listing. Want to come by for a viewing? Any day between 9am and 6pm works.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538633687",
     "contact_name": "Raz Hadian",
     "contact_identifier": "+971547774390",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
