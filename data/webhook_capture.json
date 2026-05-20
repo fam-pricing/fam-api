@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-20T12:55:59.591Z",
+  "ts": "2026-05-20T12:56:11.216Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4259265226",
+    "type": "INBOUND",
+    "message_id": "4259265522",
     "ticket_id": "952262281",
-    "message": "sorry hamza **",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "No I'm with Hamza right now",
+    "channel_id": "1304636",
     "contact_id": "538656175",
     "contact_name": "Aakarsh Malhotra",
     "contact_identifier": "+971503860237",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4259264931",
+    "parent_ticket_id": "952262281",
+    "event_type": "INBOUND"
   }
 }
