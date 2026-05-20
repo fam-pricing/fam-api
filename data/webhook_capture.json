@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-20T12:57:44.969Z",
+  "ts": "2026-05-20T12:57:51.878Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4259267354",
-    "ticket_id": "952317892",
-    "message": "10k",
+    "type": "OUTBOUND",
+    "message_id": "4259267477",
+    "ticket_id": "952164892",
+    "message": "You can book weekly but price will be charged based on monthly rate",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538631018",
+    "contact_name": "PJL ENERGY",
+    "contact_identifier": "+380672702585",
     "channel_id": "1304636",
-    "contact_id": "538676057",
-    "contact_name": "Ardalan",
-    "contact_identifier": "+16047716699",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
