@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-20T10:17:21.407Z",
+  "ts": "2026-05-20T10:17:43.543Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4259078572",
-    "ticket_id": "952269667",
-    "message": "you are most welcome",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536353062",
-    "contact_name": "Yohan Gregory",
-    "contact_identifier": "+971509558132",
+    "type": "INBOUND",
+    "message_id": "4259078970",
+    "ticket_id": "952262281",
+    "message": "Does it include cleaning, parking?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538656175",
+    "contact_name": "Aakarsh Malhotra",
+    "contact_identifier": "+971503860237",
+    "parent_message_id": "4259076807",
+    "parent_ticket_id": "952262281",
+    "event_type": "INBOUND"
   }
 }
