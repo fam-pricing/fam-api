@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-20T07:59:13.448Z",
+  "ts": "2026-05-20T08:01:13.974Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258906097",
-    "ticket_id": "936911064",
-    "message": "Hiii\nGood Morning \nAre you Looking for laundry cleaning service ?",
-    "channel_id": "585723",
-    "contact_id": "534792660",
-    "contact_name": "UrbanClean Laundry service",
-    "contact_identifier": "+971567141994",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4258909099",
+    "ticket_id": "952220652",
+    "message": "For booking please send:\r\n\r\n1. a copy of your ID or passport\r\n\r\n2. Email\r\n\r\nWe will send a payment link to confirm your booking",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536245418",
+    "contact_name": "Ufuk Gökmen",
+    "contact_identifier": "+971525203982",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
