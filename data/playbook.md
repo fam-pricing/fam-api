@@ -1067,3 +1067,7 @@ We offer a fixed rate for stays of up to 3 months. The last available price is 3
 
 We will send you a payment link to complete your reservation."
   (Learned from Faysal handling Cindy re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVy5H4ZsBs.html)
+
+## Learned (2026-05-20)
+- If a lead asks for your WhatsApp number, inform them that a 3% card payment fee will be charged.
+  (Learned from Faysal handling Cindy re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVy5H4ZsBs.html)
