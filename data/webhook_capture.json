@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-20T15:10:43.097Z",
+  "ts": "2026-05-20T15:10:50.927Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4259423537",
-    "ticket_id": "952350461",
-    "message": "Agent told me 2",
+    "type": "OUTBOUND",
+    "message_id": "4259423675",
+    "ticket_id": "952356051",
+    "message": "please advise in which location",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538689675",
+    "contact_name": "Asad Mahmudov",
+    "contact_identifier": "+971523718563",
     "channel_id": "585723",
-    "contact_id": "538687413",
-    "contact_name": "Somayeh",
-    "contact_identifier": "+971588991364",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
