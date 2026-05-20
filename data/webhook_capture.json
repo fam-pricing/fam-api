@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-20T08:17:17.235Z",
+  "ts": "2026-05-20T08:17:58.426Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258929687",
+    "type": "OUTBOUND",
+    "message_id": "4258930460",
     "ticket_id": "952220652",
-    "message": "Is this another one?",
-    "channel_id": "1304636",
+    "message": "I need to know which unit you viewed honestly",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536245418",
     "contact_name": "Ufuk Gökmen",
     "contact_identifier": "+971525203982",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
