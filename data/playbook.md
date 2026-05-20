@@ -1089,3 +1089,7 @@ We will send you a payment link to complete your reservation."
 ## Learned (2026-05-20)
 - If a lead mentions that guests may want to extend their stay, inform them that extensions can be arranged on a weekly basis, but the nightly rate will be calculated based on the monthly pricing.
   (Learned from Faysal handling PJL ENERGY re https://www.propertyfinder.ae/en/plp/rent/penthouse-for-rent-dubai-palm-jumeirah-azizi-mina-2P0VA2m2euW.html)
+
+## Learned (2026-05-20)
+- If a lead responds with only a heart emoji (❤️), reply: "Please note that prices are fixed."
+  (Learned from Faysal handling Ardalan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-the-address-residences-dubai-opera-the-address-residences-dubai-opera-tower-1-15597551.html)
