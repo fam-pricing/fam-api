@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-20T11:42:34.920Z",
+  "ts": "2026-05-20T11:43:46.395Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4259174834",
-    "ticket_id": "952172182",
-    "message": "okay great keep me updated if you wish to book it",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "538632521",
-    "contact_name": "NK",
-    "contact_identifier": "+971543498807",
+    "type": "INBOUND",
+    "message_id": "4259176239",
+    "ticket_id": "952293758",
+    "message": "That's great, Chiller inclusive? Yes I'd like to see the place first",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538423864",
+    "contact_name": "sengatubanje",
+    "contact_identifier": "+260977293603",
+    "parent_message_id": "4259174662",
+    "parent_ticket_id": "952293758",
+    "event_type": "INBOUND"
   }
 }
