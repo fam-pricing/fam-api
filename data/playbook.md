@@ -1081,3 +1081,7 @@ We will send you a payment link to complete your reservation."
 
 "The rent is 5,000 AED per month, inclusive of all bills and taxes. A refundable deposit of 2,000 AED is also required."
   (Learned from Faysal handling NK re PF-HH-AR-134391)
+
+## Learned (2026-05-20)
+- When a lead asks you to check availability or confirm a booking with a message such as "Can you please check and let me know," respond by clearly stating that full payment is required prior to arrival.
+  (Learned from Faysal handling NK re PF-HH-AR-134391)
