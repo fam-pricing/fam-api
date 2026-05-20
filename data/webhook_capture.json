@@ -1,17 +1,19 @@
 {
-  "ts": "2026-05-20T14:23:17.494Z",
+  "ts": "2026-05-20T14:25:07.386Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4259370213",
-    "ticket_id": "951052568",
-    "message": "Thank you for choosing fäm Living, How likely are you to recommend fäm Living to family and friends? https://csat.trengo.com/?uuid=a1d340e8-643b-498a-82a9-28f8d76144cb\n",
-    "contact_id": "538278673",
-    "contact_name": "Suhail Al Mansoori",
-    "contact_identifier": "+971507223733",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4259372502",
+    "ticket_id": "951495041",
+    "message": "It was for today",
+    "channel_id": "1304636",
+    "contact_id": "538422502",
+    "contact_name": "Emi",
+    "contact_identifier": "+971545126008",
+    "parent_message_id": "4258194041",
+    "parent_ticket_id": "951495041",
+    "event_type": "INBOUND"
   }
 }
