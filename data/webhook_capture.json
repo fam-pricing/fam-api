@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-20T11:51:35.601Z",
+  "ts": "2026-05-20T11:51:39.350Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4259185196",
+    "type": "INBOUND",
+    "message_id": "4259185316",
     "ticket_id": "952293758",
-    "message": "No problem at all, your passport works perfectly fine. Just send a photo whenever you're ready and we'll get you registered for Saturday at 11am.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "But here's my passport",
+    "channel_id": "1304636",
     "contact_id": "538423864",
     "contact_name": "sengatubanje",
     "contact_identifier": "+260977293603",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4259185209",
+    "parent_ticket_id": "952293758",
+    "event_type": "INBOUND"
   }
 }
