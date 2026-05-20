@@ -1050,3 +1050,9 @@ If they have requested additional units in Business Bay or Downtown within their
 
 Suggested response: "Our viewing hours are 9:00 AM to 6:00 PM. A 5:30 PM viewing works fine — just note that we cannot accommodate viewings after 6:00 PM."
   (Learned from Faysal handling Gayane re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html)
+
+## Learned (2026-05-20)
+- When a lead opens with a simple greeting (e.g., "Hello"), respond immediately with the core offer:
+
+We offer a fixed rate for stays of up to 3 months. The last available price is 30,000 AED, inclusive of all bills and taxes.
+  (Learned from Faysal handling PJL ENERGY re https://www.propertyfinder.ae/en/plp/rent/penthouse-for-rent-dubai-palm-jumeirah-azizi-mina-2P0VA2m2euW.html)
