@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-20T11:55:53.685Z",
+  "ts": "2026-05-20T11:56:10.661Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4259190286",
+    "type": "INBOUND",
+    "message_id": "4259190585",
     "ticket_id": "952293742",
-    "message": "Thank you for sending your ID. Our team will be in touch shortly to confirm the property location and all viewing details.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Okey",
+    "channel_id": "1304636",
     "contact_id": "537793990",
     "contact_name": "STN",
     "contact_identifier": "+79015817252",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4259190286",
+    "parent_ticket_id": "952293742",
+    "event_type": "INBOUND"
   }
 }
