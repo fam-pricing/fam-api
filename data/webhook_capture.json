@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-20T11:51:39.350Z",
+  "ts": "2026-05-20T11:51:48.698Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4259185316",
+    "type": "OUTBOUND",
+    "message_id": "4259185450",
     "ticket_id": "952293758",
-    "message": "But here's my passport",
-    "channel_id": "1304636",
+    "message": "Thank you for sending your ID. Our team will be in touch shortly to confirm the property location and all viewing details.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538423864",
     "contact_name": "sengatubanje",
     "contact_identifier": "+260977293603",
-    "parent_message_id": "4259185209",
-    "parent_ticket_id": "952293758",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
