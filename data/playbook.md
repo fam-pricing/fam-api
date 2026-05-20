@@ -1075,3 +1075,9 @@ We will send you a payment link to complete your reservation."
 ## Learned (2026-05-20)
 - When a lead asks "Is that ok?" or seeks verbal confirmation before proceeding, respond by making it clear that entering the booking into the system will trigger immediate payment processing.
   (Learned from Faysal handling Cindy re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVy5H4ZsBs.html)
+
+## Learned (2026-05-20)
+- When a lead asks about the payment breakdown, respond with:
+
+"The rent is 5,000 AED per month, inclusive of all bills and taxes. A refundable deposit of 2,000 AED is also required."
+  (Learned from Faysal handling NK re PF-HH-AR-134391)
