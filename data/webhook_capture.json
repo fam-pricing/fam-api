@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-20T11:25:43.927Z",
+  "ts": "2026-05-20T11:25:51.499Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4259155624",
-    "ticket_id": "952172182",
-    "message": "Waste of time",
+    "type": "OUTBOUND",
+    "message_id": "4259155730",
+    "ticket_id": "952100819",
+    "message": "viewing is only between 09am and 06 pm",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537793990",
+    "contact_name": "STN",
+    "contact_identifier": "+79015817252",
     "channel_id": "1304636",
-    "contact_id": "538632521",
-    "contact_name": "NK",
-    "contact_identifier": "+971543498807",
-    "parent_message_id": "4259155394",
-    "parent_ticket_id": "952172182",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
