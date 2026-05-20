@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-20T13:08:44.097Z",
+  "ts": "2026-05-20T13:15:50.723Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4259280706",
-    "ticket_id": "952164892",
-    "message": "Do you want me to speak with rami or firas",
+    "type": "OUTBOUND",
+    "message_id": "4259288914",
+    "ticket_id": "952323718",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-creek-gate-creek-gate-tower-1-16183020.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "538678268",
+    "contact_name": "Kavita",
+    "contact_identifier": "+919850039333",
     "channel_id": "1304636",
-    "contact_id": "538631018",
-    "contact_name": "PJL ENERGY",
-    "contact_identifier": "+380672702585",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
