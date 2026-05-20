@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-20T02:18:01.754Z",
+  "ts": "2026-05-20T02:18:28.276Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258741519",
+    "type": "OUTBOUND",
+    "message_id": "4258741627",
     "ticket_id": "952173388",
-    "message": "When I will book , I will give  you my passport copy",
-    "channel_id": "1304636",
+    "message": "No problem, just send it over when you're ready to book. To confirm: June 26 move-in, one year stay, AED 8,000/month for the first 3 months. Shall I reserve it under your name in the meantime?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538632691",
     "contact_name": "Mohamed Ndiaye",
     "contact_identifier": "+221770982515",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
