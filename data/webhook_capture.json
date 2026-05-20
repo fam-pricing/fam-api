@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-20T06:49:19.252Z",
+  "ts": "2026-05-20T06:50:53.757Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258832810",
+    "type": "OUTBOUND",
+    "message_id": "4258834036",
     "ticket_id": "952203025",
-    "message": "And can you give me your Whatsapp number?",
-    "channel_id": "1304636",
+    "message": "We will send a payment link to confirm your booking",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538639139",
     "contact_name": "Cindy",
     "contact_identifier": "+971568404898",
-    "parent_message_id": "4258828077",
-    "parent_ticket_id": "952203025",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
