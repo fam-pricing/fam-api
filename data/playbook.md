@@ -1071,3 +1071,7 @@ We will send you a payment link to complete your reservation."
 ## Learned (2026-05-20)
 - If a lead asks for your WhatsApp number, inform them that a 3% card payment fee will be charged.
   (Learned from Faysal handling Cindy re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVy5H4ZsBs.html)
+
+## Learned (2026-05-20)
+- When a lead asks "Is that ok?" or seeks verbal confirmation before proceeding, respond by making it clear that entering the booking into the system will trigger immediate payment processing.
+  (Learned from Faysal handling Cindy re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PVy5H4ZsBs.html)
