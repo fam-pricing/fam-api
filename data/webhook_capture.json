@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-20T01:49:00.690Z",
+  "ts": "2026-05-20T02:08:42.735Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4258737152",
+    "type": "INBOUND",
+    "message_id": "4258740300",
     "ticket_id": "952173388",
-    "message": "That works for us. Just so you know, we do the contract in 3-month blocks, so the rate gets reviewed each time, though the intention to stay a full year is absolutely fine. To get things moving, could you send over your passport and email address?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "The price can change ?",
+    "channel_id": "1304636",
     "contact_id": "538632691",
     "contact_name": "Mohamed Ndiaye",
     "contact_identifier": "+221770982515",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4258737152",
+    "parent_ticket_id": "952173388",
+    "event_type": "INBOUND"
   }
 }
