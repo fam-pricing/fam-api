@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-20T13:17:04.090Z",
+  "ts": "2026-05-20T13:17:22.400Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4259290227",
+    "type": "OUTBOUND",
+    "message_id": "4259290596",
     "ticket_id": "952323718",
-    "message": "On friday",
-    "channel_id": "1304636",
+    "message": "Friday works, what time suits you? Viewings are between 9am and 6pm. Could you send a photo of your passport or Emirates ID so I can arrange building access?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538678268",
     "contact_name": "Kavita",
     "contact_identifier": "+919850039333",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
