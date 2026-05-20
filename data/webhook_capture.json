@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-20T10:41:35.518Z",
+  "ts": "2026-05-20T10:42:04.518Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4259106077",
+    "type": "OUTBOUND",
+    "message_id": "4259106574",
     "ticket_id": "952220652",
-    "message": "👍",
-    "channel_id": "1304636",
+    "message": "https://totalpay.ae/payment/20260520356a0d8dc32b45a",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536245418",
     "contact_name": "Ufuk Gökmen",
     "contact_identifier": "+971525203982",
-    "parent_message_id": "4259099545",
-    "parent_ticket_id": "952220652",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
