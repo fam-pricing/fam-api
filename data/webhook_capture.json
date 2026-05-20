@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-20T02:09:06.058Z",
+  "ts": "2026-05-20T02:09:07.598Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4258740351",
+    "type": "OUTBOUND",
+    "message_id": "4258740355",
     "ticket_id": "952173388",
-    "message": "Do you have an appartment for 1 year ?",
-    "channel_id": "1304636",
+    "message": "The rate is locked for the first 3 months, then reviewed against market conditions, so yes, it can change after that. Happy to hold it while we get things sorted, can you send over your passport and email?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538632691",
     "contact_name": "Mohamed Ndiaye",
     "contact_identifier": "+221770982515",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
