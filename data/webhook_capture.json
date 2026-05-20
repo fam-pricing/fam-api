@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-20T12:57:14.219Z",
+  "ts": "2026-05-20T12:57:19.030Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4259266760",
-    "ticket_id": "952317892",
-    "message": "Is the price negotiable?",
+    "type": "OUTBOUND",
+    "message_id": "4259266853",
+    "ticket_id": "952172182",
+    "message": "price is 5,000\r\nAED last and deposit 2000 AED",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538632521",
+    "contact_name": "NK",
+    "contact_identifier": "+971543498807",
     "channel_id": "1304636",
-    "contact_id": "538676057",
-    "contact_name": "Ardalan",
-    "contact_identifier": "+16047716699",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
