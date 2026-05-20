@@ -1085,3 +1085,7 @@ We will send you a payment link to complete your reservation."
 ## Learned (2026-05-20)
 - When a lead asks you to check availability or confirm a booking with a message such as "Can you please check and let me know," respond by clearly stating that full payment is required prior to arrival.
   (Learned from Faysal handling NK re PF-HH-AR-134391)
+
+## Learned (2026-05-20)
+- If a lead mentions that guests may want to extend their stay, inform them that extensions can be arranged on a weekly basis, but the nightly rate will be calculated based on the monthly pricing.
+  (Learned from Faysal handling PJL ENERGY re https://www.propertyfinder.ae/en/plp/rent/penthouse-for-rent-dubai-palm-jumeirah-azizi-mina-2P0VA2m2euW.html)
