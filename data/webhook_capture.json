@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-21T05:11:09.547Z",
+  "ts": "2026-05-21T05:11:17.409Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4259737037",
-    "ticket_id": "952293742",
-    "message": "Who should I contact there ?",
-    "channel_id": "1304636",
-    "contact_id": "537793990",
-    "contact_name": "STN",
-    "contact_identifier": "+79015817252",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4259737075",
+    "ticket_id": "952450078",
+    "message": "Can we know your estimated arrival time please ?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538716864",
+    "contact_name": "Mohammed Chaudhri",
+    "contact_identifier": "+447947893420",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
