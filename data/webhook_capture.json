@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-21T13:04:40.053Z",
+  "ts": "2026-05-21T13:04:57.541Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260230952",
-    "ticket_id": "946528611",
-    "message": "Looking for fully furnished apartment in downtown",
-    "channel_id": "585723",
-    "contact_id": "537201457",
-    "contact_name": "Fadi Ibrahim",
-    "contact_identifier": "+971521291501",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4260231248",
+    "ticket_id": "952220652",
+    "message": "Apologies, we calculated it based on AED 4,500, which is why the total came to that amount. The correct amount is AED 4,330.20, plus a AED 1,000 deposit.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536245418",
+    "contact_name": "Ufuk Gökmen",
+    "contact_identifier": "+971525203982",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
