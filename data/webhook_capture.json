@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-21T08:40:59.367Z",
+  "ts": "2026-05-21T08:42:53.364Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4259931162",
-    "ticket_id": "952062484",
-    "message": "Can you share the location please",
+    "type": "OUTBOUND",
+    "message_id": "4259933195",
+    "ticket_id": "952293742",
+    "message": "Sure, we can offer Urban Oasis at AED 7,000 per month for 3 months (30 nights each month). We also have a security deposit of AED 2,000.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537793990",
+    "contact_name": "STN",
+    "contact_identifier": "+79015817252",
     "channel_id": "1304636",
-    "contact_id": "538422106",
-    "contact_name": "Kunjal Kedia",
-    "contact_identifier": "+916261424909",
-    "parent_message_id": "4258362147",
-    "parent_ticket_id": "952062484",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
