@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-21T07:51:13.042Z",
+  "ts": "2026-05-21T07:51:55.774Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4259864764",
-    "ticket_id": "952469880",
-    "message": "I can come around 10",
+    "type": "OUTBOUND",
+    "message_id": "4259865550",
+    "ticket_id": "951289273",
+    "message": "we will provide you the door code",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538363776",
+    "contact_name": "Dr. Aylar",
+    "contact_identifier": "+971507955452",
     "channel_id": "1304636",
-    "contact_id": "538720960",
-    "contact_name": "Yesh Perera",
-    "contact_identifier": "+971529012085",
-    "parent_message_id": "4259853729",
-    "parent_ticket_id": "952469880",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
