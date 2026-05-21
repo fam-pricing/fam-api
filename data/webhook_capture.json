@@ -1,18 +1,20 @@
 {
-  "ts": "2026-05-21T08:51:42.537Z",
+  "ts": "2026-05-21T08:51:52.163Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4259944037",
-    "ticket_id": "952527913",
-    "message": "I try to book but no reply i tried on your website ",
-    "channel_id": "883603",
-    "contact_id": "538732903",
-    "contact_name": "Mouza Alqubaisi",
-    "contact_email": "Mozanhq@gmail.com",
-    "contact_identifier": "c84305f8-7d46-4871-0faa-123b7fcb8a80",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4259944294",
+    "ticket_id": "952293742",
+    "message": "Sure, we can offer Bayz at AED 6,000 per month for 3 months (30 nights each month). We also have a security deposit of AED 2,000.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537793990",
+    "contact_name": "STN",
+    "contact_identifier": "+79015817252",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
