@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-21T16:43:03.122Z",
+  "ts": "2026-05-21T16:43:04.375Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260451850",
+    "type": "OUTBOUND",
+    "message_id": "4260451887",
     "ticket_id": "952672090",
-    "message": "Hi how are you?",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "538781742",
     "contact_name": "Isabela Londoño",
     "contact_identifier": "+573182493590",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
