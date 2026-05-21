@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-21T06:00:47.875Z",
+  "ts": "2026-05-21T06:01:14.134Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4259760169",
+    "type": "OUTBOUND",
+    "message_id": "4259761142",
     "ticket_id": "952293742",
-    "message": "Which floor ?",
-    "channel_id": "1304636",
+    "message": "1st floor",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537793990",
     "contact_name": "STN",
     "contact_identifier": "+79015817252",
-    "parent_message_id": "4259759053",
-    "parent_ticket_id": "952293742",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
