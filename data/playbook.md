@@ -1103,3 +1103,7 @@ We will send you a payment link to complete your reservation."
 ## Learned (2026-05-21)
 - If a lead asks about parking when visiting for a viewing, let them know that parking inside the building is not available at the viewing stage. Direct them to park outside instead. Make it clear that building parking is only provided once a booking has been confirmed.
   (Learned from Faysal handling Majd Atassi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html)
+
+## Learned (2026-05-21)
+- If a lead mentions they are planning to visit on Saturday, inform them that viewing timings are from 10:00 AM to 6:00 PM only.
+  (Learned from Faysal handling Yesh Perera re Studio in Azizi Riviera 16)
