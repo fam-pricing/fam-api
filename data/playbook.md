@@ -1107,3 +1107,7 @@ We will send you a payment link to complete your reservation."
 ## Learned (2026-05-21)
 - If a lead mentions they are planning to visit on Saturday, inform them that viewing timings are from 10:00 AM to 6:00 PM only.
   (Learned from Faysal handling Yesh Perera re Studio in Azizi Riviera 16)
+
+## Learned (2026-05-21)
+- If a lead requests a video of the unit, inform them that no video is available and that viewings are offered in person only. Offer to arrange an in-person visit.
+  (Learned from Faysal handling PJL ENERGY re https://www.propertyfinder.ae/en/plp/rent/penthouse-for-rent-dubai-palm-jumeirah-azizi-mina-2P0VA2m2euW.html)
