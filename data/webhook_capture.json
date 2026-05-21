@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-21T17:19:44.562Z",
+  "ts": "2026-05-21T17:20:18.042Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260479061",
+    "type": "OUTBOUND",
+    "message_id": "4260479395",
     "ticket_id": "952677246",
-    "message": "No sorry we can’t take juste 3 months",
-    "channel_id": "1304636",
+    "message": "Romana, we can't lock the same rate across all 12 months as pricing is reviewed each 3-month block based on the market. So there's no way to guarantee a fixed price for the full year. Is a 3-month rolling arrangement something that could still work, or is a fixed 12-month price a hard requirement for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536177241",
     "contact_name": "Romana",
     "contact_identifier": "+33674303335",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
