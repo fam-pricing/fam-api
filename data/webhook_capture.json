@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-21T09:42:32.692Z",
+  "ts": "2026-05-21T09:43:03.256Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4260005608",
+    "type": "INBOUND",
+    "message_id": "4260006152",
     "ticket_id": "952548725",
-    "message": "may i know where you would like to switch?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Urban if it’s possible 😅",
+    "channel_id": "1304636",
     "contact_id": "537793990",
     "contact_name": "LITA ELIE",
     "contact_identifier": "+79015817252",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4259933195",
+    "parent_ticket_id": "952548725",
+    "event_type": "INBOUND"
   }
 }
