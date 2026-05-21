@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-21T10:19:27.384Z",
+  "ts": "2026-05-21T10:20:43.452Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260047743",
+    "type": "OUTBOUND",
+    "message_id": "4260049195",
     "ticket_id": "950575440",
-    "message": "You have another available ?",
-    "channel_id": "585723",
+    "message": "We do not have any other units on the tower, unfortunately",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "538178428",
     "contact_name": "BARBARA ALMEIDA CUNHA",
     "contact_identifier": "+971569589393",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
