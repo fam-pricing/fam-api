@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-21T11:21:21.933Z",
+  "ts": "2026-05-21T11:22:28.770Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260115787",
-    "ticket_id": "952574058",
-    "message": "Like on 5th and book it then ?",
-    "channel_id": "585723",
-    "contact_id": "538746387",
-    "contact_name": "mag318",
-    "contact_identifier": "+971547794951",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4260116936",
+    "ticket_id": "952220652",
+    "message": "Unfortunately, without any payment, we are unable to hold your booking for more than 24 hours.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536245418",
+    "contact_name": "Ufuk Gökmen",
+    "contact_identifier": "+971525203982",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
