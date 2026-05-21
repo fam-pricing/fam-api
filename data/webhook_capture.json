@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-21T10:01:40.197Z",
+  "ts": "2026-05-21T10:11:40.687Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260027711",
-    "ticket_id": "941757415",
-    "message": "Sorry today the cleaning services went to apartment 2303\nThey cleaned \nBut they didn't put tissue",
+    "type": "OUTBOUND",
+    "message_id": "4260039068",
+    "ticket_id": "950575440",
+    "message": "We will inform the team to check",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "538178428",
+    "contact_name": "BARBARA ALMEIDA CUNHA",
+    "contact_identifier": "+971569589393",
     "channel_id": "585723",
-    "contact_id": "535953930",
-    "contact_name": "Shakiba alsama",
-    "contact_identifier": "+971502487446",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
