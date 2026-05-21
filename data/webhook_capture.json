@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-21T06:42:15.647Z",
+  "ts": "2026-05-21T06:42:19.646Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4259794319",
-    "ticket_id": "952478376",
-    "message": "Good Morning,\r\n\r\nUnfortunately, this apartment is fully booked at the moment, and therefore we are unable to arrange a viewing.\r\n\r\nThank you for your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "536129807",
-    "contact_name": "Viktoria",
-    "contact_identifier": "+971504217383",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4259794406",
+    "ticket_id": "952478494",
+    "message": "I will pay by card",
+    "channel_id": "585723",
+    "contact_id": "536476505",
+    "contact_name": "GEORGI EMILOV RAZVANSKI",
+    "contact_identifier": "+447413535253",
+    "event_type": "INBOUND"
   }
 }
