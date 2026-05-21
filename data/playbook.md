@@ -1099,3 +1099,7 @@ We will send you a payment link to complete your reservation."
 
 "Thank you for reaching out. Please note that viewing appointments are available Monday to Sunday, from 9:00 AM to 6:00 PM only. Unfortunately, we are unable to accommodate viewings outside of these hours. We look forward to welcoming you during our available times."
   (Learned from Faysal handling Kunjal Kedia re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html)
+
+## Learned (2026-05-21)
+- If a lead asks about parking when visiting for a viewing, let them know that parking inside the building is not available at the viewing stage. Direct them to park outside instead. Make it clear that building parking is only provided once a booking has been confirmed.
+  (Learned from Faysal handling Majd Atassi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html)
