@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-21T09:45:03.233Z",
+  "ts": "2026-05-21T09:50:00.323Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4260008305",
-    "ticket_id": "952548725",
-    "message": "sure please let us know before 3 pm",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537793990",
-    "contact_name": "LITA ELIE",
-    "contact_identifier": "+79015817252",
+    "type": "INBOUND",
+    "message_id": "4260014369",
+    "ticket_id": "952418049",
+    "message": "I have already informed the reception, they told me to write to you.",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537510754",
+    "contact_name": "Anastasiia Kazachuk",
+    "contact_identifier": "+79153412426",
+    "parent_message_id": "4259741781",
+    "parent_ticket_id": "952418049",
+    "event_type": "INBOUND"
   }
 }
