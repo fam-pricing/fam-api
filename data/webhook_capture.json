@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-21T07:59:11.030Z",
+  "ts": "2026-05-21T07:59:38.774Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4259873575",
+    "type": "OUTBOUND",
+    "message_id": "4259874080",
     "ticket_id": "952293742",
-    "message": "Because i can come to your office ?",
-    "channel_id": "1304636",
+    "message": "If you would like to proceed with the booking, that is completely fine. We can confirm the reservation and send you the booking confirmation.\r\n\r\nYou may then coordinate with our Guest Relations team to arrange the payment, at least for the deposit amount, to secure your booking.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537793990",
     "contact_name": "STN",
     "contact_identifier": "+79015817252",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
