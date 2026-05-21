@@ -1906,5 +1906,17 @@
     "lead_quality": 25,
     "buying_stage": "COOL",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-05-21T06:12:12.569Z",
+    "ticket_id": 952469880,
+    "lead_id": "message_lead_29450360",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1075,
+    "critic_pass": null,
+    "lead_quality": 5,
+    "buying_stage": "COLD",
+    "skip_reason": "ticket_locked"
   }
 ]
