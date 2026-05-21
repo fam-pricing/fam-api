@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-21T06:43:47.605Z",
+  "ts": "2026-05-21T06:45:18.323Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4259795781",
+    "type": "INBOUND",
+    "message_id": "4259797188",
     "ticket_id": "952478494",
-    "message": "Thank you. We will send you the payment link shortly.\r\n\r\nHowever, please note that if you choose to pay via the link, a 3.1% card fee will apply. If you would like to avoid this fee, you may proceed with a bank transfer or cash payment.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "If I choose cash, who will collect it?",
+    "channel_id": "585723",
     "contact_id": "536476505",
     "contact_name": "GEORGI EMILOV RAZVANSKI",
     "contact_identifier": "+447413535253",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
