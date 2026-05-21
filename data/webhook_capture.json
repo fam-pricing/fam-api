@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-21T07:47:27.193Z",
+  "ts": "2026-05-21T07:48:08.700Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4259860620",
+    "type": "INBOUND",
+    "message_id": "4259861334",
     "ticket_id": "951289273",
-    "message": "Thank you for the ID , we will arrange the viewing for you at 4:15pm and please note that it will be self viewing",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "But yesterday you mentioned an agent needs to be there",
+    "channel_id": "1304636",
     "contact_id": "538363776",
     "contact_name": "Dr. Aylar",
     "contact_identifier": "+971507955452",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4259361347",
+    "parent_ticket_id": "951289273",
+    "event_type": "INBOUND"
   }
 }
