@@ -1093,3 +1093,9 @@ We will send you a payment link to complete your reservation."
 ## Learned (2026-05-20)
 - If a lead responds with only a heart emoji (❤️), reply: "Please note that prices are fixed."
   (Learned from Faysal handling Ardalan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-the-address-residences-dubai-opera-the-address-residences-dubai-opera-tower-1-15597551.html)
+
+## Learned (2026-05-21)
+- If a lead requests a viewing outside business hours (e.g., after 6:00 PM), respond with:
+
+"Thank you for reaching out. Please note that viewing appointments are available Monday to Sunday, from 9:00 AM to 6:00 PM only. Unfortunately, we are unable to accommodate viewings outside of these hours. We look forward to welcoming you during our available times."
+  (Learned from Faysal handling Kunjal Kedia re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html)
