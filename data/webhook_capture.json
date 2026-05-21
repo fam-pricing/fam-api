@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-21T06:57:31.280Z",
+  "ts": "2026-05-21T06:57:35.745Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4259807920",
+    "type": "INBOUND",
+    "message_id": "4259807993",
     "ticket_id": "952478494",
-    "message": "Attachment",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "536476505",
     "contact_name": "GEORGI EMILOV RAZVANSKI",
     "contact_identifier": "+447413535253",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4259807847",
+    "parent_ticket_id": "952478494",
+    "event_type": "INBOUND"
   }
 }
