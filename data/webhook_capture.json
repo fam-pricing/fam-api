@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-21T13:06:48.983Z",
+  "ts": "2026-05-21T13:07:03.202Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260233398",
+    "type": "OUTBOUND",
+    "message_id": "4260233622",
     "ticket_id": "952164892",
-    "message": "Please send me the video of the unit",
-    "channel_id": "1304636",
+    "message": "Would you like to book the Azizi Mina penthouse with a budget of AED 25,000 per month?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538631018",
     "contact_name": "PJL ENERGY",
     "contact_identifier": "+380672702585",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
