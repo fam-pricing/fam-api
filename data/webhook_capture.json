@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-21T17:17:39.423Z",
+  "ts": "2026-05-21T17:18:07.884Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260477610",
+    "type": "OUTBOUND",
+    "message_id": "4260477943",
     "ticket_id": "952677246",
-    "message": "Hello, would the landlord accept to do 12 months contract ?",
-    "channel_id": "1304636",
+    "message": "We don't offer Ejari contracts, we work on a monthly basis, so there's no fixed 12-month commitment. Your rate stays the same for the first 3 months, then adjusts with the market. Would that kind of flexibility work for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536177241",
     "contact_name": "Romana",
     "contact_identifier": "+33674303335",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
