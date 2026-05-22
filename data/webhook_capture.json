@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-22T07:08:05.802Z",
+  "ts": "2026-05-22T07:08:13.267Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260757307",
+    "type": "OUTBOUND",
+    "message_id": "4260757392",
     "ticket_id": "952723108",
-    "message": "I need the details before I fly.",
-    "channel_id": "585723",
+    "message": "your *",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538799613",
     "contact_name": "Craig Yafai",
     "contact_identifier": "+447542473868",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
