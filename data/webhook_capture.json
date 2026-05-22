@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-22T05:55:19.441Z",
+  "ts": "2026-05-22T05:55:30.743Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260709059",
+    "type": "OUTBOUND",
+    "message_id": "4260709145",
     "ticket_id": "952062484",
-    "message": "I am sorry to say but we are not moving forward with this flat",
-    "channel_id": "1304636",
+    "message": "do you wish to proceed with the booking",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538422106",
     "contact_name": "Kunjal Kedia",
     "contact_identifier": "+916261424909",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
