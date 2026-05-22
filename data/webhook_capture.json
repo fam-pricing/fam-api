@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-22T07:58:59.791Z",
+  "ts": "2026-05-22T07:59:06.660Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260805361",
+    "type": "OUTBOUND",
+    "message_id": "4260805469",
     "ticket_id": "947609821",
-    "message": "Agreed",
-    "channel_id": "585723",
+    "message": "For booking please send:\r\n\r\n1. a copy of your ID or passport\r\n\r\n2. Email\r\n\r\nWe will send a payment link to confirm your booking",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537450284",
     "contact_name": "Alisa",
     "contact_identifier": "+79817821817",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
