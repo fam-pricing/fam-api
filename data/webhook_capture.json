@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-22T06:59:21.243Z",
+  "ts": "2026-05-22T06:59:52.523Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260749553",
+    "type": "OUTBOUND",
+    "message_id": "4260749934",
     "ticket_id": "952723108",
-    "message": "When I pay can you fill the pool today ready for tomorrow",
-    "channel_id": "585723",
+    "message": "Only by tomorrow as there were some work going on to re-fix it",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538799613",
     "contact_name": "Craig Yafai",
     "contact_identifier": "+447542473868",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
