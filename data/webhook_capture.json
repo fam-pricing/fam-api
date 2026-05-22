@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-22T21:55:17.540Z",
+  "ts": "2026-05-22T21:56:53.863Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4261458987",
+    "type": "INBOUND",
+    "message_id": "4261459374",
     "ticket_id": "952977947",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n3BR in Imperial Avenue\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I am looking for a rental from June 1 to Aug 31",
+    "channel_id": "1304636",
     "contact_id": "538883447",
     "contact_name": "V_K",
     "contact_identifier": "+447970850886",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
