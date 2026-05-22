@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-22T07:54:43.751Z",
+  "ts": "2026-05-22T07:54:44.679Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4260801059",
+    "type": "INBOUND",
+    "message_id": "4260801068",
     "ticket_id": "947609821",
-    "message": "Honestly this is the last price",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "You said the security deposit is 1,500 AED?",
+    "channel_id": "585723",
     "contact_id": "537450284",
     "contact_name": "Alisa",
     "contact_identifier": "+79817821817",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4260004736",
+    "parent_ticket_id": "947609821",
+    "event_type": "INBOUND"
   }
 }
