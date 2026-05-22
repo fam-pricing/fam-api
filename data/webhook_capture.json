@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-22T08:46:53.907Z",
+  "ts": "2026-05-22T08:47:14.229Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4260857516",
+    "type": "INBOUND",
+    "message_id": "4260857861",
     "ticket_id": "952220652",
-    "message": "unfortunately booking will be cancelled",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "536245418",
     "contact_name": "Ufuk Gökmen",
     "contact_identifier": "+971525203982",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4260857516",
+    "parent_ticket_id": "952220652",
+    "event_type": "INBOUND"
   }
 }
