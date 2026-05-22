@@ -1139,3 +1139,7 @@ U don’t have balcony in any room or hall right?" → Reply: "did you manage to
 
 My name is Tharushi Sha, and I will be assisting you."
   (Learned from Faysal handling PJL ENERGY re https://www.propertyfinder.ae/en/plp/rent/penthouse-for-rent-dubai-palm-jumeirah-azizi-mina-2P0VA2m2euW.html)
+
+## Learned (2026-05-22)
+- If a lead says: "12 payments" → Reply: "maximum we have or we can do is 3 months contract"
+  (Learned from Faysal handling PJL ENERGY re https://www.propertyfinder.ae/en/plp/rent/penthouse-for-rent-dubai-palm-jumeirah-azizi-mina-2P0VA2m2euW.html)
