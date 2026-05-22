@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-22T06:44:19.910Z",
+  "ts": "2026-05-22T06:44:20.493Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4260738883",
-    "ticket_id": "952769089",
-    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Afifa, and I will be assisting you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "280507914",
-    "contact_name": "Ms Eliza",
-    "contact_identifier": "+971586017110",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4260738879",
+    "ticket_id": "952758336",
+    "message": "And which building and apartments? And parking slot",
+    "channel_id": "1304636",
+    "contact_id": "538375001",
+    "contact_name": "Timur Aghayev",
+    "contact_identifier": "+971561630343",
+    "event_type": "INBOUND"
   }
 }
