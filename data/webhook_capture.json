@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-22T08:22:53.982Z",
+  "ts": "2026-05-22T08:23:03.580Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260830851",
-    "ticket_id": "952782517",
-    "message": "Tenent moving this building i need permit",
-    "channel_id": "1304636",
-    "contact_id": "538813061",
-    "contact_name": "Kaji",
-    "contact_identifier": "+971554030045",
-    "parent_message_id": "4260785075",
-    "parent_ticket_id": "952782517",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4260831061",
+    "ticket_id": "947609821",
+    "message": "https://totalpay.ae/payment/20260522486a10125856668",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537450284",
+    "contact_name": "Alisa",
+    "contact_identifier": "+79817821817",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
