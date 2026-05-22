@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-22T08:01:53.500Z",
+  "ts": "2026-05-22T08:02:04.663Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4260808553",
-    "ticket_id": "952220652",
-    "message": "only on the check-in date please by 3pm",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536245418",
-    "contact_name": "Ufuk Gökmen",
-    "contact_identifier": "+971525203982",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4260808778",
+    "ticket_id": "947609821",
+    "message": "What floor is it?",
+    "channel_id": "585723",
+    "contact_id": "537450284",
+    "contact_name": "Alisa",
+    "contact_identifier": "+79817821817",
+    "parent_message_id": "4259852278",
+    "parent_ticket_id": "947609821",
+    "event_type": "INBOUND"
   }
 }
