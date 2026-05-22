@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-22T15:44:56.539Z",
+  "ts": "2026-05-22T15:46:18.136Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261274554",
+    "type": "OUTBOUND",
+    "message_id": "4261275478",
     "ticket_id": "952844280",
-    "message": "Im there",
-    "channel_id": "585723",
+    "message": "Here is the location map for your booking at Jadeel 2 by Madinat Jumeirah Living\r\n\r\nhttps://maps.app.goo.gl/GH2hNKNyH91GfCWy7\r\n\r\nMadinat Jumeirah Living Jadeel 2 - Unit: 509\r\n\r\nDoor Code: 2580 🔑\r\n\r\nWi-Fi Name: MJL-Famliving-509\r\nWi-Fi PW: famliving\r\n\r\nParking slot: B1 - 96\r\n\r\nKindly pass by the reception for a smooth check-in process",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "538830234",
     "contact_name": "Mohammed Amine El Hamzaoui",
     "contact_identifier": "+971529652134",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
