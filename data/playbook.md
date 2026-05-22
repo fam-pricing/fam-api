@@ -1133,3 +1133,9 @@ My name is Tharushi Sha, and I will be assisting you."
 - If a lead says: "Hey 
 U don’t have balcony in any room or hall right?" → Reply: "did you manage to view the apartment"
   (Learned from Faysal handling Kunjal Kedia re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html)
+
+## Learned (2026-05-22)
+- If a lead says: "12 payments" → Reply: "It's a beautiful day at fäm Living!
+
+My name is Tharushi Sha, and I will be assisting you."
+  (Learned from Faysal handling PJL ENERGY re https://www.propertyfinder.ae/en/plp/rent/penthouse-for-rent-dubai-palm-jumeirah-azizi-mina-2P0VA2m2euW.html)
