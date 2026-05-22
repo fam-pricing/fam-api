@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-22T06:40:47.740Z",
+  "ts": "2026-05-22T06:42:08.615Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260736441",
+    "type": "OUTBOUND",
+    "message_id": "4260737335",
     "ticket_id": "952756499",
-    "message": "3pm please",
-    "channel_id": "585723",
+    "message": "We've noticed that you've provided your card details on booking.com to secure your reservation. However, this practice raises concerns regarding the security of your payment information.\r\n\r\nAs booking.com does not verify or handle payments, they simply pass the details for us ti charge on our machines which creates risk of fraudulent activity or unauthorized charges.\r\n\r\nTo ensure the safety of your payment details and secure your booking, we will send you a secure payment link. This method ensures a controlled and secure transaction process, protecting your sensitive data from potential risks.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "447033116",
     "contact_name": "Oliver",
     "contact_identifier": "+971585758468",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
