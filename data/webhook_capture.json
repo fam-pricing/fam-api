@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-22T21:56:53.863Z",
+  "ts": "2026-05-22T21:57:17.926Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261459374",
+    "type": "OUTBOUND",
+    "message_id": "4261459491",
     "ticket_id": "952977947",
-    "message": "I am looking for a rental from June 1 to Aug 31",
-    "channel_id": "1304636",
+    "message": "June 1 to August 31 is 3 months and the unit is available for that period. Want me to send you the listing link with photos?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538883447",
     "contact_name": "V_K",
     "contact_identifier": "+447970850886",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
