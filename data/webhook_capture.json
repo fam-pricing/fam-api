@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-22T11:24:46.974Z",
+  "ts": "2026-05-22T11:25:00.715Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261024416",
+    "type": "OUTBOUND",
+    "message_id": "4261024664",
     "ticket_id": "952684497",
-    "message": "Please ask someone from the team to call me",
-    "channel_id": "1304636",
+    "message": "Can I have your calling number",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537817977",
     "contact_name": "Kanika",
     "contact_identifier": "+919051525237",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
