@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-22T05:47:42.361Z",
+  "ts": "2026-05-22T05:48:29.863Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260705827",
-    "ticket_id": "946488243",
-    "message": "Hi! How are you? Can I please go to the unit 702 in Urban Oasis to do a TruCheck?",
+    "type": "OUTBOUND",
+    "message_id": "4260706185",
+    "ticket_id": "952756499",
+    "message": "will call you shortly",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "447033116",
+    "contact_name": "Oliver",
+    "contact_identifier": "+971585758468",
     "channel_id": "585723",
-    "contact_id": "531448413",
-    "contact_name": "Nurjemal",
-    "contact_identifier": "+971555386752",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
