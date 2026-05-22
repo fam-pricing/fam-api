@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-22T06:52:13.676Z",
+  "ts": "2026-05-22T06:52:24.798Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260744708",
-    "ticket_id": "951764670",
-    "message": "Hello I wanted to confirm if I checked in 6th June I'd be paying 5000 per month for the 3 month period to 06 September?",
-    "channel_id": "1304636",
-    "contact_id": "538423864",
-    "contact_name": "sengatubanje",
-    "contact_identifier": "+260977293603",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4260744850",
+    "ticket_id": "952574058",
+    "message": "We are pleased to confirm availability for your requested stay:\r\n\r\n📅 Check-in: 05 June 2026 📅 Check-out: 04 July 2026 🌙 Number of Nights: 30\r\n\r\n🏡 Apartment Type: 1 Bedrooms 📍 Location: Mag318 💰 Non-Refundable Rate: AED 6000\r\n\r\n🔹 Deposit: AED 3,000 (Refundable) – Required upon check-in. 🔹 The deposit will be reimbursed within 14 working days after check-out, subject to a property inspection. 🔹 Refunds will be processed via credit card or bank transfer.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538746387",
+    "contact_name": "mag318",
+    "contact_identifier": "+971547794951",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
