@@ -1117,3 +1117,7 @@ We will send you a payment link to complete your reservation."
 
 "It's a beautiful day at fäm Living! My name is Tharushi Sha, and I will be assisting you."
   (Learned from Faysal handling Manal Elhossary re PF-HH-AR-134391)
+
+## Learned (2026-05-22)
+- If a lead says: "Any update?" → Reply: "Can you please advise which unit you wish to book"
+  (Learned from Faysal handling Manal Elhossary re PF-HH-AR-134391)
