@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-22T05:30:20.903Z",
+  "ts": "2026-05-22T05:30:26.488Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4260699361",
-    "ticket_id": "952756446",
-    "message": "How can I help you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "538806567",
+    "type": "INBOUND",
+    "message_id": "4260699400",
+    "ticket_id": "952756499",
+    "message": "I found an apt on booking.com",
+    "channel_id": "585723",
+    "contact_id": "447033116",
     "contact_name": "Oliver",
-    "contact_identifier": "e2287c7a-a0cd-445a-fdc0-0923b0e6a9f6",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "contact_identifier": "+971585758468",
+    "parent_message_id": "4086768772",
+    "parent_ticket_id": "872220511",
+    "event_type": "INBOUND"
   }
 }
