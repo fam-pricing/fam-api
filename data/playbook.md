@@ -1111,3 +1111,9 @@ We will send you a payment link to complete your reservation."
 ## Learned (2026-05-21)
 - If a lead requests a video of the unit, inform them that no video is available and that viewings are offered in person only. Offer to arrange an in-person visit.
   (Learned from Faysal handling PJL ENERGY re https://www.propertyfinder.ae/en/plp/rent/penthouse-for-rent-dubai-palm-jumeirah-azizi-mina-2P0VA2m2euW.html)
+
+## Learned (2026-05-22)
+- When a lead sends a vague follow-up such as "Any update?", respond with the following greeting:
+
+"It's a beautiful day at fäm Living! My name is Tharushi Sha, and I will be assisting you."
+  (Learned from Faysal handling Manal Elhossary re PF-HH-AR-134391)
