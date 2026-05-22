@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-22T06:42:57.671Z",
+  "ts": "2026-05-22T06:43:05.291Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260737859",
-    "ticket_id": "952723108",
-    "message": "Can I pay through booking.com ?",
-    "channel_id": "585723",
-    "contact_id": "538799613",
-    "contact_name": "Craig Yafai",
-    "contact_identifier": "+447542473868",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4260737983",
+    "ticket_id": "952758336",
+    "message": "what time you are arriving tomorrow",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538375001",
+    "contact_name": "Timur Aghayev",
+    "contact_identifier": "+971561630343",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
