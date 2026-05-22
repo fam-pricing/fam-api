@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-22T23:25:45.312Z",
+  "ts": "2026-05-22T23:33:45.803Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4261479065",
+    "type": "INBOUND",
+    "message_id": "4261480600",
     "ticket_id": "952963409",
-    "message": "Sure! What day and time works for you? Viewings are available any day between 9am and 6pm.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Tomorrow at 5 please",
+    "channel_id": "1304636",
     "contact_id": "538878964",
     "contact_name": "Canada",
     "contact_identifier": "+16139861198",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
