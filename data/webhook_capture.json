@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-22T16:01:01.031Z",
+  "ts": "2026-05-22T16:29:18.465Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261286461",
-    "ticket_id": "951885937",
-    "message": "Any job vacancy",
+    "type": "OUTBOUND",
+    "message_id": "4261304855",
+    "ticket_id": "952844280",
+    "message": "Is there anything else I can help you with today ?",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "538830234",
+    "contact_name": "Mohammed Amine El Hamzaoui",
+    "contact_identifier": "+971529652134",
     "channel_id": "585723",
-    "contact_id": "538542629",
-    "contact_name": "jinsmonthomas83",
-    "contact_identifier": "+971589419259",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
