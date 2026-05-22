@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-22T06:44:20.493Z",
+  "ts": "2026-05-22T06:44:34.762Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260738879",
+    "type": "OUTBOUND",
+    "message_id": "4260739030",
     "ticket_id": "952758336",
-    "message": "And which building and apartments? And parking slot",
-    "channel_id": "1304636",
+    "message": "Our standard check-in time is at 3 pm. If the apartment is ready, we will inform you to come earlier and check-in.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538375001",
     "contact_name": "Timur Aghayev",
     "contact_identifier": "+971561630343",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
