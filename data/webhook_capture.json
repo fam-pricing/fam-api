@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-22T05:32:51.400Z",
+  "ts": "2026-05-22T05:33:03.355Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4260700449",
-    "ticket_id": "952756499",
-    "message": "Quick call?",
+    "type": "OUTBOUND",
+    "message_id": "4260700530",
+    "ticket_id": "934994591",
+    "message": "Please inform the same team they will check",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "534253030",
+    "contact_name": "KATIE LOUISE WILLIAMS",
+    "contact_identifier": "+971585739407",
     "channel_id": "585723",
-    "contact_id": "447033116",
-    "contact_name": "Oliver",
-    "contact_identifier": "+971585758468",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
