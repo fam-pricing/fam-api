@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-23T10:50:06.984Z",
+  "ts": "2026-05-23T10:57:30.931Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261699132",
-    "ticket_id": "937192947",
-    "message": "Hi I want to extend 1 week to my stay",
+    "type": "OUTBOUND",
+    "message_id": "4261703223",
+    "ticket_id": "953064072",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538903271",
+    "contact_name": "client named Audrey",
+    "contact_identifier": "+971589296254",
     "channel_id": "585723",
-    "contact_id": "534886793",
-    "contact_name": "Muhammad Diab",
-    "contact_identifier": "+971527166175",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
