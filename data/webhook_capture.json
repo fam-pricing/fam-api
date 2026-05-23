@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-23T18:10:46.291Z",
+  "ts": "2026-05-23T18:12:56.609Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4261916513",
-    "ticket_id": "953126203",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nPF-HH-AR-137675\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "538922941",
-    "contact_name": "𝓥𝓲𝓭𝓭𝓱𝔂𝓪𝓪👑",
-    "contact_identifier": "+971585931566",
+    "type": "INBOUND",
+    "message_id": "4261917316",
+    "ticket_id": "953126200",
+    "message": "Coulf you please give me price breakdown grom 1st june to 1st july",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538922940",
+    "contact_name": "Eros",
+    "contact_identifier": "+971507512049",
+    "event_type": "INBOUND"
   }
 }
