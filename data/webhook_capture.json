@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-23T09:17:05.276Z",
+  "ts": "2026-05-23T09:17:48.524Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4261647702",
-    "ticket_id": "953040479",
-    "message": "Yes, you need to be present as your belongings are still in the apartment. Therefore, we are unable to provide access without someone being there.\r\n\r\nWhenever you are available, please let us know and we will coordinate with the owner to arrange the visit.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535230088",
-    "contact_name": "Roman Wagner",
-    "contact_identifier": "+971585412443",
+    "type": "INBOUND",
+    "message_id": "4261648097",
+    "ticket_id": "951614358",
+    "message": "I know about the 2 glasses they were broken which we informed but there was nothing else, Anyways thats fine .. I sure will give a review about it .. I know its not your mistake but it was a terrible experience.",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "536120342",
+    "contact_name": "Rakshith Totalekere",
+    "contact_identifier": "+971502469315",
+    "parent_message_id": "4261647108",
+    "parent_ticket_id": "951614358",
+    "event_type": "INBOUND"
   }
 }
