@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-23T06:32:08.939Z",
+  "ts": "2026-05-23T06:32:31.940Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261561298",
+    "type": "OUTBOUND",
+    "message_id": "4261561564",
     "ticket_id": "953010439",
-    "message": "Hello, \nWhen will you please provide the check in details such as the building, parking slot etc?",
-    "channel_id": "585723",
+    "message": "check in details will be share between 2 to 3pm",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "447033116",
     "contact_name": "Oliver",
     "contact_identifier": "+971585758468",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
