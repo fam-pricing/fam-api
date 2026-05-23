@@ -1143,3 +1143,7 @@ My name is Tharushi Sha, and I will be assisting you."
 ## Learned (2026-05-22)
 - If a lead says: "12 payments" → Reply: "maximum we have or we can do is 3 months contract"
   (Learned from Faysal handling PJL ENERGY re https://www.propertyfinder.ae/en/plp/rent/penthouse-for-rent-dubai-palm-jumeirah-azizi-mina-2P0VA2m2euW.html)
+
+## Learned (2026-05-23)
+- If a lead says "Imagine" (or similar intent to proceed), reply: We will send you the payment link for the deposit. Once the payment is completed, we will prepare the contract and send you the booking confirmation.
+  (Learned from Faysal handling sengatubanje re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
