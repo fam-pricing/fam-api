@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-23T11:38:56.697Z",
+  "ts": "2026-05-23T11:40:38.355Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4261726711",
-    "ticket_id": "937192947",
-    "message": "I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "534886793",
-    "contact_name": "Muhammad Diab",
-    "contact_identifier": "+971527166175",
+    "type": "INBOUND",
+    "message_id": "4261727669",
+    "ticket_id": "953043519",
+    "message": "AHAD has sauna?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "538897263",
+    "contact_name": "Leo",
+    "contact_identifier": "+393928066799",
+    "parent_message_id": "4261654400",
+    "parent_ticket_id": "953043519",
+    "event_type": "INBOUND"
   }
 }
