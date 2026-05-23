@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-23T11:10:44.614Z",
+  "ts": "2026-05-23T11:12:33.364Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4261710776",
+    "type": "INBOUND",
+    "message_id": "4261711909",
     "ticket_id": "951764670",
-    "message": "For booking, we need:\r\n\r\n1. a copy of your ID or passport\r\n\r\n2. Email:\r\n\r\n3.Number:\r\n\r\nWe will send a payment link for the deposit to confirm your bookings accordingly.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I'll need to confirm the exact date with my employer but the week of 6 June",
+    "channel_id": "1304636",
     "contact_id": "538423864",
     "contact_name": "sengatubanje",
     "contact_identifier": "+260977293603",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4261710374",
+    "parent_ticket_id": "951764670",
+    "event_type": "INBOUND"
   }
 }
