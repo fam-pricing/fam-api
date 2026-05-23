@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-23T09:09:27.630Z",
+  "ts": "2026-05-23T09:15:03.235Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261643341",
+    "type": "OUTBOUND",
+    "message_id": "4261646645",
     "ticket_id": "951614358",
-    "message": "Also the deposit ammount was 1500 why they refunded 1250?",
-    "channel_id": "585723",
+    "message": "You have made the payment by card, so the refund will be processed back to the same card and not via bank transfer. Apologies for the inconvenience.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536120342",
     "contact_name": "Rakshith Totalekere",
     "contact_identifier": "+971502469315",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
