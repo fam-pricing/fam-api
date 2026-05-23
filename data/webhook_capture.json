@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-23T09:30:32.576Z",
+  "ts": "2026-05-23T09:30:57.735Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261655735",
-    "ticket_id": "953043519",
-    "message": "Do you have other units available?",
+    "type": "OUTBOUND",
+    "message_id": "4261655994",
+    "ticket_id": "953040479",
+    "message": "okay let me inform to the owner and update you shortly",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535230088",
+    "contact_name": "Roman Wagner",
+    "contact_identifier": "+971585412443",
     "channel_id": "585723",
-    "contact_id": "538897263",
-    "contact_name": "Leo",
-    "contact_identifier": "+393928066799",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
