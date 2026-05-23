@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-23T07:22:51.194Z",
+  "ts": "2026-05-23T07:23:45.541Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261585793",
-    "ticket_id": "951764670",
-    "message": "I've found the building, what's the apartment number?",
+    "type": "OUTBOUND",
+    "message_id": "4261586201",
+    "ticket_id": "952977947",
+    "message": "its 3 bedrooms apartment no maids room",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538883447",
+    "contact_name": "V_K",
+    "contact_identifier": "+447970850886",
     "channel_id": "1304636",
-    "contact_id": "538423864",
-    "contact_name": "sengatubanje",
-    "contact_identifier": "+260977293603",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
