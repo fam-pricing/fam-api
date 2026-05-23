@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-23T14:05:27.093Z",
+  "ts": "2026-05-23T14:07:00.377Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4261805817",
+    "type": "INBOUND",
+    "message_id": "4261806707",
     "ticket_id": "953091708",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello, our check-in and check-out dates are confirmed. We will move in on May 25 and move out on June 25, so we will stay for one month.\n\nCould you please let me know the total amount we need to pay for this one-month stay, including all fees?",
+    "channel_id": "1304636",
     "contact_id": "538913264",
     "contact_name": "Ali Ozan Yavuz",
     "contact_identifier": "+905542217010",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
