@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-23T10:59:01.917Z",
+  "ts": "2026-05-23T10:59:34.215Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4261703969",
-    "ticket_id": "952758336",
-    "message": "Here is the important information about your stay with us\r\n\r\nBuilding no: 04\r\n\r\nApartment no: 709 on the 7th floor\r\n\r\nDoor code: 8080 🗝\r\n\r\nWifi Password: famliving\r\n\r\nParking no: B-509\r\n\r\n2 access cards handed over to you upon check-in",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "538375001",
-    "contact_name": "Timur Aghayev",
-    "contact_identifier": "+971561630343",
+    "type": "INBOUND",
+    "message_id": "4261704292",
+    "ticket_id": "951764670",
+    "message": "Alright I'll be looking to book close to 6 June please guide me on the procedure and handling whether it's Ejari etc",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538423864",
+    "contact_name": "sengatubanje",
+    "contact_identifier": "+260977293603",
+    "event_type": "INBOUND"
   }
 }
