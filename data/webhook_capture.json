@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-23T06:31:43.526Z",
+  "ts": "2026-05-23T06:32:08.939Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4261561144",
-    "ticket_id": "933725324",
-    "message": "Our team will be there at 12pm to assist you Mr Francesco",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "533971685",
-    "contact_name": "Francesco Topputo",
-    "contact_identifier": "+971508345936",
+    "type": "INBOUND",
+    "message_id": "4261561298",
+    "ticket_id": "953010439",
+    "message": "Hello, \nWhen will you please provide the check in details such as the building, parking slot etc?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "447033116",
+    "contact_name": "Oliver",
+    "contact_identifier": "+971585758468",
+    "event_type": "INBOUND"
   }
 }
