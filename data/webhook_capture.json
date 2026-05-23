@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-23T17:04:07.913Z",
+  "ts": "2026-05-23T17:05:02.575Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4261892295",
+    "type": "INBOUND",
+    "message_id": "4261892572",
     "ticket_id": "953081775",
-    "message": "The payment needs to be made by bank transfer only. If you pay through the payment link, it may take more time as our finance team will process it on Monday only.\r\n\r\nTo avoid any delay, we have shared the MAG318 building bank details directly with you.\r\n\r\nPlease complete the payment via bank transfer, as the reception will not accept the payment. It must be completed using the provided bank details only.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "But why is it a bank transfer man",
+    "channel_id": "585723",
     "contact_id": "278742304",
     "contact_name": "Ahmad Sabri Hassan",
     "contact_identifier": "+971528939729",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
