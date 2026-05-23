@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-23T12:58:07.125Z",
+  "ts": "2026-05-23T12:58:12.436Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261768073",
-    "ticket_id": "953081775",
-    "message": "I need a parking card",
-    "channel_id": "585723",
-    "contact_id": "278742304",
-    "contact_name": "Ahmad Sabri Hassan",
-    "contact_identifier": "+971528939729",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4261768128",
+    "ticket_id": "952758336",
+    "message": "Unfortunately it won't be easy because it takes time to register the vehicle; however, we have left the card for you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "538375001",
+    "contact_name": "Timur Aghayev",
+    "contact_identifier": "+971561630343",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
