@@ -1147,3 +1147,7 @@ My name is Tharushi Sha, and I will be assisting you."
 ## Learned (2026-05-23)
 - If a lead says "Imagine" (or similar intent to proceed), reply: We will send you the payment link for the deposit. Once the payment is completed, we will prepare the contract and send you the booking confirmation.
   (Learned from Faysal handling sengatubanje re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
+
+## Learned (2026-05-23)
+- If a lead states they can only pay at the start of June when they receive their salary, respond by letting them know you are happy to prepare a viewing contract in the meantime, but confirm that the booking cannot be secured until at least a partial deposit or rental amount has been received.
+  (Learned from Faysal handling sengatubanje re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
