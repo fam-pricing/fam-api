@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-23T05:07:38.031Z",
+  "ts": "2026-05-23T05:08:32.829Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261533763",
+    "type": "OUTBOUND",
+    "message_id": "4261533995",
     "ticket_id": "952980235",
-    "message": "What time me can go check in",
-    "channel_id": "585723",
+    "message": "Our standard check-in time is at 3 pm",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538884004",
     "contact_name": "Krasimir Toskov",
     "contact_identifier": "+971509579490",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
