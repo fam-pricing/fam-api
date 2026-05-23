@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-23T07:38:03.449Z",
+  "ts": "2026-05-23T07:38:15.311Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261593612",
-    "ticket_id": "951764670",
-    "message": "The booking wasn't communicated with him?",
+    "type": "OUTBOUND",
+    "message_id": "4261593723",
+    "ticket_id": "952758336",
+    "message": "Guest relation number\r\n\r\nName: Junaid\r\nNumber: +971 58 841 6596",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538375001",
+    "contact_name": "Timur Aghayev",
+    "contact_identifier": "+971561630343",
     "channel_id": "1304636",
-    "contact_id": "538423864",
-    "contact_name": "sengatubanje",
-    "contact_identifier": "+260977293603",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
