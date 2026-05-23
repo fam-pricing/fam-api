@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-23T16:22:53.284Z",
+  "ts": "2026-05-23T16:23:26.336Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261875826",
-    "ticket_id": "953081775",
-    "message": "Thanks",
+    "type": "OUTBOUND",
+    "message_id": "4261876159",
+    "ticket_id": "953111328",
+    "message": "Could you please assist us in completing the check-in process? Once it is completed, we will be able to share the apartment details for the check-in.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538918403",
+    "contact_name": "Muhammad Assad",
+    "contact_identifier": "+971502810248",
     "channel_id": "585723",
-    "contact_id": "278742304",
-    "contact_name": "Ahmad Sabri Hassan",
-    "contact_identifier": "+971528939729",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
