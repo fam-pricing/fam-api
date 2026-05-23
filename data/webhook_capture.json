@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-23T12:58:01.500Z",
+  "ts": "2026-05-23T12:58:03.200Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261768030",
+    "type": "OUTBOUND",
+    "message_id": "4261768049",
     "ticket_id": "953081775",
-    "message": "Boss",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "278742304",
     "contact_name": "Ahmad Sabri Hassan",
     "contact_identifier": "+971528939729",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
