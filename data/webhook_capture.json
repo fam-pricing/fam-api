@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-23T07:37:50.312Z",
+  "ts": "2026-05-23T07:38:03.449Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4261593521",
-    "ticket_id": "952758336",
-    "message": "Here is the location map for your booking at Blue Water Building 4\r\n\r\nhttps://maps.app.goo.gl/2eHS4G8dz1U9pGcK9",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "538375001",
-    "contact_name": "Timur Aghayev",
-    "contact_identifier": "+971561630343",
+    "type": "INBOUND",
+    "message_id": "4261593612",
+    "ticket_id": "951764670",
+    "message": "The booking wasn't communicated with him?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538423864",
+    "contact_name": "sengatubanje",
+    "contact_identifier": "+260977293603",
+    "event_type": "INBOUND"
   }
 }
