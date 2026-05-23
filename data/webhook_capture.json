@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-23T08:39:23.453Z",
+  "ts": "2026-05-23T08:39:54.513Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4261626644",
+    "type": "INBOUND",
+    "message_id": "4261626905",
     "ticket_id": "953040479",
-    "message": "He didn’t mention the purpose of the visit, only requested a quick 5-minute viewing.\r\n\r\nIf you are okay with this, we will proceed; otherwise, we will inform him accordingly.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Should I be there?",
+    "channel_id": "585723",
     "contact_id": "535230088",
     "contact_name": "Roman Wagner",
     "contact_identifier": "+971585412443",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
