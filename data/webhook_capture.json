@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-23T11:46:05.546Z",
+  "ts": "2026-05-23T11:52:00.889Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261730343",
-    "ticket_id": "951657693",
-    "message": "Its been 2 days",
+    "type": "OUTBOUND",
+    "message_id": "4261733464",
+    "ticket_id": "953071208",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538906522",
+    "contact_name": "Joe",
+    "contact_identifier": "+971557859676",
     "channel_id": "585723",
-    "contact_id": "538466901",
-    "contact_name": "Pratham Shivnani Purshotham Shivnani",
-    "contact_identifier": "+971568658283",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
