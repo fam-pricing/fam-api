@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-23T05:43:07.510Z",
+  "ts": "2026-05-23T05:44:51.362Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4261542859",
+    "type": "INBOUND",
+    "message_id": "4261543435",
     "ticket_id": "952977947",
-    "message": "Apologies for the confusion, that link should take you straight to the Imperial Avenue listing. Try this one: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-imperial-avenue-15819509.html\n\nDoes tomorrow work for a viewing, or is another day this week better?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Image",
+    "channel_id": "1304636",
     "contact_id": "538883447",
     "contact_name": "V_K",
     "contact_identifier": "+447970850886",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4261542859",
+    "parent_ticket_id": "952977947",
+    "event_type": "INBOUND"
   }
 }
