@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-23T16:37:44.292Z",
+  "ts": "2026-05-23T16:39:52.514Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4261881670",
+    "type": "OUTBOUND",
+    "message_id": "4261882525",
     "ticket_id": "953043519",
-    "message": "i’m booking on airbnb but i don’t see the dates available yet",
-    "channel_id": "585723",
+    "message": "Dates are available. Please refresh the page, as we had previously blocked the unit for direct booking, which is why it was unavailable.\r\n\r\nWe have now reopened it on the online platform, so please check and book soon while it is still available.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538897263",
     "contact_name": "Leo",
     "contact_identifier": "+393928066799",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
