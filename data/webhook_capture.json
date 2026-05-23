@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-23T16:24:26.280Z",
+  "ts": "2026-05-23T16:25:16.277Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4261876511",
+    "type": "INBOUND",
+    "message_id": "4261876801",
     "ticket_id": "953043519",
-    "message": "Airbnb may offer discounted rates, and these can only be checked directly through your Airbnb account to view the available discount for your booking.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I cannot see the dates available anymore on Airbnb",
+    "channel_id": "585723",
     "contact_id": "538897263",
     "contact_name": "Leo",
     "contact_identifier": "+393928066799",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
