@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-24T06:19:21.445Z",
+  "ts": "2026-05-24T06:20:11.989Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4262063370",
+    "type": "INBOUND",
+    "message_id": "4262063635",
     "ticket_id": "951764670",
-    "message": "you will have to book the full period and pay advance",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "So could you share a contract that shows that so my employers can advance me the payment",
+    "channel_id": "1304636",
     "contact_id": "538423864",
     "contact_name": "sengatubanje",
     "contact_identifier": "+260977293603",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4261789952",
+    "parent_ticket_id": "951764670",
+    "event_type": "INBOUND"
   }
 }
