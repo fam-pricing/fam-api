@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-24T07:40:37.333Z",
+  "ts": "2026-05-24T07:41:51.229Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4262093505",
+    "type": "INBOUND",
+    "message_id": "4262093886",
     "ticket_id": "943915428",
-    "message": "I have this property",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "2br ?",
+    "channel_id": "585723",
     "contact_id": "536484706",
     "contact_name": "Raja Sajid 🇦🇪",
     "contact_identifier": "+971566960509",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4262093470",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
