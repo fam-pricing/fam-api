@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-24T11:42:18.057Z",
+  "ts": "2026-05-24T11:42:43.230Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262202014",
+    "type": "OUTBOUND",
+    "message_id": "4262202207",
     "ticket_id": "953043519",
-    "message": "the deposit will be refunded in the same payment method right?",
-    "channel_id": "585723",
+    "message": "yes it will be refunded back to the same card you used to pay",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538897263",
     "contact_name": "Leo",
     "contact_identifier": "+393928066799",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
