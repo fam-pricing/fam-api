@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-24T17:04:12.781Z",
+  "ts": "2026-05-24T17:04:15.225Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4262335109",
+    "type": "INBOUND",
+    "message_id": "4262335116",
     "ticket_id": "953270082",
-    "message": "The rate stays the same for the first 3 months, then we review it together based on where the market is at that point. Once you have your Emirates ID, that's usually when it makes sense to lock in something more stable long-term. Want to come see the place before August 1st?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes ofcourse , im still in Germany and wont be in Dubai untill 1st of August",
+    "channel_id": "1304636",
     "contact_id": "538963982",
     "contact_name": "Kareem",
     "contact_identifier": "+4915168530445",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4262334992",
+    "parent_ticket_id": "953270082",
+    "event_type": "INBOUND"
   }
 }
