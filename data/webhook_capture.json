@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-24T06:04:32.941Z",
+  "ts": "2026-05-24T06:05:46.364Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4262058855",
-    "ticket_id": "953091708",
-    "message": "Hope you are doing well, price will be 9000 AED including all bills and taxes + deposit 3000 AED",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "538913264",
-    "contact_name": "Ali Ozan Yavuz",
-    "contact_identifier": "+905542217010",
+    "type": "INBOUND",
+    "message_id": "4262059241",
+    "ticket_id": "951764670",
+    "message": "We had this discussion",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538423864",
+    "contact_name": "sengatubanje",
+    "contact_identifier": "+260977293603",
+    "parent_message_id": "4261690216",
+    "parent_ticket_id": "951764670",
+    "event_type": "INBOUND"
   }
 }
