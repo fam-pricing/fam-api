@@ -1155,3 +1155,9 @@ My name is Tharushi Sha, and I will be assisting you."
 ## Learned (2026-05-24)
 - If a lead questions why the rental lease does not extend to September, inform them that we currently only accept bookings for a maximum of 3 months.
   (Learned from Faysal handling sengatubanje re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
+
+## Learned (2026-05-24)
+- When a lead requests a price breakdown for the period of 1 June to 1 July, respond with the following:
+
+"The total price for this period is AED 9,000, inclusive of all bills and taxes. A refundable security deposit of AED 3,000 is also required."
+  (Learned from Faysal handling Eros re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html)
