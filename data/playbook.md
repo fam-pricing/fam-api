@@ -1165,3 +1165,7 @@ My name is Tharushi Sha, and I will be assisting you."
 ## Learned (2026-05-24)
 - If a lead asks how to guarantee AED 5,000 up to September, inform them that they must book the full period and pay an advance to secure that rate.
   (Learned from Faysal handling sengatubanje re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
+
+## Learned (2026-05-24)
+- When a guest has agreed to the terms and asks how much it would cost to extend their stay by five additional nights, respond that the total cost for the five-night extension would be 1,500 AED.
+  (Learned from Faysal handling Ali Ozan Yavuz re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html)
