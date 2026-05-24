@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-24T08:33:16.873Z",
+  "ts": "2026-05-24T08:33:30.567Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262118039",
+    "type": "OUTBOUND",
+    "message_id": "4262118128",
     "ticket_id": "952758336",
-    "message": "Add 2 cars",
-    "channel_id": "1304636",
+    "message": "2 vehicles can't be registered at the same time",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "538375001",
     "contact_name": "Timur Aghayev",
     "contact_identifier": "+971561630343",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
