@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-24T04:53:02.446Z",
+  "ts": "2026-05-24T04:53:22.946Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4262042651",
+    "type": "INBOUND",
+    "message_id": "4262042712",
     "ticket_id": "953178283",
-    "message": "No rush, ping me once you've had a look and we'll sort a time.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "🙏",
+    "channel_id": "1304636",
     "contact_id": "538934908",
     "contact_name": "M.Bawaleez",
     "contact_identifier": "+971566074199",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4262042651",
+    "parent_ticket_id": "953178283",
+    "event_type": "INBOUND"
   }
 }
