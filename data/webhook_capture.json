@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-24T11:33:54.183Z",
+  "ts": "2026-05-24T11:35:36.393Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262198349",
+    "type": "OUTBOUND",
+    "message_id": "4262199159",
     "ticket_id": "953043519",
-    "message": "I’m paying deposit now but please send me receipt or something - i had bad experience with deposits in dubai",
-    "channel_id": "585723",
+    "message": "https://app.guesty.com/apps/invoice/7ca6b4b14d4b1f6f3895756899273f75:5ca830150da3a7540f0ec3707c650851e269be9fc12e2679?v=ffa798eb8dc5d2d9eb9b6a45ff2c1ffd:a346e22bde2e3e426541349d3eecd11660d10c218ada8db5",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538897263",
     "contact_name": "Leo",
     "contact_identifier": "+393928066799",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
