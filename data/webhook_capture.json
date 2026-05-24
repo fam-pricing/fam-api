@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-24T19:12:06.636Z",
+  "ts": "2026-05-24T19:12:26.021Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262379164",
+    "type": "OUTBOUND",
+    "message_id": "4262379241",
     "ticket_id": "953267049",
-    "message": "This coming week itself",
-    "channel_id": "1304636",
+    "message": "That works perfectly. What day this week suits you best for a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538963005",
     "contact_name": "Robin Kothari",
     "contact_identifier": "+971565634338",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
