@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-24T04:44:41.696Z",
+  "ts": "2026-05-24T04:45:07.430Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262041193",
+    "type": "OUTBOUND",
+    "message_id": "4262041265",
     "ticket_id": "953178283",
-    "message": "Share location please, \nLocation not open at property finder",
-    "channel_id": "1304636",
+    "message": "It's Bayz by Danube in Business Bay. Here's the Google Maps link: https://maps.google.com/?q=Bayz+by+Danube,+Business+Bay,+Dubai\n\nDoes today or tomorrow work for a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538934908",
     "contact_name": "M.Bawaleez",
     "contact_identifier": "+971566074199",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
