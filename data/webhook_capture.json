@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-24T01:34:08.302Z",
+  "ts": "2026-05-24T01:34:09.210Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262012801",
+    "type": "OUTBOUND",
+    "message_id": "4262012803",
     "ticket_id": "953164432",
-    "message": "Booking room",
-    "channel_id": "883603",
+    "message": "It's a beautiful day at fäm Living; how can I help you?",
     "contact_id": "538932603",
     "contact_name": "Fatima",
     "contact_identifier": "b6091fe0-5d03-4538-8817-21284f2d6d88",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
