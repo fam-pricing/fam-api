@@ -1151,3 +1151,7 @@ My name is Tharushi Sha, and I will be assisting you."
 ## Learned (2026-05-23)
 - If a lead states they can only pay at the start of June when they receive their salary, respond by letting them know you are happy to prepare a viewing contract in the meantime, but confirm that the booking cannot be secured until at least a partial deposit or rental amount has been received.
   (Learned from Faysal handling sengatubanje re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
+
+## Learned (2026-05-24)
+- If a lead questions why the rental lease does not extend to September, inform them that we currently only accept bookings for a maximum of 3 months.
+  (Learned from Faysal handling sengatubanje re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
