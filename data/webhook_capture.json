@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-24T21:01:02.701Z",
+  "ts": "2026-05-24T21:01:19.168Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262408374",
+    "type": "OUTBOUND",
+    "message_id": "4262408441",
     "ticket_id": "953297603",
-    "message": "Good morning",
-    "channel_id": "1304636",
+    "message": "Good morning! The property's in Business Bay, are you looking to move in soon, or just exploring options?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "537848457",
     "contact_name": "Dr Ali Alawadhi",
     "contact_identifier": "+971567164219",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
