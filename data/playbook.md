@@ -1161,3 +1161,7 @@ My name is Tharushi Sha, and I will be assisting you."
 
 "The total price for this period is AED 9,000, inclusive of all bills and taxes. A refundable security deposit of AED 3,000 is also required."
   (Learned from Faysal handling Eros re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html)
+
+## Learned (2026-05-24)
+- If a lead asks how to guarantee AED 5,000 up to September, inform them that they must book the full period and pay an advance to secure that rate.
+  (Learned from Faysal handling sengatubanje re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
