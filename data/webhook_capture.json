@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-25T10:47:41.802Z",
+  "ts": "2026-05-25T10:49:30.245Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262745788",
-    "ticket_id": "952574058",
-    "message": "Waiting",
+    "type": "OUTBOUND",
+    "message_id": "4262747218",
+    "ticket_id": "953420657",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536210020",
+    "contact_name": "Syed Jeffry",
+    "contact_identifier": "+971554992870",
     "channel_id": "585723",
-    "contact_id": "538746387",
-    "contact_name": "Syed Muhammad Fakhar Imam Syed Muhammad Husnain",
-    "contact_identifier": "+971547794951",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
