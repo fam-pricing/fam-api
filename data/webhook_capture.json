@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-25T04:36:11.988Z",
+  "ts": "2026-05-25T04:36:34.824Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262488600",
+    "type": "OUTBOUND",
+    "message_id": "4262488682",
     "ticket_id": "953334966",
-    "message": "My checking will be first of june",
-    "channel_id": "1304636",
+    "message": "June 1 works, let me pull up the details for you and come back shortly!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538979495",
     "contact_name": "الحمدالله دائما و ابدا",
     "contact_identifier": "+971582810300",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
