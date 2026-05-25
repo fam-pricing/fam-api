@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-25T13:33:20.188Z",
+  "ts": "2026-05-25T13:35:07.851Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262882956",
-    "ticket_id": "953254450",
-    "message": "can you tell me please when",
+    "type": "OUTBOUND",
+    "message_id": "4262884673",
+    "ticket_id": "953091708",
+    "message": "unfortunately we are fully booked for viewings today that is why we are unable to arrange",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538913264",
+    "contact_name": "Ali Ozan Yavuz",
+    "contact_identifier": "+905542217010",
     "channel_id": "1304636",
-    "contact_id": "538958743",
-    "contact_name": "maya",
-    "contact_identifier": "+971508579225",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
