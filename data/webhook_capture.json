@@ -1,17 +1,19 @@
 {
-  "ts": "2026-05-25T10:05:15.037Z",
+  "ts": "2026-05-25T10:05:46.738Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4262701080",
+    "type": "INBOUND",
+    "message_id": "4262701877",
     "ticket_id": "953401537",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "538997692",
     "contact_name": "✨ 初 心🌱 Flor - Argentina 🇦🇷",
     "contact_identifier": "+5493517481875",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4262701080",
+    "parent_ticket_id": "953401537",
+    "event_type": "INBOUND"
   }
 }
