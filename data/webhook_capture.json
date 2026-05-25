@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-25T10:42:14.372Z",
+  "ts": "2026-05-25T10:42:38.427Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262741214",
+    "type": "OUTBOUND",
+    "message_id": "4262741534",
     "ticket_id": "953043519",
-    "message": "There is no espresso machine?",
-    "channel_id": "585723",
+    "message": "Unfortunately we don't have it",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "538897263",
     "contact_name": "Leo",
     "contact_identifier": "+393928066799",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
