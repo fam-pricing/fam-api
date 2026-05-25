@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-24T21:01:47.049Z",
+  "ts": "2026-05-25T04:35:23.651Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262408551",
-    "ticket_id": "953297603",
-    "message": "Move in max in 3 days",
+    "type": "OUTBOUND",
+    "message_id": "4262488460",
+    "ticket_id": "953334966",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nPF-HH-AR-134391\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "538979495",
+    "contact_name": "الحمدالله دائما و ابدا",
+    "contact_identifier": "+971582810300",
     "channel_id": "1304636",
-    "contact_id": "537848457",
-    "contact_name": "Dr Ali Alawadhi",
-    "contact_identifier": "+971567164219",
-    "parent_message_id": "4262408441",
-    "parent_ticket_id": "953297603",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
