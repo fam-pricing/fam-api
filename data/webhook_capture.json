@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-25T13:51:01.177Z",
+  "ts": "2026-05-25T13:51:23.473Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4262898330",
+    "type": "INBOUND",
+    "message_id": "4262898625",
     "ticket_id": "953357687",
-    "message": "Okay we can do tomorrow at 2 pm",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍🏽",
+    "channel_id": "1304636",
     "contact_id": "538984430",
     "contact_name": "Sara",
     "contact_identifier": "+971509503689",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4262898330",
+    "parent_ticket_id": "953357687",
+    "event_type": "INBOUND"
   }
 }
