@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-25T05:32:56.803Z",
+  "ts": "2026-05-25T05:33:11.805Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4262503745",
+    "type": "INBOUND",
+    "message_id": "4262503806",
     "ticket_id": "936734695",
-    "message": "okay sure thanks",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Can Dey open the door for me my money every is inside",
+    "channel_id": "585723",
     "contact_id": "534737062",
     "contact_name": "IFEOMA NWAOGU",
     "contact_identifier": "+971525824134",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4262498125",
+    "parent_ticket_id": "936734695",
+    "event_type": "INBOUND"
   }
 }
