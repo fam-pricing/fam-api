@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-25T11:20:57.104Z",
+  "ts": "2026-05-25T11:21:29.220Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4262778295",
-    "ticket_id": "953091708",
-    "message": "When do you wish to view the apartment to arrange we can start from tomorrow",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "538913264",
-    "contact_name": "Ali Ozan Yavuz",
-    "contact_identifier": "+905542217010",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4262778762",
+    "ticket_id": "953430983",
+    "message": "What you have available apartment",
+    "channel_id": "585723",
+    "contact_id": "539006711",
+    "contact_name": "W",
+    "contact_identifier": "+971558955226",
+    "event_type": "INBOUND"
   }
 }
