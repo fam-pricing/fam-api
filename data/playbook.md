@@ -1177,3 +1177,7 @@ My name is Tharushi Sha, and I will be assisting you."
 ## Learned (2026-05-25)
 - When a lead asks about move-in availability, respond with: "The deposit is 2,000 AED, refundable within 14 working days after check-out."
   (Learned from Faysal handling Dr Ali Alawadhi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
+
+## Learned (2026-05-25)
+- If a lead requests a stay of two months or longer (e.g., "June 1 for 2 months"), inform them that a security deposit of 3,000 AED is required, which will be fully refunded within 14 working days of check-out.
+  (Learned from Faysal handling Sara re PF-HH-AR-137675)
