@@ -1169,3 +1169,7 @@ My name is Tharushi Sha, and I will be assisting you."
 ## Learned (2026-05-24)
 - When a guest has agreed to the terms and asks how much it would cost to extend their stay by five additional nights, respond that the total cost for the five-night extension would be 1,500 AED.
   (Learned from Faysal handling Ali Ozan Yavuz re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-sulafa-tower-69094478.html)
+
+## Learned (2026-05-25)
+- When a lead asks when they can move in, respond with: "The price is 5,000 AED per month, inclusive of all bills and taxes. We can guarantee this price for 3 months."
+  (Learned from Faysal handling Dr Ali Alawadhi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
