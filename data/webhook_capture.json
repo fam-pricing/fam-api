@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-25T10:50:30.150Z",
+  "ts": "2026-05-25T10:51:09.460Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4262747968",
+    "type": "INBOUND",
+    "message_id": "4262748874",
     "ticket_id": "952574058",
-    "message": "I texted you please confirm my message",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I have got it",
+    "channel_id": "585723",
     "contact_id": "538746387",
     "contact_name": "Syed Muhammad Fakhar Imam Syed Muhammad Husnain",
     "contact_identifier": "+971547794951",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4262747968",
+    "parent_ticket_id": "952574058",
+    "event_type": "INBOUND"
   }
 }
