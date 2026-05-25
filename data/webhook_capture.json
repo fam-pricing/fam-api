@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-25T13:35:31.309Z",
+  "ts": "2026-05-25T13:35:32.778Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262885087",
+    "type": "OUTBOUND",
+    "message_id": "4262885091",
     "ticket_id": "953459053",
-    "message": "Good evening, I have a client in Central Park Building 1 with a furnished 1BR apartment. He is considering renting it out as a holiday home.\r\nCould you please let me know what the requirements are?",
-    "channel_id": "747394",
+    "message": " Dear Aleksandra Kolesnikova, It's a beautiful day at fäm Living! This confirms that we received your request and registered it as ticket #953459053. We will get back to you within 24 hours. You can always reply to this email if you want to add additional information. Kinds regards, Team fäm Living ",
     "contact_id": "539015885",
     "contact_name": "Aleksandra Kolesnikova",
     "contact_email": "aleksandra.k@famproperties.com",
-    "event_type": "INBOUND"
+    "channel_id": "747394",
+    "event_type": "OUTBOUND"
   }
 }
