@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-25T07:29:58.817Z",
+  "ts": "2026-05-25T07:30:06.170Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262567360",
-    "ticket_id": "953265981",
-    "message": "No I need 4 rooms",
+    "type": "OUTBOUND",
+    "message_id": "4262567413",
+    "ticket_id": "953351982",
+    "message": "yes 3.1% card payment fee",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537376941",
+    "contact_name": "Muhsin Hassan",
+    "contact_identifier": "+971528179317",
     "channel_id": "1304636",
-    "contact_id": "538962658",
-    "contact_name": "Oliver Cortez",
-    "contact_identifier": "+5217293128844",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
