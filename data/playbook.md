@@ -1173,3 +1173,7 @@ My name is Tharushi Sha, and I will be assisting you."
 ## Learned (2026-05-25)
 - When a lead asks when they can move in, respond with: "The price is 5,000 AED per month, inclusive of all bills and taxes. We can guarantee this price for 3 months."
   (Learned from Faysal handling Dr Ali Alawadhi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
+
+## Learned (2026-05-25)
+- When a lead asks about move-in availability, respond with: "The deposit is 2,000 AED, refundable within 14 working days after check-out."
+  (Learned from Faysal handling Dr Ali Alawadhi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
