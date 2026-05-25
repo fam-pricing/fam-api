@@ -1,19 +1,21 @@
 {
-  "ts": "2026-05-25T10:36:09.952Z",
+  "ts": "2026-05-25T10:38:01.039Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262736415",
-    "ticket_id": "953401537",
-    "message": "👋",
-    "channel_id": "585723",
-    "contact_id": "538997692",
-    "contact_name": "✨ 初 心🌱 Flor - Argentina 🇦🇷",
-    "contact_identifier": "+5493517481875",
-    "parent_message_id": "4262729979",
-    "parent_ticket_id": "953401537",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4262737826",
+    "ticket_id": "953397365",
+    "message": "you are welcome",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538997414",
+    "contact_name": "Florencia",
+    "contact_email": "mfo@orfeda.com",
+    "contact_identifier": "f493a474-7fc1-4f7c-f812-f4b138aca75b",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
