@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-25T11:24:54.443Z",
+  "ts": "2026-05-25T11:30:48.887Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262781271",
-    "ticket_id": "953091708",
-    "message": "I would like to view the apartment today and proceed with the contract as well. I’m planning to start the moving process tomorrow, so I’d like to finalize the viewing and contract today if possible.\n\nDo you have any availability today?",
-    "channel_id": "1304636",
-    "contact_id": "538913264",
-    "contact_name": "Ali Ozan Yavuz",
-    "contact_identifier": "+905542217010",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4262785617",
+    "ticket_id": "953430983",
+    "message": "How many bedrooms please",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539006711",
+    "contact_name": "W",
+    "contact_identifier": "+971558955226",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
