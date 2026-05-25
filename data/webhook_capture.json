@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-25T07:44:48.450Z",
+  "ts": "2026-05-25T07:44:59.285Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262578459",
-    "ticket_id": "953365169",
-    "message": "Ok",
+    "type": "OUTBOUND",
+    "message_id": "4262578557",
+    "ticket_id": "953357687",
+    "message": "rental price is fixed i can make deposit 2000 AED",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538984430",
+    "contact_name": "Sara",
+    "contact_identifier": "+971509503689",
     "channel_id": "1304636",
-    "contact_id": "537726041",
-    "contact_name": "Assia",
-    "contact_identifier": "+96171384568",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
