@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-25T10:49:30.245Z",
+  "ts": "2026-05-25T10:50:16.864Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4262747218",
-    "ticket_id": "953420657",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536210020",
-    "contact_name": "Syed Jeffry",
-    "contact_identifier": "+971554992870",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4262747827",
+    "ticket_id": "953420770",
+    "message": "Hi - it’s been almost a week since I contacted you about the electrics. I’m still waiting for a reply? Why is it taking so long to get a response?",
+    "channel_id": "1304636",
+    "contact_id": "535867791",
+    "contact_name": "MOHAMMED AMIR SAAD ISHTIAQUE",
+    "contact_identifier": "+971523192648",
+    "event_type": "INBOUND"
   }
 }
