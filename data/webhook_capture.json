@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-25T08:39:43.950Z",
+  "ts": "2026-05-25T08:39:51.709Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4262624859",
+    "type": "OUTBOUND",
+    "message_id": "4262624915",
     "ticket_id": "953043519",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "Our team is there you may drop you items in the apartment",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "538897263",
     "contact_name": "Leo",
     "contact_identifier": "+393928066799",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
