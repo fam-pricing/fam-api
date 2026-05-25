@@ -1181,3 +1181,9 @@ My name is Tharushi Sha, and I will be assisting you."
 ## Learned (2026-05-25)
 - If a lead requests a stay of two months or longer (e.g., "June 1 for 2 months"), inform them that a security deposit of 3,000 AED is required, which will be fully refunded within 14 working days of check-out.
   (Learned from Faysal handling Sara re PF-HH-AR-137675)
+
+## Learned (2026-05-25)
+- If a lead mentions they are currently in Motor City, respond with the following:
+
+"The rental price is 6,500 AED for 30 nights, inclusive of all bills and taxes. A refundable deposit of 2,000 AED is also required."
+  (Learned from Faysal handling Venus re PF-HH-AR-137675)
