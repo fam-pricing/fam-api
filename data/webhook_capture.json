@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-26T13:29:04.145Z",
+  "ts": "2026-05-26T13:29:11.280Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4263802780",
-    "ticket_id": "953724195",
-    "message": "I used booking.com",
+    "type": "OUTBOUND",
+    "message_id": "4263802947",
+    "ticket_id": "953722388",
+    "message": "Well noted on your arrival timing. However, please note that our standard check-in time starts from 3:00 PM. If the unit is ready earlier, we will be happy to update you for an early check-in.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539091393",
+    "contact_name": "Frea Ablazo",
+    "contact_identifier": "+971582948365",
     "channel_id": "585723",
-    "contact_id": "539092009",
-    "contact_name": "Aadnan Elkacimi",
-    "contact_identifier": "+971529622519",
-    "parent_message_id": "4263801508",
-    "parent_ticket_id": "953724195",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
