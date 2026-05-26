@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-26T09:00:15.637Z",
+  "ts": "2026-05-26T09:00:25.010Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4263480321",
-    "ticket_id": "924810041",
-    "message": "Good afternoon Denis,\r\n\r\nYour deposit was a cash deposit, correct? Could you please confirm whether you would like to collect it in cash or via bank transfer?\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "531782816",
-    "contact_name": "Denis Byvaltsev",
-    "contact_identifier": "+971524851531",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4263480650",
+    "ticket_id": "953584813",
+    "message": "Thank you",
+    "channel_id": "1304636",
+    "contact_id": "536414061",
+    "contact_name": "Maria",
+    "contact_identifier": "+96176100864",
+    "event_type": "INBOUND"
   }
 }
