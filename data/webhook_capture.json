@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-26T07:20:26.685Z",
+  "ts": "2026-05-26T07:20:35.590Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4263361413",
+    "type": "OUTBOUND",
+    "message_id": "4263361552",
     "ticket_id": "953069626",
-    "message": "I have payed the security deposit",
-    "channel_id": "585723",
+    "message": "allow us to check",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538905954",
     "contact_name": "THAJUDHEEN KUNJU SIDHEEK",
     "contact_identifier": "+971564067022",
-    "parent_message_id": "4263354592",
-    "parent_ticket_id": "953069626",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
