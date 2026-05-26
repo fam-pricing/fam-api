@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-26T18:19:02.885Z",
+  "ts": "2026-05-26T18:19:32.022Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4264076120",
+    "type": "OUTBOUND",
+    "message_id": "4264076366",
     "ticket_id": "953813053",
-    "message": "it is monthly rent payment right?\n\nis there any commissions? if yes, how much?\n\nis there any security deposit? if yes, how much?\n\nwhat is the availability for the apartment?\n\nwhat’s included?",
-    "channel_id": "1304636",
+    "message": "No commission, and the security deposit is AED 1,500 fully refundable within 14 working days after check-out. It's available now. What dates are you thinking for move-in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539118017",
     "contact_name": "G",
     "contact_identifier": "+6289627539953",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
