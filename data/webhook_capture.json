@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-26T16:26:58.410Z",
+  "ts": "2026-05-26T16:32:56.926Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4263990062",
+    "type": "OUTBOUND",
+    "message_id": "4263996543",
     "ticket_id": "953724195",
-    "message": "Can you give me a number of your customer service or something",
-    "channel_id": "585723",
+    "message": "Could you please try to send us the cancellation request directly through your app and request a free cancellation? We will accept it.\r\n\r\nWe apologize for the inconvenience, but we have not received any message or email from Booking.com at all. We are trying our best to assist you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "539092009",
     "contact_name": "Aadnan Elkacimi",
     "contact_identifier": "+971529622519",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
