@@ -1,17 +1,19 @@
 {
-  "ts": "2026-05-26T14:57:45.975Z",
+  "ts": "2026-05-26T14:57:57.777Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4263909118",
+    "message_id": "4263909328",
     "ticket_id": "953724195",
-    "message": "I think they want you to text them through the app",
+    "message": "They want your written confirmation",
     "channel_id": "585723",
     "contact_id": "539092009",
     "contact_name": "Aadnan Elkacimi",
     "contact_identifier": "+971529622519",
+    "parent_message_id": "4263907395",
+    "parent_ticket_id": "953724195",
     "event_type": "INBOUND"
   }
 }
