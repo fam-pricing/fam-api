@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-26T09:57:02.385Z",
+  "ts": "2026-05-26T09:57:03.328Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4263552834",
+    "type": "OUTBOUND",
+    "message_id": "4263552902",
     "ticket_id": "953664299",
-    "message": "hi",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "481089399",
     "contact_name": "Mrs Ameera Almehrezi",
     "contact_identifier": "+971507997810",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
