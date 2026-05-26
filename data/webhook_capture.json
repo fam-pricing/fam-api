@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-26T14:46:02.013Z",
+  "ts": "2026-05-26T14:47:34.346Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4263895630",
-    "ticket_id": "953737029",
-    "message": "Good evening,\r\n\r\nUnfortunately, we do not accept one-night bookings. Our minimum stay requirement is two nights.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539096002",
-    "contact_name": "$GHAITH$",
-    "contact_identifier": "+971554126847",
+    "type": "INBOUND",
+    "message_id": "4263897517",
+    "ticket_id": "953752068",
+    "message": "🙏🏾",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539101725",
+    "contact_name": "Simone",
+    "contact_identifier": "+971562542166",
+    "parent_message_id": "4263893410",
+    "parent_ticket_id": "953752068",
+    "event_type": "INBOUND"
   }
 }
