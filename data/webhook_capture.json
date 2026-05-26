@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-26T06:08:45.846Z",
+  "ts": "2026-05-26T06:08:56.994Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4263295886",
-    "ticket_id": "953534073",
-    "message": "what time you would like to view the apartment ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539039293",
-    "contact_name": "Kacper - AlexJet Charter Sales",
-    "contact_identifier": "+971522149585",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4263295995",
+    "ticket_id": "953010439",
+    "message": "Hello",
+    "channel_id": "585723",
+    "contact_id": "447033116",
+    "contact_name": "Oliver",
+    "contact_identifier": "+971585758468",
+    "event_type": "INBOUND"
   }
 }
