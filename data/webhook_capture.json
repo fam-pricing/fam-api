@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-26T13:32:48.997Z",
+  "ts": "2026-05-26T13:32:58.461Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4263807316",
-    "ticket_id": "953722388",
-    "message": "Here is the payment link for the deposit: https://totalpay.ae/payment/20260526116a15a0dbc2fb4\r\n\r\nonce done please update us",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539091393",
-    "contact_name": "Frea Ablazo",
-    "contact_identifier": "+971582948365",
+    "type": "INBOUND",
+    "message_id": "4263807527",
+    "ticket_id": "953724195",
+    "message": "So I should try canceling one apartment?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539092009",
+    "contact_name": "Aadnan Elkacimi",
+    "contact_identifier": "+971529622519",
+    "parent_message_id": "4263805771",
+    "parent_ticket_id": "953724195",
+    "event_type": "INBOUND"
   }
 }
