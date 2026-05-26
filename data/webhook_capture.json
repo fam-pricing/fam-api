@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-26T13:23:43.018Z",
+  "ts": "2026-05-26T13:23:56.838Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4263796116",
+    "type": "INBOUND",
+    "message_id": "4263796376",
     "ticket_id": "953724195",
-    "message": "This is for another unit, Aadnan. However, it’s fine—we will manage it. Apologies for the inconvenience.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Happened*",
+    "channel_id": "585723",
     "contact_id": "539092009",
     "contact_name": "Aadnan Elkacimi",
     "contact_identifier": "+971529622519",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4263795969",
+    "parent_ticket_id": "953724195",
+    "event_type": "INBOUND"
   }
 }
