@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-26T18:16:47.754Z",
+  "ts": "2026-05-26T18:19:02.885Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4264074843",
+    "type": "INBOUND",
+    "message_id": "4264076120",
     "ticket_id": "953813053",
-    "message": "It's a 1-bed in Signature Hotel Apartments, Dubai Marina. What would you like to know about it, the availability, what's included, or something else?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "it is monthly rent payment right?\n\nis there any commissions? if yes, how much?\n\nis there any security deposit? if yes, how much?\n\nwhat is the availability for the apartment?\n\nwhat’s included?",
+    "channel_id": "1304636",
     "contact_id": "539118017",
     "contact_name": "G",
     "contact_identifier": "+6289627539953",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
