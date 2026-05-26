@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-26T05:32:04.213Z",
+  "ts": "2026-05-26T05:32:59.011Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4263278999",
+    "type": "INBOUND",
+    "message_id": "4263279455",
     "ticket_id": "953585273",
-    "message": "Great question, Shiney! Let me get someone from the team to confirm the details on that for you right away.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "539048094",
     "contact_name": "Shiney Deborah",
     "contact_identifier": "+971569340377",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4263278999",
+    "parent_ticket_id": "953585273",
+    "event_type": "INBOUND"
   }
 }
