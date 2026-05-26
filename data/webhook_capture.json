@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-26T06:15:36.422Z",
+  "ts": "2026-05-26T06:15:57.260Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4263300229",
-    "ticket_id": "953584813",
-    "message": "Yes I understand. I was wondering if you have a number to contact for reception but if not it's fine I will check with them directly",
+    "type": "OUTBOUND",
+    "message_id": "4263300445",
+    "ticket_id": "953254450",
+    "message": "it will be 5500aed in august",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538958743",
+    "contact_name": "maya",
+    "contact_identifier": "+971508579225",
     "channel_id": "1304636",
-    "contact_id": "536414061",
-    "contact_name": "Maria",
-    "contact_identifier": "+96176100864",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
