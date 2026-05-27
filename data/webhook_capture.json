@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-27T12:07:18.211Z",
+  "ts": "2026-05-27T12:07:40.019Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4264639105",
+    "type": "OUTBOUND",
+    "message_id": "4264639592",
     "ticket_id": "953967109",
-    "message": "Two",
-    "channel_id": "585723",
+    "message": "Unfortunately, for those dates we are fully booked and do not have any units available.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "539166635",
     "contact_name": "🤍",
     "contact_identifier": "+971503733808",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
