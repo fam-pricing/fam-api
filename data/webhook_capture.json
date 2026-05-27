@@ -1,17 +1,17 @@
 {
-  "ts": "2026-05-27T08:18:23.152Z",
+  "ts": "2026-05-27T08:18:25.401Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4264394211",
+    "type": "OUTBOUND",
+    "message_id": "4264394265",
     "ticket_id": "953917972",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "437807625",
     "contact_name": "Mr. Nana Yaw Opare",
     "contact_identifier": "+233244773402",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
