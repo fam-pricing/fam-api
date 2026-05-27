@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-27T09:50:39.495Z",
+  "ts": "2026-05-27T09:53:46.640Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4264498195",
+    "type": "INBOUND",
+    "message_id": "4264501621",
     "ticket_id": "940787691",
-    "message": "Good afternoon Mr. Mohammad,\r\n\r\nThank you for the update. We have already given a reminder to our finance team to take care of this matter. Thank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Good afternoon \n\nPlease let me know if renewal is done\n\nThank you 🌹",
+    "channel_id": "585723",
     "contact_id": "535640336",
     "contact_name": "Mohammad Amanzadegan",
     "contact_identifier": "+971503062921",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4264498195",
+    "parent_ticket_id": "940787691",
+    "event_type": "INBOUND"
   }
 }
