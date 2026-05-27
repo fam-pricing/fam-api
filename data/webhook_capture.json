@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-27T09:07:19.098Z",
+  "ts": "2026-05-27T09:08:35.219Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4264450050",
+    "type": "INBOUND",
+    "message_id": "4264451410",
     "ticket_id": "947068797",
-    "message": "yes, we have received the payment for the rent already only the pending is deposit",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Cash or card",
+    "channel_id": "585723",
     "contact_id": "537333134",
     "contact_name": "Mouza Alkhyeli",
     "contact_identifier": "+971561344438",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
