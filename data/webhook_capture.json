@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-27T06:04:48.448Z",
+  "ts": "2026-05-27T06:05:09.141Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4264278489",
+    "type": "OUTBOUND",
+    "message_id": "4264278653",
     "ticket_id": "953884903",
-    "message": "Hi yes",
-    "channel_id": "1304636",
+    "message": "Let me pull up the details for you and be right back!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539137153",
     "contact_name": "Anju Varghese",
     "contact_identifier": "+971502804011",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
