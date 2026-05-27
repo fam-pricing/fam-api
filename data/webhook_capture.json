@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-27T08:20:05.684Z",
+  "ts": "2026-05-27T08:20:49.354Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4264396239",
+    "type": "OUTBOUND",
+    "message_id": "4264397045",
     "ticket_id": "924810041",
-    "message": "Ok, thank you; do you have any other phone number that I can reach out? \nThe number +971 52 175 0940 is completely unresponsive",
-    "channel_id": "585723",
+    "message": "our hotline number is +971 800 326 600 which will be available from 9am till 9pm",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "531782816",
     "contact_name": "Denis Byvaltsev",
     "contact_identifier": "+971524851531",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
