@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-27T07:17:55.668Z",
+  "ts": "2026-05-27T07:18:00.114Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4264332090",
-    "ticket_id": "953711101",
-    "message": "you would like to book this apartment ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539087849",
-    "contact_name": "Amber Zaheer",
-    "contact_identifier": "+447305935054",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4264332155",
+    "ticket_id": "924810041",
+    "message": "DET & DCR Complaint Notice\nI am preparing to file another official complaint against fäm Living with DET and Dubai Consumer Rights (DCR).\nI checked out on May 11 and still have not received my deposit refund, and managers are not answering clearly. No handover report was signed, so holding my money is illegal.\nTransfer my full deposit of 3,000 AED within 48 hours, or the report goes to the authorities.",
+    "channel_id": "585723",
+    "contact_id": "531782816",
+    "contact_name": "Denis Byvaltsev",
+    "contact_identifier": "+971524851531",
+    "event_type": "INBOUND"
   }
 }
