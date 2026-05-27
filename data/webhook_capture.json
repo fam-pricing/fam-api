@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-27T08:17:27.863Z",
+  "ts": "2026-05-27T08:17:42.975Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4264393113",
-    "ticket_id": "953884903",
-    "message": "Hi",
-    "channel_id": "1304636",
-    "contact_id": "539137153",
-    "contact_name": "Anju Varghese",
-    "contact_identifier": "+971502804011",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4264393377",
+    "ticket_id": "953912774",
+    "message": "How can i help you?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539145046",
+    "contact_name": "Vishal Ullal",
+    "contact_identifier": "fc0faf3f-e54f-4448-6a81-f5bcaef5ddd4",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
