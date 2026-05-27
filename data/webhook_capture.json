@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-27T08:19:02.685Z",
+  "ts": "2026-05-27T08:19:57.344Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4264395141",
+    "type": "INBOUND",
+    "message_id": "4264396086",
     "ticket_id": "953884543",
-    "message": "We have this apartment available in Business Bay – Bayz by Danube.\r\n\r\nhttps://www.airbnb.com/rooms/1569399627345130944",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "What’s the price for the month?",
+    "channel_id": "585723",
     "contact_id": "490401998",
     "contact_name": "Mr Michael William Dominic Findlater",
     "contact_identifier": "+447798633499",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
