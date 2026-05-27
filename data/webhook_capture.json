@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-27T12:27:14.681Z",
+  "ts": "2026-05-27T12:33:06.580Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4264660959",
+    "type": "OUTBOUND",
+    "message_id": "4264666981",
     "ticket_id": "947157625",
-    "message": "Image",
-    "channel_id": "585723",
+    "message": "We can see that you have completed the check-in process; however, your deposit amount is still pending. for that we will send you the payment link shortly\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "506895111",
     "contact_name": "Ms Amani Mohammed Salem Humood Algaydi",
     "contact_identifier": "+971547694466",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
