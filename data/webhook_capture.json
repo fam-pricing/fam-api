@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-27T06:16:52.284Z",
+  "ts": "2026-05-27T06:18:39.076Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4264285080",
-    "ticket_id": "953884543",
-    "message": "is anyone there?",
+    "type": "OUTBOUND",
+    "message_id": "4264286104",
+    "ticket_id": "953752068",
+    "message": "Good Morning Simone,\r\n\r\nHope you are doing well.\r\n\r\nWe can see that you have completed the check-in process; however, your deposit amount is still pending. Could you please provide us with an update regarding the deposit?\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539101725",
+    "contact_name": "Simone",
+    "contact_identifier": "+971562542166",
     "channel_id": "585723",
-    "contact_id": "490401998",
-    "contact_name": "Mr Michael William Dominic Findlater",
-    "contact_identifier": "+447798633499",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
