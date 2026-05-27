@@ -1,18 +1,17 @@
 {
-  "ts": "2026-05-27T06:21:09.595Z",
+  "ts": "2026-05-27T06:21:47.048Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4264287503",
-    "ticket_id": "953888569",
-    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
-    "contact_id": "536204696",
-    "contact_name": "mike",
-    "contact_email": "mike@notiostudio.co.uk",
-    "contact_identifier": "d0035a39-59bd-4b03-2781-59e302c2b93a",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4264287864",
+    "ticket_id": "953752068",
+    "message": "Good morning. Someone will be at the building when I’ll arrive ?",
+    "channel_id": "585723",
+    "contact_id": "539101725",
+    "contact_name": "Simone",
+    "contact_identifier": "+971562542166",
+    "event_type": "INBOUND"
   }
 }
