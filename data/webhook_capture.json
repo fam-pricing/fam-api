@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-27T08:27:29.790Z",
+  "ts": "2026-05-27T08:27:53.087Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4264404617",
+    "type": "INBOUND",
+    "message_id": "4264404986",
     "ticket_id": "953711101",
-    "message": "allow us to check the rate and update you",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "539087849",
     "contact_name": "Amber Zaheer",
     "contact_identifier": "+447305935054",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4264404617",
+    "parent_ticket_id": "953711101",
+    "event_type": "INBOUND"
   }
 }
