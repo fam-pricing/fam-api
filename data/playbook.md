@@ -1187,3 +1187,7 @@ My name is Tharushi Sha, and I will be assisting you."
 
 "The rental price is 6,500 AED for 30 nights, inclusive of all bills and taxes. A refundable deposit of 2,000 AED is also required."
   (Learned from Faysal handling Venus re PF-HH-AR-137675)
+
+## Learned (2026-05-27)
+- If a lead asks whether the deposit is refundable, confirm that it is fully refundable upon check-out, provided there are no damages to the apartment.
+  (Learned from Faysal handling Anju Varghese re PF-HH-AR-137675)
