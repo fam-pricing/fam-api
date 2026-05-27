@@ -1,18 +1,19 @@
 {
-  "ts": "2026-05-27T14:14:10.115Z",
+  "ts": "2026-05-27T14:14:15.105Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4264775306",
-    "ticket_id": "954019521",
-    "message": "Thanks! You will get a reply by email if you leave this website.",
-    "contact_id": "539185984",
-    "contact_name": "bahador",
-    "contact_email": "BAHADOR.GHASEMZADEH@GMAIL.COM",
-    "contact_identifier": "352125ce-f934-4ca5-b479-478e6605b2fb",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4264775428",
+    "ticket_id": "953799297",
+    "message": "Around 10 am",
+    "channel_id": "585723",
+    "contact_id": "539113443",
+    "contact_name": "Darina",
+    "contact_identifier": "+77781648629",
+    "parent_message_id": "4264773818",
+    "parent_ticket_id": "953799297",
+    "event_type": "INBOUND"
   }
 }
