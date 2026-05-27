@@ -1,17 +1,19 @@
 {
-  "ts": "2026-05-27T10:57:36.924Z",
+  "ts": "2026-05-27T10:58:32.742Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4264568064",
-    "ticket_id": "953964544",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
-    "contact_id": "539165627",
-    "contact_name": "jad",
-    "contact_identifier": "+639074482847",
+    "type": "INBOUND",
+    "message_id": "4264569086",
+    "ticket_id": "852583151",
+    "message": "I'll ask",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "450960431",
+    "contact_name": "Aya - fam living",
+    "contact_identifier": "+971544311300",
+    "parent_message_id": "4264491464",
+    "parent_ticket_id": "852583151",
+    "event_type": "INBOUND"
   }
 }
