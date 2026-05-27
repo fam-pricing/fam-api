@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-27T08:33:24.135Z",
+  "ts": "2026-05-27T08:33:36.378Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4264410982",
-    "ticket_id": "940787691",
-    "message": "Hi, I hope you are doing well.\n\nThe internet will expire tonight or tomorrow, and since our work depends on it, please renew it.\n\nThanks.",
+    "type": "OUTBOUND",
+    "message_id": "4264411204",
+    "ticket_id": "952844280",
+    "message": "Unfortunately, we are unable to offer a further discount. As per our system, the standard rate is AED 880 per night; however, we have already provided you with a discounted rate through Booking.com. Therefore, we are unable to reduce it further.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538830234",
+    "contact_name": "Mohammed Amine El Hamzaoui",
+    "contact_identifier": "+971529652134",
     "channel_id": "585723",
-    "contact_id": "535640336",
-    "contact_name": "Mohammad Amanzadegan",
-    "contact_identifier": "+971503062921",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
