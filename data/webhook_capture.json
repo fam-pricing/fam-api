@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-28T06:11:00.305Z",
+  "ts": "2026-05-28T06:12:14.291Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265174740",
+    "type": "INBOUND",
+    "message_id": "4265175394",
     "ticket_id": "954140987",
-    "message": "The first and last month upfront secures your dates, but it doesn't lock in the rate for month 4. September will be reviewed closer to the time based on market conditions. Want to arrange a viewing before committing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I'm not understanding the concept what's the upfront payment of the last month for if it doesn't secure the rent?😅",
+    "channel_id": "1304636",
     "contact_id": "538423864",
     "contact_name": "sengatubanje",
     "contact_identifier": "+260977293603",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4265174740",
+    "parent_ticket_id": "954140987",
+    "event_type": "INBOUND"
   }
 }
