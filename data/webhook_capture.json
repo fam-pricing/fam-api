@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-28T06:14:55.915Z",
+  "ts": "2026-05-28T06:15:05.776Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265176866",
-    "ticket_id": "954125042",
-    "message": "Payment is first and last month upfront, then monthly from there.\n\nShall I get your details down to hold the unit?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "535177793",
-    "contact_name": "M",
-    "contact_identifier": "+971561906227",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4265176958",
+    "ticket_id": "951199783",
+    "message": "Confirm",
+    "channel_id": "585723",
+    "contact_id": "182824734",
+    "contact_name": "Mariam Alshomali",
+    "contact_identifier": "+971529827611",
+    "parent_message_id": "4265174288",
+    "parent_ticket_id": "951199783",
+    "event_type": "INBOUND"
   }
 }
