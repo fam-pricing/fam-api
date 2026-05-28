@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-28T10:01:42.348Z",
+  "ts": "2026-05-28T10:02:13.000Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4265405760",
+    "type": "OUTBOUND",
+    "message_id": "4265406417",
     "ticket_id": "954203596",
-    "message": "I would like to rent from August on. Is a parking space and cleaning service included?",
-    "channel_id": "1304636",
+    "message": "Parking is included. For cleaning, we offer a housekeeping service at AED 160 per visit, it covers linen change, vacuuming, mopping, and amenity top-ups, and you can book it as often as you like.\n\nHow long are you planning to stay in August?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539242197",
     "contact_name": "Jasmin Primus",
     "contact_identifier": "+4369910167582",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
