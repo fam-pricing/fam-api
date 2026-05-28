@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-28T10:05:49.424Z",
+  "ts": "2026-05-28T10:06:39.385Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265410712",
-    "ticket_id": "954154414",
-    "message": "Please note that a security deposit of AED 1,000 is required upon check-in.\r\n\r\nYou may complete the payment using the following deposit link:\r\n\r\nhttps://totalpay.ae/payment/20260527276a16a6f37710e\r\n\r\nThis amount is fully refundable at check-out, provided there are no damages to the apartment. The refund will be processed within 7 working days after your departure.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539227541",
-    "contact_name": "Maged MOHAMMED Alattas",
-    "contact_identifier": "+971566614766",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4265411604",
+    "ticket_id": "954203596",
+    "message": "Thank you. Is it possible to visit the flat? I would like to rent it for 3 months and make it permanent as soon as I have my emirates id which should be in 1 month",
+    "channel_id": "1304636",
+    "contact_id": "539242197",
+    "contact_name": "Jasmin Primus",
+    "contact_identifier": "+4369910167582",
+    "event_type": "INBOUND"
   }
 }
