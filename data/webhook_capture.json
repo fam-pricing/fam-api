@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-28T07:27:37.137Z",
+  "ts": "2026-05-28T07:28:07.522Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4265234420",
+    "type": "OUTBOUND",
+    "message_id": "4265234954",
     "ticket_id": "954138487",
-    "message": "Image",
-    "channel_id": "585723",
+    "message": "Thank you we will make the booking and send you the confirmation",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "539223191",
     "contact_name": "Adebiyi Mariam",
     "contact_identifier": "+971551687602",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
