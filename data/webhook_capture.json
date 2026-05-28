@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-28T06:48:10.369Z",
+  "ts": "2026-05-28T06:48:37.076Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4265198432",
+    "type": "OUTBOUND",
+    "message_id": "4265198830",
     "ticket_id": "954148099",
-    "message": "Is it possible to book from today?",
-    "channel_id": "1304636",
+    "message": "Yes, it can start from today. Just to flag, the 3BR fits up to 6 guests per DTCM regulations, so if you have 7 people that might be a problem. Can you confirm how many guests there'll be?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539225744",
     "contact_name": "Subhajit Singha",
     "contact_identifier": "+917719227673",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
