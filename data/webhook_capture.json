@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-28T12:38:59.698Z",
+  "ts": "2026-05-28T12:39:13.097Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4265579812",
-    "ticket_id": "943915428",
-    "message": "Who is there for a visit?",
+    "type": "OUTBOUND",
+    "message_id": "4265580029",
+    "ticket_id": "952723108",
+    "message": "For parking in wrong place",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "538799613",
+    "contact_name": "Craig Yafai",
+    "contact_identifier": "+447542473868",
     "channel_id": "585723",
-    "contact_id": "536484706",
-    "contact_name": "Raja Sajid 🇦🇪",
-    "contact_identifier": "+971566960509",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
