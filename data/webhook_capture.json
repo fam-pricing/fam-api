@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-28T14:03:10.937Z",
+  "ts": "2026-05-28T14:08:16.923Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265675962",
+    "type": "INBOUND",
+    "message_id": "4265681863",
     "ticket_id": "943915428",
-    "message": "We will be able to update you on the 3 to 4 months rate only on Saturday.\r\n\r\nFor now, we can confirm the rate for a 2-month booking only. Thank you for your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "For 2 months rent 4500 per month.\nRight?",
+    "channel_id": "585723",
     "contact_id": "536484706",
     "contact_name": "Raja Sajid 🇦🇪",
     "contact_identifier": "+971566960509",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4265653271",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
