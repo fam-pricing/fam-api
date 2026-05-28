@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-28T06:51:45.843Z",
+  "ts": "2026-05-28T06:52:28.515Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4265201164",
-    "ticket_id": "917536456",
-    "message": "Did you check my Internet",
+    "type": "OUTBOUND",
+    "message_id": "4265201628",
+    "ticket_id": "914032331",
+    "message": "All our units are fully booked.\r\n\r\nThe only available unit is Canal Arabian, which we shared with you in the first link.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "528829582",
+    "contact_name": "Ala Hassan",
+    "contact_identifier": "+972527494230",
     "channel_id": "585723",
-    "contact_id": "529936596",
-    "contact_name": "Maliheh Shojaei",
-    "contact_identifier": "+971502729393",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
