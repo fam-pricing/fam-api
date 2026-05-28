@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-28T10:22:21.117Z",
+  "ts": "2026-05-28T10:22:30.450Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265429195",
+    "type": "INBOUND",
+    "message_id": "4265429351",
     "ticket_id": "951199783",
-    "message": "Hello Mrs Mariam, how may i assist you ?",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "For checking in we will be a bit late. Will be there around 6PM.",
+    "channel_id": "585723",
     "contact_id": "182824734",
     "contact_name": "Mariam Alshomali",
     "contact_identifier": "+971529827611",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
