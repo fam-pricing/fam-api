@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-28T14:50:37.860Z",
+  "ts": "2026-05-28T14:53:18.508Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265730094",
+    "type": "INBOUND",
+    "message_id": "4265733141",
     "ticket_id": "943915428",
-    "message": "here is the bank details",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Since 1st June",
+    "channel_id": "585723",
     "contact_id": "536484706",
     "contact_name": "Raja Sajid 🇦🇪",
     "contact_identifier": "+971566960509",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4265729889",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
