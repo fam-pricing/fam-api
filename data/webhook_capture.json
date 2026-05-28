@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-28T11:12:24.560Z",
+  "ts": "2026-05-28T11:12:33.780Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265482825",
+    "type": "INBOUND",
+    "message_id": "4265483057",
     "ticket_id": "951199783",
-    "message": "Here is some important information for your stay with us at fäm Living:\r\n\r\nYour apartment number is 3407 which is on 34th floor\r\nMain door code is 8080 🔑\r\nWifi Password: famliving\r\nParking slot is B2- 06\r\n\r\nGym, swimming pool and other amenities are on P7. You may access as per the community guidelines\r\n\r\nPlease note that we are only available every day from 9:00AM to 9:00 PM",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Ok",
+    "channel_id": "585723",
     "contact_id": "182824734",
     "contact_name": "Mariam Alshomali",
     "contact_identifier": "+971529827611",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4265430179",
+    "parent_ticket_id": "951199783",
+    "event_type": "INBOUND"
   }
 }
