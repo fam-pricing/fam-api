@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-28T19:53:57.813Z",
+  "ts": "2026-05-28T19:54:22.133Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4265942884",
+    "type": "OUTBOUND",
+    "message_id": "4265943111",
     "ticket_id": "954350979",
-    "message": "May I please have more infor about the payment? Deposit, etc, and also, is it pets allowed?",
-    "channel_id": "1304636",
+    "message": "The deposit is AED 1,500, fully refundable within 14 working days after check-out. Unfortunately none of our apartments allow pets. Would you like to arrange a viewing to see the place?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539289893",
     "contact_name": "Ivana Suárez",
     "contact_identifier": "+97334333107",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
