@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-28T20:51:48.409Z",
+  "ts": "2026-05-28T20:56:49.711Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265967823",
-    "ticket_id": "954359747",
-    "message": "Let me pull up the details for you right away!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "539292252",
-    "contact_name": "Aman Kuvadov",
-    "contact_identifier": "+971528091177",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4265969829",
+    "ticket_id": "954360507",
+    "message": "Hi, I'm looking to book a villa for one night on the 12th of June for 3 to 5 people. Could you let me know:\n\n- Availability for that date\n- Total price for the night (including any cleaning/service fees and deposit)\n- Number of bedrooms and max guests\n- Check-in and check-out times\n- Whether private pool/beach is included\n\nThanks!",
+    "channel_id": "585723",
+    "contact_id": "539292473",
+    "contact_name": "Rayan",
+    "contact_identifier": "+971501249676",
+    "event_type": "INBOUND"
   }
 }
