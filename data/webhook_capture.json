@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-28T06:15:39.972Z",
+  "ts": "2026-05-28T06:15:55.144Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265177299",
-    "ticket_id": "951199783",
-    "message": "Hello Mariam Alshomali ! To provide you with a smooth check-in experience, we must know your estimated arrival time. Please let us know what time are you expecting to check in.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "182824734",
-    "contact_name": "Mariam Alshomali",
-    "contact_identifier": "+971529827611",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4265177454",
+    "ticket_id": "954140987",
+    "message": "I think I want to move into this one in business bay, I'm back after Eid holiday and want to move in on 6 June you mentioned 5000 per month for the first 3 months and 1500 deposit. please guide me on the procedure from paying to moving in",
+    "channel_id": "1304636",
+    "contact_id": "538423864",
+    "contact_name": "sengatubanje",
+    "contact_identifier": "+260977293603",
+    "parent_message_id": "4259174662",
+    "parent_ticket_id": "951764670",
+    "event_type": "INBOUND"
   }
 }
