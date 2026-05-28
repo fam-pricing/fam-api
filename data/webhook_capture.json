@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-28T11:23:57.618Z",
+  "ts": "2026-05-28T11:32:59.310Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4265495381",
-    "ticket_id": "954150610",
-    "message": "I will pay for every 3 months at one payment",
-    "channel_id": "1304636",
-    "contact_id": "538363776",
-    "contact_name": "Dr. Aylar",
-    "contact_identifier": "+971507955452",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4265505563",
+    "ticket_id": "951199783",
+    "message": "Our team will be waiting for you at the building lobby at 6 pm for check in process",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "182824734",
+    "contact_name": "Mariam Alshomali",
+    "contact_identifier": "+971529827611",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
