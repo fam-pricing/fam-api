@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-28T13:16:57.035Z",
+  "ts": "2026-05-28T13:17:24.669Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4265622275",
+    "type": "OUTBOUND",
+    "message_id": "4265622877",
     "ticket_id": "954263788",
-    "message": "Is this property available from tomorrow or 30th for one month? \nI need for family, maybe extend to second month also.",
-    "channel_id": "1304636",
+    "message": "Yes, it's available from tomorrow or the 30th, either works. Would the 30th give your family enough time to arrange the move, or are you looking to get in sooner?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539261600",
     "contact_name": "Sayed",
     "contact_identifier": "+971505101836",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
