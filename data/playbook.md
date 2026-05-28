@@ -1195,3 +1195,7 @@ My name is Tharushi Sha, and I will be assisting you."
 ## Learned (2026-05-28)
 - If a lead says "Audio," reply: "Viewing can be done on 10th June only."
   (Learned from Faysal handling Sharif re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
+
+## Learned (2026-05-28)
+- If a lead mentions their passport copy, inform them that we do not accept cheques as a form of payment.
+  (Learned from Faysal handling sengatubanje re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-signature-hotel-apartments-spa-marina-78183877.html)
