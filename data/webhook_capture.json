@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-28T06:01:50.304Z",
+  "ts": "2026-05-28T06:02:27.576Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4265169385",
+    "type": "OUTBOUND",
+    "message_id": "4265169790",
     "ticket_id": "954140987",
-    "message": "Hello I'm looking to move into an apartment on 6 June with minimum stay up to September month end, I saw this 1 bedroom  and wanted to get a full breakdown of the fees and costs",
-    "channel_id": "1304636",
+    "message": "The total for 6 June to 30 September is AED 20,000 (4 months at AED 5,000/month). To secure the dates, first and last month's rent is needed upfront (AED 10,000), then monthly from there. The security deposit is AED 1,500, fully refundable within 14 working days after check-out. Worth knowing the rate is fixed for the first 3 months, and month 4 gets confirmed closer to the time based on market rates.\n\nWant to see the apartment before committing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538423864",
     "contact_name": "sengatubanje",
     "contact_identifier": "+260977293603",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
