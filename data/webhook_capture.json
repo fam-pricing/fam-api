@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-28T06:10:21.882Z",
+  "ts": "2026-05-28T06:10:32.921Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265174288",
-    "ticket_id": "951199783",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "182824734",
-    "contact_name": "Mariam Alshomali",
-    "contact_identifier": "+971529827611",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4265174455",
+    "ticket_id": "954140987",
+    "message": "I want to understand if the first and last month rent is needed upfront does it mean the 4th months rent is fixed then?",
+    "channel_id": "1304636",
+    "contact_id": "538423864",
+    "contact_name": "sengatubanje",
+    "contact_identifier": "+260977293603",
+    "parent_message_id": "4265169790",
+    "parent_ticket_id": "954140987",
+    "event_type": "INBOUND"
   }
 }
