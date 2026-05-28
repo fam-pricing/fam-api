@@ -1191,3 +1191,7 @@ My name is Tharushi Sha, and I will be assisting you."
 ## Learned (2026-05-27)
 - If a lead asks whether the deposit is refundable, confirm that it is fully refundable upon check-out, provided there are no damages to the apartment.
   (Learned from Faysal handling Anju Varghese re PF-HH-AR-137675)
+
+## Learned (2026-05-28)
+- If a lead says "Audio," reply: "Viewing can be done on 10th June only."
+  (Learned from Faysal handling Sharif re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
