@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-28T19:54:22.133Z",
+  "ts": "2026-05-28T19:55:34.519Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265943111",
+    "type": "INBOUND",
+    "message_id": "4265943718",
     "ticket_id": "954350979",
-    "message": "The deposit is AED 1,500, fully refundable within 14 working days after check-out. Unfortunately none of our apartments allow pets. Would you like to arrange a viewing to see the place?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I am looking for pets allowed only. Thanks",
+    "channel_id": "1304636",
     "contact_id": "539289893",
     "contact_name": "Ivana Suárez",
     "contact_identifier": "+97334333107",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
