@@ -1,17 +1,19 @@
 {
-  "ts": "2026-05-28T17:10:20.786Z",
+  "ts": "2026-05-28T17:16:44.872Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265847672",
-    "ticket_id": "951075424",
-    "message": "Thank you for choosing fäm living. Please note that our work timings are from 9:00 AM to 9:00 PM. To avail yourself of our best offers and prices, you can now make your bookings on our website; please visit www.famliving.com.\n\nشكرًا لاتصالك , يرجى ملاحظة أن أوقات العمل لدينا هي من 9:00 صباحًا إلى 9:00 مساءً ، للاستفادة من أفضل العروض والأسعار، يمكنك الآن إجراء حجوزاتك على موقعنا على الإنترنت\n\nwww.famliving.com",
-    "contact_id": "538283576",
-    "contact_name": "Aisha Umidovna Akhmedova",
-    "contact_identifier": "+971581044058",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4265852038",
+    "ticket_id": "954140987",
+    "message": "Thank you for sharing, 2 questions \n1.0 what if I wanted to check in in the morning? \n2.0 if I wanted to pay in cash next week what would be the procedure? Where are your offices, or do we meet at the building?",
+    "channel_id": "1304636",
+    "contact_id": "538423864",
+    "contact_name": "sengatubanje",
+    "contact_identifier": "+260977293603",
+    "parent_message_id": "4265833472",
+    "parent_ticket_id": "954140987",
+    "event_type": "INBOUND"
   }
 }
