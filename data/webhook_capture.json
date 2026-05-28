@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-28T12:26:04.362Z",
+  "ts": "2026-05-28T12:26:17.356Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265565556",
-    "ticket_id": "954242040",
-    "message": "Yes, you can pay monthly. For a 3-month stay, the first and last months are required upfront to secure the unit, then the remaining month follows.\n\nHere are some photos: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-11-binghatti-amber-15165649.html\n\nWant to go ahead with Binghatti Amber or would you like to see other options first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "539255181",
-    "contact_name": "~I.W~",
-    "contact_identifier": "+971565535377",
+    "type": "INBOUND",
+    "message_id": "4265565783",
+    "ticket_id": "954101856",
+    "message": "Also could you confirm this payment structure?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "539215771",
+    "contact_name": ".",
+    "contact_identifier": "+85244039740",
+    "parent_message_id": "4265111715",
+    "parent_ticket_id": "954101856",
+    "event_type": "INBOUND"
   }
 }
