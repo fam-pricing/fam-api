@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-28T09:31:27.836Z",
+  "ts": "2026-05-28T09:31:38.207Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265371593",
-    "ticket_id": "954100893",
-    "message": "let me check the rate for 3 months",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539215446",
-    "contact_name": "Sharif",
-    "contact_identifier": "+971503174772",
+    "type": "INBOUND",
+    "message_id": "4265371795",
+    "ticket_id": "954140987",
+    "message": "Please also answer this question",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538423864",
+    "contact_name": "sengatubanje",
+    "contact_identifier": "+260977293603",
+    "parent_message_id": "4265370607",
+    "parent_ticket_id": "954140987",
+    "event_type": "INBOUND"
   }
 }
