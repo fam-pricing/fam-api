@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-28T01:08:37.025Z",
+  "ts": "2026-05-28T01:16:32.901Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265109703",
+    "type": "INBOUND",
+    "message_id": "4265111057",
     "ticket_id": "954101856",
-    "message": "Welcome to Dubai, Prat, great timing on June 1.\n\nFor a 4-month stay, we lock in the rate for the first 3 months, then confirm the following month based on market conditions at that point. To secure the full period, first and last month's rent is required upfront, with the remaining months billed monthly. A refundable security deposit of AED 1,500 is required, returned within 14 working days after check-out.\n\nDoes that work for you, or would you like to know anything else before deciding?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Sure, and would there be any charges on top? Like cleaning fee, tourism fee, agency fee, etc?",
+    "channel_id": "1304636",
     "contact_id": "539215771",
     "contact_name": ".",
     "contact_identifier": "+85244039740",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
