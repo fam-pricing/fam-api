@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-28T06:07:56.819Z",
+  "ts": "2026-05-28T06:08:25.654Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4265172816",
+    "type": "OUTBOUND",
+    "message_id": "4265173069",
     "ticket_id": "954125042",
-    "message": "Hello! Could you tell me about payment conditions? And for how many months we can rent",
-    "channel_id": "1304636",
+    "message": "Payment is first and last month upfront, then monthly from there. We can lock in the rate for up to 3 months at a time, and you're welcome to keep extending beyond that, each new period is reviewed based on market conditions.\n\nWhat length of stay are you thinking?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535177793",
     "contact_name": "M",
     "contact_identifier": "+971561906227",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
