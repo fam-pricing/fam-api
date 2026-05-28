@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-28T08:37:41.801Z",
+  "ts": "2026-05-28T08:38:12.030Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4265309787",
+    "type": "OUTBOUND",
+    "message_id": "4265310227",
     "ticket_id": "954177948",
-    "message": "Hi, is this property available from mid-August? And is it short rent?",
-    "channel_id": "1304636",
+    "message": "Yes, available from mid-August, it's short-term, minimum 1 month. What date were you thinking of moving in?\n\nWait, that contains an em dash. Let me recheck.\n\n\nYes, available from mid-August. And yes, short-term with a 1-month minimum. What date in August were you thinking?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539234146",
     "contact_name": "Dalisia",
     "contact_identifier": "+447444850097",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
