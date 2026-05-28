@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-28T08:53:42.966Z",
+  "ts": "2026-05-28T08:53:56.199Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265327606",
+    "type": "INBOUND",
+    "message_id": "4265327820",
     "ticket_id": "954175516",
-    "message": "We have already sent an email to the Upside reception. Mr. Muhammad, you may kindly check with the reception to confirm whether the unit is ready or not.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "🙏",
+    "channel_id": "585723",
     "contact_id": "539233381",
     "contact_name": "Muhammad Ameen Boda",
     "contact_identifier": "+27815570089",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4265327606",
+    "parent_ticket_id": "954175516",
+    "event_type": "INBOUND"
   }
 }
