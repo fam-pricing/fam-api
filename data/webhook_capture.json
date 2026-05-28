@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-28T01:08:03.951Z",
+  "ts": "2026-05-28T01:08:37.025Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4265109656",
+    "type": "OUTBOUND",
+    "message_id": "4265109703",
     "ticket_id": "954101856",
-    "message": "Hello, I’m Prat.\nI have just relocated to Dubai from Hong Kong. I’m looking for monthly rentals as I might relocate to Abu Dhabi in 6 months.\nCould you share all the terms towards renting the above property on a monthly basis? I will stay for at  least 4 months.\nMy check in date would be 1st June. Thank you.",
-    "channel_id": "1304636",
+    "message": "Welcome to Dubai, Prat, great timing on June 1.\n\nFor a 4-month stay, we lock in the rate for the first 3 months, then confirm the following month based on market conditions at that point. To secure the full period, first and last month's rent is required upfront, with the remaining months billed monthly. A refundable security deposit of AED 1,500 is required, returned within 14 working days after check-out.\n\nDoes that work for you, or would you like to know anything else before deciding?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539215771",
     "contact_name": ".",
     "contact_identifier": "+85244039740",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
