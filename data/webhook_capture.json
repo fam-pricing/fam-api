@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-28T06:10:32.921Z",
+  "ts": "2026-05-28T06:11:00.305Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4265174455",
+    "type": "OUTBOUND",
+    "message_id": "4265174740",
     "ticket_id": "954140987",
-    "message": "I want to understand if the first and last month rent is needed upfront does it mean the 4th months rent is fixed then?",
-    "channel_id": "1304636",
+    "message": "The first and last month upfront secures your dates, but it doesn't lock in the rate for month 4. September will be reviewed closer to the time based on market conditions. Want to arrange a viewing before committing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538423864",
     "contact_name": "sengatubanje",
     "contact_identifier": "+260977293603",
-    "parent_message_id": "4265169790",
-    "parent_ticket_id": "954140987",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
