@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-28T08:20:19.237Z",
+  "ts": "2026-05-28T08:21:09.501Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4265291572",
-    "ticket_id": "954175156",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-85302784.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "539233294",
-    "contact_name": "Miwmiw",
-    "contact_identifier": "+971504393648",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4265292642",
+    "ticket_id": "954175516",
+    "message": "Hi there \n\nIt’s Muhammad Ameen Boda here \n\nThanks for reaching out \n\n\nI just completed the online check in form. My other number is not on WhatsApp.",
+    "channel_id": "585723",
+    "contact_id": "539233381",
+    "contact_name": "dxntesodyssey",
+    "contact_identifier": "+27815570089",
+    "event_type": "INBOUND"
   }
 }
