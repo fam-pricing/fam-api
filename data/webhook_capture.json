@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-29T07:07:49.100Z",
+  "ts": "2026-05-29T07:08:03.445Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4266143621",
+    "type": "INBOUND",
+    "message_id": "4266143912",
     "ticket_id": "954163568",
-    "message": "When is the move in please",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "🙏",
+    "channel_id": "585723",
     "contact_id": "539230013",
     "contact_name": "upside",
     "contact_identifier": "+971547016092",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4266102293",
+    "parent_ticket_id": "954163568",
+    "event_type": "INBOUND"
   }
 }
