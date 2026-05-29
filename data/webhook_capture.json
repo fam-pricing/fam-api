@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-29T11:39:25.281Z",
+  "ts": "2026-05-29T11:39:38.253Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4266433477",
+    "type": "OUTBOUND",
+    "message_id": "4266433650",
     "ticket_id": "954485205",
-    "message": "When can we have a look at the apartment ?",
-    "channel_id": "1304636",
+    "message": "Rent will be 5000 AED",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "539320491",
     "contact_name": "Fazal Urrehman Khan",
     "contact_identifier": "+971563318680",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
