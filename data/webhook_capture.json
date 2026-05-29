@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-29T08:37:57.797Z",
+  "ts": "2026-05-29T08:38:18.879Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4266236095",
+    "type": "OUTBOUND",
+    "message_id": "4266236474",
     "ticket_id": "954455901",
-    "message": "ready to see it after 30 minutes",
-    "channel_id": "1304636",
+    "message": "Ready in 30 minutes works, just confirm the exact address to meet you there and we'll get you in.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539312831",
     "contact_name": "David",
     "contact_identifier": "+79990993177",
-    "parent_message_id": "4266235394",
-    "parent_ticket_id": "954455901",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
