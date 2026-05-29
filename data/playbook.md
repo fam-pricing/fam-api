@@ -1203,3 +1203,7 @@ My name is Tharushi Sha, and I will be assisting you."
 ## Learned (2026-05-28)
 - If a lead asks about payment, inform them that the first payment consists of a rent of AED 5,000 and a security deposit of AED 1,500.
   (Learned from Faysal handling sengatubanje re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-signature-hotel-apartments-spa-marina-78183877.html)
+
+## Learned (2026-05-29)
+- If a lead asks about the longest available rental term, inform them that the maximum rental period we offer is 3 months.
+  (Learned from Faysal handling Azizi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-85302784.html)
