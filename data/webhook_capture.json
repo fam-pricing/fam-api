@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-29T10:53:48.638Z",
+  "ts": "2026-05-29T10:53:58.279Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4266384867",
-    "ticket_id": "954495641",
-    "message": "I’m actually living there",
+    "type": "OUTBOUND",
+    "message_id": "4266384985",
+    "ticket_id": "954496744",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537665189",
+    "contact_name": "El Alfy",
+    "contact_identifier": "+971502251378",
     "channel_id": "1304636",
-    "contact_id": "535952622",
-    "contact_name": "Simone Pravin Chhabda Pravin Kishan Chhabda",
-    "contact_identifier": "+971581770094",
-    "parent_message_id": "4266384579",
-    "parent_ticket_id": "954495641",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
