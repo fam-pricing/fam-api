@@ -1217,3 +1217,7 @@ My name is Tharushi Sha, and I will be assisting you."
 
 The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refundable deposit of 3,000 AED is also required.
   (Learned from Faysal handling Sayed  re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-dubai-creek-residences-dubai-creek-residences-north-dubai-creek-residences-north-tower-2-68288177.html)
+
+## Learned (2026-05-29)
+- If a lead states they do not need a viewing because they are already familiar with the building, inform them that the security deposit is 2,000 AED.
+  (Learned from Faysal handling Maria Kim re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html)
