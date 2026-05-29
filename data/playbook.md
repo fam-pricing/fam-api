@@ -1207,3 +1207,7 @@ My name is Tharushi Sha, and I will be assisting you."
 ## Learned (2026-05-29)
 - If a lead asks about the longest available rental term, inform them that the maximum rental period we offer is 3 months.
   (Learned from Faysal handling Azizi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-85302784.html)
+
+## Learned (2026-05-29)
+- If a lead asks whether a 6-month stay is workable at the same price, respond that the maximum we can offer at that rate is 3 months.
+  (Learned from Faysal handling . re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
