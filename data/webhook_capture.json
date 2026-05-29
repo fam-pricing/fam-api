@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-29T08:22:41.504Z",
+  "ts": "2026-05-29T08:23:21.985Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4266219444",
-    "ticket_id": "951199783",
-    "message": "Could you please open the door? Thank you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "182824734",
-    "contact_name": "Mariam Alshomali",
-    "contact_identifier": "+971529827611",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4266220199",
+    "ticket_id": "954356595",
+    "message": "Today around 3 pm",
+    "channel_id": "1304636",
+    "contact_id": "539291533",
+    "contact_name": "Amandeep",
+    "contact_identifier": "+971585630379",
+    "parent_message_id": "4266081527",
+    "parent_ticket_id": "954356595",
+    "event_type": "INBOUND"
   }
 }
