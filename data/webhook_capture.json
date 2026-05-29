@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-29T05:57:20.089Z",
+  "ts": "2026-05-29T05:58:42.012Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4266097423",
+    "type": "INBOUND",
+    "message_id": "4266098078",
     "ticket_id": "917536456",
-    "message": "Hi Eid Mubarak. our team will be back on Saturday",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Hi Eid mobarak",
+    "channel_id": "585723",
     "contact_id": "529936596",
     "contact_name": "Maliheh Shojaei",
     "contact_identifier": "+971502729393",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4266097423",
+    "parent_ticket_id": "917536456",
+    "event_type": "INBOUND"
   }
 }
