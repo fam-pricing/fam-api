@@ -1606,5 +1606,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-05-29T08:39:20.548Z",
+    "ticket_id": 954455901,
+    "lead_id": "message_lead_29583226",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 816,
+    "critic_pass": null,
+    "lead_quality": 65,
+    "buying_stage": "WARM",
+    "skip_reason": "bot_paused"
   }
 ]
