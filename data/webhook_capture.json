@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-29T13:45:49.663Z",
+  "ts": "2026-05-29T13:46:01.493Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4266580615",
+    "type": "OUTBOUND",
+    "message_id": "4266580856",
     "ticket_id": "952487865",
-    "message": "Can guest check in at 12am?",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538724311",
     "contact_name": "FENGLEI YIN",
     "contact_identifier": "+971585702058",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
