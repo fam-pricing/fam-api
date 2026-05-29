@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-29T06:25:35.769Z",
+  "ts": "2026-05-29T06:27:51.714Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4266113084",
-    "ticket_id": "954421734",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nPF-HH-AR-134391\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "539303999",
-    "contact_name": "A!",
-    "contact_identifier": "+97334307359",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4266114298",
+    "ticket_id": "943915428",
+    "message": "Bayz by danub?",
+    "channel_id": "585723",
+    "contact_id": "536484706",
+    "contact_name": "Raja Sajid 🇦🇪",
+    "contact_identifier": "+971566960509",
+    "parent_message_id": "4266110351",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
