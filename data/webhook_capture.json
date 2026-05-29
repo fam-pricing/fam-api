@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-29T09:17:55.769Z",
+  "ts": "2026-05-29T09:18:40.831Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4266281706",
-    "ticket_id": "954163568",
-    "message": "Is this reservation also cancelable?",
+    "type": "OUTBOUND",
+    "message_id": "4266282509",
+    "ticket_id": "940787691",
+    "message": "We sincerly apologise for the inconvienence that may caused you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "535640336",
+    "contact_name": "Mohammad Amanzadegan",
+    "contact_identifier": "+971503062921",
     "channel_id": "585723",
-    "contact_id": "539230013",
-    "contact_name": "upside",
-    "contact_identifier": "+971547016092",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
