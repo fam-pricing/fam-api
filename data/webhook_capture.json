@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-29T11:39:44.704Z",
+  "ts": "2026-05-29T11:41:20.565Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4266433753",
-    "ticket_id": "954485205",
-    "message": "when do u wish to view",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539320491",
-    "contact_name": "Fazal Urrehman Khan",
-    "contact_identifier": "+971563318680",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4266435544",
+    "ticket_id": "954481876",
+    "message": "Hi, I’d like to cancel the booking.\n\nThe payment plan wasn’t very clear on the website, and the deposit requirement was never mentioned before. Also, we need parking for two cars, and unfortunately that’s not available.\n\nBecause of that, we won’t be moving forward with the booking. Thanks for understanding.",
+    "channel_id": "585723",
+    "contact_id": "539319672",
+    "contact_name": "Amna Aldarmaki",
+    "contact_identifier": "+971501531725",
+    "event_type": "INBOUND"
   }
 }
