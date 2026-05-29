@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-29T12:39:01.341Z",
+  "ts": "2026-05-29T12:39:31.506Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4266496067",
-    "ticket_id": "954528875",
-    "message": "Can I have booking confirmation number",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539334001",
-    "contact_name": "Adnan Bashir Ahmed",
-    "contact_identifier": "+971507064036",
+    "type": "INBOUND",
+    "message_id": "4266496531",
+    "ticket_id": "954522326",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539332561",
+    "contact_name": "Mariam Sudally",
+    "contact_identifier": "+971508861978",
+    "parent_message_id": "4266472845",
+    "parent_ticket_id": "954522326",
+    "event_type": "INBOUND"
   }
 }
