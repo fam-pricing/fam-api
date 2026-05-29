@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-29T08:37:23.557Z",
+  "ts": "2026-05-29T08:37:41.629Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4266235523",
+    "type": "OUTBOUND",
+    "message_id": "4266235863",
     "ticket_id": "954455901",
-    "message": "but need to make final decision about apartment today \nthat's why i want see it now",
-    "channel_id": "1304636",
+    "message": "We can arrange a viewing today, what time works for you? Viewings run 9am to 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539312831",
     "contact_name": "David",
     "contact_identifier": "+79990993177",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
