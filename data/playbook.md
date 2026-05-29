@@ -1211,3 +1211,9 @@ My name is Tharushi Sha, and I will be assisting you."
 ## Learned (2026-05-29)
 - If a lead asks whether a 6-month stay is workable at the same price, respond that the maximum we can offer at that rate is 3 months.
   (Learned from Faysal handling . re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
+
+## Learned (2026-05-29)
+- When a lead asks whether a listing is available and requests full details, respond with the following information:
+
+The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refundable deposit of 3,000 AED is also required.
+  (Learned from Faysal handling Sayed  re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-dubai-creek-residences-dubai-creek-residences-north-dubai-creek-residences-north-tower-2-68288177.html)
