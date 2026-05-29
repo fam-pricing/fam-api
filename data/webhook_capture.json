@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-29T11:55:48.999Z",
+  "ts": "2026-05-29T11:58:24.408Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4266449964",
-    "ticket_id": "954495641",
-    "message": "Sure no worries will share invoice once payment is made.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535952622",
-    "contact_name": "Simone Pravin Chhabda Pravin Kishan Chhabda",
-    "contact_identifier": "+971581770094",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4266452492",
+    "ticket_id": "943915428",
+    "message": "Yes",
+    "channel_id": "585723",
+    "contact_id": "536484706",
+    "contact_name": "Raja Sajid 🇦🇪",
+    "contact_identifier": "+971566960509",
+    "parent_message_id": "4266431949",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
