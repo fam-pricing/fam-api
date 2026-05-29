@@ -1,17 +1,19 @@
 {
-  "ts": "2026-05-29T10:44:18.333Z",
+  "ts": "2026-05-29T10:44:28.787Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4266375754",
-    "ticket_id": "947157625",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "506895111",
-    "contact_name": "Ms Amani Mohammed Salem Humood Algaydi",
-    "contact_identifier": "+971547694466",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4266375918",
+    "ticket_id": "954495641",
+    "message": "Based on this",
+    "channel_id": "1304636",
+    "contact_id": "535952622",
+    "contact_name": "Simone Pravin Chhabda Pravin Kishan Chhabda",
+    "contact_identifier": "+971581770094",
+    "parent_message_id": "4255473240",
+    "parent_ticket_id": "951158022",
+    "event_type": "INBOUND"
   }
 }
