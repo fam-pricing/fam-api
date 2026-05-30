@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-30T14:35:15.668Z",
+  "ts": "2026-05-30T14:35:21.677Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267237101",
+    "type": "OUTBOUND",
+    "message_id": "4267237174",
     "ticket_id": "954163568",
-    "message": "I didn't see it there.",
-    "channel_id": "585723",
+    "message": "shall i book it",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "539230013",
     "contact_name": "upside",
     "contact_identifier": "+971547016092",
-    "parent_message_id": "4267236160",
-    "parent_ticket_id": "954163568",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
