@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-30T07:33:13.635Z",
+  "ts": "2026-05-30T07:33:32.286Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4266997150",
+    "type": "OUTBOUND",
+    "message_id": "4266997327",
     "ticket_id": "954703174",
-    "message": "I’m interested in this one",
-    "channel_id": "1304636",
+    "message": "It's a 2BR in Bayz by Danube. Would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539375944",
     "contact_name": "TRUKING",
     "contact_identifier": "+971523678629",
-    "parent_message_id": "4266996811",
-    "parent_ticket_id": "954703174",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
