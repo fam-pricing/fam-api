@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-30T07:12:34.904Z",
+  "ts": "2026-05-30T07:13:39.908Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4266986448",
+    "type": "OUTBOUND",
+    "message_id": "4266986991",
     "ticket_id": "952487865",
-    "message": "I was asking before is that ok to check in early",
-    "channel_id": "585723",
+    "message": "Early check in is subject to availability",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "538724311",
     "contact_name": "FENGLEI YIN",
     "contact_identifier": "+971585702058",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
