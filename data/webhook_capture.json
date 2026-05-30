@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-30T09:59:05.340Z",
+  "ts": "2026-05-30T10:01:23.144Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267077969",
-    "ticket_id": "937678768",
-    "message": "Hello",
+    "type": "OUTBOUND",
+    "message_id": "4267079373",
+    "ticket_id": "951199783",
+    "message": "Hello Mariam Alshomali, our team inspected this morning as well the AC, which shows the right temperature and enough cooling. Sometimes, if the balcony door is kept open, there will be less cooling due to the outside temperature.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "182824734",
+    "contact_name": "Mariam Alshomali",
+    "contact_identifier": "+971529827611",
     "channel_id": "585723",
-    "contact_id": "535009704",
-    "contact_name": "Mohanad Sherif Ahmed",
-    "contact_identifier": "+393206313211",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
