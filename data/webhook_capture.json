@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-30T07:58:59.654Z",
+  "ts": "2026-05-30T07:59:12.139Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267009888",
-    "ticket_id": "954701525",
-    "message": "للأسف الحيوانات الأليفة مو مسموح بها في الشقة. هل عندك أي أسئلة ثانية عن الشقة؟",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "539375562",
-    "contact_name": "Um Zayed",
-    "contact_identifier": "+971502978800",
+    "type": "INBOUND",
+    "message_id": "4267009986",
+    "ticket_id": "954485205",
+    "message": "Ok. I will come at 4 pm then ?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "539320491",
+    "contact_name": "Fazal Urrehman Khan",
+    "contact_identifier": "+971563318680",
+    "parent_message_id": "4267002129",
+    "parent_ticket_id": "954485205",
+    "event_type": "INBOUND"
   }
 }
