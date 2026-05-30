@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-30T06:53:23.882Z",
+  "ts": "2026-05-30T06:53:49.832Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4266976602",
+    "type": "INBOUND",
+    "message_id": "4266976769",
     "ticket_id": "954696566",
-    "message": "June 1st is confirmed. Could you send over a copy of your passport or ID, along with your email address, so we can get the payment link sent across to you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Can you confirm the price and any additional cost for me?",
+    "channel_id": "1304636",
     "contact_id": "539374289",
     "contact_name": "FC",
     "contact_identifier": "+971569203271",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
