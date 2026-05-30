@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-30T06:55:03.850Z",
+  "ts": "2026-05-30T06:55:31.018Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4266977239",
+    "type": "OUTBOUND",
+    "message_id": "4266977400",
     "ticket_id": "954696566",
-    "message": "Sounds good - parking is included right?",
-    "channel_id": "1304636",
+    "message": "Good question on parking! Let me confirm that and the floor details for you right now and come back shortly.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539374289",
     "contact_name": "FC",
     "contact_identifier": "+971569203271",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
