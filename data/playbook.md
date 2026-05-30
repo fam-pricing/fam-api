@@ -1235,3 +1235,7 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 
 "We have a 1-bedroom available at AED 6,500 for 30 nights, inclusive of all bills and taxes. A refundable deposit of AED 2,000 is also required."
   (Learned from Faysal handling A re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
+
+## Learned (2026-05-30)
+- When a lead asks about the deposit, reply: The security deposit is AED 2,000.
+  (Learned from Faysal handling Maria Kim re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html)
