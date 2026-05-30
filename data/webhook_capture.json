@@ -1,20 +1,18 @@
 {
-  "ts": "2026-05-30T06:38:01.464Z",
+  "ts": "2026-05-30T06:44:07.540Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4266970132",
-    "ticket_id": "950575440",
-    "message": "Currently your booking is for only 30 nights, which is until 19th June",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "538178428",
-    "contact_name": "BARBARA ALMEIDA CUNHA",
-    "contact_identifier": "+971569589393",
+    "type": "INBOUND",
+    "message_id": "4266972474",
+    "ticket_id": "954689424",
+    "message": "?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539372707",
+    "contact_identifier": "+971585984631",
+    "parent_message_id": "4266961834",
+    "parent_ticket_id": "954689424",
+    "event_type": "INBOUND"
   }
 }
