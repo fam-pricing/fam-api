@@ -2098,5 +2098,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-05-30T11:34:12.827Z",
+    "ticket_id": 954356595,
+    "lead_id": "message_lead_29577329",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 878,
+    "critic_pass": null,
+    "lead_quality": 25,
+    "buying_stage": "COOL",
+    "skip_reason": "bot_paused"
   }
 ]
