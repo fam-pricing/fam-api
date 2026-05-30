@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-30T08:18:22.845Z",
+  "ts": "2026-05-30T08:18:35.887Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267020696",
-    "ticket_id": "954153353",
-    "message": "How much is your offer for 2 months (extended)",
+    "type": "OUTBOUND",
+    "message_id": "4267020938",
+    "ticket_id": "954646429",
+    "message": "Unfortunately prices are fixed",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539365088",
+    "contact_name": "A",
+    "contact_identifier": "+447539692848",
     "channel_id": "1304636",
-    "contact_id": "539227297",
-    "contact_name": "Bashar Najjar",
-    "contact_identifier": "+16478778132",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
