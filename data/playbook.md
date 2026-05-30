@@ -1229,3 +1229,9 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 ## Learned (2026-05-30)
 - If a lead asks whether the property includes a maid's room, respond: "Prices are fixed for monthly bookings."
   (Learned from Faysal handling 🌅 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-dubai-creek-residences-dubai-creek-residences-north-dubai-creek-residences-north-tower-2-68288177.html)
+
+## Learned (2026-05-30)
+- If a lead says they need accommodation starting today, respond with the following:
+
+"We have a 1-bedroom available at AED 6,500 for 30 nights, inclusive of all bills and taxes. A refundable deposit of AED 2,000 is also required."
+  (Learned from Faysal handling A re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
