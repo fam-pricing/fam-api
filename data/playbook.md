@@ -1243,3 +1243,7 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 ## Learned (2026-05-30)
 - If a lead asks about the deposit return process, respond: "Your deposit will be refunded within 14 working days."
   (Learned from Faysal handling Maria Kim re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html)
+
+## Learned (2026-05-30)
+- If a lead mentions they have work commitments and cannot confirm their booking with certainty, reassure them that their payment is fully refundable within 14 working days after check-out.
+  (Learned from Faysal handling sengatubanje re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
