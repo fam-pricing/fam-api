@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-30T11:57:38.071Z",
+  "ts": "2026-05-30T11:57:42.332Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267152562",
-    "ticket_id": "954757874",
-    "message": "Please share your passport to arrange the viewing",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539388278",
-    "contact_name": "Rahul R",
-    "contact_identifier": "+971543088133",
+    "type": "INBOUND",
+    "message_id": "4267152610",
+    "ticket_id": "954759281",
+    "message": "Yes",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "539388711",
+    "contact_name": "Shmays",
+    "contact_identifier": "+971521794593",
+    "parent_message_id": "4267152462",
+    "parent_ticket_id": "954759281",
+    "event_type": "INBOUND"
   }
 }
