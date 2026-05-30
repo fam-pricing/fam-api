@@ -1225,3 +1225,7 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 ## Learned (2026-05-29)
 - If a lead asks whether the deposit is flexible, respond: "The deposit is fixed at AED 2,000."
   (Learned from Faysal handling Maria Kim re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html)
+
+## Learned (2026-05-30)
+- If a lead asks whether the property includes a maid's room, respond: "Prices are fixed for monthly bookings."
+  (Learned from Faysal handling 🌅 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-dubai-creek-residences-dubai-creek-residences-north-dubai-creek-residences-north-tower-2-68288177.html)
