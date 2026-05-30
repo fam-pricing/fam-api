@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-30T12:48:29.551Z",
+  "ts": "2026-05-30T12:48:58.643Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267180309",
-    "ticket_id": "954762623",
-    "message": "Do u accept deposit as cheque with posted date?",
+    "type": "OUTBOUND",
+    "message_id": "4267180573",
+    "ticket_id": "953985196",
+    "message": "Thank you for sharing",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539173347",
+    "contact_name": "Malak Usama",
+    "contact_identifier": "+971502461492",
     "channel_id": "1304636",
-    "contact_id": "539389669",
-    "contact_name": "Rashed",
-    "contact_identifier": "+971585536234",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
