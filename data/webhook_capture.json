@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-30T07:08:42.367Z",
+  "ts": "2026-05-30T07:10:26.842Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4266984420",
-    "ticket_id": "954698421",
-    "message": "thank you",
-    "channel_id": "1304636",
-    "contact_id": "539374689",
-    "contact_name": "Lala",
-    "contact_identifier": "+261340211164",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4266985277",
+    "ticket_id": "952487865",
+    "message": "Our standard check-in time is 3 pm; check-in can be done only after that",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "538724311",
+    "contact_name": "FENGLEI YIN",
+    "contact_identifier": "+971585702058",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
