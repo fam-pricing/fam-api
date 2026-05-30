@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-30T10:21:01.633Z",
+  "ts": "2026-05-30T10:21:34.420Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267090181",
-    "ticket_id": "954732401",
-    "message": "I'd like to rent this apartment from 29.06 for at least one month, what's is your offer including all fees",
+    "type": "OUTBOUND",
+    "message_id": "4267090391",
+    "ticket_id": "953043519",
+    "message": "Sure well noted, kindly keep the access cards and key inside the apartment and share a photo",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "538897263",
+    "contact_name": "Leo",
+    "contact_identifier": "+393928066799",
     "channel_id": "585723",
-    "contact_id": "539383560",
-    "contact_name": "Noah",
-    "contact_identifier": "+971553384406",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
