@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-30T06:51:12.722Z",
+  "ts": "2026-05-30T06:51:36.958Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4266975512",
+    "type": "OUTBOUND",
+    "message_id": "4266975783",
     "ticket_id": "954696566",
-    "message": "Hi, yes I was interested to rent for a month from June 1st. Is the unit available?",
-    "channel_id": "1304636",
+    "message": "It is available from June 1st for a month, does that work as your move-in date, or did you have a specific end date in mind?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539374289",
     "contact_name": "FC",
     "contact_identifier": "+971569203271",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
