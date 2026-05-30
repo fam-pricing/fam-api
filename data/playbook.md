@@ -1251,3 +1251,7 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 ## Learned (2026-05-30)
 - When a lead says they want to reserve a property, reply asking them to provide a copy of their ID or passport along with their email address to complete the booking.
   (Learned from Faysal handling A re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
+
+## Learned (2026-05-30)
+- If a lead mentions the 4th of June, reply: "We only accept cash or credit card payments."
+  (Learned from Faysal handling Rashed re 1BR in JVT)
