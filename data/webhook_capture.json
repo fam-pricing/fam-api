@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-30T06:17:19.150Z",
+  "ts": "2026-05-30T06:17:37.446Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4266962437",
+    "type": "OUTBOUND",
+    "message_id": "4266962557",
     "ticket_id": "954691873",
-    "message": "Is it available? From now?",
-    "channel_id": "1304636",
+    "message": "Yes, it's available from now. Want to come take a look?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539373202",
     "contact_name": "Bilal Nabaa",
     "contact_identifier": "+971567666277",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
