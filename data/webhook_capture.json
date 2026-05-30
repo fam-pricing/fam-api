@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-30T19:17:51.729Z",
+  "ts": "2026-05-30T19:18:16.744Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267354441",
+    "type": "OUTBOUND",
+    "message_id": "4267354550",
     "ticket_id": "954824020",
-    "message": "Hi\nI would like to visit the appartment.\n\nI intend to relocate from 1st July.\n\nBilal Khalid\n+971564018299",
-    "channel_id": "1304636",
+    "message": "Great that July 1 works as your move-in date, Bilal. We can arrange a viewing any day between 9am and 6pm, what day works best for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539406851",
     "contact_name": "Bilal",
     "contact_identifier": "+971564018299",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
