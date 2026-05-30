@@ -1,17 +1,19 @@
 {
-  "ts": "2026-05-30T10:11:59.481Z",
+  "ts": "2026-05-30T10:13:48.143Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267085347",
-    "ticket_id": "953043519",
-    "message": "Okay, since my flight is at 12 I’ll probably leave the house around 9;30",
+    "type": "OUTBOUND",
+    "message_id": "4267086420",
+    "ticket_id": "954689424",
+    "message": "I will check with the finance team if we received.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539372707",
+    "contact_identifier": "+971585984631",
     "channel_id": "585723",
-    "contact_id": "538897263",
-    "contact_name": "Leo",
-    "contact_identifier": "+393928066799",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
