@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-30T10:45:29.631Z",
+  "ts": "2026-05-30T10:46:46.904Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267107581",
+    "type": "INBOUND",
+    "message_id": "4267108340",
     "ticket_id": "951499165",
-    "message": "refundable after 14 working days of check out",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "We already agreed deposit is 1500AED",
+    "channel_id": "1304636",
     "contact_id": "538423864",
     "contact_name": "sengatubanje",
     "contact_identifier": "+260977293603",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4265375451",
+    "parent_ticket_id": "954140987",
+    "event_type": "INBOUND"
   }
 }
