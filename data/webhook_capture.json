@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-30T07:57:53.037Z",
+  "ts": "2026-05-30T07:57:54.685Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267009247",
+    "type": "OUTBOUND",
+    "message_id": "4267009267",
     "ticket_id": "954701525",
-    "message": "مسموح حيوانات او غير مسموح",
-    "channel_id": "1304636",
+    "message": "الشقة متاحة من ٧ يونيو إلى ٧ يوليو. هل تريد الحجز لهذه الفترة؟",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539375562",
     "contact_name": "Um Zayed",
     "contact_identifier": "+971502978800",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
