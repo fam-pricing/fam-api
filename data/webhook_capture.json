@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-30T09:02:47.700Z",
+  "ts": "2026-05-30T09:03:14.565Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267045587",
+    "type": "OUTBOUND",
+    "message_id": "4267045818",
     "ticket_id": "951499165",
-    "message": "Hello I wanted to find out could I book for moving in this weekend",
-    "channel_id": "1304636",
+    "message": "Available from June 6, so that works for a weekend move-in. The rate is AED 5,000/month all-inclusive, with the first 3 months locked in, after that it's reviewed each quarter.\n\nWould you like to arrange a viewing first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538423864",
     "contact_name": "sengatubanje",
     "contact_identifier": "+260977293603",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
