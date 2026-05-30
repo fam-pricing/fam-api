@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-30T11:47:10.446Z",
+  "ts": "2026-05-30T11:47:35.812Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267147132",
+    "type": "OUTBOUND",
+    "message_id": "4267147329",
     "ticket_id": "954757874",
-    "message": "Is this available from tmrw for short term rentals and  the monthly price mentioned is it the same",
-    "channel_id": "1304636",
+    "message": "Let me check the short-term availability and pricing for you and come back shortly!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539388278",
     "contact_name": "Rahul R",
     "contact_identifier": "+971543088133",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
