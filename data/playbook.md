@@ -1247,3 +1247,7 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 ## Learned (2026-05-30)
 - If a lead mentions they have work commitments and cannot confirm their booking with certainty, reassure them that their payment is fully refundable within 14 working days after check-out.
   (Learned from Faysal handling sengatubanje re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
+
+## Learned (2026-05-30)
+- When a lead says they want to reserve a property, reply asking them to provide a copy of their ID or passport along with their email address to complete the booking.
+  (Learned from Faysal handling A re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
