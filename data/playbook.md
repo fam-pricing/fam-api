@@ -1271,3 +1271,7 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 ## Learned (2026-05-31)
 - If a lead asks about the monthly rent, respond: "The price is 6,000 AED per month."
   (Learned from Faysal handling Ankit Khade re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-85302784.html)
+
+## Learned (2026-05-31)
+- When a lead asks about pricing, respond with the following: The rent is 5,500 AED, which includes all bills and taxes. A refundable deposit of 2,000 AED is also required.
+  (Learned from Faysal handling Qas re 1BR in JVT)
