@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T11:09:01.455Z",
+  "ts": "2026-05-31T11:09:02.372Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267616327",
+    "type": "OUTBOUND",
+    "message_id": "4267616346",
     "ticket_id": "917536456",
-    "message": "Did you arrange?",
-    "channel_id": "585723",
+    "message": "Can you please restart you wifi router",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "529936596",
     "contact_name": "Maliheh Shojaei",
     "contact_identifier": "+971502729393",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
