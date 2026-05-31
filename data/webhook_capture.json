@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T16:42:25.632Z",
+  "ts": "2026-05-31T17:00:12.301Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267768615",
-    "ticket_id": "954979231",
-    "message": "So payment terms is only 6500+1500 deposit right",
+    "type": "OUTBOUND",
+    "message_id": "4267775812",
+    "ticket_id": "954981849",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Miraclz Tower\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "539444371",
+    "contact_name": "Farhat",
+    "contact_identifier": "+971585669557",
     "channel_id": "1304636",
-    "contact_id": "535177793",
-    "contact_name": "M",
-    "contact_identifier": "+971561906227",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
