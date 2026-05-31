@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T08:57:05.281Z",
+  "ts": "2026-05-31T08:57:29.297Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267554214",
+    "type": "OUTBOUND",
+    "message_id": "4267554389",
     "ticket_id": "954909640",
-    "message": "Yes. Is it possible today around 6pm?",
-    "channel_id": "1304636",
+    "message": "Viewings run until 6pm, so that's cutting it close. Could you do 5 or 5:30pm instead?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539422272",
     "contact_name": "Majd Assi",
     "contact_identifier": "+971585340443",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
