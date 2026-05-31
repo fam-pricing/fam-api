@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T14:08:46.219Z",
+  "ts": "2026-05-31T14:09:21.201Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267701011",
+    "type": "OUTBOUND",
+    "message_id": "4267701210",
     "ticket_id": "954955092",
-    "message": "I wanted to sign an 8-month contract and keep the same rental rate until the end of the agreement. In Dubai, when a tenancy contract is signed for a fixed term, the agreed rent normally remains unchanged throughout the contract period. For this reason, I would like the rental price to stay fixed for the entire 8 months, as this is the standard arrangement I have always had when renting apartments in Dubai.",
-    "channel_id": "1304636",
+    "message": "Totally understand the point about fixed-term contracts, and it's a reasonable expectation. This is a holiday homes arrangement though, so the rate works differently, locked in for 3-month blocks rather than the full term. For 8 months that would be two 3-month periods and a final 2 months, each confirmed before it starts. Would you like to come see the place first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539436240",
     "contact_name": "Promesse",
     "contact_identifier": "+971567069114",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
