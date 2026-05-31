@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T09:07:17.424Z",
+  "ts": "2026-05-31T09:07:24.762Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267558904",
-    "ticket_id": "954909640",
-    "message": "Good. One last question, is it ready to move in? If I like it, can I move Today or Tomorrow?",
+    "type": "OUTBOUND",
+    "message_id": "4267558945",
+    "ticket_id": "954835825",
+    "message": "you will pay 3 months in advance",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539291533",
+    "contact_name": "Amandeep",
+    "contact_identifier": "+971585630379",
     "channel_id": "1304636",
-    "contact_id": "539422272",
-    "contact_name": "Majd Assi",
-    "contact_identifier": "+971585340443",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
