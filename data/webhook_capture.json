@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T08:58:39.156Z",
+  "ts": "2026-05-31T08:59:04.203Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267554825",
+    "type": "OUTBOUND",
+    "message_id": "4267554953",
     "ticket_id": "954909640",
-    "message": "Ok I can do that. Please provide a breakdown of all additional fees if any",
-    "channel_id": "1304636",
+    "message": "The security deposit is the only extra cost, AED 1,500, refundable within 14 working days of check-out. Would 5 or 5:30pm work for you today instead of 6pm?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539422272",
     "contact_name": "Majd Assi",
     "contact_identifier": "+971585340443",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
