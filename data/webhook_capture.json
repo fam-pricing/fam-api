@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-31T09:42:11.851Z",
+  "ts": "2026-05-31T09:42:25.571Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267574411",
-    "ticket_id": "954917953",
-    "message": "What was the monthly rent for this one?",
-    "channel_id": "1304636",
-    "contact_id": "539424418",
-    "contact_name": "Ankit Khade",
-    "contact_identifier": "+971566955950",
-    "parent_message_id": "4267569466",
-    "parent_ticket_id": "954917953",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4267574568",
+    "ticket_id": "946847797",
+    "message": "price will be 5500 AED / month for the extension",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537276725",
+    "contact_name": "Souheil Alkhayer",
+    "contact_identifier": "+971504676132",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
