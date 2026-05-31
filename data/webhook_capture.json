@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T19:51:42.386Z",
+  "ts": "2026-05-31T19:51:59.427Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267843261",
+    "type": "OUTBOUND",
+    "message_id": "4267843318",
     "ticket_id": "954997902",
-    "message": "I can’t pay two months upfront",
-    "channel_id": "1304636",
+    "message": "That works, the middle month gets billed on its own, so it's effectively monthly after the initial payment. What date in June were you thinking?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539449232",
     "contact_name": "Calico",
     "contact_identifier": "+971588978898",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
