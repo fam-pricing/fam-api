@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-31T07:41:58.819Z",
+  "ts": "2026-05-31T07:42:25.645Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267518048",
-    "ticket_id": "947157625",
-    "message": "Thank you Ms Amani please update us once you check out",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "506895111",
-    "contact_name": "Ms Amani Mohammed Salem Humood Algaydi",
-    "contact_identifier": "+971547694466",
+    "type": "INBOUND",
+    "message_id": "4267518297",
+    "ticket_id": "943915428",
+    "message": "Also have another client",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "536484706",
+    "contact_name": "Raja Sajid 🇦🇪",
+    "contact_identifier": "+971566960509",
+    "parent_message_id": "4267516455",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
