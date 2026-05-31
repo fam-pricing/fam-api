@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T12:33:04.647Z",
+  "ts": "2026-05-31T12:33:41.837Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267656267",
+    "type": "OUTBOUND",
+    "message_id": "4267656518",
     "ticket_id": "954943430",
-    "message": "6500 is the final price?",
-    "channel_id": "1304636",
+    "message": "AED 6,500/month is the listed price, all-inclusive. June 3 works and 4 months is fine, want to arrange a viewing before committing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539432210",
     "contact_name": "David",
     "contact_identifier": "+971585417220",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
