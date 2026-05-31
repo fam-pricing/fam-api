@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T12:33:57.102Z",
+  "ts": "2026-05-31T12:34:28.152Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267656624",
+    "type": "OUTBOUND",
+    "message_id": "4267656887",
     "ticket_id": "954943430",
-    "message": "Does it have balcony?",
-    "channel_id": "1304636",
+    "message": "Let me get someone from the team to answer all your questions right away, David!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539432210",
     "contact_name": "David",
     "contact_identifier": "+971585417220",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
