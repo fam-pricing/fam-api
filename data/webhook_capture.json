@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T14:22:54.594Z",
+  "ts": "2026-05-31T14:23:10.468Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267707371",
-    "ticket_id": "954958869",
-    "message": "Can you tell me if this unit is available",
+    "type": "OUTBOUND",
+    "message_id": "4267707501",
+    "ticket_id": "954955092",
+    "message": "Unfortunately it is not possible maximum this price we can give is for 3 months after that it will be subject to market change",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539436240",
+    "contact_name": "Promesse",
+    "contact_identifier": "+971567069114",
     "channel_id": "1304636",
-    "contact_id": "539437347",
-    "contact_name": "Alla Bosco",
-    "contact_identifier": "+971586277131",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
