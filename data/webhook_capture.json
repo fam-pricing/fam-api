@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T10:14:10.574Z",
+  "ts": "2026-05-31T10:16:24.623Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267590070",
+    "type": "OUTBOUND",
+    "message_id": "4267590970",
     "ticket_id": "899852531",
-    "message": "Flat have been cleaned and beds made",
-    "channel_id": "585723",
+    "message": "Recieved thank you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "473604372",
     "contact_name": "Marianna",
     "contact_identifier": "+971509579913",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
