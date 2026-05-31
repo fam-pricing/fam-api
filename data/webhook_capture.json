@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-31T11:13:35.778Z",
+  "ts": "2026-05-31T11:14:18.258Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267618366",
-    "ticket_id": "954930016",
-    "message": "Please note that this unit is already booked",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539427996",
-    "contact_name": "Carl Carpio",
-    "contact_identifier": "+971581141689",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4267618666",
+    "ticket_id": "954732401",
+    "message": "But you need to have terms what the deposit applies to",
+    "channel_id": "585723",
+    "contact_id": "539383560",
+    "contact_name": "Noah",
+    "contact_identifier": "+971553384406",
+    "event_type": "INBOUND"
   }
 }
