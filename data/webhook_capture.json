@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-31T09:46:35.857Z",
+  "ts": "2026-05-31T09:46:51.061Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267576550",
+    "type": "INBOUND",
+    "message_id": "4267576652",
     "ticket_id": "954835825",
-    "message": "check-in will be tomorrow we will handover keys tomorrow",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "What time?",
+    "channel_id": "1304636",
     "contact_id": "539291533",
     "contact_name": "Amandeep",
     "contact_identifier": "+971585630379",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
