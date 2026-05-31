@@ -1,18 +1,21 @@
 {
-  "ts": "2026-05-31T07:00:06.344Z",
+  "ts": "2026-05-31T07:02:55.914Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267500719",
+    "type": "OUTBOUND",
+    "message_id": "4267502105",
     "ticket_id": "954894414",
-    "message": "0547258721 Mob number and whatsapp",
-    "channel_id": "883603",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "539418536",
     "contact_name": "Bruno Novodvorski",
     "contact_email": "bmsrl.direzione@gmail.com",
     "contact_identifier": "2557b697-e8bf-4c36-81db-b011b2f0ecf2",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
