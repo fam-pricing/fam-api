@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-31T13:25:18.361Z",
+  "ts": "2026-05-31T13:25:40.048Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267680611",
+    "type": "INBOUND",
+    "message_id": "4267680755",
     "ticket_id": "954951046",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in JVT\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Can I have more details on this",
+    "channel_id": "1304636",
     "contact_id": "539434929",
     "contact_name": "Qas",
     "contact_identifier": "+447983119845",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
