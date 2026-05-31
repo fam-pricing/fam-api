@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T06:48:14.685Z",
+  "ts": "2026-05-31T06:48:37.470Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267496391",
+    "type": "OUTBOUND",
+    "message_id": "4267496608",
     "ticket_id": "954893026",
-    "message": "Okay, we are a family of four members and need an apartment for a month. And I am interested in your property",
-    "channel_id": "1304636",
+    "message": "The 2BR in Miraclz Tower works well for a family of four. What date are you looking to move in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539418212",
     "contact_name": "Zenvinity Global LLC, Uae",
     "contact_identifier": "+918848336561",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
