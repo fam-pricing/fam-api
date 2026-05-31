@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-31T15:25:23.015Z",
+  "ts": "2026-05-31T15:25:24.084Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267735578",
+    "type": "OUTBOUND",
+    "message_id": "4267735588",
     "ticket_id": "954935682",
-    "message": "Yes",
-    "channel_id": "1304636",
+    "message": "The 2BR in Miraclz Tower is available now. What day and time works for you? Viewings are available any day between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539429741",
     "contact_name": "Life is a simple",
     "contact_identifier": "+971545374002",
-    "parent_message_id": "4267735411",
-    "parent_ticket_id": "954935682",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
