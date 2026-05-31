@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-31T12:31:29.070Z",
+  "ts": "2026-05-31T12:31:55.289Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267655473",
+    "type": "INBOUND",
+    "message_id": "4267655638",
     "ticket_id": "954943430",
-    "message": "Yes, it's still available! What would you like to know about it?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Do you have video from it?",
+    "channel_id": "1304636",
     "contact_id": "539432210",
     "contact_name": "David",
     "contact_identifier": "+971585417220",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
