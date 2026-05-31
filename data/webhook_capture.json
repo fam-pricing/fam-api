@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T08:10:45.499Z",
+  "ts": "2026-05-31T08:11:04.483Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267531149",
+    "type": "OUTBOUND",
+    "message_id": "4267531277",
     "ticket_id": "954818302",
-    "message": "Image",
-    "channel_id": "1304636",
+    "message": "Joud, it looks like the image didn't come through on our end, could you resend it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539405326",
     "contact_name": "Joud",
     "contact_identifier": "+971527996922",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
