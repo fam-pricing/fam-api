@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T11:17:29.963Z",
+  "ts": "2026-05-31T11:19:02.771Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267620343",
+    "type": "OUTBOUND",
+    "message_id": "4267620940",
     "ticket_id": "950247613",
-    "message": "Ok",
-    "channel_id": "585723",
+    "message": "https://totalpay.ae/payment/20260531316a1c190714288",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537978912",
     "contact_name": "Richa Jain",
     "contact_identifier": "+971585798788",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
