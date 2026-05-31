@@ -1275,3 +1275,7 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 ## Learned (2026-05-31)
 - When a lead asks about pricing, respond with the following: The rent is 5,500 AED, which includes all bills and taxes. A refundable deposit of 2,000 AED is also required.
   (Learned from Faysal handling Qas re 1BR in JVT)
+
+## Learned (2026-05-31)
+- If a lead requests a deposit lower than the standard amount (e.g., "Can the deposit be AED 1,000?"), respond that the minimum deposit is AED 2,000.
+  (Learned from Faysal handling Qas re 1BR in JVT)
