@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-31T13:09:43.058Z",
+  "ts": "2026-05-31T13:09:59.568Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267672810",
-    "ticket_id": "953043519",
-    "message": "once you check the apartment and ensure that everything is ok, you should immediately process the refund on the card - not wait 7-10 days this not making any sense",
-    "channel_id": "585723",
-    "contact_id": "538897263",
-    "contact_name": "Leo",
-    "contact_identifier": "+393928066799",
-    "parent_message_id": "4267668627",
-    "parent_ticket_id": "953043519",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4267672908",
+    "ticket_id": "954943430",
+    "message": "Yes there is balcony",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539432210",
+    "contact_name": "David",
+    "contact_identifier": "+971585417220",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
