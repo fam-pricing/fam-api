@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-31T09:54:28.166Z",
+  "ts": "2026-05-31T09:54:52.938Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267580248",
-    "ticket_id": "946847797",
-    "message": "Please let us know how you would like to pay. We are waiting for your confirmation. Thank you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "537276725",
-    "contact_name": "Souheil Alkhayer",
-    "contact_identifier": "+971504676132",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4267580433",
+    "ticket_id": "954835825",
+    "message": "Got it",
+    "channel_id": "1304636",
+    "contact_id": "539291533",
+    "contact_name": "Amandeep",
+    "contact_identifier": "+971585630379",
+    "parent_message_id": "4267579800",
+    "parent_ticket_id": "954835825",
+    "event_type": "INBOUND"
   }
 }
