@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T09:14:32.503Z",
+  "ts": "2026-05-31T09:15:02.450Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267562229",
-    "ticket_id": "954901046",
-    "message": "Any possibility for a lower price ?",
+    "type": "OUTBOUND",
+    "message_id": "4267562463",
+    "ticket_id": "954909640",
+    "message": "We only have this unit",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539422272",
+    "contact_name": "Majd Assi",
+    "contact_identifier": "+971585340443",
     "channel_id": "1304636",
-    "contact_id": "536995527",
-    "contact_name": "Mohamed Ala Darwish",
-    "contact_identifier": "+971522415511",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
