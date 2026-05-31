@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T09:24:25.916Z",
+  "ts": "2026-05-31T09:26:21.184Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267566524",
-    "ticket_id": "954909640",
-    "message": "Not even in other areas nearby?!",
+    "type": "OUTBOUND",
+    "message_id": "4267567348",
+    "ticket_id": "954835825",
+    "message": "I will drop the booking for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539291533",
+    "contact_name": "Amandeep",
+    "contact_identifier": "+971585630379",
     "channel_id": "1304636",
-    "contact_id": "539422272",
-    "contact_name": "Majd Assi",
-    "contact_identifier": "+971585340443",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
