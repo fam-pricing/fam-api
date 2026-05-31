@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-31T11:40:30.582Z",
+  "ts": "2026-05-31T11:45:27.952Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267631552",
-    "ticket_id": "954932157",
-    "message": "Alright what are the total costs for the alsafa complex?",
+    "type": "OUTBOUND",
+    "message_id": "4267633989",
+    "ticket_id": "954937181",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in JVT\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535846014",
+    "contact_name": "S",
+    "contact_identifier": "+971559338668",
     "channel_id": "1304636",
-    "contact_id": "538423864",
-    "contact_name": "sengatubanje",
-    "contact_identifier": "+260977293603",
-    "parent_message_id": "4267617628",
-    "parent_ticket_id": "954932157",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
