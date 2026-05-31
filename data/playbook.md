@@ -1259,3 +1259,7 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 ## Learned (2026-05-30)
 - If a lead asks about booking for 1 month and requests pricing, inform them that the monthly rate is AED 5,000 with a refundable deposit of AED 2,000, and confirm that all bills and taxes are included in the price.
   (Learned from Faysal handling Alena re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-peninsula-peninsula-five-65150861.html)
+
+## Learned (2026-05-31)
+- If a lead asks about tax, inform them that it is paid at check-in and fully refunded after check-out.
+  (Learned from Faysal handling Luana 🦋 re 2BR in Miraclz Tower)
