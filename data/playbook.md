@@ -1267,3 +1267,7 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 ## Learned (2026-05-31)
 - If a lead asks whether the apartment price will increase throughout the year, respond by letting them know that at the current price, we can confirm availability for a maximum of the upcoming 3 months.
   (Learned from Faysal handling Taleb re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-al-safa-al-safa-1-13851850.html)
+
+## Learned (2026-05-31)
+- If a lead asks about the monthly rent, respond: "The price is 6,000 AED per month."
+  (Learned from Faysal handling Ankit Khade re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-85302784.html)
