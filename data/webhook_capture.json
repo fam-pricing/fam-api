@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-31T06:50:10.948Z",
+  "ts": "2026-05-31T06:50:32.117Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267497158",
+    "type": "INBOUND",
+    "message_id": "4267497268",
     "ticket_id": "954893026",
-    "message": "Just a refundable security deposit of AED 2,000, returned within 14 working days after check-out. Would you like to come see the place first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Around 1pm",
+    "channel_id": "1304636",
     "contact_id": "539418212",
     "contact_name": "Zenvinity Global LLC, Uae",
     "contact_identifier": "+918848336561",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4267497020",
+    "parent_ticket_id": "954893026",
+    "event_type": "INBOUND"
   }
 }
