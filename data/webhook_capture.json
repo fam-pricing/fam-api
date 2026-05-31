@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-31T06:49:26.974Z",
+  "ts": "2026-05-31T06:49:35.650Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267496902",
+    "type": "INBOUND",
+    "message_id": "4267496937",
     "ticket_id": "954893026",
-    "message": "June 1 to June 30 is available at AED 6,000 for the month. What time works best for you to come view it, any day between 9am and 6pm?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I think today",
+    "channel_id": "1304636",
     "contact_id": "539418212",
     "contact_name": "Zenvinity Global LLC, Uae",
     "contact_identifier": "+918848336561",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4267496810",
+    "parent_ticket_id": "954893026",
+    "event_type": "INBOUND"
   }
 }
