@@ -1,17 +1,20 @@
 {
-  "ts": "2026-05-31T12:27:10.083Z",
+  "ts": "2026-05-31T12:27:39.002Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267653571",
+    "type": "OUTBOUND",
+    "message_id": "4267653850",
     "ticket_id": "954933541",
-    "message": "Ok I’m driving now I will send you",
-    "channel_id": "1304636",
+    "message": "Confirmed for tomorrow at 1:30pm, Sara, send the ID photo whenever you're ready, just needs to arrive before you do so we can sort building access. Safe driving!\n\nWait, I need to remove the em dash. Let me also re-examine.\n\n\n\nConfirmed for tomorrow at 1:30pm, Sara. Send the ID photo whenever you're ready, just needs to arrive before you do so we can sort building access. Safe driving!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538984430",
     "contact_name": "Sara",
     "contact_identifier": "+971509503689",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
