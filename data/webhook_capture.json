@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-31T09:42:28.619Z",
+  "ts": "2026-05-31T09:42:43.553Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267574625",
-    "ticket_id": "954813528",
-    "message": "The payment has already been made for this period",
+    "type": "OUTBOUND",
+    "message_id": "4267574774",
+    "ticket_id": "954912322",
+    "message": "unfortunately not possible to make it 500 AED",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539422621",
+    "contact_name": "Noura",
+    "contact_identifier": "+971509700533",
     "channel_id": "1304636",
-    "contact_id": "535119429",
-    "contact_name": "Reihaneh Hossein Til",
-    "contact_identifier": "+971504133080",
-    "parent_message_id": "4267573308",
-    "parent_ticket_id": "954813528",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
