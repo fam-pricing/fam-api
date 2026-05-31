@@ -1,20 +1,17 @@
 {
-  "ts": "2026-05-31T11:10:33.453Z",
+  "ts": "2026-05-31T11:10:42.015Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267616969",
-    "ticket_id": "954932190",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Miraclz Tower\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "537243109",
-    "contact_name": "Ameni",
-    "contact_identifier": "+21629435936",
+    "type": "INBOUND",
+    "message_id": "4267617085",
+    "ticket_id": "954932157",
+    "message": "Let me know if you have anything in Marina Jumeirah or business bay of similar price",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538423864",
+    "contact_name": "sengatubanje",
+    "contact_identifier": "+260977293603",
+    "event_type": "INBOUND"
   }
 }
