@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-31T09:42:25.571Z",
+  "ts": "2026-05-31T09:42:28.619Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267574568",
-    "ticket_id": "946847797",
-    "message": "price will be 5500 AED / month for the extension",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537276725",
-    "contact_name": "Souheil Alkhayer",
-    "contact_identifier": "+971504676132",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4267574625",
+    "ticket_id": "954813528",
+    "message": "The payment has already been made for this period",
+    "channel_id": "1304636",
+    "contact_id": "535119429",
+    "contact_name": "Reihaneh Hossein Til",
+    "contact_identifier": "+971504133080",
+    "parent_message_id": "4267573308",
+    "parent_ticket_id": "954813528",
+    "event_type": "INBOUND"
   }
 }
