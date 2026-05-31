@@ -1,20 +1,19 @@
 {
-  "ts": "2026-05-31T08:48:45.750Z",
+  "ts": "2026-05-31T08:48:47.381Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267550438",
-    "ticket_id": "954818302",
-    "message": "Unfortunately we are unable to arrange viewing as apartment got booked by another client",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539405326",
-    "contact_name": "Joud",
-    "contact_identifier": "+971527996922",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4267550446",
+    "ticket_id": "936734695",
+    "message": "Confirm",
+    "channel_id": "585723",
+    "contact_id": "534737062",
+    "contact_name": "IFEOMA NWAOGU",
+    "contact_identifier": "+971525824134",
+    "parent_message_id": "4267519099",
+    "parent_ticket_id": "936734695",
+    "event_type": "INBOUND"
   }
 }
