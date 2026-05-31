@@ -1263,3 +1263,7 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 ## Learned (2026-05-31)
 - If a lead asks about tax, inform them that it is paid at check-in and fully refunded after check-out.
   (Learned from Faysal handling Luana 🦋 re 2BR in Miraclz Tower)
+
+## Learned (2026-05-31)
+- If a lead asks whether the apartment price will increase throughout the year, respond by letting them know that at the current price, we can confirm availability for a maximum of the upcoming 3 months.
+  (Learned from Faysal handling Taleb re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-al-safa-al-safa-1-13851850.html)
