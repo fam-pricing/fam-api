@@ -1,19 +1,20 @@
 {
-  "ts": "2026-05-31T06:50:50.232Z",
+  "ts": "2026-05-31T06:50:58.373Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267497485",
+    "type": "OUTBOUND",
+    "message_id": "4267497514",
     "ticket_id": "954893026",
-    "message": "Yes",
-    "channel_id": "1304636",
+    "message": "1pm today is confirmed for the 2BR in Miraclz Tower. Could you send a photo of your passport or Emirates ID so we can register you with building security?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539418212",
     "contact_name": "Zenvinity Global LLC, Uae",
     "contact_identifier": "+918848336561",
-    "parent_message_id": "4267497158",
-    "parent_ticket_id": "954893026",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
