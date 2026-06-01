@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-01T12:25:40.515Z",
+  "ts": "2026-06-01T12:25:50.508Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268472343",
-    "ticket_id": "954163568",
-    "message": "I am calling you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "539230013",
-    "contact_name": "Bahador Khoshkeroudi",
-    "contact_identifier": "+971547016092",
+    "type": "INBOUND",
+    "message_id": "4268472528",
+    "ticket_id": "952574058",
+    "message": "I won’t be checking in on 5th as you told me it will be free for viewing",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "538746387",
+    "contact_name": "Syed Muhammad Fakhar Imam Syed Muhammad Husnain",
+    "contact_identifier": "+971547794951",
+    "parent_message_id": "4268471741",
+    "parent_ticket_id": "952574058",
+    "event_type": "INBOUND"
   }
 }
