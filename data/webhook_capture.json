@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-01T12:26:42.564Z",
+  "ts": "2026-06-01T12:26:51.031Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268473619",
+    "type": "INBOUND",
+    "message_id": "4268473774",
     "ticket_id": "952574058",
-    "message": "okay",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Yes but I need to come and see is every thing working and fine and is it clean",
+    "channel_id": "585723",
     "contact_id": "538746387",
     "contact_name": "Syed Muhammad Fakhar Imam Syed Muhammad Husnain",
     "contact_identifier": "+971547794951",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4268473252",
+    "parent_ticket_id": "952574058",
+    "event_type": "INBOUND"
   }
 }
