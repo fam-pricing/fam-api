@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-01T12:14:47.517Z",
+  "ts": "2026-06-01T12:14:58.199Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268457700",
-    "ticket_id": "955197642",
-    "message": "I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "535926291",
-    "contact_name": "Rimsha Akram",
-    "contact_identifier": "+971526064450",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4268457925",
+    "ticket_id": "954163568",
+    "message": "Do you know what happened in the unit? Check-in was supposed to be at 3 o'clock, but it's now 4 o'clock.",
+    "channel_id": "585723",
+    "contact_id": "539230013",
+    "contact_name": "Bahador Khoshkeroudi",
+    "contact_identifier": "+971547016092",
+    "event_type": "INBOUND"
   }
 }
