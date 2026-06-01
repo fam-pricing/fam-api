@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-01T09:57:26.343Z",
+  "ts": "2026-06-01T09:57:36.906Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268276449",
+    "type": "OUTBOUND",
+    "message_id": "4268276692",
     "ticket_id": "954933541",
-    "message": "Deposit 1500\nMonthly Payments 5500",
-    "channel_id": "1304636",
+    "message": "last is 6000",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538984430",
     "contact_name": "Sara",
     "contact_identifier": "+971509503689",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
