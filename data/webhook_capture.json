@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-01T13:41:57.535Z",
+  "ts": "2026-06-01T13:42:22.541Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268585830",
+    "type": "OUTBOUND",
+    "message_id": "4268586423",
     "ticket_id": "955243368",
-    "message": "hello, i'm looking for apartments for rent",
-    "channel_id": "1304636",
+    "message": "It's a studio in Peninsula Five, Business Bay, does that sound like what you're after, or did you have something specific in mind in terms of size or location?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539511167",
     "contact_name": "A",
     "contact_identifier": "+79037702714",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
