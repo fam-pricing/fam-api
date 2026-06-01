@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-01T05:11:50.018Z",
+  "ts": "2026-06-01T05:12:19.412Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267970311",
+    "type": "OUTBOUND",
+    "message_id": "4267970477",
     "ticket_id": "955066512",
-    "message": "How would I send the cash?",
-    "channel_id": "1304636",
+    "message": "Cash collection works fine, we'll coordinate a pickup time that suits you. Once that's sorted, we'll send your self-check-in details for June 5. Shall I send the registration card to sengatubanje@gmail.com now?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538423864",
     "contact_name": "sengatubanje",
     "contact_identifier": "+260977293603",
-    "parent_message_id": "4267969674",
-    "parent_ticket_id": "955066512",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
