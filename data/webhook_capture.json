@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-01T12:25:07.406Z",
+  "ts": "2026-06-01T12:25:10.849Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268471665",
-    "ticket_id": "955201414",
-    "message": "+971 54 991 5436",
-    "channel_id": "1304636",
-    "contact_id": "539497613",
-    "contact_name": "Radwa",
-    "contact_identifier": "+201005133961",
-    "parent_message_id": "4268470683",
-    "parent_ticket_id": "955201414",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4268471741",
+    "ticket_id": "952574058",
+    "message": "check-in will be at 3 pm",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538746387",
+    "contact_name": "Syed Muhammad Fakhar Imam Syed Muhammad Husnain",
+    "contact_identifier": "+971547794951",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
