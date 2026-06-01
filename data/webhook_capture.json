@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-01T11:26:24.978Z",
+  "ts": "2026-06-01T11:26:46.841Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268389402",
-    "ticket_id": "953040479",
-    "message": "You have paid by link, if it's paid by link it will be refunded to the same card",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "535230088",
-    "contact_name": "Roman Wagner",
-    "contact_identifier": "+971585412443",
+    "type": "INBOUND",
+    "message_id": "4268389948",
+    "ticket_id": "950247613",
+    "message": "How much time is it going to take ? The security at the reception is not co-operative at all",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "537978912",
+    "contact_name": "Richa Jain",
+    "contact_identifier": "+971585798788",
+    "parent_message_id": "4268381710",
+    "parent_ticket_id": "950247613",
+    "event_type": "INBOUND"
   }
 }
