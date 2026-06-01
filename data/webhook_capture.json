@@ -1,20 +1,18 @@
 {
-  "ts": "2026-06-01T07:18:55.588Z",
+  "ts": "2026-06-01T07:18:58.344Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268062665",
-    "ticket_id": "950247613",
-    "message": "We will share the check-in details once the leakage issue is resolved in the apartment.",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "537978912",
-    "contact_name": "Richa Jain",
-    "contact_identifier": "+971585798788",
+    "type": "INBOUND",
+    "message_id": "4268062709",
+    "ticket_id": "955094943",
+    "message": "It’s expensive",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539467013",
+    "contact_identifier": "+971559366278",
+    "parent_message_id": "4268059615",
+    "parent_ticket_id": "955094943",
+    "event_type": "INBOUND"
   }
 }
