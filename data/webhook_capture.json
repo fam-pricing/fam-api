@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-01T17:20:36.691Z",
+  "ts": "2026-06-01T17:20:55.877Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268819155",
-    "ticket_id": "955302461",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Miraclz Tower\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "539531301",
-    "contact_name": "Nouman Ahmad",
-    "contact_identifier": "+971582300917",
+    "type": "INBOUND",
+    "message_id": "4268819357",
+    "ticket_id": "954177948",
+    "message": "I understand thank you. However, I need a locked rate for at least 6 months",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "539234146",
+    "contact_name": "Dalisia",
+    "contact_identifier": "+447444850097",
+    "event_type": "INBOUND"
   }
 }
