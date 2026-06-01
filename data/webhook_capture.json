@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-01T05:48:05.625Z",
+  "ts": "2026-06-01T05:48:33.477Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267985939",
+    "type": "OUTBOUND",
+    "message_id": "4267986275",
     "ticket_id": "955066512",
-    "message": "I am unable to find the email, what address is it coming from",
-    "channel_id": "1304636",
+    "message": "It's coming from our team's fäm Living email address, worth checking your spam folder too. Once you spot it, just sign and return it and we'll sort the cash collection around your schedule.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538423864",
     "contact_name": "sengatubanje",
     "contact_identifier": "+260977293603",
-    "parent_message_id": "4267979239",
-    "parent_ticket_id": "955066512",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
