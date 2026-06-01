@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-01T12:20:48.757Z",
+  "ts": "2026-06-01T12:21:03.879Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268465781",
-    "ticket_id": "955211428",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Miraclz Tower\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "539501479",
-    "contact_name": "Hossam",
-    "contact_identifier": "+971549915436",
+    "type": "INBOUND",
+    "message_id": "4268466115",
+    "ticket_id": "955066512",
+    "message": "Hello I'm 2 minutes away",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538423864",
+    "contact_name": "sengatubanje",
+    "contact_identifier": "+260977293603",
+    "event_type": "INBOUND"
   }
 }
