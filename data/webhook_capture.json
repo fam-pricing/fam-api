@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-01T08:21:26.506Z",
+  "ts": "2026-06-01T08:21:38.380Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268145572",
+    "type": "INBOUND",
+    "message_id": "4268145845",
     "ticket_id": "943915428",
-    "message": "Bayz By Danub\r\n\r\nhttps://maps.app.goo.gl/1c3M59J1aVxjdpQk7",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "536484706",
     "contact_name": "Raja Sajid 🇦🇪",
     "contact_identifier": "+971566960509",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4268145572",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
