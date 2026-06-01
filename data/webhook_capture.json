@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-01T17:04:15.919Z",
+  "ts": "2026-06-01T17:04:47.354Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268806520",
+    "type": "OUTBOUND",
+    "message_id": "4268807028",
     "ticket_id": "955297571",
-    "message": "You have studio apartment available in peninsula 5?",
-    "channel_id": "1304636",
+    "message": "The studio in Peninsula Five is available now, here's the full listing with photos: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-peninsula-peninsula-five-65150861.html\n\nWould you like to arrange a viewing, Usama?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539529936",
     "contact_name": "Usama",
     "contact_identifier": "+923237161252",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
