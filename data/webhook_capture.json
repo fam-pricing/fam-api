@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-01T17:00:20.251Z",
+  "ts": "2026-06-01T17:04:15.919Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268801917",
+    "type": "INBOUND",
+    "message_id": "4268806520",
     "ticket_id": "955297571",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-peninsula-peninsula-five-65150861.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "You have studio apartment available in peninsula 5?",
+    "channel_id": "1304636",
     "contact_id": "539529936",
     "contact_name": "Usama",
     "contact_identifier": "+923237161252",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
