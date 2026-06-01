@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-01T11:29:40.909Z",
+  "ts": "2026-06-01T11:30:28.534Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268393808",
-    "ticket_id": "954575764",
-    "message": "Yes it’s paid  pls inform reception",
+    "type": "OUTBOUND",
+    "message_id": "4268394779",
+    "ticket_id": "955078930",
+    "message": "how will you process payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537376941",
+    "contact_name": "Muhsin Hassan",
+    "contact_identifier": "+971528179317",
     "channel_id": "1304636",
-    "contact_id": "536995527",
-    "contact_name": "Mohamed Ala Darwish",
-    "contact_identifier": "+971522415511",
-    "parent_message_id": "4268055523",
-    "parent_ticket_id": "954575764",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
