@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-01T04:59:15.224Z",
+  "ts": "2026-06-01T04:59:39.363Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4267965811",
+    "type": "OUTBOUND",
+    "message_id": "4267965921",
     "ticket_id": "955066512",
-    "message": "The challenge is that I got paid via check so I wanted to find out if I could pay in cash",
-    "channel_id": "1304636",
+    "message": "Cash is totally fine. We'd arrange collection from you since everything is handled remotely. Does June 5 still work as your move-in date, or has anything changed?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538423864",
     "contact_name": "sengatubanje",
     "contact_identifier": "+260977293603",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
