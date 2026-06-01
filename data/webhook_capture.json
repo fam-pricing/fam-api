@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-01T04:25:21.292Z",
+  "ts": "2026-06-01T04:49:27.712Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267956722",
+    "type": "INBOUND",
+    "message_id": "4267962948",
     "ticket_id": "955066512",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello I was looking for an apartment to rent for minimum 30 days and wanted a full breakdown of costs including all fees and deposit",
+    "channel_id": "1304636",
     "contact_id": "538423864",
     "contact_name": "sengatubanje",
     "contact_identifier": "+260977293603",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4267956722",
+    "parent_ticket_id": "955066512",
+    "event_type": "INBOUND"
   }
 }
