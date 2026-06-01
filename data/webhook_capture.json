@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-01T14:18:39.725Z",
+  "ts": "2026-06-01T14:18:42.398Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268635835",
-    "ticket_id": "955243368",
-    "message": "06.06",
+    "type": "OUTBOUND",
+    "message_id": "4268635883",
+    "ticket_id": "955223149",
+    "message": "Team already left for today; we can reschedule on Thursday between 10 and 4 Pm",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "535986253",
+    "contact_name": "Sheza imran Butt",
+    "contact_identifier": "+971505644681",
     "channel_id": "1304636",
-    "contact_id": "539511167",
-    "contact_name": "A",
-    "contact_identifier": "+79037702714",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
