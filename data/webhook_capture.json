@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-01T11:22:14.268Z",
+  "ts": "2026-06-01T11:22:29.685Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268384087",
-    "ticket_id": "955184149",
-    "message": "how can I help you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537976121",
-    "contact_name": "Shrey Jain",
-    "contact_identifier": "+919930996383",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4268384479",
+    "ticket_id": "950247613",
+    "message": "Exactly so with all the repair work going on how do I even move my stuff",
+    "channel_id": "585723",
+    "contact_id": "537978912",
+    "contact_name": "Richa Jain",
+    "contact_identifier": "+971585798788",
+    "parent_message_id": "4268383784",
+    "parent_ticket_id": "950247613",
+    "event_type": "INBOUND"
   }
 }
