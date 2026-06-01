@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-01T14:10:29.162Z",
+  "ts": "2026-06-01T14:13:38.995Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268625110",
-    "ticket_id": "955253320",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-bayz-by-danube-13851930.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "539514147",
-    "contact_name": "SN",
-    "contact_identifier": "+971526991069",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4268629267",
+    "ticket_id": "954163568",
+    "message": "Are you kidding? You showed me the view of the Burj Khalifa and then you gave me the back of the building? You need to fix this problem as soon as possible and give me the same unit.",
+    "channel_id": "585723",
+    "contact_id": "539230013",
+    "contact_name": "Bahador Khoshkeroudi",
+    "contact_identifier": "+971547016092",
+    "event_type": "INBOUND"
   }
 }
