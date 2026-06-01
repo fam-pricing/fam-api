@@ -1,19 +1,19 @@
 {
-  "ts": "2026-06-01T10:04:04.352Z",
+  "ts": "2026-06-01T10:04:43.729Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268286869",
-    "ticket_id": "955094943",
-    "message": "https://app.guesty.com/apps/invoice/6db8b8140236615ab91de21319e68e1c:816fab09cff7b37774415f846d578cc4225df5ae3ba0f0d1?v=e4018c2192750073382e852757ca9934:5c10867960496f31474b426eb5a8584a94915b78554bc019",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539467013",
-    "contact_identifier": "+971559366278",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4268287684",
+    "ticket_id": "955162237",
+    "message": "Confirmed ?",
+    "channel_id": "1304636",
+    "contact_id": "539416751",
+    "contact_name": "Luana 🦋",
+    "contact_identifier": "+971508304930",
+    "parent_message_id": "4267503345",
+    "parent_ticket_id": "955162237",
+    "event_type": "INBOUND"
   }
 }
