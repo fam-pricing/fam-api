@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-01T15:28:50.778Z",
+  "ts": "2026-06-01T15:29:02.038Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268719021",
-    "ticket_id": "955259742",
-    "message": "You told me that they are ready and I came immediately",
+    "type": "OUTBOUND",
+    "message_id": "4268719184",
+    "ticket_id": "955208252",
+    "message": "Viewings are from 9am to 6pm only, so today is no longer possible. But we can sort one for tomorrow or any day that suits you. What time works best?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "539500397",
+    "contact_name": "Marce",
+    "contact_identifier": "+573016861465",
     "channel_id": "1304636",
-    "contact_id": "539516282",
-    "contact_name": "AD",
-    "contact_identifier": "+971585585899",
-    "parent_message_id": "4268664360",
-    "parent_ticket_id": "955259742",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
