@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-01T12:24:43.045Z",
+  "ts": "2026-06-01T12:25:07.406Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268471177",
+    "type": "INBOUND",
+    "message_id": "4268471665",
     "ticket_id": "955201414",
-    "message": "Got it, Radwa. After tomorrow afternoon works perfectly. Let me confirm the floor number for you and our team will be in touch to coordinate.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "+971 54 991 5436",
+    "channel_id": "1304636",
     "contact_id": "539497613",
     "contact_name": "Radwa",
     "contact_identifier": "+201005133961",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4268470683",
+    "parent_ticket_id": "955201414",
+    "event_type": "INBOUND"
   }
 }
