@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-01T15:08:55.816Z",
+  "ts": "2026-06-01T15:09:18.186Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268698475",
+    "type": "OUTBOUND",
+    "message_id": "4268698885",
     "ticket_id": "955259742",
-    "message": "Should I go up or ask the receptionist?",
-    "channel_id": "1304636",
+    "message": "You're all set, let me get someone from the team to guide you right now!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539516282",
     "contact_name": "AD",
     "contact_identifier": "+971585585899",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
