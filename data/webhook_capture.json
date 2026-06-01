@@ -1,16 +1,19 @@
 {
-  "ts": "2026-06-01T06:58:44.610Z",
+  "ts": "2026-06-01T06:58:45.911Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268038960",
+    "type": "OUTBOUND",
+    "message_id": "4268038993",
     "ticket_id": "955094943",
-    "message": "Thank you",
-    "channel_id": "585723",
+    "message": "We received an inquiry you wish to book a studio in bayz",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "539467013",
     "contact_identifier": "+971559366278",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
