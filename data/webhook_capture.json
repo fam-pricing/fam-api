@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-01T11:48:44.562Z",
+  "ts": "2026-06-01T11:49:24.131Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268423687",
-    "ticket_id": "954979231",
-    "message": "welcome",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535177793",
-    "contact_name": "M",
-    "contact_identifier": "+971561906227",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4268424487",
+    "ticket_id": "955179817",
+    "message": "Is it a monthly fee?",
+    "channel_id": "585723",
+    "contact_id": "539486379",
+    "contact_name": "T",
+    "contact_identifier": "+77005555030",
+    "event_type": "INBOUND"
   }
 }
