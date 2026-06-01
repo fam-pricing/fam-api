@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-01T08:03:11.876Z",
+  "ts": "2026-06-01T08:03:26.475Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268121578",
-    "ticket_id": "954175516",
-    "message": "I see \n\nCould I see how the studio looks? \n\nAnd is it also 5500?",
+    "type": "OUTBOUND",
+    "message_id": "4268121879",
+    "ticket_id": "952769089",
+    "message": "Yes",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "280507914",
+    "contact_name": "Ms Eliza",
+    "contact_identifier": "+971586017110",
     "channel_id": "585723",
-    "contact_id": "539233381",
-    "contact_name": "Muhammad Ameen Boda",
-    "contact_identifier": "+27815570089",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
