@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-01T12:35:40.822Z",
+  "ts": "2026-06-01T12:36:05.900Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268485727",
-    "ticket_id": "955211428",
-    "message": "The 2BR in Miraclz Tower is available and all-inclusive, so water, electricity, internet, and VAT are all covered. Would you like to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "539501479",
-    "contact_name": "Hossam",
-    "contact_identifier": "+971549915436",
+    "type": "INBOUND",
+    "message_id": "4268486276",
+    "ticket_id": "954979231",
+    "message": "Did you check",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535177793",
+    "contact_name": "M",
+    "contact_identifier": "+971561906227",
+    "parent_message_id": "4268376117",
+    "parent_ticket_id": "954979231",
+    "event_type": "INBOUND"
   }
 }
