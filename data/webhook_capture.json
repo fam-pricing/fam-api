@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-01T12:25:50.508Z",
+  "ts": "2026-06-01T12:25:52.118Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268472528",
-    "ticket_id": "952574058",
-    "message": "I won’t be checking in on 5th as you told me it will be free for viewing",
+    "type": "OUTBOUND",
+    "message_id": "4268472607",
+    "ticket_id": "954689424",
+    "message": "Yes you are in the apartment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539372707",
+    "contact_name": "Karunya Antony Robert Antony",
+    "contact_identifier": "+971585984631",
     "channel_id": "585723",
-    "contact_id": "538746387",
-    "contact_name": "Syed Muhammad Fakhar Imam Syed Muhammad Husnain",
-    "contact_identifier": "+971547794951",
-    "parent_message_id": "4268471741",
-    "parent_ticket_id": "952574058",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
