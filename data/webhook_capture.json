@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-01T11:06:20.141Z",
+  "ts": "2026-06-01T11:06:27.860Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268364593",
-    "ticket_id": "955179817",
-    "message": "which location and how many bedrooms",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539486379",
-    "contact_name": "T",
-    "contact_identifier": "+77005555030",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4268364776",
+    "ticket_id": "954979231",
+    "message": "Do you have similar apartment?",
+    "channel_id": "1304636",
+    "contact_id": "535177793",
+    "contact_name": "M",
+    "contact_identifier": "+971561906227",
+    "event_type": "INBOUND"
   }
 }
