@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-01T07:31:02.954Z",
+  "ts": "2026-06-01T07:31:27.299Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268077710",
-    "ticket_id": "952769089",
-    "message": "Send me the bank details so I can do the transfer",
+    "type": "OUTBOUND",
+    "message_id": "4268078364",
+    "ticket_id": "952844280",
+    "message": "Sure, we finished the cleaning and shared the report. We will inform our finance to release the deposit. Thank you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "538830234",
+    "contact_name": "Mohammed Amine El Hamzaoui",
+    "contact_identifier": "+971529652134",
     "channel_id": "585723",
-    "contact_id": "280507914",
-    "contact_name": "Ms Eliza",
-    "contact_identifier": "+971586017110",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
