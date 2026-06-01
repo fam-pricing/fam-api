@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-01T06:12:21.790Z",
+  "ts": "2026-06-01T06:12:58.555Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268000401",
-    "ticket_id": "954163568",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539230013",
-    "contact_name": "Bahador Khoshkeroudi",
-    "contact_identifier": "+971547016092",
+    "type": "INBOUND",
+    "message_id": "4268000893",
+    "ticket_id": "954175516",
+    "message": "Hi good morning hope are you well I would like to check if room available for mount and how much",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539233381",
+    "contact_name": "Muhammad Ameen Boda",
+    "contact_identifier": "+27815570089",
+    "event_type": "INBOUND"
   }
 }
