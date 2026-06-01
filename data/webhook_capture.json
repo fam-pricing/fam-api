@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-01T05:09:47.389Z",
+  "ts": "2026-06-01T05:11:50.018Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4267969674",
+    "type": "INBOUND",
+    "message_id": "4267970311",
     "ticket_id": "955066512",
-    "message": "Got it, sengatubanje@gmail.com confirmed. Once you're ready with the cash, send it over and we'll get the registration card to you to sign, then your check-in details for June 5. Want to lock that in today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "How would I send the cash?",
+    "channel_id": "1304636",
     "contact_id": "538423864",
     "contact_name": "sengatubanje",
     "contact_identifier": "+260977293603",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4267969674",
+    "parent_ticket_id": "955066512",
+    "event_type": "INBOUND"
   }
 }
