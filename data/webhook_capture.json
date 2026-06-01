@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-01T08:01:49.336Z",
+  "ts": "2026-06-01T08:01:58.187Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268119453",
-    "ticket_id": "952769089",
-    "message": "https://totalpay.ae/payment/20260601356a1d3c5f7ffb6",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "280507914",
-    "contact_name": "Ms Eliza",
-    "contact_identifier": "+971586017110",
+    "type": "INBOUND",
+    "message_id": "4268119704",
+    "ticket_id": "954175516",
+    "message": "Yes that’s correct",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539233381",
+    "contact_name": "Muhammad Ameen Boda",
+    "contact_identifier": "+27815570089",
+    "parent_message_id": "4268104035",
+    "parent_ticket_id": "954175516",
+    "event_type": "INBOUND"
   }
 }
