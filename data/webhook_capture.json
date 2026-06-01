@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-01T07:12:55.586Z",
+  "ts": "2026-06-01T07:13:02.620Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268055523",
-    "ticket_id": "954575764",
-    "message": "Hello ! PropertyFinder send me your contact regarding this listing:\n\nUpside 622\n\nHow can I help you ?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536995527",
-    "contact_name": "Mohamed Ala Darwish",
-    "contact_identifier": "+971522415511",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4268055648",
+    "ticket_id": "954163568",
+    "message": "How should it be done?",
+    "channel_id": "585723",
+    "contact_id": "539230013",
+    "contact_name": "Bahador Khoshkeroudi",
+    "contact_identifier": "+971547016092",
+    "parent_message_id": "4268049800",
+    "parent_ticket_id": "954163568",
+    "event_type": "INBOUND"
   }
 }
