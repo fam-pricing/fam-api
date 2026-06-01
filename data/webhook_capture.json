@@ -1,20 +1,18 @@
 {
-  "ts": "2026-06-01T07:44:12.067Z",
+  "ts": "2026-06-01T07:44:23.378Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268095646",
-    "ticket_id": "938915004",
-    "message": "Is there anything else I can help you with today ?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535286912",
-    "contact_name": "PARAG MARUTI NAYAK",
-    "contact_identifier": "+918867421967",
+    "type": "INBOUND",
+    "message_id": "4268095910",
+    "ticket_id": "955094943",
+    "message": "Bill included?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539467013",
+    "contact_identifier": "+971559366278",
+    "parent_message_id": "4268090335",
+    "parent_ticket_id": "955094943",
+    "event_type": "INBOUND"
   }
 }
