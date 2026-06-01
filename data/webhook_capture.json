@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-01T07:21:04.627Z",
+  "ts": "2026-06-01T07:21:05.346Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268065334",
-    "ticket_id": "954163568",
-    "message": "Is anyone from your team there at 3 o'clock?",
+    "type": "OUTBOUND",
+    "message_id": "4268065332",
+    "ticket_id": "952769089",
+    "message": "Hello good morning Ms Eliza please let us know your availability in the apartment",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "280507914",
+    "contact_name": "Ms Eliza",
+    "contact_identifier": "+971586017110",
     "channel_id": "585723",
-    "contact_id": "539230013",
-    "contact_name": "Bahador Khoshkeroudi",
-    "contact_identifier": "+971547016092",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
