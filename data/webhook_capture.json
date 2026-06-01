@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-01T06:05:48.825Z",
+  "ts": "2026-06-01T06:05:53.736Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4267996090",
+    "message_id": "4267996143",
     "ticket_id": "955078930",
-    "message": "Which account should I do it",
+    "message": "Is it confirmed",
     "channel_id": "1304636",
     "contact_id": "537376941",
     "contact_name": "Muhsin Hassan",
     "contact_identifier": "+971528179317",
+    "parent_message_id": "4262576024",
+    "parent_ticket_id": "955078930",
     "event_type": "INBOUND"
   }
 }
