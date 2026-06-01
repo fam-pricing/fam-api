@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-01T10:46:32.590Z",
+  "ts": "2026-06-01T10:47:51.999Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268340872",
+    "type": "INBOUND",
+    "message_id": "4268342295",
     "ticket_id": "955131253",
-    "message": "https://app.guesty.com/apps/invoice/49ca86a9cc02b7f515041d45eb930e5c:538de4d706789bf6cb5609caf7c044613b982ef40c55f4e7?v=3f8e822afbd43fd64ef8cd65816a8bcb:39d3b79e22f2b8e0d4364abfb17fedae63164379a86d084c",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Give me 30 mins and I’ll complete payment",
+    "channel_id": "1304636",
     "contact_id": "539365088",
     "contact_name": "A",
     "contact_identifier": "+447539692848",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
