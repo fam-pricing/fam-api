@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-01T11:58:06.943Z",
+  "ts": "2026-06-01T11:58:16.137Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268435792",
-    "ticket_id": "954749979",
-    "message": "I woud like extended my location",
+    "type": "OUTBOUND",
+    "message_id": "4268436010",
+    "ticket_id": "954835825",
+    "message": "Due to high volume of ticket we are replying 1 by 1 to the open tickes we apoligise for the delay response",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "539291533",
+    "contact_name": "Amandeep",
+    "contact_identifier": "+971585630379",
     "channel_id": "1304636",
-    "contact_id": "536394570",
-    "contact_name": "Sofiane",
-    "contact_identifier": "+33695624458",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
