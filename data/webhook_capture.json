@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-01T11:03:20.224Z",
+  "ts": "2026-06-01T11:03:54.001Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4268360760",
+    "type": "OUTBOUND",
+    "message_id": "4268361430",
     "ticket_id": "954835825",
-    "message": "Nobody has gotten in touch for the checkin",
-    "channel_id": "1304636",
+    "message": "You may do the self check-in",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "539291533",
     "contact_name": "Amandeep",
     "contact_identifier": "+971585630379",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
