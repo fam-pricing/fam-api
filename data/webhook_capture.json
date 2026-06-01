@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-01T12:02:23.577Z",
+  "ts": "2026-06-01T12:02:33.583Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4268441395",
-    "ticket_id": "955197642",
-    "message": "Our team was there in the morning but no one open the door",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "535926291",
-    "contact_name": "Rimsha Akram",
-    "contact_identifier": "+971526064450",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4268441753",
+    "ticket_id": "953043519",
+    "message": "7 days is enough, and its ununderstandable",
+    "channel_id": "585723",
+    "contact_id": "538897263",
+    "contact_name": "Leo",
+    "contact_identifier": "+393928066799",
+    "parent_message_id": "4261745219",
+    "parent_ticket_id": "953043519",
+    "event_type": "INBOUND"
   }
 }
