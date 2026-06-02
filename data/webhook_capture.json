@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-02T12:02:09.812Z",
+  "ts": "2026-06-02T12:02:56.264Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4269501005",
-    "ticket_id": "955512793",
-    "message": "No commission at all, just a fully refundable AED 1,000 security deposit returned within 14 working days after check-out. Want to arrange a viewing?\n\nWait, I need to re-check my own output. I used an em dash. Let me correct.\n\n\nNo commission at all. The only additional cost is a fully refundable AED 1,000 security deposit, returned within 14 working days after check-out. Want to come see it?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "539589997",
-    "contact_name": "Maryana",
-    "contact_identifier": "+971522965270",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4269501953",
+    "ticket_id": "917536456",
+    "message": "Every day you check with your team but nothing",
+    "channel_id": "585723",
+    "contact_id": "529936596",
+    "contact_name": "Maliheh Shojaei",
+    "contact_identifier": "+971502729393",
+    "parent_message_id": "4269430685",
+    "parent_ticket_id": "917536456",
+    "event_type": "INBOUND"
   }
 }
