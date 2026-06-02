@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T12:07:47.138Z",
+  "ts": "2026-06-02T12:08:14.123Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269507793",
+    "type": "OUTBOUND",
+    "message_id": "4269508297",
     "ticket_id": "955512793",
-    "message": "The timeframe for returning deposit is too long \nAlso how do you return it if I'm out of country?",
-    "channel_id": "1304636",
+    "message": "Bank transfer works fine if you're abroad, just share your bank details at check-out and we'll process the refund within 14 working days. Want to go ahead and arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539589997",
     "contact_name": "Maryana",
     "contact_identifier": "+971522965270",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
