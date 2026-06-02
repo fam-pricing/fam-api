@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-02T05:22:55.050Z",
+  "ts": "2026-06-02T05:25:20.451Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4269073816",
+    "type": "INBOUND",
+    "message_id": "4269074715",
     "ticket_id": "955131253",
-    "message": "Good Morning IBRAHIM,\r\n\r\nI hope you are doing well.\r\n\r\nAs today is your check-in date, we noticed that your payment is still pending. Could you please let us know your preferred payment method and the expected time of payment?\r\n\r\nOnce the payment has been completed, we will be happy to share the apartment details with you.\r\n\r\nThank you, and we look forward to your update.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Payment is absolutely not pending",
+    "channel_id": "1304636",
     "contact_id": "539365088",
     "contact_name": "IBRAHIM ABDULRAHMAN",
     "contact_identifier": "+447539692848",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
