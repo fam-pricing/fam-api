@@ -1279,3 +1279,9 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 ## Learned (2026-05-31)
 - If a lead requests a deposit lower than the standard amount (e.g., "Can the deposit be AED 1,000?"), respond that the minimum deposit is AED 2,000.
   (Learned from Faysal handling Qas re 1BR in JVT)
+
+## Learned (2026-06-02)
+- If a lead requests a discount citing inconveniences, respond with:
+
+"We sincerely apologise for any inconvenience. Please note that our prices are fixed and we are unable to offer any reductions. Thank you for your understanding."
+  (Learned from Faysal handling AD re 3BR in Imperial Avenue)
