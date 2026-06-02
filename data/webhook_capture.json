@@ -1,19 +1,17 @@
 {
-  "ts": "2026-06-02T14:57:41.840Z",
+  "ts": "2026-06-02T15:05:11.266Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269713150",
-    "ticket_id": "954696621",
-    "message": "You and your company are full of nonsense.",
+    "type": "OUTBOUND",
+    "message_id": "4269721407",
+    "ticket_id": "952450078",
+    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
+    "contact_id": "538716864",
+    "contact_name": "Mohammed Chaudhri",
+    "contact_identifier": "+447947893420",
     "channel_id": "585723",
-    "contact_id": "537607776",
-    "contact_name": "SHEYDA",
-    "contact_identifier": "+971502809008",
-    "parent_message_id": "4269639335",
-    "parent_ticket_id": "954696621",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
