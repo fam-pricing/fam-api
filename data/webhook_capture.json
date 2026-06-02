@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T17:19:41.142Z",
+  "ts": "2026-06-02T17:20:10.668Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269835945",
+    "type": "OUTBOUND",
+    "message_id": "4269836263",
     "ticket_id": "955601259",
-    "message": "do you have options for yearly stays? im really interested.",
-    "channel_id": "1304636",
+    "message": "Yes, the 2BR is available for yearly stays. We structure it in 3-month blocks, so your rate is locked for each period and reviewed at renewal based on market conditions. Would you like to come take a look?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538230204",
     "contact_name": "Sol",
     "contact_identifier": "+971503417608",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
