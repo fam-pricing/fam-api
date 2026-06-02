@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T17:34:52.967Z",
+  "ts": "2026-06-02T17:35:14.099Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269847071",
+    "type": "OUTBOUND",
+    "message_id": "4269847283",
     "ticket_id": "955605098",
-    "message": "Tomorrow after 5pm",
-    "channel_id": "1304636",
+    "message": "Viewings run until 6pm, so tomorrow works if you can come before then. Does 5pm tomorrow suit you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539621268",
     "contact_name": "Yousef Salhah",
     "contact_identifier": "+971507841870",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
