@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T13:06:13.545Z",
+  "ts": "2026-06-02T13:06:33.935Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269579675",
+    "type": "OUTBOUND",
+    "message_id": "4269580125",
     "ticket_id": "955512793",
-    "message": "To move in?",
-    "channel_id": "1304636",
+    "message": "Yes, you can move in tomorrow. What time works for a viewing today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539589997",
     "contact_name": "Maryana",
     "contact_identifier": "+971522965270",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
