@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T12:08:51.797Z",
+  "ts": "2026-06-02T12:09:18.826Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269509121",
+    "type": "OUTBOUND",
+    "message_id": "4269509646",
     "ticket_id": "955512793",
-    "message": "As I said it takes too long to return deposit \nNot sure yet",
-    "channel_id": "1304636",
+    "message": "The refund goes straight to your bank account, so being outside the country isn't an issue, just share your details at check-out. 14 working days is standard for processing, but it's fully refundable. Would you like to come see the place first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539589997",
     "contact_name": "Maryana",
     "contact_identifier": "+971522965270",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
