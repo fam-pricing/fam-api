@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-02T16:37:11.420Z",
+  "ts": "2026-06-02T16:38:07.411Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4269802947",
-    "ticket_id": "950247613",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "537978912",
-    "contact_name": "Richa Jain",
-    "contact_identifier": "+971585798788",
+    "type": "INBOUND",
+    "message_id": "4269803594",
+    "ticket_id": "955477740",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539467013",
+    "contact_name": "Zahra",
+    "contact_identifier": "+971559366278",
+    "parent_message_id": "4269363784",
+    "parent_ticket_id": "955477740",
+    "event_type": "INBOUND"
   }
 }
