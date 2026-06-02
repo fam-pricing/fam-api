@@ -22856,7 +22856,7 @@
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-peninsula-peninsula-five-65150861.html",
     "trengo_ticket_id": 955512793,
     "lead_name": "Maryana",
-    "last_bot_reply_content": "Yes, you can move in tomorrow. What time works for a viewing today?",
+    "last_bot_reply_content": "Got it, Maryana. Let me get someone from the team to sort the viewing time and contract for you right now.",
     "last_bot_reply_at": "2026-06-02T13:06:29.634Z",
     "lead_replied": true,
     "lead_replied_at": "2026-06-02T13:06:29.634Z",
@@ -22871,7 +22871,10 @@
       "move-in intent",
       "payment/booking intent",
       "viewing interest"
-    ]
+    ],
+    "bot_paused": true,
+    "last_escalated_at": "2026-06-02T13:11:33.173Z",
+    "last_escalated_question": null
   },
   "message_lead_29665771": {
     "stage": "new",
