@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-02T13:08:10.453Z",
+  "ts": "2026-06-02T13:10:17.898Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269582077",
-    "ticket_id": "943915428",
-    "message": "This client books the Bayz bay Danube studio?",
-    "channel_id": "585723",
-    "contact_id": "536484706",
-    "contact_name": "Raja Sajid 🇦🇪",
-    "contact_identifier": "+971566960509",
-    "parent_message_id": "4268624216",
-    "parent_ticket_id": "943915428",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4269584668",
+    "ticket_id": "955537134",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in Upper Crest\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "539599386",
+    "contact_name": "Chovan",
+    "contact_identifier": "+971558019060",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
