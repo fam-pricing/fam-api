@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T11:01:45.972Z",
+  "ts": "2026-06-02T11:03:29.593Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269428434",
-    "ticket_id": "955157895",
-    "message": "Thank you",
+    "type": "OUTBOUND",
+    "message_id": "4269430685",
+    "ticket_id": "917536456",
+    "message": "Hello Maliheh Shojaei, we are checking with team on this matter",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "529936596",
+    "contact_name": "Maliheh Shojaei",
+    "contact_identifier": "+971502729393",
     "channel_id": "585723",
-    "contact_id": "537910879",
-    "contact_name": "@Ghost",
-    "contact_identifier": "+971526574714",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
