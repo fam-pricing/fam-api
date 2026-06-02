@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T16:38:43.471Z",
+  "ts": "2026-06-02T16:40:55.030Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269804060",
+    "type": "OUTBOUND",
+    "message_id": "4269805807",
     "ticket_id": "955477740",
-    "message": "Hi \nGood afternoon \nI paid",
-    "channel_id": "585723",
+    "message": "Please note that due to no payment your booking has been cancelled",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "539467013",
     "contact_name": "Zahra",
     "contact_identifier": "+971559366278",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
