@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-02T06:09:27.714Z",
+  "ts": "2026-06-02T06:10:06.311Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4269096559",
+    "type": "INBOUND",
+    "message_id": "4269096987",
     "ticket_id": "945309172",
-    "message": "Good Morning VALERIYA,\r\n\r\nWe sincerely apologize for the delay. However, please allow us some time to check with our finance team and we will update you shortly.\r\n\r\nThank you for your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "536881028",
     "contact_name": "VALERIYA KORYAKOVS'KA",
     "contact_identifier": "+971521953097",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4269096559",
+    "parent_ticket_id": "945309172",
+    "event_type": "INBOUND"
   }
 }
