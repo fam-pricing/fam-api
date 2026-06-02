@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T13:03:04.797Z",
+  "ts": "2026-06-02T13:03:10.108Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269575748",
-    "ticket_id": "955440459",
-    "message": "I’m waiting the contract",
+    "type": "OUTBOUND",
+    "message_id": "4269575843",
+    "ticket_id": "955512793",
+    "message": "The studio is available and you can move in tomorrow. Just send over your passport and email address to get it confirmed today.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "539589997",
+    "contact_name": "Maryana",
+    "contact_identifier": "+971522965270",
     "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Griszka",
-    "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
