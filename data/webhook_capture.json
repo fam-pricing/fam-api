@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-02T09:35:36.764Z",
+  "ts": "2026-06-02T09:36:06.733Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269321514",
-    "ticket_id": "955438622",
-    "message": "You mean i have to pay 2 months?",
-    "channel_id": "1304636",
-    "contact_id": "539565895",
-    "contact_name": "Sara Abobakr",
-    "contact_identifier": "+971559305371",
-    "parent_message_id": "4269320523",
-    "parent_ticket_id": "955438622",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4269322093",
+    "ticket_id": "949540885",
+    "message": "If you choose to pay the rent via the payment link, a card fee of 3.1% will be applied on top of the rent amount. However, if you proceed with a bank transfer, there will be no additional charges.\r\n\r\nIf you prefer the payment link, no problem, we can send it to you shortly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537786720",
+    "contact_name": "Majd Azzam",
+    "contact_identifier": "+96176846114",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
