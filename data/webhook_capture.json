@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-02T06:21:40.774Z",
+  "ts": "2026-06-02T06:21:55.171Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4269104681",
-    "ticket_id": "955130241",
-    "message": "Good Morning Olga,\r\n\r\nMay I know your check-in date, please? We will prepare the contract and send it to you shortly.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "538631018",
-    "contact_name": "Olga",
-    "contact_identifier": "+380672702585",
+    "type": "INBOUND",
+    "message_id": "4269104825",
+    "ticket_id": "955066512",
+    "message": "Hello, I wanted to ask for the WiFi name and password for apartment 713 elite residence",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538423864",
+    "contact_name": "Senga Silungwe",
+    "contact_identifier": "+260977293603",
+    "event_type": "INBOUND"
   }
 }
