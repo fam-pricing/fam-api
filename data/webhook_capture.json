@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-02T08:10:33.143Z",
+  "ts": "2026-06-02T08:12:47.041Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269215998",
-    "ticket_id": "955436676",
-    "message": "Confirm",
+    "type": "OUTBOUND",
+    "message_id": "4269218766",
+    "ticket_id": "955416882",
+    "message": "Thank you for the deposit update",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "436514827",
+    "contact_name": "Rashid Mohammed Alhamody",
+    "contact_identifier": "+971507725585",
     "channel_id": "585723",
-    "contact_id": "539565275",
-    "contact_name": "ghazal lead",
-    "contact_identifier": "+23795870067",
-    "parent_message_id": "4269215054",
-    "parent_ticket_id": "955436676",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
