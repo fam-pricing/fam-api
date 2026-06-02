@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-02T05:36:38.703Z",
+  "ts": "2026-06-02T05:38:03.653Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4269079493",
+    "type": "INBOUND",
+    "message_id": "4269080077",
     "ticket_id": "955131253",
-    "message": "If you have a vehicle, we will need the following details for advance registration. Please provide:\r\n\r\n* Emirate of issue (Dubai, Abu Dhabi, Sharjah, etc.)\r\n* Code\r\n* Plate number\r\n* Vehicle make/model\r\n* Color",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Dubai\nI\n85069\nGeely\nGrey",
+    "channel_id": "1304636",
     "contact_id": "539365088",
     "contact_name": "IBRAHIM ABDULRAHMAN",
     "contact_identifier": "+447539692848",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4269079493",
+    "parent_ticket_id": "955131253",
+    "event_type": "INBOUND"
   }
 }
