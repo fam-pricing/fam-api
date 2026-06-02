@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-02T13:27:11.046Z",
+  "ts": "2026-06-02T13:27:23.708Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4269604379",
+    "type": "INBOUND",
+    "message_id": "4269604674",
     "ticket_id": "943915428",
-    "message": "no we do not have any bookings under this name",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "536484706",
     "contact_name": "Raja Sajid 🇦🇪",
     "contact_identifier": "+971566960509",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4269604379",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
