@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-02T17:20:58.496Z",
+  "ts": "2026-06-02T17:21:35.677Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4269836821",
+    "type": "INBOUND",
+    "message_id": "4269837234",
     "ticket_id": "955601259",
-    "message": "The locking works in 3-month blocks, so your rate is confirmed for that period and reviewed at renewal based on market rates, which means there's a small chance it could shift. Yearly is absolutely fine and can run across multiple blocks. Does the viewing at 1pm today still work for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "yes would like to take a look. I just have another question, roughly how high can it shift to, so that I see if its within the budget",
+    "channel_id": "1304636",
     "contact_id": "538230204",
     "contact_name": "Sol",
     "contact_identifier": "+971503417608",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4269836263",
+    "parent_ticket_id": "955601259",
+    "event_type": "INBOUND"
   }
 }
