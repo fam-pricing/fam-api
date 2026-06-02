@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-02T14:05:09.559Z",
+  "ts": "2026-06-02T14:10:37.864Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4269650801",
-    "ticket_id": "955553845",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
-    "contact_id": "247891598",
-    "contact_name": "Ahmad Almaazmi",
-    "contact_identifier": "+971505717787",
+    "type": "INBOUND",
+    "message_id": "4269657186",
+    "ticket_id": "955436676",
+    "message": "It means one set other then the one already on bed and towels in the toilets or it is one set to used ?\nIn total how many sets ?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539565275",
+    "contact_name": "Gescard",
+    "contact_identifier": "+23795870067",
+    "parent_message_id": "4269601905",
+    "parent_ticket_id": "955436676",
+    "event_type": "INBOUND"
   }
 }
