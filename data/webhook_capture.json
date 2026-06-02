@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T14:26:26.928Z",
+  "ts": "2026-06-02T14:28:05.251Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269676323",
-    "ticket_id": "955560098",
-    "message": "My client is interested in doing 1 month rental \n\nI'll share with him your number and he'll message you directly.",
+    "type": "OUTBOUND",
+    "message_id": "4269678368",
+    "ticket_id": "955479593",
+    "message": "Thank you for the passport copy",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539577383",
+    "contact_name": "OluGbenga Sanyaolu",
+    "contact_identifier": "+2348029511919",
     "channel_id": "585723",
-    "contact_id": "531448190",
-    "contact_name": "Ayham",
-    "contact_identifier": "+971529865699",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
