@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T12:06:18.707Z",
+  "ts": "2026-06-02T12:06:44.374Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269505918",
+    "type": "OUTBOUND",
+    "message_id": "4269506495",
     "ticket_id": "955512793",
-    "message": "Do you make a contract ?",
-    "channel_id": "1304636",
+    "message": "Yes, we do provide a contract, and there's no commission. The only additional cost is the security deposit. Would you like to arrange a viewing of the property?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539589997",
     "contact_name": "Maryana",
     "contact_identifier": "+971522965270",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
