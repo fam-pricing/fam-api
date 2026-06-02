@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-02T13:02:33.696Z",
+  "ts": "2026-06-02T13:02:39.395Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4269575086",
-    "ticket_id": "934199428",
-    "message": "both units are booked",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "534076190",
-    "contact_name": "Thanvir Aafaq",
-    "contact_identifier": "+971521229233",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4269575236",
+    "ticket_id": "955440459",
+    "message": "Okay, but can we make the check in on 1st of July?",
+    "channel_id": "1304636",
+    "contact_id": "539566355",
+    "contact_name": "Matias Griszka",
+    "contact_identifier": "+971501784347",
+    "event_type": "INBOUND"
   }
 }
