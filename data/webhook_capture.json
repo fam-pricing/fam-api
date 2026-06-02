@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-02T05:55:10.659Z",
+  "ts": "2026-06-02T05:55:18.340Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4269087815",
-    "ticket_id": "955382101",
-    "message": "Good Morning Riya",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539552587",
-    "contact_name": "Riya",
-    "contact_identifier": "+971585437701",
+    "type": "INBOUND",
+    "message_id": "4269087899",
+    "ticket_id": "955259742",
+    "message": "Can you please ask the agent responsible for this property to contact me",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "539516282",
+    "contact_name": "AD",
+    "contact_identifier": "+971585585899",
+    "event_type": "INBOUND"
   }
 }
