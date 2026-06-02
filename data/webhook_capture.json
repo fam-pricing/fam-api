@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T08:25:26.993Z",
+  "ts": "2026-06-02T08:25:41.059Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269234453",
-    "ticket_id": "955440459",
-    "message": "Before you send everything, may I know the price for three months? Is it possible to make a 3 months contract? We would like to pay the first two months upfront and the third months before August finish",
-    "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Griszka",
-    "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4269234691",
+    "ticket_id": "949540885",
+    "message": "Hello Majd,\r\n\r\nYes, we have your booking scheduled from tomorrow at Upside Living. Could you please confirm your arrival time?\r\n\r\nWe also noticed that the rent payment is still pending. Kindly let us know how you will be completing the payment, as it needs to be settled prior to check-in.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537786720",
+    "contact_name": "Majd Azzam",
+    "contact_identifier": "+96176846114",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
