@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T13:04:16.176Z",
+  "ts": "2026-06-02T13:04:22.945Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269577223",
-    "ticket_id": "955512793",
-    "message": "I can do in 10 mins",
+    "type": "OUTBOUND",
+    "message_id": "4269577392",
+    "ticket_id": "955440459",
+    "message": "yes, you can check in so would like to book this apartment without viewing ?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539566355",
+    "contact_name": "Matias Griszka",
+    "contact_identifier": "+971501784347",
     "channel_id": "1304636",
-    "contact_id": "539589997",
-    "contact_name": "Maryana",
-    "contact_identifier": "+971522965270",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
