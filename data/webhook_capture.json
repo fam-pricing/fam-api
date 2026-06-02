@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T06:00:49.420Z",
+  "ts": "2026-06-02T06:01:07.306Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269090767",
-    "ticket_id": "955259742",
-    "message": "From the first day it becomes available",
+    "type": "OUTBOUND",
+    "message_id": "4269090964",
+    "ticket_id": "955316244",
+    "message": "Good Morning,\r\n\r\nUnfortunately, this apartment is fully booked and is no longer available for the requested dates.\r\n\r\nWe apologize for the inconvenience and appreciate your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539432210",
+    "contact_name": "David",
+    "contact_identifier": "+971585417220",
     "channel_id": "1304636",
-    "contact_id": "539516282",
-    "contact_name": "AD",
-    "contact_identifier": "+971585585899",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
