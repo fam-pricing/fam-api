@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T08:23:29.187Z",
+  "ts": "2026-06-02T08:23:59.199Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269232089",
+    "type": "OUTBOUND",
+    "message_id": "4269232708",
     "ticket_id": "955440459",
-    "message": "The first day of the month",
-    "channel_id": "1304636",
+    "message": "July 1st it is, Matias. Want to go ahead and send over your passport copy and email so we can get things moving?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539566355",
     "contact_name": "Matias Griszka",
     "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
