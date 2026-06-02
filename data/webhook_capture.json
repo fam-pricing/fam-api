@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-02T08:40:41.319Z",
+  "ts": "2026-06-02T08:41:19.556Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4269253203",
+    "type": "INBOUND",
+    "message_id": "4269254001",
     "ticket_id": "955440459",
-    "message": "Tomorrow at 9am is confirmed. Could you send a photo of your passport or Emirates ID so I can arrange building access?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I'm already renting in the same building",
+    "channel_id": "1304636",
     "contact_id": "539566355",
     "contact_name": "Matias Griszka",
     "contact_identifier": "+971501784347",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
