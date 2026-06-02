@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T13:19:04.918Z",
+  "ts": "2026-06-02T13:19:30.075Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269594880",
-    "ticket_id": "955440459",
-    "message": "Could you please send me the contract?",
-    "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Griszka",
-    "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4269595328",
+    "ticket_id": "955479593",
+    "message": "we have send you the payment link via booking.com , please have a look",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539577383",
+    "contact_name": "OluGbenga Sanyaolu",
+    "contact_identifier": "+2348029511919",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
