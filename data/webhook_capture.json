@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T08:41:19.556Z",
+  "ts": "2026-06-02T08:41:28.242Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269254001",
-    "ticket_id": "955440459",
-    "message": "I'm already renting in the same building",
+    "type": "OUTBOUND",
+    "message_id": "4269254184",
+    "ticket_id": "955259742",
+    "message": "It will be AED 13,000 per month for 30 nights, with a security deposit of AED 3,000 as well.\r\n\r\nFor 2 months (60 nights), the total amount will be AED 26,000.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539516282",
+    "contact_name": "AD",
+    "contact_identifier": "+971585585899",
     "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Griszka",
-    "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
