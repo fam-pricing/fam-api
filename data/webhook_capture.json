@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T16:33:45.233Z",
+  "ts": "2026-06-02T16:34:06.740Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269800193",
+    "type": "OUTBOUND",
+    "message_id": "4269800463",
     "ticket_id": "955588133",
-    "message": "When can we be able to visit?",
-    "channel_id": "1304636",
+    "message": "Great, what day and time works for you? We can do any day between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538907833",
     "contact_name": "Lara",
     "contact_identifier": "+41784020559",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
