@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-02T13:24:42.948Z",
+  "ts": "2026-06-02T13:25:01.723Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4269601543",
-    "ticket_id": "943915428",
-    "message": "I would like you to check in your system whether there is any booking for this ID.",
+    "type": "OUTBOUND",
+    "message_id": "4269601905",
+    "ticket_id": "955436676",
+    "message": "Our team will provide one set of bed sheets and towels upon check-in for your stay. I will also send you the exact apartment video by tomorrow, Mr. Gescard.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539565275",
+    "contact_name": "Gescard",
+    "contact_identifier": "+23795870067",
     "channel_id": "585723",
-    "contact_id": "536484706",
-    "contact_name": "Raja Sajid 🇦🇪",
-    "contact_identifier": "+971566960509",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
