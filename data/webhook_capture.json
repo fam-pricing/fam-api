@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-03T15:48:47.098Z",
+  "ts": "2026-06-03T15:48:52.438Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4270775840",
+    "type": "INBOUND",
+    "message_id": "4270775922",
     "ticket_id": "955877689",
-    "message": "And how many months?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Right now",
+    "channel_id": "1304636",
     "contact_id": "539695289",
     "contact_name": "Nilüfer",
     "contact_identifier": "+905354802937",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4270775639",
+    "parent_ticket_id": "955877689",
+    "event_type": "INBOUND"
   }
 }
