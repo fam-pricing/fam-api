@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-03T09:31:33.979Z",
+  "ts": "2026-06-03T09:31:55.818Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4270312200",
-    "ticket_id": "955436676",
-    "message": "Ok great. The money has been teansferred and tomorrow you will have it from Ghazal.\nPlease share the link for deposit also.",
+    "type": "OUTBOUND",
+    "message_id": "4270312576",
+    "ticket_id": "955729897",
+    "message": "To process a smooth check in for you, please complete this form:\r\nhttps://guest-app.guesty.com/r/6a1f8e3d5854c4159eb825fd/e3tndWVzdF9hcHA6OnNhbXBsZV9ndWVzdF9hcHB9fQ==",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539648963",
+    "contact_name": "David Rodrguez",
+    "contact_identifier": "+525541356081",
     "channel_id": "585723",
-    "contact_id": "539565275",
-    "contact_name": "Gescard",
-    "contact_identifier": "+23795870067",
-    "parent_message_id": "4270310753",
-    "parent_ticket_id": "955436676",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
