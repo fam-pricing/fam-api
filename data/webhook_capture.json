@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-03T07:08:40.124Z",
+  "ts": "2026-06-03T07:08:56.755Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4270139461",
-    "ticket_id": "955440459",
-    "message": "Okay, no worries",
+    "type": "OUTBOUND",
+    "message_id": "4270139752",
+    "ticket_id": "955605098",
+    "message": "Here is the pictures of this apartment",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539621268",
+    "contact_name": "Yousef Salhah",
+    "contact_identifier": "+971507841870",
     "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Griszka",
-    "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
