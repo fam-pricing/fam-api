@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-03T09:10:19.220Z",
+  "ts": "2026-06-03T09:10:34.724Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4270285351",
+    "type": "OUTBOUND",
+    "message_id": "4270285797",
     "ticket_id": "954696621",
-    "message": "Let them come tomorrow",
-    "channel_id": "585723",
+    "message": "What time tomorrow ?",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "537607776",
     "contact_name": "SHEYDA",
     "contact_identifier": "+971502809008",
-    "parent_message_id": "4270281548",
-    "parent_ticket_id": "954696621",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
