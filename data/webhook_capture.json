@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-03T11:06:29.956Z",
+  "ts": "2026-06-03T11:06:52.030Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4270436875",
+    "type": "OUTBOUND",
+    "message_id": "4270437377",
     "ticket_id": "955788696",
-    "message": "10.06",
-    "channel_id": "1304636",
+    "message": "Yes, it's available from June 10. How long are you thinking of staying?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539666168",
     "contact_name": "Maria",
     "contact_identifier": "+79163815175",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
