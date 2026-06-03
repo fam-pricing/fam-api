@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-03T11:23:15.301Z",
+  "ts": "2026-06-03T11:23:17.325Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4270456763",
-    "ticket_id": "955788696",
-    "message": "AED 4,500 all-in for 1 month, with a AED 1,000 refundable deposit. Want to go ahead with June 10?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "539666168",
-    "contact_name": "Maria",
-    "contact_identifier": "+79163815175",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4270456844",
+    "ticket_id": "955436676",
+    "message": "Mr Georges Emile Bader will be the one to collect the key on June 17",
+    "channel_id": "585723",
+    "contact_id": "539565275",
+    "contact_name": "GESCARD ISSA",
+    "contact_identifier": "+23795870067",
+    "parent_message_id": "4270456330",
+    "parent_ticket_id": "955436676",
+    "event_type": "INBOUND"
   }
 }
