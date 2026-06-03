@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-03T11:52:08.251Z",
+  "ts": "2026-06-03T11:52:09.712Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4270493917",
-    "ticket_id": "955440459",
-    "message": "Thank you for completing the check in form",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539566355",
-    "contact_name": "Matias Ariel Griszka",
-    "contact_identifier": "+971501784347",
+    "type": "INBOUND",
+    "message_id": "4270493973",
+    "ticket_id": "955799326",
+    "message": "👍",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "539669339",
+    "contact_name": "Teo",
+    "contact_identifier": "+971585361531",
+    "parent_message_id": "4270490121",
+    "parent_ticket_id": "955799326",
+    "event_type": "INBOUND"
   }
 }
