@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-03T13:37:59.483Z",
+  "ts": "2026-06-03T13:38:53.336Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4270628843",
-    "ticket_id": "937192947",
-    "message": "Oh, here it was 5500, rate changed?",
-    "channel_id": "585723",
-    "contact_id": "534886793",
-    "contact_name": "Muhammad Diab",
-    "contact_identifier": "+971527166175",
-    "parent_message_id": "4242440352",
-    "parent_ticket_id": "937192947",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4270629960",
+    "ticket_id": "955382101",
+    "message": "Here is the breakdown of the 3-month rate:\r\n\r\n1st month (30 nights): AED 5,000\r\n2nd month (30 nights): AED 5,500\r\n3rd month (30 nights): AED 6,000\r\n\r\nPlease also note that a security deposit of AED 2,000 is applicable.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539552587",
+    "contact_name": "Riya",
+    "contact_identifier": "+971585437701",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
