@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-03T08:24:49.177Z",
+  "ts": "2026-06-03T08:27:50.920Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4270228389",
+    "type": "OUTBOUND",
+    "message_id": "4270232101",
     "ticket_id": "955729897",
-    "message": "Thank you , 5:00 to 5:30 am",
-    "channel_id": "585723",
+    "message": "Dear David,\r\n\r\nKindly note that self check-in is not allowed in this building. Our standard check-in time for holiday homes is from 3:00 PM to 9:00 PM.\r\n\r\nPlease also be informed that arrivals after 9:00 PM will incur an additional late check-in charge of AED 350.\r\n\r\nThank you for your understanding and cooperation.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "539648963",
     "contact_name": "David Rodrguez",
     "contact_identifier": "+525541356081",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
