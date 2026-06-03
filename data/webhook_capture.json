@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-03T11:38:32.533Z",
+  "ts": "2026-06-03T11:39:55.135Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4270474674",
-    "ticket_id": "955788696",
-    "message": "For in-person viewings you can come by any time today between 9am and 6pm. What time works for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "539666168",
-    "contact_name": "Maria",
-    "contact_identifier": "+79163815175",
+    "type": "INBOUND",
+    "message_id": "4270476349",
+    "ticket_id": "955775819",
+    "message": "❤️",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535867791",
+    "contact_name": "MOHAMMED AMIR SAAD ISHTIAQUE",
+    "contact_identifier": "+971523192648",
+    "parent_message_id": "4270467131",
+    "parent_ticket_id": "955775819",
+    "event_type": "INBOUND"
   }
 }
