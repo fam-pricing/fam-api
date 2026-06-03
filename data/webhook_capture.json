@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-03T08:33:24.402Z",
+  "ts": "2026-06-03T08:34:34.348Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4270238830",
-    "ticket_id": "949540885",
-    "message": "you will be paying by the payment link?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537786720",
-    "contact_name": "Majd Azzam",
-    "contact_identifier": "+96176846114",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4270240297",
+    "ticket_id": "955588133",
+    "message": "Okay no worries. Can you please just give me more detail about the monthly rent. Are all the bills included? Water, electricity, gas, AC, wifi?\n\nHow much is the deposit? \n\nIs there any agency commission fee? \n\nAre there any other fees that I should know of?\n\nHow long will the rent be AED 7000?\nHow much will it increase then?",
+    "channel_id": "1304636",
+    "contact_id": "538907833",
+    "contact_name": "Lara",
+    "contact_identifier": "+41784020559",
+    "event_type": "INBOUND"
   }
 }
