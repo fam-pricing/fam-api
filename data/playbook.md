@@ -1289,3 +1289,9 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 ## Learned (2026-06-03)
 - If a lead requests a stay of at least 3 months, confirm that we can accommodate this at the same rate of AED 5,000 per month, with each month comprising 30 nights.
   (Learned from Faysal handling Soumia Aouad re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
+
+## Learned (2026-06-03)
+- When a broker or agent reaches out on behalf of a direct client seeking a monthly rental and asks about commission sharing, respond as follows:
+
+We are happy to share our monthly rental rates with you. Please note that our quoted rates are net to us — if you require a commission, kindly add it on top of our rental amount.
+  (Learned from Faysal handling Eldar re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-67437566.html)
