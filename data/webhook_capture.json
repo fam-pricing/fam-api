@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-03T09:42:44.082Z",
+  "ts": "2026-06-03T09:46:57.827Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4270333146",
-    "ticket_id": "955436676",
-    "message": "Audio",
+    "type": "OUTBOUND",
+    "message_id": "4270338344",
+    "ticket_id": "949338853",
+    "message": "The report we received after your checkout from Upside Living has been shared with you. In the meantime, we have sent an email to the management on this matter and are following up.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "467308730",
+    "contact_name": "Ms Yuliia Zinchenko",
+    "contact_identifier": "+971547920167",
     "channel_id": "585723",
-    "contact_id": "539565275",
-    "contact_name": "Gescard",
-    "contact_identifier": "+23795870067",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
