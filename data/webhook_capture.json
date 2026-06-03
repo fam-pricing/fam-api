@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-03T09:31:30.178Z",
+  "ts": "2026-06-03T09:31:33.979Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4270312133",
-    "ticket_id": "955729897",
-    "message": "here is the updated link",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539648963",
-    "contact_name": "David Rodrguez",
-    "contact_identifier": "+525541356081",
+    "type": "INBOUND",
+    "message_id": "4270312200",
+    "ticket_id": "955436676",
+    "message": "Ok great. The money has been teansferred and tomorrow you will have it from Ghazal.\nPlease share the link for deposit also.",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539565275",
+    "contact_name": "Gescard",
+    "contact_identifier": "+23795870067",
+    "parent_message_id": "4270310753",
+    "parent_ticket_id": "955436676",
+    "event_type": "INBOUND"
   }
 }
