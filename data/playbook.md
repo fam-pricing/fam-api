@@ -1285,3 +1285,7 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 
 "We sincerely apologise for any inconvenience. Please note that our prices are fixed and we are unable to offer any reductions. Thank you for your understanding."
   (Learned from Faysal handling AD re 3BR in Imperial Avenue)
+
+## Learned (2026-06-03)
+- If a lead requests a stay of at least 3 months, confirm that we can accommodate this at the same rate of AED 5,000 per month, with each month comprising 30 nights.
+  (Learned from Faysal handling Soumia Aouad re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851921.html)
