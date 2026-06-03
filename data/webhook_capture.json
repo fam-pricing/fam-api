@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-03T06:41:33.942Z",
+  "ts": "2026-06-03T06:43:02.110Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4270114780",
-    "ticket_id": "955440459",
-    "message": "I was checking the rental agreement and I saw that is one bedroom apartment but the link that I requested information was 2br",
+    "type": "OUTBOUND",
+    "message_id": "4270115876",
+    "ticket_id": "955619124",
+    "message": "Good Morning",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539625123",
+    "contact_name": "R",
+    "contact_identifier": "+962775514039",
     "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Griszka",
-    "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
