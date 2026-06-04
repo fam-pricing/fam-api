@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-04T07:25:23.510Z",
+  "ts": "2026-06-04T07:25:29.532Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4271160468",
-    "ticket_id": "952769089",
-    "message": "Hello",
+    "type": "OUTBOUND",
+    "message_id": "4271160601",
+    "ticket_id": "947609821",
+    "message": "Yes, please note that the check-in form must be completed prior to your arrival. We also kindly request that the payment be completed before check-in.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537450284",
+    "contact_name": "Alisa",
+    "contact_identifier": "+79817821817",
     "channel_id": "585723",
-    "contact_id": "280507914",
-    "contact_name": "Ms Eliza",
-    "contact_identifier": "+971586017110",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
