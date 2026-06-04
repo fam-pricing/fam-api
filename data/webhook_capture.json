@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-04T13:43:02.247Z",
+  "ts": "2026-06-04T13:45:00.163Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4271604992",
+    "type": "OUTBOUND",
+    "message_id": "4271607105",
     "ticket_id": "956113458",
-    "message": "whats the reason for viewing ?",
-    "channel_id": "585723",
+    "message": "Owner has not provided a specific reason, they have only made the request if possible.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537401735",
     "contact_name": "Rahul Vinay S",
     "contact_identifier": "+971547997976",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
