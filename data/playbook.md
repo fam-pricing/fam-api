@@ -1295,3 +1295,7 @@ The price is 11,000 AED for 30 nights, inclusive of all bills and taxes. A refun
 
 We are happy to share our monthly rental rates with you. Please note that our quoted rates are net to us — if you require a commission, kindly add it on top of our rental amount.
   (Learned from Faysal handling Eldar re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-67437566.html)
+
+## Learned (2026-06-04)
+- If a lead requests a start date of September or beyond, respond with: "Due to the current market situation, we are unable to offer rates beyond a 3-month period at this stage."
+  (Learned from Faysal handling Nilüfer re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-2PuwDDpSs0u.html)
