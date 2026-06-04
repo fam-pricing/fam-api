@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-04T09:58:49.748Z",
+  "ts": "2026-06-04T09:59:11.958Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4271342286",
-    "ticket_id": "954696621",
-    "message": "Team checked and confirmed no any water leakages right now as it might be fixed from above unit. only ceiling is damaged and they will fix it shortly as waiting to get dry.",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "537607776",
-    "contact_name": "SHEYDA",
-    "contact_identifier": "+971502809008",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4271342679",
+    "ticket_id": "955877689",
+    "message": "Inside home",
+    "channel_id": "1304636",
+    "contact_id": "539695289",
+    "contact_name": "Nilüfer",
+    "contact_identifier": "+905354802937",
+    "parent_message_id": "4271340936",
+    "parent_ticket_id": "955877689",
+    "event_type": "INBOUND"
   }
 }
