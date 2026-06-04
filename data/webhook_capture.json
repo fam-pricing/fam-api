@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-04T09:35:17.654Z",
+  "ts": "2026-06-04T09:46:26.797Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4271309299",
+    "type": "OUTBOUND",
+    "message_id": "4271327330",
     "ticket_id": "955436676",
-    "message": "Just got info that payment has been done so we are ok 👍",
-    "channel_id": "585723",
+    "message": "yes, your payment has been received",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "539565275",
     "contact_name": "GESCARD ISSA",
     "contact_identifier": "+23795870067",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
