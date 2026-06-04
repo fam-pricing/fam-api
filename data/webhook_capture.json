@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-04T15:15:02.970Z",
+  "ts": "2026-06-04T15:15:14.407Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4271741100",
-    "ticket_id": "947609821",
-    "message": "Please postpone check in date for tomorrow",
+    "type": "OUTBOUND",
+    "message_id": "4271741449",
+    "ticket_id": "953081775",
+    "message": "Well noted, we will check and get back to you",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "278742304",
+    "contact_name": "Ahmad Sabri Hassan",
+    "contact_identifier": "+971528939729",
     "channel_id": "585723",
-    "contact_id": "537450284",
-    "contact_name": "Alisa",
-    "contact_identifier": "+79817821817",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
