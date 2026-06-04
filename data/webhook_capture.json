@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-04T09:10:35.610Z",
+  "ts": "2026-06-04T09:11:02.145Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4271280393",
-    "ticket_id": "956054622",
-    "message": "Hello",
-    "channel_id": "1304636",
-    "contact_id": "539740526",
-    "contact_name": "Salah Jaballah",
-    "contact_identifier": "+971508575308",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4271280864",
+    "ticket_id": "917536456",
+    "message": "DU has confirmed that they performed the troubleshooting again and that it is working now. Kindly check and update.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "529936596",
+    "contact_name": "Maliheh Shojaei",
+    "contact_identifier": "+971502729393",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
