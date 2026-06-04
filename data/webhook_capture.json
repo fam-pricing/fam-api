@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-04T07:27:27.752Z",
+  "ts": "2026-06-04T07:28:59.236Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4271162648",
+    "type": "OUTBOUND",
+    "message_id": "4271164288",
     "ticket_id": "952769089",
-    "message": "Is the parking access card ready?",
-    "channel_id": "585723",
+    "message": "Team is on the way, will be there shortly by 12 noon, apologies for the delay.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "280507914",
     "contact_name": "Ms Eliza",
     "contact_identifier": "+971586017110",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
