@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-04T09:00:57.578Z",
+  "ts": "2026-06-04T09:01:50.059Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4271265715",
-    "ticket_id": "955836764",
-    "message": "Kindly confirm if this works for you, as we currently have only one apartment available.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539681403",
-    "contact_name": "CS",
-    "contact_identifier": "+971585603344",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4271270157",
+    "ticket_id": "955877689",
+    "message": "Yeah please",
+    "channel_id": "1304636",
+    "contact_id": "539695289",
+    "contact_name": "Nilüfer",
+    "contact_identifier": "+905354802937",
+    "parent_message_id": "4271203330",
+    "parent_ticket_id": "955877689",
+    "event_type": "INBOUND"
   }
 }
