@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-04T07:28:59.236Z",
+  "ts": "2026-06-04T07:29:19.464Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4271164288",
+    "type": "INBOUND",
+    "message_id": "4271164638",
     "ticket_id": "952769089",
-    "message": "Team is on the way, will be there shortly by 12 noon, apologies for the delay.",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "Please can you ask them to arrive before 12",
+    "channel_id": "585723",
     "contact_id": "280507914",
     "contact_name": "Ms Eliza",
     "contact_identifier": "+971586017110",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
