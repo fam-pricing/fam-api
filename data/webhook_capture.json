@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-04T02:22:21.537Z",
+  "ts": "2026-06-04T02:47:14.766Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4271032557",
-    "ticket_id": "955729897",
-    "message": "Please come straight",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "539648963",
-    "contact_name": "David Rodrguez",
-    "contact_identifier": "+525541356081",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4271036567",
+    "ticket_id": "955971610",
+    "message": "Hi \nReminder",
+    "channel_id": "1304636",
+    "contact_id": "535986253",
+    "contact_name": "Sheza imran Butt",
+    "contact_identifier": "+971505644681",
+    "parent_message_id": "4268635883",
+    "parent_ticket_id": "955223149",
+    "event_type": "INBOUND"
   }
 }
