@@ -1,18 +1,19 @@
 {
-  "ts": "2026-06-04T19:16:48.381Z",
+  "ts": "2026-06-04T19:41:41.103Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4271913443",
-    "ticket_id": "956265015",
-    "message": "Thanks! You will get a reply by email if you leave this website.",
-    "contact_id": "539797360",
-    "contact_name": "Janne",
-    "contact_email": "j.petajajarvi@outlook.com",
-    "contact_identifier": "81e1b9a1-38ff-4882-94e7-e867de2a6f83",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4271925929",
+    "ticket_id": "955729897",
+    "message": "Image",
+    "channel_id": "585723",
+    "contact_id": "539648963",
+    "contact_name": "David Rodrguez",
+    "contact_identifier": "+525541356081",
+    "parent_message_id": "4271898309",
+    "parent_ticket_id": "955729897",
+    "event_type": "INBOUND"
   }
 }
