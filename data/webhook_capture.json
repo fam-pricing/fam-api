@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-04T08:00:00.655Z",
+  "ts": "2026-06-04T08:00:18.440Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4271197663",
-    "ticket_id": "955440459",
-    "message": "Good morning, here is the proof of payment of the remaining balance",
+    "type": "OUTBOUND",
+    "message_id": "4271197974",
+    "ticket_id": "955130241",
+    "message": "To proceed, we first need to know your intended check-in date. Based on your arrival date, we will prepare the booking, arrange the contract, and coordinate with the agent for your check-in.\r\n\r\nPlease let us know your preferred check-in date at your earliest convenience.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "538631018",
+    "contact_name": "Olga",
+    "contact_identifier": "+380672702585",
     "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Ariel Griszka",
-    "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
