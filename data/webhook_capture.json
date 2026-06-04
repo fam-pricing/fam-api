@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-04T07:29:42.000Z",
+  "ts": "2026-06-04T07:30:27.051Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4271165044",
-    "ticket_id": "952769089",
-    "message": "And also any update on the parking card?",
-    "channel_id": "585723",
-    "contact_id": "280507914",
-    "contact_name": "Ms Eliza",
-    "contact_identifier": "+971586017110",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4271165834",
+    "ticket_id": "956024049",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nStudio in Azizi Riviera 16\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "539731830",
+    "contact_name": "Leyla",
+    "contact_identifier": "+971585857093",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
