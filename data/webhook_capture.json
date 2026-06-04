@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-04T16:24:48.457Z",
+  "ts": "2026-06-04T16:25:08.200Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4271808139",
+    "type": "OUTBOUND",
+    "message_id": "4271808373",
     "ticket_id": "956234751",
-    "message": "I can't book for 1 year?",
-    "channel_id": "1304636",
+    "message": "The rate is locked for each 3-month block, then reviewed based on market, though it tends to stay stable. For the viewing, what day works best for you this week?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539786073",
     "contact_name": "Kinjal",
     "contact_identifier": "+918778197790",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
