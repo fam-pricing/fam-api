@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-04T08:00:56.327Z",
+  "ts": "2026-06-04T08:01:04.312Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4271198796",
-    "ticket_id": "955440459",
-    "message": "Thank you for the payment receipt",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539566355",
-    "contact_name": "Matias Ariel Griszka",
-    "contact_identifier": "+971501784347",
+    "type": "INBOUND",
+    "message_id": "4271198976",
+    "ticket_id": "955130241",
+    "message": "We already have flat in the same place",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538631018",
+    "contact_name": "Olga",
+    "contact_identifier": "+380672702585",
+    "event_type": "INBOUND"
   }
 }
