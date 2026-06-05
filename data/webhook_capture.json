@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-05T07:15:45.943Z",
+  "ts": "2026-06-05T07:16:00.242Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4272132838",
+    "type": "INBOUND",
+    "message_id": "4272133049",
     "ticket_id": "956340130",
-    "message": "Yes sure if you wish to proceed we can arrange through payment link",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "cool",
+    "channel_id": "1304636",
     "contact_id": "539531301",
     "contact_name": "Nouman Ahmad",
     "contact_identifier": "+971582300917",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4272132838",
+    "parent_ticket_id": "956340130",
+    "event_type": "INBOUND"
   }
 }
