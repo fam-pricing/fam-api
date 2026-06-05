@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-05T09:01:04.172Z",
+  "ts": "2026-06-05T09:01:24.525Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4272262724",
+    "type": "OUTBOUND",
+    "message_id": "4272263332",
     "ticket_id": "956397399",
-    "message": "can you please connect through the call",
-    "channel_id": "1304636",
+    "message": "Of course, let me get someone from the team for you right away.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539825395",
     "contact_name": "Fahad",
     "contact_identifier": "+971529623392",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
