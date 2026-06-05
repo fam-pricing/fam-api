@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-05T09:00:24.953Z",
+  "ts": "2026-06-05T09:00:35.209Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4272261494",
-    "ticket_id": "956368257",
-    "message": "Or video",
+    "type": "OUTBOUND",
+    "message_id": "4272261813",
+    "ticket_id": "956397399",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "539825395",
+    "contact_name": "Fahad",
+    "contact_identifier": "+971529623392",
     "channel_id": "1304636",
-    "contact_id": "539416751",
-    "contact_name": "Luana 🦋",
-    "contact_identifier": "+971508304930",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
