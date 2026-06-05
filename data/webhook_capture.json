@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-05T12:55:19.900Z",
+  "ts": "2026-06-05T13:03:51.939Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4272559636",
-    "ticket_id": "941757415",
-    "message": "We may schedule cleaning tomorrow between 3-5 pm, please confirm in order to schedule",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "535953930",
-    "contact_name": "Shakiba alsama",
-    "contact_identifier": "+971502487446",
+    "type": "INBOUND",
+    "message_id": "4272568682",
+    "ticket_id": "868142227",
+    "message": "Hi we have yet to receive the deposit",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "517559757",
+    "contact_name": "Ms Jodie Tia Walsh",
+    "contact_identifier": "+971509848657",
+    "parent_message_id": "4247972643",
+    "parent_ticket_id": "868142227",
+    "event_type": "INBOUND"
   }
 }
