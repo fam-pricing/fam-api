@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-05T18:39:58.786Z",
+  "ts": "2026-06-05T18:40:15.246Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4272826745",
+    "type": "OUTBOUND",
+    "message_id": "4272826856",
     "ticket_id": "956581658",
-    "message": "ajay@subvijay.com",
-    "channel_id": "1304636",
+    "message": "Got your passport and email, Ajay. To lock in June 9 to September 15, I'll send the registration card over to ajay@subvijay.com now, once that's signed, I'll follow up with the payment link.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539868565",
     "contact_name": "Ajay",
     "contact_identifier": "+918356912026",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
