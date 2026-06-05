@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-05T08:11:12.631Z",
+  "ts": "2026-06-05T08:11:41.323Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4272196755",
+    "type": "INBOUND",
+    "message_id": "4272197247",
     "ticket_id": "948205272",
-    "message": "Reception will not accept any cards",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "I will speak with him",
+    "channel_id": "585723",
     "contact_id": "537594186",
     "contact_name": "Rama Khaled Aaraj",
     "contact_identifier": "+971561563617",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4272196755",
+    "parent_ticket_id": "948205272",
+    "event_type": "INBOUND"
   }
 }
