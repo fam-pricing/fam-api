@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-05T12:23:01.429Z",
+  "ts": "2026-06-05T12:23:04.943Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4272526808",
+    "type": "OUTBOUND",
+    "message_id": "4272526866",
     "ticket_id": "956505926",
-    "message": "Hi, I was looking on booking.com and it looks like Fam Living has some furnished apartments in Al Zorah.  I'm potentially interested in an extended stay there for 1 to 3 months, in a 2- or 3- bedroom apartment.  Could you give me pricing, please?",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "539843074",
     "contact_name": "Rich Auty",
     "contact_identifier": "86754c8e-587f-439c-249b-a84e44adad17",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
