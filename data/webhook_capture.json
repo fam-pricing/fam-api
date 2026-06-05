@@ -1,17 +1,21 @@
 {
-  "ts": "2026-06-05T05:42:03.652Z",
+  "ts": "2026-06-05T05:42:12.324Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4272069588",
-    "ticket_id": "956200952",
-    "message": "Good morning Sha",
-    "channel_id": "585723",
-    "contact_id": "143757598",
-    "contact_name": "Mr Ghannam Almazrouei",
-    "contact_identifier": "+971508122139",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4272069641",
+    "ticket_id": "956236534",
+    "message": "How can I help you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539786604",
+    "contact_name": "Ghannam",
+    "contact_email": "galmazrouei1@gmail.com",
+    "contact_identifier": "2598e8c6-e99a-40f6-b66a-ba8ddb15b973",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
