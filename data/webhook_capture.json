@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-05T06:11:23.007Z",
+  "ts": "2026-06-05T06:11:56.970Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4272083779",
-    "ticket_id": "956200952",
-    "message": "This is the building",
+    "type": "OUTBOUND",
+    "message_id": "4272084046",
+    "ticket_id": "954696621",
+    "message": "Hello SHEYDA, the team has confirmed that there was no visible leakage found yesterday upon their inspection. And they only fixed the damaged ceiling.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "537607776",
+    "contact_name": "SHEYDA",
+    "contact_identifier": "+971502809008",
     "channel_id": "585723",
-    "contact_id": "143757598",
-    "contact_name": "Mr Ghannam Almazrouei",
-    "contact_identifier": "+971508122139",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
