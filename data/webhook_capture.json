@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-05T06:27:05.670Z",
+  "ts": "2026-06-05T06:27:44.029Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4272092597",
-    "ticket_id": "956246752",
-    "message": "Hello ابو معاذ ! To provide you with a smooth check-in experience, we must know your estimated arrival time. Please let us know what time are you expecting to check in.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539790838",
-    "contact_name": "ابو معاذ",
-    "contact_identifier": "+971506710750",
+    "type": "INBOUND",
+    "message_id": "4272092959",
+    "ticket_id": "956316890",
+    "message": "I need to request early check in please",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539809123",
+    "contact_name": "Nur Umm Umar",
+    "contact_identifier": "+971566635114",
+    "event_type": "INBOUND"
   }
 }
