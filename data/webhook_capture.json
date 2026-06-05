@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-05T08:47:45.385Z",
+  "ts": "2026-06-05T08:48:09.155Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4272248753",
+    "message_id": "4272249128",
     "ticket_id": "947609821",
-    "message": "What time can I collect it?",
+    "message": "Already completed please check",
     "channel_id": "585723",
     "contact_id": "537450284",
     "contact_name": "Alisa",
     "contact_identifier": "+79817821817",
+    "parent_message_id": "4271119789",
+    "parent_ticket_id": "947609821",
     "event_type": "INBOUND"
   }
 }
