@@ -1,19 +1,17 @@
 {
-  "ts": "2026-06-05T08:40:40.400Z",
+  "ts": "2026-06-05T08:40:42.328Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4272241356",
-    "ticket_id": "947609821",
-    "message": "This link is not working",
-    "channel_id": "585723",
-    "contact_id": "537450284",
-    "contact_name": "Alisa",
-    "contact_identifier": "+79817821817",
-    "parent_message_id": "4272091925",
-    "parent_ticket_id": "947609821",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4272241418",
+    "ticket_id": "956391671",
+    "message": " Dear Jonathan Vaughan, It's a beautiful day at fäm Living! This confirms that we received your request and registered it as ticket #956391671. We will get back to you within 24 hours. You can always reply to this email if you want to add additional information. Kinds regards, Team fäm Living ",
+    "contact_id": "442599067",
+    "contact_name": "Jonathan Vaughan",
+    "contact_email": "jonathan@famproperties.com",
+    "channel_id": "747394",
+    "event_type": "OUTBOUND"
   }
 }
