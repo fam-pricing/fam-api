@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-05T12:25:47.245Z",
+  "ts": "2026-06-05T12:27:23.480Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4272529594",
+    "type": "OUTBOUND",
+    "message_id": "4272531204",
     "ticket_id": "956505926",
-    "message": "+971554185698",
-    "channel_id": "883603",
+    "message": "Will contact you shortly",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "539843074",
     "contact_name": "Rich Auty",
     "contact_identifier": "86754c8e-587f-439c-249b-a84e44adad17",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
