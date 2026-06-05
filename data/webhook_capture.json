@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-05T08:26:56.694Z",
+  "ts": "2026-06-05T08:28:10.289Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4272219285",
-    "ticket_id": "947609821",
-    "message": "Pls send bank transfer details",
+    "type": "OUTBOUND",
+    "message_id": "4272220408",
+    "ticket_id": "948205272",
+    "message": "We will inform the team the same",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "537594186",
+    "contact_name": "Rama Khaled Aaraj",
+    "contact_identifier": "+971561563617",
     "channel_id": "585723",
-    "contact_id": "537450284",
-    "contact_name": "Alisa",
-    "contact_identifier": "+79817821817",
-    "parent_message_id": "4270486049",
-    "parent_ticket_id": "947609821",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
