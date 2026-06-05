@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-05T02:15:39.963Z",
+  "ts": "2026-06-05T02:32:36.009Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4272024447",
-    "ticket_id": "956306259",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-peninsula-peninsula-five-65150861.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "539807364",
-    "contact_name": "shivam",
-    "contact_identifier": "+919899095006",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4272027222",
+    "ticket_id": "956307674",
+    "message": "Image",
+    "channel_id": "585723",
+    "contact_id": "539807564",
+    "contact_name": "M T",
+    "contact_identifier": "+923406295365",
+    "event_type": "INBOUND"
   }
 }
