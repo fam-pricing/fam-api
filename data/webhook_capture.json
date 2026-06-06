@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-06T12:30:43.481Z",
+  "ts": "2026-06-06T12:30:50.217Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4273172537",
-    "ticket_id": "952672090",
-    "message": "Is possible to rent for one year?",
+    "type": "OUTBOUND",
+    "message_id": "4273172650",
+    "ticket_id": "956700128",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539898896",
+    "contact_name": "kayden",
+    "contact_identifier": "+971588762509",
     "channel_id": "585723",
-    "contact_id": "538781742",
-    "contact_name": "Isabela Londoño",
-    "contact_identifier": "+573182493590",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
