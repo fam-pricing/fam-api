@@ -1,101 +1,5 @@
 [
   {
-    "ts": "2026-05-30T06:54:18.289Z",
-    "ticket_id": 954696566,
-    "lead_id": "message_lead_29598233",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 935,
-    "critic_pass": null,
-    "lead_quality": 60,
-    "buying_stage": "WARM",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-05-30T06:56:59.515Z",
-    "ticket_id": 954696566,
-    "lead_id": "message_lead_29598233",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 846,
-    "critic_pass": null,
-    "lead_quality": 65,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-05-30T06:57:01.069Z",
-    "ticket_id": 954696566,
-    "lead_id": "message_lead_29598233",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 716,
-    "critic_pass": null,
-    "lead_quality": 65,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-05-30T06:57:03.781Z",
-    "ticket_id": 954696566,
-    "lead_id": "message_lead_29598233",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 794,
-    "critic_pass": null,
-    "lead_quality": 65,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-05-30T07:00:41.482Z",
-    "ticket_id": 954696566,
-    "lead_id": "message_lead_29598233",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 954,
-    "critic_pass": null,
-    "lead_quality": 65,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-05-30T07:03:32.721Z",
-    "ticket_id": 954698421,
-    "lead_id": "message_lead_29598444",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1178,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-05-30T07:06:26.202Z",
-    "ticket_id": 954698421,
-    "lead_id": "message_lead_29598444",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 23940,
-    "critic_pass": null,
-    "lead_quality": 35,
-    "buying_stage": "COOL",
-    "skip_reason": "Lead asking about occupancy for 3 adults + 3 children in 2BR Miraclz Tower. DTCM rules in the playbook state max 2 adults + 2 children for studio/1BR, but do not specify limits for 2BR. Cannot confirm 6-person occupancy without Faysal's approval. Lead also asking about weekly rentals for this property, which requires confirmation. Viewing request also pending."
-  },
-  {
-    "ts": "2026-05-30T07:07:26.203Z",
-    "ticket_id": 954485205,
-    "lead_id": "message_lead_29584794",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 840,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-05-30T07:25:05.446Z",
     "ticket_id": 954485205,
     "lead_id": "message_lead_29584794",
@@ -2721,6 +2625,18 @@
     "critic_pass": null,
     "lead_quality": 5,
     "buying_stage": "COLD",
+    "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-06-06T07:11:16.501Z",
+    "ticket_id": 956581658,
+    "lead_id": "message_lead_29738628",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 844,
+    "critic_pass": null,
+    "lead_quality": 80,
+    "buying_stage": "HOT",
     "skip_reason": "bot_paused"
   }
 ]
