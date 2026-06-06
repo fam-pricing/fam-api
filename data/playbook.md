@@ -1303,3 +1303,7 @@ We are happy to share our monthly rental rates with you. Please note that our qu
 ## Learned (2026-06-06)
 - If a lead expresses interest in visiting the property today, inform them that the unit will be available from 17th June onwards and that viewings can only be arranged from that date.
   (Learned from Faysal handling Sanya re 1BR in JVT)
+
+## Learned (2026-06-06)
+- When a lead requests a same-day viewing, inform them that viewings can only be arranged the following day after the current guest has checked out, and that available time slots are between 1:00 PM and 6:00 PM.
+  (Learned from Faysal handling Yashwanth Madabhushi re 1BR in JVT)
