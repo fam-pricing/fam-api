@@ -1299,3 +1299,7 @@ We are happy to share our monthly rental rates with you. Please note that our qu
 ## Learned (2026-06-04)
 - If a lead requests a start date of September or beyond, respond with: "Due to the current market situation, we are unable to offer rates beyond a 3-month period at this stage."
   (Learned from Faysal handling Nilüfer re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-2PuwDDpSs0u.html)
+
+## Learned (2026-06-06)
+- If a lead expresses interest in visiting the property today, inform them that the unit will be available from 17th June onwards and that viewings can only be arranged from that date.
+  (Learned from Faysal handling Sanya re 1BR in JVT)
