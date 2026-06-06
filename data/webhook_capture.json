@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-06T08:31:16.162Z",
+  "ts": "2026-06-06T08:31:44.785Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4273043830",
+    "type": "OUTBOUND",
+    "message_id": "4273044042",
     "ticket_id": "956664808",
-    "message": "Hello!\n\nI'm looking for a move-in date of June 26th and to stay for between 3-4 months.",
-    "channel_id": "1304636",
+    "message": "June 26 works as a move-in date. We can lock in the rate for 3 months, and the 4th month would be reviewed against market conditions at that point. Does that setup work for you, or would you prefer to lock in a full 3 months to keep things simple?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539888388",
     "contact_name": "Yashwanth Madabhushi",
     "contact_identifier": "+971582658318",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
