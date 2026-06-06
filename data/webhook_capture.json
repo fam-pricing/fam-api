@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-06T05:28:44.455Z",
+  "ts": "2026-06-06T05:37:19.195Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4272972507",
-    "ticket_id": "956476293",
-    "message": " Dear Ashish, Good Morning. I hope you are doing well. We would like to inform you that your security deposit has been refunded. Please find the refund receipt attached for your reference. Thank you for staying with us. Kind regards, Chahana T. ",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "538267709",
-    "contact_name": "Ashish Mehta",
-    "contact_email": "amehta269@gmail.com",
-    "channel_id": "1275470",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4272974372",
+    "ticket_id": "956636940",
+    "message": "Cab you please let me know the prices per night for 1bhk apartment?",
+    "channel_id": "585723",
+    "contact_id": "539881739",
+    "contact_name": "Prativa (Umm Yusuf)",
+    "contact_identifier": "+971508413104",
+    "parent_message_id": "4272963192",
+    "parent_ticket_id": "956636940",
+    "event_type": "INBOUND"
   }
 }
