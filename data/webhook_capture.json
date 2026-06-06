@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-06T14:23:57.596Z",
+  "ts": "2026-06-06T14:24:53.339Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4273234329",
+    "type": "INBOUND",
+    "message_id": "4273234747",
     "ticket_id": "956720802",
-    "message": "The studio in Peninsula Five is AED 5,000/month for the first 3 months, we can lock that in now. The following 3 months would be confirmed closer to the time based on availability and rates. Would you like to go ahead and secure those first 3 months?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Thank you for your prompt response, do you have an estimate of the following 3 months?",
+    "channel_id": "1304636",
     "contact_id": "539903221",
     "contact_name": "Maria🍃",
     "contact_identifier": "+971552253988",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
