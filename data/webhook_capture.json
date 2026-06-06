@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-06T08:31:44.785Z",
+  "ts": "2026-06-06T08:32:12.380Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4273044042",
+    "type": "INBOUND",
+    "message_id": "4273044263",
     "ticket_id": "956664808",
-    "message": "June 26 works as a move-in date. We can lock in the rate for 3 months, and the 4th month would be reviewed against market conditions at that point. Does that setup work for you, or would you prefer to lock in a full 3 months to keep things simple?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Sure, that works.",
+    "channel_id": "1304636",
     "contact_id": "539888388",
     "contact_name": "Yashwanth Madabhushi",
     "contact_identifier": "+971582658318",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4273044042",
+    "parent_ticket_id": "956664808",
+    "event_type": "INBOUND"
   }
 }
