@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-07T10:25:34.202Z",
+  "ts": "2026-06-07T10:26:19.129Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4273571421",
+    "type": "INBOUND",
+    "message_id": "4273571749",
     "ticket_id": "956844317",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in Upper Crest\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is it available for rentals move in date will be 10th june",
+    "channel_id": "1304636",
     "contact_id": "539932698",
     "contact_name": "Black Metal International Pvt. Ltd.",
     "contact_identifier": "+971581459073",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
