@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-07T09:08:09.736Z",
+  "ts": "2026-06-07T09:08:12.100Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4273535517",
-    "ticket_id": "954696621",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "537607776",
-    "contact_name": "SHEYDA",
-    "contact_identifier": "+971502809008",
+    "type": "INBOUND",
+    "message_id": "4273535535",
+    "ticket_id": "956832935",
+    "message": "Is this going to be ready in time?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "531299669",
+    "contact_name": "Mark Doyle",
+    "contact_identifier": "+353877859722",
+    "parent_message_id": "4273534589",
+    "parent_ticket_id": "956832935",
+    "event_type": "INBOUND"
   }
 }
