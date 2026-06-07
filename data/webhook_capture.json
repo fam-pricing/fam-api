@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-07T09:04:30.055Z",
+  "ts": "2026-06-07T09:05:00.766Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4273533840",
+    "type": "INBOUND",
+    "message_id": "4273534033",
     "ticket_id": "956832935",
-    "message": "Hello Mark Doyle ! To provide you with a smooth check-in experience, we must know your estimated arrival time. Please let us know what time are you expecting to check in.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Can I check in at 2pm?",
+    "channel_id": "585723",
     "contact_id": "531299669",
     "contact_name": "Mark Doyle",
     "contact_identifier": "+353877859722",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
