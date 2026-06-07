@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-07T09:52:53.213Z",
+  "ts": "2026-06-07T09:53:32.428Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4273555685",
-    "ticket_id": "956253725",
-    "message": "Well noted thank you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "539365088",
-    "contact_name": "IBRAHIM ABDULRAHMAN",
-    "contact_identifier": "+447539692848",
+    "type": "INBOUND",
+    "message_id": "4273555935",
+    "ticket_id": "956664808",
+    "message": "Can you share the location please also Flat no?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "539888388",
+    "contact_name": "Yashwanth Madabhushi",
+    "contact_identifier": "+971582658318",
+    "parent_message_id": "4273555368",
+    "parent_ticket_id": "956664808",
+    "event_type": "INBOUND"
   }
 }
