@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-07T09:07:11.587Z",
+  "ts": "2026-06-07T09:07:28.803Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4273535107",
-    "ticket_id": "956720802",
-    "message": "well noted",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539903221",
-    "contact_name": "Maria🍃",
-    "contact_identifier": "+971552253988",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4273535246",
+    "ticket_id": "956832935",
+    "message": "What?? Not if I book via booking.com",
+    "channel_id": "585723",
+    "contact_id": "531299669",
+    "contact_name": "Mark Doyle",
+    "contact_identifier": "+353877859722",
+    "parent_message_id": "4273534952",
+    "parent_ticket_id": "956832935",
+    "event_type": "INBOUND"
   }
 }
