@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-07T09:47:12.686Z",
+  "ts": "2026-06-07T09:47:23.758Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4273553187",
+    "message_id": "4273553272",
     "ticket_id": "956832935",
-    "message": "Ok I’ve made the payment",
+    "message": "I need the security PDF to check in",
     "channel_id": "585723",
     "contact_id": "531299669",
     "contact_name": "Mark Doyle",
     "contact_identifier": "+353877859722",
+    "parent_message_id": "4273551428",
+    "parent_ticket_id": "956832935",
     "event_type": "INBOUND"
   }
 }
