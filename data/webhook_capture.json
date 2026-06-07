@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-07T13:28:46.991Z",
+  "ts": "2026-06-07T13:29:26.160Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4273653032",
+    "type": "OUTBOUND",
+    "message_id": "4273653398",
     "ticket_id": "956868295",
-    "message": "1",
-    "channel_id": "585723",
+    "message": "From which date please",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "521296087",
     "contact_name": "Mrs Yogesh Chaudhry",
     "contact_identifier": "+919971762000",
-    "parent_message_id": "4273652842",
-    "parent_ticket_id": "956868295",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
