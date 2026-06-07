@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-07T11:02:46.662Z",
+  "ts": "2026-06-07T11:17:10.777Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4273587776",
-    "ticket_id": "956344156",
-    "message": "yes",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539815760",
-    "contact_name": "Muhammad Sajjad",
-    "contact_identifier": "+971525113576",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4273594128",
+    "ticket_id": "956664808",
+    "message": "Hello! Just done with viewing this flat. By any chance do you have any other properties in this building?",
+    "channel_id": "1304636",
+    "contact_id": "539888388",
+    "contact_name": "Yashwanth Madabhushi",
+    "contact_identifier": "+971582658318",
+    "parent_message_id": "4273558999",
+    "parent_ticket_id": "956664808",
+    "event_type": "INBOUND"
   }
 }
