@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-07T08:09:37.046Z",
+  "ts": "2026-06-07T08:11:16.602Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4273511109",
+    "type": "OUTBOUND",
+    "message_id": "4273511826",
     "ticket_id": "956825809",
-    "message": "Ok thank you",
-    "channel_id": "1304636",
+    "message": "your check out is 08 june which is Monday",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535634432",
     "contact_name": "Raha",
     "contact_identifier": "+971566081840",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
