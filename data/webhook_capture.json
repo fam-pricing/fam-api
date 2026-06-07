@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-07T13:40:08.641Z",
+  "ts": "2026-06-07T13:40:11.114Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4273658296",
-    "ticket_id": "956868295",
-    "message": "Business bay?",
+    "type": "OUTBOUND",
+    "message_id": "4273658329",
+    "ticket_id": "953799297",
+    "message": "We can offer the same price as you booked it before",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539113443",
+    "contact_name": "Darina",
+    "contact_identifier": "+77781648629",
     "channel_id": "585723",
-    "contact_id": "521296087",
-    "contact_name": "Mrs Yogesh Chaudhry",
-    "contact_identifier": "+919971762000",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
