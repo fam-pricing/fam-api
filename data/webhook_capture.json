@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-07T10:28:13.637Z",
+  "ts": "2026-06-07T10:28:26.787Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4273572588",
-    "ticket_id": "956837761",
-    "message": "I'm a regular customer and this is the first time you've asked for this amount.",
-    "channel_id": "585723",
-    "contact_id": "536731079",
-    "contact_name": "Ahmed Rashid",
-    "contact_identifier": "+971504344100",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4273572683",
+    "ticket_id": "956844317",
+    "message": "To move in June 10 it'd be AED 6,000 upfront plus the AED 1,500 refundable deposit. Just send over your passport and email and I'll get the payment link across to you, does that work?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "539932698",
+    "contact_name": "Black Metal International Pvt. Ltd.",
+    "contact_identifier": "+971581459073",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
