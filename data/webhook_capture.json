@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-08T11:37:52.734Z",
+  "ts": "2026-06-08T11:38:16.546Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4274324924",
+    "type": "INBOUND",
+    "message_id": "4274325415",
     "ticket_id": "957079482",
-    "message": "With a max of AED 6,500 and your office in Central Park Tower, the closest we have is a 1BR in Upper Crest, Downtown at AED 6,000/month. Want me to send over the listing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Can you share pictures please",
+    "channel_id": "1304636",
     "contact_id": "538363776",
     "contact_name": "Dr. Aylar",
     "contact_identifier": "+971507955452",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4274324924",
+    "parent_ticket_id": "957079482",
+    "event_type": "INBOUND"
   }
 }
