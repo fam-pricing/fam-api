@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-08T11:11:06.959Z",
+  "ts": "2026-06-08T11:11:32.552Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4274287490",
-    "ticket_id": "957066194",
-    "message": "the in-house guest extended today for 1 month and half",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "538363776",
-    "contact_name": "Dr. Aylar",
-    "contact_identifier": "+971507955452",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4274287993",
+    "ticket_id": "953799297",
+    "message": "Yes",
+    "channel_id": "585723",
+    "contact_id": "539113443",
+    "contact_name": "Darina",
+    "contact_identifier": "+77781648629",
+    "parent_message_id": "4273973324",
+    "parent_ticket_id": "953799297",
+    "event_type": "INBOUND"
   }
 }
