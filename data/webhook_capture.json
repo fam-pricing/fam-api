@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-08T11:24:02.331Z",
+  "ts": "2026-06-08T11:24:48.375Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4274303217",
-    "ticket_id": "957066194",
-    "message": "Whats the rent per month?",
+    "type": "OUTBOUND",
+    "message_id": "4274304143",
+    "ticket_id": "957064556",
+    "message": "I understand your frustration, and I apologize for the inconvenience caused.\r\n\r\nThe property became unavailable due to a booking being confirmed, and unfortunately we were unable to proceed with today's viewing as planned.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539994872",
+    "contact_name": "E.K",
+    "contact_identifier": "+905353715009",
     "channel_id": "1304636",
-    "contact_id": "538363776",
-    "contact_name": "Dr. Aylar",
-    "contact_identifier": "+971507955452",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
