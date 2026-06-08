@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-08T11:25:44.295Z",
+  "ts": "2026-06-08T11:25:59.460Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4274305175",
-    "ticket_id": "957064556",
-    "message": "Thank you for your response. However, due to the last-minute cancellation, I have decided not to proceed with this apartment or any further dealings with your company.\n\nI appreciate your time and wish you all the best.",
+    "type": "OUTBOUND",
+    "message_id": "4274305460",
+    "ticket_id": "957066194",
+    "message": "I know, I am trying to give you options that we have",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538363776",
+    "contact_name": "Dr. Aylar",
+    "contact_identifier": "+971507955452",
     "channel_id": "1304636",
-    "contact_id": "539994872",
-    "contact_name": "E.K",
-    "contact_identifier": "+905353715009",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
