@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-08T07:04:25.607Z",
+  "ts": "2026-06-08T07:05:09.324Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4273974292",
-    "ticket_id": "954696621",
-    "message": "May I know if someone visited you from the building management?",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "537607776",
-    "contact_name": "SHEYDA",
-    "contact_identifier": "+971502809008",
+    "type": "INBOUND",
+    "message_id": "4273975160",
+    "ticket_id": "956941260",
+    "message": "Yes",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "455679966",
+    "contact_name": "Wafi Zahlan",
+    "contact_identifier": "+966548162006",
+    "parent_message_id": "4273904128",
+    "parent_ticket_id": "956941260",
+    "event_type": "INBOUND"
   }
 }
