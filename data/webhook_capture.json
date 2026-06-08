@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-08T17:43:00.885Z",
+  "ts": "2026-06-08T17:43:01.938Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4274783523",
+    "type": "OUTBOUND",
+    "message_id": "4274783553",
     "ticket_id": "957222369",
-    "message": "above*",
-    "channel_id": "1304636",
+    "message": "Rent is charged as a full month regardless of move-in date, so your first payment would cover the 30-night period from August 25th.\n\nWould you like to see the property before confirming?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540032670",
     "contact_name": "Arnau Verges",
     "contact_identifier": "+34638867561",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
