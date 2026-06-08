@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-08T04:34:31.214Z",
+  "ts": "2026-06-08T04:34:54.929Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4273899397",
+    "type": "OUTBOUND",
+    "message_id": "4273899570",
     "ticket_id": "956916169",
-    "message": "Yes this is what I am looking for",
-    "channel_id": "1304636",
+    "message": "That's great, just need a couple of details to get things moving. Can you send over a copy of your passport or Emirates ID and your email address?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539955246",
     "contact_name": "Loki",
     "contact_identifier": "+971503789847",
-    "parent_message_id": "4273899165",
-    "parent_ticket_id": "956916169",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
