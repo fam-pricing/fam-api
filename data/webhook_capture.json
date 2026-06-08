@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-08T11:41:04.316Z",
+  "ts": "2026-06-08T11:41:15.079Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4274329163",
-    "ticket_id": "955102017",
-    "message": "The key is on the table",
+    "type": "OUTBOUND",
+    "message_id": "4274329371",
+    "ticket_id": "957079482",
+    "message": "Dr. Aylar, I completely hear you and I'm sorry for the back and forth. Let me get someone from the team to send you the photos right now.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "538363776",
+    "contact_name": "Dr. Aylar",
+    "contact_identifier": "+971507955452",
     "channel_id": "1304636",
-    "contact_id": "535452159",
-    "contact_name": "Shouq",
-    "contact_identifier": "+971503671717",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
