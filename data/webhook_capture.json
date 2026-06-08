@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-08T11:22:09.254Z",
+  "ts": "2026-06-08T11:22:12.813Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4274300918",
-    "ticket_id": "952418049",
-    "message": "I will do tomorrow",
+    "type": "OUTBOUND",
+    "message_id": "4274301008",
+    "ticket_id": "957066194",
+    "message": "https://booking.com/hotel/ae/city-walk-2br-with-maids-room-and-pool-view.en.html",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538363776",
+    "contact_name": "Dr. Aylar",
+    "contact_identifier": "+971507955452",
     "channel_id": "1304636",
-    "contact_id": "537510754",
-    "contact_name": "Anastasiia Kazachuk",
-    "contact_identifier": "+79153412426",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
