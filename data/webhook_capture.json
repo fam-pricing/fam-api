@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-08T07:17:34.734Z",
+  "ts": "2026-06-08T07:19:57.678Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4273989096",
+    "type": "OUTBOUND",
+    "message_id": "4273992258",
     "ticket_id": "955479593",
-    "message": "Waiting for your team to arrive. Thanks",
-    "channel_id": "585723",
+    "message": "You may do self-checkout; our team is currently occupied with another guest, so it would take time",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "539577383",
     "contact_name": "OluGbenga Sanyaolu",
     "contact_identifier": "+2348029511919",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
