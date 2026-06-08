@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-08T22:39:36.324Z",
+  "ts": "2026-06-08T22:40:12.552Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4274920049",
+    "type": "OUTBOUND",
+    "message_id": "4274920146",
     "ticket_id": "957263514",
-    "message": "Hello! Csn you please write if this apartment is available now and for 3months? And what is the price for it + all the fees. And if it is possible to see this apartment tomorrow?",
-    "channel_id": "1304636",
+    "message": "Yes, the 1BR in Al Safa is available now and 3 months works perfectly. The price is AED 5,000/month all-inclusive, water, electricity, internet, and VAT, with a refundable security deposit of AED 1,500.\n\nWhat time tomorrow suits you for a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539296919",
     "contact_name": "Alinka🐨",
     "contact_identifier": "+77079904027",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
