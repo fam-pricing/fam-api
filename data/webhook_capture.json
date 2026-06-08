@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-08T11:38:52.394Z",
+  "ts": "2026-06-08T11:39:03.173Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4274326197",
-    "ticket_id": "957078933",
-    "message": "Sure i will send him again",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539999936",
-    "contact_name": "Shaikh Abdul Basit",
-    "contact_identifier": "+971526358504",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4274326415",
+    "ticket_id": "957079482",
+    "message": "..",
+    "channel_id": "1304636",
+    "contact_id": "538363776",
+    "contact_name": "Dr. Aylar",
+    "contact_identifier": "+971507955452",
+    "parent_message_id": "4274325415",
+    "parent_ticket_id": "957079482",
+    "event_type": "INBOUND"
   }
 }
