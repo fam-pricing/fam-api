@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-08T13:18:08.634Z",
+  "ts": "2026-06-08T13:18:30.433Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4274487482",
+    "type": "OUTBOUND",
+    "message_id": "4274488025",
     "ticket_id": "957049726",
-    "message": "We can have a viewing tomorrow maybe after lunch time",
-    "channel_id": "1304636",
+    "message": "Tomorrow works! What time after lunch suits you best? Viewings are available between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539908460",
     "contact_name": "viktoriya poryvayeva",
     "contact_identifier": "+77058888322",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
