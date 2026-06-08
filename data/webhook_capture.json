@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-08T11:05:46.982Z",
+  "ts": "2026-06-08T11:06:49.734Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4274278004",
-    "ticket_id": "957066194",
-    "message": "Can i come visit the unit tomorrow 4:30 pm ?",
+    "type": "OUTBOUND",
+    "message_id": "4274280073",
+    "ticket_id": "957029789",
+    "message": "We are working on it.",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "537607776",
+    "contact_name": "SHEYDA",
+    "contact_identifier": "+971502809008",
     "channel_id": "1304636",
-    "contact_id": "538363776",
-    "contact_name": "Dr. Aylar",
-    "contact_identifier": "+971507955452",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
