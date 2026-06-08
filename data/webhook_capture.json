@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-08T04:32:06.537Z",
+  "ts": "2026-06-08T04:32:35.152Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4273898894",
+    "type": "OUTBOUND",
+    "message_id": "4273898993",
     "ticket_id": "956916169",
-    "message": "Initial 3month period? Can be 6months?",
-    "channel_id": "1304636",
+    "message": "Yes, you can stay for 6 months. Rates are locked in 3-month blocks, so the first 3 months are fixed at the current rate, then we confirm the next 3 based on where the market sits at that point. When were you thinking of moving in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539955246",
     "contact_name": "Loki",
     "contact_identifier": "+971503789847",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
