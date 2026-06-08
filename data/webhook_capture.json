@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-08T17:36:27.025Z",
+  "ts": "2026-06-08T17:36:47.803Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4274779237",
+    "type": "OUTBOUND",
+    "message_id": "4274779522",
     "ticket_id": "957222360",
-    "message": "Hello I want to visit this apartment this week if possible",
-    "channel_id": "1304636",
+    "message": "Sure! Viewings are available any day between 9am and 6pm. What day and time works best for you this week?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540032666",
     "contact_name": "K",
     "contact_identifier": "+260766486506",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
