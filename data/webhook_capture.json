@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-09T17:43:44.873Z",
+  "ts": "2026-06-09T17:44:08.620Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4275854727",
+    "type": "OUTBOUND",
+    "message_id": "4275854989",
     "ticket_id": "957547327",
-    "message": "I want to view first",
-    "channel_id": "1304636",
+    "message": "The price is locked in for up to 3 months, so no rush on that side.\n\nFor the viewing, what day works best for you? Anytime between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540118741",
     "contact_name": "S.A.H",
     "contact_identifier": "+971565927860",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
