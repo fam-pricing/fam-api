@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-09T13:01:38.892Z",
+  "ts": "2026-06-09T13:02:38.397Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4275532743",
-    "ticket_id": "957467095",
-    "message": "did you recieve my payment for next month. ?",
+    "type": "OUTBOUND",
+    "message_id": "4275534004",
+    "ticket_id": "957431755",
+    "message": "Sure we will update you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538656175",
+    "contact_name": "Aakarsh Malhotra",
+    "contact_identifier": "+971503860237",
     "channel_id": "1304636",
-    "contact_id": "539365088",
-    "contact_name": "IBRAHIM ABDULRAHMAN",
-    "contact_identifier": "+447539692848",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
