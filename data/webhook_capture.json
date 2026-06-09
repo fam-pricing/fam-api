@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-09T06:29:40.762Z",
+  "ts": "2026-06-09T06:29:51.987Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4275036067",
-    "ticket_id": "953799297",
-    "message": "Good morning Darina,\r\n\r\nThis is with the card payment charges which is 3.1%",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539113443",
-    "contact_name": "Darina",
-    "contact_identifier": "+77781648629",
+    "type": "INBOUND",
+    "message_id": "4275036193",
+    "ticket_id": "952769089",
+    "message": "Yes please along with the access card",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "280507914",
+    "contact_name": "Ms Eliza",
+    "contact_identifier": "+971586017110",
+    "parent_message_id": "4275001408",
+    "parent_ticket_id": "952769089",
+    "event_type": "INBOUND"
   }
 }
