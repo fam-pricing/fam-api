@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-09T07:08:06.556Z",
+  "ts": "2026-06-09T07:08:26.037Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4275069206",
-    "ticket_id": "953081775",
-    "message": "What time?",
+    "type": "OUTBOUND",
+    "message_id": "4275069554",
+    "ticket_id": "946488243",
+    "message": "Apologies for the delay,\r\n\r\nUnfortunately, the guest has declined to allow access for the viewing at this time. We will be able to proceed with the viewing on 11th June, provided the current in-house guest does not extend their stay with us.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "531448413",
+    "contact_name": "Nurjemal",
+    "contact_identifier": "+971555386752",
     "channel_id": "585723",
-    "contact_id": "278742304",
-    "contact_name": "Ahmad Sabri Hassan",
-    "contact_identifier": "+971528939729",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
