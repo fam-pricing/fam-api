@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-09T11:19:59.927Z",
+  "ts": "2026-06-09T11:20:21.192Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4275410616",
+    "type": "OUTBOUND",
+    "message_id": "4275410976",
     "ticket_id": "957431755",
-    "message": "That depends on the final price",
-    "channel_id": "1304636",
+    "message": "DTCM isn't a separate charge, it's covered. Security deposit is AED 2,000 refundable, and there's no commission. So the only thing outside the AED 7,000 is the deposit upfront. Want to go ahead and arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538656175",
     "contact_name": "Aakarsh Malhotra",
     "contact_identifier": "+971503860237",
-    "parent_message_id": "4275410096",
-    "parent_ticket_id": "957431755",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
