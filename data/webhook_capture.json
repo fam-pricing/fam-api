@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-09T11:18:29.868Z",
+  "ts": "2026-06-09T11:18:58.198Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4275408914",
+    "type": "OUTBOUND",
+    "message_id": "4275409450",
     "ticket_id": "957431755",
-    "message": "7000 aed max (all bills included) + parking + cleaning",
-    "channel_id": "1304636",
+    "message": "Parking's included, confirmed. On cleaning, fäm Living offers a paid housekeeping service at AED 265/visit for a 2BR (linen change, vacuuming, mopping, amenity top-up). Want to come see the place?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538656175",
     "contact_name": "Aakarsh Malhotra",
     "contact_identifier": "+971503860237",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
