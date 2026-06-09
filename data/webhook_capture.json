@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-09T11:19:04.061Z",
+  "ts": "2026-06-09T11:19:07.247Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4275409558",
-    "ticket_id": "956659673",
-    "message": " Dear Jodie, Apologies for the delay, We have informed our Finance Team regarding this matter. As soon as we receive an update from them, we will promptly share it with you. Thank you for your patience and understanding. Kind regards, Tharushi Sha ",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539886824",
-    "contact_name": "Jodie Walsh",
-    "contact_email": "jodietwalsh1998@gmail.com",
-    "channel_id": "1275470",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4275409599",
+    "ticket_id": "957431755",
+    "message": "Can you tell me what all is included vs excluded in this listing?",
+    "channel_id": "1304636",
+    "contact_id": "538656175",
+    "contact_name": "Aakarsh Malhotra",
+    "contact_identifier": "+971503860237",
+    "parent_message_id": "4275405537",
+    "parent_ticket_id": "957431755",
+    "event_type": "INBOUND"
   }
 }
