@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-09T13:48:17.882Z",
+  "ts": "2026-06-09T13:49:20.943Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4275597970",
-    "ticket_id": "957240131",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "540038428",
-    "contact_name": "Ishir Hans",
-    "contact_identifier": "+919971611025",
+    "type": "INBOUND",
+    "message_id": "4275599205",
+    "ticket_id": "957439582",
+    "message": "🙏",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "540084992",
+    "contact_name": "Maryam kazemi",
+    "contact_identifier": "+971507018369",
+    "parent_message_id": "4275596786",
+    "parent_ticket_id": "957439582",
+    "event_type": "INBOUND"
   }
 }
