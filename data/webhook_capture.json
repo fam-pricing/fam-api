@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-09T17:03:42.648Z",
+  "ts": "2026-06-09T17:04:03.708Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4275827151",
+    "type": "INBOUND",
+    "message_id": "4275827373",
     "ticket_id": "957541225",
-    "message": "Friday is confirmed, and we'll have the floor info for you before then. Just send us your preferred time the morning before and we'll sort everything out.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "540116668",
     "contact_name": "*",
     "contact_identifier": "+212714864008",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4275827151",
+    "parent_ticket_id": "957541225",
+    "event_type": "INBOUND"
   }
 }
