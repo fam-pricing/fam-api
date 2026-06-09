@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-09T20:37:41.411Z",
+  "ts": "2026-06-09T20:37:55.420Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4275949021",
+    "type": "OUTBOUND",
+    "message_id": "4275949078",
     "ticket_id": "957577916",
-    "message": "First July",
-    "channel_id": "1304636",
+    "message": "The damage deposit is AED 1,000, fully refundable after check-out. What dates are you thinking for your stay?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540128031",
     "contact_name": "Farnoush Oud",
     "contact_identifier": "+971506959195",
-    "parent_message_id": "4275948940",
-    "parent_ticket_id": "957577916",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
