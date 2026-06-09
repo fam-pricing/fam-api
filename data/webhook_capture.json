@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-09T05:47:24.675Z",
+  "ts": "2026-06-09T05:49:25.250Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4275011855",
+    "type": "OUTBOUND",
+    "message_id": "4275012562",
     "ticket_id": "950247613",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "Good morning,\r\n\r\nI hope you are doing well.\r\n\r\nPlease be informed that a representative from the owner's side from the bank will be visiting the apartment today for an inspection of the apartment between 4:00 PM and 4:30 PM.\r\n\r\nWe would appreciate it if you could kindly allow access to the apartment for this brief inspection. The visit is expected to be quick and should not cause any inconvenience.\r\n\r\nThank you for your cooperation and understanding.\r\n\r\nKind regards,",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537978912",
     "contact_name": "Richa Jain",
     "contact_identifier": "+971585798788",
-    "parent_message_id": "4274997198",
-    "parent_ticket_id": "950247613",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
