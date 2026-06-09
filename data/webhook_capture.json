@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-09T07:18:36.717Z",
+  "ts": "2026-06-09T07:18:51.060Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4275083102",
-    "ticket_id": "952769089",
-    "message": "For thr access card, yes please make sure its ready today. I paid last week monday",
+    "type": "OUTBOUND",
+    "message_id": "4275083327",
+    "ticket_id": "957313024",
+    "message": "Ok great",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "540058928",
+    "contact_name": "Dee",
+    "contact_identifier": "+639291835886",
     "channel_id": "585723",
-    "contact_id": "280507914",
-    "contact_name": "Ms Eliza",
-    "contact_identifier": "+971586017110",
-    "parent_message_id": "4275082185",
-    "parent_ticket_id": "952769089",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
