@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-09T10:23:17.486Z",
+  "ts": "2026-06-09T10:23:53.287Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4275345599",
+    "type": "INBOUND",
+    "message_id": "4275346272",
     "ticket_id": "957413430",
-    "message": "Your timing works perfectly, it's available from 11 June and the rate stays the same for up to 3 months. Would you like to see it in person before committing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Sure but what is the price?",
+    "channel_id": "1304636",
     "contact_id": "540078648",
     "contact_name": "Alexandra",
     "contact_identifier": "+971543080040",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4275345599",
+    "parent_ticket_id": "957413430",
+    "event_type": "INBOUND"
   }
 }
