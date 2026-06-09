@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-09T10:22:33.963Z",
+  "ts": "2026-06-09T10:22:39.343Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4275344706",
+    "message_id": "4275344848",
     "ticket_id": "957413430",
-    "message": "How much will be processed monthly?",
+    "message": "Price",
     "channel_id": "1304636",
     "contact_id": "540078648",
     "contact_name": "Alexandra",
     "contact_identifier": "+971543080040",
+    "parent_message_id": "4275344706",
+    "parent_ticket_id": "957413430",
     "event_type": "INBOUND"
   }
 }
