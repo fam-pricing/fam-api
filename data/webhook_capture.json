@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-09T12:58:56.870Z",
+  "ts": "2026-06-09T12:59:30.456Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4275529301",
+    "type": "OUTBOUND",
+    "message_id": "4275529924",
     "ticket_id": "957464766",
-    "message": "Can you send me a video of the property",
-    "channel_id": "1304636",
+    "message": "We don't have a video, but the full photo gallery is in the listing link already shared. Would you like to come see it in person, viewings can be arranged any day between 9am and 6pm. What day suits you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540091356",
     "contact_name": "Antonella",
     "contact_identifier": "+971507789280",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
