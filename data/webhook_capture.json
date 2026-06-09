@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-09T11:28:56.605Z",
+  "ts": "2026-06-09T11:29:14.437Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4275421571",
-    "ticket_id": "950080638",
-    "message": "As this is a property management unit please feel free to contact pm@famliving.com",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "472987981",
-    "contact_name": "ALESSIA",
-    "contact_identifier": "+971525928064",
+    "type": "INBOUND",
+    "message_id": "4275421850",
+    "ticket_id": "957422171",
+    "message": "Ok thanks",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "540080605",
+    "contact_name": "Lenin",
+    "contact_identifier": "+971566838672",
+    "parent_message_id": "4275419977",
+    "parent_ticket_id": "957422171",
+    "event_type": "INBOUND"
   }
 }
