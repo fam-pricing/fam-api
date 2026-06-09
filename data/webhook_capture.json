@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-09T13:25:45.588Z",
+  "ts": "2026-06-09T13:26:19.536Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4275563963",
+    "type": "OUTBOUND",
+    "message_id": "4275565358",
     "ticket_id": "947123575",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "We have sent an email to the building management to provide access temprory to all our guests. The permits are expired, so our team is working on it, and it will be done soon. Thank you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "537343744",
     "contact_name": "Shahir",
     "contact_identifier": "+971503185375",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
