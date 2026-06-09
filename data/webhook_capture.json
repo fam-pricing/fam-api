@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-09T10:25:04.568Z",
+  "ts": "2026-06-09T10:27:50.276Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4275347770",
+    "type": "INBOUND",
+    "message_id": "4275351571",
     "ticket_id": "957413430",
-    "message": "Tomorrow works. What time suits you best, morning or afternoon?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Morning is fine like 11am?",
+    "channel_id": "1304636",
     "contact_id": "540078648",
     "contact_name": "Alexandra",
     "contact_identifier": "+971543080040",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
