@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-09T14:09:12.849Z",
+  "ts": "2026-06-09T14:10:24.485Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4275624964",
+    "type": "INBOUND",
+    "message_id": "4275627341",
     "ticket_id": "957426447",
-    "message": "Apologies for the delay..\r\n\r\nWe will check and update you as soon as we have the information for the available apartments",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍🏻",
+    "channel_id": "585723",
     "contact_id": "540081667",
     "contact_name": "Kesavan",
     "contact_identifier": "+971569851708",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4275624964",
+    "parent_ticket_id": "957426447",
+    "event_type": "INBOUND"
   }
 }
