@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-09T08:12:36.436Z",
+  "ts": "2026-06-09T08:13:42.075Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4275161682",
-    "ticket_id": "957308777",
-    "message": "Sure you can leave the access cards in the reception and proceed with the self check out",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535634432",
-    "contact_name": "Raha",
-    "contact_identifier": "+971566081840",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4275162839",
+    "ticket_id": "946488243",
+    "message": "🙏",
+    "channel_id": "585723",
+    "contact_id": "531448413",
+    "contact_name": "Nurjemal",
+    "contact_identifier": "+971555386752",
+    "parent_message_id": "4275094461",
+    "parent_ticket_id": "946488243",
+    "event_type": "INBOUND"
   }
 }
