@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-09T10:31:51.792Z",
+  "ts": "2026-06-09T10:33:30.925Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4275357191",
+    "type": "OUTBOUND",
+    "message_id": "4275358989",
     "ticket_id": "952672090",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "Hello Isabela Londoño, Hope you are doing well ! we have received a mail from the building maintenance for access in the apartment tomorrow. can we know your available time please ?\r\n\r\nKindly be informed that access to your apartment 2309 is required for the third stage of the hot water supply valve installation works.\r\n\r\nScope of Works: Electrical connection\r\nEstimated Duration: 2 hours .",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "538781742",
     "contact_name": "Isabela Londoño",
     "contact_identifier": "+573182493590",
-    "parent_message_id": "4275356837",
-    "parent_ticket_id": "952672090",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
