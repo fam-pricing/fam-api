@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-09T20:39:28.291Z",
+  "ts": "2026-06-09T20:39:38.463Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4275949584",
+    "type": "OUTBOUND",
+    "message_id": "4275949644",
     "ticket_id": "957577916",
-    "message": "This is the last price?",
-    "channel_id": "1304636",
+    "message": "Business Bay options from July 1:\n\n1BR in Elite Business Bay, AED 5,000/mo\nStudio in Peninsula Five, AED 5,000/mo\n1BR in Peninsula Three, AED 6,500/mo\n2BR in Urban Oasis, AED 7,000/mo\n2BR in MAG 318, AED 8,000/mo\n\nAll-inclusive. Nothing available in Downtown right now. Which size suits you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540128031",
     "contact_name": "Farnoush Oud",
     "contact_identifier": "+971506959195",
-    "parent_message_id": "4275949418",
-    "parent_ticket_id": "957577916",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
