@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-09T13:59:16.965Z",
+  "ts": "2026-06-09T13:59:25.084Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4275612144",
-    "ticket_id": "952769089",
-    "message": "Maybe its the tv. Lemme restart it and see",
+    "type": "OUTBOUND",
+    "message_id": "4275612307",
+    "ticket_id": "957439582",
+    "message": "Payment link - https://totalpay.ae/payment/20260609036a281c27ac3f4",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540084992",
+    "contact_name": "Maryam kazemi",
+    "contact_identifier": "+971507018369",
     "channel_id": "585723",
-    "contact_id": "280507914",
-    "contact_name": "Ms Eliza",
-    "contact_identifier": "+971586017110",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
