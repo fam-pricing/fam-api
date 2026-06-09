@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-09T08:31:59.760Z",
+  "ts": "2026-06-09T08:32:21.234Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4275185640",
+    "type": "OUTBOUND",
+    "message_id": "4275186396",
     "ticket_id": "957358372",
-    "message": "Hello",
-    "channel_id": "1304636",
+    "message": "Sandra, good to hear from you, what dates are you looking at for the stay?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535370331",
     "contact_name": "Sandra Muñoz",
     "contact_identifier": "+971525789941",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
