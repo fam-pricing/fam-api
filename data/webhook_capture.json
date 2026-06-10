@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-10T19:16:49.884Z",
+  "ts": "2026-06-10T19:17:17.033Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4276873955",
+    "type": "OUTBOUND",
+    "message_id": "4276874177",
     "ticket_id": "957836301",
-    "message": "Yes, that works for me — I’d like to proceed with the 3-month option.\nAlso, if possible, I’d like to visit the apartment tomorrow afternoon.",
-    "channel_id": "1304636",
+    "message": "The 3-month option is confirmed. To get things moving, could you send over your passport or ID and email address? And for the viewing tomorrow, what time works best for you between 9am and 6pm?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540192591",
     "contact_name": "Silvia",
     "contact_identifier": "+393355316760",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
