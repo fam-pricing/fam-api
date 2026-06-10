@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-10T12:19:23.501Z",
+  "ts": "2026-06-10T12:22:48.856Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4276482541",
-    "ticket_id": "957729175",
-    "message": "Is it possible to secure this apartment with me?",
-    "channel_id": "1304636",
-    "contact_id": "540163945",
-    "contact_name": "Daria",
-    "contact_identifier": "+79685064477",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4276486343",
+    "ticket_id": "951657693",
+    "message": "We have sent mail to the management, and they will activate it now",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "538466901",
+    "contact_name": "Pratham Shivnani Purshotham Shivnani",
+    "contact_identifier": "+971568658283",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
