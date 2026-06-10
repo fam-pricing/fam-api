@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-10T09:23:37.368Z",
+  "ts": "2026-06-10T09:23:41.008Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4276275546",
-    "ticket_id": "957682534",
-    "message": "There's a refundable security deposit of AED 1,000, returned within 14 working days after check-out. Want to come take a look?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "540151824",
-    "contact_name": "V",
-    "contact_identifier": "+79936103902",
+    "type": "INBOUND",
+    "message_id": "4276275651",
+    "ticket_id": "957436886",
+    "message": "Come we will pay",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538631018",
+    "contact_name": "Olga",
+    "contact_identifier": "+380672702585",
+    "event_type": "INBOUND"
   }
 }
