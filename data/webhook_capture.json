@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-10T12:35:07.124Z",
+  "ts": "2026-06-10T12:42:54.644Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4276501095",
-    "ticket_id": "951657693",
-    "message": "Can you confirm which one to change ?",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "538466901",
-    "contact_name": "Pratham Shivnani Purshotham Shivnani",
-    "contact_identifier": "+971568658283",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4276510151",
+    "ticket_id": "957744289",
+    "message": "Hello, can I proceed with this property please?",
+    "channel_id": "1304636",
+    "contact_id": "535370331",
+    "contact_name": "Sandra Muñoz",
+    "contact_identifier": "+971525789941",
+    "parent_message_id": "4232146134",
+    "parent_ticket_id": "944678790",
+    "event_type": "INBOUND"
   }
 }
