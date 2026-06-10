@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-10T09:57:12.695Z",
+  "ts": "2026-06-10T09:58:39.962Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4276319629",
-    "ticket_id": "957697498",
-    "message": "hello",
+    "type": "OUTBOUND",
+    "message_id": "4276321315",
+    "ticket_id": "957308777",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: 11111. *How can I help you?*",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "535634432",
+    "contact_name": "Raha",
+    "contact_identifier": "+971566081840",
     "channel_id": "1304636",
-    "contact_id": "540155002",
-    "contact_name": "Udai Soni",
-    "contact_identifier": "+918800658180",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
