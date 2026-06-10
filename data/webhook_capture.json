@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-10T10:00:16.950Z",
+  "ts": "2026-06-10T10:00:58.904Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4276323089",
-    "ticket_id": "956941260",
-    "message": "Allow me to check",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "455679966",
-    "contact_name": "Wafi Zahlan",
-    "contact_identifier": "+966548162006",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4276324655",
+    "ticket_id": "957547327",
+    "message": "Ask an agent to call me",
+    "channel_id": "1304636",
+    "contact_id": "540118741",
+    "contact_name": "S.A.H",
+    "contact_identifier": "+971565927860",
+    "event_type": "INBOUND"
   }
 }
