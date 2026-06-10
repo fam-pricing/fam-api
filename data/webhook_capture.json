@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-10T12:16:30.247Z",
+  "ts": "2026-06-10T12:17:17.706Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4276479215",
-    "ticket_id": "957736728",
-    "message": "Hello team\n this is Demetrios Antoniou with fäm, creek harbour office\nI have an apartment for short term rental \n\nHello, you can check out this property listing that is available on Bayut!\nFully Furnished | Skyline Views | Smart Home\n\nhttps://www.bayut.com/en/property/details-15279097.html",
-    "channel_id": "1304636",
-    "contact_id": "540166109",
-    "contact_name": "Demetri",
-    "contact_identifier": "+971501403232",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4276480090",
+    "ticket_id": "957524557",
+    "message": "We have informed the building and they have activated the access cards now could you please confirm the same",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537865623",
+    "contact_name": "UMAIR SALEEM",
+    "contact_identifier": "+923314067795",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
