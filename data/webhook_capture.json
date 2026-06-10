@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-10T10:29:38.012Z",
+  "ts": "2026-06-10T10:31:21.530Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4276356856",
-    "ticket_id": "957436886",
-    "message": "I am waiting",
+    "type": "OUTBOUND",
+    "message_id": "4276358765",
+    "ticket_id": "957539260",
+    "message": "Please can you restart your router",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "535986253",
+    "contact_name": "Sheza imran Butt",
+    "contact_identifier": "+971505644681",
     "channel_id": "1304636",
-    "contact_id": "538631018",
-    "contact_name": "Olga",
-    "contact_identifier": "+380672702585",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
