@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-10T11:33:59.174Z",
+  "ts": "2026-06-10T11:35:06.390Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4276428916",
-    "ticket_id": "957467095",
-    "message": "Yes, the apartment is still available. Kindly proceed with the payment and share the payment receipt with us so we can obtain confirmation from the finance team and secure the booking.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539365088",
-    "contact_name": "IBRAHIM ABDULRAHMAN",
-    "contact_identifier": "+447539692848",
+    "type": "INBOUND",
+    "message_id": "4276430211",
+    "ticket_id": "957436886",
+    "message": "Come with contract",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "538631018",
+    "contact_name": "Olga",
+    "contact_identifier": "+380672702585",
+    "event_type": "INBOUND"
   }
 }
