@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-10T18:51:31.325Z",
+  "ts": "2026-06-10T18:52:02.459Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4276859982",
+    "type": "OUTBOUND",
+    "message_id": "4276860304",
     "ticket_id": "957836301",
-    "message": "Good evening , I’d like to know if you were available to rent it for 3/6 months. Thanks in advance.",
-    "channel_id": "1304636",
+    "message": "Peninsula Five studio is available for 3 months at AED 5,000/month. Beyond that, rates are reviewed closer to the time, so a 6-month lock-in isn't something we can confirm upfront, though extensions are very much possible. Which of the two options works better for you, 3 months to start, or would you prefer to explore the 6-month route and we'll sort the rate as it comes?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540192591",
     "contact_name": "Silvia",
     "contact_identifier": "+393355316760",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
