@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-10T06:52:44.379Z",
+  "ts": "2026-06-10T06:53:44.134Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4276101723",
+    "type": "INBOUND",
+    "message_id": "4276102550",
     "ticket_id": "957541225",
-    "message": "We sincerely apologize, but as the apartment is currently fully occupied, we are unfortunately unable to arrange a viewing at this time.\r\n\r\nThank you for your understanding, and we will be happy to inform you should a viewing opportunity become available in the future.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "You mentioned couple of times above that it was confirmed",
+    "channel_id": "1304636",
     "contact_id": "540116668",
     "contact_name": "*",
     "contact_identifier": "+212714864008",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
