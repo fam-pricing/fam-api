@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-10T09:47:54.362Z",
+  "ts": "2026-06-10T09:47:55.706Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4276308606",
+    "type": "OUTBOUND",
+    "message_id": "4276308659",
     "ticket_id": "956061136",
-    "message": "Give me your contact number",
-    "channel_id": "1304636",
+    "message": "I've informed them to leave thank you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "535867791",
     "contact_name": "MOHAMMED AMIR SAAD ISHTIAQUE",
     "contact_identifier": "+971523192648",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
