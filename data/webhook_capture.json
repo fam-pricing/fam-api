@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-10T18:17:09.394Z",
+  "ts": "2026-06-10T18:17:53.816Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4276839493",
+    "type": "INBOUND",
+    "message_id": "4276840012",
     "ticket_id": "957785411",
-    "message": "Tomorrow works, just note that viewings end at 6pm, so if you're heading over straight from work at 5:30, aim to arrive by 5:45. Does that timing work for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes it should. I will message you if it's getting late which building ?",
+    "channel_id": "1304636",
     "contact_id": "540179031",
     "contact_name": "S.S",
     "contact_identifier": "+971528647088",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
