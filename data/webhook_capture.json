@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-10T10:40:10.833Z",
+  "ts": "2026-06-10T10:40:28.870Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4276368413",
+    "type": "INBOUND",
+    "message_id": "4276368732",
     "ticket_id": "957682534",
-    "message": "This will be available from 17th June if the in house guest didn't extend the stay with us",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "??",
+    "channel_id": "1304636",
     "contact_id": "540151824",
     "contact_name": "V",
     "contact_identifier": "+79936103902",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4276273585",
+    "parent_ticket_id": "957682534",
+    "event_type": "INBOUND"
   }
 }
