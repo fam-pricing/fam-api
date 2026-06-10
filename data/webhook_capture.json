@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-10T05:39:15.101Z",
+  "ts": "2026-06-10T05:39:48.929Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4276057623",
+    "type": "OUTBOUND",
+    "message_id": "4276057808",
     "ticket_id": "852583151",
-    "message": "*visit",
-    "channel_id": "585723",
+    "message": "Let me check with guest",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "450960431",
     "contact_name": "Aya - fam living",
     "contact_identifier": "+971544311300",
-    "parent_message_id": "4276057521",
-    "parent_ticket_id": "852583151",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
