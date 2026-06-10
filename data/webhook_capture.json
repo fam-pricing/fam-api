@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-10T11:42:53.864Z",
+  "ts": "2026-06-10T11:44:43.282Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4276439339",
+    "type": "OUTBOUND",
+    "message_id": "4276441497",
     "ticket_id": "941501853",
-    "message": "Hello, I’ll definitely pay the rent in a couple of hours. These international transfers take time I’m really sorry.",
-    "channel_id": "585723",
+    "message": "Until the payment is completed, we are unable to block the unit, and it may remain available for other bookings at any time. Therefore, we kindly request you to complete the payment at your earliest convenience to secure the reservation.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535128769",
     "contact_name": "Alex",
     "contact_identifier": "+256742443400",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
