@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-10T07:03:00.506Z",
+  "ts": "2026-06-10T07:09:45.709Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4276110941",
+    "type": "OUTBOUND",
+    "message_id": "4276117659",
     "ticket_id": "957426447",
-    "message": "Thank you. \nDo you have something closer to Sharjah.\nAlso, around a budget of 4500 per month?",
-    "channel_id": "585723",
+    "message": "Unfortunately we do not have any apartments in your preferred area",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540081667",
     "contact_name": "Kesavan",
     "contact_identifier": "+971569851708",
-    "parent_message_id": "4276105198",
-    "parent_ticket_id": "957426447",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
