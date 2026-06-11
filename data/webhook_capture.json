@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-11T05:54:34.219Z",
+  "ts": "2026-06-11T05:55:39.152Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4277037008",
+    "type": "OUTBOUND",
+    "message_id": "4277037452",
     "ticket_id": "957436886",
-    "message": "How are you doing",
-    "channel_id": "1304636",
+    "message": "Hello Olga,\r\n\r\nAs mentioned, we are unable to proceed with the AED 20,000 rate. However, we can offer a final rate of AED 25,000 for 3 months, which is the best we can provide.\r\n\r\nPlease let us know if this works for you so we can arrange the team for today’s check-in.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538631018",
     "contact_name": "Olga",
     "contact_identifier": "+380672702585",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
