@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-11T10:06:38.204Z",
+  "ts": "2026-06-11T10:06:56.654Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4277294156",
+    "type": "OUTBOUND",
+    "message_id": "4277294528",
     "ticket_id": "957974139",
-    "message": "I will shift on 1 July i can come to see on next Saturday",
-    "channel_id": "1304636",
+    "message": "Saturday works, what time suits you best? Viewings are between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540226522",
     "contact_name": "Mohammed Nagah",
     "contact_identifier": "+971522940489",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
