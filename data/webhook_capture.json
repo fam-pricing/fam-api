@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-11T17:06:20.302Z",
+  "ts": "2026-06-11T17:06:41.047Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4277723687",
+    "type": "OUTBOUND",
+    "message_id": "4277723889",
     "ticket_id": "958082239",
-    "message": "hii, i wanted to know if the apartment is vacate for july and august?",
-    "channel_id": "1304636",
+    "message": "Yes, it's available for both July and August. How long are you planning to stay?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540260992",
     "contact_name": "Yashasvi Singh",
     "contact_identifier": "+919833310257",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
