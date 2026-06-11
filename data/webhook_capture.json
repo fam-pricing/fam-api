@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-11T14:46:27.514Z",
+  "ts": "2026-06-11T14:46:55.915Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4277606856",
+    "type": "OUTBOUND",
+    "message_id": "4277607508",
     "ticket_id": "958052528",
-    "message": "can i book the 1 bed for one month pls",
-    "channel_id": "1304636",
+    "message": "The 1BR in Viridian Central Park is available for AED 11,000/month, just send over a copy of your passport or ID and your email address and we can get the booking moving.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540250794",
     "contact_name": "WGS",
     "contact_identifier": "+447828014094",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
