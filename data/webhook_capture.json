@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-11T07:50:31.944Z",
+  "ts": "2026-06-11T07:50:52.627Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4277132611",
+    "type": "OUTBOUND",
+    "message_id": "4277132975",
     "ticket_id": "957923319",
-    "message": "Thank you, I will sort out my travel plans and confirm everything with you soon, including exact dates and payment details\n\nAlso, is it possible to arrange a viewing of the apartment? My uncle is currently in Dubai and could come to check it in person if that works for you",
-    "channel_id": "1304636",
+    "message": "Great, your uncle is welcome to come by any day between 9am and 6pm. What day works best for him?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540212039",
     "contact_name": "ulpan",
     "contact_identifier": "+77782071413",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
