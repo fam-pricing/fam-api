@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-11T11:40:18.426Z",
+  "ts": "2026-06-11T11:55:45.666Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4277396889",
-    "ticket_id": "946801625",
-    "message": "I have sent more than one email with no reply and the contract is ending on 20th of june",
-    "channel_id": "585723",
-    "contact_id": "514003675",
-    "contact_name": "Mahmoud Ammar",
-    "contact_identifier": "+971586675849",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4277414617",
+    "ticket_id": "958005013",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in MAG 318\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "540235457",
+    "contact_name": ".",
+    "contact_identifier": "+994709800616",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
