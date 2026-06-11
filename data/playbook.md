@@ -1311,3 +1311,7 @@ We are happy to share our monthly rental rates with you. Please note that our qu
 ## Learned (2026-06-08)
 - If a lead proposes a viewing time outside business hours, respond: "Viewings are available between 9:00 AM and 6:00 PM only." Politely redirect them to book a slot within that window.
   (Learned from Faysal handling Loki re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html)
+
+## Learned (2026-06-11)
+- If a lead requests a yearly contract, explain that we do not offer annual leases or Ejari, but that they are welcome to stay as long as they need by renewing in 3-month blocks.
+  (Learned from Faysal handling Mohammed Nagah re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html)
