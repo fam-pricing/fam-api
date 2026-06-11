@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-11T14:42:28.200Z",
+  "ts": "2026-06-11T14:43:47.457Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4277602577",
+    "type": "INBOUND",
+    "message_id": "4277603956",
     "ticket_id": "957923319",
-    "message": "No worries at all, just reach out whenever your travel plans are sorted.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "540212039",
     "contact_name": "ulpan",
     "contact_identifier": "+77782071413",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4277602577",
+    "parent_ticket_id": "957923319",
+    "event_type": "INBOUND"
   }
 }
