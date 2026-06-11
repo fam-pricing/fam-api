@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-11T05:56:15.620Z",
+  "ts": "2026-06-11T05:56:37.542Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4277037669",
-    "ticket_id": "957240337",
-    "message": "May I kindly know how many bedrooms you require, your preferred dates, and if you have any location preferences?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "531362712",
-    "contact_name": "Ghazi Najia",
-    "contact_identifier": "+971507887181",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4277037893",
+    "ticket_id": "957785411",
+    "message": "It's been booked for how many days",
+    "channel_id": "1304636",
+    "contact_id": "540179031",
+    "contact_name": "S.S",
+    "contact_identifier": "+971528647088",
+    "event_type": "INBOUND"
   }
 }
