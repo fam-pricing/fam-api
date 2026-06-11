@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-11T07:48:49.107Z",
+  "ts": "2026-06-11T07:48:59.203Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4277130869",
+    "type": "INBOUND",
+    "message_id": "4277131060",
     "ticket_id": "957923319",
-    "message": "Paying in advance is completely fine, just let us know a few days before your month ends and we'll secure the next one for you.\n\nOnce you have your travel dates locked in, send them over and we can get everything lined up for your arrival.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "❤️",
+    "channel_id": "1304636",
     "contact_id": "540212039",
     "contact_name": "ulpan",
     "contact_identifier": "+77782071413",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4277130869",
+    "parent_ticket_id": "957923319",
+    "event_type": "INBOUND"
   }
 }
