@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-11T12:58:08.224Z",
+  "ts": "2026-06-11T12:59:30.628Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4277485149",
-    "ticket_id": "957807279",
-    "message": "May I know from which date you would need the apartment so we can assist you with checking availability?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539807364",
-    "contact_name": "shivam",
-    "contact_identifier": "+919899095006",
+    "type": "INBOUND",
+    "message_id": "4277486591",
+    "ticket_id": "957923319",
+    "message": "👍",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "540212039",
+    "contact_name": "ulpan",
+    "contact_identifier": "+77782071413",
+    "parent_message_id": "4277483964",
+    "parent_ticket_id": "957923319",
+    "event_type": "INBOUND"
   }
 }
