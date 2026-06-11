@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-11T10:40:03.184Z",
+  "ts": "2026-06-11T10:40:27.606Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4277331784",
-    "ticket_id": "957974139",
-    "message": "Good Afternoon Mohammed,\r\n\r\nWe would like to inform you that you are welcome to extend your stay for as long as you wish. However, please note that as a holiday home operator, our rates may change on a monthly basis depending on market conditions.\r\n\r\nAt the moment, we can confirm the current rate for 3 months only. The rate will be AED 4,000 per month (30 nights). A security deposit of AED 2,000 is also required.\r\n\r\nPlease let us know if you would like to proceed with the booking.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "540226522",
-    "contact_name": "Mohammed Nagah",
-    "contact_identifier": "+971522940489",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4277332352",
+    "ticket_id": "941501853",
+    "message": "I’m making the payment right now",
+    "channel_id": "585723",
+    "contact_id": "535128769",
+    "contact_name": "Alex",
+    "contact_identifier": "+256742443400",
+    "event_type": "INBOUND"
   }
 }
