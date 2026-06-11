@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-10T23:51:51.665Z",
+  "ts": "2026-06-11T02:10:15.356Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4276961165",
-    "ticket_id": "957547327",
-    "message": "Waiting for this, let me know please",
+    "type": "OUTBOUND",
+    "message_id": "4276983504",
+    "ticket_id": "957880869",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-urban-oasis-67437566.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "540203457",
+    "contact_name": "Maniya",
+    "contact_identifier": "+16473007781",
     "channel_id": "1304636",
-    "contact_id": "540118741",
-    "contact_name": "S.A.H",
-    "contact_identifier": "+971565927860",
-    "parent_message_id": "4276637240",
-    "parent_ticket_id": "957547327",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
