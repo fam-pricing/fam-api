@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-11T07:40:05.585Z",
+  "ts": "2026-06-11T07:40:33.281Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4277121748",
+    "type": "OUTBOUND",
+    "message_id": "4277122287",
     "ticket_id": "957923319",
-    "message": "Thank you for the information. However, AED 10,000 upfront is a bit above my budget. I’m looking for a place with a lower initial payment, ideally just the first month’s rent and a smaller deposit. Please let me know if you have any options that would work within this budget.",
-    "channel_id": "1304636",
+    "message": "That structure is fixed on our end, so the AED 10,000 upfront is what we'd need to get you into a 3-month stay. Is there a specific total you had in mind for the first payment?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540212039",
     "contact_name": "ulpan",
     "contact_identifier": "+77782071413",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
