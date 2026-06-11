@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-11T08:22:17.865Z",
+  "ts": "2026-06-11T08:22:48.650Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4277169996",
+    "type": "OUTBOUND",
+    "message_id": "4277170535",
     "ticket_id": "957895053",
-    "message": "For July",
-    "channel_id": "585723",
+    "message": "Good morning Mr. Yohan,\r\n\r\nYes, you will be staying until August. However, we would like to follow up regarding the payment for your extension.\r\n\r\nSure, we will send you the payment link now.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536353062",
     "contact_name": "Yohan Gregory",
     "contact_identifier": "+971509558132",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
