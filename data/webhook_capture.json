@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-11T07:45:58.682Z",
+  "ts": "2026-06-11T07:46:28.804Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4277127922",
+    "type": "OUTBOUND",
+    "message_id": "4277128473",
     "ticket_id": "957923319",
-    "message": "I haven’t booked my flight yet, but I’ll confirm my exact move-in date as soon as my travel is finalized. Once I have my tickets, I will inform you in advance so you can confirm availability for those dates",
-    "channel_id": "1304636",
+    "message": "No problem at all, just send over your travel dates once you've got your tickets and we'll confirm availability for you. Does the month-to-month setup work for you, or were you thinking of locking in a longer stretch from the start?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540212039",
     "contact_name": "ulpan",
     "contact_identifier": "+77782071413",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
