@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-12T16:28:37.656Z",
+  "ts": "2026-06-12T16:30:58.353Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278565009",
+    "type": "OUTBOUND",
+    "message_id": "4278566662",
     "ticket_id": "958291399",
-    "message": "Document",
-    "channel_id": "585723",
+    "message": "We will forward this to HR and if there is any opportunity they will contact you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540326671",
     "contact_name": "premwalyan",
     "contact_identifier": "+919817335935",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
