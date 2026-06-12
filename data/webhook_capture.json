@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-12T12:55:47.730Z",
+  "ts": "2026-06-12T12:56:51.538Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278391926",
+    "type": "OUTBOUND",
+    "message_id": "4278393086",
     "ticket_id": "957975780",
-    "message": "Im On my way! To this location",
-    "channel_id": "585723",
+    "message": "Unfortunately, this apartment is currently not available, as we have recently received another confirmed reservation through a different platform.\r\n\r\nAs a result, we are unable to arrange a viewing for this unit.\r\n\r\nThank you for your understanding.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540226972",
     "contact_name": "Ahmad Mohammad",
     "contact_identifier": "+971566526651",
-    "parent_message_id": "4277548414",
-    "parent_ticket_id": "957975780",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
