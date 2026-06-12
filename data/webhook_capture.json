@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-12T17:07:33.201Z",
+  "ts": "2026-06-12T17:07:51.461Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278596778",
+    "type": "OUTBOUND",
+    "message_id": "4278596979",
     "ticket_id": "958333010",
-    "message": "Hello good evening",
-    "channel_id": "1304636",
+    "message": "Great to hear from you, Nash. Any questions about the MAG 318 apartment?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540342056",
     "contact_name": "Nash",
     "contact_identifier": "+971557184412",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
