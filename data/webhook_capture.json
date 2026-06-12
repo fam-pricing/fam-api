@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-12T09:48:50.253Z",
+  "ts": "2026-06-12T09:49:07.204Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278156989",
-    "ticket_id": "958223425",
-    "message": "Can I come around 2:30pm",
+    "type": "OUTBOUND",
+    "message_id": "4278157308",
+    "ticket_id": "957987501",
+    "message": "We will send an email to Upside management about this and will revert",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "535634432",
+    "contact_name": "Raha",
+    "contact_identifier": "+971566081840",
     "channel_id": "1304636",
-    "contact_id": "539955246",
-    "contact_name": "Loki",
-    "contact_identifier": "+971503789847",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
