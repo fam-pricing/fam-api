@@ -1,17 +1,5 @@
 [
   {
-    "ts": "2026-06-05T09:40:30.460Z",
-    "ticket_id": 956416060,
-    "lead_id": "message_lead_29727818",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1179,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
     "ts": "2026-06-05T10:25:30.057Z",
     "ticket_id": 956416060,
     "lead_id": "message_lead_29727818",
@@ -1474,5 +1462,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-06-12T09:41:52.165Z",
+    "ticket_id": 958187894,
+    "lead_id": "message_lead_29877430",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 24245,
+    "critic_pass": null,
+    "lead_quality": 60,
+    "buying_stage": "WARM",
+    "skip_reason": "Lead is asking about furniture changes for the 1BR in Executive Residences 2, also requesting a video of the property, and asking for 3 and 6 month rates starting July 1. Furniture customization is not something I can confirm. Video request also needs handling. Long-term pricing beyond 3 months needs manager input."
   }
 ]
