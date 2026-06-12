@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-12T16:47:13.223Z",
+  "ts": "2026-06-12T16:48:01.801Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278580132",
+    "type": "INBOUND",
+    "message_id": "4278580730",
     "ticket_id": "958057388",
-    "message": "We have 02 bedroom apartment available in Mag 318 building",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I see can you share me the photos",
+    "channel_id": "1304636",
     "contact_id": "535378240",
     "contact_name": "Vikramaditya Modi",
     "contact_identifier": "+971585823164",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4278580132",
+    "parent_ticket_id": "958057388",
+    "event_type": "INBOUND"
   }
 }
