@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-12T06:13:59.516Z",
+  "ts": "2026-06-12T06:14:35.281Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4277953587",
-    "ticket_id": "958052528",
-    "message": "Payment link for security deposit - https://totalpay.ae/payment/20260612366a2ba35492e74",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "540250794",
-    "contact_name": "WGS",
-    "contact_identifier": "+447828014094",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4277953823",
+    "ticket_id": "949384142",
+    "message": "I want to know the starting price",
+    "channel_id": "585723",
+    "contact_id": "536870373",
+    "contact_name": "Asmae Elalaouì",
+    "contact_identifier": "+971523442425",
+    "event_type": "INBOUND"
   }
 }
