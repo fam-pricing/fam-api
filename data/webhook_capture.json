@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-12T13:28:36.199Z",
+  "ts": "2026-06-12T13:34:07.218Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278425765",
+    "type": "OUTBOUND",
+    "message_id": "4278431432",
     "ticket_id": "957547327",
-    "message": "Afternoon",
-    "channel_id": "1304636",
+    "message": "May I know what time please?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540118741",
     "contact_name": "S.A.H",
     "contact_identifier": "+971565927860",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
