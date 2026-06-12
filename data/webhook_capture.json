@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-12T11:50:13.966Z",
+  "ts": "2026-06-12T11:55:26.138Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278324333",
-    "ticket_id": "958230636",
-    "message": "This apartment is expected to be available from 17 June, as it is currently occupied by an in-house guest. Once the guest has checked out, we will be happy to arrange a viewing for you.\r\n\r\nPlease let us know if you would like to schedule a viewing after that date.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "540309600",
-    "contact_name": "Iana",
-    "contact_identifier": "+971557826907",
+    "type": "INBOUND",
+    "message_id": "4278329350",
+    "ticket_id": "958259990",
+    "message": "Today",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "540317424",
+    "contact_name": "Yousra Eliwa",
+    "contact_identifier": "+971569787960",
+    "event_type": "INBOUND"
   }
 }
