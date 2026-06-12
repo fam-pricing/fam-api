@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-12T17:22:58.023Z",
+  "ts": "2026-06-12T17:23:37.400Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278607049",
+    "type": "INBOUND",
+    "message_id": "4278607501",
     "ticket_id": "958332101",
-    "message": "That's our most affordable studio right now, nothing below AED 4,000 at the moment. Still worth a look in person? Wednesday the 18th still works if you want to come by.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Sure i well come inshallah",
+    "channel_id": "1304636",
     "contact_id": "540341809",
     "contact_name": "CHAWQI WEHBEH",
     "contact_identifier": "+971554955832",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4278607049",
+    "parent_ticket_id": "958332101",
+    "event_type": "INBOUND"
   }
 }
