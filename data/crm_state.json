@@ -25178,18 +25178,21 @@
     "listing_title": "1BR in Viridian Central Park",
     "trengo_ticket_id": 958166207,
     "lead_name": "Pratyush",
-    "last_bot_reply_content": "Yes, monthly payments work. We structure it in 3-month blocks, with the rate locked in for each period and reviewed at renewal based on market conditions. No Ejari or fixed yearly contract, but you can keep renewing for as long as you need. How long were you thinking of staying?",
-    "last_bot_reply_at": "2026-06-12T06:26:59.722Z",
+    "last_bot_reply_content": "Just to flag, we actually only have a 2BR at Viridian Central Park right now, not a 1BR. On the Oct/Nov/Dec rates, we can't lock those in this far out as pricing is confirmed in 3-month blocks closer to the period. Are you open to the 2BR, or would you prefer I look for a 1BR elsewhere?",
+    "last_bot_reply_at": "2026-06-12T06:28:33.649Z",
     "lead_replied": true,
-    "lead_replied_at": "2026-06-12T06:26:59.722Z",
-    "bot_reply_count": 1,
-    "last_processed_message_id": "4277960480",
+    "lead_replied_at": "2026-06-12T06:28:33.649Z",
+    "bot_reply_count": 2,
+    "last_processed_message_id": "4277961165",
     "unanswered_alert_sent": false,
-    "lead_quality_score": 50,
-    "lead_quality_label": "WARM",
+    "lead_quality_score": 75,
+    "lead_quality_label": "HOT",
     "lead_quality_signals": [
+      "moderate engagement",
       "move-in intent",
-      "payment/booking intent"
+      "payment/booking intent",
+      "pricing enquiry",
+      "specific unit type"
     ]
   }
 }
