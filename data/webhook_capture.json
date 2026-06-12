@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-12T17:30:37.580Z",
+  "ts": "2026-06-12T17:31:22.502Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278611771",
+    "type": "INBOUND",
+    "message_id": "4278612230",
     "ticket_id": "958338658",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2Q6w3EvRpAG.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello, I wanted to ask if this apartment is available for yearly rent",
+    "channel_id": "1304636",
     "contact_id": "540344173",
     "contact_name": "Nour Fattal",
     "contact_identifier": "+96176353758",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
