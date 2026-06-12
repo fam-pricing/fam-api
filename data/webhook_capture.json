@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-12T03:24:09.995Z",
+  "ts": "2026-06-12T03:24:16.904Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4277910660",
+    "type": "OUTBOUND",
+    "message_id": "4277910676",
     "ticket_id": "958146636",
-    "message": "Check out 30 Dec 2026",
-    "channel_id": "1304636",
+    "message": "It's a 2-bedroom in Downtown Dubai, available now. Shall I arrange a viewing so you can see it in person?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540277137",
     "contact_name": ".",
     "contact_identifier": "+919663361331",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
