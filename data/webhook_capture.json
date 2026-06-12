@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-12T07:40:34.817Z",
+  "ts": "2026-06-12T07:40:50.277Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278024608",
+    "type": "INBOUND",
+    "message_id": "4278024908",
     "ticket_id": "958187894",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-hills-estate-executive-residences-executive-residences-2-69093988.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello",
+    "channel_id": "1304636",
     "contact_id": "540285162",
     "contact_name": "Mohamed Ewis",
     "contact_identifier": "+971585606773",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
