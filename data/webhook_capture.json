@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-12T10:02:32.762Z",
+  "ts": "2026-06-12T10:03:19.526Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278171533",
+    "type": "OUTBOUND",
+    "message_id": "4278172353",
     "ticket_id": "958223425",
-    "message": "👍",
-    "channel_id": "1304636",
+    "message": "Please double check with us tomorrow after 1pm so we can confirm if the guest checked out or not",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "539955246",
     "contact_name": "Loki",
     "contact_identifier": "+971503789847",
-    "parent_message_id": "4278171145",
-    "parent_ticket_id": "958223425",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
