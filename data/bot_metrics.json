@@ -1486,5 +1486,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-06-12T17:07:48.766Z",
+    "ticket_id": 958333010,
+    "lead_id": "message_lead_29888494",
+    "action": "reply",
+    "tool_used": "send_reply",
+    "response_time_ms": 15565,
+    "critic_pass": null,
+    "lead_quality": 5,
+    "buying_stage": "COLD",
+    "skip_reason": null
   }
 ]
