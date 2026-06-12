@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-12T17:16:49.972Z",
+  "ts": "2026-06-12T17:17:17.818Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278603191",
+    "type": "OUTBOUND",
+    "message_id": "4278603427",
     "ticket_id": "958332101",
-    "message": "Yes",
-    "channel_id": "1304636",
+    "message": "Here's the listing with the location and photos: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html\n\nWould you like to come see it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540341809",
     "contact_name": "CHAWQI WEHBEH",
     "contact_identifier": "+971554955832",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
