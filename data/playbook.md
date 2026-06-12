@@ -1315,3 +1315,15 @@ We are happy to share our monthly rental rates with you. Please note that our qu
 ## Learned (2026-06-11)
 - If a lead requests a yearly contract, explain that we do not offer annual leases or Ejari, but that they are welcome to stay as long as they need by renewing in 3-month blocks.
   (Learned from Faysal handling Mohammed Nagah re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html)
+
+## Learned (2026-06-12)
+- When a lead says "that's it" or confirms they are ready to proceed, respond with:
+
+"To complete your booking, we'll need the following:
+
+1. A copy of your ID or passport
+2. Your email address
+3. Your phone number
+
+Once we have these details, we'll send you a payment link to confirm your reservation."
+  (Learned from Faysal handling WGS re 1BR in Viridian Central Park)
