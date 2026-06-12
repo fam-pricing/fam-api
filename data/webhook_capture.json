@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-12T05:57:23.715Z",
+  "ts": "2026-06-12T06:00:45.103Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4277945447",
+    "type": "OUTBOUND",
+    "message_id": "4277946961",
     "ticket_id": "958052528",
-    "message": "My information should already be on your system",
-    "channel_id": "1304636",
+    "message": "Yes, we can certainly accommodate this. However, it will need to be processed as a separate reservation, so we kindly request your details to be provided separately.\r\n\r\nPlease also note that a refundable security deposit of AED 2,000 will be required for the booking.\r\n\r\nWe look forward to receiving your details.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540250794",
     "contact_name": "WGS",
     "contact_identifier": "+447828014094",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
