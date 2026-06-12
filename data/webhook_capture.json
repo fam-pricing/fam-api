@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-12T06:31:23.268Z",
+  "ts": "2026-06-12T06:31:36.727Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4277963327",
-    "ticket_id": "958052528",
-    "message": "We have received the payment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "540250794",
-    "contact_name": "WGS",
-    "contact_identifier": "+447828014094",
+    "type": "INBOUND",
+    "message_id": "4277963473",
+    "ticket_id": "958167269",
+    "message": "This one is from 17th right?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "540151824",
+    "contact_name": "V",
+    "contact_identifier": "+79936103902",
+    "parent_message_id": "4276271160",
+    "parent_ticket_id": "957682534",
+    "event_type": "INBOUND"
   }
 }
