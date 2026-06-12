@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-12T07:46:41.482Z",
+  "ts": "2026-06-12T07:47:22.858Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278030289",
+    "type": "INBOUND",
+    "message_id": "4278030920",
     "ticket_id": "958187894",
-    "message": "The 1BR in Executive Residences 2 is available from July 1. For 3 months the rate stays fixed, but beyond that it's reviewed each block based on market conditions. Would you like to see it in person before committing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes, and if you video also will be helpful",
+    "channel_id": "1304636",
     "contact_id": "540285162",
     "contact_name": "Mohamed Ewis",
     "contact_identifier": "+971585606773",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4278030289",
+    "parent_ticket_id": "958187894",
+    "event_type": "INBOUND"
   }
 }
