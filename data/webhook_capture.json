@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-12T10:58:58.944Z",
+  "ts": "2026-06-12T11:02:00.845Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278272776",
+    "type": "OUTBOUND",
+    "message_id": "4278275981",
     "ticket_id": "957436886",
-    "message": "Today or tomorrow morning",
-    "channel_id": "1304636",
+    "message": "As mentioned, your check-in was scheduled for today. We shared the contract with you yesterday, clearly indicating the check-in date as 12 June.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538631018",
     "contact_name": "Olga",
     "contact_identifier": "+380672702585",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
