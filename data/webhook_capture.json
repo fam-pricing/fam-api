@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-12T07:20:57.165Z",
+  "ts": "2026-06-12T07:21:46.990Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278005834",
+    "type": "INBOUND",
+    "message_id": "4278006540",
     "ticket_id": "957987501",
-    "message": "We have received the inspection report from the building, and the applicable charges have been applied accordingly.\r\n\r\nPlease be informed that these charges will be deducted from your security deposit, and the remaining balance will be refunded to you.\r\n\r\nThank you for your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I don't accept this",
+    "channel_id": "1304636",
     "contact_id": "535634432",
     "contact_name": "Raha",
     "contact_identifier": "+971566081840",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
