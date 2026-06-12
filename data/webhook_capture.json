@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-12T12:39:57.442Z",
+  "ts": "2026-06-12T12:42:13.392Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278376085",
+    "type": "OUTBOUND",
+    "message_id": "4278378412",
     "ticket_id": "958230636",
-    "message": "You have other apt 1bd in address\nOpera or sky view?",
-    "channel_id": "1304636",
+    "message": "Unfortunately, we have only one unit available at Address Opera, and it is currently booked.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540309600",
     "contact_name": "Iana",
     "contact_identifier": "+971557826907",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
