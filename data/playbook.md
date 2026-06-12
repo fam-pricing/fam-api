@@ -1331,3 +1331,15 @@ Once we have these details, we'll send you a payment link to confirm your reserv
 ## Learned (2026-06-12)
 - If a lead proposes a viewing time outside business hours, inform them that viewings are available between 10:00 AM and 6:00 PM only, and invite them to choose a time within that window.
   (Learned from Faysal handling Mohamed Ewis re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-hills-estate-executive-residences-executive-residences-2-69093988.html)
+
+## Learned (2026-06-12)
+- When a lead responds with "sure," send the following message:
+
+"If you have a vehicle, we'll need the following details for advance registration. Please provide:
+
+• Emirate of issue (Dubai, Abu Dhabi, Sharjah, etc.)
+• Code
+• Plate number
+• Vehicle make/model
+• Color"
+  (Learned from Faysal handling WGS re 1BR in Viridian Central Park)
