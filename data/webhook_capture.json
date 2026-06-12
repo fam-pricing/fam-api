@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-12T07:41:11.655Z",
+  "ts": "2026-06-12T07:46:12.699Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278025262",
+    "type": "INBOUND",
+    "message_id": "4278029706",
     "ticket_id": "958187894",
-    "message": "Yes, it's available now. Want to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes, may I know the rate for a 3 or 6 months contract starting from July 1",
+    "channel_id": "1304636",
     "contact_id": "540285162",
     "contact_name": "Mohamed Ewis",
     "contact_identifier": "+971585606773",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4278025262",
+    "parent_ticket_id": "958187894",
+    "event_type": "INBOUND"
   }
 }
