@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-13T07:10:33.479Z",
+  "ts": "2026-06-13T07:11:02.886Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278829809",
+    "type": "OUTBOUND",
+    "message_id": "4278829983",
     "ticket_id": "958422314",
-    "message": "hi i wanted to ask, is this unit pets allowed?",
-    "channel_id": "1304636",
+    "message": "Unfortunately pets aren't allowed in this unit. Would you still like to see it, or would you prefer I find you something pet-friendly?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540360748",
     "contact_name": "Jinny",
     "contact_identifier": "+6591362704",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
