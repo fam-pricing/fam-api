@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-13T06:05:53.125Z",
+  "ts": "2026-06-13T06:06:07.858Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278804184",
+    "type": "INBOUND",
+    "message_id": "4278804249",
     "ticket_id": "925794250",
-    "message": "i will update you shortly",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Please give me updated booking for 14th June till \n14th July \n\nFor airport",
+    "channel_id": "585723",
     "contact_id": "532008494",
     "contact_name": "Kenan David",
     "contact_identifier": "+27724580583",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4278792488",
+    "parent_ticket_id": "925794250",
+    "event_type": "INBOUND"
   }
 }
