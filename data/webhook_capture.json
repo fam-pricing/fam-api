@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-13T20:10:00.211Z",
+  "ts": "2026-06-13T20:10:26.059Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279186872",
+    "type": "OUTBOUND",
+    "message_id": "4279186972",
     "ticket_id": "958521307",
-    "message": ".",
-    "channel_id": "1304636",
+    "message": "Timerlan, the monthly rate for this property is AED 10,000, all bills included. For the 2-week rate, let me get that confirmed for you right now and come back shortly!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540390840",
     "contact_name": "N.",
     "contact_identifier": "+31684584340",
-    "parent_message_id": "4279169185",
-    "parent_ticket_id": "958521307",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
