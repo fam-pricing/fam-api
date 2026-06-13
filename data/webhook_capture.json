@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-13T07:39:03.907Z",
+  "ts": "2026-06-13T07:39:25.651Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278842657",
+    "type": "OUTBOUND",
+    "message_id": "4278842814",
     "ticket_id": "958425281",
-    "message": "Please can you advise pricing",
-    "channel_id": "1304636",
+    "message": "The 2BR is available from 2nd July for the full month at AED 8,000 all-inclusive, water, electricity, internet, and VAT all covered. There's also a refundable AED 2,000 security deposit.\n\nWould you like to arrange a viewing before confirming?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540361473",
     "contact_name": "Bal",
     "contact_identifier": "+447803834073",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
