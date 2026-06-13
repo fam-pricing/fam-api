@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-13T09:36:41.070Z",
+  "ts": "2026-06-13T09:37:45.830Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278904038",
+    "type": "INBOUND",
+    "message_id": "4278904607",
     "ticket_id": "958423359",
-    "message": "payment must be done in advance",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "How much should we pay?",
+    "channel_id": "585723",
     "contact_id": "540361063",
     "contact_name": "~",
     "contact_identifier": "+971544551901",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4278904038",
+    "parent_ticket_id": "958423359",
+    "event_type": "INBOUND"
   }
 }
