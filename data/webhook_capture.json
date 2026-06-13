@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-13T13:57:25.274Z",
+  "ts": "2026-06-13T14:08:21.781Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279035558",
-    "ticket_id": "956832935",
-    "message": "Hi guys, is it possible to get a late check out please?",
+    "type": "OUTBOUND",
+    "message_id": "4279041636",
+    "ticket_id": "958415131",
+    "message": "We have already sent mail",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "540359709",
+    "contact_name": "Anastasia Babaskina",
+    "contact_identifier": "+971567590985",
     "channel_id": "585723",
-    "contact_id": "531299669",
-    "contact_name": "Mark Doyle",
-    "contact_identifier": "+353877859722",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
