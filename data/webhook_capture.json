@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-13T07:38:13.900Z",
+  "ts": "2026-06-13T07:38:42.404Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278842239",
+    "type": "OUTBOUND",
+    "message_id": "4278842481",
     "ticket_id": "958423359",
-    "message": "I want 2 property \nEach apartment has 3 bedrooms with housemaid room",
-    "channel_id": "585723",
+    "message": "you need 2 apartment with 3 bedrooms + maid ?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "540361063",
     "contact_name": "~",
     "contact_identifier": "+971544551901",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
