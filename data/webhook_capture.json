@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-13T07:41:07.214Z",
+  "ts": "2026-06-13T07:41:15.285Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278843631",
+    "type": "OUTBOUND",
+    "message_id": "4278843683",
     "ticket_id": "958425281",
-    "message": "And can I confirm it is pet friendly?",
-    "channel_id": "1304636",
+    "message": "The property is in great condition. Since you're arriving on the 2nd, the timing lines up perfectly.\n\nWould you like to take a look at the photos before you land?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540361473",
     "contact_name": "Bal",
     "contact_identifier": "+447803834073",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
