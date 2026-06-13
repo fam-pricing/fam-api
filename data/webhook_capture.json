@@ -1,17 +1,18 @@
 {
-  "ts": "2026-06-13T12:29:17.315Z",
+  "ts": "2026-06-13T12:29:37.220Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278991015",
+    "type": "OUTBOUND",
+    "message_id": "4278991172",
     "ticket_id": "958469355",
-    "message": "Hi",
-    "channel_id": "883603",
+    "message": "Thanks! You will get a reply by email if you leave this website.",
     "contact_id": "540375570",
     "contact_name": "Nabeel",
+    "contact_email": "n.roshan@alowaisllc.com",
     "contact_identifier": "eab5218c-752e-4196-5b43-93ae1dd0f452",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
