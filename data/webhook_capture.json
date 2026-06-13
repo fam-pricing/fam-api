@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-13T13:05:59.557Z",
+  "ts": "2026-06-13T13:06:15.613Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4279009727",
-    "ticket_id": "958474400",
-    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
-    "contact_id": "540377210",
-    "contact_name": "Anastasia",
-    "contact_identifier": "9f6a04f9-2ebe-4e39-6286-e39178984bbd",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4279009868",
+    "ticket_id": "947825240",
+    "message": "No problem send me link",
+    "channel_id": "585723",
+    "contact_id": "537401267",
+    "contact_name": "Shaker Mousa",
+    "contact_identifier": "+971588929205",
+    "parent_message_id": "4279009459",
+    "parent_ticket_id": "947825240",
+    "event_type": "INBOUND"
   }
 }
