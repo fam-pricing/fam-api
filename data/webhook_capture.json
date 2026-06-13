@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-13T09:29:15.209Z",
+  "ts": "2026-06-13T09:29:32.847Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278899879",
+    "type": "INBOUND",
+    "message_id": "4278900029",
     "ticket_id": "958328772",
-    "message": "Apartment no: 1232 on 12th floor",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "540340610",
     "contact_name": "Fateh",
     "contact_identifier": "+971585156121",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4278899879",
+    "parent_ticket_id": "958328772",
+    "event_type": "INBOUND"
   }
 }
