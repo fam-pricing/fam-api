@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-13T08:27:05.030Z",
+  "ts": "2026-06-13T08:27:28.590Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278866149",
+    "type": "OUTBOUND",
+    "message_id": "4278866316",
     "ticket_id": "958431029",
-    "message": "❤️",
-    "channel_id": "1304636",
+    "message": "Viewings are available any day between 9am and 6pm, what day works best for you?\n\nCorrection: the draft uses an em dash. Also, the lead asked for contact details and the draft ignores that entirely.\n\nViewings are any day between 9am and 6pm. What day suits you and I'll get it set up. You can also reach us directly on WhatsApp at this number.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540363390",
     "contact_name": "Yuliya Nikolaeva 🧿",
     "contact_identifier": "+79061831117",
-    "parent_message_id": "4278864872",
-    "parent_ticket_id": "958431029",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
