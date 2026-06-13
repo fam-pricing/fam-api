@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-13T05:24:07.504Z",
+  "ts": "2026-06-13T05:24:24.989Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278794199",
-    "ticket_id": "958395576",
-    "message": "Welcom",
+    "type": "OUTBOUND",
+    "message_id": "4278794269",
+    "ticket_id": "958328772",
+    "message": "How can i help you?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "540340610",
+    "contact_name": "Fateh",
+    "contact_identifier": "+971585156121",
     "channel_id": "1304636",
-    "contact_id": "540356642",
-    "contact_name": "الايجابي الملهم",
-    "contact_identifier": "+971504168652",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
