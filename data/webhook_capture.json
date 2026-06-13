@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-13T09:40:00.072Z",
+  "ts": "2026-06-13T09:40:40.095Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278905737",
+    "type": "OUTBOUND",
+    "message_id": "4278906074",
     "ticket_id": "958423359",
-    "message": "I will pay it when i will arrive",
-    "channel_id": "585723",
+    "message": "Check-in: 5th july 26\r\nCheck-out: 7th july 26\r\nNb. of nights: 2 nights\r\n\r\nNb. of rooms: 2 bedrooms + maid\r\n\r\nLocation: City walk - Building 2A\r\n\r\nNon-refundable rate: 1300aed for each units\r\n\r\nSo in total for 2 units it will be: 2600 AED",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "540361063",
     "contact_name": "~",
     "contact_identifier": "+971544551901",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
