@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-13T10:10:45.889Z",
+  "ts": "2026-06-13T10:11:42.577Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278921810",
+    "type": "OUTBOUND",
+    "message_id": "4278922214",
     "ticket_id": "958448817",
-    "message": "Audio",
-    "channel_id": "585723",
+    "message": "Apologies, but this apartment is not available for daily bookings. We only accept monthly reservations for this unit.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "540368747",
     "contact_name": "Ali Bukhari",
     "contact_identifier": "+971555001033",
-    "parent_message_id": "4278917255",
-    "parent_ticket_id": "958448817",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
