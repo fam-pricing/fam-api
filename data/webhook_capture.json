@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-13T07:02:34.429Z",
+  "ts": "2026-06-13T07:02:37.511Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278825002",
-    "ticket_id": "958413469",
-    "message": "👍",
+    "type": "OUTBOUND",
+    "message_id": "4278825128",
+    "ticket_id": "941501853",
+    "message": "extension can only be processed once the payment has been received.\r\n\r\nCould you please confirm if you would also require an invoice for your full stay, Ms. Alex?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535128769",
+    "contact_name": "Alex",
+    "contact_identifier": "+256742443400",
     "channel_id": "585723",
-    "contact_id": "540359282",
-    "contact_name": "Anastasia Babaskina",
-    "contact_identifier": "+393288167392",
-    "parent_message_id": "4278816862",
-    "parent_ticket_id": "958413469",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
