@@ -1349,3 +1349,7 @@ Once we have these details, we'll send you a payment link to confirm your reserv
 
 "Please note that the quoted rate is confirmed for a period of up to three months only. We are unable to guarantee the same rate beyond this period due to current market conditions."
   (Learned from Faysal handling Nour Fattal re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2Q6w3EvRpAG.html)
+
+## Learned (2026-06-13)
+- When a lead states their total budget is AED 10,000 including the security deposit, clarify that the security deposit is AED 2,000 — not AED 4,000.
+  (Learned from Faysal handling Bal re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
