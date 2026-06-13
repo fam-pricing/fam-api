@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-13T13:20:08.426Z",
+  "ts": "2026-06-13T13:20:24.459Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4279016236",
-    "ticket_id": "958476077",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-burj-crown-13851904.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "540377750",
-    "contact_name": "Z",
-    "contact_identifier": "+31638184187",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4279016383",
+    "ticket_id": "958476109",
+    "message": "Hi\n\nI am looking for a room with attached washroom for the month of July near to world trade centre",
+    "channel_id": "883603",
+    "contact_id": "540377770",
+    "contact_name": "Abdul Basit",
+    "contact_identifier": "281c39cd-0705-4718-b982-4df5ad6fce6c",
+    "event_type": "INBOUND"
   }
 }
