@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-13T13:05:09.603Z",
+  "ts": "2026-06-13T13:05:21.558Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279009362",
+    "type": "OUTBOUND",
+    "message_id": "4279009459",
     "ticket_id": "947825240",
-    "message": "And if you please I need to early check in 10 am if possible",
-    "channel_id": "585723",
+    "message": "Sure. I can send you a secure payment link; however, please note that a card processing fee of 3.1% will be applicable. Alternatively, you may proceed with a bank transfer if you prefer.\r\n\r\nKindly let me know your preferred option so I can share the relevant details accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537401267",
     "contact_name": "Shaker Mousa",
     "contact_identifier": "+971588929205",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
