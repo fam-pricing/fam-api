@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-13T13:12:03.851Z",
+  "ts": "2026-06-13T13:14:04.427Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4279012650",
+    "type": "INBOUND",
+    "message_id": "4279013453",
     "ticket_id": "958415131",
-    "message": "Hello Anastasia Babaskina ! We will inform upside team on this matter. Meantime you may reach out to\r\nThe reception as well from your end",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "At the reception they don’t know this",
+    "channel_id": "585723",
     "contact_id": "540359709",
     "contact_name": "Anastasia Babaskina",
     "contact_identifier": "+971567590985",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4278992098",
+    "parent_ticket_id": "958415131",
+    "event_type": "INBOUND"
   }
 }
