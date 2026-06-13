@@ -1343,3 +1343,9 @@ Once we have these details, we'll send you a payment link to confirm your reserv
 • Vehicle make/model
 • Color"
   (Learned from Faysal handling WGS re 1BR in Viridian Central Park)
+
+## Learned (2026-06-13)
+- If a lead references a specific rate as the confirmed minimum (e.g., "96,000 is the minimum per your information"), respond with the following:
+
+"Please note that the quoted rate is confirmed for a period of up to three months only. We are unable to guarantee the same rate beyond this period due to current market conditions."
+  (Learned from Faysal handling Nour Fattal re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2Q6w3EvRpAG.html)
