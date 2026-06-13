@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-13T12:45:11.789Z",
+  "ts": "2026-06-13T12:45:49.039Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278998971",
-    "ticket_id": "958381442",
-    "message": "For booking, we need:\r\n\r\n1. a copy of your ID or passport\r\n\r\n2. Email:\r\n\r\nWe will send a payment link confirm your bookings accordingly.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "540354721",
-    "contact_name": "SA VT",
-    "contact_identifier": "+971585032384",
+    "type": "INBOUND",
+    "message_id": "4278999311",
+    "ticket_id": "958333010",
+    "message": "How much do u require for 8 months?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "540342056",
+    "contact_name": "Nash",
+    "contact_identifier": "+971557184412",
+    "event_type": "INBOUND"
   }
 }
