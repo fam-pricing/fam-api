@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-13T17:53:31.603Z",
+  "ts": "2026-06-13T17:53:41.266Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279140447",
-    "ticket_id": "956832935",
-    "message": "Just thought I’d ask again to see if you can match.\n\nI’ve a hotel booked for the extra night which is costing me €44.\n\nCan you match it for one extra night?",
-    "channel_id": "585723",
-    "contact_id": "531299669",
-    "contact_name": "Mark Doyle",
-    "contact_identifier": "+353877859722",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4279140496",
+    "ticket_id": "958381442",
+    "message": "Here is the payment link for the deposit: https://totalpay.ae/payment/20260613146a2d990a186bd",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "540354721",
+    "contact_name": "SA VT",
+    "contact_identifier": "+971585032384",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
