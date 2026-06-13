@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-13T08:12:48.109Z",
+  "ts": "2026-06-13T08:12:53.498Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278858817",
-    "ticket_id": "958415131",
-    "message": "Sounds great, thank you!",
+    "type": "OUTBOUND",
+    "message_id": "4278858852",
+    "ticket_id": "957975780",
+    "message": "here is the payment link for the deposit",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "540226972",
+    "contact_name": "Ahmad Mohammad",
+    "contact_identifier": "+971566526651",
     "channel_id": "585723",
-    "contact_id": "540359709",
-    "contact_name": "Anastasia Babaskina",
-    "contact_identifier": "+971567590985",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
