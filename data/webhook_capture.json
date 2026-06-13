@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-13T15:00:05.603Z",
+  "ts": "2026-06-13T15:00:33.302Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279066041",
-    "ticket_id": "958460969",
-    "message": "hello?",
+    "type": "OUTBOUND",
+    "message_id": "4279066399",
+    "ticket_id": "958490023",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "540382198",
+    "contact_name": "Laila PRL",
+    "contact_identifier": "+971503136002",
     "channel_id": "1304636",
-    "contact_id": "539807364",
-    "contact_name": "shivam",
-    "contact_identifier": "+919899095006",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
