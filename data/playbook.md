@@ -1353,3 +1353,7 @@ Once we have these details, we'll send you a payment link to confirm your reserv
 ## Learned (2026-06-13)
 - When a lead states their total budget is AED 10,000 including the security deposit, clarify that the security deposit is AED 2,000 — not AED 4,000.
   (Learned from Faysal handling Bal re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
+
+## Learned (2026-06-13)
+- If a lead states their budget is AED 10,000, confirm the rate and let them know that if they have a pet, an additional charge of AED 2,000 will apply.
+  (Learned from Faysal handling Bal re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
