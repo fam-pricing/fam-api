@@ -1,19 +1,17 @@
 {
-  "ts": "2026-06-13T06:55:19.762Z",
+  "ts": "2026-06-13T06:55:21.095Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278820240",
+    "type": "OUTBOUND",
+    "message_id": "4278820260",
     "ticket_id": "958415131",
-    "message": "I Accept Charges",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "540359709",
     "contact_name": "Anastasia Babaskina",
     "contact_identifier": "+971567590985",
-    "parent_message_id": "4278814657",
-    "parent_ticket_id": "958415131",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
