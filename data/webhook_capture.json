@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-13T11:29:43.287Z",
+  "ts": "2026-06-13T11:29:58.852Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278960563",
-    "ticket_id": "958260373",
-    "message": "Thank you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "536340091",
-    "contact_name": "Mahassine Al Awad",
-    "contact_identifier": "+971585429848",
+    "type": "INBOUND",
+    "message_id": "4278960671",
+    "ticket_id": "958460969",
+    "message": "hi good afternoon, i would like to book it please!",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "539807364",
+    "contact_name": "shivam",
+    "contact_identifier": "+919899095006",
+    "parent_message_id": "4277506967",
+    "parent_ticket_id": "957807279",
+    "event_type": "INBOUND"
   }
 }
