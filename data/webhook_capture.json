@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-13T07:33:45.039Z",
+  "ts": "2026-06-13T07:34:15.202Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278840454",
-    "ticket_id": "956686546",
-    "message": "Hello ! PropertyFinder send me your contact regarding this listing:\n\nVida\n\nHow can I help you ?",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "535119429",
-    "contact_name": "Reihaneh Hossein Til",
-    "contact_identifier": "+971504133080",
+    "type": "INBOUND",
+    "message_id": "4278840624",
+    "ticket_id": "958211304",
+    "message": "No because then we need to get a car",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "540291358",
+    "contact_name": "Tracy",
+    "contact_identifier": "+31618323735",
+    "event_type": "INBOUND"
   }
 }
