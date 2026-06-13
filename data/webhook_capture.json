@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-13T13:28:16.337Z",
+  "ts": "2026-06-13T13:28:49.432Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4279020395",
+    "type": "INBOUND",
+    "message_id": "4279020765",
     "ticket_id": "957547327",
-    "message": "Apologies But apartment is no longer available.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "You have another in this building",
+    "channel_id": "1304636",
     "contact_id": "540118741",
     "contact_name": "S.A.H",
     "contact_identifier": "+971565927860",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
