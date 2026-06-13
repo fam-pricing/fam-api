@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-13T09:10:26.868Z",
+  "ts": "2026-06-13T09:10:58.707Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278889645",
+    "type": "INBOUND",
+    "message_id": "4278889934",
     "ticket_id": "957975780",
-    "message": "you can make the payment 7 days prior to your arrival date",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Ok sure, ill pay end of September",
+    "channel_id": "585723",
     "contact_id": "540226972",
     "contact_name": "Ahmad Mohammad",
     "contact_identifier": "+971566526651",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4278889645",
+    "parent_ticket_id": "957975780",
+    "event_type": "INBOUND"
   }
 }
