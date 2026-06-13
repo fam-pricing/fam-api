@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-13T19:13:32.485Z",
+  "ts": "2026-06-13T19:14:06.934Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279169185",
+    "type": "OUTBOUND",
+    "message_id": "4279169338",
     "ticket_id": "958521307",
-    "message": "Hi good day is this property available from today for 2 weeks and possible longer ? I stay there for 2 weeks pay for 2 weeks if I like I extend for a month straight away after 2 weeks",
-    "channel_id": "1304636",
+    "message": "The 2-week rate is priced separately from the monthly, so let me get that confirmed for you now. What's your name?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540390840",
     "contact_name": "N.",
     "contact_identifier": "+31684584340",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
