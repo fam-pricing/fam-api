@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-13T08:28:02.537Z",
+  "ts": "2026-06-13T08:28:28.024Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4278866579",
-    "ticket_id": "957975780",
-    "message": "sure we will make the booking from 5th oct , once payment receive",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "540226972",
-    "contact_name": "Ahmad Mohammad",
-    "contact_identifier": "+971566526651",
+    "type": "INBOUND",
+    "message_id": "4278866791",
+    "ticket_id": "951617602",
+    "message": "Yes please",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "538457647",
+    "contact_name": "Tim Dominik Germany",
+    "contact_identifier": "+56931740105",
+    "parent_message_id": "4278866347",
+    "parent_ticket_id": "951617602",
+    "event_type": "INBOUND"
   }
 }
