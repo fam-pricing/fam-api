@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-13T07:23:22.229Z",
+  "ts": "2026-06-13T07:24:22.800Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4278835805",
-    "ticket_id": "958211304",
-    "message": "Yes please",
-    "channel_id": "1304636",
-    "contact_id": "540291358",
-    "contact_name": "Tracy",
-    "contact_identifier": "+31618323735",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4278836197",
+    "ticket_id": "958415131",
+    "message": "Your apartment number will be 2123.\r\n\r\nWe have already updated the Upside Living team accordingly. Upon arrival, you may proceed directly to the reception to complete the check-in process.\r\n\r\nWe look forward to welcoming you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "540359709",
+    "contact_name": "Anastasia Babaskina",
+    "contact_identifier": "+971567590985",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
