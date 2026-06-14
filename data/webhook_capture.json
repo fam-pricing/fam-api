@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-14T09:01:34.495Z",
+  "ts": "2026-06-14T09:10:41.342Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279358004",
-    "ticket_id": "958460969",
-    "message": "can you please add the company details to my invoice, i’ll make the payment from current account",
+    "type": "OUTBOUND",
+    "message_id": "4279362093",
+    "ticket_id": "958597866",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in Upper Crest\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "540408445",
+    "contact_name": "Aleksandra 🇦🇲",
+    "contact_identifier": "+971525757840",
     "channel_id": "1304636",
-    "contact_id": "539807364",
-    "contact_name": "shivam",
-    "contact_identifier": "+919899095006",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
