@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-14T10:04:36.568Z",
+  "ts": "2026-06-14T10:04:38.359Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279386913",
+    "type": "OUTBOUND",
+    "message_id": "4279386928",
     "ticket_id": "958531461",
-    "message": "I will send my passport later",
-    "channel_id": "1304636",
+    "message": "Got your email. Just send over your passport copy and we'll get Thursday locked in, does morning or afternoon work better for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540393761",
     "contact_name": "Kiana🤍",
     "contact_identifier": "+971586606158",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
