@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-14T13:14:09.427Z",
+  "ts": "2026-06-14T13:16:01.153Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279470701",
-    "ticket_id": "958580060",
-    "message": "Audio",
+    "type": "OUTBOUND",
+    "message_id": "4279471401",
+    "ticket_id": "958622053",
+    "message": "Welcome",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537401267",
+    "contact_name": "Shaker Mousa",
+    "contact_identifier": "+971588929205",
     "channel_id": "585723",
-    "contact_id": "540402985",
-    "contact_name": "mohammed jasim",
-    "contact_identifier": "+9647805442708",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
