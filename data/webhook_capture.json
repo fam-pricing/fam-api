@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-14T10:07:36.327Z",
+  "ts": "2026-06-14T10:08:54.837Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4279388207",
+    "type": "INBOUND",
+    "message_id": "4279388781",
     "ticket_id": "958531461",
-    "message": "5pm works perfectly. Just send over your passport copy and you're confirmed!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "This is my passport sir",
+    "channel_id": "1304636",
     "contact_id": "540393761",
     "contact_name": "Kiana🤍",
     "contact_identifier": "+971586606158",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4279387872",
+    "parent_ticket_id": "958531461",
+    "event_type": "INBOUND"
   }
 }
