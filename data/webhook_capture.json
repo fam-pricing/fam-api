@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-14T17:13:46.221Z",
+  "ts": "2026-06-14T17:20:18.438Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279574824",
-    "ticket_id": "954905104",
-    "message": "Hello, I hope you’re doing well. I would like to ask about my deposit, as I haven’t received it yet. Could you please check the status and let me know when it will be refunded? Thank you.",
-    "channel_id": "585723",
-    "contact_id": "539421290",
-    "contact_name": "Mohamed Ahmed Alkhalidi",
-    "contact_identifier": "+971565945556",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4279577569",
+    "ticket_id": "958663954",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in Peninsula Three\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "540429781",
+    "contact_name": "Casa Living | property sourcing & Renovation",
+    "contact_identifier": "+971585074331",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
