@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-14T09:59:55.081Z",
+  "ts": "2026-06-14T10:00:09.923Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279384206",
-    "ticket_id": "958599178",
-    "message": "تقصد اليوم ولا يوم ١٧",
+    "type": "OUTBOUND",
+    "message_id": "4279384314",
+    "ticket_id": "958531461",
+    "message": "Thanks for sending that over. Did you want to come in for a viewing today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "540393761",
+    "contact_name": "Kiana🤍",
+    "contact_identifier": "+971586606158",
     "channel_id": "1304636",
-    "contact_id": "540408828",
-    "contact_name": "A🐎",
-    "contact_identifier": "+971589893333",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
