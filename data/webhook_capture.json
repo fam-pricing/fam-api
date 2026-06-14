@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-14T08:12:17.593Z",
+  "ts": "2026-06-14T08:12:23.690Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279337098",
+    "type": "OUTBOUND",
+    "message_id": "4279337141",
     "ticket_id": "958585274",
-    "message": "What are the agency fees?",
-    "channel_id": "1304636",
+    "message": "It's available, yes! The 4,500/month rate is locked in 3-month blocks, so for a 6-month stay you'd confirm the first 3 months upfront. Would you like to arrange a viewing first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540404324",
     "contact_name": "Priscilla",
     "contact_identifier": "+971522684450",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
