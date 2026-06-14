@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-14T12:19:33.509Z",
+  "ts": "2026-06-14T12:20:26.482Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279447097",
-    "ticket_id": "957989822",
-    "message": "Hi ! Please call back in order to discuss further",
+    "type": "OUTBOUND",
+    "message_id": "4279447547",
+    "ticket_id": "958622053",
+    "message": "Tomorrow will be able to let you if early check in is possible",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537401267",
+    "contact_name": "Shaker Mousa",
+    "contact_identifier": "+971588929205",
     "channel_id": "585723",
-    "contact_id": "540230972",
-    "contact_name": "Julia",
-    "contact_identifier": "+971551133559",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
