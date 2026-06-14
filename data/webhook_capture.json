@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-14T14:28:01.529Z",
+  "ts": "2026-06-14T14:28:42.077Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4279504045",
+    "type": "INBOUND",
+    "message_id": "4279504435",
     "ticket_id": "958638776",
-    "message": "and it was lovked for thursday at 5 pm",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I want views the room before Thursday to check in",
+    "channel_id": "1304636",
     "contact_id": "540421921",
     "contact_name": "Bmf",
     "contact_identifier": "+971551201942",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4279504045",
+    "parent_ticket_id": "958638776",
+    "event_type": "INBOUND"
   }
 }
