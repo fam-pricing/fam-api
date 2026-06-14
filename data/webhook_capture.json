@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-14T16:21:52.324Z",
+  "ts": "2026-06-14T16:22:46.595Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4279551530",
+    "type": "INBOUND",
+    "message_id": "4279551827",
     "ticket_id": "958656069",
-    "message": "We don't do Ejari or annual leases since this is a holiday home, but we can lock in your rate for 3-month blocks and you can keep renewing for as long as you need. No cheques either, it's all handled by card or bank transfer. End of July works fine. Want to see the place before committing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "So the three months renting price will remain throughout the year",
+    "channel_id": "1304636",
     "contact_id": "540427390",
     "contact_name": ":)",
     "contact_identifier": "+971542139893",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4279551530",
+    "parent_ticket_id": "958656069",
+    "event_type": "INBOUND"
   }
 }
