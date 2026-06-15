@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-15T18:15:30.847Z",
+  "ts": "2026-06-15T18:41:25.232Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4280548891",
+    "type": "INBOUND",
+    "message_id": "4280564829",
     "ticket_id": "958942840",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in Upper Crest\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is it available 28 June move in",
+    "channel_id": "1304636",
     "contact_id": "538763392",
     "contact_name": "~",
     "contact_identifier": "+971501766969",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
