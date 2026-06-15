@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T05:48:01.584Z",
+  "ts": "2026-06-15T05:48:59.589Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279762724",
-    "ticket_id": "958656095",
-    "message": "I want to know do you manage any properties in Madinat Jumeirah living",
+    "type": "OUTBOUND",
+    "message_id": "4279763203",
+    "ticket_id": "958622053",
+    "message": "Good morning,\r\n\r\nCan you please complete the check in form and update us",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537401267",
+    "contact_name": "Shaker Mousa",
+    "contact_identifier": "+971588929205",
     "channel_id": "585723",
-    "contact_id": "540427401",
-    "contact_name": "R",
-    "contact_identifier": "+971504955939",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
