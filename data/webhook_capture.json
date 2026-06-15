@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-15T11:01:30.142Z",
+  "ts": "2026-06-15T11:02:32.571Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4280097512",
+    "type": "INBOUND",
+    "message_id": "4280098690",
     "ticket_id": "958826052",
-    "message": "We have one bedroom apartment available in ACT one ACT two building in business bay.\r\n\r\nIs this location works for you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "No",
+    "channel_id": "1304636",
     "contact_id": "535904741",
     "contact_name": "Anushka",
     "contact_identifier": "+971566700772",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
