@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-15T10:42:44.322Z",
+  "ts": "2026-06-15T10:46:02.849Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4280075965",
+    "type": "INBOUND",
+    "message_id": "4280079668",
     "ticket_id": "958638776",
-    "message": "Apologies for any confusion caused. However, please note that all units in the Upside building are fully booked; therefore, we are unable to arrange a viewing at this time\r\n\r\nThank you for the understanding!",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "The already book for me for Thursday yesterday they asked me abut my passport and emails and I sent it to them",
+    "channel_id": "1304636",
     "contact_id": "540421921",
     "contact_name": "Bmf",
     "contact_identifier": "+971551201942",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4280075965",
+    "parent_ticket_id": "958638776",
+    "event_type": "INBOUND"
   }
 }
