@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T18:43:44.497Z",
+  "ts": "2026-06-15T18:44:10.042Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280566174",
+    "type": "OUTBOUND",
+    "message_id": "4280566411",
     "ticket_id": "958942840",
-    "message": "9pm",
-    "channel_id": "1304636",
+    "message": "9pm is outside viewing hours, but the breakdown you asked for is AED 6,000 first month + AED 1,500 refundable deposit = AED 7,500 total for 28 June move-in. What time works for you tomorrow between 9am and 6pm?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538763392",
     "contact_name": "~",
     "contact_identifier": "+971501766969",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
