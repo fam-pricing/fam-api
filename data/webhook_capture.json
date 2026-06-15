@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T05:50:13.363Z",
+  "ts": "2026-06-15T05:53:59.519Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279763659",
+    "type": "OUTBOUND",
+    "message_id": "4279765100",
     "ticket_id": "958743093",
-    "message": "Is it possible to check in at 12pm?",
-    "channel_id": "1304636",
+    "message": "Allow me to check and update you.\r\n\r\nOur standard check-in time starts at 3:00 PM; however, if the unit is ready earlier, we will be more than happy to assist you with an early check-in.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540250794",
     "contact_name": "Lawson Okimeji",
     "contact_identifier": "+447828014094",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
