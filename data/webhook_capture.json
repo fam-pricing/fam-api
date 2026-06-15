@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-15T10:31:40.416Z",
+  "ts": "2026-06-15T10:32:10.157Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4280063879",
-    "ticket_id": "958638776",
-    "message": "Could you please confirm which apartment you visited yesterday? I was not the one assisting at that time, so I would like to check the details for you.\r\n\r\nApologies for any inconvenience this may have caused.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "540421921",
-    "contact_name": "Bmf",
-    "contact_identifier": "+971551201942",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4280064423",
+    "ticket_id": "958735033",
+    "message": "How much is for 2 months and what are the other options you have?",
+    "channel_id": "585723",
+    "contact_id": "492321109",
+    "contact_name": "Pierre. D",
+    "contact_identifier": "+971521275732",
+    "event_type": "INBOUND"
   }
 }
