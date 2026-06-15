@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T10:36:09.947Z",
+  "ts": "2026-06-15T10:36:29.067Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280068859",
+    "type": "OUTBOUND",
+    "message_id": "4280069333",
     "ticket_id": "958824478",
-    "message": "Is it still available?",
-    "channel_id": "1304636",
+    "message": "Yes, it's available. Want to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540471586",
     "contact_name": "Columbus",
     "contact_identifier": "+263787213111",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
