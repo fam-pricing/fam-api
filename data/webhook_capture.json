@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-15T05:55:02.438Z",
+  "ts": "2026-06-15T05:55:15.387Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4279765688",
+    "type": "INBOUND",
+    "message_id": "4279765794",
     "ticket_id": "958743093",
-    "message": "Please complete the check in form and update us",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Done already",
+    "channel_id": "1304636",
     "contact_id": "540250794",
     "contact_name": "Lawson Okimeji",
     "contact_identifier": "+447828014094",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
