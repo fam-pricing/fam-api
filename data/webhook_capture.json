@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T13:37:12.350Z",
+  "ts": "2026-06-15T13:49:29.008Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280286975",
+    "type": "OUTBOUND",
+    "message_id": "4280302647",
     "ticket_id": "958810503",
-    "message": "Ok I’ll ask customer support",
-    "channel_id": "585723",
+    "message": "Sure",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540467081",
     "contact_name": "Ivan Petrov",
     "contact_identifier": "+79149490001",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
