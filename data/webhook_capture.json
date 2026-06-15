@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T07:25:10.616Z",
+  "ts": "2026-06-15T07:25:34.671Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279835549",
-    "ticket_id": "958638776",
-    "message": "Please if the room is not available just tell me",
+    "type": "OUTBOUND",
+    "message_id": "4279835977",
+    "ticket_id": "958764012",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in Peninsula Three\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "540453989",
+    "contact_name": "Natalia",
+    "contact_identifier": "+971585136351",
     "channel_id": "1304636",
-    "contact_id": "540421921",
-    "contact_name": "Bmf",
-    "contact_identifier": "+971551201942",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
