@@ -2302,5 +2302,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-06-15T17:18:57.135Z",
+    "ticket_id": 958931421,
+    "lead_id": "message_lead_29951690",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 22052,
+    "critic_pass": null,
+    "lead_quality": 5,
+    "buying_stage": "COLD",
+    "skip_reason": "Lead is an existing guest staying in the Palm Tower studio. They want to extend their stay and are asking about their check-out date. Need Faysal to check the booking system for their check-out date and handle the extension."
   }
 ]
