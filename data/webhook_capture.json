@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T06:20:33.997Z",
+  "ts": "2026-06-15T06:20:34.952Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279780031",
-    "ticket_id": "958656095",
-    "message": "I have one bedroom apartment",
+    "type": "OUTBOUND",
+    "message_id": "4279780039",
+    "ticket_id": "958735033",
+    "message": "Unfortunately we do not have any available apartments in your preferred area",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "492321109",
+    "contact_name": "Pierre. D",
+    "contact_identifier": "+971521275732",
     "channel_id": "585723",
-    "contact_id": "540427401",
-    "contact_name": "R",
-    "contact_identifier": "+971504955939",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
