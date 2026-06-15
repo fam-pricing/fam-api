@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-15T21:57:53.954Z",
+  "ts": "2026-06-15T22:00:06.559Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4280650916",
+    "type": "INBOUND",
+    "message_id": "4280651526",
     "ticket_id": "958974372",
-    "message": "Sounds good, speak tomorrow!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "540523296",
     "contact_name": ".",
     "contact_identifier": "+971508245251",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4280650916",
+    "parent_ticket_id": "958974372",
+    "event_type": "INBOUND"
   }
 }
