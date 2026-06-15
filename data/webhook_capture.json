@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T23:06:15.617Z",
+  "ts": "2026-06-15T23:06:45.753Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280668986",
+    "type": "OUTBOUND",
+    "message_id": "4280669186",
     "ticket_id": "958981008",
-    "message": "Looks good\nThis price available till when ?",
-    "channel_id": "1304636",
+    "message": "The price is locked in for now, so no rush on that front. We don't have a video but the full listing with photos and floor plan is here: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html, would you like to come see it in person?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540524921",
     "contact_name": "Baraa",
     "contact_identifier": "+971503032513",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
