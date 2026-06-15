@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T11:12:43.389Z",
+  "ts": "2026-06-15T11:13:04.153Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280110221",
-    "ticket_id": "952757044",
-    "message": "Hi, next month 21st of July, our contract expires and I wanted to check if you expect the price to remain the same for the following months in case I decide to continue with the rent? \n\nThis is for flat 2003, Bayz by Danube Properties",
+    "type": "OUTBOUND",
+    "message_id": "4280110602",
+    "ticket_id": "957746744",
+    "message": "This unit is not available Ms Lori, the unit in 306 is the only unit available",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540168844",
+    "contact_name": "Lori",
+    "contact_identifier": "+971526805792",
     "channel_id": "585723",
-    "contact_id": "536476505",
-    "contact_name": "GEORGI EMILOV RAZVANSKI",
-    "contact_identifier": "+447413535253",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
