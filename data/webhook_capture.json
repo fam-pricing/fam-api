@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-15T19:26:13.261Z",
+  "ts": "2026-06-15T19:26:32.344Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4280589755",
+    "type": "INBOUND",
+    "message_id": "4280589929",
     "ticket_id": "958952915",
-    "message": "Deposit is AED 1,000, fully refundable at check-out. When are you looking to move in?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "One week",
+    "channel_id": "1304636",
     "contact_id": "540516728",
     "contact_name": "Ayman Aldahoun",
     "contact_identifier": "+971522785511",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
