@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-15T07:31:03.889Z",
+  "ts": "2026-06-15T07:31:29.522Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4279841941",
+    "type": "INBOUND",
+    "message_id": "4279842516",
     "ticket_id": "958764012",
-    "message": "Up to 3 months at a time, and you can keep extending from there. What time today works for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "❤️",
+    "channel_id": "1304636",
     "contact_id": "540453989",
     "contact_name": "Natalia",
     "contact_identifier": "+971585136351",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4279841941",
+    "parent_ticket_id": "958764012",
+    "event_type": "INBOUND"
   }
 }
