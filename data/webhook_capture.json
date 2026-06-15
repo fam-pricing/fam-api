@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-15T07:12:52.245Z",
+  "ts": "2026-06-15T07:13:16.660Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4279822896",
+    "type": "INBOUND",
+    "message_id": "4279823309",
     "ticket_id": "958760006",
-    "message": "Unfortunately not possible as in house guest has extended the stay until 20th",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "539955246",
     "contact_name": "Loki",
     "contact_identifier": "+971503789847",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4279822896",
+    "parent_ticket_id": "958760006",
+    "event_type": "INBOUND"
   }
 }
