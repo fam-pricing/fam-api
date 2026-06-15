@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T19:27:59.273Z",
+  "ts": "2026-06-15T19:28:01.414Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280590664",
+    "type": "OUTBOUND",
+    "message_id": "4280590672",
     "ticket_id": "958952915",
-    "message": "One month for now i need",
-    "channel_id": "1304636",
+    "message": "So for a Friday move-in, it's AED 4,000 for the month plus AED 1,000 refundable deposit. Does Friday still work for you, or do you need a different move-in date?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540516728",
     "contact_name": "Ayman Aldahoun",
     "contact_identifier": "+971522785511",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
