@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T07:29:01.941Z",
+  "ts": "2026-06-15T07:29:22.818Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4279839702",
+    "type": "OUTBOUND",
+    "message_id": "4279840053",
     "ticket_id": "958764012",
-    "message": "Hello!  Please could you tell me if the unit is still available?",
-    "channel_id": "1304636",
+    "message": "Yes, it's still available. Would you like to come see it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540453989",
     "contact_name": "Natalia",
     "contact_identifier": "+971585136351",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
