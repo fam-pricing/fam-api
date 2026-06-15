@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-15T08:07:08.693Z",
+  "ts": "2026-06-15T08:08:32.589Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4279884065",
+    "type": "INBOUND",
+    "message_id": "4279885783",
     "ticket_id": "958764012",
-    "message": "Apologies for the inconvenience.\r\n\r\nUnfortunately, we have received a confirmed reservation through another platform, and as a result, the property is no longer available. Therefore, we are unable to arrange a viewing at this time.\r\n\r\nThank you for your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "oh no",
+    "channel_id": "1304636",
     "contact_id": "540453989",
     "contact_name": "Natalia",
     "contact_identifier": "+971585136351",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
