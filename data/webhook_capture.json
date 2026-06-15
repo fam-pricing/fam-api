@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T09:52:29.214Z",
+  "ts": "2026-06-15T09:52:43.795Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280015220",
-    "ticket_id": "958810406",
-    "message": "Hello! What would be the price for the next month starting 18th of June?",
-    "channel_id": "1304636",
-    "contact_id": "539055198",
-    "contact_name": "Alena",
-    "contact_identifier": "+971588035734",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4280015544",
+    "ticket_id": "958810503",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540467081",
+    "contact_name": "Ivan Petrov",
+    "contact_identifier": "+79149490001",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
