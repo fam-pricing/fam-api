@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T10:34:53.617Z",
+  "ts": "2026-06-15T10:35:42.225Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280067522",
-    "ticket_id": "958638776",
-    "message": "Near to sls",
+    "type": "OUTBOUND",
+    "message_id": "4280068374",
+    "ticket_id": "958824478",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-2PuwDDpSs0u.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "540471586",
+    "contact_name": "Columbus",
+    "contact_identifier": "+263787213111",
     "channel_id": "1304636",
-    "contact_id": "540421921",
-    "contact_name": "Bmf",
-    "contact_identifier": "+971551201942",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
