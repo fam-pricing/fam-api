@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-15T05:19:21.927Z",
+  "ts": "2026-06-15T05:19:35.953Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4279749957",
-    "ticket_id": "958614104",
-    "message": "Ho good morning Ms Sheyda",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "537607776",
-    "contact_name": "SHEYDA",
-    "contact_identifier": "+971502809008",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4279750034",
+    "ticket_id": "958735033",
+    "message": "👍",
+    "channel_id": "585723",
+    "contact_id": "492321109",
+    "contact_name": "Pierre. D",
+    "contact_identifier": "+971521275732",
+    "parent_message_id": "4279748905",
+    "parent_ticket_id": "958735033",
+    "event_type": "INBOUND"
   }
 }
