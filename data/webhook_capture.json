@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T18:41:25.232Z",
+  "ts": "2026-06-15T18:41:47.361Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280564829",
+    "type": "OUTBOUND",
+    "message_id": "4280565056",
     "ticket_id": "958942840",
-    "message": "Is it available 28 June move in",
-    "channel_id": "1304636",
+    "message": "Yes, 28 June works as a move-in date. Did you want to come see the place first, or do you have any other questions about it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538763392",
     "contact_name": "~",
     "contact_identifier": "+971501766969",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
