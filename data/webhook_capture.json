@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-15T13:22:34.648Z",
+  "ts": "2026-06-15T13:27:39.203Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280268670",
-    "ticket_id": "958837048",
-    "message": "Ok",
+    "type": "OUTBOUND",
+    "message_id": "4280274831",
+    "ticket_id": "958810503",
+    "message": "Unfortunately, we have still been unable to collect the payment from Booking.com, and as a result, your reservation remains unconfirmed.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540467081",
+    "contact_name": "Ivan Petrov",
+    "contact_identifier": "+79149490001",
     "channel_id": "585723",
-    "contact_id": "540476002",
-    "contact_name": "C.O",
-    "contact_identifier": "+971526079944",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
