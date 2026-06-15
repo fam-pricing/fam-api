@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-15T07:32:37.140Z",
+  "ts": "2026-06-15T07:33:59.016Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4279844035",
+    "type": "INBOUND",
+    "message_id": "4279845718",
     "ticket_id": "958764012",
-    "message": "All bills are included, and you're welcome to come by anytime between 9am and 6pm today. What time suits you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Would 5pm be suitable?",
+    "channel_id": "1304636",
     "contact_id": "540453989",
     "contact_name": "Natalia",
     "contact_identifier": "+971585136351",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
