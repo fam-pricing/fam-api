@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-16T09:55:32.902Z",
+  "ts": "2026-06-16T09:56:08.075Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4281005023",
+    "type": "INBOUND",
+    "message_id": "4281005611",
     "ticket_id": "946488243",
-    "message": "Hi\r\n\r\nUnfortunately no there is an in house guest in the apartment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Ok. When is he living and when can we view?",
+    "channel_id": "585723",
     "contact_id": "531448413",
     "contact_name": "Nurjemal",
     "contact_identifier": "+971555386752",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
