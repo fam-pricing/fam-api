@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T11:15:39.342Z",
+  "ts": "2026-06-16T11:17:09.969Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281095318",
-    "ticket_id": "951617602",
-    "message": "Ok thanks",
+    "type": "OUTBOUND",
+    "message_id": "4281097157",
+    "ticket_id": "959011736",
+    "message": "Any update regarding your arrival time for check-in? As our team has to be there for the check-in process",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "540530763",
+    "contact_name": "Mounir",
+    "contact_identifier": "+971506229582",
     "channel_id": "585723",
-    "contact_id": "538457647",
-    "contact_name": "Tim Dominik Germany",
-    "contact_identifier": "+56931740105",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
