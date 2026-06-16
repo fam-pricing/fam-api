@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T13:14:39.016Z",
+  "ts": "2026-06-16T13:18:04.055Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281245827",
-    "ticket_id": "959149576",
-    "message": "Which floor",
+    "type": "OUTBOUND",
+    "message_id": "4281249883",
+    "ticket_id": "958614104",
+    "message": "Hello ! PropertyFinder send me your contact regarding this listing:\n\nMag\n\nHow can I help you ?",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "537607776",
+    "contact_name": "SHEYDA",
+    "contact_identifier": "+971502809008",
     "channel_id": "1304636",
-    "contact_id": "540476002",
-    "contact_name": "C.O",
-    "contact_identifier": "+971526079944",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
