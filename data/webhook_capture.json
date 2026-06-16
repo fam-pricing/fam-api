@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T05:46:32.183Z",
+  "ts": "2026-06-16T05:46:58.883Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280749511",
+    "type": "OUTBOUND",
+    "message_id": "4280749695",
     "ticket_id": "958931421",
-    "message": "Ok",
-    "channel_id": "1304636",
+    "message": "May I confirm do you wish to extend the stay with us",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538123805",
     "contact_name": "H",
     "contact_identifier": "+971501267344",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
