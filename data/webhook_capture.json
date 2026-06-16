@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T12:57:52.050Z",
+  "ts": "2026-06-16T13:00:54.233Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281224288",
-    "ticket_id": "959149576",
-    "message": "My phone number 052 577 79 04",
-    "channel_id": "1304636",
-    "contact_id": "540476002",
-    "contact_name": "C.O",
-    "contact_identifier": "+971526079944",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4281228344",
+    "ticket_id": "958810503",
+    "message": "Please note that as we didn't receive an update on the payment your reservation has been cancelled",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540467081",
+    "contact_name": "Ivan Petrov",
+    "contact_identifier": "+79149490001",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
