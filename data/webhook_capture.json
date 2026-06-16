@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-16T10:05:42.277Z",
+  "ts": "2026-06-16T10:05:54.046Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4281016683",
-    "ticket_id": "959063234",
-    "message": "We understand your concern; however, completing the check-in form is a mandatory requirement as part of the check-in process.\r\n\r\nPlease note that there will be no staff available at the building to assist with completing the form upon arrival. Once the check-in form has been submitted, we will be able to register your reservation with the building management and ensure a smooth check-in experience.\r\n\r\nTherefore, we kindly request that you complete the check-in form prior to your arrival to avoid any inconvenience or delays during the check-in process.\r\n\r\nThank you for your understanding and cooperation.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "540543058",
-    "contact_name": "Wael Abdulazeem",
-    "contact_identifier": "+96599456543",
+    "type": "INBOUND",
+    "message_id": "4281016898",
+    "ticket_id": "959011736",
+    "message": "I have an appointment, I’ll finish and then I’ll go home.",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "540530763",
+    "contact_name": "Mounir",
+    "contact_identifier": "+971506229582",
+    "event_type": "INBOUND"
   }
 }
