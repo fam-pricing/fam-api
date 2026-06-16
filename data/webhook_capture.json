@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-16T12:11:33.454Z",
+  "ts": "2026-06-16T12:11:40.017Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4281169088",
-    "ticket_id": "959028256",
-    "message": "Unfortunately no there is an in house guest in the apartment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539566355",
-    "contact_name": "Matias Ariel Griszka",
-    "contact_identifier": "+971501784347",
+    "type": "INBOUND",
+    "message_id": "4281169212",
+    "ticket_id": "958460969",
+    "message": "shall i make a bank transfer?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "539807364",
+    "contact_name": "shivam",
+    "contact_identifier": "+919899095006",
+    "event_type": "INBOUND"
   }
 }
