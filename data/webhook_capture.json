@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T12:05:20.429Z",
+  "ts": "2026-06-16T12:06:45.230Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281160688",
-    "ticket_id": "959028256",
-    "message": "Is automatically",
-    "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Ariel Griszka",
-    "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4281162424",
+    "ticket_id": "958810503",
+    "message": "Please note that if we didn't receive the payment before 5pm the booking will be cancelled automatically",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540467081",
+    "contact_name": "Ivan Petrov",
+    "contact_identifier": "+79149490001",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
