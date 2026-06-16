@@ -1361,3 +1361,11 @@ Once we have these details, we'll send you a payment link to confirm your reserv
 ## Learned (2026-06-13)
 - If a lead objects to or asks about the security deposit, respond: "Unfortunately, the security deposit is mandatory and we are unable to waive it."
   (Learned from Faysal handling SA VT re 1BR in Peninsula Three)
+
+## Learned (2026-06-16)
+- If a lead responds with "Sorry?" (indicating confusion or hesitation), reply with the following:
+
+Please note that our calendar is listed across multiple online platforms, so availability can change at any time. To secure your booking, we kindly ask that payment be completed as soon as possible.
+
+We appreciate your prompt cooperation.
+  (Learned from Faysal handling C.O re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-the-address-residences-dubai-opera-the-address-residences-dubai-opera-tower-1-15597551.html)
