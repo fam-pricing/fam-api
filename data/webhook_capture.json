@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T15:02:32.376Z",
+  "ts": "2026-06-16T15:02:54.980Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281382231",
+    "type": "OUTBOUND",
+    "message_id": "4281382706",
     "ticket_id": "959187634",
-    "message": "What’s the break down for charges",
-    "channel_id": "1304636",
+    "message": "Jo, that covers everything on the charges, the AED 6,500/month is all-in, and the only extra is the AED 1,500 refundable deposit you get back within 14 working days after check-out. Would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540580585",
     "contact_name": "Jo",
     "contact_identifier": "+971524524445",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
