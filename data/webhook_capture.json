@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-16T13:37:07.559Z",
+  "ts": "2026-06-16T13:37:44.549Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4281273722",
-    "ticket_id": "958460969",
-    "message": "Allow me to check with the finance and update you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539807364",
-    "contact_name": "shivam",
-    "contact_identifier": "+919899095006",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4281274442",
+    "ticket_id": "936734695",
+    "message": "24 is rent",
+    "channel_id": "585723",
+    "contact_id": "534737062",
+    "contact_name": "IFEOMA NWAOGU",
+    "contact_identifier": "+971525824134",
+    "parent_message_id": "4281272691",
+    "parent_ticket_id": "936734695",
+    "event_type": "INBOUND"
   }
 }
