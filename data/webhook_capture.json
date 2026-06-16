@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-16T13:52:39.824Z",
+  "ts": "2026-06-16T13:53:43.334Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4281292049",
-    "ticket_id": "934289377",
-    "message": "Team will be visiting within 1 hour, apologies for the delay caused",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "534106375",
-    "contact_name": "Francesco Topputo",
-    "contact_identifier": "+447576128423",
+    "type": "INBOUND",
+    "message_id": "4281293984",
+    "ticket_id": "959169493",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "532868543",
+    "contact_name": "Eduardo Charles Middleton",
+    "contact_identifier": "+393498933012",
+    "parent_message_id": "4281287744",
+    "parent_ticket_id": "929363617",
+    "event_type": "INBOUND"
   }
 }
