@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T06:21:57.322Z",
+  "ts": "2026-06-16T06:22:28.448Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280766884",
+    "type": "OUTBOUND",
+    "message_id": "4280767169",
     "ticket_id": "959023000",
-    "message": "Hello, im looking for a 3 month rental beginning July. Is this available and do you have a better price for 3 months..",
-    "channel_id": "1304636",
+    "message": "Available from July, so the timing works. Summer is already our lower seasonal rate, so you're getting the best price for that period, rates are fixed rather than negotiable.\n\nWhat date in July were you thinking of moving in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540533012",
     "contact_name": "Laura",
     "contact_identifier": "+971528272226",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
