@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-16T13:41:38.777Z",
+  "ts": "2026-06-16T13:42:03.122Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4281279003",
+    "type": "INBOUND",
+    "message_id": "4281279464",
     "ticket_id": "936734695",
-    "message": "Your check-out date is on the 23rd, and we fully understand your request. However, we are unable to block the unit without receiving the payment.\r\n\r\nTherefore, if you wish to extend your stay, kindly complete the payment in advance so we can secure the unit for you accordingly.\r\n\r\nWe appreciate your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Oh okay",
+    "channel_id": "585723",
     "contact_id": "534737062",
     "contact_name": "IFEOMA NWAOGU",
     "contact_identifier": "+971525824134",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4281279003",
+    "parent_ticket_id": "936734695",
+    "event_type": "INBOUND"
   }
 }
