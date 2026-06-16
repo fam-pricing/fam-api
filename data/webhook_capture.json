@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T10:17:26.191Z",
+  "ts": "2026-06-16T10:18:04.095Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281030413",
-    "ticket_id": "958963762",
-    "message": "U can go to Apartament for take",
-    "channel_id": "1304636",
-    "contact_id": "536501473",
-    "contact_name": "Joubert Rocha Chaves",
-    "contact_identifier": "+971586730550",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4281031154",
+    "ticket_id": "959011736",
+    "message": "Self-check-in is not allowed because one of our representatives must be there to assist you with the check-in",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "540530763",
+    "contact_name": "Mounir",
+    "contact_identifier": "+971506229582",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
