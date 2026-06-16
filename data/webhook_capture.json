@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T06:56:52.799Z",
+  "ts": "2026-06-16T06:57:34.165Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280790925",
-    "ticket_id": "958638776",
-    "message": "Do you have any studio available at upside building?",
+    "type": "OUTBOUND",
+    "message_id": "4280791508",
+    "ticket_id": "959028256",
+    "message": "Good morning Mr Matias,\r\n\r\nChahana is on leave and Tharushi here.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539566355",
+    "contact_name": "Matias Ariel Griszka",
+    "contact_identifier": "+971501784347",
     "channel_id": "1304636",
-    "contact_id": "540421921",
-    "contact_name": "Bmf",
-    "contact_identifier": "+971551201942",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
