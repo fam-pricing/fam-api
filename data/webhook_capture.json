@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T12:43:20.890Z",
+  "ts": "2026-06-16T12:45:53.335Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281206831",
-    "ticket_id": "958638776",
-    "message": "Because I don’t want them 19 you tell me the rooms is not available",
+    "type": "OUTBOUND",
+    "message_id": "4281210099",
+    "ticket_id": "959149576",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-the-address-residences-dubai-opera-the-address-residences-dubai-opera-tower-1-15597551.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "540476002",
+    "contact_name": "C.O",
+    "contact_identifier": "+971526079944",
     "channel_id": "1304636",
-    "contact_id": "540421921",
-    "contact_name": "Bmf",
-    "contact_identifier": "+971551201942",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
