@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T10:57:12.460Z",
+  "ts": "2026-06-16T10:57:42.112Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281074960",
+    "type": "OUTBOUND",
+    "message_id": "4281075482",
     "ticket_id": "959107984",
-    "message": "Do you have fully furnished studio bills included 3,500 aed in JVC",
-    "channel_id": "1304636",
+    "message": "The studio in Binghatti Azure is AED 4,000/month, just above your budget. Would that work for you, or would you prefer I look for something closer to AED 3,500?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540555547",
     "contact_name": "Roisin Flynn",
     "contact_identifier": "+353851946702",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
