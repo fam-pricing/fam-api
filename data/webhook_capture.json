@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T10:03:38.717Z",
+  "ts": "2026-06-16T10:03:58.748Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281014241",
+    "type": "OUTBOUND",
+    "message_id": "4281014779",
     "ticket_id": "959011736",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "May I know your estimated arrival time for the check-in?",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "540530763",
     "contact_name": "Mounir",
     "contact_identifier": "+971506229582",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
