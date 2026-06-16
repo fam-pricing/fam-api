@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T12:12:18.666Z",
+  "ts": "2026-06-16T12:13:37.768Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281169909",
-    "ticket_id": "958460969",
-    "message": "and it’s gonna be refunded in the same bank right? would you be able to issue an invoice for that?",
+    "type": "OUTBOUND",
+    "message_id": "4281172041",
+    "ticket_id": "959057762",
+    "message": "For the moment we can only confirm for the 3months rate only",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540541588",
+    "contact_name": "Mariana Possari | Dance",
+    "contact_identifier": "+971581202280",
     "channel_id": "1304636",
-    "contact_id": "539807364",
-    "contact_name": "shivam",
-    "contact_identifier": "+919899095006",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
