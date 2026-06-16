@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T09:18:04.892Z",
+  "ts": "2026-06-16T09:18:06.725Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280958986",
+    "type": "OUTBOUND",
+    "message_id": "4280959014",
     "ticket_id": "958981008",
-    "message": "any discount if we book 3 months ?",
-    "channel_id": "1304636",
+    "message": "Viewings are until 6pm, so 6pm is actually the last slot. Want to come at 6 today or would tomorrow work better for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540524921",
     "contact_name": "Baraa",
     "contact_identifier": "+971503032513",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
