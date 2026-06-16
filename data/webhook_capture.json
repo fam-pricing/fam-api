@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-16T06:56:39.067Z",
+  "ts": "2026-06-16T06:56:52.799Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4280790729",
-    "ticket_id": "951364564",
-    "message": "We have blocked the unit for today.\r\n\r\nKindly note that the extension can only be processed once the payment is completed. Therefore, please ensure the payment is made tomorrow at the earliest convenience so we can proceed with confirming the extension for you.\r\n\r\nThank you for your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "538357750",
-    "contact_name": "VERA MATIUGINA",
-    "contact_identifier": "+971554831031",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4280790925",
+    "ticket_id": "958638776",
+    "message": "Do you have any studio available at upside building?",
+    "channel_id": "1304636",
+    "contact_id": "540421921",
+    "contact_name": "Bmf",
+    "contact_identifier": "+971551201942",
+    "event_type": "INBOUND"
   }
 }
