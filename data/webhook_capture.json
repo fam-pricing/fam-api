@@ -1,18 +1,20 @@
 {
-  "ts": "2026-06-16T11:30:34.187Z",
+  "ts": "2026-06-16T11:31:51.075Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281112273",
-    "ticket_id": "959116025",
-    "message": "Yes please! I would like to list my property as a holiday home. ",
-    "channel_id": "883603",
-    "contact_id": "540558085",
-    "contact_name": "ihsane",
-    "contact_email": "ihsane.choua@gmail.com",
-    "contact_identifier": "08042050-1986-4a1b-9767-9491b73e2fb2",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4281113770",
+    "ticket_id": "951617602",
+    "message": "Payment link - https://totalpay.ae/payment/20260616326a31341443c0d",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538457647",
+    "contact_name": "Tim Dominik Germany",
+    "contact_identifier": "+56931740105",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
