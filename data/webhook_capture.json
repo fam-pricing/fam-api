@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T09:29:48.933Z",
+  "ts": "2026-06-16T09:31:39.899Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280972612",
-    "ticket_id": "959028256",
-    "message": "Document",
-    "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Ariel Griszka",
-    "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4280974945",
+    "ticket_id": "951617602",
+    "message": "Unfortunately, due to a system glitch, AMEX cards are currently not being accepted.\r\n\r\nCould you kindly let us know if you are able to complete the payment using a different card, or alternatively proceed with a bank transfer? We would appreciate your assistance in completing the payment through either of these options.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538457647",
+    "contact_name": "Tim Dominik Germany",
+    "contact_identifier": "+56931740105",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
