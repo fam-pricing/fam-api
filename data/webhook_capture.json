@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T06:19:58.890Z",
+  "ts": "2026-06-16T06:20:23.882Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280765728",
-    "ticket_id": "955436676",
-    "message": "Good morning",
-    "channel_id": "585723",
-    "contact_id": "539565275",
-    "contact_name": "GESCARD ISSA",
-    "contact_identifier": "+23795870067",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4280765995",
+    "ticket_id": "959023000",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n3BR in Imperial Avenue\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "540533012",
+    "contact_name": "Laura",
+    "contact_identifier": "+971528272226",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
