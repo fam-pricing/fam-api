@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T08:26:50.862Z",
+  "ts": "2026-06-16T08:27:06.132Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4280887108",
+    "type": "OUTBOUND",
+    "message_id": "4280887409",
     "ticket_id": "959057762",
-    "message": "How long can we stay in the apartment?",
-    "channel_id": "1304636",
+    "message": "You can stay as long as you need, we confirm rates in 3-month blocks and you're welcome to keep extending from there. Were you thinking short-term or longer?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540541588",
     "contact_name": "Mariana Possari | Dance",
     "contact_identifier": "+971581202280",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
