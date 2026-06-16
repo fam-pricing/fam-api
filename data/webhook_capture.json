@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T14:09:17.102Z",
+  "ts": "2026-06-16T14:09:43.804Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281318033",
-    "ticket_id": "958981008",
-    "message": "I need to talk with live agent",
+    "type": "OUTBOUND",
+    "message_id": "4281318567",
+    "ticket_id": "958638776",
+    "message": "We are unable to confirm availability at this stage, as the calendar is open across multiple online platforms and bookings may be received at any time.\r\n\r\nKindly note that we will only be able to block the unit once the security deposit has been received. Until then, we are unable to reserve or guarantee the unit for you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540421921",
+    "contact_name": "Bmf",
+    "contact_identifier": "+971551201942",
     "channel_id": "1304636",
-    "contact_id": "540524921",
-    "contact_name": "Baraa",
-    "contact_identifier": "+971503032513",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
