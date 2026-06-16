@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T11:18:23.942Z",
+  "ts": "2026-06-16T11:20:19.850Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281098560",
+    "type": "OUTBOUND",
+    "message_id": "4281100761",
     "ticket_id": "959011736",
-    "message": "I will arrive at 16:00.",
-    "channel_id": "585723",
+    "message": "Well noted, kindly proceed to the building lobby, and our team will meet you there",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "540530763",
     "contact_name": "Mounir",
     "contact_identifier": "+971506229582",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
