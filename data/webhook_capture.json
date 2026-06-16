@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-16T10:24:02.763Z",
+  "ts": "2026-06-16T10:24:36.463Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281038624",
+    "type": "OUTBOUND",
+    "message_id": "4281039192",
     "ticket_id": "959089929",
-    "message": "Okay can you send me details for the studio",
-    "channel_id": "1304636",
+    "message": "Studios available: Binghatti Azure in JVC at AED 4,000/mo, Upside Living in Business Bay at AED 4,500/mo, and Peninsula Five in Business Bay at AED 5,000/mo. All are monthly with bills included, same setup as the JVT 1BR. Which of those would you like more details on?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540550509",
     "contact_name": "Solid",
     "contact_identifier": "+971501324759",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
