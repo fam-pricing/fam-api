@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-17T13:15:09.052Z",
+  "ts": "2026-06-17T13:15:15.069Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4282219672",
-    "ticket_id": "959372757",
-    "message": "Confirm",
+    "type": "OUTBOUND",
+    "message_id": "4282219800",
+    "ticket_id": "959423379",
+    "message": "Allow me to check",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "445842993",
+    "contact_name": "Mr BORIS KOZLOV",
+    "contact_identifier": "+79776484858",
     "channel_id": "585723",
-    "contact_id": "540629870",
-    "contact_name": "Fran",
-    "contact_identifier": "+34691222002",
-    "parent_message_id": "4281979730",
-    "parent_ticket_id": "959372757",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
