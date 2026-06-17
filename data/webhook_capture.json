@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-17T23:31:05.875Z",
+  "ts": "2026-06-17T23:31:07.482Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4282632169",
+    "type": "OUTBOUND",
+    "message_id": "4282632176",
     "ticket_id": "959550093",
-    "message": "Hi, I previously booked an apartment with you in City Walk Building 3B, Al Wasl, Dubai, UAE. I wanted to check if it’s available for the month of July for a full month. This is the property I booked before:\nCity Walk Building 3B, Al Wasl, Dubai, UAE.",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "540685489",
     "contact_name": "Ghada",
     "contact_identifier": "e6a41dc2-7534-47c1-114a-09f9e0bba170",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
