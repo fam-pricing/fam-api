@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-17T12:37:27.885Z",
+  "ts": "2026-06-17T12:37:31.047Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4282171801",
+    "type": "OUTBOUND",
+    "message_id": "4282171852",
     "ticket_id": "959423379",
-    "message": "Hi\nmy washing machine is malfunction \ncan you please send someone to check?",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "445842993",
     "contact_name": "Mr BORIS KOZLOV",
     "contact_identifier": "+79776484858",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
