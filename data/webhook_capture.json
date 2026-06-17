@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-17T09:22:37.776Z",
+  "ts": "2026-06-17T09:24:04.605Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4281947766",
+    "type": "OUTBOUND",
+    "message_id": "4281949728",
     "ticket_id": "959361306",
-    "message": "This is Xhesika from Warriors team, can i speak to an agent please?",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540626861",
     "contact_name": "Xhesika Çami",
     "contact_identifier": "+971524489834",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
