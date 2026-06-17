@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-17T18:33:27.387Z",
+  "ts": "2026-06-17T18:33:28.785Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4282512071",
+    "type": "OUTBOUND",
+    "message_id": "4282512097",
     "ticket_id": "959512347",
-    "message": "Hello.",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "540672857",
     "contact_name": "A",
     "contact_identifier": "2ec844cb-93e1-4ebf-52c1-4248f0e07ff5",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
