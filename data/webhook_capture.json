@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-17T11:30:59.946Z",
+  "ts": "2026-06-17T11:32:18.684Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4282094213",
-    "ticket_id": "958820238",
-    "message": "So which number did you call and didn’t receive an answer ?",
-    "channel_id": "1304636",
-    "contact_id": "537793990",
-    "contact_name": "LITA ELIE",
-    "contact_identifier": "+79015817252",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4282095728",
+    "ticket_id": "959105970",
+    "message": "As I didn't hear back from you in a while, I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540554892",
+    "contact_name": "Omar Eid",
+    "contact_identifier": "+97339977740",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
