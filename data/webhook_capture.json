@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-17T10:06:14.948Z",
+  "ts": "2026-06-17T10:09:50.138Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4282000285",
+    "type": "OUTBOUND",
+    "message_id": "4282004438",
     "ticket_id": "958460969",
-    "message": "i need the invoice under the company name\ni made the payment from company account so need it under its name",
-    "channel_id": "1304636",
+    "message": "We will be able to provide the invoice for the stay under the company details only after check-out. In the meantime, please allow me some time to double-check with our finance team and confirm this for you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "539807364",
     "contact_name": "shivam",
     "contact_identifier": "+919899095006",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
