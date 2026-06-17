@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-17T10:44:51.920Z",
+  "ts": "2026-06-17T10:45:24.059Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4282044123",
+    "type": "INBOUND",
+    "message_id": "4282044668",
     "ticket_id": "959028256",
-    "message": "Yes we have received the payment Mr Matias",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Thank you for your confirmation",
+    "channel_id": "1304636",
     "contact_id": "539566355",
     "contact_name": "Matias Ariel Griszka",
     "contact_identifier": "+971501784347",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
