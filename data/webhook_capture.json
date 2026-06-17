@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-17T07:01:55.459Z",
+  "ts": "2026-06-17T07:02:55.114Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4281788886",
-    "ticket_id": "959319015",
-    "message": "Sure let me send the payment link for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "540354721",
-    "contact_name": "Ismael Ferrahi",
-    "contact_identifier": "+971585032384",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4281789988",
+    "ticket_id": "955436676",
+    "message": "Audio",
+    "channel_id": "585723",
+    "contact_id": "539565275",
+    "contact_name": "GESCARD ISSA",
+    "contact_identifier": "+23795870067",
+    "parent_message_id": "4281784888",
+    "parent_ticket_id": "955436676",
+    "event_type": "INBOUND"
   }
 }
