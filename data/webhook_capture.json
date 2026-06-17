@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-17T12:18:06.345Z",
+  "ts": "2026-06-17T12:19:19.923Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4282149949",
-    "ticket_id": "959414852",
-    "message": "None of your telephone numbers are working. Is this a scam company or how can I call you?",
-    "channel_id": "883603",
-    "contact_id": "540642074",
-    "contact_name": "Mikael Hansen",
-    "contact_identifier": "121e2257-4895-45ee-8bd5-6fae78edbdb3",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4282151160",
+    "ticket_id": "959201477",
+    "message": "Allow me to check with the team for the rates and update you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540585060",
+    "contact_name": "Zhen Ali",
+    "contact_identifier": "+447450006067",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
