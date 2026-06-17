@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-17T10:09:50.138Z",
+  "ts": "2026-06-17T10:10:44.442Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4282004438",
+    "type": "INBOUND",
+    "message_id": "4282005608",
     "ticket_id": "958460969",
-    "message": "We will be able to provide the invoice for the stay under the company details only after check-out. In the meantime, please allow me some time to double-check with our finance team and confirm this for you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "doesn’t make sense, invoice is to be presented at the time of the payment. please double check",
+    "channel_id": "1304636",
     "contact_id": "539807364",
     "contact_name": "shivam",
     "contact_identifier": "+919899095006",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
