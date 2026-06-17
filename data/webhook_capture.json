@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-17T10:05:25.704Z",
+  "ts": "2026-06-17T10:06:14.948Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4281999398",
+    "type": "INBOUND",
+    "message_id": "4282000285",
     "ticket_id": "958460969",
-    "message": "May I know you need the booking confirmation under the above company details",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "i need the invoice under the company name\ni made the payment from company account so need it under its name",
+    "channel_id": "1304636",
     "contact_id": "539807364",
     "contact_name": "shivam",
     "contact_identifier": "+919899095006",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
