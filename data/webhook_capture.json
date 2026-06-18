@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-18T12:31:07.216Z",
+  "ts": "2026-06-18T12:35:36.699Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4283167864",
-    "ticket_id": "958735033",
-    "message": "Hello,I want to do viewing for this apartment on Friday",
+    "type": "OUTBOUND",
+    "message_id": "4283172556",
+    "ticket_id": "936734695",
+    "message": "Please note that we are unable to deduct this amount from the security deposit. Therefore, we kindly request that you complete the outstanding payment at your earliest convenience.\r\n\r\nThank you for your cooperation.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "534737062",
+    "contact_name": "IFEOMA NWAOGU",
+    "contact_identifier": "+971525824134",
     "channel_id": "585723",
-    "contact_id": "492321109",
-    "contact_name": "Pierre. D",
-    "contact_identifier": "+971521275732",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
