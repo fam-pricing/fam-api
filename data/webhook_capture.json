@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-18T10:22:13.104Z",
+  "ts": "2026-06-18T10:22:28.600Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4283023287",
-    "ticket_id": "959589298",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "540691796",
-    "contact_name": "Mehul Singh",
-    "contact_identifier": "+971585921350",
+    "type": "INBOUND",
+    "message_id": "4283023634",
+    "ticket_id": "959587621",
+    "message": "Okay understood",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "540691470",
+    "contact_name": "ramiza",
+    "contact_identifier": "+971566548614",
+    "parent_message_id": "4283021784",
+    "parent_ticket_id": "959587621",
+    "event_type": "INBOUND"
   }
 }
