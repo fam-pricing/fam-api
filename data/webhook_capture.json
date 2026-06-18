@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-18T13:38:13.283Z",
+  "ts": "2026-06-18T13:38:27.311Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4283242062",
-    "ticket_id": "959587621",
-    "message": "Would you like to complete the deposit payment ?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "540691470",
-    "contact_name": "ramiza",
-    "contact_identifier": "+971566548614",
+    "type": "INBOUND",
+    "message_id": "4283242273",
+    "ticket_id": "955416882",
+    "message": "I understan that I will wait until tomorrow and I will update it with you",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "436514827",
+    "contact_name": "Rashid Mohammed Alhamody",
+    "contact_identifier": "+971507725585",
+    "parent_message_id": "4283241453",
+    "parent_ticket_id": "955416882",
+    "event_type": "INBOUND"
   }
 }
