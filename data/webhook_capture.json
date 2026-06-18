@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-18T13:51:52.811Z",
+  "ts": "2026-06-18T13:52:13.899Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4283257063",
+    "type": "OUTBOUND",
+    "message_id": "4283257436",
     "ticket_id": "959587621",
-    "message": "Checking with bank card",
-    "channel_id": "585723",
+    "message": "Yes can you try another card please",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540691470",
     "contact_name": "ramiza",
     "contact_identifier": "+971566548614",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
