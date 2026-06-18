@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-18T10:33:56.677Z",
+  "ts": "2026-06-18T10:34:12.610Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4283035594",
+    "type": "INBOUND",
+    "message_id": "4283036077",
     "ticket_id": "959587621",
-    "message": "Prior to check-in, the apartment will be professionally cleaned. However, please note that daily housekeeping services are not included during the stay.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Ah okay okay",
+    "channel_id": "585723",
     "contact_id": "540691470",
     "contact_name": "ramiza",
     "contact_identifier": "+971566548614",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4283035594",
+    "parent_ticket_id": "959587621",
+    "event_type": "INBOUND"
   }
 }
