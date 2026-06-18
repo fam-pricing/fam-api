@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-18T13:38:09.260Z",
+  "ts": "2026-06-18T13:38:10.914Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4283241966",
-    "ticket_id": "959730696",
-    "message": "Hello. Please find the requested banking details for the deposit refund:Booking Reference Number: QT-000722-U302-B012Beneficiary Name: Denis ByvaltsevBeneficiary Address: Al Safa, Dubai, UAEBeneficiary Bank Name: Mashreq BankBeneficiary Bank Account Details (IBAN): AE330330000019102043206Account Number: 019102043206Swift Code: BOMLAEADBeneficiary Bank Address: Umniyati St, Al Asayel Street 345, Downtown Dubai, UAECurrency of Account: AEDSort Code: N/A (UAE does not use sort codes)Checkout date: 11 May 2026. Deposit amount: 3,000 AED.Please confirm receipt and process the refund at the earliest.Denis Byvaltsev",
-    "channel_id": "1275470",
-    "contact_id": "540729155",
+    "message_id": "4283242003",
+    "ticket_id": "924810041",
+    "message": "To: deposit@famliving.com\nSubject: Deposit Refund — Banking Details | QT-000722-U302-B012\n\nPlease find the requested banking details for the deposit refund:\n\nBooking Reference Number: QT-000722-U302-B012\nBeneficiary Name: Denis Byvaltsev\nBeneficiary Address: Al Safa, Dubai, UAE\nBeneficiary Bank Name: Mashreq Bank\nBeneficiary Bank Account Details (IBAN): AE330330000019102043206\nAccount Number: 019102043206\nSwift Code: BOMLAEAD\nBeneficiary Bank Address: Umniyati St, Al Asayel Street 345, Downtown Dubai, UAE\nCurrency of Account: AED\nSort Code: N/A (UAE does not use sort codes)\n\nCheckout date: 11 May 2026. Deposit amount: 3,000 AED.\n\nPlease confirm receipt and process the refund at the earliest.\n\nDenis Byvaltsev",
+    "channel_id": "585723",
+    "contact_id": "531782816",
     "contact_name": "Denis Byvaltsev",
-    "contact_email": "goodbusiness@goldenkapp.com",
+    "contact_identifier": "+971524851531",
     "event_type": "INBOUND"
   }
 }
