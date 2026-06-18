@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-18T13:38:10.914Z",
+  "ts": "2026-06-18T13:38:13.283Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4283242003",
-    "ticket_id": "924810041",
-    "message": "To: deposit@famliving.com\nSubject: Deposit Refund — Banking Details | QT-000722-U302-B012\n\nPlease find the requested banking details for the deposit refund:\n\nBooking Reference Number: QT-000722-U302-B012\nBeneficiary Name: Denis Byvaltsev\nBeneficiary Address: Al Safa, Dubai, UAE\nBeneficiary Bank Name: Mashreq Bank\nBeneficiary Bank Account Details (IBAN): AE330330000019102043206\nAccount Number: 019102043206\nSwift Code: BOMLAEAD\nBeneficiary Bank Address: Umniyati St, Al Asayel Street 345, Downtown Dubai, UAE\nCurrency of Account: AED\nSort Code: N/A (UAE does not use sort codes)\n\nCheckout date: 11 May 2026. Deposit amount: 3,000 AED.\n\nPlease confirm receipt and process the refund at the earliest.\n\nDenis Byvaltsev",
+    "type": "OUTBOUND",
+    "message_id": "4283242062",
+    "ticket_id": "959587621",
+    "message": "Would you like to complete the deposit payment ?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540691470",
+    "contact_name": "ramiza",
+    "contact_identifier": "+971566548614",
     "channel_id": "585723",
-    "contact_id": "531782816",
-    "contact_name": "Denis Byvaltsev",
-    "contact_identifier": "+971524851531",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
