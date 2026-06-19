@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-19T12:57:29.552Z",
+  "ts": "2026-06-19T13:06:34.052Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4284092555",
-    "ticket_id": "924810041",
-    "message": "Apologies for the delay",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "531782816",
-    "contact_name": "Denis Byvaltsev",
-    "contact_identifier": "+971524851531",
+    "type": "INBOUND",
+    "message_id": "4284102833",
+    "ticket_id": "959881778",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "540771356",
+    "contact_name": "Aqeel",
+    "contact_identifier": "+967778546891",
+    "parent_message_id": "4283748950",
+    "parent_ticket_id": "959881778",
+    "event_type": "INBOUND"
   }
 }
