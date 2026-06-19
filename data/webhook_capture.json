@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-19T08:22:40.302Z",
+  "ts": "2026-06-19T08:22:58.085Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4283807464",
+    "message_id": "4283807755",
     "ticket_id": "941451761",
-    "message": "I want to pay for next month \nOn the same bank account right?",
+    "message": "This one",
     "channel_id": "585723",
     "contact_id": "535680169",
     "contact_name": "HUMAM SHAMDEEN",
     "contact_identifier": "+971555795196",
+    "parent_message_id": "4246605835",
+    "parent_ticket_id": "941451761",
     "event_type": "INBOUND"
   }
 }
