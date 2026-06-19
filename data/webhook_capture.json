@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-19T07:20:54.342Z",
+  "ts": "2026-06-19T07:23:40.988Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4283743458",
-    "ticket_id": "959879659",
-    "message": "Do you have 2 bedrooms available in creek Harbour. They would come next month and stay 2-3 month.\n(Waiting for the exact dates)",
+    "type": "OUTBOUND",
+    "message_id": "4283745808",
+    "ticket_id": "957240337",
+    "message": "Rent will be AED 4000 and there is a security deposit of AED 2000 which is fully refundable at check-out, provided there are no damages to the apartment. The refund will be processed within 7 working days after your departure.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "531362712",
+    "contact_name": "Ghazi Najia",
+    "contact_identifier": "+971507887181",
     "channel_id": "585723",
-    "contact_id": "535130282",
-    "contact_name": "Ariean Maleklo",
-    "contact_identifier": "+971523718586",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
