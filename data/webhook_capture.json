@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-19T09:38:32.632Z",
+  "ts": "2026-06-19T09:38:44.758Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4283886717",
-    "ticket_id": "959922206",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
-    "contact_id": "540782735",
-    "contact_name": "CH",
-    "contact_identifier": "+971554697117",
+    "type": "INBOUND",
+    "message_id": "4283886927",
+    "ticket_id": "955416882",
+    "message": "I just wait for it to?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "436514827",
+    "contact_name": "Rashid Mohammed Alhamody",
+    "contact_identifier": "+971507725585",
+    "parent_message_id": "4283235267",
+    "parent_ticket_id": "955416882",
+    "event_type": "INBOUND"
   }
 }
