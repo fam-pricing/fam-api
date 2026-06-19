@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-19T06:17:51.849Z",
+  "ts": "2026-06-19T06:18:02.186Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4283696779",
-    "ticket_id": "938915004",
-    "message": "Good morning",
+    "type": "OUTBOUND",
+    "message_id": "4283696877",
+    "ticket_id": "958735033",
+    "message": "We have only this apartment available at the moment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "492321109",
+    "contact_name": "Pierre. D",
+    "contact_identifier": "+971521275732",
     "channel_id": "585723",
-    "contact_id": "535286912",
-    "contact_name": "PARAG MARUTI NAYAK",
-    "contact_identifier": "+918867421967",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
