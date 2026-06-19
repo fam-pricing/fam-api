@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-19T12:51:39.294Z",
+  "ts": "2026-06-19T12:51:40.748Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4284086545",
-    "ticket_id": "958963762",
-    "message": "Sure may I know your available time tomorrow please?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536501473",
-    "contact_name": "Joubert Rocha Chaves",
-    "contact_identifier": "+971586730550",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4284086598",
+    "ticket_id": "940787691",
+    "message": "Hi,\n\nThank you, but this screenshot only shows that the refund request was approved.\n\nThe amount has still not appeared in my card/bank account.\n\nCould you please check with your payment provider or finance team and share the actual refund transaction reference, such as ARN / RRN / transaction ID, so I can follow up with my bank?\n\nPlease also confirm how many business days it normally takes for the amount to be credited.\n\nThank you.",
+    "channel_id": "585723",
+    "contact_id": "535640336",
+    "contact_name": "Mohammad Amanzadegan",
+    "contact_identifier": "+971503062921",
+    "parent_message_id": "4283698493",
+    "parent_ticket_id": "940787691",
+    "event_type": "INBOUND"
   }
 }
