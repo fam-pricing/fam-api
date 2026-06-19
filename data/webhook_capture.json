@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-19T09:16:04.785Z",
+  "ts": "2026-06-19T09:16:15.327Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4283862397",
+    "type": "INBOUND",
+    "message_id": "4283862587",
     "ticket_id": "957240337",
-    "message": "The client has not yet confirmed our message, and therefore we are currently unable to proceed with communication.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Ok",
+    "channel_id": "585723",
     "contact_id": "531362712",
     "contact_name": "Ghazi Najia",
     "contact_identifier": "+971507887181",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
