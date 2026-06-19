@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-19T08:18:47.681Z",
+  "ts": "2026-06-19T08:19:44.031Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4283801538",
+    "type": "OUTBOUND",
+    "message_id": "4283802610",
     "ticket_id": "938915004",
-    "message": "Good afternoon",
-    "channel_id": "585723",
+    "message": "We would like to inform you that the building management has revised the rates. The updated rate for the upcoming monthly extension will be AED 7,299.98\r\n\r\nPlease let us know if you wish to proceed accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535286912",
     "contact_name": "PARAG MARUTI NAYAK",
     "contact_identifier": "+918867421967",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
