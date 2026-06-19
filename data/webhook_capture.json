@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-19T12:39:22.949Z",
+  "ts": "2026-06-19T12:39:28.716Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4284074084",
-    "ticket_id": "959927515",
-    "message": "Check please",
-    "channel_id": "585723",
-    "contact_id": "540784447",
-    "contact_name": "Andrii Pavliuk",
-    "contact_identifier": "+971586254664",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4284074196",
+    "ticket_id": "958963762",
+    "message": "Hi\r\n\r\nCan I have an update on the payment please",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536501473",
+    "contact_name": "Joubert Rocha Chaves",
+    "contact_identifier": "+971586730550",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
