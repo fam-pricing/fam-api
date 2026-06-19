@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-19T12:29:38.380Z",
+  "ts": "2026-06-19T12:29:54.089Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4284064223",
+    "type": "OUTBOUND",
+    "message_id": "4284064499",
     "ticket_id": "959971227",
-    "message": "Regarding the apartment fees, please send me a payment link.",
-    "channel_id": "585723",
+    "message": "Rent payment - https://totalpay.ae/payment/20260619246a35362404342",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "479144742",
     "contact_name": "Mr Abdoh Alhamli",
     "contact_identifier": "+971506080777",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
