@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-19T06:15:33.218Z",
+  "ts": "2026-06-19T06:16:34.372Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4283695639",
-    "ticket_id": "958735033",
-    "message": "Which one do you have available now?",
+    "type": "OUTBOUND",
+    "message_id": "4283696160",
+    "ticket_id": "959705889",
+    "message": "Apologies for the delay\r\n\r\nUnfortunately we do not have any 1 bedroom apartments available at the moment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540721770",
+    "contact_name": ".",
+    "contact_identifier": "+971589452778",
     "channel_id": "585723",
-    "contact_id": "492321109",
-    "contact_name": "Pierre. D",
-    "contact_identifier": "+971521275732",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
