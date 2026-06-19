@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-19T08:01:40.338Z",
+  "ts": "2026-06-19T08:02:34.255Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4283782458",
+    "type": "INBOUND",
+    "message_id": "4283783597",
     "ticket_id": "957895053",
-    "message": "Attachment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Oh that’s because the chute was not working. Neither would open",
+    "channel_id": "585723",
     "contact_id": "536353062",
     "contact_name": "Yohan Gregory",
     "contact_identifier": "+971509558132",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4283782155",
+    "parent_ticket_id": "957895053",
+    "event_type": "INBOUND"
   }
 }
