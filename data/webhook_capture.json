@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-19T11:26:26.585Z",
+  "ts": "2026-06-19T11:30:44.669Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4284000771",
+    "type": "OUTBOUND",
+    "message_id": "4284004952",
     "ticket_id": "924810041",
-    "message": "Are you online?",
-    "channel_id": "585723",
+    "message": "Good afternoon\r\n\r\nAllow me to check with the finance for the update of the refund",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "531782816",
     "contact_name": "Denis Byvaltsev",
     "contact_identifier": "+971524851531",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
