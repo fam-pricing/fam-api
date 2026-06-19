@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-19T12:47:08.931Z",
+  "ts": "2026-06-19T12:47:18.262Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4284082131",
+    "type": "OUTBOUND",
+    "message_id": "4284082260",
     "ticket_id": "959971227",
-    "message": "Since I deal with everyone, including your company, this is the way to do things. Even with the insurance, since I pay 1500, you can contact me via my phone number.",
-    "channel_id": "585723",
+    "message": "Unfortunately, Mr. Alhami, we are unable to accept cash payments,\r\n\r\nPlease be assured that the security deposit is fully refundable upon check-out, provided there are no damages to the apartment. The refund will be processed within 7 working days after your departure.\r\n\r\nThank you for your understanding and cooperation.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "479144742",
     "contact_name": "Mr Abdoh Alhamli",
     "contact_identifier": "+971506080777",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
