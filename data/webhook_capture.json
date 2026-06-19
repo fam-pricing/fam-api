@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-19T06:14:33.243Z",
+  "ts": "2026-06-19T06:15:33.218Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4283695212",
+    "type": "INBOUND",
+    "message_id": "4283695639",
     "ticket_id": "958735033",
-    "message": "Unfortunately both the apartments are fully booked",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Which one do you have available now?",
+    "channel_id": "585723",
     "contact_id": "492321109",
     "contact_name": "Pierre. D",
     "contact_identifier": "+971521275732",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
