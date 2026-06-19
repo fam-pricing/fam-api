@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-19T12:48:08.133Z",
+  "ts": "2026-06-19T12:50:09.457Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4284083085",
+    "type": "OUTBOUND",
+    "message_id": "4284085050",
     "ticket_id": "959971227",
-    "message": "Thank you, but I don't need your service because you are completely uncooperative.",
-    "channel_id": "585723",
+    "message": "We understand your preference however, we are unable to accept cash payments.\r\n\r\nWe appreciate your understanding and cooperation in this matter.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "479144742",
     "contact_name": "Mr Abdoh Alhamli",
     "contact_identifier": "+971506080777",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
