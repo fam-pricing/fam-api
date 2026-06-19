@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-19T12:33:26.896Z",
+  "ts": "2026-06-19T12:34:05.725Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4284068265",
+    "type": "OUTBOUND",
+    "message_id": "4284068822",
     "ticket_id": "959971227",
-    "message": "Image",
-    "channel_id": "585723",
+    "message": "Security payment link - https://totalpay.ae/payment/20260619326a35371c0991e",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "479144742",
     "contact_name": "Mr Abdoh Alhamli",
     "contact_identifier": "+971506080777",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
