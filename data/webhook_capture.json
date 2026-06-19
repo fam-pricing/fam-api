@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-19T07:23:40.988Z",
+  "ts": "2026-06-19T07:23:56.154Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4283745808",
+    "type": "INBOUND",
+    "message_id": "4283746040",
     "ticket_id": "957240337",
-    "message": "Rent will be AED 4000 and there is a security deposit of AED 2000 which is fully refundable at check-out, provided there are no damages to the apartment. The refund will be processed within 7 working days after your departure.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Ok",
+    "channel_id": "585723",
     "contact_id": "531362712",
     "contact_name": "Ghazi Najia",
     "contact_identifier": "+971507887181",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
