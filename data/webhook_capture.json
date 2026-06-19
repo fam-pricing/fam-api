@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-19T10:19:09.011Z",
+  "ts": "2026-06-19T10:20:06.113Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4283930140",
+    "type": "OUTBOUND",
+    "message_id": "4283931064",
     "ticket_id": "959927515",
-    "message": "Does it work with foreign cards?",
-    "channel_id": "585723",
+    "message": "Yes with Visa and master cards you can complete the payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540784447",
     "contact_name": "Andrii Pavliuk",
     "contact_identifier": "+971586254664",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
