@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-20T12:54:22.442Z",
+  "ts": "2026-06-20T12:54:48.906Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4284701701",
-    "ticket_id": "960121011",
-    "message": "Kindly allow us some time to check and confirm whether the check-in can be arranged for tomorrow. We will update you as soon as we receive confirmation from the team",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "108722958",
-    "contact_name": "Mr. Bachir Fawaz Elghandour",
-    "contact_identifier": "+971585004064",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4284702030",
+    "ticket_id": "958820238",
+    "message": "Can you give me the date when I will come to collect it ?",
+    "channel_id": "1304636",
+    "contact_id": "537793990",
+    "contact_name": "LITA ELIE",
+    "contact_identifier": "+79015817252",
+    "parent_message_id": "4283196259",
+    "parent_ticket_id": "958820238",
+    "event_type": "INBOUND"
   }
 }
