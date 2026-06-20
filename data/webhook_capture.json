@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-20T07:19:38.535Z",
+  "ts": "2026-06-20T07:19:39.068Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4284538021",
+    "type": "OUTBOUND",
+    "message_id": "4284538037",
     "ticket_id": "960121011",
-    "message": "Hi",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "108722958",
     "contact_name": "Mr. Bachir Fawaz Elghandour",
     "contact_identifier": "+971585004064",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
