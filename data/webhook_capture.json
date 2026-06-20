@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-20T11:21:53.873Z",
+  "ts": "2026-06-20T11:22:07.988Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4284655690",
+    "type": "INBOUND",
+    "message_id": "4284655802",
     "ticket_id": "960154555",
-    "message": "How can I help you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I have an apartment reservation but no one is responding to me.",
+    "channel_id": "585723",
     "contact_id": "540847164",
     "contact_name": "M-o",
     "contact_identifier": "+971554446434",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
