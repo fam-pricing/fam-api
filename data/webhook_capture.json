@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-20T07:21:56.589Z",
+  "ts": "2026-06-20T07:22:21.243Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4284538935",
-    "ticket_id": "960033527",
-    "message": "Ok thank you",
+    "type": "OUTBOUND",
+    "message_id": "4284539068",
+    "ticket_id": "960121011",
+    "message": "Allow me to check",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "108722958",
+    "contact_name": "Mr. Bachir Fawaz Elghandour",
+    "contact_identifier": "+971585004064",
     "channel_id": "585723",
-    "contact_id": "540816737",
-    "contact_name": "Weronika",
-    "contact_identifier": "+48881778558",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
