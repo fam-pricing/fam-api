@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-20T12:49:36.286Z",
+  "ts": "2026-06-20T12:51:22.342Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4284699418",
-    "ticket_id": "960166351",
-    "message": "You*",
+    "type": "OUTBOUND",
+    "message_id": "4284700132",
+    "ticket_id": "960121011",
+    "message": "May I know the check in date please?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "108722958",
+    "contact_name": "Mr. Bachir Fawaz Elghandour",
+    "contact_identifier": "+971585004064",
     "channel_id": "585723",
-    "contact_id": "455776398",
-    "contact_name": "Mrs Dalal Ali Jumah Khamis Alshehhi",
-    "contact_identifier": "+971553900369",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
