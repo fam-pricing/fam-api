@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-20T11:37:27.352Z",
+  "ts": "2026-06-20T11:38:20.330Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4284663538",
+    "type": "OUTBOUND",
+    "message_id": "4284663948",
     "ticket_id": "960154555",
-    "message": "I'm waiting",
-    "channel_id": "585723",
+    "message": "Once you arrive at the property, please contact our Guest Relations agent, Mr. Owais, at +971 52 408 0298, who will be happy to assist you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540847164",
     "contact_name": "M-o",
     "contact_identifier": "+971554446434",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
