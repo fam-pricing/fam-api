@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-20T07:27:07.367Z",
+  "ts": "2026-06-20T07:29:14.194Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4284540989",
+    "type": "OUTBOUND",
+    "message_id": "4284541653",
     "ticket_id": "960121011",
-    "message": "Arround 10,000 AED",
-    "channel_id": "585723",
+    "message": "In City Walk, we do not have availability at the moment. May I check other locations for you?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "108722958",
     "contact_name": "Mr. Bachir Fawaz Elghandour",
     "contact_identifier": "+971585004064",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
