@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-20T10:55:32.693Z",
+  "ts": "2026-06-20T10:58:23.587Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4284642050",
+    "type": "OUTBOUND",
+    "message_id": "4284643628",
     "ticket_id": "960150730",
-    "message": "Is it available from 25th July to 1st August",
-    "channel_id": "585723",
+    "message": "Yes, the unit is currently available. However, please note that the quoted rate is applicable only for monthly bookings. If you are looking for a daily stay, a different rate will apply.\r\n\r\nKindly let us know your preferred length of stay, and we will be happy to provide the applicable rate.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540846062",
     "contact_name": "MJ",
     "contact_identifier": "+971585667929",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
