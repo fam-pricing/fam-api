@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-20T15:05:15.352Z",
+  "ts": "2026-06-20T15:05:56.517Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4284778872",
+    "type": "INBOUND",
+    "message_id": "4284779213",
     "ticket_id": "958820238",
-    "message": "We will inform once we receive the check out report from the building",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "537793990",
     "contact_name": "LITA ELIE",
     "contact_identifier": "+79015817252",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4284778872",
+    "parent_ticket_id": "958820238",
+    "event_type": "INBOUND"
   }
 }
