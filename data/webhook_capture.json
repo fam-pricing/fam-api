@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-20T09:25:11.272Z",
+  "ts": "2026-06-20T09:26:46.140Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4284598127",
+    "type": "INBOUND",
+    "message_id": "4284598842",
     "ticket_id": "943915428",
-    "message": "Unfortunately we do not have studio apartments available in your preferred locations",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Any other options?",
+    "channel_id": "585723",
     "contact_id": "536484706",
     "contact_name": "Raja Sajid 🇦🇪",
     "contact_identifier": "+971566960509",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4284598127",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
