@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-21T09:05:48.552Z",
+  "ts": "2026-06-21T09:05:59.625Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4285072619",
+    "type": "INBOUND",
+    "message_id": "4285072681",
     "ticket_id": "934199428",
-    "message": "In elite business bay",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Yes",
+    "channel_id": "585723",
     "contact_id": "534076190",
     "contact_name": "Thanvir Aafaq",
     "contact_identifier": "+971521229233",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4285072619",
+    "parent_ticket_id": "934199428",
+    "event_type": "INBOUND"
   }
 }
