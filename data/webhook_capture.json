@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-21T06:32:14.047Z",
+  "ts": "2026-06-21T06:32:49.752Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4284996162",
+    "type": "OUTBOUND",
+    "message_id": "4284996439",
     "ticket_id": "960268011",
-    "message": "Any time today",
-    "channel_id": "585723",
+    "message": "Our check-in time starts from 3 pm",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540356642",
     "contact_name": "الايجابي الملهم",
     "contact_identifier": "+971504168652",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
