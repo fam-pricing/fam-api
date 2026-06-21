@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-21T09:53:41.478Z",
+  "ts": "2026-06-21T09:54:20.754Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4285092787",
+    "type": "INBOUND",
+    "message_id": "4285093041",
     "ticket_id": "951617602",
-    "message": "yes extended till monday accordingly",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I wanted to extend till Friday",
+    "channel_id": "585723",
     "contact_id": "538457647",
     "contact_name": "Tim Dominik Germany",
     "contact_identifier": "+56931740105",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4285092787",
+    "parent_ticket_id": "951617602",
+    "event_type": "INBOUND"
   }
 }
