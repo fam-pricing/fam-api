@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-21T07:52:08.791Z",
+  "ts": "2026-06-21T08:43:05.165Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4285040769",
-    "ticket_id": "960268011",
-    "message": "Here is some important information for your stay with us at fäm Living:\r\n\r\n- Your apartment number is 502, located on the 5th floor of Tower A5.\r\n- Wi-Fi password: famliving\r\n- Main door code: 🔑\r\n- An access card has been left inside the apartment.\r\n\r\nPlease note that our office hours are daily from 9:00 AM to 9:00 PM.",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "540356642",
-    "contact_name": "الايجابي الملهم",
-    "contact_identifier": "+971504168652",
+    "type": "INBOUND",
+    "message_id": "4285063139",
+    "ticket_id": "934199428",
+    "message": "Hi",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "534076190",
+    "contact_name": "Thanvir Aafaq",
+    "contact_identifier": "+971521229233",
+    "event_type": "INBOUND"
   }
 }
