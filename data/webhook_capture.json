@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-21T16:51:23.138Z",
+  "ts": "2026-06-21T16:51:45.653Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4285286945",
+    "type": "INBOUND",
+    "message_id": "4285287083",
     "ticket_id": "960367908",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
+    "message": "🙏",
+    "channel_id": "585723",
     "contact_id": "540902996",
     "contact_name": "Bholan Cleaning Services",
     "contact_identifier": "+971553796144",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4285286945",
+    "parent_ticket_id": "960367908",
+    "event_type": "INBOUND"
   }
 }
