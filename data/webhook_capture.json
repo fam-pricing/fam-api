@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-21T05:18:44.343Z",
+  "ts": "2026-06-21T05:33:32.726Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4284978700",
+    "type": "OUTBOUND",
+    "message_id": "4284981561",
     "ticket_id": "960164060",
-    "message": "How much this one’s cost",
-    "channel_id": "585723",
+    "message": "Price will be 3500 aed for 2 nights",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "525300580",
     "contact_name": "~",
     "contact_identifier": "+971507663036",
-    "parent_message_id": "4284975249",
-    "parent_ticket_id": "960164060",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
