@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-21T14:23:19.338Z",
+  "ts": "2026-06-21T14:24:19.165Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4285208488",
+    "type": "INBOUND",
+    "message_id": "4285208750",
     "ticket_id": "960268011",
-    "message": "I didn't get you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Main door code",
+    "channel_id": "585723",
     "contact_id": "540356642",
     "contact_name": "الايجابي الملهم",
     "contact_identifier": "+971504168652",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4285040769",
+    "parent_ticket_id": "960268011",
+    "event_type": "INBOUND"
   }
 }
