@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-22T07:08:19.662Z",
+  "ts": "2026-06-22T07:20:07.607Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4285548454",
+    "type": "OUTBOUND",
+    "message_id": "4285561075",
     "ticket_id": "960465885",
-    "message": "My bank account details",
-    "channel_id": "1304636",
+    "message": "Thank you for sharing the bank details and we will proceed with a bank transfer and update you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535452159",
     "contact_name": "Shouq",
     "contact_identifier": "+971503671717",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
