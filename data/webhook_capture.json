@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-22T06:40:49.067Z",
+  "ts": "2026-06-22T06:46:11.186Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4285520123",
+    "type": "OUTBOUND",
+    "message_id": "4285525916",
     "ticket_id": "944982076",
-    "message": "Here",
-    "channel_id": "585723",
+    "message": "Good morning,\r\n\r\nAllow me to check on this",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "485978103",
     "contact_name": "Mr Ava Esa Saleh",
     "contact_identifier": "+971553036591",
-    "parent_message_id": "4285298066",
-    "parent_ticket_id": "944982076",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
