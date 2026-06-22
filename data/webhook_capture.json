@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-22T09:53:23.662Z",
+  "ts": "2026-06-22T09:57:33.626Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4285758771",
-    "ticket_id": "951657693",
-    "message": "Flat no for visiting",
-    "channel_id": "585723",
-    "contact_id": "538466901",
-    "contact_name": "Pratham Shivnani Purshotham Shivnani",
-    "contact_identifier": "+971568658283",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4285764403",
+    "ticket_id": "950131949",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: Good afternoon. *How can I help you?*",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535147845",
+    "contact_name": "Osama Omar",
+    "contact_identifier": "+971556969743",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
