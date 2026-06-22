@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-22T11:07:27.023Z",
+  "ts": "2026-06-22T11:07:36.372Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4285851792",
-    "ticket_id": "960549017",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
-    "contact_id": "540949387",
-    "contact_name": "Fiyyaz",
-    "contact_identifier": "+18329223115",
+    "type": "INBOUND",
+    "message_id": "4285851955",
+    "ticket_id": "960268011",
+    "message": "They want to follow with him",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "540356642",
+    "contact_name": "الايجابي الملهم",
+    "contact_identifier": "+971504168652",
+    "parent_message_id": "4285191090",
+    "parent_ticket_id": "960268011",
+    "event_type": "INBOUND"
   }
 }
