@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-22T12:28:53.618Z",
+  "ts": "2026-06-22T12:30:32.425Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4286001298",
+    "type": "OUTBOUND",
+    "message_id": "4286003403",
     "ticket_id": "951355235",
-    "message": "Next Monday evening I’ll pay",
-    "channel_id": "585723",
+    "message": "As your check-out date is today, Mr. Rahimudin, we kindly request that you complete the payment today. Once the payment has been received, we will be able to proceed with arranging the extension of your stay.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "534682324",
     "contact_name": "Rahimudin Mangudin",
     "contact_identifier": "+447366477777",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
