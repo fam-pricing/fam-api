@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-22T08:47:11.155Z",
+  "ts": "2026-06-22T08:56:54.166Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4285669783",
-    "ticket_id": "934199428",
-    "message": "Tenant has confirmed the appointment for tomorrow at 5:00 PM. However, please ensure you contact the tenant at least one hour in advance so they can be available at the unit.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "534076190",
-    "contact_name": "Thanvir Aafaq",
-    "contact_identifier": "+971521229233",
+    "type": "INBOUND",
+    "message_id": "4285682148",
+    "ticket_id": "960495513",
+    "message": "Yes",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "540932668",
+    "contact_name": "Madhu Punjabi Jagtiani",
+    "contact_identifier": "+971558850767",
+    "event_type": "INBOUND"
   }
 }
