@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-22T08:18:54.798Z",
+  "ts": "2026-06-22T08:19:00.481Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4285632776",
-    "ticket_id": "934199428",
-    "message": "May I know the date and time to check with the tenant",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "534076190",
-    "contact_name": "Thanvir Aafaq",
-    "contact_identifier": "+971521229233",
+    "type": "INBOUND",
+    "message_id": "4285632903",
+    "ticket_id": "960486379",
+    "message": "👍🏾",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "540929951",
+    "contact_name": "Ibby",
+    "contact_identifier": "+971523166681",
+    "parent_message_id": "4285632151",
+    "parent_ticket_id": "960486379",
+    "event_type": "INBOUND"
   }
 }
