@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-22T18:48:09.487Z",
+  "ts": "2026-06-22T18:56:51.449Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4286384484",
-    "ticket_id": "950876776",
-    "message": "Thank you for choosing fäm Living, How likely are you to recommend fäm Living to family and friends? https://csat.trengo.com/?uuid=a216021c-1504-45fd-82f1-84ad27b3ae0e\n",
-    "contact_id": "537076491",
-    "contact_name": "VIKTORIIA",
-    "contact_identifier": "+79138287704",
+    "type": "INBOUND",
+    "message_id": "4286389780",
+    "ticket_id": "940787691",
+    "message": "Hi, I hope you are doing well.\n\nPlease check it for me.\nI didn't receive this deposit.",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "535640336",
+    "contact_name": "Mohammad Amanzadegan",
+    "contact_identifier": "+971503062921",
+    "parent_message_id": "4284106332",
+    "parent_ticket_id": "940787691",
+    "event_type": "INBOUND"
   }
 }
