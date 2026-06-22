@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-22T13:45:34.264Z",
+  "ts": "2026-06-22T13:51:14.116Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4286100102",
+    "type": "OUTBOUND",
+    "message_id": "4286107365",
     "ticket_id": "960104276",
-    "message": "are you agree with this ? and we are 5 adults",
-    "channel_id": "1304636",
+    "message": "We can arrange viewing only in between 10am - 5pm only",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535926291",
     "contact_name": "Rimsha Akram",
     "contact_identifier": "+971526064450",
-    "parent_message_id": "4286031144",
-    "parent_ticket_id": "960104276",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
