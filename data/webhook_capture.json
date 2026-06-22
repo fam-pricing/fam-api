@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-22T08:40:37.239Z",
+  "ts": "2026-06-22T08:41:27.500Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4285661272",
+    "type": "OUTBOUND",
+    "message_id": "4285662388",
     "ticket_id": "951657693",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "Good afternoon,\r\n\r\nThe owner has requested a brief viewing of the apartment tomorrow at 5:00 PM. Could you kindly confirm if access can be arranged for approximately 5–10 minutes?\r\n\r\nThank you in advance for your cooperation.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538466901",
     "contact_name": "Pratham Shivnani Purshotham Shivnani",
     "contact_identifier": "+971568658283",
-    "parent_message_id": "4285654922",
-    "parent_ticket_id": "951657693",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
