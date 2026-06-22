@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-22T09:30:03.458Z",
+  "ts": "2026-06-22T09:31:30.360Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4285726182",
-    "ticket_id": "960506199",
-    "message": "Check again we pay today",
-    "channel_id": "1304636",
-    "contact_id": "538631018",
-    "contact_name": "Olga",
-    "contact_identifier": "+380672702585",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4285728225",
+    "ticket_id": "960486379",
+    "message": "Could I kindly get an update on the payment? The guest’s check-out was scheduled for today, and our standard check-out time is 12:00 PM.\r\n\r\nAs the calendar is currently open across multiple platforms, we may receive bookings at any time, so your prompt update would be greatly appreciated.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540929951",
+    "contact_name": "Ibby",
+    "contact_identifier": "+971523166681",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
