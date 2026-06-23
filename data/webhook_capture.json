@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-23T12:34:15.120Z",
+  "ts": "2026-06-23T12:34:49.908Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4287029169",
+    "type": "OUTBOUND",
+    "message_id": "4287030031",
     "ticket_id": "960888254",
-    "message": "The 4 bedrooms is still an option for me if it comes into the price range, I would be looking at capping it at around 17,500/month. Preferably Emaar is where I would like to relocate too.",
-    "channel_id": "1304636",
+    "message": "The 4BR at Sunrise Bay is within your 17,500 cap at 15,600/month. On the 6-12 month question, there's no annual contract here. It runs on rolling 3-month blocks, so you lock in the rate for 3 months, then we revisit before the next block. For January specifically, we can't hold a rate that far out, but 15,600 is the current benchmark and we'd keep you updated as it gets closer. Would you like to see what other 4BR options we have within your budget in case something else in Emaar fits the bill?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541046049",
     "contact_name": "Robbie Simmonds",
     "contact_identifier": "+447802654632",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
