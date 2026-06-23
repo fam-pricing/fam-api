@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-23T10:34:44.831Z",
+  "ts": "2026-06-23T10:34:56.115Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4286886014",
-    "ticket_id": "960836455",
-    "message": "Unfortunately all the units are fully booked in viridian",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539190901",
-    "contact_name": "Andrew",
-    "contact_identifier": "+34747720750",
+    "type": "INBOUND",
+    "message_id": "4286886218",
+    "ticket_id": "960843750",
+    "message": "yes",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "541033321",
+    "contact_name": "khshyr",
+    "contact_identifier": "+971551890313",
+    "parent_message_id": "4286879631",
+    "parent_ticket_id": "960843750",
+    "event_type": "INBOUND"
   }
 }
