@@ -1,5 +1,5 @@
 {
-  "ignoreCommand": "git diff HEAD^ HEAD --name-only | grep -qvE '^data/'",
+  "ignoreCommand": "if echo \"$VERCEL_GIT_COMMIT_MESSAGE\" | grep -qE '^(log: incoming webhook|CRM:|Bot:|Metrics:|Playbook:)'; then exit 0; else exit 1; fi",
   "functions": {
     "api/*.js": { "maxDuration": 30 },
     "api/cron/auto-respond.js": { "maxDuration": 60 },
@@ -15,6 +15,7 @@
   "crons": [
     { "path": "/api/cron/auto-respond", "schedule": "*/5 * * * *" },
     { "path": "/api/cron/auto-followup", "schedule": "0 * * * *" },
-    { "path": "/api/cron/escalation-reminder", "schedule": "0 * * * *" }
+    { "path": "/api/cron/escalation-reminder", "schedule": "0 * * * *" },
+    { "path": "/api/admin/prune-crm", "schedule": "0 3 * * *" }
   ]
 }
