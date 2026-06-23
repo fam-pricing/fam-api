@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-23T21:55:31.396Z",
+  "ts": "2026-06-23T22:05:16.062Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4287547341",
-    "ticket_id": "961028580",
-    "message": "Thank you for choosing fäm living. Please note that our work timings are from 9:00 AM to 9:00 PM. To avail yourself of our best offers and prices, you can now make your bookings on our website; please visit www.famliving.com.\n\nشكرًا لاتصالك , يرجى ملاحظة أن أوقات العمل لدينا هي من 9:00 صباحًا إلى 9:00 مساءً ، للاستفادة من أفضل العروض والأسعار، يمكنك الآن إجراء حجوزاتك على موقعنا على الإنترنت\n\nwww.famliving.com",
-    "contact_id": "541094365",
-    "contact_name": ".",
-    "contact_identifier": "+971555854486",
+    "type": "INBOUND",
+    "message_id": "4287551565",
+    "ticket_id": "955436676",
+    "message": "Hello, if this apartment is free from july 24 to august 31 and how much?\n\nI still prefer to have a new apartment in a good location, swimming pool + gym and having at least 1.5 bath, but by the end if i run out of options, i can go for one bath only",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539565275",
+    "contact_name": "GESCARD ISSA",
+    "contact_identifier": "+23795870067",
+    "parent_message_id": "4287094789",
+    "parent_ticket_id": "955436676",
+    "event_type": "INBOUND"
   }
 }
