@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-23T15:39:06.927Z",
+  "ts": "2026-06-23T15:39:33.874Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4287264047",
+    "type": "OUTBOUND",
+    "message_id": "4287264402",
     "ticket_id": "960944985",
-    "message": "Thank you, she is happy to proceed with the 6-month stay at AED 7,500/month.\nHowever, she would prefer a fixed rate for the full 6 months without a mid-term increase.\nIf this is possible, she is ready to send her documents and proceed",
-    "channel_id": "1304636",
+    "message": "Let me check on the fixed 6-month rate for you and come back shortly!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541061792",
     "contact_name": "Mint Group",
     "contact_identifier": "+2250716222494",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
