@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-23T05:31:33.442Z",
+  "ts": "2026-06-23T05:41:04.959Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4286571149",
-    "ticket_id": "960763231",
-    "message": "Hello. I didn’t hear from you again, is the apartment still available?",
-    "channel_id": "1304636",
-    "contact_id": "540291358",
-    "contact_name": "Tracy",
-    "contact_identifier": "+31618323735",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4286574629",
+    "ticket_id": "960457082",
+    "message": "Good morning,\r\n\r\nWe have drop the extension and please complete the payment at your earliest",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540922254",
+    "contact_name": "Alexandros Perakis",
+    "contact_identifier": "+971585106628",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
