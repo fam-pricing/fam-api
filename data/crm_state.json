@@ -18040,9 +18040,11 @@
       "pricing enquiry",
       "specific unit type"
     ],
-    "bot_paused": true,
+    "bot_paused": false,
     "last_escalated_at": "2026-06-23T10:16:00.089Z",
-    "last_escalated_question": null
+    "last_escalated_question": null,
+    "bot_paused_reason": null,
+    "bot_paused_at": null
   },
   "message_lead_30085091": {
     "stage": "new",
