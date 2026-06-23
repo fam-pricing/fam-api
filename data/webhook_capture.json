@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-23T10:54:10.929Z",
+  "ts": "2026-06-23T10:54:36.063Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4286906810",
-    "ticket_id": "960849764",
-    "message": "Is it a calm area?\nClean? No cockroach?\nNo construction site?",
+    "type": "OUTBOUND",
+    "message_id": "4286907282",
+    "ticket_id": "960849777",
+    "message": "Unfortunately it is not available from today",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541034685",
+    "contact_name": "Aysel",
+    "contact_identifier": "+971502077818",
     "channel_id": "1304636",
-    "contact_id": "541034683",
-    "contact_name": "ʚ̛ɞTΩ̴ ʚ̛ɞ",
-    "contact_identifier": "+971522331876",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
