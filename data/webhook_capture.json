@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-23T19:23:12.154Z",
+  "ts": "2026-06-23T19:23:34.720Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4287418996",
+    "type": "OUTBOUND",
+    "message_id": "4287419206",
     "ticket_id": "960996112",
-    "message": "It’s 6500 AED ? Monthly payment ?",
-    "channel_id": "1304636",
+    "message": "Yes, AED 6,500/month all-inclusive. What date in October are you thinking for move-in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541080410",
     "contact_name": "~i",
     "contact_identifier": "+33780931082",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
