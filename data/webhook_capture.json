@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-23T14:59:32.916Z",
+  "ts": "2026-06-23T15:10:33.528Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4287219885",
-    "ticket_id": "960839373",
-    "message": "I tried to create a whatsapp group with my husband but i can't add you. Here is his number : +971 58 658 6188\nWould you please contact him or add him to the conversation ? Thank you so much",
+    "type": "OUTBOUND",
+    "message_id": "4287231490",
+    "ticket_id": "960944985",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in Act One\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "541061792",
+    "contact_name": "Mint Group",
+    "contact_identifier": "+2250716222494",
     "channel_id": "1304636",
-    "contact_id": "541032023",
-    "contact_name": "Eve Hassan",
-    "contact_identifier": "+33622993666",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
