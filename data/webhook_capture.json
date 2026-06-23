@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-23T08:38:08.064Z",
+  "ts": "2026-06-23T08:41:54.549Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4286744248",
-    "ticket_id": "936734695",
-    "message": "Upon checkout, we have found several items were missing\r\n\r\nHair dryer, water glass and wine glass, which will be charged to the deposit",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "534737062",
-    "contact_name": "IFEOMA NWAOGU",
-    "contact_identifier": "+971525824134",
+    "type": "INBOUND",
+    "message_id": "4286748462",
+    "ticket_id": "954163568",
+    "message": "The unit you were supposed to give me was 1923, but because of the air conditioner and fan problem, you gave me unit 0402.",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539230013",
+    "contact_name": "Bahador Khoshkeroudi",
+    "contact_identifier": "+971547016092",
+    "parent_message_id": "4286744164",
+    "parent_ticket_id": "954163568",
+    "event_type": "INBOUND"
   }
 }
