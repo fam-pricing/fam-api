@@ -66,8 +66,16 @@ async function autoRespond(responseLink) {
   try {
     const r = await fetch(responseLink, { redirect: 'manual' });
     const location = r.headers.get('location') || '';
-    const match = location.match(/[?&]phone=(\d+)/);
-    return match ? match[1] : null;
+    const phone = (location.match(/[?&]phone=(\d+)/) || [])[1] || null;
+    if (location) {
+      try {
+        const f = await fetch(location, { redirect: 'follow' });
+        console.log(`[autoRespond] first=${r.status} follow=${f.status}`);
+      } catch (e) {
+        console.error('[autoRespond] follow error:', e.message);
+      }
+    }
+    return phone;
   } catch {
     return null;
   }
