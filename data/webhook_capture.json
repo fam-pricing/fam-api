@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-23T18:23:14.192Z",
+  "ts": "2026-06-23T18:23:44.541Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4287385693",
+    "type": "INBOUND",
+    "message_id": "4287385978",
     "ticket_id": "960985602",
-    "message": "Locked in for tomorrow. For a 6-month stay, we can hold the AED 11,000/month rate for the first 3 months, with the next block confirmed based on market conditions at that time. Could you send over a photo of your passport or Emirates ID so I can register you with building management before the visit?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I'm already living in address opera so no need😅",
+    "channel_id": "1304636",
     "contact_id": "539312831",
     "contact_name": "David",
     "contact_identifier": "+79990993177",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4287385693",
+    "parent_ticket_id": "960985602",
+    "event_type": "INBOUND"
   }
 }
