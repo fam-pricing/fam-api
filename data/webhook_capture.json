@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-23T20:18:38.427Z",
+  "ts": "2026-06-23T20:19:04.999Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4287498687",
+    "type": "OUTBOUND",
+    "message_id": "4287500890",
     "ticket_id": "961001862",
-    "message": "yes i would like to come see it tomorrow",
-    "channel_id": "1304636",
+    "message": "Tomorrow works! What time suits you best, morning or afternoon?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541084779",
     "contact_name": "Donia",
     "contact_identifier": "+971547430643",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
