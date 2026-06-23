@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-23T15:56:44.032Z",
+  "ts": "2026-06-23T16:00:19.022Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4287279262",
-    "ticket_id": "944982076",
-    "message": "You are not allowed to keep deposits for longer than needed",
+    "type": "OUTBOUND",
+    "message_id": "4287282385",
+    "ticket_id": "960960672",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541067277",
+    "contact_identifier": "+971563737708",
     "channel_id": "585723",
-    "contact_id": "485978103",
-    "contact_name": "Mr Ava Esa Saleh",
-    "contact_identifier": "+971553036591",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
