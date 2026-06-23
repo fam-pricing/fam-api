@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-23T11:08:14.752Z",
+  "ts": "2026-06-23T11:08:35.893Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4286922745",
+    "type": "INBOUND",
+    "message_id": "4286923267",
     "ticket_id": "960849764",
-    "message": "Sorry, what did you mean by \"9 and 10\"? Are those question numbers from earlier, or times that work for your friend?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "U said from 9 till 10 pm",
+    "channel_id": "1304636",
     "contact_id": "541034683",
     "contact_name": "ʚ̛ɞTΩ̴ ʚ̛ɞ",
     "contact_identifier": "+971522331876",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4286921616",
+    "parent_ticket_id": "960849764",
+    "event_type": "INBOUND"
   }
 }
