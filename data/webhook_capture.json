@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-23T10:53:04.038Z",
+  "ts": "2026-06-23T10:53:12.981Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4286905671",
-    "ticket_id": "960856003",
-    "message": "Car",
+    "type": "OUTBOUND",
+    "message_id": "4286905823",
+    "ticket_id": "960843750",
+    "message": "Got it, ID or passport and we're all set. Want me to send the payment link now?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "541033321",
+    "contact_name": "khshyr",
+    "contact_identifier": "+971551890313",
     "channel_id": "1304636",
-    "contact_id": "539291533",
-    "contact_name": "Amandeep",
-    "contact_identifier": "+971585630379",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
