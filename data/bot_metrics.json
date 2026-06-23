@@ -310,5 +310,17 @@
     "lead_quality": 10,
     "buying_stage": "COLD",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-06-23T10:07:27.016Z",
+    "ticket_id": 960839386,
+    "lead_id": "message_lead_30107160",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1181,
+    "critic_pass": null,
+    "lead_quality": 30,
+    "buying_stage": "COOL",
+    "skip_reason": "bot_paused"
   }
 ]
