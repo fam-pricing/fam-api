@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-23T10:10:50.567Z",
+  "ts": "2026-06-23T10:10:54.003Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4286858263",
-    "ticket_id": "960847023",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-al-safa-al-safa-1-13851850.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "541034233",
-    "contact_name": "Bunny",
-    "contact_identifier": "+971585903522",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4286858342",
+    "ticket_id": "936734695",
+    "message": "Because there is no need of waiting 7 days",
+    "channel_id": "585723",
+    "contact_id": "534737062",
+    "contact_name": "IFEOMA NWAOGU",
+    "contact_identifier": "+971525824134",
+    "event_type": "INBOUND"
   }
 }
