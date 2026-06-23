@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-23T10:06:00.247Z",
+  "ts": "2026-06-23T10:06:16.733Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4286852399",
-    "ticket_id": "960839386",
-    "message": "The price is already at the best rate for this property. If you're happy with that, would you like to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "538363776",
-    "contact_name": "Dr. Aylar",
-    "contact_identifier": "+971507955452",
+    "type": "INBOUND",
+    "message_id": "4286852736",
+    "ticket_id": "960843750",
+    "message": "No, I want to move into this house I sent you",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "541033321",
+    "contact_name": "khshyr",
+    "contact_identifier": "+971551890313",
+    "event_type": "INBOUND"
   }
 }
