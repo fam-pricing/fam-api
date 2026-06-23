@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-23T06:31:42.002Z",
+  "ts": "2026-06-23T06:34:39.476Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4286611005",
-    "ticket_id": "958820238",
-    "message": "You may visit our office on any weekday between 10:00 AM and 5:00 PM to collect your refund.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537793990",
-    "contact_name": "LITA ELIE",
-    "contact_identifier": "+79015817252",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4286612988",
+    "ticket_id": "953799297",
+    "message": "And for 19 nights until 13th this is the amount or there is a better rate?",
+    "channel_id": "585723",
+    "contact_id": "539113443",
+    "contact_name": "Darina",
+    "contact_identifier": "+77781648629",
+    "parent_message_id": "4284730391",
+    "parent_ticket_id": "953799297",
+    "event_type": "INBOUND"
   }
 }
