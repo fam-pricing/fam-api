@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-23T12:14:32.881Z",
+  "ts": "2026-06-23T12:15:28.470Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4287004910",
-    "ticket_id": "960884513",
-    "message": "Someone contacted you regarding a unit in binghatti azure",
+    "type": "OUTBOUND",
+    "message_id": "4287006084",
+    "ticket_id": "960506199",
+    "message": "Azizi mina apartment not available to proceed at 20k",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538631018",
+    "contact_name": "Olga",
+    "contact_identifier": "+380672702585",
     "channel_id": "1304636",
-    "contact_id": "541045082",
-    "contact_name": "Angelo",
-    "contact_identifier": "+971589341003",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
