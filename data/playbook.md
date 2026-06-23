@@ -1369,3 +1369,7 @@ Please note that our calendar is listed across multiple online platforms, so ava
 
 We appreciate your prompt cooperation.
   (Learned from Faysal handling C.O re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-the-address-residences-dubai-opera-the-address-residences-dubai-opera-tower-1-15597551.html)
+
+## Learned (2026-06-23)
+- When a lead asks about pricing and requests a viewing, inform them that there is currently an in-house guest scheduled to check out on 25th June. Let them know that if the guest does not extend their stay, a viewing can be arranged for them thereafter.
+  (Learned from Faysal handling Joe re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html)
