@@ -1,16 +1,20 @@
 {
-  "ts": "2026-06-23T10:17:51.606Z",
+  "ts": "2026-06-23T10:18:10.103Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4286866458",
-    "ticket_id": "960836429",
-    "message": "That sounds good. Can I get a video of the unit?",
+    "type": "OUTBOUND",
+    "message_id": "4286866799",
+    "ticket_id": "960839386",
+    "message": "Yes sure we can arrange can I have the EID to arrange viewing for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538363776",
+    "contact_name": "Dr. Aylar",
+    "contact_identifier": "+971507955452",
     "channel_id": "1304636",
-    "contact_id": "541031173",
-    "contact_identifier": "+971509814122",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
