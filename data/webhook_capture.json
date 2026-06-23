@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-23T10:04:47.936Z",
+  "ts": "2026-06-23T10:04:51.136Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4286850955",
-    "ticket_id": "960843750",
-    "message": "hello",
+    "type": "OUTBOUND",
+    "message_id": "4286851007",
+    "ticket_id": "960839386",
+    "message": "The 1BR in Act One is available, happy to help with any questions you have about it.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "538363776",
+    "contact_name": "Dr. Aylar",
+    "contact_identifier": "+971507955452",
     "channel_id": "1304636",
-    "contact_id": "541033321",
-    "contact_name": "khshyr",
-    "contact_identifier": "+971551890313",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
