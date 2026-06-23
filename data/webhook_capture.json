@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-23T18:14:19.608Z",
+  "ts": "2026-06-23T18:14:45.466Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4287380041",
+    "type": "OUTBOUND",
+    "message_id": "4287380477",
     "ticket_id": "960985602",
-    "message": "for a long stay",
-    "channel_id": "1304636",
+    "message": "Long stay works perfectly here, the 2BR is AED 11,000/month all-inclusive, and we can hold that rate beyond the initial period. How long are you planning to stay?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539312831",
     "contact_name": "David",
     "contact_identifier": "+79990993177",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
