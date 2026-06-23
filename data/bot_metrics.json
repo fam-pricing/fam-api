@@ -574,5 +574,17 @@
     "lead_quality": 30,
     "buying_stage": "COOL",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-06-23T10:36:41.558Z",
+    "ticket_id": 960849788,
+    "lead_id": "message_lead_30083436",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 20648,
+    "critic_pass": null,
+    "lead_quality": 30,
+    "buying_stage": "COOL",
+    "skip_reason": "Lead S is confused about the property location, insisting the listing link shows Dubai Marina. Faysal has tried multiple times to clarify it's Azizi Riviera 16 in Meydan but the lead keeps saying the link shows Marina. The listing URL shared by Faysal appears to point to a DAMAC Towers by Paramount (Business Bay) listing, not Azizi Riviera 16 in Meydan, which may be causing the confusion. Lead also repeatedly requested photos and asked if the property is available. Cannot resolve location confusion or provide correct listing link with confidence. Human intervention needed to share the correct listing URL and clarify the property."
   }
 ]
