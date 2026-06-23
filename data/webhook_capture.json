@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-23T07:41:46.783Z",
+  "ts": "2026-06-23T07:41:57.923Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4286676121",
-    "ticket_id": "960457082",
-    "message": "Sure waiting for the confirmation",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "540922254",
-    "contact_name": "Alexandros Perakis",
-    "contact_identifier": "+971585106628",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4286676395",
+    "ticket_id": "958527820",
+    "message": "Hello! We have rented this apartment via airbnb. We were wondering if you would be open to switch to a direct agreement?",
+    "channel_id": "1304636",
+    "contact_id": "540392813",
+    "contact_name": "Alexei (BOB)",
+    "contact_identifier": "+436705086144",
+    "event_type": "INBOUND"
   }
 }
