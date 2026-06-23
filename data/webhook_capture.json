@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-23T18:15:14.926Z",
+  "ts": "2026-06-23T18:15:34.273Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4287380812",
+    "type": "OUTBOUND",
+    "message_id": "4287380969",
     "ticket_id": "960985602",
-    "message": "can we see the apartment ?",
-    "channel_id": "1304636",
+    "message": "A 6-month stay works great. For a viewing, what day works best for you, any time between 9am and 6pm?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539312831",
     "contact_name": "David",
     "contact_identifier": "+79990993177",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
