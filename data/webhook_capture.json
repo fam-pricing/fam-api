@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-23T12:25:04.157Z",
+  "ts": "2026-06-23T12:25:13.491Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4287018109",
-    "ticket_id": "960886817",
-    "message": "I want to move soon  if you can today",
+    "type": "OUTBOUND",
+    "message_id": "4287018283",
+    "ticket_id": "960847023",
+    "message": "Are you looking to move in soon, or would you like to arrange a viewing first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "541034233",
+    "contact_name": "Bunny",
+    "contact_identifier": "+971585903522",
     "channel_id": "1304636",
-    "contact_id": "541045616",
-    "contact_name": "UAE",
-    "contact_identifier": "+971544850491",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
