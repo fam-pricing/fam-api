@@ -1,20 +1,18 @@
 {
-  "ts": "2026-06-23T23:15:00.000Z",
+  "ts": "2026-06-24T00:13:37.689Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4287581391",
-    "ticket_id": "961036396",
-    "message": "We don't offer Ejari contracts as this is a holiday home on a monthly basis, so you can move in straight away and stay as long as you need. To get started, just send over your ID or passport and email address. Shall I go ahead and set that up for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "541095681",
-    "contact_name": "Amir Benmahjoub",
-    "contact_identifier": "+212605112801",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4287592281",
+    "ticket_id": "960960672",
+    "message": "I Accept Charges",
+    "channel_id": "585723",
+    "contact_id": "541067277",
+    "contact_identifier": "+971563737708",
+    "parent_message_id": "4287283771",
+    "parent_ticket_id": "960960672",
+    "event_type": "INBOUND"
   }
 }
