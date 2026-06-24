@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-24T11:51:12.786Z",
+  "ts": "2026-06-24T11:51:42.152Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4288047069",
-    "ticket_id": "952487865",
-    "message": "Sure allow me to send the payment link to complete the payment for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "538724311",
-    "contact_name": "FENGLEI YIN",
-    "contact_identifier": "+971585702058",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4288047648",
+    "ticket_id": "961182115",
+    "message": "🙏",
+    "channel_id": "1304636",
+    "contact_id": "540291358",
+    "contact_name": "Tracy",
+    "contact_identifier": "+31618323735",
+    "parent_message_id": "4288046718",
+    "parent_ticket_id": "961177655",
+    "event_type": "INBOUND"
   }
 }
