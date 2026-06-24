@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-24T18:38:02.550Z",
+  "ts": "2026-06-24T18:38:25.538Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4288449868",
+    "type": "OUTBOUND",
+    "message_id": "4288450109",
     "ticket_id": "961289220",
-    "message": "I'll come directly tomorrow to live, but I'm looking for a good discount",
-    "channel_id": "1304636",
+    "message": "Already the best rate we can do on this one. If you're planning to come tomorrow, what time works for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541158870",
     "contact_name": "S",
     "contact_identifier": "+971503141777",
-    "parent_message_id": "4288449562",
-    "parent_ticket_id": "961289220",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
