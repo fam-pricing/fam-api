@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-24T08:20:06.828Z",
+  "ts": "2026-06-24T08:20:33.546Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4287790876",
+    "type": "INBOUND",
+    "message_id": "4287791823",
     "ticket_id": "957524557",
-    "message": "Please let us know your availability for tomorrow we will send a team",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Tomorrow anytime after 11 am",
+    "channel_id": "585723",
     "contact_id": "537865623",
     "contact_name": "UMAIR SALEEM",
     "contact_identifier": "+923314067795",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4287790876",
+    "parent_ticket_id": "957524557",
+    "event_type": "INBOUND"
   }
 }
