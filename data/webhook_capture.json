@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-24T11:26:12.144Z",
+  "ts": "2026-06-24T11:26:35.564Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4288017761",
+    "type": "INBOUND",
+    "message_id": "4288018282",
     "ticket_id": "961131108",
-    "message": "May I know the budget please?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "1500 to 2000 single person",
+    "channel_id": "585723",
     "contact_id": "541114626",
     "contact_name": "Shuaib Karjikar",
     "contact_identifier": "+971521987121",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4288011878",
+    "parent_ticket_id": "961131108",
+    "event_type": "INBOUND"
   }
 }
