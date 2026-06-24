@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-24T20:00:53.968Z",
+  "ts": "2026-06-24T20:01:06.950Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4288493632",
+    "type": "INBOUND",
+    "message_id": "4288493710",
     "ticket_id": "961305705",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in Viridian Central Park\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "hello",
+    "channel_id": "1304636",
     "contact_id": "541163830",
     "contact_name": "Giulia cello",
     "contact_identifier": "+971504981084",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
