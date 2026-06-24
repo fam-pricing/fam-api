@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-24T11:52:39.759Z",
+  "ts": "2026-06-24T11:53:59.319Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4288048759",
-    "ticket_id": "955436676",
-    "message": "Audio",
+    "type": "OUTBOUND",
+    "message_id": "4288050292",
+    "ticket_id": "952487865",
+    "message": "Payment link with 3.1% card charges\r\n\r\nhttps://totalpay.ae/payment/20260624306a3bc53a9af91",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538724311",
+    "contact_name": "FENGLEI YIN",
+    "contact_identifier": "+971585702058",
     "channel_id": "585723",
-    "contact_id": "539565275",
-    "contact_name": "GESCARD ISSA",
-    "contact_identifier": "+23795870067",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
