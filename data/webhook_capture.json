@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-24T10:49:43.684Z",
+  "ts": "2026-06-24T10:50:06.971Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4287976335",
-    "ticket_id": "952487865",
-    "message": "Hey",
+    "type": "OUTBOUND",
+    "message_id": "4287976709",
+    "ticket_id": "961151066",
+    "message": "May I know the building and the unit number",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541119547",
+    "contact_name": "Joosua",
+    "contact_identifier": "+971527956312",
     "channel_id": "585723",
-    "contact_id": "538724311",
-    "contact_name": "FENGLEI YIN",
-    "contact_identifier": "+971585702058",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
