@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-24T10:35:41.636Z",
+  "ts": "2026-06-24T10:36:05.722Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4287960552",
-    "ticket_id": "961158528",
-    "message": "Image",
-    "channel_id": "1304636",
-    "contact_id": "541121714",
-    "contact_name": "Armin Zahedi",
-    "contact_identifier": "+16047169164",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4287960959",
+    "ticket_id": "961150665",
+    "message": "May I know your booking reference number please so I can check for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541119453",
+    "contact_name": "Joosua Tirkkonen",
+    "contact_identifier": "874b5cb6-418f-4c18-4fbf-281ba2d2b15c",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
