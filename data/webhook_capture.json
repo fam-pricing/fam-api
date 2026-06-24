@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-24T11:36:53.030Z",
+  "ts": "2026-06-24T11:49:49.140Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4288030681",
-    "ticket_id": "960879768",
-    "message": "From next week",
-    "channel_id": "1304636",
-    "contact_id": "541044447",
-    "contact_name": "Maxx",
-    "contact_identifier": "+971585435999",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4288045571",
+    "ticket_id": "955436676",
+    "message": "This unit is not available as we have received another confirmed reservation",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539565275",
+    "contact_name": "GESCARD ISSA",
+    "contact_identifier": "+23795870067",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
