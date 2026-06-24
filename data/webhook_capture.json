@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-24T10:31:28.259Z",
+  "ts": "2026-06-24T10:31:49.608Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4287955892",
-    "ticket_id": "960837896",
-    "message": "The rental amount will be AED 5,000 per month, and we can confirm this rate for a period of 3 months.\r\n\r\nPlease note that a security deposit of AED 2,000 is required. This amount is fully refundable at check-out, provided there are no damages to the apartment. The refund will be processed within 7 working days after your departure.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "541031619",
-    "contact_name": "Farah",
-    "contact_identifier": "+971526504181",
+    "type": "INBOUND",
+    "message_id": "4287956300",
+    "ticket_id": "961158528",
+    "message": "Is there aby hidden fees",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "541121714",
+    "contact_name": "Armin Zahedi",
+    "contact_identifier": "+16047169164",
+    "event_type": "INBOUND"
   }
 }
