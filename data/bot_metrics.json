@@ -2062,5 +2062,17 @@
     "lead_quality": 65,
     "buying_stage": "WARM",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-06-24T20:01:16.744Z",
+    "ticket_id": 961305705,
+    "lead_id": "message_lead_30160002",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1500,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "ticket_locked"
   }
 ]
