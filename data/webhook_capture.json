@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-24T18:37:09.792Z",
+  "ts": "2026-06-24T18:37:30.395Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4288449331",
+    "type": "OUTBOUND",
+    "message_id": "4288449562",
     "ticket_id": "961289220",
-    "message": "Give me a discount, I will live for a whole month",
-    "channel_id": "1304636",
+    "message": "That's already our best rate for this unit. Want to come see it first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541158870",
     "contact_name": "S",
     "contact_identifier": "+971503141777",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
