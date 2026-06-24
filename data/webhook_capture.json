@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-24T10:04:08.171Z",
+  "ts": "2026-06-24T10:04:09.242Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4287924512",
+    "type": "OUTBOUND",
+    "message_id": "4287924564",
     "ticket_id": "961150665",
-    "message": "Hello!\n\nIm moving out and the apartment owner asked to check my move out date with you",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "541119453",
     "contact_name": "Joosua Tirkkonen",
     "contact_identifier": "874b5cb6-418f-4c18-4fbf-281ba2d2b15c",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
