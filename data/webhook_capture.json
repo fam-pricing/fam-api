@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-24T18:30:02.224Z",
+  "ts": "2026-06-24T18:30:04.027Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4288444920",
-    "ticket_id": "961291472",
-    "message": "I want to know about monthly rental",
-    "channel_id": "585723",
-    "contact_id": "541159600",
-    "contact_name": "Aafiya Khan",
-    "contact_identifier": "+917417418463",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4288444926",
+    "ticket_id": "961289220",
+    "message": "Anything specific you're looking for, or shall I walk you through what's included with this property?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "541158870",
+    "contact_name": "S",
+    "contact_identifier": "+971503141777",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
