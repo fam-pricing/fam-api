@@ -1,18 +1,20 @@
 {
-  "ts": "2026-06-24T12:25:52.730Z",
+  "ts": "2026-06-24T12:25:58.562Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4288093036",
-    "ticket_id": "961194897",
-    "message": "I would like to book 3bhk appartment in city walk area",
-    "channel_id": "883603",
-    "contact_id": "515373472",
-    "contact_name": "Khaled",
-    "contact_email": "bowleed1@hotmail.com",
-    "contact_identifier": "729e3c33-07c1-45fe-45e2-518a06bce377",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4288093203",
+    "ticket_id": "952487865",
+    "message": "May I know how you would like to complete the payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538724311",
+    "contact_name": "FENGLEI YIN",
+    "contact_identifier": "+971585702058",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
