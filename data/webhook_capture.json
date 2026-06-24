@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-24T05:58:26.633Z",
+  "ts": "2026-06-24T05:58:36.618Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4287662248",
-    "ticket_id": "957524557",
-    "message": "Hello",
-    "channel_id": "585723",
-    "contact_id": "537865623",
-    "contact_name": "UMAIR SALEEM",
-    "contact_identifier": "+923314067795",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4287662345",
+    "ticket_id": "960842206",
+    "message": "Unfortunately we do not have anything available around the area",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541032912",
+    "contact_name": "Joe",
+    "contact_identifier": "+918208967354",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
