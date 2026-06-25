@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-25T07:40:38.288Z",
+  "ts": "2026-06-25T07:40:50.469Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4288718623",
+    "type": "OUTBOUND",
+    "message_id": "4288718873",
     "ticket_id": "961383993",
-    "message": "Tower",
-    "channel_id": "585723",
+    "message": "Building name please?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "541182556",
     "contact_name": "Nando",
     "contact_identifier": "+971585156846",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
