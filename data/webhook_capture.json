@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-25T05:05:55.253Z",
+  "ts": "2026-06-25T05:07:19.170Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4288616721",
-    "ticket_id": "961354906",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PkztQ5mhlY.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "541175290",
-    "contact_name": "Neha",
-    "contact_identifier": "+971509069921",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4288617080",
+    "ticket_id": "961307133",
+    "message": "Hi,\nThank you for reaching out this morning.\nTo explain what happened last night: we discovered a rodent in the apartment around 11pm. We immediately closed the bedroom door and spent over 3 hours with Airbnb Support — with no resolution. No one on your side was reachable at that hour, which I understand.\nWe are traveling with our 4-month-old son. Spending the night in those conditions was not acceptable, and we barely slept.\nHere is what I'm asking this morning: do you have another property available in City Walk or nearby, for tonight and tomorrow night (checkout Friday morning)? I'm ready to move right now if you can offer us something.\nIn parallel, I have submitted a full refund request through Airbnb's Resolution Center for last night and the remaining nights.\nI'd rather sort this out directly with you than leave it to Airbnb to arbitrate — so please let me know as quickly as possible.\nRashad",
+    "channel_id": "585723",
+    "contact_id": "541164250",
+    "contact_name": "Rashad Karanouh",
+    "contact_identifier": "+971585179937",
+    "event_type": "INBOUND"
   }
 }
