@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-25T07:02:09.921Z",
+  "ts": "2026-06-25T07:03:02.848Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4288679113",
+    "type": "INBOUND",
+    "message_id": "4288679910",
     "ticket_id": "961307133",
-    "message": "Kindly check and update us at your earliest convenience, as we need to block the unit accordingly.",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "please read when i type",
+    "channel_id": "585723",
     "contact_id": "541164250",
     "contact_name": "Rashad Karanouh",
     "contact_identifier": "+971585179937",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4288673079",
+    "parent_ticket_id": "961307133",
+    "event_type": "INBOUND"
   }
 }
