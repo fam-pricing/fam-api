@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-25T06:00:53.569Z",
+  "ts": "2026-06-25T06:00:59.067Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4288637156",
-    "ticket_id": "961307133",
-    "message": "I don't think you understand. I don't want to check on the matter; I want another apartment, and you have to give me that in the next two hours. \n\nOtherwise, I'll go to the Dubai Tourism Police, to be honest, because the way you are handling this is not acceptable.",
+    "type": "OUTBOUND",
+    "message_id": "4288637201",
+    "ticket_id": "961291472",
+    "message": "Unfortunately we do not have any units in your preferred areas",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541159600",
+    "contact_name": "Aafiya Khan",
+    "contact_identifier": "+917417418463",
     "channel_id": "585723",
-    "contact_id": "541164250",
-    "contact_name": "Rashad Karanouh",
-    "contact_identifier": "+971585179937",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
