@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-25T07:30:01.292Z",
+  "ts": "2026-06-25T07:31:47.483Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4288707269",
-    "ticket_id": "961369977",
-    "message": "Okay, please keep me updated to arrange the viewing",
-    "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Ariel Griszka",
-    "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4288709236",
+    "ticket_id": "961186243",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541129758",
+    "contact_name": "Mohammed Alshamsi",
+    "contact_identifier": "+971508881993",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
