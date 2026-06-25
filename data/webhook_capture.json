@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-25T05:16:37.274Z",
+  "ts": "2026-06-25T05:16:57.734Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4288619947",
+    "type": "OUTBOUND",
+    "message_id": "4288620034",
     "ticket_id": "961354906",
-    "message": "How much would that be?",
-    "channel_id": "1304636",
+    "message": "The extra fees note is just a refundable security deposit of AED 1,000, everything else (water, electricity, internet, and VAT) is covered in the monthly rate. Would you like to come see it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541175290",
     "contact_name": "Neha",
     "contact_identifier": "+971509069921",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
