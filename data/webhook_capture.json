@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-25T08:39:12.442Z",
+  "ts": "2026-06-25T08:40:16.832Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4288784504",
-    "ticket_id": "961307133",
-    "message": "Thanks for your kind understanding. Kindly confirm your check-out and share a photo of the access cards left inside the apartment upon departure, as we need to arrange the housekeeping team.",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "541164250",
-    "contact_name": "Rashad Karanouh",
-    "contact_identifier": "+971585179937",
+    "type": "INBOUND",
+    "message_id": "4288785644",
+    "ticket_id": "961186243",
+    "message": "Image",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "541129758",
+    "contact_name": "Mohammed Alshamsi",
+    "contact_identifier": "+971508881993",
+    "parent_message_id": "4288709935",
+    "parent_ticket_id": "961186243",
+    "event_type": "INBOUND"
   }
 }
