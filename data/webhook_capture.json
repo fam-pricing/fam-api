@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-25T13:31:23.656Z",
+  "ts": "2026-06-25T13:31:25.280Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4289141852",
+    "type": "OUTBOUND",
+    "message_id": "4289141903",
     "ticket_id": "961504279",
-    "message": "hi",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "541220550",
     "contact_name": ".",
     "contact_identifier": "+97332044434",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
