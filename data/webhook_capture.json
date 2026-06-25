@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-25T07:53:28.170Z",
+  "ts": "2026-06-25T07:59:34.819Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4288732716",
+    "type": "OUTBOUND",
+    "message_id": "4288739475",
     "ticket_id": "961307133",
-    "message": "👍",
-    "channel_id": "585723",
+    "message": "Unfortunately, we are not able to reimburse any additional hotel expenses, as these are beyond our control. However, as a gesture of goodwill, we are refunding the charges for the same nights from your current stay, which we believe is a fair resolution for both parties. Please also note that you are still currently in-house at the apartment.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "541164250",
     "contact_name": "Rashad Karanouh",
     "contact_identifier": "+971585179937",
-    "parent_message_id": "4288728043",
-    "parent_ticket_id": "961307133",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
