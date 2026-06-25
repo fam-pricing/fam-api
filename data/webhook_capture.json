@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-25T05:01:53.576Z",
+  "ts": "2026-06-25T05:04:45.665Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4288615395",
+    "type": "OUTBOUND",
+    "message_id": "4288616411",
     "ticket_id": "961307133",
-    "message": "hello",
-    "channel_id": "585723",
+    "message": "We sincerely apologize for the inconvenience this may have caused. We understand the frustration you may have experienced, and we appreciate your patience.\r\n\r\nPlease be assured that we will inform the relevant team and follow up on this matter accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "541164250",
     "contact_name": "Rashad Karanouh",
     "contact_identifier": "+971585179937",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
