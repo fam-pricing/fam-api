@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-25T13:39:23.018Z",
+  "ts": "2026-06-25T13:43:07.056Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4289150803",
-    "ticket_id": "953917972",
-    "message": "Do you have a 1 bedroom from the 27th to the 2nd of July",
+    "type": "OUTBOUND",
+    "message_id": "4289155230",
+    "ticket_id": "961441712",
+    "message": "We have shared the rental details above.\r\n\r\nIn addition, a security deposit of AED 2,000 is required, which is fully refundable upon check-out, provided there are no damages to the apartment. The refund will be processed within 7 working days after your departure.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541197510",
+    "contact_name": "Shimona",
+    "contact_identifier": "+971581956365",
     "channel_id": "585723",
-    "contact_id": "437807625",
-    "contact_name": "Mr. Nana Yaw Opare",
-    "contact_identifier": "+233244773402",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
