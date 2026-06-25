@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-25T07:59:34.819Z",
+  "ts": "2026-06-25T08:02:27.016Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4288739475",
+    "type": "INBOUND",
+    "message_id": "4288742937",
     "ticket_id": "961307133",
-    "message": "Unfortunately, we are not able to reimburse any additional hotel expenses, as these are beyond our control. However, as a gesture of goodwill, we are refunding the charges for the same nights from your current stay, which we believe is a fair resolution for both parties. Please also note that you are still currently in-house at the apartment.",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "Thank you. Before I can accept, I need clarification on exactly what is being refunded.\nAre you refunding:\n\n(a) 2 nights from my original reservation (June 24 and 25), processed through Airbnb? Or\n\n(b) The cost of my alternative accommodation for those same nights (700 AED)?\nPlease confirm the exact amount in AED and how it will be processed.",
+    "channel_id": "585723",
     "contact_id": "541164250",
     "contact_name": "Rashad Karanouh",
     "contact_identifier": "+971585179937",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
