@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-25T05:26:15.035Z",
+  "ts": "2026-06-25T05:33:38.364Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4288622987",
-    "ticket_id": "950575440",
-    "message": "I want to extend my booking",
-    "channel_id": "585723",
-    "contact_id": "538178428",
-    "contact_name": "BARBARA ALMEIDA CUNHA",
-    "contact_identifier": "+971569589393",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4288625851",
+    "ticket_id": "960843750",
+    "message": "May I confirm the the viewing at 4pm today",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541033321",
+    "contact_name": "khshyr",
+    "contact_identifier": "+971551890313",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
