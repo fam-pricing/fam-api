@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-25T09:05:50.170Z",
+  "ts": "2026-06-25T09:08:45.500Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4288815220",
+    "type": "OUTBOUND",
+    "message_id": "4288818458",
     "ticket_id": "961406122",
-    "message": "👍",
-    "channel_id": "585723",
+    "message": "Here is the important information about your stay with us\r\n\r\nBuilding Name: Imperial Avenue\r\n\r\nApartment no 2309 on the 23rd floor\r\n\r\nDoor code: 8080 🗝️\r\n\r\nWi-Fi Password: famliving\r\n\r\nParking no: P1-59-60\r\n\r\nThe gym is on the 27th floor\r\n\r\nThe pool is on the 9th floor\r\n\r\nThe garden is on the 6th floor\r\n\r\nUpon arrival, kindly pass by the reception for a smooth check-in\r\n\r\nAnd we left the 2 access cards inside the apartment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "524042039",
     "contact_name": "Vipul",
     "contact_identifier": "+971555324060",
-    "parent_message_id": "4288814678",
-    "parent_ticket_id": "961406122",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
