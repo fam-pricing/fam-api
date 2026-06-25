@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-25T12:29:39.682Z",
+  "ts": "2026-06-25T12:29:59.968Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4289068831",
-    "ticket_id": "961441712",
-    "message": "What’s the monthly Rental for these ? Also can I view them today?",
+    "type": "OUTBOUND",
+    "message_id": "4289069176",
+    "ticket_id": "943915428",
+    "message": "Unfortunately just now we received a booking for this unit",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536484706",
+    "contact_name": "Raja Sajid 🇦🇪",
+    "contact_identifier": "+971566960509",
     "channel_id": "585723",
-    "contact_id": "541197510",
-    "contact_name": "Shimona",
-    "contact_identifier": "+971581956365",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
