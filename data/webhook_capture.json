@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-26T05:10:51.762Z",
+  "ts": "2026-06-26T05:11:27.587Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4289590779",
+    "type": "INBOUND",
+    "message_id": "4289590923",
     "ticket_id": "961635418",
-    "message": "Got it, 3 months from 1 July. What time works for you today? Anytime between 9am and 6pm.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "1 pm",
+    "channel_id": "1304636",
     "contact_id": "541259335",
     "contact_name": "Fh",
     "contact_identifier": "+971508231922",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4289590779",
+    "parent_ticket_id": "961635418",
+    "event_type": "INBOUND"
   }
 }
