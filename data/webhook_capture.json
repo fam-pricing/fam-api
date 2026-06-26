@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-26T15:59:07.942Z",
+  "ts": "2026-06-26T15:59:11.486Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290206012",
+    "type": "OUTBOUND",
+    "message_id": "4290206058",
     "ticket_id": "961817608",
-    "message": "I need someone from the mangers",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "541312035",
     "contact_name": "Humam",
     "contact_identifier": "7722b440-a6a3-41ff-a1d7-c4990813c974",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
