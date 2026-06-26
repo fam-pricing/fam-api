@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-26T10:40:32.028Z",
+  "ts": "2026-06-26T10:44:04.669Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4289884364",
-    "ticket_id": "961709917",
-    "message": "Sure we can provide upon check out",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "538375001",
-    "contact_name": "Timur Aghayev",
-    "contact_identifier": "+971561630343",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4289887634",
+    "ticket_id": "961649040",
+    "message": "Hey … I am still waiting",
+    "channel_id": "585723",
+    "contact_id": "541261521",
+    "contact_name": "Payal",
+    "contact_identifier": "+971557088703",
+    "parent_message_id": "4289625430",
+    "parent_ticket_id": "961649040",
+    "event_type": "INBOUND"
   }
 }
