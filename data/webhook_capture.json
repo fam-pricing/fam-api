@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-26T05:13:19.448Z",
+  "ts": "2026-06-26T05:13:45.587Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4289591467",
-    "ticket_id": "961635418",
-    "message": "Ok",
+    "type": "OUTBOUND",
+    "message_id": "4289591569",
+    "ticket_id": "961615748",
+    "message": "Yes, however, we have received another reservation through an online platform. Therefore, we regret to inform you that we will not be able to provide access starting from today.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541255646",
+    "contact_name": "Gina",
+    "contact_identifier": "+40743188097",
     "channel_id": "1304636",
-    "contact_id": "541259335",
-    "contact_name": "Fh",
-    "contact_identifier": "+971508231922",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
