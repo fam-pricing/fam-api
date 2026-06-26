@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-26T07:59:05.887Z",
+  "ts": "2026-06-26T07:59:09.367Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4289706113",
+    "type": "OUTBOUND",
+    "message_id": "4289706200",
     "ticket_id": "957524557",
-    "message": "👍🏻",
-    "channel_id": "585723",
+    "message": "And Please let us know if someone is available now in the apartment",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "537865623",
     "contact_name": "UMAIR SALEEM",
     "contact_identifier": "+923314067795",
-    "parent_message_id": "4289705881",
-    "parent_ticket_id": "957524557",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
