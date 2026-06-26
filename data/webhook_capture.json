@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-26T01:25:57.384Z",
+  "ts": "2026-06-26T01:26:19.188Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4289548662",
+    "type": "OUTBOUND",
+    "message_id": "4289548725",
     "ticket_id": "961615748",
-    "message": "I would like to book it. How should I proceed? With check-in starting today.",
-    "channel_id": "1304636",
+    "message": "To get this moving, just send over a copy of your passport and your email address and we'll get the contract across to you straight away.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541255646",
     "contact_name": "Gina",
     "contact_identifier": "+40743188097",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
