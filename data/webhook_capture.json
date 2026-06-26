@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-26T06:17:11.996Z",
+  "ts": "2026-06-26T06:19:24.066Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4289619986",
-    "ticket_id": "961441712",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "541197510",
-    "contact_name": "Shimona",
-    "contact_identifier": "+971581956365",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4289621149",
+    "ticket_id": "961649476",
+    "message": "Good morning I want ask if this apartment still available",
+    "channel_id": "1304636",
+    "contact_id": "541045616",
+    "contact_name": "UAE",
+    "contact_identifier": "+971544850491",
+    "parent_message_id": "4287045181",
+    "parent_ticket_id": "960886817",
+    "event_type": "INBOUND"
   }
 }
