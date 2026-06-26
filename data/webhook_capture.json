@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-26T14:47:12.275Z",
+  "ts": "2026-06-26T14:47:19.423Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290146182",
-    "ticket_id": "961800108",
-    "message": "I must pay in advance or I can pay during the handover ?",
-    "channel_id": "1304636",
-    "contact_id": "541305360",
-    "contact_name": "Jeremie R",
-    "contact_identifier": "+33648737801",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4290146275",
+    "ticket_id": "941451761",
+    "message": "Unfortunately we have to keep the same design as it’s belongs to the owner, the apartment is getting handover to the landlord after your departure. Hence we are unable to extend your reservation as well. Thanks for your kind understanding",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "535680169",
+    "contact_name": "HUMAM SHAMDEEN",
+    "contact_identifier": "+971555795196",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
