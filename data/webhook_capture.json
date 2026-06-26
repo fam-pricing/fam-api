@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-26T15:50:16.513Z",
+  "ts": "2026-06-26T15:50:45.275Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4290199882",
-    "ticket_id": "961816167",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Bluewaters Building 4\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "541311555",
-    "contact_name": "Ff",
-    "contact_identifier": "+971506913178",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4290200282",
+    "ticket_id": "941451761",
+    "message": "Please deduct the actual cost of the lamp, not 500\nThe lamp costs around  89, not 500\nCharging  500 for it \nis simply unreasonable and disrespectful",
+    "channel_id": "585723",
+    "contact_id": "535680169",
+    "contact_name": "HUMAM SHAMDEEN",
+    "contact_identifier": "+971555795196",
+    "event_type": "INBOUND"
   }
 }
