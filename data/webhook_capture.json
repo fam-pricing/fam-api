@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-26T12:18:27.426Z",
+  "ts": "2026-06-26T12:19:44.786Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4289993634",
-    "ticket_id": "953019973",
-    "message": "Hello. Our air conditioner isn't working very well. It's especially bad in the bedroom.",
+    "type": "OUTBOUND",
+    "message_id": "4289994927",
+    "ticket_id": "961489966",
+    "message": "We kindly request you to complete the deposit payment in order to confirm the reservation so that we can proceed with blocking the unit for you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541033321",
+    "contact_name": "Khashayar Zahed",
+    "contact_identifier": "+971551890313",
     "channel_id": "585723",
-    "contact_id": "536585155",
-    "contact_name": "Muhammad",
-    "contact_identifier": "+971561683935",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
