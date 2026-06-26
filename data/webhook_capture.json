@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-26T07:51:57.563Z",
+  "ts": "2026-06-26T07:54:38.616Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4289699192",
-    "ticket_id": "961650638",
-    "message": "I already checked it says confirmed payment on booking",
-    "channel_id": "585723",
-    "contact_id": "541190312",
-    "contact_name": "Siza Jambaz",
-    "contact_identifier": "+447447493158",
-    "parent_message_id": "4289697718",
-    "parent_ticket_id": "961650638",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4289701908",
+    "ticket_id": "961573562",
+    "message": "Unfortunately, we have received another reservation for the unit and are therefore unable to proceed with your booking request.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541244445",
+    "contact_name": "Leen",
+    "contact_identifier": "+971502608626",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
