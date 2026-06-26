@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-26T06:37:47.275Z",
+  "ts": "2026-06-26T06:38:09.101Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4289636028",
+    "type": "INBOUND",
+    "message_id": "4289636217",
     "ticket_id": "961649476",
-    "message": "Yes, you may proceed with the reservation starting from 7th July. We can share the payment link to complete the deposit, which will block the unit and confirm your booking.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Yes",
+    "channel_id": "1304636",
     "contact_id": "541045616",
     "contact_name": "UAE",
     "contact_identifier": "+971544850491",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
