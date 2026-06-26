@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-26T19:23:12.513Z",
+  "ts": "2026-06-26T19:23:13.728Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290323560",
+    "type": "OUTBOUND",
+    "message_id": "4290323559",
     "ticket_id": "961849372",
-    "message": "What is the price per month?",
-    "channel_id": "883603",
+    "message": "It's a beautiful day at fäm Living; how can I help you?",
     "contact_id": "541322143",
     "contact_name": "Vlad",
     "contact_identifier": "8094fe12-bd39-4d1d-56b1-a23712914645",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
