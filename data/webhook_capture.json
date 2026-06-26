@@ -1,18 +1,20 @@
 {
-  "ts": "2026-06-26T12:39:22.721Z",
+  "ts": "2026-06-26T12:39:31.228Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290014634",
-    "ticket_id": "961769074",
-    "message": "I'm contacting you on behalf of Syed Javed Shirazi.  FAM was managing Imperial Avenue Apartment #2004 as holiday home in 2025.  The holiday home permit was NOT cancelled and is still active.  We need you to please cancel it urgently.",
-    "channel_id": "883603",
-    "contact_id": "541295279",
-    "contact_name": "Usman Lali",
-    "contact_email": "usmanlali@icloud.com",
-    "contact_identifier": "6873f028-9023-49cb-6cdd-760f82898893",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4290014758",
+    "ticket_id": "961355431",
+    "message": "May I know the convenient time for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539312831",
+    "contact_name": "David",
+    "contact_identifier": "+79990993177",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
