@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-26T23:06:10.813Z",
+  "ts": "2026-06-26T23:10:16.545Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290394089",
-    "ticket_id": "961873036",
-    "message": "Hi please can you let me know the best price you can do this for. \n\nAlso how fast can I move in \n\nWhen can I come to view",
+    "type": "OUTBOUND",
+    "message_id": "4290395337",
+    "ticket_id": "961874039",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "541328435",
+    "contact_name": "Sabin",
+    "contact_identifier": "+971562326610",
     "channel_id": "1304636",
-    "contact_id": "541328262",
-    "contact_name": "АБИР🐈‍⬛",
-    "contact_identifier": "+212635927429",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
