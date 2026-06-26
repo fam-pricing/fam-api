@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-26T11:32:22.443Z",
+  "ts": "2026-06-26T11:46:42.571Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4289944987",
+    "type": "OUTBOUND",
+    "message_id": "4289959628",
     "ticket_id": "961587205",
-    "message": "Hello do you have any video available of the studio so instead of getting seeing I’ll see at least the video and then I’ll get the studio and pay",
-    "channel_id": "1304636",
+    "message": "Unfortunately we do not have any videos available",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "541248395",
     "contact_name": "Rim",
     "contact_identifier": "+34614275652",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
