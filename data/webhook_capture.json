@@ -1,19 +1,17 @@
 {
-  "ts": "2026-06-26T10:44:04.669Z",
+  "ts": "2026-06-26T10:45:10.607Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4289887634",
-    "ticket_id": "961649040",
-    "message": "Hey … I am still waiting",
+    "type": "OUTBOUND",
+    "message_id": "4289888729",
+    "ticket_id": "957524557",
+    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
+    "contact_id": "537865623",
+    "contact_name": "UMAIR SALEEM",
+    "contact_identifier": "+923314067795",
     "channel_id": "585723",
-    "contact_id": "541261521",
-    "contact_name": "Payal",
-    "contact_identifier": "+971557088703",
-    "parent_message_id": "4289625430",
-    "parent_ticket_id": "961649040",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
