@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-26T14:17:30.597Z",
+  "ts": "2026-06-26T14:17:33.781Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290116562",
+    "type": "OUTBOUND",
+    "message_id": "4290116586",
     "ticket_id": "961795225",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "541303798",
     "contact_name": "Abdoul majid sadou",
     "contact_identifier": "+22797632626",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
