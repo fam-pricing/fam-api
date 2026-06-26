@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-26T01:10:49.335Z",
+  "ts": "2026-06-26T01:11:45.535Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4289545954",
+    "type": "INBOUND",
+    "message_id": "4289546167",
     "ticket_id": "961615748",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-the-address-residences-dubai-opera-the-address-residences-dubai-opera-tower-1-15597551.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "What apartments do you have available from June 26th to July 31st? And what would be the final price? There is also a possibility of extending the lease for a full year.",
+    "channel_id": "1304636",
     "contact_id": "541255646",
     "contact_name": "Gina",
     "contact_identifier": "+40743188097",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
