@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-26T07:26:06.636Z",
+  "ts": "2026-06-26T07:28:58.828Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4289674882",
+    "type": "INBOUND",
+    "message_id": "4289677523",
     "ticket_id": "961637893",
-    "message": "We confirm that we have received the payment for the reservation",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Thank you",
+    "channel_id": "1304636",
     "contact_id": "536414061",
     "contact_name": "Maria",
     "contact_identifier": "+96176100864",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
