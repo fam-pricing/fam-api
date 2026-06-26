@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-26T09:26:05.606Z",
+  "ts": "2026-06-26T09:26:08.629Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4289803612",
-    "ticket_id": "961650638",
-    "message": "We have attempted to collect the payment via Booking.com, but it has not gone through. If you require any further information, we kindly request that you contact Booking.com directly.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "541190312",
-    "contact_name": "Siza Jambaz",
-    "contact_identifier": "+447447493158",
+    "type": "INBOUND",
+    "message_id": "4289803638",
+    "ticket_id": "961549038",
+    "message": "*Message type unknown*",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "541236414",
+    "contact_name": "Hani",
+    "contact_identifier": "+971502262038",
+    "event_type": "INBOUND"
   }
 }
