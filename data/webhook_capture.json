@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-26T14:29:25.831Z",
+  "ts": "2026-06-26T14:29:49.918Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290128548",
-    "ticket_id": "961795225",
-    "message": "I want a studio apartment to rent by the month",
-    "channel_id": "585723",
-    "contact_id": "541303798",
-    "contact_name": "Abdoul majid sadou",
-    "contact_identifier": "+22797632626",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4290128916",
+    "ticket_id": "961649476",
+    "message": "We have received the payment and we will share the booking details by tomorrow",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541045616",
+    "contact_name": "Salam Sade Issa",
+    "contact_identifier": "+971544850491",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
