@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-26T14:46:10.882Z",
+  "ts": "2026-06-26T14:46:48.040Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4290145134",
+    "type": "INBOUND",
+    "message_id": "4290145772",
     "ticket_id": "961800108",
-    "message": "Got it, Jeremie, passport received. You're all set for Tuesday the 30th. Shall I send the payment link now?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Could I get the rental contract ?",
+    "channel_id": "1304636",
     "contact_id": "541305360",
     "contact_name": "Jeremie R",
     "contact_identifier": "+33648737801",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
