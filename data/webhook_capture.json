@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-26T08:53:42.441Z",
+  "ts": "2026-06-26T08:54:00.972Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4289765352",
+    "type": "INBOUND",
+    "message_id": "4289765769",
     "ticket_id": "961549493",
-    "message": "Good question on peak season rates. Let me check that with the team and come back to you shortly!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍🏼",
+    "channel_id": "1304636",
     "contact_id": "541236634",
     "contact_name": "Jacques",
     "contact_identifier": "+971522414206",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4289765352",
+    "parent_ticket_id": "961549493",
+    "event_type": "INBOUND"
   }
 }
