@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-26T11:49:16.301Z",
+  "ts": "2026-06-26T11:49:24.434Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4289962206",
+    "type": "OUTBOUND",
+    "message_id": "4289962368",
     "ticket_id": "961755611",
-    "message": "One bedroom available",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "118407710",
     "contact_name": "Mr Jaseem Hassan",
     "contact_identifier": "+971507555463",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
