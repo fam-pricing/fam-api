@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-26T14:09:37.541Z",
+  "ts": "2026-06-26T14:09:51.027Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290108721",
-    "ticket_id": "955707156",
-    "message": "Need approval for them to change water heater",
+    "type": "OUTBOUND",
+    "message_id": "4290108932",
+    "ticket_id": "961755611",
+    "message": "May I know starting from which date until when you are looking for so we can check for the availability",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "118407710",
+    "contact_name": "Mr Jaseem Hassan",
+    "contact_identifier": "+971507555463",
     "channel_id": "585723",
-    "contact_id": "537376941",
-    "contact_name": "Muhsin Hassan",
-    "contact_identifier": "+971528179317",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
