@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-27T11:46:53.205Z",
+  "ts": "2026-06-27T11:47:14.390Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4290637127",
+    "type": "INBOUND",
+    "message_id": "4290637334",
     "ticket_id": "961937861",
-    "message": "The total deposit was about to collect 3000 AED, but we have received 1500 AED upon check-in, and later we haven't asked for it",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "You have collected 2000 not 1500",
+    "channel_id": "1304636",
     "contact_id": "535452159",
     "contact_name": "Shouq",
     "contact_identifier": "+971503671717",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
