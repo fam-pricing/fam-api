@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-27T10:34:40.674Z",
+  "ts": "2026-06-27T10:34:53.293Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4290598707",
+    "type": "INBOUND",
+    "message_id": "4290598845",
     "ticket_id": "941542481",
-    "message": "Thank you for sharing the bank details. We will forward them to the finance team, and once the payment is processed, we will update you accordingly.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "535901686",
     "contact_name": "Anke Daniela Zapf",
     "contact_identifier": "+4915172411645",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4290598707",
+    "parent_ticket_id": "941542481",
+    "event_type": "INBOUND"
   }
 }
