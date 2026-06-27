@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-27T11:20:19.135Z",
+  "ts": "2026-06-27T11:20:32.170Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290623178",
-    "ticket_id": "961953425",
-    "message": "Payment details pls?",
-    "channel_id": "1304636",
-    "contact_id": "541347544",
-    "contact_name": "Karam",
-    "contact_identifier": "+971501560998",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4290623290",
+    "ticket_id": "961489966",
+    "message": "Unfortunately, no, the payment is non-refundable as we have already blocked the unit exclusively for you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "541033321",
+    "contact_name": "Khashayar Zahed",
+    "contact_identifier": "+971551890313",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
