@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-27T17:07:26.541Z",
+  "ts": "2026-06-27T17:08:03.950Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4290805325",
+    "type": "INBOUND",
+    "message_id": "4290805541",
     "ticket_id": "962001990",
-    "message": "The deposit and rent were already shared, you're all set on the numbers. Whenever your schedule clears up, want to pop by and see the place?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "541362096",
     "contact_name": "Najeeb",
     "contact_identifier": "+971522560654",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4290805325",
+    "parent_ticket_id": "962001990",
+    "event_type": "INBOUND"
   }
 }
