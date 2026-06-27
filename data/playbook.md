@@ -1381,3 +1381,7 @@ We appreciate your prompt cooperation.
 ## Learned (2026-06-27)
 - If a lead asks about extending their stay through December or inquires about a long-term fixed rate, explain that rates vary month to month based on market conditions and cannot be locked in for the full duration. Let them know that at this time, rates can only be confirmed for a maximum of 3 months at a time.
   (Learned from Faysal handling Sabin re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html)
+
+## Learned (2026-06-27)
+- If a lead asks whether any of the apartments can be rented long term, respond with: For a 1-year stay, we do not offer annual contracts or Ejari, but you are welcome to stay as long as you like by extending your stay in 3-month blocks.
+  (Learned from Faysal handling J re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
