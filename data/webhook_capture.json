@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-27T19:57:52.874Z",
+  "ts": "2026-06-27T19:58:29.614Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4290867025",
+    "type": "INBOUND",
+    "message_id": "4290867228",
     "ticket_id": "962022378",
-    "message": "ده الستوديو الوحيد عندنا بـ 4,000 دلوقتي، شوف الصور هنا: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html عجبك؟",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "هوا كلهم استوديو واحد؟",
+    "channel_id": "1304636",
     "contact_id": "541368163",
     "contact_name": "Cap DODA .",
     "contact_identifier": "+971557940203",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4290867025",
+    "parent_ticket_id": "962022378",
+    "event_type": "INBOUND"
   }
 }
