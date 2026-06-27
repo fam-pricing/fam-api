@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-27T19:56:05.233Z",
+  "ts": "2026-06-27T19:56:10.125Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4290866610",
+    "type": "INBOUND",
+    "message_id": "4290866638",
     "ticket_id": "962022378",
-    "message": "تمام، بس المعاينات بتكون من 9 الصبح لـ 6 المساء بس. إيه الوقت يناسبك بكرا الصبح؟",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "مهوا ابعتيلي ال موجود بنفس السعر لان مش لاقيه عندك",
+    "channel_id": "1304636",
     "contact_id": "541368163",
     "contact_name": "Cap DODA .",
     "contact_identifier": "+971557940203",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4290866502",
+    "parent_ticket_id": "962022378",
+    "event_type": "INBOUND"
   }
 }
