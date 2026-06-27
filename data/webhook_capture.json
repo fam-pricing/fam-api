@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-27T11:18:55.787Z",
+  "ts": "2026-06-27T11:19:01.367Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4290622459",
+    "type": "INBOUND",
+    "message_id": "4290622503",
     "ticket_id": "961953425",
-    "message": "Rates are reviewed after 3 months, so we can't lock anything in beyond that right now. How long are you planning to stay?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "And what's the payment details",
+    "channel_id": "1304636",
     "contact_id": "541347544",
     "contact_name": "Karam",
     "contact_identifier": "+971501560998",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
