@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-27T09:54:32.422Z",
+  "ts": "2026-06-27T09:54:43.438Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4290575760",
-    "ticket_id": "961650638",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "541190312",
-    "contact_name": "Siza Jambaz",
-    "contact_identifier": "+447447493158",
+    "type": "INBOUND",
+    "message_id": "4290575868",
+    "ticket_id": "961489966",
+    "message": "Hello, good day. Can I pay in cash?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "541033321",
+    "contact_name": "Khashayar Zahed",
+    "contact_identifier": "+971551890313",
+    "event_type": "INBOUND"
   }
 }
