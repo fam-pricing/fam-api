@@ -1377,3 +1377,7 @@ We appreciate your prompt cooperation.
 ## Learned (2026-06-27)
 - If a lead says they are looking for a studio for the end of the year, reply: "For a 1-year stay, we don't offer annual contracts or Ejari, but you're welcome to stay as long as you like by extending in 3-month blocks — would that work for you?"
   (Learned from Faysal handling Sabin re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html)
+
+## Learned (2026-06-27)
+- If a lead asks about extending their stay through December or inquires about a long-term fixed rate, explain that rates vary month to month based on market conditions and cannot be locked in for the full duration. Let them know that at this time, rates can only be confirmed for a maximum of 3 months at a time.
+  (Learned from Faysal handling Sabin re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html)
