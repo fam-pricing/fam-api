@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-27T19:56:43.878Z",
+  "ts": "2026-06-27T19:57:04.232Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290866781",
+    "type": "OUTBOUND",
+    "message_id": "4290866843",
     "ticket_id": "962022378",
-    "message": "هحاول اجيلك قبل الشغل الصبح ٧ او ٨",
-    "channel_id": "1304636",
+    "message": "المعاينات بتبدأ من 9 الصبح، يعني لو جيت الساعة 9 بالظبط تبقى أول حاجة. ده يناسبك؟",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541368163",
     "contact_name": "Cap DODA .",
     "contact_identifier": "+971557940203",
-    "parent_message_id": "4290866610",
-    "parent_ticket_id": "962022378",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
