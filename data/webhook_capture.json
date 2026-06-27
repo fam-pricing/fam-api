@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-27T09:58:53.889Z",
+  "ts": "2026-06-27T09:59:03.885Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290578293",
-    "ticket_id": "961937861",
-    "message": "I just received 500 why?",
-    "channel_id": "1304636",
-    "contact_id": "535452159",
-    "contact_name": "Shouq",
-    "contact_identifier": "+971503671717",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4290578344",
+    "ticket_id": "961489966",
+    "message": "You may pay the rental amount in cash. However, please note that the security deposit must be paid by card.\r\n\r\nAt the moment, your booking is still unconfirmed as we have not yet received any payment. Unfortunately, we are unable to hold the apartment without payment.\r\n\r\nKindly complete the payment at your earliest convenience to secure your reservation.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "541033321",
+    "contact_name": "Khashayar Zahed",
+    "contact_identifier": "+971551890313",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
