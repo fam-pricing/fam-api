@@ -1373,3 +1373,7 @@ We appreciate your prompt cooperation.
 ## Learned (2026-06-23)
 - When a lead asks about pricing and requests a viewing, inform them that there is currently an in-house guest scheduled to check out on 25th June. Let them know that if the guest does not extend their stay, a viewing can be arranged for them thereafter.
   (Learned from Faysal handling Joe re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html)
+
+## Learned (2026-06-27)
+- If a lead says they are looking for a studio for the end of the year, reply: "For a 1-year stay, we don't offer annual contracts or Ejari, but you're welcome to stay as long as you like by extending in 3-month blocks — would that work for you?"
+  (Learned from Faysal handling Sabin re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html)
