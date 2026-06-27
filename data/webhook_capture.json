@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-27T11:18:32.426Z",
+  "ts": "2026-06-27T11:18:55.787Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290622246",
+    "type": "OUTBOUND",
+    "message_id": "4290622459",
     "ticket_id": "961953425",
-    "message": "After August what the prices will be?",
-    "channel_id": "1304636",
+    "message": "Rates are reviewed after 3 months, so we can't lock anything in beyond that right now. How long are you planning to stay?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541347544",
     "contact_name": "Karam",
     "contact_identifier": "+971501560998",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
