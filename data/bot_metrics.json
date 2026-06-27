@@ -3538,5 +3538,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-06-27T19:45:30.322Z",
+    "ticket_id": 962022378,
+    "lead_id": "message_lead_30226050",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 973,
+    "critic_pass": null,
+    "lead_quality": 10,
+    "buying_stage": "COLD",
+    "skip_reason": "ticket_locked"
   }
 ]
