@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-27T08:32:23.689Z",
+  "ts": "2026-06-27T08:32:47.549Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290529256",
-    "ticket_id": "961893270",
-    "message": "Payment made please share a receipt/invoice",
-    "channel_id": "1304636",
-    "contact_id": "538423864",
-    "contact_name": "Senga Silungwe",
-    "contact_identifier": "+260977293603",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4290529462",
+    "ticket_id": "961916246",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "541336657",
+    "contact_name": "Pavel Vavilov",
+    "contact_identifier": "+971523373657",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
