@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-27T18:42:03.643Z",
+  "ts": "2026-06-27T18:42:07.915Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290842249",
+    "type": "OUTBOUND",
+    "message_id": "4290842270",
     "ticket_id": "962015242",
-    "message": "ALL included utilities?",
-    "channel_id": "1304636",
+    "message": "Yes, that's AED 11,000/month. Just need your passport copy and we can get that sent over to you, Daniel.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541366203",
     "contact_name": "Daniel Benussi",
     "contact_identifier": "+38598366603",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
