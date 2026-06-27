@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-27T20:18:32.168Z",
+  "ts": "2026-06-27T20:20:25.497Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4290873067",
+    "type": "INBOUND",
+    "message_id": "4290873520",
     "ticket_id": "962022378",
-    "message": "في Business Bay عندنا استوديو في Upside Living بـ 4,500 في الشهر. شوف الصور هنا: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html\n\nعايز تيجي تشوفه؟",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "دا غير التاني ولا هوا هواه ؟",
+    "channel_id": "1304636",
     "contact_id": "541368163",
     "contact_name": "Cap DODA .",
     "contact_identifier": "+971557940203",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4290873067",
+    "parent_ticket_id": "962022378",
+    "event_type": "INBOUND"
   }
 }
