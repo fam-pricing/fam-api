@@ -1385,3 +1385,7 @@ We appreciate your prompt cooperation.
 ## Learned (2026-06-27)
 - If a lead asks whether any of the apartments can be rented long term, respond with: For a 1-year stay, we do not offer annual contracts or Ejari, but you are welcome to stay as long as you like by extending your stay in 3-month blocks.
   (Learned from Faysal handling J re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
+
+## Learned (2026-06-27)
+- If a lead asks whether the rental rate will stay the same upon extension and what notice period is given if the owner reclaims the property, address the pricing question as follows: advise the lead that rates are reviewed monthly and are subject to change based on market conditions, and that the same rate therefore cannot be confirmed or guaranteed from one month to the next.
+  (Learned from Faysal handling J re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
