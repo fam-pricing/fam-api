@@ -1,17 +1,19 @@
 {
-  "ts": "2026-06-27T18:41:44.008Z",
+  "ts": "2026-06-27T18:41:53.726Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4290842049",
+    "message_id": "4290842145",
     "ticket_id": "962015242",
-    "message": "And the price is 11000 AED per month?",
+    "message": "Yes",
     "channel_id": "1304636",
     "contact_id": "541366203",
     "contact_name": "Daniel Benussi",
     "contact_identifier": "+38598366603",
+    "parent_message_id": "4290842031",
+    "parent_ticket_id": "962015242",
     "event_type": "INBOUND"
   }
 }
