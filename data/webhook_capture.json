@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-28T09:14:32.400Z",
+  "ts": "2026-06-28T09:17:41.312Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291049414",
-    "ticket_id": "962095863",
-    "message": "Sure",
-    "channel_id": "1304636",
-    "contact_id": "535952622",
-    "contact_name": "Simone Pravin Chhabda Pravin Kishan Chhabda",
-    "contact_identifier": "+971581770094",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4291051211",
+    "ticket_id": "961650638",
+    "message": "Unfortunately we have not received the payment from the booking.com therefore still your reservation remains unconfirmed\r\n\r\nTo avoid any inconvenience in the check in time we kindly request you to complete the above payments to complete the check in process and register you in the building",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541190312",
+    "contact_name": "Siza Jambaz",
+    "contact_identifier": "+447447493158",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
