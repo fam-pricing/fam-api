@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-28T06:54:10.445Z",
+  "ts": "2026-06-28T06:55:35.251Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290986911",
+    "type": "OUTBOUND",
+    "message_id": "4290987242",
     "ticket_id": "962017468",
-    "message": "?",
-    "channel_id": "1304636",
+    "message": "Unfortunately, we are unable to arrange a viewing today as the property is currently occupied by an in-house guest who is scheduled to check out on 1st July.\r\n\r\nHowever, if the guest does not extend their stay, we will be able to arrange a viewing for you thereafter.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "541366820",
     "contact_name": "Nervana",
     "contact_identifier": "+201012795306",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
