@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-28T17:30:44.045Z",
+  "ts": "2026-06-28T17:31:33.660Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291288160",
+    "type": "INBOUND",
+    "message_id": "4291288461",
     "ticket_id": "962167689",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Downtown Views 2 Tower 2\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hi, is this available from Aug 29 - Dec 12? If so, what is the price",
+    "channel_id": "1304636",
     "contact_id": "541405385",
     "contact_name": "Mauricio",
     "contact_identifier": "+12898882861",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
