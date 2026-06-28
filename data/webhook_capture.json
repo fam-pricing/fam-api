@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-28T10:48:19.927Z",
+  "ts": "2026-06-28T10:50:01.667Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291096126",
+    "type": "OUTBOUND",
+    "message_id": "4291096852",
     "ticket_id": "962109073",
-    "message": "I will be able to do the payment",
-    "channel_id": "585723",
+    "message": "Unfortunately, as your extension starts today, we kindly request that you complete the payment today so we can update the extension details with the building management. This will help avoid any inconvenience during your stay.\r\n\r\nThank you for your understanding and cooperation",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536995527",
     "contact_name": "Mohamed Ala Darwish",
     "contact_identifier": "+971522415511",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
