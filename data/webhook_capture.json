@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-28T07:01:17.724Z",
+  "ts": "2026-06-28T07:02:52.594Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290989099",
+    "type": "OUTBOUND",
+    "message_id": "4290989763",
     "ticket_id": "946362381",
-    "message": "Good morning. Thank you for your message. Amount of 5500 AED will be transferred to your ENBD account latest by Tuesday 30/06. Will send you the receipt once done. Best regards",
-    "channel_id": "585723",
+    "message": "Unfortunately, as your extension starts today, we kindly request you to complete the outstanding payment by today so we can update the extension details with the building management.\r\n\r\nWe appreciate your understanding.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537154986",
     "contact_name": "Yulia Nalivayko",
     "contact_identifier": "+971555090324",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
