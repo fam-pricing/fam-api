@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-28T17:31:33.660Z",
+  "ts": "2026-06-28T17:32:05.389Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291288461",
+    "type": "OUTBOUND",
+    "message_id": "4291288614",
     "ticket_id": "962167689",
-    "message": "Hi, is this available from Aug 29 - Dec 12? If so, what is the price",
-    "channel_id": "1304636",
+    "message": "Yes, it's available from Aug 29. One thing to flag though, Aug 29 to Dec 12 is just over 3.5 months, and we can only lock in the rate for the first 3 months. The price for the remaining weeks would be confirmed closer to the time based on market conditions. Does that still work for your dates?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541405385",
     "contact_name": "Mauricio",
     "contact_identifier": "+12898882861",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
