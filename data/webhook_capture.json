@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-28T23:05:45.105Z",
+  "ts": "2026-06-28T23:22:12.996Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291395699",
-    "ticket_id": "962207733",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "541418132",
-    "contact_name": "Chloé",
-    "contact_identifier": "+971585942787",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4291398297",
+    "ticket_id": "961650638",
+    "message": "We have landed",
+    "channel_id": "585723",
+    "contact_id": "541190312",
+    "contact_name": "Siza Jambaz",
+    "contact_identifier": "+447447493158",
+    "event_type": "INBOUND"
   }
 }
