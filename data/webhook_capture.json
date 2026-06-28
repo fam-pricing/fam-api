@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-28T05:46:18.059Z",
+  "ts": "2026-06-28T05:47:13.787Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4290968676",
+    "type": "INBOUND",
+    "message_id": "4290968878",
     "ticket_id": "959587621",
-    "message": "Hello, Ramiza!\r\n\r\nHere is some important information for your stay with us at fäm Living:\r\n\r\n\r\n\r\nBuilding Name: La Residences\r\n\r\n\r\nApartment no. 407 on the 4th floor\r\nDoor code: 52862493#\r\nParking B1-71\r\nGym on G level\r\nSwimming pool on the rooftop\r\nWiFi name: Stayshort.com\r\nWiFi PW: expo2020\r\n\r\nUpon arrival kindly pass by the reception for a smooth check-in\r\nAnd we left the parking remote and a main door tag inside the apartment\r\n\r\n*Please note that we are only available every day from 9:00 AM to 9:00 PM*",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "❤️",
+    "channel_id": "585723",
     "contact_id": "540691470",
     "contact_name": "ramiza",
     "contact_identifier": "+971566548614",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4290968676",
+    "parent_ticket_id": "959587621",
+    "event_type": "INBOUND"
   }
 }
