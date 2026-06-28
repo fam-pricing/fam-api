@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-28T07:14:46.460Z",
+  "ts": "2026-06-28T07:16:32.114Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4290994335",
+    "type": "OUTBOUND",
+    "message_id": "4290994986",
     "ticket_id": "961869195",
-    "message": "Hello, I am supposed to recieve the details about a property I booked for today how do I check in?",
-    "channel_id": "1304636",
+    "message": "Good morning,\r\n\r\nOur standard check in time starts at 3pm our team will share the check in details in between 2-3 pm once the unit is ready",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "539173347",
     "contact_name": "Malak Usama",
     "contact_identifier": "+971502461492",
-    "parent_message_id": "4290468703",
-    "parent_ticket_id": "961869195",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
