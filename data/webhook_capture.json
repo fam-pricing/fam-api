@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-28T10:46:34.393Z",
+  "ts": "2026-06-28T10:46:38.639Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291095276",
+    "type": "OUTBOUND",
+    "message_id": "4291095335",
     "ticket_id": "962109073",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "536995527",
     "contact_name": "Mohamed Ala Darwish",
     "contact_identifier": "+971522415511",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
