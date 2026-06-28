@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-28T13:04:09.750Z",
+  "ts": "2026-06-28T13:04:28.810Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291166543",
+    "type": "OUTBOUND",
+    "message_id": "4291166700",
     "ticket_id": "962129034",
-    "message": "Is it still availabe",
-    "channel_id": "1304636",
+    "message": "Yes, it's still available. Want to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541392813",
     "contact_name": "LOMORA GLOBAL CAPITAL GROUP L.L.C",
     "contact_identifier": "+971541281888",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
