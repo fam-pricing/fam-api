@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-28T23:47:08.521Z",
+  "ts": "2026-06-28T23:48:43.967Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291402095",
+    "type": "INBOUND",
+    "message_id": "4291402357",
     "ticket_id": "961650638",
-    "message": "Sure we will be at 4 30 thank yoi for your update",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "541190312",
     "contact_name": "Siza Jambaz",
     "contact_identifier": "+447447493158",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4291402095",
+    "parent_ticket_id": "961650638",
+    "event_type": "INBOUND"
   }
 }
