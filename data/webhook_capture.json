@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-28T09:32:22.094Z",
+  "ts": "2026-06-28T09:40:35.019Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291058753",
+    "type": "OUTBOUND",
+    "message_id": "4291062462",
     "ticket_id": "961650638",
-    "message": "Image",
-    "channel_id": "585723",
+    "message": "We have received the rent payment; however, the security deposit and late check-in fee are still pending.\r\n\r\nKindly complete the remaining payment and update us once done",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "541190312",
     "contact_name": "Siza Jambaz",
     "contact_identifier": "+447447493158",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
