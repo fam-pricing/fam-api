@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-28T06:38:51.944Z",
+  "ts": "2026-06-28T06:40:23.763Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4290982628",
-    "ticket_id": "962035752",
-    "message": "Unfortunately we do not have any villas available",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "324059674",
-    "contact_name": "David Rubinstein",
-    "contact_identifier": "+447488276911",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4290982980",
+    "ticket_id": "962019115",
+    "message": "Is there parking included?",
+    "channel_id": "1304636",
+    "contact_id": "541367305",
+    "contact_name": "Mariia",
+    "contact_identifier": "+971504254981",
+    "event_type": "INBOUND"
   }
 }
