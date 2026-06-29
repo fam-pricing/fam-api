@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-29T12:04:33.115Z",
+  "ts": "2026-06-29T12:05:00.082Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291933734",
-    "ticket_id": "962317811",
-    "message": "Thank you for the update",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "535952622",
-    "contact_name": "Simone Pravin Chhabda Pravin Kishan Chhabda",
-    "contact_identifier": "+971581770094",
+    "type": "INBOUND",
+    "message_id": "4291934425",
+    "ticket_id": "962351183",
+    "message": "What bills are included?\n\nWhat is the total cost?\n\nFrom when is it available?\n\nCan I renew it month by month?\n\nPlease tell me everything that needs to be paid, including any agency fees or other charges.\n\nI’m not looking for an annual contract.",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "541453157",
+    "contact_name": "Rossella",
+    "contact_identifier": "+971585642288",
+    "event_type": "INBOUND"
   }
 }
