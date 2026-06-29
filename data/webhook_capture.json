@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-29T13:27:59.416Z",
+  "ts": "2026-06-29T13:29:45.577Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4292050953",
+    "type": "INBOUND",
+    "message_id": "4292053168",
     "ticket_id": "937192947",
-    "message": "Unfortunately, we are unable to extend the stay for one month as we have received another confirmed reservation starting from 7th July.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "What?, you couldn't check with me first if I'm willing to extend?! \n\nI've been in this appartment for 3 months it only made sense that I would extend more!!!",
+    "channel_id": "585723",
     "contact_id": "534886793",
     "contact_name": "Muhammad Diab",
     "contact_identifier": "+971527166175",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
