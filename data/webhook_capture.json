@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-29T04:26:39.006Z",
+  "ts": "2026-06-29T04:27:59.857Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291449364",
+    "type": "INBOUND",
+    "message_id": "4291449599",
     "ticket_id": "951617602",
-    "message": "Allow me to check",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Paid",
+    "channel_id": "585723",
     "contact_id": "538457647",
     "contact_name": "Tim Dominik Germany",
     "contact_identifier": "+56931740105",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4291447002",
+    "parent_ticket_id": "951617602",
+    "event_type": "INBOUND"
   }
 }
