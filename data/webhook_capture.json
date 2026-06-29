@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-29T10:29:44.637Z",
+  "ts": "2026-06-29T10:33:01.877Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291804931",
+    "type": "OUTBOUND",
+    "message_id": "4291808408",
     "ticket_id": "958960990",
-    "message": "We informed the reception because I thought it was a hotel. Then they sent a maintenance worker to check it out. But it turned out not to be something simple. I thought maybe someone upstairs had accidentally spilled water or something and it was dripping downstairs. But that wasn’t the case. Something burst inside the bathroom ceiling drywall/plaster, and now they will have to break open the bathroom ceiling and replace a part to stop the leaking.\n\nThey asked us to inform the owner of the rental so they would be aware. I’m not sure what will happen after that — whether they will refund the rest of the stay or move us to another place.",
-    "channel_id": "585723",
+    "message": "Hello Ayda, thanks for letting us know. We will send our team to check the exact issue and try to solve it.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "540519289",
     "contact_name": "Ayda",
     "contact_identifier": "+971507876473",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
