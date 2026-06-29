@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-29T04:32:08.255Z",
+  "ts": "2026-06-29T04:41:16.208Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291450555",
-    "ticket_id": "962142094",
-    "message": "Hello good morning my friend will be there at 11",
-    "channel_id": "1304636",
-    "contact_id": "541248395",
-    "contact_name": "Rim",
-    "contact_identifier": "+34614275652",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4291452634",
+    "ticket_id": "951617602",
+    "message": "We have received your payment. Your stay has now been successfully extended for 7 nights, until 6th July. We have also updated the building management with your extension details.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538457647",
+    "contact_name": "Tim Dominik Germany",
+    "contact_identifier": "+56931740105",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
