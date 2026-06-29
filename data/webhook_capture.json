@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-29T05:30:38.644Z",
+  "ts": "2026-06-29T05:32:34.973Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291467144",
-    "ticket_id": "962240334",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n3BR in Imperial Avenue\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "541032473",
-    "contact_name": "Adv. Aarya Modi",
-    "contact_identifier": "+918866500600",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4291468203",
+    "ticket_id": "954732401",
+    "message": "Hey",
+    "channel_id": "585723",
+    "contact_id": "539383560",
+    "contact_name": "Noah",
+    "contact_identifier": "+971553384406",
+    "event_type": "INBOUND"
   }
 }
