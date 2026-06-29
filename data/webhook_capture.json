@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-29T05:51:49.186Z",
+  "ts": "2026-06-29T05:52:02.874Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291475569",
-    "ticket_id": "962243274",
-    "message": "Good morning, how are you doing?",
+    "type": "OUTBOUND",
+    "message_id": "4291475644",
+    "ticket_id": "962015242",
+    "message": "Unfortunately, the unit is no longer available as we have received another confirmed booking.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541366203",
+    "contact_name": "Daniel Benussi",
+    "contact_identifier": "+38598366603",
     "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Ariel Griszka",
-    "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
