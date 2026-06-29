@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-29T05:52:02.874Z",
+  "ts": "2026-06-29T05:52:37.457Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291475644",
-    "ticket_id": "962015242",
-    "message": "Unfortunately, the unit is no longer available as we have received another confirmed booking.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "541366203",
-    "contact_name": "Daniel Benussi",
-    "contact_identifier": "+38598366603",
+    "type": "INBOUND",
+    "message_id": "4291475976",
+    "ticket_id": "962088208",
+    "message": "What properties do you have available in The Address from July 26th? 1 or 2 bedrooms",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "541381207",
+    "contact_name": "P.M",
+    "contact_identifier": "+40740348979",
+    "event_type": "INBOUND"
   }
 }
