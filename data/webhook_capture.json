@@ -1,19 +1,20 @@
 {
-  "ts": "2026-06-29T07:01:01.088Z",
+  "ts": "2026-06-29T07:03:25.839Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291526450",
-    "ticket_id": "951617602",
-    "message": "1 pm would fit before not",
+    "type": "OUTBOUND",
+    "message_id": "4291528974",
+    "ticket_id": "954732401",
+    "message": "Kindly note that we will be able to share the check-in details only after the payment has been completed.\r\n\r\nOnce the payment is done, please share the payment receipt with us so we can verify it with the finance team and update you accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539383560",
+    "contact_name": "Noah",
+    "contact_identifier": "+971553384406",
     "channel_id": "585723",
-    "contact_id": "538457647",
-    "contact_name": "Tim Dominik Germany",
-    "contact_identifier": "+56931740105",
-    "parent_message_id": "4291521339",
-    "parent_ticket_id": "951617602",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
