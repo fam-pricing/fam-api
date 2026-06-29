@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-29T15:17:28.281Z",
+  "ts": "2026-06-29T15:17:45.573Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4292196739",
-    "ticket_id": "955544907",
-    "message": "My account has received AED 1,000, however I had paid AED 3,000 as a security deposit. Could you please clarify why the remaining AED 2,000 has not been refunded?",
+    "type": "OUTBOUND",
+    "message_id": "4292197002",
+    "ticket_id": "961650638",
+    "message": "We've emailed the reception once you are there, please pass by it they will get it done",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "541190312",
+    "contact_name": "Siza Jambaz",
+    "contact_identifier": "+447447493158",
     "channel_id": "585723",
-    "contact_id": "539601752",
-    "contact_name": "Mustafa Eralp Akman",
-    "contact_identifier": "+971529536582",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
