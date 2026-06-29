@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-29T06:53:36.910Z",
+  "ts": "2026-06-29T06:53:47.883Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291519448",
+    "type": "OUTBOUND",
+    "message_id": "4291519618",
     "ticket_id": "962255501",
-    "message": "no worries",
-    "channel_id": "1304636",
+    "message": "The rate can go up or down at renewal, it's reviewed against market conditions at that point, so there's no way to predict it either way. Would you like to lock in the next 3 months now while the current rate is still live?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541426789",
     "contact_name": "Jyothi",
     "contact_identifier": "+971545906195",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
