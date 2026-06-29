@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-29T07:34:50.390Z",
+  "ts": "2026-06-29T07:34:53.679Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291565370",
+    "type": "OUTBOUND",
+    "message_id": "4291565437",
     "ticket_id": "962268077",
-    "message": "Good morning, I already have a booking in Urban Oasis by Mission for three months. I would like to ask what is the earliest time we can check in tomorrow",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "541430086",
     "contact_name": "Matias",
     "contact_identifier": "c7c96b79-8d45-42ac-53c5-a1ee8758a0cc",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
