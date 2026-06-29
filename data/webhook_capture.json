@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-29T12:45:26.911Z",
+  "ts": "2026-06-29T12:45:39.492Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291993985",
+    "type": "INBOUND",
+    "message_id": "4291994255",
     "ticket_id": "946362381",
-    "message": "Sure we will get in touch with you in above number",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "537154986",
     "contact_name": "Yulia Nalivayko",
     "contact_identifier": "+971555090324",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4291993985",
+    "parent_ticket_id": "946362381",
+    "event_type": "INBOUND"
   }
 }
