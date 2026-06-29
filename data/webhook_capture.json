@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-29T08:55:36.801Z",
+  "ts": "2026-06-29T08:56:07.657Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291673008",
+    "type": "INBOUND",
+    "message_id": "4291673704",
     "ticket_id": "962294531",
-    "message": "May I know for which apartment and can you please share the reservation number so I can check for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "https://www.airbnb.co.uk/rooms/1410025507392139609?unique_share_id=39e10e78-d941-4c5e-b906-e54bf5c69732&viralityEntryPoint=1&s=76",
+    "channel_id": "585723",
     "contact_id": "541437398",
     "contact_name": "Brogan Williams",
     "contact_identifier": "+971544103247",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
