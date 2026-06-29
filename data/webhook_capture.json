@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-29T06:50:21.425Z",
+  "ts": "2026-06-29T06:50:49.414Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291516640",
-    "ticket_id": "962255501",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "541426789",
-    "contact_name": "Jyothi",
-    "contact_identifier": "+971545906195",
+    "type": "INBOUND",
+    "message_id": "4291517049",
+    "ticket_id": "959319015",
+    "message": "Hello, I’d like to book a padel court for today for my wife and me. We’d like to play padel today. I was told to contact you to make the reservation. Please let me know what time slots are available. Thank you!",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "540354721",
+    "contact_name": "Ismael Ferrahi",
+    "contact_identifier": "+971585032384",
+    "event_type": "INBOUND"
   }
 }
