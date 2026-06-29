@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-29T11:31:50.981Z",
+  "ts": "2026-06-29T11:32:03.780Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291888235",
-    "ticket_id": "962351183",
-    "message": "I’m looking for a place from mid-August for at least one month, possibly a few months. My budget is around AED 4,000 per month, with all bills included. Do you have anything available?",
-    "channel_id": "1304636",
-    "contact_id": "541453157",
-    "contact_name": "Rossella",
-    "contact_identifier": "+971585642288",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4291888575",
+    "ticket_id": "938546983",
+    "message": "As your extension begins today, we kindly request that you complete the payment today to avoid any inconvenience during your stay.\r\n\r\nPlease note that we are required to register your extension with the building management, and this can only be completed once the payment has been received.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535208016",
+    "contact_name": "DEANNO GARRY LUPKE",
+    "contact_identifier": "+27815663899",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
