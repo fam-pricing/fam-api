@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-29T06:52:16.953Z",
+  "ts": "2026-06-29T06:52:44.834Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291518216",
+    "type": "OUTBOUND",
+    "message_id": "4291518648",
     "ticket_id": "962255501",
-    "message": "will therre be a hike in price with 3 months renewal",
-    "channel_id": "1304636",
+    "message": "The rate is locked in for each 3-month block, but we can't guarantee it stays the same at the next renewal, it gets reviewed based on market conditions at that point.\n\nWould that still work for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541426789",
     "contact_name": "Jyothi",
     "contact_identifier": "+971545906195",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
