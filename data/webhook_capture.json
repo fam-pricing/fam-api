@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-29T12:32:07.833Z",
+  "ts": "2026-06-29T12:32:24.621Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291975659",
-    "ticket_id": "962237717",
-    "message": "Is there any update ?",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "541423058",
-    "contact_name": "Salem Mansoor Faraj Salem Alkatheeri",
-    "contact_identifier": "+971557333734",
+    "type": "INBOUND",
+    "message_id": "4291976109",
+    "ticket_id": "962102063",
+    "message": "Why all this? Just send me the location and I'll come to you at a time that suits me.",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "541385097",
+    "contact_name": "Rabea",
+    "contact_identifier": "+971503232670",
+    "parent_message_id": "4291862252",
+    "parent_ticket_id": "962102063",
+    "event_type": "INBOUND"
   }
 }
