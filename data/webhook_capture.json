@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-29T06:48:17.872Z",
+  "ts": "2026-06-29T06:50:03.418Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291514707",
-    "ticket_id": "959319015",
-    "message": "Hello ! PropertyFinder send me your contact regarding this listing:\n\nIsmael Ferrahi\n\nHow can I help you ?",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "540354721",
-    "contact_name": "Ismael Ferrahi",
-    "contact_identifier": "+971585032384",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4291516386",
+    "ticket_id": "954732401",
+    "message": "Okay i can transfer in 4h",
+    "channel_id": "585723",
+    "contact_id": "539383560",
+    "contact_name": "Noah",
+    "contact_identifier": "+971553384406",
+    "event_type": "INBOUND"
   }
 }
