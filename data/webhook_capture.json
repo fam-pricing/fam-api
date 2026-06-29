@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-29T05:43:20.615Z",
+  "ts": "2026-06-29T05:44:01.691Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291472077",
+    "type": "INBOUND",
+    "message_id": "4291472271",
     "ticket_id": "962142094",
-    "message": "Good morning,\r\n\r\nUnfortunately the in house guest has extended the stay today therefore we are unable to arrange viewing today",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "When will it be available?",
+    "channel_id": "1304636",
     "contact_id": "541248395",
     "contact_name": "Rim",
     "contact_identifier": "+34614275652",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
