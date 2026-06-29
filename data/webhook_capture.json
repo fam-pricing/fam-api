@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-29T10:40:13.558Z",
+  "ts": "2026-06-29T10:40:14.070Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291818010",
+    "type": "OUTBOUND",
+    "message_id": "4291818009",
     "ticket_id": "962332652",
-    "message": "Need 2 bed in Jaddaf from tomorrow",
-    "channel_id": "883603",
+    "message": "It's a beautiful day at fäm Living; how can I help you?",
     "contact_id": "541447938",
     "contact_name": "Abdul Ghani",
     "contact_identifier": "7e3a08ec-4bc0-4a6b-336e-a1d2a8cf7b4f",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
