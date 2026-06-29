@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-29T09:12:03.526Z",
+  "ts": "2026-06-29T09:13:09.637Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291697699",
-    "ticket_id": "954163568",
-    "message": "Hello, good afternoon. Can I make 2 payments for July, July 10 and July 25?",
+    "type": "OUTBOUND",
+    "message_id": "4291699392",
+    "ticket_id": "934199428",
+    "message": "Sure",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "534076190",
+    "contact_name": "Thanvir Aafaq",
+    "contact_identifier": "+971521229233",
     "channel_id": "585723",
-    "contact_id": "539230013",
-    "contact_name": "Bahador Khoshkeroudi",
-    "contact_identifier": "+971547016092",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
