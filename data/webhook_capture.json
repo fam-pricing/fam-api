@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-29T11:32:19.186Z",
+  "ts": "2026-06-29T11:32:56.618Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291888923",
-    "ticket_id": "962351183",
-    "message": "The studio at Binghatti Azure in JVC is available from mid-August and fits your budget. Want me to send the listing link with photos?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "541453157",
-    "contact_name": "Rossella",
-    "contact_identifier": "+971585642288",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4291889718",
+    "ticket_id": "938546983",
+    "message": "We spoke to a consultant who advised we can make payment on the 30 th of June which is tomorrow when we get paid",
+    "channel_id": "585723",
+    "contact_id": "535208016",
+    "contact_name": "DEANNO GARRY LUPKE",
+    "contact_identifier": "+27815663899",
+    "parent_message_id": "4291888575",
+    "parent_ticket_id": "938546983",
+    "event_type": "INBOUND"
   }
 }
