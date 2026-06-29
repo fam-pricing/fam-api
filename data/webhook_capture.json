@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-29T10:36:55.403Z",
+  "ts": "2026-06-29T10:37:04.416Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291814082",
+    "type": "INBOUND",
+    "message_id": "4291814279",
     "ticket_id": "958960990",
-    "message": "+971 50 787 6473 This number is not reachable",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "Yes it’s my number",
+    "channel_id": "585723",
     "contact_id": "540519289",
     "contact_name": "Ayda",
     "contact_identifier": "+971507876473",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
