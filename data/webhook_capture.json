@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-29T12:16:07.108Z",
+  "ts": "2026-06-29T12:16:47.556Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291952682",
-    "ticket_id": "947609821",
-    "message": "Hi, I’d like to extend this apartment, is it 5300 per month?",
+    "type": "OUTBOUND",
+    "message_id": "4291953669",
+    "ticket_id": "938546983",
+    "message": "Payment received the extension updated accordingly",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535208016",
+    "contact_name": "DEANNO GARRY LUPKE",
+    "contact_identifier": "+27815663899",
     "channel_id": "585723",
-    "contact_id": "537450284",
-    "contact_name": "Alisa",
-    "contact_identifier": "+79817821817",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
