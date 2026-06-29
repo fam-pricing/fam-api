@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-29T12:29:55.405Z",
+  "ts": "2026-06-29T12:30:07.550Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291972348",
-    "ticket_id": "946362381",
-    "message": "Image",
+    "type": "OUTBOUND",
+    "message_id": "4291972646",
+    "ticket_id": "962237717",
+    "message": "Hello Team is at your doorstep, is someone available in the apartment ?",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "541423058",
+    "contact_name": "Salem Mansoor Faraj Salem Alkatheeri",
+    "contact_identifier": "+971557333734",
     "channel_id": "585723",
-    "contact_id": "537154986",
-    "contact_name": "Yulia Nalivayko",
-    "contact_identifier": "+971555090324",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
