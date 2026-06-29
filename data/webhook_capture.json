@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-29T07:35:33.755Z",
+  "ts": "2026-06-29T07:36:22.809Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4291566177",
-    "ticket_id": "961873036",
-    "message": "You have something with 3500",
+    "type": "OUTBOUND",
+    "message_id": "4291567117",
+    "ticket_id": "962243274",
+    "message": "As we have back-to-back bookings, we are unable to offer early check-in at this time. However, as soon as the unit is ready, we will share the check-in details with you promptly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "539566355",
+    "contact_name": "Matias Ariel Griszka",
+    "contact_identifier": "+971501784347",
     "channel_id": "1304636",
-    "contact_id": "541328262",
-    "contact_name": "АБИР🐈‍⬛",
-    "contact_identifier": "+212635927429",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
