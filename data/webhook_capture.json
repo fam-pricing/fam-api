@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-29T07:33:32.414Z",
+  "ts": "2026-06-29T07:34:50.390Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4291563496",
-    "ticket_id": "962173155",
-    "message": "May I know starting from which date you are looking for?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "541406778",
-    "contact_name": "EpiAura",
-    "contact_identifier": "+971544981178",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4291565370",
+    "ticket_id": "962268077",
+    "message": "Good morning, I already have a booking in Urban Oasis by Mission for three months. I would like to ask what is the earliest time we can check in tomorrow",
+    "channel_id": "883603",
+    "contact_id": "541430086",
+    "contact_name": "Matias",
+    "contact_identifier": "c7c96b79-8d45-42ac-53c5-a1ee8758a0cc",
+    "event_type": "INBOUND"
   }
 }
