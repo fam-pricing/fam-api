@@ -1,17 +1,17 @@
 {
-  "ts": "2026-06-30T16:25:59.171Z",
+  "ts": "2026-06-30T16:26:02.630Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4293304195",
+    "type": "OUTBOUND",
+    "message_id": "4293304253",
     "ticket_id": "962740145",
-    "message": "Hi how are you ?",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "541570961",
     "contact_name": "ADD Investment René Florian",
     "contact_identifier": "+971585557788",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
