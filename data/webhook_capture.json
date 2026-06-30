@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-30T12:11:46.068Z",
+  "ts": "2026-06-30T12:15:55.213Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4292997720",
-    "ticket_id": "962596865",
-    "message": "May I know it is regarding what so I can direct you to the correct person",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "486961484",
-    "contact_name": "Dave Johnson",
-    "contact_identifier": "+16263230069",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4293002626",
+    "ticket_id": "962656870",
+    "message": "Let me send this for my sister",
+    "channel_id": "1304636",
+    "contact_id": "541537211",
+    "contact_name": "E",
+    "contact_identifier": "+971568898936",
+    "parent_message_id": "4292989604",
+    "parent_ticket_id": "962656870",
+    "event_type": "INBOUND"
   }
 }
