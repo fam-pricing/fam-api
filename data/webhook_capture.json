@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-30T10:10:57.162Z",
+  "ts": "2026-06-30T10:13:22.410Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4292853619",
-    "ticket_id": "937192947",
-    "message": "I already left at your standard 12 PM \n\nCan you please start processing my deposit refund?",
+    "type": "OUTBOUND",
+    "message_id": "4292856531",
+    "ticket_id": "962625629",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541526979",
+    "contact_name": "Megli",
+    "contact_identifier": "+447474854636",
     "channel_id": "585723",
-    "contact_id": "534886793",
-    "contact_name": "Muhammad Diab",
-    "contact_identifier": "+971527166175",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
