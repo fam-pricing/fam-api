@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-30T12:01:21.926Z",
+  "ts": "2026-06-30T12:01:52.676Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4292985029",
+    "type": "OUTBOUND",
+    "message_id": "4292985692",
     "ticket_id": "962656870",
-    "message": "Hey",
-    "channel_id": "1304636",
+    "message": "Good to hear from you. Want me to share the details on the Upper Crest 1BR, availability, pricing, what's included?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541537211",
     "contact_name": "E",
     "contact_identifier": "+971568898936",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
