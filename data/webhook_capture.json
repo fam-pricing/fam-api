@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-30T05:37:08.695Z",
+  "ts": "2026-06-30T05:37:12.204Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4292561899",
-    "ticket_id": "961650638",
-    "message": "As I have an appointment",
-    "channel_id": "585723",
-    "contact_id": "541190312",
-    "contact_name": "Siza Jambaz",
-    "contact_identifier": "+447447493158",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4292561922",
+    "ticket_id": "961709917",
+    "message": "We will be able to issue the invoice only after your check-out. We will request the invoice from our Finance Department and will share it with you once it is available.\r\n\r\nPlease also note that if you wish to extend your stay with us, we kindly request you to complete the payment as soon as possible. Only after the payment is received will we be able to secure and block the apartment for your extension.\r\n\r\nAs the unit is listed on multiple booking platforms, we may receive confirmed reservations at any time, and availability cannot be guaranteed until the payment is completed.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538375001",
+    "contact_name": "Timur Aghayev",
+    "contact_identifier": "+971561630343",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
