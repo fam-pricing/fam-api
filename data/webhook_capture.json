@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-30T05:33:07.938Z",
+  "ts": "2026-06-30T05:33:29.264Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4292560521",
+    "type": "INBOUND",
+    "message_id": "4292560666",
     "ticket_id": "959587621",
-    "message": "May I know if team can access the apartment without your presence to fix the lgiht and the power socket",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "No",
+    "channel_id": "585723",
     "contact_id": "540691470",
     "contact_name": "ramiza",
     "contact_identifier": "+971566548614",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4292560521",
+    "parent_ticket_id": "959587621",
+    "event_type": "INBOUND"
   }
 }
