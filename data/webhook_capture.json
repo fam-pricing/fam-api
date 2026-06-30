@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-30T06:18:45.211Z",
+  "ts": "2026-06-30T06:19:30.087Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4292584280",
+    "type": "INBOUND",
+    "message_id": "4292584723",
     "ticket_id": "961709917",
-    "message": "We understand your concern. However, we are only able to issue the invoice after the check-out date, which is today.\r\n\r\nAdditionally, we kindly request you to complete the payment for the extension. Once the payment is received, we will be able to process the extension and update the relevant details with the building management",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Can you send me booking confirmation letter related to my company with bank details?",
+    "channel_id": "1304636",
     "contact_id": "538375001",
     "contact_name": "Timur Aghayev",
     "contact_identifier": "+971561630343",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
