@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-30T13:20:27.229Z",
+  "ts": "2026-06-30T13:21:10.645Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4293084868",
+    "type": "INBOUND",
+    "message_id": "4293085801",
     "ticket_id": "937192947",
-    "message": "Attachment",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "Yes the charger is indeed missing that's why I wasn't able to use it along my stay and I had to leave the appartment like this",
+    "channel_id": "585723",
     "contact_id": "534886793",
     "contact_name": "Muhammad Diab",
     "contact_identifier": "+971527166175",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4293084124",
+    "parent_ticket_id": "937192947",
+    "event_type": "INBOUND"
   }
 }
