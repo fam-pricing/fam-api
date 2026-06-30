@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-30T05:37:12.204Z",
+  "ts": "2026-06-30T05:37:50.311Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4292561922",
+    "type": "INBOUND",
+    "message_id": "4292562133",
     "ticket_id": "961709917",
-    "message": "We will be able to issue the invoice only after your check-out. We will request the invoice from our Finance Department and will share it with you once it is available.\r\n\r\nPlease also note that if you wish to extend your stay with us, we kindly request you to complete the payment as soon as possible. Only after the payment is received will we be able to secure and block the apartment for your extension.\r\n\r\nAs the unit is listed on multiple booking platforms, we may receive confirmed reservations at any time, and availability cannot be guaranteed until the payment is completed.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I don’t want to pay 3,1% commission \nI want to make Bank transfer",
+    "channel_id": "1304636",
     "contact_id": "538375001",
     "contact_name": "Timur Aghayev",
     "contact_identifier": "+971561630343",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
