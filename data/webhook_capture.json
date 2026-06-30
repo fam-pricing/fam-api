@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-30T09:06:03.592Z",
+  "ts": "2026-06-30T09:06:56.114Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4292773445",
+    "type": "INBOUND",
+    "message_id": "4292774682",
     "ticket_id": "943915428",
-    "message": "We can share the rate for 02 nights extension if you need",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Same price",
+    "channel_id": "585723",
     "contact_id": "536484706",
     "contact_name": "Raja Sajid 🇦🇪",
     "contact_identifier": "+971566960509",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4292773445",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
