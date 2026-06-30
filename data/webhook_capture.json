@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-30T10:16:35.194Z",
+  "ts": "2026-06-30T10:18:15.198Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4292860536",
+    "type": "INBOUND",
+    "message_id": "4292862443",
     "ticket_id": "962625629",
-    "message": "We would like to inform you that the building maintenance team needs to access the unit for some maintenance work.\r\n\r\nCould you kindly grant access to the apartment? Also, may we know if you are currently in the unit and available to provide access?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "When and what time they want to come ?",
+    "channel_id": "585723",
     "contact_id": "541526979",
     "contact_name": "Megli",
     "contact_identifier": "+447474854636",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
