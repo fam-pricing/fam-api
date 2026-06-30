@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-30T05:30:52.327Z",
+  "ts": "2026-06-30T05:31:04.912Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4292559024",
+    "type": "INBOUND",
+    "message_id": "4292559276",
     "ticket_id": "959587621",
-    "message": "He is not coming; he left a message to our team",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Great",
+    "channel_id": "585723",
     "contact_id": "540691470",
     "contact_name": "ramiza",
     "contact_identifier": "+971566548614",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4292559024",
+    "parent_ticket_id": "959587621",
+    "event_type": "INBOUND"
   }
 }
