@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-30T16:33:33.696Z",
+  "ts": "2026-06-30T16:35:03.223Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4293310309",
-    "ticket_id": "951617602",
-    "message": "In case Tell them to give me or put another card for me",
-    "channel_id": "585723",
-    "contact_id": "538457647",
-    "contact_name": "Tim Dominik Germany",
-    "contact_identifier": "+56931740105",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4293311521",
+    "ticket_id": "961974988",
+    "message": "Payment link - https://totalpay.ae/payment/20260630366a43f01ca543d",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535926291",
+    "contact_name": "Rimsha Akram",
+    "contact_identifier": "+971526064450",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
