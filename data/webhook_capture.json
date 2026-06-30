@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-30T05:39:39.951Z",
+  "ts": "2026-06-30T05:40:16.519Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4292563069",
+    "type": "INBOUND",
+    "message_id": "4292563275",
     "ticket_id": "941451761",
-    "message": "Please leave the parking remote inside the apartment and send us a picture thank you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Okay sure",
+    "channel_id": "585723",
     "contact_id": "535680169",
     "contact_name": "HUMAM SHAMDEEN",
     "contact_identifier": "+971555795196",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4292563069",
+    "parent_ticket_id": "941451761",
+    "event_type": "INBOUND"
   }
 }
