@@ -1,20 +1,17 @@
 {
-  "ts": "2026-06-30T12:16:45.269Z",
+  "ts": "2026-06-30T12:17:06.988Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4293003684",
-    "ticket_id": "961637893",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nGood afternoon\n\nHow can I help you today?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536414061",
-    "contact_name": "Maria",
-    "contact_identifier": "+96176100864",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4293004135",
+    "ticket_id": "962596865",
+    "message": "We at Damagepro specialize in Aircover damage claims and had a proposal for your company. \n\nIt would be great if you can connect me to someone so we can take this further.",
+    "channel_id": "585723",
+    "contact_id": "486961484",
+    "contact_name": "Dave Johnson",
+    "contact_identifier": "+16263230069",
+    "event_type": "INBOUND"
   }
 }
