@@ -1,20 +1,19 @@
 {
-  "ts": "2026-06-30T14:03:09.714Z",
+  "ts": "2026-06-30T14:03:44.666Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4293147918",
-    "ticket_id": "962615126",
-    "message": "And the team is on the way for the smell issue may I know if someone is available at the apartment",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "541523816",
-    "contact_name": "Mohammad Turk",
-    "contact_identifier": "+971504576629",
+    "type": "INBOUND",
+    "message_id": "4293148813",
+    "ticket_id": "962671519",
+    "message": "Yes",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "541550234",
+    "contact_name": "Aleena",
+    "contact_identifier": "+447718229752",
+    "parent_message_id": "4293146892",
+    "parent_ticket_id": "962671519",
+    "event_type": "INBOUND"
   }
 }
