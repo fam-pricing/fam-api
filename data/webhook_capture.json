@@ -1,17 +1,20 @@
 {
-  "ts": "2026-06-30T12:40:11.066Z",
+  "ts": "2026-06-30T12:45:18.045Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4293033247",
+    "type": "OUTBOUND",
+    "message_id": "4293039892",
     "ticket_id": "954689424",
-    "message": "Can I please get the calling number",
-    "channel_id": "585723",
+    "message": "Unfortunately, we are unable to proceed with the extension at the same rate. As an alternative, you may choose to proceed with the check-out, or we can offer a studio unit in the Upside Living building.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "539372707",
     "contact_name": "Karunya Antony Robert Antony",
     "contact_identifier": "+971585984631",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
