@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-01T12:23:56.667Z",
+  "ts": "2026-07-01T12:24:21.145Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294071124",
+    "type": "OUTBOUND",
+    "message_id": "4294071689",
     "ticket_id": "962917483",
-    "message": "Could you let me know the payment, how many months it’ll be available",
-    "channel_id": "1304636",
+    "message": "It's available for up to 3 months at a time. Did you have a specific number of months in mind, or are you thinking of starting with one?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541615145",
     "contact_name": "Helena Eliza",
     "contact_identifier": "+971529081767",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
