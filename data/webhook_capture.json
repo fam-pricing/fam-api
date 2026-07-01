@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-01T12:08:13.974Z",
+  "ts": "2026-07-01T12:09:26.863Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294051897",
-    "ticket_id": "962919171",
-    "message": "Can you please give me more info , so I can follow it up w my bank?",
+    "type": "OUTBOUND",
+    "message_id": "4294053408",
+    "ticket_id": "962942469",
+    "message": "Your apartment number is 2123 which is on 21st floor\r\n\r\nKindly approach the reception for check in process once you arrive at the building",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "541033321",
+    "contact_name": "Khashayar Zahed",
+    "contact_identifier": "+971551890313",
     "channel_id": "1304636",
-    "contact_id": "535634432",
-    "contact_name": "Raha",
-    "contact_identifier": "+971566081840",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
