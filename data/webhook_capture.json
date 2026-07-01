@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-01T13:12:24.355Z",
+  "ts": "2026-07-01T13:12:54.628Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294143698",
+    "type": "OUTBOUND",
+    "message_id": "4294144326",
     "ticket_id": "962986566",
-    "message": "Hi! We’re looking for a villa for a client from 20 October to 30 November.\n\nWe’ll be available for viewings on 6 July and are ready to reserve the villa and pay the deposit immediately if it’s suitable.\n\nPlease let us know if the villa is available for our dates, whether you can arrange a viewing on 6 July, and what the total price would be for the entire stay.",
-    "channel_id": "1304636",
+    "message": "Thanks for reaching out! Let me get the right person from our team to confirm availability, pricing, and the 6 July viewing for you, I'll come back to you shortly.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541632260",
     "contact_name": "Denis Kazaryan",
     "contact_identifier": "+971543846432",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
