@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-01T09:02:53.233Z",
+  "ts": "2026-07-01T09:05:40.907Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4293824669",
+    "type": "INBOUND",
+    "message_id": "4293828334",
     "ticket_id": "951617602",
-    "message": "Are you available in the building right now ?",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "Yes",
+    "channel_id": "585723",
     "contact_id": "538457647",
     "contact_name": "Tim Dominik Germany",
     "contact_identifier": "+56931740105",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
