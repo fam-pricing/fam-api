@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-01T07:46:26.983Z",
+  "ts": "2026-07-01T07:47:03.982Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4293726564",
+    "type": "OUTBOUND",
+    "message_id": "4293727318",
     "ticket_id": "962877366",
-    "message": "Hi! I have a few questions about the rental terms:\n\n* How many cheques are accepted for the rent?\n* How much is the security deposit?\n* How much is the agency commission?\n* Can the security deposit be paid by cheque, or does it have to be cash \n?",
-    "channel_id": "1304636",
+    "message": "On cheques, rent is paid monthly by bank transfer or card (3.1% fee applies to card). The security deposit is AED 2,000, fully refundable within 14 working days after check-out, and needs to be paid the same way, transfer or card, not cheque. No agency commission on top of that; the quoted rate plus deposit is all you pay.\n\nAnything else you'd like to know before deciding on the 2BR?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541603651",
     "contact_name": "💜",
     "contact_identifier": "+971589118837",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
