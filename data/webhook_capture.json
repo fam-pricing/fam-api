@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-01T07:45:42.661Z",
+  "ts": "2026-07-01T07:46:26.983Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4293725673",
-    "ticket_id": "962877369",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
-    "contact_id": "541603652",
-    "contact_name": "Mike",
-    "contact_identifier": "+971585452383",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4293726564",
+    "ticket_id": "962877366",
+    "message": "Hi! I have a few questions about the rental terms:\n\n* How many cheques are accepted for the rent?\n* How much is the security deposit?\n* How much is the agency commission?\n* Can the security deposit be paid by cheque, or does it have to be cash \n?",
+    "channel_id": "1304636",
+    "contact_id": "541603651",
+    "contact_name": "💜",
+    "contact_identifier": "+971589118837",
+    "event_type": "INBOUND"
   }
 }
