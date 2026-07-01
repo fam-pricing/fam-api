@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-01T13:50:50.973Z",
+  "ts": "2026-07-01T13:50:52.767Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294189550",
+    "type": "OUTBOUND",
+    "message_id": "4294189612",
     "ticket_id": "963004448",
-    "message": "Good evening. Could you please help me with apartment booking?",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "541636880",
     "contact_name": "Anver MARTYNOV",
     "contact_identifier": "7b95c212-ba82-47b7-d0f2-2cf7f18f233c",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
