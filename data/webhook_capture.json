@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-01T15:14:23.483Z",
+  "ts": "2026-07-01T15:14:36.428Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294290508",
-    "ticket_id": "962948359",
-    "message": "I am staying here already. Just wanna pay monthly that's all",
+    "type": "OUTBOUND",
+    "message_id": "4294290741",
+    "ticket_id": "963007362",
+    "message": "Sure Mouna",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "541637778",
+    "contact_name": "Mouna",
+    "contact_identifier": "+21626789107",
     "channel_id": "1304636",
-    "contact_id": "541623933",
-    "contact_name": "Jackson Wong",
-    "contact_identifier": "+971585942169",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
