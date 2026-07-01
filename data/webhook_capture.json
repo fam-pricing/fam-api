@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-01T18:00:55.185Z",
+  "ts": "2026-07-01T18:01:12.143Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4294421823",
-    "ticket_id": "963062330",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nStudio in Azizi Riviera 16\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "541656949",
-    "contact_name": "Mustafa",
-    "contact_identifier": "+972543099860",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4294421995",
+    "ticket_id": "963062366",
+    "message": "is the website broke or something i can’t see the unit prices",
+    "channel_id": "883603",
+    "contact_id": "541656964",
+    "contact_name": "nancy",
+    "contact_identifier": "bd2d3f39-2a0d-4967-41d0-2c56d5ed8e15",
+    "event_type": "INBOUND"
   }
 }
