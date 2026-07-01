@@ -2710,5 +2710,17 @@
     "lead_quality": 35,
     "buying_stage": "COOL",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-07-01T07:49:22.469Z",
+    "ticket_id": 962877366,
+    "lead_id": "message_lead_30298868",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 783,
+    "critic_pass": null,
+    "lead_quality": 65,
+    "buying_stage": "WARM",
+    "skip_reason": "acknowledgment_skip"
   }
 ]
