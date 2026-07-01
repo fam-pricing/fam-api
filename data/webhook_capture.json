@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-01T06:50:43.656Z",
+  "ts": "2026-07-01T06:51:30.574Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4293663725",
-    "ticket_id": "961974988",
-    "message": "Please",
-    "channel_id": "1304636",
-    "contact_id": "535926291",
-    "contact_name": "Rimsha Akram",
-    "contact_identifier": "+971526064450",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4293664496",
+    "ticket_id": "950247613",
+    "message": "You have to check out of the apartment, and we will be removing our linens and sheets as we need to handover to the landlord",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "537978912",
+    "contact_name": "Richa Jain",
+    "contact_identifier": "+971585798788",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
