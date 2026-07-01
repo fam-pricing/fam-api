@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-01T14:59:36.800Z",
+  "ts": "2026-07-01T15:00:25.344Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4294274538",
+    "type": "INBOUND",
+    "message_id": "4294275427",
     "ticket_id": "963007362",
-    "message": "No worries, Mouna. We have one other studio in Business Bay, Upside Living at AED 4,500/month, though it's an adults-only building. Would that work for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes we are both adults, could you please share the listing with me?",
+    "channel_id": "1304636",
     "contact_id": "541637778",
     "contact_name": "Mouna",
     "contact_identifier": "+21626789107",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
