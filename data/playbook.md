@@ -1389,3 +1389,14 @@ We appreciate your prompt cooperation.
 ## Learned (2026-06-27)
 - If a lead asks whether the rental rate will stay the same upon extension and what notice period is given if the owner reclaims the property, address the pricing question as follows: advise the lead that rates are reviewed monthly and are subject to change based on market conditions, and that the same rate therefore cannot be confirmed or guaranteed from one month to the next.
   (Learned from Faysal handling J re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
+
+## Learned (2026-07-01)
+- When a lead confirms they want to proceed (e.g., "Yes please"), respond with the following:
+
+"To confirm your booking, we'll need the following from you:
+
+1. A copy of your ID or passport
+2. Your email address
+
+Once we have these, we'll send you a payment link to secure your reservation."
+  (Learned from Faysal handling Tommy re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PkztQ5mhlY.html)
