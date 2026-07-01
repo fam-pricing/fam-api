@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-01T11:45:10.268Z",
+  "ts": "2026-07-01T11:45:29.670Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4294023567",
-    "ticket_id": "962942469",
-    "message": "Any update ?",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "541033321",
-    "contact_name": "Khashayar Zahed",
-    "contact_identifier": "+971551890313",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4294023898",
+    "ticket_id": "952757044",
+    "message": "👍",
+    "channel_id": "585723",
+    "contact_id": "536476505",
+    "contact_name": "GEORGI EMILOV RAZVANSKI",
+    "contact_identifier": "+447413535253",
+    "parent_message_id": "4294021953",
+    "parent_ticket_id": "952757044",
+    "event_type": "INBOUND"
   }
 }
