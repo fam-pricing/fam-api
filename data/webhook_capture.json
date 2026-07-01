@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-01T12:24:44.177Z",
+  "ts": "2026-07-01T12:25:10.343Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294072151",
+    "type": "OUTBOUND",
+    "message_id": "4294072773",
     "ticket_id": "962917483",
-    "message": "4 months",
-    "channel_id": "1304636",
+    "message": "We can only lock in the rate for 3 months at a time, so a 4-month stay would need to be renewed after the first 3. Would that work for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541615145",
     "contact_name": "Helena Eliza",
     "contact_identifier": "+971529081767",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
