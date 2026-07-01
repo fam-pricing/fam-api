@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-01T15:07:08.939Z",
+  "ts": "2026-07-01T15:07:27.448Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294283169",
+    "type": "OUTBOUND",
+    "message_id": "4294283519",
     "ticket_id": "962948359",
-    "message": "Is this available",
-    "channel_id": "1304636",
+    "message": "It's available! Are you looking to move in soon, or just exploring options at the moment?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541623933",
     "contact_name": "Jackson Wong",
     "contact_identifier": "+971585942169",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
