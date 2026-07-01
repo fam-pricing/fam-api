@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-01T09:43:45.340Z",
+  "ts": "2026-07-01T09:43:53.766Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4293875372",
+    "type": "INBOUND",
+    "message_id": "4293875540",
     "ticket_id": "962916249",
-    "message": "We received information that you are looking to book an apartment for a short-term rental.\r\n\r\nMay I know how many bedrooms you are looking for, your preferred location, your move-in date, and the duration of your stay? Once we have these details, I will be happy to assist you accordingly.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Do you have a video of this apartment",
+    "channel_id": "585723",
     "contact_id": "541607291",
     "contact_name": "SNH",
     "contact_identifier": "+8801790188192",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
