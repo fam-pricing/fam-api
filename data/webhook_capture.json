@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-01T07:04:37.452Z",
+  "ts": "2026-07-01T07:05:58.850Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4293677854",
+    "type": "INBOUND",
+    "message_id": "4293679280",
     "ticket_id": "962860096",
-    "message": "Hello Takyinn Wang ! To provide you with a smooth check-in experience, we must know your estimated arrival time. Please let us know what time are you expecting to check in.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Do you have rooms available on Palm Jumeirah?",
+    "channel_id": "585723",
     "contact_id": "541599646",
     "contact_name": "Takyinn Wang",
     "contact_identifier": "+971567587989",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
