@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-01T05:20:23.297Z",
+  "ts": "2026-07-01T05:20:33.204Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4293607236",
-    "ticket_id": "954163568",
-    "message": "Hello, I will stay for another month. Please send me the payment link.",
+    "type": "OUTBOUND",
+    "message_id": "4293607304",
+    "ticket_id": "961954227",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "541033321",
+    "contact_name": "Khashayar Zahed",
+    "contact_identifier": "+971551890313",
     "channel_id": "585723",
-    "contact_id": "539230013",
-    "contact_name": "Bahador Khoshkeroudi",
-    "contact_identifier": "+971547016092",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
