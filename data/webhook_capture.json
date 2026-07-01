@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-01T11:42:39.097Z",
+  "ts": "2026-07-01T11:43:06.570Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294020625",
-    "ticket_id": "962757262",
-    "message": "Deposit you have?",
+    "type": "OUTBOUND",
+    "message_id": "4294021112",
+    "ticket_id": "962942469",
+    "message": "sure",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "541033321",
+    "contact_name": "Khashayar Zahed",
+    "contact_identifier": "+971551890313",
     "channel_id": "1304636",
-    "contact_id": "541576913",
-    "contact_name": "Tommy",
-    "contact_identifier": "+971586377688",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
