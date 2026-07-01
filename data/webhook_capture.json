@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-01T05:38:01.323Z",
+  "ts": "2026-07-01T05:39:06.727Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4293614066",
+    "type": "OUTBOUND",
+    "message_id": "4293614553",
     "ticket_id": "962750436",
-    "message": "We are 4 adults and 4 kids (7 years, 5 years, 2 years, 1 year)",
-    "channel_id": "585723",
+    "message": "May I kindly know your preferred check-in date and the number of nights you are looking to stay? Also, do you have any location preference?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "142546468",
     "contact_name": "Mrs Hala Al Mashehari",
     "contact_identifier": "+971501484141",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
