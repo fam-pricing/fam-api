@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-01T05:40:57.382Z",
+  "ts": "2026-07-01T05:41:54.010Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4293615307",
+    "type": "INBOUND",
+    "message_id": "4293615670",
     "ticket_id": "961974988",
-    "message": "you need in same building or different also will be okay?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "From 31st August",
+    "channel_id": "1304636",
     "contact_id": "535926291",
     "contact_name": "Rimsha Akram",
     "contact_identifier": "+971526064450",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4293615171",
+    "parent_ticket_id": "961974988",
+    "event_type": "INBOUND"
   }
 }
