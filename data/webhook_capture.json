@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-01T12:41:16.018Z",
+  "ts": "2026-07-01T12:41:29.590Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294100056",
+    "type": "OUTBOUND",
+    "message_id": "4294100397",
     "ticket_id": "962957998",
-    "message": "???",
-    "channel_id": "585723",
+    "message": "Here is the location map for your booking at City Walk Building 2A.\r\n\r\nhttps://bit.ly/3gHWZSj",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "541626677",
     "contact_name": "Kaled Alkaabi",
     "contact_identifier": "+971545113111",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
