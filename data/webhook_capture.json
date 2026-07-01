@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-01T13:29:15.536Z",
+  "ts": "2026-07-01T13:29:18.145Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294163129",
-    "ticket_id": "962998213",
-    "message": "How abt 1 year rent?",
+    "type": "OUTBOUND",
+    "message_id": "4294163148",
+    "ticket_id": "962917483",
+    "message": "The monthly rent is AED 4,500, all-inclusive. Let me get a video arranged for you right away!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "541615145",
+    "contact_name": "Helena Eliza",
+    "contact_identifier": "+971529081767",
     "channel_id": "1304636",
-    "contact_id": "541400235",
-    "contact_name": "ROSIE",
-    "contact_identifier": "+37491521674",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
