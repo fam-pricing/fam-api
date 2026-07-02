@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-02T12:09:58.015Z",
+  "ts": "2026-07-02T12:10:22.237Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4295054292",
-    "ticket_id": "963170890",
-    "message": "Look you mail !!!!!",
-    "channel_id": "1304636",
-    "contact_id": "536827119",
-    "contact_name": "Akram GHEZAL",
-    "contact_identifier": "+33677542023",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4295054749",
+    "ticket_id": "962109073",
+    "message": "We have received the payment and thank you for the update",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536995527",
+    "contact_name": "Mohamed Ala Darwish",
+    "contact_identifier": "+971522415511",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
