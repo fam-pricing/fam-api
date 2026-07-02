@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-02T21:05:46.558Z",
+  "ts": "2026-07-02T21:06:14.613Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4295492844",
+    "type": "INBOUND",
+    "message_id": "4295492979",
     "ticket_id": "963362468",
-    "message": "AED 3,999/month all-inclusive, water, electricity, internet, and VAT all covered. Security deposit is AED 1,000, fully refundable. When are you looking to move in?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Kindly share with you the picture",
+    "channel_id": "1304636",
     "contact_id": "541769110",
     "contact_name": "Katre Nada",
     "contact_identifier": "+971504492876",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4295492844",
+    "parent_ticket_id": "963362468",
+    "event_type": "INBOUND"
   }
 }
