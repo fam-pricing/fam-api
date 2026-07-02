@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-02T10:31:42.172Z",
+  "ts": "2026-07-02T10:31:51.114Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294940067",
+    "type": "OUTBOUND",
+    "message_id": "4294940232",
     "ticket_id": "947606101",
-    "message": "11,000",
-    "channel_id": "585723",
+    "message": "Payment link - https://totalpay.ae/payment/20260702226a463dfae7f3c",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537449424",
     "contact_name": "THI NGOC NGUYEN",
     "contact_identifier": "+971554438123",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
