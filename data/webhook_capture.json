@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-02T10:33:29.484Z",
+  "ts": "2026-07-02T10:34:36.621Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294942097",
+    "type": "OUTBOUND",
+    "message_id": "4294943384",
     "ticket_id": "947606101",
-    "message": "Next month",
-    "channel_id": "585723",
+    "message": "Unfortunately, we are unable to offer a lower rate. The rate for this month will be AED 12,000.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537449424",
     "contact_name": "THI NGOC NGUYEN",
     "contact_identifier": "+971554438123",
-    "parent_message_id": "4294941315",
-    "parent_ticket_id": "947606101",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
