@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-02T10:19:47.672Z",
+  "ts": "2026-07-02T10:20:08.647Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294925702",
-    "ticket_id": "963149889",
-    "message": "Thank you so much!",
-    "channel_id": "585723",
-    "contact_id": "541688038",
-    "contact_name": "Anver MARTYNOV",
-    "contact_identifier": "+971505570895",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4294926072",
+    "ticket_id": "963221943",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in City Walk B22\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "541500490",
+    "contact_name": ".",
+    "contact_identifier": "+553196918787",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
