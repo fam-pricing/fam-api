@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-02T14:50:17.356Z",
+  "ts": "2026-07-02T14:50:38.476Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4295248569",
+    "type": "OUTBOUND",
+    "message_id": "4295248972",
     "ticket_id": "963296121",
-    "message": "hi",
-    "channel_id": "1304636",
+    "message": "Amy, did you have any questions about the 3BR in Imperial Avenue?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535760321",
     "contact_name": "amy",
     "contact_identifier": "+971501170660",
-    "parent_message_id": "4295232020",
-    "parent_ticket_id": "963296121",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
