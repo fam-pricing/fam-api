@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-02T07:49:49.410Z",
+  "ts": "2026-07-02T07:51:32.972Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4294741954",
+    "type": "INBOUND",
+    "message_id": "4294743730",
     "ticket_id": "963158335",
-    "message": "Yes, we had informed you one month before. As our units are listed on multiple platforms, bookings may be received at any time.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Hello,\n\nI have surgery today, so I am not able to move or accept this change.\n\nAlso, I received your confirmation about two months ago, and I made my plans based on that confirmation. If a reservation was made afterward, I should have been informed before any arrangements were finalized.",
+    "channel_id": "1304636",
     "contact_id": "535119429",
     "contact_name": "Reihaneh Hossein Til",
     "contact_identifier": "+971504133080",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
