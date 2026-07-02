@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-02T13:47:58.059Z",
+  "ts": "2026-07-02T13:48:17.426Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4295169398",
+    "type": "INBOUND",
+    "message_id": "4295169727",
     "ticket_id": "963280726",
-    "message": "6:30pm is outside our viewing hours, which are 9am, 6pm. Could you choose a time on July 6th that works within that window?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Okay 6 is fine",
+    "channel_id": "1304636",
     "contact_id": "541739832",
     "contact_name": "MKA",
     "contact_identifier": "+971506209001",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
