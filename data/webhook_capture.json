@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-02T08:23:44.479Z",
+  "ts": "2026-07-02T08:24:06.158Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4294782080",
+    "type": "INBOUND",
+    "message_id": "4294782459",
     "ticket_id": "963158335",
-    "message": "Unfortunately we are unable to cancel the booking",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Also I can’t",
+    "channel_id": "1304636",
     "contact_id": "535119429",
     "contact_name": "Reihaneh Hossein Til",
     "contact_identifier": "+971504133080",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4294782080",
+    "parent_ticket_id": "963158335",
+    "event_type": "INBOUND"
   }
 }
