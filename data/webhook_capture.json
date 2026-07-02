@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-02T09:19:31.311Z",
+  "ts": "2026-07-02T09:20:40.328Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294850266",
-    "ticket_id": "963158335",
-    "message": "Bank Name : ADIB\nAccount Holder Name : REIHANEH TIL\nAccount Number : 19166595\nIBAN : AE160500000000019166595\nSWIFT : ABDIAEADXXX\nCurrency : AED",
-    "channel_id": "1304636",
-    "contact_id": "535119429",
-    "contact_name": "Reihaneh Hossein Til",
-    "contact_identifier": "+971504133080",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4294851766",
+    "ticket_id": "963149889",
+    "message": "One of our team member will be there to assist with the check in process",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541688038",
+    "contact_name": "Anver MARTYNOV",
+    "contact_identifier": "+971505570895",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
