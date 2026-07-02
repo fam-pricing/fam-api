@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-02T06:53:57.563Z",
+  "ts": "2026-07-02T06:54:10.410Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4294683241",
+    "type": "INBOUND",
+    "message_id": "4294683414",
     "ticket_id": "961811054",
-    "message": "Is the washing machine not working or the dishwasher ?",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "Oh sorry my mistake",
+    "channel_id": "585723",
     "contact_id": "538363776",
     "contact_name": "Kosar Mahmoud Bashash",
     "contact_identifier": "+971507955452",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4294683241",
+    "parent_ticket_id": "961811054",
+    "event_type": "INBOUND"
   }
 }
