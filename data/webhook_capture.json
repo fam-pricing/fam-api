@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-02T14:11:53.619Z",
+  "ts": "2026-07-02T14:11:55.701Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4295204280",
+    "type": "OUTBOUND",
+    "message_id": "4295204328",
     "ticket_id": "963289850",
-    "message": "Hi,\n\nI hope you’re doing well.\n\nThe Wi-Fi in the apartment hasn’t been working for the past two days.\nWe really need it, so we’d appreciate it if you could look into the issue as soon as possible or let us know how to fix it.\n\nThank you very much!",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "541744249",
     "contact_name": "Chloé Degard",
     "contact_identifier": "+33781939109",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
