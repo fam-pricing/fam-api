@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-02T06:19:06.396Z",
+  "ts": "2026-07-02T06:20:49.088Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4294658137",
+    "type": "INBOUND",
+    "message_id": "4294659184",
     "ticket_id": "943915428",
-    "message": "The payment can be completed via the payment link, bank transfer, or by visiting our office in person.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Where is your office?",
+    "channel_id": "585723",
     "contact_id": "536484706",
     "contact_name": "Raja Sajid 🇦🇪",
     "contact_identifier": "+971566960509",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
