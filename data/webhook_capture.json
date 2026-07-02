@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-02T08:55:59.470Z",
+  "ts": "2026-07-02T08:56:18.703Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294819749",
+    "type": "OUTBOUND",
+    "message_id": "4294820146",
     "ticket_id": "963149889",
-    "message": "Done",
-    "channel_id": "585723",
+    "message": "May I know the arrival time please?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "541688038",
     "contact_name": "Anver MARTYNOV",
     "contact_identifier": "+971505570895",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
