@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-02T12:15:34.552Z",
+  "ts": "2026-07-02T12:15:45.628Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4295060882",
-    "ticket_id": "963253783",
-    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "541726932",
-    "contact_name": "Love and light",
-    "contact_identifier": "+971561676441",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4295061115",
+    "ticket_id": "963170890",
+    "message": "Beneficiary Name: Ghezal Akram\n\nBeneficiary Address: Viridian by Central Park, city walk, Dubai \n\nBeneficiary Bank Name: Ghezal Akram \n\nPlease forward the above banking details to deposit@famliving.com\n\nPlease note that failure to provide all the required fields mentioned above will prevent our finance team from processing the refund\n\nAkram Ghezal\nWio Bank PJSC\nEtihad Airways Centre 5th Floor, Abu Dhabi, UAE\nAE660860000006825754052\nWIOBAEADXXX",
+    "channel_id": "1304636",
+    "contact_id": "536827119",
+    "contact_name": "Akram GHEZAL",
+    "contact_identifier": "+33677542023",
+    "event_type": "INBOUND"
   }
 }
