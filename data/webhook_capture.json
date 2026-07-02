@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-02T10:38:36.080Z",
+  "ts": "2026-07-02T10:39:04.689Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4294948102",
+    "type": "OUTBOUND",
+    "message_id": "4294948564",
     "ticket_id": "947606101",
-    "message": "Now too much room empty",
-    "channel_id": "585723",
+    "message": "The best rate we can offer is AED 11,500. Unfortunately, we are unable to reduce the rate any further.\r\n\r\nIf you do not wish to proceed at this rate, we kindly request that you complete the check-out process today.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537449424",
     "contact_name": "THI NGOC NGUYEN",
     "contact_identifier": "+971554438123",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
