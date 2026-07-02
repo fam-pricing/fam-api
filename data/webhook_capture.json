@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-02T10:56:30.397Z",
+  "ts": "2026-07-02T10:58:05.465Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4294967865",
+    "type": "INBOUND",
+    "message_id": "4294969533",
     "ticket_id": "947606101",
-    "message": "Attachment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Ok done ✅",
+    "channel_id": "585723",
     "contact_id": "537449424",
     "contact_name": "THI NGOC NGUYEN",
     "contact_identifier": "+971554438123",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4294948564",
+    "parent_ticket_id": "947606101",
+    "event_type": "INBOUND"
   }
 }
