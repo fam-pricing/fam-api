@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-02T21:09:21.535Z",
+  "ts": "2026-07-02T21:09:56.355Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4295494306",
+    "type": "INBOUND",
+    "message_id": "4295494490",
     "ticket_id": "963362468",
-    "message": "Totally understand, let me get someone from the team to send the photos directly here for you right now. Move-in on the 4th of this month is noted!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yea",
+    "channel_id": "1304636",
     "contact_id": "541769110",
     "contact_name": "Katre Nada",
     "contact_identifier": "+971504492876",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4295494306",
+    "parent_ticket_id": "963362468",
+    "event_type": "INBOUND"
   }
 }
