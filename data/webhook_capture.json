@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-02T12:17:13.973Z",
+  "ts": "2026-07-02T12:25:43.513Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4295062724",
+    "type": "OUTBOUND",
+    "message_id": "4295072689",
     "ticket_id": "963251697",
-    "message": "Hello\nMy name is Ismat\nI’m looking for apartment 3 bed 3 bathroom \n Monthly rental only\nLocation Creek harbour or surroundings",
-    "channel_id": "585723",
+    "message": "Allow me to check",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "541726167",
     "contact_name": "Ismat",
     "contact_identifier": "+971522163449",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
