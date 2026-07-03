@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-03T05:20:31.668Z",
+  "ts": "2026-07-03T05:23:51.748Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4295602184",
-    "ticket_id": "963149889",
-    "message": "Please provide the Emirates ID or passport copy details of all guests who will be arriving with you? We need this information to register all guests in Emaar Portal",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "541688038",
-    "contact_name": "Anver MARTYNOV",
-    "contact_identifier": "+971505570895",
+    "type": "INBOUND",
+    "message_id": "4295603000",
+    "ticket_id": "963150800",
+    "message": "Is anyone going to reply to me?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "540291358",
+    "contact_name": "Tracy",
+    "contact_identifier": "+31618323735",
+    "event_type": "INBOUND"
   }
 }
