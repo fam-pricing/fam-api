@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-03T10:34:30.253Z",
+  "ts": "2026-07-03T10:34:52.127Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4295876044",
+    "type": "INBOUND",
+    "message_id": "4295876399",
     "ticket_id": "963158335",
-    "message": "Kindly be informed that there will be late check out charges applicable as you are still in house",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "Sorry icant accept",
+    "channel_id": "1304636",
     "contact_id": "535119429",
     "contact_name": "Reihaneh Hossein Til",
     "contact_identifier": "+971504133080",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4295876044",
+    "parent_ticket_id": "963158335",
+    "event_type": "INBOUND"
   }
 }
