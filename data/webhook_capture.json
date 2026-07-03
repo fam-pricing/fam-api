@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-03T06:26:16.584Z",
+  "ts": "2026-07-03T06:26:33.294Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4295629722",
+    "type": "OUTBOUND",
+    "message_id": "4295629944",
     "ticket_id": "963415825",
-    "message": "شامله الفواتير!؟",
-    "channel_id": "1304636",
+    "message": "وعليكم السلام! نعم، السعر شامل الكهرباء والماء والإنترنت. تبي تحجز معاينة للوحدة؟",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541777873",
     "contact_name": "Mr.Ahmed",
     "contact_identifier": "+971564497124",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
