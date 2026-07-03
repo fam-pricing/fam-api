@@ -1,17 +1,19 @@
 {
-  "ts": "2026-07-03T11:58:12.058Z",
+  "ts": "2026-07-03T11:58:17.821Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4295961615",
-    "ticket_id": "962912368",
-    "message": "Dear fäm Properties colleague, how do you rate your interaction with me ? https://csat.trengo.com/?uuid=a22b9053-9ac6-4109-bc41-88335ceb3cf4\n",
-    "contact_id": "541613732",
-    "contact_name": "Hana",
-    "contact_identifier": "+971523070226",
+    "type": "INBOUND",
+    "message_id": "4295961699",
+    "ticket_id": "961186243",
+    "message": "Hi how are you \nI want to ask when the insurance will be refunded",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "541129758",
+    "contact_name": "Mohammed Alshamsi",
+    "contact_identifier": "+971508881993",
+    "parent_message_id": "4295607921",
+    "parent_ticket_id": "961186243",
+    "event_type": "INBOUND"
   }
 }
