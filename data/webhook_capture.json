@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-03T06:29:13.272Z",
+  "ts": "2026-07-03T06:29:41.212Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4295631325",
+    "type": "OUTBOUND",
+    "message_id": "4295631542",
     "ticket_id": "963415825",
-    "message": "ينفع بعد نص ساعه يعني ١١!؟",
-    "channel_id": "1304636",
+    "message": "نعم، الساعة ١١ مناسبة تماماً. فريقنا سيتواصل معك قريباً لتأكيد الموعد, ممكن ترسل صورة جواز سفرك أو الهوية الإماراتية عشان نرتب الدخول للبناية؟",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541777873",
     "contact_name": "Mr.Ahmed",
     "contact_identifier": "+971564497124",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
