@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-03T07:58:44.236Z",
+  "ts": "2026-07-03T08:02:39.803Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4295709783",
-    "ticket_id": "963150800",
-    "message": "The building maintenance has been contacted and informed that team has been already assigned and working on it, thanks for your patience and understanding",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "540291358",
-    "contact_name": "Tracy",
-    "contact_identifier": "+31618323735",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4295714634",
+    "ticket_id": "963362468",
+    "message": "So, it’s 4000 plus 1000",
+    "channel_id": "1304636",
+    "contact_id": "541769110",
+    "contact_name": "Katre Nada",
+    "contact_identifier": "+971504492876",
+    "parent_message_id": "4295492844",
+    "parent_ticket_id": "963362468",
+    "event_type": "INBOUND"
   }
 }
