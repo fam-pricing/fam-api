@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-03T20:46:23.647Z",
+  "ts": "2026-07-03T20:46:59.308Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4296365656",
+    "type": "OUTBOUND",
+    "message_id": "4296365827",
     "ticket_id": "963609672",
-    "message": "Alright",
-    "channel_id": "1304636",
+    "message": "Yes, the deposit is refundable and returned within 14 working days after check-out, as long as there are no damages. Shall I go ahead and send you the payment link for July 8th?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540293765",
     "contact_name": "Iii",
     "contact_identifier": "+971551661799",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
