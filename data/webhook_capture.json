@@ -1,19 +1,17 @@
 {
-  "ts": "2026-07-03T11:58:10.757Z",
+  "ts": "2026-07-03T11:58:12.058Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4295961590",
-    "ticket_id": "963501953",
-    "message": "Confirm",
+    "type": "OUTBOUND",
+    "message_id": "4295961615",
+    "ticket_id": "962912368",
+    "message": "Dear fäm Properties colleague, how do you rate your interaction with me ? https://csat.trengo.com/?uuid=a22b9053-9ac6-4109-bc41-88335ceb3cf4\n",
+    "contact_id": "541613732",
+    "contact_name": "Hana",
+    "contact_identifier": "+971523070226",
     "channel_id": "585723",
-    "contact_id": "541801777",
-    "contact_name": "lead from avinahs",
-    "contact_identifier": "+971523716224",
-    "parent_message_id": "4295947002",
-    "parent_ticket_id": "963501953",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
