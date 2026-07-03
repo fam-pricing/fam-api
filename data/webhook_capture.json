@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-03T06:27:44.587Z",
+  "ts": "2026-07-03T06:27:56.610Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4295630574",
+    "type": "INBOUND",
+    "message_id": "4295630653",
     "ticket_id": "963415825",
-    "message": "نعم، الدفع شهري وشامل الفواتير. بعد صلاة الجمعة مناسب، تبي نحدد وقت معين؟",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "لو بعت اللوكيشن ممكن اجي الحين",
+    "channel_id": "1304636",
     "contact_id": "541777873",
     "contact_name": "Mr.Ahmed",
     "contact_identifier": "+971564497124",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4295630406",
+    "parent_ticket_id": "963415825",
+    "event_type": "INBOUND"
   }
 }
