@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-03T09:50:53.263Z",
+  "ts": "2026-07-03T09:51:05.476Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4295830168",
-    "ticket_id": "963470494",
-    "message": "We will send a team shortly to check",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "537817977",
-    "contact_name": "Kanika",
-    "contact_identifier": "+919051525237",
+    "type": "INBOUND",
+    "message_id": "4295830383",
+    "ticket_id": "963158335",
+    "message": "Please before send your team , refund it please",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535119429",
+    "contact_name": "Reihaneh Hossein Til",
+    "contact_identifier": "+971504133080",
+    "parent_message_id": "4295829265",
+    "parent_ticket_id": "963158335",
+    "event_type": "INBOUND"
   }
 }
