@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-03T10:35:00.103Z",
+  "ts": "2026-07-03T10:35:05.488Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4295876515",
+    "type": "OUTBOUND",
+    "message_id": "4295876604",
     "ticket_id": "963158335",
-    "message": "Do you want pay",
-    "channel_id": "1304636",
+    "message": "Please note that our team is unable to bring the cash to the apartment so in this case.\r\n\r\nThe refund can only be made via bank transfer if you are unable to visit our office to collect the cash.\r\n\r\nOnce the bank transfer has been completed, we will share the transfer receipt with you for your reference.\r\n\r\nKindly also note that if you do not check out on time, a late check-out fee will be applied.\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535119429",
     "contact_name": "Reihaneh Hossein Til",
     "contact_identifier": "+971504133080",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
