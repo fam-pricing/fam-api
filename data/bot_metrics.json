@@ -2662,5 +2662,17 @@
     "lead_quality": 10,
     "buying_stage": "COLD",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-07-03T06:32:21.501Z",
+    "ticket_id": 963415825,
+    "lead_id": "message_lead_30345704",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 756,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
+    "skip_reason": "bot_paused"
   }
 ]
