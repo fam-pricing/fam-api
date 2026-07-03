@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-03T05:34:05.691Z",
+  "ts": "2026-07-03T05:37:15.557Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4295606890",
-    "ticket_id": "963150800",
-    "message": "Nevermind finally got a response on Airbnb",
+    "type": "OUTBOUND",
+    "message_id": "4295607921",
+    "ticket_id": "961186243",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "541129758",
+    "contact_name": "Mohammed Alshamsi",
+    "contact_identifier": "+971508881993",
     "channel_id": "585723",
-    "contact_id": "540291358",
-    "contact_name": "Tracy",
-    "contact_identifier": "+31618323735",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
