@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-03T14:02:11.950Z",
+  "ts": "2026-07-03T14:12:44.635Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4296099659",
+    "type": "OUTBOUND",
+    "message_id": "4296110873",
     "ticket_id": "963542302",
-    "message": "I’m arriving at 8 or 9pm",
-    "channel_id": "585723",
+    "message": "Well noted your arrival timing",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "541814815",
     "contact_name": "Ahmed Almarri",
     "contact_identifier": "+971502060828",
-    "parent_message_id": "4296095983",
-    "parent_ticket_id": "963542302",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
