@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-03T12:27:14.741Z",
+  "ts": "2026-07-03T12:27:49.132Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4295992065",
+    "type": "OUTBOUND",
+    "message_id": "4295992599",
     "ticket_id": "963510847",
-    "message": "aheadbut for sure the amount is not deducted already by booking?!",
-    "channel_id": "585723",
+    "message": "no we are unable to deduct the amount from the booking.com",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "541804267",
     "contact_name": "Yahya Alameeri",
     "contact_identifier": "+971568007407",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
