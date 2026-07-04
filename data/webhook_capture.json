@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-04T09:56:25.175Z",
+  "ts": "2026-07-04T09:59:07.872Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4296578778",
-    "ticket_id": "960166351",
-    "message": "Hi, I want to confirm the booking please..",
+    "type": "OUTBOUND",
+    "message_id": "4296580349",
+    "ticket_id": "958579229",
+    "message": "Aww, congratulations on your son’s graduation. :)",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "532008494",
+    "contact_name": "Kenan David",
+    "contact_identifier": "+27724580583",
     "channel_id": "585723",
-    "contact_id": "455776398",
-    "contact_name": "Mrs Dalal Ali Jumah Khamis Alshehhi",
-    "contact_identifier": "+971553900369",
-    "parent_message_id": "4287109199",
-    "parent_ticket_id": "960166351",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
