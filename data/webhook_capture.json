@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-04T14:10:19.561Z",
+  "ts": "2026-07-04T14:13:54.218Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4296717363",
+    "type": "INBOUND",
+    "message_id": "4296719191",
     "ticket_id": "963729764",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Bluewaters Building 4\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello! We’re coming to Dubai for 3-6 months and wonder if this place is available short term or only yearly?\n\nDo you have anything available for September or October 2025?\n\nI already own a company in Dubai and want to bring my family to see how we enjoy it for 3-6 months. If we like it wanna rent or buy long-term.",
+    "channel_id": "1304636",
     "contact_id": "541878539",
     "contact_name": "David I Eriksson",
     "contact_identifier": "+971585196415",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
