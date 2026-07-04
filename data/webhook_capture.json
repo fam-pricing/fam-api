@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-04T08:13:06.342Z",
+  "ts": "2026-07-04T08:13:11.131Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4296522080",
+    "type": "OUTBOUND",
+    "message_id": "4296522123",
     "ticket_id": "963676172",
-    "message": "Can reach in 20 minutes",
-    "channel_id": "1304636",
+    "message": "Yes, come on over! What time works for you? Any slot between 9am and 6pm is available today.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539796566",
     "contact_name": "MGh",
     "contact_identifier": "+971586988505",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
