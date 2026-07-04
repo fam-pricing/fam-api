@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-04T15:50:33.594Z",
+  "ts": "2026-07-04T16:05:07.001Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4296770488",
-    "ticket_id": "963736395",
-    "message": "From which date you need this studio ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "541576913",
-    "contact_name": "Tommy",
-    "contact_identifier": "+971586377688",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4296777163",
+    "ticket_id": "963745934",
+    "message": "Confirm",
+    "channel_id": "585723",
+    "contact_id": "532782737",
+    "contact_name": "Hadrien Gilles E Annoye",
+    "contact_identifier": "+971585962468",
+    "parent_message_id": "4277276325",
+    "parent_ticket_id": "928997930",
+    "event_type": "INBOUND"
   }
 }
