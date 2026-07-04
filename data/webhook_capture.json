@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-04T10:05:49.867Z",
+  "ts": "2026-07-04T10:06:07.420Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4296584282",
-    "ticket_id": "963678237",
-    "message": "Could you please share with me the location of the building and parking space details? I'll move from Arabian Park appartements by 2:30pm",
+    "type": "OUTBOUND",
+    "message_id": "4296584454",
+    "ticket_id": "958579229",
+    "message": "Attachment",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "532008494",
+    "contact_name": "Kenan David",
+    "contact_identifier": "+27724580583",
     "channel_id": "585723",
-    "contact_id": "541862960",
-    "contact_name": "ANIS BEN BRAHIM",
-    "contact_identifier": "+971501025640",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
