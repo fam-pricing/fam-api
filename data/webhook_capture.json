@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-04T10:01:05.653Z",
+  "ts": "2026-07-04T10:01:15.821Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4296581507",
+    "type": "OUTBOUND",
+    "message_id": "4296581602",
     "ticket_id": "958579229",
-    "message": "Accountant can only pay 30 days at a time",
-    "channel_id": "585723",
+    "message": "Once the payment is received, we will proceed with the other booking and send you the confirmation as well.\r\n\r\nAs discussed, your next payment for the extension will be due on 13th August, at the start of your extended booking.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "532008494",
     "contact_name": "Kenan David",
     "contact_identifier": "+27724580583",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
