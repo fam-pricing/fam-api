@@ -1400,3 +1400,7 @@ We appreciate your prompt cooperation.
 
 Once we have these, we'll send you a payment link to secure your reservation."
   (Learned from Faysal handling Tommy re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PkztQ5mhlY.html)
+
+## Learned (2026-07-04)
+- When a lead provides a long date range that spans multiple months (e.g., 6 August to 6 December), clarify that rates vary by month. Let them know that the rate displayed on Property Finder applies to the current month only, and that different rates will apply for the remaining months in their requested period.
+  (Learned from Faysal handling k re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
