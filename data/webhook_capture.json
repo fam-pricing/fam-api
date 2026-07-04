@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-04T06:42:57.730Z",
+  "ts": "2026-07-04T06:43:25.938Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4296479714",
+    "type": "OUTBOUND",
+    "message_id": "4296479837",
     "ticket_id": "963611596",
-    "message": "Can I see 11?",
-    "channel_id": "1304636",
+    "message": "You want to view the unit today?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "541849804",
     "contact_name": "N",
     "contact_identifier": "+971563450523",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
