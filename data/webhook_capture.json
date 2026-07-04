@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-04T14:03:16.532Z",
+  "ts": "2026-07-04T14:10:19.561Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4296713355",
-    "ticket_id": "952356051",
-    "message": "Hello",
-    "channel_id": "585723",
-    "contact_id": "538689675",
-    "contact_name": "Asad Mahmudov",
-    "contact_identifier": "+971523718563",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4296717363",
+    "ticket_id": "963729764",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Bluewaters Building 4\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "541878539",
+    "contact_name": "David I Eriksson",
+    "contact_identifier": "+971585196415",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
