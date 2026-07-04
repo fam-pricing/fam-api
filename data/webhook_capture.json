@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-04T08:10:45.244Z",
+  "ts": "2026-07-04T08:11:01.563Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4296520987",
+    "type": "OUTBOUND",
+    "message_id": "4296521084",
     "ticket_id": "963676172",
-    "message": "Is it available from July 6 for one month?",
-    "channel_id": "1304636",
+    "message": "Yes, it's available from July 6 for a month. The price is AED 4,000 all-inclusive and there's a refundable security deposit of AED 1,000. Want to go ahead and lock it in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539796566",
     "contact_name": "MGh",
     "contact_identifier": "+971586988505",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
