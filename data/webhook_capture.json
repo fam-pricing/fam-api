@@ -1,19 +1,17 @@
 {
-  "ts": "2026-07-04T09:39:12.722Z",
+  "ts": "2026-07-04T09:39:14.167Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4296569459",
+    "type": "OUTBOUND",
+    "message_id": "4296569482",
     "ticket_id": "963690069",
-    "message": "I Accept Charges",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "515173338",
     "contact_name": "Mr Subhan Ali Majeed",
     "contact_identifier": "+971547667838",
-    "parent_message_id": "4296452179",
-    "parent_ticket_id": "858737011",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
