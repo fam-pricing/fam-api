@@ -1404,3 +1404,14 @@ Once we have these, we'll send you a payment link to secure your reservation."
 ## Learned (2026-07-04)
 - When a lead provides a long date range that spans multiple months (e.g., 6 August to 6 December), clarify that rates vary by month. Let them know that the rate displayed on Property Finder applies to the current month only, and that different rates will apply for the remaining months in their requested period.
   (Learned from Faysal handling k re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-07-04)
+- When a lead asks if a property is available, respond with:
+
+"To confirm your booking, we'll need the following:
+
+1. A copy of your ID or passport
+2. Your email address
+
+Once we have these, we'll send you a payment link to secure the reservation."
+  (Learned from Faysal handling Iii re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html)
