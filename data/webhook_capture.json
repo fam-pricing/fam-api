@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-04T12:30:12.942Z",
+  "ts": "2026-07-04T12:30:19.755Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4296663054",
-    "ticket_id": "963715230",
-    "message": "Good afternoon, how are you doing?",
-    "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Ariel Griszka",
-    "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4296663119",
+    "ticket_id": "960166351",
+    "message": "Here is the payment link: https://totalpay.ae/payment/20260704556a48fcc356c82",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "455776398",
+    "contact_name": "Mrs Dalal Ali Jumah Khamis Alshehhi",
+    "contact_identifier": "+971553900369",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
