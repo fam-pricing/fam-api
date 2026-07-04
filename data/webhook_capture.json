@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-04T14:43:27.591Z",
+  "ts": "2026-07-04T14:44:04.923Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4296735595",
-    "ticket_id": "963715230",
-    "message": "You are welcome",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "539566355",
-    "contact_name": "Matias Ariel Griszka",
-    "contact_identifier": "+971501784347",
+    "type": "INBOUND",
+    "message_id": "4296735885",
+    "ticket_id": "963674536",
+    "message": "Look",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536394570",
+    "contact_name": "Sofiane",
+    "contact_identifier": "+33695624458",
+    "parent_message_id": "4268444074",
+    "parent_ticket_id": "963674536",
+    "event_type": "INBOUND"
   }
 }
