@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-05T15:47:58.229Z",
+  "ts": "2026-07-05T15:57:58.644Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4297237150",
-    "ticket_id": "963880099",
-    "message": "Either you can complete a bank transfer or you can complete the payment by the payment link and update us",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "541745108",
-    "contact_name": "محمود أمين",
-    "contact_identifier": "+971559904943",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4297241650",
+    "ticket_id": "947609821",
+    "message": "It has been paid, can you inform the reception to restore my access card?",
+    "channel_id": "585723",
+    "contact_id": "537450284",
+    "contact_name": "Alisa",
+    "contact_identifier": "+79817821817",
+    "event_type": "INBOUND"
   }
 }
