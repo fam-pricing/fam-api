@@ -2422,5 +2422,17 @@
     "lead_quality": 10,
     "buying_stage": "COLD",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-07-05T19:53:41.736Z",
+    "ticket_id": 963924184,
+    "lead_id": "message_lead_30403543",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 912,
+    "critic_pass": null,
+    "lead_quality": 10,
+    "buying_stage": "COLD",
+    "skip_reason": "ticket_locked"
   }
 ]
