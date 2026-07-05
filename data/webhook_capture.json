@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-05T11:17:04.805Z",
+  "ts": "2026-07-05T11:23:02.465Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4297106889",
-    "ticket_id": "963671096",
-    "message": "I have a meeting unit for 1 month. What is the final amount you can give me?",
+    "type": "OUTBOUND",
+    "message_id": "4297110036",
+    "ticket_id": "963674050",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: 11111. *How can I help you?*",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "537817977",
+    "contact_name": "Kanika",
+    "contact_identifier": "+919051525237",
     "channel_id": "1304636",
-    "contact_id": "535760321",
-    "contact_name": "amy",
-    "contact_identifier": "+971501170660",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
