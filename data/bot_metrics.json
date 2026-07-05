@@ -1,17 +1,5 @@
 [
   {
-    "ts": "2026-06-28T08:34:09.063Z",
-    "ticket_id": 961940304,
-    "lead_id": "message_lead_30214376",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 685,
-    "critic_pass": null,
-    "lead_quality": 25,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-06-28T15:26:19.587Z",
     "ticket_id": 962149033,
     "lead_id": "message_lead_30241142",
@@ -2290,5 +2278,17 @@
     "lead_quality": 55,
     "buying_stage": "WARM",
     "skip_reason": "Lead is frustrated, has called out the repetitive AI responses multiple times (\"I believe its ai\", \"U said the same\", \"How many time\"), and the conversation is clearly looping. Lead wants to view the 1BR in Upper Crest and has been asking repeatedly. Needs a human to step in, confirm a viewing time, and recover the lead."
+  },
+  {
+    "ts": "2026-07-05T08:51:36.423Z",
+    "ticket_id": 963822334,
+    "lead_id": "message_lead_30388540",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 728,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
+    "skip_reason": "bot_paused"
   }
 ]
