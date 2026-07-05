@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-05T10:38:55.142Z",
+  "ts": "2026-07-05T10:39:16.586Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4297088164",
+    "type": "OUTBOUND",
+    "message_id": "4297088362",
     "ticket_id": "963847089",
-    "message": "Hello. Are you Afifa Al Shami?",
-    "channel_id": "1304636",
+    "message": "Not Afifa, but you've reached the right team for this one. What would you like to know about the Bluewaters 2BR?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541906656",
     "contact_name": "Bernd",
     "contact_identifier": "+971504141835",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
