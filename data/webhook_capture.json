@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-05T10:39:43.040Z",
+  "ts": "2026-07-05T10:40:07.943Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4297088551",
+    "type": "OUTBOUND",
+    "message_id": "4297088738",
     "ticket_id": "963847089",
-    "message": "Could you provide an actual video of the apartment?",
-    "channel_id": "1304636",
+    "message": "We don't have a video for the Bluewaters 2BR at the moment, would you like to come see it in person instead?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541906656",
     "contact_name": "Bernd",
     "contact_identifier": "+971504141835",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
