@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-05T09:33:17.558Z",
+  "ts": "2026-07-05T09:37:02.893Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4297056265",
-    "ticket_id": "963671096",
-    "message": "I live in this building. Give me the unit number and visiting hours.",
-    "channel_id": "1304636",
-    "contact_id": "535760321",
-    "contact_name": "amy",
-    "contact_identifier": "+971501170660",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4297058135",
+    "ticket_id": "963837508",
+    "message": "May I know how many bedrooms you are looking for and starting from which date until when you are looking for?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "439656455",
+    "contact_name": "+971503323888",
+    "contact_identifier": "+971503323888",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
