@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-05T05:25:23.789Z",
+  "ts": "2026-07-05T05:27:17.453Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4296958218",
+    "type": "OUTBOUND",
+    "message_id": "4296958645",
     "ticket_id": "933725324",
-    "message": "Send your staff for inspection before",
-    "channel_id": "585723",
+    "message": "Well noted, thank you for your update. Kindly note that, as it's a long-term booking, the inspection will take time. You may proceed with self-check-out and leave the access cards with reception. Thank you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "533971685",
     "contact_name": "Francesco Topputo",
     "contact_identifier": "+971508345936",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
