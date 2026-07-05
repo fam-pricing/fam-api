@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-05T10:34:14.465Z",
+  "ts": "2026-07-05T10:34:36.036Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4297086017",
+    "type": "INBOUND",
+    "message_id": "4297086156",
     "ticket_id": "963671096",
-    "message": "Our team will be there to assist with the viewing at 3pm",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "ok",
+    "channel_id": "1304636",
     "contact_id": "535760321",
     "contact_name": "amy",
     "contact_identifier": "+971501170660",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4297086017",
+    "parent_ticket_id": "963671096",
+    "event_type": "INBOUND"
   }
 }
