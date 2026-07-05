@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-05T15:44:49.389Z",
+  "ts": "2026-07-05T15:45:07.756Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4297235716",
+    "type": "OUTBOUND",
+    "message_id": "4297235873",
     "ticket_id": "963890411",
-    "message": "I will be back in Dubai next week",
-    "channel_id": "1304636",
+    "message": "The studio's still available. What day next week works best for you to come take a look?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541918934",
     "contact_name": "Yasmine Brahimi",
     "contact_identifier": "+971504897169",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
