@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-05T10:59:47.397Z",
+  "ts": "2026-07-05T11:01:58.861Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4297098115",
-    "ticket_id": "963837508",
-    "message": "May I know the exactly check in and check out date to check for the availability",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "439656455",
-    "contact_name": "+971503323888",
-    "contact_identifier": "+971503323888",
+    "type": "INBOUND",
+    "message_id": "4297099391",
+    "ticket_id": "943915428",
+    "message": "Yes",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "536484706",
+    "contact_name": "Raja Sajid 🇦🇪",
+    "contact_identifier": "+971566960509",
+    "parent_message_id": "4297097680",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
