@@ -2278,5 +2278,17 @@
     "lead_quality": 15,
     "buying_stage": "COLD",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-07-05T07:51:39.759Z",
+    "ticket_id": 963653078,
+    "lead_id": "message_lead_30365840",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 17205,
+    "critic_pass": null,
+    "lead_quality": 55,
+    "buying_stage": "WARM",
+    "skip_reason": "Lead is frustrated, has called out the repetitive AI responses multiple times (\"I believe its ai\", \"U said the same\", \"How many time\"), and the conversation is clearly looping. Lead wants to view the 1BR in Upper Crest and has been asking repeatedly. Needs a human to step in, confirm a viewing time, and recover the lead."
   }
 ]
