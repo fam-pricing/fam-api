@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-05T07:42:51.642Z",
+  "ts": "2026-07-05T07:43:29.442Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4297002544",
+    "type": "INBOUND",
+    "message_id": "4297002820",
     "ticket_id": "963822334",
-    "message": "Sure, we can arrange a viewing for you.\r\n\r\nKindly share a copy of your Emirates ID or passport so we can arrange the viewing accordingly.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "541900083",
     "contact_name": "Arch iyad UAE",
     "contact_identifier": "+971568024485",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4297002544",
+    "parent_ticket_id": "963822334",
+    "event_type": "INBOUND"
   }
 }
