@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-05T13:47:47.827Z",
+  "ts": "2026-07-05T13:48:12.727Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4297179402",
+    "type": "OUTBOUND",
+    "message_id": "4297179627",
     "ticket_id": "963874298",
-    "message": "So the amount of rent is changing every 3 months ?",
-    "channel_id": "1304636",
+    "message": "The rate is fixed for your first 3 months and reviewed after that based on market conditions, most guests find it stays pretty stable. Want to know the current monthly rate?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541914366",
     "contact_name": "Sally",
     "contact_identifier": "+971509126808",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
