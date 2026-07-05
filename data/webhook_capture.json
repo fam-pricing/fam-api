@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-05T14:04:56.932Z",
+  "ts": "2026-07-05T14:25:15.584Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4297188283",
-    "ticket_id": "948798241",
-    "message": "We have received the payment for the extension",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537739362",
-    "contact_name": "Mr Eslam Nasser Abdelsamea & Mr Mahesh Murali Muralidharan Nair",
-    "contact_identifier": "+971555993229",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4297197879",
+    "ticket_id": "963880099",
+    "message": "Send me the payment link please",
+    "channel_id": "1304636",
+    "contact_id": "541745108",
+    "contact_name": "محمود أمين",
+    "contact_identifier": "+971559904943",
+    "event_type": "INBOUND"
   }
 }
