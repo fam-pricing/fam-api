@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-05T19:51:23.439Z",
+  "ts": "2026-07-05T19:51:49.639Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4297334556",
+    "type": "OUTBOUND",
+    "message_id": "4297334686",
     "ticket_id": "963924184",
-    "message": "Availble for 6 months?",
-    "channel_id": "1304636",
+    "message": "Yes, 6 months works. Rates are confirmed in 3-month blocks, so the price is locked in for the first 3 months then reviewed. What move-in date did you have in mind?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536887219",
     "contact_name": "Mahyar Kh",
     "contact_identifier": "+971561077070",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
