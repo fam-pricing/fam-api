@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-05T06:14:47.802Z",
+  "ts": "2026-07-05T06:19:05.025Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4296970146",
+    "type": "OUTBOUND",
+    "message_id": "4296971484",
     "ticket_id": "948205272",
-    "message": "Is it legal to change the prices without informing me?\n\nAnd why wasn’t I informed about the price increase when I renewed last month?",
-    "channel_id": "585723",
+    "message": "The rates are subject to change in line with the current market conditions. They will be updated accordingly based on the prevailing market rates.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537594186",
     "contact_name": "Rama Khaled Aaraj",
     "contact_identifier": "+971561563617",
-    "parent_message_id": "4296969525",
-    "parent_ticket_id": "948205272",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
