@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-05T10:40:07.943Z",
+  "ts": "2026-07-05T10:40:44.020Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4297088738",
+    "type": "INBOUND",
+    "message_id": "4297089119",
     "ticket_id": "963847089",
-    "message": "We don't have a video for the Bluewaters 2BR at the moment, would you like to come see it in person instead?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "We are currently on summer vacation. So, no, we can’t view it in person",
+    "channel_id": "1304636",
     "contact_id": "541906656",
     "contact_name": "Bernd",
     "contact_identifier": "+971504141835",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
