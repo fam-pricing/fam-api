@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-05T07:21:33.620Z",
+  "ts": "2026-07-05T07:21:58.316Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4296993576",
+    "type": "OUTBOUND",
+    "message_id": "4296993697",
     "ticket_id": "963822334",
-    "message": "للتأكيد لو سمحتم \nكم الإيجار الشهري و هل شامل ؟",
-    "channel_id": "1304636",
+    "message": "الإيجار 3,999 درهم شهرياً وشامل كل الفواتير.\n\nعندك تاريخ معين تبي تبدأ فيه؟",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541900083",
     "contact_name": "Arch iyad UAE",
     "contact_identifier": "+971568024485",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
