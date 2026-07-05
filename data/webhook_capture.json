@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-05T16:56:49.991Z",
+  "ts": "2026-07-05T16:57:10.464Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4297266478",
+    "type": "OUTBOUND",
+    "message_id": "4297266583",
     "ticket_id": "963900601",
-    "message": "Whereabouts are you based, and when are you looking to move in?",
-    "channel_id": "1304636",
+    "message": "We're based in Dubai. Does 9 July still work as your move-in date, and will it be just yourself on the lease or others too?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541921778",
     "contact_name": "N",
     "contact_identifier": "+79217625441",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
