@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-05T19:35:48.644Z",
+  "ts": "2026-07-05T19:44:04.597Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4297329036",
+    "type": "INBOUND",
+    "message_id": "4297331854",
     "ticket_id": "963921351",
-    "message": "No worries, once your flights are confirmed just let us know the exact date and we'll lock in the studio from there. Does September 5th look like the most likely arrival for now?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes, I think September 5th is the most likely arrival date for now. I’ll confirm the exact date as soon as my flight is booked.\n\nIn the meantime, I just had a few quick questions:\n\n* Does the studio have a washer and dryer?\n* Are utilities (WiFi, electricity, and water) included in the rent?\n* Would it be possible to have a video tour of the studio?\n* Which floor is the studio on?",
+    "channel_id": "1304636",
     "contact_id": "541927440",
     "contact_name": "Soso",
     "contact_identifier": "+212762911117",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
