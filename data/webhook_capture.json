@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-06T00:05:19.883Z",
+  "ts": "2026-07-06T02:15:27.203Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4297390775",
-    "ticket_id": "949540885",
-    "message": "Is the deposit refunded?",
-    "channel_id": "585723",
-    "contact_id": "537786720",
-    "contact_name": "Majd Azzam",
-    "contact_identifier": "+96176846114",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4297410024",
+    "ticket_id": "963955574",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Bluewaters Building 4\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "541934838",
+    "contact_name": "Abo Dana",
+    "contact_identifier": "+971564473507",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
