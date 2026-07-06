@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-06T02:15:27.203Z",
+  "ts": "2026-07-06T03:12:53.900Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4297410024",
+    "type": "INBOUND",
+    "message_id": "4297418471",
     "ticket_id": "963955574",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Bluewaters Building 4\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Call me",
+    "channel_id": "1304636",
     "contact_id": "541934838",
     "contact_name": "Abo Dana",
     "contact_identifier": "+971564473507",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
