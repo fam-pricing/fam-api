@@ -2458,5 +2458,17 @@
     "lead_quality": 100,
     "buying_stage": "HOT",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-07-06T06:46:04.702Z",
+    "ticket_id": 963977902,
+    "lead_id": "message_lead_30407676",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 10349,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "frustration_detected"
   }
 ]
