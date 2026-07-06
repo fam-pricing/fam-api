@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-06T14:19:04.955Z",
+  "ts": "2026-07-06T14:19:48.582Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4298088817",
+    "type": "OUTBOUND",
+    "message_id": "4298089787",
     "ticket_id": "963280726",
-    "message": "4000 total?",
-    "channel_id": "1304636",
+    "message": "Rent AED 4000\r\n\r\nSecurity Deposit AED 1500",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "541739832",
     "contact_name": "MKA",
     "contact_identifier": "+971506209001",
-    "parent_message_id": "4298087736",
-    "parent_ticket_id": "963280726",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
