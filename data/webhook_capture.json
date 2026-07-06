@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-06T06:28:51.661Z",
+  "ts": "2026-07-06T06:29:12.599Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4297478556",
+    "type": "INBOUND",
+    "message_id": "4297478835",
     "ticket_id": "963924184",
-    "message": "Good morning! The price stays at AED 8,000/month for the full 6 months, no review at the 3-month mark for your stay. Want to come see it tomorrow before you commit?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Tell me price for 6months",
+    "channel_id": "1304636",
     "contact_id": "536887219",
     "contact_name": "Mahyar Kh",
     "contact_identifier": "+971561077070",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
