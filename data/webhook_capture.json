@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-06T22:58:07.706Z",
+  "ts": "2026-07-06T22:58:36.794Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4298439939",
+    "type": "OUTBOUND",
+    "message_id": "4298440143",
     "ticket_id": "964235449",
-    "message": "Hello! Thank you for your response. \nCould you please tell the full price including all the fees and charges for a month?",
-    "channel_id": "1304636",
+    "message": "The studio is AED 3,999/month all-inclusive, water, electricity, internet, and VAT. The only extra is a refundable AED 1,000 security deposit at check-in, returned within 14 working days after check-out.\n\nDo you have a move-in date in mind?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542020065",
     "contact_name": "Hichem Azzem",
     "contact_identifier": "+971581425010",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
