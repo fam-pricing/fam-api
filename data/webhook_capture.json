@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-06T09:29:32.296Z",
+  "ts": "2026-07-06T09:29:36.031Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4297693361",
-    "ticket_id": "963978283",
-    "message": "This deposit is refundable or is it deducted from the rent?",
-    "channel_id": "1304636",
-    "contact_id": "541615145",
-    "contact_name": "Helena Eliza",
-    "contact_identifier": "+971529081767",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4297693443",
+    "ticket_id": "934199428",
+    "message": "Still the guest didn't respond for the message",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "534076190",
+    "contact_name": "Thanvir Aafaq",
+    "contact_identifier": "+971521229233",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
