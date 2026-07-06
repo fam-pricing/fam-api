@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-06T13:50:55.903Z",
+  "ts": "2026-07-06T13:50:59.524Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4298049055",
+    "type": "OUTBOUND",
+    "message_id": "4298049112",
     "ticket_id": "964019347",
-    "message": "Hello, I am currently at work. Would it be possible to visit the apartment?\n\nThank you in advance.",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "541949247",
     "contact_name": "Raphael Laurent Weiller",
     "contact_identifier": "+33635586806",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
