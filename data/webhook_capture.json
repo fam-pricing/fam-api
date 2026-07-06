@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-06T03:12:53.900Z",
+  "ts": "2026-07-06T03:13:16.028Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4297418471",
+    "type": "OUTBOUND",
+    "message_id": "4297418539",
     "ticket_id": "963955574",
-    "message": "Call me",
-    "channel_id": "1304636",
+    "message": "Of course, let me get someone from the team for you right away.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541934838",
     "contact_name": "Abo Dana",
     "contact_identifier": "+971564473507",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
