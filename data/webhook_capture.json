@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-06T12:31:33.546Z",
+  "ts": "2026-07-06T12:32:08.610Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4297942349",
-    "ticket_id": "964019347",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "541949247",
-    "contact_name": "Raphael Laurent Weiller",
-    "contact_identifier": "+33635586806",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4297943183",
+    "ticket_id": "963900601",
+    "message": "This we want to check",
+    "channel_id": "1304636",
+    "contact_id": "541921778",
+    "contact_name": "N",
+    "contact_identifier": "+79217625441",
+    "parent_message_id": "4297941740",
+    "parent_ticket_id": "963900601",
+    "event_type": "INBOUND"
   }
 }
