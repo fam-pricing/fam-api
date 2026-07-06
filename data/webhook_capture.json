@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-06T12:23:54.291Z",
+  "ts": "2026-07-06T12:24:15.600Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4297932165",
+    "type": "OUTBOUND",
+    "message_id": "4297932642",
     "ticket_id": "963280726",
-    "message": "I’ve already confirmed for 6 pm last week",
-    "channel_id": "1304636",
+    "message": "It looks like there's been a mix-up on our end, you're all set for 6pm on July 6th. Sorry for the confusion!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541739832",
     "contact_name": "MKA",
     "contact_identifier": "+971506209001",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
