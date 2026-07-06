@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-06T12:59:35.051Z",
+  "ts": "2026-07-06T13:03:00.220Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4297979273",
-    "ticket_id": "963900601",
-    "message": "What floor and apartment number is it?",
+    "type": "OUTBOUND",
+    "message_id": "4297983794",
+    "ticket_id": "963836851",
+    "message": "Can I have an update on the payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541045616",
+    "contact_name": "Salam Sade Issa",
+    "contact_identifier": "+971544850491",
     "channel_id": "1304636",
-    "contact_id": "541921778",
-    "contact_name": "N",
-    "contact_identifier": "+79217625441",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
