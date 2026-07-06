@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-06T15:03:55.941Z",
+  "ts": "2026-07-06T15:10:16.050Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4298149809",
+    "type": "OUTBOUND",
+    "message_id": "4298156891",
     "ticket_id": "963900601",
-    "message": "We're just waiting for our paycheck, but we really liked your apartment.",
-    "channel_id": "1304636",
+    "message": "Unfortunately you need to complete both rent and the deposit payment on or before the checking date",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "541921778",
     "contact_name": "N",
     "contact_identifier": "+79217625441",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
