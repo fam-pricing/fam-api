@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-06T20:04:32.081Z",
+  "ts": "2026-07-06T20:04:54.792Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4298378128",
+    "type": "OUTBOUND",
+    "message_id": "4298378355",
     "ticket_id": "964214622",
-    "message": "Okay. And what is the price for 3 months?",
-    "channel_id": "1304636",
+    "message": "For 3 months from 19 July, it's AED 13,500 all-inclusive. Does that work for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542014834",
     "contact_name": "Alasdair Mann",
     "contact_identifier": "+971585375676",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
