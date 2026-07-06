@@ -1415,3 +1415,7 @@ Once we have these, we'll send you a payment link to secure your reservation."
 
 Once we have these, we'll send you a payment link to secure the reservation."
   (Learned from Faysal handling Iii re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-16-binghatti-azure-15173444.html)
+
+## Learned (2026-07-06)
+- If a lead says they are waiting for their paycheck but are interested in the apartment, inform them that full payment of both the rent and the security deposit must be completed on or before the check-in date, and that the booking cannot be held until payment is received.
+  (Learned from Faysal handling N re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
