@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-07T05:35:42.044Z",
+  "ts": "2026-07-07T05:36:04.915Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4298520322",
+    "type": "OUTBOUND",
+    "message_id": "4298520460",
     "ticket_id": "952537981",
-    "message": "Can they come tomorrow ?",
-    "channel_id": "585723",
+    "message": "Good morning Mrs Patel",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "517825599",
     "contact_name": "Arifa Patel",
     "contact_identifier": "+971567647755",
-    "parent_message_id": "4297831609",
-    "parent_ticket_id": "952537981",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
