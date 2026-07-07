@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-07T10:39:21.949Z",
+  "ts": "2026-07-07T10:39:23.848Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4298891506",
-    "ticket_id": "964360578",
-    "message": "One minute",
+    "type": "OUTBOUND",
+    "message_id": "4298891541",
+    "ticket_id": "964265844",
+    "message": "Yes it's the same apartment",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "246384648",
+    "contact_name": "Mohammed Alsaab",
+    "contact_identifier": "+966555633638",
     "channel_id": "585723",
-    "contact_id": "536501473",
-    "contact_name": "Joubert Rocha Chaves",
-    "contact_identifier": "+971586730550",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
