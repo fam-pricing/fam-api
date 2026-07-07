@@ -1,17 +1,19 @@
 {
-  "ts": "2026-07-07T13:13:10.285Z",
+  "ts": "2026-07-07T13:13:55.230Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4299081437",
+    "type": "INBOUND",
+    "message_id": "4299082358",
     "ticket_id": "964265844",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
+    "message": "It’s almost 1 hour not finished yet",
+    "channel_id": "585723",
     "contact_id": "246384648",
     "contact_name": "Mohammed Alsaab",
     "contact_identifier": "+966555633638",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4299006168",
+    "parent_ticket_id": "964265844",
+    "event_type": "INBOUND"
   }
 }
