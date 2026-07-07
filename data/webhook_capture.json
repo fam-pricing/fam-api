@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-07T06:17:52.684Z",
+  "ts": "2026-07-07T06:18:22.160Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4298540200",
-    "ticket_id": "964229876",
-    "message": "May i have your booking confirmation number please",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542018989",
-    "contact_name": "Ibrahim",
-    "contact_identifier": "+966581216149",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4298540517",
+    "ticket_id": "963978283",
+    "message": "Could you explain the reason for the increase as well?",
+    "channel_id": "1304636",
+    "contact_id": "541615145",
+    "contact_name": "Helena Eliza",
+    "contact_identifier": "+971529081767",
+    "event_type": "INBOUND"
   }
 }
