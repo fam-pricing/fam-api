@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-07T06:57:17.360Z",
+  "ts": "2026-07-07T06:57:18.811Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4298569201",
-    "ticket_id": "964265844",
-    "message": "My check in time will be 3 clock",
-    "channel_id": "585723",
-    "contact_id": "246384648",
-    "contact_name": "Mohammed Alsaab",
-    "contact_identifier": "+966555633638",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4298569202",
+    "ticket_id": "963977902",
+    "message": "For booking, we need:\r\n\r\n1. a copy of your ID or passport\r\n\r\n2. Email:\r\n\r\nWe will send a payment link to confirm your bookings accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "541938510",
+    "contact_name": "George Phillips",
+    "contact_identifier": "+447775615281",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
