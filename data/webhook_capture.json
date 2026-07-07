@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-07T13:16:20.320Z",
+  "ts": "2026-07-07T13:16:48.229Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4299085520",
+    "type": "OUTBOUND",
+    "message_id": "4299086321",
     "ticket_id": "964415672",
-    "message": "I'm interested in 6 months, starting on July 30th. Do you have it available?",
-    "channel_id": "1304636",
+    "message": "Yes, it's available from July 30th. For a 6-month stay, we can hold the rate for the first 3 months, the rate for months 4, 6 would be confirmed closer to the time based on market conditions. Does that work for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541939190",
     "contact_name": "Julia Souza",
     "contact_identifier": "+558199810675",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
