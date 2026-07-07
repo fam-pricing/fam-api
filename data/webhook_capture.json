@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-07T10:06:10.071Z",
+  "ts": "2026-07-07T10:08:07.654Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4298845307",
-    "ticket_id": "963836851",
-    "message": "Thank you for the payment update Ms Salam",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "541045616",
-    "contact_name": "Salam Sade Issa",
-    "contact_identifier": "+971544850491",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4298847865",
+    "ticket_id": "955436676",
+    "message": "Ok fine",
+    "channel_id": "585723",
+    "contact_id": "539565275",
+    "contact_name": "GESCARD ISSA",
+    "contact_identifier": "+23795870067",
+    "parent_message_id": "4298818740",
+    "parent_ticket_id": "955436676",
+    "event_type": "INBOUND"
   }
 }
