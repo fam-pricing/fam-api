@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-07T11:21:39.366Z",
+  "ts": "2026-07-07T11:21:40.494Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4298942803",
-    "ticket_id": "964265844",
-    "message": "Image",
+    "type": "OUTBOUND",
+    "message_id": "4298942822",
+    "ticket_id": "955436676",
+    "message": "Your booking has been done in Madinat Living apartment",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539565275",
+    "contact_name": "GESCARD ISSA",
+    "contact_identifier": "+23795870067",
     "channel_id": "585723",
-    "contact_id": "246384648",
-    "contact_name": "Mohammed Alsaab",
-    "contact_identifier": "+966555633638",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
