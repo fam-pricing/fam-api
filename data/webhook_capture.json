@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-07T18:55:20.624Z",
+  "ts": "2026-07-07T18:55:43.174Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4299407325",
+    "type": "OUTBOUND",
+    "message_id": "4299407529",
     "ticket_id": "964498960",
-    "message": "move in can be in two weeks i can pay a deposit",
-    "channel_id": "1304636",
+    "message": "Two weeks works, Abu, let's get you sorted. Can you share a copy of your passport or ID and your email so we can send the payment link across?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542095143",
     "contact_name": "Abu",
     "contact_identifier": "+94774774262",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
