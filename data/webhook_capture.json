@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-07T18:50:28.745Z",
+  "ts": "2026-07-07T18:53:09.097Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4299404498",
-    "ticket_id": "964498960",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-creek-rise-creek-rise-tower-2-2PUI4o7uGDg.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "542095143",
-    "contact_name": "Abu",
-    "contact_identifier": "+94774774262",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4299405992",
+    "ticket_id": "962237717",
+    "message": "Hello",
+    "channel_id": "585723",
+    "contact_id": "541423058",
+    "contact_name": "Salem Mansoor Faraj Salem Alkatheeri",
+    "contact_identifier": "+971557333734",
+    "event_type": "INBOUND"
   }
 }
