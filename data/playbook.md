@@ -1419,3 +1419,7 @@ Once we have these, we'll send you a payment link to secure the reservation."
 ## Learned (2026-07-06)
 - If a lead says they are waiting for their paycheck but are interested in the apartment, inform them that full payment of both the rent and the security deposit must be completed on or before the check-in date, and that the booking cannot be held until payment is received.
   (Learned from Faysal handling N re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-07-07)
+- When a lead expresses concern that the company is too large or corporate to offer them a good deal, reassure them while setting clear expectations around pricing. Let them know that the current rate has been held for up to two months as a courtesy, and that any further extension will be subject to updated rates and availability. Close the response politely and thank them for their understanding.
+  (Learned from Faysal handling Mahyar Kh re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
