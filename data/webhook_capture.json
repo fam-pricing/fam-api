@@ -1,17 +1,19 @@
 {
-  "ts": "2026-07-07T11:00:17.298Z",
+  "ts": "2026-07-07T11:00:41.125Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4298916528",
-    "ticket_id": "963745934",
-    "message": "Thank you for choosing fäm Living, How likely are you to recommend fäm Living to family and friends? https://csat.trengo.com/?uuid=a233878e-0fb9-402e-b82a-c09c633b7aa8\n",
-    "contact_id": "532782737",
-    "contact_name": "Hadrien Gilles E Annoye",
-    "contact_identifier": "+971585962468",
+    "type": "INBOUND",
+    "message_id": "4298917055",
+    "ticket_id": "964265844",
+    "message": "🙏",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "246384648",
+    "contact_name": "Mohammed Alsaab",
+    "contact_identifier": "+966555633638",
+    "parent_message_id": "4298896790",
+    "parent_ticket_id": "964265844",
+    "event_type": "INBOUND"
   }
 }
