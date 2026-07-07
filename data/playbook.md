@@ -1423,3 +1423,12 @@ Once we have these, we'll send you a payment link to secure the reservation."
 ## Learned (2026-07-07)
 - When a lead expresses concern that the company is too large or corporate to offer them a good deal, reassure them while setting clear expectations around pricing. Let them know that the current rate has been held for up to two months as a courtesy, and that any further extension will be subject to updated rates and availability. Close the response politely and thank them for their understanding.
   (Learned from Faysal handling Mahyar Kh re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
+
+## Learned (2026-07-07)
+- When a lead responds positively with a closing statement such as "That's brilliant, thanks for your help," move them toward booking by requesting the following:
+
+1. A copy of their ID or passport
+2. Their email address
+
+Let them know that once these are received, a payment link will be sent to confirm their booking.
+  (Learned from Faysal handling George Phillips re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
