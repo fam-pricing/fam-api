@@ -3850,5 +3850,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-07-07T19:47:06.267Z",
+    "ticket_id": 964507177,
+    "lead_id": "message_lead_30448552",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 23739,
+    "critic_pass": null,
+    "lead_quality": 60,
+    "buying_stage": "WARM",
+    "skip_reason": "Lead Abu is asking multiple questions about the 3BR in Imperial Avenue: cleaning included, all bills, final monthly price, August 9 start date, 6-month rate lock exception request, and 1-year contract. Agent (Faysal) has already addressed the 3-month lock and contract length multiple times but the lead keeps asking the same questions. The lead has also never been given a price for this unit. They need a human to confirm the monthly rate for the 3BR Imperial Avenue and handle the budget concern around rate changes at renewal. Lead is clearly in a decision-making phase and needs a human to close this."
   }
 ]
