@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-07T19:44:07.386Z",
+  "ts": "2026-07-07T19:44:41.804Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4299437236",
+    "type": "OUTBOUND",
+    "message_id": "4299437500",
     "ticket_id": "964507177",
-    "message": "Other companies give 6 months, can I also start my contract In August 9th? Also is it all bills included? What is the final price for this unit per month",
-    "channel_id": "1304636",
+    "message": "August 9th works as a start date. On the contract, we're capped at 3-month rate locks, so we can't match a 6-month guarantee, and rates do shift at renewal based on market conditions at that point. Is the 3-month certainty enough to work with, or do you need more time to think it over?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542097524",
     "contact_name": "Abu",
     "contact_identifier": "+971551180792",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
