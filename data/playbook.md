@@ -1432,3 +1432,7 @@ Once we have these, we'll send you a payment link to secure the reservation."
 
 Let them know that once these are received, a payment link will be sent to confirm their booking.
   (Learned from Faysal handling George Phillips re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-07-07)
+- When a lead says "Ok please share" or any similar confirmation to receive pricing or availability, respond by clarifying that each month is structured as a 30-night booking only.
+  (Learned from Faysal handling A re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
