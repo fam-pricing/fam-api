@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-07T10:37:42.169Z",
+  "ts": "2026-07-07T10:38:02.930Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4298889584",
-    "ticket_id": "964360578",
-    "message": "Owner has requested a quick viewing of the apartment tomorrow 8th july between 4:30 to 4:45pm.\r\n\r\nis it okay for you ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "536501473",
-    "contact_name": "Joubert Rocha Chaves",
-    "contact_identifier": "+971586730550",
+    "type": "INBOUND",
+    "message_id": "4298889973",
+    "ticket_id": "964265844",
+    "message": "What about this?\nIt’s same apartment I’ve booked ?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "246384648",
+    "contact_name": "Mohammed Alsaab",
+    "contact_identifier": "+966555633638",
+    "event_type": "INBOUND"
   }
 }
