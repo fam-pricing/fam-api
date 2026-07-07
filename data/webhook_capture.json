@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-07T07:04:03.648Z",
+  "ts": "2026-07-07T07:04:18.228Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4298575870",
+    "type": "OUTBOUND",
+    "message_id": "4298576117",
     "ticket_id": "964265844",
-    "message": "Great \nThank you",
-    "channel_id": "585723",
+    "message": "We attempted to collect the payment through Booking.com, but unfortunately, it didn’t go through.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "246384648",
     "contact_name": "Mohammed Alsaab",
     "contact_identifier": "+966555633638",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
