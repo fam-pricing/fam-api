@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-08T06:57:58.764Z",
+  "ts": "2026-07-08T06:58:09.945Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4299631722",
-    "ticket_id": "962970428",
-    "message": "?",
-    "channel_id": "1304636",
-    "contact_id": "537510754",
-    "contact_name": "Anastasiia Kazachuk",
-    "contact_identifier": "+79153412426",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4299631860",
+    "ticket_id": "961650638",
+    "message": "Your security deposit has been refunded, and we have attached the receipt for your reference.\r\n\r\nYou should receive the refunded amount within 2 to 3 working days.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "541190312",
+    "contact_name": "Siza Jambaz",
+    "contact_identifier": "+447447493158",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
