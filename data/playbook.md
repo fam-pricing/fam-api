@@ -1440,3 +1440,14 @@ Let them know that once these are received, a payment link will be sent to confi
 ## Learned (2026-07-08)
 - When a lead asks about long-term or annual stays, clarify that we do not offer annual contracts or Ejari. Let them know they are welcome to stay as long as they like by extending their booking in 3-month increments.
   (Learned from Faysal handling Abu re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-creek-rise-creek-rise-tower-2-2PUI4o7uGDg.html)
+
+## Learned (2026-07-08)
+- When a lead responds with "Fair enough," reply with the following:
+
+To confirm your booking, we'll need:
+
+1. A copy of your ID or passport
+2. Your email address
+
+Once we have these, we'll send you a payment link to secure the reservation.
+  (Learned from Faysal handling Brian re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-imperial-avenue-15819509.html)
