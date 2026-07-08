@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-08T19:39:20.631Z",
+  "ts": "2026-07-08T19:39:50.911Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4300435464",
-    "ticket_id": "964780178",
-    "message": "Viewings are only available between 9am and 6pm, is there a time that works for you tomorrow within those hours?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "542176917",
-    "contact_name": "Randa",
-    "contact_identifier": "+971569947289",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4300435673",
+    "ticket_id": "960268011",
+    "message": "No need to come \nI am open it",
+    "channel_id": "585723",
+    "contact_id": "540356642",
+    "contact_name": "الايجابي الملهم",
+    "contact_identifier": "+971504168652",
+    "parent_message_id": "4299994458",
+    "parent_ticket_id": "960268011",
+    "event_type": "INBOUND"
   }
 }
