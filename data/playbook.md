@@ -1455,3 +1455,9 @@ Once we have these, we'll send you a payment link to secure the reservation.
 ## Learned (2026-07-08)
 - If a lead asks about renting a unit for a year (e.g., "Can I rent this studio for a year starting in September?"), clarify that annual contracts and Ejari are not offered. Let them know they are welcome to stay long-term by booking in consecutive 3-month blocks, which can be extended as needed.
   (Learned from Faysal handling Soso re Studio in Azizi Riviera 16)
+
+## Learned (2026-07-08)
+- If a lead expresses discomfort with the absence of an Ejari contract and asks about alternative options, respond as follows:
+
+We can assist you with an initial 3-month booking. After that period, if you wish to extend your stay, we can arrange a monthly extension subject to availability.
+  (Learned from Faysal handling Soso re Studio in Azizi Riviera 16)
