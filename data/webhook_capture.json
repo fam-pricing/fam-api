@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-08T19:30:43.271Z",
+  "ts": "2026-07-08T19:31:03.296Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300430685",
+    "type": "OUTBOUND",
+    "message_id": "4300430844",
     "ticket_id": "964780178",
-    "message": "Can you provide me with details",
-    "channel_id": "1304636",
+    "message": "The studio is AED 3,999/month all-inclusive, water, electricity, internet, and VAT. The damage deposit is AED 1,000, fully refundable within 14 working days after check-out. Would you like to arrange a viewing, Randa?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542176917",
     "contact_name": "Randa",
     "contact_identifier": "+971569947289",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
