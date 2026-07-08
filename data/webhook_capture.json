@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-08T10:19:41.414Z",
+  "ts": "2026-07-08T10:20:30.905Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4299884794",
+    "type": "OUTBOUND",
+    "message_id": "4299886914",
     "ticket_id": "964441816",
-    "message": "Call",
-    "channel_id": "585723",
+    "message": "We will proceed with cancelling your booking without any charges.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "437039638",
     "contact_name": "Sultana Alkaabi",
     "contact_identifier": "+971509919680",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
