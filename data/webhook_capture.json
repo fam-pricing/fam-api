@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-08T21:21:10.852Z",
+  "ts": "2026-07-08T21:21:37.854Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300479181",
+    "type": "OUTBOUND",
+    "message_id": "4300479350",
     "ticket_id": "964792783",
-    "message": "Hi ! May i know the price details for date 1 august - 30 august\nAnd 1 september 30 september",
-    "channel_id": "1304636",
+    "message": "Both August and September are AED 30,000/month. Would you like to see photos of the property?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542180375",
     "contact_name": "Yolan",
     "contact_identifier": "+33695243050",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
