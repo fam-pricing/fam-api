@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-08T13:56:10.641Z",
+  "ts": "2026-07-08T13:56:12.006Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300146682",
-    "ticket_id": "964668711",
-    "message": "Can I come to office and pay cash",
+    "type": "OUTBOUND",
+    "message_id": "4300146720",
+    "ticket_id": "964705582",
+    "message": "All our apartments come fully furnished, so unfurnished isn't an option. Does the furnished setup work for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "542149130",
+    "contact_name": "Khaled Agha",
+    "contact_identifier": "+971564173549",
     "channel_id": "1304636",
-    "contact_id": "542138263",
-    "contact_name": "Brian",
-    "contact_identifier": "+971588425620",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
