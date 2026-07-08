@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-08T13:56:26.930Z",
+  "ts": "2026-07-08T13:56:37.374Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300147000",
+    "type": "OUTBOUND",
+    "message_id": "4300147223",
     "ticket_id": "964705582",
-    "message": "I have my furniture",
-    "channel_id": "1304636",
+    "message": "All apartments are fully furnished, so unfurnished isn't an option on this one. For 2-3 years, that's completely fine, you'd just renew in 3-month blocks and can keep going as long as you like. Does the furnished setup work for you, Khaled?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542149130",
     "contact_name": "Khaled Agha",
     "contact_identifier": "+971564173549",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
