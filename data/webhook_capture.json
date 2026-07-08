@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-08T19:40:37.984Z",
+  "ts": "2026-07-08T19:40:52.717Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4300436036",
+    "type": "INBOUND",
+    "message_id": "4300436176",
     "ticket_id": "964780178",
-    "message": "Saturday at 12pm is confirmed, our team will be in touch shortly to sort the details. If you have a car, could you send the Emirates of issue, code, plate number, make/model, and colour? And to arrange building access, a photo of your passport or Emirates ID would be great.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "❤️",
+    "channel_id": "1304636",
     "contact_id": "542176917",
     "contact_name": "Randa",
     "contact_identifier": "+971569947289",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4300436036",
+    "parent_ticket_id": "964780178",
+    "event_type": "INBOUND"
   }
 }
