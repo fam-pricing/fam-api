@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-08T13:04:37.784Z",
+  "ts": "2026-07-08T13:04:40.772Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4300083884",
-    "ticket_id": "964629109",
-    "message": "Rate will be AED 4,000 for 30 nights, along with a refundable security deposit of AED 1,500.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542126090",
-    "contact_name": "Lili",
-    "contact_identifier": "+971544207512",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4300083934",
+    "ticket_id": "959587621",
+    "message": "Morning would be good, or after 5:30",
+    "channel_id": "585723",
+    "contact_id": "540691470",
+    "contact_name": "ramiza",
+    "contact_identifier": "+971566548614",
+    "parent_message_id": "4300082610",
+    "parent_ticket_id": "959587621",
+    "event_type": "INBOUND"
   }
 }
