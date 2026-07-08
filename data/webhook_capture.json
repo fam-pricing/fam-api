@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-08T09:58:06.264Z",
+  "ts": "2026-07-08T09:58:22.092Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4299850748",
+    "type": "OUTBOUND",
+    "message_id": "4299851090",
     "ticket_id": "964441816",
-    "message": "We are here",
-    "channel_id": "585723",
+    "message": "Can you please share a picture where ar you now",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "437039638",
     "contact_name": "Sultana Alkaabi",
     "contact_identifier": "+971509919680",
-    "parent_message_id": "4299850165",
-    "parent_ticket_id": "964441816",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
