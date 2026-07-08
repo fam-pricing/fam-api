@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-08T19:32:41.138Z",
+  "ts": "2026-07-08T19:34:47.394Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4300431760",
+    "type": "INBOUND",
+    "message_id": "4300432839",
     "ticket_id": "964780178",
-    "message": "Here's the listing with all the photos: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-mirdif-azizi-riviera-16.html\n\nWould you like to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yess",
+    "channel_id": "1304636",
     "contact_id": "542176917",
     "contact_name": "Randa",
     "contact_identifier": "+971569947289",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
