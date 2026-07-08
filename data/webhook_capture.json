@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-08T10:30:02.223Z",
+  "ts": "2026-07-08T10:30:20.884Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4299899519",
+    "type": "OUTBOUND",
+    "message_id": "4299899904",
     "ticket_id": "964441816",
-    "message": "No body will come ?!",
-    "channel_id": "585723",
+    "message": "once payment received , within 1hour we will send you the receipt via online",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "437039638",
     "contact_name": "Sultana Alkaabi",
     "contact_identifier": "+971509919680",
-    "parent_message_id": "4299897248",
-    "parent_ticket_id": "964441816",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
