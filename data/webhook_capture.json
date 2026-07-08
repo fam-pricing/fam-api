@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-08T10:45:18.642Z",
+  "ts": "2026-07-08T10:45:29.066Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4299916101",
-    "ticket_id": "964441816",
-    "message": "How 5000 ?!?",
-    "channel_id": "585723",
-    "contact_id": "437039638",
-    "contact_name": "Sultana Alkaabi",
-    "contact_identifier": "+971509919680",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4299916293",
+    "ticket_id": "964649373",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-imperial-avenue-15819509.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "535238540",
+    "contact_name": "Jodie",
+    "contact_identifier": "+971528861449",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
