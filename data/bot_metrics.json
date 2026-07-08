@@ -1,77 +1,5 @@
 [
   {
-    "ts": "2026-07-01T15:00:37.601Z",
-    "ticket_id": 963007362,
-    "lead_id": "message_lead_30309990",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 12257,
-    "critic_pass": null,
-    "lead_quality": 30,
-    "buying_stage": "COOL",
-    "skip_reason": "frustration_detected"
-  },
-  {
-    "ts": "2026-07-01T15:05:01.723Z",
-    "ticket_id": 963007362,
-    "lead_id": "message_lead_30309990",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 938,
-    "critic_pass": null,
-    "lead_quality": 30,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-01T15:07:10.189Z",
-    "ticket_id": 962948359,
-    "lead_id": "message_lead_30305387",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1250,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-01T15:14:42.675Z",
-    "ticket_id": 962948359,
-    "lead_id": "message_lead_30305387",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 19192,
-    "critic_pass": null,
-    "lead_quality": 10,
-    "buying_stage": "COLD",
-    "skip_reason": "Existing guest at the Al Safa 1 property wants to continue on a monthly basis from 5th July. Needs confirmation of the monthly rate and renewal process. Cannot identify the specific unit details or current rate from the portfolio (Al Safa 1 is listed as 1BR in Safa at AED 5,000/mo but need Faysal to confirm details for existing guest)."
-  },
-  {
-    "ts": "2026-07-01T15:15:23.516Z",
-    "ticket_id": 962948359,
-    "lead_id": "message_lead_30305387",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 914,
-    "critic_pass": null,
-    "lead_quality": 10,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-01T15:25:54.307Z",
-    "ticket_id": 963007362,
-    "lead_id": "message_lead_30309990",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 926,
-    "critic_pass": null,
-    "lead_quality": 30,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-07-01T18:02:26.205Z",
     "ticket_id": 963062330,
     "lead_id": "message_lead_30314405",
@@ -4114,5 +4042,17 @@
     "lead_quality": 40,
     "buying_stage": "WARM",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-07-08T15:26:57.365Z",
+    "ticket_id": 964668711,
+    "lead_id": "message_lead_30461253",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 867,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "acknowledgment_skip"
   }
 ]
