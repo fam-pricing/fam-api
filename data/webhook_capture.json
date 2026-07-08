@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-08T06:03:22.143Z",
+  "ts": "2026-07-08T06:04:18.164Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4299594249",
+    "type": "OUTBOUND",
+    "message_id": "4299594715",
     "ticket_id": "964023794",
-    "message": "12 nights for 1980…",
-    "channel_id": "1304636",
+    "message": "As this is considered a daily booking, the rates are calculated accordingly.\r\n\r\nHowever, please allow us some time to check if we can offer a 5-night booking under the monthly rate basis.\r\n\r\nWe will update you once we have confirmation.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537657215",
     "contact_name": "Emilia",
     "contact_identifier": "+971557689270",
-    "parent_message_id": "4298664441",
-    "parent_ticket_id": "964023794",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
