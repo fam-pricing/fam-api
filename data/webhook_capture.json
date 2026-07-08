@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-08T13:18:35.941Z",
+  "ts": "2026-07-08T13:19:34.353Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4300100808",
-    "ticket_id": "964629109",
-    "message": "No, the apartment is not located near a metro station. You would need to take approximately a 10 to 15-minute taxi ride to reach the nearest metro station.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542126090",
-    "contact_name": "Lili",
-    "contact_identifier": "+971544207512",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4300101930",
+    "ticket_id": "943915428",
+    "message": "👍",
+    "channel_id": "585723",
+    "contact_id": "536484706",
+    "contact_name": "Raja Sajid 🇦🇪",
+    "contact_identifier": "+971566960509",
+    "parent_message_id": "4300098728",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
