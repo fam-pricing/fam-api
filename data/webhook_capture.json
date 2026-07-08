@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-08T12:40:04.382Z",
+  "ts": "2026-07-08T12:40:48.204Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300054005",
-    "ticket_id": "964668711",
-    "message": "We would like to move in this apartment",
+    "type": "OUTBOUND",
+    "message_id": "4300054941",
+    "ticket_id": "964671573",
+    "message": "Please note that the rates shared above are the fixed rates for each month",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535926291",
+    "contact_name": "Rimsha Akram",
+    "contact_identifier": "+971526064450",
     "channel_id": "1304636",
-    "contact_id": "542138263",
-    "contact_name": "Brian",
-    "contact_identifier": "+971588425620",
-    "parent_message_id": "4300053059",
-    "parent_ticket_id": "964668711",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
