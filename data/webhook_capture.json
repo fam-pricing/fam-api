@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-08T10:04:10.160Z",
+  "ts": "2026-07-08T10:04:18.857Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4299858600",
+    "type": "OUTBOUND",
+    "message_id": "4299858804",
     "ticket_id": "964441816",
-    "message": "Image",
-    "channel_id": "585723",
+    "message": "There is a intercom use that to call reception they will open the door",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "437039638",
     "contact_name": "Sultana Alkaabi",
     "contact_identifier": "+971509919680",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
