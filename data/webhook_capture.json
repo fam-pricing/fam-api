@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-08T06:01:23.043Z",
+  "ts": "2026-07-08T06:02:35.567Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4299593145",
+    "type": "OUTBOUND",
+    "message_id": "4299593874",
     "ticket_id": "964471305",
-    "message": "On my number",
-    "channel_id": "1304636",
+    "message": "sure, one of our team member will give you a call",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542083361",
     "contact_name": "Jaspreet Malhotra",
     "contact_identifier": "+971502120803",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
