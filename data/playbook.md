@@ -1451,3 +1451,7 @@ To confirm your booking, we'll need:
 
 Once we have these, we'll send you a payment link to secure the reservation.
   (Learned from Faysal handling Brian re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-imperial-avenue-15819509.html)
+
+## Learned (2026-07-08)
+- If a lead asks about renting a unit for a year (e.g., "Can I rent this studio for a year starting in September?"), clarify that annual contracts and Ejari are not offered. Let them know they are welcome to stay long-term by booking in consecutive 3-month blocks, which can be extended as needed.
+  (Learned from Faysal handling Soso re Studio in Azizi Riviera 16)
