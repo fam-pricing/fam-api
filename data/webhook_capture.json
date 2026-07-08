@@ -1,18 +1,19 @@
 {
-  "ts": "2026-07-08T18:49:19.865Z",
+  "ts": "2026-07-08T18:50:16.643Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4300405763",
-    "ticket_id": "964772802",
-    "message": "Thanks! You will get a reply by email if you leave this website.",
-    "contact_id": "542175027",
-    "contact_name": "Sylvie Lavagno",
-    "contact_email": "slavagno@hotmail.fr",
-    "contact_identifier": "c4fd7e28-4d15-42e9-a14d-9c0d66d6f984",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4300406478",
+    "ticket_id": "964668711",
+    "message": "I pay tomorrow",
+    "channel_id": "1304636",
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
+    "parent_message_id": "4300252425",
+    "parent_ticket_id": "964668711",
+    "event_type": "INBOUND"
   }
 }
