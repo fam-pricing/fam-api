@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-08T12:44:00.619Z",
+  "ts": "2026-07-08T12:45:26.527Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300058636",
-    "ticket_id": "964668711",
-    "message": "Ok",
+    "type": "OUTBOUND",
+    "message_id": "4300060455",
+    "ticket_id": "964671573",
+    "message": "Unfortunately, it will not be possible to offer the same rate for a 6-month extension. The rates are subject to market conditions and may vary accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535926291",
+    "contact_name": "Rimsha Akram",
+    "contact_identifier": "+971526064450",
     "channel_id": "1304636",
-    "contact_id": "542138263",
-    "contact_name": "Brian",
-    "contact_identifier": "+971588425620",
-    "parent_message_id": "4300058054",
-    "parent_ticket_id": "964668711",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
