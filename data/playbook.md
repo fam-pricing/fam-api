@@ -1436,3 +1436,7 @@ Let them know that once these are received, a payment link will be sent to confi
 ## Learned (2026-07-07)
 - When a lead says "Ok please share" or any similar confirmation to receive pricing or availability, respond by clarifying that each month is structured as a 30-night booking only.
   (Learned from Faysal handling A re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-07-08)
+- When a lead asks about long-term or annual stays, clarify that we do not offer annual contracts or Ejari. Let them know they are welcome to stay as long as they like by extending their booking in 3-month increments.
+  (Learned from Faysal handling Abu re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-creek-harbour-the-lagoons-creek-rise-creek-rise-tower-2-2PUI4o7uGDg.html)
