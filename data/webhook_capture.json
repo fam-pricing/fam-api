@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-08T20:21:45.965Z",
+  "ts": "2026-07-08T20:22:22.362Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300456465",
+    "type": "OUTBOUND",
+    "message_id": "4300456693",
     "ticket_id": "964235449",
-    "message": "Hello! Sorry for the late reply. \nHow far is the nearest mosque to the building by walking please?",
-    "channel_id": "1304636",
+    "message": "No worries! The nearest mosque info is best checked on Google Maps, it'll show you the exact walking distance from the building entrance.\n\nStill on for September 1st, shall I hold that date for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542020065",
     "contact_name": "Hichem Azzem",
     "contact_identifier": "+971581425010",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
