@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-08T10:17:54.666Z",
+  "ts": "2026-07-08T10:18:42.218Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4299876510",
+    "type": "OUTBOUND",
+    "message_id": "4299879368",
     "ticket_id": "964441816",
-    "message": "Cancell every thing thank you",
-    "channel_id": "585723",
+    "message": "Apologies, but we have been trying our best to assist you. However, we have received an update from our team that your booking will need to be cancelled.\r\n\r\nWe will proceed with cancelling your booking without any charges.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "437039638",
     "contact_name": "Sultana Alkaabi",
     "contact_identifier": "+971509919680",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
