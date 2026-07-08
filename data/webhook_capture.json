@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-08T12:08:12.972Z",
+  "ts": "2026-07-08T12:08:37.060Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4300014527",
+    "type": "INBOUND",
+    "message_id": "4300015136",
     "ticket_id": "964671573",
-    "message": "We have a 2-bedroom apartment available in the same building. Would this option be suitable for you?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "How much is rent ?",
+    "channel_id": "1304636",
     "contact_id": "535926291",
     "contact_name": "Rimsha Akram",
     "contact_identifier": "+971526064450",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
