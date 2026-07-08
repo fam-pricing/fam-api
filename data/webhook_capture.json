@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-08T08:33:39.672Z",
+  "ts": "2026-07-08T08:34:31.709Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4299743748",
-    "ticket_id": "964023794",
-    "message": "Thank you for the payment confirmation , we will update you shortly with the confirmation",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537657215",
-    "contact_name": "Emilia",
-    "contact_identifier": "+971557689270",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4299744850",
+    "ticket_id": "964360578",
+    "message": "Hi, make appointment tomorrow",
+    "channel_id": "585723",
+    "contact_id": "536501473",
+    "contact_name": "Joubert Rocha Chaves",
+    "contact_identifier": "+971586730550",
+    "event_type": "INBOUND"
   }
 }
