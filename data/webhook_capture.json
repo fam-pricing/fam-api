@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-08T10:22:08.235Z",
+  "ts": "2026-07-08T10:23:12.246Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4299888938",
+    "type": "OUTBOUND",
+    "message_id": "4299890128",
     "ticket_id": "964441816",
-    "message": "Why you dont direct wirh me",
-    "channel_id": "585723",
+    "message": "At the moment, we do not have a receipt available. Once our team processes the payment at the office, we will share the receipt with you online.\r\n\r\nIf this does not work for you, we sincerely apologize for the inconvenience; however, we will need to proceed with cancelling your booking.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "437039638",
     "contact_name": "Sultana Alkaabi",
     "contact_identifier": "+971509919680",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
