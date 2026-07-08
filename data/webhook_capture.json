@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-08T06:28:54.732Z",
+  "ts": "2026-07-08T06:29:07.613Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4299609710",
+    "type": "OUTBOUND",
+    "message_id": "4299609916",
     "ticket_id": "962970428",
-    "message": "U told me price will not change",
-    "channel_id": "1304636",
+    "message": "Please note that the rates for this month have been revised by the management, and we are unable to make any changes to the updated rates.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537510754",
     "contact_name": "Anastasiia Kazachuk",
     "contact_identifier": "+79153412426",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
