@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-08T15:30:03.124Z",
+  "ts": "2026-07-08T15:34:31.798Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4300253121",
+    "type": "INBOUND",
+    "message_id": "4300257399",
     "ticket_id": "964668711",
-    "message": "Would you prefer to pay the security deposit today, or after viewing the unit?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "After viewing the unit",
+    "channel_id": "1304636",
     "contact_id": "542138263",
     "contact_name": "Brian",
     "contact_identifier": "+971588425620",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4300253121",
+    "parent_ticket_id": "964668711",
+    "event_type": "INBOUND"
   }
 }
