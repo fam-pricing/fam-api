@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-08T21:33:07.510Z",
+  "ts": "2026-07-08T21:33:27.279Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300483047",
+    "type": "OUTBOUND",
+    "message_id": "4300483138",
     "ticket_id": "964792783",
-    "message": "I would like to see the apartment. I can be available tomorrow.",
-    "channel_id": "1304636",
+    "message": "Tomorrow works, what time suits you best?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542180375",
     "contact_name": "Yolan",
     "contact_identifier": "+33695243050",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
