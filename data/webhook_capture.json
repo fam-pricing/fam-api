@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-08T07:52:34.767Z",
+  "ts": "2026-07-08T07:55:15.637Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4299692596",
-    "ticket_id": "962970428",
-    "message": "thank you for the payment confirmation and sure we will update the upside team now",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537510754",
-    "contact_name": "Anastasiia Kazachuk",
-    "contact_identifier": "+79153412426",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4299696250",
+    "ticket_id": "964019347",
+    "message": "Could you please confirm that this apartment replaces the previous one and that there are no additional charges? Is that correct?",
+    "channel_id": "585723",
+    "contact_id": "541949247",
+    "contact_name": "Raphael Laurent Weiller",
+    "contact_identifier": "+33635586806",
+    "event_type": "INBOUND"
   }
 }
