@@ -1461,3 +1461,9 @@ Once we have these, we'll send you a payment link to secure the reservation.
 
 We can assist you with an initial 3-month booking. After that period, if you wish to extend your stay, we can arrange a monthly extension subject to availability.
   (Learned from Faysal handling Soso re Studio in Azizi Riviera 16)
+
+## Learned (2026-07-08)
+- When a lead says "Let me arrange payment," respond with the following:
+
+Please note that paying via the payment link incurs a 3.15% card processing fee on the rent amount. If you prefer to pay by cash or bank transfer, no additional charges apply.
+  (Learned from Faysal handling Brian re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-imperial-avenue-15819509.html)
