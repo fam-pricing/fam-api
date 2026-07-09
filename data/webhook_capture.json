@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-09T06:28:41.382Z",
+  "ts": "2026-07-09T06:28:42.497Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300605622",
+    "type": "OUTBOUND",
+    "message_id": "4300605638",
     "ticket_id": "964842036",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "542191134",
     "contact_name": "Lujain AbuDaabis",
     "contact_identifier": "+971588846252",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
