@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-09T06:19:02.692Z",
+  "ts": "2026-07-09T06:19:45.216Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300599806",
-    "ticket_id": "964839961",
-    "message": "Do you offer discounts to the monthly rent for yearly contracts ?",
-    "channel_id": "883603",
-    "contact_id": "542190675",
-    "contact_name": "Khaled",
-    "contact_identifier": "e48f756e-8fe0-4d97-2c42-b556e14648b2",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4300600283",
+    "ticket_id": "964668711",
+    "message": "Good morning,\r\n\r\nWould you like to make the payment today?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
