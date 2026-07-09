@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-09T05:26:28.250Z",
+  "ts": "2026-07-09T05:37:42.878Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4300576704",
-    "ticket_id": "964751875",
-    "message": "Please complete the payment link update us to send the check in form to complete",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "541745108",
-    "contact_name": "Mahmoud Amin Mohamed Am",
-    "contact_identifier": "+971559904943",
+    "type": "INBOUND",
+    "message_id": "4300580567",
+    "ticket_id": "964705582",
+    "message": "Who can I speak to on the phone to get a better service ?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "542149130",
+    "contact_name": "Khaled Agha",
+    "contact_identifier": "+971564173549",
+    "event_type": "INBOUND"
   }
 }
