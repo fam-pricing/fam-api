@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-09T06:18:18.153Z",
+  "ts": "2026-07-09T06:19:02.692Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4300599417",
-    "ticket_id": "964780178",
-    "message": "Thank you for sharing your Emirates ID with us.\r\n\r\nHowever, we kindly recommend that you check with us again on Friday to confirm the availability of the unit before your arrival. As the property is listed on multiple booking platforms, reservations may be received at any time, and availability cannot be guaranteed until the booking is confirmed.\r\n\r\nThank you for your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "542176917",
-    "contact_name": "Randa",
-    "contact_identifier": "+971569947289",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4300599806",
+    "ticket_id": "964839961",
+    "message": "Do you offer discounts to the monthly rent for yearly contracts ?",
+    "channel_id": "883603",
+    "contact_id": "542190675",
+    "contact_name": "Khaled",
+    "contact_identifier": "e48f756e-8fe0-4d97-2c42-b556e14648b2",
+    "event_type": "INBOUND"
   }
 }
