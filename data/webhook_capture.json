@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-09T07:31:01.340Z",
+  "ts": "2026-07-09T07:36:19.652Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4300659940",
-    "ticket_id": "964842036",
-    "message": "Sure we will arrange the viewing at 1pm",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "542191134",
-    "contact_name": "Lujain AbuDaabis",
-    "contact_identifier": "+971588846252",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4300665801",
+    "ticket_id": "964668711",
+    "message": "Any other payment option",
+    "channel_id": "1304636",
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
+    "event_type": "INBOUND"
   }
 }
