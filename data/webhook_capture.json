@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-09T06:16:03.035Z",
+  "ts": "2026-07-09T06:16:07.575Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300598182",
+    "type": "OUTBOUND",
+    "message_id": "4300598219",
     "ticket_id": "964839961",
-    "message": "lack of support",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "542190675",
     "contact_name": "Khaled",
     "contact_identifier": "e48f756e-8fe0-4d97-2c42-b556e14648b2",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
