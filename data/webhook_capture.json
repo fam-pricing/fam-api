@@ -1,19 +1,17 @@
 {
-  "ts": "2026-07-09T07:42:37.080Z",
+  "ts": "2026-07-09T07:45:31.011Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300672251",
-    "ticket_id": "964668711",
-    "message": "Give me bank transfer details please",
-    "channel_id": "1304636",
-    "contact_id": "542138263",
-    "contact_name": "Brian",
-    "contact_identifier": "+971588425620",
-    "parent_message_id": "4300666550",
-    "parent_ticket_id": "964668711",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4300675311",
+    "ticket_id": "964860135",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
+    "contact_id": "542195919",
+    "contact_name": "Marcelo Mercuri",
+    "contact_identifier": "+971521292057",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
