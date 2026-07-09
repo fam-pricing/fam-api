@@ -4582,5 +4582,17 @@
     "lead_quality": 35,
     "buying_stage": "COOL",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-07-09T08:29:32.664Z",
+    "ticket_id": 964874887,
+    "lead_id": "message_lead_30477483",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 18975,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
+    "skip_reason": "Lead asking about availability July 16 to November 16 (4 months, beyond 3-month pricing limit). Also asking about fixed rate for the full period and closest metro station to Upper Crest. Need Faysal to confirm metro station and handle long-term pricing discussion."
   }
 ]
