@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-09T07:16:01.828Z",
+  "ts": "2026-07-09T07:17:59.934Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4300644448",
-    "ticket_id": "964842036",
-    "message": "You need to view the apartment or to check in today?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "542191134",
-    "contact_name": "Lujain AbuDaabis",
-    "contact_identifier": "+971588846252",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4300646515",
+    "ticket_id": "964668711",
+    "message": "Image",
+    "channel_id": "1304636",
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
+    "event_type": "INBOUND"
   }
 }
