@@ -1,17 +1,19 @@
 {
-  "ts": "2026-07-09T16:45:07.476Z",
+  "ts": "2026-07-09T16:53:25.340Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4301292026",
-    "ticket_id": "950876776",
-    "message": "Thank you for choosing fäm Living, How likely are you to recommend fäm Living to family and friends? https://csat.trengo.com/?uuid=a23808d8-9b02-4742-a75a-74bbd5d11e59\n",
-    "contact_id": "537076491",
-    "contact_name": "VIKTORIIA",
-    "contact_identifier": "+79138287704",
+    "type": "INBOUND",
+    "message_id": "4301298197",
+    "ticket_id": "964860135",
+    "message": "👍",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "542195919",
+    "contact_name": "Marcelo Mercuri",
+    "contact_identifier": "+971521292057",
+    "parent_message_id": "4301076126",
+    "parent_ticket_id": "964860135",
+    "event_type": "INBOUND"
   }
 }
