@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-09T05:57:53.328Z",
+  "ts": "2026-07-09T06:00:06.426Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300588302",
-    "ticket_id": "964826291",
-    "message": "Okay fine thanks 👍🏼",
-    "channel_id": "1304636",
-    "contact_id": "541938510",
-    "contact_name": "George Phillips",
-    "contact_identifier": "+447775615281",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4300589031",
+    "ticket_id": "950575440",
+    "message": "We have received the payment for the stay\r\n\r\nThank you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538178428",
+    "contact_name": "BARBARA ALMEIDA CUNHA",
+    "contact_identifier": "+971569589393",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
