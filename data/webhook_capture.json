@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-09T08:19:54.394Z",
+  "ts": "2026-07-09T08:20:32.095Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300717786",
+    "type": "OUTBOUND",
+    "message_id": "4300718541",
     "ticket_id": "964865461",
-    "message": "Hi \nPlease could you confirm that utility bills are included in the rental price , does the apparent have internet WiFi ? \nIs there a parking spot availble - included or additional ? \nCould you confirm that the furniture is as per the photos or similar ? \nThanks",
-    "channel_id": "1304636",
+    "message": "Utilities and WiFi are all included, so nothing extra beyond the rent and deposit. I'll check on the parking and furniture for you now and come back shortly, does the property look like a good fit otherwise, or is there anything else you'd like to know before I get those answers?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541726167",
     "contact_name": "HW FZE",
     "contact_identifier": "+971522163449",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
