@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-09T13:30:23.477Z",
+  "ts": "2026-07-09T13:30:52.636Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4301086493",
+    "type": "INBOUND",
+    "message_id": "4301087371",
     "ticket_id": "962625629",
-    "message": "Would you like to extend your stay with us at the Viridian 303 apartment?\r\n\r\nPlease let us know if you would like to continue your reservation, and we will be happy to assist you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Hello",
+    "channel_id": "585723",
     "contact_id": "541526979",
     "contact_name": "Megli",
     "contact_identifier": "+447474854636",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
