@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-09T07:22:52.988Z",
+  "ts": "2026-07-09T07:24:55.321Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4300651630",
+    "type": "OUTBOUND",
+    "message_id": "4300653752",
     "ticket_id": "964751875",
-    "message": "?",
-    "channel_id": "1304636",
+    "message": "Please note that the payment must be completed prior to check-in, as your reservation period begins from today.\r\n\r\nKindly arrange the payment accordingly to register your details in the building",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "541745108",
     "contact_name": "Mahmoud Amin Mohamed Am",
     "contact_identifier": "+971559904943",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
