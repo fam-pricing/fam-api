@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-09T08:21:38.986Z",
+  "ts": "2026-07-09T08:21:48.644Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4300719924",
+    "type": "INBOUND",
+    "message_id": "4300720132",
     "ticket_id": "964865461",
-    "message": "July 16th at 5pm works, I'll have the team reach out to confirm the meeting point. The floor number I'll get back to you on shortly alongside the parking and furniture update.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "541726167",
     "contact_name": "HW FZE",
     "contact_identifier": "+971522163449",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4300719924",
+    "parent_ticket_id": "964865461",
+    "event_type": "INBOUND"
   }
 }
