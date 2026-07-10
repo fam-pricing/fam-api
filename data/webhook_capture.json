@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-10T10:06:51.045Z",
+  "ts": "2026-07-10T10:07:55.445Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4301846337",
-    "ticket_id": "965117855",
-    "message": "Can I pay this by cash today or tomorrow?",
-    "channel_id": "1304636",
-    "contact_id": "542138263",
-    "contact_name": "Brian",
-    "contact_identifier": "+971588425620",
-    "parent_message_id": "4301843239",
-    "parent_ticket_id": "965117855",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4301847438",
+    "ticket_id": "941501853",
+    "message": "https://totalpay.ae/payment/20260710386a50c46a30821",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535128769",
+    "contact_name": "Alex",
+    "contact_identifier": "+256742443400",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
