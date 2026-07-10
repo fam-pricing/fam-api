@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-10T08:31:22.209Z",
+  "ts": "2026-07-10T08:32:36.793Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4301697308",
+    "type": "OUTBOUND",
+    "message_id": "4301698624",
     "ticket_id": "963910201",
-    "message": "I checked the site and saw two apartments",
-    "channel_id": "585723",
+    "message": "Please note that our website is currently under maintenance; therefore, the availability shown there may not be accurate at the moment.\r\n\r\nCurrently, we only have one available unit in City Walk Building 18B, which is a 2-bedroom plus maid apartment.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "116464238",
     "contact_name": "Mr Rashed Saeed alkhyeli",
     "contact_identifier": "+971508258989",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
