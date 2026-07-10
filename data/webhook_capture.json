@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-10T07:06:04.492Z",
+  "ts": "2026-07-10T07:06:23.264Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4301608374",
-    "ticket_id": "965117855",
-    "message": "I am checking in tomorrow",
+    "type": "OUTBOUND",
+    "message_id": "4301608650",
+    "ticket_id": "964912584",
+    "message": "Good Morning Lawson,\r\n\r\nWe can extend your stay from 15 July 2026 to 29 July 2026 (14 nights). The total rate for the extension will be AED 3,660.\r\n\r\nPlease let us know if you would like to proceed with the extension.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "540250794",
+    "contact_name": "Lawson Okimeji",
+    "contact_identifier": "+447828014094",
     "channel_id": "1304636",
-    "contact_id": "542138263",
-    "contact_name": "Brian",
-    "contact_identifier": "+971588425620",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
