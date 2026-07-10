@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-10T09:40:48.434Z",
+  "ts": "2026-07-10T09:41:17.972Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4301813389",
+    "type": "OUTBOUND",
+    "message_id": "4301816427",
     "ticket_id": "965181516",
-    "message": "Upon arrival, the questionnaire will be recorded.",
-    "channel_id": "585723",
+    "message": "Check in form needs to be completed before your arrival, as we are required to update the building community with your ID details to arrange your check-in today.\r\n\r\nThank you for your cooperation and understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542295195",
     "contact_name": "Nawaf almalk",
     "contact_identifier": "+966562328887",
-    "parent_message_id": "4301810919",
-    "parent_ticket_id": "965181516",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
