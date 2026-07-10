@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-10T09:10:11.455Z",
+  "ts": "2026-07-10T09:10:40.014Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4301743173",
+    "type": "OUTBOUND",
+    "message_id": "4301743665",
     "ticket_id": "965159511",
-    "message": "Thank you very much, i think within that time i will be able to have an overall picture 😊 also is there a way to make a reservation?",
-    "channel_id": "1304636",
+    "message": "To make a reservation we'd just need a copy of your ID or passport and your email address, we'll then send you a payment link to secure the unit. Does 5:30pm still work for you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542287379",
     "contact_name": "Cami",
     "contact_identifier": "+34680964926",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
