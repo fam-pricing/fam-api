@@ -4402,5 +4402,17 @@
     "lead_quality": 15,
     "buying_stage": "COLD",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-07-10T12:16:29.217Z",
+    "ticket_id": 965159511,
+    "lead_id": "message_lead_30499461",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 8444,
+    "critic_pass": null,
+    "lead_quality": 100,
+    "buying_stage": "HOT",
+    "skip_reason": "acknowledgment_skip"
   }
 ]
