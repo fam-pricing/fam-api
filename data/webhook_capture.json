@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-10T08:39:13.574Z",
+  "ts": "2026-07-10T08:39:26.298Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4301705454",
+    "type": "INBOUND",
+    "message_id": "4301705642",
     "ticket_id": "955436676",
-    "message": "Hello Gescard,\r\n\r\nYes, he has informed us. No worries, we have kept the apartment on hold for you.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Automatic message 🤗",
+    "channel_id": "585723",
     "contact_id": "539565275",
     "contact_name": "GESCARD ISSA",
     "contact_identifier": "+23795870067",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4301704684",
+    "parent_ticket_id": "955436676",
+    "event_type": "INBOUND"
   }
 }
