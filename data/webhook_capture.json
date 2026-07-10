@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-10T10:09:55.873Z",
+  "ts": "2026-07-10T10:10:42.692Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4301849538",
-    "ticket_id": "964066792",
-    "message": "We understand your concern; however, the full payment must be completed as we do not accept partial payments for the first booking.\r\n\r\nAlternatively, you may kindly reach out to your agent, Mr. Sobhi, who will be able to assist you further.\r\n\r\nThank you for your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "541963120",
-    "contact_name": "Kosar",
-    "contact_identifier": "+971542289493",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4301850397",
+    "ticket_id": "965117855",
+    "message": "As I am moving into the apartment tomorrow at 3 pm.",
+    "channel_id": "1304636",
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
+    "event_type": "INBOUND"
   }
 }
