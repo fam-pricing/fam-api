@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-10T08:50:02.136Z",
+  "ts": "2026-07-10T08:50:05.477Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4301716669",
+    "type": "OUTBOUND",
+    "message_id": "4301716726",
     "ticket_id": "899852531",
-    "message": "Ok thank you",
-    "channel_id": "585723",
+    "message": "However, if you have made an AED 2,000 deposit payment, could you please share the payment receipt with us? We have checked our records but are unable to locate any AED 2,000 deposit payment received from your side.\r\n\r\nOnce we receive the receipt, we will be happy to verify and update you accordingly.\r\n\r\nThank you, Mrs. Marianna.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "473604372",
     "contact_name": "Marianna",
     "contact_identifier": "+971509579913",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
