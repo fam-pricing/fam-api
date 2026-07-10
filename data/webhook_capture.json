@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-10T08:23:41.105Z",
+  "ts": "2026-07-10T08:24:50.349Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4301689169",
+    "type": "OUTBOUND",
+    "message_id": "4301690542",
     "ticket_id": "964066792",
-    "message": "I will pay",
-    "channel_id": "585723",
+    "message": "May I know which payment option you would prefer: bank transfer or payment link?\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "541963120",
     "contact_name": "Kosar",
     "contact_identifier": "+971542289493",
-    "parent_message_id": "4301688804",
-    "parent_ticket_id": "964066792",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
