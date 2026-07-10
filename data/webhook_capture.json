@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-10T08:03:40.318Z",
+  "ts": "2026-07-10T08:04:23.364Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4301667895",
+    "type": "OUTBOUND",
+    "message_id": "4301668758",
     "ticket_id": "965136102",
-    "message": "give me your number i want to talk on call",
-    "channel_id": "585723",
+    "message": "Sure, our calling number and WhatsApp number are the same: +971 800 326 600.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542281499",
     "contact_name": "Gaurav Yadav",
     "contact_identifier": "+971564676937",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
