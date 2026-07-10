@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-10T19:30:09.233Z",
+  "ts": "2026-07-10T19:30:32.514Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4302405098",
+    "type": "OUTBOUND",
+    "message_id": "4302405224",
     "ticket_id": "965353796",
-    "message": "Until which month will this price be available?",
-    "channel_id": "1304636",
+    "message": "The price is locked in for up to 3 months from your move-in date. When are you looking to move in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542351007",
     "contact_name": "Jeni",
     "contact_identifier": "+971561029550",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
