@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-10T19:25:56.674Z",
+  "ts": "2026-07-10T19:27:47.391Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4302403325",
+    "type": "INBOUND",
+    "message_id": "4302404193",
     "ticket_id": "965353796",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-2PkztQ5mhlY.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello, I want to know how much commission and deposit",
+    "channel_id": "1304636",
     "contact_id": "542351007",
     "contact_name": "Jeni",
     "contact_identifier": "+971561029550",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
