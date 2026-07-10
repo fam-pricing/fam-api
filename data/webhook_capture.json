@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-10T12:53:22.198Z",
+  "ts": "2026-07-10T12:53:44.802Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4302054348",
+    "type": "INBOUND",
+    "message_id": "4302054740",
     "ticket_id": "964066792",
-    "message": "May i have your car details please",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I have a lot of cars",
+    "channel_id": "585723",
     "contact_id": "541963120",
     "contact_name": "Kosar",
     "contact_identifier": "+971542289493",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4302054348",
+    "parent_ticket_id": "964066792",
+    "event_type": "INBOUND"
   }
 }
