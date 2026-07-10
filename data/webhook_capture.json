@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-10T07:07:21.324Z",
+  "ts": "2026-07-10T07:07:27.088Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4301609580",
+    "type": "OUTBOUND",
+    "message_id": "4301609646",
     "ticket_id": "965117855",
-    "message": "Yes",
-    "channel_id": "1304636",
+    "message": "sure, you can pay on arrival at 3pm",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542138263",
     "contact_name": "Brian",
     "contact_identifier": "+971588425620",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
