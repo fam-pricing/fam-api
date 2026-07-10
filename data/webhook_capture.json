@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-10T06:27:12.069Z",
+  "ts": "2026-07-10T06:29:28.417Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4301579734",
-    "ticket_id": "963542302",
-    "message": "For your late check-out request, we will inform Mr. Owais to assist you. If it is possible, he will arrange it for you accordingly.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "541814815",
-    "contact_name": "Ahmed Almarri",
-    "contact_identifier": "+971502060828",
+    "type": "INBOUND",
+    "message_id": "4301581232",
+    "ticket_id": "959063234",
+    "message": "Hello. I paid Awais in cash.",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "540543058",
+    "contact_name": "Wael Abdulazeem",
+    "contact_identifier": "+96599456543",
+    "event_type": "INBOUND"
   }
 }
