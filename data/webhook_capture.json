@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-10T20:25:12.604Z",
+  "ts": "2026-07-10T20:25:14.250Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4302427423",
+    "type": "OUTBOUND",
+    "message_id": "4302427446",
     "ticket_id": "965361149",
-    "message": "can i book an appartment for 1 night only ?",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "542352799",
     "contact_name": "alreem",
     "contact_identifier": "986a6bd3-fbb6-447e-ec8f-00396d5b597b",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
