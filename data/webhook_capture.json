@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-10T10:24:21.474Z",
+  "ts": "2026-07-10T10:24:47.661Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4301864390",
-    "ticket_id": "965117855",
-    "message": "Sure, you may visit our office before 5:00 PM today.\r\n\r\nAlternatively, if you are coming tomorrow, you may visit between 10:00 AM and 4:00 PM to make the cash payment.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542138263",
-    "contact_name": "Brian",
-    "contact_identifier": "+971588425620",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4301864829",
+    "ticket_id": "941501853",
+    "message": "You said that July was 6000",
+    "channel_id": "585723",
+    "contact_id": "535128769",
+    "contact_name": "Alex",
+    "contact_identifier": "+256742443400",
+    "event_type": "INBOUND"
   }
 }
