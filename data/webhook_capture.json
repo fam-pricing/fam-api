@@ -1,17 +1,19 @@
 {
-  "ts": "2026-07-10T07:42:27.015Z",
+  "ts": "2026-07-10T07:43:11.538Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4301645338",
+    "type": "INBOUND",
+    "message_id": "4301645978",
     "ticket_id": "965133088",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
+    "message": "Reviews Removal\n💯 % Guaranteed\nFake review\nFake or negative reviews hurting your business",
+    "channel_id": "585723",
     "contact_id": "542281012",
     "contact_name": "mubashir khalilani",
     "contact_identifier": "+923225307267",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4301645338",
+    "parent_ticket_id": "965133088",
+    "event_type": "INBOUND"
   }
 }
