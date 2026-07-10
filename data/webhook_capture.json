@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-10T05:54:14.730Z",
+  "ts": "2026-07-10T06:00:26.716Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4301562451",
+    "type": "OUTBOUND",
+    "message_id": "4301564782",
     "ticket_id": "964874887",
-    "message": "Good morning. Thank you for this message. I’d prefer a one bedroom. Would you have something in Downtown, by any chance?",
-    "channel_id": "1304636",
+    "message": "Unfortunately, we do not have any 1-bedroom apartments available in the Downtown location",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542198867",
     "contact_name": "Dina Iodice",
     "contact_identifier": "+393661686196",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
