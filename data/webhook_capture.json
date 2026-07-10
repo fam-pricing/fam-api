@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-10T10:00:48.288Z",
+  "ts": "2026-07-10T10:01:03.432Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4301839813",
+    "type": "INBOUND",
+    "message_id": "4301840101",
     "ticket_id": "965117855",
-    "message": "We can confirm that we have received your payment of AED 11,000. The remaining rental balance is AED 3,000.\r\n\r\nMay I kindly know when you will be completing the remaining payment?\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "No",
+    "channel_id": "1304636",
     "contact_id": "542138263",
     "contact_name": "Brian",
     "contact_identifier": "+971588425620",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4301839813",
+    "parent_ticket_id": "965117855",
+    "event_type": "INBOUND"
   }
 }
