@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-10T05:51:00.613Z",
+  "ts": "2026-07-10T05:51:37.473Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4301561279",
+    "type": "INBOUND",
+    "message_id": "4301561446",
     "ticket_id": "964415672",
-    "message": "Hello ! PropertyFinder send me your contact regarding this listing:\n\nGood afternoon\n\nHow can I help you ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Hello",
+    "channel_id": "1304636",
     "contact_id": "541939190",
     "contact_name": "Julia Souza",
     "contact_identifier": "+558199810675",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
