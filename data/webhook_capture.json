@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-10T20:55:18.101Z",
+  "ts": "2026-07-10T20:55:38.236Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4302438040",
+    "type": "OUTBOUND",
+    "message_id": "4302438270",
     "ticket_id": "965364474",
-    "message": "Sent already",
-    "channel_id": "1304636",
+    "message": "Got your email and ID, thank you. The 2BR is available from tomorrow. We'll get the payment link across to you shortly to lock it in.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540582239",
     "contact_name": ".",
     "contact_identifier": "+4915773801741",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
