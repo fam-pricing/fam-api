@@ -1,29 +1,5 @@
 [
   {
-    "ts": "2026-07-03T17:36:44.168Z",
-    "ticket_id": 963292011,
-    "lead_id": "message_lead_30334472",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 623,
-    "critic_pass": null,
-    "lead_quality": 40,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-03T17:42:54.798Z",
-    "ticket_id": 962948359,
-    "lead_id": "message_lead_30305387",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 706,
-    "critic_pass": null,
-    "lead_quality": 10,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-07-03T20:42:54.485Z",
     "ticket_id": 963609672,
     "lead_id": "message_lead_30362719",
@@ -4414,5 +4390,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-07-10T18:13:05.656Z",
+    "ticket_id": 965342594,
+    "lead_id": "message_lead_30510725",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 23614,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "Lead asking about long-term pricing/rate structure (fixed vs variable) for Vida Dubai Mall Tower 2. This is beyond the 3-month pricing confirmation window and requires manager input. Also, the property (Vida Residences Dubai Mall Tower 2) is not in the active fäm Living portfolio."
   }
 ]
