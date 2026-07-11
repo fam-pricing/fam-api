@@ -4774,5 +4774,17 @@
     "lead_quality": 50,
     "buying_stage": "WARM",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-07-11T09:53:10.029Z",
+    "ticket_id": 965447586,
+    "lead_id": "message_lead_30520393",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 26843,
+    "critic_pass": null,
+    "lead_quality": 50,
+    "buying_stage": "WARM",
+    "skip_reason": "Lead has sent a large volume of unanswered messages, is frustrated (\"i told you yes many times\", \"Dear i just sent my id hahaha\"), asked twice if they're talking to an AI, and is asking for a video of the property. Agent (Faysal) has already been managing this conversation but messages are going unanswered. Lead has provided ID, email (Haceriplus@gmail.com), confirmed Monday viewing, wants to pay after viewing, and does not want to pay full amount at once. Needs human to close this out, send video/photos, confirm Monday viewing, and handle the payment structure."
   }
 ]
