@@ -1,101 +1,5 @@
 [
   {
-    "ts": "2026-07-04T04:16:13.581Z",
-    "ticket_id": 963642870,
-    "lead_id": "message_lead_30364839",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 942,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-04T04:18:49.019Z",
-    "ticket_id": 963642870,
-    "lead_id": "message_lead_30364839",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1003,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-04T04:20:02.697Z",
-    "ticket_id": 963642870,
-    "lead_id": "message_lead_30364839",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 905,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-04T04:20:39.481Z",
-    "ticket_id": 963649490,
-    "lead_id": "message_lead_30365387",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 951,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-04T04:20:41.056Z",
-    "ticket_id": 963649490,
-    "lead_id": "message_lead_30365387",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 16173,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-07-04T04:20:58.369Z",
-    "ticket_id": 963642870,
-    "lead_id": "message_lead_30364839",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 702,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-04T04:21:26.441Z",
-    "ticket_id": 963649490,
-    "lead_id": "message_lead_30365387",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 18998,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "Lead wants the Upside Living studio from August to December (5 months) at below AED 4,000/month. Listed price is AED 4,500/month. Lead is pushing below the 10% discount floor (AED 4,050). Also asking about long-term pricing beyond 3 months. Needs human negotiation."
-  },
-  {
-    "ts": "2026-07-04T04:21:56.759Z",
-    "ticket_id": 963649490,
-    "lead_id": "message_lead_30365387",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 715,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-07-04T05:01:33.692Z",
     "ticket_id": 963653078,
     "lead_id": "message_lead_30365840",
@@ -4522,5 +4426,17 @@
     "lead_quality": 60,
     "buying_stage": "WARM",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-07-11T04:54:42.528Z",
+    "ticket_id": 964926596,
+    "lead_id": "message_lead_30481576",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 698,
+    "critic_pass": null,
+    "lead_quality": 60,
+    "buying_stage": "WARM",
+    "skip_reason": "bot_paused"
   }
 ]
