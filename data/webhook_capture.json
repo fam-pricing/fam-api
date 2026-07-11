@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-11T09:52:15.429Z",
+  "ts": "2026-07-11T09:52:43.186Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4302668637",
+    "type": "INBOUND",
+    "message_id": "4302668878",
     "ticket_id": "965447586",
-    "message": "All confirmed, we have your ID and the payment link is on its way. Want me to send it to Haceriplus@gmail.com?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes you can send it but i’ll be paying anyways after viewing not today",
+    "channel_id": "1304636",
     "contact_id": "542368825",
     "contact_name": "🤎",
     "contact_identifier": "+971522601213",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4302668637",
+    "parent_ticket_id": "965447586",
+    "event_type": "INBOUND"
   }
 }
