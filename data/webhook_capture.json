@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-11T09:49:47.249Z",
+  "ts": "2026-07-11T09:50:11.045Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4302667272",
+    "type": "OUTBOUND",
+    "message_id": "4302667567",
     "ticket_id": "965447586",
-    "message": "Monday good for you ?",
-    "channel_id": "1304636",
+    "message": "Monday works perfectly. What's your email address?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542368825",
     "contact_name": "🤎",
     "contact_identifier": "+971522601213",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
