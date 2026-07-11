@@ -4258,5 +4258,17 @@
     "lead_quality": 55,
     "buying_stage": "WARM",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-07-11T07:28:25.455Z",
+    "ticket_id": 965427246,
+    "lead_id": "message_lead_30517269",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 879,
+    "critic_pass": null,
+    "lead_quality": 60,
+    "buying_stage": "WARM",
+    "skip_reason": "acknowledgment_skip"
   }
 ]
