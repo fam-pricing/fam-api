@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-11T10:53:47.121Z",
+  "ts": "2026-07-11T10:54:23.490Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4302703485",
+    "type": "INBOUND",
+    "message_id": "4302703983",
     "ticket_id": "955702229",
-    "message": "Thank you for the receipt",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "🤝",
+    "channel_id": "585723",
     "contact_id": "537426319",
     "contact_name": "LB Lalita Bazhaeva",
     "contact_identifier": "+79286401946",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4302703485",
+    "parent_ticket_id": "955702229",
+    "event_type": "INBOUND"
   }
 }
