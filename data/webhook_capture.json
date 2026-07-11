@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-11T05:51:50.615Z",
+  "ts": "2026-07-11T05:52:17.363Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4302546808",
+    "type": "OUTBOUND",
+    "message_id": "4302546899",
     "ticket_id": "965117855",
-    "message": "Sure",
-    "channel_id": "1304636",
+    "message": "You may visit our office after 11:00 AM, please. As it is Saturday, the finance team may be slightly delayed.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542138263",
     "contact_name": "Brian",
     "contact_identifier": "+971588425620",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
