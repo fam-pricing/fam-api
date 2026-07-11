@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-11T07:44:30.833Z",
+  "ts": "2026-07-11T07:45:25.698Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4302595249",
+    "type": "OUTBOUND",
+    "message_id": "4302595593",
     "ticket_id": "957895053",
-    "message": "Correct",
-    "channel_id": "585723",
+    "message": "Total amount for 27 nights will be AED 4,950. Please note that a 3.1% card processing fee will be added, making the total amount AED 5,104.\r\n\r\nPlease find the payment link below: https://totalpay.ae/payment/20260711106a51f486b6036",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536353062",
     "contact_name": "Yohan Gregory",
     "contact_identifier": "+971509558132",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
