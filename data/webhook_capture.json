@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-11T14:40:03.436Z",
+  "ts": "2026-07-11T14:40:18.397Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4302830350",
+    "type": "OUTBOUND",
+    "message_id": "4302830469",
     "ticket_id": "965496267",
-    "message": "Tomorrow",
-    "channel_id": "1304636",
+    "message": "The studio is free and you can move in tomorrow. Can you send over your passport or ID and email so we can get it locked in for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542382650",
     "contact_name": "Cp",
     "contact_identifier": "+971554746819",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
