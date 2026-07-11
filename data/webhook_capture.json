@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-11T05:31:23.400Z",
+  "ts": "2026-07-11T05:32:18.725Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4302542100",
-    "ticket_id": "965332371",
-    "message": "The light is making sound",
+    "type": "OUTBOUND",
+    "message_id": "4302542389",
+    "ticket_id": "965158198",
+    "message": "Hello, you may kindly inform to the reception. And they will send the building maintenance team",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "541745108",
+    "contact_name": "Mahmoud Amin Mohamed Am",
+    "contact_identifier": "+971559904943",
     "channel_id": "1304636",
-    "contact_id": "537817977",
-    "contact_name": "Kanika",
-    "contact_identifier": "+919051525237",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
