@@ -1,137 +1,5 @@
 [
   {
-    "ts": "2026-07-04T10:16:51.041Z",
-    "ticket_id": 963676172,
-    "lead_id": "message_lead_30369236",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 963,
-    "critic_pass": null,
-    "lead_quality": 55,
-    "buying_stage": "WARM",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-04T10:16:55.450Z",
-    "ticket_id": 963676172,
-    "lead_id": "message_lead_30369236",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 940,
-    "critic_pass": null,
-    "lead_quality": 55,
-    "buying_stage": "WARM",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-04T10:17:03.806Z",
-    "ticket_id": 963676172,
-    "lead_id": "message_lead_30369236",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 17269,
-    "critic_pass": null,
-    "lead_quality": 55,
-    "buying_stage": "WARM",
-    "skip_reason": "Lead is physically at or near Binghatti Azure right now and asking for the apartment number and location. They say they already sent their ID. Need Faysal to confirm the apartment number and address details immediately so the lead can proceed with the viewing."
-  },
-  {
-    "ts": "2026-07-04T10:17:17.982Z",
-    "ticket_id": 963676172,
-    "lead_id": "message_lead_30369236",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 744,
-    "critic_pass": null,
-    "lead_quality": 55,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-04T10:17:26.085Z",
-    "ticket_id": 963676172,
-    "lead_id": "message_lead_30369236",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 815,
-    "critic_pass": null,
-    "lead_quality": 55,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-04T10:18:36.850Z",
-    "ticket_id": 963676172,
-    "lead_id": "message_lead_30369236",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 733,
-    "critic_pass": null,
-    "lead_quality": 55,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-04T10:18:56.540Z",
-    "ticket_id": 963676172,
-    "lead_id": "message_lead_30369236",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 710,
-    "critic_pass": null,
-    "lead_quality": 55,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-04T10:19:19.045Z",
-    "ticket_id": 963676172,
-    "lead_id": "message_lead_30369236",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 715,
-    "critic_pass": null,
-    "lead_quality": 55,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-04T10:19:33.229Z",
-    "ticket_id": 963676172,
-    "lead_id": "message_lead_30369236",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 824,
-    "critic_pass": null,
-    "lead_quality": 55,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-04T10:20:10.747Z",
-    "ticket_id": 963676172,
-    "lead_id": "message_lead_30369236",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 697,
-    "critic_pass": null,
-    "lead_quality": 55,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-04T10:20:25.261Z",
-    "ticket_id": 963676172,
-    "lead_id": "message_lead_30369236",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 334,
-    "critic_pass": null,
-    "lead_quality": 55,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-07-04T12:50:37.975Z",
     "ticket_id": 963292011,
     "lead_id": "message_lead_30334472",
@@ -4894,5 +4762,17 @@
     "lead_quality": 15,
     "buying_stage": "COLD",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-07-11T10:32:29.995Z",
+    "ticket_id": 965447586,
+    "lead_id": "message_lead_30520393",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 761,
+    "critic_pass": null,
+    "lead_quality": 50,
+    "buying_stage": "WARM",
+    "skip_reason": "acknowledgment_skip"
   }
 ]
