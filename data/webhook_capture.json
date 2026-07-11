@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-11T10:52:30.213Z",
+  "ts": "2026-07-11T10:52:46.253Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4302702812",
-    "ticket_id": "965163953",
-    "message": "May I know what time would be convenient for you? Please note that our viewing timings are from 10:00 AM to 6:00 PM only.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542287804",
-    "contact_name": "Margo Kim",
-    "contact_identifier": "+971505124557",
+    "type": "INBOUND",
+    "message_id": "4302702964",
+    "ticket_id": "965447586",
+    "message": "🙏",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "542368825",
+    "contact_name": "🤎",
+    "contact_identifier": "+971522601213",
+    "parent_message_id": "4302701671",
+    "parent_ticket_id": "965447586",
+    "event_type": "INBOUND"
   }
 }
