@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-11T09:56:41.434Z",
+  "ts": "2026-07-11T09:56:46.507Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4302671156",
+    "type": "INBOUND",
+    "message_id": "4302671218",
     "ticket_id": "965447586",
-    "message": "We would like to confirm that you will be attending the viewing on Monday, and after the viewing, you will decide whether to proceed with the booking. Is that correct?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Finally",
+    "channel_id": "1304636",
     "contact_id": "542368825",
     "contact_name": "🤎",
     "contact_identifier": "+971522601213",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4302671122",
+    "parent_ticket_id": "965447586",
+    "event_type": "INBOUND"
   }
 }
