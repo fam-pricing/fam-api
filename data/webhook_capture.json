@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-11T08:03:45.422Z",
+  "ts": "2026-07-11T08:07:14.730Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4302606023",
+    "type": "OUTBOUND",
+    "message_id": "4302608003",
     "ticket_id": "965332371",
-    "message": "It’s a Sunday",
-    "channel_id": "1304636",
+    "message": "Team will visit between 10-12 in the morning hours, or confirm your preferred timing",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "537817977",
     "contact_name": "Kanika",
     "contact_identifier": "+919051525237",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
