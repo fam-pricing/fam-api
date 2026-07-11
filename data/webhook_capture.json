@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-11T08:35:30.478Z",
+  "ts": "2026-07-11T08:35:44.821Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4302624707",
+    "type": "OUTBOUND",
+    "message_id": "4302624854",
     "ticket_id": "965439685",
-    "message": "What is the price for 2 nights ?",
-    "channel_id": "585723",
+    "message": "from which date you need ?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542366777",
     "contact_name": "A.",
     "contact_identifier": "+971503007336",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
