@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-11T11:24:53.783Z",
+  "ts": "2026-07-11T11:32:09.076Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4302721189",
-    "ticket_id": "965136102",
-    "message": "Have you checked in to the apartment, Mr. Gaurav?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542281499",
-    "contact_name": "Gaurav Yadav",
-    "contact_identifier": "+971564676937",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4302725274",
+    "ticket_id": "965117855",
+    "message": "Sure",
+    "channel_id": "1304636",
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
+    "event_type": "INBOUND"
   }
 }
