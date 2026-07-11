@@ -1467,3 +1467,7 @@ We can assist you with an initial 3-month booking. After that period, if you wis
 
 Please note that paying via the payment link incurs a 3.15% card processing fee on the rent amount. If you prefer to pay by cash or bank transfer, no additional charges apply.
   (Learned from Faysal handling Brian re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-imperial-avenue-15819509.html)
+
+## Learned (2026-07-11)
+- If a lead requests the property location, respond that viewings can be arranged after 10:00 AM only.
+  (Learned from Faysal handling Mohamed yassin re Studio in Azizi Riviera 16)
