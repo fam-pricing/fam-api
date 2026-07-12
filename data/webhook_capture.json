@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-12T11:07:31.738Z",
+  "ts": "2026-07-12T11:08:53.584Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303208008",
+    "type": "OUTBOUND",
+    "message_id": "4303208628",
     "ticket_id": "965414470",
-    "message": "Have you tried it? Because it doesn't connect for me.",
-    "channel_id": "585723",
+    "message": "Our team will be there shortly",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "542361611",
     "contact_name": "Nadzeya Salyshka",
     "contact_identifier": "+375293806870",
-    "parent_message_id": "4303205944",
-    "parent_ticket_id": "965414470",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
