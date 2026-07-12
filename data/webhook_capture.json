@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-12T12:25:24.326Z",
+  "ts": "2026-07-12T12:25:37.226Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4303248425",
-    "ticket_id": "965642715",
-    "message": "How can I help you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "542417418",
-    "contact_name": "farha chaudhry",
-    "contact_identifier": "0e0971c7-85fb-4e7f-212a-54d78e8e53aa",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4303248542",
+    "ticket_id": "950081332",
+    "message": "Yes you where i tell friend give",
+    "channel_id": "585723",
+    "contact_id": "538043163",
+    "contact_name": "Thi Tieu Hiep Nguyen",
+    "contact_identifier": "+971582652288",
+    "parent_message_id": "4303248350",
+    "parent_ticket_id": "950081332",
+    "event_type": "INBOUND"
   }
 }
