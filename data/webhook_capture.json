@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-12T05:11:57.393Z",
+  "ts": "2026-07-12T05:12:12.751Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4303060512",
+    "type": "INBOUND",
+    "message_id": "4303060565",
     "ticket_id": "965427246",
-    "message": "Good morning,\r\n\r\nWould it be possible to reschedule the viewing to 12:00 PM today? If this timing works for you, please let us know.\r\n\r\nIf not, we will need to cancel today's viewing.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Yes sure",
+    "channel_id": "1304636",
     "contact_id": "542363829",
     "contact_name": "M",
     "contact_identifier": "+31655135580",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
