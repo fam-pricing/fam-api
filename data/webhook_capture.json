@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-12T05:58:23.497Z",
+  "ts": "2026-07-12T06:04:25.717Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303070558",
+    "type": "OUTBOUND",
+    "message_id": "4303072640",
     "ticket_id": "965588902",
-    "message": "Thanks",
-    "channel_id": "1304636",
+    "message": "Unfortunately, the same unit is no longer available. However, we can arrange a viewing for another apartment in City Walk instead.\r\n\r\nPlease let us know if this would be suitable for you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "542404560",
     "contact_name": "D",
     "contact_identifier": "+971581930902",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
