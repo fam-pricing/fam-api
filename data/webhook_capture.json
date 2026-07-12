@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-12T07:00:08.203Z",
+  "ts": "2026-07-12T07:00:42.209Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4303090800",
+    "type": "INBOUND",
+    "message_id": "4303091125",
     "ticket_id": "965117855",
-    "message": "Is there anything else I can help you with today ?",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "We kindly request for more access cards",
+    "channel_id": "1304636",
     "contact_id": "542138263",
     "contact_name": "Brian",
     "contact_identifier": "+971588425620",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4302698082",
+    "parent_ticket_id": "965117855",
+    "event_type": "INBOUND"
   }
 }
