@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-12T06:38:04.313Z",
+  "ts": "2026-07-12T06:38:21.581Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4303083166",
+    "type": "INBOUND",
+    "message_id": "4303083259",
     "ticket_id": "965510713",
-    "message": "Unfortunately this unit is no more available for rent",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Which one is available?",
+    "channel_id": "1304636",
     "contact_id": "542386620",
     "contact_name": "Surbhi Kanswa",
     "contact_identifier": "+971585929930",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
