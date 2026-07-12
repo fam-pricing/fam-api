@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-12T11:19:42.957Z",
+  "ts": "2026-07-12T11:20:02.779Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303214819",
-    "ticket_id": "965625978",
-    "message": "Could you please let me know:\n\nThe monthly rental price (including all utilities)\n\nIf I decide to stay for 3 consecutive months, what would be your best offer or discounted rate?\n\nPlease also share the apartment details and any available photos or videos.\n\nI look forward to your reply. Thank you.",
-    "channel_id": "1304636",
-    "contact_id": "542412825",
-    "contact_name": "Al Burhan",
-    "contact_identifier": "+966550477350",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4303214963",
+    "ticket_id": "965613487",
+    "message": "As I didn't hear back from you in a while, I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542409790",
+    "contact_name": "Ahmed",
+    "contact_identifier": "+971547000690",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
