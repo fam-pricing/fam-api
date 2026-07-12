@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-12T13:41:11.059Z",
+  "ts": "2026-07-12T13:41:39.165Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303285270",
+    "type": "OUTBOUND",
+    "message_id": "4303285589",
     "ticket_id": "965649642",
-    "message": "Hi \nI wanna move in apartment at 14 July for 1 month \nCan u tell me its available? Amd what price with all tax?",
-    "channel_id": "1304636",
+    "message": "The apartment is available from 14 July for your month's stay. All in, you're looking at AED 4,500 for 30 nights, water, electricity, internet, and VAT included, plus a refundable AED 1,000 deposit at check-in. Want to go ahead?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "311585774",
     "contact_name": "Valeri",
     "contact_identifier": "+79139671035",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
