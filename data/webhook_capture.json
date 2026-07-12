@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-12T07:41:27.149Z",
+  "ts": "2026-07-12T07:45:30.452Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303107428",
+    "type": "OUTBOUND",
+    "message_id": "4303108932",
     "ticket_id": "965588902",
-    "message": "Sure no issue",
-    "channel_id": "1304636",
+    "message": "Yes, you may proceed. However, please note that the mentioned rate is applicable for the upcoming 30 days only.\r\n\r\nFor the next 3 months, we will need to check with the management and confirm the availability and rates accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "542404560",
     "contact_name": "D",
     "contact_identifier": "+971581930902",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
