@@ -1471,3 +1471,9 @@ Please note that paying via the payment link incurs a 3.15% card processing fee 
 ## Learned (2026-07-11)
 - If a lead requests the property location, respond that viewings can be arranged after 10:00 AM only.
   (Learned from Faysal handling Mohamed yassin re Studio in Azizi Riviera 16)
+
+## Learned (2026-07-12)
+- When a lead asks for the apartment number, respond with:
+
+"Please note that we can currently confirm rates for the next 30 days only. For a 6-month stay, we will need to check with management and will have confirmed rates for you by tomorrow. Thank you for your understanding."
+  (Learned from Faysal handling D re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-city-walk-residential-city-walk-residential-building-2a-69093535.html)
