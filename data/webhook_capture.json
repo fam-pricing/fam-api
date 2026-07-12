@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-12T08:32:07.847Z",
+  "ts": "2026-07-12T08:32:53.106Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303131208",
+    "type": "OUTBOUND",
+    "message_id": "4303131565",
     "ticket_id": "963700470",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "Hi Good afternoon Ms Salima,\r\n\r\nCould you please update with the payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537335462",
     "contact_name": "salima",
     "contact_identifier": "+79991290913",
-    "parent_message_id": "4303131048",
-    "parent_ticket_id": "963700470",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
