@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-12T07:23:45.133Z",
+  "ts": "2026-07-12T07:25:58.552Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303100534",
+    "type": "OUTBOUND",
+    "message_id": "4303101731",
     "ticket_id": "965588902",
-    "message": "May I view it today?",
-    "channel_id": "1304636",
+    "message": "May I kindly know your preferred time? We will check with the team and arrange the appointment accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "542404560",
     "contact_name": "D",
     "contact_identifier": "+971581930902",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
