@@ -1477,3 +1477,7 @@ Please note that paying via the payment link incurs a 3.15% card processing fee 
 
 "Please note that we can currently confirm rates for the next 30 days only. For a 6-month stay, we will need to check with management and will have confirmed rates for you by tomorrow. Thank you for your understanding."
   (Learned from Faysal handling D re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-city-walk-residential-city-walk-residential-building-2a-69093535.html)
+
+## Learned (2026-07-12)
+- When a lead questions the rate or asks about what is included in the price, inform them that the quoted rate is valid for the next 30 days only and is fully all-inclusive, covering electricity, water, and Wi-Fi charges.
+  (Learned from Faysal handling Nitish V. re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-al-safa-al-safa-1-13851850.html)
