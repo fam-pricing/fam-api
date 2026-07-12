@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-12T09:35:57.876Z",
+  "ts": "2026-07-12T09:36:10.763Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303162718",
+    "type": "OUTBOUND",
+    "message_id": "4303162945",
     "ticket_id": "965496267",
-    "message": "Yes",
-    "channel_id": "1304636",
+    "message": "May I know starting from which date and until when you would like to make the booking",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "542382650",
     "contact_name": "Cp",
     "contact_identifier": "+971554746819",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
