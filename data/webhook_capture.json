@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-12T06:52:45.828Z",
+  "ts": "2026-07-12T06:53:46.809Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303088186",
-    "ticket_id": "965496267",
-    "message": "Can I Come  today?",
-    "channel_id": "1304636",
-    "contact_id": "542382650",
-    "contact_name": "Cp",
-    "contact_identifier": "+971554746819",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4303088488",
+    "ticket_id": "965594789",
+    "message": "Thank you for reaching out.\r\n\r\nAt the moment, we do not require this service. However, we will keep your details on file and get in touch with you should we need any assistance in the future.\r\n\r\nThank you for your understanding.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542405572",
+    "contact_name": "work",
+    "contact_identifier": "+923478571139",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
