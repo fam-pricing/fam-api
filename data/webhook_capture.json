@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-11T19:06:25.308Z",
+  "ts": "2026-07-12T00:05:57.778Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4302943225",
-    "ticket_id": "965117855",
-    "message": "Hi Fam Living Team,\n\nWe checked into the apartment today for our one-month stay and noticed that one of the beds has a large, unpleasant stain on the upholstered bed frame. It appears it wasn’t properly cleaned before our check-in.\n\nCould you please arrange for your housekeeping team to come and professionally clean it as soon as possible? We’d appreciate having this resolved promptly so the apartment is in a clean and hygienic condition for our stay.\n\nThank you, and we look forward to your prompt assistance.",
+    "type": "OUTBOUND",
+    "message_id": "4303014736",
+    "ticket_id": "965561042",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Canal Front Residences\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "542400622",
+    "contact_name": "Asia",
+    "contact_identifier": "+971585490439",
     "channel_id": "1304636",
-    "contact_id": "542138263",
-    "contact_name": "Brian",
-    "contact_identifier": "+971588425620",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
