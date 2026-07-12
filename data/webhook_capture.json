@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-12T12:27:24.787Z",
+  "ts": "2026-07-12T12:28:22.185Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4303249433",
+    "type": "INBOUND",
+    "message_id": "4303250071",
     "ticket_id": "952757044",
-    "message": "If you would like to extend your stay, we would be happy to provide you with the updated rates and assist you with arranging the extension.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "yes i want to extend my stay, but now i am confused if its fam or \"thatplace\" managing the property ?",
+    "channel_id": "585723",
     "contact_id": "536476505",
     "contact_name": "GEORGI EMILOV RAZVANSKI",
     "contact_identifier": "+447413535253",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
