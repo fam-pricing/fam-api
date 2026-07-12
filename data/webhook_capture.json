@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-12T08:39:34.952Z",
+  "ts": "2026-07-12T08:39:36.285Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303134624",
+    "type": "OUTBOUND",
+    "message_id": "4303134638",
     "ticket_id": "965610741",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "542409066",
     "contact_name": "Dr Hassan Ayoub",
     "contact_identifier": "+971503838088",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
