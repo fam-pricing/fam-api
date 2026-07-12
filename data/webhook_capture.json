@@ -1,18 +1,20 @@
 {
-  "ts": "2026-07-12T08:20:46.517Z",
+  "ts": "2026-07-12T08:20:59.537Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303125354",
-    "ticket_id": "965601815",
-    "message": "Thank you",
-    "channel_id": "883603",
-    "contact_id": "542406948",
-    "contact_name": "Daniyar",
-    "contact_email": "idt@miacapital.net",
-    "contact_identifier": "fce463c3-1b31-4574-2145-ce8a99b3b11e",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4303125421",
+    "ticket_id": "965607889",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nStudio in Azizi Riviera 16\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "542408515",
+    "contact_name": "Interior Architect Ameer",
+    "contact_identifier": "+971567697919",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
