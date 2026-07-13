@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-13T11:01:51.264Z",
+  "ts": "2026-07-13T11:01:50.800Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4303931185",
-    "ticket_id": "965847486",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "542469382",
-    "contact_name": "أرك",
-    "contact_identifier": "+5215511301976",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4303931148",
+    "ticket_id": "965136102",
+    "message": "You can smoke in the balconies",
+    "channel_id": "585723",
+    "contact_id": "542281499",
+    "contact_name": "Gaurav Yadav",
+    "contact_identifier": "+971564676937",
+    "event_type": "INBOUND"
   }
 }
