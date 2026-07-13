@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T09:44:57.751Z",
+  "ts": "2026-07-13T09:45:13.234Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303830952",
-    "ticket_id": "958622053",
-    "message": "Can you send me the link of payment for next month",
+    "type": "OUTBOUND",
+    "message_id": "4303831310",
+    "ticket_id": "965595833",
+    "message": "Rent payment link - https://totalpay.ae/payment/20260713386a54b34a8c8a2\r\n\r\nSecurity deposit - https://totalpay.ae/payment/20260713446a54b38ca6cc9",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542405792",
+    "contact_name": "Alanoud Alameri",
+    "contact_identifier": "+971508058455",
     "channel_id": "585723",
-    "contact_id": "537401267",
-    "contact_name": "Shaker Mousa",
-    "contact_identifier": "+971588929205",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
