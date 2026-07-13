@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T08:56:36.359Z",
+  "ts": "2026-07-13T09:06:00.263Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303766718",
+    "type": "OUTBOUND",
+    "message_id": "4303779301",
     "ticket_id": "965588902",
-    "message": "Here is my email",
-    "channel_id": "1304636",
+    "message": "Unfortunately, we sincerely apologize for the inconvenience. We have just received another confirmed booking from another platform for the unit you viewed, and as a result, the apartment is no longer available.\r\n\r\nWe truly appreciate your interest and apologize that we are unable to proceed with this unit.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "542404560",
     "contact_name": "D",
     "contact_identifier": "+971581930902",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
