@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T09:55:49.730Z",
+  "ts": "2026-07-13T09:56:03.590Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303845281",
-    "ticket_id": "965823134",
-    "message": "2000aed security deposit are included in the 11 300aed ?",
+    "type": "OUTBOUND",
+    "message_id": "4303845599",
+    "ticket_id": "965826147",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in City Walk B22\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "536887219",
+    "contact_name": "Mahyar Kh",
+    "contact_identifier": "+971561077070",
     "channel_id": "1304636",
-    "contact_id": "542462599",
-    "contact_name": "Sihame R.B",
-    "contact_identifier": "+971585045742",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
