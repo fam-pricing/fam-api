@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T06:39:28.403Z",
+  "ts": "2026-07-13T06:39:45.558Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303606096",
-    "ticket_id": "965287357",
-    "message": "Good morning \nCan you send me please invoice for payment?",
+    "type": "OUTBOUND",
+    "message_id": "4303606343",
+    "ticket_id": "965695975",
+    "message": "Could you please share the EID or passport to arrange the viewing and a preferred time",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542083361",
+    "contact_name": "Jaspreet Malhotra",
+    "contact_identifier": "+971502120803",
     "channel_id": "1304636",
-    "contact_id": "538375001",
-    "contact_name": "Timur Aghayev",
-    "contact_identifier": "+971561630343",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
