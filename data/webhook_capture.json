@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T09:24:48.166Z",
+  "ts": "2026-07-13T09:25:21.405Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303804745",
-    "ticket_id": "965815037",
-    "message": "Looking for a studio to rent",
-    "channel_id": "1304636",
-    "contact_id": "542460322",
-    "contact_name": "Aloosh",
-    "contact_identifier": "+971508006209",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4303805420",
+    "ticket_id": "965777719",
+    "message": "May I know from whom you have received the rates please?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542449978",
+    "contact_name": "Reina Hajar",
+    "contact_identifier": "+971581638008",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
