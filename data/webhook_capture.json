@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-13T08:15:10.071Z",
+  "ts": "2026-07-13T08:15:16.929Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4303713048",
-    "ticket_id": "965117855",
-    "message": "Thank you for the confirmation and for the washing machine. We are checking with the owner if it's still under warranty or not yet",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "542138263",
-    "contact_name": "Brian",
-    "contact_identifier": "+971588425620",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4303713266",
+    "ticket_id": "965777719",
+    "message": "Short term first for 3 months",
+    "channel_id": "585723",
+    "contact_id": "542449978",
+    "contact_name": "Reina Hajar",
+    "contact_identifier": "+971581638008",
+    "parent_message_id": "4303711781",
+    "parent_ticket_id": "965777719",
+    "event_type": "INBOUND"
   }
 }
