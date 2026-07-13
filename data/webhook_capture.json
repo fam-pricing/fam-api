@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T14:11:39.045Z",
+  "ts": "2026-07-13T14:13:16.247Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4304176916",
+    "type": "OUTBOUND",
+    "message_id": "4304178941",
     "ticket_id": "965427246",
-    "message": "I will pay monthly but just to make sure it will be blocked out on the calendar right?",
-    "channel_id": "1304636",
+    "message": "In order to secure and block the unit for you, you will need to complete the payment for the first and last month’s rent in advance.\r\n\r\nAlternatively, we can proceed with monthly extensions; however, please note that all extensions will be subject to availability at the time of renewal.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "542363829",
     "contact_name": "M",
     "contact_identifier": "+31655135580",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
