@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-13T06:41:38.330Z",
+  "ts": "2026-07-13T06:41:45.887Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4303607759",
-    "ticket_id": "965561042",
-    "message": "Please note that the yearly rate for this apartment is AED 250,000",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "542400622",
-    "contact_name": "Asia",
-    "contact_identifier": "+971585490439",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4303607842",
+    "ticket_id": "964066792",
+    "message": "Thank you. Before I confirm whether I’ve checked out, could you please let me know what the process is for shortening my booking?",
+    "channel_id": "585723",
+    "contact_id": "541963120",
+    "contact_name": "Kosar",
+    "contact_identifier": "+971542289493",
+    "event_type": "INBOUND"
   }
 }
