@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-13T13:39:21.332Z",
+  "ts": "2026-07-13T13:40:53.840Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4304133967",
+    "type": "INBOUND",
+    "message_id": "4304135991",
     "ticket_id": "965695975",
-    "message": "Door code. - 8080",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Code is not 8080",
+    "channel_id": "1304636",
     "contact_id": "542083361",
     "contact_name": "Jaspreet Malhotra",
     "contact_identifier": "+971502120803",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
