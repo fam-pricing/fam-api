@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-13T14:02:11.748Z",
+  "ts": "2026-07-13T14:02:47.060Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4304164031",
+    "type": "INBOUND",
+    "message_id": "4304164803",
     "ticket_id": "959922206",
-    "message": "Grande apartment is not available as we have a booking in the apartment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "So only 1 apartment you'll have available in that building?",
+    "channel_id": "585723",
     "contact_id": "540782735",
     "contact_name": "CH",
     "contact_identifier": "+971554697117",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
