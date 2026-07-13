@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T13:33:06.497Z",
+  "ts": "2026-07-13T13:35:04.256Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4304125889",
-    "ticket_id": "965695975",
-    "message": "Hi i am waiting for your response?",
-    "channel_id": "1304636",
-    "contact_id": "542083361",
-    "contact_name": "Jaspreet Malhotra",
-    "contact_identifier": "+971502120803",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4304128492",
+    "ticket_id": "959922206",
+    "message": "Unfortunately, the apartment you inquired about is no longer available, as we have received another confirmed booking.\r\n\r\nWe apologize for any inconvenience caused and appreciate your understanding.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540782735",
+    "contact_name": "CH",
+    "contact_identifier": "+971554697117",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
