@@ -1508,3 +1508,7 @@ To fully secure and block the unit for you, payment for the first and last month
 
 Alternatively, we can proceed on a month-to-month basis with rolling extensions. Please note, however, that each extension is subject to availability at the time of renewal.
   (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-vida-residences-dubai-mall-vida-dubai-mall-tower-2-69498164.html)
+
+## Learned (2026-07-13)
+- When a lead asks whether they are required to pay both amounts, confirm that payment of both the first and last month is required to secure the unit.
+  (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-vida-residences-dubai-mall-vida-dubai-mall-tower-2-69498164.html)
