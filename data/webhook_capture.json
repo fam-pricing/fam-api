@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T18:40:35.251Z",
+  "ts": "2026-07-13T18:40:57.483Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4304435044",
+    "type": "OUTBOUND",
+    "message_id": "4304435250",
     "ticket_id": "965968515",
-    "message": "This is including dewa wifi right?",
-    "channel_id": "1304636",
+    "message": "Yes, DEWA and WiFi are both included in the AED 3,999/month.\n\nWould you like to go ahead and arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542511953",
     "contact_name": "Roaa Eid- رؤى",
     "contact_identifier": "+971566488923",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
