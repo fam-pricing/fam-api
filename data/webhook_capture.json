@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T14:02:47.060Z",
+  "ts": "2026-07-13T14:03:23.985Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4304164803",
+    "type": "OUTBOUND",
+    "message_id": "4304165586",
     "ticket_id": "959922206",
-    "message": "So only 1 apartment you'll have available in that building?",
-    "channel_id": "585723",
+    "message": "Yes we have only one unit available in this building",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540782735",
     "contact_name": "CH",
     "contact_identifier": "+971554697117",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
