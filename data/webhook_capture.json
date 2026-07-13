@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T13:39:10.702Z",
+  "ts": "2026-07-13T13:39:21.332Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4304133763",
+    "type": "OUTBOUND",
+    "message_id": "4304133967",
     "ticket_id": "965695975",
-    "message": "Is the apt open?",
-    "channel_id": "1304636",
+    "message": "Door code. - 8080",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "542083361",
     "contact_name": "Jaspreet Malhotra",
     "contact_identifier": "+971502120803",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
