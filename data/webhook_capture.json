@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T11:30:04.302Z",
+  "ts": "2026-07-13T11:30:20.280Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303967104",
-    "ticket_id": "943680486",
-    "message": "Do you have any available apartment?",
+    "type": "OUTBOUND",
+    "message_id": "4303967540",
+    "ticket_id": "965136102",
+    "message": "Please mention fami living and our helpline number",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "542281499",
+    "contact_name": "Gaurav Yadav",
+    "contact_identifier": "+971564676937",
     "channel_id": "585723",
-    "contact_id": "536421245",
-    "contact_name": "Ahmed Ben Saad",
-    "contact_identifier": "+971524484287",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
