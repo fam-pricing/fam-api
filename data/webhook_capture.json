@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T10:43:36.275Z",
+  "ts": "2026-07-13T10:45:55.510Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303908994",
-    "ticket_id": "965136102",
-    "message": "Audio",
-    "channel_id": "585723",
-    "contact_id": "542281499",
-    "contact_name": "Gaurav Yadav",
-    "contact_identifier": "+971564676937",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4303911999",
+    "ticket_id": "965588902",
+    "message": "Unfortunately, we are unable to arrange a viewing at this time, as the apartment is currently occupied by an in-house guest who is scheduled to check out on 28 July. If the guest does not extend their stay, we will be happy to arrange a viewing after their departure.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542404560",
+    "contact_name": "D",
+    "contact_identifier": "+971581930902",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
