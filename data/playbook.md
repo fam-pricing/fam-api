@@ -1500,3 +1500,11 @@ Once we receive the above, we will send you a registration card to sign and retu
 ## Learned (2026-07-13)
 - If a lead asks whether the 3.1% fee applies, clarify that the 3.1% is not charged on the security deposit, as the security deposit is fully refundable.
   (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-vida-residences-dubai-mall-vida-dubai-mall-tower-2-69498164.html)
+
+## Learned (2026-07-13)
+- If a lead confirms they want to pay monthly and asks whether the unit will be blocked on the calendar, respond as follows:
+
+To fully secure and block the unit for you, payment for the first and last month's rent is required in advance.
+
+Alternatively, we can proceed on a month-to-month basis with rolling extensions. Please note, however, that each extension is subject to availability at the time of renewal.
+  (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-vida-residences-dubai-mall-vida-dubai-mall-tower-2-69498164.html)
