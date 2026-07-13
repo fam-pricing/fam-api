@@ -6082,5 +6082,17 @@
     "lead_quality": 60,
     "buying_stage": "WARM",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-07-13T08:52:51.017Z",
+    "ticket_id": 965767116,
+    "lead_id": "message_lead_30555884",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 37479,
+    "critic_pass": null,
+    "lead_quality": 60,
+    "buying_stage": "WARM",
+    "skip_reason": "Lead has asked multiple questions across many messages: photos of the unit, higher floor availability, location, twin/single beds instead of king in the 1BR Upper Crest, 1-year contract interest, and pricing. Faysal already answered some of these manually but conversation is complex and lead is asking about higher floor availability and bed configuration changes that require property-specific knowledge I don't have. Need Faysal to confirm: (1) whether a higher floor unit is available in Upper Crest, (2) whether twin beds can be arranged instead of king in the 1BR, and (3) photos/listing link for Upper Crest 1BR."
   }
 ]
