@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T11:42:03.694Z",
+  "ts": "2026-07-13T11:42:37.527Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303983035",
-    "ticket_id": "965860535",
-    "message": "I would like to rent 2 months starting 25th July",
-    "channel_id": "1304636",
-    "contact_id": "542474106",
-    "contact_name": "Zeina",
-    "contact_identifier": "+971569650382",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4303983685",
+    "ticket_id": "958622053",
+    "message": "May I know for how long please?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537401267",
+    "contact_name": "Shaker Mousa",
+    "contact_identifier": "+971588929205",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
