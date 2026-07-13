@@ -1,77 +1,5 @@
 [
   {
-    "ts": "2026-07-05T19:45:04.919Z",
-    "ticket_id": 963921351,
-    "lead_id": "message_lead_30403193",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 740,
-    "critic_pass": null,
-    "lead_quality": 25,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-05T19:52:31.298Z",
-    "ticket_id": 963924184,
-    "lead_id": "message_lead_30403543",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 16671,
-    "critic_pass": null,
-    "lead_quality": 10,
-    "buying_stage": "COLD",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-07-05T19:53:41.736Z",
-    "ticket_id": 963924184,
-    "lead_id": "message_lead_30403543",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 912,
-    "critic_pass": null,
-    "lead_quality": 10,
-    "buying_stage": "COLD",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-05T19:53:43.641Z",
-    "ticket_id": 963924184,
-    "lead_id": "message_lead_30403543",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 21188,
-    "critic_pass": null,
-    "lead_quality": 25,
-    "buying_stage": "COOL",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-07-05T20:16:21.083Z",
-    "ticket_id": 963925855,
-    "lead_id": "message_lead_30403780",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1024,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-05T20:16:25.185Z",
-    "ticket_id": 963925855,
-    "lead_id": "message_lead_30403780",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 21021,
-    "critic_pass": null,
-    "lead_quality": 30,
-    "buying_stage": "COOL",
-    "skip_reason": null
-  },
-  {
     "ts": "2026-07-06T05:32:02.488Z",
     "ticket_id": 963955574,
     "lead_id": "message_lead_30405866",
@@ -5733,6 +5661,18 @@
     "critic_pass": null,
     "lead_quality": null,
     "buying_stage": null,
+    "skip_reason": null
+  },
+  {
+    "ts": "2026-07-13T04:52:31.433Z",
+    "ticket_id": 965748267,
+    "lead_id": "message_lead_30554126",
+    "action": "reply",
+    "tool_used": "send_reply",
+    "response_time_ms": 43901,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
     "skip_reason": null
   }
 ]
