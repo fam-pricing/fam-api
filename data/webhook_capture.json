@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T09:11:43.522Z",
+  "ts": "2026-07-13T09:12:36.391Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303787128",
+    "type": "OUTBOUND",
+    "message_id": "4303788217",
     "ticket_id": "965595833",
-    "message": "How many time try call you and wait for you call \nNo bady call \nWhen i call line busy",
-    "channel_id": "585723",
+    "message": "Please note that we have not yet received the payment; therefore, the booking remains unconfirmed at this stage.\r\n\r\nKindly be advised that there is no one available at the building to collect the payment. You will need to complete the payment through the payment link in order to confirm your booking.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "542405792",
     "contact_name": "Alanoud Alameri",
     "contact_identifier": "+971508058455",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
