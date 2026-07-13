@@ -1496,3 +1496,7 @@ Please note that paying via the payment link incurs a 3.15% card processing fee 
 
 Once we receive the above, we will send you a registration card to sign and return. After that, your self-check-in details will be sent to you promptly."
   (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-vida-residences-dubai-mall-vida-dubai-mall-tower-2-69498164.html)
+
+## Learned (2026-07-13)
+- If a lead asks whether the 3.1% fee applies, clarify that the 3.1% is not charged on the security deposit, as the security deposit is fully refundable.
+  (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-vida-residences-dubai-mall-vida-dubai-mall-tower-2-69498164.html)
