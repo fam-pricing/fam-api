@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-13T14:25:36.658Z",
+  "ts": "2026-07-13T14:32:58.839Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4304195019",
-    "ticket_id": "965427246",
-    "message": "Please find the booking confirmation for the first month\r\n\r\nOnce the payment is completed, we will proceed with blocking the unit under your name and share the confirmation details for the remaining months accordingly.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "542363829",
-    "contact_name": "M",
-    "contact_identifier": "+31655135580",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4304204495",
+    "ticket_id": "965595833",
+    "message": "Document",
+    "channel_id": "585723",
+    "contact_id": "542405792",
+    "contact_name": "Alanoud Alameri",
+    "contact_identifier": "+971508058455",
+    "event_type": "INBOUND"
   }
 }
