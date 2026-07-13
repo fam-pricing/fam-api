@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-13T07:11:41.849Z",
+  "ts": "2026-07-13T07:11:56.104Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4303637308",
+    "type": "INBOUND",
+    "message_id": "4303637560",
     "ticket_id": "959587621",
-    "message": "Or the connection is still pending?",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "I didnt install it yet, will share in the evening",
+    "channel_id": "585723",
     "contact_id": "540691470",
     "contact_name": "ramiza",
     "contact_identifier": "+971566548614",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4303636459",
+    "parent_ticket_id": "959587621",
+    "event_type": "INBOUND"
   }
 }
