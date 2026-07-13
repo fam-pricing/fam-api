@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-13T12:27:50.885Z",
+  "ts": "2026-07-13T12:28:23.082Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4304041171",
+    "type": "INBOUND",
+    "message_id": "4304041791",
     "ticket_id": "965588902",
-    "message": "Yes, if you would like to proceed with the reservation starting from 27 August, we can share the payment link for the security deposit.\r\n\r\nOnce the payment is completed, we will proceed with confirming your booking.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Ok",
+    "channel_id": "1304636",
     "contact_id": "542404560",
     "contact_name": "D",
     "contact_identifier": "+971581930902",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
