@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-13T04:55:52.212Z",
+  "ts": "2026-07-13T04:55:52.144Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4303557521",
+    "type": "INBOUND",
+    "message_id": "4303557486",
     "ticket_id": "965748267",
-    "message": "Apologies for any inconvenience. Let me get someone from the team to assist you personally.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Show me the one in Al Barsha",
+    "channel_id": "1304636",
     "contact_id": "542442913",
     "contact_name": "~ Nana ~",
     "contact_identifier": "+971588907233",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4303557235",
+    "parent_ticket_id": "965748267",
+    "event_type": "INBOUND"
   }
 }
