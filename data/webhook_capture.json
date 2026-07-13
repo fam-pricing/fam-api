@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T07:08:19.242Z",
+  "ts": "2026-07-13T07:09:06.777Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303633289",
-    "ticket_id": "964066792",
-    "message": "Thank you. Just to confirm, there won’t be any penalty or deduction from my security deposit for shortening the booking, correct?",
+    "type": "OUTBOUND",
+    "message_id": "4303634285",
+    "ticket_id": "959587621",
+    "message": "Hello Ms Ramiza good morning",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "540691470",
+    "contact_name": "ramiza",
+    "contact_identifier": "+971566548614",
     "channel_id": "585723",
-    "contact_id": "541963120",
-    "contact_name": "Kosar",
-    "contact_identifier": "+971542289493",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
