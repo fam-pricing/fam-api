@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T10:07:01.672Z",
+  "ts": "2026-07-13T10:07:40.510Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303861451",
+    "type": "OUTBOUND",
+    "message_id": "4303862314",
     "ticket_id": "965823134",
-    "message": "Please I need to book now so I can go",
-    "channel_id": "1304636",
+    "message": "To get you booked right now, just send over your ID or passport and your email address and I'll send the payment link straight away.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542462599",
     "contact_name": "Sihame R.B",
     "contact_identifier": "+971585045742",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
