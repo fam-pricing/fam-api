@@ -1485,3 +1485,14 @@ Please note that paying via the payment link incurs a 3.15% card processing fee 
 ## Learned (2026-07-13)
 - If a lead asks to move in immediately, inform them that access to the property will only be granted after two steps are completed: payment must be processed first, followed by the check-in process. Until both steps are finished, access cannot be provided.
   (Learned from Faysal handling Alim re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-07-13)
+- When the lead confirms they want to proceed, send the following message:
+
+"To complete your self-check-in setup, we will need the following from you:
+
+1. A copy of your passport
+2. Your email address
+
+Once we receive the above, we will send you a registration card to sign and return. After that, your self-check-in details will be sent to you promptly."
+  (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-vida-residences-dubai-mall-vida-dubai-mall-tower-2-69498164.html)
