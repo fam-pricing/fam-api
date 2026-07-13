@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T06:26:43.923Z",
+  "ts": "2026-07-13T06:28:30.406Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303596871",
-    "ticket_id": "965588902",
-    "message": "Can I speak with an agent please on the phone",
+    "type": "OUTBOUND",
+    "message_id": "4303598146",
+    "ticket_id": "965427246",
+    "message": "Unfortunately we are unable to reduce the rate further",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542363829",
+    "contact_name": "M",
+    "contact_identifier": "+31655135580",
     "channel_id": "1304636",
-    "contact_id": "542404560",
-    "contact_name": "D",
-    "contact_identifier": "+971581930902",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
