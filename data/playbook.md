@@ -1512,3 +1512,9 @@ Alternatively, we can proceed on a month-to-month basis with rolling extensions.
 ## Learned (2026-07-13)
 - When a lead asks whether they are required to pay both amounts, confirm that payment of both the first and last month is required to secure the unit.
   (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-vida-residences-dubai-mall-vida-dubai-mall-tower-2-69498164.html)
+
+## Learned (2026-07-13)
+- If a lead mentions images or asks to see photos of the unit, respond with the following:
+
+"Once we receive your payment, we will reserve and block the unit for you. Please note that we are unable to hold or block the unit without payment, as availability is subject to change."
+  (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-vida-residences-dubai-mall-vida-dubai-mall-tower-2-69498164.html)
