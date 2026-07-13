@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T09:26:58.989Z",
+  "ts": "2026-07-13T09:27:26.441Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303807361",
+    "type": "OUTBOUND",
+    "message_id": "4303807892",
     "ticket_id": "965777719",
-    "message": "Audio",
-    "channel_id": "585723",
+    "message": "Door code - 8080",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "542449978",
     "contact_name": "Reina Hajar",
     "contact_identifier": "+971581638008",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
