@@ -1481,3 +1481,7 @@ Please note that paying via the payment link incurs a 3.15% card processing fee 
 ## Learned (2026-07-12)
 - When a lead questions the rate or asks about what is included in the price, inform them that the quoted rate is valid for the next 30 days only and is fully all-inclusive, covering electricity, water, and Wi-Fi charges.
   (Learned from Faysal handling Nitish V. re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-al-safa-al-safa-1-13851850.html)
+
+## Learned (2026-07-13)
+- If a lead asks to move in immediately, inform them that access to the property will only be granted after two steps are completed: payment must be processed first, followed by the check-in process. Until both steps are finished, access cannot be provided.
+  (Learned from Faysal handling Alim re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
