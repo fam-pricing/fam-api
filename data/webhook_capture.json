@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T13:47:26.425Z",
+  "ts": "2026-07-13T13:47:23.974Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4304144799",
-    "ticket_id": "959922206",
-    "message": "1 bedroom apartment",
-    "channel_id": "585723",
-    "contact_id": "540782735",
-    "contact_name": "CH",
-    "contact_identifier": "+971554697117",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4304144749",
+    "ticket_id": "965695975",
+    "message": "Rent will be AED 4000 for the next 30 days may I know for how long you are looking for?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542083361",
+    "contact_name": "Jaspreet Malhotra",
+    "contact_identifier": "+971502120803",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
