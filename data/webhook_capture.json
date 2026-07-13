@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-13T11:13:33.435Z",
+  "ts": "2026-07-13T11:15:04.749Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4303945952",
-    "ticket_id": "965637864",
-    "message": "As I didn't hear back from you in a while, I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "542416066",
-    "contact_name": "Nada",
-    "contact_identifier": "+971553117311",
+    "type": "INBOUND",
+    "message_id": "4303947951",
+    "ticket_id": "965777719",
+    "message": "Yes but no one will accept to stay in a place under instructions like this everyday",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "542449978",
+    "contact_name": "Reina Hajar",
+    "contact_identifier": "+971581638008",
+    "parent_message_id": "4303939827",
+    "parent_ticket_id": "965777719",
+    "event_type": "INBOUND"
   }
 }
