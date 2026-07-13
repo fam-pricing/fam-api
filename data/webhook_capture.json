@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-13T10:22:38.827Z",
+  "ts": "2026-07-13T10:22:57.103Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303882373",
-    "ticket_id": "965823134",
-    "message": "Yes please send me the payment link",
-    "channel_id": "1304636",
-    "contact_id": "542462599",
-    "contact_name": "Sihame R.B",
-    "contact_identifier": "+971585045742",
-    "parent_message_id": "4303881856",
-    "parent_ticket_id": "965823134",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4303882778",
+    "ticket_id": "950782093",
+    "message": "Thank you for your update",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "538221049",
+    "contact_name": "Safae Idrissi",
+    "contact_identifier": "+971509882729",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
