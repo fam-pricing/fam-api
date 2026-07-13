@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-13T08:01:58.657Z",
+  "ts": "2026-07-13T08:02:14.603Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4303696567",
-    "ticket_id": "965588902",
-    "message": "I’m interested in booking with your agency for a confirmed 6 month stay. Since it will be a long-term rental with guaranteed occupancy, I was wondering if you could offer your best rate or a special long-term price.\n\nI would appreciate it if you could let me know what the best offer would be. Thank you.",
-    "channel_id": "1304636",
-    "contact_id": "542404560",
-    "contact_name": "D",
-    "contact_identifier": "+971581930902",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4303696941",
+    "ticket_id": "965786780",
+    "message": "Yes, Sure. May I kindly know the required start date, the expected duration of your stay and the number of bedrooms you are looking for?\r\n\r\nThis will help us assist you accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542452501",
+    "contact_name": "A.",
+    "contact_identifier": "+15143787087",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
