@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-14T13:15:18.385Z",
+  "ts": "2026-07-14T13:15:42.776Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4305187250",
+    "type": "OUTBOUND",
+    "message_id": "4305187789",
     "ticket_id": "963149889",
-    "message": "Good afternoon",
-    "channel_id": "585723",
+    "message": "Hello Anver,\r\n\r\nWe hope you are doing well.\r\n\r\nWe have received a request from the owner to arrange a quick viewing of the apartment tomorrow, 15th July, in the morning at a time that is convenient for you.\r\n\r\nCould you please let us know if this would be suitable for you?\r\n\r\nThank you for your cooperation and understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "541688038",
     "contact_name": "Anver MARTYNOV",
     "contact_identifier": "+971505570895",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
