@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-14T17:05:01.636Z",
+  "ts": "2026-07-14T17:05:55.960Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4305422945",
-    "ticket_id": "966202916",
-    "message": "And what are the total costs please",
+    "type": "OUTBOUND",
+    "message_id": "4305423777",
+    "ticket_id": "966188172",
+    "message": "Good evening Akram,\r\n\r\nOur team has informed us that there is a pending payment for one day’s rent, amounting to AED 446.50. Additionally, as the access card was misplaced, a replacement charge of AED 500 has been applied.\r\n\r\nThe total outstanding amount is AED 946.50.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536827119",
+    "contact_name": "Akram GHEZAL",
+    "contact_identifier": "+33677542023",
     "channel_id": "1304636",
-    "contact_id": "542589515",
-    "contact_name": "Denis",
-    "contact_identifier": "+971552693947",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
