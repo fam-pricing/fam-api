@@ -6118,5 +6118,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-07-14T15:30:23.986Z",
+    "ticket_id": 965427246,
+    "lead_id": "message_lead_30517269",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 965,
+    "critic_pass": null,
+    "lead_quality": 60,
+    "buying_stage": "WARM",
+    "skip_reason": "bot_paused"
   }
 ]
