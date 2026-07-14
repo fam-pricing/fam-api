@@ -1518,3 +1518,7 @@ Alternatively, we can proceed on a month-to-month basis with rolling extensions.
 
 "Once we receive your payment, we will reserve and block the unit for you. Please note that we are unable to hold or block the unit without payment, as availability is subject to change."
   (Learned from Faysal handling M re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-vida-residences-dubai-mall-vida-dubai-mall-tower-2-69498164.html)
+
+## Learned (2026-07-14)
+- When a lead asks whether the quoted rate includes all charges, confirm that it covers all taxes, VAT, DTCM fees, and utility bills (electricity, water, and Wi-Fi). Also inform them that any additional cleaning services requested during their stay will be subject to extra charges.
+  (Learned from Faysal handling Zeina re Studio in Azizi Riviera 16)
