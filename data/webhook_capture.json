@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-14T18:11:34.335Z",
+  "ts": "2026-07-14T18:12:02.470Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4305466514",
+    "type": "INBOUND",
+    "message_id": "4305466876",
     "ticket_id": "963505285",
-    "message": "The deposit will be refunded using the same payment method that was used to make the payment.\r\n\r\nIf the payment was made by cash, the refund will be provided in cash. If the payment was made through a payment link, the refund will be processed back to the same card used for the payment.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "2,000 was made in payment link",
+    "channel_id": "585723",
     "contact_id": "541802779",
     "contact_name": "Atahar Ishraque Chowdhury",
     "contact_identifier": "+8801764511515",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
