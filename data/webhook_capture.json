@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-14T07:50:05.095Z",
+  "ts": "2026-07-14T07:50:39.248Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4304730800",
+    "type": "INBOUND",
+    "message_id": "4304731430",
     "ticket_id": "965287357",
-    "message": "Could you please share the payment receipt with us so that I can forward it to our finance team for verification and update you accordingly?\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Document",
+    "channel_id": "1304636",
     "contact_id": "538375001",
     "contact_name": "Timur Aghayev",
     "contact_identifier": "+971561630343",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
