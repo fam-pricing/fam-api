@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-14T05:42:11.924Z",
+  "ts": "2026-07-14T05:42:44.288Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4304629889",
+    "type": "OUTBOUND",
+    "message_id": "4304630076",
     "ticket_id": "966035315",
-    "message": "Hello dear good morning. My name is Maria. My client is looking for a for 2 bedroom to stay per 6 months. Starting from 30 of July. It’s this available?",
-    "channel_id": "1304636",
+    "message": "Good morning, Maria! The 2BR in City Walk B22 is available from July 30 at AED 12,000/month all-inclusive. One thing to flag, for a 6-month stay, we can hold the rate for the first 3 months, and the second half would be confirmed closer to the time based on market conditions. Is your client happy with that structure?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "541278284",
     "contact_name": "Mary Almeida",
     "contact_identifier": "+971527033745",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
