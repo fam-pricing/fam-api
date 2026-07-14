@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-14T05:45:35.878Z",
+  "ts": "2026-07-14T05:46:22.839Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4304631000",
-    "ticket_id": "966035315",
-    "message": "Here's the full cost breakdown for your client, Maria:\n\nSecurity deposit: AED 2,000 (refundable within 14 working days after check-out)\nFirst + last month upfront: AED 24,000\nTotal on day one: AED 26,000, then AED 12,000/month from month 2\n\nOn the 3-month question, the rate is locked at AED 12,000 for months 1 to 3. Months 4 to 6 get reviewed based on market at that point, but we confirm the new rate before it kicks in. Is she happy to go ahead on that basis?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "541278284",
-    "contact_name": "Mary Almeida",
-    "contact_identifier": "+971527033745",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4304631408",
+    "ticket_id": "964976613",
+    "message": "hi pls confirm that this is done for apartment 503 - 3B",
+    "channel_id": "585723",
+    "contact_id": "542233915",
+    "contact_name": "Mariella Lardizabal",
+    "contact_identifier": "+971506135069",
+    "event_type": "INBOUND"
   }
 }
