@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-14T14:11:37.136Z",
+  "ts": "2026-07-14T14:11:45.677Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4305256452",
+    "type": "INBOUND",
+    "message_id": "4305256746",
     "ticket_id": "966188155",
-    "message": "it will be self viewing Ayaki",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "542582198",
     "contact_name": "AYAKI HAMADA / أياكي حمادة",
     "contact_identifier": "+971585693754",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4305256452",
+    "parent_ticket_id": "966188155",
+    "event_type": "INBOUND"
   }
 }
