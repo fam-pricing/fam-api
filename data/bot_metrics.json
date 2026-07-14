@@ -1,101 +1,5 @@
 [
   {
-    "ts": "2026-07-06T23:00:54.086Z",
-    "ticket_id": 964235449,
-    "lead_id": "message_lead_30428720",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 16589,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-07-07T03:51:12.855Z",
-    "ticket_id": 964255926,
-    "lead_id": "message_lead_30429702",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 27615,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "Lead asking for: (1) specific floor number of the 3BR in Creek Gate Tower 1 — not in portfolio data, cannot confirm; (2) actual/additional photos beyond the listing; (3) a video walkthrough of the unit — per rules, video requests must be escalated immediately. Need Faysal to handle all three and confirm July 15–August 14 availability."
-  },
-  {
-    "ts": "2026-07-07T03:51:54.581Z",
-    "ticket_id": 964255926,
-    "lead_id": "message_lead_30429702",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1004,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-07T04:28:55.515Z",
-    "ticket_id": 964255926,
-    "lead_id": "message_lead_30429702",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 802,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-07T05:06:22.321Z",
-    "ticket_id": 964263314,
-    "lead_id": "message_lead_30430360",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1042,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-07T05:08:36.473Z",
-    "ticket_id": 963977902,
-    "lead_id": "message_lead_30407676",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 889,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-07T05:08:52.336Z",
-    "ticket_id": 963977902,
-    "lead_id": "message_lead_30407676",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 799,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-07T05:09:03.654Z",
-    "ticket_id": 963977902,
-    "lead_id": "message_lead_30407676",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 774,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-07-07T05:40:00.353Z",
     "ticket_id": 963977902,
     "lead_id": "message_lead_30407676",
@@ -6310,5 +6214,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-07-14T05:12:19.508Z",
+    "ticket_id": 965588902,
+    "lead_id": "message_lead_30536302",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 778,
+    "critic_pass": null,
+    "lead_quality": 75,
+    "buying_stage": "HOT",
+    "skip_reason": "bot_paused"
   }
 ]
