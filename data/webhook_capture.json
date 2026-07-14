@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-14T08:04:45.187Z",
+  "ts": "2026-07-14T08:05:24.901Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4304748675",
-    "ticket_id": "965695975",
-    "message": "If you would like to book the apartment for 12 months, the total rate will be AED 60,000 for 360 nights. A security deposit of AED 1,500 will also be required.\r\n\r\nPlease note that the booking will be calculated as 30 nights per month.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542083361",
-    "contact_name": "Jaspreet Malhotra",
-    "contact_identifier": "+971502120803",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4304749366",
+    "ticket_id": "965854418",
+    "message": "How many rooms do you have available?",
+    "channel_id": "585723",
+    "contact_id": "542471873",
+    "contact_name": ".",
+    "contact_identifier": "+971506640407",
+    "event_type": "INBOUND"
   }
 }
