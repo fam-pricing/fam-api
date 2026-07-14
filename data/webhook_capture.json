@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-14T12:13:49.410Z",
+  "ts": "2026-07-14T12:34:48.208Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4305114879",
+    "type": "OUTBOUND",
+    "message_id": "4305140319",
     "ticket_id": "963505285",
-    "message": "I can do the payment",
-    "channel_id": "585723",
+    "message": "Sure, we will send you the payment link shortly",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "541802779",
     "contact_name": "Atahar Ishraque Chowdhury",
     "contact_identifier": "+8801764511515",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
