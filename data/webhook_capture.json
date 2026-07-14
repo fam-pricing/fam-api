@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-14T13:47:18.668Z",
+  "ts": "2026-07-14T13:47:38.043Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4305225725",
+    "type": "OUTBOUND",
+    "message_id": "4305226096",
     "ticket_id": "965844499",
-    "message": "Is the apartment ready ? I can move in the morning? Cause i am already hier in another apartment",
-    "channel_id": "585723",
+    "message": "May i know booking confirmation please",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542468411",
     "contact_name": "Rajaa",
     "contact_identifier": "+491729514660",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
