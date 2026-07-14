@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-14T11:28:23.043Z",
+  "ts": "2026-07-14T11:31:49.903Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4305058477",
+    "type": "OUTBOUND",
+    "message_id": "4305062572",
     "ticket_id": "966078009",
-    "message": "Ok",
-    "channel_id": "585723",
+    "message": "apartment door has been left open for you, so there is no need for a door code.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "524518372",
     "contact_name": "Wang Li fam agent",
     "contact_identifier": "+971523713260",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
