@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-14T10:54:01.176Z",
+  "ts": "2026-07-14T10:55:26.381Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4305017385",
-    "ticket_id": "958622053",
-    "message": "I will check and come back to you",
+    "type": "OUTBOUND",
+    "message_id": "4305018975",
+    "ticket_id": "966025207",
+    "message": "The total amount payable is AED 17,500, which includes:\r\n\r\nRent: AED 15,500\r\nRefundable Security Deposit: AED 2,000\r\n\r\nTotal: AED 17,500",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "542404560",
+    "contact_name": "Dalila Zillaf",
+    "contact_identifier": "+971581930902",
     "channel_id": "585723",
-    "contact_id": "537401267",
-    "contact_name": "Shaker Mousa",
-    "contact_identifier": "+971588929205",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
