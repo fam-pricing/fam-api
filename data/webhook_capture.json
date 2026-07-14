@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-14T11:25:36.064Z",
+  "ts": "2026-07-14T11:27:59.587Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4305054860",
+    "type": "OUTBOUND",
+    "message_id": "4305058036",
     "ticket_id": "966078009",
-    "message": "Will the door be open or do I need access number",
-    "channel_id": "585723",
+    "message": "let me check for you",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "524518372",
     "contact_name": "Wang Li fam agent",
     "contact_identifier": "+971523713260",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
