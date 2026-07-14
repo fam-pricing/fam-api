@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-14T09:21:48.599Z",
+  "ts": "2026-07-14T09:22:39.637Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4304863346",
-    "ticket_id": "965510713",
-    "message": "Hello ! PropertyFinder send me your contact regarding this listing:\n\nGood afternoon\n\nHow can I help you ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542386620",
-    "contact_name": "Surbhi Kanswa",
-    "contact_identifier": "+971585929930",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4304864309",
+    "ticket_id": "965854418",
+    "message": "I want a villa opposite the sea and the beach, consisting of six or five rooms, and please send the prices",
+    "channel_id": "585723",
+    "contact_id": "542471873",
+    "contact_name": ".",
+    "contact_identifier": "+971506640407",
+    "event_type": "INBOUND"
   }
 }
