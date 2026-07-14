@@ -5962,5 +5962,17 @@
     "lead_quality": 35,
     "buying_stage": "COOL",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-07-14T13:40:02.295Z",
+    "ticket_id": 966188155,
+    "lead_id": "message_lead_30588739",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 21910,
+    "critic_pass": null,
+    "lead_quality": 60,
+    "buying_stage": "WARM",
+    "skip_reason": "Lead asking about parking availability for Studio in Azizi Riviera 16. Not in portfolio data, cannot confirm without risking wrong answer. Also need to confirm 2-month stay from July 20 and all other details for Ayaki."
   }
 ]
