@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-14T07:05:56.757Z",
+  "ts": "2026-07-14T07:07:52.619Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4304682975",
+    "type": "INBOUND",
+    "message_id": "4304685146",
     "ticket_id": "966051463",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Canal Front Residences\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello",
+    "channel_id": "1304636",
     "contact_id": "541939190",
     "contact_name": "Julia Souza",
     "contact_identifier": "+558199810675",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
