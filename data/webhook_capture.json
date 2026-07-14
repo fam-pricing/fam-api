@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-14T13:19:06.562Z",
+  "ts": "2026-07-14T13:19:47.112Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4305191828",
-    "ticket_id": "963149889",
-    "message": "Okay let me check and update you",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "541688038",
-    "contact_name": "Anver MARTYNOV",
-    "contact_identifier": "+971505570895",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4305192580",
+    "ticket_id": "965427246",
+    "message": "The details are incorrect, such as the dates",
+    "channel_id": "1304636",
+    "contact_id": "542363829",
+    "contact_name": "Micah Meijer",
+    "contact_identifier": "+31655135580",
+    "parent_message_id": "4305189772",
+    "parent_ticket_id": "965427246",
+    "event_type": "INBOUND"
   }
 }
