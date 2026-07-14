@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-14T07:08:14.862Z",
+  "ts": "2026-07-14T07:08:47.430Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4304685603",
+    "type": "INBOUND",
+    "message_id": "4304686201",
     "ticket_id": "966051463",
-    "message": "Welcome to fäm Living! The 2BR in Canal Front Residences is available, what would you like to know about it?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Could you send me the link to what the property is?",
+    "channel_id": "1304636",
     "contact_id": "541939190",
     "contact_name": "Julia Souza",
     "contact_identifier": "+558199810675",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4304682975",
+    "parent_ticket_id": "966051463",
+    "event_type": "INBOUND"
   }
 }
