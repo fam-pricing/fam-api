@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-14T15:23:51.687Z",
+  "ts": "2026-07-14T15:24:01.017Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4305336604",
-    "ticket_id": "965844499",
-    "message": "As i told you i am already here in another apartment. I know this information but i asked if it is possible to check in earlier if the apartment is ready",
+    "type": "OUTBOUND",
+    "message_id": "4305336794",
+    "ticket_id": "958960990",
+    "message": "As we can see, you have made your booking through Airbnb, and your check-in date is tomorrow, 15 July.\r\n\r\nPlease note that our standard check-in time is 3:00 PM. Your check-in instructions and all the necessary details will be provided between 2:00 PM and 3:00 PM on your arrival day.\r\n\r\nThank you, and we look forward to welcoming you!",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "540519289",
+    "contact_name": "Ayda",
+    "contact_identifier": "+971507876473",
     "channel_id": "585723",
-    "contact_id": "542468411",
-    "contact_name": "Rajaa Taleh",
-    "contact_identifier": "+491729514660",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
