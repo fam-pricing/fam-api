@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-15T10:36:37.593Z",
+  "ts": "2026-07-15T10:36:59.203Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4305956243",
+    "type": "INBOUND",
+    "message_id": "4305956653",
     "ticket_id": "966398405",
-    "message": "Unfortunately, we are unable to share the contact number.\r\n\r\nHowever, please let me know how I can assist you, and I will be happy to check and help you with your request.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "give me your number",
+    "channel_id": "585723",
     "contact_id": "542641663",
     "contact_name": "Abdelrahman Aidy",
     "contact_identifier": "+971501034137",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
