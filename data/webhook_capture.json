@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-15T14:15:36.511Z",
+  "ts": "2026-07-15T14:16:44.495Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4306236887",
+    "type": "OUTBOUND",
+    "message_id": "4306239639",
     "ticket_id": "966452285",
-    "message": "20-7 to 24-7",
-    "channel_id": "585723",
+    "message": "Unfortunately this apartment is not available in your preferred dates",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "542666879",
     "contact_name": "Ibtessam",
     "contact_identifier": "+971563343340",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
