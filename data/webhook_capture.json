@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-15T05:45:32.460Z",
+  "ts": "2026-07-15T05:54:55.404Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4305662848",
+    "type": "OUTBOUND",
+    "message_id": "4305666486",
     "ticket_id": "966240175",
-    "message": "No only one nights !!!",
-    "channel_id": "1304636",
+    "message": "Please note that your initial booking was from 01 May to 31 May, totaling 30 nights. You have extended your stay until 02 June, which includes an additional 2 nights from 31 May to 02 June.\r\n\r\nKindly note that the additional charges have been calculated accordingly for the extended period",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536827119",
     "contact_name": "Akram GHEZAL",
     "contact_identifier": "+33677542023",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
