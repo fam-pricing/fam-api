@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-15T12:12:41.042Z",
+  "ts": "2026-07-15T12:15:59.070Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4306081128",
+    "type": "INBOUND",
+    "message_id": "4306084968",
     "ticket_id": "953799297",
-    "message": "You can extend the stay but need to complete the payment by the payment link as we do not accept cash",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Okay, can you please send me the payment link",
+    "channel_id": "585723",
     "contact_id": "539113443",
     "contact_name": "Darina",
     "contact_identifier": "+77781648629",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
