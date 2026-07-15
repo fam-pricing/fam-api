@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-15T06:53:08.162Z",
+  "ts": "2026-07-15T06:54:07.441Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4305702717",
-    "ticket_id": "942082281",
-    "message": "Sure I will send the payment link to complete the payment and confirm the extension",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535956059",
-    "contact_name": "Zeina Elnahas",
-    "contact_identifier": "+971523770869",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4305703494",
+    "ticket_id": "966331520",
+    "message": "I spoke to the reception team, and they advised me that access to the meeting pods downstairs near the lobby can only be arranged by the host.\n\nI have a 30-minute online meeting and would like to use one of the meeting pods.",
+    "channel_id": "1304636",
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
+    "event_type": "INBOUND"
   }
 }
