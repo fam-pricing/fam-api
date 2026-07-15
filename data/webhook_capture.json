@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-15T09:12:25.249Z",
+  "ts": "2026-07-15T09:17:08.211Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4305857221",
-    "ticket_id": "965844499",
-    "message": "Hello, still not ready ??",
+    "type": "OUTBOUND",
+    "message_id": "4305863459",
+    "ticket_id": "869581061",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "483012079",
+    "contact_name": "Mr Ali Teymour Barani",
+    "contact_identifier": "+971559817006",
     "channel_id": "585723",
-    "contact_id": "542468411",
-    "contact_name": "Rajaa Taleh",
-    "contact_identifier": "+491729514660",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
