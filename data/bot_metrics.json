@@ -1,89 +1,5 @@
 [
   {
-    "ts": "2026-07-09T08:20:58.075Z",
-    "ticket_id": 964865461,
-    "lead_id": "message_lead_30476767",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 24888,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-07-09T08:21:49.527Z",
-    "ticket_id": 964865461,
-    "lead_id": "message_lead_30476767",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 883,
-    "critic_pass": null,
-    "lead_quality": 35,
-    "buying_stage": "COOL",
-    "skip_reason": "acknowledgment_skip"
-  },
-  {
-    "ts": "2026-07-09T08:29:32.664Z",
-    "ticket_id": 964874887,
-    "lead_id": "message_lead_30477483",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 18975,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "Lead asking about availability July 16 to November 16 (4 months, beyond 3-month pricing limit). Also asking about fixed rate for the full period and closest metro station to Upper Crest. Need Faysal to confirm metro station and handle long-term pricing discussion."
-  },
-  {
-    "ts": "2026-07-09T08:31:31.052Z",
-    "ticket_id": 964874887,
-    "lead_id": "message_lead_30477483",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 895,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-09T08:51:31.386Z",
-    "ticket_id": 964842405,
-    "lead_id": "message_lead_30474910",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 852,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-09T09:10:45.020Z",
-    "ticket_id": 964668711,
-    "lead_id": "message_lead_30461253",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1106,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-07-09T09:45:31.317Z",
-    "ticket_id": 964668711,
-    "lead_id": "message_lead_30461253",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 852,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "acknowledgment_skip"
-  },
-  {
     "ts": "2026-07-09T12:32:01.723Z",
     "ticket_id": 964946460,
     "lead_id": "message_lead_30483282",
@@ -4942,5 +4858,17 @@
     "lead_quality": 15,
     "buying_stage": "COLD",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-07-16T11:00:02.467Z",
+    "ticket_id": 965968515,
+    "lead_id": "message_lead_30572932",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 777,
+    "critic_pass": null,
+    "lead_quality": 65,
+    "buying_stage": "WARM",
+    "skip_reason": "bot_paused"
   }
 ]
