@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-16T13:13:26.271Z",
+  "ts": "2026-07-16T13:13:48.243Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4307117123",
+    "type": "OUTBOUND",
+    "message_id": "4307117427",
     "ticket_id": "966609137",
-    "message": "and bank details as well",
-    "channel_id": "585723",
+    "message": "Here is the payment link for the rent: https://totalpay.ae/payment/20260716176a58d8b174a72\r\n\r\nHere is the payment link for the deposit: https://totalpay.ae/payment/20260716206a58d8f0e3f59\r\n\r\nOnce done please update us",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542703104",
     "contact_name": "Sandesh",
     "contact_identifier": "+919997048273",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
