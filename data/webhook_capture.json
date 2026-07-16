@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-16T13:59:58.516Z",
+  "ts": "2026-07-16T14:00:15.472Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4307171951",
+    "type": "OUTBOUND",
+    "message_id": "4307172349",
     "ticket_id": "966748140",
-    "message": "Will do at arrival",
-    "channel_id": "585723",
+    "message": "Please ensure this is completed before your check-in, as we need to update the building community with your details and arrange the necessary check-in access accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542748139",
     "contact_name": "Alshaima Nasser",
     "contact_identifier": "+96895599945",
-    "parent_message_id": "4307170509",
-    "parent_ticket_id": "966748140",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
