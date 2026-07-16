@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-16T07:39:08.314Z",
+  "ts": "2026-07-16T07:39:10.402Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4306725850",
-    "ticket_id": "966632623",
-    "message": "👍",
+    "type": "OUTBOUND",
+    "message_id": "4306725904",
+    "ticket_id": "965844499",
+    "message": "Thanks for the confirmation; well noted.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "542468411",
+    "contact_name": "Rajaa Taleh",
+    "contact_identifier": "+491729514660",
     "channel_id": "585723",
-    "contact_id": "542708544",
-    "contact_name": "Business",
-    "contact_identifier": "+971509210306",
-    "parent_message_id": "4306725441",
-    "parent_ticket_id": "966632623",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
