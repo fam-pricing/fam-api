@@ -1,18 +1,17 @@
 {
-  "ts": "2026-07-16T17:48:28.554Z",
+  "ts": "2026-07-16T17:49:23.536Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4307388280",
-    "ticket_id": "966808085",
-    "message": "Thanks! You will get a reply by email if you leave this website.",
-    "contact_id": "542766483",
-    "contact_name": "Lils",
-    "contact_email": "emztk@yahoo.com",
-    "contact_identifier": "6fa2d972-5b3b-4a35-6995-daa35003d14c",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4307388833",
+    "ticket_id": "966808411",
+    "message": "Bonjour, nous avons réservé un logement sur Airbnb et sommes en attente d’une réponse. Merci.",
+    "channel_id": "585723",
+    "contact_id": "542766587",
+    "contact_name": ".",
+    "contact_identifier": "+33661942891",
+    "event_type": "INBOUND"
   }
 }
