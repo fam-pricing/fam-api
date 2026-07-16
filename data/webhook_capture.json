@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-16T07:52:31.977Z",
+  "ts": "2026-07-16T08:02:07.867Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4306738985",
-    "ticket_id": "966590207",
-    "message": "As per your request, please find the 6-month rates for Safa Complex\r\n\r\nAugust: AED 5,500\r\nSeptember: AED 6,500\r\nOctober: AED 7,500\r\nNovember: AED 9,000\r\nDecember: AED 12,000\r\nJanuary: AED 12,000\r\n\r\nPlease note that a security deposit of AED 3,000 is required. The booking will be on a monthly basis only (30 nights each month).\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542700186",
-    "contact_name": "N O U R🌹",
-    "contact_identifier": "+971566393477",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4306749854",
+    "ticket_id": "953019973",
+    "message": "Hi,\nI’d like to clarify the rate before my current booking ends on July 22nd. I’ve been renting since April at AED 5,500/month, and fam Living itself sent me the schedule confirming July would remain at AED 5,500, with the increase to AED 6,500 only starting in August.\nNow I’m being asked to pay AED 6,500 for July, a month before that increase was supposed to start. Could you please honor the original schedule and confirm July at AED 5,500, as already communicated?",
+    "channel_id": "585723",
+    "contact_id": "536585155",
+    "contact_name": "Muhammad",
+    "contact_identifier": "+971561683935",
+    "event_type": "INBOUND"
   }
 }
