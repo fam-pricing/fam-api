@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-16T12:34:47.925Z",
+  "ts": "2026-07-16T12:34:53.077Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4307073891",
+    "type": "INBOUND",
+    "message_id": "4307073984",
     "ticket_id": "951364564",
-    "message": "Sure, we can proceed with this month’s payment at AED 5,000.\r\n\r\nHowever, please note that from next month onwards, the rate will be subject to change based on market conditions and availability.\r\n\r\nThank you for your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Image",
+    "channel_id": "585723",
     "contact_id": "538357750",
     "contact_name": "VERA MATIUGINA",
     "contact_identifier": "+971554831031",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
