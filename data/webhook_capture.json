@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-16T02:26:11.453Z",
+  "ts": "2026-07-16T02:26:39.375Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4306600858",
+    "type": "OUTBOUND",
+    "message_id": "4306600901",
     "ticket_id": "966590207",
-    "message": "Hello,If we take six months, would it be possible to lower the price?",
-    "channel_id": "1304636",
+    "message": "The price is fixed and doesn't change based on the length of stay, so a 6-month commitment wouldn't bring the rate down. Would you like to arrange a viewing to see if the place feels right for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542700186",
     "contact_name": "N O U R🌹",
     "contact_identifier": "+971566393477",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
