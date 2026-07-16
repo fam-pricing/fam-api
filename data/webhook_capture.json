@@ -1,17 +1,18 @@
 {
-  "ts": "2026-07-16T13:02:56.597Z",
+  "ts": "2026-07-16T13:03:00.131Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4307105207",
-    "ticket_id": "947606101",
-    "message": "How are you",
-    "channel_id": "585723",
-    "contact_id": "537449424",
-    "contact_name": "THI NGOC NGUYEN",
-    "contact_identifier": "+971554438123",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4307105326",
+    "ticket_id": "966732816",
+    "message": "Thanks! You will get a reply by email if you leave this website.",
+    "contact_id": "542742416",
+    "contact_name": "Sandesh",
+    "contact_email": "Sandeh@bnbme.me",
+    "contact_identifier": "75537ede-cd0a-4f20-9f75-eb10612374cc",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
