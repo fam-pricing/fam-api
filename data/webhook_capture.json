@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-16T12:21:58.833Z",
+  "ts": "2026-07-16T12:22:39.561Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4307059553",
-    "ticket_id": "966709155",
-    "message": "Did you confirm to him both units?",
+    "type": "OUTBOUND",
+    "message_id": "4307060284",
+    "ticket_id": "966710155",
+    "message": "Unit number: 509",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "542732542",
+    "contact_name": "Haseeb Ali",
+    "contact_identifier": "+971588949622",
     "channel_id": "585723",
-    "contact_id": "542732254",
-    "contact_name": "Saleyloid",
-    "contact_identifier": "+971504731173",
-    "parent_message_id": "4307054709",
-    "parent_ticket_id": "966709155",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
