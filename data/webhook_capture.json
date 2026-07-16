@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-16T11:58:21.268Z",
+  "ts": "2026-07-16T11:59:13.957Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4307032929",
-    "ticket_id": "966709155",
-    "message": "Hello Saleyloid,\r\n\r\nWe have been trying to reach the guest to confirm the pool cleaning schedule; however, we have not received any update yet.\r\n\r\nMay I know until what time your team can come today for the cleaning?\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542732254",
-    "contact_name": "Saleyloid",
-    "contact_identifier": "+971504731173",
+    "type": "INBOUND",
+    "message_id": "4307033918",
+    "ticket_id": "966609137",
+    "message": "Let me share wait.",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "542703104",
+    "contact_name": "Sandesh",
+    "contact_identifier": "+919997048273",
+    "parent_message_id": "4307031182",
+    "parent_ticket_id": "966609137",
+    "event_type": "INBOUND"
   }
 }
