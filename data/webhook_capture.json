@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-16T07:43:07.180Z",
+  "ts": "2026-07-16T07:43:08.453Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4306729606",
+    "type": "OUTBOUND",
+    "message_id": "4306729655",
     "ticket_id": "966634624",
-    "message": "GOOD MORNING",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "542709129",
     "contact_name": "Zak Habib",
     "contact_identifier": "525144db-0f69-4bce-9100-38bacc95895b",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
