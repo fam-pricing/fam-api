@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-16T12:58:23.235Z",
+  "ts": "2026-07-16T12:58:29.590Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4307099825",
-    "ticket_id": "954732401",
-    "message": "The rate is 4.500aed",
-    "channel_id": "585723",
-    "contact_id": "539383560",
-    "contact_name": "Noah",
-    "contact_identifier": "+971553384406",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4307099960",
+    "ticket_id": "966705781",
+    "message": "would you like to extend your booking?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536501473",
+    "contact_name": "Joubert Rocha Chaves",
+    "contact_identifier": "+971586730550",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
