@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-16T13:54:05.554Z",
+  "ts": "2026-07-16T13:56:16.249Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4307164349",
-    "ticket_id": "962750436",
-    "message": "If you have a vehicle, we will need the following details for advance registration. Please provide:\r\nCar 1:\r\n* Emirate of issue: Abu Dhabi\r\n* Code: 5\r\n* Plate number: 8955\r\n* Vehicle make/model: Range Rover.\r\n* Color: Gold\n\nCar 2:\r\n* Emirate of issue: Abu Dhabi\r\n* Code: 7\r\n* Plate number: 8955\r\n* Vehicle make/model: Defender.\r\n* Color: Green",
+    "type": "OUTBOUND",
+    "message_id": "4307167247",
+    "ticket_id": "947606101",
+    "message": "Kindly show to the building reception",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "537449424",
+    "contact_name": "THI NGOC NGUYEN",
+    "contact_identifier": "+971554438123",
     "channel_id": "585723",
-    "contact_id": "142546468",
-    "contact_name": "Mrs Hala Al Mashehari",
-    "contact_identifier": "+971501484141",
-    "parent_message_id": "4307159357",
-    "parent_ticket_id": "962750436",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
