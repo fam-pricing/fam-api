@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-17T06:56:37.874Z",
+  "ts": "2026-07-17T06:56:46.935Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4307639937",
+    "type": "OUTBOUND",
+    "message_id": "4307640043",
     "ticket_id": "952537981",
-    "message": "Our booking doesn’t end today",
-    "channel_id": "585723",
+    "message": "Good Morning Arifa,\r\n\r\nI hope you are doing well.\r\n\r\nWe would like to kindly follow up regarding the payment for your booking extension. We noticed that your stay has been extended until October; however, the payment for the extension is still pending.\r\n\r\nPlease note that the extension period starts from today 17th july, so we would appreciate it if you could arrange the payment at your earliest convenience to confirm the extension.\r\n\r\nThank you for your cooperation, and please let us know if you need any assistance.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "517825599",
     "contact_name": "Arifa Patel",
     "contact_identifier": "+971567647755",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
