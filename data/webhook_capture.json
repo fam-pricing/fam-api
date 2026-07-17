@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-17T15:12:22.349Z",
+  "ts": "2026-07-17T15:58:29.394Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308158777",
+    "type": "OUTBOUND",
+    "message_id": "4308194187",
     "ticket_id": "966676646",
-    "message": "Tomorrow at 4.00PM?",
-    "channel_id": "585723",
+    "message": "Sure we will arrange the viewing tomorrow at 4pm,\r\n\r\nMay I have your id please to arrange the viewing as we need to update the building team.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542720186",
     "contact_name": "Giovanni Padoan",
     "contact_identifier": "+79637138059",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
