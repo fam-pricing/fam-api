@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-17T12:06:23.765Z",
+  "ts": "2026-07-17T12:06:52.362Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4307966968",
+    "type": "OUTBOUND",
+    "message_id": "4307967525",
     "ticket_id": "966983711",
-    "message": "Do you as a broker agent, have a certificate?",
-    "channel_id": "1304636",
+    "message": "fäm Properties is fully RERA-registered, so yes, we're certified.\n\nOn the 6-month rate, we can hold it for the first 3 months, after that it's reviewed against market conditions, so a full 6-month guarantee isn't something we can commit to upfront.\n\nWould you like to come see the place before deciding?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542807542",
     "contact_name": "Zara",
     "contact_identifier": "+447585605608",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
