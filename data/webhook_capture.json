@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-17T12:04:34.811Z",
+  "ts": "2026-07-17T12:04:57.576Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4307965103",
+    "type": "OUTBOUND",
+    "message_id": "4307965450",
     "ticket_id": "966983711",
-    "message": "Please show me pricing",
-    "channel_id": "1304636",
+    "message": "On the rate, we can hold the price for the first 3 months and then it's reviewed based on market conditions, so a full 6-month lock isn't something we can do. And yes, fäm Properties is RERA-registered. Does that work for you, or would you like to know more before deciding?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542807542",
     "contact_name": "Zara",
     "contact_identifier": "+447585605608",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
