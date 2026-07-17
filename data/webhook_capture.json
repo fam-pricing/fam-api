@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-17T09:18:13.252Z",
+  "ts": "2026-07-17T09:20:24.098Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4307784798",
+    "type": "OUTBOUND",
+    "message_id": "4307787007",
     "ticket_id": "962860096",
-    "message": "我需要3-4个卧室公寓",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "541599646",
     "contact_name": "Takyinn Wang",
     "contact_identifier": "+971567587989",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
