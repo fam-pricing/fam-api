@@ -1522,3 +1522,7 @@ Alternatively, we can proceed on a month-to-month basis with rolling extensions.
 ## Learned (2026-07-14)
 - When a lead asks whether the quoted rate includes all charges, confirm that it covers all taxes, VAT, DTCM fees, and utility bills (electricity, water, and Wi-Fi). Also inform them that any additional cleaning services requested during their stay will be subject to extra charges.
   (Learned from Faysal handling Zeina re Studio in Azizi Riviera 16)
+
+## Learned (2026-07-17)
+- If a lead says "Send what is available," respond by letting them know that if they are open to earlier availability, you can also check other locations such as City Walk, Business Bay, or Downtown.
+  (Learned from Faysal handling MNE re 2BR in Bluewaters Building 4)
