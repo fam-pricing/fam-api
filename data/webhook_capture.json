@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-17T13:11:11.074Z",
+  "ts": "2026-07-17T13:11:41.036Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4308032578",
+    "type": "INBOUND",
+    "message_id": "4308033051",
     "ticket_id": "967008712",
-    "message": "Good Afternoon,\r\n\r\nWe would like to inform you that this apartment is available from 1st August only.\r\n\r\nKindly let us know if this date works for you, and we will be happy to assist further.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "What other apartments is available on these dates?",
+    "channel_id": "1304636",
     "contact_id": "542814899",
     "contact_name": "MNE",
     "contact_identifier": "+96563633363",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
