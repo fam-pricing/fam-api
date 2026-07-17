@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-17T07:19:25.698Z",
+  "ts": "2026-07-17T07:36:09.835Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4307660482",
-    "ticket_id": "966271267",
-    "message": "Thank you for choosing fäm Living Leandro Sterling!\r\n\r\nWe hope you enjoyed your stay! Please let us know your expected checkout time so we can arrange it accordingly.\r\n\r\nOur standard checkout timings are between 10:00 AM and 12:00 PM.\r\n\r\nPlease note that if you self-checkout without our staff's presence for inspection, you consent to accept any damage(s) reported by admin staff.",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "542611405",
-    "contact_name": "Leandro Sterling",
-    "contact_identifier": "+573123643476",
+    "type": "INBOUND",
+    "message_id": "4307675591",
+    "ticket_id": "966792440",
+    "message": "Could you please share the pictures and the deta",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "542764580",
+    "contact_name": "Kanwal Akash Hussain",
+    "contact_identifier": "+971552974123",
+    "parent_message_id": "4307609397",
+    "parent_ticket_id": "966792440",
+    "event_type": "INBOUND"
   }
 }
