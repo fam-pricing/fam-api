@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-17T05:14:32.162Z",
+  "ts": "2026-07-17T05:14:36.694Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4307591850",
-    "ticket_id": "966879818",
-    "message": "I got your number from\nMr saeed regarding the pools cleaning",
+    "type": "OUTBOUND",
+    "message_id": "4307591872",
+    "ticket_id": "962750436",
+    "message": "Well received your deposit amount",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "142546468",
+    "contact_name": "Mrs Hala Al Mashehari",
+    "contact_identifier": "+971501484141",
     "channel_id": "585723",
-    "contact_id": "542782977",
-    "contact_name": "A A Pools Maintenance",
-    "contact_identifier": "+971526392128",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
