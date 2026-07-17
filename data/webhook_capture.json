@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-17T10:16:14.513Z",
+  "ts": "2026-07-17T10:16:20.733Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4307846816",
-    "ticket_id": "963719733",
-    "message": "Yes, because it’s as if I were a new customer. If possible, could you kindly offer me a complimentary cleaning, as I have made a new booking.\n\nI would really appreciate your understanding. Thank you very much for your kindness.\n\nThe cleaning team can come at any time and on any date that suits you.",
-    "channel_id": "585723",
-    "contact_id": "540354721",
-    "contact_name": "Ismael Ferrahi",
-    "contact_identifier": "+971585032384",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4307846912",
+    "ticket_id": "966952646",
+    "message": "For this matter, please contact our Business Development team member, Erica, who will be able to assist you further.\r\n\r\nName: Erica\r\nContact Number: +971 54 431 1300\r\n\r\nShe will be happy to guide you accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "542800555",
+    "contact_name": "Katerina S.",
+    "contact_identifier": "+971528571769",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
