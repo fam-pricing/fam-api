@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-17T10:33:10.896Z",
+  "ts": "2026-07-17T10:33:42.536Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4307864462",
+    "type": "INBOUND",
+    "message_id": "4307865110",
     "ticket_id": "966676646",
-    "message": "rate will be AED 6,000 for 30 nights.\r\n\r\nAdditionally, a security deposit of AED 2,000 will be required, which is fully refundable upon check-out, provided there are no damages or outstanding charges in the apartment.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Can we male 6+ months contrac",
+    "channel_id": "585723",
     "contact_id": "542720186",
     "contact_name": "Giovanni Padoan",
     "contact_identifier": "+79637138059",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4307864462",
+    "parent_ticket_id": "966676646",
+    "event_type": "INBOUND"
   }
 }
