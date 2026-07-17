@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-17T05:12:13.902Z",
+  "ts": "2026-07-17T05:12:35.600Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4307591330",
-    "ticket_id": "966609137",
-    "message": "It’s 9 Am already",
+    "type": "OUTBOUND",
+    "message_id": "4307591399",
+    "ticket_id": "966753480",
+    "message": "May I please have the building name and your full booking name? Alternatively, you may share your booking confirmation with us so we can assist you accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "542749632",
+    "contact_name": "David",
+    "contact_identifier": "+84985208366",
     "channel_id": "585723",
-    "contact_id": "542703104",
-    "contact_name": "Sandesh",
-    "contact_identifier": "+919997048273",
-    "parent_message_id": "4307587391",
-    "parent_ticket_id": "966609137",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
