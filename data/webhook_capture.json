@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-17T05:11:24.432Z",
+  "ts": "2026-07-17T05:12:13.902Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4307590982",
-    "ticket_id": "966879818",
-    "message": "How can i help you?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542782977",
-    "contact_name": "A A Pools Maintenance",
-    "contact_identifier": "+971526392128",
+    "type": "INBOUND",
+    "message_id": "4307591330",
+    "ticket_id": "966609137",
+    "message": "It’s 9 Am already",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "542703104",
+    "contact_name": "Sandesh",
+    "contact_identifier": "+919997048273",
+    "parent_message_id": "4307587391",
+    "parent_ticket_id": "966609137",
+    "event_type": "INBOUND"
   }
 }
