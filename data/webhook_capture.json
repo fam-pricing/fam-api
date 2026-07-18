@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-18T08:11:43.013Z",
+  "ts": "2026-07-18T08:12:30.509Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4308510128",
+    "type": "INBOUND",
+    "message_id": "4308510566",
     "ticket_id": "967144005",
-    "message": "Sure, we can try from booking.com\r\n\r\nHowever, Please note that there is also a security deposit of AED 2,000, which needs to be completed before check-in.\r\n\r\nThe deposit payment must be made through the payment link, as we are unable to collect the deposit through Booking.com.\r\n\r\nThank you for your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Ok let me try the deposit first. If it doesn’t work then I will have to book elsewhere.",
+    "channel_id": "585723",
     "contact_id": "542849502",
     "contact_name": "Faheem Tharmahomed",
     "contact_identifier": "+447549635436",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
