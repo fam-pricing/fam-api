@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T10:03:27.132Z",
+  "ts": "2026-07-18T10:03:42.421Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308571157",
+    "type": "OUTBOUND",
+    "message_id": "4308571291",
     "ticket_id": "967162890",
-    "message": "This apartment have Wi-Fi?",
-    "channel_id": "585723",
+    "message": "yes",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542854170",
     "contact_name": "Masoud Matboukhi",
     "contact_identifier": "+971558423018",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
