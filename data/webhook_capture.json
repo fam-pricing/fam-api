@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T13:30:17.856Z",
+  "ts": "2026-07-18T13:30:59.018Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308680780",
+    "type": "OUTBOUND",
+    "message_id": "4308681116",
     "ticket_id": "952537981",
-    "message": "Hi, \nWhat number can I contact you on?",
-    "channel_id": "585723",
+    "message": "This is the same number for both calls and WhatsApp. However, we will inform one of our team members to contact you shortly.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "517825599",
     "contact_name": "Arifa Patel",
     "contact_identifier": "+971567647755",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
