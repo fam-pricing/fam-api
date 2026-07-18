@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T07:50:39.949Z",
+  "ts": "2026-07-18T07:51:36.678Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308499502",
-    "ticket_id": "963289850",
-    "message": "Hi, when I’d booked on Airbnb and asked for the cost it was 200 aed for the change of towels, sheets, and bed linen",
+    "type": "OUTBOUND",
+    "message_id": "4308499962",
+    "ticket_id": "967144005",
+    "message": "As we can see, the payment link is still valid and active, and we accept all types of cards.\r\n\r\nAs shown in the screenshot, please make sure to complete all the required fields before proceeding with the payment.\r\n\r\nCurrently, we are also unable to collect the payment through Booking.com, and the payment must be completed before your arrival in order to secure your booking.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "542849502",
+    "contact_name": "Faheem Tharmahomed",
+    "contact_identifier": "+447549635436",
     "channel_id": "585723",
-    "contact_id": "541744249",
-    "contact_name": "Chloé Degard",
-    "contact_identifier": "+33781939109",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
