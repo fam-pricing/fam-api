@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-18T04:53:39.171Z",
+  "ts": "2026-07-18T04:57:13.163Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4308442660",
+    "type": "INBOUND",
+    "message_id": "4308443216",
     "ticket_id": "967008712",
-    "message": "Apologies for the delay.\r\n\r\nWe have a 2-bedroom + maid's room apartment available in City Walk, with availability starting from 29 July.\r\n\r\nUnfortunately, we do not have any apartments available before that date.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Can u send me",
+    "channel_id": "1304636",
     "contact_id": "542814899",
     "contact_name": "MNE",
     "contact_identifier": "+96563633363",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4308442660",
+    "parent_ticket_id": "967008712",
+    "event_type": "INBOUND"
   }
 }
