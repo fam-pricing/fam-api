@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T11:09:57.932Z",
+  "ts": "2026-07-18T11:14:02.061Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308606028",
+    "type": "OUTBOUND",
+    "message_id": "4308607981",
     "ticket_id": "967162890",
-    "message": "I’ll pay when I reach home",
-    "channel_id": "585723",
+    "message": "Sure, once the payment is completed, we will be able to block the unit and confirm the booking for you.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542854170",
     "contact_name": "Masoud Matboukhi",
     "contact_identifier": "+971558423018",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
