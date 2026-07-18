@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T13:53:02.588Z",
+  "ts": "2026-07-18T13:55:33.254Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308692280",
-    "ticket_id": "951617602",
-    "message": "Ok",
+    "type": "OUTBOUND",
+    "message_id": "4308693657",
+    "ticket_id": "967198450",
+    "message": "This is the same number for both calls and WhatsApp. However, we will inform one of our team members to contact you shortly.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "542864265",
+    "contact_name": "Mika",
+    "contact_identifier": "+971547040455",
     "channel_id": "585723",
-    "contact_id": "538457647",
-    "contact_name": "Tim Dominik Germany",
-    "contact_identifier": "+56931740105",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
