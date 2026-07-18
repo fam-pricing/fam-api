@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T06:15:33.011Z",
+  "ts": "2026-07-18T06:20:47.514Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308460626",
-    "ticket_id": "952537981",
-    "message": "Good morning,\nI hope you’re well. \nApologies for the delay. I set up a payment yesterday, but unfortunately there was an issue with the transfer, so I need to set it up again today.\nWould it be possible to split the payment for the booking extension into two instalments?",
-    "channel_id": "585723",
-    "contact_id": "517825599",
-    "contact_name": "Arifa Patel",
-    "contact_identifier": "+971567647755",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4308462418",
+    "ticket_id": "967072279",
+    "message": "Our standard check out time is 12 pm, which is mentioned already in the contract as well. Maximum we may offer until 1 pm free late check out for your kind information",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "536394570",
+    "contact_name": "Sofiane",
+    "contact_identifier": "+33695624458",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
