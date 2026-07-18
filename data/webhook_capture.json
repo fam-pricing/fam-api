@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T12:37:35.146Z",
+  "ts": "2026-07-18T12:41:59.658Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308652418",
+    "type": "OUTBOUND",
+    "message_id": "4308654645",
     "ticket_id": "967198450",
-    "message": "I don't think you're unaware, I just want to know if you could change my apartment or give me a refund?",
-    "channel_id": "585723",
+    "message": "Unfortunately, as your booking is under a non-refundable rate, we are unable to process a refund.\r\n\r\nHowever, please allow us some time to check if we have any alternative apartment available, and we will update you regarding the possibility of moving your booking.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542864265",
     "contact_name": "Mika",
     "contact_identifier": "+971547040455",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
