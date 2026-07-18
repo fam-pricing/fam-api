@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-18T10:22:43.882Z",
+  "ts": "2026-07-18T10:24:25.290Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4308581701",
-    "ticket_id": "967162890",
-    "message": "Once payment done please let us know so we can make the booking and send you the confirmation",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542854170",
-    "contact_name": "Masoud Matboukhi",
-    "contact_identifier": "+971558423018",
+    "type": "INBOUND",
+    "message_id": "4308582507",
+    "ticket_id": "956113458",
+    "message": "we are not at home, someone came for viewing.",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "537401735",
+    "contact_name": "Rahul Vinay S",
+    "contact_identifier": "+971547997976",
+    "event_type": "INBOUND"
   }
 }
