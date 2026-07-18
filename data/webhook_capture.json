@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T07:07:07.210Z",
+  "ts": "2026-07-18T07:07:38.701Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308480230",
+    "type": "OUTBOUND",
+    "message_id": "4308480374",
     "ticket_id": "955477740",
-    "message": "I want rent a studio for one month",
-    "channel_id": "585723",
+    "message": "May I know your preferred location and the date you require the apartment from, so I can check the availability for you?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "539467013",
     "contact_name": "Zahra",
     "contact_identifier": "+971559366278",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
