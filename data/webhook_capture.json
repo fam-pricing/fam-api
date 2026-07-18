@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-18T07:40:41.616Z",
+  "ts": "2026-07-18T07:41:07.090Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4308494826",
-    "ticket_id": "955477740",
-    "message": "Unfortunately, we are no longer handling this building. You may directly visit the Bay Unit 2018, which is the main office, and their team will be able to assist you further.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539467013",
-    "contact_name": "Zahra",
-    "contact_identifier": "+971559366278",
+    "type": "INBOUND",
+    "message_id": "4308495016",
+    "ticket_id": "953634947",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539059944",
+    "contact_name": "Lana Aitzhanova",
+    "contact_identifier": "+77753375050",
+    "parent_message_id": "4308494024",
+    "parent_ticket_id": "953634947",
+    "event_type": "INBOUND"
   }
 }
