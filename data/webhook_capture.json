@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T09:29:42.343Z",
+  "ts": "2026-07-18T09:33:23.781Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308551599",
+    "type": "OUTBOUND",
+    "message_id": "4308553654",
     "ticket_id": "967162890",
-    "message": "Should I speak with someone?\nWhen I reached",
-    "channel_id": "585723",
+    "message": "You can directly proceed to the unit, as we have already left the apartment open for you.\r\n\r\nPlease feel free to visit at your convenience.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542854170",
     "contact_name": "Masoud Matboukhi",
     "contact_identifier": "+971558423018",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
