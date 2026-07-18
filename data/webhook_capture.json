@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-18T08:08:40.863Z",
+  "ts": "2026-07-18T08:09:09.505Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4308508505",
-    "ticket_id": "967144005",
-    "message": "We apologize for the inconvenience you are facing. Sometimes this issue can occur due to your card limit or restrictions from the bank.\r\n\r\nWould you like us to split the payment amount and send you a new payment link to try again?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542849502",
-    "contact_name": "Faheem Tharmahomed",
-    "contact_identifier": "+447549635436",
+    "type": "INBOUND",
+    "message_id": "4308508699",
+    "ticket_id": "953634947",
+    "message": "Could you please provide the check-in inspection report or photos taken before our arrival showing that the coffee table and lamp were undamaged? Since we did not cause these damages, we cannot agree to pay for them",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539059944",
+    "contact_name": "Lana Aitzhanova",
+    "contact_identifier": "+77753375050",
+    "event_type": "INBOUND"
   }
 }
