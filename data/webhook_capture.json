@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T11:28:10.415Z",
+  "ts": "2026-07-18T11:28:38.948Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308615916",
-    "ticket_id": "964066792",
-    "message": "Hello,\n\nI hope you’re doing well.\n\nMy departure date has now been confirmed, and I will be checking out tomorrow.\n\nUnfortunately, due to an urgent family emergency, I will not be returning to the UAE for a long time, and I would like to cancel my booking.\n\nWould that be possible?\n\nCould you please explain the cancellation terms and let me know what options are available? I’m currently going through a very difficult time and need to make a decision as soon as possible.\n\nThank you for your understanding.",
+    "type": "OUTBOUND",
+    "message_id": "4308616195",
+    "ticket_id": "961811054",
+    "message": "Yes, the team visited and fixed it already. The issue was the child lock activated",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "538363776",
+    "contact_name": "Kosar Mahmoud Bashash",
+    "contact_identifier": "+971507955452",
     "channel_id": "585723",
-    "contact_id": "541963120",
-    "contact_name": "Kosar",
-    "contact_identifier": "+971542289493",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
