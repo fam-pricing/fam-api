@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T06:39:47.293Z",
+  "ts": "2026-07-18T06:40:23.868Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308469312",
+    "type": "OUTBOUND",
+    "message_id": "4308469582",
     "ticket_id": "952487865",
-    "message": "Can we keep the same price?",
-    "channel_id": "585723",
+    "message": "Yes, the rate has increased, and unfortunately, we are unable to offer the same rate as before.\r\n\r\nWe appreciate your understanding, and the current available rate will be AED 14,400 for 30 nights.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538724311",
     "contact_name": "FENGLEI YIN",
     "contact_identifier": "+971585702058",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
