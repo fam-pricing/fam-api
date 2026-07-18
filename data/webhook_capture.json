@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T09:21:11.912Z",
+  "ts": "2026-07-18T09:21:56.229Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308546519",
-    "ticket_id": "967072279",
-    "message": "For check out",
-    "channel_id": "1304636",
-    "contact_id": "536394570",
-    "contact_name": "Sofiane",
-    "contact_identifier": "+33695624458",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4308547000",
+    "ticket_id": "967144005",
+    "message": "Thank you for completing the check-in process.\r\n\r\nPlease note that your check-in will be through self check-in. Tomorrow between 2:00 PM and 3:00 PM, our team will share all the necessary details and instructions required to access your apartment.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "542849502",
+    "contact_name": "Faheem Tharmahomed",
+    "contact_identifier": "+447549635436",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
