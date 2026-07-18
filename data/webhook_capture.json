@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T15:44:22.155Z",
+  "ts": "2026-07-18T15:45:56.399Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308759136",
-    "ticket_id": "967198450",
-    "message": "That's not true since you didn't want to cancel my reservation.",
-    "channel_id": "585723",
-    "contact_id": "542864265",
-    "contact_name": "Mika",
-    "contact_identifier": "+971547040455",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4308759906",
+    "ticket_id": "967229012",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in Upper Crest\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537152967",
+    "contact_name": "🦅",
+    "contact_identifier": "+971553385236",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
