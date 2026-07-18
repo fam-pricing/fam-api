@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T07:52:58.628Z",
+  "ts": "2026-07-18T07:54:32.928Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308500693",
+    "type": "OUTBOUND",
+    "message_id": "4308501473",
     "ticket_id": "967144005",
-    "message": "The billing address has to be the address that the card is registered to",
-    "channel_id": "585723",
+    "message": "To complete the payment, only the following details are required:\r\n\r\nCard number\r\nCard expiry date\r\nFull Name\r\nPhone number\r\n\r\nOnce these details are entered, you will be able to proceed with the payment.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542849502",
     "contact_name": "Faheem Tharmahomed",
     "contact_identifier": "+447549635436",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
