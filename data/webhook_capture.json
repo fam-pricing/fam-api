@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-18T07:57:01.376Z",
+  "ts": "2026-07-18T07:58:41.769Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4308502570",
-    "ticket_id": "963289850",
-    "message": "That is the cost for only sheets and towel replacement without cleaning",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "541744249",
-    "contact_name": "Chloé Degard",
-    "contact_identifier": "+33781939109",
+    "type": "INBOUND",
+    "message_id": "4308503406",
+    "ticket_id": "967156425",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "542852405",
+    "contact_name": "Mr Ahmad",
+    "contact_identifier": "+96560720209",
+    "parent_message_id": "4308501953",
+    "parent_ticket_id": "967156425",
+    "event_type": "INBOUND"
   }
 }
