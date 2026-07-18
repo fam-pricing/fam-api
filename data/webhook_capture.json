@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T12:09:01.217Z",
+  "ts": "2026-07-18T12:10:53.948Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308637274",
-    "ticket_id": "967162890",
-    "message": "Remains 2000 deposits (Monday coming and direct pay)\nFrom 22 July till 21 AUGEST",
+    "type": "OUTBOUND",
+    "message_id": "4308638427",
+    "ticket_id": "963700677",
+    "message": "The connection is active, and it's been working since you checked in to the apartment. We don't have a team, as it's the weekend. We will check if someone is available by tomorrow and send.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "537607776",
+    "contact_name": "SHEYDA",
+    "contact_identifier": "+971502809008",
     "channel_id": "585723",
-    "contact_id": "542854170",
-    "contact_name": "Masoud Matboukhi",
-    "contact_identifier": "+971558423018",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
