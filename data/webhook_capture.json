@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T11:38:30.781Z",
+  "ts": "2026-07-18T11:38:57.376Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308621768",
-    "ticket_id": "967162890",
-    "message": "Hi",
+    "type": "OUTBOUND",
+    "message_id": "4308621976",
+    "ticket_id": "967189817",
+    "message": "Dear Lisa,\r\n\r\nI hope you are doing well.\r\n\r\nAs this request is related to a PM unit, kindly send your email to pm@famliving.com for further assistance.\r\n\r\nAlternatively, you may contact Sneha directly at +971 55 538 6230 or +971 52 127 2908, and she will be happy to assist you further.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "497279808",
+    "contact_name": "Lisa Crausby OBE",
+    "contact_identifier": "+971505289333",
     "channel_id": "585723",
-    "contact_id": "542854170",
-    "contact_name": "Masoud Matboukhi",
-    "contact_identifier": "+971558423018",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
