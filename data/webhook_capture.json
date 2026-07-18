@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-18T04:57:13.163Z",
+  "ts": "2026-07-18T05:04:08.817Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308443216",
+    "type": "OUTBOUND",
+    "message_id": "4308444822",
     "ticket_id": "967008712",
-    "message": "Can u send me",
-    "channel_id": "1304636",
+    "message": "Please note that this apartment is available from 28th July, and the rate will be AED 16,000 for 30 nights.\r\n\r\nA security deposit of AED 3,000 is also required, which is fully refundable upon check-out, provided there are no damages or outstanding charges in the apartment.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542814899",
     "contact_name": "MNE",
     "contact_identifier": "+96563633363",
-    "parent_message_id": "4308442660",
-    "parent_ticket_id": "967008712",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
