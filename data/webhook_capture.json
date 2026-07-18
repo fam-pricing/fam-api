@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-18T12:13:57.902Z",
+  "ts": "2026-07-18T12:14:03.518Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4308640217",
+    "type": "OUTBOUND",
+    "message_id": "4308640281",
     "ticket_id": "967162890",
-    "message": "No\nIn unit",
-    "channel_id": "585723",
+    "message": "Our standard check-in time is at 3 pm;",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542854170",
     "contact_name": "Masoud Matboukhi",
     "contact_identifier": "+971558423018",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
