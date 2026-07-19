@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-19T08:20:56.385Z",
+  "ts": "2026-07-19T08:21:01.360Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4309020195",
-    "ticket_id": "967327690",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-11-binghatti-amber-15165649.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "542895643",
-    "contact_name": "Iman Khajehnouri Investment Specialist - Real Esta",
-    "contact_identifier": "+971547355464",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4309020223",
+    "ticket_id": "967229394",
+    "message": "Ok thanks",
+    "channel_id": "585723",
+    "contact_id": "542875301",
+    "contact_name": "Ritie Kapoor",
+    "contact_identifier": "+971524678670",
+    "event_type": "INBOUND"
   }
 }
