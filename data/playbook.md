@@ -1526,3 +1526,11 @@ Alternatively, we can proceed on a month-to-month basis with rolling extensions.
 ## Learned (2026-07-17)
 - If a lead says "Send what is available," respond by letting them know that if they are open to earlier availability, you can also check other locations such as City Walk, Business Bay, or Downtown.
   (Learned from Faysal handling MNE re 2BR in Bluewaters Building 4)
+
+## Learned (2026-07-19)
+- If a lead requests a move-in within the following weekend and asks to expedite DEWA activation, respond with:
+
+"Let me check the 6-month rate with management and get back to you shortly.
+
+Please note that we do not accept cheque payments. Payment can be made via bank transfer, cash, or through our secure payment link."
+  (Learned from Faysal handling Christos re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
