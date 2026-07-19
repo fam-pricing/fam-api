@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-19T10:28:27.036Z",
+  "ts": "2026-07-19T10:31:55.266Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4309079939",
+    "type": "OUTBOUND",
+    "message_id": "4309081518",
     "ticket_id": "956832935",
-    "message": "Can you offer me this stay for 3,500 AED?",
-    "channel_id": "585723",
+    "message": "Allow me to check the rate and send the quotation for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "531299669",
     "contact_name": "Mark Doyle",
     "contact_identifier": "+353877859722",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
