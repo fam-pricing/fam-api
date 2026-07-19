@@ -3574,5 +3574,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-07-19T05:58:18.657Z",
+    "ticket_id": 967309368,
+    "lead_id": "message_lead_30677474",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 7954,
+    "critic_pass": null,
+    "lead_quality": 5,
+    "buying_stage": "COLD",
+    "skip_reason": "live_agent_guard"
   }
 ]
