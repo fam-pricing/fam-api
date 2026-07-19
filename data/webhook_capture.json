@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-19T07:39:36.101Z",
+  "ts": "2026-07-19T07:41:09.737Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4309001018",
-    "ticket_id": "963505285",
-    "message": "May I kindly confirm if you will be completing the payment for the extension through the payment link?\r\n\r\nOnce confirmed, we will share the payment link with you to proceed with the payment and finalize the extension.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "541802779",
-    "contact_name": "Atahar Ishraque Chowdhury",
-    "contact_identifier": "+8801764511515",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4309001688",
+    "ticket_id": "967260751",
+    "message": "🙏",
+    "channel_id": "1304636",
+    "contact_id": "542883905",
+    "contact_name": "Christos",
+    "contact_identifier": "+306975780934",
+    "parent_message_id": "4308998460",
+    "parent_ticket_id": "967260751",
+    "event_type": "INBOUND"
   }
 }
