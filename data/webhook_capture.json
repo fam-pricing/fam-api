@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-20T07:56:22.561Z",
+  "ts": "2026-07-20T07:56:30.369Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4309540810",
-    "ticket_id": "958579229",
-    "message": "Thank you",
+    "type": "OUTBOUND",
+    "message_id": "4309540969",
+    "ticket_id": "956832935",
+    "message": "Allow me to check",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "531299669",
+    "contact_name": "Mark Doyle",
+    "contact_identifier": "+353877859722",
     "channel_id": "585723",
-    "contact_id": "532008494",
-    "contact_name": "Kenan David",
-    "contact_identifier": "+27724580583",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
