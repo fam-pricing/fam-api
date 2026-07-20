@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-20T10:44:11.096Z",
+  "ts": "2026-07-20T10:44:20.280Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4309751725",
-    "ticket_id": "967528591",
-    "message": "What about November, December, and January? What’s your offer?",
+    "type": "OUTBOUND",
+    "message_id": "4309751873",
+    "ticket_id": "967560781",
+    "message": "Unfortunately, we don't have availability at the moment. Please let us know your availability for tomorrow so we can arrange a team accordingly. Thank you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "535926291",
+    "contact_name": "Rimsha Akram",
+    "contact_identifier": "+971526064450",
     "channel_id": "1304636",
-    "contact_id": "536340091",
-    "contact_name": "Mahassine Al Awad",
-    "contact_identifier": "+971585429848",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
