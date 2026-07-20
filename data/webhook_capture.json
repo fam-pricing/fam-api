@@ -1,21 +1,17 @@
 {
-  "ts": "2026-07-20T10:19:18.633Z",
+  "ts": "2026-07-20T10:20:30.635Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4309723490",
-    "ticket_id": "967557895",
-    "message": "May I know for which apartment you are looking for?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "542950070",
-    "contact_name": "Salama alameri",
-    "contact_email": "s.al3amri@live.com",
-    "contact_identifier": "eaf44ba6-ab6a-4a4e-662b-93b3fd2eda38",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4309725056",
+    "ticket_id": "967560781",
+    "message": "Washroom blockage please send concern person to check",
+    "channel_id": "1304636",
+    "contact_id": "535926291",
+    "contact_name": "Rimsha Akram",
+    "contact_identifier": "+971526064450",
+    "event_type": "INBOUND"
   }
 }
