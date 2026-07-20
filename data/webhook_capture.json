@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-20T08:32:32.536Z",
+  "ts": "2026-07-20T08:32:42.519Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4309585951",
+    "type": "OUTBOUND",
+    "message_id": "4309586133",
     "ticket_id": "960268011",
-    "message": "👀",
-    "channel_id": "585723",
+    "message": "Good afternoon,\r\n\r\nYou may leave the access cards inside the apartment and share a photo with us for confirmation. Once done, you may proceed with the check-out process.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540356642",
     "contact_name": "الايجابي الملهم",
     "contact_identifier": "+971504168652",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
