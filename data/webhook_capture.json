@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-20T13:49:29.745Z",
+  "ts": "2026-07-20T13:59:19.984Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4309978212",
-    "ticket_id": "963289850",
-    "message": "Ok I will put the key under the door mat, when you leave can you put it under it ?",
+    "type": "OUTBOUND",
+    "message_id": "4309989887",
+    "ticket_id": "962750436",
+    "message": "Hello Mrs Hala, good evening",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "142546468",
+    "contact_name": "Mrs Hala Al Mashehari",
+    "contact_identifier": "+971501484141",
     "channel_id": "585723",
-    "contact_id": "541744249",
-    "contact_name": "Chloé Degard",
-    "contact_identifier": "+33781939109",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
