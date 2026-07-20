@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-20T10:37:53.070Z",
+  "ts": "2026-07-20T10:38:35.971Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4309744918",
-    "ticket_id": "967563788",
-    "message": "May I know for which unit is this?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "542951812",
-    "contact_name": "Ahmed",
-    "contact_identifier": "6d427abc-e15e-4c77-419a-65cc44c3f5d6",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4309745718",
+    "ticket_id": "967565810",
+    "message": "hello how are you?\nI wanted to check the vacancies in the upside building\nTo see if there's any apartment available\nStudios preferably\nFor monthly rent",
+    "channel_id": "1304636",
+    "contact_id": "542952359",
+    "contact_name": "Mobina",
+    "contact_identifier": "+971506716500",
+    "event_type": "INBOUND"
   }
 }
