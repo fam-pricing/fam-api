@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-20T11:12:47.261Z",
+  "ts": "2026-07-20T11:15:36.242Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4309784363",
-    "ticket_id": "967575023",
-    "message": "Are they any extra fees?",
-    "channel_id": "1304636",
-    "contact_id": "542955151",
-    "contact_name": "Fadi",
-    "contact_identifier": "+32470322359",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4309787567",
+    "ticket_id": "967162890",
+    "message": "Apologies for the delay Mr Masoud,\r\n\r\nAs per the update received from our team, the apartment will be cleaned prior to your check-in.\r\n\r\nAdditionally, the curtains and sofa will be dusted to ensure the apartment is prepared and comfortable for your arrival.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542854170",
+    "contact_name": "Masoud Matboukhi",
+    "contact_identifier": "+971558423018",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
