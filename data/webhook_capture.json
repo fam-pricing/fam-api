@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-20T07:32:04.519Z",
+  "ts": "2026-07-20T07:32:05.313Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4309513769",
-    "ticket_id": "960457082",
-    "message": "Image",
+    "type": "OUTBOUND",
+    "message_id": "4309513792",
+    "ticket_id": "967499345",
+    "message": "May I know starting from which date until when you are looking for?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542935235",
+    "contact_name": "R J",
+    "contact_identifier": "+971507815535",
     "channel_id": "585723",
-    "contact_id": "540922254",
-    "contact_name": "Alexandros Perakis",
-    "contact_identifier": "+971585106628",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
