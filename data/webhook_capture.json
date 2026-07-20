@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-20T06:41:15.114Z",
+  "ts": "2026-07-20T06:42:00.551Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4309466349",
+    "type": "INBOUND",
+    "message_id": "4309467100",
     "ticket_id": "967487999",
-    "message": "How can I help you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Hi Tharushi, I was already contacted by one of your agents by telephone.",
+    "channel_id": "585723",
     "contact_id": "542932504",
     "contact_name": "Danny van Luijk",
     "contact_identifier": "+35799832848",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
