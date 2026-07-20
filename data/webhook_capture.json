@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-20T16:54:48.383Z",
+  "ts": "2026-07-20T17:02:06.908Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4310182718",
-    "ticket_id": "962750436",
-    "message": "My apologies for that. Thank you for the clarification",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "142546468",
-    "contact_name": "Mrs Hala Al Mashehari",
-    "contact_identifier": "+971501484141",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4310190229",
+    "ticket_id": "967565810",
+    "message": "yes",
+    "channel_id": "1304636",
+    "contact_id": "542952359",
+    "contact_name": "Mobina",
+    "contact_identifier": "+971506716500",
+    "parent_message_id": "4309935696",
+    "parent_ticket_id": "967565810",
+    "event_type": "INBOUND"
   }
 }
