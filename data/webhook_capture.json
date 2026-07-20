@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-20T10:38:35.971Z",
+  "ts": "2026-07-20T10:43:19.255Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4309745718",
-    "ticket_id": "967565810",
-    "message": "hello how are you?\nI wanted to check the vacancies in the upside building\nTo see if there's any apartment available\nStudios preferably\nFor monthly rent",
+    "type": "OUTBOUND",
+    "message_id": "4309750788",
+    "ticket_id": "967560781",
+    "message": "Hello Rimsha, I hope you're well",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "535926291",
+    "contact_name": "Rimsha Akram",
+    "contact_identifier": "+971526064450",
     "channel_id": "1304636",
-    "contact_id": "542952359",
-    "contact_name": "Mobina",
-    "contact_identifier": "+971506716500",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
