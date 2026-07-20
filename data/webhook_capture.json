@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-20T06:12:38.369Z",
+  "ts": "2026-07-20T06:20:35.452Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4309446494",
+    "type": "OUTBOUND",
+    "message_id": "4309451585",
     "ticket_id": "967197432",
-    "message": "From 26 of July, what we have available ?",
-    "channel_id": "585723",
+    "message": "Good morning,\r\n\r\nApologies for the delay,\r\n\r\nHowever, we have checked the availability, and unfortunately, we do not have any studio apartments available in your preferred areas for the requested dates.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "542863974",
     "contact_name": "Yana V",
     "contact_identifier": "+971523722695",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
