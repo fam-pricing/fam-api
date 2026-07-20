@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-20T05:15:34.683Z",
+  "ts": "2026-07-20T05:16:33.461Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4309423978",
+    "type": "INBOUND",
+    "message_id": "4309424376",
     "ticket_id": "951617602",
-    "message": "Please complete the check in form for the new reservation and update us",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "It’s not stored from last week ?",
+    "channel_id": "585723",
     "contact_id": "538457647",
     "contact_name": "Tim Dominik Germany",
     "contact_identifier": "+56931740105",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
