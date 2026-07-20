@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-20T14:46:32.660Z",
+  "ts": "2026-07-20T14:47:32.747Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4310051683",
+    "type": "INBOUND",
+    "message_id": "4310052886",
     "ticket_id": "962750436",
-    "message": "To assist you with the balcony door",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Audio",
+    "channel_id": "585723",
     "contact_id": "142546468",
     "contact_name": "Mrs Hala Al Mashehari",
     "contact_identifier": "+971501484141",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4310051683",
+    "parent_ticket_id": "962750436",
+    "event_type": "INBOUND"
   }
 }
