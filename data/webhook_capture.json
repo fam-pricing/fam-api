@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-21T18:04:44.884Z",
+  "ts": "2026-07-21T18:05:10.407Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4311276494",
+    "type": "OUTBOUND",
+    "message_id": "4311276808",
     "ticket_id": "968020756",
-    "message": "Send me photos",
-    "channel_id": "1304636",
+    "message": "Here are the photos, let me pull those now. While I grab them, are you looking at moving in soon or still comparing options?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "543081140",
     "contact_name": "Mariya",
     "contact_identifier": "+971543739405",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
