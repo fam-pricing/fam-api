@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-21T05:23:30.086Z",
+  "ts": "2026-07-21T05:24:13.803Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4310449650",
+    "type": "INBOUND",
+    "message_id": "4310449928",
     "ticket_id": "967763942",
-    "message": "Just to confirm, you are looking for a 3-bedroom apartment, correct?\r\n\r\nAlso, would any location be suitable for you, or do you have a preferred area?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "3 bedroom and also downtown or jumera beach",
+    "channel_id": "585723",
     "contact_id": "543014034",
     "contact_name": "Naitik Viradiya",
     "contact_identifier": "+919099909837",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4310449650",
+    "parent_ticket_id": "967763942",
+    "event_type": "INBOUND"
   }
 }
