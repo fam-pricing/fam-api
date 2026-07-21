@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-21T12:55:44.082Z",
+  "ts": "2026-07-21T12:57:51.520Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4310955335",
-    "ticket_id": "947609821",
-    "message": "Your original 30-night booking rate was AED 5,500.\r\n\r\nAs you will be checking out on 26th July, your stay will be for a total of 21 nights (from 5th July to 26th July). The applicable amount for the 21-night stay will be AED 3,849.99.\r\n\r\nThe remaining balance of AED 1,650.01, which corresponds to the unused 9 nights, will be transferred and applied towards your future booking starting from 15th August.\r\n\r\nWe will also use the same security deposit amount for your future booking.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537450284",
-    "contact_name": "Alisa",
-    "contact_identifier": "+79817821817",
+    "type": "INBOUND",
+    "message_id": "4310957881",
+    "ticket_id": "956832935",
+    "message": "I’ve got some other miscellaneous items, like a toaster, foam roller, etc.\n\nIt’s okay to leave them too?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "531299669",
+    "contact_name": "Mark Doyle",
+    "contact_identifier": "+353877859722",
+    "event_type": "INBOUND"
   }
 }
