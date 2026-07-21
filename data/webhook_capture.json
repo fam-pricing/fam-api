@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-21T13:28:29.624Z",
+  "ts": "2026-07-21T13:28:40.389Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4310994366",
+    "type": "INBOUND",
+    "message_id": "4310994595",
     "ticket_id": "967888679",
-    "message": "Well noted, and sure, thank you.\r\n\r\nWe will be happy to assist you further. Please feel free to contact us on 27th July to reconfirm the availability and arrange the viewing for 28th July accordingly.\r\n\r\nIn the meantime, we will also keep you updated if we have any other suitable options available.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "🫶",
+    "channel_id": "585723",
     "contact_id": "543038056",
     "contact_name": "Nabilla",
     "contact_identifier": "+33614461555",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4310994366",
+    "parent_ticket_id": "967888679",
+    "event_type": "INBOUND"
   }
 }
