@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-21T14:12:50.096Z",
+  "ts": "2026-07-21T14:31:49.608Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4311047909",
-    "ticket_id": "967528591",
-    "message": "Hello ! PropertyFinder send me your contact regarding this listing:\n\nGood Afternoon\n\nHow can I help you ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "536340091",
-    "contact_name": "Mahassine Al Awad",
-    "contact_identifier": "+971585429848",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4311071827",
+    "ticket_id": "967777963",
+    "message": "👍",
+    "channel_id": "585723",
+    "contact_id": "543016513",
+    "contact_name": "Buzurgkhuja Buzurukov",
+    "contact_identifier": "+992985190009",
+    "parent_message_id": "4311042214",
+    "parent_ticket_id": "967777963",
+    "event_type": "INBOUND"
   }
 }
