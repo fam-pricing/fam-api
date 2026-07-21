@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-21T05:31:01.164Z",
+  "ts": "2026-07-21T05:31:36.459Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4310451899",
+    "type": "OUTBOUND",
+    "message_id": "4310452043",
     "ticket_id": "962750436",
-    "message": "Is someone coming to check the apartment?",
-    "channel_id": "585723",
+    "message": "Yes our team will be passing by for cleaning and inspection",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "142546468",
     "contact_name": "Mrs Hala Al Mashehari",
     "contact_identifier": "+971501484141",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
