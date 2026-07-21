@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-21T12:59:49.160Z",
+  "ts": "2026-07-21T13:01:57.191Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4310960183",
+    "type": "OUTBOUND",
+    "message_id": "4310962927",
     "ticket_id": "947609821",
-    "message": "What’s the total amount again",
-    "channel_id": "585723",
+    "message": "The total amount for your new 30-night booking in August will be AED 6,000.\r\n\r\nPlease note that a 3.1% card processing fee will apply, making the total amount AED 6,186.\r\n\r\nWe will deduct the remaining balance of AED 1,650.01 from this amount, so the final amount payable for your August booking will be AED 4,535.99.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537450284",
     "contact_name": "Alisa",
     "contact_identifier": "+79817821817",
-    "parent_message_id": "4310955335",
-    "parent_ticket_id": "947609821",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
