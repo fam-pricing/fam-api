@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-21T12:46:11.574Z",
+  "ts": "2026-07-21T12:47:31.933Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4310944513",
+    "type": "OUTBOUND",
+    "message_id": "4310946030",
     "ticket_id": "967888679",
-    "message": "I would like to arrange a viewing, so please send me the date, time, and address that suits you.\n\nIf everything meets our expectations, we will make the bank transfer on the same day.\n\nIf you have any other suitable properties available, please don’t hesitate to let me know. It would be great to have several options to consider.",
-    "channel_id": "585723",
+    "message": "Sure, we can arrange the viewing on 28th July. However, we kindly request you to check with us again on 27th July to reconfirm the availability.\r\n\r\nPlease note that this apartment is listed on several online platforms, and there is a possibility it may get booked before the viewing date.\r\n\r\nIf the apartment is still available on 27th July, we will be happy to arrange the viewing accordingly on 28th July.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "543038056",
     "contact_name": "Nabilla",
     "contact_identifier": "+33614461555",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
