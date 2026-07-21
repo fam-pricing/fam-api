@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-21T10:55:48.738Z",
+  "ts": "2026-07-21T10:55:50.278Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4310811113",
+    "type": "INBOUND",
+    "message_id": "4310811143",
     "ticket_id": "967888679",
-    "message": "How can i help you?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Can I talk to a human ?",
+    "channel_id": "585723",
     "contact_id": "543038056",
     "contact_name": "Nabilla",
     "contact_identifier": "+33614461555",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
