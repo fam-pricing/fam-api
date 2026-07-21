@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-21T12:49:35.639Z",
+  "ts": "2026-07-21T12:50:06.590Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4310948491",
+    "type": "INBOUND",
+    "message_id": "4310949078",
     "ticket_id": "947609821",
-    "message": "Okay, we will proceed with making the booking for you starting from 15th August and apply the remaining balance towards this booking.\r\n\r\nHowever, please note that if you decide to cancel the August booking in the future, the amount applied will be considered non-refundable as per the cancellation policy.\r\n\r\nI will proceed with creating the booking and share the confirmation with you accordingly.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Thank you",
+    "channel_id": "585723",
     "contact_id": "537450284",
     "contact_name": "Alisa",
     "contact_identifier": "+79817821817",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
