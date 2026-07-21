@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-21T06:38:07.608Z",
+  "ts": "2026-07-21T06:38:19.171Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4310486129",
-    "ticket_id": "955436676",
-    "message": "Hello Gescard,\r\n\r\nWe have received information from Avinash that you would like to move your booking from Al Zorah to a Dubai apartment starting from 21st July.\r\n\r\nUnfortunately, after checking with our finance team, we are unable to split or shorten the stay as the apartments are under different owners and locations (Ajman and Dubai), which makes the process complicated.\r\n\r\nDue to this reason, we are unable to proceed with the change from 21st July. Your Dubai booking will therefore start from 24th July as originally arranged.\r\n\r\nWe hope you understand the situation, and we appreciate your kind cooperation.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539565275",
-    "contact_name": "GESCARD ISSA",
-    "contact_identifier": "+23795870067",
+    "type": "INBOUND",
+    "message_id": "4310486306",
+    "ticket_id": "953019973",
+    "message": "Thank you for your clarification.\n\nFor the avoidance of doubt, could you please confirm that the above confirmations form part of our rental agreement and will apply throughout my stay?\n\nThank you.",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "536585155",
+    "contact_name": "Muhammad",
+    "contact_identifier": "+971561683935",
+    "event_type": "INBOUND"
   }
 }
