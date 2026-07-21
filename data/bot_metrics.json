@@ -1,17 +1,5 @@
 [
   {
-    "ts": "2026-07-14T18:57:15.622Z",
-    "ticket_id": 966244277,
-    "lead_id": "message_lead_30593267",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1256,
-    "critic_pass": null,
-    "lead_quality": 70,
-    "buying_stage": "HOT",
-    "skip_reason": "ticket_locked"
-  },
-  {
     "ts": "2026-07-15T05:34:27.410Z",
     "ticket_id": 966035315,
     "lead_id": "message_lead_30577522",
@@ -826,5 +814,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "Cannot identify listing for lead N. Property reference is PF-HH-AR-92962 which is not in the active portfolio mapping."
+  },
+  {
+    "ts": "2026-07-21T20:07:54.257Z",
+    "ticket_id": 968010246,
+    "lead_id": "message_lead_30731833",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1071,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "ticket_locked"
   }
 ]
