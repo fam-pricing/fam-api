@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-21T05:28:24.442Z",
+  "ts": "2026-07-21T05:28:35.711Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4310451089",
-    "ticket_id": "956832935",
-    "message": "Hi Mark, good morning. Hope you had a smooth self-check-in last night! Just checking in to make sure everything went well and you're settled in comfortably. Let me know if you need anything at all. 😊",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "531299669",
-    "contact_name": "Mark Doyle",
-    "contact_identifier": "+353877859722",
+    "type": "INBOUND",
+    "message_id": "4310451137",
+    "ticket_id": "962750436",
+    "message": "10:00 AM - 12:00 PM",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "142546468",
+    "contact_name": "Mrs Hala Al Mashehari",
+    "contact_identifier": "+971501484141",
+    "parent_message_id": "4310449465",
+    "parent_ticket_id": "962750436",
+    "event_type": "INBOUND"
   }
 }
