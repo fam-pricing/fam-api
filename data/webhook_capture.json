@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-21T10:57:09.743Z",
+  "ts": "2026-07-21T10:57:26.143Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4310812322",
-    "ticket_id": "967888679",
-    "message": "Yes, this is Chahana from the Reservations Team.\r\n\r\nMay I know the reason for your inquiry and which apartment you are currently staying in?\r\n\r\nThis will help me connect you with the appropriate team member who can assist you.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "543038056",
-    "contact_name": "Nabilla",
-    "contact_identifier": "+33614461555",
+    "type": "INBOUND",
+    "message_id": "4310812598",
+    "ticket_id": "967885725",
+    "message": "Hi! I’m assisting a French family looking for accommodation while waiting for their villa handover in Tilal Al Ghaf. They need a minimum of three bedrooms plus a maid’s room for three adults, two children, and one dog, from 15 August until 30 November. Their total budget is AED 87,500. Could you please present our offer to the landlord and let us know if they would consider it? Thank you!",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "543037304",
+    "contact_name": "Melina",
+    "contact_identifier": "+971581667737",
+    "event_type": "INBOUND"
   }
 }
