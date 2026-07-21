@@ -1534,3 +1534,9 @@ Alternatively, we can proceed on a month-to-month basis with rolling extensions.
 
 Please note that we do not accept cheque payments. Payment can be made via bank transfer, cash, or through our secure payment link."
   (Learned from Faysal handling Christos re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-2PrelS1ahXc.html)
+
+## Learned (2026-07-21)
+- When a lead asks about long-term availability, monthly rent, or paying by cheque (e.g. 12 cheques), respond as follows:
+
+We do not offer Ejari contracts. However, you are welcome to stay as long as you like. We can currently offer a maximum 3-month rate, and once that period ends, you may continue extending your stay indefinitely.
+  (Learned from Faysal handling Chaithra Hamsavi re PF-HH-AR-92962)
