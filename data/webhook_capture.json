@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-21T11:31:21.154Z",
+  "ts": "2026-07-21T11:33:28.267Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4310854987",
+    "type": "INBOUND",
+    "message_id": "4310857399",
     "ticket_id": "963289850",
-    "message": "You're welcome",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "❤️",
+    "channel_id": "585723",
     "contact_id": "541744249",
     "contact_name": "Chloé Degard",
     "contact_identifier": "+33781939109",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4310854987",
+    "parent_ticket_id": "963289850",
+    "event_type": "INBOUND"
   }
 }
