@@ -1,17 +1,19 @@
 {
-  "ts": "2026-07-21T07:23:17.901Z",
+  "ts": "2026-07-21T07:27:23.328Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4310536283",
-    "ticket_id": "966676646",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "542720186",
-    "contact_name": "Giovanni Padoan",
-    "contact_identifier": "+79637138059",
+    "type": "INBOUND",
+    "message_id": "4310540135",
+    "ticket_id": "956832935",
+    "message": "👍",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "531299669",
+    "contact_name": "Mark Doyle",
+    "contact_identifier": "+353877859722",
+    "parent_message_id": "4310451089",
+    "parent_ticket_id": "956832935",
+    "event_type": "INBOUND"
   }
 }
