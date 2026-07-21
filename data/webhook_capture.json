@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-21T10:45:37.685Z",
+  "ts": "2026-07-21T10:46:04.368Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4310800229",
-    "ticket_id": "967885725",
-    "message": "Can I speak with someone?",
+    "type": "OUTBOUND",
+    "message_id": "4310800915",
+    "ticket_id": "947609821",
+    "message": "Good afternoon, Alisa.\r\n\r\nJust to confirm, does that mean you would like to make a new booking starting from 15th August?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537450284",
+    "contact_name": "Alisa",
+    "contact_identifier": "+79817821817",
     "channel_id": "585723",
-    "contact_id": "543037304",
-    "contact_name": "Melina",
-    "contact_identifier": "+971581667737",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
