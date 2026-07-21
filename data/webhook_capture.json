@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-21T07:47:42.571Z",
+  "ts": "2026-07-21T07:49:02.158Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4310568053",
+    "type": "INBOUND",
+    "message_id": "4310570138",
     "ticket_id": "967804575",
-    "message": "Good morning Mr. Fahad,\r\n\r\nWe would like to inform you that this villa is no longer managed by us. Unfortunately, we do not have any availability for this property.\r\n\r\nThank you for your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Are there other similar villas?",
+    "channel_id": "585723",
     "contact_id": "437921852",
     "contact_name": "Mr Fahad Alosaimi",
     "contact_identifier": "+966540468024",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
