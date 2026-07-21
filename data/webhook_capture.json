@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-21T06:18:42.935Z",
+  "ts": "2026-07-21T06:18:48.736Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4310472830",
-    "ticket_id": "967777963",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "543016513",
-    "contact_name": "Buzurgkhuja Buzurukov",
-    "contact_identifier": "+992985190009",
+    "type": "INBOUND",
+    "message_id": "4310472873",
+    "ticket_id": "953019973",
+    "message": "Hi,\n\nThank you for sharing the agreement. Before signing, I would appreciate it if you could kindly confirm the following:\n\n1. Please confirm that the total rental amount of AED 20,000 is fixed and will not change during the full 90-night stay, provided I follow the agreed payment schedule.\n2. If I am relocated to another property due to the apartment being sold, returned to the owner, or for maintenance reasons, please confirm that my rental rate will remain the same and will not be adjusted to seasonal pricing.\n3. Please clarify what is considered “excessive” DEWA (water and electricity) consumption. Is there a specific limit or calculation method?\n4. Please confirm that the AED 2,000 security deposit will be refunded in full within the stated timeframe, provided there is no damage to the property or outstanding charges.\n\nThank you. I look forward to your confirmation before signing the agreement.",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "536585155",
+    "contact_name": "Muhammad",
+    "contact_identifier": "+971561683935",
+    "event_type": "INBOUND"
   }
 }
