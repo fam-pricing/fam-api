@@ -850,5 +850,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-07-21T20:21:35.484Z",
+    "ticket_id": 968010246,
+    "lead_id": "message_lead_30731833",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 23895,
+    "critic_pass": null,
+    "lead_quality": 40,
+    "buying_stage": "WARM",
+    "skip_reason": "Lead is asking about car parking at the City Walk Viridian property and this detail is not in the portfolio. Lead also has date confusion: they mentioned 23/7-26/7 which could be a 3-night short stay (needs Faysal confirmation for short-term pricing) or a move-in date for a monthly booking. Al Sufouh availability already handled by Faysal. Need Faysal to confirm parking details and clarify the 23/7-26/7 situation."
   }
 ]
