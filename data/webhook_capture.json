@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-22T06:14:47.626Z",
+  "ts": "2026-07-22T06:15:23.059Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4311500327",
-    "ticket_id": "967162890",
-    "message": "Ok?",
+    "type": "OUTBOUND",
+    "message_id": "4311500629",
+    "ticket_id": "959401628",
+    "message": "Unfortunately, we are unable to extend your stay by an additional two nights due to back-to-back bookings.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536501473",
+    "contact_name": "Joubert Rocha Chaves",
+    "contact_identifier": "+971586730550",
     "channel_id": "585723",
-    "contact_id": "542854170",
-    "contact_name": "Masoud Matboukhi",
-    "contact_identifier": "+971558423018",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
