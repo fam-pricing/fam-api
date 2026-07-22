@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-22T11:15:35.382Z",
+  "ts": "2026-07-22T11:15:46.752Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4311821149",
-    "ticket_id": "962625629",
-    "message": "Confirm",
+    "type": "OUTBOUND",
+    "message_id": "4311821356",
+    "ticket_id": "968094285",
+    "message": "Our standard check in time starts at 3pm however if the unit gets ready earlier we are more than happy to provide early check in",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "543096961",
+    "contact_name": "GW",
+    "contact_identifier": "+971568237527",
     "channel_id": "585723",
-    "contact_id": "541526979",
-    "contact_name": "Megli",
-    "contact_identifier": "+447474854636",
-    "parent_message_id": "4311819972",
-    "parent_ticket_id": "962625629",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
