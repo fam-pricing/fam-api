@@ -1,17 +1,19 @@
 {
-  "ts": "2026-07-22T14:33:09.472Z",
+  "ts": "2026-07-22T14:51:45.554Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4312058459",
-    "ticket_id": "967885725",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "543037304",
-    "contact_name": "Melina",
-    "contact_identifier": "+971581667737",
+    "type": "INBOUND",
+    "message_id": "4312079399",
+    "ticket_id": "951617602",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "538457647",
+    "contact_name": "Tim Dominik Germany",
+    "contact_identifier": "+56931740105",
+    "parent_message_id": "4311655361",
+    "parent_ticket_id": "951617602",
+    "event_type": "INBOUND"
   }
 }
