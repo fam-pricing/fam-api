@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-22T11:25:00.085Z",
+  "ts": "2026-07-22T11:25:14.151Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4311831350",
+    "type": "INBOUND",
+    "message_id": "4311831652",
     "ticket_id": "968175723",
-    "message": "Thank you for your payment.\r\n\r\nWe will verify the transaction with our Finance team, and once the payment has been confirmed, we will update you accordingly.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "🙏",
+    "channel_id": "1304636",
     "contact_id": "536414061",
     "contact_name": "Maria",
     "contact_identifier": "+96176100864",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4311831350",
+    "parent_ticket_id": "968175723",
+    "event_type": "INBOUND"
   }
 }
