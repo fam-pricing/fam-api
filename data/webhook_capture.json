@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-22T06:57:19.077Z",
+  "ts": "2026-07-22T06:57:33.397Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4311532280",
-    "ticket_id": "968114327",
-    "message": "yes",
+    "type": "OUTBOUND",
+    "message_id": "4311532451",
+    "ticket_id": "959401628",
+    "message": "Check out date is 24th July",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536501473",
+    "contact_name": "Joubert Rocha Chaves",
+    "contact_identifier": "+971586730550",
     "channel_id": "585723",
-    "contact_id": "543101494",
-    "contact_name": "Farzad",
-    "contact_identifier": "+971551866370",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
