@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-22T10:55:57.119Z",
+  "ts": "2026-07-22T10:56:00.290Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4311799780",
-    "ticket_id": "968186455",
-    "message": "Hello, I am looking for a place to rent in the La Mer area. My preference is a property available on a monthly rental basis. I am planning to stay for at least four months, from September to December 2026. I would like to discuss this property with you and see if it would be suitable.\nThank you, and I look forward to hearing from you.",
+    "type": "OUTBOUND",
+    "message_id": "4311799859",
+    "ticket_id": "968175723",
+    "message": "Hi Maria,\r\n\r\nAllow me to check the payment on our end.\r\n\r\nHowever, please note that the rent for August is AED 6,000. We kindly request you to complete the remaining balance of AED 1,000 at your earliest convenience.\r\n\r\nThank you for your cooperation.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536414061",
+    "contact_name": "Maria",
+    "contact_identifier": "+96176100864",
     "channel_id": "1304636",
-    "contact_id": "543120900",
-    "contact_name": "Elvan Öksüz",
-    "contact_identifier": "+905362808652",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
