@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-22T07:58:41.176Z",
+  "ts": "2026-07-22T08:00:29.696Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4311593405",
+    "type": "INBOUND",
+    "message_id": "4311595492",
     "ticket_id": "967162890",
-    "message": "Here is some important information for your stay with us at fäm Living:\r\n\r\n- Your apartment number is 302, located on the 3rd floor of Tower A5.\r\n- Wi-Fi password: famliving\r\n- Main door code: 🔑\r\n- An access card has been left inside the apartment.\r\n- The gym is located in Building A8\r\nPlease note that our office hours are daily from 9:00 AM to 9:00 PM.",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Hi",
+    "channel_id": "585723",
     "contact_id": "542854170",
     "contact_name": "Masoud Matboukhi",
     "contact_identifier": "+971558423018",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
