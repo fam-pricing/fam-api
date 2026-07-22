@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-22T07:25:18.365Z",
+  "ts": "2026-07-22T07:25:24.567Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4311559053",
+    "type": "INBOUND",
+    "message_id": "4311559149",
     "ticket_id": "963505285",
-    "message": "Sure you will proceed a bank transfer?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Yes",
+    "channel_id": "585723",
     "contact_id": "541802779",
     "contact_name": "Atahar Ishraque Chowdhury",
     "contact_identifier": "+8801764511515",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4311559053",
+    "parent_ticket_id": "963505285",
+    "event_type": "INBOUND"
   }
 }
