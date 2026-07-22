@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-22T06:42:48.543Z",
+  "ts": "2026-07-22T06:42:52.427Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4311519281",
+    "type": "OUTBOUND",
+    "message_id": "4311519325",
     "ticket_id": "968109744",
-    "message": "Morning Tharushi",
-    "channel_id": "585723",
+    "message": "How can I help you?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "533289534",
     "contact_name": "Sia Rungrat",
     "contact_identifier": "+971523714395",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
