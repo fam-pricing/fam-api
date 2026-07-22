@@ -1540,3 +1540,9 @@ Please note that we do not accept cheque payments. Payment can be made via bank 
 
 We do not offer Ejari contracts. However, you are welcome to stay as long as you like. We can currently offer a maximum 3-month rate, and once that period ends, you may continue extending your stay indefinitely.
   (Learned from Faysal handling Chaithra Hamsavi re PF-HH-AR-92962)
+
+## Learned (2026-07-22)
+- When a lead says "Thanks" (indicating they may be wrapping up the conversation), clarify that Ejari contracts are not offered, then present the long-stay alternative:
+
+"We don't offer Ejari contracts. That said, you're welcome to extend your stay for as long as you like. We can currently offer you a maximum 3-month rate, and once that period ends, you can continue renewing your stay indefinitely."
+  (Learned from Faysal handling Isabella re 1BR in La Sirene 3)
