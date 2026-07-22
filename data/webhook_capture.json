@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-22T10:55:39.840Z",
+  "ts": "2026-07-22T10:55:57.119Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4311799459",
+    "type": "INBOUND",
+    "message_id": "4311799780",
     "ticket_id": "968186455",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in La Sirene 3\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello, I am looking for a place to rent in the La Mer area. My preference is a property available on a monthly rental basis. I am planning to stay for at least four months, from September to December 2026. I would like to discuss this property with you and see if it would be suitable.\nThank you, and I look forward to hearing from you.",
+    "channel_id": "1304636",
     "contact_id": "543120900",
     "contact_name": "Elvan Öksüz",
     "contact_identifier": "+905362808652",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
