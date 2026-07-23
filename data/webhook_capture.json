@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-23T09:39:18.703Z",
+  "ts": "2026-07-23T09:40:09.674Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4312688070",
-    "ticket_id": "968460899",
-    "message": "Yes, it's available. The price is fixed for 3 months, then reviewed based on market conditions. Want to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "543201512",
-    "contact_name": "Жанар",
-    "contact_identifier": "+77476531400",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4312689041",
+    "ticket_id": "968463219",
+    "message": "Confirm",
+    "channel_id": "585723",
+    "contact_id": "543202070",
+    "contact_name": "azizi",
+    "contact_identifier": "+971506503450",
+    "parent_message_id": "4312686674",
+    "parent_ticket_id": "968463219",
+    "event_type": "INBOUND"
   }
 }
