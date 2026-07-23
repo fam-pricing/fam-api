@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-23T14:13:18.572Z",
+  "ts": "2026-07-23T14:22:06.080Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4312999930",
-    "ticket_id": "968532764",
-    "message": "Sure, please share the required details so we can send you the payment link for the security deposit.\r\n\r\nOnce the payment is completed, we will proceed with blocking the unit for you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "543221819",
-    "contact_name": "Tammam fäm",
-    "contact_identifier": "+971524488586",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4313010507",
+    "ticket_id": "968010246",
+    "message": "Card or bank transfer",
+    "channel_id": "1304636",
+    "contact_id": "543078183",
+    "contact_name": "Ahmed Shehab Ahmed Ali Alsaadi",
+    "contact_identifier": "+971557999949",
+    "event_type": "INBOUND"
   }
 }
