@@ -1554,3 +1554,9 @@ We do not offer Ejari contracts. However, you are welcome to stay as long as you
 ## Learned (2026-07-23)
 - If a lead mentions audio issues or communicates via audio message only, respond with: "Unfortunately, we need your Emirates ID or passport in order to arrange a viewing for you."
   (Learned from Faysal handling Amer re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
+
+## Learned (2026-07-23)
+- If a lead requests a further price reduction on a fixed 6-month cash deal, respond as follows:
+
+"Unfortunately, we are unable to reduce the rate further, as the quoted price has already been updated in line with current prevailing market conditions."
+  (Learned from Faysal handling Amer re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
