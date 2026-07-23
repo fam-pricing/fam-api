@@ -1550,3 +1550,7 @@ We do not offer Ejari contracts. However, you are welcome to stay as long as you
 ## Learned (2026-07-23)
 - If a lead requests a viewing that includes both a 1-bedroom and a 2-bedroom unit in the same building, inform them that we do not have both unit types available within the same building and cannot accommodate that type of combined showing.
   (Learned from Faysal handling Atisya re 1BR in La Sirene 3)
+
+## Learned (2026-07-23)
+- If a lead mentions audio issues or communicates via audio message only, respond with: "Unfortunately, we need your Emirates ID or passport in order to arrange a viewing for you."
+  (Learned from Faysal handling Amer re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
