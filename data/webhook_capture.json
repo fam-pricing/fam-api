@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-23T19:18:47.841Z",
+  "ts": "2026-07-23T19:19:34.071Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4313242238",
+    "type": "INBOUND",
+    "message_id": "4313242587",
     "ticket_id": "968607878",
-    "message": "Here's the listing: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-meydan-city-sobha-hartland-azizi-riviera-azizi-riviera-16-2PsXyBpPGpW.html\n\nWhat day works for you to view it?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Audio",
+    "channel_id": "1304636",
     "contact_id": "543247901",
     "contact_name": "✨✨",
     "contact_identifier": "+971589812104",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4313241229",
+    "parent_ticket_id": "968607878",
+    "event_type": "INBOUND"
   }
 }
