@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-23T05:41:15.365Z",
+  "ts": "2026-07-23T05:41:19.929Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4312461338",
-    "ticket_id": "968213759",
-    "message": "Is there anything else I can help you with today ?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "542522241",
-    "contact_name": "Moath",
-    "contact_identifier": "+971505201043",
+    "type": "INBOUND",
+    "message_id": "4312461352",
+    "ticket_id": "968391473",
+    "message": "Send me photoes of this studio",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "543186044",
+    "contact_name": "Amer",
+    "contact_identifier": "+971565031322",
+    "parent_message_id": "4312461242",
+    "parent_ticket_id": "968391473",
+    "event_type": "INBOUND"
   }
 }
