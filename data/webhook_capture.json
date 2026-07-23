@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-23T16:11:25.123Z",
+  "ts": "2026-07-23T16:11:39.152Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4313120107",
+    "type": "INBOUND",
+    "message_id": "4313120295",
     "ticket_id": "968575140",
-    "message": "Mohamed, the studio in Azizi Riviera 16 is available now at AED 4,000/month all-inclusive. Would you like to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes please",
+    "channel_id": "1304636",
     "contact_id": "543235242",
     "contact_name": "Mohamed Khaled",
     "contact_identifier": "+966548753655",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
