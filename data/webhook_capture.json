@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-23T14:11:43.945Z",
+  "ts": "2026-07-23T14:12:17.784Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4312998021",
+    "type": "INBOUND",
+    "message_id": "4312998664",
     "ticket_id": "954732401",
-    "message": "Please complete and update us",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "It should be 4950",
+    "channel_id": "585723",
     "contact_id": "539383560",
     "contact_name": "Noah",
     "contact_identifier": "+971553384406",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4307099401",
+    "parent_ticket_id": "954732401",
+    "event_type": "INBOUND"
   }
 }
