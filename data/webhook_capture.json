@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-23T05:38:55.354Z",
+  "ts": "2026-07-23T05:39:23.033Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4312460451",
+    "type": "INBOUND",
+    "message_id": "4312460579",
     "ticket_id": "968391473",
-    "message": "Amer, at AED 3,500/month we don't have anything available right now, but we do have a studio in Azizi Riviera 16 at AED 3,999/month. Want me to send you the listing so you can have a look?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes and also location",
+    "channel_id": "1304636",
     "contact_id": "543186044",
     "contact_name": "Amer",
     "contact_identifier": "+971565031322",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4312460451",
+    "parent_ticket_id": "968391473",
+    "event_type": "INBOUND"
   }
 }
