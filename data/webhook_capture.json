@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-23T11:16:13.088Z",
+  "ts": "2026-07-23T11:20:33.570Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4312796729",
-    "ticket_id": "968379739",
-    "message": "May I know the apartment name please?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "160538848",
-    "contact_name": "Asma Asma  Al Suwaidi  Al Suwaidi",
-    "contact_identifier": "+971502300073",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4312801814",
+    "ticket_id": "968491842",
+    "message": "Yes",
+    "channel_id": "1304636",
+    "contact_id": "543210266",
+    "contact_name": "Sabri",
+    "contact_identifier": "+971502661888",
+    "event_type": "INBOUND"
   }
 }
