@@ -1606,5 +1606,17 @@
     "lead_quality": 10,
     "buying_stage": "COLD",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-07-23T11:22:25.026Z",
+    "ticket_id": 968491842,
+    "lead_id": "message_lead_30769945",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 9456,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
+    "skip_reason": "audio_message"
   }
 ]
