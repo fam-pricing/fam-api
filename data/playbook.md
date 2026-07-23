@@ -1560,3 +1560,7 @@ We do not offer Ejari contracts. However, you are welcome to stay as long as you
 
 "Unfortunately, we are unable to reduce the rate further, as the quoted price has already been updated in line with current prevailing market conditions."
   (Learned from Faysal handling Amer re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
+
+## Learned (2026-07-23)
+- When a lead responds with "Okay, noted" or a similar acknowledgment, reply by letting them know that viewings are available between 9:00 AM and 6:00 PM and invite them to choose a convenient time.
+  (Learned from Faysal handling Sabri re Studio in Azizi Riviera 16)
