@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-23T17:55:43.414Z",
+  "ts": "2026-07-23T17:57:06.170Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4313196175",
+    "type": "INBOUND",
+    "message_id": "4313197028",
     "ticket_id": "968596096",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/penthouse-for-rent-dubai-palm-jumeirah-azizi-mina-2P0VA2m2euW.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes",
+    "channel_id": "1304636",
     "contact_id": "543243424",
     "contact_name": "JOE",
     "contact_identifier": "+15145592553",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
