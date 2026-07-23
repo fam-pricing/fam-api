@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-23T11:04:16.814Z",
+  "ts": "2026-07-23T11:04:56.989Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4312783327",
+    "type": "INBOUND",
+    "message_id": "4312784074",
     "ticket_id": "968468787",
-    "message": "Please note that we do not accept payments by cheque.\r\n\r\nMay I know the dates you are planning to stay, including your intended check-in and check-out dates, so I can assist you with your reservation?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Interesting about the cheques. So how do i pay? Bank transfer?",
+    "channel_id": "1304636",
     "contact_id": "543203778",
     "contact_name": "Rami 🐈‍⬛",
     "contact_identifier": "+971505228645",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
