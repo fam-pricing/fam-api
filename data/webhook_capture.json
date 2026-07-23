@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-23T09:55:39.082Z",
+  "ts": "2026-07-23T09:55:52.348Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4312707837",
-    "ticket_id": "947450013",
-    "message": "Please wait, I'm outside. I have work to do. I waited for your team for 5 hours, and I was outside my house, afraid of getting electrocuted because you handled the matter carelessly. No one should enter while I was outside until I presented myself and unpacked all my belongings, which were all damaged by water. You arrived late.",
-    "channel_id": "585723",
-    "contact_id": "537422737",
-    "contact_name": "Nour",
-    "contact_identifier": "+971562235300",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4312708123",
+    "ticket_id": "968468787",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in La Sirene 3\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "543203778",
+    "contact_name": "Rami 🐈‍⬛",
+    "contact_identifier": "+971505228645",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
