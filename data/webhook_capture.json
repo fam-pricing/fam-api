@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-23T16:47:02.317Z",
+  "ts": "2026-07-23T16:49:34.037Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4313146581",
+    "type": "OUTBOUND",
+    "message_id": "4313148176",
     "ticket_id": "968010246",
-    "message": "Payment link please",
-    "channel_id": "1304636",
+    "message": "Sure I will send the payment link to complete the payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543078183",
     "contact_name": "Ahmed Shehab Ahmed Ali Alsaadi",
     "contact_identifier": "+971557999949",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
