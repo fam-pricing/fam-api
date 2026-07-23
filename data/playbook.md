@@ -1546,3 +1546,7 @@ We do not offer Ejari contracts. However, you are welcome to stay as long as you
 
 "We don't offer Ejari contracts. That said, you're welcome to extend your stay for as long as you like. We can currently offer you a maximum 3-month rate, and once that period ends, you can continue renewing your stay indefinitely."
   (Learned from Faysal handling Isabella re 1BR in La Sirene 3)
+
+## Learned (2026-07-23)
+- If a lead requests a viewing that includes both a 1-bedroom and a 2-bedroom unit in the same building, inform them that we do not have both unit types available within the same building and cannot accommodate that type of combined showing.
+  (Learned from Faysal handling Atisya re 1BR in La Sirene 3)
