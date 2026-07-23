@@ -1564,3 +1564,15 @@ We do not offer Ejari contracts. However, you are welcome to stay as long as you
 ## Learned (2026-07-23)
 - When a lead responds with "Okay, noted" or a similar acknowledgment, reply by letting them know that viewings are available between 9:00 AM and 6:00 PM and invite them to choose a convenient time.
   (Learned from Faysal handling Sabri re Studio in Azizi Riviera 16)
+
+## Learned (2026-07-23)
+- When a lead says they'll decide later whether to extend and will check availability in the final week, respond with the following:
+
+For self-check-in, we will need the following to proceed:
+
+1. Copy of your passport
+2. Email address
+3. We will send you a registration card — please sign and return it to us.
+
+Once these steps are complete, we will send you your self-check-in details.
+  (Learned from Faysal handling _ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
