@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-23T07:29:18.410Z",
+  "ts": "2026-07-23T07:40:52.715Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4312537288",
+    "type": "OUTBOUND",
+    "message_id": "4312549218",
     "ticket_id": "968391473",
-    "message": "Amer, here's the listing with photos: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-al-safa-al-safa-1-13851850.html, it's a 1BR rather than a studio, but it's the closest available in that area. Worth a look?",
-    "channel_id": "1304636",
+    "message": "As per your request, please find the 3-month rates for Al Safa Complex\r\n\r\nJuly: AED 5,000\r\nAugust: AED 6,000\r\nSeptember: AED 7,000\r\n\r\nPlease note that a security deposit of AED 2,000 is required. The booking will be on a monthly basis only (30 nights each month).\r\n\r\nThank you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543186044",
     "contact_name": "Amer",
     "contact_identifier": "+971565031322",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
