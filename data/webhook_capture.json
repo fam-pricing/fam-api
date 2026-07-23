@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-23T08:39:24.499Z",
+  "ts": "2026-07-23T08:40:33.270Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4312614948",
-    "ticket_id": "968010246",
-    "message": "Okay thank you",
+    "type": "OUTBOUND",
+    "message_id": "4312616380",
+    "ticket_id": "968115812",
+    "message": "As informed earlier they left already as they have other schedules at 12.30 pm",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "536340091",
+    "contact_name": "Mahassine Al Awad",
+    "contact_identifier": "+971585429848",
     "channel_id": "1304636",
-    "contact_id": "543078183",
-    "contact_name": "_",
-    "contact_identifier": "+971557999949",
-    "parent_message_id": "4312466098",
-    "parent_ticket_id": "968010246",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
