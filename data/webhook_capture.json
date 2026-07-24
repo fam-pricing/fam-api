@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-24T07:17:15.865Z",
+  "ts": "2026-07-24T07:17:17.364Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4313456691",
+    "type": "OUTBOUND",
+    "message_id": "4313456748",
     "ticket_id": "968115812",
-    "message": "I’m not in the apartment",
-    "channel_id": "1304636",
+    "message": "You can’t inform that last minute when they at your doorstep",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "536340091",
     "contact_name": "Mahassine Al Awad",
     "contact_identifier": "+971585429848",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
