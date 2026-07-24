@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-24T12:02:46.111Z",
+  "ts": "2026-07-24T12:04:03.406Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4313739346",
+    "type": "INBOUND",
+    "message_id": "4313740681",
     "ticket_id": "968768206",
-    "message": "May I know do you have a vehicle",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Abu dhabi \n16\n15737\nNissan/Altima\nBlack\n\nCar 2 :-\n\nDubai\nK\n86595\nCorvette\nBlack",
+    "channel_id": "1304636",
     "contact_id": "543078183",
     "contact_name": "Ahmed Shehab Ahmed Ali Alsaadi",
     "contact_identifier": "+971557999949",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4313391967",
+    "parent_ticket_id": "968768206",
+    "event_type": "INBOUND"
   }
 }
