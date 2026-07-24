@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-24T07:19:32.119Z",
+  "ts": "2026-07-24T07:19:35.225Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4313459384",
-    "ticket_id": "968115812",
-    "message": "Thank you",
+    "type": "OUTBOUND",
+    "message_id": "4313459431",
+    "ticket_id": "968666651",
+    "message": "Sure we can offer the below rates for the next 02 months\r\n\r\nAugust: AED 4,500 (30 nights)\r\nSeptember: AED 5,000 (30 nights)\r\n\r\nPlease note that a security deposit of AED 2,000 is required.\r\n\r\nThe booking will be on a monthly basis only (30 nights each month).",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "543261378",
+    "contact_name": "Artur Petrosian",
+    "contact_identifier": "+971585744818",
     "channel_id": "1304636",
-    "contact_id": "536340091",
-    "contact_name": "Mahassine Al Awad",
-    "contact_identifier": "+971585429848",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
