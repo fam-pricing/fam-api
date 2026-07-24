@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-24T05:39:13.681Z",
+  "ts": "2026-07-24T05:39:20.142Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4313398514",
+    "type": "OUTBOUND",
+    "message_id": "4313398534",
     "ticket_id": "968670550",
-    "message": "Hey I’m looking to rent an apartment for a couple of months can you please WhatsApp me as soon as possible +971542139487",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "543262148",
     "contact_name": "Hannah",
     "contact_identifier": "352ab805-ec42-4fd5-0425-e1f1cdc268e5",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
