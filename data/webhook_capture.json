@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-24T08:39:50.059Z",
+  "ts": "2026-07-24T08:41:08.516Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4313532649",
-    "ticket_id": "947450013",
-    "message": "Okay, I'll be home at 3 pm.",
-    "channel_id": "585723",
-    "contact_id": "537422737",
-    "contact_name": "Nour",
-    "contact_identifier": "+971562235300",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4313533728",
+    "ticket_id": "968666651",
+    "message": "You may complete the payment using any of the following methods:\r\n\r\nPayment link – 3.1% card processing fee will be applied to the payment amount.\r\nBank transfer\r\nCash payment at our office.\r\n\r\nKindly note that an advance payment is required to reserve and block the unit for your stay next month. Until the payment is received, we are unfortunately unable to block the unit, as it remains available for booking on multiple platforms.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "543261378",
+    "contact_name": "Artur Petrosian",
+    "contact_identifier": "+971585744818",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
