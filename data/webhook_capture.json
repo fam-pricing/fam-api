@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-24T07:21:27.184Z",
+  "ts": "2026-07-24T07:21:34.729Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4313461713",
-    "ticket_id": "968687141",
-    "message": "Hello Sami Feghali ! To provide you with a smooth check-in experience, we must know your estimated arrival time. Please let us know what time are you expecting to check in.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "532079460",
-    "contact_name": "Sami Feghali",
-    "contact_identifier": "+971561690626",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4313461806",
+    "ticket_id": "968666651",
+    "message": "Any possible discount for those prices ?",
+    "channel_id": "1304636",
+    "contact_id": "543261378",
+    "contact_name": "Artur Petrosian",
+    "contact_identifier": "+971585744818",
+    "parent_message_id": "4313459431",
+    "parent_ticket_id": "968666651",
+    "event_type": "INBOUND"
   }
 }
