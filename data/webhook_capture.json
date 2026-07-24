@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-24T06:34:16.390Z",
+  "ts": "2026-07-24T06:35:43.607Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4313425457",
-    "ticket_id": "959587621",
-    "message": "Thanks",
+    "type": "OUTBOUND",
+    "message_id": "4313428732",
+    "ticket_id": "955436676",
+    "message": "Before 12 pm today",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "539565275",
+    "contact_name": "GESCARD ISSA",
+    "contact_identifier": "+23795870067",
     "channel_id": "585723",
-    "contact_id": "540691470",
-    "contact_name": "ramiza",
-    "contact_identifier": "+971566548614",
-    "parent_message_id": "4313409280",
-    "parent_ticket_id": "959587621",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
