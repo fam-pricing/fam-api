@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-24T11:14:42.418Z",
+  "ts": "2026-07-24T11:14:50.952Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4313690691",
+    "type": "OUTBOUND",
+    "message_id": "4313690778",
     "ticket_id": "968379739",
-    "message": "5",
-    "channel_id": "585723",
+    "message": "To process a smooth check in for you, please complete this form:\r\nhttps://guest-app.guesty.com/r/6a6318688829fe184e611dd3/e3tndWVzdF9hcHA6OnNhbXBsZV9ndWVzdF9hcHB9fQ==",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "160538848",
     "contact_name": "Asma Asma  Al Suwaidi  Al Suwaidi",
     "contact_identifier": "+971502300073",
-    "parent_message_id": "4313630869",
-    "parent_ticket_id": "968379739",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
