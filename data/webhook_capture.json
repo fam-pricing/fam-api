@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-24T07:14:45.503Z",
+  "ts": "2026-07-24T07:16:10.671Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4313454841",
-    "ticket_id": "968687141",
-    "message": "Confirm",
-    "channel_id": "585723",
-    "contact_id": "532079460",
-    "contact_name": "Sami Feghali",
-    "contact_identifier": "+971561690626",
-    "parent_message_id": "4313439691",
-    "parent_ticket_id": "926105132",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4313455928",
+    "ticket_id": "968115812",
+    "message": "We informed already yesterday that at 11 am and you confirmed the timing",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "536340091",
+    "contact_name": "Mahassine Al Awad",
+    "contact_identifier": "+971585429848",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
