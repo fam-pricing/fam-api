@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-24T07:12:28.185Z",
+  "ts": "2026-07-24T07:12:33.516Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4313452972",
+    "type": "OUTBOUND",
+    "message_id": "4313453034",
     "ticket_id": "968666651",
-    "message": "I will need apartment from August 11 for 2 months",
-    "channel_id": "1304636",
+    "message": "Great would you like to proceed with the reservation?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543261378",
     "contact_name": "Artur Petrosian",
     "contact_identifier": "+971585744818",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
