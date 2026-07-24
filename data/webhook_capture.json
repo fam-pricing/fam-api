@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-24T06:38:14.975Z",
+  "ts": "2026-07-24T06:39:12.558Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4313430210",
-    "ticket_id": "967862887",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: Imperial 2402. *How can I help you?*",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "536501473",
-    "contact_name": "Joubert Rocha Chaves",
-    "contact_identifier": "+971586730550",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4313430794",
+    "ticket_id": "955436676",
+    "message": "Do they have access to the apartment?",
+    "channel_id": "585723",
+    "contact_id": "539565275",
+    "contact_name": "GESCARD ISSA",
+    "contact_identifier": "+23795870067",
+    "event_type": "INBOUND"
   }
 }
