@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-24T05:48:59.763Z",
+  "ts": "2026-07-24T05:50:14.921Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4313401701",
-    "ticket_id": "968671300",
-    "message": "Hey can I get help with booking an apartment",
+    "type": "OUTBOUND",
+    "message_id": "4313402288",
+    "ticket_id": "959587621",
+    "message": "You may complete the rent payment either by bank transfer or by visiting our office to pay in cash.\r\n\r\nPlease note that, as the security deposit is fully refundable, no card processing fee is applicable to the deposit payment.\r\n\r\nRegarding the rent payment, I believe we had informed you at the initial stage of the booking that a 3.1% card processing fee applies when payment is made via a payment link.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540691470",
+    "contact_name": "ramiza",
+    "contact_identifier": "+971566548614",
     "channel_id": "585723",
-    "contact_id": "543262328",
-    "contact_name": "Hannah",
-    "contact_identifier": "+971542139487",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
