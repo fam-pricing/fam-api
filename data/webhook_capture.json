@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-24T12:50:19.358Z",
+  "ts": "2026-07-24T13:00:59.346Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4313789315",
+    "type": "OUTBOUND",
+    "message_id": "4313799417",
     "ticket_id": "968625120",
-    "message": "Okay thank you",
-    "channel_id": "1304636",
+    "message": "As per your request, please find the 3-month rates for Shams\r\n\r\nAugust: AED 30,000\r\nSeptember: AED 40,000\r\nOctober: AED 50,000\r\n\r\nPlease note that a security deposit of AED 5,000 is required. The booking will be on a monthly basis only (30 nights each month).\r\n\r\nThank you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "540390840",
     "contact_name": "N.",
     "contact_identifier": "+31684584340",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
