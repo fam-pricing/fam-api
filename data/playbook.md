@@ -1588,3 +1588,14 @@ If you have a vehicle, we will need the details below for advance registration. 
 - Vehicle make and model
 - Color
   (Learned from Faysal handling _ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
+
+## Learned (2026-07-24)
+- When a lead says they want to secure their booking, respond with the following:
+
+"To process your booking and arrange self-check-in, we'll need the following from you:
+
+1. A copy of your passport
+2. Your email address
+
+Once received, we'll send you a registration card to sign and return. After completing these steps, we'll send through your self-check-in details."
+  (Learned from Faysal handling Artur Petrosian re Studio in Azizi Riviera 16)
