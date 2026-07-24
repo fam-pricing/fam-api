@@ -1576,3 +1576,15 @@ For self-check-in, we will need the following to proceed:
 
 Once these steps are complete, we will send you your self-check-in details.
   (Learned from Faysal handling _ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
+
+## Learned (2026-07-24)
+- When a lead sends "Image", respond with the following:
+
+If you have a vehicle, we will need the details below for advance registration. Please provide:
+
+- Emirate of issue (Dubai, Abu Dhabi, Sharjah, etc.)
+- Code
+- Plate number
+- Vehicle make and model
+- Color
+  (Learned from Faysal handling _ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
