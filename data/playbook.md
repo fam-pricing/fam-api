@@ -1599,3 +1599,7 @@ If you have a vehicle, we will need the details below for advance registration. 
 
 Once received, we'll send you a registration card to sign and return. After completing these steps, we'll send through your self-check-in details."
   (Learned from Faysal handling Artur Petrosian re Studio in Azizi Riviera 16)
+
+## Learned (2026-07-24)
+- If a lead assumes a commission is included in the rate, clarify that no commission is charged and that the rate quoted is fully all-inclusive.
+  (Learned from Faysal handling Sabri re Studio in Azizi Riviera 16)
