@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-24T10:57:45.199Z",
+  "ts": "2026-07-24T10:59:27.793Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4313672877",
+    "type": "INBOUND",
+    "message_id": "4313674871",
     "ticket_id": "961811054",
-    "message": "May I know how you would like to complete the payment for your extension? You may choose one of the following payment methods:\r\n\r\nPayment link\r\nBank transfer\r\nCash payment\r\n\r\nKindly let us know your preferred payment method so we can assist you accordingly.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I can do bank transfer",
+    "channel_id": "585723",
     "contact_id": "538363776",
     "contact_name": "Kosar Mahmoud Bashash",
     "contact_identifier": "+971507955452",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4313672877",
+    "parent_ticket_id": "961811054",
+    "event_type": "INBOUND"
   }
 }
