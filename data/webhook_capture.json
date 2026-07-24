@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-24T07:21:34.729Z",
+  "ts": "2026-07-24T07:21:45.156Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4313461806",
+    "type": "OUTBOUND",
+    "message_id": "4313461970",
     "ticket_id": "968666651",
-    "message": "Any possible discount for those prices ?",
-    "channel_id": "1304636",
+    "message": "Allow me to check",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543261378",
     "contact_name": "Artur Petrosian",
     "contact_identifier": "+971585744818",
-    "parent_message_id": "4313459431",
-    "parent_ticket_id": "968666651",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
