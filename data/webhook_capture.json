@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-24T06:40:17.565Z",
+  "ts": "2026-07-24T06:42:49.464Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4313431392",
+    "type": "OUTBOUND",
+    "message_id": "4313433054",
     "ticket_id": "968379739",
-    "message": "Ok i want it",
-    "channel_id": "585723",
+    "message": "For self-check-in, we will need the following to be able to process:\r\n\r\n1- Copy of your passport\r\n2- email\r\n\r\n3- We will send you the registration card; please sign it and send it back to us.\r\n\r\nOnce we complete the above steps, we will send you the self-check-in details\r\n*\r\n*",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "160538848",
     "contact_name": "Asma Asma  Al Suwaidi  Al Suwaidi",
     "contact_identifier": "+971502300073",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
