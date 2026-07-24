@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-24T07:14:25.685Z",
+  "ts": "2026-07-24T07:14:45.503Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4313454604",
-    "ticket_id": "968379739",
-    "message": "Please complete the security deposit payment and update us to block the unit for you\r\n\r\nhttps://totalpay.ae/payment/20260724446a6310a85a7e4",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "160538848",
-    "contact_name": "Asma Asma  Al Suwaidi  Al Suwaidi",
-    "contact_identifier": "+971502300073",
+    "type": "INBOUND",
+    "message_id": "4313454841",
+    "ticket_id": "968687141",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "532079460",
+    "contact_name": "Sami Feghali",
+    "contact_identifier": "+971561690626",
+    "parent_message_id": "4313439691",
+    "parent_ticket_id": "926105132",
+    "event_type": "INBOUND"
   }
 }
