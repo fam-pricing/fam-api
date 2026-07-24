@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-24T11:15:41.290Z",
+  "ts": "2026-07-24T11:18:49.382Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4313691525",
-    "ticket_id": "968379739",
-    "message": "Well received the payment please complete the above check in form and\r\n\r\nIf you have a vehicle, we will need the following details for advance registration. Please provide:\r\n\r\n* Emirate of issue (Dubai, Abu Dhabi, Sharjah, etc.)\r\n* Code\r\n* Plate number\r\n* Vehicle make/model\r\n\r\n* Color",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "160538848",
-    "contact_name": "Asma Asma  Al Suwaidi  Al Suwaidi",
-    "contact_identifier": "+971502300073",
+    "type": "INBOUND",
+    "message_id": "4313694391",
+    "ticket_id": "961811054",
+    "message": "I had this question on first month from related agent as well",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "538363776",
+    "contact_name": "Kosar Mahmoud Bashash",
+    "contact_identifier": "+971507955452",
+    "parent_message_id": "4313682273",
+    "parent_ticket_id": "961811054",
+    "event_type": "INBOUND"
   }
 }
