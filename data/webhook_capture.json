@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-25T13:20:49.184Z",
+  "ts": "2026-07-25T13:21:11.152Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4314433873",
+    "type": "INBOUND",
+    "message_id": "4314434084",
     "ticket_id": "968974200",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n4BR in Shams 1 JBR\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello how are you ?",
+    "channel_id": "1304636",
     "contact_id": "543344322",
     "contact_name": "Victor Hugo",
     "contact_identifier": "+558394059184",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
