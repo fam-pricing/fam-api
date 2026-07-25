@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-25T08:15:32.602Z",
+  "ts": "2026-07-25T08:16:10.517Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4314271286",
+    "type": "INBOUND",
+    "message_id": "4314271554",
     "ticket_id": "968920700",
-    "message": "If you would like to extend your stay for an additional 20 nights, we will be happy to assist you. The rate for the 20-night extension will be AED 4,000.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Extend for 20 nights please",
+    "channel_id": "1304636",
     "contact_id": "539291533",
     "contact_name": "Amandeep",
     "contact_identifier": "+971585630379",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
