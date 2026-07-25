@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-25T06:07:14.502Z",
+  "ts": "2026-07-25T06:07:16.245Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4314218170",
+    "type": "OUTBOUND",
+    "message_id": "4314218186",
     "ticket_id": "968910027",
-    "message": "call me back +96594127498",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "543327193",
     "contact_name": "moe",
     "contact_identifier": "3d2c3e95-c0a9-44bf-d15c-1063930d43d3",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
