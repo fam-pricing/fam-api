@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-25T06:28:53.940Z",
+  "ts": "2026-07-25T06:30:43.594Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4314224313",
+    "type": "INBOUND",
+    "message_id": "4314224905",
     "ticket_id": "938546983",
-    "message": "Sure, we can extend your stay for one more month. The rate for the extension will be AED 6,000 for 30 nights. Kindly let us know if you are okay with this rate, and we will proceed with the extension accordingly.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Hi there \nPlease can you confirm when did the rate increase because we pay 5090 per month .Ket me know \nThank you",
+    "channel_id": "585723",
     "contact_id": "535208016",
     "contact_name": "DEANNO GARRY LUPKE",
     "contact_identifier": "+27815663899",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4314224313",
+    "parent_ticket_id": "938546983",
+    "event_type": "INBOUND"
   }
 }
