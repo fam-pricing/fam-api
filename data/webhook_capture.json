@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-25T13:29:16.349Z",
+  "ts": "2026-07-25T13:29:18.143Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4314438692",
-    "ticket_id": "968974191",
-    "message": "Good afternoon Radwa,\r\n\r\nUnfortunately, this apartment is available only from tomorrow until 9th August. After that date, it is fully booked.\r\n\r\nWe do not have any availability for a monthly booking at the moment.\r\n\r\nThank you for your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "543344319",
-    "contact_name": "Radwa Shalash",
-    "contact_identifier": "+971522487188",
+    "type": "INBOUND",
+    "message_id": "4314438722",
+    "ticket_id": "968974200",
+    "message": "I want to make the visit because I want to rent before the 5th of August",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "543344322",
+    "contact_name": "Victor Hugo",
+    "contact_identifier": "+558394059184",
+    "event_type": "INBOUND"
   }
 }
