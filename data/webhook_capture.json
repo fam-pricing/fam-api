@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-25T08:11:49.145Z",
+  "ts": "2026-07-25T08:12:28.199Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4314269333",
+    "type": "INBOUND",
+    "message_id": "4314269608",
     "ticket_id": "968920700",
-    "message": "Sure, we can extend your stay for one more month. The rate for the extension will be AED 6,000 for 30 nights.\r\n\r\nKindly let us know if you would like to proceed, and we will assist you with the extension accordingly.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "How much for 20 nights?",
+    "channel_id": "1304636",
     "contact_id": "539291533",
     "contact_name": "Amandeep",
     "contact_identifier": "+971585630379",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
