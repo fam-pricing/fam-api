@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-25T09:09:35.264Z",
+  "ts": "2026-07-25T09:10:16.146Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4314300162",
-    "ticket_id": "968932452",
-    "message": "What is the unit number",
-    "channel_id": "585723",
-    "contact_id": "543332740",
-    "contact_name": "Mustafa Baroot",
-    "contact_identifier": "+971553757006",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4314300600",
+    "ticket_id": "968929958",
+    "message": "The new rate has been confirmed by the management and will apply for all upcoming extensions for our guests.\r\n\r\nIf you are comfortable with the updated rate, please let us know, and we will be happy to assist you with extending your stay.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "541745108",
+    "contact_name": "Mahmoud Amin Mohamed Am",
+    "contact_identifier": "+971559904943",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
