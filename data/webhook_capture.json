@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-25T12:24:19.335Z",
+  "ts": "2026-07-25T12:38:32.423Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4314403249",
+    "type": "OUTBOUND",
+    "message_id": "4314410598",
     "ticket_id": "968865311",
-    "message": "Okay",
-    "channel_id": "585723",
+    "message": "We have checked availability and, unfortunately, we do not have any 3-bedroom apartments in your preferred location.\r\n\r\nHowever, we do have 1 - 3-bedroom apartments available in the Downtown area.\r\n\r\nPlease note that these apartments will only be available from 19 August onward, as we are fully booked before then.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "543318230",
     "contact_name": "Will Hamma",
     "contact_identifier": "+971553633741",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
