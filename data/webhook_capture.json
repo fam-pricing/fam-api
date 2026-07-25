@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-25T11:40:14.484Z",
+  "ts": "2026-07-25T11:44:04.576Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4314380011",
-    "ticket_id": "914032331",
-    "message": "Well noted, we will check with the onboarding team",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "528829582",
-    "contact_name": "Ala Hassan",
-    "contact_identifier": "+972527494230",
+    "type": "INBOUND",
+    "message_id": "4314382242",
+    "ticket_id": "955436676",
+    "message": "Thank you, but really are you sure about your info?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539565275",
+    "contact_name": "GESCARD ISSA",
+    "contact_identifier": "+23795870067",
+    "parent_message_id": "4314302735",
+    "parent_ticket_id": "955436676",
+    "event_type": "INBOUND"
   }
 }
