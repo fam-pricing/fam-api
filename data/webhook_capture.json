@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-25T08:56:02.885Z",
+  "ts": "2026-07-25T08:56:30.006Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4314292312",
+    "type": "INBOUND",
+    "message_id": "4314292559",
     "ticket_id": "968932452",
-    "message": "Our team will share the check-in details with you between 2:00 PM and 3:00 PM. May I kindly know your expected arrival time so we can assist you accordingly?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "After 3pm",
+    "channel_id": "585723",
     "contact_id": "543332740",
     "contact_name": "Mustafa Baroot",
     "contact_identifier": "+971553757006",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
