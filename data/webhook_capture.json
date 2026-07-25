@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-25T12:56:42.337Z",
+  "ts": "2026-07-25T12:57:17.692Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4314420268",
+    "type": "INBOUND",
+    "message_id": "4314420554",
     "ticket_id": "968970028",
-    "message": "August 1 works perfectly. For a 3-month stay, would you like to arrange a viewing before committing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Sure, first let's finalise rent please",
+    "channel_id": "1304636",
     "contact_id": "543343161",
     "contact_name": "BPO | KPO",
     "contact_identifier": "+971502050049",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4314420268",
+    "parent_ticket_id": "968970028",
+    "event_type": "INBOUND"
   }
 }
