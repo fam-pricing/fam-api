@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-25T17:43:31.723Z",
+  "ts": "2026-07-25T17:43:48.378Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4314561149",
-    "ticket_id": "968970028",
-    "message": "Please find the 3-month rates for La Sirene below:\r\n\r\nAugust: AED 8,500\r\nSeptember: AED 8,800\r\nOctober: AED 9,900\r\n\r\nPlease note that a security deposit of AED 2,000 is required. The booking will be processed on a monthly basis only, with each month consisting of 30 nights.\r\n\r\nKindly note that the above rates will be fixed for the full 3-month period.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "543343161",
-    "contact_name": "BPO | KPO",
-    "contact_identifier": "+971502050049",
+    "type": "INBOUND",
+    "message_id": "4314561336",
+    "ticket_id": "969013620",
+    "message": "yes is okay",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "541033321",
+    "contact_name": "Khashayar Zahed",
+    "contact_identifier": "+971551890313",
+    "parent_message_id": "4314307716",
+    "parent_ticket_id": "968905051",
+    "event_type": "INBOUND"
   }
 }
