@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-25T08:36:58.573Z",
+  "ts": "2026-07-25T08:39:14.335Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4314282110",
+    "type": "OUTBOUND",
+    "message_id": "4314283387",
     "ticket_id": "968920700",
-    "message": "What is the last date of the booking?",
-    "channel_id": "1304636",
+    "message": "Well received your payment and here is your booking confirmation",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "539291533",
     "contact_name": "Amandeep",
     "contact_identifier": "+971585630379",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
