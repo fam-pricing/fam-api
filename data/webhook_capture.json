@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-25T12:55:10.591Z",
+  "ts": "2026-07-25T12:55:36.913Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4314419179",
+    "type": "INBOUND",
+    "message_id": "4314419507",
     "ticket_id": "968970028",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in La Sirene 3\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hi",
+    "channel_id": "1304636",
     "contact_id": "543343161",
     "contact_name": "BPO | KPO",
     "contact_identifier": "+971502050049",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
