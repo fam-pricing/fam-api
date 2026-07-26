@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-26T14:29:55.042Z",
+  "ts": "2026-07-26T14:30:16.685Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4314946021",
+    "type": "OUTBOUND",
+    "message_id": "4314946172",
     "ticket_id": "968379739",
-    "message": "On the same card",
-    "channel_id": "585723",
+    "message": "Yes for the same card which you use to made the payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "160538848",
     "contact_name": "Asma Asma  Al Suwaidi  Al Suwaidi",
     "contact_identifier": "+971502300073",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
