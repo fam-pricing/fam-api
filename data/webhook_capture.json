@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-26T05:56:36.416Z",
+  "ts": "2026-07-26T06:03:55.183Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4314710706",
+    "type": "OUTBOUND",
+    "message_id": "4314714236",
     "ticket_id": "969006599",
-    "message": "Via Airbnb",
-    "channel_id": "585723",
+    "message": "As per the reservation your check out date is on 28th July",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543353227",
     "contact_name": "Irina",
     "contact_identifier": "+13053076351",
-    "parent_message_id": "4314705264",
-    "parent_ticket_id": "969006599",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
