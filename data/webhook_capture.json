@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-26T08:23:15.329Z",
+  "ts": "2026-07-26T08:37:50.267Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4314767081",
+    "type": "OUTBOUND",
+    "message_id": "4314774798",
     "ticket_id": "969094840",
-    "message": "Hi\nToday Check-in not Check-out",
-    "channel_id": "585723",
+    "message": "Apologies for the confusion\r\n\r\nMay I know the arrival time please?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543078183",
     "contact_name": "Ahmed Shehab Ahmed Ali Alsaadi",
     "contact_identifier": "+971557999949",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
