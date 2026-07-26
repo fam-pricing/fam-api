@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-26T05:53:53.603Z",
+  "ts": "2026-07-26T05:56:36.416Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4314709734",
+    "type": "INBOUND",
+    "message_id": "4314710706",
     "ticket_id": "969006599",
-    "message": "Allow me to check",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Via Airbnb",
+    "channel_id": "585723",
     "contact_id": "543353227",
     "contact_name": "Irina",
     "contact_identifier": "+13053076351",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4314705264",
+    "parent_ticket_id": "969006599",
+    "event_type": "INBOUND"
   }
 }
