@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-26T11:42:50.217Z",
+  "ts": "2026-07-26T11:43:54.255Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4314865503",
+    "type": "INBOUND",
+    "message_id": "4314866048",
     "ticket_id": "957439582",
-    "message": "Sure. I will send you the payment link for AED 400.\r\n\r\nKindly complete the payment and share the payment confirmation with us so that we can schedule the cleaning service for you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I will pay by cash",
+    "channel_id": "585723",
     "contact_id": "540084992",
     "contact_name": "Maryam kazemi",
     "contact_identifier": "+971507018369",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
