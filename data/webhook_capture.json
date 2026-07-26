@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-26T05:34:38.127Z",
+  "ts": "2026-07-26T05:35:13.102Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4314705186",
+    "type": "INBOUND",
+    "message_id": "4314705264",
     "ticket_id": "969006599",
-    "message": "Can you please share the booking refarance number so we can check for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Unfortunately, my friend made the reservation",
+    "channel_id": "585723",
     "contact_id": "543353227",
     "contact_name": "Irina",
     "contact_identifier": "+13053076351",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
