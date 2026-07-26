@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-26T05:32:28.679Z",
+  "ts": "2026-07-26T05:33:43.699Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4314704668",
+    "type": "OUTBOUND",
+    "message_id": "4314704857",
     "ticket_id": "969006599",
-    "message": "Hi! I’m currently staying at Veridian by Central Park, City Walk, Apartment 203 (2-bedroom).\n\nCould you please confirm whether my check-out date is the 26th or the 28th?\n\nThank you!",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543353227",
     "contact_name": "Irina",
     "contact_identifier": "+13053076351",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
