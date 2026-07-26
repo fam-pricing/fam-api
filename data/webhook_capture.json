@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-26T05:35:13.102Z",
+  "ts": "2026-07-26T05:35:47.616Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4314705264",
-    "ticket_id": "969006599",
-    "message": "Unfortunately, my friend made the reservation",
+    "type": "OUTBOUND",
+    "message_id": "4314705345",
+    "ticket_id": "968835240",
+    "message": "Yes sure",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "543308326",
+    "contact_name": "Mila massage body & face🧘🏽",
+    "contact_identifier": "+79873061320",
     "channel_id": "585723",
-    "contact_id": "543353227",
-    "contact_name": "Irina",
-    "contact_identifier": "+13053076351",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
