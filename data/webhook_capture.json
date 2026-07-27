@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-27T09:37:22.266Z",
+  "ts": "2026-07-27T09:37:38.769Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4315457326",
+    "type": "OUTBOUND",
+    "message_id": "4315457657",
     "ticket_id": "969321339",
-    "message": "It’s Mohammad from dubai hills office",
-    "channel_id": "585723",
+    "message": "I have received your contact through Erika\r\n\r\nHow can I help you?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "476569505",
     "contact_name": "Mohammad Taherirashti",
     "contact_identifier": "+971529965142",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
