@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-27T10:22:11.507Z",
+  "ts": "2026-07-27T10:29:26.916Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4315525751",
+    "type": "INBOUND",
+    "message_id": "4315534214",
     "ticket_id": "957524557",
-    "message": "I wanted to inform you that we've raised the complaint to the DU, as there is a kind of issue; most of the apartments is having the issue with the internet and regarding the light issue, please let us know your availability for tomorrow between 12 and 5 PM so we can send a team. Thank you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Yes i am available anytime between 12 to 5pm",
+    "channel_id": "585723",
     "contact_id": "537865623",
     "contact_name": "UMAIR SALEEM",
     "contact_identifier": "+923314067795",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4315525751",
+    "parent_ticket_id": "957524557",
+    "event_type": "INBOUND"
   }
 }
