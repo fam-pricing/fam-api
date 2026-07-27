@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-27T12:26:52.743Z",
+  "ts": "2026-07-27T12:27:31.423Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4315689903",
-    "ticket_id": "969124944",
-    "message": "May I have an update on this please?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "543380002",
-    "contact_name": "amir",
-    "contact_identifier": "+971525101878",
+    "type": "INBOUND",
+    "message_id": "4315690740",
+    "ticket_id": "969390515",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "543442139",
+    "contact_name": "Noa Contino",
+    "contact_identifier": "+41789767565",
+    "parent_message_id": "4315677574",
+    "parent_ticket_id": "969390515",
+    "event_type": "INBOUND"
   }
 }
