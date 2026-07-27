@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-27T14:03:04.280Z",
+  "ts": "2026-07-27T14:03:48.361Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4315815325",
+    "type": "OUTBOUND",
+    "message_id": "4315816399",
     "ticket_id": "951364564",
-    "message": "Everything is ok",
-    "channel_id": "585723",
+    "message": "Thank you for sharing the bank transfer details.\r\n\r\nWe will check with our finance team and confirm the payment status with you accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538357750",
     "contact_name": "VERA MATIUGINA",
     "contact_identifier": "+971554831031",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
