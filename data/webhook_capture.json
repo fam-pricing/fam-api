@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-27T09:05:20.154Z",
+  "ts": "2026-07-27T09:05:48.644Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4315413461",
+    "type": "INBOUND",
+    "message_id": "4315414193",
     "ticket_id": "969124944",
-    "message": "Allow me to check for the viewing and update you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "What kind of charges??",
+    "channel_id": "585723",
     "contact_id": "543380002",
     "contact_name": "amir",
     "contact_identifier": "+971525101878",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4315413048",
+    "parent_ticket_id": "969124944",
+    "event_type": "INBOUND"
   }
 }
