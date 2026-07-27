@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-27T12:43:43.818Z",
+  "ts": "2026-07-27T12:44:33.513Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4315710878",
+    "type": "INBOUND",
+    "message_id": "4315711922",
     "ticket_id": "956113458",
-    "message": "Dear Rahul\r\n\r\nWe have received a complaint from the building management regarding excessive noise coming from your apartment.\r\n\r\nWe kindly request your immediate cooperation in keeping the noise levels to a minimum and ensuring compliance with the building regulations.\r\n\r\nThank you for your understanding and cooperation",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "What kind of noise ?",
+    "channel_id": "585723",
     "contact_id": "537401735",
     "contact_name": "Rahul Vinay S",
     "contact_identifier": "+971547997976",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
