@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-27T09:01:55.698Z",
+  "ts": "2026-07-27T09:02:06.498Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4315408970",
+    "type": "OUTBOUND",
+    "message_id": "4315409235",
     "ticket_id": "969124944",
-    "message": "No, on spot at checkout, when you check no damage refund me on spot",
-    "channel_id": "585723",
+    "message": "Provided there are no damages to the apartment deposit is fully refundable",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543380002",
     "contact_name": "amir",
     "contact_identifier": "+971525101878",
-    "parent_message_id": "4315407421",
-    "parent_ticket_id": "969124944",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
