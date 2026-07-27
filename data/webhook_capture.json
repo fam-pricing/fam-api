@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-27T09:00:40.389Z",
+  "ts": "2026-07-27T09:00:51.827Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4315407180",
+    "type": "OUTBOUND",
+    "message_id": "4315407421",
     "ticket_id": "969124944",
-    "message": "It’s refundable?",
-    "channel_id": "585723",
+    "message": "This amount is fully refundable at check-out, provided there are no damages to the apartment. The refund will be processed within 7 working days after your departure.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543380002",
     "contact_name": "amir",
     "contact_identifier": "+971525101878",
-    "parent_message_id": "4315405671",
-    "parent_ticket_id": "969124944",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
