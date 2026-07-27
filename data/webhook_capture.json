@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-27T09:03:17.247Z",
+  "ts": "2026-07-27T09:05:01.836Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4315410900",
+    "type": "OUTBOUND",
+    "message_id": "4315413048",
     "ticket_id": "969124944",
-    "message": "Can I see the apartment today at 3 pm ?",
-    "channel_id": "585723",
+    "message": "Unfortunately, as per our procedure, we are unable to process the security deposit refund at the time of check-out.\r\n\r\nPlease note that the refund will be processed within 7 working days after your departure, provided there are no pending charges or damages to the apartment.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543380002",
     "contact_name": "amir",
     "contact_identifier": "+971525101878",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
