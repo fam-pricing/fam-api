@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-27T07:27:25.625Z",
+  "ts": "2026-07-27T07:27:41.550Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4315288824",
-    "ticket_id": "951355235",
-    "message": "We have received your payment. Please note that the extension rate for the following month will be revised.\r\n\r\nWe will share the updated rate with you as soon as we receive confirmation from the management.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "534682324",
-    "contact_name": "Rahimudin Mangudin",
-    "contact_identifier": "+447366477777",
+    "type": "INBOUND",
+    "message_id": "4315289132",
+    "ticket_id": "969124944",
+    "message": "Hello",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "543380002",
+    "contact_name": "amir",
+    "contact_identifier": "+971525101878",
+    "event_type": "INBOUND"
   }
 }
