@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-27T11:13:46.737Z",
+  "ts": "2026-07-27T11:14:26.752Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4315593762",
+    "type": "INBOUND",
+    "message_id": "4315594596",
     "ticket_id": "969367638",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
+    "message": "I'm renting a room in your building. I need help with the rent.",
+    "channel_id": "585723",
     "contact_id": "543436508",
     "contact_name": "Nunu",
     "contact_identifier": "+971565213519",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
