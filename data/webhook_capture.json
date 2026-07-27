@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-27T09:15:50.544Z",
+  "ts": "2026-07-27T09:16:18.364Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4315428749",
-    "ticket_id": "960457082",
-    "message": "You wrote to my wife Yulia for the rent payment",
+    "type": "OUTBOUND",
+    "message_id": "4315429343",
+    "ticket_id": "852583151",
+    "message": "We do not accept cheques",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "450960431",
+    "contact_name": "Aya - fam living",
+    "contact_identifier": "+971544311300",
     "channel_id": "585723",
-    "contact_id": "540922254",
-    "contact_name": "Alexandros Perakis",
-    "contact_identifier": "+971585106628",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
