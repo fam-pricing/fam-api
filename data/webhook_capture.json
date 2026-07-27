@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-27T08:58:42.267Z",
+  "ts": "2026-07-27T08:59:38.213Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4315404571",
+    "type": "OUTBOUND",
+    "message_id": "4315405671",
     "ticket_id": "969124944",
-    "message": "I won’t negotiate the price",
-    "channel_id": "585723",
+    "message": "Please note that we do not accept cheque payments. However, we can provide you with a secure payment link to complete the payment and proceed with securing the unit for you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543380002",
     "contact_name": "amir",
     "contact_identifier": "+971525101878",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
