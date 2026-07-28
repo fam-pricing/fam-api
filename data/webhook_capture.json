@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-28T11:36:51.475Z",
+  "ts": "2026-07-28T11:37:02.281Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4316685099",
+    "type": "INBOUND",
+    "message_id": "4316685265",
     "ticket_id": "969696605",
-    "message": "yes, your first booking payment was 13,000aed and deposit 3000aed",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Yes",
+    "channel_id": "1304636",
     "contact_id": "542138263",
     "contact_name": "Brian",
     "contact_identifier": "+971588425620",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4316685099",
+    "parent_ticket_id": "969696605",
+    "event_type": "INBOUND"
   }
 }
