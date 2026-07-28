@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-28T05:14:50.258Z",
+  "ts": "2026-07-28T05:16:29.361Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4316287517",
-    "ticket_id": "969442083",
-    "message": "Yes that’s fine",
+    "type": "OUTBOUND",
+    "message_id": "4316288059",
+    "ticket_id": "969481188",
+    "message": "Good morning, Mohamed.\r\n\r\nSure, we can extend your stay. The rate for the extension will be AED 5,400 for 30 nights.\r\n\r\nPlease let us know if you would like to proceed with the extension, and we will make the necessary arrangements.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536995527",
+    "contact_name": "Mohamed Ala Darwish",
+    "contact_identifier": "+971522415511",
     "channel_id": "1304636",
-    "contact_id": "540390840",
-    "contact_name": "N.",
-    "contact_identifier": "+31684584340",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
