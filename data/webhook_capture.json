@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-28T14:27:14.765Z",
+  "ts": "2026-07-28T14:27:42.632Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4316890284",
+    "type": "INBOUND",
+    "message_id": "4316890780",
     "ticket_id": "969729177",
-    "message": "Afifa Al Shami is currently on leave for 30 days and will not be available during this period.\r\n\r\nPlease let us know how we can assist you with this matter.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Okay",
+    "channel_id": "585723",
     "contact_id": "543525465",
     "contact_name": "Melvin George",
     "contact_identifier": "+971503136479",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4316890284",
+    "parent_ticket_id": "969729177",
+    "event_type": "INBOUND"
   }
 }
