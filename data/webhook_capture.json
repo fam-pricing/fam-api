@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-28T13:03:39.616Z",
+  "ts": "2026-07-28T13:03:43.872Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4316791740",
+    "type": "OUTBOUND",
+    "message_id": "4316791830",
     "ticket_id": "969729177",
-    "message": "Hey",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "543525465",
     "contact_name": "Melvin George",
     "contact_identifier": "+971503136479",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
