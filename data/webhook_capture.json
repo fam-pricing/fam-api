@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-28T12:55:35.815Z",
+  "ts": "2026-07-28T13:00:43.063Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4316782342",
+    "type": "OUTBOUND",
+    "message_id": "4316788175",
     "ticket_id": "969702019",
-    "message": "No one informed us that advance payment was required. If someone had told us, we would have paid in advance.",
-    "channel_id": "585723",
+    "message": "Rate update was received from the management only yesterday, which is why we are trying to contact you today to inform you about the change.\r\n\r\nThe new increased rate will be applicable from today onwards for all extension bookings.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535986253",
     "contact_name": "Sheza imran Butt",
     "contact_identifier": "+971505644681",
-    "parent_message_id": "4316749243",
-    "parent_ticket_id": "969702019",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
