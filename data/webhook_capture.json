@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-28T06:38:56.297Z",
+  "ts": "2026-07-28T06:39:52.221Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4316329828",
-    "ticket_id": "969586214",
-    "message": "Thank you for the payment update",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "538375001",
-    "contact_name": "Timur Aghayev",
-    "contact_identifier": "+971561630343",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4316330563",
+    "ticket_id": "968671300",
+    "message": "Hi just checking in on this",
+    "channel_id": "585723",
+    "contact_id": "543262328",
+    "contact_name": "Hannah",
+    "contact_identifier": "+971542139487",
+    "event_type": "INBOUND"
   }
 }
