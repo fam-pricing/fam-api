@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-28T06:15:15.920Z",
+  "ts": "2026-07-28T06:16:01.800Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4316313785",
+    "type": "INBOUND",
+    "message_id": "4316314219",
     "ticket_id": "969586214",
-    "message": "Good Morning Timur,\r\n\r\nNo, your booking was extended for an additional 14 nights, from 14th July until 28th July. If you would like to extend your stay until 2nd August, please allow me some time to check the availability and update you shortly.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Please send guest invoice and i will pay immediately",
+    "channel_id": "1304636",
     "contact_id": "538375001",
     "contact_name": "Timur Aghayev",
     "contact_identifier": "+971561630343",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
