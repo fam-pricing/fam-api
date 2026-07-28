@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-28T11:34:18.703Z",
+  "ts": "2026-07-28T11:34:24.921Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4316682151",
-    "ticket_id": "969675351",
-    "message": "Rate will be AED 8,500 for 30 nights, inclusive of all applicable VAT, DTCM fees, and service charges.\r\n\r\nAdditionally, a refundable security deposit of AED 2,000 will be required. The deposit will be refunded after check-out, provided there are no damages or outstanding charges in the apartment.\r\n\r\nPlease let us know if you would like to proceed.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "543509792",
-    "contact_name": "Mohamad Alqaraleh",
-    "contact_identifier": "+962795091919",
+    "type": "INBOUND",
+    "message_id": "4316682289",
+    "ticket_id": "969696605",
+    "message": "I noticed the renewal rate is AED 16,000, whereas I paid AED 11,000 for my current one-month stay. Could you please help me understand the reason for the significant increase?\n\nI was hoping to renew under similar terms,",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
+    "parent_message_id": "4316680334",
+    "parent_ticket_id": "969696605",
+    "event_type": "INBOUND"
   }
 }
