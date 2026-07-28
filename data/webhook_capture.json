@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-28T12:41:38.767Z",
+  "ts": "2026-07-28T12:42:31.865Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4316766335",
+    "type": "OUTBOUND",
+    "message_id": "4316767330",
     "ticket_id": "969712622",
-    "message": "I will pay by Bank transfer",
-    "channel_id": "1304636",
+    "message": "Sure, once payment done please update us",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538423864",
     "contact_name": "Senga Silungwe",
     "contact_identifier": "+260977293603",
-    "parent_message_id": "4316762739",
-    "parent_ticket_id": "969712622",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
