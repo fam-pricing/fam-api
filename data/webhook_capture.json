@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-28T11:25:42.884Z",
+  "ts": "2026-07-28T11:26:12.477Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4316671980",
-    "ticket_id": "969696605",
-    "message": "Hi, I’d like to renew my stay for another month. Could you please let me know what is required from my side to extend the booking? Also, please confirm the cost and the next steps. Thank you.",
+    "type": "OUTBOUND",
+    "message_id": "4316672651",
+    "ticket_id": "969675351",
+    "message": "Yes, it is available from 3rd August onwards.\r\n\r\nWould you like to proceed with the booking?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "543509792",
+    "contact_name": "Mohamad Alqaraleh",
+    "contact_identifier": "+962795091919",
     "channel_id": "1304636",
-    "contact_id": "542138263",
-    "contact_name": "Brian",
-    "contact_identifier": "+971588425620",
-    "parent_message_id": "4302697653",
-    "parent_ticket_id": "967847881",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
