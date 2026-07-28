@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-28T10:03:39.425Z",
+  "ts": "2026-07-28T10:04:27.106Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4316577840",
+    "type": "OUTBOUND",
+    "message_id": "4316578931",
     "ticket_id": "969612407",
-    "message": "Elite business bay ?",
-    "channel_id": "1304636",
+    "message": "Good afternoon Susan,\r\n\r\nWe would like to inform you that the apartment is currently not available for viewing. It will be available from 1st August, and therefore we can only arrange the viewing on or after that date.\r\n\r\nWe sincerely apologize for any inconvenience this may cause and appreciate your understanding.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "543497760",
     "contact_name": "Susan Khoshnafs",
     "contact_identifier": "+971551928526",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
