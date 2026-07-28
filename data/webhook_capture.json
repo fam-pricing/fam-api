@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-28T14:32:04.478Z",
+  "ts": "2026-07-28T14:32:34.019Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4316896148",
+    "type": "INBOUND",
+    "message_id": "4316896670",
     "ticket_id": "969730513",
-    "message": "No we do not have any 1 bedroom apartment",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "What else available in same building?",
+    "channel_id": "585723",
     "contact_id": "543525810",
     "contact_name": "city walk lead",
     "contact_identifier": "+971506158777",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
