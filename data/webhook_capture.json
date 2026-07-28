@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-28T09:14:39.884Z",
+  "ts": "2026-07-28T09:15:04.401Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4316517618",
-    "ticket_id": "949384142",
-    "message": "You welcome",
+    "type": "OUTBOUND",
+    "message_id": "4316518057",
+    "ticket_id": "969654451",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "440555291",
+    "contact_name": "Mr Suhail Alameri",
+    "contact_identifier": "+971504411094",
     "channel_id": "585723",
-    "contact_id": "536870373",
-    "contact_name": "Asmae Elalaouì",
-    "contact_identifier": "+971523442425",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
