@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-28T05:26:13.439Z",
+  "ts": "2026-07-28T05:27:31.850Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4316291007",
+    "type": "OUTBOUND",
+    "message_id": "4316291407",
     "ticket_id": "969481188",
-    "message": "Why do I need to pay extra ?",
-    "channel_id": "1304636",
+    "message": "Hi Mohamed,\r\n\r\nUnfortunately, as per the management's latest update, the revised rates will apply to all upcoming extensions. As a result, we are unable to extend your stay at the current rate.\r\n\r\nWe sincerely appreciate your understanding and cooperation. Please let us know if you would still like to proceed with the extension at the revised rate.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536995527",
     "contact_name": "Mohamed Ala Darwish",
     "contact_identifier": "+971522415511",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
