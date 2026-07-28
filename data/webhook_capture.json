@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-28T09:06:29.717Z",
+  "ts": "2026-07-28T09:06:32.304Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4316507572",
+    "type": "OUTBOUND",
+    "message_id": "4316507631",
     "ticket_id": "969654451",
-    "message": "Hi",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "440555291",
     "contact_name": "Mr Suhail Alameri",
     "contact_identifier": "+971504411094",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
