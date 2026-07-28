@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-28T11:38:08.177Z",
+  "ts": "2026-07-28T11:38:14.878Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4316686737",
-    "ticket_id": "969696605",
-    "message": "Renew is 13000 AED right??",
-    "channel_id": "1304636",
-    "contact_id": "542138263",
-    "contact_name": "Brian",
-    "contact_identifier": "+971588425620",
-    "parent_message_id": "4316680334",
-    "parent_ticket_id": "969696605",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4316686851",
+    "ticket_id": "969685508",
+    "message": "Unfortunately, our website is currently under maintenance.\r\n\r\nMay I know how many bedrooms you require, your preferred check-in date, and the location you would like to book? We will be happy to assist you directly with the available options.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "543512671",
+    "contact_name": "Dominika",
+    "contact_identifier": "8a79bc56-04b9-4fe7-c5fc-885dae0c41a1",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
