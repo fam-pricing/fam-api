@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-28T12:38:35.968Z",
+  "ts": "2026-07-28T12:41:38.767Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4316762739",
+    "type": "INBOUND",
+    "message_id": "4316766335",
     "ticket_id": "969712622",
-    "message": "Please note that if you choose to pay via the link, a card processing fee of 3.1% will be added. Payments made by bank transfer will not incur any additional charges.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I will pay by Bank transfer",
+    "channel_id": "1304636",
     "contact_id": "538423864",
     "contact_name": "Senga Silungwe",
     "contact_identifier": "+260977293603",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4316762739",
+    "parent_ticket_id": "969712622",
+    "event_type": "INBOUND"
   }
 }
