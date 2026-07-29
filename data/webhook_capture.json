@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-29T05:56:36.475Z",
+  "ts": "2026-07-29T05:58:30.070Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317311107",
+    "type": "OUTBOUND",
+    "message_id": "4317311866",
     "ticket_id": "969124944",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "Good morning, Mr. Amer,\r\n\r\nKindly complete the check-in form and let us know once it has been submitted so we can proceed with the registration process.\r\n\r\nAdditionally, may we know how you would like to complete the rent payment?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543380002",
     "contact_name": "Amer Mahmoud Elmusharaf Mukhtar",
     "contact_identifier": "+971525101878",
-    "parent_message_id": "4317310957",
-    "parent_ticket_id": "969124944",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
