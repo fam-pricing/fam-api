@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-29T06:41:01.882Z",
+  "ts": "2026-07-29T06:41:12.956Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4317338922",
+    "type": "INBOUND",
+    "message_id": "4317339125",
     "ticket_id": "967144005",
-    "message": "Well noted thank you for your update",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "542849502",
     "contact_name": "Faheem Tharmahomed",
     "contact_identifier": "+447549635436",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4317338922",
+    "parent_ticket_id": "967144005",
+    "event_type": "INBOUND"
   }
 }
