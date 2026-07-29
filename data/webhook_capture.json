@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-29T08:29:10.128Z",
+  "ts": "2026-07-29T08:29:16.774Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317455281",
-    "ticket_id": "963719733",
-    "message": "Yes please",
+    "type": "OUTBOUND",
+    "message_id": "4317455415",
+    "ticket_id": "969919688",
+    "message": "Hello Humaid ! To provide you with a smooth check-in experience, we must know your estimated arrival time. Please let us know what time are you expecting to check in.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "543575284",
+    "contact_name": "Humaid Hadban",
+    "contact_identifier": "+971554499613",
     "channel_id": "585723",
-    "contact_id": "540354721",
-    "contact_name": "Ismael Ferrahi",
-    "contact_identifier": "+971585032384",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
