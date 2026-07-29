@@ -1,17 +1,19 @@
 {
-  "ts": "2026-07-29T07:28:14.124Z",
+  "ts": "2026-07-29T07:28:30.164Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4317382540",
+    "message_id": "4317382830",
     "ticket_id": "969793898",
-    "message": "Document",
+    "message": "My previous booking was 1 July to 31 July",
     "channel_id": "1304636",
     "contact_id": "538423864",
     "contact_name": "Senga Silungwe",
     "contact_identifier": "+260977293603",
+    "parent_message_id": "4317382540",
+    "parent_ticket_id": "969793898",
     "event_type": "INBOUND"
   }
 }
