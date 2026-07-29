@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-29T09:45:11.577Z",
+  "ts": "2026-07-29T09:49:40.963Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4317550747",
-    "ticket_id": "959348567",
-    "message": "Thank you for the update",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "540623436",
-    "contact_name": "Ben",
-    "contact_identifier": "+447828711544",
+    "type": "INBOUND",
+    "message_id": "4317556269",
+    "ticket_id": "969955146",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "485463890",
+    "contact_name": "Mrs Zahra Jamali",
+    "contact_identifier": "+971547669747",
+    "parent_message_id": "4317365042",
+    "parent_ticket_id": "893132121",
+    "event_type": "INBOUND"
   }
 }
