@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-29T11:02:26.630Z",
+  "ts": "2026-07-29T11:03:07.085Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317637660",
+    "type": "OUTBOUND",
+    "message_id": "4317638483",
     "ticket_id": "969971819",
-    "message": "Has the payment been received now?",
-    "channel_id": "585723",
+    "message": "Unfortunately we have not received the payment yet I will share the payment links over here",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543588291",
     "contact_name": "Salman Gillani",
     "contact_identifier": "+447377559695",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
