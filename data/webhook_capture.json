@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-29T07:28:44.766Z",
+  "ts": "2026-07-29T07:30:24.829Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317383066",
+    "type": "OUTBOUND",
+    "message_id": "4317384746",
     "ticket_id": "969793898",
-    "message": "This should be 1 August to 31st August",
-    "channel_id": "1304636",
+    "message": "Current extension is from 31st July - 30th August which is 30 nights",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538423864",
     "contact_name": "Senga Silungwe",
     "contact_identifier": "+260977293603",
-    "parent_message_id": "4317356049",
-    "parent_ticket_id": "969793898",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
