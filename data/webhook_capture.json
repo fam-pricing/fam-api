@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-29T12:38:24.808Z",
+  "ts": "2026-07-29T12:42:22.202Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317750112",
+    "type": "OUTBOUND",
+    "message_id": "4317754705",
     "ticket_id": "969971819",
-    "message": "Image",
-    "channel_id": "585723",
+    "message": "Please note that, as we have not yet received the payment, your reservation remains unconfirmed.\r\n\r\nUnfortunately, we are unable to make another payment attempt through the Booking.com platform today. We will try processing the payment again tomorrow. If the payment is still unsuccessful, you will need to either complete the payment via bank transfer or contact your bank to check if there are any restrictions or issues with your card.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543588291",
     "contact_name": "Salman Gillani",
     "contact_identifier": "+447377559695",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
