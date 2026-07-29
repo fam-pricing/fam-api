@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-29T14:06:41.963Z",
+  "ts": "2026-07-29T14:07:21.736Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4317855902",
-    "ticket_id": "969884004",
-    "message": "Sure allow us to check for the available options and share the same with you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "543567891",
-    "contact_name": "Boris Romaric",
-    "contact_identifier": "+22577777781",
+    "type": "INBOUND",
+    "message_id": "4317856679",
+    "ticket_id": "964066792",
+    "message": "I told Mr sobhi my check out date",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "541963120",
+    "contact_name": "Kosar",
+    "contact_identifier": "+971542289493",
+    "parent_message_id": "4317855354",
+    "parent_ticket_id": "964066792",
+    "event_type": "INBOUND"
   }
 }
