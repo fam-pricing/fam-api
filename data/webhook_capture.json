@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-29T17:18:53.714Z",
+  "ts": "2026-07-29T17:19:21.382Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318042062",
+    "type": "INBOUND",
+    "message_id": "4318042335",
     "ticket_id": "970054593",
-    "message": "Unfortunately we don't have a video for this one. Would you like to arrange a viewing instead?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Client is not in Dubai unfortunately",
+    "channel_id": "1304636",
     "contact_id": "543615579",
     "contact_name": "Real Estate Consultant",
     "contact_identifier": "+971522683445",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
