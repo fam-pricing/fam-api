@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-29T12:48:46.502Z",
+  "ts": "2026-07-29T12:49:23.736Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317762303",
+    "type": "OUTBOUND",
+    "message_id": "4317763023",
     "ticket_id": "969971819",
-    "message": "I have never done a payment like this before I apologise … can you please wait for the payment",
-    "channel_id": "585723",
+    "message": "Dear Mr. Salman,\r\n\r\nUnfortunately, as we have still not received the payment, we are unable to confirm your reservation at this time.\r\n\r\nHowever, as your reservation is scheduled to start on the 16th, we still have some time. We will monitor the payment over the next 2 days. If it is still unsuccessful, we kindly request that you either complete the payment via bank transfer or contact your bank to check if there are any issues with your card.\r\n\r\nWe appreciate your understanding and cooperation, and we look forward to confirming your reservation as soon as the payment is received.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543588291",
     "contact_name": "Salman Gillani",
     "contact_identifier": "+447377559695",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
