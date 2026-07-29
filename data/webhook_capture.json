@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-29T17:18:30.630Z",
+  "ts": "2026-07-29T17:18:53.714Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318041819",
+    "type": "OUTBOUND",
+    "message_id": "4318042062",
     "ticket_id": "970054593",
-    "message": "Please share a video",
-    "channel_id": "1304636",
+    "message": "Unfortunately we don't have a video for this one. Would you like to arrange a viewing instead?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "543615579",
     "contact_name": "Real Estate Consultant",
     "contact_identifier": "+971522683445",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
