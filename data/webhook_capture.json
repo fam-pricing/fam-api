@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-29T15:28:26.797Z",
+  "ts": "2026-07-29T15:36:16.624Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317950888",
-    "ticket_id": "970056783",
-    "message": "Could you kindly let me know the conditions for the payment of this unit? Also an estimated price for the bills / AC / etc \n\nI’m new in Dubai and looking for a 1BR",
-    "channel_id": "1304636",
-    "contact_id": "543616233",
-    "contact_name": "Camilla Prando",
-    "contact_identifier": "+46739146440",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4317958432",
+    "ticket_id": "969919688",
+    "message": "Upon arrival please proceed with the self check as we have shared the checkin details in advance",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "543575284",
+    "contact_name": "Humaid Hadban",
+    "contact_identifier": "+971554499613",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
