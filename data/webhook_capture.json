@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-29T14:14:02.767Z",
+  "ts": "2026-07-29T14:21:22.057Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317868028",
+    "type": "OUTBOUND",
+    "message_id": "4317877764",
     "ticket_id": "970024811",
-    "message": "This is available",
-    "channel_id": "1304636",
+    "message": "Sure, we can extend your stay. Please note that the extension rate has been revised to AED 6,000.\r\n\r\nKindly confirm if you would like to proceed at this rate. Once we receive your confirmation, we will share the payment link. After the payment is completed, we will confirm your booking extension.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535926291",
     "contact_name": "Rimsha Akram",
     "contact_identifier": "+971526064450",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
