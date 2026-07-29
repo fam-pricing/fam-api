@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-29T09:15:21.324Z",
+  "ts": "2026-07-29T09:16:13.276Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317511871",
+    "type": "OUTBOUND",
+    "message_id": "4317513436",
     "ticket_id": "969940545",
-    "message": "This is Rafique",
-    "channel_id": "585723",
+    "message": "I have received your contact details through our colleague, and as per her update, you are interested in making a reservation at La Sirene Apartment.\r\n\r\nMay I know would you like to proceed with the reservation?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543580441",
     "contact_name": "Rafik",
     "contact_identifier": "+971561687868",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
