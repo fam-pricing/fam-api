@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-29T11:15:58.821Z",
+  "ts": "2026-07-29T11:16:08.257Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4317653168",
+    "type": "INBOUND",
+    "message_id": "4317653352",
     "ticket_id": "969971819",
-    "message": "We do accept credit cards",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Boss it’s declining all my cards",
+    "channel_id": "585723",
     "contact_id": "543588291",
     "contact_name": "Salman Gillani",
     "contact_identifier": "+447377559695",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
