@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-29T08:42:14.310Z",
+  "ts": "2026-07-29T08:43:08.330Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317472365",
-    "ticket_id": "963719733",
-    "message": "Hello paid thank u",
+    "type": "OUTBOUND",
+    "message_id": "4317473411",
+    "ticket_id": "969919688",
+    "message": "Please note that the security deposit is mandatory requirement in the check in process",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "543575284",
+    "contact_name": "Humaid Hadban",
+    "contact_identifier": "+971554499613",
     "channel_id": "585723",
-    "contact_id": "540354721",
-    "contact_name": "Ismael Ferrahi",
-    "contact_identifier": "+971585032384",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
