@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-29T07:47:41.336Z",
+  "ts": "2026-07-29T07:47:44.187Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317405434",
+    "type": "OUTBOUND",
+    "message_id": "4317405471",
     "ticket_id": "969913450",
-    "message": "Hey",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "543573994",
     "contact_name": "Kaushik",
     "contact_identifier": "0719bcae-fcf7-47ca-2443-bb122efae281",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
