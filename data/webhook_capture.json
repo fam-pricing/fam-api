@@ -1,19 +1,17 @@
 {
-  "ts": "2026-07-29T08:01:54.898Z",
+  "ts": "2026-07-29T08:02:09.387Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317422857",
-    "ticket_id": "938546983",
-    "message": "Confirm",
+    "type": "OUTBOUND",
+    "message_id": "4317423185",
+    "ticket_id": "959348567",
+    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
+    "contact_id": "540623436",
+    "contact_name": "Ben",
+    "contact_identifier": "+447828711544",
     "channel_id": "585723",
-    "contact_id": "535208016",
-    "contact_name": "DEANNO GARRY LUPKE",
-    "contact_identifier": "+27815663899",
-    "parent_message_id": "4317421569",
-    "parent_ticket_id": "938546983",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
