@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-29T04:47:57.978Z",
+  "ts": "2026-07-29T05:01:43.430Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317287985",
-    "ticket_id": "954163568",
-    "message": "Video",
+    "type": "OUTBOUND",
+    "message_id": "4317291695",
+    "ticket_id": "963719733",
+    "message": "Please note that your check-out date is scheduled for today, not 1st August.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540354721",
+    "contact_name": "Ismael Ferrahi",
+    "contact_identifier": "+971585032384",
     "channel_id": "585723",
-    "contact_id": "539230013",
-    "contact_name": "Bahador Khoshkeroudi",
-    "contact_identifier": "+971547016092",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
