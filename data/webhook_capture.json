@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-29T08:26:29.685Z",
+  "ts": "2026-07-29T08:27:53.732Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4317451772",
-    "ticket_id": "966609137",
-    "message": "Between 1 and 2 PM the team will be there",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "542703104",
-    "contact_name": "Sandesh",
-    "contact_identifier": "+919997048273",
+    "type": "INBOUND",
+    "message_id": "4317453773",
+    "ticket_id": "969919688",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "543575284",
+    "contact_name": "Humaid Hadban",
+    "contact_identifier": "+971554499613",
+    "parent_message_id": "4317425593",
+    "parent_ticket_id": "969919688",
+    "event_type": "INBOUND"
   }
 }
