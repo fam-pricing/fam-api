@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-29T10:05:39.705Z",
+  "ts": "2026-07-29T10:05:55.515Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4317575236",
-    "ticket_id": "969915930",
-    "message": "There is one unit available however it is available until 03rd Oct only will that be fine for you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "543574598",
-    "contact_name": "Sabrina",
-    "contact_identifier": "+971559529037",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4317575502",
+    "ticket_id": "969934716",
+    "message": "thank you, could you give me 2-3 options if thats okay",
+    "channel_id": "883603",
+    "contact_id": "543578972",
+    "contact_name": "Aki",
+    "contact_identifier": "b37d7c46-6eb4-483a-073e-a7119452923c",
+    "event_type": "INBOUND"
   }
 }
