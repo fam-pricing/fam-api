@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-29T06:41:12.956Z",
+  "ts": "2026-07-29T06:49:29.526Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317339125",
-    "ticket_id": "967144005",
-    "message": "👍",
+    "type": "OUTBOUND",
+    "message_id": "4317345066",
+    "ticket_id": "969893497",
+    "message": "Well noted your arrival time Mr Yuvraj",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "451320969",
+    "contact_name": "Mr Yuvraj Singh",
+    "contact_identifier": "+919769254627",
     "channel_id": "585723",
-    "contact_id": "542849502",
-    "contact_name": "Faheem Tharmahomed",
-    "contact_identifier": "+447549635436",
-    "parent_message_id": "4317338922",
-    "parent_ticket_id": "967144005",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
