@@ -1,17 +1,19 @@
 {
-  "ts": "2026-07-29T10:17:25.569Z",
+  "ts": "2026-07-29T10:17:39.264Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4317589069",
-    "ticket_id": "969963743",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
-    "contact_id": "543586180",
-    "contact_name": "Khaled Sheikh yassin",
-    "contact_identifier": "+971557789027",
+    "type": "INBOUND",
+    "message_id": "4317589306",
+    "ticket_id": "969940545",
+    "message": "Sure ! 👍🏼",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "543580441",
+    "contact_name": "Rafik",
+    "contact_identifier": "+971561687868",
+    "parent_message_id": "4317586753",
+    "parent_ticket_id": "969940545",
+    "event_type": "INBOUND"
   }
 }
