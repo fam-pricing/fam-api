@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-29T05:39:59.987Z",
+  "ts": "2026-07-29T05:40:49.093Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4317304185",
-    "ticket_id": "969831735",
-    "message": "Allow me to check for the rate and update you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "539365088",
-    "contact_name": "IBRAHIM ABDULRAHMAN",
-    "contact_identifier": "+447539692848",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4317304510",
+    "ticket_id": "954732401",
+    "message": "I'm staying 1 more month",
+    "channel_id": "585723",
+    "contact_id": "539383560",
+    "contact_name": "Noah",
+    "contact_identifier": "+971553384406",
+    "parent_message_id": "4317299822",
+    "parent_ticket_id": "954732401",
+    "event_type": "INBOUND"
   }
 }
