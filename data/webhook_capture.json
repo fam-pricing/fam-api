@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-29T07:13:46.608Z",
+  "ts": "2026-07-29T07:19:54.970Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4317366566",
+    "type": "OUTBOUND",
+    "message_id": "4317372877",
     "ticket_id": "949533508",
-    "message": "Hi, we've already booked for next month. We usually make the payment 1–2 days before the renewal date, so I'm a bit confused about why there are so many changes now. It's becoming a bit of a hassle.!",
-    "channel_id": "585723",
+    "message": "Please note as the extension is confirmed, the payment must be completed to secure the booking, as we are unable to hold any reservation without payment.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537915038",
     "contact_name": "Eslam",
     "contact_identifier": "+971504812826",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
