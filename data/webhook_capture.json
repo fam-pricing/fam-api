@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-29T08:34:22.400Z",
+  "ts": "2026-07-29T08:34:45.305Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4317461238",
+    "type": "INBOUND",
+    "message_id": "4317461662",
     "ticket_id": "969919688",
-    "message": "Unfortunately, we attempted to process the payment through the Booking.com platform; however, the transaction was unsuccessful.\r\n\r\nTherefore, the reservation is still unconfirmed as we have not received the payment yet.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Okay send link",
+    "channel_id": "585723",
     "contact_id": "543575284",
     "contact_name": "Humaid Hadban",
     "contact_identifier": "+971554499613",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
