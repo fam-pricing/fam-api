@@ -1603,3 +1603,7 @@ Once received, we'll send you a registration card to sign and return. After comp
 ## Learned (2026-07-24)
 - If a lead assumes a commission is included in the rate, clarify that no commission is charged and that the rate quoted is fully all-inclusive.
   (Learned from Faysal handling Sabri re Studio in Azizi Riviera 16)
+
+## Learned (2026-07-30)
+- When a lead asks about payment conditions or whether bills, AC, or utilities are included (especially if they mention being new to Dubai), confirm that the quoted rate is fully all-inclusive, covering Wi-Fi, water, and electricity. Let them know there are no additional utility charges on top of the listed price.
+  (Learned from Faysal handling Camilla Prando re 1BR in Upper Crest)
