@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-30T06:55:33.382Z",
+  "ts": "2026-07-30T06:55:53.856Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318371117",
+    "type": "OUTBOUND",
+    "message_id": "4318371407",
     "ticket_id": "970183412",
-    "message": "Can you connect me with a representative",
-    "channel_id": "1304636",
+    "message": "Of course, let me get someone from the team for you right away. They'll be with you shortly, Akshay.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "543649665",
     "contact_name": "Akshay",
     "contact_identifier": "+971502903680",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
