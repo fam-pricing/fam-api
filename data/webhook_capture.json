@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-30T09:38:16.600Z",
+  "ts": "2026-07-30T09:38:26.429Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318570620",
+    "type": "INBOUND",
+    "message_id": "4318570836",
     "ticket_id": "969940545",
-    "message": "Here is the bank details for the rent payment completion",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "543580441",
     "contact_name": "Rafik",
     "contact_identifier": "+971561687868",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4318570620",
+    "parent_ticket_id": "969940545",
+    "event_type": "INBOUND"
   }
 }
