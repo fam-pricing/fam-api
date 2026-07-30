@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-30T11:38:40.194Z",
+  "ts": "2026-07-30T11:47:29.256Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318712128",
+    "type": "OUTBOUND",
+    "message_id": "4318722400",
     "ticket_id": "969955146",
-    "message": "4th of August I mean *",
-    "channel_id": "585723",
+    "message": "Good afternoon,\r\n\r\nThank you for the update.\r\n\r\nPlease note that your check-out is scheduled for 2nd August. Unfortunately, we are unable to refund the security deposit at the time of check-out.\r\n\r\nA check-out inspection will be carried out after your departure. Provided there are no damages to the apartment, the security deposit will be refunded within 7 working days after your departure.\r\n\r\nThank you for your understanding.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "485463890",
     "contact_name": "Mrs Zahra Jamali",
     "contact_identifier": "+971547669747",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
