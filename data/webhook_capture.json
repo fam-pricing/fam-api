@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-30T08:47:44.465Z",
+  "ts": "2026-07-30T08:48:40.052Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318506504",
-    "ticket_id": "970217373",
-    "message": "Please note that as we are a holiday home provider, we specialize in short-term rentals. However, you are welcome to extend your stay based on availability for as long as required.\r\n\r\nWe would also like to inform you that we do not accept cheque payments. Payments can be completed either by cash or through a secure payment link that we can provide for your convenience.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "543656895",
-    "contact_name": "S",
-    "contact_identifier": "+971554790858",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4318507760",
+    "ticket_id": "969940545",
+    "message": "I will be making the payment by credit card, as I understand the first and last month’s rent are required in advance.\n\nIf it helps with the negotiation, I’m happy to arrange payment for the full three months upfront. Perhaps, if you feel it’s appropriate, you could speak with the landlord and see if they would be willing to offer a more favourable rate in return.\n\nThank you so much. 🙏🏼",
+    "channel_id": "585723",
+    "contact_id": "543580441",
+    "contact_name": "Rafik",
+    "contact_identifier": "+971561687868",
+    "parent_message_id": "4318501333",
+    "parent_ticket_id": "969940545",
+    "event_type": "INBOUND"
   }
 }
