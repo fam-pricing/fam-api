@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-30T08:51:28.969Z",
+  "ts": "2026-07-30T08:51:58.479Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318511603",
+    "type": "OUTBOUND",
+    "message_id": "4318512119",
     "ticket_id": "969940545",
-    "message": "Image",
-    "channel_id": "585723",
+    "message": "Unfortunately, we are unable to reduce the rate further, as the current listed rate for this unit is AED 8,500 for the month of July. We have already offered our best available rate for August at AED 7,500.\r\n\r\nWe appreciate your understanding that this is the most competitive rate we can provide at the moment.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543580441",
     "contact_name": "Rafik",
     "contact_identifier": "+971561687868",
-    "parent_message_id": "4318499514",
-    "parent_ticket_id": "969940545",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
