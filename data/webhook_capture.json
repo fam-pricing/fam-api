@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-30T07:16:25.200Z",
+  "ts": "2026-07-30T07:17:14.276Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318398896",
+    "type": "INBOUND",
+    "message_id": "4318399716",
     "ticket_id": "970166354",
-    "message": "Security deposit of AED 2000",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "1k ok plz",
+    "channel_id": "585723",
     "contact_id": "543643718",
     "contact_name": "Abu Sin Wasif",
     "contact_identifier": "+971558451204",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4318398896",
+    "parent_ticket_id": "970166354",
+    "event_type": "INBOUND"
   }
 }
