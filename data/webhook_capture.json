@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-30T06:33:44.423Z",
+  "ts": "2026-07-30T06:33:55.501Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318355446",
+    "type": "OUTBOUND",
+    "message_id": "4318355657",
     "ticket_id": "970183412",
-    "message": "This is upside",
-    "channel_id": "1304636",
+    "message": "Which property were you enquiring about? If you can share the name or location, I'll pull up the details straight away.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "543649665",
     "contact_name": "Akshay",
     "contact_identifier": "+971502903680",
-    "parent_message_id": "4318354957",
-    "parent_ticket_id": "970183412",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
