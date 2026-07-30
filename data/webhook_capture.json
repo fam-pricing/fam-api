@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-30T07:09:15.112Z",
+  "ts": "2026-07-30T07:09:46.771Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318390812",
-    "ticket_id": "965230628",
-    "message": "Hello ! PropertyFinder send me your contact regarding this listing:\n\nBayz\n\nHow can I help you ?",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "535952622",
-    "contact_name": "Simone Pravin Chhabda Pravin Kishan Chhabda",
-    "contact_identifier": "+971581770094",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4318391418",
+    "ticket_id": "970166354",
+    "message": "It's everything included right",
+    "channel_id": "585723",
+    "contact_id": "543643718",
+    "contact_name": "Abu Sin Wasif",
+    "contact_identifier": "+971558451204",
+    "parent_message_id": "4318390386",
+    "parent_ticket_id": "970166354",
+    "event_type": "INBOUND"
   }
 }
