@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-30T08:01:45.632Z",
+  "ts": "2026-07-30T08:12:57.262Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318450759",
-    "ticket_id": "938546983",
-    "message": "Payment will be five in a moment \nThank you",
+    "type": "OUTBOUND",
+    "message_id": "4318464615",
+    "ticket_id": "955436676",
+    "message": "Thanks for waiting. We have contacted the WiFi provider, DU, and they confirmed that the account is active. In the meantime, they performed troubleshooting on the account and requested that the router be restarted.\r\n\r\nIf you need our assistance with restarting the router, please let us know so we can arrange for our team to assist accordingly.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "539565275",
+    "contact_name": "GESCARD ISSA",
+    "contact_identifier": "+23795870067",
     "channel_id": "585723",
-    "contact_id": "535208016",
-    "contact_name": "DEANNO GARRY LUPKE",
-    "contact_identifier": "+27815663899",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
