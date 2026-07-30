@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-30T11:14:52.030Z",
+  "ts": "2026-07-30T11:15:07.678Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318683984",
+    "type": "INBOUND",
+    "message_id": "4318684328",
     "ticket_id": "938546983",
-    "message": "I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "535208016",
     "contact_name": "DEANNO GARRY LUPKE",
     "contact_identifier": "+27815663899",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4318683984",
+    "parent_ticket_id": "938546983",
+    "event_type": "INBOUND"
   }
 }
