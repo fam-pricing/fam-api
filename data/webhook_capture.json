@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-30T08:52:41.405Z",
+  "ts": "2026-07-30T08:55:08.413Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318512915",
+    "type": "OUTBOUND",
+    "message_id": "4318516062",
     "ticket_id": "969940545",
-    "message": "Sticker",
-    "channel_id": "585723",
+    "message": "Payment link for security deposit - https://totalpay.ae/payment/20260730326a6b1148bae20",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543580441",
     "contact_name": "Rafik",
     "contact_identifier": "+971561687868",
-    "parent_message_id": "4318512119",
-    "parent_ticket_id": "969940545",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
