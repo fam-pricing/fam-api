@@ -1,149 +1,5 @@
 [
   {
-    "ts": "2026-07-23T16:11:14.885Z",
-    "ticket_id": 968575140,
-    "lead_id": "message_lead_30776921",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1231,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-23T16:11:44.728Z",
-    "ticket_id": 968575140,
-    "lead_id": "message_lead_30776921",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1137,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-23T16:11:56.346Z",
-    "ticket_id": 968575140,
-    "lead_id": "message_lead_30776921",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 17194,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-07-23T16:13:04.326Z",
-    "ticket_id": 968575140,
-    "lead_id": "message_lead_30776921",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 27154,
-    "critic_pass": null,
-    "lead_quality": 25,
-    "buying_stage": "COOL",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-07-23T16:13:54.826Z",
-    "ticket_id": 968575140,
-    "lead_id": "message_lead_30776921",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1120,
-    "critic_pass": null,
-    "lead_quality": 25,
-    "buying_stage": "COOL",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-23T16:13:57.640Z",
-    "ticket_id": 968575140,
-    "lead_id": "message_lead_30776921",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 20937,
-    "critic_pass": null,
-    "lead_quality": 25,
-    "buying_stage": "COOL",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-07-23T16:14:26.205Z",
-    "ticket_id": 968575140,
-    "lead_id": "message_lead_30776921",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1564,
-    "critic_pass": null,
-    "lead_quality": 25,
-    "buying_stage": "COOL",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-23T16:14:29.256Z",
-    "ticket_id": 968575140,
-    "lead_id": "message_lead_30776921",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1086,
-    "critic_pass": null,
-    "lead_quality": 25,
-    "buying_stage": "COOL",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-23T16:14:31.620Z",
-    "ticket_id": 968575140,
-    "lead_id": "message_lead_30776921",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1170,
-    "critic_pass": null,
-    "lead_quality": 25,
-    "buying_stage": "COOL",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-23T16:14:33.603Z",
-    "ticket_id": 968575140,
-    "lead_id": "message_lead_30776921",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 23427,
-    "critic_pass": null,
-    "lead_quality": 25,
-    "buying_stage": "COOL",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-07-23T16:15:40.396Z",
-    "ticket_id": 968575140,
-    "lead_id": "message_lead_30776921",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 25441,
-    "critic_pass": null,
-    "lead_quality": 25,
-    "buying_stage": "COOL",
-    "skip_reason": "Lead is frustrated with broken links, unable to receive photos, asking for location, fees, and confirmation of viewing. Multiple unanswered messages including \"?\", \"Also not working\", \"I need the location\". Conversation is going in circles with repeated link failures and no resolution. Needs human to step in, send working photos, confirm location, and finalize Monday/Tuesday 5:30pm viewing with ID collection."
-  },
-  {
-    "ts": "2026-07-23T16:15:54.159Z",
-    "ticket_id": 968575140,
-    "lead_id": "message_lead_30776921",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 903,
-    "critic_pass": null,
-    "lead_quality": 25,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-07-23T16:47:03.261Z",
     "ticket_id": 968010246,
     "lead_id": "message_lead_30731833",
@@ -1678,5 +1534,17 @@
     "lead_quality": 100,
     "buying_stage": "HOT",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-07-30T16:21:33.572Z",
+    "ticket_id": 970357199,
+    "lead_id": "message_lead_30921838",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1049,
+    "critic_pass": null,
+    "lead_quality": 100,
+    "buying_stage": "HOT",
+    "skip_reason": "bot_paused"
   }
 ]
