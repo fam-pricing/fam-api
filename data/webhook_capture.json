@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-30T10:41:27.940Z",
+  "ts": "2026-07-30T10:41:55.256Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318646236",
+    "type": "OUTBOUND",
+    "message_id": "4318646828",
     "ticket_id": "969971819",
-    "message": "Brother payment gone through",
-    "channel_id": "585723",
+    "message": "Allow me to check",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543588291",
     "contact_name": "Salman Gillani",
     "contact_identifier": "+447377559695",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
