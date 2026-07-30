@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-30T08:40:48.394Z",
+  "ts": "2026-07-30T08:41:41.079Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318498490",
+    "type": "OUTBOUND",
+    "message_id": "4318499514",
     "ticket_id": "969940545",
-    "message": "All is well thank you for asking yes please go ahead and proceed the booking, thank you",
-    "channel_id": "585723",
+    "message": "We will need the following to be able to process:\r\n\r\n1- Copy of your passport\r\n2- email\r\n\r\n3- We will send you the registration card; please sign it and send it back to us.\r\n\r\nOnce we complete the above steps, we will send you the self-check-in details",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543580441",
     "contact_name": "Rafik",
     "contact_identifier": "+971561687868",
-    "parent_message_id": "4318496577",
-    "parent_ticket_id": "969940545",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
