@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-30T05:33:15.619Z",
+  "ts": "2026-07-30T05:38:08.456Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318324260",
+    "type": "OUTBOUND",
+    "message_id": "4318326175",
     "ticket_id": "969915930",
-    "message": "Could you share details of the apartment?",
-    "channel_id": "585723",
+    "message": "https://www.airbnb.ae/rooms/1583963441663719891?source_impression_id=p3_1785389803_P3V-GXftbTScvzBA",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543574598",
     "contact_name": "Sabrina",
     "contact_identifier": "+971559529037",
-    "parent_message_id": "4318323303",
-    "parent_ticket_id": "969915930",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
