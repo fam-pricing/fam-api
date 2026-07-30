@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-30T06:36:19.384Z",
+  "ts": "2026-07-30T06:36:44.525Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318357223",
+    "type": "OUTBOUND",
+    "message_id": "4318357504",
     "ticket_id": "970183412",
-    "message": "Can you tell me price and inclusions",
-    "channel_id": "1304636",
+    "message": "All-inclusive at AED 6,000/month, so water, electricity, internet, and taxes are covered. The rate stays fixed for the first 3 months, then gets reviewed against the market after that.\n\nWhat move-in date were you thinking?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "543649665",
     "contact_name": "Akshay",
     "contact_identifier": "+971502903680",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
