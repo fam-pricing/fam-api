@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-30T07:04:34.669Z",
+  "ts": "2026-07-30T07:04:57.562Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318380011",
+    "type": "INBOUND",
+    "message_id": "4318380541",
     "ticket_id": "969915930",
-    "message": "Allow me to check on the rate for with the management and update you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Thank you",
+    "channel_id": "585723",
     "contact_id": "543574598",
     "contact_name": "Sabrina",
     "contact_identifier": "+971559529037",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4318380011",
+    "parent_ticket_id": "969915930",
+    "event_type": "INBOUND"
   }
 }
