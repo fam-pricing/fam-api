@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-30T16:45:10.605Z",
+  "ts": "2026-07-30T16:45:36.145Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319072164",
+    "type": "OUTBOUND",
+    "message_id": "4319072516",
     "ticket_id": "970371388",
-    "message": "Im trying to find something with out changes of rate",
-    "channel_id": "1304636",
+    "message": "The rate stays the same throughout, we just reconfirm it every 3 months as a formality, no surprises. What day works for a viewing? We're free any day between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "543616233",
     "contact_name": "Camilla Prando",
     "contact_identifier": "+46739146440",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
