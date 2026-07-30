@@ -1,17 +1,19 @@
 {
-  "ts": "2026-07-30T07:50:10.665Z",
+  "ts": "2026-07-30T07:50:29.489Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318437631",
-    "ticket_id": "956113458",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "537401735",
-    "contact_name": "Rahul Vinay S",
-    "contact_identifier": "+971547997976",
+    "type": "INBOUND",
+    "message_id": "4318438131",
+    "ticket_id": "955702229",
+    "message": "👍",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "537426319",
+    "contact_name": "LB Lalita Bazhaeva",
+    "contact_identifier": "+79286401946",
+    "parent_message_id": "4318437627",
+    "parent_ticket_id": "955702229",
+    "event_type": "INBOUND"
   }
 }
