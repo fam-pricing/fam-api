@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-30T13:00:35.283Z",
+  "ts": "2026-07-30T13:01:08.146Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318834556",
+    "type": "INBOUND",
+    "message_id": "4318835332",
     "ticket_id": "965427246",
-    "message": "Sure, you may proceed with the shipment\r\n\r\nUnit 3105, Vida Dubai Mall Tower 2",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "🙏",
+    "channel_id": "1304636",
     "contact_id": "542363829",
     "contact_name": "Micah Meijer",
     "contact_identifier": "+31655135580",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4318834556",
+    "parent_ticket_id": "965427246",
+    "event_type": "INBOUND"
   }
 }
