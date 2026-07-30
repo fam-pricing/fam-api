@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-30T16:42:38.396Z",
+  "ts": "2026-07-30T16:43:09.492Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4319070064",
+    "type": "INBOUND",
+    "message_id": "4319070498",
     "ticket_id": "970371388",
-    "message": "It's all included, Wi-Fi, water, electricity, and VAT. The only extra is a refundable security deposit at check-in. Would you like to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes I would like to arrange a visit. And for how long it is available for rent?",
+    "channel_id": "1304636",
     "contact_id": "543616233",
     "contact_name": "Camilla Prando",
     "contact_identifier": "+46739146440",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
