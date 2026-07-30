@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-30T16:51:13.624Z",
+  "ts": "2026-07-30T16:51:26.073Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4319076986",
+    "type": "INBOUND",
+    "message_id": "4319077147",
     "ticket_id": "970371388",
-    "message": "Whenever you're ready, just let me know a day and time that works and we'll get the viewing sorted. Any day between 9am and 6pm works for us.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "🙏",
+    "channel_id": "1304636",
     "contact_id": "543616233",
     "contact_name": "Camilla Prando",
     "contact_identifier": "+46739146440",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4319076986",
+    "parent_ticket_id": "970371388",
+    "event_type": "INBOUND"
   }
 }
