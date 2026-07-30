@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-30T20:49:06.947Z",
+  "ts": "2026-07-30T20:50:56.730Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319218941",
-    "ticket_id": "970415037",
-    "message": "I can check in after few days may be 8th or 9th of next month",
+    "type": "OUTBOUND",
+    "message_id": "4319219846",
+    "ticket_id": "970415388",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n1BR in Viridian Central Park\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "543716149",
+    "contact_name": "A.A",
+    "contact_identifier": "+971502677385",
     "channel_id": "1304636",
-    "contact_id": "543633388",
-    "contact_name": "Nada Rehab",
-    "contact_identifier": "+201285575942",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
