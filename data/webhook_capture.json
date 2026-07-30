@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-30T04:59:35.905Z",
+  "ts": "2026-07-30T04:59:59.020Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318297371",
-    "ticket_id": "970024811",
-    "message": "Rate for the extension AED 171.83\r\n\r\nPayment link - https://totalpay.ae/payment/20260730596a6ada136be9c",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "535926291",
-    "contact_name": "Rimsha Akram",
-    "contact_identifier": "+971526064450",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4318297999",
+    "ticket_id": "969915930",
+    "message": "Good morning, do you have any update?",
+    "channel_id": "585723",
+    "contact_id": "543574598",
+    "contact_name": "Sabrina",
+    "contact_identifier": "+971559529037",
+    "parent_message_id": "4317607905",
+    "parent_ticket_id": "969915930",
+    "event_type": "INBOUND"
   }
 }
