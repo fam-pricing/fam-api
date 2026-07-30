@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-30T12:28:11.868Z",
+  "ts": "2026-07-30T12:28:44.680Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318798271",
-    "ticket_id": "970304151",
-    "message": "Still waiting on rate",
-    "channel_id": "1304636",
-    "contact_id": "539365088",
-    "contact_name": "IBRAHIM ABDULRAHMAN",
-    "contact_identifier": "+447539692848",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4318798865",
+    "ticket_id": "969971819",
+    "message": "I have checked with the Finance team, and as per their confirmation, since this is an international payment, it may take 1–2 working days to reflect in our bank account.\r\n\r\nWe will be able to provide you with a confirmation once the payment is received, and we will update you by tomorrow accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "543588291",
+    "contact_name": "Salman Gillani",
+    "contact_identifier": "+447377559695",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
