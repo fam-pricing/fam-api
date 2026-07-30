@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-30T07:22:38.403Z",
+  "ts": "2026-07-30T07:23:07.533Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318405458",
+    "type": "OUTBOUND",
+    "message_id": "4318405933",
     "ticket_id": "970194668",
-    "message": "Hello Is there a discount on this property? I have a friend who is interested to rent it for a month",
-    "channel_id": "1304636",
+    "message": "The price is fixed at AED 6,500/month all-in, so no discounts unfortunately. That said, your friend is welcome anytime, when are they looking to move in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "543652142",
     "contact_name": "Jamaicah ~*",
     "contact_identifier": "+971524027512",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
