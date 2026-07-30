@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-30T05:55:25.739Z",
+  "ts": "2026-07-30T05:56:38.296Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318332489",
-    "ticket_id": "970166354",
-    "message": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-hills-estate-executive-residences-executive-residences-2-69093988.html",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "543643718",
-    "contact_name": "Abu Sin Wasif",
-    "contact_identifier": "+971558451204",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4318333022",
+    "ticket_id": "970056783",
+    "message": "The link is not working anymore",
+    "channel_id": "1304636",
+    "contact_id": "543616233",
+    "contact_name": "Camilla Prando",
+    "contact_identifier": "+46739146440",
+    "parent_message_id": "4318332364",
+    "parent_ticket_id": "970056783",
+    "event_type": "INBOUND"
   }
 }
