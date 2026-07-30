@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-30T10:48:47.911Z",
+  "ts": "2026-07-30T10:49:07.937Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318654270",
+    "type": "OUTBOUND",
+    "message_id": "4318654595",
     "ticket_id": "952537981",
-    "message": "Why are you sending this?",
-    "channel_id": "585723",
+    "message": "Please ignore the above message",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "517825599",
     "contact_name": "Arifa Patel",
     "contact_identifier": "+971567647755",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
