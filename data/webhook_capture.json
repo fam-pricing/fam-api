@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-30T10:46:01.473Z",
+  "ts": "2026-07-30T10:46:18.125Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318651376",
-    "ticket_id": "969971819",
-    "message": "I need to know is this a bank transfer?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "543588291",
-    "contact_name": "Salman Gillani",
-    "contact_identifier": "+447377559695",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4318651693",
+    "ticket_id": "970024811",
+    "message": "Thank you",
+    "channel_id": "1304636",
+    "contact_id": "535926291",
+    "contact_name": "Rimsha Akram",
+    "contact_identifier": "+971526064450",
+    "event_type": "INBOUND"
   }
 }
