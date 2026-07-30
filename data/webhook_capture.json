@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-30T11:47:29.256Z",
+  "ts": "2026-07-30T11:55:29.324Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318722400",
-    "ticket_id": "969955146",
-    "message": "Good afternoon,\r\n\r\nThank you for the update.\r\n\r\nPlease note that your check-out is scheduled for 2nd August. Unfortunately, we are unable to refund the security deposit at the time of check-out.\r\n\r\nA check-out inspection will be carried out after your departure. Provided there are no damages to the apartment, the security deposit will be refunded within 7 working days after your departure.\r\n\r\nThank you for your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "485463890",
-    "contact_name": "Mrs Zahra Jamali",
-    "contact_identifier": "+971547669747",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4318731462",
+    "ticket_id": "965427246",
+    "message": "Hi what’s the room number? I need to send some of my stuff.",
+    "channel_id": "1304636",
+    "contact_id": "542363829",
+    "contact_name": "Micah Meijer",
+    "contact_identifier": "+31655135580",
+    "parent_message_id": "4305368580",
+    "parent_ticket_id": "965427246",
+    "event_type": "INBOUND"
   }
 }
