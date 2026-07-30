@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-30T13:20:14.774Z",
+  "ts": "2026-07-30T13:22:35.283Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318859026",
-    "ticket_id": "970319888",
-    "message": "🙏",
-    "channel_id": "1304636",
-    "contact_id": "542363829",
-    "contact_name": "Micah Meijer",
-    "contact_identifier": "+31655135580",
-    "parent_message_id": "4318858832",
-    "parent_ticket_id": "965427246",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4318861910",
+    "ticket_id": "953381236",
+    "message": "You may complete the payment using the following deposit link:\r\n\r\nhttps://totalpay.ae/payment/20260724406a636f187a8f3",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538992676",
+    "contact_name": "Amal Alshehhi",
+    "contact_identifier": "+971569276276",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
