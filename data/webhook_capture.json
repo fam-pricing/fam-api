@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-30T12:33:14.695Z",
+  "ts": "2026-07-30T12:33:21.371Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318804032",
-    "ticket_id": "965427246",
-    "message": "Done",
+    "type": "OUTBOUND",
+    "message_id": "4318804162",
+    "ticket_id": "970183412",
+    "message": "Is there anything else I can help you with today ?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "543649665",
+    "contact_name": "Akshay",
+    "contact_identifier": "+971502903680",
     "channel_id": "1304636",
-    "contact_id": "542363829",
-    "contact_name": "Micah Meijer",
-    "contact_identifier": "+31655135580",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
