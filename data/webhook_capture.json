@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-30T06:56:49.327Z",
+  "ts": "2026-07-30T07:00:47.881Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318372094",
+    "type": "OUTBOUND",
+    "message_id": "4318376017",
     "ticket_id": "969915930",
-    "message": "Thank you! \nWe are currently staying in this apartment 2402. \nCould you please do a better price? As we are staying quite long. \n\nI have inquired other companies with apartments in imperial Avenue and they can offer discounted prices.\n\n\nThank you",
-    "channel_id": "585723",
+    "message": "May I know the booking name please?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543574598",
     "contact_name": "Sabrina",
     "contact_identifier": "+971559529037",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
