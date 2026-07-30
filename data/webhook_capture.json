@@ -1,19 +1,17 @@
 {
-  "ts": "2026-07-30T11:55:29.324Z",
+  "ts": "2026-07-30T12:03:19.229Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4318731462",
-    "ticket_id": "965427246",
-    "message": "Hi what’s the room number? I need to send some of my stuff.",
-    "channel_id": "1304636",
-    "contact_id": "542363829",
-    "contact_name": "Micah Meijer",
-    "contact_identifier": "+31655135580",
-    "parent_message_id": "4305368580",
-    "parent_ticket_id": "965427246",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4318741365",
+    "ticket_id": "969971819",
+    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
+    "contact_id": "543588291",
+    "contact_name": "Salman Gillani",
+    "contact_identifier": "+447377559695",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
