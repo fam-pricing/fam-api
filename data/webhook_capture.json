@@ -1,20 +1,17 @@
 {
-  "ts": "2026-07-30T08:24:15.558Z",
+  "ts": "2026-07-30T08:27:49.952Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318478147",
+    "type": "INBOUND",
+    "message_id": "4318482512",
     "ticket_id": "970217373",
-    "message": "May I know how many bedrooms you require and your preferred check-in and check-out dates? Once we have these details, we will be able to check the availability and share the suitable options with you.\r\n\r\nThank you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Hi Tharushi I would like to find 1br apt or an studio",
+    "channel_id": "1304636",
     "contact_id": "543656895",
     "contact_name": "S",
     "contact_identifier": "+971554790858",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
