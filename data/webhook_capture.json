@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-30T10:03:53.441Z",
+  "ts": "2026-07-30T10:08:34.017Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4318602174",
+    "type": "INBOUND",
+    "message_id": "4318608136",
     "ticket_id": "969884004",
-    "message": "Please note that this rate is for one specific apartment available in Dubai. Rates may vary depending on the apartment, location, availability, and the selected dates.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Vous n'avez pas pris en compte toutes les périodes",
+    "channel_id": "585723",
     "contact_id": "543567891",
     "contact_name": "Boris Romaric",
     "contact_identifier": "+22577777781",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4317847863",
+    "parent_ticket_id": "969884004",
+    "event_type": "INBOUND"
   }
 }
