@@ -2290,5 +2290,17 @@
     "lead_quality": 15,
     "buying_stage": "COLD",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-07-30T06:33:35.306Z",
+    "ticket_id": 970183412,
+    "lead_id": "message_lead_30909961",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1108,
+    "critic_pass": null,
+    "lead_quality": 40,
+    "buying_stage": "WARM",
+    "skip_reason": "ticket_locked"
   }
 ]
