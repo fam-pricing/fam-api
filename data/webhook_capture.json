@@ -1,17 +1,17 @@
 {
-  "ts": "2026-07-31T08:11:22.403Z",
+  "ts": "2026-07-31T08:11:25.543Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319469169",
+    "type": "OUTBOUND",
+    "message_id": "4319469202",
     "ticket_id": "970505261",
-    "message": "We’re looking for accommodation with a private pool for around 4–5 people. Could you please let us know what options you have?",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "543742169",
     "contact_name": "Amna",
     "contact_identifier": "8a9158d2-ae35-4cfd-fa2e-d9b8bfaa8855",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
