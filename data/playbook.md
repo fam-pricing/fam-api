@@ -1637,3 +1637,9 @@ Please note that payments made via the payment link will incur a 3.1% card proce
 
 Thank you."
   (Learned from Faysal handling Jamaicah ~* re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-hills-estate-executive-residences-executive-residences-2-69093988.html)
+
+## Learned (2026-07-31)
+- If a lead asks whether parking is available, respond:
+
+"Parking will be available once your booking is confirmed. You will be provided with one complimentary parking space in the building for the duration of your stay."
+  (Learned from Faysal handling Jamaicah ~* re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-hills-estate-executive-residences-executive-residences-2-69093988.html)
