@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-31T10:23:26.549Z",
+  "ts": "2026-07-31T10:23:56.072Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319628112",
+    "type": "OUTBOUND",
+    "message_id": "4319628706",
     "ticket_id": "970024811",
-    "message": "Document",
-    "channel_id": "1304636",
+    "message": "Can we know what time you will be checking out ?",
+    "user_id": "315306",
+    "user_name": "Farhan F",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "535926291",
     "contact_name": "Rimsha Akram",
     "contact_identifier": "+971526064450",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
