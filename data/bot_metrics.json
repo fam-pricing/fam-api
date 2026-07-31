@@ -1,17 +1,5 @@
 [
   {
-    "ts": "2026-07-24T09:03:05.000Z",
-    "ticket_id": 968666651,
-    "lead_id": "message_lead_30783920",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 797,
-    "critic_pass": null,
-    "lead_quality": 45,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-07-24T09:31:41.799Z",
     "ticket_id": 968666651,
     "lead_id": "message_lead_30783920",
@@ -1486,5 +1474,17 @@
     "lead_quality": 70,
     "buying_stage": "HOT",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-07-31T09:05:07.653Z",
+    "ticket_id": 970194668,
+    "lead_id": "message_lead_30910666",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 23097,
+    "critic_pass": null,
+    "lead_quality": 70,
+    "buying_stage": "HOT",
+    "skip_reason": "Lead is requesting AED 6,000/month (down from listed AED 6,500) citing a previous quote given 3 months ago. They also asked to reduce the security deposit to AED 1,000 (standard for 1BR is AED 1,500). Agent (Faysal) previously said \"sounds good\" and asked them to confirm and send passport/ID for August 7 move-in. It's unclear if the AED 6,000 rate and AED 1,000 deposit were approved. Lead has now confirmed \"yes its okay\" and given dates: August 7 to September 5. Need Faysal to confirm whether AED 6,000 and AED 1,000 deposit are approved so we can proceed to booking."
   }
 ]
