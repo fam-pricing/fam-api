@@ -1643,3 +1643,9 @@ Thank you."
 
 "Parking will be available once your booking is confirmed. You will be provided with one complimentary parking space in the building for the duration of your stay."
   (Learned from Faysal handling Jamaicah ~* re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-hills-estate-executive-residences-executive-residences-2-69093988.html)
+
+## Learned (2026-07-31)
+- When a lead asks whether the security deposit will be refunded after check-out, confirm the following:
+
+The refundable damage deposit is returned within 7 working days of check-out. The full amount is refunded via credit card or bank transfer, subject to a post-checkout property inspection.
+  (Learned from Faysal handling Jamaicah ~* re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-hills-estate-executive-residences-executive-residences-2-69093988.html)
