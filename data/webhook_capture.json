@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-31T06:03:28.069Z",
+  "ts": "2026-07-31T06:03:41.090Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319354458",
-    "ticket_id": "970166354",
-    "message": "Thanks",
+    "type": "OUTBOUND",
+    "message_id": "4319354584",
+    "ticket_id": "959879659",
+    "message": "Good morning, Ariean,\r\n\r\nUnfortunately, we do not have any one-bedroom apartments available in your preferred location at the moment.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535130282",
+    "contact_name": "Ariean Maleklo",
+    "contact_identifier": "+971523718586",
     "channel_id": "585723",
-    "contact_id": "543643718",
-    "contact_name": "Abu Sin Wasif",
-    "contact_identifier": "+971558451204",
-    "parent_message_id": "4319350731",
-    "parent_ticket_id": "970166354",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
