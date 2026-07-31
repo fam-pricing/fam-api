@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-31T12:50:32.797Z",
+  "ts": "2026-07-31T12:51:33.669Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319799746",
+    "type": "OUTBOUND",
+    "message_id": "4319800706",
     "ticket_id": "970194668",
-    "message": "Yes correct",
-    "channel_id": "1304636",
+    "message": "Okay, we will proceed with creating the booking.\r\n\r\nRegarding the security deposit, we will share the payment link with you shortly so you can complete the payment accordingly.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "543652142",
     "contact_name": "Jamaicah ~*",
     "contact_identifier": "+971524027512",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
