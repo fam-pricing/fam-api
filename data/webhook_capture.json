@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-31T07:12:42.356Z",
+  "ts": "2026-07-31T07:14:01.367Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319405214",
+    "type": "OUTBOUND",
+    "message_id": "4319406683",
     "ticket_id": "969971819",
-    "message": "I will share this with booking.com too",
-    "channel_id": "585723",
+    "message": "Sure, you may double-check with Booking.com regarding the details. However, please find the booking confirmation here showing the total amount.\r\n\r\nI will also share the payment link with you shortly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "543588291",
     "contact_name": "Salman Gillani",
     "contact_identifier": "+447377559695",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
