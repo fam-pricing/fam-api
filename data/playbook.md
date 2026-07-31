@@ -1611,3 +1611,7 @@ Once received, we'll send you a registration card to sign and return. After comp
 ## Learned (2026-07-31)
 - If a lead asks about a longer-term stay (e.g., 6–7 months at a fixed rate), let them know that we do not offer annual contracts or Ejari, but they are welcome to stay as long as they need by renewing on a monthly basis.
   (Learned from Faysal handling Sher Azam Tiwana re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-city-walk-residential-city-walk-residential-building-2a-69093535.html)
+
+## Learned (2026-07-31)
+- If a lead asks about a longer-term rental (e.g., 6–7 months at a fixed rate), inform them that due to current market conditions, we can only offer a fixed rate for a maximum of 3 months.
+  (Learned from Faysal handling Sher Azam Tiwana re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-city-walk-residential-city-walk-residential-building-2a-69093535.html)
