@@ -1702,5 +1702,17 @@
     "lead_quality": 55,
     "buying_stage": "WARM",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-07-31T12:29:36.204Z",
+    "ticket_id": 970194668,
+    "lead_id": "message_lead_30910666",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 799,
+    "critic_pass": null,
+    "lead_quality": 70,
+    "buying_stage": "HOT",
+    "skip_reason": "bot_paused"
   }
 ]
