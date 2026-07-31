@@ -1627,3 +1627,13 @@ Once received, we'll send you a registration card to sign and return. After comp
 
 Once we have these, we will send you a payment link to confirm your booking."
   (Learned from Faysal handling Jamaicah ~* re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-hills-estate-executive-residences-executive-residences-2-69093988.html)
+
+## Learned (2026-07-31)
+- When a lead says something like "Let me confirm with her now. What documents do you need?", pivot the conversation to payment method before discussing documents. Reply:
+
+"Regarding the payment, may I know if you will be paying by card or bank transfer?
+
+Please note that payments made via the payment link will incur a 3.1% card processing fee, while bank transfers have no additional charges.
+
+Thank you."
+  (Learned from Faysal handling Jamaicah ~* re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-hills-estate-executive-residences-executive-residences-2-69093988.html)
