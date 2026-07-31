@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-31T09:34:25.784Z",
+  "ts": "2026-07-31T09:35:46.689Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319570975",
-    "ticket_id": "963719733",
-    "message": "Could you please let me know when I will receive my security deposit and how it will be refunded to me?",
+    "type": "OUTBOUND",
+    "message_id": "4319572391",
+    "ticket_id": "969940545",
+    "message": "Attachment",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "543580441",
+    "contact_name": "Rafik",
+    "contact_identifier": "+971561687868",
     "channel_id": "585723",
-    "contact_id": "540354721",
-    "contact_name": "Ismael Ferrahi",
-    "contact_identifier": "+971585032384",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
