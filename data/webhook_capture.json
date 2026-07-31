@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-31T05:51:40.588Z",
+  "ts": "2026-07-31T05:52:12.039Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319349316",
+    "type": "OUTBOUND",
+    "message_id": "4319349564",
     "ticket_id": "970409203",
-    "message": "Can you send me the details of your apartment check-in,  I would like to have details of your apartment 709 building 4 bluewaters island.\n\nDetails as follows :\n\nCheck-in date check-out date\nPassport copies\nNo of persons \nContact numbers.\n\n\n\n\nRegards, \nReception.",
-    "channel_id": "585723",
+    "message": "May i know your name please ? as we have already send our guest details via email",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "543714532",
     "contact_name": "Building 4",
     "contact_identifier": "+971525821410",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
