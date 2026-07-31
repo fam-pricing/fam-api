@@ -1615,3 +1615,15 @@ Once received, we'll send you a registration card to sign and return. After comp
 ## Learned (2026-07-31)
 - If a lead asks about a longer-term rental (e.g., 6–7 months at a fixed rate), inform them that due to current market conditions, we can only offer a fixed rate for a maximum of 3 months.
   (Learned from Faysal handling Sher Azam Tiwana re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-city-walk-residential-city-walk-residential-building-2a-69093535.html)
+
+## Learned (2026-07-31)
+- When a lead says they are confirming with their partner and asks what documents are needed, respond with the following:
+
+"For booking, we need:
+
+1. A copy of your ID or passport
+2. Your email address
+3. Your phone number
+
+Once we have these, we will send you a payment link to confirm your booking."
+  (Learned from Faysal handling Jamaicah ~* re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-hills-estate-executive-residences-executive-residences-2-69093988.html)
