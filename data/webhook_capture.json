@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-31T06:07:56.884Z",
+  "ts": "2026-07-31T06:08:00.183Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319357574",
-    "ticket_id": "970166354",
-    "message": "After that I will confirmed the booking",
-    "channel_id": "585723",
-    "contact_id": "543643718",
-    "contact_name": "Abu Sin Wasif",
-    "contact_identifier": "+971558451204",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4319357618",
+    "ticket_id": "970024811",
+    "message": "Thank you for choosing fäm Living Rimsha Akram!\r\n\r\nWe hope you enjoyed your stay! Please let us know your expected checkout time so we can arrange it accordingly.\r\n\r\nOur standard checkout timings are between 10:00 AM and 12:00 PM.\r\n\r\nPlease note that if you self-checkout without our staff's presence for inspection, you consent to accept any damage(s) reported by admin staff.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "535926291",
+    "contact_name": "Rimsha Akram",
+    "contact_identifier": "+971526064450",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
