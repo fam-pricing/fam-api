@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-31T07:32:55.328Z",
+  "ts": "2026-07-31T07:33:31.553Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319425748",
-    "ticket_id": "970465030",
-    "message": "Hello, good day. I have renewed for another month. Please come tomorrow morning to pay in cash",
+    "type": "OUTBOUND",
+    "message_id": "4319426282",
+    "ticket_id": "969971819",
+    "message": "Here is the payment link for the deposit: https://totalpay.ae/payment/20260731596a6c4fab4ae31\r\n\r\nonce done please update us",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "543588291",
+    "contact_name": "Salman Gillani",
+    "contact_identifier": "+447377559695",
     "channel_id": "585723",
-    "contact_id": "541033321",
-    "contact_name": "Khashayar Zahed",
-    "contact_identifier": "+971551890313",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
