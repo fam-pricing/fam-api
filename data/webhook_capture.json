@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-31T15:54:39.615Z",
+  "ts": "2026-07-31T15:58:16.630Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319985633",
-    "ticket_id": "969955146",
-    "message": "We had conversation yesterday,👇🏽\nHi 👋🏼 \nThis is zahra \nI hope you’re doing well.\n\nWe would like to inform you that we will not be extending our stay for next month. We are planning to check out on 4th August .\n\nCould you please arrange for someone to inspect the apartment one day before our check-out?\n\nAlso, we have two security deposits with you, so we would appreciate it if you could arrange the refund after the inspection.\n\nThank you very much, and we look forward to your confirmation.🙏🏽",
+    "type": "OUTBOUND",
+    "message_id": "4319988353",
+    "ticket_id": "969915930",
+    "message": "May I have the receipt please for the payment",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "543574598",
+    "contact_name": "Sabrina",
+    "contact_identifier": "+971559529037",
     "channel_id": "585723",
-    "contact_id": "485463890",
-    "contact_name": "Mrs Zahra Jamali",
-    "contact_identifier": "+971547669747",
-    "parent_message_id": "4318710413",
-    "parent_ticket_id": "969955146",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
