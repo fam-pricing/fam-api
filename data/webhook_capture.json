@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-31T15:24:43.335Z",
+  "ts": "2026-07-31T15:25:06.845Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319961539",
+    "type": "OUTBOUND",
+    "message_id": "4319961825",
     "ticket_id": "970371388",
-    "message": "⬆️",
-    "channel_id": "1304636",
+    "message": "10:30am tomorrow works, see you then! Just bring your passport or Emirates ID on the day and we'll handle everything there.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "543616233",
     "contact_name": "Camilla Prando",
     "contact_identifier": "+46739146440",
-    "parent_message_id": "4319960393",
-    "parent_ticket_id": "970371388",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
