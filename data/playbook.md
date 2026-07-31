@@ -1649,3 +1649,9 @@ Thank you."
 
 The refundable damage deposit is returned within 7 working days of check-out. The full amount is refunded via credit card or bank transfer, subject to a post-checkout property inspection.
   (Learned from Faysal handling Jamaicah ~* re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-hills-estate-executive-residences-executive-residences-2-69093988.html)
+
+## Learned (2026-07-31)
+- If a lead submits an offer in cheques (e.g., "17,500/month — 105,000 in two cheques, contingent on viewing"), respond as follows:
+
+Thank you for your offer. Please note that we do not accept cheque payments for monthly bookings. Additionally, the rate quoted is our best available rate and cannot be reduced further. We appreciate your understanding.
+  (Learned from Faysal handling Sher Azam Tiwana re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-city-walk-residential-city-walk-residential-building-2a-69093535.html)
