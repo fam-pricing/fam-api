@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-31T12:40:23.228Z",
+  "ts": "2026-07-31T12:40:25.382Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4319787266",
+    "type": "INBOUND",
+    "message_id": "4319787304",
     "ticket_id": "970586210",
-    "message": "Around 5,000 a month is tight for high season but let me check what we have nearby that might work, what dates are you looking at exactly?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "So this is not a bad offer for me",
+    "channel_id": "1304636",
     "contact_id": "543761596",
     "contact_name": "Dalia",
     "contact_identifier": "+962799113192",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4319757020",
+    "parent_ticket_id": "970586210",
+    "event_type": "INBOUND"
   }
 }
