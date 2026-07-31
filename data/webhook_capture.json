@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-31T12:31:00.600Z",
+  "ts": "2026-07-31T12:31:26.560Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319775344",
+    "type": "OUTBOUND",
+    "message_id": "4319776060",
     "ticket_id": "970586210",
-    "message": "I would like to hold it and wait till I’m there but because you need the payment upfront",
-    "channel_id": "1304636",
+    "message": "Totally get that, you'd rather see it first before committing any payment. Once you're here on the 20th we can do a viewing and go from there. Want me to pencil that in for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "543761596",
     "contact_name": "Dalia",
     "contact_identifier": "+962799113192",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
