@@ -1,20 +1,19 @@
 {
-  "ts": "2026-07-31T09:49:16.713Z",
+  "ts": "2026-07-31T09:49:36.265Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4319586775",
-    "ticket_id": "970415388",
-    "message": "This apartment is available from 15th August until 2nd October only. Would this period work for you?\r\n\r\nHowever, for now, it is available for a 1-month stay from 15th August until 14th September.\r\n\r\nPlease let us know if this is suitable for you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "543716149",
-    "contact_name": "A.A",
-    "contact_identifier": "+971502677385",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4319587116",
+    "ticket_id": "969915930",
+    "message": "Noted",
+    "channel_id": "585723",
+    "contact_id": "543574598",
+    "contact_name": "Sabrina",
+    "contact_identifier": "+971559529037",
+    "parent_message_id": "4319539170",
+    "parent_ticket_id": "969915930",
+    "event_type": "INBOUND"
   }
 }
