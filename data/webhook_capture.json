@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-31T08:46:33.004Z",
+  "ts": "2026-07-31T08:46:48.049Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319515181",
-    "ticket_id": "969381975",
-    "message": "No I asked if the price was negotiable and then your service closed suddenly the conversation",
+    "type": "OUTBOUND",
+    "message_id": "4319515419",
+    "ticket_id": "969940545",
+    "message": "Thank you , we will make the booking and send you the confirmation",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "543580441",
+    "contact_name": "Rafik",
+    "contact_identifier": "+971561687868",
     "channel_id": "585723",
-    "contact_id": "524339961",
-    "contact_name": "Yosr Charrada",
-    "contact_identifier": "+971521287467",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
