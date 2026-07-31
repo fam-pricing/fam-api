@@ -1,19 +1,20 @@
 {
-  "ts": "2026-07-31T07:45:36.447Z",
+  "ts": "2026-07-31T07:48:03.506Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319438515",
+    "type": "OUTBOUND",
+    "message_id": "4319442338",
     "ticket_id": "969971819",
-    "message": "Also deposit I will pay once I’m there",
-    "channel_id": "585723",
+    "message": "Unfortunately, we do not accept payment upon arrival. The payment must be completed online in advance, as we will be arranging a self check-in process for your stay.\r\n\r\nAll necessary procedures, including payment confirmation, need to be completed before your arrival to ensure a smooth check-in experience.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "543588291",
     "contact_name": "Salman Gillani",
     "contact_identifier": "+447377559695",
-    "parent_message_id": "4319426282",
-    "parent_ticket_id": "969971819",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
