@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-31T12:35:05.716Z",
+  "ts": "2026-07-31T12:37:22.527Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319781905",
-    "ticket_id": "952537981",
-    "message": "I’m out at the moment, if we’re not back by 6pm they can enter and do the viewing",
+    "type": "OUTBOUND",
+    "message_id": "4319784159",
+    "ticket_id": "961649040",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "315306",
+    "user_name": "Farhan F",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "541261521",
+    "contact_name": "Payal",
+    "contact_identifier": "+971557088703",
     "channel_id": "585723",
-    "contact_id": "517825599",
-    "contact_name": "Arifa Patel",
-    "contact_identifier": "+971567647755",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
