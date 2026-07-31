@@ -1,17 +1,20 @@
 {
-  "ts": "2026-07-31T06:11:48.478Z",
+  "ts": "2026-07-31T06:12:07.703Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4319360036",
+    "type": "OUTBOUND",
+    "message_id": "4319360265",
     "ticket_id": "970463753",
-    "message": "Please cancel my booking",
-    "channel_id": "585723",
+    "message": "for the cancellation please send the request on booking.com , Thank you",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "543733181",
     "contact_name": "Salma Alkalbani",
     "contact_identifier": "+971504450175",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
