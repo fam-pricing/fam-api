@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-01T08:31:32.114Z",
+  "ts": "2026-08-01T08:32:10.299Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4320353441",
+    "type": "OUTBOUND",
+    "message_id": "4320353949",
     "ticket_id": "957524557",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "Hello UMAIR,\r\n\r\nWe hope you are doing well.\r\n\r\nWe would like to check if you are interested in extending your stay with us. Please note that, for any extension, the rate will be different from your previous booking. There will be a 20% increase in the rate for the extension period.\r\n\r\nWe wanted to inform you in advance so you can plan accordingly.\r\n\r\nKindly let us know if you would like to proceed with the extension, and we will be happy to assist you.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537865623",
     "contact_name": "UMAIR SALEEM",
     "contact_identifier": "+923314067795",
-    "parent_message_id": "4320332568",
-    "parent_ticket_id": "957524557",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
