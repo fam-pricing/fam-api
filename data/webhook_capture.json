@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-01T13:12:43.654Z",
+  "ts": "2026-08-01T13:13:14.816Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4320515593",
+    "type": "INBOUND",
+    "message_id": "4320515879",
     "ticket_id": "970776268",
-    "message": "Certainly. You may pay the rental amount in cash upon arrival.\r\n\r\nHowever, please note that the security deposit must be paid via the payment link before check-in. There are no additional processing charges for the security deposit payment.\r\n\r\nThank you, and please let us know if you have any further questions.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Ok great",
+    "channel_id": "585723",
     "contact_id": "543802743",
     "contact_name": "Мария",
     "contact_identifier": "+79280462796",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4320515593",
+    "parent_ticket_id": "970776268",
+    "event_type": "INBOUND"
   }
 }
