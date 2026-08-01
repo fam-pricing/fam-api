@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-01T10:26:41.621Z",
+  "ts": "2026-08-01T10:33:22.840Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4320421422",
-    "ticket_id": "970024811",
-    "message": "OK",
+    "type": "OUTBOUND",
+    "message_id": "4320424710",
+    "ticket_id": "965427246",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nVida\n\nHow can I help you today?",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "542363829",
+    "contact_name": "Micah Meijer",
+    "contact_identifier": "+31655135580",
     "channel_id": "1304636",
-    "contact_id": "535926291",
-    "contact_name": "Rimsha Akram",
-    "contact_identifier": "+971526064450",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
