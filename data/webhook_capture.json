@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-01T13:12:23.545Z",
+  "ts": "2026-08-01T13:12:43.654Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4320515409",
+    "type": "OUTBOUND",
+    "message_id": "4320515593",
     "ticket_id": "970776268",
-    "message": "I am today and tomorrow in Dubai",
-    "channel_id": "585723",
+    "message": "Certainly. You may pay the rental amount in cash upon arrival.\r\n\r\nHowever, please note that the security deposit must be paid via the payment link before check-in. There are no additional processing charges for the security deposit payment.\r\n\r\nThank you, and please let us know if you have any further questions.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "543802743",
     "contact_name": "Мария",
     "contact_identifier": "+79280462796",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
