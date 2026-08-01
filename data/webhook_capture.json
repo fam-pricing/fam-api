@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-01T05:09:28.983Z",
+  "ts": "2026-08-01T05:14:12.762Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4320264404",
-    "ticket_id": "959879659",
-    "message": "Good morning, no 1 and 2 bed apartments available in creek Harbour ?",
+    "type": "OUTBOUND",
+    "message_id": "4320265571",
+    "ticket_id": "969094840",
+    "message": "Your extension has been processed successfully.\r\n\r\nTo confirm your extension, kindly complete the payment using the link provided below at your earliest convenience.\r\n\r\nLink: https://totalpay.ae/payment/20260801476a6d808b19cf5",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "543078183",
+    "contact_name": "Ahmed Shehab Ahmed Ali Alsaadi",
+    "contact_identifier": "+971557999949",
     "channel_id": "585723",
-    "contact_id": "535130282",
-    "contact_name": "Ariean Maleklo",
-    "contact_identifier": "+971523718586",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
