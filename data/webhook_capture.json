@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-01T08:28:14.876Z",
+  "ts": "2026-08-01T08:31:32.114Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4320351323",
-    "ticket_id": "969094840",
-    "message": "Regarding the parking, unfortunately, it will not be possible to provide an additional parking space, as this apartment has only one designated parking slot available.\r\n\r\nWe sincerely apologize if this causes any inconvenience and appreciate your kind understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "543078183",
-    "contact_name": "Ahmed Shehab Ahmed Ali Alsaadi",
-    "contact_identifier": "+971557999949",
+    "type": "INBOUND",
+    "message_id": "4320353441",
+    "ticket_id": "957524557",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "537865623",
+    "contact_name": "UMAIR SALEEM",
+    "contact_identifier": "+923314067795",
+    "parent_message_id": "4320332568",
+    "parent_ticket_id": "957524557",
+    "event_type": "INBOUND"
   }
 }
