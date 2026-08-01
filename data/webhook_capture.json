@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-01T07:46:17.514Z",
+  "ts": "2026-08-01T07:53:59.748Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4320325979",
-    "ticket_id": "970024811",
-    "message": "apartment is open ?",
-    "channel_id": "1304636",
-    "contact_id": "535926291",
-    "contact_name": "Rimsha Akram",
-    "contact_identifier": "+971526064450",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4320329823",
+    "ticket_id": "970776268",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "543802743",
+    "contact_name": "Мария",
+    "contact_identifier": "+79280462796",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
