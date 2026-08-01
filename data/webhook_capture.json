@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-01T13:43:34.013Z",
+  "ts": "2026-08-01T13:46:14.757Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4320532821",
-    "ticket_id": "949384142",
-    "message": "Hi, I just wanted to ask—does the rental price change throughout the month, or is there only a specific period when the price changes?",
+    "type": "OUTBOUND",
+    "message_id": "4320534260",
+    "ticket_id": "955702229",
+    "message": "May I kindly request an update regarding the payment?\r\n\r\nAs you are unable to visit our office, you may proceed with the bank transfer instead, as our finance team’s office hours have already closed for today.\r\n\r\nKindly share the payment confirmation once completed so we can proceed accordingly.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "537426319",
+    "contact_name": "LB Lalita Bazhaeva",
+    "contact_identifier": "+79286401946",
     "channel_id": "585723",
-    "contact_id": "536870373",
-    "contact_name": "Asmae Elalaouì",
-    "contact_identifier": "+971523442425",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
