@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-01T07:15:11.762Z",
+  "ts": "2026-08-01T07:16:08.962Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4320310556",
+    "type": "INBOUND",
+    "message_id": "4320311212",
     "ticket_id": "970492997",
-    "message": "Unfortunately, we do not have anyone available to visit Upside Living to collect the payment in person. This is the reason we informed you yesterday that you may either visit our office or complete the payment via bank transfer.\r\n\r\nWe kindly request you to proceed with either of the above options at your convenience.\r\n\r\nThank you for your understanding and cooperation.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I can deliver it to the reception downstairs?",
+    "channel_id": "585723",
     "contact_id": "541033321",
     "contact_name": "Khashayar Zahed",
     "contact_identifier": "+971551890313",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
