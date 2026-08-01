@@ -1,18 +1,18 @@
 {
-  "ts": "2026-08-01T16:29:56.526Z",
+  "ts": "2026-08-01T16:29:56.991Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4320621004",
+    "type": "OUTBOUND",
+    "message_id": "4320621003",
     "ticket_id": "970862489",
-    "message": "Hi",
-    "channel_id": "883603",
+    "message": "It's a beautiful day at fäm Living; how can I help you?",
     "contact_id": "543643711",
     "contact_name": "Wasif",
     "contact_email": "waseefb@gmail.com",
     "contact_identifier": "1b132b73-18e1-4e30-e131-d3fdec014b3b",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
