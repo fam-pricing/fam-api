@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-01T12:09:25.180Z",
+  "ts": "2026-08-01T12:10:24.030Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4320479663",
+    "type": "OUTBOUND",
+    "message_id": "4320480357",
     "ticket_id": "955702229",
-    "message": "Audio",
-    "channel_id": "585723",
+    "message": "Our finance team is available until 5 pm, you may come to the office to pay cash",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "537426319",
     "contact_name": "LB Lalita Bazhaeva",
     "contact_identifier": "+79286401946",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
