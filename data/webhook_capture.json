@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-01T09:52:03.147Z",
+  "ts": "2026-08-01T09:52:45.305Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4320400942",
-    "ticket_id": "963719733",
-    "message": "My goal is to continue working with you and rent properties from you again in the future. If you decide to deduct 250 AED, that’s okay with me.\n\nCould you please let me know when I will receive the rest of my security deposit? Thank you",
-    "channel_id": "585723",
-    "contact_id": "540354721",
-    "contact_name": "Ismael Ferrahi",
-    "contact_identifier": "+971585032384",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4320401295",
+    "ticket_id": "970194668",
+    "message": "Unfortunately, we have already received another booking for this apartment through one of our online platforms.\r\n\r\nAs a result, the unit is no longer available for your requested dates. The earliest available check-in date is 10th August.\r\n\r\nWe apologize for the inconvenience and appreciate your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "543652142",
+    "contact_name": "Jamaicah ~*",
+    "contact_identifier": "+971524027512",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
