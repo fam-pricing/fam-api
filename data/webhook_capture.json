@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-01T17:41:46.675Z",
+  "ts": "2026-08-01T17:42:08.631Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4320653390",
+    "type": "OUTBOUND",
+    "message_id": "4320653615",
     "ticket_id": "970873253",
-    "message": "I would like to know if it’s available from 24th August till 24th September",
-    "channel_id": "1304636",
+    "message": "Yes, it's available from 24th August to 24th September. Shall I arrange a viewing so you can see it before confirming?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "543082968",
     "contact_name": "N",
     "contact_identifier": "+971502566546",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
