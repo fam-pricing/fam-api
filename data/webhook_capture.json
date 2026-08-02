@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-02T13:25:14.873Z",
+  "ts": "2026-08-02T13:47:42.739Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321047970",
-    "ticket_id": "969915930",
-    "message": "Hi, would you please organize to check air con in our apartment? The air is very humid and there is also a strong smell. We have an air purifier but it’s not making it better. Thanks",
+    "type": "OUTBOUND",
+    "message_id": "4321059654",
+    "ticket_id": "955702229",
+    "message": "Any update on payment?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "537426319",
+    "contact_name": "LB Lalita Bazhaeva",
+    "contact_identifier": "+79286401946",
     "channel_id": "585723",
-    "contact_id": "543574598",
-    "contact_name": "Sabrina",
-    "contact_identifier": "+971559529037",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
