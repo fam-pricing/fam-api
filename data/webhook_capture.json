@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-02T12:29:57.829Z",
+  "ts": "2026-08-02T12:30:21.422Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321019875",
+    "type": "INBOUND",
+    "message_id": "4321020030",
     "ticket_id": "969955146",
-    "message": "Well noted",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "My friend is home right now.",
+    "channel_id": "585723",
     "contact_id": "485463890",
     "contact_name": "Mrs Zahra Jamali",
     "contact_identifier": "+971547669747",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
