@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-02T12:01:00.351Z",
+  "ts": "2026-08-02T12:11:00.399Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321005690",
-    "ticket_id": "969955146",
-    "message": "🌸",
+    "type": "OUTBOUND",
+    "message_id": "4321010352",
+    "ticket_id": "963289850",
+    "message": "May I know if the internet is working now Ms Chloe",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "541744249",
+    "contact_name": "Chloé Degard",
+    "contact_identifier": "+33781939109",
     "channel_id": "585723",
-    "contact_id": "485463890",
-    "contact_name": "Mrs Zahra Jamali",
-    "contact_identifier": "+971547669747",
-    "parent_message_id": "4321001044",
-    "parent_ticket_id": "969955146",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
