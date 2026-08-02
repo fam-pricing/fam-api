@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-02T11:24:47.520Z",
+  "ts": "2026-08-02T11:24:53.734Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4320987687",
+    "type": "INBOUND",
+    "message_id": "4320987728",
     "ticket_id": "969955146",
-    "message": "Just informed her to leave the key and access cards inside the apartment and send us a photo and will do cleaning and inspection tomorrow",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "This is my friend number",
+    "channel_id": "585723",
     "contact_id": "485463890",
     "contact_name": "Mrs Zahra Jamali",
     "contact_identifier": "+971547669747",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4320987643",
+    "parent_ticket_id": "969955146",
+    "event_type": "INBOUND"
   }
 }
