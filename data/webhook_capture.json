@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-02T11:09:23.248Z",
+  "ts": "2026-08-02T11:12:10.744Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4320980310",
+    "type": "OUTBOUND",
+    "message_id": "4320981732",
     "ticket_id": "969955146",
-    "message": "I spoke with my friend, and unfortunately she can’t come right now.\n\nAs I mentioned this morning, we needed at least one hour’s notice because we have to be at the new apartment to supervise the movers. Your team agreed to inform us in advance.\n\nMy friend waited at the apartment until before 2:00 PM, but then she had to leave and go to the new apartment.\n\nI think she will be able to come back around 4:00 PM.",
-    "channel_id": "585723",
+    "message": "No problem I'll wait for her",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "485463890",
     "contact_name": "Mrs Zahra Jamali",
     "contact_identifier": "+971547669747",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
