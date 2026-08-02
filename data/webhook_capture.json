@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-02T17:04:21.535Z",
+  "ts": "2026-08-02T17:04:24.847Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321149539",
+    "type": "OUTBOUND",
+    "message_id": "4321149551",
     "ticket_id": "971057191",
-    "message": "I would like to book a 2 bedroom apartment in Dubai from 19-21 Aug",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "543867362",
     "contact_name": "Hanan Alameri",
     "contact_identifier": "c7535cf0-9375-40f1-aa4e-493c4666fd30",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
