@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T05:17:47.156Z",
+  "ts": "2026-08-03T05:18:45.979Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321331794",
-    "ticket_id": "971126556",
-    "message": "I want 4 room in dubai",
+    "type": "OUTBOUND",
+    "message_id": "4321332070",
+    "ticket_id": "923119377",
+    "message": "We hope you enjoyed your stay; please let us know your expected check-out time so we can arrange it accordingly.\n\n* Our standard check-out time is between 10:00 AM and 12:00 PM.*\n\n_Please note if you self-checkout without the presence of our staff for inspection, then you consent acceptance to any damage(s) reported by admin staff._",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "531333715",
+    "contact_name": "Mobin Irajizad",
+    "contact_identifier": "+971564403939",
     "channel_id": "585723",
-    "contact_id": "543881925",
-    "contact_name": "مزمزيتا",
-    "contact_identifier": "+971502523419",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
