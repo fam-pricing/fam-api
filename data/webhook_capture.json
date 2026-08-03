@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-03T07:48:19.829Z",
+  "ts": "2026-08-03T07:48:34.091Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321447147",
+    "type": "INBOUND",
+    "message_id": "4321447450",
     "ticket_id": "971126556",
-    "message": "Here is the booking confirmation for the stay",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "ok",
+    "channel_id": "585723",
     "contact_id": "543881925",
     "contact_name": "مزمزيتا",
     "contact_identifier": "+971502523419",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4321446779",
+    "parent_ticket_id": "971126556",
+    "event_type": "INBOUND"
   }
 }
