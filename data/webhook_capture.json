@@ -1,21 +1,19 @@
 {
-  "ts": "2026-08-03T06:30:30.062Z",
+  "ts": "2026-08-03T06:30:38.901Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321368712",
-    "ticket_id": "971142196",
-    "message": "At the moment, we do not require any assistance, thank you. However, we will reach out to you if we need anything in the future.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "543884571",
-    "contact_name": "shahzaib",
-    "contact_email": "info@anenterprise.pk",
-    "contact_identifier": "62ac4120-1c39-4679-e791-6fe7a832496d",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4321368838",
+    "ticket_id": "957439582",
+    "message": "👍",
+    "channel_id": "585723",
+    "contact_id": "540084992",
+    "contact_name": "Maryam kazemi",
+    "contact_identifier": "+971507018369",
+    "parent_message_id": "4321368414",
+    "parent_ticket_id": "957439582",
+    "event_type": "INBOUND"
   }
 }
