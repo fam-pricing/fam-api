@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T09:05:50.574Z",
+  "ts": "2026-08-03T09:05:56.270Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321553219",
+    "type": "OUTBOUND",
+    "message_id": "4321553358",
     "ticket_id": "957439582",
-    "message": "I have 10 baggage (minimum)",
-    "channel_id": "585723",
+    "message": "Well noted please let us know when you will be ready to check out",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "540084992",
     "contact_name": "Maryam kazemi",
     "contact_identifier": "+971507018369",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
