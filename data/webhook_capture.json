@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T10:06:51.977Z",
+  "ts": "2026-08-03T10:08:58.991Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321636508",
+    "type": "OUTBOUND",
+    "message_id": "4321639376",
     "ticket_id": "951617602",
-    "message": "Yes",
-    "channel_id": "585723",
+    "message": "Please allow me to check and get back to you. In the meantime, may I kindly know until which date you would like to extend your stay?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538457647",
     "contact_name": "Tim Dominik Germany",
     "contact_identifier": "+56931740105",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
