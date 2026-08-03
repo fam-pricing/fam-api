@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-03T09:06:24.706Z",
+  "ts": "2026-08-03T09:06:49.445Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321553973",
+    "type": "INBOUND",
+    "message_id": "4321554539",
     "ticket_id": "957439582",
-    "message": "We will provide you a late check out until 5 PM I hope that's ok with you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Could you please let me know how long I can stay at the latest?",
+    "channel_id": "585723",
     "contact_id": "540084992",
     "contact_name": "Maryam kazemi",
     "contact_identifier": "+971507018369",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
