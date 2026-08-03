@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T09:13:05.903Z",
+  "ts": "2026-08-03T09:13:34.392Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321562704",
+    "type": "OUTBOUND",
+    "message_id": "4321563271",
     "ticket_id": "957439582",
-    "message": "Price?",
-    "channel_id": "585723",
+    "message": "We will check the price and will update you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "540084992",
     "contact_name": "Maryam kazemi",
     "contact_identifier": "+971507018369",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
