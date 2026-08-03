@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-03T05:41:31.397Z",
+  "ts": "2026-08-03T05:43:18.115Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321340174",
-    "ticket_id": "971126917",
-    "message": "How can I help you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "543881970",
-    "contact_name": "مبارك أحمد",
-    "contact_identifier": "+971504477975",
+    "type": "INBOUND",
+    "message_id": "4321340814",
+    "ticket_id": "971126556",
+    "message": "At the moment, we only have a 2-bedroom apartment with a maid's room available in City Walk. Unfortunately, all of our 4-bedroom apartments are currently fully booked.",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "543881925",
+    "contact_name": "مزمزيتا",
+    "contact_identifier": "+971502523419",
+    "event_type": "INBOUND"
   }
 }
