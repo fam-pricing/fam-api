@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T09:05:09.542Z",
+  "ts": "2026-08-03T09:05:10.854Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321552293",
+    "type": "OUTBOUND",
+    "message_id": "4321552330",
     "ticket_id": "957439582",
-    "message": "Ok",
-    "channel_id": "585723",
+    "message": "Please let us know your estimated check out time so we can inform our team to arrange the cleaning accordingly",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "540084992",
     "contact_name": "Maryam kazemi",
     "contact_identifier": "+971507018369",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
