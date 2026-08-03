@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-03T11:54:39.518Z",
+  "ts": "2026-08-03T11:55:06.163Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321772146",
-    "ticket_id": "971254763",
-    "message": "How can I help you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "490230291",
-    "contact_name": "Mr Daniel Felipe Gonzalez Bernal",
-    "contact_identifier": "+971553827653",
+    "type": "INBOUND",
+    "message_id": "4321772671",
+    "ticket_id": "957439582",
+    "message": "Could you please minimize from my deposit?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "540084992",
+    "contact_name": "Maryam kazemi",
+    "contact_identifier": "+971507018369",
+    "parent_message_id": "4321759564",
+    "parent_ticket_id": "957439582",
+    "event_type": "INBOUND"
   }
 }
