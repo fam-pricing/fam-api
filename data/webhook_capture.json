@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-03T05:01:42.580Z",
+  "ts": "2026-08-03T05:01:48.137Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321326934",
+    "type": "OUTBOUND",
+    "message_id": "4321326986",
     "ticket_id": "971130759",
-    "message": "*Message type unknown*",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "543882531",
     "contact_name": "First Removal",
     "contact_identifier": "+923466937577",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
