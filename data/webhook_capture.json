@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-03T12:35:40.068Z",
+  "ts": "2026-08-03T12:36:05.203Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321824211",
+    "type": "INBOUND",
+    "message_id": "4321824916",
     "ticket_id": "965844499",
-    "message": "They are only available from 8AM to 5 PM",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Ok then tomorrow at 11",
+    "channel_id": "585723",
     "contact_id": "542468411",
     "contact_name": "Rajaa Taleh",
     "contact_identifier": "+491729514660",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
