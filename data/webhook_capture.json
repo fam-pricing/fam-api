@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T12:36:10.826Z",
+  "ts": "2026-08-03T12:36:15.260Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321825046",
+    "type": "OUTBOUND",
+    "message_id": "4321825150",
     "ticket_id": "965844499",
-    "message": "Not earlier",
-    "channel_id": "585723",
+    "message": "Well noted thank you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "542468411",
     "contact_name": "Rajaa Taleh",
     "contact_identifier": "+491729514660",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
