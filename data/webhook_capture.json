@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T11:33:47.783Z",
+  "ts": "2026-08-03T11:34:43.855Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321746018",
-    "ticket_id": "971182424",
-    "message": "Thanks",
-    "channel_id": "1304636",
-    "contact_id": "541745108",
-    "contact_name": "Mahmoud Amin Mohamed Am",
-    "contact_identifier": "+971559904943",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4321747276",
+    "ticket_id": "971242126",
+    "message": "May I kindly know your preferred check-in and check-out dates so that we can check the availability and provide you with a quotation accordingly?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "454934982",
+    "contact_name": "Aisha Alshuweihi",
+    "contact_identifier": "+971528888989",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
