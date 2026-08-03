@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T11:58:30.306Z",
+  "ts": "2026-08-03T11:59:01.102Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321777164",
-    "ticket_id": "971256382",
-    "message": "hi tharushi!",
-    "channel_id": "1304636",
-    "contact_id": "543913746",
-    "contact_name": "jah",
-    "contact_identifier": "+447365800401",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4321777756",
+    "ticket_id": "971254763",
+    "message": "We would like to inform you that we currently have apartments available only in Dubai and Ajman.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "490230291",
+    "contact_name": "Mr Daniel Felipe Gonzalez Bernal",
+    "contact_identifier": "+971553827653",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
