@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-03T15:48:19.737Z",
+  "ts": "2026-08-03T15:48:37.834Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4322062036",
+    "type": "INBOUND",
+    "message_id": "4322062289",
     "ticket_id": "967575023",
-    "message": "Perfect, Fadi, just send over your ID or passport copy and email when you're home and we'll get it sorted.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "542955151",
     "contact_name": "Fadi",
     "contact_identifier": "+32470322359",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4322062036",
+    "parent_ticket_id": "967575023",
+    "event_type": "INBOUND"
   }
 }
