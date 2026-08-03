@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-03T05:07:10.949Z",
+  "ts": "2026-08-03T05:08:23.119Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321328633",
-    "ticket_id": "971129124",
-    "message": "I want to make a reservation in these villas",
+    "type": "OUTBOUND",
+    "message_id": "4321329063",
+    "ticket_id": "970492997",
+    "message": "You are welcome to request housekeeping services during your stay. Please note that an additional charge will apply for each cleaning service.\r\n\r\nKindly feel free to contact the reception team, and they will be happy to arrange the cleaning for you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541033321",
+    "contact_name": "Khashayar Zahed",
+    "contact_identifier": "+971551890313",
     "channel_id": "585723",
-    "contact_id": "239086503",
-    "contact_name": "Ali Almheiri",
-    "contact_identifier": "+971507460000",
-    "parent_message_id": "4321324270",
-    "parent_ticket_id": "971129124",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
