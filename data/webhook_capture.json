@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-03T06:53:41.147Z",
+  "ts": "2026-08-03T06:53:42.211Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321386717",
-    "ticket_id": "971126556",
-    "message": "Yes this is all inclusive rate",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "543881925",
-    "contact_name": "مزمزيتا",
-    "contact_identifier": "+971502523419",
+    "type": "INBOUND",
+    "message_id": "4321386731",
+    "ticket_id": "961811054",
+    "message": "Unfortunately i wasnt aware that its already 22:20 \nI havent paid attention to the timing, otherwise it could have not happened",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "538363776",
+    "contact_name": "Kosar Mahmoud Bashash",
+    "contact_identifier": "+971507955452",
+    "parent_message_id": "4321385894",
+    "parent_ticket_id": "961811054",
+    "event_type": "INBOUND"
   }
 }
