@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T08:22:40.305Z",
+  "ts": "2026-08-03T08:22:45.242Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321492807",
+    "type": "OUTBOUND",
+    "message_id": "4321492878",
     "ticket_id": "971181999",
-    "message": "I found a studio business bay on the site, it says it’s 0AED per night and I would just pay 250 for tourism and cleaning fee? Is this true? Please clarify how much it would cost to book aug 3-13",
-    "channel_id": "585723",
+    "message": "How can I help you?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543893684",
     "contact_name": "دينا",
     "contact_identifier": "+16478963439",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
