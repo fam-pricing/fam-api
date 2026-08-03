@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-03T06:10:43.109Z",
+  "ts": "2026-08-03T06:10:47.816Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321355143",
+    "type": "INBOUND",
+    "message_id": "4321355222",
     "ticket_id": "949533508",
-    "message": "Sure once done please share the payment receipt",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Sure",
+    "channel_id": "585723",
     "contact_id": "537915038",
     "contact_name": "Eslam",
     "contact_identifier": "+971504812826",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
