@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T07:27:43.118Z",
+  "ts": "2026-08-03T07:29:03.395Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321422645",
+    "type": "OUTBOUND",
+    "message_id": "4321424133",
     "ticket_id": "971126556",
-    "message": "When do I pay the full amount? When I arrive at your place?”",
-    "channel_id": "585723",
+    "message": "Once the security deposit payment is completed, we will proceed with blocking the unit for you. We will then share the payment link for the rent payment to complete the reservation process.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543881925",
     "contact_name": "مزمزيتا",
     "contact_identifier": "+971502523419",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
