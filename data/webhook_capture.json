@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T13:21:18.177Z",
+  "ts": "2026-08-03T13:21:30.679Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321884659",
+    "type": "OUTBOUND",
+    "message_id": "4321884862",
     "ticket_id": "957439582",
-    "message": "I pay 4000 AED for deposit",
-    "channel_id": "585723",
+    "message": "Well noted, thank you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "540084992",
     "contact_name": "Maryam kazemi",
     "contact_identifier": "+971507018369",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
