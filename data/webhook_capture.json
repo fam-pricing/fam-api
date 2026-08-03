@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T10:47:11.849Z",
+  "ts": "2026-08-03T10:47:39.101Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321687934",
-    "ticket_id": "957439582",
-    "message": "I don’t think so \nThis is expensive for me",
-    "channel_id": "585723",
-    "contact_id": "540084992",
-    "contact_name": "Maryam kazemi",
-    "contact_identifier": "+971507018369",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4321688496",
+    "ticket_id": "968908388",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: 1111. *How can I help you?*",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "536340091",
+    "contact_name": "Mahassine Al Awad",
+    "contact_identifier": "+971585429848",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
