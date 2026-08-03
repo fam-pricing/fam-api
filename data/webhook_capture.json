@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T08:46:52.195Z",
+  "ts": "2026-08-03T08:49:18.923Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321528255",
+    "type": "OUTBOUND",
+    "message_id": "4321531523",
     "ticket_id": "971182424",
-    "message": "Yes sure I accept",
-    "channel_id": "1304636",
+    "message": "Payment link for the extension with 3.1% fee - https://totalpay.ae/payment/20260803466a7055eebe54a",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "541745108",
     "contact_name": "Mahmoud Amin Mohamed Am",
     "contact_identifier": "+971559904943",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
