@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T12:36:24.538Z",
+  "ts": "2026-08-03T12:36:53.646Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321825302",
-    "ticket_id": "971254763",
-    "message": "No thanks",
+    "type": "OUTBOUND",
+    "message_id": "4321825947",
+    "ticket_id": "957439582",
+    "message": "Do you have our company bank account details",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "540084992",
+    "contact_name": "Maryam kazemi",
+    "contact_identifier": "+971507018369",
     "channel_id": "585723",
-    "contact_id": "490230291",
-    "contact_name": "Mr Daniel Felipe Gonzalez Bernal",
-    "contact_identifier": "+971553827653",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
