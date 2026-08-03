@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-03T09:49:37.440Z",
+  "ts": "2026-08-03T10:01:53.769Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321611675",
-    "ticket_id": "957439582",
-    "message": "Please let me know if that's with you so we can proceed with the booking",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "540084992",
-    "contact_name": "Maryam kazemi",
-    "contact_identifier": "+971507018369",
+    "type": "INBOUND",
+    "message_id": "4321629173",
+    "ticket_id": "969971819",
+    "message": "Hey can I ask is there communal swimming pool in the building?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "543588291",
+    "contact_name": "Salman Gillani",
+    "contact_identifier": "+447377559695",
+    "event_type": "INBOUND"
   }
 }
