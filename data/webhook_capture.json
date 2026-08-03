@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-03T08:44:31.537Z",
+  "ts": "2026-08-03T08:46:52.195Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321525191",
+    "type": "INBOUND",
+    "message_id": "4321528255",
     "ticket_id": "971182424",
-    "message": "Yes, you may proceed. Please note that the rate will be AED 3,500.\r\n\r\nKindly confirm your acceptance so we can proceed with the necessary arrangements accordingly.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Yes sure I accept",
+    "channel_id": "1304636",
     "contact_id": "541745108",
     "contact_name": "Mahmoud Amin Mohamed Am",
     "contact_identifier": "+971559904943",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
