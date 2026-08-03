@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-03T09:04:46.009Z",
+  "ts": "2026-08-03T09:05:06.844Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321551813",
+    "type": "INBOUND",
+    "message_id": "4321552238",
     "ticket_id": "957439582",
-    "message": "Hello Mrs Maryam, we've received an update from your agent that we won't be able to extend your stay any further and will have to proceed with the check-out",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Hi",
+    "channel_id": "585723",
     "contact_id": "540084992",
     "contact_name": "Maryam kazemi",
     "contact_identifier": "+971507018369",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
