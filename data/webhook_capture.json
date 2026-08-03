@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T06:46:06.329Z",
+  "ts": "2026-08-03T06:49:28.300Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321379976",
-    "ticket_id": "965844499",
-    "message": "Unfortunately, after several maintenance visits, the problem has still not been resolved.\n\nThe sewage smell is just as strong as before. It is constantly coming through the AC, and I can no longer breathe comfortably inside the apartment. I am also experiencing eye irritation.\n\nI believe your team has not yet identified the actual source of the problem. At this point, I am not asking for another routine maintenance visit. Please arrange for someone who is responsible for the building or a senior engineer who can properly identify and resolve the source of the issue.",
+    "type": "OUTBOUND",
+    "message_id": "4321382734",
+    "ticket_id": "961811054",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538363776",
+    "contact_name": "Kosar Mahmoud Bashash",
+    "contact_identifier": "+971507955452",
     "channel_id": "585723",
-    "contact_id": "542468411",
-    "contact_name": "Rajaa Taleh",
-    "contact_identifier": "+491729514660",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
