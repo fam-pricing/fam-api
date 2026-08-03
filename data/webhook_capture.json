@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-03T08:17:29.309Z",
+  "ts": "2026-08-03T08:17:42.181Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321484347",
+    "type": "INBOUND",
+    "message_id": "4321484744",
     "ticket_id": "971178826",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
+    "message": "Studio, Business Bay.",
+    "channel_id": "585723",
     "contact_id": "527014084",
     "contact_name": "Mohammed Magdy",
     "contact_identifier": "+971521778714",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
