@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-03T09:09:27.749Z",
+  "ts": "2026-08-03T09:10:28.669Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321557786",
+    "type": "OUTBOUND",
+    "message_id": "4321559359",
     "ticket_id": "957439582",
-    "message": "👍",
-    "channel_id": "585723",
+    "message": "One more thing: we have a 2-BR apartment in MAG318 Business Bay. May I know if you would like to book",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "540084992",
     "contact_name": "Maryam kazemi",
     "contact_identifier": "+971507018369",
-    "parent_message_id": "4321557592",
-    "parent_ticket_id": "957439582",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
