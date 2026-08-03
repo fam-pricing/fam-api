@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-03T09:14:07.120Z",
+  "ts": "2026-08-03T09:14:33.077Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321563928",
+    "type": "INBOUND",
+    "message_id": "4321564516",
     "ticket_id": "957439582",
-    "message": "This is the link only for pics refrence it's available",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "540084992",
     "contact_name": "Maryam kazemi",
     "contact_identifier": "+971507018369",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4321563928",
+    "parent_ticket_id": "957439582",
+    "event_type": "INBOUND"
   }
 }
