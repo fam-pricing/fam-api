@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-03T05:05:33.020Z",
+  "ts": "2026-08-03T05:07:10.949Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4321328205",
-    "ticket_id": "971123900",
-    "message": "Allow me to check",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "507775137",
-    "contact_name": "Yarik fäm properties",
-    "contact_identifier": "+971586677909",
+    "type": "INBOUND",
+    "message_id": "4321328633",
+    "ticket_id": "971129124",
+    "message": "I want to make a reservation in these villas",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "239086503",
+    "contact_name": "Ali Almheiri",
+    "contact_identifier": "+971507460000",
+    "parent_message_id": "4321324270",
+    "parent_ticket_id": "971129124",
+    "event_type": "INBOUND"
   }
 }
