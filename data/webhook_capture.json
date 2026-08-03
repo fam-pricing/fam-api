@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T07:13:02.690Z",
+  "ts": "2026-08-03T07:13:11.957Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321406207",
-    "ticket_id": "934994591",
-    "message": "Hello, can you please ask if the person that went to the unit in the weekend saw a package or picked up a package for Katie or Billy ?",
+    "type": "OUTBOUND",
+    "message_id": "4321406325",
+    "ticket_id": "952537981",
+    "message": "Sure, I will confirm the viewing for tomorrow between 3:00 PM and 5:00 PM.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "517825599",
+    "contact_name": "Arifa Patel",
+    "contact_identifier": "+971567647755",
     "channel_id": "585723",
-    "contact_id": "534253030",
-    "contact_name": "KATIE LOUISE WILLIAMS",
-    "contact_identifier": "+971585739407",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
