@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-03T08:01:27.482Z",
+  "ts": "2026-08-03T08:02:17.511Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321463320",
+    "type": "OUTBOUND",
+    "message_id": "4321464434",
     "ticket_id": "971126556",
-    "message": "“Should I fill this in now?”",
-    "channel_id": "585723",
+    "message": "You have to complete the rent payment and fill the check in form to complete the check in process so we can update the details with the building for smooth check in process",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543881925",
     "contact_name": "Mubarak Ahmed Mohammed",
     "contact_identifier": "+971502523419",
-    "parent_message_id": "4321451232",
-    "parent_ticket_id": "971126556",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
