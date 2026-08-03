@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-03T09:08:22.111Z",
+  "ts": "2026-08-03T09:08:25.708Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321556438",
+    "type": "OUTBOUND",
+    "message_id": "4321556524",
     "ticket_id": "957439582",
-    "message": "I will pay for one day",
-    "channel_id": "585723",
+    "message": "As our standard time for checkout is 12 PM, we've provided you with the time until 5 PM",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "540084992",
     "contact_name": "Maryam kazemi",
     "contact_identifier": "+971507018369",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
