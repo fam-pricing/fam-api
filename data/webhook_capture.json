@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-03T09:26:07.942Z",
+  "ts": "2026-08-03T09:26:11.793Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4321579863",
+    "type": "OUTBOUND",
+    "message_id": "4321579931",
     "ticket_id": "971207857",
-    "message": "Hello \nGood day to you \n\nWe are a laundry service based in Dubai, offering the *best quality at competitive prices*. We’d be happy to work with you.\n\nRegards\nAzar \n0555909863",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "543899500",
     "contact_name": "Azar",
     "contact_identifier": "+971555909863",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
