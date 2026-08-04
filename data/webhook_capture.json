@@ -1,17 +1,19 @@
 {
-  "ts": "2026-08-04T12:45:10.009Z",
+  "ts": "2026-08-04T12:45:41.591Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4322907780",
+    "type": "INBOUND",
+    "message_id": "4322908540",
     "ticket_id": "957439582",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
+    "message": ".",
+    "channel_id": "585723",
     "contact_id": "540084992",
     "contact_name": "Maryam kazemi",
     "contact_identifier": "+971507018369",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4322835112",
+    "parent_ticket_id": "957439582",
+    "event_type": "INBOUND"
   }
 }
