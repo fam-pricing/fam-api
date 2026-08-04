@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-04T15:56:24.324Z",
+  "ts": "2026-08-04T16:00:04.799Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4323145405",
+    "type": "OUTBOUND",
+    "message_id": "4323148540",
     "ticket_id": "971535061",
-    "message": "Yes no problem \nThank you",
-    "channel_id": "1304636",
+    "message": "For the rent, the August payment is AED 6,000, and the last month's rent is AED 9,500, making the total AED 15,500.\r\n\r\nAs previously mentioned, a 3.1% card processing fee will be added for payments made via the payment link, bringing the total amount to AED 15,980.50.\r\n\r\nFor your convenience, we will split the payment into two payment links of AED 7,990.25 each.\r\n\r\nPlease let us know if this arrangement is okay with you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "541306988",
     "contact_name": "SR",
     "contact_identifier": "+971505024537",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
