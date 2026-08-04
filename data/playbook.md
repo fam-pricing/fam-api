@@ -1672,3 +1672,9 @@ Once we have these, we'll send you a payment link to secure the reservation."
 
 Payments made via the payment link are subject to a 3.1% card processing fee. Payments made via bank transfer incur no additional fees.
   (Learned from Faysal handling SR re 1BR in Viridian Central Park)
+
+## Learned (2026-08-04)
+- When a lead responds with enthusiasm or gratitude (e.g., "Amazing, thank you so much!"), immediately follow up with the payment fee disclosure:
+
+Let them know that paying via the payment link incurs a 3.1% card processing fee, while paying via bank transfer has no additional fees.
+  (Learned from Faysal handling SR re 1BR in Viridian Central Park)
