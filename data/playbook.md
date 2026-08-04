@@ -1666,3 +1666,9 @@ Thank you for your offer. Please note that we do not accept cheque payments for 
 
 Once we have these, we'll send you a payment link to secure the reservation."
   (Learned from Faysal handling SR re 1BR in Viridian Central Park)
+
+## Learned (2026-08-04)
+- If a lead asks "Am I speaking to a human?", respond by informing them of the payment fee structure:
+
+Payments made via the payment link are subject to a 3.1% card processing fee. Payments made via bank transfer incur no additional fees.
+  (Learned from Faysal handling SR re 1BR in Viridian Central Park)
