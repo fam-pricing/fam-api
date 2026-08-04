@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-04T13:46:14.488Z",
+  "ts": "2026-08-04T13:46:17.602Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4322988318",
-    "ticket_id": "969598833",
-    "message": "you have paid the deposit 1000aed only",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "536995527",
-    "contact_name": "Mohamed Ala Darwish",
-    "contact_identifier": "+971522415511",
+    "type": "INBOUND",
+    "message_id": "4322988401",
+    "ticket_id": "957439582",
+    "message": "?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "540084992",
+    "contact_name": "Maryam kazemi",
+    "contact_identifier": "+971507018369",
+    "parent_message_id": "4322987357",
+    "parent_ticket_id": "957439582",
+    "event_type": "INBOUND"
   }
 }
