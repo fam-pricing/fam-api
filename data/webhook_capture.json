@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-04T11:44:06.386Z",
+  "ts": "2026-08-04T11:44:15.849Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4322834607",
-    "ticket_id": "971535061",
-    "message": "If I pay with payment link, can I pay with credit card?",
-    "channel_id": "1304636",
-    "contact_id": "541306988",
-    "contact_name": "SR",
-    "contact_identifier": "+971505024537",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4322834800",
+    "ticket_id": "971126556",
+    "message": "The security is there at the gate; they will help you with it",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "543881925",
+    "contact_name": "Mubarak Ahmed Mohammed",
+    "contact_identifier": "+971502523419",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
