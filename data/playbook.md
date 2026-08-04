@@ -1678,3 +1678,7 @@ Payments made via the payment link are subject to a 3.1% card processing fee. Pa
 
 Let them know that paying via the payment link incurs a 3.1% card processing fee, while paying via bank transfer has no additional fees.
   (Learned from Faysal handling SR re 1BR in Viridian Central Park)
+
+## Learned (2026-08-04)
+- If a lead requests a live video call walkthrough of the property, respond by letting them know that we only offer self-viewings and do not conduct live video tours.
+  (Learned from Faysal handling SR re 1BR in Viridian Central Park)
