@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-04T13:11:39.919Z",
+  "ts": "2026-08-04T13:12:22.002Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4322939633",
+    "type": "INBOUND",
+    "message_id": "4322940535",
     "ticket_id": "969598833",
-    "message": "as per our system we can see that your deposit has been refunded already",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "What is that?",
+    "channel_id": "585723",
     "contact_id": "536995527",
     "contact_name": "Mohamed Ala Darwish",
     "contact_identifier": "+971522415511",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4322939633",
+    "parent_ticket_id": "969598833",
+    "event_type": "INBOUND"
   }
 }
