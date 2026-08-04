@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-04T11:38:59.770Z",
+  "ts": "2026-08-04T11:39:11.956Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4322828336",
-    "ticket_id": "953081775",
-    "message": "Sure",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "278742304",
-    "contact_name": "Ahmad Sabri Hassan",
-    "contact_identifier": "+971528939729",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4322828576",
+    "ticket_id": "971535061",
+    "message": "Perfect thanks",
+    "channel_id": "1304636",
+    "contact_id": "541306988",
+    "contact_name": "SR",
+    "contact_identifier": "+971505024537",
+    "parent_message_id": "4322824868",
+    "parent_ticket_id": "971535061",
+    "event_type": "INBOUND"
   }
 }
