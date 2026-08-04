@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-04T11:43:10.443Z",
+  "ts": "2026-08-04T11:43:39.787Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4322833482",
+    "type": "OUTBOUND",
+    "message_id": "4322834080",
     "ticket_id": "971126556",
-    "message": "I want some body help me",
-    "channel_id": "585723",
+    "message": "Could you please send me a pic of where you are so I can guide you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "543881925",
     "contact_name": "Mubarak Ahmed Mohammed",
     "contact_identifier": "+971502523419",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
