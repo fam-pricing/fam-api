@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-04T11:03:24.057Z",
+  "ts": "2026-08-04T11:03:48.930Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4322780464",
+    "type": "OUTBOUND",
+    "message_id": "4322781294",
     "ticket_id": "971535061",
-    "message": "Am I speaking to a human?",
-    "channel_id": "1304636",
+    "message": "Yes, this is Chahana from reservations team",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "541306988",
     "contact_name": "SR",
     "contact_identifier": "+971505024537",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
