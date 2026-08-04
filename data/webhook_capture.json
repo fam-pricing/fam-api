@@ -1,17 +1,19 @@
 {
-  "ts": "2026-08-04T06:52:19.493Z",
+  "ts": "2026-08-04T06:55:45.931Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4322449153",
-    "ticket_id": "970166354",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "543643718",
-    "contact_name": "Abu Sin Wasif",
-    "contact_identifier": "+971558451204",
+    "type": "INBOUND",
+    "message_id": "4322451863",
+    "ticket_id": "971126556",
+    "message": "?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "543881925",
+    "contact_name": "Mubarak Ahmed Mohammed",
+    "contact_identifier": "+971502523419",
+    "parent_message_id": "4322413444",
+    "parent_ticket_id": "971126556",
+    "event_type": "INBOUND"
   }
 }
