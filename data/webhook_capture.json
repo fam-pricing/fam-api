@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-04T11:31:42.383Z",
+  "ts": "2026-08-04T11:35:55.051Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4322819814",
-    "ticket_id": "968908388",
-    "message": "Could you please send me your full bank account details so I can make the payment by bank transfer?\n\nPlease include:\n\n* Account name\n* Bank name\n* Account number\n* IBAN\n* SWIFT/BIC code\n\nThank you.",
+    "type": "OUTBOUND",
+    "message_id": "4322824868",
+    "ticket_id": "971535061",
+    "message": "Attachment",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "541306988",
+    "contact_name": "SR",
+    "contact_identifier": "+971505024537",
     "channel_id": "1304636",
-    "contact_id": "536340091",
-    "contact_name": "Mahassine Al Awad",
-    "contact_identifier": "+971585429848",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
