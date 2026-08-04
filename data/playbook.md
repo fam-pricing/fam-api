@@ -1682,3 +1682,9 @@ Let them know that paying via the payment link incurs a 3.1% card processing fee
 ## Learned (2026-08-04)
 - If a lead requests a live video call walkthrough of the property, respond by letting them know that we only offer self-viewings and do not conduct live video tours.
   (Learned from Faysal handling SR re 1BR in Viridian Central Park)
+
+## Learned (2026-08-04)
+- When a lead asks about payment breakdown (e.g., deposit amount, monthly rent schedule, or payment due dates), do not engage with the financial details. Instead, redirect the conversation toward booking a viewing using the following response:
+
+Please note that viewings can only be arranged before 6:00 PM. Alternatively, we can arrange a viewing tomorrow between 10:00 AM and 6:00 PM at your convenience. Kindly let us know your preferred time and we will arrange accordingly.
+  (Learned from Faysal handling SR re 1BR in Viridian Central Park)
