@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-04T10:49:14.805Z",
+  "ts": "2026-08-04T10:50:37.669Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4322762213",
-    "ticket_id": "971561242",
-    "message": "Yes that is correct",
+    "type": "OUTBOUND",
+    "message_id": "4322763782",
+    "ticket_id": "953081775",
+    "message": "Yes, it must be tripped; the team is currently occupied with the ongoing tasks",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "278742304",
+    "contact_name": "Ahmad Sabri Hassan",
+    "contact_identifier": "+971528939729",
     "channel_id": "585723",
-    "contact_id": "543991903",
-    "contact_name": "Aaqila Gangat",
-    "contact_identifier": "+971569195561",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
