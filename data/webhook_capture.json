@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-04T12:15:11.563Z",
+  "ts": "2026-08-04T12:15:15.907Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4322872302",
-    "ticket_id": "971126556",
-    "message": "May I know if you entered the apartment now",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "543881925",
-    "contact_name": "Mubarak Ahmed Mohammed",
-    "contact_identifier": "+971502523419",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4322872382",
+    "ticket_id": "971595382",
+    "message": "Hello again, I have inquired for my agent's friend for unit in Dubai Hills however it got rented out.",
+    "channel_id": "1304636",
+    "contact_id": "543652142",
+    "contact_name": "Jamaicah ~*",
+    "contact_identifier": "+971524027512",
+    "event_type": "INBOUND"
   }
 }
