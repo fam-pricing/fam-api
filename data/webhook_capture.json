@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-04T05:24:54.805Z",
+  "ts": "2026-08-04T05:25:18.723Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4322399436",
-    "ticket_id": "956113458",
-    "message": "We hope you enjoyed your stay; please let us know your expected check-out time so we can arrange it accordingly.\n\n* Our standard check-out time is between 10:00 AM and 12:00 PM.*\n\n_Please note if you self-checkout without the presence of our staff for inspection, then you consent acceptance to any damage(s) reported by admin staff._",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "537401735",
-    "contact_name": "Rahul Vinay S",
-    "contact_identifier": "+971547997976",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4322399532",
+    "ticket_id": "971445669",
+    "message": "Al Majara tower 1 unit 1201\r\n\r\nBooking reference number: GY-gwkJiAtN\r\nBeneficiary Name: Billy James Rigby\r\nBeneficiary Address: Malta, damac lagoons\r\nBeneficiary Bank Name: Wio Bank PJSC\r\nBeneficiary Bank Account Details (IBAN): AE630860000006560766208\r\nSwift Code/BIC : WIOBAEADXXX\r\nBeneficiary Bank Address: Etihad Airways Centre 5th Floor, Abu Dhabi, UAE\r\nCurrency of Account: UAE AED DIRHAMSPlease refund my deposit as soon as possible.",
+    "channel_id": "1275470",
+    "contact_id": "543964821",
+    "contact_name": "Billy Rigby",
+    "contact_email": "billy@yhuproperties.com",
+    "event_type": "INBOUND"
   }
 }
