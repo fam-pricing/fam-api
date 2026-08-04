@@ -1688,3 +1688,7 @@ Let them know that paying via the payment link incurs a 3.1% card processing fee
 
 Please note that viewings can only be arranged before 6:00 PM. Alternatively, we can arrange a viewing tomorrow between 10:00 AM and 6:00 PM at your convenience. Kindly let us know your preferred time and we will arrange accordingly.
   (Learned from Faysal handling SR re 1BR in Viridian Central Park)
+
+## Learned (2026-08-04)
+- If a lead indicates that the person who can attend is currently at work, inform them that viewings must be scheduled before 6:00 PM, as building management does not permit access for viewings after this time.
+  (Learned from Faysal handling SR re 1BR in Viridian Central Park)
