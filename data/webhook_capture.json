@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-04T10:51:04.662Z",
+  "ts": "2026-08-04T10:51:17.512Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4322764274",
+    "type": "OUTBOUND",
+    "message_id": "4322764552",
     "ticket_id": "953081775",
-    "message": "What time can they come?",
-    "channel_id": "585723",
+    "message": "They will be there before 6 PM",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "278742304",
     "contact_name": "Ahmad Sabri Hassan",
     "contact_identifier": "+971528939729",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
