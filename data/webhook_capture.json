@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-04T13:16:47.291Z",
+  "ts": "2026-08-04T13:17:03.049Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4322946783",
+    "type": "INBOUND",
+    "message_id": "4322947254",
     "ticket_id": "971535061",
-    "message": "we have send you the contract so please signed on the last page and send us back",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Yes this works. Can you reserve the property for me? I will take it just want to send somebody to make sure all is good.",
+    "channel_id": "1304636",
     "contact_id": "541306988",
     "contact_name": "SR",
     "contact_identifier": "+971505024537",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4322945990",
+    "parent_ticket_id": "971535061",
+    "event_type": "INBOUND"
   }
 }
