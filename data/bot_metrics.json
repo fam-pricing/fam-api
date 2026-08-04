@@ -2530,5 +2530,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "Cannot identify the property. The listing URL (Cloud Tower B, JVT) is not in the Active fäm Living Portfolio. Cannot quote price or confirm details for Dan."
+  },
+  {
+    "ts": "2026-08-04T15:56:25.265Z",
+    "ticket_id": 971535061,
+    "lead_id": "message_lead_31018570",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 941,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
+    "skip_reason": "bot_paused"
   }
 ]
