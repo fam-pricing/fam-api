@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-04T10:21:57.154Z",
+  "ts": "2026-08-04T10:26:38.556Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4322730202",
-    "ticket_id": "971455332",
-    "message": "Unfortunately, we do not have any apartments available in your preferred location.\r\n\r\nOur available apartments are currently located in Downtown Dubai, Business Bay, and City Walk only.\r\n\r\nIf you are open to any of these locations, we would be happy to assist you in finding a suitable apartment.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "543966586",
-    "contact_name": "Devin Haresh Lohana",
-    "contact_identifier": "+919967366823",
+    "type": "INBOUND",
+    "message_id": "4322736040",
+    "ticket_id": "969940545",
+    "message": "Of course no problem I will send you shortly !",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "543580441",
+    "contact_name": "Rafik",
+    "contact_identifier": "+971561687868",
+    "parent_message_id": "4322667324",
+    "parent_ticket_id": "969940545",
+    "event_type": "INBOUND"
   }
 }
