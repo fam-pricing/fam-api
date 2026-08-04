@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-04T10:41:41.221Z",
+  "ts": "2026-08-04T10:41:51.761Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4322753689",
+    "type": "OUTBOUND",
+    "message_id": "4322753946",
     "ticket_id": "959524964",
-    "message": "Receive",
-    "channel_id": "585723",
+    "message": "Yes, the rest will be refunded",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "493436444",
     "contact_name": "Mrs Zahra Jamali",
     "contact_identifier": "+971503987371",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
