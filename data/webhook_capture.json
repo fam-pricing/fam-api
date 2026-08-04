@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-04T11:43:39.787Z",
+  "ts": "2026-08-04T11:44:06.386Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4322834080",
-    "ticket_id": "971126556",
-    "message": "Could you please send me a pic of where you are so I can guide you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "543881925",
-    "contact_name": "Mubarak Ahmed Mohammed",
-    "contact_identifier": "+971502523419",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4322834607",
+    "ticket_id": "971535061",
+    "message": "If I pay with payment link, can I pay with credit card?",
+    "channel_id": "1304636",
+    "contact_id": "541306988",
+    "contact_name": "SR",
+    "contact_identifier": "+971505024537",
+    "event_type": "INBOUND"
   }
 }
