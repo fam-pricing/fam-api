@@ -1655,3 +1655,14 @@ The refundable damage deposit is returned within 7 working days of check-out. Th
 
 Thank you for your offer. Please note that we do not accept cheque payments for monthly bookings. Additionally, the rate quoted is our best available rate and cannot be reduced further. We appreciate your understanding.
   (Learned from Faysal handling Sher Azam Tiwana re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-city-walk-residential-city-walk-residential-building-2a-69093535.html)
+
+## Learned (2026-08-04)
+- When a lead says "Let's organize it now" or similar confirmation to proceed, respond with:
+
+"To confirm your booking, we'll need the following from you:
+
+1. A copy of your ID or passport
+2. Your email address
+
+Once we have these, we'll send you a payment link to secure the reservation."
+  (Learned from Faysal handling SR re 1BR in Viridian Central Park)
