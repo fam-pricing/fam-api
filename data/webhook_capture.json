@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-04T10:01:24.741Z",
+  "ts": "2026-08-04T10:02:06.655Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4322703312",
+    "type": "OUTBOUND",
+    "message_id": "4322703488",
     "ticket_id": "959524964",
-    "message": "Account Holder Name : Elnaz Mousazadehdamg\nBank Name : Mashreq Bank\nAccount Number : 019101477982\nIBAN : AE710330000019101477982",
-    "channel_id": "585723",
+    "message": "we have send the request in this Account Holder Name : ELNAZ ALI COMMERCIAL BROKERS LLC",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "493436444",
     "contact_name": "Mrs Zahra Jamali",
     "contact_identifier": "+971503987371",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
