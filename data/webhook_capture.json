@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-04T11:24:32.054Z",
+  "ts": "2026-08-04T11:27:22.577Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4322811136",
-    "ticket_id": "971535061",
-    "message": "Which dates is the first apartment booked ?",
-    "channel_id": "1304636",
-    "contact_id": "541306988",
-    "contact_name": "SR",
-    "contact_identifier": "+971505024537",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4322814464",
+    "ticket_id": "953081775",
+    "message": "Mr Ahmed, could you please confirm, as there is no water at all",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "278742304",
+    "contact_name": "Ahmad Sabri Hassan",
+    "contact_identifier": "+971528939729",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
