@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-04T10:06:27.873Z",
+  "ts": "2026-08-04T10:07:06.143Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4322710378",
+    "type": "OUTBOUND",
+    "message_id": "4322711210",
     "ticket_id": "959524964",
-    "message": "Ans how much is that ?",
-    "channel_id": "585723",
+    "message": "Your deposit refund has already been processed from our side and is currently pending with our Finance team.\r\n\r\nOnce the transfer has been initiated, we will update you accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "493436444",
     "contact_name": "Mrs Zahra Jamali",
     "contact_identifier": "+971503987371",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
