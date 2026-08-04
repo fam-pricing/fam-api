@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-04T07:33:00.390Z",
+  "ts": "2026-08-04T07:34:15.584Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4322496084",
+    "type": "INBOUND",
+    "message_id": "4322497369",
     "ticket_id": "970166354",
-    "message": "We can assist you with extending your booking from 07 August onwards. The rate for the booking will be AED 7,800.\r\n\r\nPlease note that a refundable damage deposit of AED 3,000 will also be required. The deposit will be refunded within 7 to 14 working days after your check-out, subject to a successful inspection of the property.\r\n\r\nThe refund will be processed either through the same credit card used for the payment or via bank transfer, depending on the payment method.\r\n\r\nKindly confirm if you would like to proceed, and we will assist you further.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Can you reduce the amount its very high and security deposit as well",
+    "channel_id": "585723",
     "contact_id": "543643718",
     "contact_name": "Abu Sin Wasif",
     "contact_identifier": "+971558451204",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4322496084",
+    "parent_ticket_id": "970166354",
+    "event_type": "INBOUND"
   }
 }
