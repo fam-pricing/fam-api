@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-04T16:04:32.911Z",
+  "ts": "2026-08-04T16:07:24.417Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4323153120",
+    "type": "OUTBOUND",
+    "message_id": "4323155916",
     "ticket_id": "971535061",
-    "message": "Great thank you",
-    "channel_id": "1304636",
+    "message": "Here is the payment link\r\n\r\n1st: https://totalpay.ae/payment/20260804586a720daaa1757\r\n\r\n2nd: https://totalpay.ae/payment/20260804556a720e1f8e77f\r\n\r\nOnce done please update us",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "541306988",
     "contact_name": "SR",
     "contact_identifier": "+971505024537",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
