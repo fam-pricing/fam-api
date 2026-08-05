@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-05T07:39:14.331Z",
+  "ts": "2026-08-05T07:40:25.689Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4323563371",
-    "ticket_id": "957439582",
-    "message": "👍",
+    "type": "OUTBOUND",
+    "message_id": "4323564712",
+    "ticket_id": "971659533",
+    "message": "Your apartment is ready for the check in",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "544015025",
+    "contact_name": "Cema",
+    "contact_identifier": "+491788657735",
     "channel_id": "585723",
-    "contact_id": "540084992",
-    "contact_name": "Maryam kazemi",
-    "contact_identifier": "+971507018369",
-    "parent_message_id": "4323562875",
-    "parent_ticket_id": "957439582",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
