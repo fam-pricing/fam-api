@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-05T07:38:44.818Z",
+  "ts": "2026-08-05T07:39:14.331Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4323562875",
+    "type": "INBOUND",
+    "message_id": "4323563371",
     "ticket_id": "957439582",
-    "message": "The deposit for your current apartment in Al Majara 1201 is 2000 AED for your kind information",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "540084992",
     "contact_name": "Maryam kazemi",
     "contact_identifier": "+971507018369",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4323562875",
+    "parent_ticket_id": "957439582",
+    "event_type": "INBOUND"
   }
 }
