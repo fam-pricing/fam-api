@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-05T10:09:01.878Z",
+  "ts": "2026-08-05T10:09:04.942Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4323753333",
+    "type": "INBOUND",
+    "message_id": "4323753450",
     "ticket_id": "971874558",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
+    "message": "I want to renew for one month",
+    "channel_id": "585723",
     "contact_id": "544066515",
     "contact_name": "Steven",
     "contact_identifier": "+971558818471",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
