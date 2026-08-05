@@ -2950,5 +2950,17 @@
     "lead_quality": 15,
     "buying_stage": "COLD",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-08-05T08:07:30.536Z",
+    "ticket_id": 971819247,
+    "lead_id": "message_lead_31039181",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 28462,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
+    "skip_reason": "Lead Adelina Klyuchnikova explicitly asked for a video of the Palm Tower studio. Per playbook rules, video requests must be escalated immediately. The conversation is in German, the lead is showing frustration (\"?\"), has confirmed stay dates 28 Sep to 15 Dec, and wants to discuss a Saturday viewing. A human should handle the video request, confirm Saturday viewing time, and manage this conversation in German."
   }
 ]
