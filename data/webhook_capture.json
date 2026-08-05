@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-05T08:03:10.214Z",
+  "ts": "2026-08-05T08:05:47.659Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4323595102",
-    "ticket_id": "971827911",
-    "message": "I want book appointment 3 room or 2 room at city walk",
-    "channel_id": "585723",
-    "contact_id": "125537426",
-    "contact_name": "Mr Suhail Alameri",
-    "contact_identifier": "+971506333340",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4323599133",
+    "ticket_id": "971830229",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Bluewaters Building 4\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "544055516",
+    "contact_name": "Sonali Mathur",
+    "contact_identifier": "+971508270897",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
