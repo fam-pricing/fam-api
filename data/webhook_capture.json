@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-05T06:58:18.690Z",
+  "ts": "2026-08-05T06:59:48.051Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4323520948",
-    "ticket_id": "971783612",
-    "message": "Confirm",
+    "type": "OUTBOUND",
+    "message_id": "4323522231",
+    "ticket_id": "957895053",
+    "message": "You may reach out to the reception and they will assist you",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "536353062",
+    "contact_name": "Yohan Gregory",
+    "contact_identifier": "+971509558132",
     "channel_id": "585723",
-    "contact_id": "544046968",
-    "contact_name": "Rahab Ahmed",
-    "contact_identifier": "+971501113320",
-    "parent_message_id": "4323462458",
-    "parent_ticket_id": "971783612",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
