@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-05T10:47:24.033Z",
+  "ts": "2026-08-05T10:51:40.774Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4323798531",
-    "ticket_id": "969915930",
-    "message": "All rooms are warming up",
+    "type": "OUTBOUND",
+    "message_id": "4323803297",
+    "ticket_id": "971659533",
+    "message": "Is there anything else I can help you with today ?",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "544015025",
+    "contact_name": "Cema",
+    "contact_identifier": "+491788657735",
     "channel_id": "585723",
-    "contact_id": "543574598",
-    "contact_name": "Sabrina",
-    "contact_identifier": "+971559529037",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
