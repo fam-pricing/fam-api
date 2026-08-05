@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-05T13:33:23.983Z",
+  "ts": "2026-08-05T13:34:03.164Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4323997670",
-    "ticket_id": "971940747",
-    "message": "Good afternoon, how are you doing?",
+    "type": "OUTBOUND",
+    "message_id": "4323998484",
+    "ticket_id": "967575023",
+    "message": "We sincerely apologize for the inconvenience caused",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "542955151",
+    "contact_name": "Fadi",
+    "contact_identifier": "+32470322359",
     "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Ariel Griszka",
-    "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
