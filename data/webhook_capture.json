@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-05T08:07:47.679Z",
+  "ts": "2026-08-05T08:08:29.528Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4323601698",
+    "type": "OUTBOUND",
+    "message_id": "4323602488",
     "ticket_id": "971830229",
-    "message": "I need the rates from dec 23- March 3",
-    "channel_id": "1304636",
+    "message": "Dec 23 to Mar 3 is peak season, so the monthly rate can shift across that window rather than sitting at a flat figure. Want me to get someone to pull the exact nightly or monthly breakdown for those specific dates?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544055516",
     "contact_name": "Sonali Mathur",
     "contact_identifier": "+971508270897",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
