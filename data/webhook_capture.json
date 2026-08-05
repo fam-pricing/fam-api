@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-05T16:23:50.396Z",
+  "ts": "2026-08-05T16:24:36.398Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324176605",
+    "type": "OUTBOUND",
+    "message_id": "4324177052",
     "ticket_id": "971980060",
-    "message": "Let me know price for each months",
-    "channel_id": "1304636",
+    "message": "3 months = AED 19,500, 4 months = AED 26,000. Worth knowing that the rate is locked for the first 3 months, the 4th month would be confirmed closer to the time based on availability. Does 3 months feel like the right fit, or are you leaning toward 4?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544097098",
     "contact_name": "Claudia Acosta",
     "contact_identifier": "+971547656678",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
