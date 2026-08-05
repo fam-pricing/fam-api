@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-05T10:37:30.755Z",
+  "ts": "2026-08-05T10:38:00.597Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4323786320",
-    "ticket_id": "971882439",
-    "message": "This is received",
-    "channel_id": "1304636",
-    "contact_id": "535952622",
-    "contact_name": "Simone Pravin Chhabda Pravin Kishan Chhabda",
-    "contact_identifier": "+971581770094",
-    "parent_message_id": "4323568225",
-    "parent_ticket_id": "971816727",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4323787001",
+    "ticket_id": "969915930",
+    "message": "we will inform to the building reception to send the maintenance team to check",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "543574598",
+    "contact_name": "Sabrina",
+    "contact_identifier": "+971559529037",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
