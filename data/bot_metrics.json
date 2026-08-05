@@ -1,65 +1,5 @@
 [
   {
-    "ts": "2026-07-29T20:46:17.474Z",
-    "ticket_id": 970119608,
-    "lead_id": "message_lead_30906219",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1013,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-29T20:46:20.625Z",
-    "ticket_id": 970119608,
-    "lead_id": "message_lead_30906219",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 18412,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-07-29T20:48:07.409Z",
-    "ticket_id": 970119608,
-    "lead_id": "message_lead_30906219",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1168,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-07-29T20:51:17.579Z",
-    "ticket_id": 970119608,
-    "lead_id": "message_lead_30906219",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 22582,
-    "critic_pass": null,
-    "lead_quality": 70,
-    "buying_stage": "HOT",
-    "skip_reason": "Lead is asking for a better rate than AED 8,000 on Downtown Views 2 Tower 2. Their current spend is AED 5,330/month at a hotel apartment. Gap is more than 10% from listed price. Lead has also confirmed availability for a viewing tomorrow or Friday. Need Faysal to handle price negotiation and confirm if any discount is possible. Lead also sent an image that cannot be processed."
-  },
-  {
-    "ts": "2026-07-29T20:51:39.334Z",
-    "ticket_id": 970119608,
-    "lead_id": "message_lead_30906219",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 769,
-    "critic_pass": null,
-    "lead_quality": 70,
-    "buying_stage": "HOT",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-07-30T05:44:15.786Z",
     "ticket_id": 970056783,
     "lead_id": "message_lead_30901428",
@@ -3273,6 +3213,18 @@
     "critic_pass": null,
     "lead_quality": 40,
     "buying_stage": "WARM",
+    "skip_reason": null
+  },
+  {
+    "ts": "2026-08-05T21:00:07.800Z",
+    "ticket_id": 972009716,
+    "lead_id": "message_lead_31054434",
+    "action": "reply",
+    "tool_used": "send_reply",
+    "response_time_ms": 15503,
+    "critic_pass": null,
+    "lead_quality": 95,
+    "buying_stage": "HOT",
     "skip_reason": null
   }
 ]
