@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-05T20:52:33.308Z",
+  "ts": "2026-08-05T20:53:11.746Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324334869",
+    "type": "OUTBOUND",
+    "message_id": "4324335046",
     "ticket_id": "972009716",
-    "message": "If there is a price increase, is it applied in three-monthly periods?",
-    "channel_id": "1304636",
+    "message": "Yes, any rate review only happens at the end of a 3-month block, never mid-period. So once your rate is confirmed, it's locked for that full 3 months.\n\nDoes that work for you, or do you have other questions about how the renewals work?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544105055",
     "contact_name": "Alp Mete Sirin",
     "contact_identifier": "+971582282339",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
