@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-05T05:16:02.851Z",
+  "ts": "2026-08-05T05:16:08.420Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4323462331",
-    "ticket_id": "971767213",
-    "message": "we will contact you via whatsapp shortly",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "544043776",
-    "contact_name": "Rahab Ahmed",
-    "contact_identifier": "e7916df4-f361-4824-b0ed-938971443d07",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4323462352",
+    "ticket_id": "971783578",
+    "message": "Hi I have reservation today. Can you let me know what time earliest check in today ? Thanks",
+    "channel_id": "585723",
+    "contact_id": "544046960",
+    "contact_name": "S",
+    "contact_identifier": "+447508958726",
+    "event_type": "INBOUND"
   }
 }
