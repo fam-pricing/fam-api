@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-05T14:13:44.806Z",
+  "ts": "2026-08-05T14:16:35.845Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324045427",
+    "type": "OUTBOUND",
+    "message_id": "4324048847",
     "ticket_id": "971874558",
-    "message": "Ok",
-    "channel_id": "585723",
+    "message": "We will block the unit for you. However, please note that payment is required in advance to confirm the booking.\r\n\r\nMay I know when you will be able to make the payment?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544066515",
     "contact_name": "Steven",
     "contact_identifier": "+971558818471",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
