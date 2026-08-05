@@ -1692,3 +1692,7 @@ Please note that viewings can only be arranged before 6:00 PM. Alternatively, we
 ## Learned (2026-08-04)
 - If a lead indicates that the person who can attend is currently at work, inform them that viewings must be scheduled before 6:00 PM, as building management does not permit access for viewings after this time.
   (Learned from Faysal handling SR re 1BR in Viridian Central Park)
+
+## Learned (2026-08-05)
+- When a lead confirms interest in a long-term stay, inform them that annual contracts and Ejari are not offered, but they are welcome to stay as long as they wish by extending on a monthly basis.
+  (Learned from Faysal handling Dan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
