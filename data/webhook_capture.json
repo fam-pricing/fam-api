@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-05T13:25:41.427Z",
+  "ts": "2026-08-05T13:25:55.709Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4323988804",
+    "type": "OUTBOUND",
+    "message_id": "4323989112",
     "ticket_id": "971874558",
-    "message": "Thank you",
-    "channel_id": "585723",
+    "message": "We can extend your booking directly with us for an additional 1 month (30 nights), and the extension rate will be AED 16,000.\r\n\r\nPlease note that a security deposit of AED 2,000 will also be required. The deposit is fully refundable upon check-out, provided there are no damages to the apartment. The refund will be processed within 7 working days after your departure.\r\n\r\nPlease let us know if you would like to proceed with the extension, and we will be happy to assist you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544066515",
     "contact_name": "Steven",
     "contact_identifier": "+971558818471",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
