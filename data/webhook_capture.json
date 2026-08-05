@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-05T05:32:02.076Z",
+  "ts": "2026-08-05T05:32:14.227Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4323467889",
+    "type": "INBOUND",
+    "message_id": "4323467960",
     "ticket_id": "956679355",
-    "message": "your check out date is today , so we would like to follow up for your extension booking payment",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Today?",
+    "channel_id": "585723",
     "contact_id": "536961964",
     "contact_name": "Catarina Loução",
     "contact_identifier": "+971585691288",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
