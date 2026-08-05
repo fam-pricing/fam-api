@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-05T05:32:39.350Z",
+  "ts": "2026-08-05T05:33:01.746Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4323468105",
+    "type": "OUTBOUND",
+    "message_id": "4323468215",
     "ticket_id": "956679355",
-    "message": "I make the payment in afternoon",
-    "channel_id": "585723",
+    "message": "yes, today is your check out date",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "536961964",
     "contact_name": "Catarina Loução",
     "contact_identifier": "+971585691288",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
