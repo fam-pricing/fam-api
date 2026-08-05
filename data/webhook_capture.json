@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-05T16:09:18.996Z",
+  "ts": "2026-08-05T16:09:40.130Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324164420",
+    "type": "OUTBOUND",
+    "message_id": "4324164747",
     "ticket_id": "971980060",
-    "message": "Hello I need apartment for 11 of august",
-    "channel_id": "1304636",
+    "message": "August 11 works, is that a short stay or are you looking for a longer-term rental?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544097098",
     "contact_name": "Claudia Acosta",
     "contact_identifier": "+971547656678",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
