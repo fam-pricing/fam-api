@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-05T05:16:08.420Z",
+  "ts": "2026-08-05T05:16:13.437Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4323462352",
+    "type": "OUTBOUND",
+    "message_id": "4323462367",
     "ticket_id": "971783578",
-    "message": "Hi I have reservation today. Can you let me know what time earliest check in today ? Thanks",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "544046960",
     "contact_name": "S",
     "contact_identifier": "+447508958726",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
