@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-05T20:59:04.230Z",
+  "ts": "2026-08-05T20:59:26.790Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324337334",
+    "type": "OUTBOUND",
+    "message_id": "4324337477",
     "ticket_id": "972009716",
-    "message": "What about tomorrow  6 pm is that work?",
-    "channel_id": "1304636",
+    "message": "Viewings run until 6pm, so tomorrow at 6pm is just outside the window. Can you do 5pm or 5:30pm instead?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544105055",
     "contact_name": "Alp Mete Sirin",
     "contact_identifier": "+971582282339",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
