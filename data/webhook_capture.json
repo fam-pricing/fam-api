@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-06T10:33:53.023Z",
+  "ts": "2026-08-06T10:34:46.612Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324775303",
+    "type": "OUTBOUND",
+    "message_id": "4324776184",
     "ticket_id": "963836851",
-    "message": "Ok",
-    "channel_id": "1304636",
+    "message": "Please visit our office before 5:30 PM, as our Finance team will only be available until that time to assist you with the cash payment.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "541045616",
     "contact_name": "Salam Sade Issa",
     "contact_identifier": "+971544850491",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
