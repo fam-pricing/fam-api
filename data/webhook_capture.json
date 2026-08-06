@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-06T11:13:22.715Z",
+  "ts": "2026-08-06T11:14:47.709Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324818160",
+    "type": "OUTBOUND",
+    "message_id": "4324819773",
     "ticket_id": "963700677",
-    "message": "I checked in on the 9th. How is it that you’re now saying my check out is on the 7th?",
-    "channel_id": "585723",
+    "message": "Please note that monthly bookings are calculated on a 30-night basis only. We have already shared the booking confirmation with you for your reference.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537607776",
     "contact_name": "SHEYDA",
     "contact_identifier": "+971502809008",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
