@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-06T07:28:41.725Z",
+  "ts": "2026-08-06T07:51:13.330Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4324555793",
-    "ticket_id": "963836851",
-    "message": "Please note that we do not accept card payments.\r\n\r\nYou may make the payment via bank transfer.\r\n\r\nIf you prefer to pay by card, payment can only be processed through our secure payment link.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "541045616",
-    "contact_name": "Salam Sade Issa",
-    "contact_identifier": "+971544850491",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4324580108",
+    "ticket_id": "970964480",
+    "message": "Hi",
+    "channel_id": "585723",
+    "contact_id": "543842601",
+    "contact_name": "rashik",
+    "contact_identifier": "+971508911198",
+    "event_type": "INBOUND"
   }
 }
