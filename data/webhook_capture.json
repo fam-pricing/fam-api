@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-06T12:48:53.355Z",
+  "ts": "2026-08-06T12:50:10.908Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4324986868",
+    "type": "INBOUND",
+    "message_id": "4324988392",
     "ticket_id": "960166351",
-    "message": "Here is the location map for your booking at City Walk Building 19\r\n\r\nhttps://maps.app.goo.gl/bWLewBTxNkMK4RtL6",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "455776398",
     "contact_name": "Mr Khaled Abdulrahman Abdulla Shanjal Alshehhi",
     "contact_identifier": "+971553900369",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4324986868",
+    "parent_ticket_id": "960166351",
+    "event_type": "INBOUND"
   }
 }
