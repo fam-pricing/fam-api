@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-06T11:56:09.198Z",
+  "ts": "2026-08-06T12:04:43.998Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324925206",
+    "type": "OUTBOUND",
+    "message_id": "4324935494",
     "ticket_id": "967575023",
-    "message": "This is way beyond the prices we agreed on. We agreed for 8,000 for the 3 months, could you make a gesture because I don’t get it?\n\nI can pay the 3 months in advance and today but not a these prices.",
-    "channel_id": "1304636",
+    "message": "Unfortunately, we are unable to offer the apartment at the above-mentioned rate of AED 8,000.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542955151",
     "contact_name": "Fadi",
     "contact_identifier": "+32470322359",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
