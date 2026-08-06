@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-06T09:38:49.938Z",
+  "ts": "2026-08-06T09:38:52.039Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324712032",
-    "ticket_id": "971874558",
-    "message": "Where is him",
+    "type": "OUTBOUND",
+    "message_id": "4324712073",
+    "ticket_id": "949384142",
+    "message": "Is someone available in the apartment ?",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "536870373",
+    "contact_name": "Asmae Elalaouì",
+    "contact_identifier": "+971523442425",
     "channel_id": "585723",
-    "contact_id": "544066515",
-    "contact_name": "Steven",
-    "contact_identifier": "+971558818471",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
