@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-06T06:30:31.999Z",
+  "ts": "2026-08-06T06:30:41.586Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4324491448",
+    "type": "INBOUND",
+    "message_id": "4324491566",
     "ticket_id": "971977185",
-    "message": "May I kindly confirm if your booking is for a long-term stay?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Correct",
+    "channel_id": "585723",
     "contact_id": "544096147",
     "contact_name": "Sergey",
     "contact_identifier": "+971568143073",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
