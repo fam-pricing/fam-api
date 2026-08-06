@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-06T09:39:23.781Z",
+  "ts": "2026-08-06T09:40:23.285Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324712665",
-    "ticket_id": "949384142",
-    "message": "Yes please",
+    "type": "OUTBOUND",
+    "message_id": "4324713781",
+    "ticket_id": "971874558",
+    "message": "As per the update from our team member, the payment has already been collected.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "544066515",
+    "contact_name": "Steven",
+    "contact_identifier": "+971558818471",
     "channel_id": "585723",
-    "contact_id": "536870373",
-    "contact_name": "Asmae Elalaouì",
-    "contact_identifier": "+971523442425",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
