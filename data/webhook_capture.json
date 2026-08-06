@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-06T06:30:41.586Z",
+  "ts": "2026-08-06T06:30:55.904Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324491566",
+    "type": "OUTBOUND",
+    "message_id": "4324491666",
     "ticket_id": "971977185",
-    "message": "Correct",
-    "channel_id": "585723",
+    "message": "We kindly request you to contact our Property Management team, who will be able to assist you further. You may reach them via email at pm@famliving.com or contact them directly through the below numbers:\r\n\r\nName: Sneha\r\nContact: +971 55 538 6230\r\n\r\nName: Nandini\r\nContact: +971 52 127 2908\r\n\r\nThey will be happy to assist you with your request. Thank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544096147",
     "contact_name": "Sergey",
     "contact_identifier": "+971568143073",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
