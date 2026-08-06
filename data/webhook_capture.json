@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-06T05:43:00.846Z",
+  "ts": "2026-08-06T05:43:37.107Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4324465911",
+    "type": "INBOUND",
+    "message_id": "4324466107",
     "ticket_id": "971940747",
-    "message": "However, if you are happy to proceed, please let us know. We will check the best available rate for a 12-month stay and get back to you with the updated quotation as soon as possible.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Okay, please check it and let me know",
+    "channel_id": "1304636",
     "contact_id": "539566355",
     "contact_name": "Matias Ariel Griszka",
     "contact_identifier": "+971501784347",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4324465911",
+    "parent_ticket_id": "971940747",
+    "event_type": "INBOUND"
   }
 }
