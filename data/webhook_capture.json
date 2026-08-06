@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-06T09:46:03.722Z",
+  "ts": "2026-08-06T09:47:33.612Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4324720345",
-    "ticket_id": "949384142",
-    "message": "We will inform the team",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "536870373",
-    "contact_name": "Asmae Elalaouì",
-    "contact_identifier": "+971523442425",
+    "type": "INBOUND",
+    "message_id": "4324722060",
+    "ticket_id": "956832935",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "531299669",
+    "contact_name": "Mark Doyle",
+    "contact_identifier": "+353877859722",
+    "parent_message_id": "4324719757",
+    "parent_ticket_id": "956832935",
+    "event_type": "INBOUND"
   }
 }
