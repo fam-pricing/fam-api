@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-06T06:17:41.543Z",
+  "ts": "2026-08-06T06:18:14.877Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324482966",
+    "type": "OUTBOUND",
+    "message_id": "4324483227",
     "ticket_id": "972001680",
-    "message": "https://totalpay.ae/payment/20260806376a74268994659/success?payment_id=65dcb9e4-915e-11f1-ad28-86c19f37d329&trans_id=671cf8c8-915e-11f1-85ad-86c19f37d329&order_id=BC-30nwX3JP4&hash=47674bc9c4127a8ed85a2c3f63bce415e5fbf1b2&payment_method=virtual&brand=applepay&checkout_payment_method=applepay",
-    "channel_id": "585723",
+    "message": "Well received your rent amount",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544102936",
     "contact_name": "YAHYA ASSERI",
     "contact_identifier": "+966562652752",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
