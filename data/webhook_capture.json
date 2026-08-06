@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-06T06:28:28.865Z",
+  "ts": "2026-08-06T06:30:31.999Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324490068",
-    "ticket_id": "963836851",
-    "message": "I would like to extend my stay",
-    "channel_id": "1304636",
-    "contact_id": "541045616",
-    "contact_name": "Salam Sade Issa",
-    "contact_identifier": "+971544850491",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4324491448",
+    "ticket_id": "971977185",
+    "message": "May I kindly confirm if your booking is for a long-term stay?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "544096147",
+    "contact_name": "Sergey",
+    "contact_identifier": "+971568143073",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
