@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-06T14:10:59.269Z",
+  "ts": "2026-08-06T14:12:06.778Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325080967",
+    "type": "OUTBOUND",
+    "message_id": "4325082291",
     "ticket_id": "972154419",
-    "message": "Do you have one bedroom and hall?",
-    "channel_id": "585723",
+    "message": "Unfortunately no for today we are fully booked for our 1 bedroom apartment",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "163901723",
     "contact_name": "Abubaker Alhashimi",
     "contact_identifier": "+971555006405",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
