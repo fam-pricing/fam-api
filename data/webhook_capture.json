@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-06T11:08:40.808Z",
+  "ts": "2026-08-06T11:11:19.630Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324812941",
-    "ticket_id": "963700677",
-    "message": "It’s very expensive \nI’ll check out at 9th",
+    "type": "OUTBOUND",
+    "message_id": "4324816072",
+    "ticket_id": "964268047",
+    "message": "Hello Sabrin,\r\n\r\nUnfortunately, we will not be able to extend your booking for the full month, as we have received a confirmed booking through our online platform starting from 9th August. Therefore, the apartment will no longer be available for an extension.\r\n\r\nIn this case, we can only extend your stay until 9th August for one additional night. After that, you will be required to check out.\r\n\r\nWe apologize for the inconvenience and appreciate your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535700615",
+    "contact_name": "Sabrin Ghomri",
+    "contact_identifier": "+971552523442",
     "channel_id": "585723",
-    "contact_id": "537607776",
-    "contact_name": "SHEYDA",
-    "contact_identifier": "+971502809008",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
