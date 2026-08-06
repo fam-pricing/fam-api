@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-06T12:37:57.304Z",
+  "ts": "2026-08-06T12:38:14.390Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4324974605",
-    "ticket_id": "964268047",
-    "message": "Please note that today is 6th August, therefore the booking period will be from 6th August until 9th August, which is a total of 3 nights.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535700615",
-    "contact_name": "Sabrin Ghomri",
-    "contact_identifier": "+971552523442",
+    "type": "INBOUND",
+    "message_id": "4324974913",
+    "ticket_id": "960166351",
+    "message": "If you have a vehicle, we will need the following details for advance registration. Please provide:\r\n\r\n* Emirate of issue: Abu Dhabi\r\n* Code: 8\r\n* Plate number: 74042\r\n* Vehicle make/model: Nissan Nesmo\r\n* Color: Gray",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "455776398",
+    "contact_name": "Mr Khaled Abdulrahman Abdulla Shanjal Alshehhi",
+    "contact_identifier": "+971553900369",
+    "event_type": "INBOUND"
   }
 }
