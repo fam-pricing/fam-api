@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-06T12:37:50.431Z",
+  "ts": "2026-08-06T12:37:57.304Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4324974505",
+    "type": "OUTBOUND",
+    "message_id": "4324974605",
     "ticket_id": "964268047",
-    "message": "Ok",
-    "channel_id": "585723",
+    "message": "Please note that today is 6th August, therefore the booking period will be from 6th August until 9th August, which is a total of 3 nights.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535700615",
     "contact_name": "Sabrin Ghomri",
     "contact_identifier": "+971552523442",
-    "parent_message_id": "4324973797",
-    "parent_ticket_id": "964268047",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
