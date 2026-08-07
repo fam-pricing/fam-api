@@ -1,17 +1,18 @@
 {
-  "ts": "2026-08-07T12:13:46.134Z",
+  "ts": "2026-08-07T12:14:16.525Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325863773",
+    "type": "OUTBOUND",
+    "message_id": "4325864221",
     "ticket_id": "972516090",
-    "message": "I'm Kiran from Care N Cleans cleaning company. Can you please let me know how to get registered with your company.",
-    "channel_id": "883603",
+    "message": "Thanks! You will get a reply by email if you leave this website.",
     "contact_id": "544191907",
     "contact_name": "Kiran",
+    "contact_email": "kiran@carencleanss.com",
     "contact_identifier": "a73186bf-a8b2-4f92-9087-6d82a07e2fda",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
