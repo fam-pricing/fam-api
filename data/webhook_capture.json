@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-07T12:52:41.985Z",
+  "ts": "2026-08-07T12:55:21.340Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325902053",
-    "ticket_id": "965844499",
-    "message": "The issue has not been resolved.\n\nYour maintenance team closed the duct that had been identified as the source of the odor. However, despite that repair, the smell is still present whenever the AC is running.\n\nI also do not consider this an “additional gesture.” Since I moved into this apartment, I have had maintenance visits almost every day because of issues that should have been identified and resolved before the apartment was handed over to a tenant. Every technician who has visited has noticed the odor.\n\nI cannot continue having daily maintenance visits, repeated inspections, and temporary solutions while the underlying problem remains unresolved.\n\nI expect someone with the appropriate authority to come to the apartment, experience the smell while the AC is running, identify the actual source, and provide a permanent solution. Until then, I cannot accept that the issue has been resolved.",
-    "channel_id": "585723",
-    "contact_id": "542468411",
-    "contact_name": "Rajaa Taleh",
-    "contact_identifier": "+491729514660",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4325904791",
+    "ticket_id": "972527365",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-123360768.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "544241387",
+    "contact_name": "Hani Kavian",
+    "contact_identifier": "+971582628977",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
