@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-07T12:12:18.503Z",
+  "ts": "2026-08-07T12:12:20.789Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325862429",
+    "type": "OUTBOUND",
+    "message_id": "4325862497",
     "ticket_id": "972516090",
-    "message": "Hi",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "544191907",
     "contact_name": "Kiran",
     "contact_identifier": "a73186bf-a8b2-4f92-9087-6d82a07e2fda",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
