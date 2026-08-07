@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-07T05:24:44.440Z",
+  "ts": "2026-08-07T05:25:35.039Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325487678",
-    "ticket_id": "972261874",
-    "message": "Good morning",
+    "type": "OUTBOUND",
+    "message_id": "4325487879",
+    "ticket_id": "963719733",
+    "message": "we have only studio available in Peninsula, is that okay for you?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "540354721",
+    "contact_name": "Ismael Ferrahi",
+    "contact_identifier": "+971585032384",
     "channel_id": "585723",
-    "contact_id": "396976994",
-    "contact_name": "+971526363100",
-    "contact_identifier": "+971526363100",
-    "parent_message_id": "4325048959",
-    "parent_ticket_id": "972261874",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
