@@ -1,17 +1,19 @@
 {
-  "ts": "2026-08-07T15:42:12.563Z",
+  "ts": "2026-08-07T15:51:35.329Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4326092664",
-    "ticket_id": "972577358",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
-    "contact_id": "544254412",
-    "contact_name": "ً",
-    "contact_identifier": "+971543000893",
+    "type": "INBOUND",
+    "message_id": "4326100164",
+    "ticket_id": "958622053",
+    "message": "I would like to renew for another month, but I am hoping for a better offer based on my history with you. Please let me know your best available rate for an extension",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "537401267",
+    "contact_name": "Shaker Mousa",
+    "contact_identifier": "+971588929205",
+    "parent_message_id": "4305011788",
+    "parent_ticket_id": "958622053",
+    "event_type": "INBOUND"
   }
 }
