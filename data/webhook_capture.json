@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-07T09:54:22.848Z",
+  "ts": "2026-08-07T09:54:58.705Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4325707142",
+    "type": "INBOUND",
+    "message_id": "4325707750",
     "ticket_id": "972459677",
-    "message": "Good Afternoon George,\r\n\r\nWell noted. Please note that a 3.1% card processing fee will apply if you proceed with the payment link.\r\n\r\nAlternatively, you may make the payment via bank transfer to avoid the additional charges.\r\n\r\nKindly let us know which payment method you would prefer.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Bank transfer",
+    "channel_id": "1304636",
     "contact_id": "541938510",
     "contact_name": "George Phillips",
     "contact_identifier": "+447775615281",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
