@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-07T06:47:40.016Z",
+  "ts": "2026-08-07T06:48:05.157Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4325525015",
+    "type": "INBOUND",
+    "message_id": "4325525367",
     "ticket_id": "962970428",
-    "message": "Thank you for choosing fäm Living Anastasiia Kazachuk!\r\n\r\nWe hope you enjoyed your stay! Please let us know your expected checkout time so we can arrange it accordingly.\r\n\r\nOur standard checkout timings are between 10:00 AM and 12:00 PM.\r\n\r\nPlease note that if you self-checkout without our staff's presence for inspection, you consent to accept any damage(s) reported by admin staff.",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "I have to pay tomorrow",
+    "channel_id": "1304636",
     "contact_id": "537510754",
     "contact_name": "Anastasiia Kazachuk",
     "contact_identifier": "+79153412426",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
