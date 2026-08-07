@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-07T07:21:14.694Z",
+  "ts": "2026-08-07T07:21:53.187Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325555601",
+    "type": "OUTBOUND",
+    "message_id": "4325556169",
     "ticket_id": "971980060",
-    "message": "Hello Chahana",
-    "channel_id": "1304636",
+    "message": "Hi Claudia",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544097098",
     "contact_name": "Claudia Acosta",
     "contact_identifier": "+971547656678",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
