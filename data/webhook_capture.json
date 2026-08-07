@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-07T09:50:48.913Z",
+  "ts": "2026-08-07T09:50:59.232Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325703577",
+    "type": "OUTBOUND",
+    "message_id": "4325703770",
     "ticket_id": "972459229",
-    "message": "Is is still available ?",
-    "channel_id": "1304636",
+    "message": "The studio in Cloud Tower is still available. Anything specific you'd like to know before deciding if it's the right fit?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544228194",
     "contact_name": "M Ch",
     "contact_identifier": "+971566288662",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
