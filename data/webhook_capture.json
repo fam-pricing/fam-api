@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-07T11:56:21.390Z",
+  "ts": "2026-08-07T11:57:41.355Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4325842485",
-    "ticket_id": "972289246",
-    "message": "Hello Timur,\r\n\r\nWe have received an update from our Guest Relations team that, during the check-out inspection, stains were found on the dining chairs and the living room carpet.\r\n\r\nAs a result, a charge of AED 500 has been deducted, and the remaining balance of your security deposit has been refunded.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "type": "INBOUND",
+    "message_id": "4325844629",
+    "ticket_id": "972508658",
+    "message": "Can you send me photos of stains?",
+    "channel_id": "1304636",
     "contact_id": "538375001",
     "contact_name": "Timur Aghayev",
     "contact_identifier": "+971561630343",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
