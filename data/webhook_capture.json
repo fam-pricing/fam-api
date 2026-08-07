@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-07T13:25:50.884Z",
+  "ts": "2026-08-07T13:26:16.414Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325935533",
+    "type": "OUTBOUND",
+    "message_id": "4325936015",
     "ticket_id": "964268047",
-    "message": "Can I come tomorrow morning?",
-    "channel_id": "585723",
+    "message": "sure, you can come tomorrow between 10 to 1pm please",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "535700615",
     "contact_name": "Sabrin Ghomri",
     "contact_identifier": "+971552523442",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
