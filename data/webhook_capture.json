@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-07T17:08:55.154Z",
+  "ts": "2026-08-07T17:09:08.233Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326154788",
+    "type": "OUTBOUND",
+    "message_id": "4326154943",
     "ticket_id": "972590826",
-    "message": "Connect me to agent",
-    "channel_id": "1304636",
+    "message": "Of course, let me get someone from the team for you right away. They'll be with you shortly, Mansour!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544262499",
     "contact_name": "Mansour Nazhaev",
     "contact_identifier": "+971551501994",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
