@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-07T09:45:16.764Z",
+  "ts": "2026-08-07T09:45:32.738Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325697803",
-    "ticket_id": "972446681",
-    "message": "Confirm",
+    "type": "OUTBOUND",
+    "message_id": "4325698088",
+    "ticket_id": "972308539",
+    "message": "sure",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "544185320",
+    "contact_name": "Retention Department Telecom",
+    "contact_identifier": "+971522930224",
     "channel_id": "585723",
-    "contact_id": "544223868",
-    "contact_name": "Yaldiz",
-    "contact_identifier": "+971562803333",
-    "parent_message_id": "4325655764",
-    "parent_ticket_id": "972446681",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
