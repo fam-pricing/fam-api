@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-07T06:29:21.822Z",
+  "ts": "2026-08-07T06:30:57.034Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325513679",
+    "type": "OUTBOUND",
+    "message_id": "4325514846",
     "ticket_id": "963700677",
-    "message": "You were giving me different prices before, that’s why I didn’t ask again. I thought you would keep your word. Otherwise, I would have started looking for another home earlier. But you changed the price by quite a lot",
-    "channel_id": "585723",
+    "message": "Unfortunately, we are unable to offer the apartment at your requested rate, as our prices are subject to current market conditions and availability.\r\n\r\nThe best available rate we can offer for this apartment is AED 8,640 for 30 nights, and we are unable to reduce it further.\r\n\r\nIf you would like to proceed with the extension at this rate, please let us know, and we will be happy to assist you.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537607776",
     "contact_name": "SHEYDA",
     "contact_identifier": "+971502809008",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
