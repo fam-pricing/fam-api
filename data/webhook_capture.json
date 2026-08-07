@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-07T08:10:47.943Z",
+  "ts": "2026-08-07T08:11:51.725Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4325603399",
+    "type": "INBOUND",
+    "message_id": "4325604351",
     "ticket_id": "972430710",
-    "message": "Below are the necessary fields and information required for a swift refund by bank transfer:\r\n\r\nBooking reference number:\r\n\r\nBeneficiary Name:\r\n\r\nBeneficiary Address:\r\n\r\nBeneficiary Bank Name:\r\n\r\nBeneficiary Bank Account Details (IBAN):\r\n\r\nSwift Code:\r\n\r\nBeneficiary Bank Address:\r\n\r\nCurrency of Account:\r\n\r\nSort Code:\r\n\r\nPlease note that failure to provide all the required fields mentioned above will prevent our finance team from processing the refund.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Noted",
+    "channel_id": "585723",
     "contact_id": "535952622",
     "contact_name": "Simone Pravin Chhabda Pravin Kishan Chhabda",
     "contact_identifier": "+971581770094",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4325602823",
+    "parent_ticket_id": "972430710",
+    "event_type": "INBOUND"
   }
 }
