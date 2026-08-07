@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-07T13:15:26.588Z",
+  "ts": "2026-08-07T13:17:19.676Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325924993",
+    "type": "OUTBOUND",
+    "message_id": "4325926897",
     "ticket_id": "972527365",
-    "message": "Document",
-    "channel_id": "1304636",
+    "message": "Apologies, but we can only arrange the viewing tomorrow, not today.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544241387",
     "contact_name": "Hani Kavian",
     "contact_identifier": "+971582628977",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
