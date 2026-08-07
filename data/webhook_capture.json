@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-07T05:19:02.451Z",
+  "ts": "2026-08-07T05:19:03.382Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4325486157",
-    "ticket_id": "972108444",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "544122934",
-    "contact_name": "Laila Sweidan",
-    "contact_identifier": "+971507307652",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4325486168",
+    "ticket_id": "972394850",
+    "message": "The stove is not working",
+    "channel_id": "1304636",
+    "contact_id": "542363829",
+    "contact_name": "Micah Meijer",
+    "contact_identifier": "+31655135580",
+    "event_type": "INBOUND"
   }
 }
