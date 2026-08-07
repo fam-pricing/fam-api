@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-07T10:59:51.543Z",
+  "ts": "2026-08-07T11:00:39.877Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325769642",
+    "type": "OUTBOUND",
+    "message_id": "4325770472",
     "ticket_id": "963700677",
-    "message": "I can check out at 8-9 \nIs it ok ?",
-    "channel_id": "585723",
+    "message": "we have already given you the late check out till 3pm",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537607776",
     "contact_name": "SHEYDA",
     "contact_identifier": "+971502809008",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
