@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-07T06:08:54.265Z",
+  "ts": "2026-08-07T06:11:23.816Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325503149",
-    "ticket_id": "972394850",
-    "message": "Hello?",
-    "channel_id": "1304636",
-    "contact_id": "542363829",
-    "contact_name": "Micah Meijer",
-    "contact_identifier": "+31655135580",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4325504309",
+    "ticket_id": "971126556",
+    "message": "Hello Mubarak, hope you are doing well ! Apologies for the inconvenience caused. We have sent you message morning and waiting for the confirmation. As we didn’t hear back from your end we are unable to arrange the team",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "543881925",
+    "contact_name": "Mubarak Ahmed Mohammed",
+    "contact_identifier": "+971502523419",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
