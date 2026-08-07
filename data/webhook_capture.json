@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-07T06:51:23.773Z",
+  "ts": "2026-08-07T06:51:25.999Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325527598",
-    "ticket_id": "972394850",
-    "message": "I am not home currently, can we plan it at 12:30",
+    "type": "OUTBOUND",
+    "message_id": "4325527677",
+    "ticket_id": "972408180",
+    "message": "49 nights, just under 2 months. Does that period work for you, or do you have some flexibility on the dates?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "544213560",
+    "contact_name": "Emad",
+    "contact_identifier": "+971506546015",
     "channel_id": "1304636",
-    "contact_id": "542363829",
-    "contact_name": "Micah Meijer",
-    "contact_identifier": "+31655135580",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
