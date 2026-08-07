@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-07T09:17:09.522Z",
+  "ts": "2026-08-07T09:17:35.858Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4325670447",
-    "ticket_id": "957439582",
-    "message": "We will send someone to check it",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "540084992",
-    "contact_name": "Maryam kazemi",
-    "contact_identifier": "+971507018369",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4325670962",
+    "ticket_id": "972449005",
+    "message": "Any other location?",
+    "channel_id": "1304636",
+    "contact_id": "544213560",
+    "contact_name": "Emad",
+    "contact_identifier": "+971506546015",
+    "event_type": "INBOUND"
   }
 }
