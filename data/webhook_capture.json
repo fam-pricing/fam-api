@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-07T19:12:52.553Z",
+  "ts": "2026-08-07T19:13:30.075Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4326221978",
+    "type": "INBOUND",
+    "message_id": "4326222195",
     "ticket_id": "972613880",
-    "message": "That rate's locked so any extension would stay at the same price. Does Aug 11 to Sept 1 work as a firm start, or are you still figuring out the exact dates?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "this is the exact date",
+    "channel_id": "1304636",
     "contact_id": "544267474",
     "contact_name": "AC",
     "contact_identifier": "+971521151017",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4326221978",
+    "parent_ticket_id": "972613880",
+    "event_type": "INBOUND"
   }
 }
