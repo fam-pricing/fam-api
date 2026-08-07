@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-07T08:30:46.343Z",
+  "ts": "2026-08-07T08:31:55.269Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4325622911",
+    "type": "OUTBOUND",
+    "message_id": "4325624121",
     "ticket_id": "972408180",
-    "message": "10 am",
-    "channel_id": "1304636",
+    "message": "Sure, we will arrange the viewing at 10:00 AM.\r\n\r\nKindly share your ID details with us, as we need to submit them to the building management team for access approval.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544213560",
     "contact_name": "Emad",
     "contact_identifier": "+971506546015",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
