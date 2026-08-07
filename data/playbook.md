@@ -1696,3 +1696,7 @@ Please note that viewings can only be arranged before 6:00 PM. Alternatively, we
 ## Learned (2026-08-05)
 - When a lead confirms interest in a long-term stay, inform them that annual contracts and Ejari are not offered, but they are welcome to stay as long as they wish by extending on a monthly basis.
   (Learned from Faysal handling Dan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
+
+## Learned (2026-08-07)
+- If a lead asks to negotiate a lower rate (e.g., AED 5,500) in exchange for signing an annual contract, clarify that annual contracts and Ejari are not offered for long-term stays. Let them know they are welcome to continue their stay by renewing on a monthly basis.
+  (Learned from Faysal handling Hani Kavian re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-123360768.html)
