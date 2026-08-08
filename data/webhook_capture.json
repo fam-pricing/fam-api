@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-08T05:42:25.911Z",
+  "ts": "2026-08-08T05:43:01.525Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326376165",
-    "ticket_id": "972449005",
-    "message": "I’m on my way",
+    "type": "OUTBOUND",
+    "message_id": "4326376264",
+    "ticket_id": "972622011",
+    "message": "Sure, we can arrange the viewing for Monday.\r\n\r\nPlease note that the available viewing hours are between 10:00 AM and 6:00 PM. Kindly let us know your preferred time so we can arrange the viewing accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "540390840",
+    "contact_name": "N.",
+    "contact_identifier": "+31684584340",
     "channel_id": "1304636",
-    "contact_id": "544213560",
-    "contact_name": "Emad",
-    "contact_identifier": "+971506546015",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
