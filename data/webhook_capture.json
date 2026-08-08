@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-08T09:52:41.722Z",
+  "ts": "2026-08-08T09:53:06.802Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326503533",
+    "type": "OUTBOUND",
+    "message_id": "4326503717",
     "ticket_id": "972711795",
-    "message": "Can I come and see it anytime? Is there a code to access the apartment? Or do I need to meet you?",
-    "channel_id": "1304636",
+    "message": "Viewings need to be arranged in advance with one of our team to let you in, so no self-access at this stage. We're available any day between 9am and 6pm. What day works best for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544284816",
     "contact_name": "Zh",
     "contact_identifier": "+971505719168",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
