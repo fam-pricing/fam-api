@@ -1,18 +1,18 @@
 {
-  "ts": "2026-08-08T07:46:35.328Z",
+  "ts": "2026-08-08T07:47:10.263Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4326432528",
+    "type": "INBOUND",
+    "message_id": "4326432759",
     "ticket_id": "972692821",
-    "message": "Thanks! You will get a reply by email if you leave this website.",
+    "message": "waiting for the reply!",
+    "channel_id": "883603",
     "contact_id": "544280132",
     "contact_name": "Sevgi Akyol Levent",
     "contact_email": "sevgiakyollevent@gmail.com",
     "contact_identifier": "129034e3-708b-4249-ade4-bcb632291cdd",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
