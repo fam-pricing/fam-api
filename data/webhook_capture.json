@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-08T18:52:43.555Z",
+  "ts": "2026-08-08T18:53:05.927Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326777276",
+    "type": "OUTBOUND",
+    "message_id": "4326777364",
     "ticket_id": "972777612",
-    "message": "Unfortunately I can moved only in these areas",
-    "channel_id": "1304636",
+    "message": "Understood, let me check what we have closer to those areas for you and come back shortly.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544302680",
     "contact_name": "Dominik",
     "contact_identifier": "+48533203045",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
