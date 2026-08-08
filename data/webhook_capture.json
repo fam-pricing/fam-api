@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-08T12:52:28.164Z",
+  "ts": "2026-08-08T12:54:10.512Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326608189",
+    "type": "OUTBOUND",
+    "message_id": "4326609171",
     "ticket_id": "950575440",
-    "message": "I told you I will stay longer",
-    "channel_id": "585723",
+    "message": "We can extend your stay and here is the extension rate will be AED 15,000 for 30 nights. Please note that a 3.1% card processing fee will be added, making the total payable amount AED 15,465.00\r\n\r\nWe will share the payment link with you shortly to proceed with your extension booking.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538178428",
     "contact_name": "BARBARA ALMEIDA CUNHA",
     "contact_identifier": "+971569589393",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
