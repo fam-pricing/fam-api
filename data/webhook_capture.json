@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-08T10:59:52.158Z",
+  "ts": "2026-08-08T11:00:21.800Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326545651",
-    "ticket_id": "972711795",
-    "message": "Can I reserve this apartment from the 17th?",
+    "type": "OUTBOUND",
+    "message_id": "4326545942",
+    "ticket_id": "972728516",
+    "message": "تواصل معنا أي وقت، يسعدنا نساعدك.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "544288346",
+    "contact_name": "khaled",
+    "contact_identifier": "+971509708250",
     "channel_id": "1304636",
-    "contact_id": "544284816",
-    "contact_name": "Zh",
-    "contact_identifier": "+971505719168",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
