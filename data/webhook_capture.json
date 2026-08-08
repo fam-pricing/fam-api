@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-08T05:52:06.995Z",
+  "ts": "2026-08-08T05:52:29.315Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4326378136",
-    "ticket_id": "967322399",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: Check out. *How can I help you?*",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "535867791",
-    "contact_name": "MOHAMMED AMIR SAAD ISHTIAQUE",
-    "contact_identifier": "+971523192648",
+    "type": "INBOUND",
+    "message_id": "4326378202",
+    "ticket_id": "972449005",
+    "message": "Which block",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "544213560",
+    "contact_name": "Emad",
+    "contact_identifier": "+971506546015",
+    "event_type": "INBOUND"
   }
 }
