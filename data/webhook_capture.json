@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-08T12:45:37.153Z",
+  "ts": "2026-08-08T12:46:59.885Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4326604435",
-    "ticket_id": "972588148",
-    "message": "I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542447225",
-    "contact_name": "Alim",
-    "contact_identifier": "+77029993929",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4326605272",
+    "ticket_id": "972737753",
+    "message": "What are your booking prices for two rooms, and how much is it? And if you have larger rooms, how much is that?",
+    "channel_id": "585723",
+    "contact_id": "544291228",
+    "contact_name": "H",
+    "contact_identifier": "+971505330006",
+    "event_type": "INBOUND"
   }
 }
