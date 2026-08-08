@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-08T06:44:52.645Z",
+  "ts": "2026-08-08T06:45:02.722Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4326403597",
-    "ticket_id": "956113458",
-    "message": "Here is your extension booking confirmation",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537401735",
-    "contact_name": "Rahul Vinay S",
-    "contact_identifier": "+971547997976",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4326403643",
+    "ticket_id": "972449005",
+    "message": "190 per each cleaning?",
+    "channel_id": "1304636",
+    "contact_id": "544213560",
+    "contact_name": "Emad",
+    "contact_identifier": "+971506546015",
+    "event_type": "INBOUND"
   }
 }
