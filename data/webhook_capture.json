@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-08T18:00:27.808Z",
+  "ts": "2026-08-08T18:00:55.128Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326759142",
+    "type": "OUTBOUND",
+    "message_id": "4326759292",
     "ticket_id": "972791796",
-    "message": "This photos is real?",
-    "channel_id": "1304636",
+    "message": "Yes, the photos are real, here's the full listing with photos and floor plan: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html\n\nWant to come take a look?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536416826",
     "contact_name": "Sara Ali",
     "contact_identifier": "+971554410094",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
