@@ -1,19 +1,17 @@
 {
-  "ts": "2026-08-08T11:52:19.317Z",
+  "ts": "2026-08-08T11:54:07.882Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326575495",
-    "ticket_id": "972711795",
-    "message": "What is the deposit amount need pay?",
-    "channel_id": "1304636",
-    "contact_id": "544284816",
-    "contact_name": "Zh",
-    "contact_identifier": "+971505719168",
-    "parent_message_id": "4326573686",
-    "parent_ticket_id": "972711795",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4326576499",
+    "ticket_id": "972737753",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
+    "contact_id": "544291228",
+    "contact_name": "H",
+    "contact_identifier": "+971505330006",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
