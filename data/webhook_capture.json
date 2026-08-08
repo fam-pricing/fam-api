@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-08T10:58:12.201Z",
+  "ts": "2026-08-08T10:58:35.097Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326544762",
+    "type": "OUTBOUND",
+    "message_id": "4326544957",
     "ticket_id": "972728516",
-    "message": "لو  في اقل من 4",
-    "channel_id": "1304636",
+    "message": "للأسف ما عندنا استوديو بأقل من 4,000 درهم. هل يناسبك الـ 4,000 أو تبحث عن شيء آخر؟",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544288346",
     "contact_name": "khaled",
     "contact_identifier": "+971509708250",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
