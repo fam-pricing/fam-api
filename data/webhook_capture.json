@@ -1,17 +1,21 @@
 {
-  "ts": "2026-08-08T08:02:59.568Z",
+  "ts": "2026-08-08T08:08:44.529Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326441923",
-    "ticket_id": "972695415",
-    "message": "Thank you 🙏",
-    "channel_id": "1304636",
-    "contact_id": "544280713",
-    "contact_name": "Rachel Reece",
-    "contact_identifier": "+971585422733",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4326444899",
+    "ticket_id": "972692821",
+    "message": "We will contact you via WhatsApp shortly and assist you with your inquiry.\r\n\r\nThank you for your patience.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "544280132",
+    "contact_name": "Sevgi Akyol Levent",
+    "contact_email": "sevgiakyollevent@gmail.com",
+    "contact_identifier": "129034e3-708b-4249-ade4-bcb632291cdd",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
