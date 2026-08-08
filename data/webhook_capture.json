@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-08T11:32:28.303Z",
+  "ts": "2026-08-08T11:33:54.537Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326564232",
+    "type": "OUTBOUND",
+    "message_id": "4326565096",
     "ticket_id": "972588148",
-    "message": "Sure, can i pay it after weekend?",
-    "channel_id": "1304636",
+    "message": "Sure, you can make the payment on monday",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542447225",
     "contact_name": "Alim",
     "contact_identifier": "+77029993929",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
