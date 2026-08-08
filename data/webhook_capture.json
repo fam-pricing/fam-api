@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-08T17:45:13.691Z",
+  "ts": "2026-08-08T17:45:35.171Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326753060",
+    "type": "OUTBOUND",
+    "message_id": "4326753186",
     "ticket_id": "972788196",
-    "message": "I’m interested in this apartment",
-    "channel_id": "1304636",
+    "message": "The 1BR in Al Safa is available now. Would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544305647",
     "contact_name": "Nikolai Denisov",
     "contact_identifier": "+79854114420",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
