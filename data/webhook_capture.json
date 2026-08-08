@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-08T10:55:58.245Z",
+  "ts": "2026-08-08T10:56:18.885Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326543509",
+    "type": "OUTBOUND",
+    "message_id": "4326543701",
     "ticket_id": "972728516",
-    "message": "سلام عليكم",
-    "channel_id": "1304636",
+    "message": "وعليكم السلام! هل عندك أسئلة عن الشقة في جميرا فيليدج تراينجل؟",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544288346",
     "contact_name": "khaled",
     "contact_identifier": "+971509708250",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
