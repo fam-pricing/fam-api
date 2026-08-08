@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-08T07:45:51.182Z",
+  "ts": "2026-08-08T07:46:05.889Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4326432160",
-    "ticket_id": "962970814",
-    "message": "We hope you enjoyed your stay; please let us know your expected check-out time so we can arrange it accordingly.\n\n* Our standard check-out time is between 10:00 AM and 12:00 PM.*\n\n_Please note if you self-checkout without the presence of our staff for inspection, then you consent acceptance to any damage(s) reported by admin staff._",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537634308",
-    "contact_name": "Hanan Ibrahim",
-    "contact_identifier": "+971559022022",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4326432304",
+    "ticket_id": "972692821",
+    "message": "Hello! I came across a few of Afifa Al Shami’s listings on Bayut for 2-bedroom apartments with a maid’s room in City Walk. We’re looking to rent from August 20 to September 17 and would be very interested in discussing the available options and hopefully securing one.\n\nI tried reaching out to Afifa directly but haven’t heard back yet, so I thought I’d contact you here. Would you be able to assist us, please?",
+    "channel_id": "883603",
+    "contact_id": "544280132",
+    "contact_name": "Sevgi Akyol Levent",
+    "contact_identifier": "129034e3-708b-4249-ade4-bcb632291cdd",
+    "event_type": "INBOUND"
   }
 }
