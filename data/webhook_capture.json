@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-08T06:29:27.985Z",
+  "ts": "2026-08-08T06:31:06.415Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326398415",
+    "type": "OUTBOUND",
+    "message_id": "4326399043",
     "ticket_id": "958622053",
-    "message": "Proceed",
-    "channel_id": "585723",
+    "message": "Okay, we will proceed with extending your stay and will send you the payment link shortly.\r\n\r\nPlease note that if you make the payment through the link, a 3.15% card processing fee will be applicable.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537401267",
     "contact_name": "Shaker Mousa",
     "contact_identifier": "+971588929205",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
