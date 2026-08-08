@@ -2926,5 +2926,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-08-08T11:13:21.735Z",
+    "ticket_id": 972731062,
+    "lead_id": "message_lead_31111913",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 19896,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
+    "skip_reason": "Lead is asking about 2BR + maid's room in Downtown from 15th August to December. Faysal already flagged needing to confirm if Reehan 1 has a maid's room before proceeding. Need confirmation on this before we can answer the lead. Also, stay from Aug 15 to December is approximately 4.5 months, which is beyond the 3-month pricing block."
   }
 ]
