@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-08T16:10:23.401Z",
+  "ts": "2026-08-08T16:10:46.008Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326713272",
+    "type": "OUTBOUND",
+    "message_id": "4326713433",
     "ticket_id": "972777612",
-    "message": "Yes, I would like to arrange a viewing",
-    "channel_id": "1304636",
+    "message": "It's a studio so you'd have the whole place to yourself. What day works for you, any time between 9am and 6pm?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544302680",
     "contact_name": "Dominik",
     "contact_identifier": "+48533203045",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
