@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-08T13:22:27.085Z",
+  "ts": "2026-08-08T13:23:11.295Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326624944",
-    "ticket_id": "950575440",
-    "message": "This is not fair",
+    "type": "OUTBOUND",
+    "message_id": "4326625310",
+    "ticket_id": "969915930",
+    "message": "Unfortunately, we don't have access to the building portal because it's managed only by the landlord.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "543574598",
+    "contact_name": "Sabrina",
+    "contact_identifier": "+971559529037",
     "channel_id": "585723",
-    "contact_id": "538178428",
-    "contact_name": "BARBARA ALMEIDA CUNHA",
-    "contact_identifier": "+971569589393",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
