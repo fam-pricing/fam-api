@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-09T12:31:13.761Z",
+  "ts": "2026-08-09T12:32:07.846Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4327087757",
+    "type": "INBOUND",
+    "message_id": "4327088282",
     "ticket_id": "972902528",
-    "message": "We currently have this unit available, with a monthly rate of AED 7,000 for August.\r\n\r\nFor September, I will need to confirm the rate with the management team and will update you by tomorrow once I receive the details.\r\n\r\nIf you wish, we would be happy to arrange a viewing of the unit at a convenient time for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Let me know the pricing",
+    "channel_id": "585723",
     "contact_id": "544328332",
     "contact_name": "Harshit",
     "contact_identifier": "+919353998876",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4327087757",
+    "parent_ticket_id": "972902528",
+    "event_type": "INBOUND"
   }
 }
