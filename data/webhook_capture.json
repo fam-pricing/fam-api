@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-09T12:20:51.172Z",
+  "ts": "2026-08-09T12:21:16.984Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327083045",
+    "type": "OUTBOUND",
+    "message_id": "4327083220",
     "ticket_id": "972910251",
-    "message": "?",
-    "channel_id": "1304636",
+    "message": "Prices are fixed, but paying 3 months upfront does lock in your rate for that period, which is handy as prices shift seasonally. You can move in this Thursday. Want to come see it first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544330463",
     "contact_name": "A",
     "contact_identifier": "+971551099877",
-    "parent_message_id": "4327082618",
-    "parent_ticket_id": "972910251",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
