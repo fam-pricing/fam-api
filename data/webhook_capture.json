@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-09T06:36:15.916Z",
+  "ts": "2026-08-09T06:36:57.367Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326916262",
-    "ticket_id": "963505285",
-    "message": "12,000",
+    "type": "OUTBOUND",
+    "message_id": "4326916453",
+    "ticket_id": "972382259",
+    "message": "Allow us to check on this",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "490728402",
+    "contact_name": "Mr TIMOTHY BREYER",
+    "contact_identifier": "+447947374451",
     "channel_id": "585723",
-    "contact_id": "541802779",
-    "contact_name": "Atahar Ishraque Chowdhury",
-    "contact_identifier": "+8801764511515",
-    "parent_message_id": "4313410937",
-    "parent_ticket_id": "963505285",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
