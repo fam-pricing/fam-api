@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-09T20:37:32.300Z",
+  "ts": "2026-08-09T20:38:02.138Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327297942",
+    "type": "OUTBOUND",
+    "message_id": "4327298236",
     "ticket_id": "972984641",
-    "message": "Hello, I am interested in the apartment, move in date is September 1, i would like to know whats inclusive and if possible a 6 month contract",
-    "channel_id": "1304636",
+    "message": "September 1 works for the move-in. On the 6-month contract, we don't do Ejari for shorter stays, but you can stay that long by renewing in 3-month blocks. The rate is locked in for the first 3 months, then reviewed for the next period.\n\nWant to know more about how that works before deciding?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544348600",
     "contact_name": "A",
     "contact_identifier": "+971501316248",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
