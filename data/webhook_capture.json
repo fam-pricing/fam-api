@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-09T09:08:11.511Z",
+  "ts": "2026-08-09T09:08:24.510Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4326986827",
-    "ticket_id": "972508658",
-    "message": "I mean both carpets in the living area were found dirty",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "538375001",
-    "contact_name": "Timur Aghayev",
-    "contact_identifier": "+971561630343",
+    "type": "INBOUND",
+    "message_id": "4326987091",
+    "ticket_id": "972864316",
+    "message": "The person who comes to fix has said that the light needs to be changed",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537817977",
+    "contact_name": "Kanika",
+    "contact_identifier": "+919051525237",
+    "parent_message_id": "4326957587",
+    "parent_ticket_id": "972864316",
+    "event_type": "INBOUND"
   }
 }
