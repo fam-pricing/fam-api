@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-09T03:54:13.385Z",
+  "ts": "2026-08-09T03:54:38.453Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326881950",
+    "type": "OUTBOUND",
+    "message_id": "4326882012",
     "ticket_id": "972842010",
-    "message": "Hello do you have any video or floor plan ? which floor is? pets are allowed?",
-    "channel_id": "1304636",
+    "message": "Let me check those details for you and come back shortly!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544316126",
     "contact_name": "Anita",
     "contact_identifier": "+34645378569",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
