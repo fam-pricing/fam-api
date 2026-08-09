@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-09T11:20:43.836Z",
+  "ts": "2026-08-09T11:21:10.996Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327053579",
+    "type": "OUTBOUND",
+    "message_id": "4327053858",
     "ticket_id": "965844499",
-    "message": "Hi, is the unit ready ?",
-    "channel_id": "585723",
+    "message": "Yes it will be ready shortly our team is already there",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "542468411",
     "contact_name": "Rajaa Taleh",
     "contact_identifier": "+491729514660",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
