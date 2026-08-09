@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-09T10:10:27.848Z",
+  "ts": "2026-08-09T10:10:53.631Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327020344",
+    "type": "OUTBOUND",
+    "message_id": "4327020534",
     "ticket_id": "972887566",
-    "message": "I’m not currently in Dubai, so I’m going to ask a friend to do the viewing on my behalf. I’ll get back to you as soon as I know their availability",
-    "channel_id": "1304636",
+    "message": "That works perfectly, your friend is welcome to view any day between 9am and 6pm. Just let us know when they're free and we'll get it set up.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544324360",
     "contact_name": "Victoire Barbosa",
     "contact_identifier": "+33617545254",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
