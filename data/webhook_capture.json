@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-09T06:41:04.769Z",
+  "ts": "2026-08-09T06:41:25.401Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326917641",
-    "ticket_id": "972842010",
-    "message": "There is a mistake",
-    "channel_id": "1304636",
-    "contact_id": "544316126",
-    "contact_name": "Anita",
-    "contact_identifier": "+34645378569",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4326917737",
+    "ticket_id": "963505285",
+    "message": "Sure, you may complete the remaining balance via bank transfer.\r\n\r\nOnce the payment has been made, please share the payment receipt with us for confirmation.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541802779",
+    "contact_name": "Atahar Ishraque Chowdhury",
+    "contact_identifier": "+8801764511515",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
