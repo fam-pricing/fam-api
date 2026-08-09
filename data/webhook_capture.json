@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-09T22:38:15.407Z",
+  "ts": "2026-08-09T22:38:33.265Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327327654",
+    "type": "OUTBOUND",
+    "message_id": "4327327697",
     "ticket_id": "972996277",
-    "message": "Yes I am",
-    "channel_id": "1304636",
+    "message": "These look like automated replies on your end. When your team gets a moment, are you renting the 1BR in La Sirene 3 for a client or for personal use?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544351002",
     "contact_name": "DSHA Group",
     "contact_identifier": "+442036383022",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
