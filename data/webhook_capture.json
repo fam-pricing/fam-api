@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-09T05:22:29.361Z",
+  "ts": "2026-08-09T05:27:08.868Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4326897086",
-    "ticket_id": "964268047",
-    "message": "We hope you enjoyed your stay; please let us know your expected check-out time so we can arrange it accordingly.\n\n* Our standard check-out time is between 10:00 AM and 12:00 PM.*\n\n_Please note if you self-checkout without the presence of our staff for inspection, then you consent acceptance to any damage(s) reported by admin staff._",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "535700615",
-    "contact_name": "Sabrin Ghomri",
-    "contact_identifier": "+971552523442",
+    "type": "INBOUND",
+    "message_id": "4326898046",
+    "ticket_id": "972846737",
+    "message": "Hi\nWhy is a AED 2,000 deposit required, and why is it being requested now on the day of check-in rather than through Booking.com when I made the reservation last night?\nI have stayed in multiple properties through Booking.com over the past 6 weeks without any security deposit requirements. I do not agree to transferring a AED 2,000 deposit via an external link on such short notice. Please clarify if this can be waived or managed differently, otherwise this should have been stated clearly prior to booking",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "544316671",
+    "contact_name": "Sima",
+    "contact_identifier": "+971554157104",
+    "event_type": "INBOUND"
   }
 }
