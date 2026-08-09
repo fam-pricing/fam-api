@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-09T05:37:34.765Z",
+  "ts": "2026-08-09T05:43:20.582Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326900253",
-    "ticket_id": "972842010",
-    "message": "Cloud you please send me the link of the apartment?",
-    "channel_id": "1304636",
-    "contact_id": "544316126",
-    "contact_name": "Anita",
-    "contact_identifier": "+34645378569",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4326901451",
+    "ticket_id": "957895053",
+    "message": "Good morning Yohan,\r\n\r\nPlease note that there are some lost and found items remaining in the apartment, as well as some damages. Please find the damage report attached for your reference.\r\n\r\nKindly note that the applicable charges for the damages will be deducted from the security deposit.\r\n\r\nThank you for your understanding.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536353062",
+    "contact_name": "Yohan Gregory",
+    "contact_identifier": "+971509558132",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
