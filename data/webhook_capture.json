@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-08T23:01:15.164Z",
+  "ts": "2026-08-09T03:45:19.267Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4326838756",
-    "ticket_id": "957895053",
-    "message": "Confirm",
-    "channel_id": "585723",
-    "contact_id": "536353062",
-    "contact_name": "Yohan Gregory",
-    "contact_identifier": "+971509558132",
-    "parent_message_id": "4326491423",
-    "parent_ticket_id": "957895053",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4326880670",
+    "ticket_id": "972842010",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n3BR in Cloud Tower\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "544316126",
+    "contact_name": "Anita",
+    "contact_identifier": "+34645378569",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
