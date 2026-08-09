@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-09T12:56:40.287Z",
+  "ts": "2026-08-09T12:57:08.524Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327100060",
+    "type": "OUTBOUND",
+    "message_id": "4327100243",
     "ticket_id": "972913799",
-    "message": "If for 12 months it’s the same rate then that’s ok",
-    "channel_id": "1304636",
+    "message": "The max stay we can lock in is 3 months at a time, so longer stays work by renewing in blocks rather than one annual contract. Rates at renewal follow market conditions at that point. Would you like to go ahead and get the dates set for your first 3 months?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544290532",
     "contact_name": "Seon",
     "contact_identifier": "+971504519852",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
