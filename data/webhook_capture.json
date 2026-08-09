@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-09T12:19:15.513Z",
+  "ts": "2026-08-09T12:19:26.272Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327082242",
+    "type": "OUTBOUND",
+    "message_id": "4327082330",
     "ticket_id": "972910251",
-    "message": "Can you give me a discount for trimestral advanced payment? If I like the place I will renew after 3 months",
-    "channel_id": "1304636",
+    "message": "The studio in Cloud Tower is available and you can move in this Thursday. For 3 months upfront, the full amount would be due at signing to lock in the rate. Want to come see it first before we sort the paperwork?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544330463",
     "contact_name": "A",
     "contact_identifier": "+971551099877",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
