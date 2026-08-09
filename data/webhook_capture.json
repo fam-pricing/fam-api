@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-09T23:02:23.228Z",
+  "ts": "2026-08-09T23:02:53.718Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327332470",
+    "type": "OUTBOUND",
+    "message_id": "4327332554",
     "ticket_id": "972996277",
-    "message": "Thank you for providing the information. Could you send me the listing photos please and also the exact location?",
-    "channel_id": "1304636",
+    "message": "Here are the listing photos and the exact location of the La Sirene 3 building, what day works for you to come see it in person?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544351002",
     "contact_name": "DSHA Group",
     "contact_identifier": "+442036383022",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
