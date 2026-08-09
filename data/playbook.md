@@ -1704,3 +1704,7 @@ Please note that viewings can only be arranged before 6:00 PM. Alternatively, we
 ## Learned (2026-08-08)
 - If a lead asks how many months they can stay, respond that we do not offer annual contracts or Ejari for long-term stays, but they are welcome to stay as long as they like by extending on a monthly basis.
   (Learned from Faysal handling Henry Moukamer re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html)
+
+## Learned (2026-08-09)
+- If a lead asks about long-term contracts, let them know that we do not offer Ejari contracts, but they are welcome to stay on a monthly extension basis.
+  (Learned from Faysal handling Seon re 2BR in Miraclz Tower)
