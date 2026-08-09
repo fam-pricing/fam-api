@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-09T10:16:30.321Z",
+  "ts": "2026-08-09T10:24:08.616Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327023300",
+    "type": "OUTBOUND",
+    "message_id": "4327026971",
     "ticket_id": "972846737",
-    "message": "Hi Tharushi,\nIt is now 2:00 PM (standard check-in time). The deposit and guest registration form have both been fully completed. Please provide the check-in instructions and access code/key details immediately, as I am waiting",
-    "channel_id": "585723",
+    "message": "Please note that our standard check-in time is from 3:00 PM onwards. We will do our best to accommodate an earlier check-in, subject to the unit being ready.\r\n\r\nAs soon as the unit is ready for check-in, we will promptly share the check-in details with you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544316671",
     "contact_name": "Sima",
     "contact_identifier": "+971554157104",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
