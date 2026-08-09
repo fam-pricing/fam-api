@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-09T22:41:41.688Z",
+  "ts": "2026-08-09T22:42:13.517Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327328263",
+    "type": "OUTBOUND",
+    "message_id": "4327328350",
     "ticket_id": "972996277",
-    "message": "Would you be able to provide me with all the information about this apartment?",
-    "channel_id": "1304636",
+    "message": "Here's the full picture on the 1BR in La Sirene 3, it's available now, AED 8,500/month all-inclusive (water, electricity, internet), with a refundable security deposit of AED 1,500. To get it held for you, we'd just need a copy of your passport and your email address. Want me to send over the listing photos so you can take a look?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544351002",
     "contact_name": "DSHA Group",
     "contact_identifier": "+442036383022",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
