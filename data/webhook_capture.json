@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-09T12:19:56.902Z",
+  "ts": "2026-08-09T12:20:25.956Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327082618",
+    "type": "OUTBOUND",
+    "message_id": "4327082869",
     "ticket_id": "972910251",
-    "message": "How much is it?",
-    "channel_id": "1304636",
+    "message": "On the discount, prices are fixed, but 3 months upfront does lock in your rate for that whole period, which matters as prices shift seasonally.\n\nWould you like to come see it before Thursday so you can decide on the spot?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544330463",
     "contact_name": "A",
     "contact_identifier": "+971551099877",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
