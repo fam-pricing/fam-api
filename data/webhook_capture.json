@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-09T09:40:59.872Z",
+  "ts": "2026-08-09T09:41:33.701Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327005313",
+    "type": "OUTBOUND",
+    "message_id": "4327005872",
     "ticket_id": "972887566",
-    "message": "Good afternoon,\nI would be interested in renting this apartment and would like to know the monthly rental price.\nI am looking to move in on November 27th for a one-year rental period. If a one-year lease is not possible, I would also be open to a six-month rental.\nThank you in advance, and I look forward to hearing from you!",
-    "channel_id": "1304636",
+    "message": "The 1BR in Viridian Central Park is available from November 27, both 3-month and 6-month stays work. We don't offer annual contracts or Ejari, so it runs as a holiday home rental rather than a traditional lease. Does that kind of setup work for you, or would you like more details on how it works?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544324360",
     "contact_name": "Victoire Barbosa",
     "contact_identifier": "+33617545254",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
