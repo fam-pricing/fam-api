@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-09T14:15:18.466Z",
+  "ts": "2026-08-09T14:15:36.048Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4327138593",
-    "ticket_id": "972906716",
-    "message": "unlike hotels, our holiday homes at fäm Living are in cozy residential buildings owned by awesome landlords who open their doors to you for short stays through us. So, while you won’t get the daily housekeeping, breakfast buffets, or hotel reception vibe, what you will get is a whole home to spread out in, not just a room!",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "530750264",
-    "contact_name": "Aa",
-    "contact_identifier": "+971521100096",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4327138703",
+    "ticket_id": "972921238",
+    "message": "Yes",
+    "channel_id": "1304636",
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
+    "parent_message_id": "4327138162",
+    "parent_ticket_id": "972921238",
+    "event_type": "INBOUND"
   }
 }
