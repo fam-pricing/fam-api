@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-10T05:52:04.665Z",
+  "ts": "2026-08-10T05:52:15.732Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4327412408",
-    "ticket_id": "950575440",
-    "message": "We are checking with the team regarding the internet and will update you shortly",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "538178428",
-    "contact_name": "BARBARA ALMEIDA CUNHA",
-    "contact_identifier": "+971569589393",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4327412470",
+    "ticket_id": "972921238",
+    "message": "So have you left",
+    "channel_id": "1304636",
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
+    "parent_message_id": "4327411826",
+    "parent_ticket_id": "972921238",
+    "event_type": "INBOUND"
   }
 }
