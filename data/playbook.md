@@ -1714,3 +1714,7 @@ Please note that viewings can only be arranged before 6:00 PM. Alternatively, we
 
 "Please note that we do not provide Ejari contracts. However, you are welcome to continue your stay with us for as long as required through monthly extensions, subject to availability and the applicable rates at the time of each extension."
   (Learned from Faysal handling Rs Mlk re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-08-10)
+- If a lead says "Is it okay?" or gives a vague confirmation regarding ID submission, respond with: "Please note that we require a clear photo of your ID."
+  (Learned from Faysal handling A re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-hills-estate-executive-residences-executive-residences-2-69093988.html)
