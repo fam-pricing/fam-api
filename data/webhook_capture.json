@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-10T12:31:52.817Z",
+  "ts": "2026-08-10T12:31:54.809Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327872024",
+    "type": "OUTBOUND",
+    "message_id": "4327872086",
     "ticket_id": "973161314",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "523342889",
     "contact_name": "Dmitry Chechulin",
     "contact_identifier": "+79067810822",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
