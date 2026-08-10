@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-10T16:50:18.044Z",
+  "ts": "2026-08-10T16:50:52.346Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4328157513",
+    "type": "INBOUND",
+    "message_id": "4328157915",
     "ticket_id": "973227316",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is it a studio apartment whats the final prices and other details please",
+    "channel_id": "1304636",
     "contact_id": "544410312",
     "contact_name": "Rahul Sharma",
     "contact_identifier": "+971501041452",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
