@@ -1708,3 +1708,9 @@ Please note that viewings can only be arranged before 6:00 PM. Alternatively, we
 ## Learned (2026-08-09)
 - If a lead asks about long-term contracts, let them know that we do not offer Ejari contracts, but they are welcome to stay on a monthly extension basis.
   (Learned from Faysal handling Seon re 2BR in Miraclz Tower)
+
+## Learned (2026-08-10)
+- If a lead asks whether an Ejari contract is possible, respond with:
+
+"Please note that we do not provide Ejari contracts. However, you are welcome to continue your stay with us for as long as required through monthly extensions, subject to availability and the applicable rates at the time of each extension."
+  (Learned from Faysal handling Rs Mlk re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
