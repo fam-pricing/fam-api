@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-10T09:26:11.203Z",
+  "ts": "2026-08-10T09:34:25.494Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327629588",
-    "ticket_id": "973068063",
-    "message": "Is there any other charges on 4k , like taxes ?",
+    "type": "OUTBOUND",
+    "message_id": "4327643004",
+    "ticket_id": "972009773",
+    "message": "We can arrange the viewing for 2:00 PM. Kindly confirm if this timing is convenient for you so we can proceed with the necessary arrangements.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544105057",
+    "contact_name": "A",
+    "contact_identifier": "+971501714615",
     "channel_id": "1304636",
-    "contact_id": "544364342",
-    "contact_name": "Umar Ibn Hameed",
-    "contact_identifier": "+971569113325",
-    "parent_message_id": "4327626872",
-    "parent_ticket_id": "973068063",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
