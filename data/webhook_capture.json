@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-10T12:32:23.539Z",
+  "ts": "2026-08-10T12:32:32.806Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327872656",
-    "ticket_id": "973161314",
-    "message": "I have a question regarding my rental. I’m staying at Executive residences 2, 823.",
+    "type": "OUTBOUND",
+    "message_id": "4327872840",
+    "ticket_id": "941501853",
+    "message": "Can you please update us on the payment, as it's been pending since last week",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "535128769",
+    "contact_name": "Alex",
+    "contact_identifier": "+256742443400",
     "channel_id": "585723",
-    "contact_id": "523342889",
-    "contact_name": "Dmitry Chechulin",
-    "contact_identifier": "+79067810822",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
