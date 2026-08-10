@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-10T08:02:36.482Z",
+  "ts": "2026-08-10T08:04:20.578Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327526390",
+    "type": "OUTBOUND",
+    "message_id": "4327528685",
     "ticket_id": "973068063",
-    "message": "Pls give me the price details for a month",
-    "channel_id": "1304636",
+    "message": "May I know starting from which date please?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544364342",
     "contact_name": "Umar Ibn Hameed",
     "contact_identifier": "+971569113325",
-    "parent_message_id": "4327525195",
-    "parent_ticket_id": "973068063",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
