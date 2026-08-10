@@ -3802,5 +3802,17 @@
     "lead_quality": 70,
     "buying_stage": "HOT",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-08-10T12:04:00.124Z",
+    "ticket_id": 973145297,
+    "lead_id": "message_lead_31157159",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 12849,
+    "critic_pass": null,
+    "lead_quality": 70,
+    "buying_stage": "HOT",
+    "skip_reason": "frustration_detected"
   }
 ]
