@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-09T23:13:17.886Z",
+  "ts": "2026-08-10T04:03:24.507Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327334521",
-    "ticket_id": "972996277",
-    "message": "👍",
+    "type": "OUTBOUND",
+    "message_id": "4327383220",
+    "ticket_id": "973023685",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-beach-residence-shams-shams-1-109026225.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "544354726",
+    "contact_name": "Vaiza Taki",
+    "contact_identifier": "+258848444033",
     "channel_id": "1304636",
-    "contact_id": "544351002",
-    "contact_name": "DSHA Group",
-    "contact_identifier": "+442036383022",
-    "parent_message_id": "4327333802",
-    "parent_ticket_id": "972996277",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
