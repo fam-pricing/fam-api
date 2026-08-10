@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-10T10:56:28.580Z",
+  "ts": "2026-08-10T11:00:41.941Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327745449",
+    "type": "OUTBOUND",
+    "message_id": "4327750457",
     "ticket_id": "973125741",
-    "message": "I would like to know if the unit is available from 21-28",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544379269",
     "contact_name": "🧑🏻‍💻",
     "contact_identifier": "+971551284533",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
