@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-10T15:02:20.031Z",
+  "ts": "2026-08-10T15:02:43.606Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4328061672",
+    "type": "OUTBOUND",
+    "message_id": "4328062156",
     "ticket_id": "973205858",
-    "message": "I can renew month by month?",
-    "channel_id": "1304636",
+    "message": "You can renew month by month, though the rate is locked in for 3-month periods and reviewed against the market after that. Want to arrange a viewing so you can see it before deciding?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544402680",
     "contact_name": "Amanda",
     "contact_identifier": "+971521108134",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
