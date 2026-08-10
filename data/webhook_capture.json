@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-10T11:53:02.431Z",
+  "ts": "2026-08-10T11:53:21.831Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327818584",
+    "type": "OUTBOUND",
+    "message_id": "4327819021",
     "ticket_id": "973145297",
-    "message": "Hello",
-    "channel_id": "1304636",
+    "message": "It's a studio in Business Bay, are you looking for something short-term or longer-stay?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544384412",
     "contact_name": "Ss",
     "contact_identifier": "+971554508602",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
