@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-10T07:39:06.355Z",
+  "ts": "2026-08-10T07:44:49.564Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327500444",
-    "ticket_id": "972950492",
-    "message": "Ok \nIs this appt or another one available from 21st September for 6 months or one year?",
+    "type": "OUTBOUND",
+    "message_id": "4327506291",
+    "ticket_id": "972508658",
+    "message": "Attachment",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "538375001",
+    "contact_name": "Timur Aghayev",
+    "contact_identifier": "+971561630343",
     "channel_id": "1304636",
-    "contact_id": "544340301",
-    "contact_name": "😉 Hakima",
-    "contact_identifier": "+32489562526",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
