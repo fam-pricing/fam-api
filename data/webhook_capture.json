@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-10T13:56:51.285Z",
+  "ts": "2026-08-10T13:57:46.540Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327980876",
+    "type": "OUTBOUND",
+    "message_id": "4327982047",
     "ticket_id": "973188925",
-    "message": "Hello",
-    "channel_id": "1304636",
+    "message": "Could you please update with the payment for the tomorrow check in",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "543261378",
     "contact_name": "OLEKSANDR SOBITNIAK",
     "contact_identifier": "+971585744818",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
