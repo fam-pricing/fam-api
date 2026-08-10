@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-10T05:46:04.627Z",
+  "ts": "2026-08-10T05:48:59.176Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327410136",
-    "ticket_id": "973035334",
-    "message": "Because I want to pay September today but first I wanna double check before proceed with the payment",
+    "type": "OUTBOUND",
+    "message_id": "4327411183",
+    "ticket_id": "972921238",
+    "message": "Received the cards kindly note that your friend is still inside the apartment and the inspection is still pending",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
     "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Ariel Griszka",
-    "contact_identifier": "+971501784347",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
