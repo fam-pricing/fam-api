@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-10T13:25:18.523Z",
+  "ts": "2026-08-10T13:25:21.125Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4327940345",
+    "type": "OUTBOUND",
+    "message_id": "4327940409",
     "ticket_id": "973178697",
-    "message": "Hello, are the apartments in Mag 318 for year rental availabale?",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "544394530",
     "contact_name": "Dima",
     "contact_identifier": "de2ecc72-413d-4e9b-2eff-7498b0a977fe",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
