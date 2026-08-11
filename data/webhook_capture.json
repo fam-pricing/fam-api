@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-11T06:53:58.480Z",
+  "ts": "2026-08-11T06:55:20.231Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4328451104",
-    "ticket_id": "973305914",
-    "message": "Ok",
+    "type": "OUTBOUND",
+    "message_id": "4328452132",
+    "ticket_id": "973023685",
+    "message": "Our apartments are currently open and available. We’re not sure why Google is showing otherwise.\r\n\r\nMay I kindly check if you have already arrived at the building?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "544354726",
+    "contact_name": "Vaiza Taki",
+    "contact_identifier": "+258848444033",
     "channel_id": "1304636",
-    "contact_id": "544433916",
-    "contact_name": "Vanshika",
-    "contact_identifier": "+918375004464",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
