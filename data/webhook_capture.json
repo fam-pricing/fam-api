@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-11T11:00:02.133Z",
+  "ts": "2026-08-11T11:00:43.807Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4328755294",
-    "ticket_id": "973383488",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "544455671",
-    "contact_name": "alex",
-    "contact_identifier": "+380972452745",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4328756067",
+    "ticket_id": "973375358",
+    "message": "Would 10:00 AM on August 16th work for the viewing?\nAlso, since Ejari isn't provided, could you issue an official confirmation letter or document proving my tenancy here instead?\nThanks!",
+    "channel_id": "1304636",
+    "contact_id": "544454678",
+    "contact_name": "Akihiro",
+    "contact_identifier": "+971505588178",
+    "parent_message_id": "4328751305",
+    "parent_ticket_id": "973375358",
+    "event_type": "INBOUND"
   }
 }
