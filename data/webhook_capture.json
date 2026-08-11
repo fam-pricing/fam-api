@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-11T14:10:19.433Z",
+  "ts": "2026-08-11T14:10:33.359Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4329015200",
+    "type": "INBOUND",
+    "message_id": "4329015551",
     "ticket_id": "972921238",
-    "message": "Yes, it requires outsource team to clean with the machine, which we don't have it",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Ok",
+    "channel_id": "1304636",
     "contact_id": "542138263",
     "contact_name": "Brian",
     "contact_identifier": "+971588425620",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4329015200",
+    "parent_ticket_id": "972921238",
+    "event_type": "INBOUND"
   }
 }
