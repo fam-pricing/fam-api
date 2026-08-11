@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-11T09:04:17.037Z",
+  "ts": "2026-08-11T09:04:48.044Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4328621848",
+    "type": "OUTBOUND",
+    "message_id": "4328622450",
     "ticket_id": "973345747",
-    "message": "Aside from the deposit, is there anything else not included in this last property?",
-    "channel_id": "1304636",
+    "message": "The deposit is the only extra cost, nothing else on top.\n\nYou've got two options for September 20, both within your budget. The Downtown Views 2 at AED 8,000/month is the closer one to the metro. Which of the two would you like to visit first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544445475",
     "contact_name": "Ocupado",
     "contact_identifier": "+59176380565",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
