@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-11T14:06:10.518Z",
+  "ts": "2026-08-11T14:06:32.576Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4329009886",
+    "type": "OUTBOUND",
+    "message_id": "4329010467",
     "ticket_id": "972921238",
-    "message": "Ok",
-    "channel_id": "1304636",
+    "message": "The bathroom was found broken in the room where the guy you fought",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "542138263",
     "contact_name": "Brian",
     "contact_identifier": "+971588425620",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
