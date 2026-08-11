@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-11T11:43:52.534Z",
+  "ts": "2026-08-11T11:43:59.865Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4328804190",
-    "ticket_id": "973391766",
-    "message": "We have already submitted the vehicle details from our side. However, it may take some time for the system to reflect the update.\r\n\r\nIn case the barrier does not open, you may kindly show this email to the security team for verification.\r\n\r\nThank you for your understanding and cooperation.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "543078183",
-    "contact_name": "Ahmed Shehab Ahmed Ali Alsaadi",
-    "contact_identifier": "+971557999949",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4328804313",
+    "ticket_id": "973345747",
+    "message": "When will someone write me?",
+    "channel_id": "1304636",
+    "contact_id": "544445475",
+    "contact_name": "Ocupado",
+    "contact_identifier": "+59176380565",
+    "parent_message_id": "4328623258",
+    "parent_ticket_id": "973345747",
+    "event_type": "INBOUND"
   }
 }
