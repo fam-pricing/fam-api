@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-11T08:23:12.099Z",
+  "ts": "2026-08-11T08:23:30.586Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4328572958",
+    "type": "OUTBOUND",
+    "message_id": "4328573328",
     "ticket_id": "973227316",
-    "message": "I want to see the property first",
-    "channel_id": "1304636",
+    "message": "What day and time works for you? Viewings are available any day between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544410312",
     "contact_name": "Rahul Sharma",
     "contact_identifier": "+971501041452",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
