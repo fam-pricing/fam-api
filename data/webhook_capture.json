@@ -1,17 +1,19 @@
 {
-  "ts": "2026-08-11T12:40:20.401Z",
+  "ts": "2026-08-11T12:40:21.968Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4328869970",
-    "ticket_id": "973411375",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
-    "contact_id": "544463923",
-    "contact_name": "Дарья",
-    "contact_identifier": "+79817201430",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4328870038",
+    "ticket_id": "973344325",
+    "message": "👍",
+    "channel_id": "1304636",
+    "contact_id": "544445011",
+    "contact_name": "Sarah🤍✨",
+    "contact_identifier": "+971502656993",
+    "parent_message_id": "4328868653",
+    "parent_ticket_id": "973344325",
+    "event_type": "INBOUND"
   }
 }
