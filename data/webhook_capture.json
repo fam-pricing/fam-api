@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-11T10:00:08.686Z",
+  "ts": "2026-08-11T10:02:24.265Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4328685736",
+    "type": "INBOUND",
+    "message_id": "4328688420",
     "ticket_id": "953019973",
-    "message": "We received the confirmation from our team that the cost for the new microwave is 300 AED",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "If we don't repair it and leave it as is, will this amount be deducted from us when we move out of the apartment?",
+    "channel_id": "585723",
     "contact_id": "536585155",
     "contact_name": "Muhammad",
     "contact_identifier": "+971561683935",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
