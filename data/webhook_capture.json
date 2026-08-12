@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-12T14:28:40.088Z",
+  "ts": "2026-08-12T14:28:53.339Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4329968852",
-    "ticket_id": "973690675",
-    "message": "All-inclusive at AED 8,500/month, so water, electricity, and internet are covered. The only extra is a refundable security deposit of AED 1,500. Want to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "544549107",
-    "contact_name": "MUHAMMADALI",
-    "contact_identifier": "+998937810112",
+    "type": "INBOUND",
+    "message_id": "4329969085",
+    "ticket_id": "972921238",
+    "message": "So who gave this price of 750 Dirham",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
+    "parent_message_id": "4329968586",
+    "parent_ticket_id": "972921238",
+    "event_type": "INBOUND"
   }
 }
