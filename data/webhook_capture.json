@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-12T15:56:26.338Z",
+  "ts": "2026-08-12T15:56:46.008Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4330054881",
+    "type": "OUTBOUND",
+    "message_id": "4330055132",
     "ticket_id": "973711854",
-    "message": "Is it available for 1 sep- 1 October",
-    "channel_id": "1304636",
+    "message": "Yes, it's available September 1 to October 1 at AED 8,500/month all-inclusive. Would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544556274",
     "contact_name": "Louis Bang",
     "contact_identifier": "+971525362708",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
