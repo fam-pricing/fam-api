@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-12T11:04:10.536Z",
+  "ts": "2026-08-12T11:04:54.400Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4329739270",
+    "type": "OUTBOUND",
+    "message_id": "4329740087",
     "ticket_id": "973637245",
-    "message": "Hello. I am looking for an apartment from 30th August and saw this one. I am currently living in Port de la Mer but wanted somewhere more central with better access to other facilities. This apartment looks perfect. \nCould you tell me how long it might be available for and what the monthly and upfront/ongoing costs might be?",
-    "channel_id": "1304636",
+    "message": "The Elite Business Bay listing is available from 30th August and you can stay as long as you like, extending in 3-month blocks at a confirmed rate each time. There's a 1BR at AED 7,000/month and a 2BR at AED 7,500/month, both fully all-inclusive covering water, electricity, internet, and VAT, with just a refundable security deposit of AED 1,500 or AED 2,000 respectively.\n\nWhich size were you considering?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544529540",
     "contact_name": "Stephen Barratt",
     "contact_identifier": "+447980717258",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
