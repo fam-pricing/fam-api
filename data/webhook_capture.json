@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-12T13:41:05.301Z",
+  "ts": "2026-08-12T13:41:09.375Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4329914499",
+    "type": "INBOUND",
+    "message_id": "4329914569",
     "ticket_id": "973621680",
-    "message": "sure Alim",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Of course 🤝",
+    "channel_id": "1304636",
     "contact_id": "542447225",
     "contact_name": "Alim",
     "contact_identifier": "+77029993929",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4329913830",
+    "parent_ticket_id": "973621680",
+    "event_type": "INBOUND"
   }
 }
