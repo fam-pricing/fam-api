@@ -3394,5 +3394,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-08-12T21:53:47.071Z",
+    "ticket_id": 973756631,
+    "lead_id": "message_lead_31220157",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1001,
+    "critic_pass": null,
+    "lead_quality": 5,
+    "buying_stage": "COLD",
+    "skip_reason": "ticket_locked"
   }
 ]
