@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-12T13:39:41.695Z",
+  "ts": "2026-08-12T13:39:46.266Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4329912925",
+    "type": "OUTBOUND",
+    "message_id": "4329913001",
     "ticket_id": "973621680",
-    "message": "Is it possible just to get access now?",
-    "channel_id": "1304636",
+    "message": "Unfortunately, the full payment must be made in advance. However, we can wait until tomorrow, so you may update us once the second payment has been completed.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542447225",
     "contact_name": "Alim",
     "contact_identifier": "+77029993929",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
