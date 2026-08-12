@@ -1,17 +1,19 @@
 {
-  "ts": "2026-08-12T15:16:10.144Z",
+  "ts": "2026-08-12T15:24:07.860Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4330019802",
-    "ticket_id": "973344833",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "544445162",
-    "contact_name": "Joseph Nezam",
-    "contact_identifier": "+33651849149",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4330027673",
+    "ticket_id": "973694322",
+    "message": "Good morning,\n\nPlease find my details below for the refund of my security deposit:\n\nBooking Reference Number: GY-XYC7tVD4\nBeneficiary Name: Brian Nelson Inholo\nBeneficiary Bank Name: Mashreq Bank\nAccount Number: 019101837689\nIBAN: AE100330000019101837689\nCurrency of Account: AED\n\nhave attached the booking confirmation and payment receipt for your reference and verification.\n\nThe security deposit paid for my booking was AED 3,000.\n\nI would greatly appreciate your assistance in processing the refund as soon as possible. I am currently checking out and travelling out of the country today, so I would be very grateful if the refund could be expedited.\n\nThank you very much for your understanding and assistance.\n\nKind regards,\nBrian Nelson Inholo\n\n+971588425620",
+    "channel_id": "1304636",
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
+    "parent_message_id": "4329992057",
+    "parent_ticket_id": "973694322",
+    "event_type": "INBOUND"
   }
 }
