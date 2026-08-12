@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-12T11:07:45.849Z",
+  "ts": "2026-08-12T11:08:11.882Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4329743106",
+    "type": "OUTBOUND",
+    "message_id": "4329743638",
     "ticket_id": "973637245",
-    "message": "I was considering 2 bed. My wife will join me in September and our son may visit occasionally. \nSo if my calculations are correct for the 2 bed you would need a payment of AED 24,500 for an initial 3 months?",
-    "channel_id": "1304636",
+    "message": "Your maths is right, AED 22,500 rent plus the AED 2,000 deposit comes to AED 24,500 for the first 3 months. Would you like to arrange a viewing before committing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544529540",
     "contact_name": "Stephen Barratt",
     "contact_identifier": "+447980717258",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
