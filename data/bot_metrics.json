@@ -3418,5 +3418,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-08-12T14:51:58.294Z",
+    "ticket_id": 973698506,
+    "lead_id": "message_lead_31212785",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 26984,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "Lead is explicitly requesting to speak to a human agent."
   }
 ]
