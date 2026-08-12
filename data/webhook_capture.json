@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-12T12:29:46.052Z",
+  "ts": "2026-08-12T12:29:46.671Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4329835350",
+    "type": "INBOUND",
+    "message_id": "4329835358",
     "ticket_id": "943915428",
-    "message": "how many month you need ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "How much?",
+    "channel_id": "585723",
     "contact_id": "536484706",
     "contact_name": "Raja Sajid 🇦🇪",
     "contact_identifier": "+971566960509",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4329835101",
+    "parent_ticket_id": "943915428",
+    "event_type": "INBOUND"
   }
 }
