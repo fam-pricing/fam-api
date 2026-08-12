@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-12T10:55:18.714Z",
+  "ts": "2026-08-12T10:56:46.752Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4329729574",
+    "type": "INBOUND",
+    "message_id": "4329731150",
     "ticket_id": "973633327",
-    "message": "Sounds good, take your time showing her. Anything she'd like to know about the place before you come back?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "❤️",
+    "channel_id": "1304636",
     "contact_id": "544528400",
     "contact_name": "Nikolai Lazarev",
     "contact_identifier": "+971508751162",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4329729574",
+    "parent_ticket_id": "973633327",
+    "event_type": "INBOUND"
   }
 }
