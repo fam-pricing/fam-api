@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-12T07:52:18.742Z",
+  "ts": "2026-08-12T07:53:28.268Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4329509403",
+    "type": "OUTBOUND",
+    "message_id": "4329510441",
     "ticket_id": "973553594",
-    "message": "Any other option",
-    "channel_id": "585723",
+    "message": "Oh, unfortunately, we do not have any 1-bedroom apartments within your budget. Our 1-bedroom rates start from AED 6,000 per month, while studio apartments start from AED 5,000 per month.\r\n\r\nPlease also note that the rates vary each month depending on market conditions.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544507748",
     "contact_name": "Sonal",
     "contact_identifier": "+971522891309",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
