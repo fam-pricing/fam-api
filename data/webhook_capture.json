@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-12T05:42:22.572Z",
+  "ts": "2026-08-12T05:42:33.133Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4329410651",
+    "type": "OUTBOUND",
+    "message_id": "4329410711",
     "ticket_id": "973503168",
-    "message": "I need a studio in business bay from 15th august onwards",
-    "channel_id": "585723",
+    "message": "May I kindly know how many bedrooms you are looking for and the duration of your stay in months? This will help us check the available options for you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544493759",
     "contact_name": "MS",
     "contact_identifier": "+971585438908",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
