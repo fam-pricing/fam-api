@@ -1718,3 +1718,7 @@ Please note that viewings can only be arranged before 6:00 PM. Alternatively, we
 ## Learned (2026-08-10)
 - If a lead says "Is it okay?" or gives a vague confirmation regarding ID submission, respond with: "Please note that we require a clear photo of your ID."
   (Learned from Faysal handling A re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-hills-estate-executive-residences-executive-residences-2-69093988.html)
+
+## Learned (2026-08-12)
+- When a lead asks whether the deposit or fees are refundable, clarify that the pet fee is non-refundable.
+  (Learned from Faysal handling nikola🤍 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-beach-residence-shams-shams-1-109026225.html)
