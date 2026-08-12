@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-12T09:05:07.289Z",
+  "ts": "2026-08-12T09:06:36.370Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4329604646",
-    "ticket_id": "969319706",
-    "message": "Please allow us some time to check. From our side, as the Reservations Team, we only have information regarding the security deposit.\r\n\r\nHowever, we will check with Mona and the Finance Team to confirm whether the amount has been received. Once confirmed, they will proceed with the necessary process.\r\n\r\nThank you for your patience and understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "429067884",
-    "contact_name": "Mrs SHAGHAYEGH SADEGHI",
-    "contact_identifier": "+971501086642",
+    "type": "INBOUND",
+    "message_id": "4329606672",
+    "ticket_id": "899852531",
+    "message": "Ok I could look into booking this but I need cancellation flexibility",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "473604372",
+    "contact_name": "Marianna",
+    "contact_identifier": "+971509579913",
+    "parent_message_id": "4326944258",
+    "parent_ticket_id": "899852531",
+    "event_type": "INBOUND"
   }
 }
