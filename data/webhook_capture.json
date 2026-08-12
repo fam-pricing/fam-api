@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-12T06:06:02.757Z",
+  "ts": "2026-08-12T06:10:18.545Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4329420873",
-    "ticket_id": "973488728",
-    "message": "Image",
+    "type": "OUTBOUND",
+    "message_id": "4329423158",
+    "ticket_id": "973540487",
+    "message": "Let me check on the parking for you and come back shortly!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "544504941",
+    "contact_name": "Noura",
+    "contact_identifier": "+971503086221",
     "channel_id": "1304636",
-    "contact_id": "544488791",
-    "contact_name": "Naheed Real Estate",
-    "contact_identifier": "+971503948523",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
