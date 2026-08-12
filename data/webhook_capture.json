@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-12T11:16:37.634Z",
+  "ts": "2026-08-12T11:17:13.212Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4329753416",
+    "type": "INBOUND",
+    "message_id": "4329754106",
     "ticket_id": "959587621",
-    "message": "As I didn't hear back from you in a while, I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "They can come friday 9 am",
+    "channel_id": "585723",
     "contact_id": "540691470",
     "contact_name": "ramiza",
     "contact_identifier": "+971566548614",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4329444783",
+    "parent_ticket_id": "959587621",
+    "event_type": "INBOUND"
   }
 }
