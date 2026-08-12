@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-12T08:07:34.251Z",
+  "ts": "2026-08-12T08:08:03.344Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4329526641",
+    "type": "INBOUND",
+    "message_id": "4329527223",
     "ticket_id": "973503168",
-    "message": "As per your request, please find below the rates for a 2-month stay at Upside Living – Studio:\r\n\r\nAugust: AED 5,500\r\nSeptember: AED 6,600\r\n\r\nPlease note that a AED 2,000 refundable security deposit is required.\r\n\r\nThe booking will be processed on a monthly basis, with each month calculated as 30 nights.\r\n\r\nTo confirm and secure a 3-month or 6-month booking, the first month’s rent, last month’s rent, and security deposit must be paid in advance. Once the payment is received, we will be able to reserve the unit and secure the agreed rate for the confirmed booking period.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Today evening 8 pm?",
+    "channel_id": "585723",
     "contact_id": "544493759",
     "contact_name": "MS",
     "contact_identifier": "+971585438908",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4329526641",
+    "parent_ticket_id": "973503168",
+    "event_type": "INBOUND"
   }
 }
