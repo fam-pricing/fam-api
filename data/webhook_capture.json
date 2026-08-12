@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-12T13:42:33.307Z",
+  "ts": "2026-08-12T13:42:33.850Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4329916304",
-    "ticket_id": "950782093",
-    "message": "We moved from A2 and I am now in A5 and my passport is in the safety deposit box in A2. The house is empty, you can come anytime.",
+    "type": "OUTBOUND",
+    "message_id": "4329916314",
+    "ticket_id": "973553594",
+    "message": "May I know your budget, please?\r\n\r\nAlso, please note that we currently do not have any apartments located near a metro station.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "544507748",
+    "contact_name": "Sonal",
+    "contact_identifier": "+971522891309",
     "channel_id": "585723",
-    "contact_id": "538221049",
-    "contact_name": "Safae Idrissi",
-    "contact_identifier": "+971509882729",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
