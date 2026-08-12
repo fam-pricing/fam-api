@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-12T06:10:18.545Z",
+  "ts": "2026-08-12T06:10:26.635Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4329423158",
+    "type": "INBOUND",
+    "message_id": "4329423282",
     "ticket_id": "973540487",
-    "message": "Let me check on the parking for you and come back shortly!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "544504941",
     "contact_name": "Noura",
     "contact_identifier": "+971503086221",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4329423158",
+    "parent_ticket_id": "973540487",
+    "event_type": "INBOUND"
   }
 }
