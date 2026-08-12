@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-12T10:01:49.955Z",
+  "ts": "2026-08-12T10:03:32.955Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4329672914",
+    "type": "OUTBOUND",
+    "message_id": "4329674962",
     "ticket_id": "972001680",
-    "message": "hey there, I’m just wondering when can I get the deposit, cuz I have another trip tomorrow!?",
-    "channel_id": "585723",
+    "message": "Kindly note that the deposit will be refunded within 7 to 10 working days; however, we will send a request to finance today by the end of the day",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "544102936",
     "contact_name": "YAHYA ASSERI",
     "contact_identifier": "+966562652752",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
