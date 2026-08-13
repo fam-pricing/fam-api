@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-13T07:26:32.650Z",
+  "ts": "2026-08-13T07:27:45.101Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4330396486",
+    "type": "OUTBOUND",
+    "message_id": "4330397518",
     "ticket_id": "973789302",
-    "message": "Ok, but i was thinking like its enough because i paid more",
-    "channel_id": "1304636",
+    "message": "Pending amount was AED 2,500, but we received only AED 2,400 from you. Therefore, there is still an outstanding balance of AED 100.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542447225",
     "contact_name": "Alim",
     "contact_identifier": "+77029993929",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
