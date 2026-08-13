@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-13T07:07:49.182Z",
+  "ts": "2026-08-13T07:07:54.709Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4330379162",
+    "type": "OUTBOUND",
+    "message_id": "4330379224",
     "ticket_id": "973799728",
-    "message": "Hello, i'm trying to book a flat long term through one of your agents, wanted to check it is all good. Thank you",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "544593535",
     "contact_name": "Benoit",
     "contact_identifier": "f79317d9-79d0-4dc5-b214-34d159867346",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
