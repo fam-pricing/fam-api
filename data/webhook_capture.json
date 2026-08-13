@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-13T07:08:52.979Z",
+  "ts": "2026-08-13T07:08:54.244Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4330380087",
+    "type": "OUTBOUND",
+    "message_id": "4330380106",
     "ticket_id": "973799951",
-    "message": "Hello, i’m trying to book a long term flat through one of your agent, I wanted to check it is all ok",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "544593612",
     "contact_name": "B",
     "contact_identifier": "+33631652241",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
