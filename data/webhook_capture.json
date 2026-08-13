@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-13T07:00:55.296Z",
+  "ts": "2026-08-13T07:01:33.660Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4330372885",
+    "type": "OUTBOUND",
+    "message_id": "4330373506",
     "ticket_id": "973732444",
-    "message": "I was checking some other properties , and the prices were huge. Could you tell me why there is such a price difference for your apartment and the rest?",
-    "channel_id": "1304636",
+    "message": "Honestly, the price difference question is a fair one. Most listings on the market are priced per month with utilities on top, so the headline number looks lower but adds up fast. Ours bundles everything in, which is why it looks higher at first glance but ends up comparable or cheaper once you factor in the extras. Does that make sense, or would you like more detail on what exactly is covered?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544562674",
     "contact_name": ".",
     "contact_identifier": "+971506019437",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
