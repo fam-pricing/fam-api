@@ -3442,5 +3442,17 @@
     "lead_quality": 95,
     "buying_stage": "HOT",
     "skip_reason": "live_agent_guard"
+  },
+  {
+    "ts": "2026-08-13T07:23:26.403Z",
+    "ticket_id": 973732444,
+    "lead_id": "message_lead_31216746",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 841,
+    "critic_pass": null,
+    "lead_quality": 95,
+    "buying_stage": "HOT",
+    "skip_reason": "agent_cooldown"
   }
 ]
