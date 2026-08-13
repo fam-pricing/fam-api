@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-13T12:06:48.337Z",
+  "ts": "2026-08-13T12:07:31.580Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4330705267",
+    "type": "INBOUND",
+    "message_id": "4330705979",
     "ticket_id": "973637245",
-    "message": "We can arrange a viewing for this unit on 16th August only, as it is fully booked before that date.\r\n\r\nPlease let us know if 16th August works for you, and we will be happy to arrange the viewing accordingly.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I had an appointment for today at 4.00pm.",
+    "channel_id": "1304636",
     "contact_id": "544529540",
     "contact_name": "Stephen Barratt",
     "contact_identifier": "+447980717258",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
