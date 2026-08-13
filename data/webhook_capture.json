@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-13T10:12:21.997Z",
+  "ts": "2026-08-13T10:13:00.582Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4330578661",
+    "type": "OUTBOUND",
+    "message_id": "4330579336",
     "ticket_id": "973843859",
-    "message": "Audio",
-    "channel_id": "585723",
+    "message": "Yes, the rate for one month is AED 6,000 for 30 nights, and a refundable security deposit of AED 2,000 is also required.\r\n\r\nMay I know your preferred check-in date so we can check the availability accordingly?\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544606636",
     "contact_name": "AL ZORAH",
     "contact_identifier": "+971586870906",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
