@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-13T13:17:15.372Z",
+  "ts": "2026-08-13T13:17:18.542Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4330784904",
+    "type": "OUTBOUND",
+    "message_id": "4330784926",
     "ticket_id": "969391998",
-    "message": "I am saying my daughter",
-    "channel_id": "585723",
+    "message": "We would just like to inform you that the building management has issued a notice regarding this matter.\r\n\r\nPlease kindly ensure that this does not happen again to avoid any further complaints or issues with the building management.\r\n\r\nThank you for your cooperation and understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "539642344",
     "contact_name": "Lalita Bazhaeva",
     "contact_identifier": "+971501319454",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
