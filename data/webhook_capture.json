@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-13T12:12:41.867Z",
+  "ts": "2026-08-13T12:13:34.464Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4330711842",
+    "type": "INBOUND",
+    "message_id": "4330712740",
     "ticket_id": "973637245",
-    "message": "We currently have an in-house guest staying in the apartment who will be checking out on 16th August, which is why we mentioned that the viewing can only be arranged on that date.\r\n\r\nWe sincerely apologize for the inconvenience, but unfortunately, it is not possible to arrange a viewing before the guest checks out.\r\n\r\nThank you for your kind understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "So can we lock in a time for the 16th instead?  If we can do that now I would appreciate it.",
+    "channel_id": "1304636",
     "contact_id": "544529540",
     "contact_name": "Stephen Barratt",
     "contact_identifier": "+447980717258",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
