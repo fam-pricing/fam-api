@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-13T08:29:11.268Z",
+  "ts": "2026-08-13T08:29:18.309Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4330460224",
+    "type": "OUTBOUND",
+    "message_id": "4330460357",
     "ticket_id": "973817138",
-    "message": "Thanks I need apartment to 17 august",
-    "channel_id": "1304636",
+    "message": "Unfortunately, the apartment is no longer available.\r\n\r\nWe apologize for any inconvenience caused and appreciate your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544097098",
     "contact_name": "Claudia Acosta",
     "contact_identifier": "+971547656678",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
