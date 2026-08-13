@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-13T19:21:58.847Z",
+  "ts": "2026-08-13T19:22:42.665Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4331077884",
+    "type": "OUTBOUND",
+    "message_id": "4331078195",
     "ticket_id": "973967917",
-    "message": "hi good evening yes thanks I'm interested in 1 bedroom apartament and studio option for monthly rent",
-    "channel_id": "1304636",
+    "message": "Good evening! The listing from Property Finder is actually a 2BR, but for a 1BR we have options from AED 6,500/mo in Business Bay and City Walk, and for a studio from AED 5,100/mo in Business Bay. Which area suits you better?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544647768",
     "contact_name": "Daniel",
     "contact_identifier": "+971585297671",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
