@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-13T05:04:44.426Z",
+  "ts": "2026-08-13T05:06:22.150Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4330317641",
+    "type": "OUTBOUND",
+    "message_id": "4330318103",
     "ticket_id": "973691061",
-    "message": "✅",
-    "channel_id": "1304636",
+    "message": "Here is the payment link\r\n\r\nRent: https://totalpay.ae/payment/20260813086a7d508474b1d\r\n\r\nDeposit: https://totalpay.ae/payment/20260813076a7d50bfd52b4",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "540250794",
     "contact_name": "Lawson Okimeji",
     "contact_identifier": "+447828014094",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
