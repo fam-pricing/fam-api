@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-13T08:43:09.895Z",
+  "ts": "2026-08-13T08:44:53.867Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4330475661",
+    "type": "OUTBOUND",
+    "message_id": "4330477513",
     "ticket_id": "969319706",
-    "message": "Yes l coming today",
-    "channel_id": "585723",
+    "message": "Please allow us to check with our Finance Team first, as your payment has already been processed via bank transfer and half of the AED 3,000 security deposit has already been processed.\r\n\r\nTherefore, it may not be possible to arrange the remaining amount in cash.\r\n\r\nHowever, we will check with the Finance Team whether the remaining advance payment can be collected in cash and update you accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "429067884",
     "contact_name": "Mrs SHAGHAYEGH SADEGHI",
     "contact_identifier": "+971501086642",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
