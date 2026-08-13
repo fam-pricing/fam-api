@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-13T08:29:43.196Z",
+  "ts": "2026-08-13T08:30:18.434Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4330460873",
+    "type": "OUTBOUND",
+    "message_id": "4330461527",
     "ticket_id": "973817138",
-    "message": "Do you have other options?",
-    "channel_id": "1304636",
+    "message": "Please note that the apartment will only be available from 1st December onwards. It is fully booked before this date, and unfortunately, we do not have any other apartments available in the same location.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544097098",
     "contact_name": "Claudia Acosta",
     "contact_identifier": "+971547656678",
-    "parent_message_id": "4330460357",
-    "parent_ticket_id": "973817138",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
