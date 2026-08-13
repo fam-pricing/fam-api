@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-13T12:47:24.168Z",
+  "ts": "2026-08-13T12:48:22.211Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4330750322",
+    "type": "OUTBOUND",
+    "message_id": "4330751537",
     "ticket_id": "969319706",
-    "message": "I’m here",
-    "channel_id": "585723",
+    "message": "Your advance payment of AED 3,250 has been refunded to you in cash, correct, Mrs. Shaghayegh?\r\n\r\nPlease kindly confirm once received.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "429067884",
     "contact_name": "Mrs SHAGHAYEGH SADEGHI",
     "contact_identifier": "+971501086642",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
