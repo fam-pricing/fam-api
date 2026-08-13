@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-13T12:09:16.503Z",
+  "ts": "2026-08-13T12:10:07.954Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4330707897",
+    "type": "INBOUND",
+    "message_id": "4330708766",
     "ticket_id": "973637245",
-    "message": "Apologies for the inconvenience. Unfortunately, we currently have a confirmed booking for the apartment, so we will not be able to arrange the viewing at this time.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Isn't that booking the one I am supposed to be attending? \n\n4pm tomorrow is locked in. Just send over your passport or Emirates ID when you get a chance so we can sort building access before you arrive.",
+    "channel_id": "1304636",
     "contact_id": "544529540",
     "contact_name": "Stephen Barratt",
     "contact_identifier": "+447980717258",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
