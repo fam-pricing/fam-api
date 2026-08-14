@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-14T10:35:50.425Z",
+  "ts": "2026-08-14T10:36:11.213Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4331476764",
+    "type": "OUTBOUND",
+    "message_id": "4331477073",
     "ticket_id": "973967885",
-    "message": "Hi, this property is pet friendly?",
-    "channel_id": "1304636",
+    "message": "Let me check the pet policy for this property and come back to you shortly!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544452270",
     "contact_name": "nikola🤍",
     "contact_identifier": "+34603561581",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
