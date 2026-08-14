@@ -1,17 +1,19 @@
 {
-  "ts": "2026-08-14T13:55:07.599Z",
+  "ts": "2026-08-14T13:56:31.868Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4331674957",
-    "ticket_id": "974126695",
-    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
-    "contact_id": "544698954",
-    "contact_name": "silène renée sophie braida",
-    "contact_identifier": "aaba5886-6d58-406b-7cdb-4721bcdb5b67",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4331676301",
+    "ticket_id": "974093614",
+    "message": "Can you clarify what you mean",
+    "channel_id": "1304636",
+    "contact_id": "544689542",
+    "contact_name": "Wu",
+    "contact_identifier": "+97459943619",
+    "parent_message_id": "4331671244",
+    "parent_ticket_id": "974093614",
+    "event_type": "INBOUND"
   }
 }
