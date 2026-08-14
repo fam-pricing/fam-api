@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-14T22:26:03.018Z",
+  "ts": "2026-08-14T22:26:26.729Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4331948024",
+    "type": "OUTBOUND",
+    "message_id": "4331948089",
     "ticket_id": "974190077",
-    "message": "Yes",
-    "channel_id": "1304636",
+    "message": "Welcome! Are you looking to rent this 2BR in The Bay, Business Bay, or did you have any questions about it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544718808",
     "contact_name": "ELITE ROAMING",
     "contact_identifier": "+971567824959",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
