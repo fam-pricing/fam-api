@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-14T10:27:16.663Z",
+  "ts": "2026-08-14T10:29:27.558Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4331469004",
+    "type": "OUTBOUND",
+    "message_id": "4331470916",
     "ticket_id": "974052418",
-    "message": "No one spoke with here yet ?",
-    "channel_id": "585723",
+    "message": "We have already sent her a message via WhatsApp. She will need to confirm the message first, and once she has confirmed it, we will be able to communicate with her.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544670853",
     "contact_name": "Yahia / Dubai Real Estate Advisor",
     "contact_identifier": "+971505047943",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
