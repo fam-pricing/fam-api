@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-14T13:57:18.908Z",
+  "ts": "2026-08-14T13:58:56.952Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4331677017",
+    "type": "OUTBOUND",
+    "message_id": "4331678535",
     "ticket_id": "974119797",
-    "message": "is 205 at 1245pm tomorrow ok?",
-    "channel_id": "585723",
+    "message": "Yes, please try to arrange the viewing before 1:00 PM, as we may receive a booking for the apartment tomorrow, in which case we would be unable to provide access for the viewing.\r\n\r\nIf we receive any last-minute booking today, we will inform you accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "477936672",
     "contact_name": "Tamara K",
     "contact_identifier": "+971524533816",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
