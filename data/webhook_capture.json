@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-14T07:04:55.827Z",
+  "ts": "2026-08-14T07:05:19.613Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4331259715",
-    "ticket_id": "957746744",
-    "message": "Sure, once the payment has been completed, kindly update us and share the payment receipt for our records.\r\n\r\nAdditionally, may I kindly confirm whether you would like to extend your stay for an additional 3 days?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "540168844",
-    "contact_name": "Lori Hutchinson",
-    "contact_identifier": "+971526805792",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4331260062",
+    "ticket_id": "973986349",
+    "message": "How much month maximum please ?",
+    "channel_id": "1304636",
+    "contact_id": "544653730",
+    "contact_name": "Sam",
+    "contact_identifier": "+213665927466",
+    "parent_message_id": "4331219668",
+    "parent_ticket_id": "973986349",
+    "event_type": "INBOUND"
   }
 }
