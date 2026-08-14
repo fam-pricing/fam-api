@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-14T15:03:13.314Z",
+  "ts": "2026-08-14T15:03:39.229Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4331743160",
+    "type": "OUTBOUND",
+    "message_id": "4331743544",
     "ticket_id": "974140871",
-    "message": "The end of next week. It will be good if you can reduce the amount. Basically, my budget was 4000 AED",
-    "channel_id": "1304636",
+    "message": "Cloud Tower at AED 4,000 fits your budget exactly. Want me to send you more details on it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544703133",
     "contact_name": "Arsene",
     "contact_identifier": "+971522520734",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
