@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-14T00:03:23.830Z",
+  "ts": "2026-08-14T00:03:46.086Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4331157668",
+    "type": "OUTBOUND",
+    "message_id": "4331157737",
     "ticket_id": "973986349",
-    "message": "I see that the rental agreement is on a monthly basis; is it possible to draw up a contract for 9 months, from September 1st to May 31st?\nYou think is possible ?",
-    "channel_id": "1304636",
+    "message": "Yes, the apartment is available! And great question on the 9-month contract, let me check that with the team and come back to you shortly.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544653730",
     "contact_name": "Sam",
     "contact_identifier": "+213665927466",
-    "parent_message_id": "4331157234",
-    "parent_ticket_id": "973986349",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
