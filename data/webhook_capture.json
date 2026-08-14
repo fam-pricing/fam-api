@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-14T00:01:29.259Z",
+  "ts": "2026-08-14T00:03:23.830Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4331157234",
+    "type": "INBOUND",
+    "message_id": "4331157668",
     "ticket_id": "973986349",
-    "message": "Yes, it's available. It's a 4-bedroom in Shams 1, JBR at AED 30,000/month all-inclusive. Would you like to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I see that the rental agreement is on a monthly basis; is it possible to draw up a contract for 9 months, from September 1st to May 31st?\nYou think is possible ?",
+    "channel_id": "1304636",
     "contact_id": "544653730",
     "contact_name": "Sam",
     "contact_identifier": "+213665927466",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4331157234",
+    "parent_ticket_id": "973986349",
+    "event_type": "INBOUND"
   }
 }
