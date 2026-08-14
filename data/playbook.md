@@ -1722,3 +1722,7 @@ Please note that viewings can only be arranged before 6:00 PM. Alternatively, we
 ## Learned (2026-08-12)
 - When a lead asks whether the deposit or fees are refundable, clarify that the pet fee is non-refundable.
   (Learned from Faysal handling nikola🤍 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-beach-residence-shams-shams-1-109026225.html)
+
+## Learned (2026-08-14)
+- When a lead says "Thank you," respond by letting them know that we do not offer Ejari contracts.
+  (Learned from Faysal handling Wu re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-101258625.html)
