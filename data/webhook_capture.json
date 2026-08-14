@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-14T10:48:31.876Z",
+  "ts": "2026-08-14T10:49:21.555Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4331488372",
+    "type": "OUTBOUND",
+    "message_id": "4331489107",
     "ticket_id": "974053180",
-    "message": "Payment",
-    "channel_id": "585723",
+    "message": "Please note that we do not accept cheques payment should be completed either by a secured payment link or bank transfer",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544671117",
     "contact_name": "Khaoula Zarrouk",
     "contact_identifier": "+971504443782",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
