@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-14T00:01:07.433Z",
+  "ts": "2026-08-14T00:01:29.259Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4331157141",
+    "type": "OUTBOUND",
+    "message_id": "4331157234",
     "ticket_id": "973986349",
-    "message": "Hello this appartement is available ?",
-    "channel_id": "1304636",
+    "message": "Yes, it's available. It's a 4-bedroom in Shams 1, JBR at AED 30,000/month all-inclusive. Would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544653730",
     "contact_name": "Sam",
     "contact_identifier": "+213665927466",
-    "parent_message_id": "4331151404",
-    "parent_ticket_id": "973986349",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
