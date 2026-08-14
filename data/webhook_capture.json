@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-14T16:10:52.467Z",
+  "ts": "2026-08-14T16:12:04.543Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4331793771",
+    "type": "INBOUND",
+    "message_id": "4331794433",
     "ticket_id": "973345747",
-    "message": "This rate includes water, electricity, Wi-Fi, and DTCM charges.\r\n\r\nPlease note, however, that daily housekeeping is not included. If you require cleaning services, we would be happy to arrange them for you at an additional charge per cleaning service.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Ok but housekeepong is not a mandatory charge correct?",
+    "channel_id": "1304636",
     "contact_id": "544445475",
     "contact_name": "Ocupado",
     "contact_identifier": "+59176380565",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4331793771",
+    "parent_ticket_id": "973345747",
+    "event_type": "INBOUND"
   }
 }
