@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-14T08:04:22.630Z",
+  "ts": "2026-08-14T08:18:02.613Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4331314958",
+    "type": "OUTBOUND",
+    "message_id": "4331328592",
     "ticket_id": "974003311",
-    "message": "May I have a reply now? Or else I will not be able to come",
-    "channel_id": "1304636",
+    "message": "Apologies for the delay,\r\n\r\nMay I kindly know the date you are looking to start your stay and the duration you require? This will allow us to check the availability and provide you with the applicable rate.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544402680",
     "contact_name": "Amanda",
     "contact_identifier": "+971521108134",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
