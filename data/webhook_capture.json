@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-14T21:56:30.640Z",
+  "ts": "2026-08-14T22:25:48.024Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4331941947",
-    "ticket_id": "974186598",
-    "message": "??",
+    "type": "OUTBOUND",
+    "message_id": "4331947980",
+    "ticket_id": "974190077",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-the-bay-2PZWbS2FraC.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "544718808",
+    "contact_name": "ELITE ROAMING",
+    "contact_identifier": "+971567824959",
     "channel_id": "1304636",
-    "contact_id": "544717641",
-    "contact_name": "Asena",
-    "contact_identifier": "+971585179544",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
