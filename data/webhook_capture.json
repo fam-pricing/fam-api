@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-14T14:57:31.298Z",
+  "ts": "2026-08-14T14:57:50.379Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4331737307",
-    "ticket_id": "974140871",
-    "message": "It's a studio at Upside Living in Business Bay, are you looking to move in soon, or still comparing options?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "544703133",
-    "contact_name": "Arsene",
-    "contact_identifier": "+971522520734",
+    "type": "INBOUND",
+    "message_id": "4331737620",
+    "ticket_id": "973345747",
+    "message": "Hello,\n\nWhat is included in the price you mention? Water, gas, electricity, wifi… \nWhat is NOT included besides the Refundable Security Deposit: AED 3,000?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "544445475",
+    "contact_name": "Ocupado",
+    "contact_identifier": "+59176380565",
+    "parent_message_id": "4328916195",
+    "parent_ticket_id": "973345747",
+    "event_type": "INBOUND"
   }
 }
