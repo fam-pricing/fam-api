@@ -1726,3 +1726,9 @@ Please note that viewings can only be arranged before 6:00 PM. Alternatively, we
 ## Learned (2026-08-14)
 - When a lead says "Thank you," respond by letting them know that we do not offer Ejari contracts.
   (Learned from Faysal handling Wu re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-101258625.html)
+
+## Learned (2026-08-14)
+- When a lead asks what is included in the price and what is not included (aside from the Refundable Security Deposit of AED 3,000), respond with the following:
+
+The rate includes water, electricity, Wi-Fi, and DTCM charges. Please note that daily housekeeping is not included. Should you require cleaning services, we would be happy to arrange them at an additional charge per session.
+  (Learned from Faysal handling Ocupado re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-arjan-miraclz-tower-by-danube-93143563.html)
