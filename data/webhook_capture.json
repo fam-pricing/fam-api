@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-14T06:39:46.141Z",
+  "ts": "2026-08-14T06:46:49.936Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4331242135",
-    "ticket_id": "974001923",
-    "message": "Can we visit tomorrow at 9/9:30 am?",
+    "type": "OUTBOUND",
+    "message_id": "4331246553",
+    "ticket_id": "974003311",
+    "message": "Sure however may I know what are the stuff you need to clarify so I can check for them and arrange a call for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544402680",
+    "contact_name": "Amanda",
+    "contact_identifier": "+971521108134",
     "channel_id": "1304636",
-    "contact_id": "537955141",
-    "contact_name": "Paula Schuppel",
-    "contact_identifier": "+971523230602",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
