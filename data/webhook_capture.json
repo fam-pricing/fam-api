@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-14T13:47:35.993Z",
+  "ts": "2026-08-14T13:48:26.806Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4331667873",
+    "type": "INBOUND",
+    "message_id": "4331668700",
     "ticket_id": "974093614",
-    "message": "We work in 3-month blocks rather than 2-year leases, but you can stay as long as you like by renewing each period. Viewings are available any day next week between 9am and 6pm. What day suits you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Okay sounds fabulous \nI will be back there on 18th August. So I can come on that day ?",
+    "channel_id": "1304636",
     "contact_id": "544689542",
     "contact_name": "Wu",
     "contact_identifier": "+97459943619",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4331667873",
+    "parent_ticket_id": "974093614",
+    "event_type": "INBOUND"
   }
 }
