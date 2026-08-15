@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-15T06:56:55.686Z",
+  "ts": "2026-08-15T06:57:32.589Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332029912",
+    "type": "INBOUND",
+    "message_id": "4332030107",
     "ticket_id": "957524557",
-    "message": "Can we know your estimated departure time ?",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "I have already vacated the apartment",
+    "channel_id": "585723",
     "contact_id": "537865623",
     "contact_name": "UMAIR SALEEM",
     "contact_identifier": "+923314067795",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4332029912",
+    "parent_ticket_id": "957524557",
+    "event_type": "INBOUND"
   }
 }
