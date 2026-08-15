@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-15T08:46:42.604Z",
+  "ts": "2026-08-15T08:47:00.114Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332079857",
+    "type": "OUTBOUND",
+    "message_id": "4332079981",
     "ticket_id": "974119797",
-    "message": "It’s locked",
-    "channel_id": "585723",
+    "message": "Door code - 8080",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "477936672",
     "contact_name": "Tamara K",
     "contact_identifier": "+971524533816",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
