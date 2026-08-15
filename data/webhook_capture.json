@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-15T04:22:16.185Z",
+  "ts": "2026-08-15T04:22:40.073Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4331997065",
+    "type": "OUTBOUND",
+    "message_id": "4331997123",
     "ticket_id": "974190077",
-    "message": "From aug 25 to sep 25",
-    "channel_id": "1304636",
+    "message": "That works out to one month, are you happy to go ahead and book, or would you like to come see it first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544718808",
     "contact_name": "ELITE ROAMING",
     "contact_identifier": "+971567824959",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
