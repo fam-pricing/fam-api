@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-15T20:00:10.396Z",
+  "ts": "2026-08-15T20:00:26.935Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332416674",
+    "type": "OUTBOUND",
+    "message_id": "4332416756",
     "ticket_id": "974310448",
-    "message": "Available ?",
-    "channel_id": "1304636",
+    "message": "The 2BR in City Walk is available now. Want to pop by for a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544753093",
     "contact_name": "Lama",
     "contact_identifier": "+96171323226",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
