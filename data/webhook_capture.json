@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-15T06:32:24.795Z",
+  "ts": "2026-08-15T06:32:34.548Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332022050",
-    "ticket_id": "957524557",
-    "message": "We hope you enjoyed your stay; please let us know your expected check-out time so we can arrange it accordingly.\n\n* Our standard check-out time is between 10:00 AM and 12:00 PM.*\n\n_Please note if you self-checkout without the presence of our staff for inspection, then you consent acceptance to any damage(s) reported by admin staff._",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "537865623",
-    "contact_name": "UMAIR SALEEM",
-    "contact_identifier": "+923314067795",
+    "type": "INBOUND",
+    "message_id": "4332022122",
+    "ticket_id": "969915930",
+    "message": "Hi, \nI can see on Airbnb that now the apartment is available with checkout on the 4th of October. \nWould you be able to extend our stay from the 3rd to the 4th of October please? \nThank you",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "543574598",
+    "contact_name": "Sabrina",
+    "contact_identifier": "+971559529037",
+    "parent_message_id": "4317575236",
+    "parent_ticket_id": "969915930",
+    "event_type": "INBOUND"
   }
 }
