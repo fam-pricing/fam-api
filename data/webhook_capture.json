@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-15T16:13:28.884Z",
+  "ts": "2026-08-15T16:13:45.103Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332324400",
+    "type": "INBOUND",
+    "message_id": "4332325617",
     "ticket_id": "974282750",
-    "message": "Yes, bills are included, water, electricity, and internet.\n\nWhat time tomorrow works for you? Anywhere between 9am and 6pm.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "??",
+    "channel_id": "1304636",
     "contact_id": "544566462",
     "contact_name": "Cafy Fabio",
     "contact_identifier": "+971567022947",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4332324004",
+    "parent_ticket_id": "974282750",
+    "event_type": "INBOUND"
   }
 }
