@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-15T06:57:38.985Z",
+  "ts": "2026-08-15T06:58:00.432Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332030133",
+    "type": "OUTBOUND",
+    "message_id": "4332030303",
     "ticket_id": "957524557",
-    "message": "All is clear",
-    "channel_id": "585723",
+    "message": "Can you confirm where did you left the access card please ?",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "537865623",
     "contact_name": "UMAIR SALEEM",
     "contact_identifier": "+923314067795",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
