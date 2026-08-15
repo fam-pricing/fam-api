@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-15T12:51:33.919Z",
+  "ts": "2026-08-15T12:54:29.864Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332206735",
-    "ticket_id": "974261756",
-    "message": "The listed rate is AED 14,000/month. AED 11,500 is a fair stretch from that, but if you can come up a bit closer, I'm happy to put it forward and see what we can do. On the longer stay, what sort of monthly rate were you thinking if you did commit to the full 6 months?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "544739046",
-    "contact_name": "NSI",
-    "contact_identifier": "+32488256868",
+    "type": "INBOUND",
+    "message_id": "4332208149",
+    "ticket_id": "974251000",
+    "message": "Too far from DIFC",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "544735233",
+    "contact_name": "Na",
+    "contact_identifier": "+23057925416",
+    "parent_message_id": "4332183086",
+    "parent_ticket_id": "974251000",
+    "event_type": "INBOUND"
   }
 }
