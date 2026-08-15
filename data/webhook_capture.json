@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-15T05:20:10.238Z",
+  "ts": "2026-08-15T05:20:21.701Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332005132",
-    "ticket_id": "974147297",
-    "message": "hello?",
-    "channel_id": "1304636",
-    "contact_id": "542363829",
-    "contact_name": "Micah Meijer",
-    "contact_identifier": "+31655135580",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4332005161",
+    "ticket_id": "974206570",
+    "message": "May I know is this an Ejari unit?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "497459600",
+    "contact_name": "Jordan",
+    "contact_identifier": "+16315213358",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
