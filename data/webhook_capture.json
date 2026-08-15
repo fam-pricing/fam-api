@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-15T11:26:51.350Z",
+  "ts": "2026-08-15T11:27:25.500Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332166207",
+    "type": "OUTBOUND",
+    "message_id": "4332166498",
     "ticket_id": "974251000",
-    "message": "This one best but what is the metro distance from DIFC",
-    "channel_id": "1304636",
+    "message": "Business Bay metro is one stop to DIFC on the Red Line, about 5 minutes door to door.\n\nThe gap from your budget is AED 500, want me to see if there's any flexibility on that?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544735233",
     "contact_name": "Na",
     "contact_identifier": "+23057925416",
-    "parent_message_id": "4332164718",
-    "parent_ticket_id": "974251000",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
