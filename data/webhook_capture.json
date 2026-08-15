@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-15T11:28:57.939Z",
+  "ts": "2026-08-15T11:30:01.937Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332167237",
+    "type": "INBOUND",
+    "message_id": "4332167809",
     "ticket_id": "974251000",
-    "message": "Here are the photos: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html. September 17 works and we can lock the rate for 3-month blocks so you're covered for the full year. Does AED 5,500 suit your budget?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Send me link for this one as well",
+    "channel_id": "1304636",
     "contact_id": "544735233",
     "contact_name": "Na",
     "contact_identifier": "+23057925416",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4332164718",
+    "parent_ticket_id": "974251000",
+    "event_type": "INBOUND"
   }
 }
