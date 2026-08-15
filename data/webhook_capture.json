@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-15T11:25:18.361Z",
+  "ts": "2026-08-15T11:26:51.350Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332165522",
+    "type": "INBOUND",
+    "message_id": "4332166207",
     "ticket_id": "974251000",
-    "message": "Business Bay metro is right at the doorstep, one stop to DIFC on the Red Line, so you're looking at about 5 minutes door to door.\n\nIf AED 5,500/month works, the Upside Living studio is ready for your September 17 move-in. Want to take a look at it first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "This one best but what is the metro distance from DIFC",
+    "channel_id": "1304636",
     "contact_id": "544735233",
     "contact_name": "Na",
     "contact_identifier": "+23057925416",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4332164718",
+    "parent_ticket_id": "974251000",
+    "event_type": "INBOUND"
   }
 }
