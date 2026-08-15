@@ -1736,3 +1736,7 @@ The rate includes water, electricity, Wi-Fi, and DTCM charges. Please note that 
 ## Learned (2026-08-15)
 - When a lead asks whether there are any VAT charges, agency fees, or other hidden costs, confirm that VAT is already included in the quoted rate and that no agency fees are charged.
   (Learned from Faysal handling Ocupado re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-arjan-miraclz-tower-by-danube-93143563.html)
+
+## Learned (2026-08-15)
+- If the lead confirms interest, respond with: Please note that we are unable to confirm the rental rate at this stage, as our rates are dynamic and subject to change based on current market conditions.
+  (Learned from Faysal handling Asena re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-arjan-miraclz-tower-by-danube-93143563.html)
