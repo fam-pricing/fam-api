@@ -1,41 +1,5 @@
 [
   {
-    "ts": "2026-08-08T11:11:27.242Z",
-    "ticket_id": 972731062,
-    "lead_id": "message_lead_31111913",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1001,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-08-08T11:13:21.735Z",
-    "ticket_id": 972731062,
-    "lead_id": "message_lead_31111913",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 19896,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "Lead is asking about 2BR + maid's room in Downtown from 15th August to December. Faysal already flagged needing to confirm if Reehan 1 has a maid's room before proceeding. Need confirmation on this before we can answer the lead. Also, stay from Aug 15 to December is approximately 4.5 months, which is beyond the 3-month pricing block."
-  },
-  {
-    "ts": "2026-08-08T11:13:45.959Z",
-    "ticket_id": 972731062,
-    "lead_id": "message_lead_31111913",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 899,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "acknowledgment_skip"
-  },
-  {
     "ts": "2026-08-08T11:40:20.231Z",
     "ticket_id": 972711795,
     "lead_id": "message_lead_31109479",
@@ -3838,5 +3802,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-08-15T11:23:28.255Z",
+    "ticket_id": 974251000,
+    "lead_id": "message_lead_31278785",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1259,
+    "critic_pass": null,
+    "lead_quality": 20,
+    "buying_stage": "COOL",
+    "skip_reason": "ticket_locked"
   }
 ]
