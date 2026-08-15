@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-15T04:43:51.619Z",
+  "ts": "2026-08-15T04:53:51.410Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4331999843",
-    "ticket_id": "947609821",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537450284",
-    "contact_name": "Alisa",
-    "contact_identifier": "+79817821817",
+    "type": "INBOUND",
+    "message_id": "4332001171",
+    "ticket_id": "974206570",
+    "message": "Hello, I would like to submit a maintenance request. Is someone able to come by? Thanks! \n\n- doorbell not working\n- ⁠lights in bathroom vanity mirror not working\n- ⁠curtains in living room",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "497459600",
+    "contact_name": "Jordan",
+    "contact_identifier": "+16315213358",
+    "event_type": "INBOUND"
   }
 }
