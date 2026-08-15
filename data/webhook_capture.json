@@ -1,17 +1,16 @@
 {
-  "ts": "2026-08-15T15:19:05.901Z",
+  "ts": "2026-08-15T15:21:01.915Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332276528",
-    "ticket_id": "974261756",
-    "message": "I can still see the apartment listed on the website. Is it still available?\n\nAnd if so, what is the best final monthly price you can offer me?",
-    "channel_id": "1304636",
-    "contact_id": "544739046",
-    "contact_name": "NSI",
-    "contact_identifier": "+32488256868",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4332277351",
+    "ticket_id": "974278096",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
+    "contact_id": "544744754",
+    "contact_name": "Nibras",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
