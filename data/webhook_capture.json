@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-15T06:56:26.653Z",
+  "ts": "2026-08-15T06:56:55.686Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332029775",
-    "ticket_id": "974206570",
-    "message": "Thanks!",
+    "type": "OUTBOUND",
+    "message_id": "4332029912",
+    "ticket_id": "957524557",
+    "message": "Can we know your estimated departure time ?",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "537865623",
+    "contact_name": "UMAIR SALEEM",
+    "contact_identifier": "+923314067795",
     "channel_id": "585723",
-    "contact_id": "497459600",
-    "contact_name": "Jordan",
-    "contact_identifier": "+16315213358",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
