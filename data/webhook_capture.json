@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-15T12:51:03.389Z",
+  "ts": "2026-08-15T12:51:33.919Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332206493",
+    "type": "OUTBOUND",
+    "message_id": "4332206735",
     "ticket_id": "974261756",
-    "message": "Hello,\n\nI am interested in your apartment for a one-month rental starting from August 20th.\n\nIf the apartment suits me and remains available, I may extend my stay for several months, possibly up to 6 months.\n\nFor the first month, I would like to offer AED 11,500.\n\nIf this offer is acceptable, I am ready to move forward quickly and confirm the booking.\n\nPlease let me know if this would be possible.\n\nKind regards,\nBench",
-    "channel_id": "1304636",
+    "message": "The listed rate is AED 14,000/month. AED 11,500 is a fair stretch from that, but if you can come up a bit closer, I'm happy to put it forward and see what we can do. On the longer stay, what sort of monthly rate were you thinking if you did commit to the full 6 months?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544739046",
     "contact_name": "NSI",
     "contact_identifier": "+32488256868",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
