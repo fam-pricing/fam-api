@@ -1,19 +1,16 @@
 {
-  "ts": "2026-08-15T15:25:32.560Z",
+  "ts": "2026-08-15T15:26:52.008Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332279436",
+    "type": "INBOUND",
+    "message_id": "4332279973",
     "ticket_id": "974278096",
-    "message": "How can I help you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Hi Tharushi, thank you for contacting me.\n\nI’m looking for a fully furnished 3-bedroom apartment at a reasonable price, preferably close to Meydan / Azizi Riviera.\n\nIf you have any available options, could you please send me the price, location, photos, and a video tour if available?",
+    "channel_id": "585723",
     "contact_id": "544744754",
     "contact_name": "Nibras",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
