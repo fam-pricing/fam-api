@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-15T20:14:57.578Z",
+  "ts": "2026-08-15T20:15:27.091Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332420102",
+    "type": "OUTBOUND",
+    "message_id": "4332420190",
     "ticket_id": "974311118",
-    "message": "Tomorrow is fine with me I will send my driver to make some photos as I am in Europe now : hope this is ok for u",
-    "channel_id": "1304636",
+    "message": "Just to let you know, we do need one of our team members present for all viewings, so we can't give access for photo visits without someone from our side there. We can absolutely arrange for your driver to come with one of our team members tomorrow though. What time works best?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544753296",
     "contact_name": "WSI",
     "contact_identifier": "+491736217764",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
