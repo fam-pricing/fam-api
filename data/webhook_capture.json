@@ -1,21 +1,19 @@
 {
-  "ts": "2026-08-15T07:46:41.019Z",
+  "ts": "2026-08-15T07:50:14.342Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332050452",
-    "ticket_id": "974217543",
-    "message": "Allow me to check",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "544726354",
-    "contact_name": "Maria",
-    "contact_email": "mpaula.oliveira80@gmail.com",
-    "contact_identifier": "a5813ae5-62ec-46f0-5b1d-b7772c97ed1e",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4332052193",
+    "ticket_id": "973345747",
+    "message": "So VAT is already included in the price here ?",
+    "channel_id": "1304636",
+    "contact_id": "544445475",
+    "contact_name": "Ocupado",
+    "contact_identifier": "+59176380565",
+    "parent_message_id": "4330450113",
+    "parent_ticket_id": "973345747",
+    "event_type": "INBOUND"
   }
 }
