@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-15T07:27:17.096Z",
+  "ts": "2026-08-15T07:27:22.179Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332041671",
+    "type": "OUTBOUND",
+    "message_id": "4332041693",
     "ticket_id": "974217543",
-    "message": "Hi. I bought an apartment that was previously set up by Fam. It came with a room safe, but I cannot open it. It has a seal with the code, but I think it ran out of battery, as the buttons don’t make any noise when pressed and the door is still locked.",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "544726354",
     "contact_name": "Maria",
     "contact_identifier": "a5813ae5-62ec-46f0-5b1d-b7772c97ed1e",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
