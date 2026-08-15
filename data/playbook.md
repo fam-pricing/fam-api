@@ -1732,3 +1732,7 @@ Please note that viewings can only be arranged before 6:00 PM. Alternatively, we
 
 The rate includes water, electricity, Wi-Fi, and DTCM charges. Please note that daily housekeeping is not included. Should you require cleaning services, we would be happy to arrange them at an additional charge per session.
   (Learned from Faysal handling Ocupado re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-arjan-miraclz-tower-by-danube-93143563.html)
+
+## Learned (2026-08-15)
+- When a lead asks whether there are any VAT charges, agency fees, or other hidden costs, confirm that VAT is already included in the quoted rate and that no agency fees are charged.
+  (Learned from Faysal handling Ocupado re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-arjan-miraclz-tower-by-danube-93143563.html)
