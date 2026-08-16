@@ -1,17 +1,19 @@
 {
-  "ts": "2026-08-16T04:49:35.281Z",
+  "ts": "2026-08-16T04:49:59.640Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332491683",
+    "type": "INBOUND",
+    "message_id": "4332491734",
     "ticket_id": "966609137",
-    "message": "Thank you for choosing fäm living. Please note that our work timings are from 9:00 AM to 9:00 PM. To avail yourself of our best offers and prices, you can now make your bookings on our website; please visit www.famliving.com.\n\nشكرًا لاتصالك , يرجى ملاحظة أن أوقات العمل لدينا هي من 9:00 صباحًا إلى 9:00 مساءً ، للاستفادة من أفضل العروض والأسعار، يمكنك الآن إجراء حجوزاتك على موقعنا على الإنترنت\n\nwww.famliving.com",
+    "message": "This is our linen in the apartment our team will collect this today after checkout please pack them",
+    "channel_id": "585723",
     "contact_id": "542703104",
     "contact_name": "Sandesh",
     "contact_identifier": "+919997048273",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4332491675",
+    "parent_ticket_id": "966609137",
+    "event_type": "INBOUND"
   }
 }
