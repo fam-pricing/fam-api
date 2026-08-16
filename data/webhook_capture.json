@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-16T05:30:57.731Z",
+  "ts": "2026-08-16T05:35:11.074Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332498190",
+    "type": "OUTBOUND",
+    "message_id": "4332498898",
     "ticket_id": "974282750",
-    "message": "??",
-    "channel_id": "1304636",
+    "message": "Apologies for the inconvenience. The viewing was confirmed by our AI agent.\r\n\r\nPlease note that, unfortunately, we are unable to arrange the viewing today as there is currently an in-house guest staying at the property.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544566462",
     "contact_name": "Cafy Fabio",
     "contact_identifier": "+971567022947",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
