@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-16T08:17:50.264Z",
+  "ts": "2026-08-16T08:17:59.369Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332549053",
-    "ticket_id": "974311118",
-    "message": "Do you have alternatives",
-    "channel_id": "1304636",
-    "contact_id": "544753296",
-    "contact_name": "WSI",
-    "contact_identifier": "+491736217764",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4332549113",
+    "ticket_id": "973293466",
+    "message": "Please allow me a moment while we obtain confirmation from the owner. Without the owner’s confirmation, we are unable to share the access passcode.\r\n\r\nIf you are already in direct contact with the owner, you may also request the passcode from them directly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544430985",
+    "contact_name": "Mahmoud El Sharkawy",
+    "contact_identifier": "+971509174633",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
