@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-16T13:03:53.165Z",
+  "ts": "2026-08-16T13:05:12.917Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332679517",
+    "type": "OUTBOUND",
+    "message_id": "4332680146",
     "ticket_id": "974377766",
-    "message": "Do u have this available",
-    "channel_id": "585723",
+    "message": "Our website is currently undergoing maintenance, which is why you are unable to make the reservation at the moment.\r\n\r\nMay I kindly ask you to share your preferred check-in date and check-out date? Once we have these details, we will be happy to assist you with the reservation.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544774184",
     "contact_name": "Nisha",
     "contact_identifier": "+447984024297",
-    "parent_message_id": "4332672495",
-    "parent_ticket_id": "974377766",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
