@@ -1740,3 +1740,7 @@ The rate includes water, electricity, Wi-Fi, and DTCM charges. Please note that 
 ## Learned (2026-08-15)
 - If the lead confirms interest, respond with: Please note that we are unable to confirm the rental rate at this stage, as our rates are dynamic and subject to change based on current market conditions.
   (Learned from Faysal handling Asena re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-arjan-miraclz-tower-by-danube-93143563.html)
+
+## Learned (2026-08-16)
+- If a lead requests a viewing outside business hours (e.g., "Tomorrow 7pm available?"), respond: "Please note that viewings can be arranged between 9am – 6pm only."
+  (Learned from Faysal handling Razky re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
