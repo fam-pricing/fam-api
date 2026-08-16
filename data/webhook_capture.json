@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-16T06:42:29.479Z",
+  "ts": "2026-08-16T06:43:20.491Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332514282",
-    "ticket_id": "974338125",
-    "message": "The rate is locked for the first 3 months, with the 4th confirmed at the prevailing rate closer to December. Want to go ahead and secure it?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "544760670",
-    "contact_name": "Fran Domingo",
-    "contact_identifier": "+34628593736",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4332514502",
+    "ticket_id": "953019973",
+    "message": "Nice to meet you",
+    "channel_id": "585723",
+    "contact_id": "536585155",
+    "contact_name": "Muhammad",
+    "contact_identifier": "+971561683935",
+    "parent_message_id": "4332497624",
+    "parent_ticket_id": "953019973",
+    "event_type": "INBOUND"
   }
 }
