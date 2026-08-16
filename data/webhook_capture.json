@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-16T13:37:37.085Z",
+  "ts": "2026-08-16T13:43:30.909Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332694614",
+    "type": "OUTBOUND",
+    "message_id": "4332697334",
     "ticket_id": "973843859",
-    "message": "Could you send me location of your office?..",
-    "channel_id": "585723",
+    "message": "Office location - https://maps.app.goo.gl/bKnZewpY45zQhNWVA\r\n\r\nOffice number - 304",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544606636",
     "contact_name": "AL ZORAH",
     "contact_identifier": "+971586870906",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
