@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-16T05:12:05.384Z",
+  "ts": "2026-08-16T05:13:03.732Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332494956",
+    "type": "OUTBOUND",
+    "message_id": "4332495113",
     "ticket_id": "974282750",
-    "message": "??",
-    "channel_id": "1304636",
+    "message": "Good morning,\r\n\r\nApologies for the inconvenience.\r\n\r\nWe would like to inform you that the unit will be available from 1 September. Unfortunately, we are unable to arrange a viewing today as there is currently an in-house guest staying at the property.\r\n\r\nWe appreciate your understanding and would be happy to arrange a viewing once the unit becomes available.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544566462",
     "contact_name": "Cafy Fabio",
     "contact_identifier": "+971567022947",
-    "parent_message_id": "4332485990",
-    "parent_ticket_id": "974282750",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
