@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-16T13:24:25.873Z",
+  "ts": "2026-08-16T13:26:04.036Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332688762",
+    "type": "OUTBOUND",
+    "message_id": "4332689409",
     "ticket_id": "974377766",
-    "message": "Do u take full payment at time of booking?",
-    "channel_id": "585723",
+    "message": "To secure and block the unit, you will need to complete the security deposit payment first. The rental amount must then be settled in full prior to your arrival date.\r\n\r\nOnce the required payments have been completed, we will assist with the check in details",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544774184",
     "contact_name": "Nisha",
     "contact_identifier": "+447984024297",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
