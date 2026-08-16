@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-16T13:23:42.233Z",
+  "ts": "2026-08-16T13:24:09.514Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332688399",
+    "type": "OUTBOUND",
+    "message_id": "4332688635",
     "ticket_id": "974377766",
-    "message": "??????",
-    "channel_id": "585723",
+    "message": "There is no refundable rate",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544774184",
     "contact_name": "Nisha",
     "contact_identifier": "+447984024297",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
