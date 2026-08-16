@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-16T08:27:31.188Z",
+  "ts": "2026-08-16T08:30:21.776Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332552951",
-    "ticket_id": "951364564",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "538357750",
-    "contact_name": "VERA MATIUGINA",
-    "contact_identifier": "+971554831031",
+    "type": "INBOUND",
+    "message_id": "4332554148",
+    "ticket_id": "973843859",
+    "message": "Tell me please, this apartment with island right in the kitchen?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "544606636",
+    "contact_name": "AL ZORAH",
+    "contact_identifier": "+971586870906",
+    "parent_message_id": "4331360650",
+    "parent_ticket_id": "973843859",
+    "event_type": "INBOUND"
   }
 }
