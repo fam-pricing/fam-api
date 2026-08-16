@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-16T05:35:57.449Z",
+  "ts": "2026-08-16T05:37:20.387Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332499025",
+    "type": "OUTBOUND",
+    "message_id": "4332499254",
     "ticket_id": "974282750",
-    "message": "But you can ask guest if I can see Apartmt some accept \nBecause ima travel after 4 days and I need make decision",
-    "channel_id": "1304636",
+    "message": "Unfortunately we are unable to arrange viewings when there is an in house guest\r\n\r\nHope you understand",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544566462",
     "contact_name": "Cafy Fabio",
     "contact_identifier": "+971567022947",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
