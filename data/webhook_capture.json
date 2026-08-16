@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-16T12:43:57.640Z",
+  "ts": "2026-08-16T12:44:23.101Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332670615",
+    "type": "OUTBOUND",
+    "message_id": "4332670852",
     "ticket_id": "974338125",
-    "message": "I’ll get in touch for a visit this week",
-    "channel_id": "1304636",
+    "message": "To confirm the visit, could you send a copy of your passport or Emirates ID so building management can register you beforehand? What day works best, any time between 9am and 6pm is fine.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544760670",
     "contact_name": "Fran Domingo",
     "contact_identifier": "+34628593736",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
