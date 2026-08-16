@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-16T08:41:08.793Z",
+  "ts": "2026-08-16T08:51:39.993Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332558883",
+    "type": "OUTBOUND",
+    "message_id": "4332563564",
     "ticket_id": "974316049",
-    "message": "No other cost?",
-    "channel_id": "1304636",
+    "message": "The quoted rate is all-inclusive. Please note, however, that daily housekeeping is not included in the rate.\r\n\r\nIf you require additional cleaning services during your stay, we would be happy to arrange this for you at an additional charge per cleaning",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544755025",
     "contact_name": "Razky",
     "contact_identifier": "+971557465223",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
