@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-17T05:58:24.784Z",
+  "ts": "2026-08-17T05:58:40.914Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332943315",
-    "ticket_id": "973862908",
-    "message": "To help us follow up on your request, please share your contact details with us using the button below.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "544284816",
-    "contact_name": "Yevhenii Miroshnychenko",
-    "contact_identifier": "+971505719168",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4332943387",
+    "ticket_id": "973353309",
+    "message": "Confirm",
+    "channel_id": "585723",
+    "contact_id": "544447354",
+    "contact_name": "Elite 2bhk lead",
+    "contact_identifier": "+971561845530",
+    "parent_message_id": "4332943061",
+    "parent_ticket_id": "973353309",
+    "event_type": "INBOUND"
   }
 }
