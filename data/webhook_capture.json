@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-17T12:59:53.068Z",
+  "ts": "2026-08-17T13:00:30.531Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333433696",
+    "type": "INBOUND",
+    "message_id": "4333434585",
     "ticket_id": "969940545",
-    "message": "That's very kind of you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "This is for you I am doing for FAM LIVING",
+    "channel_id": "585723",
     "contact_id": "543580441",
     "contact_name": "Rafik",
     "contact_identifier": "+971561687868",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4333433696",
+    "parent_ticket_id": "969940545",
+    "event_type": "INBOUND"
   }
 }
