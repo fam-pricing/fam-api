@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-17T10:00:36.329Z",
+  "ts": "2026-08-17T10:01:57.169Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333212186",
+    "type": "INBOUND",
+    "message_id": "4333214493",
     "ticket_id": "974488187",
-    "message": "Please note that this property is not listed with us and is therefore not available through our management.\r\n\r\nThank you for your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "544808463",
     "contact_name": "Hassan",
     "contact_identifier": "+971503015365",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4333212186",
+    "parent_ticket_id": "974488187",
+    "event_type": "INBOUND"
   }
 }
