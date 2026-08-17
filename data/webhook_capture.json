@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-17T05:38:02.769Z",
+  "ts": "2026-08-17T05:38:21.773Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332936681",
+    "type": "INBOUND",
+    "message_id": "4332936799",
     "ticket_id": "925854120",
-    "message": "We have received confirmation from the guest for the viewing at 2:00 PM. You may proceed accordingly.\r\n\r\nThank you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Great. Thank you",
+    "channel_id": "585723",
     "contact_id": "532021761",
     "contact_name": "Vaiva Lukminaite",
     "contact_identifier": "+37062028632",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
