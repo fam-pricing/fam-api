@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-17T06:54:59.782Z",
+  "ts": "2026-08-17T06:55:38.003Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332980519",
-    "ticket_id": "969915930",
-    "message": "We have received a request from the agent through whom you originally made the reservation. They have informed us that they paid the security deposit on your behalf and are requesting the refund of the deposit.\r\n\r\nAs you have extended your stay with us, we are currently unable to process the security deposit refund, as the booking remains active.\r\n\r\nCould you please coordinate with the agent regarding this matter and update us at your earliest convenience?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "543574598",
-    "contact_name": "Sabrina",
-    "contact_identifier": "+971559529037",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4332981049",
+    "ticket_id": "974353864",
+    "message": "Hello- Is it available to view at 540?",
+    "channel_id": "1304636",
+    "contact_id": "544766805",
+    "contact_name": "Jack Mc",
+    "contact_identifier": "+16477019211",
+    "event_type": "INBOUND"
   }
 }
