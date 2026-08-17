@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-17T12:19:35.120Z",
+  "ts": "2026-08-17T12:22:33.587Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333384636",
-    "ticket_id": "974353864",
-    "message": "Ok- and do I just approach the front desk or am I asking for someone by name?",
-    "channel_id": "1304636",
-    "contact_id": "544766805",
-    "contact_name": "Jack Mc",
-    "contact_identifier": "+16477019211",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4333388278",
+    "ticket_id": "969915930",
+    "message": "We have received the payment and have informed our Finance Team to process the refund of the previous security deposit to the same card that was originally used for the payment.\r\n\r\nWe will update you once we receive confirmation from the Finance Team. Thank you for your patience and understanding.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "543574598",
+    "contact_name": "Sabrina",
+    "contact_identifier": "+971559529037",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
