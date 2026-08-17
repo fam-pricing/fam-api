@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-17T13:19:13.997Z",
+  "ts": "2026-08-17T13:20:46.783Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333458009",
+    "type": "OUTBOUND",
+    "message_id": "4333459870",
     "ticket_id": "974589077",
-    "message": "16:30",
-    "channel_id": "585723",
+    "message": "Please note that a security deposit of AED 1,000 is required upon check-in.\r\n\r\nYou may complete the payment using the following deposit link:\r\n\r\nhttps://totalpay.ae/payment/20260817206a830a9444202\r\n\r\nThis amount is fully refundable at check-out, provided there are no damages to the apartment. The refund will be processed within 7 working days after your departure.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544838074",
     "contact_name": "Salem.S",
     "contact_identifier": "+34662454095",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
