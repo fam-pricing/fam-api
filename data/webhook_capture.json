@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-17T10:29:15.126Z",
+  "ts": "2026-08-17T10:33:06.010Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333246307",
+    "type": "OUTBOUND",
+    "message_id": "4333250535",
     "ticket_id": "969319706",
-    "message": "Four days ago, you told me that the AED 3,000 deposit had already entered the banking process, but I still haven’t received the money. Honestly, your team has been extremely disappointing",
-    "channel_id": "585723",
+    "message": "Apologies for the delay,\r\n\r\nAllow me to check for you and update",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "429067884",
     "contact_name": "Mrs SHAGHAYEGH SADEGHI",
     "contact_identifier": "+971501086642",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
