@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-17T09:35:25.628Z",
+  "ts": "2026-08-17T09:35:32.990Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333179832",
+    "type": "OUTBOUND",
+    "message_id": "4333179967",
     "ticket_id": "974518373",
-    "message": "Possible to have à look today by 5pm please",
-    "channel_id": "1304636",
+    "message": "Those two are at AED 7,500 and AED 8,000/month, so both are a bit above your budget. Would a 2BR in a nearby area like Downtown or JVC work for AED 6,500?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544817335",
     "contact_name": "INFATIGABLE MAN.",
     "contact_identifier": "+971588300939",
-    "parent_message_id": "4333179020",
-    "parent_ticket_id": "974518373",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
