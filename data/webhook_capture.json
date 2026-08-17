@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-17T13:11:33.423Z",
+  "ts": "2026-08-17T13:11:52.566Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333448887",
+    "type": "INBOUND",
+    "message_id": "4333449313",
     "ticket_id": "974471736",
-    "message": "We will give the update once we receive from the finance Mr Brian",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Ok",
+    "channel_id": "1304636",
     "contact_id": "542138263",
     "contact_name": "Brian",
     "contact_identifier": "+971588425620",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4333448887",
+    "parent_ticket_id": "974471736",
+    "event_type": "INBOUND"
   }
 }
