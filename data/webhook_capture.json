@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-17T12:51:48.326Z",
+  "ts": "2026-08-17T12:52:44.587Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333423909",
-    "ticket_id": "974353864",
-    "message": "ok will do",
-    "channel_id": "1304636",
-    "contact_id": "544766805",
-    "contact_name": "Jack Mc",
-    "contact_identifier": "+16477019211",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4333425137",
+    "ticket_id": "953081775",
+    "message": "We've received feedback from our team, and they confirmed the lock is completely fine; there is no issue with it",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "278742304",
+    "contact_name": "Ahmad Sabri Hassan",
+    "contact_identifier": "+971528939729",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
