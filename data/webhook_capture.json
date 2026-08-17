@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-17T09:34:32.483Z",
+  "ts": "2026-08-17T09:34:47.366Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333178763",
+    "type": "OUTBOUND",
+    "message_id": "4333179020",
     "ticket_id": "974518373",
-    "message": "Yes please",
-    "channel_id": "1304636",
+    "message": "Still available from tomorrow if you want to go ahead, want to take a look at it first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544817335",
     "contact_name": "INFATIGABLE MAN.",
     "contact_identifier": "+971588300939",
-    "parent_message_id": "4333178130",
-    "parent_ticket_id": "974518373",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
