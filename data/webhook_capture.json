@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-17T12:56:43.676Z",
+  "ts": "2026-08-17T12:56:49.069Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333429955",
-    "ticket_id": "953081775",
-    "message": "We need to check with our team on that",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "278742304",
-    "contact_name": "Ahmad Sabri Hassan",
-    "contact_identifier": "+971528939729",
+    "type": "INBOUND",
+    "message_id": "4333430058",
+    "ticket_id": "969940545",
+    "message": "Oh nice .. please don’t get me it’s a beautiful apartment..",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "543580441",
+    "contact_name": "Rafik",
+    "contact_identifier": "+971561687868",
+    "parent_message_id": "4333429330",
+    "parent_ticket_id": "969940545",
+    "event_type": "INBOUND"
   }
 }
