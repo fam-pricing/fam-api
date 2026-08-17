@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-17T06:16:19.744Z",
+  "ts": "2026-08-17T06:16:42.573Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332953117",
-    "ticket_id": "974377766",
-    "message": "Is this still available",
+    "type": "OUTBOUND",
+    "message_id": "4332953362",
+    "ticket_id": "966609137",
+    "message": "Good morning Sandesh,\r\n\r\nPlease note that as the guest has extended their stay with us, we are unable to process the security deposit refund at this stage, as the booking is still active.\r\n\r\nYou may kindly contact the guest directly regarding the security deposit and coordinate with them accordingly.\r\n\r\nThank you for your understanding.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542703104",
+    "contact_name": "Sandesh",
+    "contact_identifier": "+919997048273",
     "channel_id": "585723",
-    "contact_id": "544774184",
-    "contact_name": "Nisha",
-    "contact_identifier": "+447984024297",
-    "parent_message_id": "4332682880",
-    "parent_ticket_id": "974377766",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
