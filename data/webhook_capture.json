@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-17T11:36:20.548Z",
+  "ts": "2026-08-17T11:36:30.862Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333331628",
-    "ticket_id": "972699983",
-    "message": "We will fill shortly",
+    "type": "OUTBOUND",
+    "message_id": "4333331855",
+    "ticket_id": "974006337",
+    "message": "You need to change the apartment from 01 bedroom for 02 bedroom?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544658814",
+    "contact_name": "THỊ HOA NGUYÊN",
+    "contact_identifier": "+971523990441",
     "channel_id": "585723",
-    "contact_id": "544282080",
-    "contact_name": "Mr EMRE",
-    "contact_identifier": "+905327616424",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
