@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-17T13:00:30.531Z",
+  "ts": "2026-08-17T13:00:33.843Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333434585",
-    "ticket_id": "969940545",
-    "message": "This is for you I am doing for FAM LIVING",
+    "type": "OUTBOUND",
+    "message_id": "4333434624",
+    "ticket_id": "962609643",
+    "message": "However, we've informed our team to visit again to the reception",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "541522394",
+    "contact_name": "Jason J Leimer",
+    "contact_identifier": "+971504594416",
     "channel_id": "585723",
-    "contact_id": "543580441",
-    "contact_name": "Rafik",
-    "contact_identifier": "+971561687868",
-    "parent_message_id": "4333433696",
-    "parent_ticket_id": "969940545",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
