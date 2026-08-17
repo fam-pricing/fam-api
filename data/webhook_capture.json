@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-17T07:24:47.165Z",
+  "ts": "2026-08-17T07:24:55.139Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333012513",
-    "ticket_id": "973862908",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nGood morning\n\nHow can I help you today?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "544284816",
-    "contact_name": "Yevhenii Miroshnychenko",
-    "contact_identifier": "+971505719168",
+    "type": "INBOUND",
+    "message_id": "4333012619",
+    "ticket_id": "974282750",
+    "message": "Hello",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "544566462",
+    "contact_name": "Cafy Fabio",
+    "contact_identifier": "+971567022947",
+    "event_type": "INBOUND"
   }
 }
