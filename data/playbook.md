@@ -1744,3 +1744,7 @@ The rate includes water, electricity, Wi-Fi, and DTCM charges. Please note that 
 ## Learned (2026-08-16)
 - If a lead requests a viewing outside business hours (e.g., "Tomorrow 7pm available?"), respond: "Please note that viewings can be arranged between 9am – 6pm only."
   (Learned from Faysal handling Razky re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-08-17)
+- When a lead responds with "Okay," reply with: "The rate will be as quoted in the listing for 30 days."
+  (Learned from Faysal handling Mekan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-101258625.html)
