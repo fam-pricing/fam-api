@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-17T06:26:57.756Z",
+  "ts": "2026-08-17T06:27:08.509Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332959382",
+    "type": "OUTBOUND",
+    "message_id": "4332959506",
     "ticket_id": "974377766",
-    "message": "Last time with booked an apartment we turned up and it was filthy",
-    "channel_id": "585723",
+    "message": "Cleaning will be done before the arrival",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544774184",
     "contact_name": "Nisha",
     "contact_identifier": "+447984024297",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
