@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-17T06:57:04.220Z",
+  "ts": "2026-08-17T06:57:38.870Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332982589",
-    "ticket_id": "959524964",
-    "message": "Can you send me transaction receipt pls",
+    "type": "OUTBOUND",
+    "message_id": "4332983098",
+    "ticket_id": "966609137",
+    "message": "Without receiving confirmation and a new deposit from the guest we are unable to proceed with the refund. We have already informed the guest and are currently awaiting their update.\r\n\r\nOnce we receive confirmation from the guest, we will update you accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542703104",
+    "contact_name": "Sandesh",
+    "contact_identifier": "+919997048273",
     "channel_id": "585723",
-    "contact_id": "493436444",
-    "contact_name": "Mrs Zahra Jamali",
-    "contact_identifier": "+971503987371",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
