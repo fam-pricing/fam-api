@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-17T09:57:01.506Z",
+  "ts": "2026-08-17T10:00:36.329Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333207379",
+    "type": "OUTBOUND",
+    "message_id": "4333212186",
     "ticket_id": "974488187",
-    "message": "https://dubai.dubizzle.com/property-for-rent/short-term/apartmentflat/2026/4/10/brand-new-1-bedroom-apartment-equiti-ga-2-218551/",
-    "channel_id": "585723",
+    "message": "Please note that this property is not listed with us and is therefore not available through our management.\r\n\r\nThank you for your understanding.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544808463",
     "contact_name": "Hassan",
     "contact_identifier": "+971503015365",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
