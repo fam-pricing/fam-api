@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-17T12:03:07.998Z",
+  "ts": "2026-08-17T12:03:23.202Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333365078",
-    "ticket_id": "973353309",
-    "message": "Allow me to check and update you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "544447354",
-    "contact_name": "Elite 2bhk lead",
-    "contact_identifier": "+971561845530",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4333365382",
+    "ticket_id": "974360879",
+    "message": "because you told me that this property is not pet friendly",
+    "channel_id": "1304636",
+    "contact_id": "544452270",
+    "contact_name": "nikola🤍",
+    "contact_identifier": "+34603561581",
+    "parent_message_id": "4333358257",
+    "parent_ticket_id": "974360879",
+    "event_type": "INBOUND"
   }
 }
