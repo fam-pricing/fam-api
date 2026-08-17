@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-17T11:54:12.046Z",
+  "ts": "2026-08-17T11:54:18.008Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333353801",
-    "ticket_id": "974500479",
-    "message": "I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "544284816",
-    "contact_name": "Yevhenii Miroshnychenko",
-    "contact_identifier": "+971505719168",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4333353936",
+    "ticket_id": "957524557",
+    "message": "How much the charge will be",
+    "channel_id": "585723",
+    "contact_id": "537865623",
+    "contact_name": "UMAIR SALEEM",
+    "contact_identifier": "+923314067795",
+    "parent_message_id": "4333353444",
+    "parent_ticket_id": "957524557",
+    "event_type": "INBOUND"
   }
 }
