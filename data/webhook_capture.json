@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-17T11:46:07.845Z",
+  "ts": "2026-08-17T11:46:11.320Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333343751",
-    "ticket_id": "957524557",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "537865623",
-    "contact_name": "UMAIR SALEEM",
-    "contact_identifier": "+923314067795",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4333343827",
+    "ticket_id": "974471736",
+    "message": "Apologies for the delay,\r\n\r\nWe have update the finance team and as soon as we receive an update from them we will update the same for you",
+    "channel_id": "1304636",
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
+    "event_type": "INBOUND"
   }
 }
