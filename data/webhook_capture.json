@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-17T08:41:41.206Z",
+  "ts": "2026-08-17T08:42:05.339Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333108118",
-    "ticket_id": "974500479",
-    "message": "The apartment is ready; you are welcome to check in before 3 PM please let us know your estimmated arrival time for the check-in",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "544284816",
-    "contact_name": "Yevhenii Miroshnychenko",
-    "contact_identifier": "+971505719168",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4333108658",
+    "ticket_id": "974497750",
+    "message": "No thank",
+    "channel_id": "585723",
+    "contact_id": "544811447",
+    "contact_name": "Kikine",
+    "contact_identifier": "+971506878580",
+    "event_type": "INBOUND"
   }
 }
