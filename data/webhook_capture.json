@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-17T07:00:39.137Z",
+  "ts": "2026-08-17T07:00:49.009Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332985838",
-    "ticket_id": "959524964",
-    "message": "Here mentioned pending for accept",
+    "type": "OUTBOUND",
+    "message_id": "4332986015",
+    "ticket_id": "962609643",
+    "message": "We have emailed the building. Once you are available, please stop by the reception to speed up the process as we are still waiting for their email. Thank you.",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "541522394",
+    "contact_name": "Jason J Leimer",
+    "contact_identifier": "+971504594416",
     "channel_id": "585723",
-    "contact_id": "493436444",
-    "contact_name": "Mrs Zahra Jamali",
-    "contact_identifier": "+971503987371",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
