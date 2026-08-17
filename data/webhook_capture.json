@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-17T08:10:56.408Z",
+  "ts": "2026-08-17T08:11:05.525Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333069091",
-    "ticket_id": "974491383",
-    "message": "Hello!",
+    "type": "OUTBOUND",
+    "message_id": "4333069223",
+    "ticket_id": "974282750",
+    "message": "Please note that the rate varies from one property to another, depending on the unit, location, availability, and current market conditions.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544566462",
+    "contact_name": "Cafy Fabio",
+    "contact_identifier": "+971567022947",
     "channel_id": "1304636",
-    "contact_id": "544809562",
-    "contact_name": "Alina",
-    "contact_identifier": "+971559611327",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
