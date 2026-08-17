@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-17T11:53:56.624Z",
+  "ts": "2026-08-17T11:54:02.866Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333353488",
-    "ticket_id": "974471736",
-    "message": "Who am I speaking with Btw??",
+    "type": "OUTBOUND",
+    "message_id": "4333353641",
+    "ticket_id": "974500479",
+    "message": "You're welcome",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "544284816",
+    "contact_name": "Yevhenii Miroshnychenko",
+    "contact_identifier": "+971505719168",
     "channel_id": "1304636",
-    "contact_id": "542138263",
-    "contact_name": "Brian",
-    "contact_identifier": "+971588425620",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
