@@ -1,17 +1,19 @@
 {
-  "ts": "2026-08-17T15:17:11.165Z",
+  "ts": "2026-08-17T15:20:00.729Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333615088",
-    "ticket_id": "974566153",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "544830334",
-    "contact_name": "Asma",
-    "contact_identifier": "+971558126061",
+    "type": "INBOUND",
+    "message_id": "4333617916",
+    "ticket_id": "963149889",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "541688038",
+    "contact_name": "Anver MARTYNOV",
+    "contact_identifier": "+971505570895",
+    "parent_message_id": "4332932099",
+    "parent_ticket_id": "963149889",
+    "event_type": "INBOUND"
   }
 }
