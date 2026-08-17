@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-17T08:39:25.682Z",
+  "ts": "2026-08-17T08:39:38.800Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333105319",
-    "ticket_id": "960166351",
-    "message": "10:00 AM - 12:00 PM",
+    "type": "OUTBOUND",
+    "message_id": "4333105603",
+    "ticket_id": "974377766",
+    "message": "May I know when you will complete the rent payment please",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544774184",
+    "contact_name": "AMIT KRISHAN",
+    "contact_identifier": "+447984024297",
     "channel_id": "585723",
-    "contact_id": "455776398",
-    "contact_name": "Mr Khaled Abdulrahman Abdulla Shanjal Alshehhi",
-    "contact_identifier": "+971553900369",
-    "parent_message_id": "4332936931",
-    "parent_ticket_id": "960166351",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
