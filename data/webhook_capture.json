@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-17T13:23:39.013Z",
+  "ts": "2026-08-17T13:26:05.119Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333463416",
-    "ticket_id": "951364564",
-    "message": "Sure allow me to inform the team and update you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "538357750",
-    "contact_name": "VERA MATIUGINA",
-    "contact_identifier": "+971554831031",
+    "type": "INBOUND",
+    "message_id": "4333466421",
+    "ticket_id": "974589077",
+    "message": "Done",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "544838074",
+    "contact_name": "Salem.S",
+    "contact_identifier": "+34662454095",
+    "parent_message_id": "4333457993",
+    "parent_ticket_id": "974589077",
+    "event_type": "INBOUND"
   }
 }
