@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-17T09:34:10.955Z",
+  "ts": "2026-08-17T09:34:13.730Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333178219",
-    "ticket_id": "974491383",
-    "message": "Unfortunately we do not have any videos available however we can arrange viewing for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "544809562",
-    "contact_name": "Alina",
-    "contact_identifier": "+971559611327",
+    "type": "INBOUND",
+    "message_id": "4333178333",
+    "ticket_id": "974518373",
+    "message": "The same link",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "544817335",
+    "contact_name": "INFATIGABLE MAN.",
+    "contact_identifier": "+971588300939",
+    "parent_message_id": "4333173799",
+    "parent_ticket_id": "974518373",
+    "event_type": "INBOUND"
   }
 }
