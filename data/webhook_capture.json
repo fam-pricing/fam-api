@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-17T07:02:59.372Z",
+  "ts": "2026-08-17T07:05:23.603Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332988137",
-    "ticket_id": "962609643",
-    "message": "Sure, we are in touch with them, and once we receive any feedback, we will update you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "541522394",
-    "contact_name": "Jason J Leimer",
-    "contact_identifier": "+971504594416",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4332990511",
+    "ticket_id": "974353864",
+    "message": ".",
+    "channel_id": "1304636",
+    "contact_id": "544766805",
+    "contact_name": "Jack Mc",
+    "contact_identifier": "+16477019211",
+    "parent_message_id": "4332579156",
+    "parent_ticket_id": "974353864",
+    "event_type": "INBOUND"
   }
 }
