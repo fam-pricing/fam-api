@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-17T13:29:05.314Z",
+  "ts": "2026-08-17T13:30:35.598Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333470158",
-    "ticket_id": "974488187",
-    "message": "Please have a look on this link",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "544808463",
-    "contact_name": "Hassan",
-    "contact_identifier": "+971503015365",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4333472197",
+    "ticket_id": "974282750",
+    "message": "But I want know rates for after October November December January February",
+    "channel_id": "1304636",
+    "contact_id": "544566462",
+    "contact_name": "Cafy Fabio",
+    "contact_identifier": "+971567022947",
+    "parent_message_id": "4333462993",
+    "parent_ticket_id": "974282750",
+    "event_type": "INBOUND"
   }
 }
