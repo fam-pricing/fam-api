@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-17T07:13:01.251Z",
+  "ts": "2026-08-17T07:15:52.029Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4332997997",
-    "ticket_id": "974377766",
-    "message": "Please note that we are unable to confirm this at the moment, as it will depend on the bookings we receive at that time. If there are back-to-back bookings, availability may be limited; however, if there is sufficient time between the previous guest’s check-out and your arrival, we will do our best to accommodate your request.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "544774184",
-    "contact_name": "Nisha",
-    "contact_identifier": "+447984024297",
+    "type": "INBOUND",
+    "message_id": "4333001444",
+    "ticket_id": "969915930",
+    "message": "Is it possible for you to refund the deposit and then we paid it ?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "543574598",
+    "contact_name": "Sabrina",
+    "contact_identifier": "+971559529037",
+    "parent_message_id": "4332931528",
+    "parent_ticket_id": "969915930",
+    "event_type": "INBOUND"
   }
 }
