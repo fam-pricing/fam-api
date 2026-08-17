@@ -1748,3 +1748,7 @@ The rate includes water, electricity, Wi-Fi, and DTCM charges. Please note that 
 ## Learned (2026-08-17)
 - When a lead responds with "Okay," reply with: "The rate will be as quoted in the listing for 30 days."
   (Learned from Faysal handling Mekan re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-101258625.html)
+
+## Learned (2026-08-17)
+- If a lead says they can pay tomorrow (implying a reduced or deferred security deposit), respond by clarifying that the security deposit amount cannot be reduced or waived, as it is a mandatory requirement for the check-in process.
+  (Learned from Faysal handling Ahmed T. re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
