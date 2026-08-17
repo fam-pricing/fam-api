@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-17T06:30:50.452Z",
+  "ts": "2026-08-17T06:32:57.970Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4332961890",
-    "ticket_id": "974455212",
-    "message": "How much is it going to cost for one month?",
-    "channel_id": "1304636",
-    "contact_id": "544798089",
-    "contact_name": "Ahmed T.",
-    "contact_identifier": "+201203602212",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4332963454",
+    "ticket_id": "962609643",
+    "message": "Dear Mr Jason, we have received feedback from our team regarding your apartment. They mentioned that there is no water heater available and that the hot water is being supplied directly from the building.\r\n\r\nWe will reach out to the building management and keep you updated as soon as we receive any information.\r\n\r\nThank you for your patience.\r\n\r\nBest regards,",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "541522394",
+    "contact_name": "Jason J Leimer",
+    "contact_identifier": "+971504594416",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
