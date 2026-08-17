@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-17T10:14:38.939Z",
+  "ts": "2026-08-17T10:17:15.320Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333229613",
+    "type": "INBOUND",
+    "message_id": "4333232746",
     "ticket_id": "974518373",
-    "message": "We can arrange a viewing for you.\r\n\r\nHowever, please note that we are unable to reduce the rate further, and the quoted rate is applicable for the next 30 days.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "The viewing for whit appartement?",
+    "channel_id": "1304636",
     "contact_id": "544817335",
     "contact_name": "INFATIGABLE MAN.",
     "contact_identifier": "+971588300939",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4333229613",
+    "parent_ticket_id": "974518373",
+    "event_type": "INBOUND"
   }
 }
