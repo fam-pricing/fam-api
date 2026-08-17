@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-17T13:52:11.929Z",
+  "ts": "2026-08-17T13:52:38.202Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333500485",
-    "ticket_id": "959587621",
-    "message": "Thank you",
+    "type": "OUTBOUND",
+    "message_id": "4333501104",
+    "ticket_id": "962609643",
+    "message": "We've emailed the owner of the apartment to raise a request through the app, as the reception is not helping with this",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "541522394",
+    "contact_name": "Jason J Leimer",
+    "contact_identifier": "+971504594416",
     "channel_id": "585723",
-    "contact_id": "540691470",
-    "contact_name": "ramiza",
-    "contact_identifier": "+971566548614",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
