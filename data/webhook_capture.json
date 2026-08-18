@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-18T05:23:05.406Z",
+  "ts": "2026-08-18T05:23:10.986Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333933591",
-    "ticket_id": "974241053",
-    "message": "Hi, good morning, Mr. Ashton We've informed our team they will be there today at 3 PM as you requested",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "544731936",
-    "contact_name": "Ashton Ghiloni",
-    "contact_identifier": "+971585088764",
+    "type": "INBOUND",
+    "message_id": "4333933606",
+    "ticket_id": "973383488",
+    "message": "You can come any time if I’m out",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "544455671",
+    "contact_name": "Alexander",
+    "contact_identifier": "+380972452745",
+    "event_type": "INBOUND"
   }
 }
