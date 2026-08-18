@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-18T10:59:05.575Z",
+  "ts": "2026-08-18T10:59:16.002Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334250338",
-    "ticket_id": "925854120",
-    "message": "Thank you. Waiting for confirmation",
+    "type": "OUTBOUND",
+    "message_id": "4334250513",
+    "ticket_id": "957895053",
+    "message": "As soon as we receive an update for the refund we will let you know Yohan",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536353062",
+    "contact_name": "Yohan Gregory",
+    "contact_identifier": "+971509558132",
     "channel_id": "585723",
-    "contact_id": "532021761",
-    "contact_name": "Vaiva Lukminaite",
-    "contact_identifier": "+37062028632",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
