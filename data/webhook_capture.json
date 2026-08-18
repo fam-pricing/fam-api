@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-18T23:34:37.550Z",
+  "ts": "2026-08-18T23:35:01.209Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334825059",
+    "type": "OUTBOUND",
+    "message_id": "4334825116",
     "ticket_id": "974942390",
-    "message": "Yes can I know the price ?",
-    "channel_id": "1304636",
+    "message": "Rates are confirmed in 3-month blocks, so months 4 to 6 will adjust to the market rate at that point. Does that work for you, or would you like more details about the property first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544947698",
     "contact_name": "Salome Coltri dubai",
     "contact_identifier": "+971523344519",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
