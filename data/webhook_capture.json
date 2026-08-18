@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-18T13:34:23.675Z",
+  "ts": "2026-08-18T13:34:45.113Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4334436419",
+    "type": "INBOUND",
+    "message_id": "4334436773",
     "ticket_id": "969915930",
-    "message": "We have checked with the owner, and unfortunately, they have been delayed due to unforeseen circumstances. However, they are now on their way to the property.\r\n\r\nWe kindly request your cooperation in allowing them access once they arrive.\r\n\r\nWe sincerely apologize once again for the inconvenience and appreciate your patience and understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "They just came",
+    "channel_id": "585723",
     "contact_id": "543574598",
     "contact_name": "Sabrina",
     "contact_identifier": "+971559529037",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4334436419",
+    "parent_ticket_id": "969915930",
+    "event_type": "INBOUND"
   }
 }
