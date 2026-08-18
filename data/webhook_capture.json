@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-18T06:56:22.394Z",
+  "ts": "2026-08-18T06:56:25.935Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333983106",
-    "ticket_id": "974732307",
-    "message": "I am looking for 2BR apartment in City walk",
+    "type": "OUTBOUND",
+    "message_id": "4333983141",
+    "ticket_id": "974732539",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544877664",
+    "contact_name": "Ahmad",
+    "contact_identifier": "+971555949730",
     "channel_id": "585723",
-    "contact_id": "544877601",
-    "contact_name": "Jamilla",
-    "contact_identifier": "+971523432351",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
