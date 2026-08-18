@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-18T06:02:14.936Z",
+  "ts": "2026-08-18T06:02:52.548Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333947449",
-    "ticket_id": "957524557",
-    "message": "This is the apartment condition when i left",
+    "type": "OUTBOUND",
+    "message_id": "4333947846",
+    "ticket_id": "950575440",
+    "message": "Payment link - https://totalpay.ae/payment/20260818296a83f57526666",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538178428",
+    "contact_name": "BARBARA ALMEIDA CUNHA",
+    "contact_identifier": "+971569589393",
     "channel_id": "585723",
-    "contact_id": "537865623",
-    "contact_name": "UMAIR SALEEM",
-    "contact_identifier": "+923314067795",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
