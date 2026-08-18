@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-18T13:21:31.704Z",
+  "ts": "2026-08-18T13:21:37.806Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4334422164",
+    "type": "INBOUND",
+    "message_id": "4334422290",
     "ticket_id": "969915930",
-    "message": "Well noted thank you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Are they not coming for the viewing anymore",
+    "channel_id": "585723",
     "contact_id": "543574598",
     "contact_name": "Sabrina",
     "contact_identifier": "+971559529037",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4334247376",
+    "parent_ticket_id": "969915930",
+    "event_type": "INBOUND"
   }
 }
