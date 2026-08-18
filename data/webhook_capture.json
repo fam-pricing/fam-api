@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-18T07:14:38.347Z",
+  "ts": "2026-08-18T07:14:45.168Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334000039",
-    "ticket_id": "974471736",
-    "message": "Good morning",
-    "channel_id": "1304636",
-    "contact_id": "542138263",
-    "contact_name": "Brian",
-    "contact_identifier": "+971588425620",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4334000128",
+    "ticket_id": "950575440",
+    "message": "Allow me to check for this payment\r\n\r\nPlease note that the rate adjustment for the extension has been applied as per the management's decision. The rates are updated based on the current market situation and apply to all in-house guests requesting an extension.\r\n\r\nWe completely understand your concern; however, we kindly request your understanding that the revised rate is beyond our control.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538178428",
+    "contact_name": "BARBARA ALMEIDA CUNHA",
+    "contact_identifier": "+971569589393",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
