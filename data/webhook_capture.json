@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-18T11:41:47.549Z",
+  "ts": "2026-08-18T11:42:16.150Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334303553",
+    "type": "OUTBOUND",
+    "message_id": "4334304203",
     "ticket_id": "925854120",
-    "message": "They are at home?",
-    "channel_id": "585723",
+    "message": "I hope yes",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "532021761",
     "contact_name": "Vaiva Lukminaite",
     "contact_identifier": "+37062028632",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
