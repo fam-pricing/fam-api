@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-18T11:46:41.742Z",
+  "ts": "2026-08-18T11:50:17.571Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334309393",
+    "type": "OUTBOUND",
+    "message_id": "4334313635",
     "ticket_id": "947609821",
-    "message": "Then I can only check in tomorrow?",
-    "channel_id": "585723",
+    "message": "Do you need to amend the date for the check in again for tomorrow?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "537450284",
     "contact_name": "Alisa",
     "contact_identifier": "+79817821817",
-    "parent_message_id": "4334277330",
-    "parent_ticket_id": "947609821",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
