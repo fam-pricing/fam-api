@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-18T08:24:04.901Z",
+  "ts": "2026-08-18T08:26:01.627Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334072181",
+    "type": "OUTBOUND",
+    "message_id": "4334074431",
     "ticket_id": "974515741",
-    "message": "This looks very nice, do u have anything in Vera or reve residence ?",
-    "channel_id": "585723",
+    "message": "Unfortunately we do not have any apartments available in your preferred buildings",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544816350",
     "contact_name": "Osama Hafez",
     "contact_identifier": "+35795599955",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
