@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-18T13:30:04.258Z",
+  "ts": "2026-08-18T13:31:10.182Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334431838",
+    "type": "OUTBOUND",
+    "message_id": "4334433014",
     "ticket_id": "925854120",
-    "message": "The guest is there but no one is letting them in",
-    "channel_id": "585723",
+    "message": "Is the guest there now?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "532021761",
     "contact_name": "Vaiva Lukminaite",
     "contact_identifier": "+37062028632",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
