@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-18T13:22:35.581Z",
+  "ts": "2026-08-18T13:23:00.662Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4334423355",
+    "type": "INBOUND",
+    "message_id": "4334423801",
     "ticket_id": "969915930",
-    "message": "May I know if they came today?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Didn’t come",
+    "channel_id": "585723",
     "contact_id": "543574598",
     "contact_name": "Sabrina",
     "contact_identifier": "+971559529037",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4334423355",
+    "parent_ticket_id": "969915930",
+    "event_type": "INBOUND"
   }
 }
