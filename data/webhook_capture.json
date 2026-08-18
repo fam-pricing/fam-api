@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-18T11:05:51.360Z",
+  "ts": "2026-08-18T11:06:18.917Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4334258861",
-    "ticket_id": "974800010",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-4-66326226.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "159300193",
-    "contact_name": "Yaacoub",
-    "contact_identifier": "+971551127921",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4334259451",
+    "ticket_id": "951364564",
+    "message": "Friday was my last paid day and in the evening you said that I should pay from tomorrow more",
+    "channel_id": "585723",
+    "contact_id": "538357750",
+    "contact_name": "VERA MATIUGINA",
+    "contact_identifier": "+971554831031",
+    "parent_message_id": "4331628114",
+    "parent_ticket_id": "951364564",
+    "event_type": "INBOUND"
   }
 }
