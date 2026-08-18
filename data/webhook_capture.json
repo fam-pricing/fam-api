@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-18T09:51:46.174Z",
+  "ts": "2026-08-18T09:52:05.566Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4334176184",
+    "type": "INBOUND",
+    "message_id": "4334176527",
     "ticket_id": "962625629",
-    "message": "Because we received only 1 card",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Yes I only have 1 card",
+    "channel_id": "585723",
     "contact_id": "541526979",
     "contact_name": "Megli",
     "contact_identifier": "+447474854636",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
