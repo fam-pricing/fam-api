@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-18T05:57:11.765Z",
+  "ts": "2026-08-18T05:57:27.458Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4333944960",
-    "ticket_id": "974282750",
-    "message": "As per your request, please find the 6-month rates for The Bay\r\n\r\nSeptember: AED 8,500\r\nOctober: AED 9,800\r\nNovember: AED 11,500\r\nDecember: AED 12,800\r\nJanuary : AED 11,500\r\nFebruary: AED 11,500\r\n\r\nPlease note that a security deposit of AED 2,000 is required. The booking will be on a monthly basis only (30 nights each month).\r\n\r\nIf you wish to lock the rate for 06 months we need to have 1st and last month rental in advance and the security deposit amount\r\n\r\nThank you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "544566462",
-    "contact_name": "Cafy Fabio",
-    "contact_identifier": "+971567022947",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4333945079",
+    "ticket_id": "962609643",
+    "message": "My next rental payment is due on 20 August, so I would like us to agree a way forward before then. I am happy to remain in the apartment and would prefer to do so, but if the hot water cannot be restored promptly I think it would be reasonable for Fam Living to offer an adjustment to the next month's rent to reflect the continued loss of an essential service.",
+    "channel_id": "585723",
+    "contact_id": "541522394",
+    "contact_name": "Jason J Leimer",
+    "contact_identifier": "+971504594416",
+    "event_type": "INBOUND"
   }
 }
