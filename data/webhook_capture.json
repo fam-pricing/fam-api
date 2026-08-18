@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-18T13:15:34.753Z",
+  "ts": "2026-08-18T13:18:21.822Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4334415320",
-    "ticket_id": "947609821",
-    "message": "As a gesture of goodwill, we are happy to allow access to the apartment today without the security deposit payment. However, please note that the access cards will be activated for 2 days only.\r\n\r\nKindly ensure that the security deposit payment is completed by tomorrow before 12:00 PM, so we can update the building management and complete the registration process for the remainder of your stay.\r\n\r\nWe hope this arrangement is convenient for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "537450284",
-    "contact_name": "Alisa",
-    "contact_identifier": "+79817821817",
+    "type": "INBOUND",
+    "message_id": "4334418423",
+    "ticket_id": "951355235",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "534682324",
+    "contact_name": "Rahimudin Mangudin",
+    "contact_identifier": "+447366477777",
+    "parent_message_id": "4334371376",
+    "parent_ticket_id": "951355235",
+    "event_type": "INBOUND"
   }
 }
