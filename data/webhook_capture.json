@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-18T10:07:37.375Z",
+  "ts": "2026-08-18T10:11:52.388Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4334194095",
+    "type": "INBOUND",
+    "message_id": "4334198682",
     "ticket_id": "957524557",
-    "message": "Mr. Umair, I wanted to inform you that we will proceed with the charge of 1250 AED I hope that's ok with you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "I was expecting the charge must be round 700-800 max",
+    "channel_id": "585723",
     "contact_id": "537865623",
     "contact_name": "UMAIR SALEEM",
     "contact_identifier": "+923314067795",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4334194095",
+    "parent_ticket_id": "957524557",
+    "event_type": "INBOUND"
   }
 }
