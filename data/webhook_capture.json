@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-18T05:28:28.017Z",
+  "ts": "2026-08-18T05:28:32.223Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333935156",
-    "ticket_id": "969915930",
-    "message": "Thank you so much!",
+    "type": "OUTBOUND",
+    "message_id": "4333935174",
+    "ticket_id": "962609643",
+    "message": "Good morning, Mr. Jason, the owner of the apartment has raised the complaint through the app but the time and date is not issued by DAMAC",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "541522394",
+    "contact_name": "Jason J Leimer",
+    "contact_identifier": "+971504594416",
     "channel_id": "585723",
-    "contact_id": "543574598",
-    "contact_name": "Sabrina",
-    "contact_identifier": "+971559529037",
-    "parent_message_id": "4333934484",
-    "parent_ticket_id": "969915930",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
