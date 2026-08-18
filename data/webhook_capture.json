@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-18T13:04:45.994Z",
+  "ts": "2026-08-18T13:04:47.373Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334402396",
-    "ticket_id": "953019973",
-    "message": "Document",
+    "type": "OUTBOUND",
+    "message_id": "4334402434",
+    "ticket_id": "974771237",
+    "message": "Unfortunately, all of our 1-bedroom apartments in your preferred area are currently fully booked.\r\n\r\nHowever, we do have 1-bedroom apartments available in JVC and Viridian at Central Park, City Walk. If you are interested, we would be happy to share the available options and rates with you.\r\n\r\nPlease let us know if either of these locations would be suitable for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544888425",
+    "contact_name": "Jay001",
+    "contact_identifier": "+971504107398",
     "channel_id": "585723",
-    "contact_id": "536585155",
-    "contact_name": "Muhammad",
-    "contact_identifier": "+971561683935",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
