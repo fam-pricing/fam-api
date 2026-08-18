@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-18T12:39:46.571Z",
+  "ts": "2026-08-18T12:40:15.834Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334373220",
+    "type": "OUTBOUND",
+    "message_id": "4334374062",
     "ticket_id": "974826509",
-    "message": "Okay. Tell me, will the price stay the same?",
-    "channel_id": "1304636",
+    "message": "The rate is fixed for the first 3 months, so AED 6,500/month is locked in through that period. After that it's reviewed based on market conditions. Would you like to come see the apartment before the 8th?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544905212",
     "contact_name": "Omar",
     "contact_identifier": "+971508816420",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
