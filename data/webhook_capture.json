@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-18T08:52:31.923Z",
+  "ts": "2026-08-18T09:00:38.530Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334105383",
+    "type": "OUTBOUND",
+    "message_id": "4334115090",
     "ticket_id": "974742770",
-    "message": "The apartment I booked last time in the Trillionaire Building in Business Bay the one on the 15th floor with the jacuzzi.",
-    "channel_id": "585723",
+    "message": "Unfortunately this unit is no longer available with us now",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "524782757",
     "contact_name": "Saloua Talhaoui",
     "contact_identifier": "+31640954945",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
