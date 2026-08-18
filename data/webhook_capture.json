@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-18T05:43:57.742Z",
+  "ts": "2026-08-18T05:44:34.016Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4333940157",
+    "type": "OUTBOUND",
+    "message_id": "4333940348",
     "ticket_id": "974622656",
-    "message": "Ok",
-    "channel_id": "585723",
+    "message": "Building name - Seaside Hills Residences\r\n\r\nLocation - https://maps.app.goo.gl/DyV6GimjLRC3WMvZ9\r\n\r\nPlease note that our standard check in time starts at 3pm",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544847686",
     "contact_name": "Amal Alhaj",
     "contact_identifier": "+971502975099",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
