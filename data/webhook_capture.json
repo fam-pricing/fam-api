@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-18T13:26:59.430Z",
+  "ts": "2026-08-18T13:27:43.004Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4334428246",
+    "type": "INBOUND",
+    "message_id": "4334429113",
     "ticket_id": "973843859",
-    "message": "We will provide access to the apartment only on the confirmed check-in date. Our standard check-in time starts at 3:00 PM.\r\n\r\nHowever, if the apartment is ready before 3:00 PM on your check-in date, we will be more than happy to provide you with early check-in, subject to availability.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Ok, then let’s book from Friday",
+    "channel_id": "585723",
     "contact_id": "544606636",
     "contact_name": "AL ZORAH - Dilya",
     "contact_identifier": "+971586870906",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
