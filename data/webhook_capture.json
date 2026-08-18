@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-18T23:32:46.326Z",
+  "ts": "2026-08-18T23:33:17.882Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334824785",
+    "type": "OUTBOUND",
+    "message_id": "4334824853",
     "ticket_id": "974942390",
-    "message": "Hi I want to know witch is the price for this 3 studio for 6 months from 20 September and if I can pay mounthly or witch solution do u have",
-    "channel_id": "1304636",
+    "message": "For 6 months from 20 September, you can pay monthly, we just ask for the first and last month upfront, then each remaining month as it comes. One thing worth knowing: rates are confirmed in 3-month blocks, so months 4, 6 will be aligned to market rate at the time. Does that payment structure work for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544947698",
     "contact_name": "Salome Coltri dubai",
     "contact_identifier": "+971523344519",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
