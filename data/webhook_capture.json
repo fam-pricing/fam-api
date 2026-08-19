@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-19T08:44:01.478Z",
+  "ts": "2026-08-19T08:46:03.935Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4335043265",
+    "type": "INBOUND",
+    "message_id": "4335045614",
     "ticket_id": "973843859",
-    "message": "May I know how you will complete the rent payment please",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Could you please tell me, what does it mean 3,1%\nHow much it will be?\n\nOr better I think bank transfer, right?",
+    "channel_id": "585723",
     "contact_id": "544606636",
     "contact_name": "DIL NOZA RAKHIMOVA",
     "contact_identifier": "+971586870906",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4334943579",
+    "parent_ticket_id": "973843859",
+    "event_type": "INBOUND"
   }
 }
