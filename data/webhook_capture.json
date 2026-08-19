@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-19T13:28:30.617Z",
+  "ts": "2026-08-19T13:29:04.524Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4335358371",
+    "type": "OUTBOUND",
+    "message_id": "4335358952",
     "ticket_id": "962625629",
-    "message": "What time the office is open",
-    "channel_id": "585723",
+    "message": "We are open from 9.30am. - 5.30pm",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "541526979",
     "contact_name": "Megli",
     "contact_identifier": "+447474854636",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
