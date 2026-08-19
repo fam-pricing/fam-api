@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-19T08:52:19.324Z",
+  "ts": "2026-08-19T08:52:20.840Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4335052557",
-    "ticket_id": "973843859",
-    "message": "Yes, a bank transfer would be the better option. If you are planning to proceed with a bank transfer, we kindly recommend completing the payment in advance, as it may take some time for the funds to reflect in our account.\r\n\r\nPlease allow me to share the bank details with you so you can proceed with the payment.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "544606636",
-    "contact_name": "DIL NOZA RAKHIMOVA",
-    "contact_identifier": "+971586870906",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4335052575",
+    "ticket_id": "974985453",
+    "message": "Any update",
+    "channel_id": "1304636",
+    "contact_id": "544960144",
+    "contact_name": "F.Noraee",
+    "contact_identifier": "+971564844446",
+    "parent_message_id": "4334997587",
+    "parent_ticket_id": "974985453",
+    "event_type": "INBOUND"
   }
 }
