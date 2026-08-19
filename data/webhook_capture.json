@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-19T07:17:47.696Z",
+  "ts": "2026-08-19T07:18:56.262Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4334949342",
+    "type": "INBOUND",
+    "message_id": "4334950399",
     "ticket_id": "973843859",
-    "message": "This Deposit is fully refundable at check-out, provided there are no damages to the apartment. The refund will be processed within 7 - 14 working days after your departure.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "544606636",
     "contact_name": "AL ZORAH - Dilya",
     "contact_identifier": "+971586870906",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4334949342",
+    "parent_ticket_id": "973843859",
+    "event_type": "INBOUND"
   }
 }
