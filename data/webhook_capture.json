@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-19T07:06:20.265Z",
+  "ts": "2026-08-19T07:06:49.665Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4334938967",
+    "type": "INBOUND",
+    "message_id": "4334939380",
     "ticket_id": "973843859",
-    "message": "Security deposit of AED 2000\r\n\r\nPayment link - https://totalpay.ae/payment/20260819336a8555bdeeb02",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "And after deposit, I have to send you 6,000 for rent right?",
+    "channel_id": "585723",
     "contact_id": "544606636",
     "contact_name": "AL ZORAH - Dilya",
     "contact_identifier": "+971586870906",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
