@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-19T12:47:36.790Z",
+  "ts": "2026-08-19T12:48:28.203Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4335312389",
+    "type": "OUTBOUND",
+    "message_id": "4335313309",
     "ticket_id": "952537981",
-    "message": "Would Sunday be possible ?",
-    "channel_id": "585723",
+    "message": "Allow me to check with the owner",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "517825599",
     "contact_name": "Arifa Patel",
     "contact_identifier": "+971567647755",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
