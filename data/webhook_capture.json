@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-19T07:01:41.093Z",
+  "ts": "2026-08-19T07:03:21.254Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334934957",
+    "type": "OUTBOUND",
+    "message_id": "4334936419",
     "ticket_id": "973843859",
-    "message": "Can I make transfer online?",
-    "channel_id": "585723",
+    "message": "Sure. Please allow me to send you the payment link for the security deposit. Once the payment has been completed, kindly let me know so we can proceed with blocking the unit for you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544606636",
     "contact_name": "AL ZORAH - Dilya",
     "contact_identifier": "+971586870906",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
