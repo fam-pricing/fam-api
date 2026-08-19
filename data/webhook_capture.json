@@ -1,17 +1,19 @@
 {
-  "ts": "2026-08-19T13:34:11.596Z",
+  "ts": "2026-08-19T13:37:21.250Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4335365017",
-    "ticket_id": "974120899",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "544697140",
-    "contact_name": "Joseph Omar Nezam",
-    "contact_identifier": "+33772325718",
+    "type": "INBOUND",
+    "message_id": "4335368599",
+    "ticket_id": "974979381",
+    "message": "Send me the apartment number",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "544958435",
+    "contact_name": "صالحه صادق",
+    "contact_identifier": "+971562963872",
+    "parent_message_id": "4334968969",
+    "parent_ticket_id": "974979381",
+    "event_type": "INBOUND"
   }
 }
