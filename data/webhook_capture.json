@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-19T09:57:41.987Z",
+  "ts": "2026-08-19T09:59:02.263Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4335126685",
-    "ticket_id": "952537981",
-    "message": "Yes sure",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "517825599",
-    "contact_name": "Arifa Patel",
-    "contact_identifier": "+971567647755",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4335128215",
+    "ticket_id": "974985453",
+    "message": "At this rate I can confirm",
+    "channel_id": "1304636",
+    "contact_id": "544960144",
+    "contact_name": "F.Noraee",
+    "contact_identifier": "+971564844446",
+    "parent_message_id": "4335110784",
+    "parent_ticket_id": "974985453",
+    "event_type": "INBOUND"
   }
 }
