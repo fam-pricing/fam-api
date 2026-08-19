@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-19T07:50:41.722Z",
+  "ts": "2026-08-19T07:51:11.549Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4334982171",
+    "type": "INBOUND",
+    "message_id": "4334982647",
     "ticket_id": "974985453",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-mohammed-bin-rashid-city-sobha-hartland-the-crest-the-crest-tower-a-126544648.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello",
+    "channel_id": "1304636",
     "contact_id": "544960144",
     "contact_name": "F.Noraee",
     "contact_identifier": "+971564844446",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
