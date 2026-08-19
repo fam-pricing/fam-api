@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-19T07:36:39.975Z",
+  "ts": "2026-08-19T07:36:59.978Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334967860",
-    "ticket_id": "974978998",
-    "message": "My name is idreez, \nI've got some inquiries to make \nAm I with the owner of the company or Who can I direct my questions to? I just want to make sure I'm not directing my message to the wrong person",
-    "channel_id": "585723",
-    "contact_id": "544958331",
-    "contact_name": "Idreez",
-    "contact_identifier": "+2349163952012",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4334968217",
+    "ticket_id": "974912015",
+    "message": "Unfortunately, at the moment, we do not have any apartments available within this budget.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544938889",
+    "contact_name": "Mariem Khadija",
+    "contact_identifier": "+21628420562",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
