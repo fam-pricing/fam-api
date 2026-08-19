@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-19T07:05:24.306Z",
+  "ts": "2026-08-19T07:06:20.265Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334938205",
+    "type": "OUTBOUND",
+    "message_id": "4334938967",
     "ticket_id": "973843859",
-    "message": "How much will be security deposit?",
-    "channel_id": "585723",
+    "message": "Security deposit of AED 2000\r\n\r\nPayment link - https://totalpay.ae/payment/20260819336a8555bdeeb02",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544606636",
     "contact_name": "AL ZORAH - Dilya",
     "contact_identifier": "+971586870906",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
