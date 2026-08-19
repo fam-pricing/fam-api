@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-19T11:40:59.142Z",
+  "ts": "2026-08-19T11:46:11.310Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4335238399",
-    "ticket_id": "974471736",
-    "message": "Hi, I’ve received the payment advice showing the AED 2,050 refund, but the status is still “Pending for Accept” and the funds have not reflected in my account yet.\n\nCould you please confirm whether the payment has been fully authorized/released by your side, and when I should expect it to reflect in my account?",
-    "channel_id": "1304636",
-    "contact_id": "542138263",
-    "contact_name": "Brian",
-    "contact_identifier": "+971588425620",
-    "parent_message_id": "4334043638",
-    "parent_ticket_id": "974471736",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4335243381",
+    "ticket_id": "949384142",
+    "message": "Hello, could you please send a photo of the lights ?",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "536870373",
+    "contact_name": "Asmae Elalaouì",
+    "contact_identifier": "+971523442425",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
