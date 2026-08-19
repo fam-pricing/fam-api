@@ -1,17 +1,21 @@
 {
-  "ts": "2026-08-19T11:52:59.055Z",
+  "ts": "2026-08-19T11:54:11.234Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4335251731",
-    "ticket_id": "975037828",
-    "message": "Monthly rent for 1 person",
-    "channel_id": "585723",
-    "contact_id": "544977942",
-    "contact_name": "Vishnu GV",
-    "contact_identifier": "+919380859874",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4335253009",
+    "ticket_id": "974217543",
+    "message": "Please note that the unit has been handed back to the owner, and we are no longer managing the property. Therefore, we kindly request you to contact the owner directly regarding this matter.\r\n\r\nWe sincerely appreciate your understanding and apologize for any inconvenience this may cause.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544726354",
+    "contact_name": "Maria",
+    "contact_email": "mpaula.oliveira80@gmail.com",
+    "contact_identifier": "a5813ae5-62ec-46f0-5b1d-b7772c97ed1e",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
