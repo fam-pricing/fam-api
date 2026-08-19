@@ -4054,5 +4054,17 @@
     "lead_quality": null,
     "buying_stage": "COLD",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-08-19T07:43:06.410Z",
+    "ticket_id": 974912015,
+    "lead_id": "message_lead_31365040",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 900,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
+    "skip_reason": "acknowledgment_skip"
   }
 ]
