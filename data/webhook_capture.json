@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-19T12:08:50.968Z",
+  "ts": "2026-08-19T12:08:53.100Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4335269760",
-    "ticket_id": "974887724",
-    "message": "Is there anything else I can help you with today ?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "540250794",
-    "contact_name": "Lawson Okimeji",
-    "contact_identifier": "+447828014094",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4335269836",
+    "ticket_id": "974120899",
+    "message": "1 Time for how many days",
+    "channel_id": "585723",
+    "contact_id": "544697140",
+    "contact_name": "Joseph Omar Nezam",
+    "contact_identifier": "+33772325718",
+    "parent_message_id": "4335259186",
+    "parent_ticket_id": "974120899",
+    "event_type": "INBOUND"
   }
 }
