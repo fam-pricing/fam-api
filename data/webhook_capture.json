@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-19T11:47:22.563Z",
+  "ts": "2026-08-19T11:48:33.197Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4335245481",
+    "type": "OUTBOUND",
+    "message_id": "4335246771",
     "ticket_id": "949384142",
-    "message": "The light needs to be replaced. Could you please send someone to change it?",
-    "channel_id": "585723",
+    "message": "We will inform the team to check",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "536870373",
     "contact_name": "Asmae Elalaouì",
     "contact_identifier": "+971523442425",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
