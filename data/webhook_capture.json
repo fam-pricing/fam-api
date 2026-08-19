@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-19T07:06:49.665Z",
+  "ts": "2026-08-19T07:11:30.063Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334939380",
+    "type": "OUTBOUND",
+    "message_id": "4334943579",
     "ticket_id": "973843859",
-    "message": "And after deposit, I have to send you 6,000 for rent right?",
-    "channel_id": "585723",
+    "message": "Yes, certainly. The process is as follows:\r\n\r\n- First, you will need to complete the security deposit payment.\r\n- Once the deposit payment is received, we can proceed with blocking the unit for you.\r\n- The remaining rental payment can then be completed before your check-in date.\r\n\r\nIf you wish to make the rental payment through the payment link, please note that a 3.1% card processing fee will apply. Alternatively, you may also proceed with a bank transfer, which will not incur the card processing fee.\r\n\r\nPlease note that the unit can only be blocked once the security deposit has been successfully received",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544606636",
     "contact_name": "AL ZORAH - Dilya",
     "contact_identifier": "+971586870906",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
