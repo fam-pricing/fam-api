@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-19T05:08:19.484Z",
+  "ts": "2026-08-19T05:15:05.807Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4334881130",
+    "type": "OUTBOUND",
+    "message_id": "4334883257",
     "ticket_id": "973843859",
-    "message": "Waiting your answer please",
-    "channel_id": "585723",
+    "message": "Good morning,\r\n\r\nYes, we can arrange the viewing at 11:00 AM. Would this time be convenient for you?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544606636",
     "contact_name": "AL ZORAH - Dilya",
     "contact_identifier": "+971586870906",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
