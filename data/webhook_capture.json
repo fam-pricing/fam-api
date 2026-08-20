@@ -1,16 +1,16 @@
 {
-  "ts": "2026-08-20T13:31:57.526Z",
+  "ts": "2026-08-20T13:31:59.981Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4336239348",
+    "type": "OUTBOUND",
+    "message_id": "4336239407",
     "ticket_id": "975296494",
-    "message": "Hello I’m interested in this apartment I’d like to ask if its available",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "526837028",
     "contact_identifier": "+971545454400",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
