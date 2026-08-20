@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-20T06:33:08.245Z",
+  "ts": "2026-08-20T06:39:12.919Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4335799676",
+    "type": "OUTBOUND",
+    "message_id": "4335803874",
     "ticket_id": "975182013",
-    "message": "no response till now",
-    "channel_id": "883603",
+    "message": "Unfortunately you have to check with the property management team for this",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544970634",
     "contact_name": "ella",
     "contact_identifier": "f8ef6cc3-2758-4f52-56b5-b80f01ccca1c",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
