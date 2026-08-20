@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-20T11:59:09.782Z",
+  "ts": "2026-08-20T11:59:11.298Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4336133255",
-    "ticket_id": "974006337",
-    "message": "Not washing machine",
+    "type": "OUTBOUND",
+    "message_id": "4336133277",
+    "ticket_id": "963149889",
+    "message": "Allow us to check with the team, meantime you may go and check in the apartment our team is still doing the cleaning",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "541688038",
+    "contact_name": "Anver MARTYNOV",
+    "contact_identifier": "+971505570895",
     "channel_id": "585723",
-    "contact_id": "544658814",
-    "contact_name": "THỊ HOA NGUYÊN",
-    "contact_identifier": "+971523990441",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
