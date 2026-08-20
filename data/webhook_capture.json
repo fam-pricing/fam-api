@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-20T10:59:01.778Z",
+  "ts": "2026-08-20T10:59:42.415Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4336066138",
-    "ticket_id": "975248904",
-    "message": "We are flexible regarding the check-in date. We can check in as soon as possible, subject to availability. When is the earliest possible check-in date?",
+    "type": "OUTBOUND",
+    "message_id": "4336066902",
+    "ticket_id": "975251492",
+    "message": "The 4th month rate isn't locked in like the first three, it gets confirmed based on market conditions at that point, so there's a small variable there. Everything else for the 4-month stay from 15 September is confirmed. Want to arrange a viewing so you can see the place before committing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "545045364",
+    "contact_name": "EH",
+    "contact_identifier": "+971547638083",
     "channel_id": "1304636",
-    "contact_id": "545044467",
-    "contact_name": "Sergei Lagutaev",
-    "contact_identifier": "+79176109321",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
