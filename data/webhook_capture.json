@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-20T11:30:52.580Z",
+  "ts": "2026-08-20T11:31:30.554Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4336101050",
+    "type": "INBOUND",
+    "message_id": "4336101789",
     "ticket_id": "975229109",
-    "message": "Allow me to check for the 03 months rate please",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": ".",
+    "channel_id": "1304636",
     "contact_id": "545038311",
     "contact_name": "Zineb Chakir",
     "contact_identifier": "+971563339606",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4335974792",
+    "parent_ticket_id": "975229109",
+    "event_type": "INBOUND"
   }
 }
