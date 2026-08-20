@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-20T07:51:08.495Z",
+  "ts": "2026-08-20T07:53:36.945Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4335864751",
-    "ticket_id": "967162890",
-    "message": "I will leave after 7 pm\nDo you available that time?",
+    "type": "OUTBOUND",
+    "message_id": "4335867180",
+    "ticket_id": "973586617",
+    "message": "Deposit will be refunded within 7 working days for your kind information",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "544516361",
+    "contact_name": "Rafał Witucki",
+    "contact_identifier": "+971502863690",
     "channel_id": "585723",
-    "contact_id": "542854170",
-    "contact_name": "Masoud Matboukhi",
-    "contact_identifier": "+971558423018",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
