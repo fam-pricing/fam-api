@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-20T12:16:07.276Z",
+  "ts": "2026-08-20T12:20:03.616Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4336152238",
+    "type": "OUTBOUND",
+    "message_id": "4336156506",
     "ticket_id": "975230960",
-    "message": "Is this available or why was this sent?",
-    "channel_id": "1304636",
+    "message": "We would like to inform you that I have shared the Peninsula link, as Urban Oasis Building does not allow self-check-in. Since you will be arriving at 1:00 AM, an additional after-hours check-in fee will apply.\r\n\r\nHowever, if you are comfortable with checking in after 3:00 PM on 28 August, we would be happy to assist you with the booking and provide you with the details for the Urban Oasis unit.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545038753",
     "contact_name": "FASTLIMITED TRADE",
     "contact_identifier": "+971585814884",
-    "parent_message_id": "4336146946",
-    "parent_ticket_id": "975230960",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
