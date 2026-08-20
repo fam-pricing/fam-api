@@ -1,17 +1,19 @@
 {
-  "ts": "2026-08-20T04:46:13.332Z",
+  "ts": "2026-08-20T04:46:18.012Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4335759204",
+    "message_id": "4335759215",
     "ticket_id": "947609821",
-    "message": "Thank you, refund received",
+    "message": "Yes, all good",
     "channel_id": "585723",
     "contact_id": "537450284",
     "contact_name": "Alisa",
     "contact_identifier": "+79817821817",
+    "parent_message_id": "4335293322",
+    "parent_ticket_id": "947609821",
     "event_type": "INBOUND"
   }
 }
