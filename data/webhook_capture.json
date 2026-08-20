@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-20T09:22:31.627Z",
+  "ts": "2026-08-20T09:23:02.005Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4335962880",
+    "type": "OUTBOUND",
+    "message_id": "4335963382",
     "ticket_id": "975226425",
-    "message": "Hi \nFor myself only \nMove in date August 22 -4months\nWhat will be the rent for the 4 months please ?",
-    "channel_id": "1304636",
+    "message": "The 4-month rate is AED 4,000/month all-inclusive. The first 3 months are locked in at that price, for the 4th month, we'd review and confirm the rate with you before it kicks in. Does that work for you, or would you prefer a fixed rate across all 4 months?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545037390",
     "contact_name": "Margot Zerbib",
     "contact_identifier": "+971558595500",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
