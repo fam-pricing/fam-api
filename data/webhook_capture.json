@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-20T10:45:20.585Z",
+  "ts": "2026-08-20T10:46:32.737Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4336052409",
+    "type": "INBOUND",
+    "message_id": "4336053600",
     "ticket_id": "975248904",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "We need to rent five flats in the same building or as close to each other as possible. We are looking for a long-term tenancy, but with monthly payments. We are prepared to sign a long-term tenancy agreement and pay each month.\n\nCould you please let us know if you can find a suitable option? If there aren’t five flats in the same building, we’d be open to considering several neighbouring buildings in the same area",
+    "channel_id": "1304636",
     "contact_id": "545044467",
     "contact_name": "Sergei Lagutaev",
     "contact_identifier": "+79176109321",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
