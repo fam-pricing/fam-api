@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-20T13:36:06.584Z",
+  "ts": "2026-08-20T13:37:04.214Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4336243987",
+    "type": "INBOUND",
+    "message_id": "4336245021",
     "ticket_id": "975297441",
-    "message": "Kristina, happy to help, any questions about the 1BR in Peninsula Three?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes, I’m looking for an apartment at peninsula 1,2,3,4 .. whatever \nMoving date is August 24th \n\nDo you have any available options?",
+    "channel_id": "1304636",
     "contact_id": "545060310",
     "contact_name": "Kristina",
     "contact_identifier": "+971545870889",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
