@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-20T12:15:29.061Z",
+  "ts": "2026-08-20T12:16:07.276Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4336151479",
+    "type": "INBOUND",
+    "message_id": "4336152238",
     "ticket_id": "975230960",
-    "message": "In that case, we can proceed with the reservation starting from 28 August. Would you like us to proceed with the booking?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Is this available or why was this sent?",
+    "channel_id": "1304636",
     "contact_id": "545038753",
     "contact_name": "FASTLIMITED TRADE",
     "contact_identifier": "+971585814884",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4336146946",
+    "parent_ticket_id": "975230960",
+    "event_type": "INBOUND"
   }
 }
