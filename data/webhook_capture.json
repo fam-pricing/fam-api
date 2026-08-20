@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-20T21:24:00.147Z",
+  "ts": "2026-08-20T21:24:23.167Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4336578227",
+    "type": "OUTBOUND",
+    "message_id": "4336578345",
     "ticket_id": "975379049",
-    "message": "No so far",
-    "channel_id": "1304636",
+    "message": "The closest we have to your budget is a Studio in JVT at AED 4,000/month all-inclusive. Want me to send you the listing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545089261",
     "contact_name": "Ousmane Doucoure",
     "contact_identifier": "+971557449190",
-    "parent_message_id": "4336577935",
-    "parent_ticket_id": "975379049",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
