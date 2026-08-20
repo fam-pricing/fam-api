@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-20T09:39:33.675Z",
+  "ts": "2026-08-20T09:40:33.825Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4335981319",
+    "type": "OUTBOUND",
+    "message_id": "4335982423",
     "ticket_id": "975231691",
-    "message": "Someone come from your side to assit us",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545039013",
-    "contact_name": "🪡",
+    "contact_name": "Abrar Al Tamimi",
     "contact_identifier": "+447426888858",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
