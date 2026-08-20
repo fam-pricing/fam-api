@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-20T13:42:26.328Z",
+  "ts": "2026-08-20T13:43:06.220Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4336251147",
+    "type": "INBOUND",
+    "message_id": "4336252004",
     "ticket_id": "975297441",
-    "message": "For your August 24 move-in and AED 7,500, 9,000 budget, three options in City Walk and Business Bay:\n\nViridian Central Park (City Walk), 1BR at AED 8,500/mo: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-82377275.html\n\nElite Business Bay and Urban Oasis (Business Bay), both 1BR at AED 7,000/mo\n\nWhich of these would you like to see first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": ".",
+    "channel_id": "1304636",
     "contact_id": "545060310",
     "contact_name": "Kristina",
     "contact_identifier": "+971545870889",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4336250653",
+    "parent_ticket_id": "975297441",
+    "event_type": "INBOUND"
   }
 }
