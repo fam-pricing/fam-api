@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-20T09:58:22.024Z",
+  "ts": "2026-08-20T09:58:45.159Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4336001833",
+    "type": "INBOUND",
+    "message_id": "4336002313",
     "ticket_id": "952537981",
-    "message": "We would like to inform you that today’s viewing has been cancelled by the owner.\r\n\r\nWe sincerely apologize for any inconvenience this may cause and appreciate your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Thanks for letting me know",
+    "channel_id": "585723",
     "contact_id": "517825599",
     "contact_name": "Arifa Patel",
     "contact_identifier": "+971567647755",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4336001833",
+    "parent_ticket_id": "952537981",
+    "event_type": "INBOUND"
   }
 }
