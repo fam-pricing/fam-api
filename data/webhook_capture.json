@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-21T11:38:37.146Z",
+  "ts": "2026-08-21T11:39:25.790Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4336993130",
-    "ticket_id": "975478657",
-    "message": "Unfortunately, we do not have any other apartments available in Peninsula Three at the moment.\r\n\r\nWe sincerely apologize for the inconvenience and appreciate your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545102588",
-    "contact_name": "HT",
-    "contact_identifier": "+971582911627",
+    "type": "INBOUND",
+    "message_id": "4336993952",
+    "ticket_id": "951355235",
+    "message": "Ok they are waiting for you only",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "534682324",
+    "contact_name": "Rahimudin Mangudin",
+    "contact_identifier": "+447366477777",
+    "parent_message_id": "4336990556",
+    "parent_ticket_id": "951355235",
+    "event_type": "INBOUND"
   }
 }
