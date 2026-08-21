@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-21T10:49:06.921Z",
+  "ts": "2026-08-21T10:49:32.720Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4336929432",
-    "ticket_id": "962625629",
-    "message": "Hello Iam on my way to the office",
+    "type": "OUTBOUND",
+    "message_id": "4336929816",
+    "ticket_id": "975435722",
+    "message": "In this area we do not have any units available",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545106592",
+    "contact_name": "Amoon",
+    "contact_identifier": "+971521772120",
     "channel_id": "585723",
-    "contact_id": "541526979",
-    "contact_name": "Megli",
-    "contact_identifier": "+447474854636",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
