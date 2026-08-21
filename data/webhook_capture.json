@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-21T06:01:20.979Z",
+  "ts": "2026-08-21T06:02:25.881Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4336672099",
-    "ticket_id": "975397765",
-    "message": "Thank you",
+    "type": "OUTBOUND",
+    "message_id": "4336672589",
+    "ticket_id": "975226425",
+    "message": "Please note that the earlier rate was provided by the AI agent, and unfortunately, we are unable to offer the same rate for a 3-month stay.\r\n\r\nThe rate shared above is the best rate we can offer for a 4-month stay, subject to availability.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545037390",
+    "contact_name": "Margot Zerbib",
+    "contact_identifier": "+971558595500",
     "channel_id": "1304636",
-    "contact_id": "545094833",
-    "contact_name": "Ozzie",
-    "contact_identifier": "+971509130226",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
