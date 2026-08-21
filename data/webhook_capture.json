@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-21T06:03:37.483Z",
+  "ts": "2026-08-21T06:11:29.347Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4336673060",
-    "ticket_id": "975397765",
-    "message": "This apartment was really nice... \nI booked that's also nice\nAnyways thank you bro",
+    "type": "OUTBOUND",
+    "message_id": "4336676713",
+    "ticket_id": "975226425",
+    "message": "I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545037390",
+    "contact_name": "Margot Zerbib",
+    "contact_identifier": "+971558595500",
     "channel_id": "1304636",
-    "contact_id": "545094833",
-    "contact_name": "Ozzie",
-    "contact_identifier": "+971509130226",
-    "parent_message_id": "4336636973",
-    "parent_ticket_id": "975397765",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
