@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-21T07:25:56.345Z",
+  "ts": "2026-08-21T07:26:06.488Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4336724941",
-    "ticket_id": "975414362",
-    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545099021",
-    "contact_name": "Arnia Mohammadi",
-    "contact_identifier": "+971544468909",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4336725073",
+    "ticket_id": "974471736",
+    "message": "I am writing to follow up on my repeated requests for information regarding my security deposit, sent since Wednesday. I have yet to receive a response or acknowledgement.While the communication was prompt during the onboarding process, the current lack of response and courtesy after checkout is unacceptable. Please provide an immediate update on the status of my security deposit and when I can expect the transfer to be completed.",
+    "channel_id": "1304636",
+    "contact_id": "542138263",
+    "contact_name": "Brian",
+    "contact_identifier": "+971588425620",
+    "event_type": "INBOUND"
   }
 }
