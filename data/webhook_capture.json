@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-21T11:33:38.722Z",
+  "ts": "2026-08-21T11:34:21.560Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4336988241",
+    "type": "INBOUND",
+    "message_id": "4336988873",
     "ticket_id": "975478657",
-    "message": "Unfortunately, the unit you inquired about is no longer available for a one-month stay starting tomorrow, as we have received another confirmed booking for the unit.\r\n\r\nWe sincerely apologize for the inconvenience and appreciate your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Ok you don't have other unit in peninsula three available from tomorrow ?",
+    "channel_id": "585723",
     "contact_id": "545102588",
     "contact_name": "HT",
     "contact_identifier": "+971582911627",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
