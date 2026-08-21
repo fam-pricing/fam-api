@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-21T02:58:45.487Z",
+  "ts": "2026-08-21T02:59:10.149Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4336638040",
+    "type": "INBOUND",
+    "message_id": "4336638088",
     "ticket_id": "975397765",
-    "message": "Great, to get this booked we'll need a copy of your ID or passport and your email address, then we'll send over a payment link to secure it. Want to go ahead?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes",
+    "channel_id": "1304636",
     "contact_id": "545094833",
     "contact_name": "Ozzie",
     "contact_identifier": "+971509130226",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4336638040",
+    "parent_ticket_id": "975397765",
+    "event_type": "INBOUND"
   }
 }
