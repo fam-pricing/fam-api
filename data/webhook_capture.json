@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-21T11:02:19.873Z",
+  "ts": "2026-08-21T11:02:41.282Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4336945106",
+    "type": "OUTBOUND",
+    "message_id": "4336945529",
     "ticket_id": "975480947",
-    "message": "Hello",
-    "channel_id": "1304636",
+    "message": "Hanan, did you get a chance to check out the listing? What are you looking for in terms of dates?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545122460",
     "contact_name": "Hanan",
     "contact_identifier": "+971585337903",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
