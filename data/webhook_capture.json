@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-21T13:45:30.893Z",
+  "ts": "2026-08-21T13:49:42.594Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4337124627",
+    "type": "INBOUND",
+    "message_id": "4337128988",
     "ticket_id": "975497015",
-    "message": "Apologies for the delay.\r\n\r\nUnfortunately, all of our apartments in Palm are currently fully booked, and we do not have any availability at the moment.\r\n\r\nWe sincerely apologize for any inconvenience and appreciate your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "241548833",
     "contact_name": "Mona Alabdouli  Alabdouli",
     "contact_identifier": "+971509885888",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4337124627",
+    "parent_ticket_id": "975497015",
+    "event_type": "INBOUND"
   }
 }
