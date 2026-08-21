@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-21T13:49:42.594Z",
+  "ts": "2026-08-21T13:49:57.617Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337128988",
+    "type": "OUTBOUND",
+    "message_id": "4337129237",
     "ticket_id": "975497015",
-    "message": "👍",
-    "channel_id": "585723",
+    "message": "Is there anything else I can help you with today ?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "241548833",
     "contact_name": "Mona Alabdouli  Alabdouli",
     "contact_identifier": "+971509885888",
-    "parent_message_id": "4337124627",
-    "parent_ticket_id": "975497015",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
