@@ -1752,3 +1752,14 @@ The rate includes water, electricity, Wi-Fi, and DTCM charges. Please note that 
 ## Learned (2026-08-17)
 - If a lead says they can pay tomorrow (implying a reduced or deferred security deposit), respond by clarifying that the security deposit amount cannot be reduced or waived, as it is a mandatory requirement for the check-in process.
   (Learned from Faysal handling Ahmed T. re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
+
+## Learned (2026-08-21)
+- When a lead provides a move-in date and confirms a stay of one month (e.g., "From 28th August – 1 month"), respond with the following:
+
+"To process your booking, we will need the following:
+
+1. A copy of your passport
+2. Your email address
+
+Once we receive the above, we will send you a registration card to sign and return. After all steps are completed, we will send you your self-check-in details."
+  (Learned from Faysal handling FASTLIMITED TRADE re 1BR in Peninsula Three)
