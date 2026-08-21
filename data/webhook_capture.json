@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-21T15:58:00.699Z",
+  "ts": "2026-08-21T15:58:02.364Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337257869",
+    "type": "OUTBOUND",
+    "message_id": "4337257899",
     "ticket_id": "975561102",
-    "message": "May i know the best rate for 35 nights?",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "545149424",
     "contact_name": "KFR",
     "contact_identifier": "57420a6e-351d-4e3e-27af-8a175cb0db06",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
