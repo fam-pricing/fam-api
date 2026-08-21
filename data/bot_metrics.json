@@ -4354,5 +4354,17 @@
     "lead_quality": 50,
     "buying_stage": "WARM",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-08-21T09:20:07.933Z",
+    "ticket_id": 975348470,
+    "lead_id": "message_lead_31413425",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1301,
+    "critic_pass": null,
+    "lead_quality": 50,
+    "buying_stage": "WARM",
+    "skip_reason": "ticket_locked"
   }
 ]
