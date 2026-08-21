@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-21T07:42:25.349Z",
+  "ts": "2026-08-21T07:42:57.909Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4336739765",
-    "ticket_id": "975414362",
-    "message": "No, this is not the Burj View unit. Please note that the rates were recently updated by the management.\r\n\r\nAdditionally, the Burj View apartments are currently fully booked.\r\n\r\nThank you for your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545099021",
-    "contact_name": "Arnia Mohammadi",
-    "contact_identifier": "+971544468909",
+    "type": "INBOUND",
+    "message_id": "4336740222",
+    "ticket_id": "951355235",
+    "message": "10:00 AM - 12:00 PM",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "534682324",
+    "contact_name": "Rahimudin Mangudin",
+    "contact_identifier": "+447366477777",
+    "parent_message_id": "4336728002",
+    "parent_ticket_id": "951355235",
+    "event_type": "INBOUND"
   }
 }
