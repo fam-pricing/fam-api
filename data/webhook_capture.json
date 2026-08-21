@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-21T06:24:17.400Z",
+  "ts": "2026-08-21T06:30:58.796Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4336682894",
+    "type": "OUTBOUND",
+    "message_id": "4336686080",
     "ticket_id": "967162890",
-    "message": "Image",
-    "channel_id": "585723",
+    "message": "Thank you for confirming your check-out. We will check with the relevant team regarding the refund and update you accordingly.\r\n\r\nThank you for your patience and understanding.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "542854170",
     "contact_name": "Masoud Matboukhi",
     "contact_identifier": "+971558423018",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
