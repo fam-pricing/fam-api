@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-22T14:08:29.918Z",
+  "ts": "2026-08-22T14:28:06.072Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337715535",
-    "ticket_id": "975565758",
-    "message": "When does the apartment become available again ?",
-    "channel_id": "1304636",
-    "contact_id": "539365088",
-    "contact_name": "A",
-    "contact_identifier": "+447539692848",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4337725323",
+    "ticket_id": "975680436",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545193959",
+    "contact_name": "Omar Tabbaa",
+    "contact_identifier": "d91b7c82-29fc-4569-6b53-0d2c00574b36",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
