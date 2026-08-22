@@ -4594,5 +4594,17 @@
     "lead_quality": 60,
     "buying_stage": "WARM",
     "skip_reason": "agent_cooldown"
+  },
+  {
+    "ts": "2026-08-22T14:08:30.824Z",
+    "ticket_id": 975565758,
+    "lead_id": "message_lead_31437308",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 906,
+    "critic_pass": null,
+    "lead_quality": 40,
+    "buying_stage": "WARM",
+    "skip_reason": "bot_paused"
   }
 ]
