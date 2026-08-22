@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-22T07:03:08.851Z",
+  "ts": "2026-08-22T07:04:13.402Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337516401",
+    "type": "OUTBOUND",
+    "message_id": "4337516851",
     "ticket_id": "975406782",
-    "message": "What options do you have?",
-    "channel_id": "1304636",
+    "message": "we do not currently have any apartments available within your budget.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545097037",
     "contact_name": "Alena",
     "contact_identifier": "+971588910106",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
