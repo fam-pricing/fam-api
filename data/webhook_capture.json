@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-22T17:10:20.434Z",
+  "ts": "2026-08-22T17:12:33.924Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4337792626",
-    "ticket_id": "975698856",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "545191667",
-    "contact_name": "Berivan",
-    "contact_identifier": "+905425239891",
+    "type": "INBOUND",
+    "message_id": "4337793485",
+    "ticket_id": "975416656",
+    "message": "However, some important points I asked about are not clearly specified in the contract, such as the additional charges, telephone usage, and costs related to water and electricity.\n\nAlso, the AED 5,000 mentioned in case of an extension is unclear. Is this additional rent, a new security deposit, or another fee?\n\nBefore making the payment, I simply need to know exactly what costs and conditions apply to my stay, so everything is clear for both sides and there are no misunderstandings or unexpected charges at the end.\n\nCould you please clarify these points for me before I proceed?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "544664890",
+    "contact_name": "Marjan Ali Dinpazhooh",
+    "contact_identifier": "+971504075831",
+    "event_type": "INBOUND"
   }
 }
