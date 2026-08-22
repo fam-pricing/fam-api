@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-22T08:56:42.132Z",
+  "ts": "2026-08-22T08:57:58.643Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337566915",
+    "type": "OUTBOUND",
+    "message_id": "4337567500",
     "ticket_id": "852583151",
-    "message": "no outside agent",
-    "channel_id": "585723",
+    "message": "Please note that the amount we have shared is our net rate. Any commission for an external agent must be added on top of this amount, as we do not include agent commission within the quoted rate.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "450960431",
     "contact_name": "Erica - fam living",
     "contact_identifier": "+971544311300",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
