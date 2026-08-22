@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-22T12:05:21.802Z",
+  "ts": "2026-08-22T12:05:42.051Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337655873",
+    "type": "OUTBOUND",
+    "message_id": "4337655987",
     "ticket_id": "975665696",
-    "message": "Hi",
-    "channel_id": "1304636",
+    "message": "Bea, the Cloud Tower studio is still available, what's your ideal move-in date?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545185804",
     "contact_name": "Bea",
     "contact_identifier": "+971504498605",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
