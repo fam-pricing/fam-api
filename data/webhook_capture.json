@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-22T08:51:13.799Z",
+  "ts": "2026-08-22T08:52:52.582Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4337564363",
-    "ticket_id": "973289457",
-    "message": "Please check your bank statement, as the refund should be reflected within 3 working days. The refund was processed on 19th August and was issued to the same card used for the original payment.\r\n\r\nKindly check your statement and let us know if you are still unable to locate the refund. Thank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "544429852",
-    "contact_name": "Sultan alghaithi",
-    "contact_identifier": "+971506637030",
+    "type": "INBOUND",
+    "message_id": "4337565118",
+    "ticket_id": "852583151",
+    "message": "this is outside client",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "450960431",
+    "contact_name": "Erica - fam living",
+    "contact_identifier": "+971544311300",
+    "event_type": "INBOUND"
   }
 }
