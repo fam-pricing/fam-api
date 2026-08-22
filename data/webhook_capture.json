@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-22T09:10:58.722Z",
+  "ts": "2026-08-22T09:11:22.285Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337573768",
+    "type": "OUTBOUND",
+    "message_id": "4337573924",
     "ticket_id": "974338125",
-    "message": "Today 2pm is possible?",
-    "channel_id": "1304636",
+    "message": "2pm today works! See you then, our team will be in touch shortly to confirm. Could you send a photo of your passport or Emirates ID so we can get you registered for building access?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544760670",
     "contact_name": "Fran Domingo",
     "contact_identifier": "+34628593736",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
