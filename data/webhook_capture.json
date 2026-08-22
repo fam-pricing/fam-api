@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-22T09:08:58.869Z",
+  "ts": "2026-08-22T09:09:21.398Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337572876",
+    "type": "OUTBOUND",
+    "message_id": "4337573098",
     "ticket_id": "974338125",
-    "message": "Image",
-    "channel_id": "1304636",
+    "message": "Just to confirm, did you mean to send a document or photo? If it's your passport copy, please resend and I'll get the booking moving right away.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544760670",
     "contact_name": "Fran Domingo",
     "contact_identifier": "+34628593736",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
