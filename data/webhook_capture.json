@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-22T10:38:35.206Z",
+  "ts": "2026-08-22T10:42:58.022Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337615336",
+    "type": "OUTBOUND",
+    "message_id": "4337617371",
     "ticket_id": "975422397",
-    "message": "Ok perfect, i will check with my client and will let you know if she wants the viewing today or tomorrow",
-    "channel_id": "585723",
+    "message": "Sure, please let us know your preferred viewing time. Viewing appointments are available between 10:00 AM and 6:00 PM only.\r\n\r\nIf the client is comfortable with the timing, kindly share the client’s ID with us. Alternatively, if you will be accompanying the client, you may share your own ID so we can update the building team accordingly.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545102096",
     "contact_name": "Adan",
     "contact_identifier": "+971521292083",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
