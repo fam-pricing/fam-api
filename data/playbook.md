@@ -1767,3 +1767,9 @@ Once we receive the above, we will send you a registration card to sign and retu
 ## Learned (2026-08-22)
 - When a lead confirms they want to pay by credit card, inform them that a 3.1% card processing fee applies to payments made via the payment link, and that no additional charges are incurred when paying by cash or bank transfer.
   (Learned from Faysal handling Fatima re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-damac-maison-prive-damac-maison-prive-a-129738000.html)
+
+## Learned (2026-08-22)
+- When a lead requests additional amenities (e.g., "Will you add an oven to the unit?"), respond as follows:
+
+Please note that the unit will be exactly as viewed during the inspection, with the same furnishings and amenities. We are unable to add or provide any amenities beyond what is currently available in the apartment. Thank you for your understanding.
+  (Learned from Faysal handling Jannit Adan  Khwalid🧚🏼‍♀️✨ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
