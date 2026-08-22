@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-22T09:15:02.376Z",
+  "ts": "2026-08-22T09:15:17.697Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337575677",
+    "type": "OUTBOUND",
+    "message_id": "4337575803",
     "ticket_id": "974338125",
-    "message": "Image",
-    "channel_id": "1304636",
+    "message": "Fran, it looks like your last message didn't come through on our end. Could you resend it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544760670",
     "contact_name": "Fran Domingo",
     "contact_identifier": "+34628593736",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
