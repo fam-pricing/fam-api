@@ -1763,3 +1763,7 @@ The rate includes water, electricity, Wi-Fi, and DTCM charges. Please note that 
 
 Once we receive the above, we will send you a registration card to sign and return. After all steps are completed, we will send you your self-check-in details."
   (Learned from Faysal handling FASTLIMITED TRADE re 1BR in Peninsula Three)
+
+## Learned (2026-08-22)
+- When a lead confirms they want to pay by credit card, inform them that a 3.1% card processing fee applies to payments made via the payment link, and that no additional charges are incurred when paying by cash or bank transfer.
+  (Learned from Faysal handling Fatima re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-damac-maison-prive-damac-maison-prive-a-129738000.html)
