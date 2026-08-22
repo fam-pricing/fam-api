@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-22T10:01:11.498Z",
+  "ts": "2026-08-22T10:01:27.837Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4337597801",
+    "type": "INBOUND",
+    "message_id": "4337597947",
     "ticket_id": "975646942",
-    "message": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "1 month",
+    "channel_id": "585723",
     "contact_id": "510552599",
     "contact_name": "Hussein Redjili & Roberta Ventrice",
     "contact_identifier": "+971551855900",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4337597757",
+    "parent_ticket_id": "975646942",
+    "event_type": "INBOUND"
   }
 }
