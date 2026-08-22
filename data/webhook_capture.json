@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-22T05:45:01.781Z",
+  "ts": "2026-08-22T05:48:24.663Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4337495338",
-    "ticket_id": "975406782",
-    "message": "Good morning Alena,\r\n\r\nApologies, but unfortunately, we do not currently have any apartments available within your budget.\r\n\r\nPlease note that our holiday home monthly rates are dynamic and depend on the current market conditions. At the moment, we are unable to offer any available apartments within your specified budget.\r\n\r\nWe sincerely apologize for the inconvenience and appreciate your understanding.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "545097037",
-    "contact_name": "Alena",
-    "contact_identifier": "+971588910106",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4337495853",
+    "ticket_id": "975505445",
+    "message": "Hi, the payement of the rental was fully done yesterday and I sent already the proof of payment",
+    "channel_id": "585723",
+    "contact_id": "545130128",
+    "contact_name": "Samy Habili",
+    "contact_identifier": "+33630083090",
+    "event_type": "INBOUND"
   }
 }
