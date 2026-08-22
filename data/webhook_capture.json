@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-22T16:00:52.094Z",
+  "ts": "2026-08-22T16:02:53.955Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4337766846",
-    "ticket_id": "975565758",
-    "message": "Our 1-bedroom apartment in Viridian is fully booked until November 16. The earliest available date is November 16 onward.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539365088",
-    "contact_name": "A",
-    "contact_identifier": "+447539692848",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4337767720",
+    "ticket_id": "975676255",
+    "message": "👍",
+    "channel_id": "585723",
+    "contact_id": "545191667",
+    "contact_name": "Berivan",
+    "contact_identifier": "+905425239891",
+    "parent_message_id": "4337707476",
+    "parent_ticket_id": "975676255",
+    "event_type": "INBOUND"
   }
 }
