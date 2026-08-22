@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-22T14:03:26.968Z",
+  "ts": "2026-08-22T14:03:47.115Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337712968",
+    "type": "OUTBOUND",
+    "message_id": "4337713102",
     "ticket_id": "975679608",
-    "message": "And can i view it on Monday?",
-    "channel_id": "1304636",
+    "message": "Monday works! What time suits you, morning or afternoon?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545193767",
     "contact_name": "Lara Zakhour",
     "contact_identifier": "+971585753212",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
