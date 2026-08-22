@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-22T09:47:21.606Z",
+  "ts": "2026-08-22T09:47:25.490Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337591209",
-    "ticket_id": "975650211",
-    "message": "Yes but can you please confirm the rent",
-    "channel_id": "1304636",
-    "contact_id": "545178989",
-    "contact_name": "Fatima",
-    "contact_identifier": "+971558783458",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4337591234",
+    "ticket_id": "973289457",
+    "message": "we received the response from our finance team and here is the card details Mr Sultan",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "544429852",
+    "contact_name": "Sultan alghaithi",
+    "contact_identifier": "+971506637030",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
