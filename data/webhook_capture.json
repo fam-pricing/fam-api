@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-22T10:07:20.725Z",
+  "ts": "2026-08-22T10:08:45.026Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337600820",
-    "ticket_id": "973289457",
-    "message": "Thank you",
+    "type": "OUTBOUND",
+    "message_id": "4337601480",
+    "ticket_id": "975646942",
+    "message": "Yes, you can book the apartment for 15 nights. However, please note that a 15-night stay will be considered a short-term/daily booking, and the applicable daily rate will be different from the monthly rate.\r\n\r\nI will check the applicable rate for 15 nights and share the details with you shortly.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "510552599",
+    "contact_name": "Hussein Redjili & Roberta Ventrice",
+    "contact_identifier": "+971551855900",
     "channel_id": "585723",
-    "contact_id": "544429852",
-    "contact_name": "Sultan alghaithi",
-    "contact_identifier": "+971506637030",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
