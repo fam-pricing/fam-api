@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-22T09:46:21.513Z",
+  "ts": "2026-08-22T09:46:41.737Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4337590782",
+    "type": "INBOUND",
+    "message_id": "4337590919",
     "ticket_id": "975650211",
-    "message": "The studio at DAMAC Maison Prive is available from 15 September through 15 November. Would you like to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "And what would be the rent?",
+    "channel_id": "1304636",
     "contact_id": "545178989",
     "contact_name": "Fatima",
     "contact_identifier": "+971558783458",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
