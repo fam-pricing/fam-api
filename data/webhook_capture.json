@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-22T09:05:50.709Z",
+  "ts": "2026-08-22T09:06:26.715Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337571439",
+    "type": "OUTBOUND",
+    "message_id": "4337571751",
     "ticket_id": "852583151",
-    "message": "so from 21.600 (our total rate) the agent added 6% (22.896 will be the total) the client will pay to us this total : 22.896",
-    "channel_id": "585723",
+    "message": "This is something that will need to be checked directly with our Finance team. From our side, we will simply update the booking to indicate that it has come through an external agent.\r\n\r\nWe will provide the Finance team’s email address so the agent can communicate with them directly regarding the commission.\r\n\r\nPlease note that we do not have information on how long the commission process will take, as this is handled directly by the Finance team.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "450960431",
     "contact_name": "Erica - fam living",
     "contact_identifier": "+971544311300",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
