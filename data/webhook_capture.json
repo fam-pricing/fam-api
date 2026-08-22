@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-22T07:04:13.402Z",
+  "ts": "2026-08-22T07:05:10.367Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4337516851",
+    "type": "INBOUND",
+    "message_id": "4337517231",
     "ticket_id": "975406782",
-    "message": "we do not currently have any apartments available within your budget.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "My budget is 6000 per month with all bills.",
+    "channel_id": "1304636",
     "contact_id": "545097037",
     "contact_name": "Alena",
     "contact_identifier": "+971588910106",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
