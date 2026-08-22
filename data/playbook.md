@@ -1773,3 +1773,7 @@ Once we receive the above, we will send you a registration card to sign and retu
 
 Please note that the unit will be exactly as viewed during the inspection, with the same furnishings and amenities. We are unable to add or provide any amenities beyond what is currently available in the apartment. Thank you for your understanding.
   (Learned from Faysal handling Jannit Adan  Khwalid🧚🏼‍♀️✨ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
+
+## Learned (2026-08-22)
+- If a lead asks about staying for a month, confirm that the unit they will occupy is the same one viewed during the inspection — same furnishings, same amenities, no additions or upgrades. Do not offer or imply that extra amenities can be arranged. Close with a polite acknowledgment to set clear expectations.
+  (Learned from Faysal handling Alena re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
