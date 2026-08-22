@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-22T14:29:28.749Z",
+  "ts": "2026-08-22T14:40:49.248Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4337725982",
-    "ticket_id": "975670144",
-    "message": "Yes, the apartment is still available.\r\n\r\nPlease note that, as mentioned in our previous message, we can only provide and confirm the rates up to December at this stage.\r\n\r\nThank you for your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "544445475",
-    "contact_name": "Ocupado",
-    "contact_identifier": "+59176380565",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4337731564",
+    "ticket_id": "951355235",
+    "message": "All these expenses are borne by the company; why are you sending them to me?",
+    "channel_id": "585723",
+    "contact_id": "534682324",
+    "contact_name": "Rahimudin Mangudin",
+    "contact_identifier": "+447366477777",
+    "parent_message_id": "4337667132",
+    "parent_ticket_id": "951355235",
+    "event_type": "INBOUND"
   }
 }
