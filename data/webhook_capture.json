@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-22T06:25:52.296Z",
+  "ts": "2026-08-22T06:26:50.882Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4337505127",
+    "type": "INBOUND",
+    "message_id": "4337505371",
     "ticket_id": "975624266",
-    "message": "Hello Amani,\r\n\r\nWe received information that you are looking to book an apartment for a short-term rental.\r\n\r\nMay I know how many bedrooms you are looking for, your preferred location, your move-in date, and the duration of your stay? Once we have these details, I will be happy to assist you accordingly.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I'm looking for a studio, 1-bedroom apartment, or hotel apartment in Dubai *with furniture*\nMy budget is *AED 3,000–3,500 per month maximum, preferably including bills.* I can commit to *at least 6 months,* and I'm looking for a stable long-term place.\nThe most important thing is that it must be *within easy walking distance of a Metro station, as I don't have a car.*\nI work *in Jebel Ali,* so I would prefer somewhere convenient to commute to Jebel Ali.\nIf you have anything suitable, please send me the *monthly price, whether bills are included, exact location, distance to the Metro, and photos/videos.*\nThank you.",
+    "channel_id": "585723",
     "contact_id": "545169732",
     "contact_name": "Amani",
     "contact_identifier": "+971564264984",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
