@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-22T10:15:47.044Z",
+  "ts": "2026-08-22T10:16:21.796Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4337605066",
+    "type": "INBOUND",
+    "message_id": "4337605402",
     "ticket_id": "974338125",
-    "message": "would you like to book the apartment ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "The size and location of the apartment work well for us, and overall we are interested. However, after viewing it, we were quite disappointed with the general condition of the unit. The maintenance and cleanliness are clearly below what we expected, and there are several areas that would need attention.\n\nBecause of this, we wouldn’t be comfortable paying the current asking price. If the owner is open to a significant adjustment in the rent, we would still be interested and could move forward.",
+    "channel_id": "1304636",
     "contact_id": "544760670",
     "contact_name": "Fran Domingo",
     "contact_identifier": "+34628593736",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
