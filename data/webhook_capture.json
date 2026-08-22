@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-22T09:07:08.388Z",
+  "ts": "2026-08-22T09:07:12.579Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337572083",
+    "type": "OUTBOUND",
+    "message_id": "4337572112",
     "ticket_id": "852583151",
-    "message": "sure",
-    "channel_id": "585723",
+    "message": "Regarding the floor, I’m unable to confirm it at this stage, as several units across different floors are currently available. The exact floor will be confirmed based on the unit assigned at the time of booking.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "450960431",
     "contact_name": "Erica - fam living",
     "contact_identifier": "+971544311300",
-    "parent_message_id": "4337572002",
-    "parent_ticket_id": "852583151",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
