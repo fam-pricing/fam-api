@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-23T08:26:08.276Z",
+  "ts": "2026-08-23T08:26:32.166Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337975191",
+    "type": "OUTBOUND",
+    "message_id": "4337975371",
     "ticket_id": "975743006",
-    "message": "Yes 2 studio or same price",
-    "channel_id": "1304636",
+    "message": "We only have one studio available in Cloud Tower right now, so getting two at the same rate would need a bit of checking. What's your move-in date?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545227317",
     "contact_name": "Nasser Sardari",
     "contact_identifier": "+971525992449",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
