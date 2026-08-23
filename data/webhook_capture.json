@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-23T10:40:58.578Z",
+  "ts": "2026-08-23T10:42:25.126Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4338036270",
+    "type": "INBOUND",
+    "message_id": "4338036903",
     "ticket_id": "975762404",
-    "message": "Allow me to check for the available 02 bedroom apartments and share the options with you starting from 25th",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "🙏",
+    "channel_id": "585723",
     "contact_id": "545233275",
     "contact_name": "max",
     "contact_identifier": "+971507392447",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4338036270",
+    "parent_ticket_id": "975762404",
+    "event_type": "INBOUND"
   }
 }
