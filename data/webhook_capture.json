@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-23T10:38:21.470Z",
+  "ts": "2026-08-23T10:38:45.168Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338034999",
+    "type": "OUTBOUND",
+    "message_id": "4338035168",
     "ticket_id": "975755951",
-    "message": "Great.",
-    "channel_id": "1304636",
+    "message": "4pm is confirmed, see you there this afternoon. Could you send a photo of your passport or Emirates ID so we can sort building access before you arrive?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545231569",
     "contact_name": "Miika",
     "contact_identifier": "+358400198541",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
