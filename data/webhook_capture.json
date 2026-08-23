@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-23T14:07:49.307Z",
+  "ts": "2026-08-23T14:08:28.607Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338126049",
-    "ticket_id": "975505445",
-    "message": "Thanks, anytime from 10h30",
+    "type": "OUTBOUND",
+    "message_id": "4338126327",
+    "ticket_id": "975784179",
+    "message": "This unit is occupied at the moment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545240437",
+    "contact_name": "Roshan Rakesh",
+    "contact_identifier": "+971524927288",
     "channel_id": "585723",
-    "contact_id": "545130128",
-    "contact_name": "Samy Habili",
-    "contact_identifier": "+33630083090",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
