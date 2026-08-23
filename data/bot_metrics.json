@@ -1,53 +1,5 @@
 [
   {
-    "ts": "2026-08-16T11:57:20.431Z",
-    "ticket_id": 974371702,
-    "lead_id": "message_lead_31302893",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 19049,
-    "critic_pass": null,
-    "lead_quality": 30,
-    "buying_stage": "COOL",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-08-16T11:59:11.372Z",
-    "ticket_id": 974371702,
-    "lead_id": "message_lead_31302893",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 17916,
-    "critic_pass": null,
-    "lead_quality": 30,
-    "buying_stage": "COOL",
-    "skip_reason": "Lead requesting a phone call, provided number 0585949884. Also wants to move in today/immediately for the 3BR Imperial Avenue unit."
-  },
-  {
-    "ts": "2026-08-16T11:59:12.926Z",
-    "ticket_id": 974371702,
-    "lead_id": "message_lead_31302893",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 855,
-    "critic_pass": null,
-    "lead_quality": 30,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-08-16T11:59:46.622Z",
-    "ticket_id": 974371702,
-    "lead_id": "message_lead_31302893",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 729,
-    "critic_pass": null,
-    "lead_quality": 30,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-08-16T13:06:15.106Z",
     "ticket_id": 974377027,
     "lead_id": "message_lead_31303862",
@@ -4234,5 +4186,17 @@
     "lead_quality": 80,
     "buying_stage": "HOT",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-08-23T12:09:57.140Z",
+    "ticket_id": 975755951,
+    "lead_id": "message_lead_31476363",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 745,
+    "critic_pass": null,
+    "lead_quality": 65,
+    "buying_stage": "WARM",
+    "skip_reason": "bot_paused"
   }
 ]
