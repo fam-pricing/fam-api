@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-23T07:31:48.269Z",
+  "ts": "2026-08-23T07:31:55.558Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337952153",
-    "ticket_id": "975741616",
-    "message": "He sent your WhatsApp line to me.",
+    "type": "OUTBOUND",
+    "message_id": "4337952206",
+    "ticket_id": "975741726",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "545226945",
+    "contact_name": "Gulasal Olimjonova",
+    "contact_identifier": "+971508897805",
     "channel_id": "585723",
-    "contact_id": "545226918",
-    "contact_name": "Yetty Sanyaolu",
-    "contact_identifier": "+2349091578260",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
