@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-23T10:34:27.314Z",
+  "ts": "2026-08-23T10:35:34.082Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4338033262",
-    "ticket_id": "975505445",
-    "message": "You're welcome",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "545130128",
-    "contact_name": "Samy Habili",
-    "contact_identifier": "+33630083090",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4338033759",
+    "ticket_id": "975755951",
+    "message": "No. Sorry.\n\nI don't share sensitive documents on whatsapp.",
+    "channel_id": "1304636",
+    "contact_id": "545231569",
+    "contact_name": "Miika",
+    "contact_identifier": "+358400198541",
+    "event_type": "INBOUND"
   }
 }
