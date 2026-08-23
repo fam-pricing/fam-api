@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-23T10:35:34.082Z",
+  "ts": "2026-08-23T10:36:02.600Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338033759",
+    "type": "OUTBOUND",
+    "message_id": "4338033953",
     "ticket_id": "975755951",
-    "message": "No. Sorry.\n\nI don't share sensitive documents on whatsapp.",
-    "channel_id": "1304636",
+    "message": "No problem at all. Is there another way we can verify your identity before the visit, or would you prefer we sort it out at the building on the day?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545231569",
     "contact_name": "Miika",
     "contact_identifier": "+358400198541",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
