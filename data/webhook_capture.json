@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-23T07:45:20.323Z",
+  "ts": "2026-08-23T07:45:21.413Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337957592",
-    "ticket_id": "975708307",
-    "message": "Can I use this opportunity to ask if you have Any vacancy for hiring at Your side please?",
-    "channel_id": "585723",
-    "contact_id": "545204189",
-    "contact_name": "Captain 🧑🏾‍✈️",
-    "contact_identifier": "+971565976559",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4337957594",
+    "ticket_id": "975743006",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "545227317",
+    "contact_name": "Nasser Sardari",
+    "contact_identifier": "+971525992449",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
