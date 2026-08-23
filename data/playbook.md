@@ -1790,3 +1790,16 @@ Thank you! To process your booking, we will need the following:
 
 Once we have these, we will send you a registration card to sign and return. Upon completion, we will share your self-check-in details.
   (Learned from Faysal handling Jannit Adan  Khwalid🧚🏼‍♀️✨ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
+
+## Learned (2026-08-23)
+- When a lead responds with "Perfect" (or any equivalent confirmation), reply with the following message:
+
+To process your booking, we will need the following:
+
+1. A copy of your passport
+2. Your email address
+
+We will then send you a registration card to sign and return to us.
+
+Once these steps are completed, we will send you your self-check-in details.
+  (Learned from Faysal handling Jannit Adan  Khwalid🧚🏼‍♀️✨ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
