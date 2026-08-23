@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-23T08:30:36.730Z",
+  "ts": "2026-08-23T08:30:52.383Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337977124",
+    "type": "OUTBOUND",
+    "message_id": "4337977279",
     "ticket_id": "975743006",
-    "message": "1 for you and 1 for another agent",
-    "channel_id": "1304636",
+    "message": "Let me get someone from the team to help you with both studios and arrange the video, give us just a moment!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545227317",
     "contact_name": "Nasser Sardari",
     "contact_identifier": "+971525992449",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
