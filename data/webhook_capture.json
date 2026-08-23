@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-23T06:49:56.579Z",
+  "ts": "2026-08-23T06:50:05.098Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4337937172",
+    "type": "OUTBOUND",
+    "message_id": "4337937227",
     "ticket_id": "975646942",
-    "message": "This a small and shouldn’t replace and pay this amount of 250\n\nWho decided this",
-    "channel_id": "585723",
+    "message": "Unfortunately this report we received from the building as they are the one who is managing all the cleaning and inventory of the apartment",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "510552599",
     "contact_name": "Hussein Redjili & Roberta Ventrice",
     "contact_identifier": "+971551855900",
-    "parent_message_id": "4337935143",
-    "parent_ticket_id": "975646942",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
