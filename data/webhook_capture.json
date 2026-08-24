@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-24T16:31:52.165Z",
+  "ts": "2026-08-24T16:45:44.621Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4339091154",
-    "ticket_id": "976042590",
-    "message": "Hi I wonder if u can help me this studio need a twin bed instead of a 1 bed is that possible",
-    "channel_id": "1304636",
-    "contact_id": "545316348",
-    "contact_name": "David",
-    "contact_identifier": "+971561158727",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4339100570",
+    "ticket_id": "975826365",
+    "message": "We have received your payment and have blocked the unit for you.\r\n\r\nKindly complete the remaining payment at your earliest convenience and share the payment receipt with us once completed.\r\n\r\nUpon receiving the receipt, we will send you the booking confirmation.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545257027",
+    "contact_name": "Damian",
+    "contact_identifier": "+447856454139",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
