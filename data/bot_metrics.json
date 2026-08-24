@@ -1,65 +1,5 @@
 [
   {
-    "ts": "2026-08-17T09:04:14.929Z",
-    "ticket_id": 974497699,
-    "lead_id": "message_lead_31320964",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1342,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-08-17T09:06:01.104Z",
-    "ticket_id": 974497699,
-    "lead_id": "message_lead_31320964",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1385,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-08-17T09:06:35.417Z",
-    "ticket_id": 974497699,
-    "lead_id": "message_lead_31320964",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 39286,
-    "critic_pass": null,
-    "lead_quality": 40,
-    "buying_stage": "WARM",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-08-17T09:11:44.711Z",
-    "ticket_id": 974353864,
-    "lead_id": "message_lead_31298768",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 960,
-    "critic_pass": null,
-    "lead_quality": 55,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-08-17T09:15:52.967Z",
-    "ticket_id": 974497699,
-    "lead_id": "message_lead_31320964",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1352,
-    "critic_pass": null,
-    "lead_quality": 40,
-    "buying_stage": "WARM",
-    "skip_reason": "ticket_locked"
-  },
-  {
     "ts": "2026-08-17T09:26:27.582Z",
     "ticket_id": 974353864,
     "lead_id": "message_lead_31298768",
@@ -4306,5 +4246,17 @@
     "lead_quality": 80,
     "buying_stage": "HOT",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-08-24T09:12:21.305Z",
+    "ticket_id": 975362276,
+    "lead_id": "message_lead_31415225",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 971,
+    "critic_pass": null,
+    "lead_quality": 80,
+    "buying_stage": "HOT",
+    "skip_reason": "bot_paused"
   }
 ]
