@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-24T06:45:05.792Z",
+  "ts": "2026-08-24T06:48:32.655Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4338375311",
+    "type": "INBOUND",
+    "message_id": "4338377946",
     "ticket_id": "975362276",
-    "message": "Can I confirm the details before proceeding the booking,\r\n\r\nCheck in date - 5th September\r\n\r\nFor 01 month at a rate of AED 4,500 and the Security deposit of AED 2000",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Security deposit is one time?",
+    "channel_id": "1304636",
     "contact_id": "545083162",
     "contact_name": "Jannit Adan  Khwalid🧚🏼‍♀️✨",
     "contact_identifier": "+972507398493",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
