@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-24T15:02:39.953Z",
+  "ts": "2026-08-24T15:05:26.443Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4339003289",
-    "ticket_id": "971659533",
-    "message": "Good evening, I hope you’re doing well.\n\nI wanted to politely ask about the possibility of extending our stay privately, as our current rental ends in one week. I understand that Airbnb charges around 10–15% in fees, so I was wondering if we could arrange a direct extension at a better price.\n\nIf the price is reasonable, we would definitely consider extending our stay for another month. We would also be open to staying in a different apartment if you have another suitable option available.\n\nHowever, our budget from our employer is unfortunately quite limited, so we wouldn’t be able to stay if the price increases significantly.\n\nPlease let me know if this would be possible and what price you could offer us.\n\nKind regards,\nSimon",
-    "channel_id": "585723",
-    "contact_id": "544015025",
-    "contact_name": "Cema",
-    "contact_identifier": "+491788657735",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4339008385",
+    "ticket_id": "976021523",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-damac-maison-prive-damac-maison-prive-b-129290215.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "545310766",
+    "contact_name": "Georgio Eid",
+    "contact_identifier": "+971504377488",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
