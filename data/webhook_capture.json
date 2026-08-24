@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-24T06:32:28.095Z",
+  "ts": "2026-08-24T06:32:47.744Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338366194",
+    "type": "OUTBOUND",
+    "message_id": "4338366411",
     "ticket_id": "975852835",
-    "message": "Don’t confirm it until I get back to you",
-    "channel_id": "1304636",
+    "message": "Noted, take your time. Nothing's confirmed until you give the go-ahead.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545264026",
     "contact_name": "Ollie",
     "contact_identifier": "+447398529161",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
