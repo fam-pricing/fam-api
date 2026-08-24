@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-24T14:00:33.527Z",
+  "ts": "2026-08-24T14:01:38.738Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4338922748",
+    "type": "INBOUND",
+    "message_id": "4338924260",
     "ticket_id": "975989052",
-    "message": "The property is located in Jumeirah Village Triangle (JVT). Please note that it does not offer a sea view.\r\n\r\nYes, we do accept short-term bookings.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "How much for short-term please",
+    "channel_id": "1304636",
     "contact_id": "544817335",
     "contact_name": "INFATIGABLE MAN.",
     "contact_identifier": "+971588300939",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4338922748",
+    "parent_ticket_id": "975989052",
+    "event_type": "INBOUND"
   }
 }
