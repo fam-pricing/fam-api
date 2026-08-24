@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-24T06:17:41.275Z",
+  "ts": "2026-08-24T06:17:53.141Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4338356392",
+    "type": "INBOUND",
+    "message_id": "4338356536",
     "ticket_id": "966078009",
-    "message": "May I kindly know the preferred start date and the number of bedrooms you are looking for?\r\n\r\nThis will allow us to check the availability and assist you accordingly.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Hi Tharushi, it’s Peter here",
+    "channel_id": "585723",
     "contact_id": "524518372",
     "contact_name": "Peter fam agent",
     "contact_identifier": "+971523713260",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
