@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-24T21:06:12.086Z",
+  "ts": "2026-08-24T21:06:32.244Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4339251750",
+    "type": "OUTBOUND",
+    "message_id": "4339251850",
     "ticket_id": "976084861",
-    "message": "Hello, is the apartment available ?",
-    "channel_id": "1304636",
+    "message": "Yes, it's available. Want to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545330809",
     "contact_name": "Y",
     "contact_identifier": "+34645084452",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
