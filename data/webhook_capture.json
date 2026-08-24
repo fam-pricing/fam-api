@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-24T06:17:00.798Z",
+  "ts": "2026-08-24T06:17:02.648Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338356002",
+    "type": "OUTBOUND",
+    "message_id": "4338356025",
     "ticket_id": "975852835",
-    "message": "Does the price include the bills?",
-    "channel_id": "1304636",
+    "message": "Yes, it's free from 19th September for 2 months. Did you want to arrange a viewing, or are you happy to go ahead and secure the dates?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545264026",
     "contact_name": "Ollie",
     "contact_identifier": "+447398529161",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
