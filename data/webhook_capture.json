@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-24T16:24:49.207Z",
+  "ts": "2026-08-24T16:25:29.100Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4339086066",
+    "type": "INBOUND",
+    "message_id": "4339086585",
     "ticket_id": "975826365",
-    "message": "Yes, I can block the unit with the security deposit until we receive the full payment by tomorrow.\r\n\r\nHowever, please note that in the event of cancellation, the security deposit will remain non-refundable, as the apartment will have been reserved exclusively for you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Okay please send payment link for security deposit and i will transfer the rest when bank unlocks recipient.",
+    "channel_id": "585723",
     "contact_id": "545257027",
     "contact_name": "Damian",
     "contact_identifier": "+447856454139",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
