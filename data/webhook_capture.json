@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-24T06:34:08.984Z",
+  "ts": "2026-08-24T06:34:10.401Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338367387",
+    "type": "OUTBOUND",
+    "message_id": "4338367406",
     "ticket_id": "975855952",
-    "message": "Hello! Good day ! \nI’d like to ask you about renting a property at bluewaters island for 1 month on November/ December . \nCould you please check about the availability and price for it\nThanks",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "545264912",
     "contact_name": "Viktoria",
     "contact_identifier": "824e2a15-a390-45d3-79bc-20bf9005938f",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
