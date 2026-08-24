@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-24T06:23:47.926Z",
+  "ts": "2026-08-24T06:24:41.103Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4338360383",
+    "type": "INBOUND",
+    "message_id": "4338360949",
     "ticket_id": "975852835",
-    "message": "Sorry about that! So just to confirm, it's 14,000 dirhams per month, bills included. Want to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "So for this period it would be £32k - correct?",
+    "channel_id": "1304636",
     "contact_id": "545264026",
     "contact_name": "Ollie",
     "contact_identifier": "+447398529161",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4338358796",
+    "parent_ticket_id": "975852835",
+    "event_type": "INBOUND"
   }
 }
