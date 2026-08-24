@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-24T11:59:51.006Z",
+  "ts": "2026-08-24T12:02:20.690Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338769689",
+    "type": "OUTBOUND",
+    "message_id": "4338773132",
     "ticket_id": "975953429",
-    "message": "my clients will arriving 27 august 12:30-1pm",
-    "channel_id": "585723",
+    "message": "Please note that our standard check-in time is 3:00 PM. Due to the back-to-back bookings, we are unable to guarantee or confirm an early check-in.\r\n\r\nHowever, we have informed the team of your request, and they will provide access as soon as the apartment is ready for check-in.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545290010",
     "contact_name": "Seyf - ANASTASIYA GOGOLEVA",
     "contact_identifier": "+971529451768",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
