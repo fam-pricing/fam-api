@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-24T12:11:36.727Z",
+  "ts": "2026-08-24T12:11:40.199Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338784925",
+    "type": "OUTBOUND",
+    "message_id": "4338784990",
     "ticket_id": "975964140",
-    "message": "Hello Tharushi",
-    "channel_id": "585723",
+    "message": "Unfortunately this unit is not available in your preferred dates as we have a in house guest",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545293163",
     "contact_name": "N",
     "contact_identifier": "+971505032572",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
