@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-24T18:37:18.061Z",
+  "ts": "2026-08-24T18:37:55.569Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4339179685",
+    "type": "OUTBOUND",
+    "message_id": "4339180103",
     "ticket_id": "976064902",
-    "message": "Hi. I'm interested in renting for 1 or 2 months starting around September 21st. I'm also interested in the number of parking spaces, one or two.",
-    "channel_id": "1304636",
+    "message": "The penthouse at Azizi Mina works for your dates, September 21st start, one or two months, no problem. I'll get you the confirmed parking spaces count right now. Can I grab your name?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545322623",
     "contact_name": "Анна",
     "contact_identifier": "+79824812028",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
