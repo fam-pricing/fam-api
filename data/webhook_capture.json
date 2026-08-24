@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-24T11:06:12.135Z",
+  "ts": "2026-08-24T11:07:45.074Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338698394",
+    "type": "OUTBOUND",
+    "message_id": "4338700221",
     "ticket_id": "975422397",
-    "message": "9000 is the last price?",
-    "channel_id": "585723",
+    "message": "Please note that the updated rate for this unit is AED 9,300. However, AED 9,000 is the best rate we can offer at the moment.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545102096",
     "contact_name": "Adan",
     "contact_identifier": "+971521292083",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
