@@ -1803,3 +1803,7 @@ We will then send you a registration card to sign and return to us.
 
 Once these steps are completed, we will send you your self-check-in details.
   (Learned from Faysal handling Jannit Adan  Khwalid🧚🏼‍♀️✨ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
+
+## Learned (2026-08-24)
+- If a lead provides only an email address (e.g., "Email: adankhwalid@icloud.com") with no identity document, inform them that the booking cannot be processed without a valid Emirates ID or passport copy. Let them know that a clear photo or scanned copy of their passport is sufficient to move forward.
+  (Learned from Faysal handling Jannit Adan  Khwalid🧚🏼‍♀️✨ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
