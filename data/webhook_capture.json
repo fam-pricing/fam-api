@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-24T12:20:53.371Z",
+  "ts": "2026-08-24T12:22:13.005Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338795950",
+    "type": "OUTBOUND",
+    "message_id": "4338797599",
     "ticket_id": "975967349",
-    "message": "do you have private rooms available?",
-    "channel_id": "585723",
+    "message": "All the apartments we currently have available are private apartments.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545294150",
     "contact_name": "Nagma Akhtar",
     "contact_identifier": "+918299573499",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
