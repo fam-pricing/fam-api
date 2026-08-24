@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-24T12:35:25.961Z",
+  "ts": "2026-08-24T12:35:49.417Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4338813900",
+    "type": "INBOUND",
+    "message_id": "4338814340",
     "ticket_id": "975972283",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello, I'm looking for a furnished studio or private hotel room for one female occupant for two months. I'm looking for a monthly long-stay rate of around AED  2000-3,000. Could you please tell me your best monthly rate including electricity, water, AC, Wi-Fi, housekeeping and all taxes? Is there any security deposit or additional fee?",
+    "channel_id": "1304636",
     "contact_id": "545294150",
     "contact_name": "Nagma Akhtar",
     "contact_identifier": "+918299573499",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
