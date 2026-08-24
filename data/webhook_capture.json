@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-24T12:56:52.651Z",
+  "ts": "2026-08-24T12:57:19.378Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338838545",
+    "type": "OUTBOUND",
+    "message_id": "4338838967",
     "ticket_id": "975972283",
-    "message": "Are you open to negotiate?",
-    "channel_id": "1304636",
+    "message": "Negotiation isn't something we can do on the price, it's set at 4,500/month. That said, you're a single occupant staying at least 2 months, so everything on your end fits. Want to go ahead with it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545294150",
     "contact_name": "Nagma Akhtar",
     "contact_identifier": "+918299573499",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
