@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-24T12:46:59.744Z",
+  "ts": "2026-08-24T12:47:07.077Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338827805",
+    "type": "OUTBOUND",
+    "message_id": "4338827944",
     "ticket_id": "975972283",
-    "message": "Are these exact photos of the room?",
-    "channel_id": "1304636",
+    "message": "Photos and full details are here: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html\n\nIt is above your budget, but it's a private studio just for you, no shared spaces. Would you like to see it first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545294150",
     "contact_name": "Nagma Akhtar",
     "contact_identifier": "+918299573499",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
