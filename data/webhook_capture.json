@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-24T09:43:05.054Z",
+  "ts": "2026-08-24T09:44:08.123Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4338586184",
+    "type": "INBOUND",
+    "message_id": "4338587442",
     "ticket_id": "975826365",
-    "message": "Rate for the 84 nights will be AED 50,400",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "And that would be for this property correct?",
+    "channel_id": "585723",
     "contact_id": "545257027",
     "contact_name": "Damian",
     "contact_identifier": "+447856454139",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4338275184",
+    "parent_ticket_id": "975826365",
+    "event_type": "INBOUND"
   }
 }
