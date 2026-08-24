@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-24T11:33:53.735Z",
+  "ts": "2026-08-24T11:34:03.360Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338736116",
+    "type": "OUTBOUND",
+    "message_id": "4338736320",
     "ticket_id": "975953429",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545290010",
     "contact_name": "Seyf - ANASTASIYA GOGOLEVA",
     "contact_identifier": "+971529451768",
-    "parent_message_id": "4338735705",
-    "parent_ticket_id": "975953429",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
