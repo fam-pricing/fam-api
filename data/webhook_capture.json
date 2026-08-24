@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-24T12:13:03.351Z",
+  "ts": "2026-08-24T12:13:21.141Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338786638",
+    "type": "OUTBOUND",
+    "message_id": "4338787041",
     "ticket_id": "975826365",
-    "message": "I don’t need a payment link",
-    "channel_id": "585723",
+    "message": "Yes you can",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545257027",
     "contact_name": "Damian",
     "contact_identifier": "+447856454139",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
