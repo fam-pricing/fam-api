@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-24T16:09:50.903Z",
+  "ts": "2026-08-24T16:11:46.478Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4339074452",
+    "type": "INBOUND",
+    "message_id": "4339076015",
     "ticket_id": "975826365",
-    "message": "Without receiving the payment, we are unable to secure and block the unit for you. Therefore, we kindly recommend completing the security deposit payment through the payment link and settling the rent payment via bank transfer.\r\n\r\nPlease note that we will only be able to block the unit once the payment has been received.\r\n\r\nWe appreciate your understanding and cooperation.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I’ll be able to send the deposit and rent payments in a few hours once my bank has activated the recipient",
+    "channel_id": "585723",
     "contact_id": "545257027",
     "contact_name": "Damian",
     "contact_identifier": "+447856454139",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
