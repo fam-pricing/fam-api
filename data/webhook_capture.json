@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-24T06:25:48.070Z",
+  "ts": "2026-08-24T06:25:57.719Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4338361618",
+    "type": "INBOUND",
+    "message_id": "4338361710",
     "ticket_id": "975852835",
-    "message": "Of course, take your time. Just let us know when you're ready and we can go from there.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "545264026",
     "contact_name": "Ollie",
     "contact_identifier": "+447398529161",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4338361618",
+    "parent_ticket_id": "975852835",
+    "event_type": "INBOUND"
   }
 }
