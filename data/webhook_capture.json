@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-24T06:24:41.103Z",
+  "ts": "2026-08-24T06:25:01.592Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4338360949",
+    "type": "OUTBOUND",
+    "message_id": "4338361164",
     "ticket_id": "975852835",
-    "message": "So for this period it would be £32k - correct?",
-    "channel_id": "1304636",
+    "message": "That works out to £32k for the two months, yes. Would you like to come and see the place first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545264026",
     "contact_name": "Ollie",
     "contact_identifier": "+447398529161",
-    "parent_message_id": "4338358796",
-    "parent_ticket_id": "975852835",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
