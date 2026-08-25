@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-25T07:05:54.304Z",
+  "ts": "2026-08-25T07:10:40.398Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4339397402",
-    "ticket_id": "975826365",
-    "message": "What are the next steps",
+    "type": "OUTBOUND",
+    "message_id": "4339402260",
+    "ticket_id": "973163595",
+    "message": "Hello Ms. Anastasiia could you please update if the internet is working now",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "544388893",
+    "contact_name": "Anastasiia",
+    "contact_identifier": "+79063684477",
     "channel_id": "585723",
-    "contact_id": "545257027",
-    "contact_name": "Damian",
-    "contact_identifier": "+447856454139",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
