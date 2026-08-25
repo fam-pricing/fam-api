@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-25T23:01:33.181Z",
+  "ts": "2026-08-25T23:01:55.840Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340395678",
+    "type": "OUTBOUND",
+    "message_id": "4340395735",
     "ticket_id": "976380335",
-    "message": "THIS SATURDAY FOR 30 DAYS",
-    "channel_id": "1304636",
+    "message": "Yes, it's available from this Saturday for 30 days. The rate is AED 8,500/month, all-inclusive. Want to go ahead and secure it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "539365088",
     "contact_name": "A",
     "contact_identifier": "+447539692848",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
