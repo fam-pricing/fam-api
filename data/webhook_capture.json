@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-25T05:43:31.495Z",
+  "ts": "2026-08-25T05:44:12.782Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4339344344",
+    "type": "OUTBOUND",
+    "message_id": "4339344556",
     "ticket_id": "976102500",
-    "message": "For 1 night . Can you check on this date  28/8?",
-    "channel_id": "585723",
+    "message": "Unfortunately, we do not accept one-night bookings. Our minimum booking requirement is 2 nights or more.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545336809",
     "contact_name": "Eman",
     "contact_identifier": "+971556611471",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
