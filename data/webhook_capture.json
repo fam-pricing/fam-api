@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-25T08:56:13.979Z",
+  "ts": "2026-08-25T08:56:42.973Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4339519324",
-    "ticket_id": "976158285",
-    "message": "Confirm",
+    "type": "OUTBOUND",
+    "message_id": "4339519897",
+    "ticket_id": "966025207",
+    "message": "Most welcome",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "542404560",
+    "contact_name": "Dalila Zillaf",
+    "contact_identifier": "+971581930902",
     "channel_id": "585723",
-    "contact_id": "545353867",
-    "contact_name": "Islam Alkari",
-    "contact_identifier": "+971562056692",
-    "parent_message_id": "4339518306",
-    "parent_ticket_id": "976158285",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
