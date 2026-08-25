@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-25T07:30:52.663Z",
+  "ts": "2026-08-25T07:32:41.286Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4339422991",
-    "ticket_id": "975826365",
-    "message": "Your booking has already been confirmed in our system, and we will share the booking confirmation with you shortly.\r\n\r\nPlease note that our Guest Relations Team will contact you approximately 3 days prior to your check-in date to complete the check-in formalities and provide you with all the necessary information.\r\n\r\nOn the day of your arrival, our Guest Relations Team will share the apartment details and access instructions with you.\r\n\r\nThank you, and we look forward to welcoming you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "545257027",
-    "contact_name": "Damian",
-    "contact_identifier": "+447856454139",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4339424929",
+    "ticket_id": "975879080",
+    "message": "This one",
+    "channel_id": "1304636",
+    "contact_id": "544938889",
+    "contact_name": "Mariem Khadija",
+    "contact_identifier": "+21628420562",
+    "parent_message_id": "4334730464",
+    "parent_ticket_id": "975879080",
+    "event_type": "INBOUND"
   }
 }
