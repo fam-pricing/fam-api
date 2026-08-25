@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-25T09:13:33.366Z",
+  "ts": "2026-08-25T09:14:26.548Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4339540231",
+    "type": "INBOUND",
+    "message_id": "4339541244",
     "ticket_id": "976161791",
-    "message": "Unfortunately, the new rate has already been updated. I have also checked with the Bayut team, and they confirmed that the rate has been changed. However, due to a delay in the system update, the previous rate was still showing online.\r\n\r\nThe current rate is AED 11,000, and unfortunately, we are unable to offer it at a lower rate.\r\n\r\nWe apologize for the confusion and appreciate your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Do you have other listed properties in the same building for monthly rental?",
+    "channel_id": "585723",
     "contact_id": "545354866",
     "contact_name": "urban",
     "contact_identifier": "+971555293884",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
