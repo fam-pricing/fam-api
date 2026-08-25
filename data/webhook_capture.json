@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-25T13:06:51.226Z",
+  "ts": "2026-08-25T13:07:35.571Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4339794186",
+    "type": "INBOUND",
+    "message_id": "4339794968",
     "ticket_id": "976215357",
-    "message": "Well noted we will send a team between 11 and 12 thank you for your update",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Cleaning also?",
+    "channel_id": "585723",
     "contact_id": "545369876",
     "contact_name": "Maryia Kavaleuskaya",
     "contact_identifier": "+375259928999",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4339789827",
+    "parent_ticket_id": "976215357",
+    "event_type": "INBOUND"
   }
 }
