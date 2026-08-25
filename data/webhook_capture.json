@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-25T09:06:59.594Z",
+  "ts": "2026-08-25T09:07:17.683Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4339532514",
+    "type": "OUTBOUND",
+    "message_id": "4339532920",
     "ticket_id": "976161422",
-    "message": "Hi",
-    "channel_id": "1304636",
+    "message": "What are you looking for in a holiday home?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545354783",
     "contact_name": "BEYOND CASA REAL ESTATE",
     "contact_identifier": "+971529470292",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
