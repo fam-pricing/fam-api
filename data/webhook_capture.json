@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-25T09:20:37.616Z",
+  "ts": "2026-08-25T09:21:39.510Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4339549195",
-    "ticket_id": "975901193",
-    "message": "Please allow us some time to check the availability and rates for a 2-month stay. We will update you shortly with the available options and pricing.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "545278304",
-    "contact_name": "Hadil",
-    "contact_identifier": "+971507755314",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4339550401",
+    "ticket_id": "952537981",
+    "message": "Confirm",
+    "channel_id": "585723",
+    "contact_id": "517825599",
+    "contact_name": "Arifa Patel",
+    "contact_identifier": "+971567647755",
+    "parent_message_id": "4339515953",
+    "parent_ticket_id": "952537981",
+    "event_type": "INBOUND"
   }
 }
