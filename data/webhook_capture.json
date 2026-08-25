@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-25T18:14:14.768Z",
+  "ts": "2026-08-25T18:15:58.381Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4340290429",
+    "type": "INBOUND",
+    "message_id": "4340291592",
     "ticket_id": "975108456",
-    "message": "Still available! The only thing not included is housekeeping, which you can arrange on request for AED 160 per visit. Want to come have a look at it?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Oh no thank you \n160 per visit ?!",
+    "channel_id": "1304636",
     "contact_id": "545001025",
     "contact_name": "Abdul",
     "contact_identifier": "+971524973550",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4340290429",
+    "parent_ticket_id": "975108456",
+    "event_type": "INBOUND"
   }
 }
