@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-25T00:56:48.939Z",
+  "ts": "2026-08-25T00:57:18.491Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4339294866",
+    "type": "OUTBOUND",
+    "message_id": "4339294929",
     "ticket_id": "974703175",
-    "message": "What about 1 bedrooms in business bay ? The cheapest",
-    "channel_id": "1304636",
+    "message": "The cheapest 1BR we have in Business Bay right now is the Elite Business Bay at AED 8,000/month.\n\nWe confirm rates in 3-month blocks, so the first block locks in at that rate and the next gets confirmed closer to the time.\n\nWould a studio at AED 5,500 or AED 6,000 work, or is the 1BR a must?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544870444",
     "contact_name": "~نگین~",
     "contact_identifier": "+971553078847",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
