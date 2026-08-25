@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-25T07:43:14.210Z",
+  "ts": "2026-08-25T07:46:17.764Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4339436281",
+    "type": "OUTBOUND",
+    "message_id": "4339439577",
     "ticket_id": "975826365",
-    "message": "Thank you, accountant is waiting for me to share invoice.",
-    "channel_id": "585723",
+    "message": "Sure, allow us to check the invoice with our finance team and update you",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545257027",
     "contact_name": "Damian",
     "contact_identifier": "+447856454139",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
