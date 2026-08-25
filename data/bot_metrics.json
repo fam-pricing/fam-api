@@ -1,113 +1,5 @@
 [
   {
-    "ts": "2026-08-18T18:25:34.911Z",
-    "ticket_id": 974902137,
-    "lead_id": "message_lead_31363635",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1100,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": "COLD",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-08-18T18:26:54.851Z",
-    "ticket_id": 974902137,
-    "lead_id": "message_lead_31363635",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 10375,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": "COLD",
-    "skip_reason": "frustration_detected"
-  },
-  {
-    "ts": "2026-08-18T18:31:25.390Z",
-    "ticket_id": 974903557,
-    "lead_id": "message_lead_31363844",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1338,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-08-18T19:11:59.670Z",
-    "ticket_id": 974909989,
-    "lead_id": "message_lead_31364808",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 2035,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-08-18T20:05:06.557Z",
-    "ticket_id": 974912015,
-    "lead_id": "message_lead_31365040",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 25538,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-08-18T20:13:52.629Z",
-    "ticket_id": 974912015,
-    "lead_id": "message_lead_31365040",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 20297,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "Lead Mariem Khadija is firm on AED 5,000/month for the 1BR in Urban Oasis (listed at AED 6,500). Faysal already tried AED 6,000 and lead pushed back twice insisting on 5,000. Gap is more than 10% (max discount floor is AED 5,850). Lead has pushed back multiple times, cannot refuse again per rules."
-  },
-  {
-    "ts": "2026-08-18T20:55:39.975Z",
-    "ticket_id": 974928041,
-    "lead_id": "message_lead_31366426",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 33458,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-08-18T20:59:43.791Z",
-    "ticket_id": 974928041,
-    "lead_id": "message_lead_31366426",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 36220,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-08-18T21:06:46.590Z",
-    "ticket_id": 974928041,
-    "lead_id": "message_lead_31366426",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 817,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": "acknowledgment_skip"
-  },
-  {
     "ts": "2026-08-19T00:48:07.735Z",
     "ticket_id": 974945338,
     "lead_id": "message_lead_31367825",
@@ -4294,5 +4186,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-08-25T22:06:34.111Z",
+    "ticket_id": 976378195,
+    "lead_id": "message_lead_31548193",
+    "action": "reply",
+    "tool_used": "send_reply",
+    "response_time_ms": 17371,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
+    "skip_reason": null
   }
 ]
