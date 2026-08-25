@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-25T15:41:31.863Z",
+  "ts": "2026-08-25T15:41:54.155Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340086662",
+    "type": "OUTBOUND",
+    "message_id": "4340087855",
     "ticket_id": "976291751",
-    "message": "Hello my name is Zelil, is this property available from tomorrow for 1 month and longer?",
-    "channel_id": "1304636",
+    "message": "Yes, it's available from tomorrow, and you can absolutely stay a month or longer. Would you like to see some photos of the place?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545388353",
     "contact_name": ".",
     "contact_identifier": "+33672372794",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
