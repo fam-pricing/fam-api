@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-25T16:40:48.259Z",
+  "ts": "2026-08-25T16:43:15.941Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4340225298",
-    "ticket_id": "976337671",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "544954387",
-    "contact_name": "M",
-    "contact_identifier": "+971544144107",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4340227011",
+    "ticket_id": "976073847",
+    "message": "So, if I understood correctly, the rent for 39 nights is AED 9,990, is that correct?",
+    "channel_id": "585723",
+    "contact_id": "545325752",
+    "contact_name": "ST",
+    "contact_identifier": "+33614870149",
+    "event_type": "INBOUND"
   }
 }
