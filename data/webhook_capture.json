@@ -1,17 +1,19 @@
 {
-  "ts": "2026-08-25T13:48:44.584Z",
+  "ts": "2026-08-25T13:49:30.289Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4339839507",
-    "ticket_id": "976234924",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
-    "contact_id": "545376276",
-    "contact_name": "Imtiaz Nayeem Shawon",
-    "contact_identifier": "+8801796876012",
+    "type": "INBOUND",
+    "message_id": "4339840314",
+    "ticket_id": "975826365",
+    "message": "how much is the cleaning fee",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545257027",
+    "contact_name": "Damian",
+    "contact_identifier": "+447856454139",
+    "parent_message_id": "4339768081",
+    "parent_ticket_id": "975826365",
+    "event_type": "INBOUND"
   }
 }
