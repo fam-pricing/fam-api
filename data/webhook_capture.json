@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-25T13:01:24.524Z",
+  "ts": "2026-08-25T13:02:21.298Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4339788023",
-    "ticket_id": "976223873",
-    "message": "Confirm",
+    "type": "OUTBOUND",
+    "message_id": "4339789066",
+    "ticket_id": "976221319",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545371687",
+    "contact_name": "Urban Clean Laundry",
+    "contact_identifier": "+971541669073",
     "channel_id": "585723",
-    "contact_id": "545372774",
-    "contact_name": "Ujjawal",
-    "contact_identifier": "+971585509665",
-    "parent_message_id": "4339782797",
-    "parent_ticket_id": "976223873",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
