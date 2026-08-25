@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-25T07:34:25.400Z",
+  "ts": "2026-08-25T07:34:28.138Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4339426844",
+    "type": "OUTBOUND",
+    "message_id": "4339426894",
     "ticket_id": "976134852",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "545346905",
     "contact_name": "Sam Real estate",
     "contact_identifier": "+971585340978",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
