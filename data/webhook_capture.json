@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-25T22:10:28.372Z",
+  "ts": "2026-08-25T22:12:13.462Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4340385165",
+    "type": "INBOUND",
+    "message_id": "4340385500",
     "ticket_id": "976378195",
-    "message": "We only do short-term holiday home rentals, so no annual lease or Ejari, but a lot of people in your situation start with a 3-month block at a fixed rate and just keep renewing. It ends up being very stable long-term. The 2BR is free from September 3, which lines up with when you're looking to move in. Does the 3-month setup sound like something that could work for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "How much would the 3-month block be for the 2BR, and are there any additional fees or charges?",
+    "channel_id": "1304636",
     "contact_id": "545408612",
     "contact_name": "hala",
     "contact_identifier": "+97466590776",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
