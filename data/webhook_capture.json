@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-25T08:32:34.203Z",
+  "ts": "2026-08-25T08:33:04.081Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4339492357",
+    "type": "OUTBOUND",
+    "message_id": "4339492957",
     "ticket_id": "976151715",
-    "message": "Hello Dear, \ndo you have available 2 bedroom apartment with kitchen\n\nArrival date: September 11,2026 - Friday\n\nOne month stay with option 30 more nights (extendable)\n\nOccupants: 3 people",
-    "channel_id": "1304636",
+    "message": "Yes, the 2BR in Downtown Views 2 is available from September 11, fully furnished with a kitchen and comfortable for 3 people. The rate is AED 8,000/month all-inclusive, and extending by another 30 nights is no problem.\n\nWould you like to see some photos of the apartment?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545351858",
     "contact_name": "Love",
     "contact_identifier": "+971585047580",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
