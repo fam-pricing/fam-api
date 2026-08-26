@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-26T12:29:02.030Z",
+  "ts": "2026-08-26T12:29:54.548Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4340880539",
-    "ticket_id": "975231691",
-    "message": "Your request was already approved, we've confirmed to you that the refund will take time",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "545039013",
-    "contact_name": "Abrar Al Tamimi",
-    "contact_identifier": "+447426888858",
+    "type": "INBOUND",
+    "message_id": "4340881531",
+    "ticket_id": "852583151",
+    "message": "ignore this message",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "450960431",
+    "contact_name": "Erica - fam living",
+    "contact_identifier": "+971544311300",
+    "parent_message_id": "4340879421",
+    "parent_ticket_id": "852583151",
+    "event_type": "INBOUND"
   }
 }
