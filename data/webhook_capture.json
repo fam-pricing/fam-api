@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-26T04:39:07.219Z",
+  "ts": "2026-08-26T04:39:28.437Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340448478",
+    "type": "OUTBOUND",
+    "message_id": "4340448567",
     "ticket_id": "976399476",
-    "message": "6 months - 1 year",
-    "channel_id": "1304636",
+    "message": "That works for a 6-month stay. The rate locks in per 3-month block, so we'd confirm the first 3 months upfront, then revisit the rate for the following 3 based on availability at that point. To get things moving, could you share a copy of your passport or ID and your email?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545414329",
     "contact_name": "Liss",
     "contact_identifier": "+971557296976",
-    "parent_message_id": "4340448156",
-    "parent_ticket_id": "976399476",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
