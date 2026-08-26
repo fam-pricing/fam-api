@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-26T11:48:51.980Z",
+  "ts": "2026-08-26T11:49:09.988Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340831881",
+    "type": "OUTBOUND",
+    "message_id": "4340832221",
     "ticket_id": "976499257",
-    "message": "how much is the price?",
-    "channel_id": "1304636",
+    "message": "The 2BR in The Bay is AED 10,000/month. Would you like to come see it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545440946",
     "contact_name": "Ritz",
     "contact_identifier": "+971588359600",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
