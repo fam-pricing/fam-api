@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-26T11:45:54.933Z",
+  "ts": "2026-08-26T11:46:15.484Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340828553",
+    "type": "OUTBOUND",
+    "message_id": "4340828971",
     "ticket_id": "976499257",
-    "message": "Hi",
-    "channel_id": "1304636",
+    "message": "Welcome! Happy to help with any questions you have about the apartment.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545440946",
     "contact_name": "Ritz",
     "contact_identifier": "+971588359600",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
