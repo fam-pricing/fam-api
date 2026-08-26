@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-26T21:07:54.790Z",
+  "ts": "2026-08-26T21:08:46.895Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4341324913",
+    "type": "INBOUND",
+    "message_id": "4341325138",
     "ticket_id": "976642671",
-    "message": "Mustafa, perfect, just send the time when you're ready tomorrow and we'll have Downtown Views 2 set for you. Viewings are between 9am and 6pm, so whatever works for you.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "545493348",
     "contact_name": "MUSTAFA ALAAMERI",
     "contact_identifier": "+971588187003",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4341324913",
+    "parent_ticket_id": "976642671",
+    "event_type": "INBOUND"
   }
 }
