@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-26T12:16:35.856Z",
+  "ts": "2026-08-26T12:17:36.002Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4340866768",
-    "ticket_id": "976380335",
-    "message": "Please note that the available apartment is located on the 1st floor.\r\n\r\nSince you are still in the building, if you would like, we can also arrange a viewing for you before you proceed with the booking.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "539365088",
-    "contact_name": "A",
-    "contact_identifier": "+447539692848",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4340867818",
+    "ticket_id": "976215357",
+    "message": "Thank you",
+    "channel_id": "585723",
+    "contact_id": "545369876",
+    "contact_name": "Maryia Kavaleuskaya",
+    "contact_identifier": "+375259928999",
+    "event_type": "INBOUND"
   }
 }
