@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-26T11:50:36.388Z",
+  "ts": "2026-08-26T11:50:49.717Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340833863",
+    "type": "OUTBOUND",
+    "message_id": "4340834078",
     "ticket_id": "974119797",
-    "message": "Is door code the same",
-    "channel_id": "585723",
+    "message": "If door is not open you may share this code\r\n\r\nDoor code - 8080",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "477936672",
     "contact_name": "Tamara K",
     "contact_identifier": "+971524533816",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
