@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-26T08:19:00.648Z",
+  "ts": "2026-08-26T08:19:18.302Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340593287",
+    "type": "OUTBOUND",
+    "message_id": "4340593667",
     "ticket_id": "852583151",
-    "message": "604U",
-    "channel_id": "585723",
+    "message": "His booking is till nov so he wants to extend after nov as well ?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "450960431",
     "contact_name": "Erica - fam living",
     "contact_identifier": "+971544311300",
-    "parent_message_id": "4340591954",
-    "parent_ticket_id": "852583151",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
