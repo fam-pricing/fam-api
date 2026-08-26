@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-26T21:03:11.872Z",
+  "ts": "2026-08-26T21:03:42.496Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341323734",
+    "type": "OUTBOUND",
+    "message_id": "4341323885",
     "ticket_id": "976642671",
-    "message": "Downtown Views 2 would be my first choice. I’d like to view that one first tomorrow.",
-    "channel_id": "1304636",
+    "message": "Downtown Views 2 is available to view tomorrow, anywhere between 9am and 6pm works. What time suits you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545493348",
     "contact_name": "MUSTAFA ALAAMERI",
     "contact_identifier": "+971588187003",
-    "parent_message_id": "4341323289",
-    "parent_ticket_id": "976642671",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
