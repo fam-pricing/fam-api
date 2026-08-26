@@ -1,17 +1,17 @@
 {
-  "ts": "2026-08-26T06:43:09.110Z",
+  "ts": "2026-08-26T06:43:10.728Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340496924",
+    "type": "OUTBOUND",
+    "message_id": "4340496943",
     "ticket_id": "976414825",
-    "message": "I have a client looking for a 3 bedroom unit in dubai harbor. Do you have any available units?",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "545418028",
     "contact_name": "Chloe",
     "contact_identifier": "0c9b4fd7-41c0-4f23-4211-c2d58142fb68",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
