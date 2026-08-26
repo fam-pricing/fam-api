@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-26T13:38:00.901Z",
+  "ts": "2026-08-26T13:38:22.013Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4340976874",
+    "type": "INBOUND",
+    "message_id": "4340977322",
     "ticket_id": "976504697",
-    "message": "Unfortunately, at the moment, we do not have any apartments available for your preferred dates and location. This is currently the only unit we have available in this location.\r\n\r\nWe apologize for the inconvenience and appreciate your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "No problem",
+    "channel_id": "1304636",
     "contact_id": "545442535",
     "contact_name": "Mohammad",
     "contact_identifier": "+971585878404",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
