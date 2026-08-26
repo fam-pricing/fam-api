@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-26T09:28:04.113Z",
+  "ts": "2026-08-26T09:30:29.120Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340672047",
+    "type": "OUTBOUND",
+    "message_id": "4340673871",
     "ticket_id": "976073847",
-    "message": "Great, I’d like to confirm my booking from August 27th to October 5th!",
-    "channel_id": "585723",
+    "message": "For booking, we need:\r\n\r\n1. a copy of your ID or passport\r\n\r\n2. Email:\r\n\r\nWe will send a payment link for the deposit to confirm your bookings accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545325752",
     "contact_name": "ST",
     "contact_identifier": "+33614870149",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
