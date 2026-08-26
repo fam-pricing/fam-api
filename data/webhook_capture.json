@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-26T21:01:31.765Z",
+  "ts": "2026-08-26T21:03:11.872Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4341323289",
+    "type": "INBOUND",
+    "message_id": "4341323734",
     "ticket_id": "976642671",
-    "message": "Mustafa, the rate is locked for 3 months at a time, then reviewed based on market conditions with advance notice before any change. Which of the three properties would you like to view first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Downtown Views 2 would be my first choice. I’d like to view that one first tomorrow.",
+    "channel_id": "1304636",
     "contact_id": "545493348",
     "contact_name": "MUSTAFA ALAAMERI",
     "contact_identifier": "+971588187003",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4341323289",
+    "parent_ticket_id": "976642671",
+    "event_type": "INBOUND"
   }
 }
