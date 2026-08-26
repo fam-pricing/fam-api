@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-26T04:37:10.853Z",
+  "ts": "2026-08-26T04:38:58.940Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4340448156",
+    "type": "INBOUND",
+    "message_id": "4340448460",
     "ticket_id": "976399476",
-    "message": "Yes, it's available, and how long are you looking to stay?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes please",
+    "channel_id": "1304636",
     "contact_id": "545414329",
     "contact_name": "Liss",
     "contact_identifier": "+971557296976",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4340448080",
+    "parent_ticket_id": "976399476",
+    "event_type": "INBOUND"
   }
 }
