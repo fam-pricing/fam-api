@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-26T20:38:32.612Z",
+  "ts": "2026-08-26T20:43:18.482Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4341315671",
+    "type": "INBOUND",
+    "message_id": "4341317351",
     "ticket_id": "976642671",
-    "message": "The 1BR at Binghatti Amber is available from today, paid monthly with first and last month upfront. Would you like to come see it first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Thank you. I’d be happy to arrange a viewing, but I would also like to know what other options you currently have available.\n\nI’m looking for a clean, modern, and preferably new apartment, either 1 or 2 bedrooms. I’m flexible with the payment terms, so please feel free to share the best options you currently have.\n\nCould you also please share the monthly rent for each option and confirm what is included in the price, such as utilities, internet, and any other services? Please also let me know if there are any additional fees or deposits.",
+    "channel_id": "1304636",
     "contact_id": "545493348",
     "contact_name": "MUSTAFA ALAAMERI",
     "contact_identifier": "+971588187003",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4341315671",
+    "parent_ticket_id": "976642671",
+    "event_type": "INBOUND"
   }
 }
