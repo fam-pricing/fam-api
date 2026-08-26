@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-26T07:35:02.531Z",
+  "ts": "2026-08-26T07:36:49.432Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340542410",
-    "ticket_id": "852583151",
-    "message": "please",
+    "type": "OUTBOUND",
+    "message_id": "4340544285",
+    "ticket_id": "964066792",
+    "message": "The refund was processed 7 days ago to the same card used for the payment. You may kindly check with your bank or review your card statement, as the amount should normally be reflected within 3 days.\r\n\r\nSince it has already been 7 days, we recommend contacting your bank directly to check the status of the refund.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "541963120",
+    "contact_name": "Kosar",
+    "contact_identifier": "+971542289493",
     "channel_id": "585723",
-    "contact_id": "450960431",
-    "contact_name": "Erica - fam living",
-    "contact_identifier": "+971544311300",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
