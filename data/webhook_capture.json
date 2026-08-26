@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-26T05:25:54.769Z",
+  "ts": "2026-08-26T05:27:02.222Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4340459164",
-    "ticket_id": "961811054",
-    "message": "Yes you may check out until 2 PM",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "538363776",
-    "contact_name": "Kosar Mahmoud Bashash",
-    "contact_identifier": "+971507955452",
+    "type": "INBOUND",
+    "message_id": "4340459496",
+    "ticket_id": "966025207",
+    "message": "No vehicle",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "542404560",
+    "contact_name": "Dalila Zillaf",
+    "contact_identifier": "+971581930902",
+    "parent_message_id": "4340457658",
+    "parent_ticket_id": "966025207",
+    "event_type": "INBOUND"
   }
 }
