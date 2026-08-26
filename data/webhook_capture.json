@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-26T08:25:10.617Z",
+  "ts": "2026-08-26T08:25:18.185Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340600279",
-    "ticket_id": "852583151",
-    "message": "This was the projection i shared with the owner:\nHigh Season: Estimated  monthly revenue of 16,000 – 20,000. \nMid Season: Estimated  monthly revenue of 11,000 – 14,000.  \nLow Season: Estimated monthly revenue of 7,000 – 9,000.",
-    "channel_id": "585723",
-    "contact_id": "450960431",
-    "contact_name": "Erica - fam living",
-    "contact_identifier": "+971544311300",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4340600415",
+    "ticket_id": "976399476",
+    "message": "For booking, we need:\r\n\r\n1. a copy of your ID or passport\r\n\r\n2. Email:\r\n\r\nWe will send a payment link for the deposit to confirm your bookings accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545414329",
+    "contact_name": "Liss",
+    "contact_identifier": "+971557296976",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
