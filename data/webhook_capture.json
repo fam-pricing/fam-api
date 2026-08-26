@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-26T04:43:05.571Z",
+  "ts": "2026-08-26T04:43:35.882Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340449213",
+    "type": "OUTBOUND",
+    "message_id": "4340449284",
     "ticket_id": "976399476",
-    "message": "Document",
-    "channel_id": "1304636",
+    "message": "Got your email and ID, thank you Liss! The 6-month stay works on a rolling 3-month basis, so the first block runs at AED 7,000/month and we check in again at the halfway point. Want me to send the payment link now to lock it in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545414329",
     "contact_name": "Liss",
     "contact_identifier": "+971557296976",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
