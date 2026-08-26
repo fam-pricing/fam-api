@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-26T06:22:34.525Z",
+  "ts": "2026-08-26T06:24:04.185Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340483815",
-    "ticket_id": "976223873",
-    "message": "Yes please",
+    "type": "OUTBOUND",
+    "message_id": "4340484590",
+    "ticket_id": "852583151",
+    "message": "Hi Erica,\r\n\r\nI have checked the availability, but unfortunately, we do not have any 2- or 3-bedroom apartments available in your preferred location at the moment.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "450960431",
+    "contact_name": "Erica - fam living",
+    "contact_identifier": "+971544311300",
     "channel_id": "585723",
-    "contact_id": "545372774",
-    "contact_name": "Ujjawal",
-    "contact_identifier": "+971585509665",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
