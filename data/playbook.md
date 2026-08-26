@@ -1807,3 +1807,14 @@ Once these steps are completed, we will send you your self-check-in details.
 ## Learned (2026-08-24)
 - If a lead provides only an email address (e.g., "Email: adankhwalid@icloud.com") with no identity document, inform them that the booking cannot be processed without a valid Emirates ID or passport copy. Let them know that a clear photo or scanned copy of their passport is sufficient to move forward.
   (Learned from Faysal handling Jannit Adan  Khwalid🧚🏼‍♀️✨ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
+
+## Learned (2026-08-26)
+- When a lead sends a simple booking request (e.g., "Can I book it?" or "I want to book"), respond with:
+
+"To confirm your booking, we'll need the following:
+
+1. A copy of your ID or passport
+2. Your email address
+
+Once we have these, we'll send you a payment link to secure the deposit and finalise your reservation."
+  (Learned from Faysal handling Liss re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-11-binghatti-amber-15165649.html)
