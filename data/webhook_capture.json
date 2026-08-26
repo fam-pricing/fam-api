@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-26T15:14:58.664Z",
+  "ts": "2026-08-26T15:20:17.878Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341098460",
-    "ticket_id": "976586294",
-    "message": "You made a wrong delivery to 2303 at Aykon City Tower C on 8 August 2026",
-    "channel_id": "585723",
-    "contact_id": "545462225",
-    "contact_name": "rajoot426",
-    "contact_identifier": "+971542527641",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4341103285",
+    "ticket_id": "976588999",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-harbour-emaar-beachfront-sunrise-bay-sunrise-bay-tower-1-16198279.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "545463250",
+    "contact_name": "Haile Mikael",
+    "contact_identifier": "+971503846388",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
