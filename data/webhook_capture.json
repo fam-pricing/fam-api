@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-26T07:55:47.378Z",
+  "ts": "2026-08-26T07:55:52.238Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340564109",
+    "type": "OUTBOUND",
+    "message_id": "4340564170",
     "ticket_id": "976419359",
-    "message": "My friend wants to rent there but no one is answering in the whole department of fam living",
-    "channel_id": "1304636",
+    "message": "Let me get someone from the team to assist you right away, Jad!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545419241",
     "contact_name": "Jad Abdallah",
     "contact_identifier": "+971524525262",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
