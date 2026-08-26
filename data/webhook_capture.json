@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-26T06:53:46.289Z",
+  "ts": "2026-08-26T06:53:50.330Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340504046",
+    "type": "OUTBOUND",
+    "message_id": "4340504079",
     "ticket_id": "976215357",
-    "message": "And what?",
-    "channel_id": "585723",
+    "message": "It's 11 already",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "545369876",
     "contact_name": "Maryia Kavaleuskaya",
     "contact_identifier": "+375259928999",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
