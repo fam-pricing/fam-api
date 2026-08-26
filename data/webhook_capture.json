@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-26T08:22:28.885Z",
+  "ts": "2026-08-26T08:22:38.197Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340597092",
-    "ticket_id": "976399476",
-    "message": "Hello\nCan I just book it?",
-    "channel_id": "1304636",
-    "contact_id": "545414329",
-    "contact_name": "Liss",
-    "contact_identifier": "+971557296976",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4340597280",
+    "ticket_id": "975414362",
+    "message": "Could you please share a copy of your ID with us? We need to provide it to the building management team in advance to arrange and confirm your viewing.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545099021",
+    "contact_name": "Arnia Mohammadi",
+    "contact_identifier": "+971544468909",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
