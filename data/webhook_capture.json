@@ -1,19 +1,17 @@
 {
-  "ts": "2026-08-26T05:45:09.349Z",
+  "ts": "2026-08-26T05:45:39.557Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4340465169",
-    "ticket_id": "976086134",
-    "message": "I’ll pay a deposit on spot",
-    "channel_id": "1304636",
-    "contact_id": "545331362",
-    "contact_name": "salii",
-    "contact_identifier": "+971544425633",
-    "parent_message_id": "4340464984",
-    "parent_ticket_id": "976086134",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4340465370",
+    "ticket_id": "976405141",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
+    "contact_id": "545415783",
+    "contact_name": "S",
+    "contact_identifier": "+966531000006",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
