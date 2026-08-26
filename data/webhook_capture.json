@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-26T20:38:02.798Z",
+  "ts": "2026-08-26T20:38:32.612Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341315454",
+    "type": "OUTBOUND",
+    "message_id": "4341315671",
     "ticket_id": "976642671",
-    "message": "Hello, thank you for contacting me.\nI’m interested in the apartment at Binghatti Amber in JVC. Could you please confirm the current monthly rent, payment terms, and the earliest available move-in date?",
-    "channel_id": "1304636",
+    "message": "The 1BR at Binghatti Amber is available from today, paid monthly with first and last month upfront. Would you like to come see it first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545493348",
     "contact_name": "MUSTAFA ALAAMERI",
     "contact_identifier": "+971588187003",
-    "parent_message_id": "4341309810",
-    "parent_ticket_id": "976642671",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
