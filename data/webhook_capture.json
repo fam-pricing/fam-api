@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-27T11:04:29.014Z",
+  "ts": "2026-08-27T11:05:44.874Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4341756557",
+    "type": "INBOUND",
+    "message_id": "4341757988",
     "ticket_id": "976073847",
-    "message": "If you would like to proceed with the security deposit payment first, that is absolutely fine. However, please note that the remaining rent payment must also be completed today.\r\n\r\nUnfortunately, we will not be able to proceed with the check-in until the full rent payment has been received.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Okay, that works. I’ll pay using another account then. Can I pay the rent and the deposit separately?",
+    "channel_id": "585723",
     "contact_id": "545325752",
     "contact_name": "ST",
     "contact_identifier": "+33614870149",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
