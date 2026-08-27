@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-27T15:03:12.910Z",
+  "ts": "2026-08-27T15:03:38.857Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4342043669",
+    "type": "OUTBOUND",
+    "message_id": "4342044090",
     "ticket_id": "976642671",
-    "message": "Yes, absolutely. That works perfectly for me. I’ll arrive a little earlier tomorrow and bring my Emirates ID with me, so we can complete the access registration directly with the building security team. Thank you for understanding.",
-    "channel_id": "1304636",
+    "message": "Perfect, see you tomorrow at 4pm. Just send a photo of your Emirates ID here when you get a chance and we can sort the access registration before you arrive.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545493348",
     "contact_name": "MUSTAFA ALAAMERI",
     "contact_identifier": "+971588187003",
-    "parent_message_id": "4342041731",
-    "parent_ticket_id": "976642671",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
