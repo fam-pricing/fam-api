@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-27T05:19:10.739Z",
+  "ts": "2026-08-27T05:19:24.175Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341414922",
-    "ticket_id": "959587621",
-    "message": "Please send the payment link",
+    "type": "OUTBOUND",
+    "message_id": "4341414976",
+    "ticket_id": "975953429",
+    "message": "Well received the payment and your booking has been confirmed",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545290010",
+    "contact_name": "Seyf - ANASTASIYA GOGOLEVA",
+    "contact_identifier": "+971529451768",
     "channel_id": "585723",
-    "contact_id": "540691470",
-    "contact_name": "ramiza",
-    "contact_identifier": "+971566548614",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
