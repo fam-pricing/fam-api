@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-27T14:57:09.314Z",
+  "ts": "2026-08-27T14:57:35.199Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4342037058",
+    "type": "OUTBOUND",
+    "message_id": "4342037524",
     "ticket_id": "976642671",
-    "message": "4:00 PM tomorrow works perfectly for me. Please book the viewing for Downtown Views 2. Thank you.",
-    "channel_id": "1304636",
+    "message": "Locked in, Mustafa. See you at Downtown Views 2 tomorrow at 4:00 PM. To sort building access, could you send a photo of your passport or Emirates ID?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545493348",
     "contact_name": "MUSTAFA ALAAMERI",
     "contact_identifier": "+971588187003",
-    "parent_message_id": "4342035920",
-    "parent_ticket_id": "976642671",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
