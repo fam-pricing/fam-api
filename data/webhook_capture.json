@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-27T11:20:10.787Z",
+  "ts": "2026-08-27T11:20:25.449Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341775820",
-    "ticket_id": "976073847",
-    "message": "Okay",
+    "type": "OUTBOUND",
+    "message_id": "4341776304",
+    "ticket_id": "953081775",
+    "message": "The team is not available today at the site; we can schedule for tomorrow morning, hours 10-12",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "278742304",
+    "contact_name": "Ahmad Sabri Hassan",
+    "contact_identifier": "+971528939729",
     "channel_id": "585723",
-    "contact_id": "545325752",
-    "contact_name": "Esteban, Roman, Yohann BASTIEN VICENTE",
-    "contact_identifier": "+33614870149",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
