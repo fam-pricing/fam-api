@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-27T09:17:36.169Z",
+  "ts": "2026-08-27T09:17:51.931Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341620300",
-    "ticket_id": "976731957",
-    "message": "Please check this",
+    "type": "OUTBOUND",
+    "message_id": "4341620587",
+    "ticket_id": "976688595",
+    "message": "Yes, on the day of your check-in, the apartment will be fully cleaned and sanitized for your arrival.\r\n\r\nHowever, due to an ongoing chiller issue, we are unfortunately unable to provide the unit from 29 August. At the moment, we may be able to offer the apartment from 1 September, but this is not yet confirmed.\r\n\r\nPlease let us know how you would like to proceed, and we will assist you accordingly.\r\n\r\nThank you for your understanding and patience.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545310766",
+    "contact_name": "Georgio Eid",
+    "contact_identifier": "+971504377488",
     "channel_id": "1304636",
-    "contact_id": "535609733",
-    "contact_name": "A.k",
-    "contact_identifier": "+971527775778",
-    "parent_message_id": "4341619915",
-    "parent_ticket_id": "976731957",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
