@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-27T06:35:15.363Z",
+  "ts": "2026-08-27T06:35:43.963Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341450022",
+    "type": "OUTBOUND",
+    "message_id": "4341450342",
     "ticket_id": "976348818",
-    "message": "👍",
-    "channel_id": "585723",
+    "message": "Thank you",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545397480",
     "contact_name": "Adriano Vichi || Monopoly A V S Properties L.L.C",
     "contact_identifier": "+971546664452",
-    "parent_message_id": "4341446818",
-    "parent_ticket_id": "976348818",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
