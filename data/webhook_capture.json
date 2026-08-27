@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-27T05:11:42.191Z",
+  "ts": "2026-08-27T05:11:43.373Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341413010",
-    "ticket_id": "852583151",
-    "message": "Morning can send me the quotation from 15 September to to 15 December",
-    "channel_id": "585723",
-    "contact_id": "450960431",
-    "contact_name": "Erica - fam living",
-    "contact_identifier": "+971544311300",
-    "parent_message_id": "4340971199",
-    "parent_ticket_id": "852583151",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4341413014",
+    "ticket_id": "976380335",
+    "message": "Good Morning Mr Ibrahim",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539365088",
+    "contact_name": "Abdulrahman Ibrahim",
+    "contact_identifier": "+447539692848",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
