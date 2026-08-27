@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-27T08:12:46.416Z",
+  "ts": "2026-08-27T08:12:49.628Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341541273",
-    "ticket_id": "975414362",
-    "message": "Good morning",
+    "type": "OUTBOUND",
+    "message_id": "4341541346",
+    "ticket_id": "976073847",
+    "message": "As I didn't hear back from you in a while, I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545325752",
+    "contact_name": "ST",
+    "contact_identifier": "+33614870149",
     "channel_id": "585723",
-    "contact_id": "545099021",
-    "contact_name": "Arnia Mohammadi",
-    "contact_identifier": "+971544468909",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
