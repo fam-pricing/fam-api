@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-27T10:35:23.318Z",
+  "ts": "2026-08-27T10:35:57.851Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341712098",
+    "type": "OUTBOUND",
+    "message_id": "4341713093",
     "ticket_id": "961811054",
-    "message": "I am travelling at 6 pm",
-    "channel_id": "585723",
+    "message": "They have confirmed all the kitchen items and have not logged anything in lost & found",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "538363776",
     "contact_name": "Kosar Mahmoud Bashash",
     "contact_identifier": "+971507955452",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
