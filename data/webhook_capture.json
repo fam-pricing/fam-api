@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-27T08:16:54.887Z",
+  "ts": "2026-08-27T08:18:49.904Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341546061",
+    "type": "OUTBOUND",
+    "message_id": "4341548205",
     "ticket_id": "975414362",
-    "message": "Could we proceed the check in before it?",
-    "channel_id": "585723",
+    "message": "Dear Arnia,\r\n\r\nRegarding the early check-in, please note that our standard check-in time starts from 3:00 PM.\r\n\r\nAny early check-in is subject to availability and depends on the Upside Living team, as they are responsible for preparing the apartment. We will inform them of your early check-in request in advance; however, we are unable to confirm an early check-in from our side.\r\n\r\nOn the day of your arrival, you may also check with the reception team regarding the possibility of an earlier check-in.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545099021",
     "contact_name": "Arnia Mohammadi",
     "contact_identifier": "+971544468909",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
