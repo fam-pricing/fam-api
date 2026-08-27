@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-27T09:18:41.111Z",
+  "ts": "2026-08-27T09:18:48.519Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4341621486",
+    "type": "INBOUND",
+    "message_id": "4341621635",
     "ticket_id": "976731957",
-    "message": "Sorry about that, the link seems to be having issues. Let me grab the photos another way and send them over. Does 1st September still work as your move-in date?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Again getting this",
+    "channel_id": "1304636",
     "contact_id": "535609733",
     "contact_name": "A.k",
     "contact_identifier": "+971527775778",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4341619915",
+    "parent_ticket_id": "976731957",
+    "event_type": "INBOUND"
   }
 }
