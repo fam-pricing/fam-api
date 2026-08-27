@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-27T14:55:35.118Z",
+  "ts": "2026-08-27T14:56:07.868Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4342035323",
+    "type": "OUTBOUND",
+    "message_id": "4342035920",
     "ticket_id": "976642671",
-    "message": "Good evening. I’ve just finished with work and I’m available now. I’d still like to view the Downtown Views 2 apartment. Please let me know what time would be convenient for the viewing.",
-    "channel_id": "1304636",
+    "message": "Viewings need to be booked in advance, so you can't walk in directly. Downtown Views 2 is still wide open for tomorrow. What time works for you between 9am and 6pm?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545493348",
     "contact_name": "MUSTAFA ALAAMERI",
     "contact_identifier": "+971588187003",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
