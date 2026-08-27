@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-27T11:21:32.779Z",
+  "ts": "2026-08-27T11:21:41.401Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341778196",
+    "type": "OUTBOUND",
+    "message_id": "4341778384",
     "ticket_id": "976073847",
-    "message": "This is the good ?",
-    "channel_id": "585723",
+    "message": "Please find the updated contract attached for your review. Kindly have a look, sign the contract, and send the signed copy back to us so we can proceed with completing the check-in formalities.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545325752",
     "contact_name": "Esteban, Roman, Yohann BASTIEN VICENTE",
     "contact_identifier": "+33614870149",
-    "parent_message_id": "4341777014",
-    "parent_ticket_id": "976073847",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
