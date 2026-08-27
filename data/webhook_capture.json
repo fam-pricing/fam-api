@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-27T06:40:23.791Z",
+  "ts": "2026-08-27T06:42:55.330Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341453257",
-    "ticket_id": "976586294",
-    "message": "Company problem",
+    "type": "OUTBOUND",
+    "message_id": "4341454840",
+    "ticket_id": "975231691",
+    "message": "Deposit has already been refunded through the payment link, and you should receive the amount back on your card within 2–3 days. The refund will be credited to the same card used for the payment.\r\n\r\nUnfortunately, we are unable to add or process any additional amount through the payment link.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545039013",
+    "contact_name": "Abrar Al Tamimi",
+    "contact_identifier": "+447426888858",
     "channel_id": "585723",
-    "contact_id": "545462225",
-    "contact_name": "rajoot426",
-    "contact_identifier": "+971542527641",
-    "parent_message_id": "4341452454",
-    "parent_ticket_id": "976586294",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
