@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-27T07:07:13.114Z",
+  "ts": "2026-08-27T07:07:30.403Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4341473548",
+    "type": "INBOUND",
+    "message_id": "4341473770",
     "ticket_id": "976581138",
-    "message": "Unfortunately, we do not have any apartments available within your budget. Our rates start from AED 5,500, and we do not currently have any options below this amount.\r\n\r\nThank you for your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I see",
+    "channel_id": "585723",
     "contact_id": "545460666",
     "contact_name": "Shri Matre Namaha",
     "contact_identifier": "+971523814300",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
