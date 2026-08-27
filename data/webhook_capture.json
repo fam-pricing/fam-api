@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-27T06:56:26.718Z",
+  "ts": "2026-08-27T06:56:29.504Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341464461",
+    "type": "OUTBOUND",
+    "message_id": "4341464485",
     "ticket_id": "975784179",
-    "message": "Good morning",
-    "channel_id": "585723",
+    "message": "This unit is occupied at the moment",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545240437",
     "contact_name": "Roshan Rakesh",
     "contact_identifier": "+971524927288",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
