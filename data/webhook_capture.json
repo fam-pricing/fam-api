@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-27T15:00:46.092Z",
+  "ts": "2026-08-27T15:01:24.875Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4342041060",
+    "type": "OUTBOUND",
+    "message_id": "4342041731",
     "ticket_id": "976642671",
-    "message": "Thank you. I have a valid UAE residence visa and Emirates ID. Inshallah, when I arrive at the property tomorrow, I’ll be happy to provide the necessary details for building access. For privacy and security reasons, I prefer not to send copies of personal identification documents electronically in advance. I appreciate your understanding.",
-    "channel_id": "1304636",
+    "message": "Understood, Mustafa. Building security does need the ID registered before the visit, so they can confirm access on arrival. If you're not comfortable sending it electronically, is there any chance you could bring it a bit earlier tomorrow so we can sort it at the door with the security team directly?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545493348",
     "contact_name": "MUSTAFA ALAAMERI",
     "contact_identifier": "+971588187003",
-    "parent_message_id": "4342037524",
-    "parent_ticket_id": "976642671",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
