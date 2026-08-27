@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-27T06:56:55.236Z",
+  "ts": "2026-08-27T06:57:25.143Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4341464803",
-    "ticket_id": "976688595",
-    "message": "My Apologies",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "545310766",
-    "contact_name": "Georgio Eid",
-    "contact_identifier": "+971504377488",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4341465173",
+    "ticket_id": "975784179",
+    "message": "Could you please let me know if A702 is vacant or unit when it’s occupied",
+    "channel_id": "585723",
+    "contact_id": "545240437",
+    "contact_name": "Roshan Rakesh",
+    "contact_identifier": "+971524927288",
+    "parent_message_id": "4341457993",
+    "parent_ticket_id": "975784179",
+    "event_type": "INBOUND"
   }
 }
