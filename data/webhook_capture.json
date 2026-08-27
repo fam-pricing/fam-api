@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-27T10:36:19.768Z",
+  "ts": "2026-08-27T10:36:23.055Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4341713800",
-    "ticket_id": "975953429",
-    "message": "Yes, the unit is available for check-in now.",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "545290010",
-    "contact_name": "Seyf - ANASTASIYA GOGOLEVA",
-    "contact_identifier": "+971529451768",
+    "type": "INBOUND",
+    "message_id": "4341713918",
+    "ticket_id": "961811054",
+    "message": "Is it possible to go and check in person please ?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "538363776",
+    "contact_name": "Kosar Mahmoud Bashash",
+    "contact_identifier": "+971507955452",
+    "event_type": "INBOUND"
   }
 }
