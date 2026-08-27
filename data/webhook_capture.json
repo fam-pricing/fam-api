@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-27T07:10:04.631Z",
+  "ts": "2026-08-27T07:12:43.215Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341476169",
+    "type": "OUTBOUND",
+    "message_id": "4341478838",
     "ticket_id": "975784179",
-    "message": "Let me know if that’s okay",
-    "channel_id": "585723",
+    "message": "We currently have an in-house guest staying in the apartment, so let me check with them first. If they are comfortable with the viewing, we will update you accordingly.\r\n\r\nWhat time would you like to view the apartment today?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545240437",
     "contact_name": "Roshan Rakesh",
     "contact_identifier": "+971524927288",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
