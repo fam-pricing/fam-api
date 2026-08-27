@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-27T05:17:26.692Z",
+  "ts": "2026-08-27T05:18:45.204Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341414451",
+    "type": "OUTBOUND",
+    "message_id": "4341414828",
     "ticket_id": "959587621",
-    "message": "Is there no way to get the old rate? Anyone to speak to?",
-    "channel_id": "585723",
+    "message": "Unfortunately, the new rates have been updated by the management and apply to all our guests. Therefore, we are unable to offer the previous rate or make any further adjustments.\r\n\r\nWe had also informed you about the updated rate several weeks ago. We sincerely appreciate your understanding and cooperation.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "540691470",
     "contact_name": "ramiza",
     "contact_identifier": "+971566548614",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
