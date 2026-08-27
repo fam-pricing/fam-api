@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-27T08:22:13.233Z",
+  "ts": "2026-08-27T08:24:01.738Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341552898",
+    "type": "OUTBOUND",
+    "message_id": "4341556358",
     "ticket_id": "975414362",
-    "message": "Okay dear im waiting for your respond🌹",
-    "channel_id": "585723",
+    "message": "Unfortunately, we are unable to confirm the early check-in at this stage, as your booking has not yet been confirmed.\r\n\r\nOnce you complete the booking and payment, we will submit the early check-in request to the team on your behalf. Before the booking is confirmed, we are unable to request or guarantee an early check-in.\r\n\r\nIf you would like to proceed with the booking and make the payment, please let us know, and we will assist you with the next steps.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545099021",
     "contact_name": "Arnia Mohammadi",
     "contact_identifier": "+971544468909",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
