@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-27T05:38:03.886Z",
+  "ts": "2026-08-27T05:38:04.908Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341420713",
-    "ticket_id": "975953429",
-    "message": "What time  will be ready ?+-",
+    "type": "OUTBOUND",
+    "message_id": "4341420734",
+    "ticket_id": "975856280",
+    "message": "Allow me to check the availability for you",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545264993",
+    "contact_name": "Виктория",
+    "contact_identifier": "+79055107875",
     "channel_id": "585723",
-    "contact_id": "545290010",
-    "contact_name": "Seyf - ANASTASIYA GOGOLEVA",
-    "contact_identifier": "+971529451768",
-    "parent_message_id": "4341420286",
-    "parent_ticket_id": "975953429",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
