@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-27T09:18:58.684Z",
+  "ts": "2026-08-27T09:19:22.842Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4341621798",
+    "type": "OUTBOUND",
+    "message_id": "4341622238",
     "ticket_id": "976731957",
-    "message": "Yes",
-    "channel_id": "1304636",
+    "message": "Sorry the link isn't loading, try opening it on a browser instead. Just to confirm, that studio at Upside Living doesn't have a balcony. Does that still work for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "535609733",
     "contact_name": "A.k",
     "contact_identifier": "+971527775778",
-    "parent_message_id": "4341621486",
-    "parent_ticket_id": "976731957",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
