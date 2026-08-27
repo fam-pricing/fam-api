@@ -1,17 +1,19 @@
 {
-  "ts": "2026-08-27T09:31:10.662Z",
+  "ts": "2026-08-27T09:31:17.117Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4341635831",
-    "ticket_id": "961811054",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "538363776",
-    "contact_name": "Kosar Mahmoud Bashash",
-    "contact_identifier": "+971507955452",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4341635949",
+    "ticket_id": "976731957",
+    "message": "If there is any other option in the same building with balcony",
+    "channel_id": "1304636",
+    "contact_id": "535609733",
+    "contact_name": "A.k",
+    "contact_identifier": "+971527775778",
+    "parent_message_id": "4341635026",
+    "parent_ticket_id": "976731957",
+    "event_type": "INBOUND"
   }
 }
