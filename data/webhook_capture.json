@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-27T10:55:23.953Z",
+  "ts": "2026-08-27T10:55:27.094Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4341745791",
-    "ticket_id": "938546983",
-    "message": "Sure. May I kindly confirm how you would prefer to make the payment for the extension via the payment link or bank transfer?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "535208016",
-    "contact_name": "DEANNO GARRY LUPKE",
-    "contact_identifier": "+27815663899",
+    "type": "INBOUND",
+    "message_id": "4341745841",
+    "ticket_id": "953081775",
+    "message": "Any update?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "278742304",
+    "contact_name": "Ahmad Sabri Hassan",
+    "contact_identifier": "+971528939729",
+    "parent_message_id": "4333409151",
+    "parent_ticket_id": "953081775",
+    "event_type": "INBOUND"
   }
 }
