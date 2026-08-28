@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-28T18:58:27.011Z",
+  "ts": "2026-08-28T19:00:22.641Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343051351",
+    "type": "INBOUND",
+    "message_id": "4343052057",
     "ticket_id": "977138053",
-    "message": "Junior, the 2BR in Miraclz Tower is available now, want to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I'm coming in October",
+    "channel_id": "1304636",
     "contact_id": "545626460",
     "contact_name": "Junior",
     "contact_identifier": "+27737290414",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4343051351",
+    "parent_ticket_id": "977138053",
+    "event_type": "INBOUND"
   }
 }
