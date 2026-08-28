@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-28T19:21:02.946Z",
+  "ts": "2026-08-28T19:21:26.188Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343060519",
+    "type": "OUTBOUND",
+    "message_id": "4343060666",
     "ticket_id": "977138053",
-    "message": "It is possible to do a virtual  tour",
-    "channel_id": "1304636",
+    "message": "Let me get that arranged for you right away, Junior!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545626460",
     "contact_name": "Junior",
     "contact_identifier": "+27737290414",
-    "parent_message_id": "4343059978",
-    "parent_ticket_id": "977138053",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
