@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-28T19:16:27.674Z",
+  "ts": "2026-08-28T19:18:31.504Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343058659",
+    "type": "INBOUND",
+    "message_id": "4343059414",
     "ticket_id": "977138053",
-    "message": "No stress at all, good to know you're coming from South Africa. How long are you planning to stay?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Within 6 months then I'm buying a house for €70million",
+    "channel_id": "1304636",
     "contact_id": "545626460",
     "contact_name": "Junior",
     "contact_identifier": "+27737290414",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4343058659",
+    "parent_ticket_id": "977138053",
+    "event_type": "INBOUND"
   }
 }
