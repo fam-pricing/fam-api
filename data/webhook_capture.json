@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-28T12:59:24.604Z",
+  "ts": "2026-08-28T12:59:36.675Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4342765072",
-    "ticket_id": "975856280",
-    "message": "Here is your booking confirmation",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "545264993",
-    "contact_name": "Виктория",
-    "contact_identifier": "+79055107875",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4342765277",
+    "ticket_id": "977049592",
+    "message": "Well, calculate the prices for six months, the stable price and send it to me, then I'll tell you when I can come to see",
+    "channel_id": "1304636",
+    "contact_id": "545605173",
+    "contact_name": "AB",
+    "contact_identifier": "+971524714995",
+    "event_type": "INBOUND"
   }
 }
