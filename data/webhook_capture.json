@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-28T13:02:23.343Z",
+  "ts": "2026-08-28T13:02:52.084Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4342768586",
+    "type": "OUTBOUND",
+    "message_id": "4342769079",
     "ticket_id": "975856280",
-    "message": "Sp It is should be return after check out ?",
-    "channel_id": "585723",
+    "message": "We have a deposit of 2000 AED to be paid upon check-in.\r\n\r\nPlease note that your refundable damage deposit should be reimbursed within 14 working days of your check-out. Your deposit will be refunded in full by credit card or bank transfer, subject to an inspection of the property.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545264993",
     "contact_name": "Dmitrii Postolovskii ( WIFE )",
     "contact_identifier": "+79055107875",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
