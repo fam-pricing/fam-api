@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-28T13:31:33.349Z",
+  "ts": "2026-08-28T13:31:57.598Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4342797621",
+    "type": "OUTBOUND",
+    "message_id": "4342798009",
     "ticket_id": "977049592",
-    "message": "Well, how does it work for you, you need to do it right away with a payment of 136,000 or it can't be done on two or three checks correctly",
-    "channel_id": "1304636",
+    "message": "Payment is totally flexible, you can split it into two or three cheques, no need to do the full AED 136,000 upfront. See you tomorrow to sort the details.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545605173",
     "contact_name": "AB",
     "contact_identifier": "+971524714995",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
