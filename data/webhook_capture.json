@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-28T18:35:16.389Z",
+  "ts": "2026-08-28T18:35:45.581Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343041562",
+    "type": "INBOUND",
+    "message_id": "4343041821",
     "ticket_id": "977135872",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-damac-maison-prive-damac-maison-prive-a-129738000.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "hello",
+    "channel_id": "1304636",
     "contact_id": "545625812",
     "contact_name": "Deepa Limaye",
     "contact_identifier": "+919820925458",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
