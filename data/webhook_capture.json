@@ -1,17 +1,19 @@
 {
-  "ts": "2026-08-28T12:07:36.865Z",
+  "ts": "2026-08-28T12:07:51.984Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4342712752",
+    "message_id": "4342712973",
     "ticket_id": "976759410",
-    "message": "These photos ^",
+    "message": "Are different to these photos",
     "channel_id": "1304636",
     "contact_id": "545523837",
     "contact_name": "TM",
     "contact_identifier": "+447707788058",
+    "parent_message_id": "4342704583",
+    "parent_ticket_id": "976759410",
     "event_type": "INBOUND"
   }
 }
