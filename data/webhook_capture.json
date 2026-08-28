@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-28T06:33:35.172Z",
+  "ts": "2026-08-28T06:34:14.575Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4342393220",
+    "type": "OUTBOUND",
+    "message_id": "4342393616",
     "ticket_id": "976687909",
-    "message": "Hello Abdallah,\r\n\r\nWe have been trying to reach Mr. Anthony Boukather to complete the check-in form; however, we have not received a response from him yet.\r\n\r\nPlease note that the check-in form must be completed before we can proceed with and assist you with the check-in arrangements.\r\n\r\nWe would also like to inform you that our standard check-in time is 3:00 PM.\r\n\r\nIn the meantime, could you please share Mr. Anthony Boukather’s booking confirmation with us so we can verify the reservation details and assist you accordingly?\r\n\r\nThank you for your cooperation and understanding.",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545505333",
     "contact_name": "Anthony Boukather",
     "contact_identifier": "+971503444060",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
