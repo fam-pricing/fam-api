@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-28T13:32:21.958Z",
+  "ts": "2026-08-28T13:34:05.095Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4342798420",
+    "type": "OUTBOUND",
+    "message_id": "4342800124",
     "ticket_id": "977047358",
-    "message": "Can I see the room ?",
-    "channel_id": "585723",
+    "message": "Right now viewing is not available , and for short booking we do not arrange any viewing",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545604436",
     "contact_name": "سلطان",
     "contact_identifier": "+971502669344",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
