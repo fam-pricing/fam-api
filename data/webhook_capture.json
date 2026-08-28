@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-28T09:28:10.110Z",
+  "ts": "2026-08-28T09:28:36.127Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4342550293",
-    "ticket_id": "976951160",
-    "message": "Yes it’s ready and you may check in now",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "545038753",
-    "contact_name": "Niko Preitenegger",
-    "contact_identifier": "+971585814884",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4342550681",
+    "ticket_id": "955436676",
+    "message": "Ok please let me know the time ahead",
+    "channel_id": "585723",
+    "contact_id": "539565275",
+    "contact_name": "GESCARD ISSA",
+    "contact_identifier": "+23795870067",
+    "parent_message_id": "4342540844",
+    "parent_ticket_id": "955436676",
+    "event_type": "INBOUND"
   }
 }
