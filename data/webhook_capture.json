@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-28T10:41:02.915Z",
+  "ts": "2026-08-28T10:45:38.678Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4342628377",
-    "ticket_id": "972699983",
-    "message": "Kindly confirm and send the payment details in order to schedule for tomorrow",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "544282080",
-    "contact_name": "Mr EMRE",
-    "contact_identifier": "+905327616424",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4342632648",
+    "ticket_id": "976759410",
+    "message": "Hi, do you have a video of the apartment ?",
+    "channel_id": "1304636",
+    "contact_id": "545523837",
+    "contact_name": "TM",
+    "contact_identifier": "+447707788058",
+    "event_type": "INBOUND"
   }
 }
