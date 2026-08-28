@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-28T19:21:26.188Z",
+  "ts": "2026-08-28T19:23:38.924Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343060666",
+    "type": "INBOUND",
+    "message_id": "4343061546",
     "ticket_id": "977138053",
-    "message": "Let me get that arranged for you right away, Junior!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "No worries",
+    "channel_id": "1304636",
     "contact_id": "545626460",
     "contact_name": "Junior",
     "contact_identifier": "+27737290414",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4343060666",
+    "parent_ticket_id": "977138053",
+    "event_type": "INBOUND"
   }
 }
