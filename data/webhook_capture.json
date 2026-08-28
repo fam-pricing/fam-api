@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-28T13:34:05.095Z",
+  "ts": "2026-08-28T13:36:14.329Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4342800124",
-    "ticket_id": "977047358",
-    "message": "Right now viewing is not available , and for short booking we do not arrange any viewing",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "545604436",
-    "contact_name": "سلطان",
-    "contact_identifier": "+971502669344",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4342802141",
+    "ticket_id": "977049592",
+    "message": "Where is your office",
+    "channel_id": "1304636",
+    "contact_id": "545605173",
+    "contact_name": "AB",
+    "contact_identifier": "+971524714995",
+    "event_type": "INBOUND"
   }
 }
