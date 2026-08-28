@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-28T13:10:10.706Z",
+  "ts": "2026-08-28T13:11:13.623Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4342776952",
+    "type": "INBOUND",
+    "message_id": "4342777979",
     "ticket_id": "975856280",
-    "message": "We have already shared the full rental and deposit details with you. Kindly refer to the quotation that was previously shared for your reference.\r\n\r\nAs per the quotation:\r\n\r\nRental amount: AED 31,000\r\nSecurity deposit: AED 2,000\r\n\r\nYou have already paid the AED 2,000 security deposit, so the remaining rental amount due is AED 31,000.\r\n\r\nWe hope this clarifies the payment breakdown. Please feel free to let us know if you have any questions.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Yes, and this security deposit will be refund after 14 days after check out ?",
+    "channel_id": "585723",
     "contact_id": "545264993",
     "contact_name": "Dmitrii Postolovskii ( WIFE )",
     "contact_identifier": "+79055107875",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4342776952",
+    "parent_ticket_id": "975856280",
+    "event_type": "INBOUND"
   }
 }
