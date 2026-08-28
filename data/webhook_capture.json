@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-28T12:59:36.675Z",
+  "ts": "2026-08-28T13:00:08.565Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4342765277",
+    "type": "OUTBOUND",
+    "message_id": "4342765797",
     "ticket_id": "977049592",
-    "message": "Well, calculate the prices for six months, the stable price and send it to me, then I'll tell you when I can come to see",
-    "channel_id": "1304636",
+    "message": "For 6 months that works out to AED 102,000 at the current rate. That price is stable for the period, so you'd be locked in at AED 17,000/month for the full term.\n\nWhen are you thinking of coming to have a look?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545605173",
     "contact_name": "AB",
     "contact_identifier": "+971524714995",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
