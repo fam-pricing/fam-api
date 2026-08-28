@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-28T13:30:22.882Z",
+  "ts": "2026-08-28T13:30:37.189Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4342796405",
+    "type": "OUTBOUND",
+    "message_id": "4342796641",
     "ticket_id": "977049592",
-    "message": "Where is your office?",
-    "channel_id": "1304636",
+    "message": "Payment can be split between cash and bank transfer if that helps, and yes, cheques aren't something we can do. Does tomorrow at 1pm still work for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545605173",
     "contact_name": "AB",
     "contact_identifier": "+971524714995",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
