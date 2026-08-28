@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-28T13:27:25.284Z",
+  "ts": "2026-08-28T13:27:34.949Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4342793564",
-    "ticket_id": "975856280",
-    "message": "Most welcome",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "545264993",
-    "contact_name": "Dmitrii Postolovskii ( WIFE )",
-    "contact_identifier": "+79055107875",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4342793702",
+    "ticket_id": "977049592",
+    "message": "Yes",
+    "channel_id": "1304636",
+    "contact_id": "545605173",
+    "contact_name": "AB",
+    "contact_identifier": "+971524714995",
+    "parent_message_id": "4342793334",
+    "parent_ticket_id": "977049592",
+    "event_type": "INBOUND"
   }
 }
