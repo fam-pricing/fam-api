@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-28T09:22:39.475Z",
+  "ts": "2026-08-28T09:22:40.773Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4342544816",
-    "ticket_id": "976951160",
-    "message": "Hello Niko Preitenegger !\r\n\r\nHere is some important information for your stay with us at fäm Living:\r\n\r\nBuilding Name: Peninsula3\r\n\r\nApartment no: 4606\r\n\r\nDoor Code: 8080 🔑\r\n\r\nWi-Fi password: famliving\r\n\r\nThe gym and swimming pool are on 3rd floor.\r\n\r\nUpon arrival, please pass by the reception for a smooth check-in, and we have left the access card inside the apartment\r\n\r\nPlease note that we are only available every day from 9:00 AM to 6:00 PM. Kindly reach out to the reception in case of any emergency",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "545038753",
-    "contact_name": "Niko Preitenegger",
-    "contact_identifier": "+971585814884",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4342544829",
+    "ticket_id": "976687909",
+    "message": "At the lobby of the building ?",
+    "channel_id": "585723",
+    "contact_id": "545505333",
+    "contact_name": "Anthony Boukather",
+    "contact_identifier": "+971503444060",
+    "event_type": "INBOUND"
   }
 }
