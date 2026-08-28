@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-28T12:58:23.159Z",
+  "ts": "2026-08-28T12:58:42.449Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4342764056",
+    "type": "OUTBOUND",
+    "message_id": "4342764378",
     "ticket_id": "977049592",
-    "message": "Well, tell me the price for three months",
-    "channel_id": "1304636",
+    "message": "On a 6-month stay, the price stays fixed for the full term, no changes mid-contract. And a single cheque for 6 months works perfectly fine. Want to come see it tomorrow and we can go from there?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545605173",
     "contact_name": "AB",
     "contact_identifier": "+971524714995",
-    "parent_message_id": "4342763159",
-    "parent_ticket_id": "977049592",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
