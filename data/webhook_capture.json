@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-28T13:01:28.131Z",
+  "ts": "2026-08-28T13:01:45.724Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4342767571",
+    "type": "INBOUND",
+    "message_id": "4342767872",
     "ticket_id": "975856280",
-    "message": "rent will be 31,000aed",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Deposit it refundable ?",
+    "channel_id": "585723",
     "contact_id": "545264993",
     "contact_name": "Dmitrii Postolovskii ( WIFE )",
     "contact_identifier": "+79055107875",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4342767379",
+    "parent_ticket_id": "975856280",
+    "event_type": "INBOUND"
   }
 }
