@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-28T06:30:33.577Z",
+  "ts": "2026-08-28T06:33:33.851Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4342391389",
-    "ticket_id": "972699983",
-    "message": "Yes bed linens will be changed as well",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "544282080",
-    "contact_name": "Mr EMRE",
-    "contact_identifier": "+905327616424",
+    "type": "INBOUND",
+    "message_id": "4342393204",
+    "ticket_id": "976687909",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545505333",
+    "contact_name": "Anthony Boukather",
+    "contact_identifier": "+971503444060",
+    "parent_message_id": "4342362482",
+    "parent_ticket_id": "976687909",
+    "event_type": "INBOUND"
   }
 }
