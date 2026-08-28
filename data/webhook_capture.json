@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-28T12:08:45.182Z",
+  "ts": "2026-08-28T12:08:55.696Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4342713889",
+    "type": "INBOUND",
+    "message_id": "4342714070",
     "ticket_id": "976759410",
-    "message": "That message didn't come through on our end, could you resend it as text? And to confirm, yes the 2BR in Downtown Views 2 is available from this week. What date works for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is different to the photos of these apartment",
+    "channel_id": "1304636",
     "contact_id": "545523837",
     "contact_name": "TM",
     "contact_identifier": "+447707788058",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4342704583",
+    "parent_ticket_id": "976759410",
+    "event_type": "INBOUND"
   }
 }
