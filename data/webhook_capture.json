@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-29T09:40:08.734Z",
+  "ts": "2026-08-29T09:41:42.443Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343267508",
-    "ticket_id": "967162890",
-    "message": "Our finance office hours are from 10:00 AM to 5:00 PM. Please visit us during these hours, or kindly let us know at least 30 minutes in advance before coming.\r\n\r\nPlease find our office location below:\r\n\r\nOffice Location : Bay Square\r\n\r\nBulling : 13\r\n\r\nOffice : 306\r\n\r\nLink: https://maps.app.goo.gl/JmxFWhryr5PibptG7",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "542854170",
-    "contact_name": "Masoud Matboukhi",
-    "contact_identifier": "+971558423018",
+    "type": "INBOUND",
+    "message_id": "4343268317",
+    "ticket_id": "977202052",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545645944",
+    "contact_name": "Hafeez",
+    "contact_identifier": "+966503688490",
+    "parent_message_id": "4343262871",
+    "parent_ticket_id": "977202052",
+    "event_type": "INBOUND"
   }
 }
