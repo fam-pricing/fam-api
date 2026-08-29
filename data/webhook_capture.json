@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-29T06:53:06.891Z",
+  "ts": "2026-08-29T06:53:39.705Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343184395",
+    "type": "INBOUND",
+    "message_id": "4343184576",
     "ticket_id": "977177967",
-    "message": "The 2BR in Miraclz Tower is available at AED 8,800/month, all-inclusive. Here's the full listing with photos: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-arjan-miraclz-tower-by-danube-93143563.html",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is it available?",
+    "channel_id": "1304636",
     "contact_id": "545638512",
     "contact_name": "M",
     "contact_identifier": "+971508588413",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
