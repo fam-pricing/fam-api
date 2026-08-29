@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-29T14:42:28.590Z",
+  "ts": "2026-08-29T14:42:52.524Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343416499",
+    "type": "OUTBOUND",
+    "message_id": "4343416671",
     "ticket_id": "977238756",
-    "message": "Yes, can we come and see it tomorrow?  As we live near by",
-    "channel_id": "1304636",
+    "message": "It's available from Monday the 31st. What time works for you tomorrow, morning or afternoon?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545659839",
     "contact_name": "Lola",
     "contact_identifier": "+971505342680",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
