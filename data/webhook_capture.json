@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-29T06:03:25.656Z",
+  "ts": "2026-08-29T06:05:03.063Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343169699",
+    "type": "INBOUND",
+    "message_id": "4343170100",
     "ticket_id": "977122873",
-    "message": "Good morning Corina,\r\n\r\nUnfortunately, this unit will only be available from the end of September. We are fully booked before then.\r\n\r\nThank you for your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "545621821",
     "contact_name": "Corina",
     "contact_identifier": "+971557390663",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4343169699",
+    "parent_ticket_id": "977122873",
+    "event_type": "INBOUND"
   }
 }
