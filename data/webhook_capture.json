@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-29T09:13:28.881Z",
+  "ts": "2026-08-29T09:21:43.934Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343251945",
-    "ticket_id": "977194533",
-    "message": "I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "541745108",
-    "contact_name": "Mahmoud Amin Mohamed Am",
-    "contact_identifier": "+971559904943",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4343256653",
+    "ticket_id": "949384142",
+    "message": "Hi, I’d like to understand the situation clearly. During the previous months, you always contacted me and informed me that I should move out on the last day of the month. However, this month I did not receive any message or notice from you regarding moving out.\n\nSo, could you please clarify why I am being contacted today and being asked to move out today, even though today is not the last day of the month?\n\nAlso, I would like to know exactly what the contract says regarding the move-out date and on what basis today has been determined as my last day.\n\nI would appreciate a clear explanation of the reason and the procedure I am expected to follow. Thank you.",
+    "channel_id": "585723",
+    "contact_id": "536870373",
+    "contact_name": "Asmae Elalaouì",
+    "contact_identifier": "+971523442425",
+    "event_type": "INBOUND"
   }
 }
