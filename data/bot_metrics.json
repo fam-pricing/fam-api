@@ -1,65 +1,5 @@
 [
   {
-    "ts": "2026-08-22T06:00:27.609Z",
-    "ticket_id": 975548992,
-    "lead_id": "message_lead_31435401",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 793,
-    "critic_pass": null,
-    "lead_quality": 40,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-08-22T06:02:14.327Z",
-    "ticket_id": 975548992,
-    "lead_id": "message_lead_31435401",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 754,
-    "critic_pass": null,
-    "lead_quality": 40,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-08-22T06:02:38.114Z",
-    "ticket_id": 975548992,
-    "lead_id": "message_lead_31435401",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 789,
-    "critic_pass": null,
-    "lead_quality": 40,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-08-22T06:03:45.362Z",
-    "ticket_id": 975548992,
-    "lead_id": "message_lead_31435401",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 796,
-    "critic_pass": null,
-    "lead_quality": 40,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-08-22T06:04:42.880Z",
-    "ticket_id": 975548992,
-    "lead_id": "message_lead_31435401",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1008,
-    "critic_pass": null,
-    "lead_quality": 40,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-08-22T06:05:26.826Z",
     "ticket_id": 975548992,
     "lead_id": "message_lead_31435401",
@@ -4066,5 +4006,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-08-29T06:05:03.929Z",
+    "ticket_id": 977122873,
+    "lead_id": "message_lead_31627106",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 866,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "acknowledgment_skip"
   }
 ]
