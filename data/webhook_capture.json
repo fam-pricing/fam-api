@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-29T06:10:11.805Z",
+  "ts": "2026-08-29T06:11:03.091Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343171525",
-    "ticket_id": "946847797",
-    "message": "10:00 AM - 12:00 PM",
-    "channel_id": "585723",
-    "contact_id": "537276725",
-    "contact_name": "Souheil Alkhayer",
-    "contact_identifier": "+971504676132",
-    "parent_message_id": "4343167856",
-    "parent_ticket_id": "946847797",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4343171730",
+    "ticket_id": "977104556",
+    "message": "Here is the payment link: https://totalpay.ae/payment/20260829376a9277dd7f1d7\r\n\r\nOnce done please update us",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "541745108",
+    "contact_name": "Mahmoud Amin Mohamed Am",
+    "contact_identifier": "+971559904943",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
