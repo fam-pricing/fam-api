@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-29T07:03:15.799Z",
+  "ts": "2026-08-29T07:05:34.508Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343188376",
+    "type": "OUTBOUND",
+    "message_id": "4343189416",
     "ticket_id": "977177967",
-    "message": "?",
-    "channel_id": "1304636",
+    "message": "We truly apologize for the inconvenience. We have received a last-minute booking for this unit, so unfortunately, we need to cancel the viewing.\r\n\r\nThe unit will now be available from 27th September, and we can arrange the viewing on the same date.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545638512",
     "contact_name": "M",
     "contact_identifier": "+971508588413",
-    "parent_message_id": "4343185945",
-    "parent_ticket_id": "977177967",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
