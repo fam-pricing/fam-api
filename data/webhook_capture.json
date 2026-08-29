@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-29T06:55:47.595Z",
+  "ts": "2026-08-29T06:56:05.549Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343185318",
+    "type": "OUTBOUND",
+    "message_id": "4343185412",
     "ticket_id": "977177967",
-    "message": "Yes sure, but first is it possible to view it today?",
-    "channel_id": "1304636",
+    "message": "Absolutely, viewings are available today between 9am and 6pm. What time works best for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545638512",
     "contact_name": "M",
     "contact_identifier": "+971508588413",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
