@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-29T07:02:39.032Z",
+  "ts": "2026-08-29T07:03:15.799Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343188072",
-    "ticket_id": "946847797",
-    "message": "Maximum we may offer late check out until 1 pm",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "537276725",
-    "contact_name": "Souheil Alkhayer",
-    "contact_identifier": "+971504676132",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4343188376",
+    "ticket_id": "977177967",
+    "message": "?",
+    "channel_id": "1304636",
+    "contact_id": "545638512",
+    "contact_name": "M",
+    "contact_identifier": "+971508588413",
+    "parent_message_id": "4343185945",
+    "parent_ticket_id": "977177967",
+    "event_type": "INBOUND"
   }
 }
