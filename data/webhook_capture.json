@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-29T10:06:56.185Z",
+  "ts": "2026-08-29T10:07:17.610Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343281152",
-    "ticket_id": "946847797",
-    "message": "Ok",
+    "type": "OUTBOUND",
+    "message_id": "4343281343",
+    "ticket_id": "947123575",
+    "message": "We have already shared contract and details with primary number earlier, kindly make sure to check out by 3 pm as our check out time already passed. thank you",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "537343744",
+    "contact_name": "Shahir",
+    "contact_identifier": "+971503185375",
     "channel_id": "585723",
-    "contact_id": "537276725",
-    "contact_name": "Souheil Alkhayer",
-    "contact_identifier": "+971504676132",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
