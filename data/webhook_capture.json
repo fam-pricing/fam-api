@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-29T14:40:53.763Z",
+  "ts": "2026-08-29T14:41:17.226Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343415753",
+    "type": "OUTBOUND",
+    "message_id": "4343415924",
     "ticket_id": "977238756",
-    "message": "Yes on monday",
-    "channel_id": "1304636",
+    "message": "All good, it's available from 31st August. Are you planning to move in on Monday the 31st?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545659839",
     "contact_name": "Lola",
     "contact_identifier": "+971505342680",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
