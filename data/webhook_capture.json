@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-29T12:03:58.982Z",
+  "ts": "2026-08-29T12:04:56.802Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343338647",
+    "type": "OUTBOUND",
+    "message_id": "4343339154",
     "ticket_id": "975784179",
-    "message": "Thank you",
-    "channel_id": "585723",
+    "message": "Hello Roshan,\r\n\r\nUnfortunately, the guest has not responded to us at all.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545240437",
     "contact_name": "Roshan Rakesh",
     "contact_identifier": "+971524927288",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
