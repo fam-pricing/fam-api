@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-29T09:26:53.032Z",
+  "ts": "2026-08-29T09:27:45.037Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343259617",
-    "ticket_id": "967162890",
-    "message": "Please inform me on when to come and get my deposit as soon as possible. Thank you",
+    "type": "OUTBOUND",
+    "message_id": "4343260755",
+    "ticket_id": "977172481",
+    "message": "Your new booking is from 29th August Saturday. We have already sent you the booking confirmation with the mentioned dates for your reference.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539365088",
+    "contact_name": "Abdulrahman Ibrahim",
+    "contact_identifier": "+447539692848",
     "channel_id": "585723",
-    "contact_id": "542854170",
-    "contact_name": "Masoud Matboukhi",
-    "contact_identifier": "+971558423018",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
