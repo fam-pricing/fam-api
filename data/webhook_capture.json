@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-29T09:37:17.389Z",
+  "ts": "2026-08-29T09:37:56.174Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343266183",
-    "ticket_id": "947123575",
-    "message": "I just wanted to confirm when is the checkout time and date ?\nBecause it’s 29th and already the team is outside the door and saying checkout today before 4pm or else we will charge you 300 aed",
-    "channel_id": "585723",
-    "contact_id": "537343744",
-    "contact_name": "Shahir",
-    "contact_identifier": "+971503185375",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4343266457",
+    "ticket_id": "977138053",
+    "message": "Sure, we will update you with the rate",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545626460",
+    "contact_name": "Junior",
+    "contact_identifier": "+27737290414",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
