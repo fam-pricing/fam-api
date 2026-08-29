@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-29T20:31:37.598Z",
+  "ts": "2026-08-29T21:41:08.226Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343538516",
-    "ticket_id": "977271183",
-    "message": "Ill pay deposit",
+    "type": "OUTBOUND",
+    "message_id": "4343551882",
+    "ticket_id": "977274797",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-arjan-miraclz-tower-by-danube-93143563.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "545676811",
+    "contact_name": "The Way Studio",
+    "contact_identifier": "+971542007225",
     "channel_id": "1304636",
-    "contact_id": "545388353",
-    "contact_name": ".",
-    "contact_identifier": "+33672372794",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
