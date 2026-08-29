@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-29T14:01:54.609Z",
+  "ts": "2026-08-29T14:02:56.748Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343396138",
+    "type": "INBOUND",
+    "message_id": "4343396663",
     "ticket_id": "976073847",
-    "message": "Sure, well noted",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "❤️",
+    "channel_id": "585723",
     "contact_id": "545325752",
     "contact_name": "Esteban, Roman, Yohann BASTIEN VICENTE",
     "contact_identifier": "+33614870149",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4343396138",
+    "parent_ticket_id": "976073847",
+    "event_type": "INBOUND"
   }
 }
