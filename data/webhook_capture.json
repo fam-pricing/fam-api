@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-29T09:48:02.866Z",
+  "ts": "2026-08-29T09:48:33.960Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343271549",
+    "type": "INBOUND",
+    "message_id": "4343271814",
     "ticket_id": "977138053",
-    "message": "No, I’m Chahana from the Reservations Team, and I’ll be assisting you.\r\n\r\nAt the moment, I’m waiting for our concerned team member to share the 6-month rates, as we currently only have the rate for one month. This is the reason for the slight delay.\r\n\r\nAs soon as I receive the rates, I’ll update you. Otherwise, we will provide you with the full 6-month details by Monday.\r\n\r\nThank you for your patience and understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "No problem chalana",
+    "channel_id": "1304636",
     "contact_id": "545626460",
     "contact_name": "Junior",
     "contact_identifier": "+27737290414",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4343271549",
+    "parent_ticket_id": "977138053",
+    "event_type": "INBOUND"
   }
 }
