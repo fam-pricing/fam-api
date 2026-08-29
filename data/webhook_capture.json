@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-29T11:55:06.773Z",
+  "ts": "2026-08-29T11:55:47.331Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343334021",
+    "type": "OUTBOUND",
+    "message_id": "4343334338",
     "ticket_id": "977202052",
-    "message": "Is this unit on the higher floor?",
-    "channel_id": "585723",
+    "message": "Unfortunately, no. The apartment is located on the 2nd floor.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545645944",
     "contact_name": "Hafeez",
     "contact_identifier": "+966503688490",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
