@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-29T09:08:29.072Z",
+  "ts": "2026-08-29T09:08:36.636Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343249127",
-    "ticket_id": "977194533",
-    "message": "Thank you",
-    "channel_id": "1304636",
-    "contact_id": "541745108",
-    "contact_name": "Mahmoud Amin Mohamed Am",
-    "contact_identifier": "+971559904943",
-    "parent_message_id": "4343247894",
-    "parent_ticket_id": "977194533",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4343249179",
+    "ticket_id": "946847797",
+    "message": "Late check out charges will be 150 AED until 4 pm for your kind information. Kindly confirm so we can send the payment link",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "537276725",
+    "contact_name": "Souheil Alkhayer",
+    "contact_identifier": "+971504676132",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
