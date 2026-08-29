@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-29T14:38:18.373Z",
+  "ts": "2026-08-29T14:38:45.520Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343414492",
+    "type": "OUTBOUND",
+    "message_id": "4343414708",
     "ticket_id": "977238756",
-    "message": "And what’s the price for a month from 31 st of August",
-    "channel_id": "1304636",
+    "message": "The rate gets reviewed every 3 months so it can move up or down with the market, but the current rate holds for your first 3 months. Are you thinking of moving in on the 31st?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545659839",
     "contact_name": "Lola",
     "contact_identifier": "+971505342680",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
