@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-29T14:51:52.885Z",
+  "ts": "2026-08-29T14:52:23.476Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343421044",
+    "type": "OUTBOUND",
+    "message_id": "4343421276",
     "ticket_id": "977238756",
-    "message": "Thank you but how much is the total price per month including vat etc etc",
-    "channel_id": "1304636",
+    "message": "AED 17,500/month is all-inclusive, so no VAT or extras on top. The security deposit is AED 2,000, fully refundable within 14 working days after check-out. Does Monday the 31st still work as your move-in date?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545659839",
     "contact_name": "Lola",
     "contact_identifier": "+971505342680",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
