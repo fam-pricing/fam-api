@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-29T08:21:28.734Z",
+  "ts": "2026-08-29T08:23:21.666Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343224689",
+    "type": "OUTBOUND",
+    "message_id": "4343225679",
     "ticket_id": "977189417",
-    "message": "Thank you.",
-    "channel_id": "1304636",
+    "message": "Please note that the payment must be completed by tomorrow to secure your extension. Without receiving the payment, we will be unable to hold the extension for you.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545642273",
     "contact_name": "Khshyr",
     "contact_identifier": "+971581031377",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
