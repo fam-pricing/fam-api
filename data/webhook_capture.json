@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-29T10:10:17.989Z",
+  "ts": "2026-08-29T10:17:40.525Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343282877",
+    "type": "OUTBOUND",
+    "message_id": "4343286783",
     "ticket_id": "947123575",
-    "message": "Can we get any discount as it was all sudden otherwise we would have checked out till now",
-    "channel_id": "585723",
+    "message": "This is the best rate we can offer",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "537343744",
     "contact_name": "Shahir",
     "contact_identifier": "+971503185375",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
