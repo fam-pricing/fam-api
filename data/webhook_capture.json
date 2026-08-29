@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-29T14:36:08.527Z",
+  "ts": "2026-08-29T14:36:34.489Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343413460",
+    "type": "OUTBOUND",
+    "message_id": "4343413675",
     "ticket_id": "977238756",
-    "message": "The amount is fixed? Or changes over a year?",
-    "channel_id": "1304636",
+    "message": "The rate can flex based on market conditions, so it's not locked in for a full year, typically reviewed every 3 months.\n\nWhat dates are you thinking for your stay?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545659839",
     "contact_name": "Lola",
     "contact_identifier": "+971505342680",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
