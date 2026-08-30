@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-30T11:17:23.038Z",
+  "ts": "2026-08-30T11:17:35.058Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343733690",
-    "ticket_id": "977322103",
-    "message": "Can you please share the previous booking reference number",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545690890",
-    "contact_name": "Mohamed Ouledbrahim",
-    "contact_identifier": "+212649452327",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4343733775",
+    "ticket_id": "977325688",
+    "message": "The property is available from 10 september for one month ?",
+    "channel_id": "1304636",
+    "contact_id": "545692198",
+    "contact_name": "N.Z",
+    "contact_identifier": "+16136687065",
+    "event_type": "INBOUND"
   }
 }
