@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T11:43:29.248Z",
+  "ts": "2026-08-30T11:44:43.759Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343744500",
+    "type": "OUTBOUND",
+    "message_id": "4343745066",
     "ticket_id": "976983265",
-    "message": "It’s only security deposit",
-    "channel_id": "585723",
+    "message": "We have checked with the management regarding the security deposit. The standard required security deposit is AED 2,000; however, with management approval, we have already reduced it to AED 1,000.\r\n\r\nUnfortunately, we are unable to reduce the security deposit amount any further. We appreciate your understanding and cooperation.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545582133",
     "contact_name": "hesam sakhtemansaz",
     "contact_identifier": "+971528307771",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
