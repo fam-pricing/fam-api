@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-30T08:10:17.791Z",
+  "ts": "2026-08-30T08:12:14.658Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343646800",
-    "ticket_id": "977303805",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-arjan-miraclz-tower-by-danube-93143563.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "545685153",
-    "contact_name": "Omkar Khoont",
-    "contact_identifier": "+917862815208",
+    "type": "INBOUND",
+    "message_id": "4343647761",
+    "ticket_id": "977304071",
+    "message": "Hello, the team at upside living did not extend my stay because they said something is pending from your side. Can you please advise??",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "536414061",
+    "contact_name": "Maria",
+    "contact_identifier": "+96176100864",
+    "event_type": "INBOUND"
   }
 }
