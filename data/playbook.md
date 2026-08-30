@@ -1818,3 +1818,7 @@ Once these steps are completed, we will send you your self-check-in details.
 
 Once we have these, we'll send you a payment link to secure the deposit and finalise your reservation."
   (Learned from Faysal handling Liss re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-11-binghatti-amber-15165649.html)
+
+## Learned (2026-08-30)
+- When a lead asks to receive the quote quickly, respond by clarifying that the quoted rate is all-inclusive, covering electricity, Wi-Fi, water, DTCM fees, and VAT.
+  (Learned from Faysal handling Deepa Limaye re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-damac-maison-prive-damac-maison-prive-a-129738000.html)
