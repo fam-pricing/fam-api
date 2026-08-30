@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T03:22:18.141Z",
+  "ts": "2026-08-30T03:22:53.115Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343586221",
+    "type": "OUTBOUND",
+    "message_id": "4343586250",
     "ticket_id": "977286794",
-    "message": "What's the price for this apartment after tax, and when is it available?",
-    "channel_id": "1304636",
+    "message": "The studio is available now, so you could move in whenever works for you. Want to arrange a viewing so you can see it in person?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545680605",
     "contact_name": "Nadeen Hussein",
     "contact_identifier": "+971509602472",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
