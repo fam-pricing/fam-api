@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T09:18:24.530Z",
+  "ts": "2026-08-30T09:20:53.188Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343678146",
-    "ticket_id": "950575440",
-    "message": "It’s possible they remove the carpet from the leaving room ?",
+    "type": "OUTBOUND",
+    "message_id": "4343679454",
+    "ticket_id": "975414362",
+    "message": "As we have not yet received an update regarding the payment, we will proceed with releasing the hold on the apartment, and it will be made available for booking.\r\n\r\nIf you would still like to proceed with the reservation, please let us know. We will be happy to check the availability and assist you accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545099021",
+    "contact_name": "Arnia Mohammadi",
+    "contact_identifier": "+971544468909",
     "channel_id": "585723",
-    "contact_id": "538178428",
-    "contact_name": "BARBARA ALMEIDA CUNHA",
-    "contact_identifier": "+971569589393",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
