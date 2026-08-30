@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T09:24:16.309Z",
+  "ts": "2026-08-30T09:31:40.898Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343681114",
+    "type": "OUTBOUND",
+    "message_id": "4343684715",
     "ticket_id": "977202052",
-    "message": "Hi again, our interested areas are Madinat jumeriah living / burj al arab; Um suqeim 2/3; Um al sheif; Al wasl road NOT city walk",
-    "channel_id": "585723",
+    "message": "May I kindly know your preferred start date and the date until which you are looking to stay? This will allow us to check the availability and assist you accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545645944",
     "contact_name": "Hafeez",
     "contact_identifier": "+966503688490",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
