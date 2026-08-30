@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-30T14:12:56.481Z",
+  "ts": "2026-08-30T14:13:43.170Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343812278",
+    "type": "INBOUND",
+    "message_id": "4343812611",
     "ticket_id": "977135872",
-    "message": "Please note that the quoted rate is an all-inclusive rate, covering electricity, Wi-Fi, water, DTCM fees, and VAT.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "So total cost is 13500 AED for 2 months - 1st Sept to 31st Oct",
+    "channel_id": "1304636",
     "contact_id": "545625812",
     "contact_name": "Deepa Limaye",
     "contact_identifier": "+919820925458",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4343168419",
+    "parent_ticket_id": "977135872",
+    "event_type": "INBOUND"
   }
 }
