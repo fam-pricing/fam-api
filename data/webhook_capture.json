@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-30T11:09:34.010Z",
+  "ts": "2026-08-30T11:09:50.485Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343730220",
+    "type": "INBOUND",
+    "message_id": "4343730329",
     "ticket_id": "977322985",
-    "message": "September 5th for one month works. To get things moving, can you send a copy of your passport or ID and your email address?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "This is the passport",
+    "channel_id": "1304636",
     "contact_id": "545691251",
     "contact_name": "Corinne Hamdan",
     "contact_identifier": "+971585571137",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4343728667",
+    "parent_ticket_id": "977322985",
+    "event_type": "INBOUND"
   }
 }
