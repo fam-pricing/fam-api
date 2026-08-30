@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-30T09:31:40.898Z",
+  "ts": "2026-08-30T09:32:26.952Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343684715",
+    "type": "INBOUND",
+    "message_id": "4343685125",
     "ticket_id": "977202052",
-    "message": "May I kindly know your preferred start date and the date until which you are looking to stay? This will allow us to check the availability and assist you accordingly.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Asap, if we get done in coming 2/3days would great",
+    "channel_id": "585723",
     "contact_id": "545645944",
     "contact_name": "Hafeez",
     "contact_identifier": "+966503688490",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4343684715",
+    "parent_ticket_id": "977202052",
+    "event_type": "INBOUND"
   }
 }
