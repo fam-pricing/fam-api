@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T07:50:32.024Z",
+  "ts": "2026-08-30T07:51:00.998Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343638906",
-    "ticket_id": "976983265",
-    "message": "I need to view the unit first",
+    "type": "OUTBOUND",
+    "message_id": "4343639068",
+    "ticket_id": "947123575",
+    "message": "Please speak to them as it's a check out they should allow you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "537343744",
+    "contact_name": "Shahir",
+    "contact_identifier": "+971503185375",
     "channel_id": "585723",
-    "contact_id": "545582133",
-    "contact_name": "hesam sakhtemansaz",
-    "contact_identifier": "+971528307771",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
