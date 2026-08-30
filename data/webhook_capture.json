@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T16:20:23.922Z",
+  "ts": "2026-08-30T16:20:36.910Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343864038",
-    "ticket_id": "977360963",
-    "message": "Sure",
-    "channel_id": "585723",
-    "contact_id": "527665009",
-    "contact_name": "LANA AHMAD",
-    "contact_identifier": "+971585586882",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4343864244",
+    "ticket_id": "977344317",
+    "message": "All bills included, yes. To get you booked in from October 1, could you send over a copy of your passport and your email address so we can send the payment link?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "545698368",
+    "contact_name": "Laurent",
+    "contact_identifier": "+33659596303",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
