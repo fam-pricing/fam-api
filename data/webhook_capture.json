@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-30T13:50:38.624Z",
+  "ts": "2026-08-30T13:54:04.421Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343801538",
-    "ticket_id": "950575440",
-    "message": "We have checked with the management, and the best rate we can offer for the extension is AED 16,500 for 30 nights.\r\n\r\nUnfortunately, we are unable to offer a lower rate than this. If this works for you, please let us know, and we will be happy to proceed with the extension.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "538178428",
-    "contact_name": "BARBARA ALMEIDA CUNHA",
-    "contact_identifier": "+971569589393",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4343803198",
+    "ticket_id": "977135872",
+    "message": "Can you please give me this soon?",
+    "channel_id": "1304636",
+    "contact_id": "545625812",
+    "contact_name": "Deepa Limaye",
+    "contact_identifier": "+919820925458",
+    "parent_message_id": "4343796223",
+    "parent_ticket_id": "977135872",
+    "event_type": "INBOUND"
   }
 }
