@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-30T12:01:27.161Z",
+  "ts": "2026-08-30T12:02:03.085Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343752564",
+    "type": "INBOUND",
+    "message_id": "4343752846",
     "ticket_id": "977326181",
-    "message": "Available from the 5th, so you're looking at just over 3 months through to December 10th. Want to come see it, what day suits you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "6 sept",
+    "channel_id": "1304636",
     "contact_id": "545692198",
     "contact_name": "N.Z",
     "contact_identifier": "+16136687065",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4343752564",
+    "parent_ticket_id": "977326181",
+    "event_type": "INBOUND"
   }
 }
