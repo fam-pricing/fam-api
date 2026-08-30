@@ -4042,5 +4042,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-08-30T16:19:29.188Z",
+    "ticket_id": 977344317,
+    "lead_id": "message_lead_31674806",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 991,
+    "critic_pass": null,
+    "lead_quality": 25,
+    "buying_stage": "COOL",
+    "skip_reason": "ticket_locked"
   }
 ]
