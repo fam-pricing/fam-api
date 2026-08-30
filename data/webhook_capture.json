@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T09:32:39.043Z",
+  "ts": "2026-08-30T09:43:30.694Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343685212",
+    "type": "OUTBOUND",
+    "message_id": "4343690405",
     "ticket_id": "977202052",
-    "message": "I am in Dubai and can view the property",
-    "channel_id": "585723",
+    "message": "We currently have one 2-bedroom apartment available in Madinat Jumeirah for a one-month stay. The apartment will be available from 31 August, subject to confirmation that the current in-house guest does not extend their stay.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545645944",
     "contact_name": "Hafeez",
     "contact_identifier": "+966503688490",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
