@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T12:04:02.121Z",
+  "ts": "2026-08-30T12:04:27.953Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343753815",
+    "type": "OUTBOUND",
+    "message_id": "4343754011",
     "ticket_id": "977326181",
-    "message": "Yes, schedule the visit for September 6th.",
-    "channel_id": "1304636",
+    "message": "September 6th works, what time suits you between 9am and 6pm? To sort building access, could you send a photo of your passport or Emirates ID?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545692198",
     "contact_name": "N.Z",
     "contact_identifier": "+16136687065",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
