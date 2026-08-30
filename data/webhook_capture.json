@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T14:54:24.319Z",
+  "ts": "2026-08-30T14:55:44.718Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343829326",
+    "type": "OUTBOUND",
+    "message_id": "4343829860",
     "ticket_id": "975414362",
-    "message": "😐",
-    "channel_id": "585723",
+    "message": "Allow me a moment I will send the booking confirmation",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545099021",
     "contact_name": "Arnia Mohammadi",
     "contact_identifier": "+971544468909",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
