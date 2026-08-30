@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-30T11:46:32.652Z",
+  "ts": "2026-08-30T11:46:45.764Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343745902",
-    "ticket_id": "977202052",
-    "message": "Our standard check-out time is 12:00 PM. We will be able to confirm the viewing once the current guest has confirmed their check-out.\r\n\r\nTherefore, we are unable to confirm the viewing at this moment. We will update you as soon as we receive confirmation from the guest.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545645944",
-    "contact_name": "Hafeez",
-    "contact_identifier": "+966503688490",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4343746007",
+    "ticket_id": "977219177",
+    "message": "So I can collect it then?",
+    "channel_id": "1304636",
+    "contact_id": "538423864",
+    "contact_name": "Senga Silungwe",
+    "contact_identifier": "+260977293603",
+    "event_type": "INBOUND"
   }
 }
