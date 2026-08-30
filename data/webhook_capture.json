@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-30T10:57:54.964Z",
+  "ts": "2026-08-30T11:00:12.433Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343725037",
-    "ticket_id": "977322103",
-    "message": "Check in form is completed however still the deposit payment is pending to be complete",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545690890",
-    "contact_name": "Mohamed Ouledbrahim",
-    "contact_identifier": "+212649452327",
+    "type": "INBOUND",
+    "message_id": "4343726106",
+    "ticket_id": "977308840",
+    "message": "Okay, thank you. I'll wait for your response",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545686961",
+    "contact_name": "",
+    "contact_identifier": "+971581153288",
+    "event_type": "INBOUND"
   }
 }
