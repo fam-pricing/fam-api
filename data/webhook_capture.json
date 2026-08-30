@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T15:45:54.244Z",
+  "ts": "2026-08-30T15:49:48.186Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343850655",
-    "ticket_id": "977347123",
-    "message": "Hello",
+    "type": "OUTBOUND",
+    "message_id": "4343852077",
+    "ticket_id": "977287389",
+    "message": "Please note that we are unable to confirm this at the moment, as it will depend on the prevailing market conditions at the time.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545680783",
+    "contact_name": "AJ",
+    "contact_identifier": "+255778774477",
     "channel_id": "1304636",
-    "contact_id": "545523837",
-    "contact_name": "TM",
-    "contact_identifier": "+447707788058",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
