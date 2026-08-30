@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T07:38:36.051Z",
+  "ts": "2026-08-30T07:38:47.965Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343634659",
+    "type": "OUTBOUND",
+    "message_id": "4343634724",
     "ticket_id": "977135872",
-    "message": "4.30 pm",
-    "channel_id": "1304636",
+    "message": "We can arrange the viewing for 5:00 PM. Would this time be convenient for you?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545625812",
     "contact_name": "Deepa Limaye",
     "contact_identifier": "+919820925458",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
