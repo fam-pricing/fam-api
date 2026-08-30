@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T06:56:46.593Z",
+  "ts": "2026-08-30T07:01:57.666Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343620049",
+    "type": "OUTBOUND",
+    "message_id": "4343621795",
     "ticket_id": "977293462",
-    "message": "Any update?",
-    "channel_id": "585723",
+    "message": "We have checked and we sincerely apologize for the inconvenience caused. Unfortunately, this unit is no longer available for a one-month stay, as we have received a confirmed booking through another booking platform. Therefore, we are unable to proceed with your booking request.\r\n\r\nWe truly apologize for any inconvenience or frustration this may have caused. As the unit is listed across multiple booking platforms, availability can change quickly, and we regret that we were unable to secure the unit for your requested dates.\r\n\r\nThank you for your understanding and patience.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545682171",
     "contact_name": "Ritchard",
     "contact_identifier": "+971526977774",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
