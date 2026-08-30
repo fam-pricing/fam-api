@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-30T16:19:58.632Z",
+  "ts": "2026-08-30T16:20:08.342Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343863863",
-    "ticket_id": "977360963",
-    "message": "Unfortunately, please note that the reservation remains unconfirmed as we have not yet received the payment.\r\n\r\nAdditionally, if you arrive after 9:00 PM, an additional late check-in fee of AED 500 will apply, as we will need to arrange for one of our agents to assist you with the check-in process outside of our regular operating hours.\r\n\r\nWe kindly recommend completing the payment before 9:00 PM to secure your reservation and avoid any additional charges",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "527665009",
-    "contact_name": "LANA AHMAD",
-    "contact_identifier": "+971585586882",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4343863917",
+    "ticket_id": "977344317",
+    "message": "Yes",
+    "channel_id": "1304636",
+    "contact_id": "545698368",
+    "contact_name": "Laurent",
+    "contact_identifier": "+33659596303",
+    "event_type": "INBOUND"
   }
 }
