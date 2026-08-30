@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-30T08:34:23.147Z",
+  "ts": "2026-08-30T08:34:50.979Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343657728",
+    "type": "INBOUND",
+    "message_id": "4343657892",
     "ticket_id": "955436676",
-    "message": "As you planned your day already, we request that you proceed with the self-checkout, and we will arrange a cleaning tomorrow and inspection as well",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "I dont accept this option, i told you that since day one",
+    "channel_id": "585723",
     "contact_id": "539565275",
     "contact_name": "GESCARD ISSA",
     "contact_identifier": "+23795870067",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4343657728",
+    "parent_ticket_id": "955436676",
+    "event_type": "INBOUND"
   }
 }
