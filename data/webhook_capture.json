@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-30T11:10:14.780Z",
+  "ts": "2026-08-30T11:10:57.712Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343730525",
-    "ticket_id": "977322985",
-    "message": "Got it, Corinne. To confirm the total for September 5th, one month: AED 5,500 plus the AED 1,000 refundable deposit. Shall I send you the payment link to lock it in?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "545691251",
-    "contact_name": "Corinne Hamdan",
-    "contact_identifier": "+971585571137",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4343730881",
+    "ticket_id": "977322103",
+    "message": "Call me",
+    "channel_id": "585723",
+    "contact_id": "545690890",
+    "contact_name": "Mohamed Ouledbrahim",
+    "contact_identifier": "+212649452327",
+    "event_type": "INBOUND"
   }
 }
