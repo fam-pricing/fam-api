@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-30T11:26:43.539Z",
+  "ts": "2026-08-30T11:27:10.826Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343737487",
+    "type": "INBOUND",
+    "message_id": "4343737625",
     "ticket_id": "977202052",
-    "message": "Today we are unable to arrange as there is an in house guest in the unit at the moment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Tomorrow first thing in the morning",
+    "channel_id": "585723",
     "contact_id": "545645944",
     "contact_name": "Hafeez",
     "contact_identifier": "+966503688490",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4343737487",
+    "parent_ticket_id": "977202052",
+    "event_type": "INBOUND"
   }
 }
