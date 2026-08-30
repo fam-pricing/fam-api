@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T15:00:42.815Z",
+  "ts": "2026-08-30T15:04:28.687Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343832007",
-    "ticket_id": "977286794",
-    "message": "What is the next step if I would like to proceed?",
-    "channel_id": "1304636",
-    "contact_id": "545680605",
-    "contact_name": "Nadeen Hussein",
-    "contact_identifier": "+971509602472",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4343833766",
+    "ticket_id": "975414362",
+    "message": "We will confirm the payment with the finance and let you know",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545099021",
+    "contact_name": "Arnia Mohammadi",
+    "contact_identifier": "+971544468909",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
