@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T12:31:35.376Z",
+  "ts": "2026-08-30T12:31:39.679Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343766681",
-    "ticket_id": "951364564",
-    "message": "And what others apartment for rent do you have?",
+    "type": "OUTBOUND",
+    "message_id": "4343766712",
+    "ticket_id": "975414362",
+    "message": "Ok If you would like to proceed with the reservation, kindly share the following details with us:\r\n\r\n• Emirates ID or passport copy\r\n• Email address\r\n• Contact number\r\n\r\nOnce we receive the required details, we will share the payment link for the security deposit. Upon receipt of the payment, we will block the unit for you and proceed with confirming the reservation.\r\n\r\nPlease note that the unit will only be secured once the security deposit payment has been received.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545099021",
+    "contact_name": "Arnia Mohammadi",
+    "contact_identifier": "+971544468909",
     "channel_id": "585723",
-    "contact_id": "538357750",
-    "contact_name": "VERA MATIUGINA",
-    "contact_identifier": "+971554831031",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
