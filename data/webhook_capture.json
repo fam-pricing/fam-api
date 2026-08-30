@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T11:17:35.058Z",
+  "ts": "2026-08-30T11:17:39.573Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343733775",
-    "ticket_id": "977325688",
-    "message": "The property is available from 10 september for one month ?",
+    "type": "OUTBOUND",
+    "message_id": "4343733827",
+    "ticket_id": "977322985",
+    "message": "Perfect, Corinne. We have your passport and email. The contract will be sent to corinnehamdan@gmail.com shortly, and once you've signed we'll send the payment link to lock in September 5th. Keep an eye on your inbox!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "545691251",
+    "contact_name": "Corinne Hamdan",
+    "contact_identifier": "+971585571137",
     "channel_id": "1304636",
-    "contact_id": "545692198",
-    "contact_name": "N.Z",
-    "contact_identifier": "+16136687065",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
