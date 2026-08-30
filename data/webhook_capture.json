@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T14:06:53.063Z",
+  "ts": "2026-08-30T14:07:08.561Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343809279",
-    "ticket_id": "977344317",
-    "message": "Yes please",
+    "type": "OUTBOUND",
+    "message_id": "4343809387",
+    "ticket_id": "977326157",
+    "message": "Can you confirm you mean AED 25,000 for 02 months?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545692413",
+    "contact_name": "S",
+    "contact_identifier": "+971585794759",
     "channel_id": "1304636",
-    "contact_id": "545698368",
-    "contact_name": "Laurent",
-    "contact_identifier": "+33659596303",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
