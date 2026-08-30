@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T07:26:42.066Z",
+  "ts": "2026-08-30T07:27:26.687Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343630447",
-    "ticket_id": "977135872",
-    "message": "Thanks but I can’t come by 12 noon, it’s too short notice. I’ll come around 4-5 pm.",
+    "type": "OUTBOUND",
+    "message_id": "4343630668",
+    "ticket_id": "977299605",
+    "message": "Let me check the details for that period and come back to you shortly, Saad!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "545683759",
+    "contact_name": "Saad",
+    "contact_identifier": "+971547127167",
     "channel_id": "1304636",
-    "contact_id": "545625812",
-    "contact_name": "Deepa Limaye",
-    "contact_identifier": "+919820925458",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
