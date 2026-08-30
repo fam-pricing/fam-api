@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T16:15:12.472Z",
+  "ts": "2026-08-30T16:15:16.499Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343862176",
+    "type": "OUTBOUND",
+    "message_id": "4343862199",
     "ticket_id": "977360963",
-    "message": "Yes noted so",
-    "channel_id": "585723",
+    "message": "We attempted to collect the payment through Booking.com, but unfortunately, it didn’t go through.\r\n\r\nAs an alternative, we can share a secure payment link with you. Once the payment is completed, your booking will be confirmed. At the moment, it remains unconfirmed due to the pending payment.\r\n\r\nPlease let us know if you’d like us to send the link.\r\n\r\nThank you, and we look forward to welcoming you!",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "527665009",
     "contact_name": "LANA AHMAD",
     "contact_identifier": "+971585586882",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
