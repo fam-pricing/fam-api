@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T14:15:38.235Z",
+  "ts": "2026-08-30T14:15:51.302Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343813435",
-    "ticket_id": "977347123",
-    "message": "Hi send me what you currently have available ready to move in",
+    "type": "OUTBOUND",
+    "message_id": "4343813587",
+    "ticket_id": "977135872",
+    "message": "Please allow me a moment to check if we can provide the access from 01st September",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545625812",
+    "contact_name": "Deepa Limaye",
+    "contact_identifier": "+919820925458",
     "channel_id": "1304636",
-    "contact_id": "545523837",
-    "contact_name": "TM",
-    "contact_identifier": "+447707788058",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
