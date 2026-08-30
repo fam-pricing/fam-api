@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-30T13:57:13.000Z",
+  "ts": "2026-08-30T13:57:42.297Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4343804609",
+    "type": "OUTBOUND",
+    "message_id": "4343804893",
     "ticket_id": "977344317",
-    "message": "Can we rent it for one year at this price?",
-    "channel_id": "1304636",
+    "message": "Laurent, we don't offer Ejari contracts, but you can stay long-term by extending in 3-month blocks. The rate is locked for the first 3 months, then reviewed each renewal.\n\nWhat dates are you thinking for move-in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545698368",
     "contact_name": "Laurent",
     "contact_identifier": "+33659596303",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
