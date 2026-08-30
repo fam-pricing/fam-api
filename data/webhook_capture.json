@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-30T06:04:30.139Z",
+  "ts": "2026-08-30T06:04:31.692Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4343606330",
-    "ticket_id": "977293028",
-    "message": "Allow me to send the payment link for the extension",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545682035",
-    "contact_name": "Stephen",
-    "contact_identifier": "+231880665908",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4343606351",
+    "ticket_id": "977238756",
+    "message": "Hello? 👋",
+    "channel_id": "1304636",
+    "contact_id": "545659839",
+    "contact_name": "Lola",
+    "contact_identifier": "+971505342680",
+    "event_type": "INBOUND"
   }
 }
