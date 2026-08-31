@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-31T13:41:49.748Z",
+  "ts": "2026-08-31T13:41:53.631Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4344601024",
-    "ticket_id": "977572526",
-    "message": "That's AED 5,500/month for 3 months, AED 16,500 total, with a refundable AED 1,000 deposit on check-in. Does that work for your budget?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "522808166",
-    "contact_name": "a",
-    "contact_identifier": "+447495528747",
+    "type": "INBOUND",
+    "message_id": "4344601141",
+    "ticket_id": "977502405",
+    "message": "Ok. Thank you.",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "545741667",
+    "contact_name": "SAMBA",
+    "contact_identifier": "+33667796280",
+    "event_type": "INBOUND"
   }
 }
