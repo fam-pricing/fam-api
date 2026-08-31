@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-31T17:08:52.155Z",
+  "ts": "2026-08-31T17:09:09.936Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4344815103",
-    "ticket_id": "977428262",
-    "message": "I got the temporary access now, they told me this is the final one they can do and it expires by tomorrow morning.\nI need to understand if this is gonna be a problem because all my stuff are inside the apartment and my rent is fully paid already.\nCould you please explain the situation?",
+    "type": "OUTBOUND",
+    "message_id": "4344815589",
+    "ticket_id": "977456661",
+    "message": "As per the update received from our Finance Team, since the deposit was paid in cash, you may either visit our office to collect the refund in cash or share your bank details with us so that we can process the refund via bank transfer.\r\n\r\nKindly let us know which option you would prefer, and we will be happy to assist you accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538423864",
+    "contact_name": "Senga Silungwe",
+    "contact_identifier": "+260977293603",
     "channel_id": "1304636",
-    "contact_id": "536414061",
-    "contact_name": "Maria",
-    "contact_identifier": "+96176100864",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
