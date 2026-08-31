@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-31T16:49:00.919Z",
+  "ts": "2026-08-31T16:49:16.044Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4344792340",
-    "ticket_id": "977417925",
-    "message": "Unfortunately in Dubai we do not have any apartments available near to beach however we have in Ajman if you prefer to proceed with",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545719147",
-    "contact_name": "C",
-    "contact_identifier": "+61431179128",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4344792533",
+    "ticket_id": "977510648",
+    "message": "Sorry, to disturb you.\nHave you been able to find out the monthly rental price for the apartment?",
+    "channel_id": "1304636",
+    "contact_id": "545743740",
+    "contact_name": "Park Lane",
+    "contact_identifier": "+971589855630",
+    "event_type": "INBOUND"
   }
 }
