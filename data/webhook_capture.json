@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-31T11:31:15.688Z",
+  "ts": "2026-08-31T11:31:44.056Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4344419615",
+    "type": "OUTBOUND",
+    "message_id": "4344420610",
     "ticket_id": "977502405",
-    "message": "I understand that it's a deposit. I'm explaining that I don't have them at the moment.",
-    "channel_id": "1304636",
+    "message": "Understood, let me get someone from the team who can look at options for you and come back shortly.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545741667",
     "contact_name": "SAMBA",
     "contact_identifier": "+33667796280",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
