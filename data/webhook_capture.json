@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-31T10:01:46.690Z",
+  "ts": "2026-08-31T10:03:27.272Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4344307434",
+    "type": "OUTBOUND",
+    "message_id": "4344310493",
     "ticket_id": "852583151",
-    "message": "sure",
-    "channel_id": "585723",
+    "message": "Studio is available only in Upside living building will this be fine?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "450960431",
     "contact_name": "Erica - fam living",
     "contact_identifier": "+971544311300",
-    "parent_message_id": "4344307022",
-    "parent_ticket_id": "852583151",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
