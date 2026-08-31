@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-31T10:00:48.575Z",
+  "ts": "2026-08-31T10:01:11.920Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4344305933",
-    "ticket_id": "967162890",
-    "message": "Ok\nI will come your office tomorrow for getting my deposit and speak about that \nThank you",
+    "type": "OUTBOUND",
+    "message_id": "4344306584",
+    "ticket_id": "852583151",
+    "message": "Hi\r\n\r\nI am good and you?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "450960431",
+    "contact_name": "Erica - fam living",
+    "contact_identifier": "+971544311300",
     "channel_id": "585723",
-    "contact_id": "542854170",
-    "contact_name": "Masoud Matboukhi",
-    "contact_identifier": "+971558423018",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
