@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-31T17:57:33.996Z",
+  "ts": "2026-08-31T17:58:00.734Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4344849144",
+    "type": "INBOUND",
+    "message_id": "4344849423",
     "ticket_id": "977642257",
-    "message": "Yes, monthly rent. For tomorrow's viewing, any time between 9am and 6pm works. What time suits you best?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I will confirm soon",
+    "channel_id": "1304636",
     "contact_id": "545776661",
     "contact_name": "Hermann",
     "contact_identifier": "+971582002256",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4344849144",
+    "parent_ticket_id": "977642257",
+    "event_type": "INBOUND"
   }
 }
