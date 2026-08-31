@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-31T18:46:16.759Z",
+  "ts": "2026-08-31T19:35:40.840Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4344879246",
-    "ticket_id": "977650308",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-palm-jumeirah-the-crescent-royal-amwaj-residences-royal-amwaj-residences-north-130663708.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "545779225",
-    "contact_name": "Ana",
-    "contact_identifier": "+971586885850",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4344905711",
+    "ticket_id": "977657115",
+    "message": "Hello, I am looking for a 2 bedroom flat to rent in City Walk for ~3 weeks in January 2026 (from 5 January to 26 January - dates can be slightly flexible)",
+    "channel_id": "585723",
+    "contact_id": "545781560",
+    "contact_name": "Hortense Badarani",
+    "contact_identifier": "+33673216867",
+    "event_type": "INBOUND"
   }
 }
