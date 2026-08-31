@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-31T12:24:06.965Z",
+  "ts": "2026-08-31T12:29:15.239Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4344487840",
+    "type": "INBOUND",
+    "message_id": "4344493770",
     "ticket_id": "977510648",
-    "message": "September 1 to October 1 is noted, and paying tomorrow around 1pm works fine. To get the payment link sent over, we just need a copy of your passport or ID and your email address. Bank transfer has no extra charge, while card payment via the link carries a 3.1% fee, which do you prefer?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I’m sending you all the details. Please also send me the payment details so I can make the bank transfer.",
+    "channel_id": "1304636",
     "contact_id": "545743740",
     "contact_name": "Park Lane",
     "contact_identifier": "+971589855630",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
