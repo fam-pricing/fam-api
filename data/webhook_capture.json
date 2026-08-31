@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-31T16:49:16.044Z",
+  "ts": "2026-08-31T16:49:33.888Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4344792533",
-    "ticket_id": "977510648",
-    "message": "Sorry, to disturb you.\nHave you been able to find out the monthly rental price for the apartment?",
+    "type": "OUTBOUND",
+    "message_id": "4344792757",
+    "ticket_id": "977381877",
+    "message": "Unfortunately we are unable to confirm the same rate for 06 months",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545709847",
+    "contact_name": "Seif",
+    "contact_identifier": "+971522291645",
     "channel_id": "1304636",
-    "contact_id": "545743740",
-    "contact_name": "Park Lane",
-    "contact_identifier": "+971589855630",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
