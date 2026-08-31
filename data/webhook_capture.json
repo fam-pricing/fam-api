@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-31T15:49:13.564Z",
+  "ts": "2026-08-31T15:55:02.003Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4344746159",
-    "ticket_id": "925854120",
-    "message": "Tenant is fine to allow access at 9.30am",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "532021761",
-    "contact_name": "Vaiva Lukminaite",
-    "contact_identifier": "+37062028632",
+    "type": "INBOUND",
+    "message_id": "4344750813",
+    "ticket_id": "977583803",
+    "message": "Rent payment done",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545761644",
+    "contact_name": "Noor Nabulsi",
+    "contact_identifier": "+971564553807",
+    "event_type": "INBOUND"
   }
 }
