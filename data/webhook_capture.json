@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-31T11:28:17.200Z",
+  "ts": "2026-08-31T11:28:32.174Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4344415848",
-    "ticket_id": "977346496",
-    "message": "hello",
+    "type": "OUTBOUND",
+    "message_id": "4344416141",
+    "ticket_id": "974565804",
+    "message": "Sure, thank you for the update.\r\n\r\nWe will keep you informed of any further updates accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544284816",
+    "contact_name": "Yevhenii Miroshnychenko",
+    "contact_identifier": "+971505719168",
     "channel_id": "1304636",
-    "contact_id": "545605173",
-    "contact_name": "AB",
-    "contact_identifier": "+971524714995",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
