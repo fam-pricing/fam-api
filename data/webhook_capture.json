@@ -1,20 +1,19 @@
 {
-  "ts": "2026-08-31T08:25:31.573Z",
+  "ts": "2026-08-31T08:25:54.962Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4344180759",
+    "type": "INBOUND",
+    "message_id": "4344181184",
     "ticket_id": "977346496",
-    "message": "We sincerely apologize for the confusion.\r\n\r\nPlease note that the rate previously quoted was provided by the AI agent, and unfortunately, we are unable to guarantee the same rate for the entire requested period.\r\n\r\nI have requested the updated rates from our management team, and as soon as I receive their confirmation, I will share the details with you accordingly",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "okay",
+    "channel_id": "1304636",
     "contact_id": "545605173",
     "contact_name": "AB",
     "contact_identifier": "+971524714995",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4344180759",
+    "parent_ticket_id": "977346496",
+    "event_type": "INBOUND"
   }
 }
