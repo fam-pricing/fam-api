@@ -4078,5 +4078,17 @@
     "lead_quality": 60,
     "buying_stage": "WARM",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-08-31T13:49:56.291Z",
+    "ticket_id": 977572526,
+    "lead_id": "message_lead_31702745",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 11762,
+    "critic_pass": null,
+    "lead_quality": 95,
+    "buying_stage": "HOT",
+    "skip_reason": "audio_message"
   }
 ]
