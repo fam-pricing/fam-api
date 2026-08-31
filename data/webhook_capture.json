@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-31T08:33:03.853Z",
+  "ts": "2026-08-31T08:33:36.947Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4344190081",
+    "type": "INBOUND",
+    "message_id": "4344190811",
     "ticket_id": "977442464",
-    "message": "Unfortunately, we do not have any one-bedroom apartments available in the Marina area at the moment. However, we do have availability in Jumeirah Village Circle (JVC).\r\n\r\nWould JVC be suitable for you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "JBR please?",
+    "channel_id": "585723",
     "contact_id": "522633962",
     "contact_name": "Passant",
     "contact_identifier": "+971504177827",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
