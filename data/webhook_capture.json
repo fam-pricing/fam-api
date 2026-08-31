@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-31T12:16:13.895Z",
+  "ts": "2026-08-31T12:16:39.338Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4344477352",
+    "type": "OUTBOUND",
+    "message_id": "4344477812",
     "ticket_id": "977510648",
-    "message": "Hello,\nPlease I’m looking for a place to stay, but unfortunately, my budget is limited to a maximum of AED 8,000.\nAnd I find your apartment absolutely charming.\nCould you please let me know the price?",
-    "channel_id": "1304636",
+    "message": "The Downtown Views 2 unit is a 2BR and listed at AED 8,000/month, all-inclusive. That fits right within your budget. Want me to send the full listing with photos?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545743740",
     "contact_name": "Park Lane",
     "contact_identifier": "+971589855630",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
