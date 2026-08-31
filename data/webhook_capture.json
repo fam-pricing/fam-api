@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-31T12:32:01.052Z",
+  "ts": "2026-08-31T12:32:02.370Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4344497169",
+    "type": "INBOUND",
+    "message_id": "4344497205",
     "ticket_id": "977510648",
-    "message": "Got your email, sending over the bank transfer details now so you're all set for tomorrow at 1pm. Stand by.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "It's done!",
+    "channel_id": "1304636",
     "contact_id": "545743740",
     "contact_name": "Park Lane",
     "contact_identifier": "+971589855630",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
