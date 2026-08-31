@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-31T05:14:10.222Z",
+  "ts": "2026-08-31T05:14:31.363Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4344021011",
+    "type": "OUTBOUND",
+    "message_id": "4344021102",
     "ticket_id": "977414300",
-    "message": "15 sept",
-    "channel_id": "1304636",
+    "message": "September 15 works, when would you like to take a look at the place?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545718518",
     "contact_name": "A",
     "contact_identifier": "+33758878711",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
