@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-31T11:19:13.766Z",
+  "ts": "2026-08-31T11:19:22.483Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4344404410",
-    "ticket_id": "977202052",
-    "message": "Good afternoon, but one month seems too short for us; appropriate at least 3 to 6 months in a row.!Are you able to make it? If so, I’m happy to view it today. I’m available. Let me know. Thank you",
-    "channel_id": "585723",
-    "contact_id": "545645944",
-    "contact_name": "Hafeez",
-    "contact_identifier": "+966503688490",
-    "parent_message_id": "4344383985",
-    "parent_ticket_id": "977202052",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4344404556",
+    "ticket_id": "974565804",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nGood afternoon\n\nHow can I help you today?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544284816",
+    "contact_name": "Yevhenii Miroshnychenko",
+    "contact_identifier": "+971505719168",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
