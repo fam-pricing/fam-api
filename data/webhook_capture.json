@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-31T08:04:58.252Z",
+  "ts": "2026-08-31T08:09:39.375Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4344155420",
-    "ticket_id": "977414300",
-    "message": "thanks",
+    "type": "OUTBOUND",
+    "message_id": "4344161390",
+    "ticket_id": "977346496",
+    "message": "Please note that we do not accept cheque payments.\r\n\r\nI have requested the updated rate from the management, and once I receive their confirmation, I will share the details with you accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545605173",
+    "contact_name": "AB",
+    "contact_identifier": "+971524714995",
     "channel_id": "1304636",
-    "contact_id": "545718518",
-    "contact_name": "A",
-    "contact_identifier": "+33758878711",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
