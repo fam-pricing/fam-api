@@ -1,19 +1,20 @@
 {
-  "ts": "2026-08-31T11:54:43.790Z",
+  "ts": "2026-08-31T11:55:36.858Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4344450712",
+    "type": "OUTBOUND",
+    "message_id": "4344451702",
     "ticket_id": "977479315",
-    "message": "The check in dates and check out are wrong",
-    "channel_id": "1304636",
+    "message": "To process a smooth check in for you, please complete this form:\r\nhttps://guest-app.guesty.com/r/6a954f789808b190bbad56e1/e3tndWVzdF9hcHA6OnNhbXBsZV9ndWVzdF9hcHB9fQ==",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545083162",
     "contact_name": "Jannit Adan  Khwalid🧚🏼‍♀️✨",
     "contact_identifier": "+972507398493",
-    "parent_message_id": "4344443767",
-    "parent_ticket_id": "977479315",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
