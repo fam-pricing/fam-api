@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-31T12:56:32.172Z",
+  "ts": "2026-08-31T12:58:15.243Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4344530679",
+    "type": "OUTBOUND",
+    "message_id": "4344534025",
     "ticket_id": "925854120",
-    "message": "Could you please ask the quests confirmation?",
-    "channel_id": "585723",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "532021761",
     "contact_name": "Vaiva Lukminaite",
     "contact_identifier": "+37062028632",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
