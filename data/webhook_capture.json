@@ -1,17 +1,20 @@
 {
-  "ts": "2026-08-31T06:23:14.828Z",
+  "ts": "2026-08-31T06:27:55.976Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4344052480",
+    "type": "OUTBOUND",
+    "message_id": "4344055950",
     "ticket_id": "975414362",
-    "message": "Dear i was talking with reception they are waiting for email for early check in",
-    "channel_id": "585723",
+    "message": "Please allow me some time to check this for you. Our standard check-in time is 3:00 PM, and for this building, Upside Living Management is responsible for preparing the unit for check-in.\r\n\r\nI will check with their team regarding the status and update you as soon as I receive confirmation.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545099021",
     "contact_name": "Arnia Mohammadi",
     "contact_identifier": "+971544468909",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
