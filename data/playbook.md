@@ -1822,3 +1822,7 @@ Once we have these, we'll send you a payment link to secure the deposit and fina
 ## Learned (2026-08-30)
 - When a lead asks to receive the quote quickly, respond by clarifying that the quoted rate is all-inclusive, covering electricity, Wi-Fi, water, DTCM fees, and VAT.
   (Learned from Faysal handling Deepa Limaye re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-damac-maison-prive-damac-maison-prive-a-129738000.html)
+
+## Learned (2026-08-31)
+- When a lead says "thanks" (or any closing acknowledgment), respond with: "Please note that we cannot guarantee the same rate for a 6-month stay, as our pricing is dynamic and subject to change based on market conditions and availability."
+  (Learned from Faysal handling A re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-4-66326226.html)
