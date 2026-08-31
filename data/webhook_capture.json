@@ -1,20 +1,17 @@
 {
-  "ts": "2026-08-31T05:13:40.982Z",
+  "ts": "2026-08-31T05:13:41.996Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4344020873",
-    "ticket_id": "969391998",
-    "message": "Good morning Mrs Lalita may I know if you've checked out from the apartment",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "539642344",
-    "contact_name": "Lalita Bazhaeva",
-    "contact_identifier": "+971501319454",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4344020878",
+    "ticket_id": "977414300",
+    "message": "Is it available from September ?",
+    "channel_id": "1304636",
+    "contact_id": "545718518",
+    "contact_name": "A",
+    "contact_identifier": "+33758878711",
+    "event_type": "INBOUND"
   }
 }
