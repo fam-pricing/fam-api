@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T10:39:59.255Z",
+  "ts": "2026-09-01T10:40:49.140Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345365803",
+    "type": "OUTBOUND",
+    "message_id": "4345366703",
     "ticket_id": "973383488",
-    "message": "From washing mashine",
-    "channel_id": "585723",
+    "message": "Please let us know your availability for tomorrow we will send a team",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "544455671",
     "contact_name": "Alexander",
     "contact_identifier": "+380972452745",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
