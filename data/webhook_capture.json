@@ -1,21 +1,19 @@
 {
-  "ts": "2026-09-01T12:15:48.064Z",
+  "ts": "2026-09-01T12:16:00.172Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345478000",
-    "ticket_id": "977739443",
-    "message": "May I kindly know how many bedrooms you are looking for, along with your preferred budget?\r\n\r\nThis will allow me to check the available options and share the most suitable ones with you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545799528",
-    "contact_name": "Kristi Elmani",
-    "contact_email": "kelmani@yahoo.com",
-    "contact_identifier": "9352ce68-599c-4a46-3672-041f6f036f85",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4345478223",
+    "ticket_id": "975784179",
+    "message": "Any response yet ?",
+    "channel_id": "585723",
+    "contact_id": "545240437",
+    "contact_name": "Roshan Rakesh",
+    "contact_identifier": "+971524927288",
+    "parent_message_id": "4345394558",
+    "parent_ticket_id": "975784179",
+    "event_type": "INBOUND"
   }
 }
