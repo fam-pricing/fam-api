@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-01T15:03:20.351Z",
+  "ts": "2026-09-01T15:03:32.758Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345697634",
+    "type": "INBOUND",
+    "message_id": "4345697881",
     "ticket_id": "977879708",
-    "message": "Yes, check-in 6th September and check-out 20th September works. Want to go ahead and arrange a viewing first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "How much is the total price for 2 weeks and what’s included in that price?",
+    "channel_id": "1304636",
     "contact_id": "545841314",
     "contact_name": "Riki",
     "contact_identifier": "+971525476316",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
