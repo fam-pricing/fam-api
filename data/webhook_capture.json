@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T11:01:00.624Z",
+  "ts": "2026-09-01T11:01:18.939Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345388866",
+    "type": "OUTBOUND",
+    "message_id": "4345389244",
     "ticket_id": "975621059",
-    "message": "Is that ok?",
-    "channel_id": "585723",
+    "message": "Allow me to check with them and update you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545168723",
     "contact_name": "Samy Habili",
     "contact_identifier": "+971561346669",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
