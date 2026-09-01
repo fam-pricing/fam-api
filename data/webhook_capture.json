@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T06:22:38.972Z",
+  "ts": "2026-09-01T06:22:54.030Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345074231",
-    "ticket_id": "975784179",
-    "message": "Good morning",
+    "type": "OUTBOUND",
+    "message_id": "4345074410",
+    "ticket_id": "977583803",
+    "message": "The apartment will be ready shortly. Please share a screenshot of the payment so we can share the check-in details with you and with the building for a smooth check-in",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "545761644",
+    "contact_name": "Noor Nabulsi",
+    "contact_identifier": "+971564553807",
     "channel_id": "585723",
-    "contact_id": "545240437",
-    "contact_name": "Roshan Rakesh",
-    "contact_identifier": "+971524927288",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
