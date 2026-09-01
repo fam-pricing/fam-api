@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T06:13:13.362Z",
+  "ts": "2026-09-01T06:13:20.084Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345067864",
+    "type": "OUTBOUND",
+    "message_id": "4345067940",
     "ticket_id": "975646942",
-    "message": "Morning",
-    "channel_id": "585723",
+    "message": "Below are the necessary fields and information required for a swift refund by bank transfer:\r\n\r\nBooking reference number:\r\n\r\nBeneficiary Name:\r\n\r\nBeneficiary Address:\r\n\r\nBeneficiary Bank Name:\r\n\r\nBeneficiary Bank Account Details (IBAN):\r\n\r\nSwift Code:\r\n\r\nBeneficiary Bank Address:\r\n\r\nCurrency of Account:\r\n\r\nSort Code:\r\n\r\nPlease forward the above banking details to deposit@famliving.com\r\n\r\nPlease note that failure to provide all the required fields mentioned above will prevent our finance team from processing the refund.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "510552599",
     "contact_name": "Hussein Redjili & Roberta Ventrice",
     "contact_identifier": "+971551855900",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
