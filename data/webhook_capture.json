@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-01T15:03:13.879Z",
+  "ts": "2026-09-01T15:03:20.351Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345697522",
+    "type": "OUTBOUND",
+    "message_id": "4345697634",
     "ticket_id": "977879708",
-    "message": "You Said it’s available",
-    "channel_id": "1304636",
+    "message": "Yes, check-in 6th September and check-out 20th September works. Want to go ahead and arrange a viewing first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545841314",
     "contact_name": "Riki",
     "contact_identifier": "+971525476316",
-    "parent_message_id": "4345696609",
-    "parent_ticket_id": "977879708",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
