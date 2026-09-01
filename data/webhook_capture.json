@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-01T07:42:21.618Z",
+  "ts": "2026-09-01T07:44:10.046Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345148372",
-    "ticket_id": "977583803",
-    "message": "If you have a vehicle, we will need the following details for advance registration. Please provide:\r\n* Emirate of issue (Dubai, Abu Dhabi, Sharjah, etc.)\r\n* Code\r\n* Plate number\r\n* Vehicle make/model\r\n* Color\r\nWe kindly request your assistance in registering the vehicle.",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "545761644",
-    "contact_name": "Noor Nabulsi",
-    "contact_identifier": "+971564553807",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4345150273",
+    "ticket_id": "977739443",
+    "message": "I’m looking for a 4 month rental starting in December and I’d like someone to help me if possible",
+    "channel_id": "883603",
+    "contact_id": "545799528",
+    "contact_name": "Kristi Elmani",
+    "contact_identifier": "9352ce68-599c-4a46-3672-041f6f036f85",
+    "event_type": "INBOUND"
   }
 }
