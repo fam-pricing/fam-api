@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T13:29:56.063Z",
+  "ts": "2026-09-01T13:30:26.937Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345581289",
+    "type": "OUTBOUND",
+    "message_id": "4345581932",
     "ticket_id": "977852799",
-    "message": "Ok great \nBut is it available for long term? Like atleast 6 months?",
-    "channel_id": "1304636",
+    "message": "Yes, 6 months works fine. Just so you know, rates are confirmed in 3-month blocks, so after the first 3 months, the next 3 will be confirmed based on market conditions at that time. When are you looking to move in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545831485",
     "contact_name": "Nida",
     "contact_identifier": "+971553684303",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
