@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-01T13:47:10.089Z",
+  "ts": "2026-09-01T13:47:34.182Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345602212",
+    "type": "INBOUND",
+    "message_id": "4345602695",
     "ticket_id": "977508894",
-    "message": "Unfortunately we are unable to confirm the same rate for 03 months",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "So why was I quoted 21,000 AED for 3 months?",
+    "channel_id": "1304636",
     "contact_id": "545549184",
     "contact_name": "Mohammed Awais Masood",
     "contact_identifier": "+971586897786",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4345602212",
+    "parent_ticket_id": "977508894",
+    "event_type": "INBOUND"
   }
 }
