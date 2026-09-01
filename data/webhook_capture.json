@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-01T06:22:54.030Z",
+  "ts": "2026-09-01T06:22:59.621Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345074410",
-    "ticket_id": "977583803",
-    "message": "The apartment will be ready shortly. Please share a screenshot of the payment so we can share the check-in details with you and with the building for a smooth check-in",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "545761644",
-    "contact_name": "Noor Nabulsi",
-    "contact_identifier": "+971564553807",
+    "type": "INBOUND",
+    "message_id": "4345074477",
+    "ticket_id": "949384142",
+    "message": "اسم المصرف : ADIB\nاسم صاحب الحساب : ASMAE ELALAOUI\nرقم الحساب : 18909298\nرقم الآيبان : AE890500000000018909298\nالسويفت : ABDIAEADXXX\nالعملة : AED",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "536870373",
+    "contact_name": "Asmae Elalaouì",
+    "contact_identifier": "+971523442425",
+    "event_type": "INBOUND"
   }
 }
