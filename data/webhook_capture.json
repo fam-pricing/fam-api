@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T05:23:52.018Z",
+  "ts": "2026-09-01T05:25:22.023Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345046674",
-    "ticket_id": "977706526",
-    "message": "Thank you, I am interested to book for the month of November",
-    "channel_id": "585723",
-    "contact_id": "528940072",
-    "contact_name": "Daniel",
-    "contact_identifier": "+971561062703",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4345047374",
+    "ticket_id": "977590396",
+    "message": "We would like to inform you that we are unable to guarantee the same rate for a longer period. Our rates are dynamic and may change over time based on availability and market conditions.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545763533",
+    "contact_name": "Muhammad",
+    "contact_identifier": "+971585026290",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
