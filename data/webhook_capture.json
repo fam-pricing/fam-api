@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T09:22:30.466Z",
+  "ts": "2026-09-01T09:23:03.013Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345268145",
+    "type": "OUTBOUND",
+    "message_id": "4345268799",
     "ticket_id": "977761688",
-    "message": "Is the swimming pool private in this penthouse?",
-    "channel_id": "585723",
+    "message": "Yes there is a private swimming pool",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545805783",
     "contact_name": "Dareen",
     "contact_identifier": "+971509316870",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
