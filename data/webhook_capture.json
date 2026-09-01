@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-01T07:25:54.109Z",
+  "ts": "2026-09-01T07:28:52.736Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345130678",
-    "ticket_id": "977583803",
-    "message": "Please share the driver Id so we can inform the reception thank you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "545761644",
-    "contact_name": "Noor Nabulsi",
-    "contact_identifier": "+971564553807",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4345133662",
+    "ticket_id": "977734602",
+    "message": "Test",
+    "channel_id": "1304636",
+    "contact_id": "542363829",
+    "contact_name": "Micah Meijer",
+    "contact_identifier": "+31655135580",
+    "event_type": "INBOUND"
   }
 }
