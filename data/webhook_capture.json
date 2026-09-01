@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-01T07:32:11.051Z",
+  "ts": "2026-09-01T07:39:27.611Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345137649",
-    "ticket_id": "977734602",
-    "message": "Received your message now",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "542363829",
-    "contact_name": "Micah Meijer",
-    "contact_identifier": "+31655135580",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4345145517",
+    "ticket_id": "977308840",
+    "message": "What is the price?",
+    "channel_id": "585723",
+    "contact_id": "545686961",
+    "contact_name": "",
+    "contact_identifier": "+971581153288",
+    "parent_message_id": "4345102310",
+    "parent_ticket_id": "977308840",
+    "event_type": "INBOUND"
   }
 }
