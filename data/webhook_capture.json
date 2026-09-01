@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T08:09:06.560Z",
+  "ts": "2026-09-01T08:09:31.049Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345180143",
+    "type": "OUTBOUND",
+    "message_id": "4345180661",
     "ticket_id": "977743024",
-    "message": "From 3 pm until ?",
-    "channel_id": "585723",
+    "message": "Until 9pm we can assist with the check in",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545800487",
     "contact_name": "Rania",
     "contact_identifier": "+971588100162",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
