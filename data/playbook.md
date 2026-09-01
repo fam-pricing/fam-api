@@ -1826,3 +1826,7 @@ Once we have these, we'll send you a payment link to secure the deposit and fina
 ## Learned (2026-08-31)
 - When a lead says "thanks" (or any closing acknowledgment), respond with: "Please note that we cannot guarantee the same rate for a 6-month stay, as our pricing is dynamic and subject to change based on market conditions and availability."
   (Learned from Faysal handling A re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-4-66326226.html)
+
+## Learned (2026-09-01)
+- If a lead asks whether rates change during peak season or inquires about DTCM fees, reassure them that rates are dynamic and adjust with the season, and that the rate quoted is fully all-inclusive — no additional fees apply.
+  (Learned from Faysal handling Nehaa re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-2PuwDDpSs0u.html)
