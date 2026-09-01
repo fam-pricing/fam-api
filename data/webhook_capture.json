@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-01T15:57:19.125Z",
+  "ts": "2026-09-01T15:57:39.508Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345749813",
-    "ticket_id": "977816981",
-    "message": "Once the payment is done please update us",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545642273",
-    "contact_name": "Khashayar",
-    "contact_identifier": "+971581031377",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4345750131",
+    "ticket_id": "977752683",
+    "message": "I am living in same building as of now so I can view now as well",
+    "channel_id": "585723",
+    "contact_id": "545803094",
+    "contact_name": "sonali",
+    "contact_identifier": "+919024552331",
+    "parent_message_id": "4345741746",
+    "parent_ticket_id": "977752683",
+    "event_type": "INBOUND"
   }
 }
