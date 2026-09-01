@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-01T08:36:57.215Z",
+  "ts": "2026-09-01T08:38:24.570Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345214347",
-    "ticket_id": "977752683",
-    "message": "May I know your expected check in date?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545803094",
-    "contact_name": "sonali",
-    "contact_identifier": "+919024552331",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4345216038",
+    "ticket_id": "977428262",
+    "message": "And how much time can I have to pack? Can I move out tomorrow?",
+    "channel_id": "1304636",
+    "contact_id": "536414061",
+    "contact_name": "Maria",
+    "contact_identifier": "+96176100864",
+    "event_type": "INBOUND"
   }
 }
