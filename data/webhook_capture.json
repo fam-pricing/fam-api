@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T09:49:10.621Z",
+  "ts": "2026-09-01T09:49:33.964Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345305820",
+    "type": "OUTBOUND",
+    "message_id": "4345306284",
     "ticket_id": "977761688",
-    "message": "Is the pet allowed?",
-    "channel_id": "585723",
+    "message": "Unfortunately any of our apartment do not allow pets",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545805783",
     "contact_name": "Dareen",
     "contact_identifier": "+971509316870",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
