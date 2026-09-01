@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-01T13:39:57.846Z",
+  "ts": "2026-09-01T13:40:48.310Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345593453",
+    "type": "INBOUND",
+    "message_id": "4345594507",
     "ticket_id": "977508894",
-    "message": "As per your request, please find the rates for Binghatti Amber\r\n\r\nSeptember: AED 7,000\r\nOctober: AED 8,500\r\nNovember: AED 9,500\r\nDecember: AED 11,000\r\n\r\nPlease note that a security deposit of AED 3,000 is required. The booking will be on a monthly basis only (30 nights each month).\r\n\r\nThank you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "How come here you said it was 21,000 AED in total for 3 months?",
+    "channel_id": "1304636",
     "contact_id": "545549184",
     "contact_name": "Mohammed Awais Masood",
     "contact_identifier": "+971586897786",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4342063579",
+    "parent_ticket_id": "977508894",
+    "event_type": "INBOUND"
   }
 }
