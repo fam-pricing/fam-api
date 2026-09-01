@@ -1,17 +1,19 @@
 {
-  "ts": "2026-09-01T19:32:11.353Z",
+  "ts": "2026-09-01T19:49:52.964Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345891812",
-    "ticket_id": "949384142",
-    "message": "Thank you for choosing fäm Living, How likely are you to recommend fäm Living to family and friends? https://csat.trengo.com/?uuid=a2a4e5ba-0d79-4394-bdb9-710c97467e6d\n",
-    "contact_id": "536870373",
-    "contact_name": "Asmae Elalaouì",
-    "contact_identifier": "+971523442425",
+    "type": "INBOUND",
+    "message_id": "4345900054",
+    "ticket_id": "964482578",
+    "message": "Business bay or creek yearly rental studio or one bed 7k per month",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "542088615",
+    "contact_name": "Samar",
+    "contact_identifier": "+971557738345",
+    "parent_message_id": "4345862774",
+    "parent_ticket_id": "964482578",
+    "event_type": "INBOUND"
   }
 }
