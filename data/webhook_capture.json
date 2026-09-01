@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-01T06:13:32.533Z",
+  "ts": "2026-09-01T06:14:16.685Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345068080",
-    "ticket_id": "949384142",
-    "message": "Yes for the deposit refund",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "536870373",
-    "contact_name": "Asmae Elalaouì",
-    "contact_identifier": "+971523442425",
+    "type": "INBOUND",
+    "message_id": "4345068577",
+    "ticket_id": "975646942",
+    "message": "IBAN: AE900260001015867191601\nAccount number: 1015867191601\nCurrency: AED\nSwift code: EBILAEAD\nRouting number: 302620122",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "510552599",
+    "contact_name": "Hussein Redjili & Roberta Ventrice",
+    "contact_identifier": "+971551855900",
+    "event_type": "INBOUND"
   }
 }
