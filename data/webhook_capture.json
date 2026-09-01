@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-01T13:36:32.451Z",
+  "ts": "2026-09-01T13:36:37.888Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345589375",
-    "ticket_id": "977852799",
-    "message": "Tomorrow works perfectly for a viewing, Nida. What time suits you? We can do any day between 9am and 6pm.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "545831485",
-    "contact_name": "Nida",
-    "contact_identifier": "+971553684303",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4345589457",
+    "ticket_id": "977583803",
+    "message": "👍",
+    "channel_id": "585723",
+    "contact_id": "545761644",
+    "contact_name": "Noor Nabulsi",
+    "contact_identifier": "+971564553807",
+    "parent_message_id": "4345582176",
+    "parent_ticket_id": "977583803",
+    "event_type": "INBOUND"
   }
 }
