@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T10:14:06.043Z",
+  "ts": "2026-09-01T10:15:04.485Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345336422",
-    "ticket_id": "977428262",
-    "message": "And which floor is the studio?",
+    "type": "OUTBOUND",
+    "message_id": "4345337666",
+    "ticket_id": "977572526",
+    "message": "Please note that viewing has to be cancelled as we have received another confirmed booking for the unit and the unit is no longer available",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "522808166",
+    "contact_name": "a",
+    "contact_identifier": "+447495528747",
     "channel_id": "1304636",
-    "contact_id": "536414061",
-    "contact_name": "Maria",
-    "contact_identifier": "+96176100864",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
