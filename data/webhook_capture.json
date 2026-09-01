@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T10:29:11.337Z",
+  "ts": "2026-09-01T10:30:26.367Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345354057",
+    "type": "OUTBOUND",
+    "message_id": "4345355456",
     "ticket_id": "977428262",
-    "message": "Can we do 5500 for 2 months until end of October?",
-    "channel_id": "1304636",
+    "message": "Unfortunately, we are unable to offer the same rate for the following month, as our rates are subject to change\r\n\r\nThe rate provided is currently the best available rate we can offer",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536414061",
     "contact_name": "Maria",
     "contact_identifier": "+96176100864",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
