@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T08:36:50.494Z",
+  "ts": "2026-09-01T08:36:57.215Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345214204",
-    "ticket_id": "977428262",
-    "message": "What about the rent I've paid for this month?",
-    "channel_id": "1304636",
-    "contact_id": "536414061",
-    "contact_name": "Maria",
-    "contact_identifier": "+96176100864",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4345214347",
+    "ticket_id": "977752683",
+    "message": "May I know your expected check in date?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545803094",
+    "contact_name": "sonali",
+    "contact_identifier": "+919024552331",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
