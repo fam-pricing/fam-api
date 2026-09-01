@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T10:25:40.330Z",
+  "ts": "2026-09-01T10:25:44.305Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345349952",
+    "type": "OUTBOUND",
+    "message_id": "4345350058",
     "ticket_id": "977428262",
-    "message": "Would you rather have a call?",
-    "channel_id": "1304636",
+    "message": "Please note that the apartment is located on the 4th floor.\r\n\r\nRegarding the rental rate, we can offer AED 5,500 for the current month. For the next extension period, the rate would be AED 6,000.\r\n\r\nWe hope this arrangement works well for you and look forward to your confirmation.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "536414061",
     "contact_name": "Maria",
     "contact_identifier": "+96176100864",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
