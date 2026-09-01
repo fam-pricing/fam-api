@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T15:02:03.081Z",
+  "ts": "2026-09-01T15:02:09.155Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345695901",
-    "ticket_id": "977879708",
-    "message": "Hello",
-    "channel_id": "1304636",
-    "contact_id": "545841314",
-    "contact_name": "Riki",
-    "contact_identifier": "+971525476316",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4345696024",
+    "ticket_id": "977743024",
+    "message": "Ms Rania our team is there at the reception",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "545800487",
+    "contact_name": "Rania",
+    "contact_identifier": "+971588100162",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
