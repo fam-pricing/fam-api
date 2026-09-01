@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-01T07:00:00.359Z",
+  "ts": "2026-09-01T07:04:09.980Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345102310",
-    "ticket_id": "977308840",
-    "message": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q4rybf4K5g.html",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545686961",
-    "contact_name": "",
-    "contact_identifier": "+971581153288",
+    "type": "INBOUND",
+    "message_id": "4345106777",
+    "ticket_id": "977202052",
+    "message": "Any other rental units you can recommend? Thank you",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545645944",
+    "contact_name": "Hafeez",
+    "contact_identifier": "+966503688490",
+    "parent_message_id": "4344796634",
+    "parent_ticket_id": "977202052",
+    "event_type": "INBOUND"
   }
 }
