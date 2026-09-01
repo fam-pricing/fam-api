@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-01T08:10:45.178Z",
+  "ts": "2026-09-01T08:10:49.152Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4345182211",
+    "type": "OUTBOUND",
+    "message_id": "4345182301",
     "ticket_id": "977739786",
-    "message": "I’m looking for a rental for 4 months starting in December. I need 2 bedroom, 2 bathroom",
-    "channel_id": "585723",
+    "message": "May I kindly know how many bedrooms you are looking for, along with your preferred check-in and check-out dates?\r\n\r\nThis will allow me to check the availability and share the relevant options",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545799722",
     "contact_name": "Kristi",
     "contact_identifier": "+971561205894",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
