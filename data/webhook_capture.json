@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-02T07:33:22.815Z",
+  "ts": "2026-09-02T07:38:05.034Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4346118494",
-    "ticket_id": "977739786",
-    "message": "As per your request, please find the rates for Aykon city\r\n\r\nDecember: AED 19,000\r\nJanuary: AED 18,000\r\nFebruary: AED 18,000\r\nMarch: AED 16,000\r\n\r\nPlease note that a security deposit of AED 3,000 is required. The booking will be on a monthly basis only (30 nights each month).\r\n\r\nThank you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545799722",
-    "contact_name": "Kristi",
-    "contact_identifier": "+971561205894",
+    "type": "INBOUND",
+    "message_id": "4346123614",
+    "ticket_id": "977983516",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545874814",
+    "contact_name": "Aura Stay Holiday Homes",
+    "contact_identifier": "+971527201969",
+    "parent_message_id": "4346095790",
+    "parent_ticket_id": "977983516",
+    "event_type": "INBOUND"
   }
 }
