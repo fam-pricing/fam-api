@@ -1,17 +1,19 @@
 {
-  "ts": "2026-09-01T22:16:08.498Z",
+  "ts": "2026-09-02T00:46:05.611Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4345948717",
-    "ticket_id": "969971819",
-    "message": "Thank you for choosing fäm Living, How likely are you to recommend fäm Living to family and friends? https://csat.trengo.com/?uuid=a2a5205e-c86b-436a-9a63-e465a642f966\n",
-    "contact_id": "543588291",
-    "contact_name": "Salman Gillani",
-    "contact_identifier": "+447377559695",
+    "type": "INBOUND",
+    "message_id": "4345975984",
+    "ticket_id": "976755509",
+    "message": "👍",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "544870444",
+    "contact_name": "~نگین~",
+    "contact_identifier": "+971553078847",
+    "parent_message_id": "4345241224",
+    "parent_ticket_id": "976755509",
+    "event_type": "INBOUND"
   }
 }
