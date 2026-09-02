@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-02T10:55:50.358Z",
+  "ts": "2026-09-02T10:55:56.607Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4346353488",
-    "ticket_id": "977845299",
-    "message": "Apologies for the delayed response.\r\n\r\nUnfortunately, we received a confirmed booking today through another platform for the period 14 November to 14 December. Therefore, the apartment will not be available continuously for the entire requested period.\r\n\r\nHowever, at the moment, the apartment is available after 14 December. Please let us know if this revised availability works for you, and we will be happy to assist you further.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "531217873",
-    "contact_name": "Evgeny",
-    "contact_identifier": "+79055623230",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4346353549",
+    "ticket_id": "977263397",
+    "message": "Can you please tell me exactly from which date to which date, so I can share the quotation with you?",
+    "channel_id": "585723",
+    "contact_id": "545671818",
+    "contact_name": "ديار الخفاجي",
+    "contact_identifier": "+9647717770095",
+    "event_type": "INBOUND"
   }
 }
