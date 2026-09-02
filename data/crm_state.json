@@ -10536,10 +10536,7 @@
     "unanswered_alert_sent": false,
     "lead_quality_score": 5,
     "lead_quality_label": "COLD",
-    "lead_quality_signals": [],
-    "bot_paused": true,
-    "last_escalated_at": "2026-09-02T19:32:27.847Z",
-    "last_escalated_question": null
+    "lead_quality_signals": []
   },
   "message_lead_31769885": {
     "stage": "new",
@@ -10549,6 +10546,20 @@
     "pf_phone": "971555244962",
     "listing_title": "https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-zabeel-zabeel-2-downtown-views-ii-downtown-views-ii-tower-2-101258625.html",
     "trengo_ticket_id": 978171763,
-    "lead_name": "Justas"
+    "lead_name": "Justas",
+    "last_bot_reply_content": "The only upfront cost is a refundable security deposit of AED 2,000, which you get back after check-out. Would you like to see the place first?",
+    "last_bot_reply_at": "2026-09-02T19:32:34.977Z",
+    "lead_replied": true,
+    "lead_replied_at": "2026-09-02T19:32:34.977Z",
+    "bot_reply_count": 2,
+    "last_processed_message_id": "4346865129",
+    "unanswered_alert_sent": false,
+    "lead_quality_score": 40,
+    "lead_quality_label": "WARM",
+    "lead_quality_signals": [
+      "moderate engagement",
+      "payment/booking intent",
+      "pricing enquiry"
+    ]
   }
 }
