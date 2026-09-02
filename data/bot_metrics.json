@@ -3802,5 +3802,17 @@
     "lead_quality": 45,
     "buying_stage": "WARM",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-09-02T19:35:42.910Z",
+    "ticket_id": 978171763,
+    "lead_id": "message_lead_31769885",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 848,
+    "critic_pass": null,
+    "lead_quality": 40,
+    "buying_stage": "WARM",
+    "skip_reason": "agent_cooldown"
   }
 ]
