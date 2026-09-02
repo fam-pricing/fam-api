@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-02T18:14:44.778Z",
+  "ts": "2026-09-02T18:15:19.525Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4346825914",
-    "ticket_id": "978159474",
-    "message": "!!",
+    "type": "OUTBOUND",
+    "message_id": "4346826267",
+    "ticket_id": "978162321",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-al-majara-towers-al-majara-1-68684574.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "545932033",
+    "contact_name": "Павел Анастасия Кабановы",
+    "contact_identifier": "+971554961604",
     "channel_id": "1304636",
-    "contact_id": "545930937",
-    "contact_name": "Nn",
-    "contact_identifier": "+971507251410",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
