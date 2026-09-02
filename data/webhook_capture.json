@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-02T05:46:49.056Z",
+  "ts": "2026-09-02T05:47:01.973Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4346035971",
-    "ticket_id": "977966584",
-    "message": "Im checked in since 28th of August & the soap was already nearly empty on the first day. Thats why i asked",
+    "type": "OUTBOUND",
+    "message_id": "4346036035",
+    "ticket_id": "977965545",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545870112",
+    "contact_name": "ED",
+    "contact_identifier": "+79856372008",
     "channel_id": "1304636",
-    "contact_id": "545038753",
-    "contact_name": "Niko Preitenegger",
-    "contact_identifier": "+971585814884",
-    "parent_message_id": "4346030705",
-    "parent_ticket_id": "977903869",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
