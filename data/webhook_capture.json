@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-02T19:34:12.427Z",
+  "ts": "2026-09-02T19:34:17.305Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4346866115",
+    "type": "OUTBOUND",
+    "message_id": "4346866166",
     "ticket_id": "978171763",
-    "message": "Pets allowed?",
-    "channel_id": "1304636",
+    "message": "That's correct, AED 8,000/month with the AED 2,000 refundable deposit upfront. Nov 18 to Jan 18 is 2 months, so AED 16,000 total, or if you go to Feb 18 that's 3 months at AED 24,000. Which end date were you thinking?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545935317",
     "contact_name": "Justas",
     "contact_identifier": "+971555244962",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
