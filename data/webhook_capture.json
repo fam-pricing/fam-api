@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-02T05:27:06.530Z",
+  "ts": "2026-09-02T05:27:18.646Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4346029039",
-    "ticket_id": "977936412",
-    "message": "Bro, I saw some bad comments about your business.  \nThese negative comments are harming your business.  \nIf you want me to remove them, I can help you delete them.  \nI will take the payment after deleting them.remove in 24 hours\n:\n\nأخوي، شفت كم تعليق سلبي عن شغلك. \nهالتعليقات السلبية قاعدة تضر بشغلك.\nإذا تبغاني أقدر أساعدك وأحذفهم لك.\nباخذ الفلوس بعد ما أحذفهم. \nبشيلهم خلال 24 ساعة.\n\n---",
+    "type": "OUTBOUND",
+    "message_id": "4346029093",
+    "ticket_id": "958579229",
+    "message": "Would you like to extend the stay for another month? so I can send the quotation to proceed with the payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "532008494",
+    "contact_name": "Kenan David",
+    "contact_identifier": "+27724580583",
     "channel_id": "585723",
-    "contact_id": "545861917",
-    "contact_name": "SEO",
-    "contact_identifier": "+923204184906",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
