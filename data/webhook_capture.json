@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-02T06:46:35.146Z",
+  "ts": "2026-09-02T06:49:23.805Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4346071523",
+    "type": "OUTBOUND",
+    "message_id": "4346073567",
     "ticket_id": "977739786",
-    "message": "Hello, property is not bad. Can you tell me does it have washing machine?",
-    "channel_id": "585723",
+    "message": "You mean washing machine or dishwasher?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545799722",
     "contact_name": "Kristi",
     "contact_identifier": "+971561205894",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
