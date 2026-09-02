@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-02T19:32:44.546Z",
+  "ts": "2026-09-02T19:33:06.871Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4346865381",
+    "type": "OUTBOUND",
+    "message_id": "4346865541",
     "ticket_id": "978171763",
-    "message": "Paid on montgly basis?",
-    "channel_id": "1304636",
+    "message": "Yes, it's monthly. The only upfront cost is the refundable AED 2,000 deposit. Would you like to come see it first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545935317",
     "contact_name": "Justas",
     "contact_identifier": "+971555244962",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
