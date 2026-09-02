@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-02T11:12:18.672Z",
+  "ts": "2026-09-02T11:12:47.354Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4346371527",
+    "type": "INBOUND",
+    "message_id": "4346372131",
     "ticket_id": "977346496",
-    "message": "So May I confirm would you like to proceed the reservation in Viridian 02 bedroom",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Yes",
+    "channel_id": "1304636",
     "contact_id": "545605173",
     "contact_name": "AB",
     "contact_identifier": "+971524714995",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4346371527",
+    "parent_ticket_id": "977346496",
+    "event_type": "INBOUND"
   }
 }
