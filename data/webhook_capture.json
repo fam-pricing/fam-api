@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-02T19:32:05.627Z",
+  "ts": "2026-09-02T19:32:17.605Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4346865072",
-    "ticket_id": "978170191",
-    "message": "I'm interested in your room rental on a monthly basis.",
+    "type": "OUTBOUND",
+    "message_id": "4346865153",
+    "ticket_id": "978171763",
+    "message": "AED 8,000/month all-inclusive, so 3 months comes to AED 24,000. Want to see the place before committing to a longer stay?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "545935317",
+    "contact_name": "Justas",
+    "contact_identifier": "+971555244962",
     "channel_id": "1304636",
-    "contact_id": "545934761",
-    "contact_name": "‏.",
-    "contact_identifier": "+971502896278",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
