@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-02T06:10:09.665Z",
+  "ts": "2026-09-02T06:10:18.068Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4346047464",
-    "ticket_id": "977936412",
-    "message": "At the moment, we do not require any assistance, thank you. However, we will reach out to you if we need anything in the future.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545861917",
-    "contact_name": "SEO",
-    "contact_identifier": "+923204184906",
+    "type": "INBOUND",
+    "message_id": "4346047550",
+    "ticket_id": "949384142",
+    "message": "Hi, please could you check the 2000 for me?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "536870373",
+    "contact_name": "Asmae Elalaouì",
+    "contact_identifier": "+971523442425",
+    "parent_message_id": "4345074095",
+    "parent_ticket_id": "949384142",
+    "event_type": "INBOUND"
   }
 }
