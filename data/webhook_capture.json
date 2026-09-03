@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-03T12:47:17.040Z",
+  "ts": "2026-09-03T12:48:22.336Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4347416527",
-    "ticket_id": "978246379",
-    "message": "May I know starting from which date please?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545955263",
-    "contact_name": "Mahra",
-    "contact_identifier": "+971553999951",
+    "type": "INBOUND",
+    "message_id": "4347417710",
+    "ticket_id": "977983516",
+    "message": "Yes we have clients for short term too",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545874814",
+    "contact_name": "Aura Stay Holiday Homes",
+    "contact_identifier": "+971527201969",
+    "parent_message_id": "4347289773",
+    "parent_ticket_id": "977983516",
+    "event_type": "INBOUND"
   }
 }
