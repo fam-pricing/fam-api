@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-03T08:11:21.530Z",
+  "ts": "2026-09-03T08:11:43.647Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4347111034",
+    "type": "OUTBOUND",
+    "message_id": "4347111431",
     "ticket_id": "978242868",
-    "message": "Is These property avaliable for 1month",
-    "channel_id": "1304636",
+    "message": "Yes, it's available for 1 month. When are you looking to move in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545954108",
     "contact_name": "Mateo",
     "contact_identifier": "+34687379048",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
