@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-03T10:03:05.011Z",
+  "ts": "2026-09-03T10:03:18.175Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4347239845",
+    "type": "INBOUND",
+    "message_id": "4347240109",
     "ticket_id": "977583803",
-    "message": "Team visited this morning, and even they called from inside the apartment",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "😮",
+    "channel_id": "585723",
     "contact_id": "545761644",
     "contact_name": "Noor Nabulsi",
     "contact_identifier": "+971564553807",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4347239845",
+    "parent_ticket_id": "977583803",
+    "event_type": "INBOUND"
   }
 }
