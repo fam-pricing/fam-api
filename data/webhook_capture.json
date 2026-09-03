@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-03T10:02:47.343Z",
+  "ts": "2026-09-03T10:03:05.011Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4347239509",
-    "ticket_id": "978023203",
-    "message": "Will deposit in 5 min",
+    "type": "OUTBOUND",
+    "message_id": "4347239845",
+    "ticket_id": "977583803",
+    "message": "Team visited this morning, and even they called from inside the apartment",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "545761644",
+    "contact_name": "Noor Nabulsi",
+    "contact_identifier": "+971564553807",
     "channel_id": "585723",
-    "contact_id": "545885643",
-    "contact_name": "Yasmina",
-    "contact_identifier": "+971505183050",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
