@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-03T10:45:17.800Z",
+  "ts": "2026-09-03T10:45:21.589Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4347284623",
-    "ticket_id": "978283498",
-    "message": "Okay",
+    "type": "OUTBOUND",
+    "message_id": "4347284706",
+    "ticket_id": "978023203",
+    "message": "We have already shared the details with the reception",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545885643",
+    "contact_name": "Yasmina",
+    "contact_identifier": "+971505183050",
     "channel_id": "585723",
-    "contact_id": "531448175",
-    "contact_name": "Jessica Kate",
-    "contact_identifier": "+971521277251",
-    "parent_message_id": "4347284407",
-    "parent_ticket_id": "978283498",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
