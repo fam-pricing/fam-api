@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-03T06:04:25.504Z",
+  "ts": "2026-09-03T06:04:32.116Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4346999277",
-    "ticket_id": "977712189",
-    "message": "Unfortunately we are unable to arrange viewing today as there is an in house guest at the moment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545792799",
-    "contact_name": "zenit",
-    "contact_identifier": "+971557015529",
+    "type": "INBOUND",
+    "message_id": "4346999339",
+    "ticket_id": "977263397",
+    "message": "The price is too expensive for me. Do you have a cheaper option?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545671818",
+    "contact_name": "ديار الخفاجي",
+    "contact_identifier": "+9647717770095",
+    "event_type": "INBOUND"
   }
 }
