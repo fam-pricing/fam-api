@@ -3862,5 +3862,17 @@
     "lead_quality": 95,
     "buying_stage": "HOT",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-09-03T06:21:50.976Z",
+    "ticket_id": 978169647,
+    "lead_id": "message_lead_31769434",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 788,
+    "critic_pass": null,
+    "lead_quality": 50,
+    "buying_stage": "WARM",
+    "skip_reason": "bot_paused"
   }
 ]
