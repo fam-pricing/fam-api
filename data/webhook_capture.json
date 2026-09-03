@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-03T10:29:24.716Z",
+  "ts": "2026-09-03T10:32:00.565Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4347268836",
-    "ticket_id": "978279938",
-    "message": "How soon can I expect a response",
+    "type": "OUTBOUND",
+    "message_id": "4347271621",
+    "ticket_id": "964606114",
+    "message": "Our standard check-in time is from 3:00 PM onwards.\r\n\r\nHowever, tomorrow, once the apartment is ready for check-in, our team will share the check-in details with you, allowing to proceed with the self-check-in.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "542119528",
+    "contact_name": "Tamara - Fam agent",
+    "contact_identifier": "+971581207098",
     "channel_id": "585723",
-    "contact_id": "545965650",
-    "contact_name": "Bindu n",
-    "contact_identifier": "+919831008925",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
