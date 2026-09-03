@@ -1830,3 +1830,7 @@ Once we have these, we'll send you a payment link to secure the deposit and fina
 ## Learned (2026-09-01)
 - If a lead asks whether rates change during peak season or inquires about DTCM fees, reassure them that rates are dynamic and adjust with the season, and that the rate quoted is fully all-inclusive — no additional fees apply.
   (Learned from Faysal handling Nehaa re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-2PuwDDpSs0u.html)
+
+## Learned (2026-09-03)
+- If a lead asks about Audio, inform them that it will be available from 14th September, subject to the current in-house guest not extending their stay.
+  (Learned from Faysal handling Mateo re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-2PuwDDpSs0u.html)
