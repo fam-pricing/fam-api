@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-03T05:34:16.783Z",
+  "ts": "2026-09-03T05:37:44.025Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4346988154",
-    "ticket_id": "977583803",
-    "message": "Team will visit shortly, kindly provide them access",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "545761644",
-    "contact_name": "Noor Nabulsi",
-    "contact_identifier": "+971564553807",
+    "type": "INBOUND",
+    "message_id": "4346989129",
+    "ticket_id": "977712189",
+    "message": "Hi, Can i see the unit today to finalise?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545792799",
+    "contact_name": "zenit",
+    "contact_identifier": "+971557015529",
+    "parent_message_id": "4345497513",
+    "parent_ticket_id": "977712189",
+    "event_type": "INBOUND"
   }
 }
