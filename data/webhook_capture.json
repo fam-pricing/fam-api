@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-03T10:45:06.203Z",
+  "ts": "2026-09-03T10:45:17.800Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4347284407",
+    "type": "INBOUND",
+    "message_id": "4347284623",
     "ticket_id": "978283498",
-    "message": "Unfortunately we do not have any apartment available within this budget",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Okay",
+    "channel_id": "585723",
     "contact_id": "531448175",
     "contact_name": "Jessica Kate",
     "contact_identifier": "+971521277251",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4347284407",
+    "parent_ticket_id": "978283498",
+    "event_type": "INBOUND"
   }
 }
