@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-03T06:11:57.284Z",
+  "ts": "2026-09-03T06:15:11.511Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4347003354",
+    "type": "OUTBOUND",
+    "message_id": "4347005042",
     "ticket_id": "978125406",
-    "message": "May I know the price?\nI need it for 6 months",
-    "channel_id": "1304636",
+    "message": "Sure let me send the rates for you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545919902",
     "contact_name": "business Tiago",
     "contact_identifier": "+971547687373",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
