@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-03T06:05:38.022Z",
+  "ts": "2026-09-03T06:05:45.978Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4347000048",
-    "ticket_id": "977263397",
-    "message": "Yes, I need a 2-bedroom apartment. My budget is around 1,500 USD for the entire stay.",
+    "type": "OUTBOUND",
+    "message_id": "4347000109",
+    "ticket_id": "977583803",
+    "message": "Well noted",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "545761644",
+    "contact_name": "Noor Nabulsi",
+    "contact_identifier": "+971564553807",
     "channel_id": "585723",
-    "contact_id": "545671818",
-    "contact_name": "ديار الخفاجي",
-    "contact_identifier": "+9647717770095",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
