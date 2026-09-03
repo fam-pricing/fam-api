@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-03T14:14:36.605Z",
+  "ts": "2026-09-03T14:15:27.910Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4347514656",
+    "type": "OUTBOUND",
+    "message_id": "4347515792",
     "ticket_id": "978332685",
-    "message": "Hello! I have few questions. Do you rent it out for long term? Starting from 6 months?",
-    "channel_id": "1304636",
+    "message": "Yes, 6 months is absolutely fine. We don't offer Ejari contracts, but you can stay as long as you like by booking in 3-month blocks. Are there any other details about the setup you'd like to know before deciding?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545982934",
     "contact_name": "Anastasia",
     "contact_identifier": "+971552044778",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
