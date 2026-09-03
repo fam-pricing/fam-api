@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-03T11:55:42.078Z",
+  "ts": "2026-09-03T11:56:14.583Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4347358384",
-    "ticket_id": "964606114",
-    "message": "May I know you need the email confirmation for the tomorrow booking?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "542119528",
-    "contact_name": "Tamara - Fam agent",
-    "contact_identifier": "+971581207098",
+    "type": "INBOUND",
+    "message_id": "4347359020",
+    "ticket_id": "978279938",
+    "message": "Gym?\nPool?\nGroceries?\nCafe? \nMetro station?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545965650",
+    "contact_name": "Bindu n",
+    "contact_identifier": "+919831008925",
+    "event_type": "INBOUND"
   }
 }
