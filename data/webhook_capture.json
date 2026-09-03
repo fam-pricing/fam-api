@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-03T18:23:03.489Z",
+  "ts": "2026-09-03T18:23:15.849Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4347783136",
+    "type": "INBOUND",
+    "message_id": "4347783232",
     "ticket_id": "978396089",
-    "message": "John, what are you looking for in a holiday home, or did you have a question about this property?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "is this the price include bills?",
+    "channel_id": "1304636",
     "contact_id": "546025644",
     "contact_name": "John",
     "contact_identifier": "+971507455688",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
