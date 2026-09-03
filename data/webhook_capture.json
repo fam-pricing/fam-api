@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-03T06:11:42.420Z",
+  "ts": "2026-09-03T06:11:57.284Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4347003215",
-    "ticket_id": "948205272",
-    "message": "Thank you for choosing fäm Living Rama Khaled Aaraj!\r\n\r\nWe hope you enjoyed your stay! Please let us know your expected checkout time so we can arrange it accordingly.\r\n\r\nOur standard checkout timings are between 10:00 AM and 12:00 PM.",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "537594186",
-    "contact_name": "Rama Khaled Aaraj",
-    "contact_identifier": "+971561563617",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4347003354",
+    "ticket_id": "978125406",
+    "message": "May I know the price?\nI need it for 6 months",
+    "channel_id": "1304636",
+    "contact_id": "545919902",
+    "contact_name": "business Tiago",
+    "contact_identifier": "+971547687373",
+    "event_type": "INBOUND"
   }
 }
