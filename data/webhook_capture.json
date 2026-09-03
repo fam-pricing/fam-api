@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-03T13:54:26.550Z",
+  "ts": "2026-09-03T13:54:27.272Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4347491050",
-    "ticket_id": "978314657",
-    "message": "Is there anything else I can help you with today ?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545976209",
-    "contact_name": "La Straga",
-    "contact_identifier": "+971585709137",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4347491083",
+    "ticket_id": "978246379",
+    "message": "Downtown?",
+    "channel_id": "585723",
+    "contact_id": "545955263",
+    "contact_name": "Mahra",
+    "contact_identifier": "+971553999951",
+    "event_type": "INBOUND"
   }
 }
