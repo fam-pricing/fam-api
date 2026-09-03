@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-03T08:22:24.926Z",
+  "ts": "2026-09-03T08:22:30.799Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4347123749",
-    "ticket_id": "978246379",
-    "message": "Do you have more options",
+    "type": "OUTBOUND",
+    "message_id": "4347123878",
+    "ticket_id": "978023203",
+    "message": "As per the update received from Mr Junaid, you need to complete the full outstanding payment which is AED 3000 once completed only we will be able to share the details with the building",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545885643",
+    "contact_name": "Yasmina",
+    "contact_identifier": "+971505183050",
     "channel_id": "585723",
-    "contact_id": "545955263",
-    "contact_name": "Mahra",
-    "contact_identifier": "+971553999951",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
