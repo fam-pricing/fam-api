@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-03T12:41:50.146Z",
+  "ts": "2026-09-03T12:42:12.000Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4347410857",
+    "type": "OUTBOUND",
+    "message_id": "4347411263",
     "ticket_id": "978314657",
-    "message": "hello",
-    "channel_id": "1304636",
+    "message": "What are you looking for in a property?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545976209",
     "contact_name": "La Straga",
     "contact_identifier": "+971585709137",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
