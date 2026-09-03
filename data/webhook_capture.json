@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-03T10:36:14.288Z",
+  "ts": "2026-09-03T10:37:14.766Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4347275730",
-    "ticket_id": "978115738",
-    "message": "Please have a look on the above link",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545917084",
-    "contact_name": "M",
-    "contact_identifier": "+971567865665",
+    "type": "INBOUND",
+    "message_id": "4347276694",
+    "ticket_id": "975621059",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545168723",
+    "contact_name": "Samy Habili",
+    "contact_identifier": "+971561346669",
+    "parent_message_id": "4347237712",
+    "parent_ticket_id": "975621059",
+    "event_type": "INBOUND"
   }
 }
