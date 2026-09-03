@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-03T08:40:12.660Z",
+  "ts": "2026-09-03T08:40:22.332Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4347144576",
+    "type": "INBOUND",
+    "message_id": "4347144779",
     "ticket_id": "978023203",
-    "message": "Unfortunately without the payment we are unable to send the details",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Yes",
+    "channel_id": "585723",
     "contact_id": "545885643",
     "contact_name": "Yasmina",
     "contact_identifier": "+971505183050",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
