@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-03T07:20:59.858Z",
+  "ts": "2026-09-03T07:21:23.381Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4347057120",
+    "type": "INBOUND",
+    "message_id": "4347057555",
     "ticket_id": "953081775",
-    "message": "Hello, team is at your doorstep and nobody opening the door",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "Sorry I’m downstairs",
+    "channel_id": "585723",
     "contact_id": "278742304",
     "contact_name": "Ahmad Sabri Hassan",
     "contact_identifier": "+971528939729",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
