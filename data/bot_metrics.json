@@ -3694,5 +3694,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-09-03T12:42:32.815Z",
+    "ticket_id": 978314657,
+    "lead_id": "message_lead_31788109",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 19765,
+    "critic_pass": null,
+    "lead_quality": 5,
+    "buying_stage": "COLD",
+    "skip_reason": "Lead asking about pet policy for the 1BR in Al Safa. Playbook says to never confirm pet approval yourself — always escalate to Faysal. Need to check if pets are allowed at this specific property."
   }
 ]
