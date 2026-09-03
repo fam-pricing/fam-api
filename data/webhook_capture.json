@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-03T08:55:38.301Z",
+  "ts": "2026-09-03T08:55:56.154Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4347161346",
+    "type": "INBOUND",
+    "message_id": "4347161651",
     "ticket_id": "978023203",
-    "message": "As per the update received from Mr. Junaid, there is an outstanding payment pending for Unit 608. We understand that you have already checked in; however, please note that we are unable to provide access until the full outstanding payment for both units has been completed.\r\n\r\nWe kindly request you to settle the pending amount at your earliest convenience so we can proceed with providing the required access.\r\n\r\nThank you for your understanding and cooperation.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "I need to receive 1 unit",
+    "channel_id": "585723",
     "contact_id": "545885643",
     "contact_name": "Yasmina",
     "contact_identifier": "+971505183050",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
