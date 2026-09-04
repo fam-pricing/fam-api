@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-04T13:11:03.890Z",
+  "ts": "2026-09-04T13:11:43.041Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4348398591",
+    "type": "OUTBOUND",
+    "message_id": "4348399249",
     "ticket_id": "978565376",
-    "message": "Will they meet me?",
-    "channel_id": "1304636",
+    "message": "Good afternoon,\r\n\r\nApologies, but we can arrange the viewing on 7th September only. Unfortunately, today’s viewing will not be possible.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "546071593",
     "contact_name": "Helen",
     "contact_identifier": "+79112770727",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
