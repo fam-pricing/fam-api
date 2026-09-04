@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-04T06:30:24.797Z",
+  "ts": "2026-09-04T06:30:32.060Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4347968656",
-    "ticket_id": "954732401",
-    "message": "Hello, please refund the deposit",
-    "channel_id": "585723",
-    "contact_id": "539383560",
-    "contact_name": "Noah",
-    "contact_identifier": "+971553384406",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4347968711",
+    "ticket_id": "978448649",
+    "message": "Yes, you can make the payment from another account; that is completely fine. Once the payment is completed, please share the payment receipt with us for confirmation.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545083162",
+    "contact_name": "GANI EDEN HAWALED",
+    "contact_identifier": "+972507398493",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
