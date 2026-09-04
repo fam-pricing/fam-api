@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-04T07:47:32.344Z",
+  "ts": "2026-09-04T07:48:19.244Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4348033098",
+    "type": "INBOUND",
+    "message_id": "4348033822",
     "ticket_id": "978469338",
-    "message": "Sure, we will send you the rate for 6 months",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Where Is location?",
+    "channel_id": "1304636",
     "contact_id": "546046076",
     "contact_name": "Carla Alvarez",
     "contact_identifier": "+971507708083",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4348019696",
+    "parent_ticket_id": "978469338",
+    "event_type": "INBOUND"
   }
 }
