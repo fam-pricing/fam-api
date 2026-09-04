@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-04T06:05:34.949Z",
+  "ts": "2026-09-04T06:06:38.193Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4347952528",
+    "type": "OUTBOUND",
+    "message_id": "4347953148",
     "ticket_id": "956679355",
-    "message": "I need to know the price for a year.",
-    "channel_id": "585723",
+    "message": "The unit is only for a monthly basis; if you want, we can get you the monthly prices",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "536961964",
     "contact_name": "Catarina Loução",
     "contact_identifier": "+971585691288",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
