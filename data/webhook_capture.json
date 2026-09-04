@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-04T06:28:58.153Z",
+  "ts": "2026-09-04T06:29:12.600Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4347967917",
-    "ticket_id": "978448649",
-    "message": "I need to transfer money but i cant from my bank account",
+    "type": "OUTBOUND",
+    "message_id": "4347968024",
+    "ticket_id": "978417917",
+    "message": "You would like to book Blue waters apartment correct ?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "531217873",
+    "contact_name": "Evgeny",
+    "contact_identifier": "+79055623230",
     "channel_id": "1304636",
-    "contact_id": "545083162",
-    "contact_name": "GANI EDEN HAWALED",
-    "contact_identifier": "+972507398493",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
