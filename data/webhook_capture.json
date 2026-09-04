@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-04T06:25:15.585Z",
+  "ts": "2026-09-04T06:25:40.042Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4347966041",
-    "ticket_id": "978083202",
-    "message": "Unfortunately, we do not have any apartments within your budget for a stay of 3 months or more. The rate we have shared is already our lowest and most affordable rate for the requested period.\r\n\r\nThank you for your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "540277137",
-    "contact_name": ".",
-    "contact_identifier": "+919663361331",
+    "type": "INBOUND",
+    "message_id": "4347966274",
+    "ticket_id": "977712189",
+    "message": "please advice on this",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545792799",
+    "contact_name": "zenit",
+    "contact_identifier": "+971557015529",
+    "parent_message_id": "4347000283",
+    "parent_ticket_id": "977712189",
+    "event_type": "INBOUND"
   }
 }
