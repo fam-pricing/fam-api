@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-04T13:42:43.268Z",
+  "ts": "2026-09-04T13:42:53.223Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4348432111",
-    "ticket_id": "978580385",
-    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "546077116",
-    "contact_name": "Denis",
-    "contact_identifier": "+380995117846",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4348432307",
+    "ticket_id": "978565376",
+    "message": "Ok adress beach ?",
+    "channel_id": "1304636",
+    "contact_id": "546071593",
+    "contact_name": "Helen",
+    "contact_identifier": "+79112770727",
+    "event_type": "INBOUND"
   }
 }
