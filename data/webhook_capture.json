@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-04T16:33:26.694Z",
+  "ts": "2026-09-04T16:34:31.184Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4348585040",
+    "type": "INBOUND",
+    "message_id": "4348585735",
     "ticket_id": "978618339",
-    "message": "Winter pricing is seasonal, so we can't lock in a rate right now, but we'd confirm it with you before that period comes around. Would you like to plan a stay around winter and we can flag the rate as soon as it's set?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "i would like to rent for a year with 3 months renew every time, but need to know approximatively rates",
+    "channel_id": "1304636",
     "contact_id": "546091945",
     "contact_name": ".",
     "contact_identifier": "+33625536040",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
