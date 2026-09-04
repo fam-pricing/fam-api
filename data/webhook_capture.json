@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-04T05:05:25.269Z",
+  "ts": "2026-09-04T05:17:52.417Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4347933357",
+    "type": "OUTBOUND",
+    "message_id": "4347936742",
     "ticket_id": "978441309",
-    "message": "I would highly appreciate it thank you in advance",
-    "channel_id": "585723",
+    "message": "Good morning Assem Taji,\r\n\r\nWe have checked the booking and would like to inform you that, due to a system error, we received a booking through our website even though the unit is not available.\r\n\r\nPlease note that your booking is not confirmed, and unfortunately, we are unable to accommodate the booking. It will therefore be cancelled automatically.\r\n\r\nWe sincerely apologize for the inconvenience this may cause and appreciate your understanding.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "546039842",
     "contact_name": "Assem Taji",
     "contact_identifier": "+962795022059",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
