@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-04T12:55:32.330Z",
+  "ts": "2026-09-04T12:55:54.525Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4348380697",
+    "type": "INBOUND",
+    "message_id": "4348381010",
     "ticket_id": "956679355",
-    "message": "Hello unfortunately the owner has confirmed the stay and we are unable to extend your reservation. You have to make the check out today. We can provide you late check out until 7 pm today. Thanks for your kind understanding",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "Today is impossible.",
+    "channel_id": "585723",
     "contact_id": "536961964",
     "contact_name": "Catarina Loução",
     "contact_identifier": "+971585691288",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
