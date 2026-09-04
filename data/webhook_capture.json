@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-04T13:07:12.435Z",
+  "ts": "2026-09-04T13:07:49.950Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4348394197",
+    "type": "OUTBOUND",
+    "message_id": "4348395012",
     "ticket_id": "978565376",
-    "message": "👌",
-    "channel_id": "1304636",
+    "message": "5:40pm is confirmed! Just send over your passport or Emirates ID when you get a chance and I'll get you registered with building management before you arrive.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546071593",
     "contact_name": "Helen",
     "contact_identifier": "+79112770727",
-    "parent_message_id": "4348393875",
-    "parent_ticket_id": "978565376",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
