@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-05T10:42:42.682Z",
+  "ts": "2026-09-05T10:45:19.941Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4348900498",
-    "ticket_id": "958579229",
-    "message": "I just want to know what’s included in monthly \n\nAs I want another apartment for November",
-    "channel_id": "585723",
-    "contact_id": "532008494",
-    "contact_name": "Kenan David",
-    "contact_identifier": "+27724580583",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4348901780",
+    "ticket_id": "978701847",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-umm-suqeim-umm-suqeim-3-madinat-jumeirah-living-jadeel-2-79838983.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "546119287",
+    "contact_name": "Klisman Valentin",
+    "contact_identifier": "+971522215012",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
