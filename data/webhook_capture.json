@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-05T07:25:04.233Z",
+  "ts": "2026-09-05T07:27:56.474Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4348802584",
-    "ticket_id": "978672315",
-    "message": "Hi, can I see this apartment today?",
-    "channel_id": "1304636",
-    "contact_id": "546110334",
-    "contact_name": "Alex",
-    "contact_identifier": "+971585927103",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4348804073",
+    "ticket_id": "978023203",
+    "message": "Hi Hossam,\r\n\r\nThank you for bringing this to our attention. We completely understand your concern.\r\n\r\nAs mentioned, our operating hours are from 9:00 AM to 9:00 PM.\r\n\r\nRegarding the message sent at 1:00 AM, we will review the matter with the agent involved and make sure it is addressed appropriately.\r\n\r\nWe would also like to clarify that the viewing agent is not responsible for handling emails or follow-ups. He was simply trying to assist you personally during the night, outside of his normal working hours.\r\n\r\nAs it is currently the weekend, our management team is not available in the office. However, if you would like to discuss the matter further in person, you are very welcome to visit our main office Monday to Friday, from 10:00 AM to 5:00 PM.\r\n\r\nThank you for your understanding, and we appreciate your patience.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545885643",
+    "contact_name": "Hossam addin Mohammad",
+    "contact_identifier": "+971505183050",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
