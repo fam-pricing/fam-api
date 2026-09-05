@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-05T15:53:55.596Z",
+  "ts": "2026-09-05T15:54:40.148Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349048800",
+    "type": "INBOUND",
+    "message_id": "4349049164",
     "ticket_id": "978448649",
-    "message": "How many do you require? We will arrange for you accordingly",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Did u add any ? Did u request to add?",
+    "channel_id": "1304636",
     "contact_id": "545083162",
     "contact_name": "GANI EDEN HAWALED",
     "contact_identifier": "+972507398493",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4349048619",
+    "parent_ticket_id": "978448649",
+    "event_type": "INBOUND"
   }
 }
