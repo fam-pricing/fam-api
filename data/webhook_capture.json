@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-05T07:55:01.020Z",
+  "ts": "2026-09-05T07:55:44.751Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4348815743",
+    "type": "INBOUND",
+    "message_id": "4348816040",
     "ticket_id": "978678802",
-    "message": "Here are the photos and the full listing: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-arjan-miraclz-tower-by-danube-93143563.html\n\nIt's AED 8,800/month all-inclusive, locked in per 3-month block. Want to come see it in person?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is price negotiable for the long term 3 months?",
+    "channel_id": "1304636",
     "contact_id": "546112055",
     "contact_name": "Ahmad",
     "contact_identifier": "+971541535115",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4348815743",
+    "parent_ticket_id": "978678802",
+    "event_type": "INBOUND"
   }
 }
