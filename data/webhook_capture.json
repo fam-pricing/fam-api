@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-05T06:22:50.046Z",
+  "ts": "2026-09-05T06:26:10.217Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4348780391",
-    "ticket_id": "978658887",
-    "message": "Hello. Could we please view at 11am?",
+    "type": "OUTBOUND",
+    "message_id": "4348781449",
+    "ticket_id": "963836851",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nAddress Opera\n\nHow can I help you today?",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "541045616",
+    "contact_name": "Salam Sade Issa",
+    "contact_identifier": "+971544850491",
     "channel_id": "1304636",
-    "contact_id": "546106729",
-    "contact_name": "Tammy",
-    "contact_identifier": "+971521395279",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
