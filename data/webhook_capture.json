@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-05T11:26:00.187Z",
+  "ts": "2026-09-05T11:29:32.553Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4348922916",
+    "type": "OUTBOUND",
+    "message_id": "4348924480",
     "ticket_id": "978694798",
-    "message": "Will do , would you be assisting me tomorrow for checking in",
-    "channel_id": "585723",
+    "message": "It will be a self check-in, Khizar. Once your booking is confirmed, our team will prepare the apartment tomorrow, 6 September.\r\n\r\nSo between 1 to 3pm, once the unit is ready, our Guest Relations Team will share all the check-in details with you, including the apartment number, Wi-Fi details, parking code, and other necessary information.\r\n\r\nOnce you receive the details, you can simply proceed to the apartment and check in.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "243839653",
     "contact_name": "Khizar",
     "contact_identifier": "+971521751946",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
