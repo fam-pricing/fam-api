@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-05T11:08:14.183Z",
+  "ts": "2026-09-05T11:09:06.755Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4348913854",
-    "ticket_id": "978083202",
-    "message": "For September can we see?",
+    "type": "OUTBOUND",
+    "message_id": "4348914296",
+    "ticket_id": "978694798",
+    "message": "For the booking, we will require the following:\r\n\r\n1. A copy of your ID or passport\r\n2. Your email address\r\n\r\nOnce we receive these details, we will send you a payment link to confirm your booking.\r\n\r\nPlease note that a 3.1% card processing fee will apply if you make the payment through the payment link.\r\nAlternatively, you may make the payment via bank transfer, in which case no additional fees will be charged.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "243839653",
+    "contact_name": "Khizar",
+    "contact_identifier": "+971521751946",
     "channel_id": "585723",
-    "contact_id": "540277137",
-    "contact_name": ".",
-    "contact_identifier": "+919663361331",
-    "parent_message_id": "4347294249",
-    "parent_ticket_id": "978083202",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
