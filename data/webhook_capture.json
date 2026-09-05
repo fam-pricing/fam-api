@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-05T09:55:32.262Z",
+  "ts": "2026-09-05T09:55:43.028Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4348876823",
-    "ticket_id": "947123575",
-    "message": "Hi Good Afternoon.\nI just wanted to followup regarding the deposit payment till when do i expect the refund.\nThank you for your support and consideration",
+    "type": "OUTBOUND",
+    "message_id": "4348876908",
+    "ticket_id": "956679355",
+    "message": "As previously informed, the apartment owner is scheduled to arrive. As you requested we extended your stay by one additional night, and today is your final check-out date. Unfortunately, we are unable to grant any further extensions.\r\n\r\nSince your reservation contract has expired and no extension request or advance payment was received, we kindly ask you to vacate the apartment today. Please note that our calendar remains open for new reservations and bookings may be confirmed at any time.\r\n\r\nWe respectfully request that you complete the check-out process by today to avoid any inconvenience or legal complications.",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "536961964",
+    "contact_name": "Catarina Loução",
+    "contact_identifier": "+971585691288",
     "channel_id": "585723",
-    "contact_id": "537343744",
-    "contact_name": "Shahir",
-    "contact_identifier": "+971503185375",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
