@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-05T11:31:37.177Z",
+  "ts": "2026-09-05T11:31:38.290Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4348925589",
-    "ticket_id": "978540669",
-    "message": "We have a 1-bedroom apartment available in the same building, Upside Living, but it will be available from 10 September. The viewing can also be arranged on 10 September only.\r\n\r\nWould this date work for you?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "546065767",
-    "contact_name": "Ali",
-    "contact_identifier": "+971505008518",
+    "type": "INBOUND",
+    "message_id": "4348925609",
+    "ticket_id": "978694798",
+    "message": "8000 transfer sent (6500 for 1 month installment and 1500 security deposit amount )",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "243839653",
+    "contact_name": "Khizar",
+    "contact_identifier": "+971521751946",
+    "parent_message_id": "4348925361",
+    "parent_ticket_id": "978694798",
+    "event_type": "INBOUND"
   }
 }
