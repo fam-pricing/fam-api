@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-05T07:11:56.502Z",
+  "ts": "2026-09-05T07:12:50.013Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4348797347",
+    "type": "INBOUND",
+    "message_id": "4348797728",
     "ticket_id": "978023203",
-    "message": "Thank you for your message, Mr. Hossam Addin Mohammad.\r\n\r\nPlease note that this is our office WhatsApp number, which is directly connected to our booking system. Therefore, we are unable to view the profile pictures associated with the WhatsApp account, and the name displayed to us is the name registered under the booking.\r\n\r\nWe sincerely apologize for the misunderstanding. We will update the name in our system accordingly to avoid any further confusion.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Uou can check the chat",
+    "channel_id": "585723",
     "contact_id": "545885643",
     "contact_name": "Yasmina",
     "contact_identifier": "+971505183050",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4348112244",
+    "parent_ticket_id": "978023203",
+    "event_type": "INBOUND"
   }
 }
