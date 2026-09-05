@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-05T16:58:08.065Z",
+  "ts": "2026-09-05T17:04:07.199Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349073335",
-    "ticket_id": "978678746",
-    "message": "Dear Susanne,\r\n\r\nWe have received information that you are looking to book on a monthly basis. May I kindly know how many bedrooms you require, your preferred dates, and if you have any location preferences?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "546112036",
-    "contact_name": "Susanne",
-    "contact_identifier": "+971509760479",
+    "type": "INBOUND",
+    "message_id": "4349076232",
+    "ticket_id": "978711530",
+    "message": "👍",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "546122639",
+    "contact_name": "Pooja panchal",
+    "contact_identifier": "+971586679899",
+    "parent_message_id": "4349073282",
+    "parent_ticket_id": "978711530",
+    "event_type": "INBOUND"
   }
 }
