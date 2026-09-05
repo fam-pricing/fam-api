@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-05T11:31:38.290Z",
+  "ts": "2026-09-05T11:31:55.615Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4348925609",
+    "type": "OUTBOUND",
+    "message_id": "4348925748",
     "ticket_id": "978694798",
-    "message": "8000 transfer sent (6500 for 1 month installment and 1500 security deposit amount )",
-    "channel_id": "585723",
+    "message": "Thank you for the payment confirmation.\r\n\r\nWe will share the payment confirmation with our Finance Team for their records.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "243839653",
     "contact_name": "Khizar",
     "contact_identifier": "+971521751946",
-    "parent_message_id": "4348925361",
-    "parent_ticket_id": "978694798",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
