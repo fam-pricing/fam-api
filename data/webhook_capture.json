@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-06T05:49:52.602Z",
+  "ts": "2026-09-06T05:49:53.524Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349198957",
-    "ticket_id": "978448649",
-    "message": "May I know if the AC is connected now and it's working",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "545083162",
-    "contact_name": "GANI EDEN HAWALED",
-    "contact_identifier": "+972507398493",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4349198962",
+    "ticket_id": "977293028",
+    "message": "Okay thinks.",
+    "channel_id": "585723",
+    "contact_id": "545682035",
+    "contact_name": "Stephen",
+    "contact_identifier": "+231880665908",
+    "parent_message_id": "4349198891",
+    "parent_ticket_id": "977293028",
+    "event_type": "INBOUND"
   }
 }
