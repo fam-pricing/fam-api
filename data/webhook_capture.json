@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-06T17:25:11.693Z",
+  "ts": "2026-09-06T17:25:37.196Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349463785",
+    "type": "OUTBOUND",
+    "message_id": "4349463910",
     "ticket_id": "978839277",
-    "message": "Hi what do you have available 4,000 aed per month from 20th September including bills",
-    "channel_id": "1304636",
+    "message": "The studio in Cloud Tower is AED 4,500/month all-inclusive and available from the 20th, just AED 500 over your budget. Would you like to come and see it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540555547",
     "contact_name": "Roisin Flynn",
     "contact_identifier": "+353851946702",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
