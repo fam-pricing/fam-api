@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-06T06:05:54.246Z",
+  "ts": "2026-09-06T06:06:04.184Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349202290",
-    "ticket_id": "917536456",
-    "message": "Sure — you can write:\n\nThe air conditioner in the bedroom is not cooling properly. The living room is nice and cool, but the bedroom stays warm. At night, the bedroom does not get cool at all, and the same issue continues during the day. Could you please have someone check the air conditioner in the bedroom?",
+    "type": "OUTBOUND",
+    "message_id": "4349202330",
+    "ticket_id": "956679355",
+    "message": "We note you have seen our previous messages but we have not received a response.\r\n\r\nAs explained, your reservation checkout date was 4th September, and the apartment owner is arriving tonight. The unit must be vacated by 12-2PM to allow for the owner's arrival.\r\n\r\nIf the apartment is not vacated by this time, we will inform building management and security of the situation. We would prefer to resolve this without further escalation, so please confirm your checkout time as soon as possible.\r\n\r\nThank you for your cooperation.",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "536961964",
+    "contact_name": "Catarina Loução",
+    "contact_identifier": "+971585691288",
     "channel_id": "585723",
-    "contact_id": "529936596",
-    "contact_name": "Maliheh Shojaei",
-    "contact_identifier": "+971502729393",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
