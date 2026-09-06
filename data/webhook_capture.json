@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-06T12:51:11.381Z",
+  "ts": "2026-09-06T12:51:16.085Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349361845",
+    "type": "OUTBOUND",
+    "message_id": "4349361889",
     "ticket_id": "978448649",
-    "message": "There is no socket behind it",
-    "channel_id": "1304636",
+    "message": "Hello Gani",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "545083162",
     "contact_name": "GANI EDEN HAWALED",
     "contact_identifier": "+972507398493",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
