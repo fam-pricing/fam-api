@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-06T06:45:18.602Z",
+  "ts": "2026-09-06T06:45:57.595Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349212639",
-    "ticket_id": "978777018",
-    "message": "May I know how many bedrooms you are looking for and expected check in check out date so I can check for you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "546147768",
-    "contact_name": "Bhanupratap",
-    "contact_identifier": "+919008490689",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4349212804",
+    "ticket_id": "978777052",
+    "message": "Whats the price",
+    "channel_id": "1304636",
+    "contact_id": "546147775",
+    "contact_name": "Fadi",
+    "contact_identifier": "+971562896978",
+    "event_type": "INBOUND"
   }
 }
