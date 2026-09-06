@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-06T09:41:15.469Z",
+  "ts": "2026-09-06T09:41:50.153Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349281277",
+    "type": "INBOUND",
+    "message_id": "4349281472",
     "ticket_id": "978540669",
-    "message": "May I know which unit you viewed today?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "This one",
+    "channel_id": "585723",
     "contact_id": "546065767",
     "contact_name": "Ali",
     "contact_identifier": "+971505008518",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4348421054",
+    "parent_ticket_id": "978540669",
+    "event_type": "INBOUND"
   }
 }
