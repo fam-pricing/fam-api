@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-06T07:17:26.235Z",
+  "ts": "2026-09-06T07:17:33.814Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349222602",
+    "type": "OUTBOUND",
+    "message_id": "4349222630",
     "ticket_id": "978715953",
-    "message": "I can view it my self now",
-    "channel_id": "585723",
+    "message": "Yes you can see the apartment",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "546124561",
     "contact_name": "al majara",
     "contact_identifier": "+971543217125",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
