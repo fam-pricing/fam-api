@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-06T14:36:10.273Z",
+  "ts": "2026-09-06T14:36:15.642Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349403756",
+    "type": "OUTBOUND",
+    "message_id": "4349403792",
     "ticket_id": "978824118",
-    "message": "Hi, I’m looking for a furnished unit for a client for one month. Do you offer monthly/trade rates for agents or partners? I’d like to know your best net rate, as I’ll be handling the client directly.",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "546163894",
     "contact_name": "Favour Ovbioghor",
     "contact_identifier": "3b51cf0a-9272-4dde-737f-3430b17c0b4a",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
