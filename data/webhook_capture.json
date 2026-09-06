@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-06T09:59:04.781Z",
+  "ts": "2026-09-06T09:59:09.314Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349288332",
+    "type": "OUTBOUND",
+    "message_id": "4349288356",
     "ticket_id": "978795962",
-    "message": "Hello I need to talk to you could you call me please?",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "523103949",
     "contact_name": "Ms GIULIA SETTI.",
     "contact_identifier": "+971582467567",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
