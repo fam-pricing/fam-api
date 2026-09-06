@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-06T08:26:41.816Z",
+  "ts": "2026-09-06T08:27:04.375Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349249799",
+    "type": "OUTBOUND",
+    "message_id": "4349249952",
     "ticket_id": "978746778",
-    "message": "Thank you! I'll check my schedule and confirm a specific day/time shortly.",
-    "channel_id": "1304636",
+    "message": "Sounds good, Anton, just let me know when you have a day in mind and I'll get it booked in for you.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546137487",
     "contact_name": "Anton",
     "contact_identifier": "+905340899728",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
