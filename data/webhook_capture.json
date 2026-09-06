@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-06T13:09:30.520Z",
+  "ts": "2026-09-06T13:11:19.387Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349369086",
-    "ticket_id": "956679355",
-    "message": "We've asked our team who visited your apartment yesterday. Once we receive the confirmation, we will update you accordingly",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "536961964",
-    "contact_name": "Catarina Loução",
-    "contact_identifier": "+971585691288",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4349369719",
+    "ticket_id": "978714791",
+    "message": "Ok, i understand",
+    "channel_id": "1304636",
+    "contact_id": "542447225",
+    "contact_name": "Alim",
+    "contact_identifier": "+77029993929",
+    "parent_message_id": "4349229379",
+    "parent_ticket_id": "978714791",
+    "event_type": "INBOUND"
   }
 }
