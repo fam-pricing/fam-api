@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-06T09:09:04.629Z",
+  "ts": "2026-09-06T09:09:17.629Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349267596",
+    "type": "OUTBOUND",
+    "message_id": "4349267695",
     "ticket_id": "978787939",
-    "message": "Ignoring my message?",
-    "channel_id": "585723",
+    "message": "Unfortunately, due to an unexpected maintenance issue in the apartment, we are unable to provide access to the unit at this time.\r\n\r\nAs we highly value our guests’ comfort and overall experience, we regret that we are unable to accommodate your stay in the apartment under the current circumstances.\r\n\r\nWe sincerely apologize for the inconvenience and truly appreciate your kind understanding and patience.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546151428",
     "contact_name": "Hemang Choudhary",
     "contact_identifier": "+917288878323",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
