@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-06T08:11:00.291Z",
+  "ts": "2026-09-06T08:13:24.803Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349243639",
-    "ticket_id": "978724975",
-    "message": "Unfortunately all our apartments are fully booked on the preferred dates",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "198398199",
-    "contact_name": "Mr Ryan Short",
-    "contact_identifier": "+447874325545",
+    "type": "INBOUND",
+    "message_id": "4349244622",
+    "ticket_id": "978784190",
+    "message": "👍",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "546150018",
+    "contact_name": "Mona",
+    "contact_identifier": "+971525233253",
+    "parent_message_id": "4349242232",
+    "parent_ticket_id": "978784190",
+    "event_type": "INBOUND"
   }
 }
