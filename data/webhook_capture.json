@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-06T05:44:19.529Z",
+  "ts": "2026-09-06T05:48:28.213Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349198112",
-    "ticket_id": "956679355",
-    "message": "Hello Catarina,\r\n\r\nThank you for your message. To clarify the situation regarding Urban Oasis U1104:\r\n\r\nYour checkout date was 4th September, and no extension was confirmed on time. The apartment owner had a scheduled arrival, which required the unit to be vacated as per the reservation terms.",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "536961964",
-    "contact_name": "Catarina Loução",
-    "contact_identifier": "+971585691288",
+    "type": "INBOUND",
+    "message_id": "4349198775",
+    "ticket_id": "977293028",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545682035",
+    "contact_name": "Stephen",
+    "contact_identifier": "+231880665908",
+    "parent_message_id": "4349196904",
+    "parent_ticket_id": "977293028",
+    "event_type": "INBOUND"
   }
 }
