@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-06T06:31:24.347Z",
+  "ts": "2026-09-06T06:31:43.278Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349208669",
+    "type": "OUTBOUND",
+    "message_id": "4349208762",
     "ticket_id": "977583803",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "Good morning Ms Noor",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "545761644",
     "contact_name": "Noor Nabulsi",
     "contact_identifier": "+971564553807",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
