@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-06T11:25:19.860Z",
+  "ts": "2026-09-06T11:27:22.990Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349324516",
+    "type": "INBOUND",
+    "message_id": "4349325355",
     "ticket_id": "978805336",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-15-laya-mansion-135618302.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Need details on this property?",
+    "channel_id": "1304636",
     "contact_id": "546156793",
     "contact_name": "Nida",
     "contact_identifier": "+923323422821",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
