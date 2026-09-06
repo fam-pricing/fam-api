@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-06T09:15:00.557Z",
+  "ts": "2026-09-06T09:15:19.155Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349270019",
+    "type": "INBOUND",
+    "message_id": "4349270172",
     "ticket_id": "978787939",
-    "message": "Yes, the air conditioning issue affects all the rooms. As our technical team is currently inside the apartment conducting an inspection and assessing the issue, we are unfortunately unable to provide access to the apartment at this time.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Can you get it rectified in 1-2 hrs ?",
+    "channel_id": "585723",
     "contact_id": "546151428",
     "contact_name": "Hemang Choudhary",
     "contact_identifier": "+917288878323",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
