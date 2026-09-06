@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-06T13:38:51.741Z",
+  "ts": "2026-09-06T13:40:15.402Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349380311",
-    "ticket_id": "963505285",
-    "message": "We would like to kindly inform you that the owner of the apartment has requested a brief viewing of the unit on Wednesday, anytime between 12:00 PM and 4:00 PM.\r\n\r\nThe viewing will be very quick, and we will make every effort to ensure it causes minimal disruption to your stay.\r\n\r\nMay I kindly ask if this would be possible for you? If so, please let us know a convenient time within the above-mentioned window, so we can coordinate with the owner and arrange the viewing accordingly.\r\n\r\nWe sincerely appreciate your kind cooperation and understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "541802779",
-    "contact_name": "Atahar Ishraque Chowdhury",
-    "contact_identifier": "+8801764511515",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4349380930",
+    "ticket_id": "978448649",
+    "message": "There’s only two buttons and I tried to turn them on, but also it’s not working",
+    "channel_id": "1304636",
+    "contact_id": "545083162",
+    "contact_name": "GANI EDEN HAWALED",
+    "contact_identifier": "+972507398493",
+    "parent_message_id": "4349379546",
+    "parent_ticket_id": "978448649",
+    "event_type": "INBOUND"
   }
 }
