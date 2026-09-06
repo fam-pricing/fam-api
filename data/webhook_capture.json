@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-06T19:35:21.223Z",
+  "ts": "2026-09-06T19:38:16.523Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349503663",
-    "ticket_id": "978850949",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-dubai-marina-al-majara-towers-al-majara-1-68684574.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "546174360",
-    "contact_name": "Mullins Real Estate",
-    "contact_identifier": "+971521971475",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4349504283",
+    "ticket_id": "977179880",
+    "message": "Hi, I won’t be able to come personally as I am currently out of the country. My cousin will come on my behalf to collect the security deposit.\n\nKindly hand over the deposit to him. I am attaching his Emirates ID and passport for verification.",
+    "channel_id": "585723",
+    "contact_id": "535986253",
+    "contact_name": "Sheza imran Butt",
+    "contact_identifier": "+971505644681",
+    "event_type": "INBOUND"
   }
 }
