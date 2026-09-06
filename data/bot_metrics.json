@@ -1,89 +1,5 @@
 [
   {
-    "ts": "2026-08-30T03:24:23.528Z",
-    "ticket_id": 977286794,
-    "lead_id": "message_lead_31660283",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 6189,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "live_agent_guard"
-  },
-  {
-    "ts": "2026-08-30T03:24:24.973Z",
-    "ticket_id": 977286794,
-    "lead_id": "message_lead_31660283",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 36232,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "Lead Nadeen Hussein wants to book the Upside Living studio from Sep 8 to Oct 3 (25 nights). This is a short-term stay under 30 days so the monthly rate doesn't apply directly. Need Faysal to confirm the exact rate for this 25-night period before quoting. The internal quality check flagged this but escalation was blocked — however, quoting a prorated figure without confirmation would be guessing, which risks losing the lead. Faysal already acknowledged this in a prior message saying \"let me check the exact rate for Sep 8 to Oct 3 and come back to you shortly\". Escalating to get confirmed pricing for this 25-night period."
-  },
-  {
-    "ts": "2026-08-30T03:24:31.461Z",
-    "ticket_id": 977286794,
-    "lead_id": "message_lead_31660283",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 777,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-08-30T03:24:55.030Z",
-    "ticket_id": 977286794,
-    "lead_id": "message_lead_31660283",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 770,
-    "critic_pass": null,
-    "lead_quality": 15,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-08-30T03:52:41.388Z",
-    "ticket_id": 977287389,
-    "lead_id": "message_lead_31660487",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1333,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-08-30T05:55:34.375Z",
-    "ticket_id": 977238756,
-    "lead_id": "message_lead_31650059",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 922,
-    "critic_pass": null,
-    "lead_quality": 85,
-    "buying_stage": "HOT",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-08-30T06:04:32.427Z",
-    "ticket_id": 977238756,
-    "lead_id": "message_lead_31650059",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 735,
-    "critic_pass": null,
-    "lead_quality": 85,
-    "buying_stage": "HOT",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-08-30T07:09:28.639Z",
     "ticket_id": 977135872,
     "lead_id": "message_lead_31629172",
@@ -3586,5 +3502,17 @@
     "lead_quality": 25,
     "buying_stage": "COOL",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-09-06T06:45:58.382Z",
+    "ticket_id": 978777052,
+    "lead_id": "message_lead_31863416",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 787,
+    "critic_pass": null,
+    "lead_quality": 30,
+    "buying_stage": "COOL",
+    "skip_reason": "bot_paused"
   }
 ]
