@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-06T10:32:07.007Z",
+  "ts": "2026-09-06T10:32:27.700Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349302065",
+    "type": "OUTBOUND",
+    "message_id": "4349302214",
     "ticket_id": "957439582",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "Hello Maryam good afternoon",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "540084992",
     "contact_name": "Maryam kazemi",
     "contact_identifier": "+971507018369",
-    "parent_message_id": "4349301923",
-    "parent_ticket_id": "957439582",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
