@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-06T12:42:41.184Z",
+  "ts": "2026-09-06T12:44:06.783Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349358539",
-    "ticket_id": "978678889",
-    "message": "May I kindly know your preferred start date and end date for the stay? This will allow us to check the availability and provide you with the most suitable options accordingly.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "546112074",
-    "contact_name": "Victor",
-    "contact_identifier": "+971505087366",
+    "type": "INBOUND",
+    "message_id": "4349359085",
+    "ticket_id": "975621059",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545168723",
+    "contact_name": "Samy Habili",
+    "contact_identifier": "+971561346669",
+    "parent_message_id": "4349289856",
+    "parent_ticket_id": "975621059",
+    "event_type": "INBOUND"
   }
 }
