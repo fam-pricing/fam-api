@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-06T12:06:43.065Z",
+  "ts": "2026-09-06T12:07:08.094Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349342818",
+    "type": "INBOUND",
+    "message_id": "4349343045",
     "ticket_id": "977583803",
-    "message": "We have update the building with the extension details",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "545761644",
     "contact_name": "Noor Nabulsi",
     "contact_identifier": "+971564553807",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4349342818",
+    "parent_ticket_id": "977583803",
+    "event_type": "INBOUND"
   }
 }
