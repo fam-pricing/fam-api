@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-06T17:26:28.330Z",
+  "ts": "2026-09-06T17:26:50.293Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349464176",
+    "type": "OUTBOUND",
+    "message_id": "4349464307",
     "ticket_id": "978839277",
-    "message": "Will this be the same price each month if I rent for 3 months?",
-    "channel_id": "1304636",
+    "message": "Yes, that price stays the same each month for all 3 months. Is the AED 500 difference workable for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "540555547",
     "contact_name": "Roisin Flynn",
     "contact_identifier": "+353851946702",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
