@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-06T10:42:26.113Z",
+  "ts": "2026-09-06T10:43:25.801Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349306137",
+    "type": "INBOUND",
+    "message_id": "4349306513",
     "ticket_id": "978540669",
-    "message": "If you wish to extend your stay, kindly inform us at least 7 days prior to your scheduled check-out date.\r\n\r\nThis will allow us sufficient time to check the availability and share the applicable rates with you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "546065767",
     "contact_name": "Ali",
     "contact_identifier": "+971505008518",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4349306137",
+    "parent_ticket_id": "978540669",
+    "event_type": "INBOUND"
   }
 }
