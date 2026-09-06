@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-06T09:41:50.153Z",
+  "ts": "2026-09-06T09:42:38.442Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349281472",
+    "type": "OUTBOUND",
+    "message_id": "4349281835",
     "ticket_id": "978540669",
-    "message": "This one",
-    "channel_id": "585723",
+    "message": "May I know the unit number you viewed is it unit 1916?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546065767",
     "contact_name": "Ali",
     "contact_identifier": "+971505008518",
-    "parent_message_id": "4348421054",
-    "parent_ticket_id": "978540669",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
