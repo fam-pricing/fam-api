@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-06T08:18:21.260Z",
+  "ts": "2026-09-06T08:18:26.873Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349246538",
-    "ticket_id": "956679355",
-    "message": "I’m not in home",
-    "channel_id": "585723",
-    "contact_id": "536961964",
-    "contact_name": "Catarina Loução",
-    "contact_identifier": "+971585691288",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4349246584",
+    "ticket_id": "978779597",
+    "message": "Apologies for the inconvenience this may have caused you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546148506",
+    "contact_name": "Tammy",
+    "contact_identifier": "2e81dfff-d30f-4ddf-8142-c3cc8fa4c30c",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
