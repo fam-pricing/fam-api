@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-06T10:51:03.638Z",
+  "ts": "2026-09-06T10:51:42.762Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349309857",
+    "type": "OUTBOUND",
+    "message_id": "4349310113",
     "ticket_id": "978801586",
-    "message": "hi can you send me a price breakdown from September 10 for 3 months",
-    "channel_id": "1304636",
+    "message": "For 3 months from Sep 10:\n\nSep 10, Oct 9: AED 12,000\nOct 10, Nov 9: AED 12,000\nNov 10, Dec 9: AED 12,000\nTotal: AED 36,000\n\nWould you like to arrange a viewing before committing to the full 3 months?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "522808166",
     "contact_name": "a",
     "contact_identifier": "+447495528747",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
