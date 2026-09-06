@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-06T07:30:53.430Z",
+  "ts": "2026-09-06T07:31:36.551Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349227920",
+    "type": "OUTBOUND",
+    "message_id": "4349228234",
     "ticket_id": "978780899",
-    "message": "Yes I'm here trying to view this apartment",
-    "channel_id": "1304636",
+    "message": "To confirm your viewing we'll need a copy of your Emirates ID or passport for building registration, can you send that over now?\n\nWait, Rule 9 flagged em dash. Let me correct:\n\n\nTo confirm your viewing we'll need a copy of your Emirates ID or passport for building registration. Can you send that over now?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546106729",
     "contact_name": "Tammy",
     "contact_identifier": "+971521395279",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
