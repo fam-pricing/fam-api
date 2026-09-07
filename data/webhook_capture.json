@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-07T06:11:39.410Z",
+  "ts": "2026-09-07T06:12:37.168Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349610777",
+    "type": "INBOUND",
+    "message_id": "4349611254",
     "ticket_id": "969915930",
-    "message": "I have checked with them, but unfortunately, they are unable to be there at 5:00 PM. Instead, they have requested to arrange the viewing at 6:30 PM.\r\n\r\nWould this time be convenient for you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Ok",
+    "channel_id": "585723",
     "contact_id": "543574598",
     "contact_name": "Sabrina",
     "contact_identifier": "+971559529037",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4349610777",
+    "parent_ticket_id": "969915930",
+    "event_type": "INBOUND"
   }
 }
