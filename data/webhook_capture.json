@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-07T15:22:21.603Z",
+  "ts": "2026-09-07T15:22:38.442Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4350261605",
+    "type": "OUTBOUND",
+    "message_id": "4350261888",
     "ticket_id": "976204150",
-    "message": "It’s back on!",
-    "channel_id": "585723",
+    "message": "I am glad to hear that",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "517825599",
     "contact_name": "Arifa Patel",
     "contact_identifier": "+971567647755",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
