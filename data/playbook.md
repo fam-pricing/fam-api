@@ -1834,3 +1834,14 @@ Once we have these, we'll send you a payment link to secure the deposit and fina
 ## Learned (2026-09-03)
 - If a lead asks about Audio, inform them that it will be available from 14th September, subject to the current in-house guest not extending their stay.
   (Learned from Faysal handling Mateo re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-city-walk-central-park-at-city-walk-viridian-2PuwDDpSs0u.html)
+
+## Learned (2026-09-07)
+- When a lead opens with a greeting (e.g., "Good morning"), respond with the following:
+
+"To proceed with your reservation, we will need the following:
+
+1. A copy of your passport
+2. Your email address
+
+Once received, I will send you a payment link to complete the deposit. After the deposit is confirmed, I will send your booking confirmation. Please note that the remaining rent balance must be paid in full to finalise the booking."
+  (Learned from Faysal handling Fadi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-arjan-miraclz-tower-by-danube-93143563.html)
