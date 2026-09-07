@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-07T15:21:12.990Z",
+  "ts": "2026-09-07T15:22:20.047Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4350260476",
+    "type": "INBOUND",
+    "message_id": "4350261564",
     "ticket_id": "976204150",
-    "message": "Please check the power or switch button of the fridge 🙏",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "🙏",
+    "channel_id": "585723",
     "contact_id": "517825599",
     "contact_name": "Arifa Patel",
     "contact_identifier": "+971567647755",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4350260476",
+    "parent_ticket_id": "976204150",
+    "event_type": "INBOUND"
   }
 }
