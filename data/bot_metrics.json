@@ -3634,5 +3634,17 @@
     "lead_quality": 60,
     "buying_stage": "WARM",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-09-07T08:45:17.717Z",
+    "ticket_id": 978888739,
+    "lead_id": "message_lead_31890983",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 864,
+    "critic_pass": null,
+    "lead_quality": 10,
+    "buying_stage": "COLD",
+    "skip_reason": "acknowledgment_skip"
   }
 ]
