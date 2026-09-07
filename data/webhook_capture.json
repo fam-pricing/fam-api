@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-07T08:14:33.022Z",
+  "ts": "2026-09-07T08:14:49.402Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349736748",
+    "type": "OUTBOUND",
+    "message_id": "4349737096",
     "ticket_id": "978914641",
-    "message": "The rent still 5,500 ?",
-    "channel_id": "1304636",
+    "message": "Tomorrow lunchtime works perfectly, what time suits you best?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "538219382",
     "contact_name": "Glory",
     "contact_identifier": "+33769552076",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
