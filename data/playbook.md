@@ -1845,3 +1845,7 @@ Once we have these, we'll send you a payment link to secure the deposit and fina
 
 Once received, I will send you a payment link to complete the deposit. After the deposit is confirmed, I will send your booking confirmation. Please note that the remaining rent balance must be paid in full to finalise the booking."
   (Learned from Faysal handling Fadi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-arjan-miraclz-tower-by-danube-93143563.html)
+
+## Learned (2026-09-07)
+- If a lead asks whether cleaning is included, inform them that cleaning is not included in the stay, but that it can be arranged upon request for an additional charge per cleaning service.
+  (Learned from Faysal handling Fadi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-arjan-miraclz-tower-by-danube-93143563.html)
