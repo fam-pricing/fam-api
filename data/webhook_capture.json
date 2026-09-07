@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-07T09:07:28.037Z",
+  "ts": "2026-09-07T09:07:59.835Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349803564",
+    "type": "INBOUND",
+    "message_id": "4349804190",
     "ticket_id": "952487865",
-    "message": "This is regarding the Canal Front unit.\r\n\r\nPlease note that as the security deposit was received in cash, we can either process the refund in cash or arrange the refund via bank transfer.\r\n\r\nKindly let us know which option you would prefer, and we will assist you accordingly.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Guest already check out",
+    "channel_id": "585723",
     "contact_id": "538724311",
     "contact_name": "FENGLEI YIN",
     "contact_identifier": "+971585702058",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
