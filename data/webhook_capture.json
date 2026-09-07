@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-07T12:14:28.934Z",
+  "ts": "2026-09-07T12:14:37.520Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4350033634",
-    "ticket_id": "978991893",
-    "message": "Hi, I had a look at fäm Living this morning. Your DMARC is set to take no action.\n\nIn practice your setup notices a forged email from your name and lets it through anyway.\n\n- your DMARC switched from watching to refusing\n- a monthly report of who tried\n\nWhat budget did you have in mind for this? Tell me and I will say straight away what fits.\n\nYahya",
+    "type": "OUTBOUND",
+    "message_id": "4350033810",
+    "ticket_id": "941501853",
+    "message": "You need to extend one more night?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535128769",
+    "contact_name": "Alex",
+    "contact_identifier": "+256742443400",
     "channel_id": "585723",
-    "contact_id": "546213501",
-    "contact_name": "Pyxlon support",
-    "contact_identifier": "+18168510624",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
