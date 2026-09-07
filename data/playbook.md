@@ -1853,3 +1853,7 @@ Once received, I will send you a payment link to complete the deposit. After the
 ## Learned (2026-09-07)
 - When a lead asks about additional or extra expenses, explain that the quoted rate is all-inclusive, with the exception of housekeeping and cleaning services. Let them know that if they require cleaning during their stay, this can be arranged upon request, but an additional charge will apply per cleaning session.
   (Learned from Faysal handling Aram re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-09-07)
+- If a lead asks whether cheque payments are accepted, respond: "Unfortunately, we do not accept cheque payments."
+  (Learned from Faysal handling a re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-97378457.html)
