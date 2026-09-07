@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-07T13:35:59.690Z",
+  "ts": "2026-09-07T13:36:18.373Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4350133358",
-    "ticket_id": "979008983",
-    "message": "The pictures",
-    "channel_id": "1304636",
-    "contact_id": "546218902",
-    "contact_name": "Marouane",
-    "contact_identifier": "+971563335199",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4350133704",
+    "ticket_id": "978946207",
+    "message": "Unfortunately, we already have another confirmed booking for your preferred dates at RP Heights, so the unit is not available during that period.\r\n\r\nWe sincerely apologize for any inconvenience caused and appreciate your understanding.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "357020149",
+    "contact_name": "Mr Abdula",
+    "contact_identifier": "+966555628650",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
