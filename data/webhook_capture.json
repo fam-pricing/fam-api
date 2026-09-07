@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-07T07:40:29.678Z",
+  "ts": "2026-09-07T07:40:35.026Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349694940",
-    "ticket_id": "975784179",
-    "message": "Please check availability for today",
+    "type": "OUTBOUND",
+    "message_id": "4349695034",
+    "ticket_id": "962970814",
+    "message": "Please let us know once you are ready for check out",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "537634308",
+    "contact_name": "Hanan Ibrahim",
+    "contact_identifier": "+971559022022",
     "channel_id": "585723",
-    "contact_id": "545240437",
-    "contact_name": "Roshan Rakesh",
-    "contact_identifier": "+971524927288",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
