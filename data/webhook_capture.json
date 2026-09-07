@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-07T12:32:33.524Z",
+  "ts": "2026-09-07T12:32:53.356Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4350055992",
-    "ticket_id": "978777052",
-    "message": "And which floor is it ?",
-    "channel_id": "1304636",
-    "contact_id": "546147775",
-    "contact_name": "FADI SOUBRA",
-    "contact_identifier": "+971562896978",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4350056413",
+    "ticket_id": "941501853",
+    "message": "Sure, I will send you the payment link for the additional 1-night extension.\r\n\r\nOnce the payment is completed, your check-out date will be extended to 9 September.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535128769",
+    "contact_name": "Alex",
+    "contact_identifier": "+256742443400",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
