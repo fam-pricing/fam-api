@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-07T13:21:47.400Z",
+  "ts": "2026-09-07T13:22:04.453Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4350115675",
+    "type": "INBOUND",
+    "message_id": "4350115999",
     "ticket_id": "975784179",
-    "message": "From our side we will not arrange any access for the viewing",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Okay got it",
+    "channel_id": "585723",
     "contact_id": "545240437",
     "contact_name": "Roshan Rakesh",
     "contact_identifier": "+971524927288",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4350115675",
+    "parent_ticket_id": "975784179",
+    "event_type": "INBOUND"
   }
 }
