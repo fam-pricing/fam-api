@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-07T11:42:40.274Z",
+  "ts": "2026-09-07T11:43:01.677Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349994914",
+    "type": "OUTBOUND",
+    "message_id": "4349995385",
     "ticket_id": "941501853",
-    "message": "We will check out tomorrow",
-    "channel_id": "585723",
+    "message": "Ok sure let me send the updated payment link for the 01 night extension",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535128769",
     "contact_name": "Alex",
     "contact_identifier": "+256742443400",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
