@@ -1849,3 +1849,7 @@ Once received, I will send you a payment link to complete the deposit. After the
 ## Learned (2026-09-07)
 - If a lead asks whether cleaning is included, inform them that cleaning is not included in the stay, but that it can be arranged upon request for an additional charge per cleaning service.
   (Learned from Faysal handling Fadi re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-arjan-miraclz-tower-by-danube-93143563.html)
+
+## Learned (2026-09-07)
+- When a lead asks about additional or extra expenses, explain that the quoted rate is all-inclusive, with the exception of housekeeping and cleaning services. Let them know that if they require cleaning during their stay, this can be arranged upon request, but an additional charge will apply per cleaning session.
+  (Learned from Faysal handling Aram re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
