@@ -1,89 +1,5 @@
 [
   {
-    "ts": "2026-08-31T14:06:26.419Z",
-    "ticket_id": 977572526,
-    "lead_id": "message_lead_31702745",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1131,
-    "critic_pass": null,
-    "lead_quality": 95,
-    "buying_stage": "HOT",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-08-31T14:07:21.890Z",
-    "ticket_id": 977572526,
-    "lead_id": "message_lead_31702745",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 921,
-    "critic_pass": null,
-    "lead_quality": 95,
-    "buying_stage": "HOT",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-08-31T14:07:38.041Z",
-    "ticket_id": 977502405,
-    "lead_id": "message_lead_31696861",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 935,
-    "critic_pass": null,
-    "lead_quality": 45,
-    "buying_stage": "WARM",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-08-31T14:26:44.234Z",
-    "ticket_id": 977510648,
-    "lead_id": "message_lead_31697633",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 906,
-    "critic_pass": null,
-    "lead_quality": 60,
-    "buying_stage": "WARM",
-    "skip_reason": "acknowledgment_skip"
-  },
-  {
-    "ts": "2026-08-31T14:29:36.892Z",
-    "ticket_id": 977590396,
-    "lead_id": "message_lead_31704349",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 24322,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-08-31T14:30:38.454Z",
-    "ticket_id": 977590396,
-    "lead_id": "message_lead_31704349",
-    "action": "escalate",
-    "tool_used": "escalate_to_faysal",
-    "response_time_ms": 23625,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": "Lead asking about pricing beyond 3 months for a 6-month stay in Downtown Views 2 Tower 2 (2BR at AED 8,000/month). Agent Faysal already confirmed the first 3 months at AED 8,000 and said the second 3 months will be confirmed closer to the time. Lead is now pushing for an approximate rate for months 4-6. This requires long-term pricing beyond 3 months."
-  },
-  {
-    "ts": "2026-08-31T14:59:32.262Z",
-    "ticket_id": 977590396,
-    "lead_id": "message_lead_31704349",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1054,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-08-31T16:52:52.865Z",
     "ticket_id": 977286794,
     "lead_id": "message_lead_31660283",
@@ -3633,6 +3549,18 @@
     "critic_pass": null,
     "lead_quality": 15,
     "buying_stage": "COLD",
+    "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-09-07T16:16:55.450Z",
+    "ticket_id": 979003327,
+    "lead_id": "message_lead_31905171",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 838,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
     "skip_reason": "bot_paused"
   }
 ]
