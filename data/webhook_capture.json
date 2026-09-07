@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-07T05:32:16.804Z",
+  "ts": "2026-09-07T05:33:05.027Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349594371",
-    "ticket_id": "925854120",
-    "message": "Ok",
+    "type": "OUTBOUND",
+    "message_id": "4349594652",
+    "ticket_id": "948205272",
+    "message": "Good morning, Ms Rama. We've informed you about the deposit that was charged for the bathtub replacement, as it was damaged during your stay in the apartment",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "537594186",
+    "contact_name": "Rama Khaled Aaraj",
+    "contact_identifier": "+971561563617",
     "channel_id": "585723",
-    "contact_id": "532021761",
-    "contact_name": "Vaiva Lukminaite",
-    "contact_identifier": "+37062028632",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
