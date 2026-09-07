@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-07T13:34:18.336Z",
+  "ts": "2026-09-07T13:34:26.082Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4350131373",
-    "ticket_id": "979007236",
-    "message": "Good afternoon,\r\n\r\nCould you please arrange the outstanding payment for the current extension today? We need to confirm the payment with our Finance team and update the building management accordingly.\r\n\r\nWe would greatly appreciate your prompt assistance in completing the payment.\r\n\r\nPayment link - https://totalpay.ae/payment/20260907466a9e9d5a4171f",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "type": "INBOUND",
+    "message_id": "4350131508",
+    "ticket_id": "979014278",
+    "message": "Oh, ok",
+    "channel_id": "1304636",
     "contact_id": "542447225",
     "contact_name": "Alim",
     "contact_identifier": "+77029993929",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
