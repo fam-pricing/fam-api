@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-07T09:23:59.113Z",
+  "ts": "2026-09-07T09:24:21.238Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349823998",
+    "type": "OUTBOUND",
+    "message_id": "4349824512",
     "ticket_id": "978939297",
-    "message": "Can we do 7 or 8 o'clock in the evening today",
-    "channel_id": "1304636",
+    "message": "Same-day check-in is fine after 3pm, but just to flag, 7 or 8pm is outside our access window, so you'd need to arrive by 6pm. Does that still work for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546198678",
     "contact_name": "good",
     "contact_identifier": "+971582503384",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
