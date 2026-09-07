@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-07T07:15:58.829Z",
+  "ts": "2026-09-07T07:16:44.550Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349664736",
+    "type": "INBOUND",
+    "message_id": "4349666252",
     "ticket_id": "978839277",
-    "message": "Unfortunately this unit will be available from 07th October only",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "You told me it is available?",
+    "channel_id": "1304636",
     "contact_id": "540555547",
     "contact_name": "Roisin Flynn",
     "contact_identifier": "+353851946702",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4349463910",
+    "parent_ticket_id": "978839277",
+    "event_type": "INBOUND"
   }
 }
