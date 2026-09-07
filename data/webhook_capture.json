@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-07T06:23:26.268Z",
+  "ts": "2026-09-07T06:24:15.205Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4349617465",
-    "ticket_id": "978448649",
-    "message": "Please restart the AC thermostat and set the temp on 19 C",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "545083162",
-    "contact_name": "GANI EDEN HAWALED",
-    "contact_identifier": "+972507398493",
+    "type": "INBOUND",
+    "message_id": "4349617922",
+    "ticket_id": "978839277",
+    "message": "Okay what floor is this studio on?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "540555547",
+    "contact_name": "Roisin Flynn",
+    "contact_identifier": "+353851946702",
+    "event_type": "INBOUND"
   }
 }
