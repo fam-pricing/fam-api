@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-07T19:09:19.345Z",
+  "ts": "2026-09-07T19:09:43.847Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4350420913",
+    "type": "OUTBOUND",
+    "message_id": "4350421090",
     "ticket_id": "979077623",
-    "message": "Hello! Interested to rent the property as of October 1. Is it possible to see it tomorrow afternoon?",
-    "channel_id": "1304636",
+    "message": "October 1 works as a move-in date. What time tomorrow afternoon suits you best?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546244533",
     "contact_name": "Sergey",
     "contact_identifier": "+971504452248",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
