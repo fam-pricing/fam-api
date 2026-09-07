@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-07T16:53:08.235Z",
+  "ts": "2026-09-07T16:53:37.719Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4350338103",
-    "ticket_id": "979058981",
-    "message": "AED 5,500/month covers everything, water, electricity, internet, and VAT. No extra charges beyond a refundable security deposit of AED 1,000.\n\nAre you thinking 1 month, 2, or 3?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "546237515",
-    "contact_name": "Анна",
-    "contact_identifier": "+380987215128",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4350338389",
+    "ticket_id": "979059317",
+    "message": "Hello! We have booked an apartment in Peninsula Five and have just landed in Dubai. We should arrive in approximately 40 minutes. Could you please let us know how we can access the apartment and where we should collect the keys? Thank you!",
+    "channel_id": "585723",
+    "contact_id": "546237715",
+    "contact_name": "Alfiya Karimova",
+    "contact_identifier": "+971555020787",
+    "event_type": "INBOUND"
   }
 }
