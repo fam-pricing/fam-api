@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-07T04:53:16.492Z",
+  "ts": "2026-09-07T05:10:34.420Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4349584135",
+    "type": "OUTBOUND",
+    "message_id": "4349588287",
     "ticket_id": "978777052",
-    "message": "Good morning",
-    "channel_id": "1304636",
+    "message": "To proceed with the reservation we need to have the\r\n\r\n1- Copy of your passport\r\n\r\n2- email\r\n\r\nOnce receive I will send the payment link for the deposit payment and once completed I will send the booking confirmation and you need to complete the rent payment for the confirmation",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546147775",
     "contact_name": "Fadi",
     "contact_identifier": "+971562896978",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
