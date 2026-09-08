@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-08T07:55:03.118Z",
+  "ts": "2026-09-08T07:58:40.862Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4350660523",
-    "ticket_id": "978958153",
-    "message": "Would it be easier if I collected the cash in person?",
-    "channel_id": "1304636",
-    "contact_id": "538423864",
-    "contact_name": "Senga Silungwe",
-    "contact_identifier": "+260977293603",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4350664374",
+    "ticket_id": "941501853",
+    "message": "Payment link - https://totalpay.ae/payment/20260908226a9fc01e80fad",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535128769",
+    "contact_name": "Alex",
+    "contact_identifier": "+256742443400",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
