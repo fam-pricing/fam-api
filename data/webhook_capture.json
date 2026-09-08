@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-08T15:20:58.648Z",
+  "ts": "2026-09-08T15:21:32.517Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351191330",
+    "type": "OUTBOUND",
+    "message_id": "4351191880",
     "ticket_id": "979277120",
-    "message": "Ok, thank you. Probably by monday",
-    "channel_id": "1304636",
+    "message": "Monday works. What time suits you best between 9am and 6pm?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546305339",
     "contact_name": "Marcelo Goudard | Chief Growth Marketing Officer ~",
     "contact_identifier": "+971585789290",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
