@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-08T06:03:18.029Z",
+  "ts": "2026-09-08T06:04:27.282Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4350567608",
+    "type": "INBOUND",
+    "message_id": "4350568163",
     "ticket_id": "978540669",
-    "message": "To process a smooth check in for you, please complete this form:\r\nhttps://guest-app.guesty.com/r/6a9fa0418f2b4adc54783be2/e3tndWVzdF9hcHA6OnNhbXBsZV9ndWVzdF9hcHB9fQ==",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Sure, can i view the unit and is the security deposit refundable in case of cancellation?",
+    "channel_id": "585723",
     "contact_id": "546065767",
     "contact_name": "Ali",
     "contact_identifier": "+971505008518",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4350567568",
+    "parent_ticket_id": "978540669",
+    "event_type": "INBOUND"
   }
 }
