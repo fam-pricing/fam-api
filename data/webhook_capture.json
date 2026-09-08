@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-08T09:57:47.612Z",
+  "ts": "2026-09-08T09:58:16.383Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4350806889",
+    "type": "OUTBOUND",
+    "message_id": "4350807450",
     "ticket_id": "979183068",
-    "message": "I need to know a fixed price for all this period. Can we make a deal in advance?",
-    "channel_id": "1304636",
+    "message": "On fixing the rate, we can only lock it for the first 3 months. After that it's reviewed based on market, so the full 7 months can't be guaranteed upfront. Would you want to go ahead on that basis, or would a shorter stay work better for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546276454",
     "contact_name": "Kostis",
     "contact_identifier": "+971585798956",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
