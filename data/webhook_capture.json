@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-08T15:19:00.943Z",
+  "ts": "2026-09-08T15:19:27.936Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351189537",
+    "type": "OUTBOUND",
+    "message_id": "4351189935",
     "ticket_id": "979277120",
-    "message": "Next week, can you send me the location?",
-    "channel_id": "1304636",
+    "message": "Still available, yes. I'll confirm the gym situation and send you the exact location shortly, what day next week works best for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546305339",
     "contact_name": "Marcelo Goudard | Chief Growth Marketing Officer ~",
     "contact_identifier": "+971585789290",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
