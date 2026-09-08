@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-08T11:57:27.263Z",
+  "ts": "2026-09-08T12:00:48.666Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4350944029",
-    "ticket_id": "979216792",
-    "message": "Great dates! Let me check the pet approval for you and come back within the next couple of hours.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "546286756",
-    "contact_name": "Damir Elmira",
-    "contact_identifier": "+971585946073",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4350947906",
+    "ticket_id": "976204150",
+    "message": "Good afternoon",
+    "channel_id": "585723",
+    "contact_id": "517825599",
+    "contact_name": "Arifa Patel",
+    "contact_identifier": "+971567647755",
+    "parent_message_id": "4350929255",
+    "parent_ticket_id": "976204150",
+    "event_type": "INBOUND"
   }
 }
