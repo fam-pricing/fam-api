@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-08T08:17:39.129Z",
+  "ts": "2026-09-08T08:20:52.714Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4350686555",
-    "ticket_id": "978946207",
-    "message": "Unit or units !!!",
+    "type": "OUTBOUND",
+    "message_id": "4350690063",
+    "ticket_id": "941501853",
+    "message": "We have received the payment so your check out date will be on 09th September",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535128769",
+    "contact_name": "Alex",
+    "contact_identifier": "+256742443400",
     "channel_id": "585723",
-    "contact_id": "357020149",
-    "contact_name": "Mr Abdula",
-    "contact_identifier": "+966555628650",
-    "parent_message_id": "4350133704",
-    "parent_ticket_id": "978946207",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
