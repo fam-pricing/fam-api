@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-08T07:13:21.372Z",
+  "ts": "2026-09-08T07:13:37.619Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4350617122",
-    "ticket_id": "907838754",
-    "message": "For all rooms and kitchen",
+    "type": "OUTBOUND",
+    "message_id": "4350617398",
+    "ticket_id": "978540669",
+    "message": "Please complete the check in form and update us",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546065767",
+    "contact_name": "Ali",
+    "contact_identifier": "+971505008518",
     "channel_id": "585723",
-    "contact_id": "506853795",
-    "contact_name": "Ms JIHANE EL BOUAZZAOUNI",
-    "contact_identifier": "+971526627741",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
