@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-08T11:13:35.168Z",
+  "ts": "2026-09-08T11:14:04.736Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4350892034",
+    "type": "INBOUND",
+    "message_id": "4350892546",
     "ticket_id": "978540669",
-    "message": "Building name - Upside Living by SRG\r\n\r\nLocation - https://maps.app.goo.gl/8SXa9oRuKQaSQUha8",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "🙏",
+    "channel_id": "585723",
     "contact_id": "546065767",
     "contact_name": "Ali",
     "contact_identifier": "+971505008518",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4350892034",
+    "parent_ticket_id": "978540669",
+    "event_type": "INBOUND"
   }
 }
