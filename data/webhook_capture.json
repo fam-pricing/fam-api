@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-08T10:47:06.019Z",
+  "ts": "2026-09-08T10:49:02.139Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4350863095",
-    "ticket_id": "979195559",
-    "message": "Unfortunately, the unit in Building 06 is fully booked for your preferred dates.\r\n\r\nWe sincerely apologize for any inconvenience this may cause and appreciate your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "546280364",
-    "contact_name": "Shamma Al Sheryani",
-    "contact_identifier": "c45cb217-af56-4b17-c535-97dcc1285ef2",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4350865092",
+    "ticket_id": "979185818",
+    "message": "From 27th or 29th of September",
+    "channel_id": "1304636",
+    "contact_id": "546277317",
+    "contact_name": "Azizi",
+    "contact_identifier": "+971555787044",
+    "event_type": "INBOUND"
   }
 }
