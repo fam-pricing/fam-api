@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-08T05:08:44.219Z",
+  "ts": "2026-09-08T05:10:21.425Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4350549465",
+    "type": "INBOUND",
+    "message_id": "4350549893",
     "ticket_id": "978540669",
-    "message": "Sure I will send the payment link to complete the deposit payment and block the unit for you\r\n\r\nwe will need the following to be able to process:\r\n\r\n1- Copy of your passport\r\n2- email",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Can i do the bank transfer or the deposit must be online?",
+    "channel_id": "585723",
     "contact_id": "546065767",
     "contact_name": "Ali",
     "contact_identifier": "+971505008518",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
