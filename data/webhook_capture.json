@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-08T18:42:22.166Z",
+  "ts": "2026-09-08T18:43:13.473Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4351345199",
+    "type": "INBOUND",
+    "message_id": "4351345593",
     "ticket_id": "979318577",
-    "message": "The only extra fee is a refundable security deposit of AED 1,000, returned within 14 working days after check-out. No hidden charges. Would you like to come see the place first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes , I’d love to",
+    "channel_id": "1304636",
     "contact_id": "546323117",
     "contact_name": "Mai",
     "contact_identifier": "+971508443685",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
