@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-08T06:10:15.356Z",
+  "ts": "2026-09-08T06:10:21.721Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4350571452",
-    "ticket_id": "963505285",
-    "message": "Confirm",
+    "type": "OUTBOUND",
+    "message_id": "4350571523",
+    "ticket_id": "978540669",
+    "message": "Unfortunately, the payment is non-refundable, as we have already blocked and secured the unit for you.\r\n\r\nAdditionally, we sincerely apologize, but we are unable to arrange a viewing today as the unit currently has an in-house guest.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546065767",
+    "contact_name": "Ali",
+    "contact_identifier": "+971505008518",
     "channel_id": "585723",
-    "contact_id": "541802779",
-    "contact_name": "Atahar Ishraque Chowdhury",
-    "contact_identifier": "+8801764511515",
-    "parent_message_id": "4350570766",
-    "parent_ticket_id": "963505285",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
