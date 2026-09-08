@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-08T09:42:27.526Z",
+  "ts": "2026-09-08T09:42:29.955Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4350788512",
-    "ticket_id": "978963005",
-    "message": "thank u",
+    "type": "OUTBOUND",
+    "message_id": "4350788551",
+    "ticket_id": "977346496",
+    "message": "To help us follow up on your request, please share your contact details with us using the button below.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545605173",
+    "contact_name": "Anvar Baisagurov",
+    "contact_identifier": "+971524714995",
     "channel_id": "1304636",
-    "contact_id": "546205732",
-    "contact_name": "Anna Petsou",
-    "contact_identifier": "+306975064605",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
