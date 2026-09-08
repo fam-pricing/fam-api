@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-08T18:43:43.771Z",
+  "ts": "2026-09-08T18:44:50.563Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4351345857",
+    "type": "INBOUND",
+    "message_id": "4351346465",
     "ticket_id": "979318577",
-    "message": "Viewings run 9am, 6pm, so we'd need to pick a slot in that window. What day works best for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I’m working from 9-6 during weekdays , is it possible to view it on Saturday afternoon ?",
+    "channel_id": "1304636",
     "contact_id": "546323117",
     "contact_name": "Mai",
     "contact_identifier": "+971508443685",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
