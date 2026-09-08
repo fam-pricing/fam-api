@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-08T18:44:50.563Z",
+  "ts": "2026-09-08T18:45:19.477Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351346465",
+    "type": "OUTBOUND",
+    "message_id": "4351346729",
     "ticket_id": "979318577",
-    "message": "I’m working from 9-6 during weekdays , is it possible to view it on Saturday afternoon ?",
-    "channel_id": "1304636",
+    "message": "Saturday viewings run 9am to 6pm, after 6 the building won't allow access. What time on Saturday works for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546323117",
     "contact_name": "Mai",
     "contact_identifier": "+971508443685",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
