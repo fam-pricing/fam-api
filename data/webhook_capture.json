@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-08T05:57:55.086Z",
+  "ts": "2026-09-08T05:58:23.067Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4350564971",
-    "ticket_id": "978540669",
-    "message": "Please note that the date format is Month/Date/Year.\r\n\r\nTherefore, the booking will be for 30 nights, from 9th September to 9th October.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "546065767",
-    "contact_name": "Ali",
-    "contact_identifier": "+971505008518",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4350565125",
+    "ticket_id": "978958153",
+    "message": "Hi, What did finance say?",
+    "channel_id": "1304636",
+    "contact_id": "538423864",
+    "contact_name": "Senga Silungwe",
+    "contact_identifier": "+260977293603",
+    "event_type": "INBOUND"
   }
 }
