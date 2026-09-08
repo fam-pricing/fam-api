@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-08T06:04:27.282Z",
+  "ts": "2026-09-08T06:05:06.614Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4350568163",
-    "ticket_id": "978540669",
-    "message": "Sure, can i view the unit and is the security deposit refundable in case of cancellation?",
-    "channel_id": "585723",
-    "contact_id": "546065767",
-    "contact_name": "Ali",
-    "contact_identifier": "+971505008518",
-    "parent_message_id": "4350567568",
-    "parent_ticket_id": "978540669",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4350568553",
+    "ticket_id": "978914641",
+    "message": "As per your request, please find the 4-month rates for upside living studio\r\n\r\nSeptember: AED 6,000\r\nOctober: AED 7,500\r\nNovember: AED 8,500\r\nDecember: AED 10,500\r\n\r\nPlease note that a security deposit of AED 2,000 is required. The booking will be on a monthly basis only (30 nights each month).\r\n\r\n*\r\nFor a long-term stay:\r\n*\r\nTo secure a 3-month or 6-month booking, the first month's rent, last month's rent, and security deposit must be paid in advance. Once the payment is received, we will be able to reserve the unit and secure the agreed rate for the confirmed booking period.\r\n\r\nThank you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "538219382",
+    "contact_name": "Glory",
+    "contact_identifier": "+33769552076",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
