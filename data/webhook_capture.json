@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-09T08:35:06.203Z",
+  "ts": "2026-09-09T08:45:09.745Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4351648955",
-    "ticket_id": "979357786",
-    "message": "You're welcome",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "534606290",
-    "contact_name": "Luisa Maria Bento Meca",
-    "contact_identifier": "+971551851195",
+    "type": "INBOUND",
+    "message_id": "4351661362",
+    "ticket_id": "979129587",
+    "message": "Yes",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "546260791",
+    "contact_name": "Raine and Horne Holiday Homes",
+    "contact_identifier": "+971553989528",
+    "parent_message_id": "4351634629",
+    "parent_ticket_id": "979129587",
+    "event_type": "INBOUND"
   }
 }
