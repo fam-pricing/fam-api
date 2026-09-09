@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-09T08:27:20.647Z",
+  "ts": "2026-09-09T08:35:06.203Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351639750",
+    "type": "OUTBOUND",
+    "message_id": "4351648955",
     "ticket_id": "979357786",
-    "message": "Thank you",
-    "channel_id": "585723",
+    "message": "You're welcome",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "534606290",
     "contact_name": "Luisa Maria Bento Meca",
     "contact_identifier": "+971551851195",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
