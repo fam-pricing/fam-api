@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-09T07:31:43.643Z",
+  "ts": "2026-09-09T07:32:03.279Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351574494",
-    "ticket_id": "979375838",
-    "message": "Which type is?",
+    "type": "OUTBOUND",
+    "message_id": "4351574870",
+    "ticket_id": "979313139",
+    "message": "Please put the setup on the auto mode; it will turn off automatic when it reached the same level you set",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "545083162",
+    "contact_name": "GANI EDEN HAWALED",
+    "contact_identifier": "+972507398493",
     "channel_id": "585723",
-    "contact_id": "546340984",
-    "contact_name": "Giulia",
-    "contact_identifier": "+393494542533",
-    "parent_message_id": "4351566390",
-    "parent_ticket_id": "979375838",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
