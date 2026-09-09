@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-09T07:57:53.678Z",
+  "ts": "2026-09-09T08:00:20.816Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351603220",
+    "type": "OUTBOUND",
+    "message_id": "4351606006",
     "ticket_id": "979357786",
-    "message": "Is it ok?",
-    "channel_id": "585723",
+    "message": "Let me check this for you.\r\n\r\nOur standard check-in time starts at 3:00 PM, but I will confirm with the team whether an earlier check-in can be arranged and update you accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "534606290",
     "contact_name": "Luisa Maria Bento Meca",
     "contact_identifier": "+971551851195",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
