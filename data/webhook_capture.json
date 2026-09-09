@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-09T10:39:34.495Z",
+  "ts": "2026-09-09T10:39:40.115Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351803607",
-    "ticket_id": "979437035",
-    "message": "Good afternoon. I’m interested in this apartment. Is it available from September 30th? What is the price for October?",
-    "channel_id": "1304636",
-    "contact_id": "546359180",
-    "contact_name": "Alina",
-    "contact_identifier": "+971551989461",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4351803704",
+    "ticket_id": "957439582",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540084992",
+    "contact_name": "Maryam kazemi",
+    "contact_identifier": "+971507018369",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
