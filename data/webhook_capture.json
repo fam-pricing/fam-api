@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-09T16:58:01.984Z",
+  "ts": "2026-09-09T17:06:50.640Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4352208330",
+    "type": "INBOUND",
+    "message_id": "4352215347",
     "ticket_id": "979277120",
-    "message": "See you Monday, just ping me in the morning to confirm your arrival time.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I forgot to confirm if Bills are included",
+    "channel_id": "1304636",
     "contact_id": "546305339",
     "contact_name": "Marcelo Goudard | Chief Growth Marketing Officer ~",
     "contact_identifier": "+971585789290",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4351184211",
+    "parent_ticket_id": "979277120",
+    "event_type": "INBOUND"
   }
 }
