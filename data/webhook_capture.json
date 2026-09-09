@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-09T07:32:30.818Z",
+  "ts": "2026-09-09T07:32:54.160Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4351575376",
+    "type": "INBOUND",
+    "message_id": "4351575804",
     "ticket_id": "979313139",
-    "message": "If it's not on auto, the temp will decreased due running ac all the time",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "I put it dont turn it off",
+    "channel_id": "585723",
     "contact_id": "545083162",
     "contact_name": "GANI EDEN HAWALED",
     "contact_identifier": "+972507398493",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4351574870",
+    "parent_ticket_id": "979313139",
+    "event_type": "INBOUND"
   }
 }
