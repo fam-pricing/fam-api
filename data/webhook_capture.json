@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-09T03:51:11.292Z",
+  "ts": "2026-09-09T03:51:14.663Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351468654",
+    "type": "OUTBOUND",
+    "message_id": "4351468663",
     "ticket_id": "979352492",
-    "message": "Looking for furnished 2 bedroom from Oct 1st till May 31st",
-    "channel_id": "1304636",
+    "message": "Yes, it's available. Want to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546181832",
     "contact_name": "IPANAC CONSULTING LLC",
     "contact_identifier": "+971527264273",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
