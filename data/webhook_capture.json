@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-09T05:02:38.480Z",
+  "ts": "2026-09-09T05:03:07.047Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351482717",
+    "type": "OUTBOUND",
+    "message_id": "4351482848",
     "ticket_id": "979343352",
-    "message": "Is this unit available and is it pet friendly",
-    "channel_id": "1304636",
+    "message": "The unit is available, though unfortunately it doesn't allow pets. Would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546332401",
     "contact_name": "Jasmine",
     "contact_identifier": "+971504512204",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
