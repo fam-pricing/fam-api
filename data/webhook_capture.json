@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-09T15:23:07.583Z",
+  "ts": "2026-09-09T15:23:36.959Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352131897",
+    "type": "OUTBOUND",
+    "message_id": "4352132412",
     "ticket_id": "979514880",
-    "message": "Yes please !",
-    "channel_id": "1304636",
+    "message": "That's 3 months at AED 7,000/month, so AED 21,000 in total. There's also a refundable security deposit of AED 1,500 at check-in. Want to go ahead and get it locked in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546384486",
     "contact_name": "Matty Sillett",
     "contact_identifier": "+447484825476",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
