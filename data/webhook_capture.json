@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-09T06:52:06.224Z",
+  "ts": "2026-09-09T06:52:15.401Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4351535176",
+    "type": "INBOUND",
+    "message_id": "4351535306",
     "ticket_id": "979357786",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Confirm",
+    "channel_id": "585723",
     "contact_id": "534606290",
     "contact_name": "Luisa Maria Bento Meca",
     "contact_identifier": "+971551851195",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4351535176",
+    "parent_ticket_id": "979357786",
+    "event_type": "INBOUND"
   }
 }
