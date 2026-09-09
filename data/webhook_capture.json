@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-09T22:43:54.388Z",
+  "ts": "2026-09-09T22:44:15.616Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352354107",
+    "type": "OUTBOUND",
+    "message_id": "4352354151",
     "ticket_id": "979566106",
-    "message": "hi how are you",
-    "channel_id": "1304636",
+    "message": "Doing well, thanks! Are you looking to move in soon, or still in the early stages of searching?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546406860",
     "contact_name": "AMIRHOSSEIN HOUSHMANDI",
     "contact_identifier": "+971507166400",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
