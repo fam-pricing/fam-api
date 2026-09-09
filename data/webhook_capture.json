@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-09T13:24:20.829Z",
+  "ts": "2026-09-09T13:24:27.237Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4351994564",
-    "ticket_id": "979444892",
-    "message": "Sure.\r\n\r\nHowever, please note that the unit is listed on multiple booking platforms, and we may receive a confirmed reservation at any time. Therefore, we are unable to guarantee or confirm the availability of the unit until the booking is finalized.\r\n\r\nThank you for your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "546361559",
-    "contact_name": "Mari",
-    "contact_identifier": "+79377390061",
+    "type": "INBOUND",
+    "message_id": "4351994691",
+    "ticket_id": "978795962",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "523103949",
+    "contact_name": "Ms GIULIA SETTI.",
+    "contact_identifier": "+971582467567",
+    "parent_message_id": "4351559509",
+    "parent_ticket_id": "978795962",
+    "event_type": "INBOUND"
   }
 }
