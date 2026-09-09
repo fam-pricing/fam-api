@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-09T05:48:37.288Z",
+  "ts": "2026-09-09T05:49:36.776Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351497403",
-    "ticket_id": "960457082",
-    "message": "My wife already contacted you for the return of the security deposit of 1500 for Rimal 2, 1503. Kindly arrange the transfer to the given RAK account today. Thank you",
-    "channel_id": "585723",
-    "contact_id": "540922254",
-    "contact_name": "Alexandros Perakis",
-    "contact_identifier": "+971585106628",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4351497756",
+    "ticket_id": "979318577",
+    "message": "Sure, please double-check the unit’s availability with us on Friday evening, as the unit is listed on multiple booking platforms and we may receive a reservation at any time.\r\n\r\nTherefore, availability is subject to change until the booking is confirmed.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546323117",
+    "contact_name": "Mai",
+    "contact_identifier": "+971508443685",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
