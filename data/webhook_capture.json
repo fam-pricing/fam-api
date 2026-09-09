@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-09T12:29:18.355Z",
+  "ts": "2026-09-09T12:29:49.224Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351928430",
+    "type": "OUTBOUND",
+    "message_id": "4351928975",
     "ticket_id": "978279938",
-    "message": "Please check",
-    "channel_id": "585723",
+    "message": "As previously mentioned, the unit is listed on multiple booking platforms, and we may receive a confirmed reservation at any time. Unfortunately, we have now received another confirmed booking through a different booking platform, and therefore the unit is no longer available for your preferred dates.\r\n\r\nWe sincerely apologize for any inconvenience this may cause and appreciate your kind understanding.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545965650",
     "contact_name": "Bindu n",
     "contact_identifier": "+919831008925",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
