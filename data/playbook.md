@@ -1857,3 +1857,7 @@ Once received, I will send you a payment link to complete the deposit. After the
 ## Learned (2026-09-07)
 - If a lead asks whether cheque payments are accepted, respond: "Unfortunately, we do not accept cheque payments."
   (Learned from Faysal handling a re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-97378457.html)
+
+## Learned (2026-09-09)
+- If a guest raises a complaint about broken or poor-condition furniture and provides supporting photos, respond with: "Unfortunately, we are unable to replace the furniture or reduce the rate further, as the price quoted is the best we can offer at this time."
+  (Learned from Faysal handling Neelima re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q4rybf4K5g.html)
