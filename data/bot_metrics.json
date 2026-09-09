@@ -1,65 +1,5 @@
 [
   {
-    "ts": "2026-09-02T11:30:31.464Z",
-    "ticket_id": 977770026,
-    "lead_id": "message_lead_31723998",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1169,
-    "critic_pass": null,
-    "lead_quality": 30,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-09-02T11:32:25.271Z",
-    "ticket_id": 977852799,
-    "lead_id": "message_lead_31731792",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1066,
-    "critic_pass": null,
-    "lead_quality": 75,
-    "buying_stage": "HOT",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-09-02T11:34:26.790Z",
-    "ticket_id": 977852799,
-    "lead_id": "message_lead_31731792",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1175,
-    "critic_pass": null,
-    "lead_quality": 80,
-    "buying_stage": "HOT",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-09-02T11:37:04.104Z",
-    "ticket_id": 977852799,
-    "lead_id": "message_lead_31731792",
-    "action": "viewing_id_no_coords_escalated",
-    "tool_used": "book_viewing",
-    "response_time_ms": 9813,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-09-02T11:37:51.163Z",
-    "ticket_id": 977852799,
-    "lead_id": "message_lead_31731792",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 897,
-    "critic_pass": null,
-    "lead_quality": 80,
-    "buying_stage": "HOT",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-09-02T13:37:38.369Z",
     "ticket_id": 977852799,
     "lead_id": "message_lead_31731792",
@@ -4113,6 +4053,18 @@
     "critic_pass": null,
     "lead_quality": null,
     "buying_stage": null,
+    "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-09-09T12:02:28.626Z",
+    "ticket_id": 979183068,
+    "lead_id": "message_lead_31930938",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 883,
+    "critic_pass": null,
+    "lead_quality": 60,
+    "buying_stage": "WARM",
     "skip_reason": "bot_paused"
   }
 ]
