@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-09T06:44:28.703Z",
+  "ts": "2026-09-09T06:44:30.169Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351529635",
+    "type": "OUTBOUND",
+    "message_id": "4351529665",
     "ticket_id": "979369770",
-    "message": "Good day! Do you have any 3-bedroom apartment available for rent?",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "518185694",
     "contact_name": "Ma. Lalaine Lumbad",
     "contact_identifier": "+971506571935",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
