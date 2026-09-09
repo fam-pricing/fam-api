@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-09T05:37:36.555Z",
+  "ts": "2026-09-09T05:40:07.756Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4351493482",
+    "type": "INBOUND",
+    "message_id": "4351494395",
     "ticket_id": "979313139",
-    "message": "May if the the internet is working now or still the same",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "No honey it wasn’t working from the morning",
+    "channel_id": "585723",
     "contact_id": "545083162",
     "contact_name": "GANI EDEN HAWALED",
     "contact_identifier": "+972507398493",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4351493053",
+    "parent_ticket_id": "979313139",
+    "event_type": "INBOUND"
   }
 }
