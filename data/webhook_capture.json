@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-09T11:29:09.707Z",
+  "ts": "2026-09-09T11:47:57.555Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351858883",
-    "ticket_id": "979444892",
-    "message": "Confirm",
+    "type": "OUTBOUND",
+    "message_id": "4351880664",
+    "ticket_id": "950081332",
+    "message": "Hello Thi could you please update us on your checkout",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "538043163",
+    "contact_name": "Thi Tieu Hiep Nguyen",
+    "contact_identifier": "+971582652288",
     "channel_id": "585723",
-    "contact_id": "546361559",
-    "contact_name": "Mari",
-    "contact_identifier": "+79377390061",
-    "parent_message_id": "4351832024",
-    "parent_ticket_id": "979444892",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
