@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-09T05:56:52.386Z",
+  "ts": "2026-09-09T05:56:55.680Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351500414",
-    "ticket_id": "852583151",
-    "message": "the check in",
+    "type": "OUTBOUND",
+    "message_id": "4351500441",
+    "ticket_id": "949384142",
+    "message": "Apologies for the delay,\r\n\r\nAs this is a bank transfer, the payment needs to go through the bank’s approval process. It is currently being processed, and we expect to receive the payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "536870373",
+    "contact_name": "Asmae Elalaouì",
+    "contact_identifier": "+971523442425",
     "channel_id": "585723",
-    "contact_id": "450960431",
-    "contact_name": "Erica - fam living",
-    "contact_identifier": "+971544311300",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
