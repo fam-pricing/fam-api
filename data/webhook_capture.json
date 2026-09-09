@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-09T13:55:59.744Z",
+  "ts": "2026-09-09T13:56:54.767Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4352035052",
+    "type": "INBOUND",
+    "message_id": "4352036197",
     "ticket_id": "979491072",
-    "message": "The price is fixed, that said, the all-inclusive AED 9,000/month rate is already the best I can do for your dates. Ready to lock it in, or would you like to see the full listing first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I’d like to confirm the dates and speak with an agent, please.",
+    "channel_id": "1304636",
     "contact_id": "542955151",
     "contact_name": "Fadi",
     "contact_identifier": "+32470322359",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
