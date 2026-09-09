@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-09T10:39:23.565Z",
+  "ts": "2026-09-09T10:39:34.495Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4351803452",
-    "ticket_id": "979412167",
-    "message": "Unfortunately no as we are having long term bookings and 01 bedroom apartments are fully booked in Upside Living",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "528690765",
-    "contact_name": "Kélian",
-    "contact_identifier": "+33784324184",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4351803607",
+    "ticket_id": "979437035",
+    "message": "Good afternoon. I’m interested in this apartment. Is it available from September 30th? What is the price for October?",
+    "channel_id": "1304636",
+    "contact_id": "546359180",
+    "contact_name": "Alina",
+    "contact_identifier": "+971551989461",
+    "event_type": "INBOUND"
   }
 }
