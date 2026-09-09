@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-09T13:17:46.060Z",
+  "ts": "2026-09-09T13:22:11.548Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4351986700",
+    "type": "OUTBOUND",
+    "message_id": "4351991881",
     "ticket_id": "979003327",
-    "message": "The price you are quoting does not justify the condition",
-    "channel_id": "1304636",
+    "message": "We completely understand. However, please note that the unit will undergo a pre-arrival cleaning prior to your check-in.\r\n\r\nThe rate we have quoted is the best available rate we can offer for this unit, taking into consideration the current condition of the apartment. We have already adjusted the rate accordingly to reflect this.\r\n\r\nWe appreciate your understanding and hope this clarifies the pricing.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "535308552",
     "contact_name": "Neelima",
     "contact_identifier": "+971524995170",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
