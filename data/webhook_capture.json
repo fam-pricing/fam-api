@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-09T16:52:03.257Z",
+  "ts": "2026-09-09T16:52:48.911Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352204475",
+    "type": "OUTBOUND",
+    "message_id": "4352205033",
     "ticket_id": "979277120",
-    "message": "Hi, did you confirm the gym?",
-    "channel_id": "1304636",
+    "message": "Gym is included, no extra fee.\n\nMonday afternoon works, just confirm in the morning and we'll have everything ready. Shall I send you the location?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546305339",
     "contact_name": "Marcelo Goudard | Chief Growth Marketing Officer ~",
     "contact_identifier": "+971585789290",
-    "parent_message_id": "4351189935",
-    "parent_ticket_id": "979277120",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
