@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-09T13:51:31.100Z",
+  "ts": "2026-09-09T13:51:59.621Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352029541",
+    "type": "OUTBOUND",
+    "message_id": "4352030180",
     "ticket_id": "979491072",
-    "message": "Hi, I’d like to stay from September 22 to December 16. Please can you share your prices?",
-    "channel_id": "1304636",
+    "message": "That's 85 days, just under 3 months, so the monthly rate stays fixed for the whole stay. Want to see the photos and full listing details?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "542955151",
     "contact_name": "Fadi",
     "contact_identifier": "+32470322359",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
