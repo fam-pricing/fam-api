@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-10T14:44:42.983Z",
+  "ts": "2026-09-10T14:45:20.869Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4352993289",
+    "type": "INBOUND",
+    "message_id": "4352994026",
     "ticket_id": "979615781",
-    "message": "Yes, Amex is accepted through the payment link with a 3.1% fee. Take your time showing your girlfriend around, and just let us know when you're ready to go ahead!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "? 😅",
+    "channel_id": "1304636",
     "contact_id": "546420061",
     "contact_name": "Mattia Scolari",
     "contact_identifier": "+393517589533",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4352992799",
+    "parent_ticket_id": "979615781",
+    "event_type": "INBOUND"
   }
 }
