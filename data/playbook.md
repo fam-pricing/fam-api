@@ -1865,3 +1865,7 @@ Once received, I will send you a payment link to complete the deposit. After the
 ## Learned (2026-09-10)
 - If a lead asks whether bills are included, respond: "Please note that this unit will be available from 6th October onwards."
   (Learned from Faysal handling Marcelo Goudard | Chief Growth Marketing Officer ~ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
+
+## Learned (2026-09-10)
+- If a lead responds with confusion or uncertainty (e.g., "⁉️"), reply: Please note that the unit is listed across multiple booking platforms, so we may receive a confirmed reservation at any time.
+  (Learned from Faysal handling Marcelo Goudard | Chief Growth Marketing Officer ~ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
