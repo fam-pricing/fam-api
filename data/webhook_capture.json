@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-10T05:33:19.672Z",
+  "ts": "2026-09-10T05:35:24.155Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352415171",
-    "ticket_id": "979583823",
-    "message": "👍",
+    "type": "OUTBOUND",
+    "message_id": "4352415798",
+    "ticket_id": "979511483",
+    "message": "The apartment will be available only until 08th October",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545038753",
+    "contact_name": "Niko Preitenegger",
+    "contact_identifier": "+971585814884",
     "channel_id": "1304636",
-    "contact_id": "546411671",
-    "contact_name": "Виктор",
-    "contact_identifier": "+79197402624",
-    "parent_message_id": "4352413568",
-    "parent_ticket_id": "979583823",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
