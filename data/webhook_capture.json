@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-10T12:27:50.649Z",
+  "ts": "2026-09-10T12:28:25.624Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4352835319",
+    "type": "INBOUND",
+    "message_id": "4352836181",
     "ticket_id": "979658080",
-    "message": "Unfortunately we do not have any other 01 bedroom unit available in the same building",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Ok anything else?",
+    "channel_id": "1304636",
     "contact_id": "545038753",
     "contact_name": "Niko Preitenegger",
     "contact_identifier": "+971585814884",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
