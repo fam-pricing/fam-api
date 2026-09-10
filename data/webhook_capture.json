@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T08:13:36.070Z",
+  "ts": "2026-09-10T08:13:58.798Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352545179",
+    "type": "OUTBOUND",
+    "message_id": "4352545817",
     "ticket_id": "979615781",
-    "message": "So it’s accepted right?",
-    "channel_id": "1304636",
+    "message": "Yes, Amex is accepted through the payment link with a 3.1% processing fee. Shall I send that over now?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546420061",
     "contact_name": "Mattia Scolari",
     "contact_identifier": "+393517589533",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
