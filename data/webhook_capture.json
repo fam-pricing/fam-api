@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T12:33:55.289Z",
+  "ts": "2026-09-10T12:34:09.261Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352842994",
+    "type": "OUTBOUND",
+    "message_id": "4352843193",
     "ticket_id": "979632610",
-    "message": "Hello?",
-    "channel_id": "1304636",
+    "message": "Yes it is in 1st floor",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546424819",
     "contact_name": "HairByNicolas",
     "contact_identifier": "+971502337698",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
