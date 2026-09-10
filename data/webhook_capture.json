@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T05:12:03.904Z",
+  "ts": "2026-09-10T05:12:31.270Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352409278",
+    "type": "OUTBOUND",
+    "message_id": "4352409407",
     "ticket_id": "979583823",
-    "message": "Hello,\nIf I want to rent an apartment for October, what are the terms?",
-    "channel_id": "1304636",
+    "message": "For October, the unit requires the first and last month upfront plus a refundable security deposit of AED 2,000, and the rate is locked in for 3 months from your start date.\n\nAre you looking at a 1-month stay or longer?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546411671",
     "contact_name": "Виктор",
     "contact_identifier": "+79197402624",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
