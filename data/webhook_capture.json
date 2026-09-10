@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T07:12:26.180Z",
+  "ts": "2026-09-10T07:14:17.763Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352480385",
+    "type": "OUTBOUND",
+    "message_id": "4352482278",
     "ticket_id": "971874558",
-    "message": "Please send them we want to check out today",
-    "channel_id": "585723",
+    "message": "Let me inform this a early check in",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544066515",
     "contact_name": "Steven",
     "contact_identifier": "+971558818471",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
