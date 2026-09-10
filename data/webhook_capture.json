@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T08:47:49.814Z",
+  "ts": "2026-09-10T08:50:16.466Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352585327",
-    "ticket_id": "979581406",
-    "message": "Unfortunately I have a budget of 6k per month maximum",
+    "type": "OUTBOUND",
+    "message_id": "4352588047",
+    "ticket_id": "979511483",
+    "message": "I have checked with our team, and we are happy to extend your stay for an additional 11 nights at AED 3,000.\r\n\r\nKindly confirm if you would like to proceed, and I will share the payment link with you to complete the payment and confirm the extension.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545038753",
+    "contact_name": "Niko Preitenegger",
+    "contact_identifier": "+971585814884",
     "channel_id": "1304636",
-    "contact_id": "546410930",
-    "contact_name": "Stefano Bacino",
-    "contact_identifier": "+393495518831",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
