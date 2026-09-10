@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T05:22:48.201Z",
+  "ts": "2026-09-10T05:23:10.970Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352412238",
+    "type": "OUTBOUND",
+    "message_id": "4352412341",
     "ticket_id": "979583823",
-    "message": "Thank you!",
-    "channel_id": "1304636",
+    "message": "Great, Viktor. Shall I pencil in October 1st to get the ball rolling, or are you still deciding between the 1st and the 3rd?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546411671",
     "contact_name": "Виктор",
     "contact_identifier": "+79197402624",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
