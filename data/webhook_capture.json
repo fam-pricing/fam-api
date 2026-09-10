@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-10T06:24:42.785Z",
+  "ts": "2026-09-10T06:24:59.997Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4352437652",
+    "type": "INBOUND",
+    "message_id": "4352437854",
     "ticket_id": "979591746",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
+    "message": "I tried calling your number but none is working, why ?",
+    "channel_id": "585723",
     "contact_id": "546413666",
     "contact_name": "Paola",
     "contact_identifier": "+85295511820",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
