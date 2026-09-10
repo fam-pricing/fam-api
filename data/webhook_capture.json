@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T13:10:22.404Z",
+  "ts": "2026-09-10T13:10:37.327Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352884676",
-    "ticket_id": "979699993",
-    "message": "I received a call regarding some mail for extending the rental for the existing unit",
-    "channel_id": "1304636",
-    "contact_id": "537817977",
-    "contact_name": "Kanika",
-    "contact_identifier": "+919051525237",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4352884965",
+    "ticket_id": "979684093",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546439947",
+    "contact_name": "Christopher Warnes",
+    "contact_identifier": "+971555701366",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
