@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-10T05:51:25.595Z",
+  "ts": "2026-09-10T05:51:41.178Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4352421291",
+    "type": "INBOUND",
+    "message_id": "4352421384",
     "ticket_id": "979545440",
-    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Good day!",
+    "channel_id": "585723",
     "contact_id": "546397521",
     "contact_name": "Ksenia",
     "contact_identifier": "+79162582949",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
