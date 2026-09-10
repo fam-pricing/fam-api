@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T05:53:07.396Z",
+  "ts": "2026-09-10T05:56:09.951Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352421915",
+    "type": "OUTBOUND",
+    "message_id": "4352423023",
     "ticket_id": "979545440",
-    "message": "Check in 29 September \nCheck out 29 December",
-    "channel_id": "585723",
+    "message": "May I know your budget so I can check for the available options",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546397521",
     "contact_name": "Ksenia",
     "contact_identifier": "+79162582949",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
