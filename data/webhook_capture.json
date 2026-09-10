@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-10T07:06:51.904Z",
+  "ts": "2026-09-10T07:06:55.222Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352474828",
+    "type": "OUTBOUND",
+    "message_id": "4352474882",
     "ticket_id": "979599509",
-    "message": "Good",
-    "channel_id": "1304636",
+    "message": "Viewings finish at 6pm, so Saturday at 6pm is just a little too late. Could Saturday at 5pm work instead, or would earlier in the day be better?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "545227317",
     "contact_name": "Nasser Sardari",
     "contact_identifier": "+971525992449",
-    "parent_message_id": "4352474300",
-    "parent_ticket_id": "979599509",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
