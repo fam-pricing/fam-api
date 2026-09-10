@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-10T08:00:05.549Z",
+  "ts": "2026-09-10T08:00:39.778Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4352528626",
+    "type": "INBOUND",
+    "message_id": "4352529419",
     "ticket_id": "978540669",
-    "message": "Well noted Ali we will keep inform the same with the building",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "🙏",
+    "channel_id": "585723",
     "contact_id": "546065767",
     "contact_name": "Ali",
     "contact_identifier": "+971505008518",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4352528626",
+    "parent_ticket_id": "978540669",
+    "event_type": "INBOUND"
   }
 }
