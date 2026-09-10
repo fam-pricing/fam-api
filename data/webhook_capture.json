@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T04:57:40.497Z",
+  "ts": "2026-09-10T04:58:10.024Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352405242",
+    "type": "OUTBOUND",
+    "message_id": "4352405339",
     "ticket_id": "979581406",
-    "message": "Does you already know the price at January?",
-    "channel_id": "1304636",
+    "message": "Good question, Stefano. The studio at Upside Living is available from 1st October and we can lock in the rate for the first 3 months. For January (the 4th month), let me check the expected rate with the team and come back to you shortly.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546410930",
     "contact_name": "Stefano Bacino",
     "contact_identifier": "+393495518831",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
