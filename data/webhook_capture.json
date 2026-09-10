@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-10T10:42:10.570Z",
+  "ts": "2026-09-10T10:45:38.335Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352713957",
+    "type": "OUTBOUND",
+    "message_id": "4352717578",
     "ticket_id": "979658080",
-    "message": "Does Fäm has other units available in Peninusla 3 for monthly rent? From October 08. ongoing",
-    "channel_id": "1304636",
+    "message": "May I know for how many months you are looking for?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545038753",
     "contact_name": "Niko Preitenegger",
     "contact_identifier": "+971585814884",
-    "parent_message_id": "4352613505",
-    "parent_ticket_id": "979511483",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
