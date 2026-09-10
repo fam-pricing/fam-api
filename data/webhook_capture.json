@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T08:07:58.819Z",
+  "ts": "2026-09-10T08:08:24.393Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352538129",
-    "ticket_id": "979615781",
-    "message": "Perfect, thank you\n\nWhat would the total price be for the first 4 weeks, from September 12th?\n\nI’d like to start with the first month, see how everything goes, and then potentially continue for the rest of the season",
-    "channel_id": "1304636",
-    "contact_id": "546420061",
-    "contact_name": "Mattia Scolari",
-    "contact_identifier": "+393517589533",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4352538653",
+    "ticket_id": "978023203",
+    "message": "Unfortunately we do not have any apartment available within this budget at the moment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545885643",
+    "contact_name": "Hossam addin Mohammad",
+    "contact_identifier": "+971505183050",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
