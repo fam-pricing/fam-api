@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-10T09:22:28.306Z",
+  "ts": "2026-09-10T09:22:55.429Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4352624209",
+    "type": "INBOUND",
+    "message_id": "4352624695",
     "ticket_id": "950575440",
-    "message": "Unfortunately, we are unable to offer the rate of AED 14,500. The rate will remain at AED 16,500, as previously quoted.\r\n\r\nPlease confirm you would like to proceed with the extension",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Unfortunately I will not be able to continue",
+    "channel_id": "585723",
     "contact_id": "538178428",
     "contact_name": "BARBARA ALMEIDA CUNHA",
     "contact_identifier": "+971569589393",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
