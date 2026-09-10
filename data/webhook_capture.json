@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-10T14:42:52.576Z",
+  "ts": "2026-09-10T14:43:15.394Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4352991314",
+    "type": "INBOUND",
+    "message_id": "4352991669",
     "ticket_id": "979615781",
-    "message": "Ha, sorry about that! The deposit is AED 1,500 fully refundable. Which question did you want me to come back to?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is this a wardrobe?",
+    "channel_id": "1304636",
     "contact_id": "546420061",
     "contact_name": "Mattia Scolari",
     "contact_identifier": "+393517589533",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4352988275",
+    "parent_ticket_id": "979615781",
+    "event_type": "INBOUND"
   }
 }
