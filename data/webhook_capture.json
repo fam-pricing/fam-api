@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-10T17:22:42.918Z",
+  "ts": "2026-09-10T17:22:46.375Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4353124965",
+    "type": "OUTBOUND",
+    "message_id": "4353125035",
     "ticket_id": "979762031",
-    "message": "+971 4 542 9122 is this number one of your agents?",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "546462767",
     "contact_name": "Doris",
     "contact_identifier": "a57508e7-4f7c-47c7-4681-a77aa8d5a9a9",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
