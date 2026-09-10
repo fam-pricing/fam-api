@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-10T07:06:23.390Z",
+  "ts": "2026-09-10T07:06:27.670Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4352474300",
+    "type": "INBOUND",
+    "message_id": "4352474376",
     "ticket_id": "979599509",
-    "message": "Both studios are available, Cloud Tower and Laya Mansion at AED 5,000/mo. Which day this weekend works for viewings?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Saturday evening 6 ocolcok its good",
+    "channel_id": "1304636",
     "contact_id": "545227317",
     "contact_name": "Nasser Sardari",
     "contact_identifier": "+971525992449",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4352473683",
+    "parent_ticket_id": "979599509",
+    "event_type": "INBOUND"
   }
 }
