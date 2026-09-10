@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T04:55:35.296Z",
+  "ts": "2026-09-10T04:56:09.066Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352404828",
+    "type": "OUTBOUND",
+    "message_id": "4352404925",
     "ticket_id": "979581406",
-    "message": "Hello, I’m searching for a studio apartment (1 bedroom maximum) for the period from 1st October until 1st February (4 months) in business bay/azizi riviera, is this available?",
-    "channel_id": "1304636",
+    "message": "Stefano, yes, the studio at Upside Living is available from 1st October. One thing to flag: we can hold the rate for the first 3 months, but the 4th month would be priced at the rate applicable at that time. Does that work for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546410930",
     "contact_name": "Stefano Bacino",
     "contact_identifier": "+393495518831",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
