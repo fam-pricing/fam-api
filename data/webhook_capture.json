@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T09:07:57.033Z",
+  "ts": "2026-09-10T09:08:10.235Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352608182",
-    "ticket_id": "979511483",
-    "message": "Yes sure i will, are in this link any extra fees?",
+    "type": "OUTBOUND",
+    "message_id": "4352608433",
+    "ticket_id": "979514880",
+    "message": "Got your email and passport copy, Matty! Sending the payment link over to you now to lock in the dates.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "546384486",
+    "contact_name": "Matty Sillett",
+    "contact_identifier": "+447484825476",
     "channel_id": "1304636",
-    "contact_id": "545038753",
-    "contact_name": "Niko Preitenegger",
-    "contact_identifier": "+971585814884",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
