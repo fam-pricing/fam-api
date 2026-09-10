@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T08:30:56.837Z",
+  "ts": "2026-09-10T08:31:42.903Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352566113",
-    "ticket_id": "979623053",
-    "message": "As we discussed earlier. Tenant will stay in apartment for 1 more month",
-    "channel_id": "1304636",
-    "contact_id": "543261378",
-    "contact_name": "OLEKSANDR SOBITNIAK",
-    "contact_identifier": "+971585744818",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4352567164",
+    "ticket_id": "973383488",
+    "message": "Payment link *-* https://totalpay.ae/payment/20260910146aa26ad244580",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544455671",
+    "contact_name": "Alexander",
+    "contact_identifier": "+380972452745",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
