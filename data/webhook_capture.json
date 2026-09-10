@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T05:49:36.354Z",
+  "ts": "2026-09-10T05:49:59.081Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352420570",
-    "ticket_id": "979511483",
-    "message": "Okay, would it be possible to extend from 27.09-08.10?",
+    "type": "OUTBOUND",
+    "message_id": "4352420713",
+    "ticket_id": "979566106",
+    "message": "Unfortunately, this unit is no longer available, as we have received another confirmed booking for the same unit.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546406860",
+    "contact_name": "AMIRHOSSEIN HOUSHMANDI",
+    "contact_identifier": "+971507166400",
     "channel_id": "1304636",
-    "contact_id": "545038753",
-    "contact_name": "Niko Preitenegger",
-    "contact_identifier": "+971585814884",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
