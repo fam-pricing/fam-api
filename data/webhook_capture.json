@@ -1,17 +1,19 @@
 {
-  "ts": "2026-09-10T08:10:04.731Z",
+  "ts": "2026-09-10T08:10:11.454Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4352540830",
+    "message_id": "4352540991",
     "ticket_id": "979615781",
-    "message": "Ok thank you",
+    "message": "Is this your best price?",
     "channel_id": "1304636",
     "contact_id": "546420061",
     "contact_name": "Mattia Scolari",
     "contact_identifier": "+393517589533",
+    "parent_message_id": "4352538861",
+    "parent_ticket_id": "979615781",
     "event_type": "INBOUND"
   }
 }
