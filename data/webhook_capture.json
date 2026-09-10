@@ -1,19 +1,17 @@
 {
-  "ts": "2026-09-10T11:34:30.933Z",
+  "ts": "2026-09-10T11:36:41.361Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352770315",
-    "ticket_id": "979277120",
-    "message": "U confirmed it was in cloud tower B",
-    "channel_id": "1304636",
-    "contact_id": "546305339",
-    "contact_name": "Marcelo Goudard | Chief Growth Marketing Officer ~",
-    "contact_identifier": "+971585789290",
-    "parent_message_id": "4352205877",
-    "parent_ticket_id": "979277120",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4352773250",
+    "ticket_id": "979672084",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
+    "contact_id": "546436768",
+    "contact_name": "Dipendra",
+    "contact_identifier": "54a8912f-8c1d-4acd-3e16-43ae8ff964bb",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
