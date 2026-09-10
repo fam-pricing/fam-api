@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-10T12:36:14.759Z",
+  "ts": "2026-09-10T12:36:29.074Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4352845829",
+    "type": "INBOUND",
+    "message_id": "4352846088",
     "ticket_id": "979663064",
-    "message": "At the moment, we do not have any vacancies. However, we will reach out to you if any openings become available in the future. Thank you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "546433899",
     "contact_name": "✨",
     "contact_identifier": "+923263023110",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4352845829",
+    "parent_ticket_id": "979663064",
+    "event_type": "INBOUND"
   }
 }
