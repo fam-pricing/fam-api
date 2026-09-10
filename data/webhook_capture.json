@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T09:11:14.239Z",
+  "ts": "2026-09-10T09:11:36.678Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352611757",
+    "type": "OUTBOUND",
+    "message_id": "4352612118",
     "ticket_id": "979514880",
-    "message": "Okay thank you !",
-    "channel_id": "1304636",
+    "message": "Got it, just send over your passport or ID copy when you're ready and we'll get that payment link across to you.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546384486",
     "contact_name": "Matty Sillett",
     "contact_identifier": "+447484825476",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
