@@ -1861,3 +1861,7 @@ Once received, I will send you a payment link to complete the deposit. After the
 ## Learned (2026-09-09)
 - If a guest raises a complaint about broken or poor-condition furniture and provides supporting photos, respond with: "Unfortunately, we are unable to replace the furniture or reduce the rate further, as the price quoted is the best we can offer at this time."
   (Learned from Faysal handling Neelima re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q4rybf4K5g.html)
+
+## Learned (2026-09-10)
+- If a lead asks whether bills are included, respond: "Please note that this unit will be available from 6th October onwards."
+  (Learned from Faysal handling Marcelo Goudard | Chief Growth Marketing Officer ~ re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html)
