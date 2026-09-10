@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T09:33:45.946Z",
+  "ts": "2026-09-10T09:34:50.305Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352637298",
+    "type": "OUTBOUND",
+    "message_id": "4352638639",
     "ticket_id": "950575440",
-    "message": "When is the check out date ?",
-    "channel_id": "585723",
+    "message": "Your check out date is scheduled on 17th September",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "538178428",
     "contact_name": "BARBARA ALMEIDA CUNHA",
     "contact_identifier": "+971569589393",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
