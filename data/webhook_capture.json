@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T05:20:08.509Z",
+  "ts": "2026-09-10T05:20:31.372Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352411450",
+    "type": "OUTBOUND",
+    "message_id": "4352411594",
     "ticket_id": "979583823",
-    "message": "I understand. I’m still waiting for a response regarding other properties, and once I’ve made a decision, I’ll let you know—okay?",
-    "channel_id": "1304636",
+    "message": "Take your time. Once you've decided, just let me know which property you're going with and we'll take it from there.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546411671",
     "contact_name": "Виктор",
     "contact_identifier": "+79197402624",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
