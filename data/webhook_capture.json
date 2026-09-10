@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T07:53:15.290Z",
+  "ts": "2026-09-10T07:53:19.092Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352521521",
-    "ticket_id": "922682137",
-    "message": "Bank Name: Abu Dhabi Commercial Bank PJSC\nAccount Title: CHASE STEVEN JADE BITZ\nAccount Number: 14526059920001\nIBAN: AE820030014526059920001\nCurrency: AED\nSWIFT code: ADCBAEAA",
+    "type": "OUTBOUND",
+    "message_id": "4352521614",
+    "ticket_id": "941501853",
+    "message": "Can I have an update on the payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535128769",
+    "contact_name": "Alex",
+    "contact_identifier": "+256742443400",
     "channel_id": "585723",
-    "contact_id": "531223871",
-    "contact_name": "CHASE STEVEN-JADE BITZ",
-    "contact_identifier": "+971545467910",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
