@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-10T12:16:23.964Z",
+  "ts": "2026-09-10T12:22:43.309Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4352820187",
-    "ticket_id": "977583803",
-    "message": "Please note that, unfortunately, we are unable to extend your stay beyond the current check-out date. The owner has already scheduled the maintenance team to carry out the required maintenance work immediately after your check-out.\r\n\r\nWe sincerely apologize for any inconvenience this may cause and truly appreciate your understanding and cooperation.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545761644",
-    "contact_name": "Noor Nabulsi",
-    "contact_identifier": "+971564553807",
+    "type": "INBOUND",
+    "message_id": "4352827364",
+    "ticket_id": "979644848",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "539566355",
+    "contact_name": "Matias Ariel Griszka",
+    "contact_identifier": "+971501784347",
+    "parent_message_id": "4352818410",
+    "parent_ticket_id": "979644848",
+    "event_type": "INBOUND"
   }
 }
