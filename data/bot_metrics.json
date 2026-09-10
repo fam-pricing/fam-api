@@ -3874,5 +3874,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-09-10T06:50:16.354Z",
+    "ticket_id": 979596407,
+    "lead_id": "message_lead_31988296",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1036,
+    "critic_pass": null,
+    "lead_quality": 35,
+    "buying_stage": "COOL",
+    "skip_reason": "ticket_locked"
   }
 ]
