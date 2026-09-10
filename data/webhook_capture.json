@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-10T06:15:06.554Z",
+  "ts": "2026-09-10T06:16:54.913Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4352432451",
-    "ticket_id": "949384142",
-    "message": "Could you please give me a contact number so I don’t have to come to the office?",
+    "type": "OUTBOUND",
+    "message_id": "4352433341",
+    "ticket_id": "979545440",
+    "message": "Allow me to check",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546397521",
+    "contact_name": "Ksenia",
+    "contact_identifier": "+79162582949",
     "channel_id": "585723",
-    "contact_id": "536870373",
-    "contact_name": "Asmae Elalaouì",
-    "contact_identifier": "+971523442425",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
