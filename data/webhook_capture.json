@@ -1,17 +1,19 @@
 {
-  "ts": "2026-09-10T14:40:21.315Z",
+  "ts": "2026-09-10T14:42:24.731Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4352988512",
+    "message_id": "4352990792",
     "ticket_id": "979615781",
-    "message": "Is this a wardrobe?",
+    "message": "Can you reply to this question first? 😅",
     "channel_id": "1304636",
     "contact_id": "546420061",
     "contact_name": "Mattia Scolari",
     "contact_identifier": "+393517589533",
+    "parent_message_id": "4352988512",
+    "parent_ticket_id": "979615781",
     "event_type": "INBOUND"
   }
 }
