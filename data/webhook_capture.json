@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-11T22:06:00.169Z",
+  "ts": "2026-09-11T22:06:24.016Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354051703",
+    "type": "OUTBOUND",
+    "message_id": "4354052049",
     "ticket_id": "980004470",
-    "message": "What is monthly billing?",
-    "channel_id": "1304636",
+    "message": "Rent is billed monthly, so you pay each month rather than upfront for the full term. Were you leaning towards 2 or 3 months?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546542729",
     "contact_name": "NiKo",
     "contact_identifier": "+971542774675",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
