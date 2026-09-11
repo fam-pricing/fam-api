@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-11T20:07:22.030Z",
+  "ts": "2026-09-11T20:07:59.519Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4354020391",
+    "type": "INBOUND",
+    "message_id": "4354020568",
     "ticket_id": "979997691",
-    "message": "The rates are set in 3-month blocks, so for 4 months the first 3 are locked at AED 7,000/month and the 4th is confirmed separately based on market at that time. The only extra cost is a refundable security deposit of AED 1,500, returned within 14 working days after checkout. When are you looking to move in?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "only security deposit 1500 aed and any extra charge?",
+    "channel_id": "1304636",
     "contact_id": "546539727",
     "contact_name": "Efza",
     "contact_identifier": "+905333217276",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
