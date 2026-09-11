@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-11T20:14:44.820Z",
+  "ts": "2026-09-11T20:14:53.899Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354022699",
+    "type": "OUTBOUND",
+    "message_id": "4354022723",
     "ticket_id": "979997691",
-    "message": "yes we can come",
-    "channel_id": "1304636",
+    "message": "Sure, happy to check what else we have. What are you looking for, different area, size, or budget?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546539727",
     "contact_name": "Efza",
     "contact_identifier": "+905333217276",
-    "parent_message_id": "4354022497",
-    "parent_ticket_id": "979997691",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
