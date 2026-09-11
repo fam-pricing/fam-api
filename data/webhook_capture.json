@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-11T12:37:47.201Z",
+  "ts": "2026-09-11T12:37:57.207Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4353707219",
-    "ticket_id": "979925263",
-    "message": "Image",
+    "type": "OUTBOUND",
+    "message_id": "4353707374",
+    "ticket_id": "979697764",
+    "message": "Our team is in the lobby",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "546323117",
+    "contact_name": "Mai",
+    "contact_identifier": "+971508443685",
     "channel_id": "1304636",
-    "contact_id": "537335462",
-    "contact_name": "salima",
-    "contact_identifier": "+79991290913",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
