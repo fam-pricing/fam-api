@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-11T18:55:55.059Z",
+  "ts": "2026-09-11T18:58:01.099Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4353993547",
+    "type": "INBOUND",
+    "message_id": "4353994509",
     "ticket_id": "979988560",
-    "message": "We don't have a video, but the listing has photos: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-11-binghatti-amber-15165649.html, a viewing would give you a much better feel for it. What time tomorrow suits you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "first 2 payments will be 7k and the last 5k, right?",
+    "channel_id": "1304636",
     "contact_id": "546535066",
     "contact_name": "kyla lau’",
     "contact_identifier": "+971503027709",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4353993210",
+    "parent_ticket_id": "979988560",
+    "event_type": "INBOUND"
   }
 }
