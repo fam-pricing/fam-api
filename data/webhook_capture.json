@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-11T20:15:36.733Z",
+  "ts": "2026-09-11T20:15:46.494Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4354022993",
+    "type": "INBOUND",
+    "message_id": "4354023046",
     "ticket_id": "979998033",
-    "message": "Welcome, Mohamed. What are you looking for in a holiday home, short stay or something longer term?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Could you please tell me when is the availability and how much is the price for two months",
+    "channel_id": "1304636",
     "contact_id": "546539863",
     "contact_name": "Mohamed Sarhan",
     "contact_identifier": "+971585885126",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
