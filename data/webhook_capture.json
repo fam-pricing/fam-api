@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-11T20:09:26.726Z",
+  "ts": "2026-09-11T20:09:50.683Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354021018",
+    "type": "OUTBOUND",
+    "message_id": "4354021135",
     "ticket_id": "979997691",
-    "message": "bill included right?",
-    "channel_id": "1304636",
+    "message": "Yes, bills are included. The only extra is the AED 1,500 refundable security deposit. When are you thinking of moving in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546539727",
     "contact_name": "Efza",
     "contact_identifier": "+905333217276",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
