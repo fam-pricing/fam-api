@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-11T19:41:45.425Z",
+  "ts": "2026-09-11T19:41:52.052Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354011325",
+    "type": "OUTBOUND",
+    "message_id": "4354011375",
     "ticket_id": "979583823",
-    "message": "Can I pay in cash at your office?",
-    "channel_id": "1304636",
+    "message": "Totally understand. Everything goes directly through us, no third-party platforms. You can pay by bank transfer, cash, or card (card has a 3.1% fee), and bank transfer gives you a clear paper trail on both sides. Does that help with the concern, or is there a specific part of the process you'd want more detail on?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546411671",
     "contact_name": "Виктор",
     "contact_identifier": "+79197402624",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
