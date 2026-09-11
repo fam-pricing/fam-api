@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-11T19:38:45.751Z",
+  "ts": "2026-09-11T19:39:45.457Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4354010183",
+    "type": "INBOUND",
+    "message_id": "4354010574",
     "ticket_id": "979583823",
-    "message": "We don't process through Airbnb, everything goes directly with us. Does October 3rd still work for you, or are you leaning toward a different date?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "What payment methods are available?",
+    "channel_id": "1304636",
     "contact_id": "546411671",
     "contact_name": "Виктор",
     "contact_identifier": "+79197402624",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
