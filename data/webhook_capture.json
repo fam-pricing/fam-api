@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-11T10:47:58.786Z",
+  "ts": "2026-09-11T10:50:54.418Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4353596311",
+    "type": "OUTBOUND",
+    "message_id": "4353599038",
     "ticket_id": "979812958",
-    "message": "Ok, got it",
-    "channel_id": "585723",
+    "message": "Payment link for outstanding amount - https://totalpay.ae/payment/20260911186aa3dcaec0dcc\r\n\r\nPayment link for extension - https://totalpay.ae/payment/20260911016aa3dcd9316c5",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "542447225",
     "contact_name": "Alim",
     "contact_identifier": "+77029993929",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
