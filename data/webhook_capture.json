@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-11T20:15:17.446Z",
+  "ts": "2026-09-11T20:15:36.733Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354022876",
-    "ticket_id": "979997691",
-    "message": "budget is 6000-6500 / bill included",
+    "type": "OUTBOUND",
+    "message_id": "4354022993",
+    "ticket_id": "979998033",
+    "message": "Welcome, Mohamed. What are you looking for in a holiday home, short stay or something longer term?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "546539863",
+    "contact_name": "Mohamed Sarhan",
+    "contact_identifier": "+971585885126",
     "channel_id": "1304636",
-    "contact_id": "546539727",
-    "contact_name": "Efza",
-    "contact_identifier": "+905333217276",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
