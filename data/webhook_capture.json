@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-11T18:43:18.001Z",
+  "ts": "2026-09-11T18:43:56.896Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4353987713",
+    "type": "OUTBOUND",
+    "message_id": "4353988093",
     "ticket_id": "979988560",
-    "message": "Hello! I’m interested in the following apartments and currently looking to check in on 13 September 2026 and check out on 6 December 2026.\n\nPlease let me know the apartments in which are available for these dates and the total price breakdown for each according to the stay. Thank you!",
-    "channel_id": "1304636",
+    "message": "The 1BR in Binghatti Amber, JVC is available for 13 Sep to 6 Dec. That's roughly 84 days, so the total comes to around AED 19,600 based on the monthly rate. Would you like more details on the property before deciding?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546535066",
     "contact_name": "kyla lau’",
     "contact_identifier": "+971503027709",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
