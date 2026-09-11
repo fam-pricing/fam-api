@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-11T08:07:37.381Z",
+  "ts": "2026-09-11T08:09:35.824Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4353426132",
+    "type": "OUTBOUND",
+    "message_id": "4353428163",
     "ticket_id": "979566106",
-    "message": "im looking for same price",
-    "channel_id": "1304636",
+    "message": "Unfortunately, we do not have any apartments available at the same rate.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546406860",
     "contact_name": "AMIRHOSSEIN HOUSHMANDI",
     "contact_identifier": "+971507166400",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
