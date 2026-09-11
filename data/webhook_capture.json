@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-11T11:36:44.050Z",
+  "ts": "2026-09-11T11:37:11.265Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4353642170",
+    "type": "OUTBOUND",
+    "message_id": "4353642571",
     "ticket_id": "979583823",
-    "message": "I’d like to book your apartment, but I’m a bit hesitant about having to pay for two months upfront; could we pay a smaller amount now and pay the rest when extending the stay?",
-    "channel_id": "1304636",
+    "message": "The second month upfront isn't an extra cost, Viktor, if you extend, it rolls into month two, and if you don't, it comes straight back to you. You're essentially just securing the unit. Would you like to go ahead with October 3rd?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546411671",
     "contact_name": "Виктор",
     "contact_identifier": "+79197402624",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
