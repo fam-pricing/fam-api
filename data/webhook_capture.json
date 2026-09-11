@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-11T07:37:18.478Z",
+  "ts": "2026-09-11T07:38:40.984Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4353393660",
+    "type": "INBOUND",
+    "message_id": "4353394882",
     "ticket_id": "979718589",
-    "message": "As per your request, please find the rates for Elite Business Bay 02 bedroom apartment\r\n\r\nSeptember: AED 9,000\r\nOctober: AED 11,000\r\nNovember: AED 13,500\r\n\r\nPlease note that a security deposit of AED 3,000 is required. The booking will be on a monthly basis only (30 nights each month).\r\n\r\n*\r\n*For a long-term stay:\r\n\r\n*\r\n\r\nTo secure a 3-month or 6-month booking, the first month's rent, last month's rent, and security deposit must be paid in advance. Once the payment is received, we will be able to reserve the unit and secure the agreed rate for the confirmed booking period.\r\n\r\nThank you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Have to reschedule",
+    "channel_id": "1304636",
     "contact_id": "544404168",
     "contact_name": "Moni",
     "contact_identifier": "+971502628181",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4353392590",
+    "parent_ticket_id": "979718589",
+    "event_type": "INBOUND"
   }
 }
