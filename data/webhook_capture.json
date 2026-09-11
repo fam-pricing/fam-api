@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-11T11:30:39.197Z",
+  "ts": "2026-09-11T11:30:57.195Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4353636401",
-    "ticket_id": "979840541",
-    "message": "Please complete the check in form to update the details with the building",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "546490137",
-    "contact_name": "Sultan Almansoori",
-    "contact_identifier": "+971525288153",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4353636731",
+    "ticket_id": "979894284",
+    "message": "Payment in process, no worries",
+    "channel_id": "1304636",
+    "contact_id": "542447225",
+    "contact_name": "Alim",
+    "contact_identifier": "+77029993929",
+    "event_type": "INBOUND"
   }
 }
