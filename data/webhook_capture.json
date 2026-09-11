@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-11T12:45:35.324Z",
+  "ts": "2026-09-11T13:06:10.942Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4353714465",
+    "type": "INBOUND",
+    "message_id": "4353734847",
     "ticket_id": "979697764",
-    "message": "Unfortunately this is the only apartment which is available at the moment as all the other units are fully booked",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "546323117",
     "contact_name": "Mai",
     "contact_identifier": "+971508443685",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4353714465",
+    "parent_ticket_id": "979697764",
+    "event_type": "INBOUND"
   }
 }
