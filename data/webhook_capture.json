@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-11T18:59:46.824Z",
+  "ts": "2026-09-11T19:00:34.304Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4353995209",
+    "type": "OUTBOUND",
+    "message_id": "4353995545",
     "ticket_id": "979988560",
-    "message": "👍",
-    "channel_id": "1304636",
+    "message": "The monthly rate is AED 7,000, yes, first two months at AED 7,000 each, then the remaining days pro-rated to around AED 5,600, totalling roughly AED 19,600.\n\nWe don't have a video but the photos are all on the listing. What time tomorrow works for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546535066",
     "contact_name": "kyla lau’",
     "contact_identifier": "+971503027709",
-    "parent_message_id": "4353995113",
-    "parent_ticket_id": "979988560",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
