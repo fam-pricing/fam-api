@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-12T13:09:44.861Z",
+  "ts": "2026-09-12T13:15:13.825Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354306885",
-    "ticket_id": "979894284",
-    "message": "Whats going on?",
+    "type": "OUTBOUND",
+    "message_id": "4354309429",
+    "ticket_id": "979997691",
+    "message": "You may extend the stay on a monthly basis; however, please note that we are unable to guarantee availability for future months. As the unit is listed on multiple booking platforms, we may receive new reservations at any time.\r\n\r\nTherefore, availability for any further extension will be subject to the bookings received at that time",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546539727",
+    "contact_name": "Efza",
+    "contact_identifier": "+905333217276",
     "channel_id": "1304636",
-    "contact_id": "542447225",
-    "contact_name": "Alim",
-    "contact_identifier": "+77029993929",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
