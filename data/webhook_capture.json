@@ -1,19 +1,18 @@
 {
-  "ts": "2026-09-12T10:47:01.161Z",
+  "ts": "2026-09-12T10:47:25.045Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354243546",
-    "ticket_id": "980055924",
-    "message": "🙏",
-    "channel_id": "1304636",
-    "contact_id": "516460645",
-    "contact_name": "Mohamed",
-    "contact_identifier": "+971503642418",
-    "parent_message_id": "4354243482",
-    "parent_ticket_id": "980055924",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4354243693",
+    "ticket_id": "980055978",
+    "message": "Thanks! You will get a reply by email if you leave this website.",
+    "contact_id": "546560351",
+    "contact_name": "Armin",
+    "contact_email": "phonetic@online.de",
+    "contact_identifier": "c8f34bec-402f-4976-1cae-4fa7a373f7ef",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
