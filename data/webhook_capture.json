@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-12T11:33:59.139Z",
+  "ts": "2026-09-12T11:34:35.977Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354264646",
+    "type": "OUTBOUND",
+    "message_id": "4354264934",
     "ticket_id": "979988560",
-    "message": "Hello! Good afternoon. \nWhat are the terms of payment for this apartment?",
-    "channel_id": "1304636",
+    "message": "Payment terms are: AED 7,000/month, so for 13 Sep to 6 Dec that's two full months plus a pro-rated stretch of around AED 5,600, coming to roughly AED 19,600 total. Does tomorrow afternoon still work for the viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546535066",
     "contact_name": "kyla lau’",
     "contact_identifier": "+971503027709",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
