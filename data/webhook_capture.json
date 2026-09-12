@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-12T12:46:38.604Z",
+  "ts": "2026-09-12T12:47:16.643Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4354296682",
+    "type": "INBOUND",
+    "message_id": "4354296885",
     "ticket_id": "980066862",
-    "message": "Yes, exactly right. AED 9,000/month is locked in for the first 3-month block from October 17, and from January the rate gets set fresh based on market conditions at that point. Does that work for you, or would you like to know more about how the January rate typically moves?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "👍",
+    "channel_id": "1304636",
     "contact_id": "546564573",
     "contact_name": "Rashmi",
     "contact_identifier": "+918249631862",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4354296682",
+    "parent_ticket_id": "980066862",
+    "event_type": "INBOUND"
   }
 }
