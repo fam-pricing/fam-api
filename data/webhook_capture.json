@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-12T11:08:53.123Z",
+  "ts": "2026-09-12T11:11:31.319Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354253616",
+    "type": "OUTBOUND",
+    "message_id": "4354254831",
     "ticket_id": "975826365",
-    "message": "Just to clarify; we do not need to talk to reception, correct?",
-    "channel_id": "585723",
+    "message": "Yes we have already shared the details with the reception so you can proceed with the check in",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545257027",
     "contact_name": "Damian",
     "contact_identifier": "+447856454139",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
