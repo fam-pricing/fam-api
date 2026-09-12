@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-12T13:55:47.284Z",
+  "ts": "2026-09-12T13:56:31.339Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4354328283",
+    "type": "INBOUND",
+    "message_id": "4354328565",
     "ticket_id": "979615781",
-    "message": "Yes, this is Tharushi from the Reservations Team.\r\n\r\nPlease note that the quoted rate includes all utilities, including water, electricity, Wi-Fi, DTCM fees, and VAT.\r\n\r\nHowever, please be advised that daily housekeeping is not included. If you require housekeeping services during your stay, we can arrange them upon request at an additional charge per cleaning.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Ok\nWhat’s the price for the cleaning service?",
+    "channel_id": "1304636",
     "contact_id": "546420061",
     "contact_name": "Mattia Scolari",
     "contact_identifier": "+393517589533",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
