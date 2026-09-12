@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-12T14:09:23.786Z",
+  "ts": "2026-09-12T14:09:25.043Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354334919",
+    "type": "OUTBOUND",
+    "message_id": "4354334935",
     "ticket_id": "980076215",
-    "message": "Hey how are you?",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "460279849",
     "contact_name": "Yury Fäm",
     "contact_identifier": "+971529865657",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
