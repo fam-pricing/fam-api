@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-12T13:30:22.567Z",
+  "ts": "2026-09-12T13:30:56.525Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4354316376",
+    "type": "INBOUND",
+    "message_id": "4354316640",
     "ticket_id": "978083202",
-    "message": "You need to proceed with this",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Yes but only for a month (30 days)",
+    "channel_id": "585723",
     "contact_id": "540277137",
     "contact_name": ".",
     "contact_identifier": "+919663361331",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
