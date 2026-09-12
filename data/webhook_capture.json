@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-12T09:38:51.541Z",
+  "ts": "2026-09-12T09:41:07.160Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4354212670",
-    "ticket_id": "979995094",
-    "message": "Well noted your arrival time and our team will contact you 07 days prior to the check in date to complete the check in process",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "546538497",
-    "contact_name": "Ashik morar",
-    "contact_identifier": "+447709119213",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4354213641",
+    "ticket_id": "979997691",
+    "message": "for this apartment, payment schedule is monthly right?",
+    "channel_id": "1304636",
+    "contact_id": "546539727",
+    "contact_name": "Efza",
+    "contact_identifier": "+905333217276",
+    "parent_message_id": "4354022497",
+    "parent_ticket_id": "979997691",
+    "event_type": "INBOUND"
   }
 }
