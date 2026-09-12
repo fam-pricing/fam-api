@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-12T12:45:05.418Z",
+  "ts": "2026-09-12T12:46:09.558Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4354296063",
+    "type": "INBOUND",
+    "message_id": "4354296498",
     "ticket_id": "980066862",
-    "message": "The rate for months 4, 6 can't be locked in upfront, it gets confirmed closer to the time based on market conditions, so there's no fixed % difference we can give right now. October 17 is still available though. Does AED 9,000/month work as a starting point for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "That does work for me .. october starts as 9k /month. \nThis will be a 3 month block? Correct? \n\nFrom January onwards it will be different?",
+    "channel_id": "1304636",
     "contact_id": "546564573",
     "contact_name": "Rashmi",
     "contact_identifier": "+918249631862",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4354296063",
+    "parent_ticket_id": "980066862",
+    "event_type": "INBOUND"
   }
 }
