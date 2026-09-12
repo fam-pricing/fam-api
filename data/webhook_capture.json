@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-12T09:35:16.712Z",
+  "ts": "2026-09-12T09:35:53.771Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354210911",
+    "type": "OUTBOUND",
+    "message_id": "4354211271",
     "ticket_id": "979712004",
-    "message": "Hello ?",
-    "channel_id": "1304636",
+    "message": "The rate is fixed for the first 3 months at AED 13,000/month, so AED 39,000 for that block, months 4, 6 would be reviewed at that point. Does your company need a confirmed total for the full period before they can approve it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "536545450",
     "contact_name": "~",
     "contact_identifier": "+971585857886",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
