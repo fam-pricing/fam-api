@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-12T11:28:21.580Z",
+  "ts": "2026-09-12T11:28:57.269Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354262034",
+    "type": "OUTBOUND",
+    "message_id": "4354262289",
     "ticket_id": "980059805",
-    "message": "Hello\n\nCheck in 23 Sep\nCheck out 23 Oct\n2 bed\nAll bills inclusive\nAvailabe? \nHow much\nThanks",
-    "channel_id": "1304636",
+    "message": "That unit isn't available for 23 Sep, 23 Oct, but we have three 2BR all-inclusive options ready for those dates, one in Business Bay at 9,000/mo, one in Aykon City at 11,500/mo, and one in Downtown Views 2 at 13,000/mo. Which one would you like more details on?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546561765",
     "contact_name": ".",
     "contact_identifier": "+971554275581",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
