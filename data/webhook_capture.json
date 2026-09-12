@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-12T08:43:07.839Z",
+  "ts": "2026-09-12T08:43:59.212Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354184776",
+    "type": "OUTBOUND",
+    "message_id": "4354185232",
     "ticket_id": "979894284",
-    "message": "I just can’t do payment because money in process, ok?",
-    "channel_id": "1304636",
+    "message": "Unfortunately, you will need to either complete the payment or proceed with the check-out, as there is also an unpaid balance from the previous month.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "542447225",
     "contact_name": "Alim",
     "contact_identifier": "+77029993929",
-    "parent_message_id": "4354183302",
-    "parent_ticket_id": "979894284",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
