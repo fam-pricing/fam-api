@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-12T08:17:42.852Z",
+  "ts": "2026-09-12T08:18:35.868Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4354173217",
-    "ticket_id": "980015175",
-    "message": "Allow me to check",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "546547458",
-    "contact_name": "Summertime🇮🇨🩵",
-    "contact_identifier": "+971585979736",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4354173645",
+    "ticket_id": "980039110",
+    "message": "*131051: Message type unknown*\n\nWhatsApp did not share the content of this message with Trengo.",
+    "channel_id": "585723",
+    "contact_id": "546554308",
+    "contact_name": "",
+    "contact_identifier": "+554268238305",
+    "event_type": "INBOUND"
   }
 }
