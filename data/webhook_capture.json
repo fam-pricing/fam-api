@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-12T10:46:07.326Z",
+  "ts": "2026-09-12T10:46:08.421Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354243193",
+    "type": "OUTBOUND",
+    "message_id": "4354243192",
     "ticket_id": "980055978",
-    "message": "Hello, we are interested in an Apartment for rent in The Sustainable City\nFULLY FURNISHED STUDIO|\nas described, for 48,000 dirhams per month. We would like to rent it in April 2027. We’ve been there three times already.Until now, use of the swimming pool within the Sustainable City complex and the fitness centre has not been permitted. Has this now changed? Kind regards,\nArmin from Germany",
-    "channel_id": "883603",
+    "message": "It's a beautiful day at fäm Living; how can I help you?",
     "contact_id": "546560351",
     "contact_name": "Armin",
     "contact_identifier": "c8f34bec-402f-4976-1cae-4fa7a373f7ef",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
