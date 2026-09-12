@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-12T07:54:11.437Z",
+  "ts": "2026-09-12T07:54:43.354Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354161828",
+    "type": "OUTBOUND",
+    "message_id": "4354162031",
     "ticket_id": "980035422",
-    "message": "Hello! Is the apartment available from October 1st for minimum 2 months rental? (Possibly more)\nIs there a deposit? \nWhat other things are required from my part? \nThanks",
-    "channel_id": "1304636",
+    "message": "Yes, available from October 1st, no issue at all. For a 2-month stay you'd need a refundable security deposit of AED 1,000 (returned within 14 working days after check-out), plus the first and last month upfront. We'd just need a copy of your passport or ID and your email to get things moving. Does October 1st still work as your start date?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546552912",
     "contact_name": "Mp",
     "contact_identifier": "+971504357642",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
