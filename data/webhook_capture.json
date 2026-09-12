@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-12T01:09:26.639Z",
+  "ts": "2026-09-12T01:09:28.591Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354092208",
+    "type": "OUTBOUND",
+    "message_id": "4354092209",
     "ticket_id": "980015175",
-    "message": "I will take it",
-    "channel_id": "1304636",
+    "message": "The asking price is AED 13,000/month, would AED 11,500 work for you if we locked in the full 6 months from 23 September?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546547458",
     "contact_name": "Summertime🇮🇨🩵",
     "contact_identifier": "+971585979736",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
