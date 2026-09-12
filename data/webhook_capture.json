@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-12T12:17:18.672Z",
+  "ts": "2026-09-12T12:17:24.487Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354283612",
+    "type": "OUTBOUND",
+    "message_id": "4354283650",
     "ticket_id": "980059805",
-    "message": "What is the total amount to pay including all?",
-    "channel_id": "1304636",
+    "message": "Let me check those details for you right now and come back shortly!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546561765",
     "contact_name": ".",
     "contact_identifier": "+971554275581",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
