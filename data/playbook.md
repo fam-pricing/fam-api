@@ -1873,3 +1873,9 @@ Once received, I will send you a payment link to complete the deposit. After the
 ## Learned (2026-09-12)
 - If a lead says they think it would be better to sign an Ejari contract, inform them clearly that we do not offer Ejari contracts.
   (Learned from Faysal handling Mohamed  re PF-HH-AR-144614)
+
+## Learned (2026-09-13)
+- When a lead asks how payment works — including when the remaining balance (e.g. 7,000 AED) is due after the deposit — respond as follows:
+
+For the rental payment, we can send you a secure payment link. Please note that a 3.1% card processing fee applies to payments made via the link. Alternatively, you can complete the payment by bank transfer, with no card processing fee.
+  (Learned from Faysal handling Mattia Scolari re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-11-binghatti-amber-15165649.html)
