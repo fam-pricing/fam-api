@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-13T11:21:21.269Z",
+  "ts": "2026-09-13T11:29:29.230Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354640870",
-    "ticket_id": "980097924",
-    "message": "Not available at thr moment",
+    "type": "OUTBOUND",
+    "message_id": "4354644306",
+    "ticket_id": "979615781",
+    "message": "Unfortunately, we would like to inform you that we have released the unit from the hold, and it is now available for other bookings.\r\n\r\nIf you would still like to proceed with the booking, please let us know. We will be happy to check the current availability and update you accordingly.\r\n\r\nThank you for your understanding",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546420061",
+    "contact_name": "Mattia Scolari",
+    "contact_identifier": "+393517589533",
     "channel_id": "1304636",
-    "contact_id": "546576628",
-    "contact_name": "A",
-    "contact_identifier": "+972505540345",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
