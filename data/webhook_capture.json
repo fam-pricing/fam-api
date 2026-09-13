@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-13T11:15:25.573Z",
+  "ts": "2026-09-13T11:15:34.481Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354638256",
-    "ticket_id": "980129924",
-    "message": "Tomorrow I can come at 10am? \nAnd I will move in 1oct",
+    "type": "OUTBOUND",
+    "message_id": "4354638320",
+    "ticket_id": "979615781",
+    "message": "Please confirm the payment method as we are unable to hold the unit further without the payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546420061",
+    "contact_name": "Mattia Scolari",
+    "contact_identifier": "+393517589533",
     "channel_id": "1304636",
-    "contact_id": "540408445",
-    "contact_name": "Aleksandra 🇦🇲",
-    "contact_identifier": "+971525757840",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
