@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-13T09:17:22.384Z",
+  "ts": "2026-09-13T09:21:18.395Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354588659",
+    "type": "OUTBOUND",
+    "message_id": "4354590670",
     "ticket_id": "979894284",
-    "message": "Hello, i really need washing machine, could you pls tell me how long it will take?",
-    "channel_id": "1304636",
+    "message": "We will follow up tomorrow again as the office is closed for today",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "542447225",
     "contact_name": "Alim",
     "contact_identifier": "+77029993929",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
