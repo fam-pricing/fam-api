@@ -1,65 +1,5 @@
 [
   {
-    "ts": "2026-09-06T11:49:28.909Z",
-    "ticket_id": 978777052,
-    "lead_id": "message_lead_31863416",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 813,
-    "critic_pass": null,
-    "lead_quality": 30,
-    "buying_stage": "COOL",
-    "skip_reason": "acknowledgment_skip"
-  },
-  {
-    "ts": "2026-09-06T11:50:38.833Z",
-    "ticket_id": 978777052,
-    "lead_id": "message_lead_31863416",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 861,
-    "critic_pass": null,
-    "lead_quality": 30,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-09-06T11:50:58.514Z",
-    "ticket_id": 978777052,
-    "lead_id": "message_lead_31863416",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 798,
-    "critic_pass": null,
-    "lead_quality": 30,
-    "buying_stage": "COOL",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-09-06T14:08:57.755Z",
-    "ticket_id": 978746778,
-    "lead_id": "message_lead_31855275",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1159,
-    "critic_pass": null,
-    "lead_quality": 60,
-    "buying_stage": "WARM",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-09-06T14:09:02.766Z",
-    "ticket_id": 978746778,
-    "lead_id": "message_lead_31855275",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 19052,
-    "critic_pass": null,
-    "lead_quality": 60,
-    "buying_stage": "WARM",
-    "skip_reason": null
-  },
-  {
     "ts": "2026-09-06T17:27:57.166Z",
     "ticket_id": 978839277,
     "lead_id": "message_lead_31881549",
@@ -4798,5 +4738,17 @@
     "lead_quality": 95,
     "buying_stage": "HOT",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-09-13T16:56:07.564Z",
+    "ticket_id": 980185365,
+    "lead_id": "message_lead_32097887",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 965,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "ticket_locked"
   }
 ]
