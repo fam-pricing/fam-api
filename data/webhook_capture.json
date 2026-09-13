@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-13T14:59:43.774Z",
+  "ts": "2026-09-13T15:18:05.995Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354729698",
-    "ticket_id": "976826802",
-    "message": "Hi\nWe’re back next Sunday. Pls let me know what you have for us to consider and then look at as we need to have an apartment in place form the 26th\nThanks",
+    "type": "OUTBOUND",
+    "message_id": "4354737108",
+    "ticket_id": "980171293",
+    "message": "We are sorry for that we've tried several times with the guest who was connected to us for the check-in time",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "546605141",
+    "contact_name": "Hamza",
+    "contact_identifier": "+971544964967",
     "channel_id": "585723",
-    "contact_id": "545539242",
-    "contact_name": "lead",
-    "contact_identifier": "+61414899198",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
