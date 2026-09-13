@@ -1883,3 +1883,9 @@ For the rental payment, we can send you a secure payment link. Please note that 
 ## Learned (2026-09-13)
 - When a lead says "Thank you," respond with: "Please note that the deposit payment must be completed via the secure payment link, as the refund will be processed back to the same card through the same link."
   (Learned from Faysal handling Mattia Scolari re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-11-binghatti-amber-15165649.html)
+
+## Learned (2026-09-13)
+- If a lead says their question was different or that your response didn't address what they asked, reply with the following clarification:
+
+Rental payments can be completed by card or bank transfer. However, the security deposit must be paid by card only.
+  (Learned from Faysal handling Mattia Scolari re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-11-binghatti-amber-15165649.html)
