@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-13T14:58:17.329Z",
+  "ts": "2026-09-13T14:58:35.228Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354729234",
+    "type": "OUTBOUND",
+    "message_id": "4354729331",
     "ticket_id": "980171293",
-    "message": "Here is some important information for your stay with us at fäm Living:\r\n\r\nBuilding Name: MAG318\r\nApartment no.: 1802 on the 18th floor\r\nWi-Fi Name: Admin1802Wi-Fi Password: Admin1802\r\n\r\nGym, swimming pool, and other amenities are on the 4th floor; you may access them as per the community guidelines\r\n\r\nUpon arrival, kindly pass by the reception for a smooth check-in process with your passport/ ID\r\nAccess card and main door key have been left inside the apartment\r\n\r\nPlease note that we are only available every day from 9:00 AM to 6:00 PM",
-    "channel_id": "585723",
+    "message": "Allow me to inform the team and update you",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546605141",
     "contact_name": "Hamza",
     "contact_identifier": "+971544964967",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
