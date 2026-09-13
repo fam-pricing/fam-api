@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-13T05:08:50.516Z",
+  "ts": "2026-09-13T05:11:55.594Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354514303",
+    "type": "OUTBOUND",
+    "message_id": "4354514708",
     "ticket_id": "980055652",
-    "message": "Ok",
-    "channel_id": "585723",
+    "message": "Here is the important information about your stay with us:\r\n\r\nYour apartment number is 608 which is on 6th floor\r\n\r\nMain door code is 8080 🔑\r\n\r\nWiFi Name : Urban 608 5G\r\nWiFi password : 987654321\r\n\r\nGym, swimming pool and other amenities are on 1st floor. You may access as per the community guidelines\r\n\r\nParking slot is B 10 which is in Basement level\r\n\r\nProvided 1 access card upon check in",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "546560212",
     "contact_name": "Spice Bindal",
     "contact_identifier": "+919999254180",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
