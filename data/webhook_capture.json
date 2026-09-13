@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-13T12:36:40.109Z",
+  "ts": "2026-09-13T12:40:20.304Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354672580",
-    "ticket_id": "936911064",
-    "message": "“Hiii, Good Morning!\nAre you looking for laundry cleaning services?\n\nWe provide professional commercial laundry services for hotels, restaurants, hostels, spas, gyms, hospitals, and businesses.\n\nIf you are looking for a reliable laundry partner, just try us!\nOur service trial is FREE.\n\n✔ Quality Cleaning\n✔ Pickup & Delivery\n✔ Hygienic & Reliable Service\n✔ Affordable Pricing\n\nGive us one chance to serve you better!”\n\n_If this is not relevant please say STOP and we will never message you again._",
-    "channel_id": "585723",
-    "contact_id": "534792660",
-    "contact_name": "UrbanClean Laundry service",
-    "contact_identifier": "+971567141994",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4354674208",
+    "ticket_id": "980160255",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "546601116",
+    "contact_name": "Yajat",
+    "contact_identifier": "+917838266122",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
