@@ -4846,5 +4846,17 @@
     "lead_quality": 45,
     "buying_stage": "WARM",
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-09-13T10:31:10.285Z",
+    "ticket_id": 980143838,
+    "lead_id": "message_lead_32085785",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 11137,
+    "critic_pass": null,
+    "lead_quality": 60,
+    "buying_stage": "WARM",
+    "skip_reason": "frustration_detected"
   }
 ]
