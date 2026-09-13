@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-13T09:38:27.567Z",
+  "ts": "2026-09-13T09:39:31.111Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4354597679",
+    "type": "INBOUND",
+    "message_id": "4354598109",
     "ticket_id": "975456236",
-    "message": "May I kindly confirm whether you will be completing the rent payment now or closer to your check-in date?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Closer to check in",
+    "channel_id": "585723",
     "contact_id": "308149489",
     "contact_name": "Mr Abdulrahman Alsunaid",
     "contact_identifier": "+966533904768",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
