@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-13T09:32:26.684Z",
+  "ts": "2026-09-13T09:36:29.384Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354595312",
+    "type": "OUTBOUND",
+    "message_id": "4354596879",
     "ticket_id": "975456236",
-    "message": "Image",
-    "channel_id": "585723",
+    "message": "We have received the payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "308149489",
     "contact_name": "Mr Abdulrahman Alsunaid",
     "contact_identifier": "+966533904768",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
