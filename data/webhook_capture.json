@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-13T10:52:16.701Z",
+  "ts": "2026-09-13T10:55:18.578Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354628265",
+    "type": "OUTBOUND",
+    "message_id": "4354629501",
     "ticket_id": "979615781",
-    "message": "Perfect\nIs it possible to pay with amex the rental payment and to do the bank transfer for the deposit fee?",
-    "channel_id": "1304636",
+    "message": "Please note that you need to complete the deposit payment by the secured payment link as we will proceed the refund to the same card with the same payment link",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546420061",
     "contact_name": "Mattia Scolari",
     "contact_identifier": "+393517589533",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
