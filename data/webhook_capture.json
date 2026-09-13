@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-13T09:06:48.871Z",
+  "ts": "2026-09-13T09:06:58.524Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354584107",
+    "type": "OUTBOUND",
+    "message_id": "4354584174",
     "ticket_id": "980136948",
-    "message": ".",
-    "channel_id": "585723",
+    "message": "Sure I will contact him",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546592389",
     "contact_name": "Suldan Omal",
     "contact_identifier": "+971547555781",
-    "parent_message_id": "4354583664",
-    "parent_ticket_id": "980136948",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
