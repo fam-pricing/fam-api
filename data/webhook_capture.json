@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-13T09:06:05.447Z",
+  "ts": "2026-09-13T09:06:30.119Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354583821",
+    "type": "OUTBOUND",
+    "message_id": "4354583975",
     "ticket_id": "980136948",
-    "message": "These girls are staying",
-    "channel_id": "585723",
+    "message": "You need to complete the check in form to register the details in the building",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546592389",
     "contact_name": "Suldan Omal",
     "contact_identifier": "+971547555781",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
