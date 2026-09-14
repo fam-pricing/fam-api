@@ -1913,3 +1913,15 @@ Please note that if you choose to pay via the payment link, a 3.1% card processi
 
 "Please note that full payment must be completed before check-in. Once payment is confirmed and the check-in process is finalised, we will be able to register your details with the building. Access cannot be granted until both steps are complete."
   (Learned from Faysal handling Saeed re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-09-14)
+- When a lead sends an image, respond with the following:
+
+"If you have a vehicle, we will need the following details for advance registration. Please provide:
+
+- Emirate of issue (Dubai, Abu Dhabi, Sharjah, etc.)
+- Code
+- Plate number
+- Vehicle make and model
+- Color"
+  (Learned from Faysal handling Saeed re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
