@@ -1907,3 +1907,9 @@ Please note that daily housekeeping is not included. If cleaning services are re
 
 Please note that if you choose to pay via the payment link, a 3.1% card processing fee will be added to the rent amount. Alternatively, you can pay via bank transfer at no additional charge.
   (Learned from Faysal handling Saeed re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-09-14)
+- If a lead says they will transfer payment upon or after check-in, respond with:
+
+"Please note that full payment must be completed before check-in. Once payment is confirmed and the check-in process is finalised, we will be able to register your details with the building. Access cannot be granted until both steps are complete."
+  (Learned from Faysal handling Saeed re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
