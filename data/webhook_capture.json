@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T13:14:22.269Z",
+  "ts": "2026-09-14T13:15:03.217Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355438361",
-    "ticket_id": "980185365",
-    "message": "I will trasfer tomorrow once i check in",
+    "type": "OUTBOUND",
+    "message_id": "4355439223",
+    "ticket_id": "980306121",
+    "message": "Unfortunately, we have received another confirmed booking through a different booking platform, so this unit is no longer available.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546649505",
+    "contact_name": "Igor Marcolongo",
+    "contact_identifier": "+5511971329494",
     "channel_id": "1304636",
-    "contact_id": "546610969",
-    "contact_name": "Saeed",
-    "contact_identifier": "+971565321010",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
