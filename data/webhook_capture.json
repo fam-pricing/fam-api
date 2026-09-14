@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-14T13:39:41.409Z",
+  "ts": "2026-09-14T13:39:53.305Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4355471056",
+    "type": "INBOUND",
+    "message_id": "4355471316",
     "ticket_id": "976119272",
-    "message": "May I know how many bedrooms you are looking for and your budget please?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Studio/1bedroom",
+    "channel_id": "585723",
     "contact_id": "545342830",
     "contact_name": "Benas Petrauskas",
     "contact_identifier": "+37066261643",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
