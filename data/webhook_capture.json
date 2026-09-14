@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T08:42:47.770Z",
+  "ts": "2026-09-14T08:43:28.230Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355092011",
+    "type": "OUTBOUND",
+    "message_id": "4355092758",
     "ticket_id": "973843859",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "I would like to follow up regarding your stay. May I know if you would like to extend your stay with us?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544606636",
     "contact_name": "DIL NOZA RAKHIMOVA",
     "contact_identifier": "+971586870906",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
