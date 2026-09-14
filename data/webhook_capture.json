@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T15:40:49.961Z",
+  "ts": "2026-09-14T15:41:09.620Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355865977",
+    "type": "OUTBOUND",
+    "message_id": "4355866250",
     "ticket_id": "980450643",
-    "message": "hello",
-    "channel_id": "1304636",
+    "message": "Christian, good to hear from you. What's most important to you about the place, dates, price, or something else?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546689174",
     "contact_name": "Christian",
     "contact_identifier": "+96178848307",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
