@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T16:10:33.591Z",
+  "ts": "2026-09-14T16:10:43.504Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355893346",
-    "ticket_id": "980454170",
-    "message": "Yes please",
+    "type": "OUTBOUND",
+    "message_id": "4355893509",
+    "ticket_id": "980450631",
+    "message": "Sorry for the confusion on pricing, Emese. You can rent for multiple months, how many were you thinking?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "546689170",
+    "contact_name": "Emese",
+    "contact_identifier": "+971504891759",
     "channel_id": "1304636",
-    "contact_id": "546690541",
-    "contact_name": "Crystal Chang",
-    "contact_identifier": "+6581954806",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
