@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-14T11:09:43.110Z",
+  "ts": "2026-09-14T11:09:45.610Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4355282824",
-    "ticket_id": "925854120",
-    "message": "Attachment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "532021761",
-    "contact_name": "Vaiva Lukminaite",
-    "contact_identifier": "+37062028632",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4355282929",
+    "ticket_id": "980316229",
+    "message": "Ok no problem",
+    "channel_id": "1304636",
+    "contact_id": "546537756",
+    "contact_name": "Yaya",
+    "contact_identifier": "+21697627286",
+    "parent_message_id": "4355274767",
+    "parent_ticket_id": "980316229",
+    "event_type": "INBOUND"
   }
 }
