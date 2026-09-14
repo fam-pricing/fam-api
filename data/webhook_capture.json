@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-14T10:15:04.397Z",
+  "ts": "2026-09-14T10:20:51.318Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355212606",
+    "type": "OUTBOUND",
+    "message_id": "4355219871",
     "ticket_id": "980286192",
-    "message": "Yes please",
-    "channel_id": "1304636",
+    "message": "May I know starting from when and for how how many months you are looking for?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546643430",
     "contact_name": "Regina Shakirova",
     "contact_identifier": "+971565729253",
-    "parent_message_id": "4355155951",
-    "parent_ticket_id": "980286192",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
