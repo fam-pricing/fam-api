@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-14T15:45:50.600Z",
+  "ts": "2026-09-14T15:46:05.432Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4355870700",
-    "ticket_id": "980450631",
-    "message": "Apologies for the slow response, Emese. The apartment is still available, the AED 19,999 on Property Finder is outdated; the correct price is AED 25,000/month all-inclusive. Would you like to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "546689170",
-    "contact_name": "Emese",
-    "contact_identifier": "+971504891759",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4355870928",
+    "ticket_id": "980451784",
+    "message": "Hello I’m looking to rent an apartment in Business bay or palm jumeirah for a minimum stay of 6 months or even 1 year if possible for around 5000-6000 aed a monthly do you have any options I can see",
+    "channel_id": "883603",
+    "contact_id": "546689589",
+    "contact_name": "Omar Fattouh",
+    "contact_identifier": "45d1c698-3ed7-4e17-7d51-395aaca59804",
+    "event_type": "INBOUND"
   }
 }
