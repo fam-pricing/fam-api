@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T15:49:43.433Z",
+  "ts": "2026-09-14T15:49:49.615Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355874090",
-    "ticket_id": "980452382",
-    "message": "Hello I’m looking for a studio to rent for minimum 6 months or even 1 year if possible, for a monthly rent of 5000 up to 6000 max and saw this apartment on bayut that you are listing and eanted to ask if it is still available and if you can tell me more informations about it. \n\nHey, check out this awesome property I found on Bayut\nModern Studio Stunning Burj Khalifa Views \nhttps://www.bayut.com/property/details-16484891.html",
-    "channel_id": "585723",
-    "contact_id": "546689844",
-    "contact_name": "Omar Fattouh",
-    "contact_identifier": "+96171800553",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4355874181",
+    "ticket_id": "980450643",
+    "message": "Since you've stayed there before, you already know the building. This particular studio's floor and view are shown in the listing photos here: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html\n\nWhen are you looking to move in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "546689174",
+    "contact_name": "Christian",
+    "contact_identifier": "+96178848307",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
