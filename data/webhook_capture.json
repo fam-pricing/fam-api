@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-14T14:00:08.900Z",
+  "ts": "2026-09-14T14:02:30.688Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4355497950",
-    "ticket_id": "980366947",
-    "message": "For the commission you need to check with the finance",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "546668733",
-    "contact_name": "Mohamed mahgoub",
-    "contact_identifier": "+971521295892",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4355501902",
+    "ticket_id": "980185365",
+    "message": "Done",
+    "channel_id": "1304636",
+    "contact_id": "546610969",
+    "contact_name": "Saeed",
+    "contact_identifier": "+971565321010",
+    "parent_message_id": "4355495431",
+    "parent_ticket_id": "980185365",
+    "event_type": "INBOUND"
   }
 }
