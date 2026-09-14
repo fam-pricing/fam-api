@@ -1901,3 +1901,9 @@ The rate includes all utilities — water, electricity, Wi-Fi, DTCM fees, and VA
 
 Please note that daily housekeeping is not included. If cleaning services are required, these can be arranged directly with the building at an additional charge per session.
   (Learned from Faysal handling Saeed re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-09-14)
+- When a lead confirms the total price and asks whether it includes the deposit (e.g., "So the total is 7,000 including the deposit?"), clarify the payment options as follows:
+
+Please note that if you choose to pay via the payment link, a 3.1% card processing fee will be added to the rent amount. Alternatively, you can pay via bank transfer at no additional charge.
+  (Learned from Faysal handling Saeed re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
