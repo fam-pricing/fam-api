@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T15:42:04.783Z",
+  "ts": "2026-09-14T15:42:31.016Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355867068",
+    "type": "OUTBOUND",
+    "message_id": "4355867447",
     "ticket_id": "980450631",
-    "message": "Hi! We’ve contacted the agent several times through Bayut but haven’t received any response. First of all, is the listing still available?",
-    "channel_id": "1304636",
+    "message": "Emese, yes, it's still available. Sorry you didn't hear back sooner, would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546689170",
     "contact_name": "Emese",
     "contact_identifier": "+971504891759",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
