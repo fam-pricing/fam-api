@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-14T08:46:27.357Z",
+  "ts": "2026-09-14T08:46:42.327Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4355096631",
+    "type": "INBOUND",
+    "message_id": "4355097037",
     "ticket_id": "973843859",
-    "message": "You will complete the payment by bank transfer?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "544606636",
     "contact_name": "DIL NOZA RAKHIMOVA",
     "contact_identifier": "+971586870906",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4355096146",
+    "parent_ticket_id": "973843859",
+    "event_type": "INBOUND"
   }
 }
