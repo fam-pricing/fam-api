@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T13:19:01.879Z",
+  "ts": "2026-09-14T13:19:31.332Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355444417",
-    "ticket_id": "980306121",
-    "message": "Really? Are October and November already fully booked? Do you have any other apartments in the same style and around the same price?",
+    "type": "OUTBOUND",
+    "message_id": "4355445001",
+    "ticket_id": "980309867",
+    "message": "We can arrange the viewing after the 19th, once the current in-house guest has checked out.\r\n\r\nHowever, please note that the viewing will be subject to availability, provided the current guest does not extend their stay and we do not receive another confirmed booking through a different booking platform before then.\r\n\r\nWe will be happy to reconfirm the availability closer to the date.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546650018",
+    "contact_name": "Y",
+    "contact_identifier": "+971507839012",
     "channel_id": "1304636",
-    "contact_id": "546649505",
-    "contact_name": "Igor Marcolongo",
-    "contact_identifier": "+5511971329494",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
