@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T13:02:07.834Z",
+  "ts": "2026-09-14T13:02:29.492Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355422562",
+    "type": "OUTBOUND",
+    "message_id": "4355423001",
     "ticket_id": "980309867",
-    "message": "For how much?",
-    "channel_id": "1304636",
+    "message": "4 months is no problem. Rates are locked in 3-month blocks, so the first 3 months are fixed and the 4th month gets reviewed against market conditions at that point. Does that work for you, or would you like to see the place first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546650018",
     "contact_name": "Y",
     "contact_identifier": "+971507839012",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
