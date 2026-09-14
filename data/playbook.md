@@ -1893,3 +1893,11 @@ Rental payments can be completed by card or bank transfer. However, the security
 ## Learned (2026-09-14)
 - When the lead confirms they want to proceed, ask them to share a copy of their Emirates ID or passport along with their email address. Once received, send them the payment link for the security deposit. After payment is completed, block the unit and send the booking confirmation.
   (Learned from Faysal handling Saeed re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-09-14)
+- When a lead asks about what is included in the rate, respond with the following:
+
+The rate includes all utilities — water, electricity, Wi-Fi, DTCM fees, and VAT.
+
+Please note that daily housekeeping is not included. If cleaning services are required, these can be arranged directly with the building at an additional charge per session.
+  (Learned from Faysal handling Saeed re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
