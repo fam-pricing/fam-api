@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-14T15:53:12.438Z",
+  "ts": "2026-09-14T15:53:41.475Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355877061",
+    "type": "OUTBOUND",
+    "message_id": "4355877420",
     "ticket_id": "980450643",
-    "message": "No it doesn’t show here",
-    "channel_id": "1304636",
+    "message": "Good to have you back, Christian! Let me pull up the floor and view details for this specific unit and get back to you shortly.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546689174",
     "contact_name": "Christian",
     "contact_identifier": "+96178848307",
-    "parent_message_id": "4355874181",
-    "parent_ticket_id": "980450643",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
