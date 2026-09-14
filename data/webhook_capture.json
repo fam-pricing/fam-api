@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-14T13:03:06.073Z",
+  "ts": "2026-09-14T13:03:32.980Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355423792",
+    "type": "OUTBOUND",
+    "message_id": "4355424428",
     "ticket_id": "980309867",
-    "message": "Yeah sure, when can I see it?",
-    "channel_id": "1304636",
+    "message": "The 2BR is free October to February, when works for you to view it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546650018",
     "contact_name": "Y",
     "contact_identifier": "+971507839012",
-    "parent_message_id": "4355423001",
-    "parent_ticket_id": "980309867",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
