@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T07:20:56.409Z",
+  "ts": "2026-09-14T07:21:34.276Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354988774",
+    "type": "OUTBOUND",
+    "message_id": "4354989545",
     "ticket_id": "980246743",
-    "message": "Hello, I'm interested in a price for this unit for a monthly rent from 19th of September 2026 to 19th of January 2027?",
-    "channel_id": "1304636",
+    "message": "The studio is AED 5,500/month all-inclusive for your 19 Sep to 19 Jan stay. One thing worth knowing: we can lock in that rate for the first 3 months, but the 4th month would be confirmed closer to the time based on market conditions. Want me to walk you through what's included in the unit itself?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546631861",
     "contact_name": ".",
     "contact_identifier": "+79998555454",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
