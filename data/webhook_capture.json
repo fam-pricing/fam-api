@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T13:11:59.057Z",
+  "ts": "2026-09-14T13:12:09.734Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355435418",
-    "ticket_id": "980076215",
-    "message": "I didn’t bother on weekends",
-    "channel_id": "585723",
-    "contact_id": "460279849",
-    "contact_name": "Yury Fäm",
-    "contact_identifier": "+971529865657",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4355435678",
+    "ticket_id": "980185365",
+    "message": "May I know how you would like to complete the rent payment?\r\n\r\nYou may either make the payment through the payment link, in which case a 3.1% card processing fee will be added to the rent amount, or you can make the payment via bank transfer without the card processing fee.\r\n\r\nPlease let us know your preferred payment method so we can assist you accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546610969",
+    "contact_name": "Saeed",
+    "contact_identifier": "+971565321010",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
