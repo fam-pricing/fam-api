@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T11:37:04.962Z",
+  "ts": "2026-09-14T11:37:53.207Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355316003",
-    "ticket_id": "980185365",
-    "message": "I have arrived",
-    "channel_id": "1304636",
-    "contact_id": "546610969",
-    "contact_name": "Saeed",
-    "contact_identifier": "+971565321010",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4355316998",
+    "ticket_id": "976826802",
+    "message": "May I know how many bedrooms you are looking for and your preferred check-in and check-out dates? We will check the availability and get back to you accordingly.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545539242",
+    "contact_name": "lead",
+    "contact_identifier": "+61414899198",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
