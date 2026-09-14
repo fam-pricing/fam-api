@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-14T15:49:15.987Z",
+  "ts": "2026-09-14T15:49:40.495Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4355873717",
-    "ticket_id": "980450643",
-    "message": "Good to have you back. Since you already know the building, what's most important to you about this particular unit, move-in date, layout, or something else?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "546689174",
-    "contact_name": "Christian",
-    "contact_identifier": "+96178848307",
+    "type": "INBOUND",
+    "message_id": "4355874042",
+    "ticket_id": "980450631",
+    "message": "Just to confirm, by “all-inclusive” you mean that all utility bills, taxes and fees are included, so AED 25,000 is the final total monthly cost with no additional monthly charges, correct?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "546689170",
+    "contact_name": "Emese",
+    "contact_identifier": "+971504891759",
+    "event_type": "INBOUND"
   }
 }
