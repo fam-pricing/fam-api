@@ -4294,5 +4294,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-09-14T09:30:44.328Z",
+    "ticket_id": 980246718,
+    "lead_id": "message_lead_32110770",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1097,
+    "critic_pass": null,
+    "lead_quality": 90,
+    "buying_stage": "HOT",
+    "skip_reason": "ticket_locked"
   }
 ]
