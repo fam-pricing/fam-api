@@ -1889,3 +1889,7 @@ For the rental payment, we can send you a secure payment link. Please note that 
 
 Rental payments can be completed by card or bank transfer. However, the security deposit must be paid by card only.
   (Learned from Faysal handling Mattia Scolari re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-11-binghatti-amber-15165649.html)
+
+## Learned (2026-09-14)
+- When the lead confirms they want to proceed, ask them to share a copy of their Emirates ID or passport along with their email address. Once received, send them the payment link for the security deposit. After payment is completed, block the unit and send the booking confirmation.
+  (Learned from Faysal handling Saeed re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
