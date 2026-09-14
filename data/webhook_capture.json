@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T05:47:42.881Z",
+  "ts": "2026-09-14T05:48:13.203Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4354919008",
+    "type": "OUTBOUND",
+    "message_id": "4354919186",
     "ticket_id": "980226001",
-    "message": "Hello. When this apartament will be available and send me prices to rent till May",
-    "channel_id": "1304636",
+    "message": "The studio is available now, could you let me know your move-in date so I can work out the exact cost through to May?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546625794",
     "contact_name": "V",
     "contact_identifier": "+971585865036",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
