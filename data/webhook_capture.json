@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T12:41:21.108Z",
+  "ts": "2026-09-14T12:41:34.564Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355395706",
-    "ticket_id": "980306121",
-    "message": "Can we come see the apartment on Saturday? What time are you available?",
+    "type": "OUTBOUND",
+    "message_id": "4355396002",
+    "ticket_id": "980185365",
+    "message": "May I know which unit you prefer most?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546610969",
+    "contact_name": "Saeed",
+    "contact_identifier": "+971565321010",
     "channel_id": "1304636",
-    "contact_id": "546649505",
-    "contact_name": "Igor Marcolongo",
-    "contact_identifier": "+5511971329494",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
