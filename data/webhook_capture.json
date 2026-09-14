@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-14T15:45:19.132Z",
+  "ts": "2026-09-14T15:45:21.894Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4355870245",
+    "type": "INBOUND",
+    "message_id": "4355870268",
     "ticket_id": "980450631",
-    "message": "The correct price is AED 25,000/month, all-inclusive, the AED 19,999 on Property Finder is outdated and being updated. Would you like to come see it?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "https://www.bayut.com/property/details-6013913.html",
+    "channel_id": "1304636",
     "contact_id": "546689170",
     "contact_name": "Emese",
     "contact_identifier": "+971504891759",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
