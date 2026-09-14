@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-14T12:26:35.246Z",
+  "ts": "2026-09-14T12:26:40.023Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355377616",
+    "type": "OUTBOUND",
+    "message_id": "4355377725",
     "ticket_id": "980343813",
-    "message": "goodafternoon, i have found the seaside hills Al Zorah in Ajman. we would like to rent this apartment for the month december. can you tell us what the price will be for one month? and will be include this monthly price? thank you, kind regards Natasja",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "546660969",
     "contact_name": "Natasja",
     "contact_identifier": "355fd34e-4915-42f4-ea2b-8d04337474e9",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
