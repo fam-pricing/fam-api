@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-14T13:27:34.472Z",
+  "ts": "2026-09-14T13:27:42.467Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4355455475",
+    "type": "INBOUND",
+    "message_id": "4355455678",
     "ticket_id": "976119272",
-    "message": "How can I help you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Hey",
+    "channel_id": "585723",
     "contact_id": "545342830",
     "contact_name": "Benas Petrauskas",
     "contact_identifier": "+37066261643",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
