@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-14T13:04:26.241Z",
+  "ts": "2026-09-14T13:04:27.746Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4355425846",
+    "type": "INBOUND",
+    "message_id": "4355425895",
     "ticket_id": "980309867",
-    "message": "Honestly, being clean and having a daily cleaner is a great sign and exactly what owners want to hear. On the price, AED 17,000 is where we're fixed on this one. Would you like to come see it first?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Friday 18th?",
+    "channel_id": "1304636",
     "contact_id": "546650018",
     "contact_name": "Y",
     "contact_identifier": "+971507839012",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4355424428",
+    "parent_ticket_id": "980309867",
+    "event_type": "INBOUND"
   }
 }
