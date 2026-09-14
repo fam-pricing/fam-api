@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T11:12:32.406Z",
+  "ts": "2026-09-14T11:13:00.151Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355286036",
+    "type": "OUTBOUND",
+    "message_id": "4355286530",
     "ticket_id": "980316229",
-    "message": "No that’s out of my budget",
-    "channel_id": "1304636",
+    "message": "May I know your budget please?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546537756",
     "contact_name": "Yaya",
     "contact_identifier": "+21697627286",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
