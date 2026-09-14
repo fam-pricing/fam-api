@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-14T07:50:41.838Z",
+  "ts": "2026-09-14T07:51:26.184Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355025685",
+    "type": "OUTBOUND",
+    "message_id": "4355026726",
     "ticket_id": "976204150",
-    "message": "Confirm",
-    "channel_id": "585723",
+    "message": "Good morning, Ms. Arifa,\r\n\r\nI hope you are doing well.\r\n\r\nWe would like to inform you that the property owner has requested a brief viewing of the apartment.\r\n\r\nWould it be convenient for you to accommodate the viewing today, 14 September, at around 5.00 - 5.30pm?\r\n\r\nThe viewing will be brief, and we sincerely appreciate your cooperation and understanding.\r\n\r\nThank you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "517825599",
     "contact_name": "Arifa Patel",
     "contact_identifier": "+971567647755",
-    "parent_message_id": "4355025087",
-    "parent_ticket_id": "976204150",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
