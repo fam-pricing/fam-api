@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T10:45:45.027Z",
+  "ts": "2026-09-14T10:47:57.571Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355253399",
-    "ticket_id": "980314834",
-    "message": "Plz can u provide what will be appliances in the kitchen",
+    "type": "OUTBOUND",
+    "message_id": "4355256034",
+    "ticket_id": "980286192",
+    "message": "May I know your budget please?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546643430",
+    "contact_name": "Regina Shakirova",
+    "contact_identifier": "+971565729253",
     "channel_id": "1304636",
-    "contact_id": "546147775",
-    "contact_name": "FADI SOUBRA",
-    "contact_identifier": "+971562896978",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
