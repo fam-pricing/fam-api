@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-14T15:49:49.615Z",
+  "ts": "2026-09-14T15:53:12.438Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4355874181",
+    "type": "INBOUND",
+    "message_id": "4355877061",
     "ticket_id": "980450643",
-    "message": "Since you've stayed there before, you already know the building. This particular studio's floor and view are shown in the listing photos here: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html\n\nWhen are you looking to move in?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "No it doesn’t show here",
+    "channel_id": "1304636",
     "contact_id": "546689174",
     "contact_name": "Christian",
     "contact_identifier": "+96178848307",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4355874181",
+    "parent_ticket_id": "980450643",
+    "event_type": "INBOUND"
   }
 }
