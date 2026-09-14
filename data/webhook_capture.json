@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-14T12:47:03.638Z",
+  "ts": "2026-09-14T12:47:06.773Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4355402886",
-    "ticket_id": "980306121",
-    "message": "My name's [Name], part of the fäm Living team. What else would you like to know about the apartment?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "546649505",
-    "contact_name": "Igor Marcolongo",
-    "contact_identifier": "+5511971329494",
+    "type": "INBOUND",
+    "message_id": "4355402921",
+    "ticket_id": "980185365",
+    "message": "Yes",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "546610969",
+    "contact_name": "Saeed",
+    "contact_identifier": "+971565321010",
+    "event_type": "INBOUND"
   }
 }
