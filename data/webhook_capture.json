@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T15:33:59.566Z",
+  "ts": "2026-09-14T15:34:21.155Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355852995",
+    "type": "OUTBOUND",
+    "message_id": "4355854841",
     "ticket_id": "980439463",
-    "message": "Yes, I’d like to see it. Is it available from Sep 18? \nWhen can I come for a viewing?",
-    "channel_id": "1304636",
+    "message": "Available from Sep 18, no problem. What day works best for you to come see it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546688128",
     "contact_name": "-",
     "contact_identifier": "+994103918949",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
