@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-14T10:51:31.210Z",
+  "ts": "2026-09-14T10:51:42.857Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4355260021",
+    "type": "OUTBOUND",
+    "message_id": "4355260208",
     "ticket_id": "980316229",
-    "message": "Is that apartment available from October 4th to December 4th",
-    "channel_id": "1304636",
+    "message": "Glad you had a look! Any questions about it, or would you like to arrange a viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546537756",
     "contact_name": "Yaya",
     "contact_identifier": "+21697627286",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
