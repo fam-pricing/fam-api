@@ -1,17 +1,19 @@
 {
-  "ts": "2026-09-14T10:37:11.021Z",
+  "ts": "2026-09-14T10:39:00.336Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4355243677",
-    "ticket_id": "978444079",
-    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
-    "contact_id": "546040373",
-    "contact_name": "MIA HINIC",
-    "contact_identifier": "+381656032473",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4355245671",
+    "ticket_id": "980286192",
+    "message": "Ohh sorry it’s beyond our budget",
+    "channel_id": "1304636",
+    "contact_id": "546643430",
+    "contact_name": "Regina Shakirova",
+    "contact_identifier": "+971565729253",
+    "parent_message_id": "4355224547",
+    "parent_ticket_id": "980286192",
+    "event_type": "INBOUND"
   }
 }
