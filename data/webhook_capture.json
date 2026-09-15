@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-15T09:17:10.037Z",
+  "ts": "2026-09-15T09:20:23.982Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4356492929",
+    "type": "OUTBOUND",
+    "message_id": "4356496507",
     "ticket_id": "980450631",
-    "message": "You just said here its available for multiple month we’re talking about the Bluewaters building 4 2 bedroom apartment",
-    "channel_id": "1304636",
+    "message": "Yes, please accept our apologies for the confusion. The information was initially confirmed by our AI agent; however, after reviewing the availability, we have confirmed that we are unable to proceed with a one-month booking, as the unit already has confirmed bookings during this period.\r\n\r\nWe sincerely apologize for the misunderstanding and appreciate your kind understanding.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546689170",
     "contact_name": "Emese",
     "contact_identifier": "+971504891759",
-    "parent_message_id": "4355896804",
-    "parent_ticket_id": "980450631",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
