@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-15T07:00:00.162Z",
+  "ts": "2026-09-15T07:00:26.169Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4356245738",
+    "type": "OUTBOUND",
+    "message_id": "4356246273",
     "ticket_id": "980541781",
-    "message": "I will let you know exact time tomorrow morning",
-    "channel_id": "1304636",
+    "message": "Sounds good, confirm the time tomorrow morning and we'll lock in the viewing.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546716561",
     "contact_name": "Sara",
     "contact_identifier": "+971553837141",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
