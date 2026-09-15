@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-15T05:12:26.750Z",
+  "ts": "2026-09-15T05:13:02.277Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4356189868",
+    "type": "INBOUND",
+    "message_id": "4356190008",
     "ticket_id": "980529653",
-    "message": "The studio in Upside Living, Business Bay is available from 1 October, it's AED 5,500/month all-inclusive. Here's the listing with full photos: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-13851875.html\n\nWould you like to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Link not working",
+    "channel_id": "1304636",
     "contact_id": "545367247",
     "contact_name": "🎁777🎁",
     "contact_identifier": "+971506113832",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4356189868",
+    "parent_ticket_id": "980529653",
+    "event_type": "INBOUND"
   }
 }
