@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-15T15:35:22.877Z",
+  "ts": "2026-09-15T15:35:52.440Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4357403300",
+    "type": "OUTBOUND",
+    "message_id": "4357403785",
     "ticket_id": "980928489",
-    "message": "can you explain the gap price please?",
-    "channel_id": "1304636",
+    "message": "The gap between the listed price and AED 12,000 is the difference between the advertised rate and the all-inclusive monthly rate, which covers water, electricity, internet, and VAT. Does that make sense, or would you like to see the unit before committing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546775181",
     "contact_name": "wissem",
     "contact_identifier": "+33781205747",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
