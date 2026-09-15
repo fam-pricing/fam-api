@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-15T17:52:00.652Z",
+  "ts": "2026-09-15T17:54:00.496Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4357508389",
+    "type": "INBOUND",
+    "message_id": "4357509731",
     "ticket_id": "980957062",
-    "message": "Yes, the 1BR in Al Majara is available from 1st October. AED 8,200/month, all-inclusive, so nothing extra to pay on top.\n\nFor the viewing, what day and time works for you? Any day between 9am and 6pm.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "can I come 1:30pm on thursday?",
+    "channel_id": "1304636",
     "contact_id": "546786469",
     "contact_name": "Kerri",
     "contact_identifier": "+27713612185",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4357508389",
+    "parent_ticket_id": "980957062",
+    "event_type": "INBOUND"
   }
 }
