@@ -1925,3 +1925,7 @@ Please note that if you choose to pay via the payment link, a 3.1% card processi
 - Vehicle make and model
 - Color"
   (Learned from Faysal handling Saeed re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-2PSudOeqYWO.html)
+
+## Learned (2026-09-15)
+- If a lead asks about booking the month of September while their stay is already in progress, clarify that the September monthly rate will apply as long as the check-in date falls before the 25th of September.
+  (Learned from Faysal handling 🍸 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-143741645.html)
