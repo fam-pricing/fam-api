@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-15T11:53:00.303Z",
+  "ts": "2026-09-15T11:53:29.328Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4356670999",
+    "type": "INBOUND",
+    "message_id": "4356671575",
     "ticket_id": "978768169",
-    "message": "I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "338213979",
     "contact_name": "Mr Tejaswi Sudhir Redkar",
     "contact_identifier": "+14083066337",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4356670999",
+    "parent_ticket_id": "978768169",
+    "event_type": "INBOUND"
   }
 }
