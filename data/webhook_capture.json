@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-15T12:20:33.404Z",
+  "ts": "2026-09-15T12:20:37.146Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4356719690",
-    "ticket_id": "965844499",
-    "message": "I wanted to inform you that upon checkout cleaning, we couldn't find the access card on the table",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "542468411",
-    "contact_name": "Rajaa Taleh",
-    "contact_identifier": "+491729514660",
+    "type": "INBOUND",
+    "message_id": "4356720022",
+    "ticket_id": "976119272",
+    "message": "Date is ok but what price",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "545342830",
+    "contact_name": "Benas Petrauskas",
+    "contact_identifier": "+37066261643",
+    "parent_message_id": "4356690482",
+    "parent_ticket_id": "976119272",
+    "event_type": "INBOUND"
   }
 }
