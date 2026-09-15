@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-15T12:10:31.652Z",
+  "ts": "2026-09-15T12:10:59.310Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4356691476",
-    "ticket_id": "980309867",
-    "message": "no thank you",
-    "channel_id": "1304636",
-    "contact_id": "546650018",
-    "contact_name": "Y",
-    "contact_identifier": "+971507839012",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4356691985",
+    "ticket_id": "960457082",
+    "message": "I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "540922254",
+    "contact_name": "Alexandros Perakis",
+    "contact_identifier": "+971585106628",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
