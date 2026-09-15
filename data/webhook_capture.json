@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-15T12:35:19.830Z",
+  "ts": "2026-09-15T12:38:17.200Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4356789334",
+    "type": "INBOUND",
+    "message_id": "4356803895",
     "ticket_id": "980701476",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-al-wasl-canal-front-residences-canal-front-residence-1-86183976.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "booking",
+    "channel_id": "1304636",
     "contact_id": "546748193",
     "contact_name": "Rory Fitzsimons",
     "contact_identifier": "+971585762145",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
