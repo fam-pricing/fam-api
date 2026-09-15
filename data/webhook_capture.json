@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-15T15:22:18.634Z",
+  "ts": "2026-09-15T15:22:44.426Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4357387474",
+    "type": "OUTBOUND",
+    "message_id": "4357387978",
     "ticket_id": "980928489",
-    "message": "hello, i am looking to book monthly, \ncan you detail pricing for me please? \nmove in possible from 21sept",
-    "channel_id": "1304636",
+    "message": "September 21 works as a move-in date. It's a minimum 3-month commitment, so you'd be locked in through late December, does that timeline suit you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546775181",
     "contact_name": "wissem",
     "contact_identifier": "+33781205747",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
