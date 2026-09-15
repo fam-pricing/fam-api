@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-15T11:48:39.055Z",
+  "ts": "2026-09-15T11:48:41.510Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4356665813",
-    "ticket_id": "979313139",
-    "message": "Sorry im not in the home",
+    "type": "OUTBOUND",
+    "message_id": "4356665865",
+    "ticket_id": "969915930",
+    "message": "There is an issue with the battery. I will send someone to replace the battery",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "543574598",
+    "contact_name": "Sabrina",
+    "contact_identifier": "+971559529037",
     "channel_id": "585723",
-    "contact_id": "545083162",
-    "contact_name": "GANI EDEN HAWALED",
-    "contact_identifier": "+972507398493",
-    "parent_message_id": "4356641281",
-    "parent_ticket_id": "979313139",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
