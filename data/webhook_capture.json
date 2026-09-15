@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-15T10:31:21.546Z",
+  "ts": "2026-09-15T10:32:40.795Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4356578718",
-    "ticket_id": "973163595",
-    "message": "May I have a discount like before ? \nBefore you made a price for me cheaper then on booking, but now it’s the same",
-    "channel_id": "585723",
-    "contact_id": "544388893",
-    "contact_name": "Anastasiia",
-    "contact_identifier": "+79063684477",
-    "parent_message_id": "4356193049",
-    "parent_ticket_id": "973163595",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4356580155",
+    "ticket_id": "980534311",
+    "message": "If the check in starts before the 25th September we will apply the September rate",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535123692",
+    "contact_name": "🍸",
+    "contact_identifier": "+971524081244",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
