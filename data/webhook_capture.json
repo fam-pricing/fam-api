@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-15T06:41:42.864Z",
+  "ts": "2026-09-15T06:42:11.865Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4356232413",
+    "type": "INBOUND",
+    "message_id": "4356232756",
     "ticket_id": "980541781",
-    "message": "Sara, good day! Is there anything specific you'd like to know about the apartment before deciding if it's a fit?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is the unit available from September 28th?",
+    "channel_id": "1304636",
     "contact_id": "546716561",
     "contact_name": "Sara",
     "contact_identifier": "+971553837141",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4356231374",
+    "parent_ticket_id": "980541781",
+    "event_type": "INBOUND"
   }
 }
