@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-15T09:30:23.663Z",
+  "ts": "2026-09-15T09:30:35.738Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4356507908",
+    "type": "INBOUND",
+    "message_id": "4356508234",
     "ticket_id": "969915930",
-    "message": "May I kindly confirm whether the viewing will be arranged for today or tomorrow?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Either today or tomorrow",
+    "channel_id": "585723",
     "contact_id": "543574598",
     "contact_name": "Sabrina",
     "contact_identifier": "+971559529037",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
