@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-15T05:38:01.212Z",
+  "ts": "2026-09-15T05:39:11.889Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4356198663",
-    "ticket_id": "980529653",
-    "message": "Unfortunately this unit is no longer available as we have received another confirmed booking from different booking platform",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545367247",
-    "contact_name": "🎁777🎁",
-    "contact_identifier": "+971506113832",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4356198986",
+    "ticket_id": "960457082",
+    "message": "Good morning",
+    "channel_id": "585723",
+    "contact_id": "540922254",
+    "contact_name": "Alexandros Perakis",
+    "contact_identifier": "+971585106628",
+    "event_type": "INBOUND"
   }
 }
