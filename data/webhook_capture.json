@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-15T05:14:38.103Z",
+  "ts": "2026-09-15T05:16:09.559Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4356190355",
-    "ticket_id": "980529653",
-    "message": "When I can view it ?",
+    "type": "OUTBOUND",
+    "message_id": "4356190717",
+    "ticket_id": "980185365",
+    "message": "Good morning Saeed,\r\n\r\nThank you for the payment",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546610969",
+    "contact_name": "Saeed",
+    "contact_identifier": "+971565321010",
     "channel_id": "1304636",
-    "contact_id": "545367247",
-    "contact_name": "🎁777🎁",
-    "contact_identifier": "+971506113832",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
