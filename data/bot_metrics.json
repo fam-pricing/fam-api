@@ -5074,5 +5074,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-09-15T06:46:50.126Z",
+    "ticket_id": 980534311,
+    "lead_id": "message_lead_32141744",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 962,
+    "critic_pass": null,
+    "lead_quality": 15,
+    "buying_stage": "COLD",
+    "skip_reason": "bot_paused"
   }
 ]
