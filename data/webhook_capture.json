@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-15T12:17:34.029Z",
+  "ts": "2026-09-15T12:19:56.962Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4356705686",
-    "ticket_id": "980450631",
-    "message": "Could you please let us know what dates the property is actually available for over the next 6 months?\n\nSo far we haven’t received the exact availability, and since it is advertised for monthly rental, we’d like to understand which periods are already booked and which dates are still available.",
-    "channel_id": "1304636",
-    "contact_id": "546689170",
-    "contact_name": "Emese",
-    "contact_identifier": "+971504891759",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4356716898",
+    "ticket_id": "965844499",
+    "message": "Hello Raja",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "542468411",
+    "contact_name": "Rajaa Taleh",
+    "contact_identifier": "+491729514660",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
