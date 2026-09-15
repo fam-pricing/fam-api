@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-15T06:50:23.482Z",
+  "ts": "2026-09-15T06:50:45.821Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4356238595",
+    "type": "OUTBOUND",
+    "message_id": "4356238897",
     "ticket_id": "980541781",
-    "message": "Sure, I’d like to arrange a viewing. Could you please share some more details about the studio with me?",
-    "channel_id": "1304636",
+    "message": "Yes, it's available from September 28th. Since the link wasn't loading, viewing it in person makes sense. What day works for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546716561",
     "contact_name": "Sara",
     "contact_identifier": "+971553837141",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
