@@ -1,17 +1,21 @@
 {
-  "ts": "2026-09-15T05:41:46.649Z",
+  "ts": "2026-09-15T05:42:38.809Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4356199862",
-    "ticket_id": "980347683",
-    "message": "I will send her your number",
-    "channel_id": "1304636",
-    "contact_id": "546662149",
-    "contact_name": "Oumaima Laroussi",
-    "contact_identifier": "+971507500108",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4356200144",
+    "ticket_id": "980485904",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546702215",
+    "contact_name": "alex",
+    "contact_email": "adsge01@gmail.com",
+    "contact_identifier": "e416cfb8-4a48-4e67-b00f-658163f73cbd",
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
