@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-15T06:27:57.563Z",
+  "ts": "2026-09-15T06:28:04.443Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4356223168",
-    "ticket_id": "980535058",
-    "message": "May I reconfirm this is for elite 02 bedroom?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "546714604",
-    "contact_name": "Youss✨",
-    "contact_identifier": "+447538779618",
+    "type": "INBOUND",
+    "message_id": "4356223249",
+    "ticket_id": "980534311",
+    "message": "I thought it was 16500 total?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "535123692",
+    "contact_name": "🍸",
+    "contact_identifier": "+971524081244",
+    "parent_message_id": "4356203788",
+    "parent_ticket_id": "980534311",
+    "event_type": "INBOUND"
   }
 }
