@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-15T06:53:11.043Z",
+  "ts": "2026-09-15T06:53:47.688Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4356240645",
+    "type": "OUTBOUND",
+    "message_id": "4356241078",
     "ticket_id": "980541781",
-    "message": "Tomorrow works for me. I’ll confirm the exact viewing time with you tomorrow morning.\n\nBefore the viewing, I’d also like to get some more information about the rental, especially the monthly rent and how the extension would work. I’m planning to stay for one month, but I may want to extend, so I’d prefer to have these details before the viewing.",
-    "channel_id": "1304636",
+    "message": "Extensions work on a rolling monthly basis, the rate stays fixed for up to 3 months, then gets reviewed based on market conditions.\n\nJust confirm the time tomorrow morning and we're all set.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546716561",
     "contact_name": "Sara",
     "contact_identifier": "+971553837141",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
