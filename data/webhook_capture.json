@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-15T11:47:55.378Z",
+  "ts": "2026-09-15T11:48:39.055Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4356664973",
+    "type": "INBOUND",
+    "message_id": "4356665813",
     "ticket_id": "979313139",
-    "message": "And when it's leaking, you may share a video with us. Thank you too",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "Sorry im not in the home",
+    "channel_id": "585723",
     "contact_id": "545083162",
     "contact_name": "GANI EDEN HAWALED",
     "contact_identifier": "+972507398493",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4356641281",
+    "parent_ticket_id": "979313139",
+    "event_type": "INBOUND"
   }
 }
