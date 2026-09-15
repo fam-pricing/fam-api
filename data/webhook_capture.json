@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-15T07:48:17.992Z",
+  "ts": "2026-09-15T07:48:50.153Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4356385201",
+    "type": "INBOUND",
+    "message_id": "4356385740",
     "ticket_id": "980589548",
-    "message": "The studio at Upside Living is just above your budget at AED 5,500/month, but it's all-inclusive and ticks most of your boxes in Business Bay. One thing worth knowing: it's an adults-only building. Is that fine for your stay?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes",
+    "channel_id": "1304636",
     "contact_id": "546723492",
     "contact_name": ".",
     "contact_identifier": "+972543348366",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
