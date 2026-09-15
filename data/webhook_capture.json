@@ -1,17 +1,19 @@
 {
-  "ts": "2026-09-15T14:03:14.722Z",
+  "ts": "2026-09-15T14:03:30.359Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4357217389",
+    "message_id": "4357218265",
     "ticket_id": "979894284",
-    "message": "Hi, good evening",
+    "message": "What about washing machine?",
     "channel_id": "1304636",
     "contact_id": "542447225",
     "contact_name": "Alim",
     "contact_identifier": "+77029993929",
+    "parent_message_id": "4354590670",
+    "parent_ticket_id": "979894284",
     "event_type": "INBOUND"
   }
 }
