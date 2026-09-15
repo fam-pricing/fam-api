@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-15T06:54:14.746Z",
+  "ts": "2026-09-15T06:54:47.028Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4356241331",
+    "type": "OUTBOUND",
+    "message_id": "4356241721",
     "ticket_id": "980542600",
-    "message": "We are booking from india, we can’t physically view it, will it be possible for WhatsApp video tour?",
-    "channel_id": "1304636",
+    "message": "The property is available and we can absolutely do a WhatsApp video tour for you. What time works best, morning or afternoon UAE time?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546716793",
     "contact_name": "Ankit Arora",
     "contact_identifier": "+917303261006",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
