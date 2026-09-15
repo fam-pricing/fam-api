@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-15T13:06:36.899Z",
+  "ts": "2026-09-15T13:07:11.929Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4356938641",
+    "type": "OUTBOUND",
+    "message_id": "4356941675",
     "ticket_id": "980759270",
-    "message": "I’m looking to move in two days",
-    "channel_id": "1304636",
+    "message": "Moving in on the 19th works perfectly. To get started, I'll just need a copy of your passport or ID and your email address so we can send you the payment link. Shall we go ahead?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "544012757",
     "contact_name": "Irmane",
     "contact_identifier": "+261340279222",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
