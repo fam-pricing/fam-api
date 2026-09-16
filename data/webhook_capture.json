@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T14:24:28.151Z",
+  "ts": "2026-09-16T14:24:44.403Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358224415",
+    "type": "OUTBOUND",
+    "message_id": "4358224698",
     "ticket_id": "981134448",
-    "message": "Do you have other similar apartments available?",
-    "channel_id": "1304636",
+    "message": "8 September works perfectly, what time suits Ian best?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546845165",
     "contact_name": "Ivy",
     "contact_identifier": "+31626202337",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
