@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T05:50:01.696Z",
+  "ts": "2026-09-16T05:50:30.361Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4357683752",
-    "ticket_id": "960457082",
-    "message": "Is says unable to verify beneficiary",
+    "type": "OUTBOUND",
+    "message_id": "4357683939",
+    "ticket_id": "980963859",
+    "message": "You can contact us through our hotline number + 971 800 326 600",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546788482",
+    "contact_name": "Nour",
+    "contact_identifier": "+201153656768",
     "channel_id": "585723",
-    "contact_id": "540922254",
-    "contact_name": "Alexandros Perakis",
-    "contact_identifier": "+971585106628",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
