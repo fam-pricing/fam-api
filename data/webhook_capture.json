@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T20:59:25.432Z",
+  "ts": "2026-09-16T20:59:55.473Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358479136",
+    "type": "OUTBOUND",
+    "message_id": "4358479299",
     "ticket_id": "981193184",
-    "message": "Hi! I’m interested in the apartment. I wanted to ask if you offer monthly payment, as I’m looking to rent it for one month only. Could you please let me know the monthly price?",
-    "channel_id": "1304636",
+    "message": "Monthly stays are available, the studio is AED 5,500 for the month, all-inclusive. Want me to check availability for your dates?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546869403",
     "contact_name": "sally hadid",
     "contact_identifier": "+97450671166",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
