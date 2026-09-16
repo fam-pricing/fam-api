@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-16T09:52:29.338Z",
+  "ts": "2026-09-16T09:54:05.821Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4357912631",
+    "type": "OUTBOUND",
+    "message_id": "4357914727",
     "ticket_id": "978023203",
-    "message": "Can you make it now 500 for booking?",
-    "channel_id": "585723",
+    "message": "Allow me to check",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "545885643",
     "contact_name": "Hossam addin Mohammad",
     "contact_identifier": "+971505183050",
-    "parent_message_id": "4357896117",
-    "parent_ticket_id": "978023203",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
