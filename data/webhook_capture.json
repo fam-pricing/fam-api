@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-16T16:20:18.378Z",
+  "ts": "2026-09-16T16:21:02.633Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4358337042",
+    "type": "INBOUND",
+    "message_id": "4358337606",
     "ticket_id": "981161747",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-palm-jumeirah-the-crescent-royal-amwaj-residences-royal-amwaj-residences-north-130663708.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello, can i have all details",
+    "channel_id": "1304636",
     "contact_id": "546855017",
     "contact_name": "A",
     "contact_identifier": "+971565526166",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
