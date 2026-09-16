@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T15:14:35.521Z",
+  "ts": "2026-09-16T15:14:57.206Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358282228",
+    "type": "OUTBOUND",
+    "message_id": "4358282530",
     "ticket_id": "980972464",
-    "message": "Thanks, no vehicle",
-    "channel_id": "1304636",
+    "message": "No vehicle noted, Harry. We've got everything we need, passport or ID copy and your email address will get the booking confirmed. Want to send those over now?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546792630",
     "contact_name": "Harry",
     "contact_identifier": "+447926005170",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
