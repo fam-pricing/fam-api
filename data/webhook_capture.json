@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-16T06:22:40.534Z",
+  "ts": "2026-09-16T06:22:48.578Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4357699801",
-    "ticket_id": "980963391",
-    "message": "How can I help you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "546788873",
-    "contact_name": "Nour",
-    "contact_identifier": "a355f6d3-3f38-4664-10ce-acabc3fadfcd",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4357699867",
+    "ticket_id": "981006454",
+    "message": "Hello Fäm Team,\nOliver Kraft here. I will be your guest next week.\n24-27 of Sept, booking # 5755890823\n\nI need a parking slot please\n:\nDubai \nV99429\nMercedes \nAMG GTC Roadster\nwhite",
+    "channel_id": "585723",
+    "contact_id": "447033116",
+    "contact_name": "Oliver",
+    "contact_identifier": "+971585758468",
+    "event_type": "INBOUND"
   }
 }
