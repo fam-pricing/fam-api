@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T14:47:26.334Z",
+  "ts": "2026-09-16T14:50:18.748Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358253111",
-    "ticket_id": "981056533",
-    "message": "Thank you",
-    "channel_id": "585723",
-    "contact_id": "546816687",
-    "contact_name": "Abdulla",
-    "contact_identifier": "+971501004504",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4358256019",
+    "ticket_id": "981144652",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-umm-suqeim-umm-suqeim-3-madinat-jumeirah-living-jadeel-2-79838983.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "522095444",
+    "contact_name": "Adam",
+    "contact_identifier": "+46728465056",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
