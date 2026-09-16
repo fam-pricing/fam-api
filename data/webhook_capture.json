@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T05:02:01.747Z",
+  "ts": "2026-09-16T05:02:26.478Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4357670090",
-    "ticket_id": "980962309",
-    "message": "Can i have a number to talk to pls",
+    "type": "OUTBOUND",
+    "message_id": "4357670190",
+    "ticket_id": "980983910",
+    "message": "Please note that this apartment will be available from 23rd September",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546797317",
+    "contact_name": "Hashim",
+    "contact_identifier": "+447518459498",
     "channel_id": "1304636",
-    "contact_id": "546788482",
-    "contact_name": "Nour",
-    "contact_identifier": "+201153656768",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
