@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-16T06:26:13.488Z",
+  "ts": "2026-09-16T06:27:14.865Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4357701713",
-    "ticket_id": "981006454",
-    "message": "Allow me to check and update you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "447033116",
-    "contact_name": "Oliver",
-    "contact_identifier": "+971585758468",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4357702322",
+    "ticket_id": "980541781",
+    "message": "Yesterday, I asked you twice about the unit details, and you confirmed that the rate would be fixed for the first 3 months. You also gave me the exact monthly rate.\n\nCould you please clarify why the rate has changed now, less than 24 hours later, and why you are quoting me a different amount today?",
+    "channel_id": "1304636",
+    "contact_id": "546716561",
+    "contact_name": "Sara",
+    "contact_identifier": "+971553837141",
+    "event_type": "INBOUND"
   }
 }
