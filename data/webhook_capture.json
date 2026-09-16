@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T14:22:45.410Z",
+  "ts": "2026-09-16T14:23:13.560Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358222502",
+    "type": "OUTBOUND",
+    "message_id": "4358223030",
     "ticket_id": "981134448",
-    "message": "I hope you are well. Ian Toon will be in Dubai 27 Sept - 6 Oct. He is looking for a 3 month rental, 2 bed apartment in the area of Kite Beach. Do you have apartments that are available from 10 November and can you arrange a viewing in the week he is in Dubai this month?",
-    "channel_id": "1304636",
+    "message": "Canal Front Residences is walking distance to Kite Beach and available from 10 November for Ian's 3-month stay. We can arrange a viewing for him anytime between 9am and 6pm during his trip. What day works best?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546845165",
     "contact_name": "Ivy",
     "contact_identifier": "+31626202337",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
