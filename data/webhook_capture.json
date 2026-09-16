@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-16T06:41:18.060Z",
+  "ts": "2026-09-16T06:41:47.572Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4357711374",
+    "type": "INBOUND",
+    "message_id": "4357711681",
     "ticket_id": "981002074",
-    "message": "This unit is no longer available however we have another unit available but with a different rate",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "How much ?",
+    "channel_id": "1304636",
     "contact_id": "546788482",
     "contact_name": "Nour",
     "contact_identifier": "+201153656768",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
