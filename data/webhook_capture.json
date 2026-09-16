@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-16T08:19:16.936Z",
+  "ts": "2026-09-16T08:19:20.230Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4357806525",
+    "type": "OUTBOUND",
+    "message_id": "4357806604",
     "ticket_id": "981033919",
-    "message": "I need your phone number",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "546810592",
     "contact_name": "Alexandros Perakis",
     "contact_identifier": "bad514c2-4eaa-44df-147b-ff2fc5a80beb",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
