@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-16T11:59:22.349Z",
+  "ts": "2026-09-16T11:59:25.902Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358055033",
+    "type": "OUTBOUND",
+    "message_id": "4358055108",
     "ticket_id": "981092795",
-    "message": "Hello\nI am looking for a 1 bedroom apartment at City Walk from the 19th September to the 2nd October",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "546833712",
     "contact_name": "Ryan Moolman",
     "contact_identifier": "9f77de24-c5bf-46eb-ed9a-ffc01931973b",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
