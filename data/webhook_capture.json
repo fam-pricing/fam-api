@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-16T08:16:41.944Z",
+  "ts": "2026-09-16T08:19:16.936Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4357803725",
-    "ticket_id": "981032776",
-    "message": "Thanks Jezelle, let me check with the team on that and get back to you shortly!",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "546810245",
-    "contact_name": "Jezelle",
-    "contact_identifier": "+971529092873",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4357806525",
+    "ticket_id": "981033919",
+    "message": "I need your phone number",
+    "channel_id": "883603",
+    "contact_id": "546810592",
+    "contact_name": "Alexandros Perakis",
+    "contact_identifier": "bad514c2-4eaa-44df-147b-ff2fc5a80beb",
+    "event_type": "INBOUND"
   }
 }
