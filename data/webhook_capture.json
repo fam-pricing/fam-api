@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T13:19:37.972Z",
+  "ts": "2026-09-16T13:21:53.343Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358151517",
-    "ticket_id": "981106941",
-    "message": "In JVC",
+    "type": "OUTBOUND",
+    "message_id": "4358154109",
+    "ticket_id": "981116900",
+    "message": "You may visit our office tomorrow between 9:30 AM and 5:30 PM to complete the payment.\r\n\r\nPlease note that your check-in date is scheduled for the 23rd. Access to the apartment can be provided on the 23rd once the apartment is ready for check-in, as our standard check-in time starts from 3:00 PM.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "545605173",
+    "contact_name": "Anvar Baisagurov",
+    "contact_identifier": "+971524714995",
     "channel_id": "1304636",
-    "contact_id": "546763477",
-    "contact_name": "Jai",
-    "contact_identifier": "+447984111783",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
