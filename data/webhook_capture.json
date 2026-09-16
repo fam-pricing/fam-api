@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T13:38:31.007Z",
+  "ts": "2026-09-16T13:41:31.785Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358172412",
-    "ticket_id": "981116900",
-    "message": "no, thank you",
-    "channel_id": "1304636",
-    "contact_id": "545605173",
-    "contact_name": "Anvar Baisagurov",
-    "contact_identifier": "+971524714995",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4358175792",
+    "ticket_id": "981124533",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "546842152",
+    "contact_name": "Eduard",
+    "contact_identifier": "+971561929051",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
