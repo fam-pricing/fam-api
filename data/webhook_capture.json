@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-16T13:19:18.621Z",
+  "ts": "2026-09-16T13:19:30.150Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4358151197",
+    "type": "INBOUND",
+    "message_id": "4358151414",
     "ticket_id": "981106941",
-    "message": "May I know how many bedrooms you are looking for so I can for the availability and update you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "1 bedroom please",
+    "channel_id": "1304636",
     "contact_id": "546763477",
     "contact_name": "Jai",
     "contact_identifier": "+447984111783",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
