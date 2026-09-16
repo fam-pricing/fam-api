@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-16T13:52:47.076Z",
+  "ts": "2026-09-16T13:55:30.221Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4358188576",
-    "ticket_id": "981124533",
-    "message": "How can I help you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "546842152",
-    "contact_name": "Eduard",
-    "contact_identifier": "+971561929051",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4358191688",
+    "ticket_id": "981110874",
+    "message": "Thank you, understood. \nIn that case, is the apartment also available for a full 30-night monthly booking starting from 28th September?\n\nIf yes, would the previously confirmed AED 25,000 all-inclusive monthly rate apply?",
+    "channel_id": "1304636",
+    "contact_id": "546689170",
+    "contact_name": "Emese",
+    "contact_identifier": "+971504891759",
+    "event_type": "INBOUND"
   }
 }
