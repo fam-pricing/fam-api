@@ -4870,5 +4870,17 @@
     "lead_quality": 10,
     "buying_stage": "COLD",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-09-16T06:13:30.829Z",
+    "ticket_id": 980541781,
+    "lead_id": "message_lead_32143133",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1001,
+    "critic_pass": null,
+    "lead_quality": 75,
+    "buying_stage": "HOT",
+    "skip_reason": "bot_paused"
   }
 ]
