@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-16T09:12:12.303Z",
+  "ts": "2026-09-16T09:16:21.052Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4357864171",
-    "ticket_id": "981029903",
-    "message": "Okay, I can do it via international transfer. I need the IBAN, SWIFT/BIC code, bank name, and the account holder's (company's) name and address. The transfer can take 1 to 3 or 4 days, but I'll send you the receipt as soon as you make the transfer. Is that okay?",
-    "channel_id": "1304636",
-    "contact_id": "546809379",
-    "contact_name": "claudiocmff",
-    "contact_identifier": "+351925512997",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4357868619",
+    "ticket_id": "980469583",
+    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
+    "contact_id": "546696070",
+    "contact_name": "Sima",
+    "contact_identifier": "+971564295000",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
