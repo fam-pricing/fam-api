@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T08:50:52.006Z",
+  "ts": "2026-09-16T08:56:04.774Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4357841386",
+    "type": "OUTBOUND",
+    "message_id": "4357846695",
     "ticket_id": "981029903",
-    "message": "Can I pay with an international transfer or does it have to be cash? Since I don't have a local account in Dubai.\n\nAnd do I have to pay a deposit?",
-    "channel_id": "1304636",
+    "message": "There is a security deposit of AED 2000 which is fully refundable at check-out, provided there are no damages to the apartment. The refund will be processed within 7 working days after your departure.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546809379",
     "contact_name": "claudiocmff",
     "contact_identifier": "+351925512997",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
