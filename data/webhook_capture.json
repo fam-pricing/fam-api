@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T16:24:33.724Z",
+  "ts": "2026-09-16T16:24:39.420Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358340264",
+    "type": "OUTBOUND",
+    "message_id": "4358340320",
     "ticket_id": "981161747",
-    "message": "Do you have similar apartments ?",
-    "channel_id": "1304636",
+    "message": "The first 3 months are locked at AED 8,000/month, with months 4, 6 reviewed closer to the time. Would you like to come see it before October 1?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546855017",
     "contact_name": "A",
     "contact_identifier": "+971565526166",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
