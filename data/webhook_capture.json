@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T21:00:51.493Z",
+  "ts": "2026-09-16T21:01:10.668Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358479576",
+    "type": "OUTBOUND",
+    "message_id": "4358479743",
     "ticket_id": "981193184",
-    "message": "23 september to 23 october",
-    "channel_id": "1304636",
+    "message": "A security deposit of AED 1,000 is also required. To confirm the booking, we'll need a copy of your ID or passport and your email address. Want to go ahead?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546869403",
     "contact_name": "sally hadid",
     "contact_identifier": "+97450671166",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
