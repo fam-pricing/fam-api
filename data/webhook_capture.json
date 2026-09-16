@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-16T13:41:31.785Z",
+  "ts": "2026-09-16T13:41:55.427Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4358175792",
-    "ticket_id": "981124533",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "546842152",
-    "contact_name": "Eduard",
-    "contact_identifier": "+971561929051",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4358176242",
+    "ticket_id": "981110874",
+    "message": "Thank you. I’m just a little confused about the rate, as you previously confirmed that the advertised AED 25,000/month is fully all-inclusive, covering all utility bills, taxes and fees.\n\nBased on that rate, 14 nights would be approximately AED 11,667 on a pro-rata basis, while the quote we received is AED 16,337.30.\n\nCould you please clarify why the 14-night rate is significantly higher than the advertised monthly rate?",
+    "channel_id": "1304636",
+    "contact_id": "546689170",
+    "contact_name": "Emese",
+    "contact_identifier": "+971504891759",
+    "event_type": "INBOUND"
   }
 }
