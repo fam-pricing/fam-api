@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T15:54:19.385Z",
+  "ts": "2026-09-16T15:55:09.668Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358316399",
+    "type": "OUTBOUND",
+    "message_id": "4358317072",
     "ticket_id": "981011621",
-    "message": "6100 AED right?",
-    "channel_id": "585723",
+    "message": "Yes the rent is AED 6100",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544284816",
     "contact_name": "Yevhenii Miroshnychenko",
     "contact_identifier": "+971505719168",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
