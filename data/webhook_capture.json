@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T05:33:38.138Z",
+  "ts": "2026-09-16T05:34:07.289Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4357678918",
-    "ticket_id": "960457082",
-    "message": "Check with finance if they put correct name",
-    "channel_id": "585723",
-    "contact_id": "540922254",
-    "contact_name": "Alexandros Perakis",
-    "contact_identifier": "+971585106628",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4357679070",
+    "ticket_id": "974565804",
+    "message": "To help us follow up on your request, please share your contact details with us using the button below.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544284816",
+    "contact_name": "Yevhenii Miroshnychenko",
+    "contact_identifier": "+971505719168",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
