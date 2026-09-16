@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-16T15:16:14.386Z",
+  "ts": "2026-09-16T15:16:39.458Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358283692",
+    "type": "OUTBOUND",
+    "message_id": "4358284035",
     "ticket_id": "980972464",
-    "message": "Yes please send email booking confirmation to harry.donoghue@hotmail.co.uk",
-    "channel_id": "1304636",
+    "message": "Confirmation's on its way to harry.donoghue@hotmail.co.uk, Harry. We'll get the booking formalised from there.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546792630",
     "contact_name": "Harry",
     "contact_identifier": "+447926005170",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
