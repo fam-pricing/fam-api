@@ -1,17 +1,19 @@
 {
-  "ts": "2026-09-16T05:30:44.549Z",
+  "ts": "2026-09-16T05:30:51.815Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4357677890",
+    "message_id": "4357677942",
     "ticket_id": "960457082",
-    "message": "Good morning",
+    "message": "Money has not been received",
     "channel_id": "585723",
     "contact_id": "540922254",
     "contact_name": "Alexandros Perakis",
     "contact_identifier": "+971585106628",
+    "parent_message_id": "4356628804",
+    "parent_ticket_id": "960457082",
     "event_type": "INBOUND"
   }
 }
