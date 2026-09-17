@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-17T11:39:16.781Z",
+  "ts": "2026-09-17T11:39:26.669Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358911949",
+    "type": "OUTBOUND",
+    "message_id": "4358912098",
     "ticket_id": "980374240",
-    "message": "How much for the deposit?",
-    "channel_id": "1304636",
+    "message": "No worries at all, noted.\n\nSo the process is straightforward: deposit first via payment link, then rent is due before check-in. Once both are cleared, self-check-in details get sent so you can go straight to the unit. Check-in is from 3pm.\n\nShall I send the deposit link next week as you mentioned?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546671481",
     "contact_name": "Aurex Solutions",
     "contact_identifier": "+971585978920",
-    "parent_message_id": "4358911160",
-    "parent_ticket_id": "980374240",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
