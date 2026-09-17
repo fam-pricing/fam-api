@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-17T17:53:53.829Z",
+  "ts": "2026-09-17T17:54:16.551Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4359272891",
+    "type": "INBOUND",
+    "message_id": "4359273152",
     "ticket_id": "981371342",
-    "message": "September and October come to AED 11,000 total. Would you like to arrange a viewing when you're back in Dubai?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Can you share the exact dates",
+    "channel_id": "1304636",
     "contact_id": "546926973",
     "contact_name": "Martina",
     "contact_identifier": "+393319976575",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4359272891",
+    "parent_ticket_id": "981371342",
+    "event_type": "INBOUND"
   }
 }
