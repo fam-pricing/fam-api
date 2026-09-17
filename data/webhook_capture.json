@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-17T06:43:58.237Z",
+  "ts": "2026-09-17T06:44:20.369Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358592688",
+    "type": "OUTBOUND",
+    "message_id": "4358592918",
     "ticket_id": "981134448",
-    "message": "He is scheduled for a viewing at",
-    "channel_id": "1304636",
+    "message": "Unfortunately, we do not currently have any two-bedroom apartments available near Kite Beach starting from November.\r\n\r\nHowever, we would be happy to check other areas for you. Please let us know if you are open to considering alternative locations, and we will be glad to assist you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "546845165",
     "contact_name": "Ivy",
     "contact_identifier": "+31626202337",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
