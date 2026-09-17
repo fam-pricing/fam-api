@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-17T11:42:55.912Z",
+  "ts": "2026-09-17T11:43:38.655Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4358916047",
+    "type": "INBOUND",
+    "message_id": "4358916822",
     "ticket_id": "981091862",
-    "message": "How can I help you?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "This was my original message",
+    "channel_id": "585723",
     "contact_id": "546833023",
     "contact_name": "Ryan Moolman",
     "contact_identifier": "+27828536252",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4358052152",
+    "parent_ticket_id": "981091862",
+    "event_type": "INBOUND"
   }
 }
