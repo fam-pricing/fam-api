@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-17T03:42:36.968Z",
+  "ts": "2026-09-17T03:43:01.072Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358537621",
+    "type": "OUTBOUND",
+    "message_id": "4358537668",
     "ticket_id": "981187112",
-    "message": "You don’t need this for building access. Especially if you’re an agent in upside already.",
-    "channel_id": "1304636",
+    "message": "That's fair, if you're already in the building, we can skip the formal access step. Our agent will meet you at the unit. Does 12pm today still work for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546866883",
     "contact_name": "Kate Hewitt",
     "contact_identifier": "+353851852128",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
