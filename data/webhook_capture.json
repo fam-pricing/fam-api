@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-17T17:55:11.464Z",
+  "ts": "2026-09-17T17:55:49.915Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4359273718",
+    "type": "OUTBOUND",
+    "message_id": "4359274139",
     "ticket_id": "981371342",
-    "message": "I’ll come around 25 September and I need for 2 months",
-    "channel_id": "1304636",
+    "message": "You're arriving around 25 September for two months, that works out perfectly. Want to arrange it so the unit is ready for you from that date?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546926973",
     "contact_name": "Martina",
     "contact_identifier": "+393319976575",
-    "parent_message_id": "4359273425",
-    "parent_ticket_id": "981371342",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
