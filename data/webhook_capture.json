@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-17T17:52:51.567Z",
+  "ts": "2026-09-17T17:53:22.501Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4359272244",
+    "type": "INBOUND",
+    "message_id": "4359272567",
     "ticket_id": "981371342",
-    "message": "All bills are included, water, electricity, WiFi, and VAT, so nothing extra beyond the rent. Since you know the building already, want to come have a look at the current unit?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I’m not in dubai right now. Can you share the price for September and October?",
+    "channel_id": "1304636",
     "contact_id": "546926973",
     "contact_name": "Martina",
     "contact_identifier": "+393319976575",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
