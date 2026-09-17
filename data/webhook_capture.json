@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-17T06:46:42.854Z",
+  "ts": "2026-09-17T06:47:38.586Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4358594593",
+    "type": "INBOUND",
+    "message_id": "4358595224",
     "ticket_id": "981032776",
-    "message": "If this suits you I can share the rates with you",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Yes",
+    "channel_id": "1304636",
     "contact_id": "546810245",
     "contact_name": "Jezelle",
     "contact_identifier": "+971529092873",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4358594448",
+    "parent_ticket_id": "981032776",
+    "event_type": "INBOUND"
   }
 }
