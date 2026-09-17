@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-17T17:51:26.502Z",
+  "ts": "2026-09-17T17:51:48.435Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4359271330",
+    "type": "OUTBOUND",
+    "message_id": "4359271567",
     "ticket_id": "981371342",
-    "message": "Hello, is it available?",
-    "channel_id": "1304636",
+    "message": "The studio at Upside Living is available. Would you like to come see it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546926973",
     "contact_name": "Martina",
     "contact_identifier": "+393319976575",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
