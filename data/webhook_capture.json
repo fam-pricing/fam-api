@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-17T07:11:09.692Z",
+  "ts": "2026-09-17T07:11:42.055Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358615062",
-    "ticket_id": "981230850",
-    "message": "Confirm",
-    "channel_id": "585723",
-    "contact_id": "546882768",
-    "contact_name": "Sara",
-    "contact_identifier": "+971555395548",
-    "parent_message_id": "4358614551",
-    "parent_ticket_id": "981230850",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4358615584",
+    "ticket_id": "981230809",
+    "message": "The studio is AED 5,500/month all-in for the first 3 months. For the 4th month, the rate gets confirmed closer to the time based on availability. October is a popular period so that month tends to book fast. Want me to check if it's open for the full 4 months from October 1?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "546882769",
+    "contact_name": "Nour Rasheed",
+    "contact_identifier": "+971555123320",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
