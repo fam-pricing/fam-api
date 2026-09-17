@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-17T11:37:51.225Z",
+  "ts": "2026-09-17T11:38:07.897Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4358910410",
-    "ticket_id": "973163595",
-    "message": "We cannot confirm exactly at 10.30 am, can schedule between 10-12",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "544388893",
-    "contact_name": "Anastasiia",
-    "contact_identifier": "+79063684477",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4358910710",
+    "ticket_id": "980374240",
+    "message": "For the fly ticket I am looking between 7th and 10th October",
+    "channel_id": "1304636",
+    "contact_id": "546671481",
+    "contact_name": "Aurex Solutions",
+    "contact_identifier": "+971585978920",
+    "parent_message_id": "4358903013",
+    "parent_ticket_id": "980374240",
+    "event_type": "INBOUND"
   }
 }
