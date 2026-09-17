@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-17T10:18:41.739Z",
+  "ts": "2026-09-17T10:19:23.769Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4358825748",
+    "type": "INBOUND",
+    "message_id": "4358826460",
     "ticket_id": "973163595",
-    "message": "We can arrange cleaning with an additional charge of 300 AED for your kind information, as the extension doesn't include cleaning services",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "It was 160 aed",
+    "channel_id": "585723",
     "contact_id": "544388893",
     "contact_name": "Anastasiia",
     "contact_identifier": "+79063684477",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4343335130",
+    "parent_ticket_id": "973163595",
+    "event_type": "INBOUND"
   }
 }
