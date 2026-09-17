@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-17T05:17:53.253Z",
+  "ts": "2026-09-17T05:17:55.239Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358554181",
+    "type": "OUTBOUND",
+    "message_id": "4358554196",
     "ticket_id": "981214466",
-    "message": "Good afternoon!",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "546878038",
     "contact_name": "SalvasserFood   Delivery of premium seafood from the northern seas !",
     "contact_identifier": "+971506391087",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
