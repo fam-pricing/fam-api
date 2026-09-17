@@ -4954,5 +4954,17 @@
     "lead_quality": 100,
     "buying_stage": "HOT",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-09-17T12:30:01.465Z",
+    "ticket_id": 981193184,
+    "lead_id": "message_lead_32202796",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 953,
+    "critic_pass": null,
+    "lead_quality": 40,
+    "buying_stage": "WARM",
+    "skip_reason": "bot_paused"
   }
 ]
