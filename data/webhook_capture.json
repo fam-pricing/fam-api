@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-17T08:52:05.424Z",
+  "ts": "2026-09-17T08:52:33.886Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4358725212",
+    "type": "INBOUND",
+    "message_id": "4358725873",
     "ticket_id": "981134448",
-    "message": "This apartment will be available only until 10th November as it will be handover to the owner",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Can I call you?",
+    "channel_id": "1304636",
     "contact_id": "546845165",
     "contact_name": "Ivy",
     "contact_identifier": "+31626202337",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
