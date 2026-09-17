@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-17T03:42:02.125Z",
+  "ts": "2026-09-17T03:42:36.968Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4358537562",
+    "type": "INBOUND",
+    "message_id": "4358537621",
     "ticket_id": "981187112",
-    "message": "12pm today works, Kate. Our agent will meet you there, just send over a photo of your passport or Emirates ID so we can arrange building access.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "You don’t need this for building access. Especially if you’re an agent in upside already.",
+    "channel_id": "1304636",
     "contact_id": "546866883",
     "contact_name": "Kate Hewitt",
     "contact_identifier": "+353851852128",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
