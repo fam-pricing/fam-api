@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-17T03:34:20.812Z",
+  "ts": "2026-09-17T03:34:45.926Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358536664",
+    "type": "OUTBOUND",
+    "message_id": "4358536716",
     "ticket_id": "981187112",
-    "message": "That is great. I am looking to move in on the 23rd.",
-    "channel_id": "1304636",
+    "message": "The 23rd works perfectly. To lock it in, just send over a copy of your passport or ID and your email address and I'll get the payment link sent across to you.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546866883",
     "contact_name": "Kate Hewitt",
     "contact_identifier": "+353851852128",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
