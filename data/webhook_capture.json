@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-17T17:58:09.511Z",
+  "ts": "2026-09-17T17:58:27.268Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4359275602",
+    "type": "INBOUND",
+    "message_id": "4359275733",
     "ticket_id": "981371342",
-    "message": "Take your time. When you're ready to move forward, just say the word and we can get things sorted quickly.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "🙏",
+    "channel_id": "1304636",
     "contact_id": "546926973",
     "contact_name": "Martina",
     "contact_identifier": "+393319976575",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4359275602",
+    "parent_ticket_id": "981371342",
+    "event_type": "INBOUND"
   }
 }
