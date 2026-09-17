@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-17T05:23:33.037Z",
+  "ts": "2026-09-17T05:29:59.129Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358555547",
-    "ticket_id": "981134448",
-    "message": "I hope you are well. Ian Toon will be looking for a 3 month rental, 2 bed apartment in the area of Kite Beach. Do you have apartments that are available from 10 November for 3 months and can you arrange a viewing in the week he is in Dubai this month?",
-    "channel_id": "1304636",
-    "contact_id": "546845165",
-    "contact_name": "Ivy",
-    "contact_identifier": "+31626202337",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4358557273",
+    "ticket_id": "981011621",
+    "message": "Good morning,\r\n\r\nCan I have an update on the payment please?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "544284816",
+    "contact_name": "Yevhenii Miroshnychenko",
+    "contact_identifier": "+971505719168",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
