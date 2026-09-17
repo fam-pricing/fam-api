@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-17T03:27:21.037Z",
+  "ts": "2026-09-17T03:27:44.454Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358535770",
+    "type": "OUTBOUND",
+    "message_id": "4358535836",
     "ticket_id": "981187112",
-    "message": "Hi how are you? I’m looking to rent in upside is this Afifa?",
-    "channel_id": "1304636",
+    "message": "Not Afifa, but you've reached the right place! What are you looking for in Upside Living, and what's your ideal move-in date?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546866883",
     "contact_name": "Kate Hewitt",
     "contact_identifier": "+353851852128",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
