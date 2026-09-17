@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-17T03:27:44.454Z",
+  "ts": "2026-09-17T03:28:44.661Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4358535836",
+    "type": "INBOUND",
+    "message_id": "4358535966",
     "ticket_id": "981187112",
-    "message": "Not Afifa, but you've reached the right place! What are you looking for in Upside Living, and what's your ideal move-in date?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "This is ideal because it’s monthly. I’d be looking for a 6 month lease if passible?",
+    "channel_id": "1304636",
     "contact_id": "546866883",
     "contact_name": "Kate Hewitt",
     "contact_identifier": "+353851852128",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4358451055",
+    "parent_ticket_id": "981187112",
+    "event_type": "INBOUND"
   }
 }
