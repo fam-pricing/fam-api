@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-17T13:31:22.769Z",
+  "ts": "2026-09-17T13:31:24.550Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4359034478",
+    "type": "OUTBOUND",
+    "message_id": "4359034532",
     "ticket_id": "981334006",
-    "message": "Is this house avaliable ?",
-    "channel_id": "1304636",
+    "message": "Looks like you're enquiring about the 2BR in Elite Business Bay, is that the one you spotted on Property Finder?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546914201",
     "contact_name": ".",
     "contact_identifier": "+905441705686",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
