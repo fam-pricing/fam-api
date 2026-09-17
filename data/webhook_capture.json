@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-17T07:02:31.880Z",
+  "ts": "2026-09-17T07:02:53.434Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4358607258",
+    "type": "INBOUND",
+    "message_id": "4358607602",
     "ticket_id": "981228278",
-    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Hi Tharushi, Hope you're well.",
+    "channel_id": "585723",
     "contact_id": "546880857",
     "contact_name": "shahrukh Khan",
     "contact_identifier": "+971529700836",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
