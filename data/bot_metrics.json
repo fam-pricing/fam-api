@@ -1,77 +1,5 @@
 [
   {
-    "ts": "2026-09-10T06:54:25.497Z",
-    "ticket_id": 979596407,
-    "lead_id": "message_lead_31988296",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1208,
-    "critic_pass": null,
-    "lead_quality": 45,
-    "buying_stage": "WARM",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-09-10T06:57:08.699Z",
-    "ticket_id": 979596407,
-    "lead_id": "message_lead_31988296",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1154,
-    "critic_pass": null,
-    "lead_quality": 85,
-    "buying_stage": "HOT",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-09-10T06:57:12.986Z",
-    "ticket_id": 979596407,
-    "lead_id": "message_lead_31988296",
-    "action": "viewing_id_no_coords_escalated",
-    "tool_used": "book_viewing",
-    "response_time_ms": 9656,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-09-10T07:03:18.164Z",
-    "ticket_id": 979599509,
-    "lead_id": "message_lead_31988725",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1169,
-    "critic_pass": null,
-    "lead_quality": 20,
-    "buying_stage": "COOL",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-09-10T07:04:41.825Z",
-    "ticket_id": 979003327,
-    "lead_id": "message_lead_31905171",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 502,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-09-10T07:04:59.769Z",
-    "ticket_id": 979003327,
-    "lead_id": "message_lead_31905171",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 898,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-09-10T08:08:29.445Z",
     "ticket_id": 979615781,
     "lead_id": "message_lead_31991004",
@@ -5097,6 +5025,18 @@
     "critic_pass": null,
     "lead_quality": 50,
     "buying_stage": "WARM",
+    "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-09-17T07:10:17.024Z",
+    "ticket_id": 981032776,
+    "lead_id": "message_lead_32179480",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 920,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
     "skip_reason": "bot_paused"
   }
 ]
