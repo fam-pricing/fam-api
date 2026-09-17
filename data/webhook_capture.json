@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-17T17:54:42.867Z",
+  "ts": "2026-09-17T17:55:11.464Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4359273425",
+    "type": "INBOUND",
+    "message_id": "4359273718",
     "ticket_id": "981371342",
-    "message": "The exact dates are September 1, 31 and October 1, 31, so you'd have the unit for both full months. Does that work for you, or are you looking at specific weeks within that period?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I’ll come around 25 September and I need for 2 months",
+    "channel_id": "1304636",
     "contact_id": "546926973",
     "contact_name": "Martina",
     "contact_identifier": "+393319976575",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4359273425",
+    "parent_ticket_id": "981371342",
+    "event_type": "INBOUND"
   }
 }
