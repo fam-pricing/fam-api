@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-17T09:14:18.384Z",
+  "ts": "2026-09-17T09:22:02.635Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4358753385",
-    "ticket_id": "981217777",
-    "message": "Ok can you extend this one until then?",
+    "type": "OUTBOUND",
+    "message_id": "4358763246",
+    "ticket_id": "979894284",
+    "message": "Unfortunately, we are not able to deduct from the deposit",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "542447225",
+    "contact_name": "Alim",
+    "contact_identifier": "+77029993929",
     "channel_id": "1304636",
-    "contact_id": "539365088",
-    "contact_name": "Abdulrahman Ibrahim",
-    "contact_identifier": "+447539692848",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
