@@ -1,17 +1,19 @@
 {
-  "ts": "2026-09-17T12:19:27.057Z",
+  "ts": "2026-09-17T12:19:36.584Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4358956522",
+    "message_id": "4358956722",
     "ticket_id": "981316177",
-    "message": "Hello",
+    "message": "This is my requirement",
     "channel_id": "1304636",
     "contact_id": "546882769",
     "contact_name": "Nour Rasheed",
     "contact_identifier": "+971555123320",
+    "parent_message_id": "4358616411",
+    "parent_ticket_id": "981230809",
     "event_type": "INBOUND"
   }
 }
