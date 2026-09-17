@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-17T11:08:54.931Z",
+  "ts": "2026-09-17T11:10:17.005Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4358879278",
-    "ticket_id": "978023203",
-    "message": "Please confirm so I can share the payment link",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "545885643",
-    "contact_name": "Hossam addin Mohammad",
-    "contact_identifier": "+971505183050",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4358880593",
+    "ticket_id": "981273106",
+    "message": "Ok thanks !",
+    "channel_id": "1304636",
+    "contact_id": "546895768",
+    "contact_name": "Jeanne",
+    "contact_identifier": "+33659454414",
+    "event_type": "INBOUND"
   }
 }
