@@ -4966,5 +4966,17 @@
     "lead_quality": 10,
     "buying_stage": "COLD",
     "skip_reason": "frustration_detected"
+  },
+  {
+    "ts": "2026-09-18T15:09:06.721Z",
+    "ticket_id": 981585159,
+    "lead_id": "message_lead_32257437",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1161,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "ticket_locked"
   }
 ]
