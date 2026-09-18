@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-18T10:01:50.164Z",
+  "ts": "2026-09-18T10:02:24.734Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4359660224",
-    "ticket_id": "979894284",
-    "message": "Yeah but they said that i have to do it from your side because you are managing this apartment",
+    "type": "OUTBOUND",
+    "message_id": "4359660824",
+    "ticket_id": "981484777",
+    "message": "Please note that this apartment will be available from 9 October onward. Unfortunately, we are fully booked before this date.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "544897815",
+    "contact_name": "Jad Tarabay",
+    "contact_identifier": "+96181646954",
     "channel_id": "1304636",
-    "contact_id": "542447225",
-    "contact_name": "Alim",
-    "contact_identifier": "+77029993929",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
