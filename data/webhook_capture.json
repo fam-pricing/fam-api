@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-18T18:19:51.358Z",
+  "ts": "2026-09-18T18:20:06.778Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4360170266",
+    "type": "INBOUND",
+    "message_id": "4360170389",
     "ticket_id": "981607271",
-    "message": "Got it, send that photo whenever you're ready.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "!",
+    "channel_id": "1304636",
     "contact_id": "546741629",
     "contact_name": "Angelina",
     "contact_identifier": "+971554348655",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4357484168",
+    "parent_ticket_id": "980654730",
+    "event_type": "INBOUND"
   }
 }
