@@ -1,17 +1,19 @@
 {
-  "ts": "2026-09-18T11:30:49.592Z",
+  "ts": "2026-09-18T11:31:00.405Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
     "type": "INBOUND",
-    "message_id": "4359823129",
+    "message_id": "4359823339",
     "ticket_id": "981435501",
-    "message": "I am waiting at the first floor in front of door",
+    "message": "No need to",
     "channel_id": "585723",
     "contact_id": "546951536",
     "contact_name": "Nikolai Maslov",
     "contact_identifier": "+971502098484",
+    "parent_message_id": "4359823050",
+    "parent_ticket_id": "981435501",
     "event_type": "INBOUND"
   }
 }
