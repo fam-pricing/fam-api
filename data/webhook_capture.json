@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-18T07:31:03.690Z",
+  "ts": "2026-09-18T07:33:04.962Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4359509869",
-    "ticket_id": "981334006",
-    "message": "You have any video ?",
-    "channel_id": "1304636",
-    "contact_id": "546914201",
-    "contact_name": ".",
-    "contact_identifier": "+905441705686",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4359511605",
+    "ticket_id": "981435501",
+    "message": "We would like to inform you that we attempted to collect the payment through Booking.com; however, unfortunately, the payment was unsuccessful.\r\n\r\nAs an alternative, we can share a secure payment link with you to complete the payment. Once the payment is successfully completed, we will be able to confirm your booking.\r\n\r\nPlease note that, at the moment, your booking remains unconfirmed due to the pending payment.\r\n\r\nThank you for your understanding and cooperation.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "546951536",
+    "contact_name": "Nikolai Maslov",
+    "contact_identifier": "+971502098484",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
