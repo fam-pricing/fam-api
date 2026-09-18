@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-18T15:07:52.757Z",
+  "ts": "2026-09-18T15:08:21.177Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4360046373",
+    "type": "INBOUND",
+    "message_id": "4360046762",
     "ticket_id": "981585164",
-    "message": "Nice to meet you, Riyad! Let me pull up the exact floor details for you and come back shortly. And yes, all bills are included, water, electricity, and internet are all covered in the rent.",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes I saw the photos u shared",
+    "channel_id": "1304636",
     "contact_id": "546995004",
     "contact_name": "RH",
     "contact_identifier": "+971526478611",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4360046065",
+    "parent_ticket_id": "981585164",
+    "event_type": "INBOUND"
   }
 }
