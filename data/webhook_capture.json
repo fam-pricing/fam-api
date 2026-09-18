@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-18T11:54:19.630Z",
+  "ts": "2026-09-18T11:54:20.320Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4359847214",
-    "ticket_id": "981435501",
-    "message": "Image",
+    "type": "OUTBOUND",
+    "message_id": "4359847253",
+    "ticket_id": "981535325",
+    "message": "we have 1 bedroom + study room available, but may i know for how many nights you need ?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "546979562",
+    "contact_name": "Kamila",
+    "contact_identifier": "+996558200025",
     "channel_id": "585723",
-    "contact_id": "546951536",
-    "contact_name": "Nikolai Maslov",
-    "contact_identifier": "+971502098484",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
