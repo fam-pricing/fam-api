@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-18T06:11:04.960Z",
+  "ts": "2026-09-18T06:11:09.888Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4359453741",
-    "ticket_id": "978023203",
-    "message": "Paid",
-    "channel_id": "585723",
-    "contact_id": "545885643",
-    "contact_name": "Hossam addin Mohammad",
-    "contact_identifier": "+971505183050",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4359453775",
+    "ticket_id": "981351359",
+    "message": "This apartment is available from 16th December onwards only. Would that be suitable for you?\r\n\r\nPlease let us know, and we will be happy to assist you further.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "546921406",
+    "contact_name": "Daniil",
+    "contact_identifier": "+971524385753",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
