@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-18T09:28:00.725Z",
+  "ts": "2026-09-18T09:29:32.010Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4359626496",
-    "ticket_id": "944309555",
-    "message": "We will inform team",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "536583873",
-    "contact_name": "Aysha",
-    "contact_identifier": "+971507638836",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4359628047",
+    "ticket_id": "981457292",
+    "message": "Price range pls",
+    "channel_id": "1304636",
+    "contact_id": "544735233",
+    "contact_name": "Na",
+    "contact_identifier": "+23057925416",
+    "parent_message_id": "4359564299",
+    "parent_ticket_id": "981457292",
+    "event_type": "INBOUND"
   }
 }
