@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-18T12:00:50.975Z",
+  "ts": "2026-09-18T12:04:01.303Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4359853917",
-    "ticket_id": "981537054",
-    "message": "Anything in the area for our budget?",
+    "type": "OUTBOUND",
+    "message_id": "4359857441",
+    "ticket_id": "981435501",
+    "message": "Thanks for sharing, we will keep in our records",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "546951536",
+    "contact_name": "Nikolai Maslov",
+    "contact_identifier": "+971502098484",
     "channel_id": "585723",
-    "contact_id": "546980139",
-    "contact_name": "Violetta",
-    "contact_identifier": "+971523478815",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
