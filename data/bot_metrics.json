@@ -4954,5 +4954,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-09-18T13:58:23.047Z",
+    "ticket_id": 981147731,
+    "lead_id": "message_lead_32193593",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 12886,
+    "critic_pass": null,
+    "lead_quality": 10,
+    "buying_stage": "COLD",
+    "skip_reason": "frustration_detected"
   }
 ]
