@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-18T07:49:38.816Z",
+  "ts": "2026-09-18T07:52:47.682Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4359526193",
-    "ticket_id": "981134448",
-    "message": "Do you have any units you would like to offer",
+    "type": "OUTBOUND",
+    "message_id": "4359529430",
+    "ticket_id": "981416127",
+    "message": "As mentioned in our previous message, the rate we have provided is AED 11,500 for a 30-night booking.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539365088",
+    "contact_name": "Abdulrahman Ibrahim",
+    "contact_identifier": "+447539692848",
     "channel_id": "1304636",
-    "contact_id": "546845165",
-    "contact_name": "Ivy",
-    "contact_identifier": "+31626202337",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
