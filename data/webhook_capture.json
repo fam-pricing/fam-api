@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-18T11:33:15.269Z",
+  "ts": "2026-09-18T11:34:04.861Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4359825704",
-    "ticket_id": "981435501",
-    "message": "Can you confirm exactly which floor are you in ?",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "546951536",
-    "contact_name": "Nikolai Maslov",
-    "contact_identifier": "+971502098484",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4359826459",
+    "ticket_id": "981527501",
+    "message": "Thank you",
+    "channel_id": "1304636",
+    "contact_id": "546186408",
+    "contact_name": "Tommy Manzoni",
+    "contact_identifier": "+393334593312",
+    "event_type": "INBOUND"
   }
 }
