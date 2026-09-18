@@ -1929,3 +1929,7 @@ Please note that if you choose to pay via the payment link, a 3.1% card processi
 ## Learned (2026-09-15)
 - If a lead asks about booking the month of September while their stay is already in progress, clarify that the September monthly rate will apply as long as the check-in date falls before the 25th of September.
   (Learned from Faysal handling 🍸 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-143741645.html)
+
+## Learned (2026-09-18)
+- When a lead says "Bye" (or any farewell that signals they are about to disengage), respond by clarifying that the rate shown on the website applies only to the September period. Explain that rates vary month to month based on availability and demand, and provide them with the applicable rates for all remaining months covered by their stay before they leave the conversation.
+  (Learned from Faysal handling Hajer re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
