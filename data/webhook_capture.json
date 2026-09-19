@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-19T18:47:03.362Z",
+  "ts": "2026-09-19T18:47:27.354Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4360627814",
+    "type": "INBOUND",
+    "message_id": "4360627908",
     "ticket_id": "981717668",
-    "message": "The 2BR in Elite Business Bay is AED 9,000/month, all-inclusive. The refundable security deposit is AED 2,000. Would you like to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes",
+    "channel_id": "1304636",
     "contact_id": "547048224",
     "contact_name": "Reset. Refocus. Restart",
     "contact_identifier": "+971527256855",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
