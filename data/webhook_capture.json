@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-19T10:48:06.581Z",
+  "ts": "2026-09-19T10:48:31.812Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4360425292",
-    "ticket_id": "981198667",
-    "message": "Ok",
-    "channel_id": "1304636",
-    "contact_id": "546871936",
-    "contact_name": "Lulu",
-    "contact_identifier": "+971551559682",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4360425475",
+    "ticket_id": "951657693",
+    "message": "The door hinges are broken; it will cost 200 AED to replace and fix them",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "538466901",
+    "contact_name": "Pratham Shivnani Purshotham Shivnani",
+    "contact_identifier": "+971568658283",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
