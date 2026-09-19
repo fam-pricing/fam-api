@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-19T09:19:12.545Z",
+  "ts": "2026-09-19T09:19:16.194Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4360384230",
+    "type": "INBOUND",
+    "message_id": "4360384274",
     "ticket_id": "978711530",
-    "message": "unit: 2005\r\n\r\nCode: 8080🔑",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "546122639",
     "contact_name": "Pooja panchal",
     "contact_identifier": "+971586679899",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4360384230",
+    "parent_ticket_id": "978711530",
+    "event_type": "INBOUND"
   }
 }
