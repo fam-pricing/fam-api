@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-19T06:29:37.243Z",
+  "ts": "2026-09-19T06:30:00.800Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4360313836",
+    "type": "OUTBOUND",
+    "message_id": "4360313964",
     "ticket_id": "981649562",
-    "message": "Hello I'm interested to move into the apartment for October/ November",
-    "channel_id": "1304636",
+    "message": "Great timing for October/November! Let me pull up the details on that unit for you and come back shortly.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547019961",
     "contact_name": "Aliae Edebbab",
     "contact_identifier": "+971586002726",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
