@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-19T08:02:42.247Z",
+  "ts": "2026-09-19T08:02:50.067Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4360349494",
-    "ticket_id": "981649562",
-    "message": "allow me to check , do you have any location preference ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "547019961",
-    "contact_name": "Aliae Edebbab",
-    "contact_identifier": "+971586002726",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4360349542",
+    "ticket_id": "981650930",
+    "message": "👍🏻",
+    "channel_id": "585723",
+    "contact_id": "547020876",
+    "contact_name": "Parth",
+    "contact_identifier": "+919167146474",
+    "parent_message_id": "4360345135",
+    "parent_ticket_id": "981650930",
+    "event_type": "INBOUND"
   }
 }
