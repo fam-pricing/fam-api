@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-19T12:16:46.295Z",
+  "ts": "2026-09-19T12:23:56.350Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4360466538",
-    "ticket_id": "981585164",
-    "message": "Yes please so I can decide accordingly which option is better for me",
+    "type": "OUTBOUND",
+    "message_id": "4360469846",
+    "ticket_id": "981416127",
+    "message": "Here is the payment link for your extension booking with 3.1% card fee added\r\n\r\nLink: https://totalpay.ae/payment/20260919196aae7eb7bbcef",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "539365088",
+    "contact_name": "Abdulrahman Ibrahim",
+    "contact_identifier": "+447539692848",
     "channel_id": "1304636",
-    "contact_id": "546995004",
-    "contact_name": "RH",
-    "contact_identifier": "+971526478611",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
