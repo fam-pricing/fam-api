@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-19T20:29:33.068Z",
+  "ts": "2026-09-19T20:29:56.442Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4360652517",
+    "type": "OUTBOUND",
+    "message_id": "4360652603",
     "ticket_id": "981722857",
-    "message": "Do you have any other ground-floor apartments with a terrace?",
-    "channel_id": "1304636",
+    "message": "We don't have another ground-floor terrace unit in JVC at the moment, the Binghatti Amber one is what's available. Would you like to come see it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547050539",
     "contact_name": "A",
     "contact_identifier": "+79227777422",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
