@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-19T05:20:18.712Z",
+  "ts": "2026-09-19T05:24:35.587Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4360297366",
-    "ticket_id": "981645945",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-downtown-dubai-the-address-residences-dubai-opera-the-address-residences-dubai-opera-tower-1-15597551.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "547018738",
-    "contact_name": "Mehra",
-    "contact_identifier": "+971505853037",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4360297996",
+    "ticket_id": "981623599",
+    "message": "Hello",
+    "channel_id": "585723",
+    "contact_id": "534000041",
+    "contact_name": "OASIS",
+    "contact_identifier": "+971567139697",
+    "event_type": "INBOUND"
   }
 }
