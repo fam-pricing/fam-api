@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-19T11:10:02.930Z",
+  "ts": "2026-09-19T11:12:23.273Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4360435203",
+    "type": "OUTBOUND",
+    "message_id": "4360436264",
     "ticket_id": "951657693",
-    "message": "Should i send you the old video",
-    "channel_id": "585723",
+    "message": "Can you confirm when the video was taken?",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
     "contact_id": "538466901",
     "contact_name": "Pratham Shivnani Purshotham Shivnani",
     "contact_identifier": "+971568658283",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
