@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-19T07:59:22.939Z",
+  "ts": "2026-09-19T07:59:37.343Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4360347794",
+    "type": "OUTBOUND",
+    "message_id": "4360347884",
     "ticket_id": "978023203",
-    "message": "Now change to 6500 and 1000",
-    "channel_id": "585723",
+    "message": "Your rent amount is AED 6,000, and the security deposit is AED 1,500, making the total amount AED 7,500.\r\n\r\nAs you have paid AED 1,000 so far, the remaining pending amount is AED 6,500, including the rent and security deposit.\r\n\r\nYou may kindly review your booking confirmation again for the payment details.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545885643",
     "contact_name": "Hossam addin Mohammad",
     "contact_identifier": "+971505183050",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
