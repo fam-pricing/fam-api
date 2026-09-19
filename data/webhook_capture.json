@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-19T08:13:05.103Z",
+  "ts": "2026-09-19T08:13:16.902Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4360355116",
+    "type": "OUTBOUND",
+    "message_id": "4360355189",
     "ticket_id": "949897405",
-    "message": "Thank you",
-    "channel_id": "585723",
+    "message": "Our viewing hours are between 10:00 AM and 6:00 PM.\r\n\r\nPlease let us know what time would be convenient for you, and we will arrange the viewing accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537896480",
     "contact_name": "Talal Jehad Alsayed",
     "contact_identifier": "+971556507344",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
