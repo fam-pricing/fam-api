@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-19T13:00:19.356Z",
+  "ts": "2026-09-19T13:02:33.003Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4360486270",
-    "ticket_id": "981689288",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Residences 1\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "547035769",
-    "contact_name": "..",
-    "contact_identifier": "+971503588969",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4360487322",
+    "ticket_id": "981689539",
+    "message": "Hello, I'm looking for a monthly 1-bed apartment rental in Business Bay, Downtown or Meydan. Do you have any options available?",
+    "channel_id": "585723",
+    "contact_id": "547035862",
+    "contact_name": "Maral",
+    "contact_identifier": "+971585588386",
+    "event_type": "INBOUND"
   }
 }
