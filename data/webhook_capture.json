@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-20T15:58:02.594Z",
+  "ts": "2026-09-20T15:58:11.526Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4360946824",
+    "type": "OUTBOUND",
+    "message_id": "4360946860",
     "ticket_id": "981794803",
-    "message": "I'm interested in renting this property for 5 months",
-    "channel_id": "1304636",
+    "message": "Sara, are you looking to move in soon?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547077552",
     "contact_name": "Sara",
     "contact_identifier": "+447350193970",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
