@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-20T09:44:57.398Z",
+  "ts": "2026-09-20T09:45:07.474Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4360799952",
-    "ticket_id": "981756674",
-    "message": "Starting Tuesday",
+    "type": "OUTBOUND",
+    "message_id": "4360800029",
+    "ticket_id": "981737597",
+    "message": "Unfortunately, this unit will only be available for a one-month booking starting from 15th December.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "547056142",
+    "contact_name": "Dior",
+    "contact_identifier": "+971581593033",
     "channel_id": "1304636",
-    "contact_id": "546689174",
-    "contact_name": "Christian",
-    "contact_identifier": "+96178848307",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
