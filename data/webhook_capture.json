@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-20T09:30:11.796Z",
+  "ts": "2026-09-20T09:30:13.425Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4360793633",
+    "type": "OUTBOUND",
+    "message_id": "4360793652",
     "ticket_id": "981757591",
-    "message": "مساء الخير",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "547063399",
     "contact_name": "Alfouzan",
     "contact_identifier": "+96595566371",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
