@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-20T09:20:40.163Z",
+  "ts": "2026-09-20T09:20:56.842Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4360789651",
-    "ticket_id": "981756674",
-    "message": "hello",
+    "type": "OUTBOUND",
+    "message_id": "4360789795",
+    "ticket_id": "981747974",
+    "message": "Please have a look on the below link\r\n\r\nhttps://www.airbnb.com/rooms/1709308622662857294",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "547059807",
+    "contact_name": "Mehmet Yetim",
+    "contact_identifier": "+905324084422",
     "channel_id": "1304636",
-    "contact_id": "546689174",
-    "contact_name": "Christian",
-    "contact_identifier": "+96178848307",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
