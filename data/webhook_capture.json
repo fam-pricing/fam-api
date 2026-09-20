@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-20T08:07:02.615Z",
+  "ts": "2026-09-20T08:08:40.172Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4360759418",
-    "ticket_id": "979894284",
-    "message": "By the way, I work with Firas. I’ll speak to him or his team about this later",
+    "type": "OUTBOUND",
+    "message_id": "4360760083",
+    "ticket_id": "981677947",
+    "message": "Apologies for the delay,\r\n\r\nUnfortunately this unit is not available for another 1month extension as we have received another confirmed booking from a different platform",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "541745108",
+    "contact_name": "Mahmoud Amin Mohamed Am",
+    "contact_identifier": "+971559904943",
     "channel_id": "1304636",
-    "contact_id": "542447225",
-    "contact_name": "Alim",
-    "contact_identifier": "+77029993929",
-    "parent_message_id": "4360497058",
-    "parent_ticket_id": "979894284",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
