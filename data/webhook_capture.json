@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-20T07:51:30.048Z",
+  "ts": "2026-09-20T07:52:54.218Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4360752036",
+    "type": "OUTBOUND",
+    "message_id": "4360752539",
     "ticket_id": "979894284",
-    "message": "Tharushi Sha right?",
-    "channel_id": "1304636",
+    "message": "Hi Team,\r\n\r\nThank you for your email.\r\n\r\nWe have received confirmation from the supplier that their team will be visiting the unit tomorrow between 10:00 AM and 5:00 PM to inspect the washing machine.\r\n\r\nKindly advise what time would be most suitable for the tenant to be available so that we can coordinate and schedule the visit accordingly.\r\n\r\nWe look forward to your confirmation.\r\n\r\nBest Regards,",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "542447225",
     "contact_name": "Alim",
     "contact_identifier": "+77029993929",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
