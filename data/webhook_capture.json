@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-20T11:23:16.209Z",
+  "ts": "2026-09-20T11:23:35.152Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4360838470",
+    "type": "OUTBOUND",
+    "message_id": "4360838578",
     "ticket_id": "981717668",
-    "message": "It’s available for October",
-    "channel_id": "1304636",
+    "message": "It's available from October, yes. When were you thinking of moving in?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547048224",
     "contact_name": "Reset. Refocus. Restart",
     "contact_identifier": "+971527256855",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
