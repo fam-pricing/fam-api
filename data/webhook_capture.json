@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-20T04:35:21.344Z",
+  "ts": "2026-09-20T04:35:49.547Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4360707037",
+    "type": "INBOUND",
+    "message_id": "4360707064",
     "ticket_id": "981737597",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-4-66326226.html\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "May i know if this unit is available, for 2 weeks ( moving day today/tomorrow ) \n\n2 bedrooms in Bluewaters",
+    "channel_id": "1304636",
     "contact_id": "547056142",
     "contact_name": "Dior",
     "contact_identifier": "+971581593033",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
