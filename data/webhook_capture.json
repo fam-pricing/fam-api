@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-20T09:51:58.822Z",
+  "ts": "2026-09-20T09:53:41.102Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4360802805",
+    "type": "INBOUND",
+    "message_id": "4360803512",
     "ticket_id": "981756674",
-    "message": "Unfortunately, we do not currently have any available units in the Upside Living building, as all units are fully booked.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Can you share something available from tuesday for 2 weeks",
+    "channel_id": "1304636",
     "contact_id": "546689174",
     "contact_name": "Christian",
     "contact_identifier": "+96178848307",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
