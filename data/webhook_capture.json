@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-21T08:12:56.201Z",
+  "ts": "2026-09-21T08:13:08.713Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4361252700",
+    "type": "OUTBOUND",
+    "message_id": "4361252989",
     "ticket_id": "981875523",
-    "message": "How much will be total price for 1 month ?",
-    "channel_id": "1304636",
+    "message": "Yes, available from tomorrow! Let me pull up the exact price for the 1-bedroom and come back to you shortly.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547103411",
     "contact_name": "Maria",
     "contact_identifier": "+971523835889",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
