@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-21T14:00:07.786Z",
+  "ts": "2026-09-21T14:25:21.392Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4361729560",
-    "ticket_id": "981908278",
-    "message": "Document",
+    "type": "OUTBOUND",
+    "message_id": "4361761836",
+    "ticket_id": "982001989",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-4-66326226.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "547146651",
+    "contact_name": "Nadya",
+    "contact_identifier": "+971567874774",
     "channel_id": "1304636",
-    "contact_id": "547112861",
-    "contact_name": "Jameel Pasha Khan",
-    "contact_identifier": "+971551884500",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
