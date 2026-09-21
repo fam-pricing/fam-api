@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-21T08:05:58.077Z",
+  "ts": "2026-09-21T08:06:24.345Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4361243372",
+    "type": "INBOUND",
+    "message_id": "4361243953",
     "ticket_id": "981860345",
-    "message": "May i know your timing please?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "around 4 p.m",
+    "channel_id": "1304636",
     "contact_id": "545605173",
     "contact_name": "Anvar Baisagurov",
     "contact_identifier": "+971524714995",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4361243372",
+    "parent_ticket_id": "981860345",
+    "event_type": "INBOUND"
   }
 }
