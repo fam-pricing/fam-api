@@ -1,18 +1,19 @@
 {
-  "ts": "2026-09-21T21:15:47.881Z",
+  "ts": "2026-09-21T22:58:04.432Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4362048755",
-    "ticket_id": "982068953",
-    "message": "Thanks! You will get a reply by email if you leave this website.",
-    "contact_id": "547168416",
-    "contact_name": "anna",
-    "contact_email": "anna2712@live.nl",
-    "contact_identifier": "ce086c58-3d36-4252-c00d-8cc0ae681c72",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4362070195",
+    "ticket_id": "982073491",
+    "message": "10:00 AM - 12:00 PM",
+    "channel_id": "585723",
+    "contact_id": "467636470",
+    "contact_name": "Shizuyo Okazaki",
+    "contact_identifier": "+971561380240",
+    "parent_message_id": "4361386912",
+    "parent_ticket_id": "748431463",
+    "event_type": "INBOUND"
   }
 }
