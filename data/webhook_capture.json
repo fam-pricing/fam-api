@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-21T08:25:50.597Z",
+  "ts": "2026-09-21T08:31:07.519Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4361269640",
+    "type": "OUTBOUND",
+    "message_id": "4361276845",
     "ticket_id": "925854120",
-    "message": "Hello. Could you tell if Faysal is still a manager of the company and I can contact him via email faysal@famliving.com thank you",
-    "channel_id": "585723",
+    "message": "Hello Vaiva,\r\n\r\nYes, Mr. Faysal is still the manager of our company.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "532021761",
     "contact_name": "Vaiva Lukminaite",
     "contact_identifier": "+37062028632",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
