@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-21T05:25:01.146Z",
+  "ts": "2026-09-21T05:25:26.721Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4361107755",
-    "ticket_id": "981795962",
-    "message": "Good morning! What would you like to know about the property?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "547077912",
-    "contact_name": "A.F.",
-    "contact_identifier": "+971585774804",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4361107861",
+    "ticket_id": "975826365",
+    "message": "Why 450?",
+    "channel_id": "585723",
+    "contact_id": "545257027",
+    "contact_name": "Damian",
+    "contact_identifier": "+447856454139",
+    "parent_message_id": "4339842075",
+    "parent_ticket_id": "975826365",
+    "event_type": "INBOUND"
   }
 }
