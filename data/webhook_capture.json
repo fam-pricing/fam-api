@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-21T08:42:00.804Z",
+  "ts": "2026-09-21T08:42:03.228Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4361291255",
+    "type": "OUTBOUND",
+    "message_id": "4361291310",
     "ticket_id": "981887692",
-    "message": "Hello I wanna rent appartment ,what available?",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "547107100",
     "contact_name": "Valeria",
     "contact_identifier": "0ca75bdb-aaf3-491c-7ef6-659398c61653",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
