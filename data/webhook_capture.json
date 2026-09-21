@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-21T04:56:58.473Z",
+  "ts": "2026-09-21T04:59:21.806Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4361100955",
-    "ticket_id": "981725104",
-    "message": "Hello, we visited the tower location and vicinity and we don’t want to be in a big tower, so please cancel the viewing for this particular property. \n\nWould you have any other properties that could suit our requirements please?  for reference,\nwe are looking for a 1 to 6-month rental in Marina, Palm Jumeirah, Downtown, 2BR, pet-friendly with a monthly budget of AED 15k max. Many thanks Marie",
-    "channel_id": "1304636",
-    "contact_id": "547051574",
-    "contact_name": "Marie DXB",
-    "contact_identifier": "+971553540155",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4361101378",
+    "ticket_id": "981839979",
+    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "491543515",
+    "contact_name": "Emanuele",
+    "contact_identifier": "+393387296197",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
