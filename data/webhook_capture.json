@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-21T14:30:22.575Z",
+  "ts": "2026-09-21T14:30:25.904Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4361768047",
+    "type": "OUTBOUND",
+    "message_id": "4361768106",
     "ticket_id": "982003224",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "547147093",
     "contact_name": "Mayur Purbi",
     "contact_identifier": "+919997534424",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
