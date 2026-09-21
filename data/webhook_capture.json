@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-21T13:52:39.854Z",
+  "ts": "2026-09-21T13:53:00.645Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4361720141",
+    "type": "OUTBOUND",
+    "message_id": "4361720581",
     "ticket_id": "981948692",
-    "message": "Could we see it today, by chance?",
-    "channel_id": "1304636",
+    "message": "We can sort a viewing today, what time suits you best? We're free anytime between 9am and 6pm.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "531223871",
     "contact_name": "Chase Bitz",
     "contact_identifier": "+971545467910",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
