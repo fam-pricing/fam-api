@@ -1,17 +1,19 @@
 {
-  "ts": "2026-09-21T14:35:36.337Z",
+  "ts": "2026-09-21T14:39:50.456Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4361774737",
-    "ticket_id": "982004688",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
-    "contact_id": "547147501",
-    "contact_name": "Maharaj Krishan Purbi",
-    "contact_identifier": "+919412663855",
+    "type": "INBOUND",
+    "message_id": "4361779809",
+    "ticket_id": "981839979",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "491543515",
+    "contact_name": "Dario Spallone",
+    "contact_identifier": "+393387296197",
+    "parent_message_id": "4361101378",
+    "parent_ticket_id": "981839979",
+    "event_type": "INBOUND"
   }
 }
