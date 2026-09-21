@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-21T08:03:20.689Z",
+  "ts": "2026-09-21T08:03:55.343Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4361239989",
+    "type": "INBOUND",
+    "message_id": "4361240772",
     "ticket_id": "981860345",
-    "message": "Just to confirm, does this mean you will be coming to our office tomorrow, 22nd September, to complete the payment?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "yes",
+    "channel_id": "1304636",
     "contact_id": "545605173",
     "contact_name": "Anvar Baisagurov",
     "contact_identifier": "+971524714995",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4361239989",
+    "parent_ticket_id": "981860345",
+    "event_type": "INBOUND"
   }
 }
