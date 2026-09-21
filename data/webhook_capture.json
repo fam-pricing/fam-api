@@ -1,17 +1,18 @@
 {
-  "ts": "2026-09-21T08:42:30.711Z",
+  "ts": "2026-09-21T08:42:48.430Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4361291972",
+    "type": "OUTBOUND",
+    "message_id": "4361292410",
     "ticket_id": "981887692",
-    "message": "This option is available?",
-    "channel_id": "883603",
+    "message": "Thanks! You will get a reply by email if you leave this website.",
     "contact_id": "547107100",
     "contact_name": "Valeria",
+    "contact_email": "veve.dakroub95@gamil.com",
     "contact_identifier": "0ca75bdb-aaf3-491c-7ef6-659398c61653",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
