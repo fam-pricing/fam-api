@@ -1,65 +1,5 @@
 [
   {
-    "ts": "2026-09-14T09:50:05.447Z",
-    "ticket_id": 980287883,
-    "lead_id": "message_lead_32116138",
-    "action": "reply",
-    "tool_used": "send_reply",
-    "response_time_ms": 24950,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": null
-  },
-  {
-    "ts": "2026-09-14T09:50:36.908Z",
-    "ticket_id": 980287883,
-    "lead_id": "message_lead_32116138",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1031,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": "ticket_locked"
-  },
-  {
-    "ts": "2026-09-14T09:54:01.052Z",
-    "ticket_id": 980287883,
-    "lead_id": "message_lead_32116138",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 1143,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-09-14T09:54:25.223Z",
-    "ticket_id": 980287883,
-    "lead_id": "message_lead_32116138",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 878,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
-    "ts": "2026-09-14T09:54:39.640Z",
-    "ticket_id": 980287883,
-    "lead_id": "message_lead_32116138",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 822,
-    "critic_pass": null,
-    "lead_quality": 5,
-    "buying_stage": "COLD",
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-09-14T10:21:21.423Z",
     "ticket_id": 980286192,
     "lead_id": "message_lead_32116030",
@@ -3898,5 +3838,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-09-21T10:05:46.411Z",
+    "ticket_id": 981795962,
+    "lead_id": "message_lead_32319496",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 25516,
+    "critic_pass": null,
+    "lead_quality": 5,
+    "buying_stage": "COLD",
+    "skip_reason": "Lead wants to move in tomorrow but the property (Ahad Residences, Business Bay) is not in the active portfolio. Cannot confirm price, availability, or any details for this listing. Need Faysal to handle."
   }
 ]
