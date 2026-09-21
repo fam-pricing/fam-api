@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-21T08:47:54.213Z",
+  "ts": "2026-09-21T08:48:15.306Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4361298991",
-    "ticket_id": "981889503",
-    "message": "Hello, im currently tentant with you. Can you search me a monthly apartment from 08.10-08.11? 1 bed",
-    "channel_id": "1304636",
-    "contact_id": "545038753",
-    "contact_name": "Niko Preitenegger",
-    "contact_identifier": "+971585814884",
-    "parent_message_id": "4352613505",
-    "parent_ticket_id": "979658080",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4361299445",
+    "ticket_id": "981888665",
+    "message": "Yes, the apartment is available for your requested dates. Please find our Airbnb listing link below, where you can review the details and proceed with the booking:\r\n\r\nhttps://www.airbnb.com/rooms/1618049641232538944",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "547107369",
+    "contact_name": "VeVe",
+    "contact_identifier": "+971557524247",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
