@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-21T07:39:46.266Z",
+  "ts": "2026-09-21T07:49:51.801Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4361210388",
+    "type": "INBOUND",
+    "message_id": "4361222985",
     "ticket_id": "981860345",
-    "message": "Your check in date is from 23rd sep",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "yes",
+    "channel_id": "1304636",
     "contact_id": "545605173",
     "contact_name": "Anvar Baisagurov",
     "contact_identifier": "+971524714995",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4361210388",
+    "parent_ticket_id": "981860345",
+    "event_type": "INBOUND"
   }
 }
