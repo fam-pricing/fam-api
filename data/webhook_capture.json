@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-22T16:33:22.313Z",
+  "ts": "2026-09-22T16:33:45.091Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4362812584",
+    "type": "OUTBOUND",
+    "message_id": "4362812885",
     "ticket_id": "982249290",
-    "message": "Is it available?",
-    "channel_id": "1304636",
+    "message": "Yes, it's available. Want to arrange a viewing so you can see it in person?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547224136",
     "contact_name": "Sufyan Khan - LEOS Development",
     "contact_identifier": "+971501529619",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
