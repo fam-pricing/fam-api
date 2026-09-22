@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-22T07:15:05.580Z",
+  "ts": "2026-09-22T07:15:15.853Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4362194039",
-    "ticket_id": "982106757",
-    "message": "yes this apartment available?",
+    "type": "OUTBOUND",
+    "message_id": "4362194179",
+    "ticket_id": "982087556",
+    "message": "Our team confirmed that the internet issue has been resolved now",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "537817977",
+    "contact_name": "Kanika",
+    "contact_identifier": "+919051525237",
     "channel_id": "1304636",
-    "contact_id": "547179481",
-    "contact_name": "Makar Mantashov",
-    "contact_identifier": "+966567062086",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
