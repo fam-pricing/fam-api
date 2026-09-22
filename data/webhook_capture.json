@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-22T08:22:23.440Z",
+  "ts": "2026-09-22T08:23:20.496Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4362269789",
+    "type": "INBOUND",
+    "message_id": "4362270791",
     "ticket_id": "982090473",
-    "message": "Please note that the rate displayed on our online is applicable only for the September period. Rates may vary from month to month depending on availability and demand. The applicable rate for your requested period is mentioned above.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Yes, but I told you and you answered me with that rate",
+    "channel_id": "1304636",
     "contact_id": "547174947",
     "contact_name": "Cristina",
     "contact_identifier": "+34673369855",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4362128334",
+    "parent_ticket_id": "982090473",
+    "event_type": "INBOUND"
   }
 }
