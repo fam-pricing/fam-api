@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-22T13:50:05.581Z",
+  "ts": "2026-09-22T13:50:22.896Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4362648428",
+    "type": "INBOUND",
+    "message_id": "4362648739",
     "ticket_id": "978768169",
-    "message": "Hello Mr Tejas, thank you for your message. I wanted to inform you that the work was completed, and we are awaiting the pics from the contractor. Once we receive the pics, we will share it with you thank you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "🙏",
+    "channel_id": "585723",
     "contact_id": "338213979",
     "contact_name": "Mr Tejaswi Sudhir Redkar",
     "contact_identifier": "+14083066337",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4362648428",
+    "parent_ticket_id": "978768169",
+    "event_type": "INBOUND"
   }
 }
