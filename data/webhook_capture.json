@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-22T07:31:50.272Z",
+  "ts": "2026-09-22T07:33:20.583Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4362211567",
-    "ticket_id": "982095232",
-    "message": "Give me monthly rate",
+    "type": "OUTBOUND",
+    "message_id": "4362213481",
+    "ticket_id": "982106757",
+    "message": "may i know for how many months you need this apartment ?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "547179481",
+    "contact_name": "Makar Mantashov",
+    "contact_identifier": "+966567062086",
     "channel_id": "1304636",
-    "contact_id": "547176310",
-    "contact_name": "Hajer",
-    "contact_identifier": "+971559651598",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
