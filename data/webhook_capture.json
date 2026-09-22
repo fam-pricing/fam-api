@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-22T07:14:26.577Z",
+  "ts": "2026-09-22T07:15:05.580Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4362193402",
+    "type": "INBOUND",
+    "message_id": "4362194039",
     "ticket_id": "982106757",
-    "message": "Makar, it's a 2-bedroom in Elite Business Bay at AED 9,000/month all-inclusive. Would you like to arrange a viewing?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "yes this apartment available?",
+    "channel_id": "1304636",
     "contact_id": "547179481",
     "contact_name": "Makar Mantashov",
     "contact_identifier": "+966567062086",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
