@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-22T16:34:32.746Z",
+  "ts": "2026-09-22T16:34:57.995Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4362813459",
+    "type": "OUTBOUND",
+    "message_id": "4362813759",
     "ticket_id": "982249290",
-    "message": "What will be the monthly rent and is it including all?",
-    "channel_id": "1304636",
+    "message": "The 2BR in Elite Business Bay is AED 9,000/month and yes, it's all-inclusive, water, electricity, internet, and VAT are all covered. Would you like to come see it in person?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547224136",
     "contact_name": "Sufyan Khan - LEOS Development",
     "contact_identifier": "+971501529619",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
