@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-22T08:28:10.517Z",
+  "ts": "2026-09-22T08:28:39.149Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4362275874",
+    "type": "INBOUND",
+    "message_id": "4362276347",
     "ticket_id": "982095232",
-    "message": "This property is managed by our FAM Living management team.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Why you did not mention your commission",
+    "channel_id": "1304636",
     "contact_id": "547176310",
     "contact_name": "Hajer",
     "contact_identifier": "+971559651598",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4362215660",
+    "parent_ticket_id": "982095232",
+    "event_type": "INBOUND"
   }
 }
