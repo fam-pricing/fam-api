@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-22T16:38:23.741Z",
+  "ts": "2026-09-22T16:38:38.819Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4362816211",
+    "type": "OUTBOUND",
+    "message_id": "4362816407",
     "ticket_id": "982249290",
-    "message": "What are the other charges?",
-    "channel_id": "1304636",
+    "message": "Let me check on the parking and get the right person to come back to you on the final price shortly!",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547224136",
     "contact_name": "Sufyan Khan - LEOS Development",
     "contact_identifier": "+971501529619",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
