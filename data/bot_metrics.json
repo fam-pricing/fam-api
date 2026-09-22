@@ -3202,5 +3202,17 @@
     "lead_quality": 15,
     "buying_stage": "COLD",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-09-22T16:37:23.406Z",
+    "ticket_id": 982249290,
+    "lead_id": "message_lead_32385012",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 7013,
+    "critic_pass": null,
+    "lead_quality": 20,
+    "buying_stage": "COOL",
+    "skip_reason": "live_agent_guard"
   }
 ]
