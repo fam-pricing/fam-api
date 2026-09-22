@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-22T13:21:46.443Z",
+  "ts": "2026-09-22T13:22:47.962Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4362614840",
+    "type": "INBOUND",
+    "message_id": "4362616135",
     "ticket_id": "975505445",
-    "message": "The refund will proccess within 7 and 10 working days thank you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "In this bank please",
+    "channel_id": "585723",
     "contact_id": "545130128",
     "contact_name": "Samy Habili",
     "contact_identifier": "+33630083090",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4362102788",
+    "parent_ticket_id": "975505445",
+    "event_type": "INBOUND"
   }
 }
