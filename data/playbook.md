@@ -1943,3 +1943,9 @@ Please note that if you choose to pay via the payment link, a 3.1% card processi
 
 "Please note that the rate displayed on our website applies to the September period only. Rates vary month to month based on availability and demand. The applicable rate for your requested period is stated above."
   (Learned from Faysal handling Cristina re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-123360768.html)
+
+## Learned (2026-09-22)
+- When a lead expresses confusion about pricing or says they don't understand the charges, clarify as follows:
+
+The rate shared above is the final, all-inclusive rate. It already covers service charges, DEWA, DTCM fees, and VAT. We do not charge any additional commission or hidden fees. The only additional amount required is a fully refundable security deposit.
+  (Learned from Faysal handling Hajer re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
