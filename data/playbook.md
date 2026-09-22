@@ -1933,3 +1933,7 @@ Please note that if you choose to pay via the payment link, a 3.1% card processi
 ## Learned (2026-09-18)
 - When a lead says "Bye" (or any farewell that signals they are about to disengage), respond by clarifying that the rate shown on the website applies only to the September period. Explain that rates vary month to month based on availability and demand, and provide them with the applicable rates for all remaining months covered by their stay before they leave the conversation.
   (Learned from Faysal handling Hajer re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-09-22)
+- If a lead asks how long they can stay, clarify that we do not offer annual contracts or Ejari, but they are welcome to stay as long as they like by extending on a monthly basis.
+  (Learned from Faysal handling Makar Mantashov re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
