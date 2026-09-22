@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-22T06:33:23.807Z",
+  "ts": "2026-09-22T06:33:43.487Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4362158281",
+    "type": "OUTBOUND",
+    "message_id": "4362158535",
     "ticket_id": "981948692",
-    "message": "hello, 2pm",
-    "channel_id": "1304636",
+    "message": "could you please assist us to complete the check in form",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "531223871",
     "contact_name": "Chase Bitz",
     "contact_identifier": "+971545467910",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
