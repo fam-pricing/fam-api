@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-22T16:15:42.245Z",
+  "ts": "2026-09-22T16:15:45.182Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4362798324",
+    "type": "OUTBOUND",
+    "message_id": "4362798386",
     "ticket_id": "982246687",
-    "message": "WiFi is not working in the apartment",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "547223307",
     "contact_name": "Faiqa Bhatti",
     "contact_identifier": "934ca699-d9d9-4870-dccc-aaa1ca114ace",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
