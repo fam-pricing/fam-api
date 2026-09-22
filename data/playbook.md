@@ -1937,3 +1937,9 @@ Please note that if you choose to pay via the payment link, a 3.1% card processi
 ## Learned (2026-09-22)
 - If a lead asks how long they can stay, clarify that we do not offer annual contracts or Ejari, but they are welcome to stay as long as they like by extending on a monthly basis.
   (Learned from Faysal handling Makar Mantashov re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-09-22)
+- If a lead questions a price change, respond with:
+
+"Please note that the rate displayed on our website applies to the September period only. Rates vary month to month based on availability and demand. The applicable rate for your requested period is stated above."
+  (Learned from Faysal handling Cristina re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-upside-living-123360768.html)
