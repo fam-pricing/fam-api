@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-22T05:35:36.012Z",
+  "ts": "2026-09-22T05:36:05.301Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4362130973",
+    "type": "OUTBOUND",
+    "message_id": "4362131085",
     "ticket_id": "981804111",
-    "message": "Hello! I’m interested in an apartment of this type from November 1st to February 15th.",
-    "channel_id": "1304636",
+    "message": "November 1 to February 15 is about 3.5 months, so it crosses into a second billing period. We can lock in the 3-month rate, and the remaining two weeks would be priced separately once we get closer. Does that work for you?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547080793",
     "contact_name": "Le Scarpe Di laura",
     "contact_identifier": "+393334810560",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
