@@ -3202,5 +3202,17 @@
     "lead_quality": null,
     "buying_stage": null,
     "skip_reason": "bot_paused"
+  },
+  {
+    "ts": "2026-09-22T06:18:12.594Z",
+    "ticket_id": 982095232,
+    "lead_id": "message_lead_32364473",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1067,
+    "critic_pass": null,
+    "lead_quality": 20,
+    "buying_stage": "COOL",
+    "skip_reason": "ticket_locked"
   }
 ]
