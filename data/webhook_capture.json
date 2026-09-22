@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-22T08:45:14.826Z",
+  "ts": "2026-09-22T08:45:17.719Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4362295272",
-    "ticket_id": "978023203",
-    "message": "Can you share unit number please",
+    "type": "OUTBOUND",
+    "message_id": "4362295321",
+    "ticket_id": "982113915",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "547181442",
+    "contact_name": "Dalal Al Janaie",
+    "contact_identifier": "+96599915432",
     "channel_id": "585723",
-    "contact_id": "545885643",
-    "contact_name": "Hossam addin Mohammad",
-    "contact_identifier": "+971505183050",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
