@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-22T05:30:23.011Z",
+  "ts": "2026-09-22T05:31:15.836Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4362129222",
-    "ticket_id": "975505445",
-    "message": "You're welcome",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "545130128",
-    "contact_name": "Samy Habili",
-    "contact_identifier": "+33630083090",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4362129504",
+    "ticket_id": "982090473",
+    "message": "????",
+    "channel_id": "1304636",
+    "contact_id": "547174947",
+    "contact_name": "Cristina",
+    "contact_identifier": "+34673369855",
+    "parent_message_id": "4362128851",
+    "parent_ticket_id": "982090473",
+    "event_type": "INBOUND"
   }
 }
