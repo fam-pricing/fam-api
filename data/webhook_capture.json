@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-22T05:28:38.884Z",
+  "ts": "2026-09-22T05:28:57.772Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4362128764",
+    "type": "OUTBOUND",
+    "message_id": "4362128851",
     "ticket_id": "982090473",
-    "message": "Please send me other time",
-    "channel_id": "1304636",
+    "message": "That brings the total to AED 9,000, sorry, I need to avoid em dashes.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547174947",
     "contact_name": "Cristina",
     "contact_identifier": "+34673369855",
-    "parent_message_id": "4362128650",
-    "parent_ticket_id": "982090473",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
