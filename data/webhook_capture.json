@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-23T07:34:58.401Z",
+  "ts": "2026-09-23T07:38:02.194Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4363136987",
+    "type": "INBOUND",
+    "message_id": "4363140166",
     "ticket_id": "982237880",
-    "message": "Those three apartments are currently available, but they are located in different areas.\r\n\r\nPlease have a look and let us know if any of the units and locations would be suitable for you. We will be happy to assist you with the details accordingly.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "👍",
+    "channel_id": "585723",
     "contact_id": "547220234",
     "contact_name": "Rajeet",
     "contact_identifier": "+971585810110",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4363135823",
+    "parent_ticket_id": "982237880",
+    "event_type": "INBOUND"
   }
 }
