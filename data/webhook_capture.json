@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-23T17:41:00.132Z",
+  "ts": "2026-09-23T17:41:27.239Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4363803197",
+    "type": "OUTBOUND",
+    "message_id": "4363803521",
     "ticket_id": "982512887",
-    "message": "Hello yes what is the total yearly cost for this unit?",
-    "channel_id": "1304636",
+    "message": "That works out to AED 252,000 a year, though we can only offer it in 3-month blocks rather than a single annual contract. Were you thinking of staying for the full year, or is the length still flexible?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547306504",
     "contact_name": "Danna Tarazi",
     "contact_identifier": "+96599855789",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
