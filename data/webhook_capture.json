@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-23T13:07:51.801Z",
+  "ts": "2026-09-23T13:08:14.547Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4363524902",
+    "type": "INBOUND",
+    "message_id": "4363525349",
     "ticket_id": "959587621",
-    "message": "The deposit will be refunded within 7 and 10 working after check out cleaning and inspection",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
+    "message": "?",
+    "channel_id": "585723",
     "contact_id": "540691470",
     "contact_name": "ramiza",
     "contact_identifier": "+971566548614",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4363522350",
+    "parent_ticket_id": "959587621",
+    "event_type": "INBOUND"
   }
 }
