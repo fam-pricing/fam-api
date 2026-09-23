@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-23T05:25:12.637Z",
+  "ts": "2026-09-23T05:25:29.726Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4363052450",
-    "ticket_id": "982249642",
-    "message": "Hi",
+    "type": "OUTBOUND",
+    "message_id": "4363052509",
+    "ticket_id": "975505445",
+    "message": "Good morning Mr Samy could you please update us on the hair dryer",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "545130128",
+    "contact_name": "Samy Habili",
+    "contact_identifier": "+33630083090",
     "channel_id": "585723",
-    "contact_id": "547224242",
-    "contact_name": "Faiqa",
-    "contact_identifier": "+447936037682",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
