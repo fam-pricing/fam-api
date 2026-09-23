@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-23T11:50:03.793Z",
+  "ts": "2026-09-23T11:50:31.196Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4363432836",
+    "type": "INBOUND",
+    "message_id": "4363433299",
     "ticket_id": "982340049",
-    "message": "then we will make the booking and send you the confirmation",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "How long is this link valid for ?",
+    "channel_id": "585723",
     "contact_id": "547252683",
     "contact_name": "Anupam Nayak",
     "contact_identifier": "+971552081088",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4363432558",
+    "parent_ticket_id": "982340049",
+    "event_type": "INBOUND"
   }
 }
