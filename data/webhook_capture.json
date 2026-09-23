@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-23T05:02:51.614Z",
+  "ts": "2026-09-23T05:08:15.389Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4363046479",
-    "ticket_id": "982173178",
-    "message": "Alright, no problem; please go ahead and make that reservation for me",
+    "type": "OUTBOUND",
+    "message_id": "4363047898",
+    "ticket_id": "982145855",
+    "message": "Unfortunately, the rate is provided by our management team, so AED 4,500 will be the applicable rate for the extension.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "546610969",
+    "contact_name": "Saeed",
+    "contact_identifier": "+971565321010",
     "channel_id": "1304636",
-    "contact_id": "545642273",
-    "contact_name": "Khashayar",
-    "contact_identifier": "+971581031377",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
