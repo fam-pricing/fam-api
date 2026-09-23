@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-23T10:49:11.104Z",
+  "ts": "2026-09-23T10:49:26.038Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4363367552",
+    "type": "OUTBOUND",
+    "message_id": "4363367780",
     "ticket_id": "979100005",
-    "message": "How much is the studio",
-    "channel_id": "1304636",
+    "message": "We only have the 1BR in Cloud Tower at AED 4,500/month, no studio there. If a studio works for you, there's one in Laya Mansion at AED 5,000/month.\n\nHere's the Cloud Tower listing with all the photos: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-triangle-district-2-cloud-tower-cloud-tower-b-125644752.html\n\nDoes the 1BR work for you, or would you prefer to see the studio?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546252876",
     "contact_name": "TiLe",
     "contact_identifier": "+971524991534",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
