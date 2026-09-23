@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-23T05:00:34.996Z",
+  "ts": "2026-09-23T05:02:51.614Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4363045730",
-    "ticket_id": "980171293",
-    "message": "Apologise for the inconvenience this may have caused. Please allow us a moment, we will check with our team",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "546605141",
-    "contact_name": "Hamza",
-    "contact_identifier": "+971544964967",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4363046479",
+    "ticket_id": "982173178",
+    "message": "Alright, no problem; please go ahead and make that reservation for me",
+    "channel_id": "1304636",
+    "contact_id": "545642273",
+    "contact_name": "Khashayar",
+    "contact_identifier": "+971581031377",
+    "event_type": "INBOUND"
   }
 }
