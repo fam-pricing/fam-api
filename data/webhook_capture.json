@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-23T06:10:03.814Z",
+  "ts": "2026-09-23T06:12:41.336Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4363068976",
-    "ticket_id": "980171293",
-    "message": "What’s happening???",
+    "type": "OUTBOUND",
+    "message_id": "4363070452",
+    "ticket_id": "978023203",
+    "message": "Check in time is at 3pm",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545885643",
+    "contact_name": "Hossam addin Mohammad",
+    "contact_identifier": "+971505183050",
     "channel_id": "585723",
-    "contact_id": "546605141",
-    "contact_name": "Hamza",
-    "contact_identifier": "+971544964967",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
