@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-23T05:30:10.661Z",
+  "ts": "2026-09-23T05:30:41.739Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4363053755",
-    "ticket_id": "973391766",
-    "message": "Good morning, Ahmed,\r\n\r\nUnfortunately, the unit is fully booked for October, so we do not have any availability during that month. We sincerely apologize for the inconvenience.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "543078183",
-    "contact_name": "Ahmed Shehab Ahmed Ali Alsaadi",
-    "contact_identifier": "+971557999949",
+    "type": "INBOUND",
+    "message_id": "4363053890",
+    "ticket_id": "981005014",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "533751883",
+    "contact_name": "Dalbani Eid Momtaz",
+    "contact_identifier": "+971524424980",
+    "parent_message_id": "4363051306",
+    "parent_ticket_id": "981005014",
+    "event_type": "INBOUND"
   }
 }
