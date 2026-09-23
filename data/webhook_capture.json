@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-23T11:24:56.093Z",
+  "ts": "2026-09-23T11:25:34.557Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4363406093",
+    "type": "OUTBOUND",
+    "message_id": "4363406764",
     "ticket_id": "982340049",
-    "message": "Can we book this ?",
-    "channel_id": "585723",
+    "message": "You want to book MAG318 Business Bay correct?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "547252683",
     "contact_name": "Anupam Nayak",
     "contact_identifier": "+971552081088",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
