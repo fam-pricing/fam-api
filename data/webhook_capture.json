@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-23T12:38:43.047Z",
+  "ts": "2026-09-23T12:44:11.074Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4363490498",
+    "type": "OUTBOUND",
+    "message_id": "4363497014",
     "ticket_id": "978023203",
-    "message": "Hello",
-    "channel_id": "585723",
+    "message": "Thank you for your payment.\r\n\r\nPlease find below the payment breakdown for your reference:\r\n\r\nTotal amount received: AED 7,500\r\n\r\nAED 500 – Security deposit paid via payment link\r\nAED 500 – Security deposit paid via payment link\r\nAED 2,000 – Rent paid via bank transfer\r\nAED 3,500 – Rent Paid via payment link\r\n\r\nPlease note that the AED 3,500 paid via the payment link will be considered as rent. As the payment link carries a 3.1% card processing fee, the net amount received toward the rent is AED 3,391.50.\r\n\r\nTherefore:\r\n\r\nPending rent amount: AED 609.50\r\nPending security deposit: AED 500\r\n\r\nTotal pending amount: AED 1,109.50\r\n\r\nThank you for your cooperation and understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545885643",
     "contact_name": "Hossam addin Mohammad",
     "contact_identifier": "+971505183050",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
