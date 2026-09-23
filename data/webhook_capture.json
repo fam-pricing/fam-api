@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-23T10:58:08.561Z",
+  "ts": "2026-09-23T10:58:23.801Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4363376776",
+    "type": "OUTBOUND",
+    "message_id": "4363377094",
     "ticket_id": "979100005",
-    "message": "Can’t see the pictures",
-    "channel_id": "1304636",
+    "message": "There's no studio in Cloud Tower, just the 1BR at AED 4,500/month. The closest studio option is Laya Mansion in JVC at AED 5,000/month. Which would you prefer to take a look at?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546252876",
     "contact_name": "TiLe",
     "contact_identifier": "+971524991534",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
