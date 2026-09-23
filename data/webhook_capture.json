@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-23T17:42:55.214Z",
+  "ts": "2026-09-23T17:43:08.243Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4363804422",
+    "type": "INBOUND",
+    "message_id": "4363804575",
     "ticket_id": "982512887",
-    "message": "The yearly cost is AED 252,000 in 3-month blocks. The only other 1BR we have in City Walk right now is Erin at AED 21,000/month. Are you thinking of a full year or something shorter?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Full year",
+    "channel_id": "1304636",
     "contact_id": "547306504",
     "contact_name": "Danna Tarazi",
     "contact_identifier": "+96599855789",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
