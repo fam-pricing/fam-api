@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-23T18:52:11.152Z",
+  "ts": "2026-09-23T18:52:38.988Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4363845133",
+    "type": "OUTBOUND",
+    "message_id": "4363845420",
     "ticket_id": "982521712",
-    "message": "Yes, can I view tomorrow?",
-    "channel_id": "1304636",
+    "message": "The rate's locked at AED 9,000/month for the first 3 months, the 4th month adjusts to market rate at that point. What time tomorrow works for the viewing?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547309275",
     "contact_name": "Jasmine Borlos",
     "contact_identifier": "+971529014167",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
