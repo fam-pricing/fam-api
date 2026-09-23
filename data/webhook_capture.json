@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-23T10:19:14.297Z",
+  "ts": "2026-09-23T10:19:21.651Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4363331947",
+    "type": "INBOUND",
+    "message_id": "4363332128",
     "ticket_id": "978023203",
-    "message": "Thank you for the payment but still there is pending amount of 4500aed",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Yes",
+    "channel_id": "585723",
     "contact_id": "545885643",
     "contact_name": "Hossam addin Mohammad",
     "contact_identifier": "+971505183050",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
