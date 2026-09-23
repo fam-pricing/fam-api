@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-23T12:17:59.201Z",
+  "ts": "2026-09-23T12:19:49.842Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4363466470",
+    "type": "OUTBOUND",
+    "message_id": "4363468470",
     "ticket_id": "982358266",
-    "message": "One year",
-    "channel_id": "585723",
+    "message": "For a 1-year stay, please note that we do not offer annual contracts or Ejari. However, you are welcome to stay for as long as you like by extending your booking on a monthly basis, subject to availability.\r\n\r\nMay I know your preferred start date so we can check the available options for you?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "497494862",
     "contact_name": "Moses Orororo",
     "contact_identifier": "+971509901009",
-    "parent_message_id": "4363450168",
-    "parent_ticket_id": "982358266",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
