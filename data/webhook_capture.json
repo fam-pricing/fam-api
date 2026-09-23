@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-23T05:53:26.942Z",
+  "ts": "2026-09-23T05:53:43.647Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4363061441",
+    "type": "INBOUND",
+    "message_id": "4363061519",
     "ticket_id": "981005014",
-    "message": "please feel free to reach out to us again if you need anything else at all! have a nice day!",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "🙏",
+    "channel_id": "585723",
     "contact_id": "533751883",
     "contact_name": "Dalbani Eid Momtaz",
     "contact_identifier": "+971524424980",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4363061441",
+    "parent_ticket_id": "981005014",
+    "event_type": "INBOUND"
   }
 }
