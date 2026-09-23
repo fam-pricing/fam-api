@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-23T07:24:48.369Z",
+  "ts": "2026-09-23T07:25:17.898Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4363126237",
+    "type": "OUTBOUND",
+    "message_id": "4363126643",
     "ticket_id": "981895115",
-    "message": "Good morning, when is our check-in?",
-    "channel_id": "1304636",
+    "message": "Good morning Mr Anvar please let us know your estimated arrival time?",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "545605173",
     "contact_name": "Anvar Baisagurov",
     "contact_identifier": "+971524714995",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
