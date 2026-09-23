@@ -3034,5 +3034,17 @@
     "lead_quality": 40,
     "buying_stage": "WARM",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-09-23T18:52:12.675Z",
+    "ticket_id": 982521712,
+    "lead_id": "message_lead_32420921",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1523,
+    "critic_pass": null,
+    "lead_quality": 40,
+    "buying_stage": "WARM",
+    "skip_reason": "ticket_locked"
   }
 ]
