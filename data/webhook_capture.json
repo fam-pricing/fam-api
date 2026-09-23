@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-23T20:18:24.505Z",
+  "ts": "2026-09-23T20:18:48.318Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4363884469",
+    "type": "OUTBOUND",
+    "message_id": "4363884613",
     "ticket_id": "982532329",
-    "message": "There’s deposits or commissions?",
-    "channel_id": "1304636",
+    "message": "No commission. The only extra is a refundable security deposit of AED 1,000, returned within 14 working days after check-out. Want to come see it?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547312905",
     "contact_name": "Ahmad",
     "contact_identifier": "+971522046029",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
