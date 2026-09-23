@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-23T20:16:16.887Z",
+  "ts": "2026-09-23T20:16:28.448Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4363883722",
+    "type": "INBOUND",
+    "message_id": "4363883796",
     "ticket_id": "982532329",
-    "message": "Ahmad, it's a studio apartment in JVC, did you want to know the price or availability?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes",
+    "channel_id": "1304636",
     "contact_id": "547312905",
     "contact_name": "Ahmad",
     "contact_identifier": "+971522046029",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
