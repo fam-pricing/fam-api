@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-24T10:11:54.081Z",
+  "ts": "2026-09-24T10:13:13.011Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364251107",
-    "ticket_id": "981006454",
-    "message": "Can you please confirm that parking has been arranged?",
+    "type": "OUTBOUND",
+    "message_id": "4364252392",
+    "ticket_id": "982569178",
+    "message": "My apologies, but unfortunately, we do not have any apartments available within the below-mentioned rate range.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "547325999",
+    "contact_name": "Mike",
+    "contact_identifier": "+19059663033",
     "channel_id": "585723",
-    "contact_id": "447033116",
-    "contact_name": "Oliver",
-    "contact_identifier": "+971585758468",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
