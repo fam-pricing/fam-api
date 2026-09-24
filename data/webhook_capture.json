@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-24T13:03:40.533Z",
+  "ts": "2026-09-24T13:05:18.713Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364447889",
+    "type": "OUTBOUND",
+    "message_id": "4364449772",
     "ticket_id": "981274344",
-    "message": "11 am ?",
-    "channel_id": "585723",
+    "message": "Please note that 12:00 PM is our standard check-out time.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538178428",
     "contact_name": "BARBARA ALMEIDA CUNHA",
     "contact_identifier": "+971569589393",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
