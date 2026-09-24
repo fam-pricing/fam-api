@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-24T13:59:48.363Z",
+  "ts": "2026-09-24T14:01:16.708Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364509976",
-    "ticket_id": "949897405",
-    "message": "Welcome",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "537896480",
-    "contact_name": "Talal Jehad Alsayed",
-    "contact_identifier": "+971556507344",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4364511764",
+    "ticket_id": "982668012",
+    "message": "I need to pay first payment of 6/5\nAnd last payment of 10K \nTo book a holiday home ? \nWhy I just dont get a yearly contract 😂 this is ridiculous",
+    "channel_id": "1304636",
+    "contact_id": "537905681",
+    "contact_name": "Paris",
+    "contact_identifier": "+971525481995",
+    "parent_message_id": "4364509333",
+    "parent_ticket_id": "982668012",
+    "event_type": "INBOUND"
   }
 }
