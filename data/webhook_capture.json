@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-24T19:05:56.970Z",
+  "ts": "2026-09-24T19:06:07.668Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364749743",
+    "type": "OUTBOUND",
+    "message_id": "4364749812",
     "ticket_id": "982752995",
-    "message": "I need more details about this studio",
-    "channel_id": "1304636",
+    "message": "It's a studio in Laya Mansion, are you looking for something for short-term or long-term stay?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547393213",
     "contact_name": "Abderraouf",
     "contact_identifier": "+971563522110",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
