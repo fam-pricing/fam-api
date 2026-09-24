@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-24T11:40:04.865Z",
+  "ts": "2026-09-24T11:41:22.201Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364343787",
-    "ticket_id": "982548799",
-    "message": "We do not have individual pictures for each unit. Therefore, we would be happy to arrange an in-person viewing for you so you can see the apartment firsthand.\r\n\r\nPlease let us know if this works for you, and we will be happy to arrange the viewing accordingly.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "547320209",
-    "contact_name": "Goncalo Reis",
-    "contact_identifier": "+351963663113",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4364345296",
+    "ticket_id": "982073491",
+    "message": "10:00 AM - 12:00 PM",
+    "channel_id": "585723",
+    "contact_id": "467636470",
+    "contact_name": "Shizuyo Okazaki ( Owner )",
+    "contact_identifier": "+971561380240",
+    "parent_message_id": "4363052959",
+    "parent_ticket_id": "982073491",
+    "event_type": "INBOUND"
   }
 }
