@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-24T07:35:25.752Z",
+  "ts": "2026-09-24T07:39:03.602Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364062854",
-    "ticket_id": "982521712",
-    "message": "Can no agreement be made for fixed price",
+    "type": "OUTBOUND",
+    "message_id": "4364064602",
+    "ticket_id": "982582027",
+    "message": "Yes, we work with agents. If you're representing a client, our quoted rates are net to us, so you'd add your commission on top. Are you enquiring on behalf of someone?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "547330108",
+    "contact_name": "Youness",
+    "contact_identifier": "+212618075985",
     "channel_id": "1304636",
-    "contact_id": "547309275",
-    "contact_name": "Jasmine Borlos",
-    "contact_identifier": "+971529014167",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
