@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-24T09:00:53.041Z",
+  "ts": "2026-09-24T09:01:08.242Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364118181",
-    "ticket_id": "982466900",
-    "message": "I will do the check in and the security payment when I get there",
+    "type": "OUTBOUND",
+    "message_id": "4364119403",
+    "ticket_id": "982249642",
+    "message": "The apartment has been occupied since 13th September, so it's unlikely that the remote is missing. It may still be somewhere inside the apartment. We kindly ask that you have another look. Thank you",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "547224242",
+    "contact_name": "Faiqa",
+    "contact_identifier": "+447936037682",
     "channel_id": "585723",
-    "contact_id": "547291686",
-    "contact_name": "Mohammed Al Hassan",
-    "contact_identifier": "+97430017995",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
