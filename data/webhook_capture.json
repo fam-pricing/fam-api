@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-24T08:54:46.575Z",
+  "ts": "2026-09-24T08:54:52.236Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364091029",
+    "type": "INBOUND",
+    "message_id": "4364091506",
     "ticket_id": "982582027",
-    "message": "Yes, we work with agents, our rates are net so you add your commission on top.\n\nFor your client, we have a 2BR in Elite Business Bay Residence from October 5 to November 8 at AED 9,000/month all-inclusive, right by the Metro. Want me to send the listing link and photos so your client can take a look?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Is this one or another unit",
+    "channel_id": "1304636",
     "contact_id": "547330108",
     "contact_name": "Youness",
     "contact_identifier": "+212618075985",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4364091029",
+    "parent_ticket_id": "982582027",
+    "event_type": "INBOUND"
   }
 }
