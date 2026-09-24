@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-24T19:09:30.624Z",
+  "ts": "2026-09-24T19:09:48.777Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364751297",
+    "type": "OUTBOUND",
+    "message_id": "4364751424",
     "ticket_id": "982752995",
-    "message": "Yes",
-    "channel_id": "1304636",
+    "message": "Yes, monthly works. For 2 months that's AED 5,000/month, all-inclusive. Want to arrange a viewing so you can see it in person?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547393213",
     "contact_name": "Abderraouf",
     "contact_identifier": "+971563522110",
-    "parent_message_id": "4364751035",
-    "parent_ticket_id": "982752995",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
