@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-24T12:23:01.488Z",
+  "ts": "2026-09-24T12:23:16.715Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364402608",
-    "ticket_id": "982548799",
-    "message": "I need to have an ideia of the apartment I Will be renting 😪",
+    "type": "OUTBOUND",
+    "message_id": "4364403028",
+    "ticket_id": "982668012",
+    "message": "Three months from the 29th is confirmed. Want me to send the payment link across?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "537905681",
+    "contact_name": "Paris",
+    "contact_identifier": "+971525481995",
     "channel_id": "1304636",
-    "contact_id": "547320209",
-    "contact_name": "Goncalo Reis",
-    "contact_identifier": "+351963663113",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
