@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-24T11:41:22.201Z",
+  "ts": "2026-09-24T11:42:21.254Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364345296",
-    "ticket_id": "982073491",
-    "message": "10:00 AM - 12:00 PM",
+    "type": "OUTBOUND",
+    "message_id": "4364346461",
+    "ticket_id": "981006454",
+    "message": "Welcome",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "447033116",
+    "contact_name": "Oliver",
+    "contact_identifier": "+971585758468",
     "channel_id": "585723",
-    "contact_id": "467636470",
-    "contact_name": "Shizuyo Okazaki ( Owner )",
-    "contact_identifier": "+971561380240",
-    "parent_message_id": "4363052959",
-    "parent_ticket_id": "982073491",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
