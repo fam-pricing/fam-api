@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-24T21:35:18.753Z",
+  "ts": "2026-09-24T21:42:21.581Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364804629",
+    "type": "INBOUND",
+    "message_id": "4364806577",
     "ticket_id": "982766141",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Residences 1\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Can you please give me price for 3 months starting October 15",
+    "channel_id": "1304636",
     "contact_id": "547398271",
     "contact_name": "UFA",
     "contact_identifier": "+447404369688",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
