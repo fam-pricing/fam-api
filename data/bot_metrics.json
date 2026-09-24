@@ -3142,5 +3142,17 @@
     "lead_quality": 95,
     "buying_stage": "HOT",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-09-24T19:36:15.839Z",
+    "ticket_id": 982740038,
+    "lead_id": "message_lead_32449576",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 22635,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "Cannot identify the property from the listing URL provided. The property at https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-al-satwa-jumeirah-garden-city-coral-by-vision-149548145.html is not in the Active fäm Living Portfolio. Cannot confirm price, bed type, or any details without risking hallucination. Lead Yana is asking for full details for an October 5 move-in, 1-7 months."
   }
 ]
