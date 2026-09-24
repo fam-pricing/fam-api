@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-24T12:46:06.678Z",
+  "ts": "2026-09-24T12:46:20.258Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364428364",
-    "ticket_id": "982642926",
-    "message": "How can i help you?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "547348174",
-    "contact_name": "...",
-    "contact_identifier": "+971559148879",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4364428672",
+    "ticket_id": "982668012",
+    "message": "Is monthly payment available with the same price ?",
+    "channel_id": "1304636",
+    "contact_id": "537905681",
+    "contact_name": "Paris",
+    "contact_identifier": "+971525481995",
+    "event_type": "INBOUND"
   }
 }
