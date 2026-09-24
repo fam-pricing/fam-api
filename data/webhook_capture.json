@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-24T12:00:28.981Z",
+  "ts": "2026-09-24T12:00:53.126Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364366683",
+    "type": "OUTBOUND",
+    "message_id": "4364367220",
     "ticket_id": "973843859",
-    "message": "Thank you so much",
-    "channel_id": "585723",
+    "message": "Your security deposit has been refunded from our side. Please allow 2–3 working days for the amount to reflect back on the same card used for the payment.\r\n\r\nThank you for your patience and understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544606636",
     "contact_name": "DIL NOZA RAKHIMOVA",
     "contact_identifier": "+971586870906",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
