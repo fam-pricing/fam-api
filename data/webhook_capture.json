@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-24T09:10:00.454Z",
+  "ts": "2026-09-24T09:10:09.647Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364159140",
+    "type": "INBOUND",
+    "message_id": "4364159912",
     "ticket_id": "966025207",
-    "message": "Good morning, Dalila Zillaf.\r\n\r\nHope you are doing well.\r\n\r\nAs per our system, your current booking is scheduled to check out tomorrow after 30 nights. We can also see that you have an extension booking starting from tomorrow.\r\n\r\nWe would like to follow up regarding the extension payment. Could you please confirm whether you will be making the payment via payment link or bank transfer, so we can proceed with confirming your extension booking?\r\n\r\nThank you, and we look forward to your confirmation.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I am making the payment for this month tomorrow morning",
+    "channel_id": "585723",
     "contact_id": "542404560",
     "contact_name": "Dalila Zillaf",
     "contact_identifier": "+971581930902",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
