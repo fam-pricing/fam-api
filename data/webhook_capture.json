@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-24T07:22:13.980Z",
+  "ts": "2026-09-24T07:22:18.867Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364049438",
-    "ticket_id": "982466900",
-    "message": "We hope you enjoyed your stay; please let us know your expected check-out time so we can arrange it accordingly.\n\n* Our standard check-out time is between 10:00 AM and 12:00 PM.*\n\n_Please note if you self-checkout without the presence of our staff for inspection, then you consent acceptance to any damage(s) reported by admin staff._",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "547291686",
-    "contact_name": "Mohammed Al Hassan",
-    "contact_identifier": "+97430017995",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4364049521",
+    "ticket_id": "982521712",
+    "message": "I was told it’s fixed price for 3 mo the-9000 dirhams",
+    "channel_id": "1304636",
+    "contact_id": "547309275",
+    "contact_name": "Jasmine Borlos",
+    "contact_identifier": "+971529014167",
+    "parent_message_id": "4364020053",
+    "parent_ticket_id": "982521712",
+    "event_type": "INBOUND"
   }
 }
