@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-24T15:22:23.739Z",
+  "ts": "2026-09-24T15:24:13.288Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364599065",
-    "ticket_id": "982717219",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
-    "contact_id": "547379710",
-    "contact_name": "Kiara",
-    "contact_identifier": "+14038032607",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4364600575",
+    "ticket_id": "982717501",
+    "message": "*131051: Message type unknown*\n\nWhatsApp did not share the content of this message with Trengo.\nThis usually happens when a WhatsApp message uses any of the following components:\n  - events\n  - the wrapper of multiple images sent in a single message\nIf you use the WhatsApp Business App, we recommend checking the original message in the device connected to this channel.",
+    "channel_id": "1304636",
+    "contact_id": "461634798",
+    "contact_name": "97145560367",
+    "contact_identifier": "+97145560367",
+    "event_type": "INBOUND"
   }
 }
