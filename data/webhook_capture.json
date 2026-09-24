@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-24T09:22:06.677Z",
+  "ts": "2026-09-24T09:24:02.284Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364196436",
-    "ticket_id": "982569178",
-    "message": "Within your budget, we can offer you this apartment at Viridian by Central Park.\r\n\r\nPlease let us know if this option works for you, and we will be happy to share the details.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "547325999",
-    "contact_name": "Mike",
-    "contact_identifier": "+19059663033",
+    "type": "INBOUND",
+    "message_id": "4364198403",
+    "ticket_id": "982586553",
+    "message": "Thank you",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "547331081",
+    "contact_name": "Laëtitia ✌🏻",
+    "contact_identifier": "+972537080486",
+    "parent_message_id": "4364183713",
+    "parent_ticket_id": "982586553",
+    "event_type": "INBOUND"
   }
 }
