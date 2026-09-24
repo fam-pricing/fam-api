@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-24T09:03:01.005Z",
+  "ts": "2026-09-24T09:03:16.683Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364127426",
-    "ticket_id": "982466900",
-    "message": "We operate from 9:00 AM to 9:00 PM. However, if you are arriving after 9:00 PM, we can arrange a self-check-in for you.\r\n\r\nYou may select 9:00 PM on the check-in form and let us know your actual arrival time. We will update it manually from our side.\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "547291686",
-    "contact_name": "Mohammed Al Hassan",
-    "contact_identifier": "+97430017995",
+    "type": "INBOUND",
+    "message_id": "4364128792",
+    "ticket_id": "977442464",
+    "message": "Yes",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "522633962",
+    "contact_name": "Passant",
+    "contact_identifier": "+971504177827",
+    "event_type": "INBOUND"
   }
 }
