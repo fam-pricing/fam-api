@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-24T02:03:14.388Z",
+  "ts": "2026-09-24T02:04:52.779Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4363950842",
+    "type": "INBOUND",
+    "message_id": "4363950997",
     "ticket_id": "982548799",
-    "message": "The studio is available from September 28, and the October rate will differ slightly from the AED 8,000 shown on the listing. Want me to confirm the exact figure for that period?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Oh. 8000 aed is my treshhold :/ considering it still has the service fees, etc, I was counting on a bit more.",
+    "channel_id": "1304636",
     "contact_id": "547320209",
     "contact_name": "Goncalo Reis",
     "contact_identifier": "+351963663113",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
