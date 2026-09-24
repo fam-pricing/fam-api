@@ -1949,3 +1949,7 @@ Please note that if you choose to pay via the payment link, a 3.1% card processi
 
 The rate shared above is the final, all-inclusive rate. It already covers service charges, DEWA, DTCM fees, and VAT. We do not charge any additional commission or hidden fees. The only additional amount required is a fully refundable security deposit.
   (Learned from Faysal handling Hajer re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851916.html)
+
+## Learned (2026-09-24)
+- If a lead asks whether bills are included for Elite Residence, respond with: "Please note that our viewing hours are from 10:00 AM to 6:00 PM only."
+  (Learned from Faysal handling Jasmine Borlos re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
