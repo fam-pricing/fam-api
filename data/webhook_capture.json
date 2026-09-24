@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-24T07:32:44.983Z",
+  "ts": "2026-09-24T07:34:39.345Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364060032",
-    "ticket_id": "982204799",
-    "message": "Thank you",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "547209085",
-    "contact_name": "Wafaa T | Fäm Properties",
-    "contact_identifier": "+971523719145",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4364061982",
+    "ticket_id": "982521712",
+    "message": "?? I was told this yesterday",
+    "channel_id": "1304636",
+    "contact_id": "547309275",
+    "contact_name": "Jasmine Borlos",
+    "contact_identifier": "+971529014167",
+    "parent_message_id": "4363845420",
+    "parent_ticket_id": "982521712",
+    "event_type": "INBOUND"
   }
 }
