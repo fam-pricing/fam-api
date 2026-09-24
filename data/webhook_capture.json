@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-24T02:02:40.895Z",
+  "ts": "2026-09-24T02:03:14.388Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4363950787",
+    "type": "OUTBOUND",
+    "message_id": "4363950842",
     "ticket_id": "982548799",
-    "message": "Hi! I’m interested in the apartment. I’ll be arriving in Dubai on September 28th. Is it available for the entire month of October? From september 28/29 until nov 1 for example. \n\nAnd the price is the 8000aed stated on the website? Look forward to an answer! 🫶🏻",
-    "channel_id": "1304636",
+    "message": "The studio is available from September 28, and the October rate will differ slightly from the AED 8,000 shown on the listing. Want me to confirm the exact figure for that period?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547320209",
     "contact_name": "Goncalo Reis",
     "contact_identifier": "+351963663113",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
