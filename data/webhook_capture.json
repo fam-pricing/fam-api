@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-24T12:45:02.373Z",
+  "ts": "2026-09-24T12:45:36.225Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364427149",
-    "ticket_id": "982668012",
-    "message": "Hi, check out this property I found on Property Finder.\n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-15-laya-mansion-135620527.html\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-15-laya-mansion-135620527.html \n\n\n\nI want to book this apartment for three month \nOctober November and December \nHow much is the rent each month ?",
-    "channel_id": "1304636",
-    "contact_id": "537905681",
-    "contact_name": "Paris",
-    "contact_identifier": "+971525481995",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4364427826",
+    "ticket_id": "982654894",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "547352279",
+    "contact_name": "Ahmad",
+    "contact_identifier": "+971585502490",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
