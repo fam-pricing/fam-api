@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-24T13:00:53.970Z",
+  "ts": "2026-09-24T13:02:45.036Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364444823",
+    "type": "OUTBOUND",
+    "message_id": "4364446900",
     "ticket_id": "981274344",
-    "message": "When is my last date ?",
-    "channel_id": "585723",
+    "message": "Your check out date is on 17th oct",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "538178428",
     "contact_name": "BARBARA ALMEIDA CUNHA",
     "contact_identifier": "+971569589393",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
