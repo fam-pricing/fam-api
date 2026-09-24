@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-24T09:11:18.485Z",
+  "ts": "2026-09-24T09:11:22.144Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364165316",
+    "type": "OUTBOUND",
+    "message_id": "4364165655",
     "ticket_id": "982582027",
-    "message": "He doesn't answer",
-    "channel_id": "1304636",
+    "message": "Got the images, thank you. To confirm the viewing for your client, we'll need a copy of their Emirates ID or passport to register with building security in advance. What day and time works for them, between 9am and 6pm?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547330108",
     "contact_name": "Youness",
     "contact_identifier": "+212618075985",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
