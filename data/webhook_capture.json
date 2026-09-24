@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-24T05:56:39.590Z",
+  "ts": "2026-09-24T06:23:28.704Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4363992062",
-    "ticket_id": "982562971",
-    "message": "Good morning, our cooking hob is not working, could you send someone?",
-    "channel_id": "1304636",
-    "contact_id": "545605173",
-    "contact_name": "Anvar Baisagurov",
-    "contact_identifier": "+971524714995",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4364005830",
+    "ticket_id": "982204799",
+    "message": "Good Morning Wafaa,\r\n\r\nSure, you can share us the client number",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "547209085",
+    "contact_name": "Wafaa T | Fäm Properties",
+    "contact_identifier": "+971523719145",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
