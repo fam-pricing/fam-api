@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-25T05:59:37.965Z",
+  "ts": "2026-09-25T05:59:46.827Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364888504",
-    "ticket_id": "982717219",
-    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "547379710",
-    "contact_name": "Kiara",
-    "contact_identifier": "+14038032607",
+    "type": "INBOUND",
+    "message_id": "4364888572",
+    "ticket_id": "982786122",
+    "message": "I Accept Charges",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "547404800",
+    "contact_name": "Rupa venkata satya sai manikumar appana",
+    "contact_identifier": "+917036255703",
+    "parent_message_id": "4364879660",
+    "parent_ticket_id": "982786122",
+    "event_type": "INBOUND"
   }
 }
