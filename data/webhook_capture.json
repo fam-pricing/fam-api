@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-25T08:34:35.957Z",
+  "ts": "2026-09-25T08:34:49.010Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4365028827",
+    "type": "INBOUND",
+    "message_id": "4365029013",
     "ticket_id": "982835255",
-    "message": "Hello Megan,\r\n\r\nUnfortunately, all of our apartments are non-pet-friendly, so we are unable to accommodate pets in our properties.\r\n\r\nWe sincerely apologize for any inconvenience and appreciate your understanding.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Okay thanks",
+    "channel_id": "1304636",
     "contact_id": "547415270",
     "contact_name": "Megan",
     "contact_identifier": "+971585455161",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
