@@ -1965,3 +1965,7 @@ The security deposit is 1,500 AED, payable upon check-in. This deposit is fully 
 
 Please note that the rate displayed online applies to September only. Rates vary month to month based on availability and demand. The rates quoted above are specific to your requested dates.
   (Learned from Faysal handling Marina re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-09-25)
+- If a lead asks about availability through 22 October, inform them that bookings are available from 21 September to 22 October only.
+  (Learned from Faysal handling E re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-4-66326226.html)
