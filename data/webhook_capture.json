@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-25T08:11:38.435Z",
+  "ts": "2026-09-25T08:12:10.435Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4365003225",
+    "type": "INBOUND",
+    "message_id": "4365004187",
     "ticket_id": "982774875",
-    "message": "Thank you for the booking confirmation",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "I’ve just reserved it however when I am ready to make payment I would prefer to pay via payment link that way I don’t also more of a security deposit",
+    "channel_id": "585723",
     "contact_id": "547401482",
     "contact_name": "Liberty Kikanka",
     "contact_identifier": "+971585169231",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
