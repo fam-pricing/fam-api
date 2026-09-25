@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-25T09:22:50.257Z",
+  "ts": "2026-09-25T09:23:28.486Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4365076761",
+    "type": "INBOUND",
+    "message_id": "4365077404",
     "ticket_id": "982774875",
-    "message": "Oh, got it! Yes, that’s completely fine, Liberty.\r\n\r\nIf you prefer to make the payment first, once the payment is completed, we can certainly assist you with cancelling the booking from b.com and arranging the reservation directly with us.\r\n\r\nWe can also assist with the cancellation free of charge.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "❤️",
+    "channel_id": "585723",
     "contact_id": "547401482",
     "contact_name": "Liberty Kikanka",
     "contact_identifier": "+971585169231",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4365076761",
+    "parent_ticket_id": "982774875",
+    "event_type": "INBOUND"
   }
 }
