@@ -3682,5 +3682,17 @@
     "lead_quality": 5,
     "buying_stage": "COLD",
     "skip_reason": "agent_cooldown"
+  },
+  {
+    "ts": "2026-09-25T14:16:06.407Z",
+    "ticket_id": 982879502,
+    "lead_id": "message_lead_32468456",
+    "action": "reply",
+    "tool_used": "send_reply",
+    "response_time_ms": 41791,
+    "critic_pass": null,
+    "lead_quality": 35,
+    "buying_stage": "COOL",
+    "skip_reason": null
   }
 ]
