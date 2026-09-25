@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-25T04:16:59.736Z",
+  "ts": "2026-09-25T04:18:01.275Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364866444",
+    "type": "INBOUND",
+    "message_id": "4364866598",
     "ticket_id": "982752995",
-    "message": "The deposit is AED 1,000 (fully refundable) and the rent is all-inclusive, so no extra fees on top of that. What time tomorrow works for you to come see it?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "So only 5000 rent and 1000 deposit right?",
+    "channel_id": "1304636",
     "contact_id": "547393213",
     "contact_name": "Abderraouf",
     "contact_identifier": "+971563522110",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
