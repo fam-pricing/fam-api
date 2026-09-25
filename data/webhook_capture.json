@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-25T09:09:11.316Z",
+  "ts": "2026-09-25T09:10:00.373Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365063982",
+    "type": "OUTBOUND",
+    "message_id": "4365064732",
     "ticket_id": "982846936",
-    "message": "Sorry my Max budget is 10k aed for month , fix price",
-    "channel_id": "1304636",
+    "message": "Unfortunately, we do not currently have any apartments available within your preferred budget.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "547420094",
     "contact_name": "💎NC💎",
     "contact_identifier": "+393807811844",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
