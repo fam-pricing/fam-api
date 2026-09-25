@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-25T08:09:06.376Z",
+  "ts": "2026-09-25T08:09:20.868Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364999079",
-    "ticket_id": "982817014",
-    "message": "Here are the photos for Aykon City: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-aykon-city-aykon-city-tower-c-16180579.html\n\nIt's AED 11,500, just above your 10K. Worth a look, or want to stick with the Business Bay option?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "547412233",
-    "contact_name": "Marina",
-    "contact_identifier": "+971554873160",
+    "type": "INBOUND",
+    "message_id": "4364999480",
+    "ticket_id": "982748654",
+    "message": "Is it 100% confirmed that it will be occupied from 14th?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "547391815",
+    "contact_name": "Liz",
+    "contact_identifier": "+971581692903",
+    "parent_message_id": "4364885109",
+    "parent_ticket_id": "982748654",
+    "event_type": "INBOUND"
   }
 }
