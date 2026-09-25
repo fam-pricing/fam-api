@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-25T12:59:38.591Z",
+  "ts": "2026-09-25T13:00:43.865Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365290468",
-    "ticket_id": "982632989",
-    "message": "Residence 1 is not Residence 3.",
-    "channel_id": "1304636",
-    "contact_id": "547035769",
-    "contact_name": "..",
-    "contact_identifier": "+971503588969",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4365291769",
+    "ticket_id": "982569178",
+    "message": "Sure, we will make your booking from 29th sep with same rate",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "547325999",
+    "contact_name": "Mike",
+    "contact_identifier": "+19059663033",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
