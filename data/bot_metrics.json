@@ -1,17 +1,5 @@
 [
   {
-    "ts": "2026-09-18T16:37:25.748Z",
-    "ticket_id": 981198667,
-    "lead_id": "message_lead_32203976",
-    "action": "skipped",
-    "tool_used": null,
-    "response_time_ms": 928,
-    "critic_pass": null,
-    "lead_quality": null,
-    "buying_stage": null,
-    "skip_reason": "bot_paused"
-  },
-  {
     "ts": "2026-09-18T18:18:04.670Z",
     "ticket_id": 981607271,
     "lead_id": "message_lead_32261344",
@@ -3718,5 +3706,17 @@
     "lead_quality": 50,
     "buying_stage": "WARM",
     "skip_reason": "Lead has repeatedly asked for a video of the apartment (multiple times across the conversation). Playbook requires immediate escalation for video requests. Lead also confirmed \"Yes\" twice suggesting they are ready to proceed from Oct 1 at AED 9,000/month. Faysal has already handled the deposit (fixed at AED 2,000, no security cheque accepted). Need human to share video or handle that request, and close the booking."
+  },
+  {
+    "ts": "2026-09-25T17:28:24.400Z",
+    "ticket_id": 982959814,
+    "lead_id": "message_lead_32478012",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1262,
+    "critic_pass": null,
+    "lead_quality": 30,
+    "buying_stage": "COOL",
+    "skip_reason": "ticket_locked"
   }
 ]
