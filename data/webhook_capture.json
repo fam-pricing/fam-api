@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-25T06:04:12.218Z",
+  "ts": "2026-09-25T06:06:11.967Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364890964",
+    "type": "OUTBOUND",
+    "message_id": "4364891895",
     "ticket_id": "949897405",
-    "message": "Thank you \nConfirm",
-    "channel_id": "585723",
+    "message": "Sure, we will proceed with the booking and send you the payment link to secure and confirm your reservation.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "537896480",
     "contact_name": "Talal Jehad Alsayed",
     "contact_identifier": "+971556507344",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
