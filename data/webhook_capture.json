@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-25T04:19:29.550Z",
+  "ts": "2026-09-25T04:20:01.374Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364866786",
+    "type": "OUTBOUND",
+    "message_id": "4364866853",
     "ticket_id": "982781981",
-    "message": "Hello! I’d like to get some information about the apartment and the rental terms, please. Could you let me know the price, minimum stay, deposit, and any additional fees? Thank you!",
-    "channel_id": "1304636",
+    "message": "The studio in Laya Mansion is AED 5,000/month, all-inclusive, water, electricity, and internet. Minimum stay is 1 month, and the security deposit is AED 1,000, fully refundable within 14 working days after check-out.\n\nWant to see the photos?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547403618",
     "contact_name": "Kanto Miasasoa",
     "contact_identifier": "+971583088516",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
