@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-25T04:38:15.110Z",
+  "ts": "2026-09-25T04:38:28.630Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364869474",
+    "type": "INBOUND",
+    "message_id": "4364869505",
     "ticket_id": "982783158",
-    "message": "Payment is cash or bank transfer only, no cheques. Pricing works in 3-month blocks, so the closest we can do is two back-to-back 3-month periods at 25k/month, with the rate reviewed before the second block. Does that work for you?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I pay cash upfront",
+    "channel_id": "1304636",
     "contact_id": "547403939",
     "contact_name": "Dan Dare",
     "contact_identifier": "+447746189131",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
