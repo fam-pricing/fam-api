@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-25T13:51:09.152Z",
+  "ts": "2026-09-25T13:51:16.443Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365341478",
-    "ticket_id": "982919673",
-    "message": "Is it available?",
-    "channel_id": "1304636",
-    "contact_id": "547441287",
-    "contact_name": "Souheib",
-    "contact_identifier": "+971563216135",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4365341612",
+    "ticket_id": "982850848",
+    "message": "Hello Khashayar,\r\n\r\nHope you are doing well.\r\n\r\nWe would like to kindly follow up regarding the payment for your extension booking. May I know when you expect to complete the payment?\r\n\r\nThank you, and we look forward to your confirmation.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545642273",
+    "contact_name": "Khashayar",
+    "contact_identifier": "+971581031377",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
