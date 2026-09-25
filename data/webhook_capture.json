@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-25T07:18:28.395Z",
+  "ts": "2026-09-25T07:20:02.261Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364939581",
-    "ticket_id": "982762614",
-    "message": "May I know how many bedrooms you are looking for",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "547397005",
-    "contact_name": "𝓢𝓸𝓷𝓲𝓪 𝓗𝓾𝓼𝓼𝓪𝓲𝓷",
-    "contact_identifier": "+971527143903",
+    "type": "INBOUND",
+    "message_id": "4364941036",
+    "ticket_id": "982786122",
+    "message": "Ok",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "547404800",
+    "contact_name": "Rupa venkata satya sai manikumar appana",
+    "contact_identifier": "+917036255703",
+    "parent_message_id": "4364939191",
+    "parent_ticket_id": "982786122",
+    "event_type": "INBOUND"
   }
 }
