@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-25T15:40:43.429Z",
+  "ts": "2026-09-25T15:40:55.040Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4365454418",
-    "ticket_id": "982786122",
-    "message": "As I didn't hear back from you in a while, I will close this conversation for now; please feel free to reach out to us again if you need anything else at all! have a nice day!",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "547404800",
-    "contact_name": "Rupa venkata satya sai manikumar appana",
-    "contact_identifier": "+917036255703",
+    "type": "INBOUND",
+    "message_id": "4365454580",
+    "ticket_id": "982796307",
+    "message": "what price?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "547407165",
+    "contact_name": "Carlos",
+    "contact_identifier": "+34634548378",
+    "parent_message_id": "4365454175",
+    "parent_ticket_id": "982796307",
+    "event_type": "INBOUND"
   }
 }
