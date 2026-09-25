@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-25T12:48:34.121Z",
+  "ts": "2026-09-25T12:49:02.000Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365279324",
-    "ticket_id": "976073847",
-    "message": "If I told you that I’m available tomorrow in the middle or late afternoon, it’s because I’m not available in the morning. I’ll be at work.",
+    "type": "OUTBOUND",
+    "message_id": "4365279792",
+    "ticket_id": "959879659",
+    "message": "Apologies for the delay but unfortunately we so not have any apartment on your preferred location",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535130282",
+    "contact_name": "Ariean Maleklo",
+    "contact_identifier": "+971523718586",
     "channel_id": "585723",
-    "contact_id": "545325752",
-    "contact_name": "Esteban, Roman, Yohann BASTIEN VICENTE",
-    "contact_identifier": "+33614870149",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
