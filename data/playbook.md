@@ -1953,3 +1953,9 @@ The rate shared above is the final, all-inclusive rate. It already covers servic
 ## Learned (2026-09-24)
 - If a lead asks whether bills are included for Elite Residence, respond with: "Please note that our viewing hours are from 10:00 AM to 6:00 PM only."
   (Learned from Faysal handling Jasmine Borlos re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
+
+## Learned (2026-09-25)
+- When a lead asks about the security deposit, respond with the following:
+
+The security deposit is 1,500 AED, payable upon check-in. This deposit is fully refundable and will be returned within 14 working days of check-out, subject to a property inspection. Refunds are issued by credit card or bank transfer.
+  (Learned from Faysal handling Isakau Anton re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-11-binghatti-amber-15165649.html)
