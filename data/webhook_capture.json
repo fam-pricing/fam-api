@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-25T08:20:18.631Z",
+  "ts": "2026-09-25T08:20:43.394Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4365013117",
+    "type": "INBOUND",
+    "message_id": "4365013557",
     "ticket_id": "982835255",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Residences 1\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hi - is this available October 1?\nAccept pets (dog)",
+    "channel_id": "1304636",
     "contact_id": "547415270",
     "contact_name": "Megan",
     "contact_identifier": "+971585455161",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
