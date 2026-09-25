@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-25T10:21:14.083Z",
+  "ts": "2026-09-25T10:21:43.793Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4365134653",
-    "ticket_id": "981900877",
-    "message": "Well noted",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "547110926",
-    "contact_name": "ZULEYHA SOYUNJOVA",
-    "contact_identifier": "+971506877265",
+    "type": "INBOUND",
+    "message_id": "4365135077",
+    "ticket_id": "959587621",
+    "message": "I tried to check with flashlight, nothing is there",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "540691470",
+    "contact_name": "ramiza",
+    "contact_identifier": "+971566548614",
+    "parent_message_id": "4365134527",
+    "parent_ticket_id": "959587621",
+    "event_type": "INBOUND"
   }
 }
