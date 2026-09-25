@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-25T07:34:16.984Z",
+  "ts": "2026-09-25T07:34:33.021Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364957008",
+    "type": "INBOUND",
+    "message_id": "4364957314",
     "ticket_id": "982796307",
-    "message": "May i know from which date you need this apartment ?",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "same as here",
+    "channel_id": "585723",
     "contact_id": "547407165",
     "contact_name": "Carlos",
     "contact_identifier": "+34634548378",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4364911885",
+    "parent_ticket_id": "982796307",
+    "event_type": "INBOUND"
   }
 }
