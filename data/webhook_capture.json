@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-25T07:39:19.749Z",
+  "ts": "2026-09-25T07:39:51.112Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364961871",
+    "type": "OUTBOUND",
+    "message_id": "4364962322",
     "ticket_id": "982774875",
-    "message": "lovely , I’ve had a nice browse of the apartment I really do like it! In regards to payment am I able to pay via a payment link that you send?",
-    "channel_id": "585723",
+    "message": "You would like to book?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "547401482",
     "contact_name": "Liberty Kikanka",
     "contact_identifier": "+971585169231",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
