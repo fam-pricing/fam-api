@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-25T08:12:10.435Z",
+  "ts": "2026-09-25T08:12:39.980Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365004187",
-    "ticket_id": "982774875",
-    "message": "I’ve just reserved it however when I am ready to make payment I would prefer to pay via payment link that way I don’t also more of a security deposit",
+    "type": "OUTBOUND",
+    "message_id": "4365005001",
+    "ticket_id": "975414362",
+    "message": "Unfortunately, due to the current situation and updated rates, we are unable to offer a lower rate at this time.\r\n\r\nThe AED 9,000 for 30 nights is the rate confirmed and approved by our management team.\r\n\r\nWe sincerely apologize for any inconvenience and truly appreciate your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "545099021",
+    "contact_name": "Arnia Mohammadi",
+    "contact_identifier": "+971544468909",
     "channel_id": "585723",
-    "contact_id": "547401482",
-    "contact_name": "Liberty Kikanka",
-    "contact_identifier": "+971585169231",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
