@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-25T09:19:23.888Z",
+  "ts": "2026-09-25T09:20:22.659Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365073538",
+    "type": "OUTBOUND",
+    "message_id": "4365074454",
     "ticket_id": "966025207",
-    "message": "Image",
-    "channel_id": "585723",
+    "message": "Thank you for sharing the payment receipt with us.\r\n\r\nWe will forward it to our Finance Team for verification. Once we receive an update from the team, we will let you know accordingly.\r\n\r\nThank you for your patience and cooperation.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542404560",
     "contact_name": "Dalila Zillaf",
     "contact_identifier": "+971581930902",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
