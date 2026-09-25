@@ -1959,3 +1959,9 @@ The rate shared above is the final, all-inclusive rate. It already covers servic
 
 The security deposit is 1,500 AED, payable upon check-in. This deposit is fully refundable and will be returned within 14 working days of check-out, subject to a property inspection. Refunds are issued by credit card or bank transfer.
   (Learned from Faysal handling Isakau Anton re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-11-binghatti-amber-15165649.html)
+
+## Learned (2026-09-25)
+- When a lead mentions they have already made arrangements or cleared their schedule to proceed (e.g., "I already told my friend to cancel her meeting today"), include the following rate clarification in your response:
+
+Please note that the rate displayed online applies to September only. Rates vary month to month based on availability and demand. The rates quoted above are specific to your requested dates.
+  (Learned from Faysal handling Marina re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
