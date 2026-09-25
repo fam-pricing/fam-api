@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-25T04:31:59.391Z",
+  "ts": "2026-09-25T04:32:31.532Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364868478",
+    "type": "OUTBOUND",
+    "message_id": "4364868560",
     "ticket_id": "982783158",
-    "message": "Hi, we are looking for a 6 month rental - 1 cheque 125k all in. Is it possible in this property?",
-    "channel_id": "1304636",
+    "message": "Thanks for the details. On the 6-month request, we can only confirm pricing in 3-month blocks at AED 25,000/month all-inclusive, with the rate reviewed at renewal. Also, payment is by cash, bank transfer, or card only. Would a 3-month stay work for you as a starting point?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547403939",
     "contact_name": "Dan Dare",
     "contact_identifier": "+447746189131",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
