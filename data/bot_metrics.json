@@ -3226,5 +3226,17 @@
     "lead_quality": 60,
     "buying_stage": "WARM",
     "skip_reason": null
+  },
+  {
+    "ts": "2026-09-25T08:21:08.863Z",
+    "ticket_id": 982835255,
+    "lead_id": "message_lead_32462735",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 25469,
+    "critic_pass": null,
+    "lead_quality": null,
+    "buying_stage": null,
+    "skip_reason": "Lead asking about pet approval for 2BR in Residences 1. Per playbook, pet approval must never be confirmed by AI, always escalate to Faysal. Lead also asking about October 1 availability."
   }
 ]
