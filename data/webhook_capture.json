@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-25T07:17:58.490Z",
+  "ts": "2026-09-25T07:17:59.552Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364939168",
-    "ticket_id": "976073847",
-    "message": "Video",
+    "type": "OUTBOUND",
+    "message_id": "4364939191",
+    "ticket_id": "982786122",
+    "message": "Your booking is from 26th September to 30th September, for a total of 4 nights.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "547404800",
+    "contact_name": "Rupa venkata satya sai manikumar appana",
+    "contact_identifier": "+917036255703",
     "channel_id": "585723",
-    "contact_id": "545325752",
-    "contact_name": "Esteban, Roman, Yohann BASTIEN VICENTE",
-    "contact_identifier": "+33614870149",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
