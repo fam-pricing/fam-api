@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-25T07:15:03.902Z",
+  "ts": "2026-09-25T07:16:48.143Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364936321",
-    "ticket_id": "981537054",
-    "message": "Good Morning Violetta,\r\n\r\nHope your doing well\r\n\r\nPlease note that we have still not received the payment for your extension. Therefore, we are unable to block or reserve the unit for your extended stay at this time, as we have been waiting for the payment to confirm the booking.\r\n\r\nThank you for your understanding and cooperation.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "546980139",
-    "contact_name": "Violetta",
-    "contact_identifier": "+971523478815",
+    "type": "INBOUND",
+    "message_id": "4364938145",
+    "ticket_id": "982786122",
+    "message": "At what dates  we booked",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "547404800",
+    "contact_name": "Rupa venkata satya sai manikumar appana",
+    "contact_identifier": "+917036255703",
+    "parent_message_id": "4364902648",
+    "parent_ticket_id": "982786122",
+    "event_type": "INBOUND"
   }
 }
