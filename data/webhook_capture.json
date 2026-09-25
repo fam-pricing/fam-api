@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-25T08:32:39.021Z",
+  "ts": "2026-09-25T08:32:42.372Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365026872",
+    "type": "OUTBOUND",
+    "message_id": "4365026963",
     "ticket_id": "982839672",
-    "message": "Hello there. I am interested in two of your properties, I tried to reach you but the phones are unavailable. Please could you call me?",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "547418102",
     "contact_name": "Goktug",
     "contact_identifier": "+447984743507",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
