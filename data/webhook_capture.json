@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-25T05:48:08.319Z",
+  "ts": "2026-09-25T05:48:16.028Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364884542",
-    "ticket_id": "982774875",
-    "message": "Morning Chahana , thank you for assisting",
+    "type": "OUTBOUND",
+    "message_id": "4364884577",
+    "ticket_id": "959879659",
+    "message": "May I know your preferred check-in date and how many months you are planning to stay? This will help us check the availability and suitable options for you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "535130282",
+    "contact_name": "Ariean Maleklo",
+    "contact_identifier": "+971523718586",
     "channel_id": "585723",
-    "contact_id": "547401482",
-    "contact_name": "Liberty Kikanka",
-    "contact_identifier": "+971585169231",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
