@@ -3706,5 +3706,17 @@
     "lead_quality": 15,
     "buying_stage": "COLD",
     "skip_reason": "ticket_locked"
+  },
+  {
+    "ts": "2026-09-25T15:26:14.991Z",
+    "ticket_id": 982879502,
+    "lead_id": "message_lead_32468456",
+    "action": "escalate",
+    "tool_used": "escalate_to_faysal",
+    "response_time_ms": 25943,
+    "critic_pass": null,
+    "lead_quality": 50,
+    "buying_stage": "WARM",
+    "skip_reason": "Lead has repeatedly asked for a video of the apartment (multiple times across the conversation). Playbook requires immediate escalation for video requests. Lead also confirmed \"Yes\" twice suggesting they are ready to proceed from Oct 1 at AED 9,000/month. Faysal has already handled the deposit (fixed at AED 2,000, no security cheque accepted). Need human to share video or handle that request, and close the booking."
   }
 ]
