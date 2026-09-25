@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-25T05:29:54.855Z",
+  "ts": "2026-09-25T05:30:20.818Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4364879542",
+    "type": "INBOUND",
+    "message_id": "4364879636",
     "ticket_id": "982784762",
-    "message": "Good morning, Jihan.\r\n\r\nUnfortunately, we do not have any apartments available in your preferred location at the moment.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Where do you have ?",
+    "channel_id": "1304636",
     "contact_id": "547404406",
     "contact_name": "Jihan",
     "contact_identifier": "+213555117378",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
