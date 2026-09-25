@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-25T07:41:56.796Z",
+  "ts": "2026-09-25T07:44:21.750Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4364964266",
+    "type": "OUTBOUND",
+    "message_id": "4364966660",
     "ticket_id": "982774875",
-    "message": "but is this way possible?",
-    "channel_id": "585723",
+    "message": "Yes, we offer two payment options: payment by secure payment link or bank transfer.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "547401482",
     "contact_name": "Liberty Kikanka",
     "contact_identifier": "+971585169231",
-    "parent_message_id": "4364961871",
-    "parent_ticket_id": "982774875",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
