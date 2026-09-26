@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-26T11:51:46.840Z",
+  "ts": "2026-09-26T11:52:45.990Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4365876132",
-    "ticket_id": "983034320",
-    "message": "Thank you",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "547483510",
-    "contact_name": "Laya JVC",
-    "contact_identifier": "+971558893276",
+    "type": "INBOUND",
+    "message_id": "4365876627",
+    "ticket_id": "983023486",
+    "message": "Kshitij.sainani@kgskalliance.com",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "547480451",
+    "contact_name": "Kshitij Sainani",
+    "contact_identifier": "+971525651904",
+    "parent_message_id": "4365846934",
+    "parent_ticket_id": "983023486",
+    "event_type": "INBOUND"
   }
 }
