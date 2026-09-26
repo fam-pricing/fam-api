@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-26T12:57:02.519Z",
+  "ts": "2026-09-26T12:57:18.363Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365906798",
+    "type": "OUTBOUND",
+    "message_id": "4365906932",
     "ticket_id": "983062003",
-    "message": "Good afternoon! I’m interested in renting the apartment from October 15th to December 15th. Is it available for these dates, and what are the rental terms?\n\nAlso, could you please let me know if the apartment has a dishwasher, washing machine, and dryer?",
-    "channel_id": "1304636",
+    "message": "Apologies for any inconvenience. Let me get someone from the team to assist you personally.",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547494258",
     "contact_name": "Caroline",
     "contact_identifier": "+375291015002",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
