@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-26T12:21:45.490Z",
+  "ts": "2026-09-26T12:26:06.331Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365890729",
-    "ticket_id": "955479593",
-    "message": "Dear Fam Living team,\n\nI am following up on the status of my deposit refund. Could you please confirm when the funds will be returned and provide documentation of the transfer once it has been processed?",
+    "type": "OUTBOUND",
+    "message_id": "4365892721",
+    "ticket_id": "983023486",
+    "message": "Thank you for the details. We will send you the contract shortly, along with our bank details for the payment.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "547480451",
+    "contact_name": "Kshitij Sainani",
+    "contact_identifier": "+971525651904",
     "channel_id": "585723",
-    "contact_id": "539577383",
-    "contact_name": "OluGbenga Sanyaolu",
-    "contact_identifier": "+2348029511919",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
