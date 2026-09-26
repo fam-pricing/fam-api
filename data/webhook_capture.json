@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-26T05:55:11.551Z",
+  "ts": "2026-09-26T05:57:15.575Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4365694050",
-    "ticket_id": "981844685",
-    "message": "We are glad that you had a memorable stay !",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
-    "contact_id": "547094475",
-    "contact_name": "FAHAD ALAJMI",
-    "contact_identifier": "+966569766666",
+    "type": "INBOUND",
+    "message_id": "4365694442",
+    "ticket_id": "983000653",
+    "message": "Confirm",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "547473201",
+    "contact_name": "MOHAMMAD ALRAZIM",
+    "contact_identifier": "+962795820005",
+    "parent_message_id": "4365692560",
+    "parent_ticket_id": "983000653",
+    "event_type": "INBOUND"
   }
 }
