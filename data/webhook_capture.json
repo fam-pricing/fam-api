@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-26T07:11:48.633Z",
+  "ts": "2026-09-26T07:13:00.789Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365716292",
+    "type": "OUTBOUND",
+    "message_id": "4365716792",
     "ticket_id": "983000594",
-    "message": "I’m having trouble filling out the form. I don’t know my exact departure date yet—I might extend my stay—but the system won’t let me complete the registration without that information. What should I do?",
-    "channel_id": "585723",
+    "message": "You can plan your check-out for 12:00 PM, as this is our standard check-out time. If there are any changes on the day of check-out, simply message us and we will assist you accordingly.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "547473180",
     "contact_name": "Svetlana Shablinskaia",
     "contact_identifier": "+79219487867",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
