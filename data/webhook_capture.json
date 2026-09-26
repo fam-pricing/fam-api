@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-26T06:20:36.797Z",
+  "ts": "2026-09-26T06:22:08.502Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4365700579",
+    "type": "INBOUND",
+    "message_id": "4365700991",
     "ticket_id": "959587621",
-    "message": "Thank you for staying with us at fäm Living!\r\n\r\nWe hope you enjoyed your stay; please let us know your expected check-out time so we can arrange it accordingly.\r\n\r\n* Our standard check-out time is between 10:00 AM and 12:00 PM.*\r\n\r\n*Late check outs will incur charges",
-    "user_id": "315306",
-    "user_name": "Abdul Rehman",
-    "user_email": "abdul.r@famliving.com",
+    "message": "Good morning! I will move tomorrow by 10am",
+    "channel_id": "585723",
     "contact_id": "540691470",
     "contact_name": "ramiza",
     "contact_identifier": "+971566548614",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
