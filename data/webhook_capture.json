@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-26T13:59:37.519Z",
+  "ts": "2026-09-26T14:04:24.142Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365937166",
-    "ticket_id": "982952437",
-    "message": "Do you have any video?",
-    "channel_id": "1304636",
-    "contact_id": "547453697",
-    "contact_name": "Amir Sayyed",
-    "contact_identifier": "+971544561402",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4365939712",
+    "ticket_id": "950081332",
+    "message": "Welcome",
+    "user_id": "315306",
+    "user_name": "Abdul Rehman",
+    "user_email": "abdul.r@famliving.com",
+    "contact_id": "538043163",
+    "contact_name": "Thi Tieu Hiep Nguyen",
+    "contact_identifier": "+971582652288",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
