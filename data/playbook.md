@@ -1969,3 +1969,7 @@ Please note that the rate displayed online applies to September only. Rates vary
 ## Learned (2026-09-25)
 - If a lead asks about availability through 22 October, inform them that bookings are available from 21 September to 22 October only.
   (Learned from Faysal handling E re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-4-66326226.html)
+
+## Learned (2026-09-26)
+- If a lead questions the quoted rate by referencing a lower price they saw online, explain that rates displayed online apply only to September and vary month to month based on availability and demand. Confirm that the rate you have provided reflects the correct pricing for their specific requested dates.
+  (Learned from Faysal handling Islam re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-15-laya-mansion-135620527.html)
