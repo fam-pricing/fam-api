@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-26T09:26:56.833Z",
+  "ts": "2026-09-26T09:28:42.578Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365810350",
+    "type": "OUTBOUND",
+    "message_id": "4365811048",
     "ticket_id": "983006303",
-    "message": "Ok let me knw",
-    "channel_id": "1304636",
+    "message": "Here is the payment breakdown:\r\n\r\n1st Month: AED 11,673 for 34 nights\r\n2nd Month: AED 12,500 for 30 nights\r\n\r\nTo block and secure the unit for you, we require the full first-month payment and at least 50% of the final month’s rent in advance.\r\n\r\nTherefore, the total amount required to secure the unit is:\r\n\r\nAED 11,673 + AED 6,250 = AED 17,923\r\n\r\nAs mentioned earlier, this payment is required in advance to reserve and secure the unit for you.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "546147775",
     "contact_name": "FADI SOUBRA",
     "contact_identifier": "+971562896978",
-    "parent_message_id": "4365739053",
-    "parent_ticket_id": "983006303",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
