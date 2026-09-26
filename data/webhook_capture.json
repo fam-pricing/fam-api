@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-26T07:06:40.456Z",
+  "ts": "2026-09-26T07:07:16.506Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365714428",
-    "ticket_id": "983006705",
-    "message": "Yes please",
+    "type": "OUTBOUND",
+    "message_id": "4365714645",
+    "ticket_id": "983006303",
+    "message": "We would like to follow up regarding the pending rental payment. May we know if you would prefer to make the payment by payment link or bank transfer?\r\n\r\nPlease note that the payment must be completed before your arrival.\r\n\r\nThank you for your cooperation.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "546147775",
+    "contact_name": "FADI SOUBRA",
+    "contact_identifier": "+971562896978",
     "channel_id": "1304636",
-    "contact_id": "547479201",
-    "contact_name": "Tonje",
-    "contact_identifier": "+971585738453",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
