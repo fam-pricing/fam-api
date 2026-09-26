@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-26T06:56:35.044Z",
+  "ts": "2026-09-26T06:59:34.182Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365710328",
+    "type": "OUTBOUND",
+    "message_id": "4365711583",
     "ticket_id": "983005347",
-    "message": "I do understand check in is from 15:00 but I would appreciate an earlier check in or luggage drop off due to medical reasons",
-    "channel_id": "585723",
+    "message": "We’re sorry, but at the moment we’re unable to confirm the early check-in time, as we have an in-house guest checking out tomorrow at 12:00 PM. After checkout, we will need some time to prepare the apartment.\r\n\r\nWe can update you tomorrow after 11:00 AM with the earliest check-in time we can offer.\r\n\r\nThank you for your kind understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "547474803",
     "contact_name": "Jojo Ndure",
     "contact_identifier": "+447534587839",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
