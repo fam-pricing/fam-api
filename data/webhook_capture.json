@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-26T08:14:12.541Z",
+  "ts": "2026-09-26T08:14:24.547Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365777524",
-    "ticket_id": "983023486",
-    "message": "Forwarding it here so we can take next steps",
-    "channel_id": "585723",
-    "contact_id": "547480451",
-    "contact_name": "Kshitij Sainani",
-    "contact_identifier": "+971525651904",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4365777645",
+    "ticket_id": "983006303",
+    "message": "Here is our bank details , if you prefere to make the payment via bank transfer",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "546147775",
+    "contact_name": "FADI SOUBRA",
+    "contact_identifier": "+971562896978",
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
