@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-26T07:04:15.725Z",
+  "ts": "2026-09-26T07:04:43.258Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4365713454",
-    "ticket_id": "983005347",
-    "message": "We tried to collect the payment through Booking.com, but unfortunately, it was unsuccessful.\r\n\r\nWe can send you a secure payment link instead. Once the payment is completed, we can confirm your booking. At the moment, the booking is still unconfirmed due to the pending payment.\r\n\r\nPlease let us know if you would like us to send the payment link.\r\n\r\nPlease also note that a AED 2,000 security deposit is required upon check-in. This is fully refundable after check-out, provided there are no damages to the apartment. The refund will be processed within 14 working days after your departure.\r\n\r\nThank you, and we look forward to welcoming you!",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "547474803",
-    "contact_name": "Jojo Ndure",
-    "contact_identifier": "+447534587839",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4365713705",
+    "ticket_id": "983006071",
+    "message": "Can I see today",
+    "channel_id": "1304636",
+    "contact_id": "546958972",
+    "contact_name": "Mariia",
+    "contact_identifier": "+380932056982",
+    "event_type": "INBOUND"
   }
 }
