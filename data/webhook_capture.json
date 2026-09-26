@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-26T07:04:43.258Z",
+  "ts": "2026-09-26T07:05:20.050Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365713705",
-    "ticket_id": "983006071",
-    "message": "Can I see today",
+    "type": "OUTBOUND",
+    "message_id": "4365713944",
+    "ticket_id": "983006705",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nhttps://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-15-laya-mansion-135618302.html\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "547479201",
+    "contact_name": "Tonje",
+    "contact_identifier": "+971585738453",
     "channel_id": "1304636",
-    "contact_id": "546958972",
-    "contact_name": "Mariia",
-    "contact_identifier": "+380932056982",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
