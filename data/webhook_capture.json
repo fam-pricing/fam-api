@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-26T04:40:55.867Z",
+  "ts": "2026-09-26T04:40:56.939Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365682937",
+    "type": "OUTBOUND",
+    "message_id": "4365682943",
     "ticket_id": "982997884",
-    "message": "Is the property available for short term monthly rent?",
-    "channel_id": "1304636",
+    "message": "Nawfel, did you have any questions about the property?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547471946",
     "contact_name": "Nawfel",
     "contact_identifier": "+33767401846",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
