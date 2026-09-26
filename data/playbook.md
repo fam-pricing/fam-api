@@ -1973,3 +1973,7 @@ Please note that the rate displayed online applies to September only. Rates vary
 ## Learned (2026-09-26)
 - If a lead questions the quoted rate by referencing a lower price they saw online, explain that rates displayed online apply only to September and vary month to month based on availability and demand. Confirm that the rate you have provided reflects the correct pricing for their specific requested dates.
   (Learned from Faysal handling Islam re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-15-laya-mansion-135620527.html)
+
+## Learned (2026-09-26)
+- When a lead responds positively to a quoted rate (e.g., "Yes, it's good"), follow up by clarifying that the rate shown online applies to September only. Let them know that rates vary by month based on availability and demand, and confirm that the rate quoted in your message applies specifically to their requested dates.
+  (Learned from Faysal handling IB re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-mag-318-97378457.html)
