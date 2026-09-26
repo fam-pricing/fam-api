@@ -1,17 +1,19 @@
 {
-  "ts": "2026-09-26T05:00:05.126Z",
+  "ts": "2026-09-26T05:00:29.229Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4365685151",
-    "ticket_id": "982786122",
-    "message": "Thank you for choosing fäm living. Please note that our work timings are from 9:00 AM to 9:00 PM. To avail yourself of our best offers and prices, you can now make your bookings on our website; please visit www.famliving.com.\n\nشكرًا لاتصالك , يرجى ملاحظة أن أوقات العمل لدينا هي من 9:00 صباحًا إلى 9:00 مساءً ، للاستفادة من أفضل العروض والأسعار، يمكنك الآن إجراء حجوزاتك على موقعنا على الإنترنت\n\nwww.famliving.com",
-    "contact_id": "547404800",
-    "contact_name": "Rupa venkata satya sai manikumar appana",
-    "contact_identifier": "+917036255703",
+    "type": "INBOUND",
+    "message_id": "4365685232",
+    "ticket_id": "981844685",
+    "message": "Thank you so much for the beautiful and well-kept place. I’m sure this won’t be our last stay here and I’ll definitely recommend it to my friends. Honestly, I’m surprised the place doesn’t have a higher rating, it’s very nice, clean, well organized, in a great location, and you’ve been very welcoming and helpful throughout our stay. As agreed, I’ll check out at 2 PM and I’ll leave the keys for you and send you a photo of where I’ve placed them. Thank you again",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "547094475",
+    "contact_name": "FAHAD ALAJMI",
+    "contact_identifier": "+966569766666",
+    "parent_message_id": "4362613699",
+    "parent_ticket_id": "981844685",
+    "event_type": "INBOUND"
   }
 }
