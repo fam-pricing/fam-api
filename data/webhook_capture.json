@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-26T07:03:02.448Z",
+  "ts": "2026-09-26T07:03:25.655Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4365712978",
+    "type": "OUTBOUND",
+    "message_id": "4365713140",
     "ticket_id": "983006071",
-    "message": "Available?",
-    "channel_id": "1304636",
+    "message": "Yes, the 2BR in Bluewaters Building 4 is available now at AED 25,000/month, all-inclusive. What dates are you looking at?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "546958972",
     "contact_name": "Mariia",
     "contact_identifier": "+380932056982",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
