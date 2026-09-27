@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-27T13:42:12.548Z",
+  "ts": "2026-09-27T13:42:44.295Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366338606",
+    "type": "OUTBOUND",
+    "message_id": "4366338845",
     "ticket_id": "983162884",
-    "message": "Yes I can move in even September 30",
-    "channel_id": "1304636",
+    "message": "September 30 works. To get you set up, just need a copy of your ID or passport and your email, want to go ahead?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547534756",
     "contact_name": "Mahmoud",
     "contact_identifier": "+971586163112",
-    "parent_message_id": "4366338399",
-    "parent_ticket_id": "983162884",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
