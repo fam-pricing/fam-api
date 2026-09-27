@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-27T07:11:48.376Z",
+  "ts": "2026-09-27T07:12:02.651Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4366174725",
+    "type": "INBOUND",
+    "message_id": "4366174792",
     "ticket_id": "983122622",
-    "message": "It's AED 11,000/month, all-inclusive. Want to arrange a viewing to see it in person?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes, can we do today?",
+    "channel_id": "1304636",
     "contact_id": "547518926",
     "contact_name": "Minthe Stassen",
     "contact_identifier": "+971547813280",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
