@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-27T06:31:40.605Z",
+  "ts": "2026-09-27T06:31:47.004Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4366163069",
-    "ticket_id": "983118869",
-    "message": "May I know your preferred location please?",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "547517550",
-    "contact_name": "Heike",
-    "contact_identifier": "31888d25-46ba-4591-cd25-d3eca7cc54e2",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4366163092",
+    "ticket_id": "983119617",
+    "message": "Move in date is 7 October",
+    "channel_id": "1304636",
+    "contact_id": "537917671",
+    "contact_name": "Valentino Alvarez",
+    "contact_identifier": "+971506039940",
+    "event_type": "INBOUND"
   }
 }
