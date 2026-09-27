@@ -1,17 +1,19 @@
 {
-  "ts": "2026-09-27T06:11:10.408Z",
+  "ts": "2026-09-27T06:14:37.210Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4366158167",
-    "ticket_id": "983118869",
-    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
-    "contact_id": "547517550",
-    "contact_name": "Heike",
-    "contact_identifier": "31888d25-46ba-4591-cd25-d3eca7cc54e2",
-    "channel_id": "883603",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4366158895",
+    "ticket_id": "983113407",
+    "message": "different info were provided",
+    "channel_id": "1304636",
+    "contact_id": "547515994",
+    "contact_name": "Hiba",
+    "contact_identifier": "+971504097658",
+    "parent_message_id": "4366140028",
+    "parent_ticket_id": "983113407",
+    "event_type": "INBOUND"
   }
 }
