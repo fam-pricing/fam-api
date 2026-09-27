@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-27T09:11:46.007Z",
+  "ts": "2026-09-27T09:12:51.384Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4366225284",
-    "ticket_id": "983006303",
-    "message": "Here is some important information for your stay with us at fäm Living:\r\n\r\nBuilding Name: Miraclz by Danube\r\nApartment No: 1310 on the 13th floor\r\nDoor code: 8080 🔑\r\nWifi Name: EasyGo\r\nWifi password: Hellodubai\r\nParking No: G-24\r\n\r\nUpon arrival, kindly pass by the reception for a smooth check-in. We have left the access card and parking card inside the apartment\r\n\r\nPlease note that we are only available every day from 9:00 AM to 9:00 PM\r\n\r\nFor any emergency, please reach out to the reception or security; they will be available 24/7",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "546147775",
-    "contact_name": "FADI SOUBRA",
-    "contact_identifier": "+971562896978",
+    "type": "INBOUND",
+    "message_id": "4366225699",
+    "ticket_id": "983078975",
+    "message": "Hi, can we book the viewing for 5.30pm?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "507263587",
+    "contact_name": "Azeem Yusufali",
+    "contact_identifier": "+447856733100",
+    "event_type": "INBOUND"
   }
 }
