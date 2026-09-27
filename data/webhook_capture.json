@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-27T06:11:04.181Z",
+  "ts": "2026-09-27T06:11:05.177Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366158154",
+    "type": "OUTBOUND",
+    "message_id": "4366158152",
     "ticket_id": "983118869",
-    "message": "Hey trying to find an apartment for 1-8 Jan 2027 for two adults and 1 child. Do you have availability?",
-    "channel_id": "883603",
+    "message": "It's a beautiful day at fäm Living; how can I help you?",
     "contact_id": "547517550",
     "contact_name": "Heike",
     "contact_identifier": "31888d25-46ba-4591-cd25-d3eca7cc54e2",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
