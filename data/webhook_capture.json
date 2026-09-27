@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-27T05:31:48.650Z",
+  "ts": "2026-09-27T05:32:43.153Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366149736",
+    "type": "OUTBOUND",
+    "message_id": "4366149845",
     "ticket_id": "981006454",
-    "message": "10:00 AM - 12:00 PM",
-    "channel_id": "585723",
+    "message": "Thank you Oliver !\r\n\r\nI have checked with my reservation team, and good news ! We are not expecting an arrival today, therefore I am very happy to give you a complimentary late check out until 1 PM",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "447033116",
     "contact_name": "Oliver",
     "contact_identifier": "+971585758468",
-    "parent_message_id": "4366147808",
-    "parent_ticket_id": "981006454",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
