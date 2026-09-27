@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-27T08:04:57.294Z",
+  "ts": "2026-09-27T08:05:02.504Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366198701",
-    "ticket_id": "983129293",
-    "message": "Ok",
-    "channel_id": "1304636",
-    "contact_id": "547404315",
-    "contact_name": "Aqua Marine Trading",
-    "contact_identifier": "+971508892165",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4366198729",
+    "ticket_id": "982774875",
+    "message": "As your reservation is scheduled to start on 30th October, it is completely fine to complete the payment before the check-in date. You may make the payment on either the 20th or 21st of October, whichever is more convenient for you.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "547401482",
+    "contact_name": "Liberty Kikanka",
+    "contact_identifier": "+971585169231",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
