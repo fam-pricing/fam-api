@@ -1981,3 +1981,7 @@ Please note that the rate displayed online applies to September only. Rates vary
 ## Learned (2026-09-27)
 - When a lead says "kindly advise," respond with: Please note that the rate displayed in the link applies to September only. Rates vary month to month based on availability and current market demand.
   (Learned from Faysal handling Hiba re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-15-laya-mansion-135620527.html)
+
+## Learned (2026-09-27)
+- If a lead mentions a stay through or ending on 30th September, clarify that the quoted rate applies to September only. Let them know that monthly rates are subject to change based on market conditions, demand, and availability.
+  (Learned from Faysal handling Azeem Yusufali re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
