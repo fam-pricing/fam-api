@@ -4294,5 +4294,17 @@
     "lead_quality": 30,
     "buying_stage": "COOL",
     "skip_reason": "acknowledgment_skip"
+  },
+  {
+    "ts": "2026-09-27T13:41:29.152Z",
+    "ticket_id": 983162884,
+    "lead_id": "message_lead_32528486",
+    "action": "skipped",
+    "tool_used": null,
+    "response_time_ms": 1258,
+    "critic_pass": null,
+    "lead_quality": 30,
+    "buying_stage": "COOL",
+    "skip_reason": "ticket_locked"
   }
 ]
