@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-27T13:44:15.629Z",
+  "ts": "2026-09-27T13:44:37.468Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4366339540",
+    "type": "INBOUND",
+    "message_id": "4366339686",
     "ticket_id": "983162884",
-    "message": "Parking is something I need to confirm quickly, I'll check and get back to you shortly. Are you looking to bring a car, or just checking if it's available?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Even we have 2 cars",
+    "channel_id": "1304636",
     "contact_id": "547534756",
     "contact_name": "Mahmoud",
     "contact_identifier": "+971586163112",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4366339540",
+    "parent_ticket_id": "983162884",
+    "event_type": "INBOUND"
   }
 }
