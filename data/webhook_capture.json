@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-27T13:41:42.569Z",
+  "ts": "2026-09-27T13:42:12.548Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4366338399",
+    "type": "INBOUND",
+    "message_id": "4366338606",
     "ticket_id": "983162884",
-    "message": "The photos are on their way, here's the listing: https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-15-laya-mansion-135620527.html\n\nDoes 1 October still work as your move-in date?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes I can move in even September 30",
+    "channel_id": "1304636",
     "contact_id": "547534756",
     "contact_name": "Mahmoud",
     "contact_identifier": "+971586163112",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4366338399",
+    "parent_ticket_id": "983162884",
+    "event_type": "INBOUND"
   }
 }
