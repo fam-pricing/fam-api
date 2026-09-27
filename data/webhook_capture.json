@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-27T07:07:16.510Z",
+  "ts": "2026-09-27T07:07:26.709Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366173316",
+    "type": "OUTBOUND",
+    "message_id": "4366173363",
     "ticket_id": "983042807",
-    "message": "Thank you",
-    "channel_id": "1304636",
+    "message": "You're welcome",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "531223871",
     "contact_name": "Chase Bitz",
     "contact_identifier": "+971545467910",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
