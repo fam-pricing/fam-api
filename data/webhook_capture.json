@@ -1,19 +1,17 @@
 {
-  "ts": "2026-09-27T16:06:31.500Z",
+  "ts": "2026-09-27T16:10:08.400Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366399471",
-    "ticket_id": "938546983",
-    "message": "Please advise when our deposit will be paid back",
+    "type": "OUTBOUND",
+    "message_id": "4366401082",
+    "ticket_id": "982569178",
+    "message": "🤖 Due to the increased volume of tickets, our response times are higher than usual, but we have received your message and will get back to you as soon as possible.\n\nThank you for your kind patience!",
+    "contact_id": "547325999",
+    "contact_name": "Mike",
+    "contact_identifier": "+19059663033",
     "channel_id": "585723",
-    "contact_id": "535208016",
-    "contact_name": "DEANNO GARRY LUPKE",
-    "contact_identifier": "+27815663899",
-    "parent_message_id": "4366281868",
-    "parent_ticket_id": "938546983",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
