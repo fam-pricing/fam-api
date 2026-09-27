@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-27T06:19:19.473Z",
+  "ts": "2026-09-27T06:19:21.146Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366159983",
-    "ticket_id": "983119075",
-    "message": "Thank you",
+    "type": "OUTBOUND",
+    "message_id": "4366159978",
+    "ticket_id": "983093458",
+    "message": "May I kindly confirm if you would like to arrange a viewing? Also, may I know your preferred budget so we can check the most suitable available options for you?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "547453954",
+    "contact_name": "IB",
+    "contact_identifier": "+33618458169",
     "channel_id": "1304636",
-    "contact_id": "547517632",
-    "contact_name": "Gunaya Mamedova",
-    "contact_identifier": "+971555071806",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
