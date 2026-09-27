@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-27T08:57:48.880Z",
+  "ts": "2026-09-27T08:57:59.867Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366219521",
+    "type": "OUTBOUND",
+    "message_id": "4366219590",
     "ticket_id": "981006454",
-    "message": "thanks for the late check out and till next time",
-    "channel_id": "585723",
+    "message": "That's very kind and thank you for the information. We've applied for a card, as it's pending from the building",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
     "contact_id": "447033116",
     "contact_name": "Oliver",
     "contact_identifier": "+971585758468",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
