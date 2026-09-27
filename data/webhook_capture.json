@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-27T09:37:53.298Z",
+  "ts": "2026-09-27T09:38:13.071Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4366236102",
-    "ticket_id": "983083845",
-    "message": "Sure and we need the ID as well",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "543700230",
-    "contact_name": "Amogh",
-    "contact_identifier": "+918660160252",
+    "type": "INBOUND",
+    "message_id": "4366236251",
+    "ticket_id": "983129293",
+    "message": "You didn’t tell me the rate. We like 16000 and you said that’s not the rate. Then what is the rate?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "547404315",
+    "contact_name": "Aqua Marine Trading",
+    "contact_identifier": "+971508892165",
+    "parent_message_id": "4366227632",
+    "parent_ticket_id": "983129293",
+    "event_type": "INBOUND"
   }
 }
