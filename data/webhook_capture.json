@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-27T10:38:26.547Z",
+  "ts": "2026-09-27T10:38:39.063Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4366261333",
-    "ticket_id": "983127323",
-    "message": "It is a beautiful day at fäm Living!\n\nWe are trying to connect with you, kindly click on \"Confirm\" below in order to proceed.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "547521109",
-    "contact_name": "Abdullah Sulieman",
-    "contact_identifier": "+966509715511",
+    "type": "INBOUND",
+    "message_id": "4366261391",
+    "ticket_id": "983142395",
+    "message": "I completed the form online",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "547526602",
+    "contact_name": "Sebastian Hall",
+    "contact_identifier": "+971521028468",
+    "event_type": "INBOUND"
   }
 }
