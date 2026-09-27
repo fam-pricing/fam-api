@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-27T06:07:36.806Z",
+  "ts": "2026-09-27T06:11:04.181Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4366157351",
-    "ticket_id": "983023486",
-    "message": "Good morning,\r\n\r\nUnfortunately, we are unable to confirm the exact unit number at this stage, as we currently have a few units available. The specific unit will be assigned based on availability at the time of your stay. However, we can confirm that the unit will be located on the 22nd floor.\r\n\r\nThank you for your understanding.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "547480451",
-    "contact_name": "Kshitij Sainani",
-    "contact_identifier": "+971525651904",
-    "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4366158154",
+    "ticket_id": "983118869",
+    "message": "Hey trying to find an apartment for 1-8 Jan 2027 for two adults and 1 child. Do you have availability?",
+    "channel_id": "883603",
+    "contact_id": "547517550",
+    "contact_name": "Heike",
+    "contact_identifier": "31888d25-46ba-4591-cd25-d3eca7cc54e2",
+    "event_type": "INBOUND"
   }
 }
