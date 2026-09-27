@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-27T12:33:52.899Z",
+  "ts": "2026-09-27T12:35:09.964Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366308748",
-    "ticket_id": "943915428",
-    "message": "Please share rent details and video pics if possible",
+    "type": "OUTBOUND",
+    "message_id": "4366309290",
+    "ticket_id": "983127323",
+    "message": "Please complete the check in form to register the details in the building",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "547521109",
+    "contact_name": "Abdullah Sulieman",
+    "contact_identifier": "+966509715511",
     "channel_id": "585723",
-    "contact_id": "536484706",
-    "contact_name": "Raja Sajid 🇦🇪",
-    "contact_identifier": "+971566960509",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
