@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-27T16:15:02.271Z",
+  "ts": "2026-09-27T16:15:24.415Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366403188",
+    "type": "OUTBOUND",
+    "message_id": "4366403358",
     "ticket_id": "983178945",
-    "message": "do u work with agent",
-    "channel_id": "1304636",
+    "message": "Yes, we work with agents. If you're representing a client, the quoted rates are net to us, so you'd add your commission on top. Are you inquiring on behalf of someone, or for yourself?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547540664",
     "contact_name": "Aslam",
     "contact_identifier": "+971503634081",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
