@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-27T09:39:15.150Z",
+  "ts": "2026-09-27T09:53:14.895Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366236672",
-    "ticket_id": "983083845",
-    "message": "Which floor is the unit",
-    "channel_id": "1304636",
-    "contact_id": "543700230",
-    "contact_name": "Amogh",
-    "contact_identifier": "+918660160252",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4366242311",
+    "ticket_id": "938546983",
+    "message": "Please note that the bookings are calculated based on a 30-night stay. Therefore, if your check-in date is the 30th, the subsequent monthly dates may not fall on the 30th of each month, as the booking is based on the number of nights rather than calendar months.\r\n\r\nMay I kindly confirm if you are planning to extend your stay for another month?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "535208016",
+    "contact_name": "DEANNO GARRY LUPKE",
+    "contact_identifier": "+27815663899",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
