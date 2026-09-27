@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-27T09:38:13.071Z",
+  "ts": "2026-09-27T09:38:35.011Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366236251",
-    "ticket_id": "983129293",
-    "message": "You didn’t tell me the rate. We like 16000 and you said that’s not the rate. Then what is the rate?",
-    "channel_id": "1304636",
-    "contact_id": "547404315",
-    "contact_name": "Aqua Marine Trading",
-    "contact_identifier": "+971508892165",
-    "parent_message_id": "4366227632",
-    "parent_ticket_id": "983129293",
-    "event_type": "INBOUND"
+    "type": "OUTBOUND",
+    "message_id": "4366236430",
+    "ticket_id": "983127323",
+    "message": "To help us follow up on your request, please share your contact details with us using the button below.",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "547521109",
+    "contact_name": "Abdullah Sulieman",
+    "contact_identifier": "+966509715511",
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
