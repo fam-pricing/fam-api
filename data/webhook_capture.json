@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-27T08:04:31.235Z",
+  "ts": "2026-09-27T08:04:40.258Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366198511",
+    "type": "OUTBOUND",
+    "message_id": "4366198584",
     "ticket_id": "983129293",
-    "message": "If not 1 month",
-    "channel_id": "1304636",
+    "message": "For a 6-month stay, rates are confirmed in 3-month blocks, so the first 3 months lock in, and the rate for months 4, 6 gets reviewed closer to the time based on availability and market.\n\nWould you like to come see it first before deciding?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547404315",
     "contact_name": "Aqua Marine Trading",
     "contact_identifier": "+971508892165",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
