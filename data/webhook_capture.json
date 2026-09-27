@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-27T11:38:13.019Z",
+  "ts": "2026-09-27T11:38:50.288Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4366285704",
+    "type": "INBOUND",
+    "message_id": "4366285956",
     "ticket_id": "983150715",
-    "message": "Just a real person who types fast! Want to come see the studio before October 1st?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Yes",
+    "channel_id": "1304636",
     "contact_id": "547529618",
     "contact_name": "Naing Tun Oo@Ahmed rashed",
     "contact_identifier": "+959789713243",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4366285704",
+    "parent_ticket_id": "983150715",
+    "event_type": "INBOUND"
   }
 }
