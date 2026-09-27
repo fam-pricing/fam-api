@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-27T10:31:04.100Z",
+  "ts": "2026-09-27T10:32:01.364Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366258230",
+    "type": "OUTBOUND",
+    "message_id": "4366258617",
     "ticket_id": "983143304",
-    "message": "Its too much traffic",
-    "channel_id": "1304636",
+    "message": "May I know the preferred location please?",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
     "contact_id": "544823099",
     "contact_name": "💎",
     "contact_identifier": "+971505772255",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
