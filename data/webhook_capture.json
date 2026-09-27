@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-27T16:23:14.877Z",
+  "ts": "2026-09-27T16:25:19.664Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366406780",
-    "ticket_id": "983180337",
-    "message": "*131051: Message type unknown*\n\nWhatsApp did not share the content of this message with Trengo.\nThis usually happens when a WhatsApp message uses any of the following components:\n  - events\n  - the wrapper of multiple images sent in a single message\nIf you use the WhatsApp Business App, we recommend checking the original message in the device connected to this channel.",
+    "type": "OUTBOUND",
+    "message_id": "4366407539",
+    "ticket_id": "983180517",
+    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\nyour enquiry on Property Finder\n\nHow can I help you today?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
+    "contact_id": "289220204",
+    "contact_name": "Mr Mohamed Ibrahim Obaid AlShaer Al-Ali",
+    "contact_identifier": "+971506264546",
     "channel_id": "1304636",
-    "contact_id": "461634798",
-    "contact_name": "97145560367",
-    "contact_identifier": "+97145560367",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
