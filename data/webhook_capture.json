@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-27T08:00:20.603Z",
+  "ts": "2026-09-27T08:00:46.864Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4366196764",
+    "type": "INBOUND",
+    "message_id": "4366196979",
     "ticket_id": "983129293",
-    "message": "Hello! Property Finder passed on your enquiry about the following *available* property for rent: \n\n2BR in Residences 1\n\nHow can I help you today?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Hello",
+    "channel_id": "1304636",
     "contact_id": "547404315",
     "contact_name": "Aqua Marine Trading",
     "contact_identifier": "+971508892165",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
