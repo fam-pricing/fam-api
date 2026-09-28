@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-28T06:11:56.943Z",
+  "ts": "2026-09-28T06:12:25.214Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366604706",
-    "ticket_id": "983228409",
-    "message": "No, thank you. Have a great day",
+    "type": "OUTBOUND",
+    "message_id": "4366605010",
+    "ticket_id": "983201022",
+    "message": "As per your request, please find below the 1-month rates for the studio apartment at Laya Mansion, Jumeirah Village Circle:\r\n\r\nOctober: AED 6,500\r\n\r\nPlease note that a security deposit of AED 2,000 is required. The booking will be on a monthly basis only (30 nights each month).",
+    "user_id": "746191",
+    "user_name": "Tharushi Sha",
+    "user_email": "tharushi.sha@famliving.com",
+    "contact_id": "547549432",
+    "contact_name": "Rayan Shaded",
+    "contact_identifier": "+966552800544",
     "channel_id": "1304636",
-    "contact_id": "539566355",
-    "contact_name": "Matias Ariel Griszka",
-    "contact_identifier": "+971501784347",
-    "parent_message_id": "4366604390",
-    "parent_ticket_id": "983228409",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
