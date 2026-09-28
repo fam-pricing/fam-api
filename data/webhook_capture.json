@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-28T11:53:12.118Z",
+  "ts": "2026-09-28T12:01:25.172Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4367048682",
-    "ticket_id": "983286535",
-    "message": "Attachment",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "547453697",
-    "contact_name": "Amir Sayyed",
-    "contact_identifier": "+971544561402",
+    "type": "INBOUND",
+    "message_id": "4367059035",
+    "ticket_id": "983333276",
+    "message": "It’s on 1st Oct right?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "537817977",
+    "contact_name": "Kanika",
+    "contact_identifier": "+919051525237",
+    "parent_message_id": "4366972758",
+    "parent_ticket_id": "983333276",
+    "event_type": "INBOUND"
   }
 }
