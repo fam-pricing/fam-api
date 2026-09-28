@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-28T08:48:18.063Z",
+  "ts": "2026-09-28T08:48:19.580Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4366774255",
+    "type": "INBOUND",
+    "message_id": "4366774290",
     "ticket_id": "983274372",
-    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Tharushi Sha, and I will be assisting you.",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
+    "message": "Can you let me know what the price is for next months rent please, as I have been offered elsewhere in building for a year stay",
+    "channel_id": "1304636",
     "contact_id": "541938510",
     "contact_name": "George Phillips",
     "contact_identifier": "+447775615281",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
