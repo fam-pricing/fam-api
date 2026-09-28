@@ -1985,3 +1985,9 @@ Please note that the rate displayed online applies to September only. Rates vary
 ## Learned (2026-09-27)
 - If a lead mentions a stay through or ending on 30th September, clarify that the quoted rate applies to September only. Let them know that monthly rates are subject to change based on market conditions, demand, and availability.
   (Learned from Faysal handling Azeem Yusufali re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-13851920.html)
+
+## Learned (2026-09-28)
+- If a lead asks about receiving a commission on their side and mentions they will top up the price, respond as follows:
+
+For commission-related inquiries, please reach out directly to our finance team at Finance@famliving.com — they will be able to assist you.
+  (Learned from Faysal handling Angela Shao re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-aykon-city-aykon-city-tower-c-16180579.html)
