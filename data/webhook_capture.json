@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-28T14:16:07.653Z",
+  "ts": "2026-09-28T14:18:24.440Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4367232708",
-    "ticket_id": "983381905",
-    "message": "Payments can be completed either by the payment link which we can provide but there will be 3.1% of card processing fee or alternatively you can do a bank transfer",
-    "user_id": "746191",
-    "user_name": "Tharushi Sha",
-    "user_email": "tharushi.sha@famliving.com",
-    "contact_id": "547595337",
-    "contact_name": "Walid",
-    "contact_identifier": "+971525601302",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4367235643",
+    "ticket_id": "982850848",
+    "message": "👍",
+    "channel_id": "585723",
+    "contact_id": "545642273",
+    "contact_name": "Khashayar",
+    "contact_identifier": "+971581031377",
+    "parent_message_id": "4367225957",
+    "parent_ticket_id": "982850848",
+    "event_type": "INBOUND"
   }
 }
