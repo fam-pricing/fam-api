@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-28T10:29:21.803Z",
+  "ts": "2026-09-28T10:30:58.939Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4366923567",
-    "ticket_id": "983006303",
-    "message": "Hello, Mr Fadi, may I know if the issue is resolved now",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "546147775",
-    "contact_name": "FADI SOUBRA",
-    "contact_identifier": "+971562896978",
+    "type": "INBOUND",
+    "message_id": "4366925438",
+    "ticket_id": "983281643",
+    "message": "If the client can pay one cheque for full 6 months, can  he get a discount?",
     "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "contact_id": "547440926",
+    "contact_name": "Angela Shao",
+    "contact_identifier": "+971585881688",
+    "parent_message_id": "4366917627",
+    "parent_ticket_id": "983281643",
+    "event_type": "INBOUND"
   }
 }
