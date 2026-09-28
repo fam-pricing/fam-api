@@ -1991,3 +1991,7 @@ Please note that the rate displayed online applies to September only. Rates vary
 
 For commission-related inquiries, please reach out directly to our finance team at Finance@famliving.com — they will be able to assist you.
   (Learned from Faysal handling Angela Shao re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-aykon-city-aykon-city-tower-c-16180579.html)
+
+## Learned (2026-09-28)
+- When a lead asks whether everything is included and the property is fully furnished, explain the payment options: they can pay via the payment link we provide (subject to a 3.1% card processing fee) or by bank transfer.
+  (Learned from Faysal handling Walid re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-business-bay-elite-business-bay-residence-2Q6stHMYs0u.html)
