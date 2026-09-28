@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-28T20:55:50.317Z",
+  "ts": "2026-09-28T20:56:10.262Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4367526919",
+    "type": "OUTBOUND",
+    "message_id": "4367527011",
     "ticket_id": "983483198",
-    "message": "hello",
-    "channel_id": "1304636",
+    "message": "What kind of place are you after, looking to rent long-term or short-term?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547630062",
     "contact_name": "$$$",
     "contact_identifier": "+971502603529",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
