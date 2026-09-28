@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-28T21:06:13.258Z",
+  "ts": "2026-09-28T21:06:39.582Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4367530547",
+    "type": "OUTBOUND",
+    "message_id": "4367530686",
     "ticket_id": "983483516",
-    "message": "Hi I would like to have more details on this apartment",
-    "channel_id": "1304636",
+    "message": "David, the Binghatti Amber is a 1-bed in JVC, what specifically would you like to know? Move-in flexibility, the layout, what the building's like?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547630231",
     "contact_name": "David Ouamba",
     "contact_identifier": "+358458572377",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
