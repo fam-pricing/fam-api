@@ -1,18 +1,18 @@
 {
-  "ts": "2026-09-28T08:01:31.254Z",
+  "ts": "2026-09-28T08:01:35.619Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4366713397",
+    "type": "OUTBOUND",
+    "message_id": "4366713473",
     "ticket_id": "983259922",
-    "message": "hi",
-    "channel_id": "883603",
+    "message": "Connecting you to agent now, please hold and we will reply as soon as possible. Leave your email address to get notified by email.",
     "contact_id": "526557526",
     "contact_name": "Sohaib",
     "contact_email": "sohaibbasharat1900@gmail.com",
     "contact_identifier": "d2558285-8b08-4122-1cd8-1ec8d64be8db",
-    "event_type": "INBOUND"
+    "channel_id": "883603",
+    "event_type": "OUTBOUND"
   }
 }
