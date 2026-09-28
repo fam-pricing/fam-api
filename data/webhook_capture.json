@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-28T21:08:49.190Z",
+  "ts": "2026-09-28T21:10:09.075Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4367531355",
+    "type": "INBOUND",
+    "message_id": "4367531794",
     "ticket_id": "983483516",
-    "message": "Yes, AED 7,000/month all-inclusive. Want to come see it, David?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "Any other fees before move-in?",
+    "channel_id": "1304636",
     "contact_id": "547630231",
     "contact_name": "David Ouamba",
     "contact_identifier": "+358458572377",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
