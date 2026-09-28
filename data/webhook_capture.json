@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-28T21:25:51.951Z",
+  "ts": "2026-09-28T22:25:41.153Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4367537145",
-    "ticket_id": "983485470",
-    "message": "Looks like this might be an auto-reply from your business profile! Are you looking to rent the Elite Business Bay apartment for yourself, or enquiring on behalf of a client?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
-    "contact_id": "547630920",
-    "contact_name": "Dr Nazanin*Sales Manager*",
-    "contact_identifier": "+971588208843",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4367552045",
+    "ticket_id": "983488604",
+    "message": "Hello",
+    "channel_id": "585723",
+    "contact_id": "547632251",
+    "contact_name": "Adele Monteiro Aesthetics",
+    "contact_identifier": "+447426109056",
+    "event_type": "INBOUND"
   }
 }
