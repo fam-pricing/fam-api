@@ -1,17 +1,19 @@
 {
-  "ts": "2026-09-28T14:45:17.987Z",
+  "ts": "2026-09-28T14:58:28.601Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4367269662",
-    "ticket_id": "983427065",
-    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
-    "contact_id": "547608877",
-    "contact_name": "Rishi Arora",
-    "contact_identifier": "+971527123570",
+    "type": "INBOUND",
+    "message_id": "4367285518",
+    "ticket_id": "983077236",
+    "message": "Can you please provide me with the answer?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "536414061",
+    "contact_name": "Maria",
+    "contact_identifier": "+96176100864",
+    "parent_message_id": "4366166268",
+    "parent_ticket_id": "983077236",
+    "event_type": "INBOUND"
   }
 }
