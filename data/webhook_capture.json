@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-28T21:25:26.108Z",
+  "ts": "2026-09-28T21:25:51.951Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4367537023",
+    "type": "OUTBOUND",
+    "message_id": "4367537145",
     "ticket_id": "983485470",
-    "message": "Hi This is *Dr Nazanin**\n🏗️Sales Manager at Azizi Developments in Dubai🇦🇪\n\nWith my consultancy,buy your dream home in dubai.\nHow may I help you today?\n\nبا سلام دكتر نازی هستم \nمدير فروش شركت سازنده عزيزي در دبی.\nمشاوره تخصصی اراضی و املاک در دبی.\nبرای اطلاعات بیشتر پیام دهید🌹",
-    "channel_id": "1304636",
+    "message": "Looks like this might be an auto-reply from your business profile! Are you looking to rent the Elite Business Bay apartment for yourself, or enquiring on behalf of a client?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547630920",
     "contact_name": "Dr Nazanin*Sales Manager*",
     "contact_identifier": "+971588208843",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
