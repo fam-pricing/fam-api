@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-29T08:15:59.226Z",
+  "ts": "2026-09-29T08:16:47.744Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4367759795",
+    "type": "OUTBOUND",
+    "message_id": "4367760785",
     "ticket_id": "966025207",
-    "message": "Will double check with my account",
-    "channel_id": "585723",
+    "message": "Yes, please. As the payment has not yet been received in our account, we are just following up with you to kindly check the status from your side.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "542404560",
     "contact_name": "Dalila Zillaf",
     "contact_identifier": "+971581930902",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
