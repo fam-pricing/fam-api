@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-29T09:21:24.390Z",
+  "ts": "2026-09-29T09:21:30.377Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4367846263",
+    "type": "OUTBOUND",
+    "message_id": "4367846674",
     "ticket_id": "974377766",
-    "message": "Ok so it’s booked until 13th?",
-    "channel_id": "585723",
+    "message": "Yes",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544774184",
     "contact_name": "AMIT KRISHAN",
     "contact_identifier": "+447984024297",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
