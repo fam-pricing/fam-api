@@ -384,6 +384,11 @@ export default async function handler(req, res) {
     }
   }
 
+  // Global kill switch — AI follow-ups stop when the bot is disabled
+  if (process.env.AUTOBOT_ENABLED !== 'true') {
+    return res.status(200).json({ ok: true, skipped: 'Bot disabled (AUTOBOT_ENABLED != true)' });
+  }
+
   try {
     const [{ state: crmState, sha: initialSha }, refMapping] = await Promise.all([
       readCRMState(),

@@ -202,6 +202,11 @@ export default async function handler(req, res) {
     }
   }
 
+  // Kill switch for the PF → Trengo first-touch automation (default ON unless set to 'false')
+  if (process.env.AUTORESPOND_ENABLED === 'false') {
+    return res.status(200).json({ ok: true, skipped: 'Auto-respond disabled (AUTORESPOND_ENABLED = false)' });
+  }
+
   try {
     const pfToken  = await getPFToken();
     const rawLeads = await fetchRecentLeads(pfToken);
@@ -283,8 +288,10 @@ export default async function handler(req, res) {
             // 5. Send pf3 template
             const templateSent = await sendTrengoTemplate(trengoTicketId, listingTitle);
             if (templateSent) phonesThisBatch.add(phone);
-            // 6. Assign to Faysal — bot replies as Faysal, team picks up on escalation
-            await assignTrengoTicket(trengoTicketId, 141332);
+            // 6. Assign to the manual lead owner (LEAD_ASSIGNEE_ID). No longer auto-assigned to Faysal.
+            //    If unset, the ticket stays unassigned in the Portal Leads inbox.
+            const assigneeId = parseInt(process.env.LEAD_ASSIGNEE_ID || '', 10);
+            if (assigneeId) await assignTrengoTicket(trengoTicketId, assigneeId);
           }
         }
       }
