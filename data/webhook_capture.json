@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-29T13:10:02.180Z",
+  "ts": "2026-09-29T13:10:37.002Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4368116914",
-    "ticket_id": "983127323",
-    "message": "Sure, between 12 and 5 PM, we will inform our team. In case you are leaving the home, please leave a key with the reception so the team can access the apartment",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "547521109",
-    "contact_name": "Abdullah Sulieman",
-    "contact_identifier": "+966509715511",
+    "type": "INBOUND",
+    "message_id": "4368117609",
+    "ticket_id": "983629242",
+    "message": "Hi there - I have an upcoming booking at one of your apartments",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "547670998",
+    "contact_name": "Sejal",
+    "contact_identifier": "+447891490117",
+    "event_type": "INBOUND"
   }
 }
