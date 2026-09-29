@@ -1999,3 +1999,7 @@ For commission-related inquiries, please reach out directly to our finance team 
 ## Learned (2026-09-29)
 - If a lead expresses surprise or concern about pricing, respond with: "Please note that the rate displayed online applies to September only. Rates vary by month based on availability and demand. The rates quoted above apply to your requested dates."
   (Learned from Faysal handling 🌹 re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-15-laya-mansion-135620527.html)
+
+## Learned (2026-09-29)
+- If a lead requests a discount citing a long stay, respond by clarifying that the rate shown online applies only for September and that rates vary month to month based on availability and demand. Confirm that the quoted rate is the correct applicable rate for their specific requested dates.
+  (Learned from Faysal handling Svetlana re https://www.propertyfinder.ae/en/plp/rent/apartment-for-rent-dubai-jumeirah-village-circle-district-15-laya-mansion-135620527.html)
