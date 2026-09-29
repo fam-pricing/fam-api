@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-29T13:59:19.334Z",
+  "ts": "2026-09-29T14:01:08.304Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4368176728",
-    "ticket_id": "983642337",
-    "message": "Can you give me your apartment available in citywalk 1BR/2BR for 1 month starting 5th of October.",
+    "type": "OUTBOUND",
+    "message_id": "4368178935",
+    "ticket_id": "983557076",
+    "message": "Hello Micah,\r\n\r\nThank you for your response.\r\n\r\nYes, we have received your extension booking form for tomorrow. However, the payment is still pending, so we would like to kindly follow up and check when you will be able to make the payment.\r\n\r\nPlease note that the extension is not yet confirmed until the payment is completed.\r\n\r\nThank you for your cooperation.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "542363829",
+    "contact_name": "Micah Meijer",
+    "contact_identifier": "+31655135580",
     "channel_id": "585723",
-    "contact_id": "547675182",
-    "contact_name": "AZ",
-    "contact_identifier": "+971555532727",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
