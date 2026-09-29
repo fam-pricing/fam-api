@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-29T11:09:50.584Z",
+  "ts": "2026-09-29T11:10:42.569Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4367976507",
-    "ticket_id": "983596564",
-    "message": "I’m looking for a room to rent",
+    "type": "OUTBOUND",
+    "message_id": "4367977583",
+    "ticket_id": "982569178",
+    "message": "I am not sure as of now there was no construction, and also the guest checked out today didn't report anything about the noise",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "547325999",
+    "contact_name": "Michael Chmielewski",
+    "contact_identifier": "+19059663033",
     "channel_id": "585723",
-    "contact_id": "547661258",
-    "contact_name": "P",
-    "contact_identifier": "+971581341278",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
