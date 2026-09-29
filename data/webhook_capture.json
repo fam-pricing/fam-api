@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-29T07:07:09.612Z",
+  "ts": "2026-09-29T07:15:35.164Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4367684799",
-    "ticket_id": "983400609",
-    "message": "I need a check in details only 😇",
+    "type": "OUTBOUND",
+    "message_id": "4367693687",
+    "ticket_id": "983077236",
+    "message": "Just to let you know, as today is your check-out date, you may check out at 9:00 PM if that is more convenient for you. We will inform our team accordingly.\r\n\r\nPlease note that our standard check-out time is 12:00 PM, so a late check-out fee of AED 200 will apply.\r\n\r\nRegarding the AED 500, as previously mentioned, it is non-refundable. Once you check out, we will check and update you regarding this amount. If we receive approval for the refund, we will refund the deposit and remaining amount accordingly.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536414061",
+    "contact_name": "Maria",
+    "contact_identifier": "+96176100864",
     "channel_id": "585723",
-    "contact_id": "547600568",
-    "contact_name": "Sergei Tolchin",
-    "contact_identifier": "+66636832694",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
