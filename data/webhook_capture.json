@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-29T05:30:04.521Z",
+  "ts": "2026-09-29T05:30:09.245Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4367626905",
-    "ticket_id": "983264362",
-    "message": "Well noted thank you",
-    "user_id": "731578",
-    "user_name": "Junaid Ahmad",
-    "user_email": "junaid@famliving.com",
-    "contact_id": "531223871",
-    "contact_name": "Chase Bitz",
-    "contact_identifier": "+971545467910",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "type": "INBOUND",
+    "message_id": "4367626934",
+    "ticket_id": "983400609",
+    "message": "🙏",
+    "channel_id": "585723",
+    "contact_id": "547600568",
+    "contact_name": "Sergei Tolchin",
+    "contact_identifier": "+66636832694",
+    "parent_message_id": "4367625023",
+    "parent_ticket_id": "983400609",
+    "event_type": "INBOUND"
   }
 }
