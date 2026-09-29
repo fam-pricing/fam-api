@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-29T09:22:14.686Z",
+  "ts": "2026-09-29T09:23:57.664Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4367847844",
+    "type": "OUTBOUND",
+    "message_id": "4367850593",
     "ticket_id": "974377766",
-    "message": "What time would that be",
-    "channel_id": "585723",
+    "message": "We can only confirm this on the guest’s check-out day, as our standard check-out time is 12:00 PM. If the guest requests a late check-out , in this case it might be some changes\r\n\r\nTherefore, we are unable to confirm it in advance. We will update you on the check-out day.\r\n\r\nThank you for your understanding.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544774184",
     "contact_name": "AMIT KRISHAN",
     "contact_identifier": "+447984024297",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
