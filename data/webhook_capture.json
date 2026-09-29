@@ -1,19 +1,20 @@
 {
-  "ts": "2026-09-29T13:05:52.472Z",
+  "ts": "2026-09-29T13:06:00.271Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4368112013",
-    "ticket_id": "983626381",
-    "message": "Confirm",
+    "type": "OUTBOUND",
+    "message_id": "4368112214",
+    "ticket_id": "983127323",
+    "message": "Please let us know if that's ok with you",
+    "user_id": "731578",
+    "user_name": "Junaid Ahmad",
+    "user_email": "junaid@famliving.com",
+    "contact_id": "547521109",
+    "contact_name": "Abdullah Sulieman",
+    "contact_identifier": "+966509715511",
     "channel_id": "585723",
-    "contact_id": "547670249",
-    "contact_name": "city walk",
-    "contact_identifier": "+971568383571",
-    "parent_message_id": "4368106593",
-    "parent_ticket_id": "983626381",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
