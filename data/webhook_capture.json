@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-29T06:14:33.388Z",
+  "ts": "2026-09-29T06:14:39.594Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4367646242",
-    "ticket_id": "982569178",
-    "message": "Good morning. What’s the payment about?",
+    "type": "OUTBOUND",
+    "message_id": "4367646297",
+    "ticket_id": "983427065",
+    "message": "How can i help you?",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "547608877",
+    "contact_name": "Rishi Arora",
+    "contact_identifier": "+971527123570",
     "channel_id": "585723",
-    "contact_id": "547325999",
-    "contact_name": "Michael Chmielewski",
-    "contact_identifier": "+19059663033",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
