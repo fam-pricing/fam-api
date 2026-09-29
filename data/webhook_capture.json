@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-29T07:04:19.005Z",
+  "ts": "2026-09-29T07:04:29.174Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4367682119",
-    "ticket_id": "983400609",
-    "message": "What do you mean?",
+    "type": "OUTBOUND",
+    "message_id": "4367682304",
+    "ticket_id": "983513911",
+    "message": "we do not have any 2-bedroom apartments available in your preferred location within your budget.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "547639124",
+    "contact_name": "Abuu Zungu",
+    "contact_identifier": "+971551747641",
     "channel_id": "585723",
-    "contact_id": "547600568",
-    "contact_name": "Sergei Tolchin",
-    "contact_identifier": "+66636832694",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
