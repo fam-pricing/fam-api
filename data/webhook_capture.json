@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-29T12:07:47.123Z",
+  "ts": "2026-09-29T12:08:16.572Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4368045089",
+    "type": "OUTBOUND",
+    "message_id": "4368045772",
     "ticket_id": "975414362",
-    "message": "Tomorrow is my check out",
-    "channel_id": "585723",
+    "message": "Yes, tomorrow is your check out date",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "545099021",
     "contact_name": "Arnia Mohammadi",
     "contact_identifier": "+971544468909",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
