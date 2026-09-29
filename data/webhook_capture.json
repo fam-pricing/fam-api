@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-29T13:33:50.175Z",
+  "ts": "2026-09-29T13:36:40.470Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4368146244",
+    "type": "INBOUND",
+    "message_id": "4368149461",
     "ticket_id": "983579354",
-    "message": "If you are able to access Tower 1, we can share the apartment number with you, and you may simply proceed to the unit. Otherwise, we will only be able to share the details with you tomorrow.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
+    "message": "Who is at the tower to show us the apartment?",
+    "channel_id": "1304636",
     "contact_id": "547035769",
     "contact_name": "..",
     "contact_identifier": "+971503588969",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "event_type": "INBOUND"
   }
 }
