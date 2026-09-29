@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-29T06:12:09.038Z",
+  "ts": "2026-09-29T06:12:31.383Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4367644841",
-    "ticket_id": "972699983",
-    "message": "Allow me to check for you",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "544282080",
-    "contact_name": "Mr EMRE",
-    "contact_identifier": "+905327616424",
+    "type": "INBOUND",
+    "message_id": "4367645024",
+    "ticket_id": "983511073",
+    "message": "10:00 AM - 12:00 PM",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "541045616",
+    "contact_name": "Salam Sade Issa",
+    "contact_identifier": "+971544850491",
+    "parent_message_id": "4367632097",
+    "parent_ticket_id": "983511073",
+    "event_type": "INBOUND"
   }
 }
