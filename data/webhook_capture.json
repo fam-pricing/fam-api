@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-29T09:20:46.812Z",
+  "ts": "2026-09-29T09:20:57.653Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4367845251",
+    "type": "OUTBOUND",
+    "message_id": "4367845514",
     "ticket_id": "974377766",
-    "message": "Is it currently vacant?",
-    "channel_id": "585723",
+    "message": "We currently have an in-house guest staying in this unit. May I know how I can assist you?\r\n\r\nPlease note that the apartment will only be available from 13th October.\r\n\r\nAlso, yes, we have your booking starting from 14th October.\r\n\r\nThank you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "544774184",
     "contact_name": "AMIT KRISHAN",
     "contact_identifier": "+447984024297",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
