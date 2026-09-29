@@ -1,20 +1,17 @@
 {
-  "ts": "2026-09-29T06:22:41.096Z",
+  "ts": "2026-09-29T06:22:45.925Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4367651306",
-    "ticket_id": "983426066",
-    "message": "May I know your preferred check-in date, the number of nights you would like to book, and how many bedrooms you require?\r\n\r\nThank you.",
-    "user_id": "470168",
-    "user_name": "Chahana T.",
-    "user_email": "chahana@famliving.com",
-    "contact_id": "547608591",
-    "contact_name": "ALI JANDRO",
-    "contact_identifier": "+971523377774",
+    "type": "INBOUND",
+    "message_id": "4367651339",
+    "ticket_id": "982569178",
+    "message": "What’s the unit number?",
     "channel_id": "585723",
-    "event_type": "OUTBOUND"
+    "contact_id": "547325999",
+    "contact_name": "Michael Chmielewski",
+    "contact_identifier": "+19059663033",
+    "event_type": "INBOUND"
   }
 }
