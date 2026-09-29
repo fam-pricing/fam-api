@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-29T08:53:26.328Z",
+  "ts": "2026-09-29T08:53:55.234Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4367807220",
+    "type": "OUTBOUND",
+    "message_id": "4367807863",
     "ticket_id": "983554857",
-    "message": "Bills included?",
-    "channel_id": "1304636",
+    "message": "All bills are included, yes, water, electricity, and Wi-Fi, no extras.\n\nMonthly payments work fine for your October to June stay. Rates are locked in 3-month blocks, so the current rate covers the first 3 months and each period after that gets confirmed closer to the time.\n\nWould you like to come see the place first?",
+    "user_id": "141332",
+    "user_name": "Faysal A.",
+    "user_email": "faysal@ayoubico.com",
     "contact_id": "547649753",
     "contact_name": ".",
     "contact_identifier": "+994516643409",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
