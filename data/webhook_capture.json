@@ -1,20 +1,19 @@
 {
-  "ts": "2026-09-29T08:47:09.563Z",
+  "ts": "2026-09-29T08:47:55.593Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "OUTBOUND",
-    "message_id": "4367796430",
+    "type": "INBOUND",
+    "message_id": "4367797309",
     "ticket_id": "983554857",
-    "message": "Fatima, are you thinking of moving in soon, or still in the early stages of looking?",
-    "user_id": "141332",
-    "user_name": "Faysal A.",
-    "user_email": "faysal@ayoubico.com",
+    "message": "I want to move in on 10 October to 30 June",
+    "channel_id": "1304636",
     "contact_id": "547649753",
     "contact_name": ".",
     "contact_identifier": "+994516643409",
-    "channel_id": "1304636",
-    "event_type": "OUTBOUND"
+    "parent_message_id": "4367796430",
+    "parent_ticket_id": "983554857",
+    "event_type": "INBOUND"
   }
 }
