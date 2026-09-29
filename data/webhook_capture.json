@@ -1,17 +1,17 @@
 {
-  "ts": "2026-09-29T13:10:37.002Z",
+  "ts": "2026-09-29T13:10:38.614Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4368117609",
+    "type": "OUTBOUND",
+    "message_id": "4368117657",
     "ticket_id": "983629242",
-    "message": "Hi there - I have an upcoming booking at one of your apartments",
-    "channel_id": "585723",
+    "message": "Thank you for reaching fäm Living!\n\nAn agent will be assigned to this conversation as soon as possible.",
     "contact_id": "547670998",
     "contact_name": "Sejal",
     "contact_identifier": "+447891490117",
-    "event_type": "INBOUND"
+    "channel_id": "585723",
+    "event_type": "OUTBOUND"
   }
 }
