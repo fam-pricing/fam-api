@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-29T07:27:59.974Z",
+  "ts": "2026-09-29T07:28:07.479Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4367706125",
-    "ticket_id": "983400609",
-    "message": "If you don't have time, tell me in advance at one o'clock in the afternoon and I'll postpone my transfer",
+    "type": "OUTBOUND",
+    "message_id": "4367706265",
+    "ticket_id": "983077236",
+    "message": "We will send the email to upside now with his ID",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "536414061",
+    "contact_name": "Maria",
+    "contact_identifier": "+96176100864",
     "channel_id": "585723",
-    "contact_id": "547600568",
-    "contact_name": "Sergei Tolchin",
-    "contact_identifier": "+66636832694",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
