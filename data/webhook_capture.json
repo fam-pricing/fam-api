@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-29T13:11:27.514Z",
+  "ts": "2026-09-29T13:15:54.938Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4368118591",
-    "ticket_id": "983629242",
-    "message": "Please can you confirm that you can provide the following in the apartment:\n\nA cot\nA high chair\nA baby bath\n\n?",
+    "type": "OUTBOUND",
+    "message_id": "4368123969",
+    "ticket_id": "983626381",
+    "message": "It's a beautiful day at fäm Living!\r\n\r\nMy name is Chahana T., and I will be assisting you.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
+    "contact_id": "547670249",
+    "contact_name": "city walk",
+    "contact_identifier": "+971568383571",
     "channel_id": "585723",
-    "contact_id": "547670998",
-    "contact_name": "Sejal",
-    "contact_identifier": "+447891490117",
-    "event_type": "INBOUND"
+    "event_type": "OUTBOUND"
   }
 }
