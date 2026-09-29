@@ -1,17 +1,20 @@
 {
-  "ts": "2026-09-29T13:36:40.470Z",
+  "ts": "2026-09-29T13:37:43.993Z",
   "query": {
     "secret": "fambot_wh_b4zu496kec"
   },
   "body": {
-    "type": "INBOUND",
-    "message_id": "4368149461",
+    "type": "OUTBOUND",
+    "message_id": "4368150733",
     "ticket_id": "983579354",
-    "message": "Who is at the tower to show us the apartment?",
-    "channel_id": "1304636",
+    "message": "At the moment, we do not have any agent available for today. As previously mentioned, agent assistance is available until 5:30 PM, and this time has already passed.\r\n\r\nIf you require an agent to assist you, we can arrange this for you tomorrow.",
+    "user_id": "470168",
+    "user_name": "Chahana T.",
+    "user_email": "chahana@famliving.com",
     "contact_id": "547035769",
     "contact_name": "..",
     "contact_identifier": "+971503588969",
-    "event_type": "INBOUND"
+    "channel_id": "1304636",
+    "event_type": "OUTBOUND"
   }
 }
