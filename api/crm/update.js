@@ -108,7 +108,7 @@ export default async function handler(req, res) {
     await writeCRMState(state, sha, `CRM: ${lead_id} ${action} by ${user.username}`);
 
     // Auto-post internal Trengo note when stage changes to 'viewing'
-    if (stage === 'viewing' && prevStage !== 'viewing') {
+    if (process.env.AUTOBOT_ENABLED === 'true' && stage === 'viewing' && prevStage !== 'viewing') {
       const trengoToken = process.env.TRENGO_TOKEN;
       const ticketId = existing.trengo_ticket_id;
       if (trengoToken && ticketId) {

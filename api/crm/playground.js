@@ -349,7 +349,7 @@ export default async function handler(req, res) {
   }
 
   // ── Test-note action: post a test internal note to a Trengo ticket ───────────
-  if (body.action === 'test-note') {
+  if (body.action === 'test-note' && process.env.AUTOBOT_ENABLED === 'true') {
     const ticketId = body.ticket_id || 937595459;
     const token = process.env.TRENGO_TOKEN;
     const note =
