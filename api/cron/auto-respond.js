@@ -174,6 +174,21 @@ async function updateTrengoContactName(ticketId, name) {
   }
 }
 
+async function assignTrengoTeam(ticketId, teamId) {
+  const token = process.env.TRENGO_TOKEN;
+  if (!token || !ticketId) return;
+  try {
+    const r = await fetch(`${TRENGO_API}/tickets/${ticketId}/assign`, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({ ticket_id: ticketId, type: 'team', team_id: teamId }),
+    });
+    if (!r.ok) console.error('[Trengo] team assign failed:', r.status);
+  } catch (err) {
+    console.error('[Trengo] team assign error:', err.message);
+  }
+}
+
 async function assignTrengoTicket(ticketId, userId) {
   const token = process.env.TRENGO_TOKEN;
   if (!token || !ticketId) return;
@@ -292,6 +307,9 @@ export default async function handler(req, res) {
             //    If unset, the ticket stays unassigned in the Portal Leads inbox.
             const assigneeId = parseInt(process.env.LEAD_ASSIGNEE_ID || '', 10);
             if (assigneeId) await assignTrengoTicket(trengoTicketId, assigneeId);
+            // Trengo auto-assigns a ticket to whoever sends the first message (Faysal's token).
+            // Hand it back to the team queue so it sits unassigned for anyone to pick up.
+            else await assignTrengoTeam(trengoTicketId, 78822);
           }
         }
       }
