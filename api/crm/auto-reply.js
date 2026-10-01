@@ -171,6 +171,21 @@ async function getTrengoMessages(ticketId) {
   } catch { return []; }
 }
 
+// True when an outbound message in this ticket within the last 7 days is the guest NPS survey
+// (template "...thank you for staying with fäm Living. How was your stay?" + "Rate your stay" button).
+const NPS_SURVEY_RE = /how was your stay|rate your stay|thank you for staying with f(?:ä|a)m|fam-nps\.vercel\.app/i;
+async function hasRecentGuestSurvey(ticketId) {
+  const messages = await getTrengoMessages(ticketId);
+  const since = Date.now() - 7 * 24 * 3600 * 1000;
+  return messages.some(m => {
+    if ((m.type || '').toUpperCase() !== 'OUTBOUND' || m.internal_note) return false;
+    const ts = m.created_at ? (typeof m.created_at === 'number' ? m.created_at * 1000 : new Date(m.created_at).getTime()) : 0;
+    // Template messages keep their text in different fields, so search the whole message object.
+    let text = ''; try { text = JSON.stringify(m); } catch {}
+    return ts >= since && NPS_SURVEY_RE.test(text);
+  });
+}
+
 // Check if the most recent real message in the thread is from a HUMAN agent (not the bot).
 // If the lead spoke last, the bot should reply regardless.
 // If the BOT spoke last, that's NOT a human agent — bot should still reply to new inbound.
@@ -1588,6 +1603,15 @@ export default async function handler(req, res) {
   // Attachment messages may have empty text — valid. Placeholder keeps logging consistent.
   if (!messageText && isAttachmentMsg) messageText = '[attachment]';
   if (!messageText) return res.status(200).json({ ok: true, skipped: 'Empty message' });
+
+  // ── Guest survey guard (code-level, before Claude) ───────────────────────
+  // The fäm guest NPS survey (fam-nps) goes out on WhatsApp. If this ticket got that survey
+  // in the last 7 days, the person is a guest answering the survey (thanks, STOP, a question),
+  // not a sales lead. The bot stays silent and the team handles the ticket in Trengo.
+  if (await hasRecentGuestSurvey(ticketId)) {
+    console.log(`[auto-reply] Guest survey guard: ticket ${ticketId} got the NPS survey recently — bot stays silent`);
+    return res.status(200).json({ ok: true, action: 'nps_survey_guard' });
+  }
 
   // ── Prompt injection sanitisation ─────────────────────────────────────────
   messageText = sanitizeInput(messageText);
