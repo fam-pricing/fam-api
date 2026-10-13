@@ -7,8 +7,30 @@ import { readCRMState, writeCRMState, ghRead, TRENGO_API, CRM_FILE, REF_MAP_FILE
 
 const PF_API        = 'https://atlas.propertyfinder.com';
 const REF_URL_FILE  = 'data/ref_url_map.json';
-const TRENGO_CHANNEL = 1304636;  // Portal Leads (WA_BUSINESS)
-const TRENGO_TEMPLATE = 229953;  // pf3
+// Fallback sender: Portal Leads line + pf3 template
+const FALLBACK_CHANNEL  = 1304636;  // Portal Leads (WA_BUSINESS)
+const FALLBACK_TEMPLATE = 229953;   // pf3
+// Preferred sender: Avinash's WhatsApp line + pf3_avinash template (used once WhatsApp approves it)
+const PREFERRED_CHANNEL  = parseInt(process.env.LEAD_CHANNEL_ID  || '1368490', 10); // Avinash
+const PREFERRED_TEMPLATE = parseInt(process.env.LEAD_TEMPLATE_ID || '258057', 10);  // pf3_avinash
+let TRENGO_CHANNEL  = FALLBACK_CHANNEL;
+let TRENGO_TEMPLATE = FALLBACK_TEMPLATE;
+
+// Pick Avinash's line if its template is approved, otherwise fall back to Portal Leads.
+async function chooseSender() {
+  TRENGO_CHANNEL = FALLBACK_CHANNEL; TRENGO_TEMPLATE = FALLBACK_TEMPLATE;
+  const token = process.env.TRENGO_TOKEN;
+  if (!token || !PREFERRED_CHANNEL || !PREFERRED_TEMPLATE) return 'fallback';
+  try {
+    const r = await fetch(`${TRENGO_API}/wa_templates/${PREFERRED_TEMPLATE}`, {
+      headers: { Authorization: `Bearer ${token}`, Accept: 'application/json' },
+    });
+    if (!r.ok) return 'fallback';
+    const t = await r.json();
+    if (t.status === 'ACCEPTED') { TRENGO_CHANNEL = PREFERRED_CHANNEL; TRENGO_TEMPLATE = PREFERRED_TEMPLATE; return 'preferred'; }
+  } catch (e) { console.error('[cron] chooseSender:', e.message); }
+  return 'fallback';
+}
 const AFIFA_ID       = 340123;   // Afifa A.
 
 // ── PF helpers ────────────────────────────────────────────────────────────────
@@ -223,6 +245,8 @@ export default async function handler(req, res) {
   }
 
   try {
+    const sender   = await chooseSender();
+    console.log(`[cron] sender: ${sender} (channel ${TRENGO_CHANNEL}, template ${TRENGO_TEMPLATE})`);
     const pfToken  = await getPFToken();
     const rawLeads = await fetchRecentLeads(pfToken);
     const [{ state: crmState, sha }, refMapping, refUrlMap] = await Promise.all([
