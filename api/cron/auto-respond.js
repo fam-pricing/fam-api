@@ -12,7 +12,7 @@ const FALLBACK_CHANNEL  = 1304636;  // Portal Leads (WA_BUSINESS)
 const FALLBACK_TEMPLATE = 229953;   // pf3
 // Preferred sender: Avinash's WhatsApp line + pf3_avinash template (used once WhatsApp approves it)
 const PREFERRED_CHANNEL  = parseInt(process.env.LEAD_CHANNEL_ID  || '1368490', 10); // Avinash
-const PREFERRED_TEMPLATE = parseInt(process.env.LEAD_TEMPLATE_ID || '258057', 10);  // pf3_avinash
+const PREFERRED_TEMPLATE = parseInt(process.env.LEAD_TEMPLATE_ID || '258067', 10);  // Pf4avinash (approved)
 let TRENGO_CHANNEL  = FALLBACK_CHANNEL;
 let TRENGO_TEMPLATE = FALLBACK_TEMPLATE;
 
