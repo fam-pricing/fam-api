@@ -11,6 +11,7 @@ const LISTINGS_FILE = 'data/listings.json';
 // PF publicProfile ID → display name (same as leads.js)
 const AGENT_MAP = {
   239575: 'Afifa Al Shami',
+  475199: 'Avinash Illathe',
   280624: 'Ahmed A.',
   237124: 'Joel V.',
 };
